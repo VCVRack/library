@@ -1,0 +1,10 @@
+{
+  "slug": "dBiz",
+  "name": "dBiz",
+  "version": "0.5.0",
+  "source": "https://github.com/dBiz/dBiz",
+  "download": "https://github.com/dBiz/dBiz/releases",
+  "arch": [
+    "win"
+  ]
+}

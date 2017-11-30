@@ -1,0 +1,12 @@
+{
+  "slug": "LOGinstruments",
+  "name": "LOGinstruments",
+  "version": "0.5.1",
+  "source": "https://github.com/leopard86/LOGinstruments",
+  "download": "https://github.com/leopard86/LOGinstruments/releases",
+  "arch": [
+    "win",
+    "mac",
+    "lin"
+  ]
+}

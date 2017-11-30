@@ -1,0 +1,12 @@
+{
+  "slug": "AutodafeModulePack",
+  "name": "Autodafe Module Pack",
+  "version": "0.5.0",
+  "source": "https://github.com/antoniograzioli/Autodafe",
+  "download": "http://www.autodafe.net/virtual-instruments/vcv-rack-modules/autodafe-module-pack-for-vcv-rack.html",
+  "arch": [
+    "win",
+    "mac",
+    "lin"
+  ]
+}

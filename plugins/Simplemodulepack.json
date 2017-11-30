@@ -1,0 +1,12 @@
+{
+  "slug": "Simplemodulepack",
+  "name": "Simple module pack",
+  "version": "0.5.0",
+  "source": "https://github.com/IohannRabeson/VCVRack-Simple",
+  "manual": "https://iohannrabeson.github.io/VCVRack-Simple/",
+  "download": "https://github.com/IohannRabeson/VCVRack-Simple/releases",
+  "arch": [
+    "win",
+    "mac"
+  ]
+}

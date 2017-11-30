@@ -1,0 +1,11 @@
+{
+  "slug": "NauModular",
+  "name": "NauModular",
+  "version": "0.5.0",
+  "source": "https://github.com/naus3a/NauModular",
+  "download": "https://github.com/naus3a/NauModular/releases/",
+  "arch": [
+    "win",
+    "mac"
+  ]
+}

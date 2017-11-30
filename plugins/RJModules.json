@@ -1,0 +1,13 @@
+{
+  "slug": "RJModules",
+  "name": "RJModules",
+  "version": "0.5.0+",
+  "source": "https://github.com/Miserlou/RJModules",
+  "manual": "https://github.com/Miserlou/RJModules",
+  "download": "https://github.com/Miserlou/RJModules/tree/master/dist/",
+  "arch": [
+    "win",
+    "mac",
+    "lin"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "luckyxxl",
+  "name": "luckyxxl",
+  "version": "0.5.0",
+  "source": "https://github.com/luckyxxl/vcv_luckyxxl",
+  "download": "https://github.com/luckyxxl/vcv_luckyxxl/releases/",
+  "arch": [
+    "win"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "NYSTHI",
+  "name": "NYSTHI",
+  "version": "0.5.2.1",
+  "download": "https://github.com/nysthi/nysthi/releases/",
+  "arch": [
+    "win",
+    "mac",
+    "lin"
+  ]
+}

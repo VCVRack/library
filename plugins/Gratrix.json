@@ -1,0 +1,12 @@
+{
+  "slug": "Gratrix",
+  "name": "Gratrix",
+  "version": "0.5.0",
+  "source": "https://github.com/gratrix/vcv-gratrix",
+  "manual": "http://gratrix.net/vcvrack/",
+  "download": "http://gratrix.net/vcvrack/",
+  "arch": [
+    "win",
+    "mac"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "MSM",
+  "name": "MSM",
+  "version": "0.5.0",
+  "source": "https://github.com/Phal-anx/MSM",
+  "download": "https://github.com/Phal-anx/MSM/releases/tag/0.5.2",
+  "arch": [
+    "win"
+  ]
+}

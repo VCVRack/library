@@ -1,0 +1,13 @@
+{
+  "slug": "VultModules",
+  "name": "VultModules",
+  "version": "0.5.1",
+  "source": "https://github.com/modlfo/VultModules",
+  "manual": "https://modlfo.github.io/VultModules/",
+  "download": "https://modlfo.github.io/VultModules/download/",
+  "arch": [
+    "win",
+    "mac",
+    "lin"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "KarateSnoopy",
+  "name": "KarateSnoopy",
+  "version": "0.5.0",
+  "source": "https://github.com/KarateSnoopy/vcv-karatesnoopy",
+  "download": "https://github.com/KarateSnoopy/vcv-karatesnoopy/releases",
+  "arch": [
+    "win",
+    "mac"
+  ]
+}

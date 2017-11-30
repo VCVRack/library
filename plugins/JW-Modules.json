@@ -1,0 +1,12 @@
+{
+  "slug": "JW-Modules",
+  "name": "JW-Modules",
+  "version": "0.5.4",
+  "source": "https://github.com/jeremywen/JW-Modules",
+  "download": "https://github.com/jeremywen/JW-Modules/releases",
+  "arch": [
+    "win",
+    "mac",
+    "lin"
+  ]
+}

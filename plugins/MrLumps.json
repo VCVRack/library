@@ -1,0 +1,10 @@
+{
+  "slug": "MrLumps",
+  "name": "MrLumps",
+  "version": "0.4.0",
+  "source": "https://github.com/dotinspace/vcv-MrLumps",
+  "download": "https://github.com/dotinspace/vcv-MrLumps/releases",
+  "arch": [
+    "mac"
+  ]
+}

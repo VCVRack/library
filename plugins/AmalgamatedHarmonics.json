@@ -1,0 +1,12 @@
+{
+  "slug": "AmalgamatedHarmonics",
+  "name": "Amalgamated Harmonics",
+  "version": "0.5.3",
+  "source": "https://github.com/jhoar/AmalgamatedHarmonics/tree/v0.5.3",
+  "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/tag/v0.5.3",
+  "arch": [
+    "win",
+    "mac",
+    "lin"
+  ]
+}

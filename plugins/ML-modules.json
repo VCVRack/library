@@ -1,0 +1,11 @@
+{
+  "slug": "ML-modules",
+  "name": "ML-modules",
+  "version": "0.5.0",
+  "source": "https://github.com/martin-lueders/ML-modules",
+  "download": "https://github.com/martin-lueders/ML_modules/releases",
+  "arch": [
+    "win",
+    "mac"
+  ]
+}

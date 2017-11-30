@@ -1,0 +1,12 @@
+{
+  "slug": "dekstop",
+  "name": "dekstop",
+  "version": "0.5.0",
+  "source": "https://github.com/dekstop/vcvrackplugins_dekstop",
+  "download": "https://github.com/dekstop/vcvrackplugins_dekstop/releases",
+  "arch": [
+    "win",
+    "mac",
+    "lin"
+  ]
+}
