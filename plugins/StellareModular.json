@@ -1,0 +1,12 @@
+{
+	"slug": "StellareModular",
+	"name": "Stellare Modular",
+	"license": "GPL-3.0",
+	"version": "1.0.0",
+	"homepage": "https://www.facebook.com/stellaremodular/",
+	"manual": "https://github.com/stellare-modular/vcv-rack/blob/master/README.md",
+	"source": "https://github.com/stellare-modular",
+	"download": "https://github.com/stellare-modular/vcv-rack/releases",
+	"arch": ["win", "lin", "mac"],
+	"sha256": "5993dbe15af246092678e00897dc7a4a1e2dabc494b83412fe31200d5bb58305",
+}
