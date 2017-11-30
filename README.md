@@ -35,7 +35,7 @@ Keys with * are required.
 - **homepage**: URL of the landing page of your plugin. Omit if redundant with the source URL.
 - **manual**: URL of the manual of your plugin. HTML, PDF, or GitHub readme/wiki are fine.
 - **source**: URL of the source code landing page.
-- **download**: URL of the compiled binary package. All supported architectures must be merged into one ZIP file. Must contain a single folder equal to the name of the plugin's slug. GitHub releases is a good choice for open-source plugins.
+- **download**: Direct URL to the compiled binary ZIP. All supported architectures must be merged into one ZIP file. Must contain a single folder equal to the name of the plugin's slug. GitHub releases is a good choice for open-source plugins.
 - **productId**: VCV store ID for commercial plugins.
 - **arch**: List of supported architectures. Defaults to `["win", "mac", "lin"]` if omitted.
 - **sha256**: Hex SHA256 string of the binary ZIP file for verifying downloads. Use `sha256sum [FILE]` or `sha256 [FILE]`.
