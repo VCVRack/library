@@ -2,7 +2,7 @@
 	"slug": "StellareModular",
 	"name": "Stellare Modular",
 	"license": "MIT",
-	"version": "0.5.1",
+	"version": "0.5.0",
 	"homepage": "https://www.facebook.com/stellaremodular/",
 	"manual": "https://github.com/stellare-modular/vcv-rack/blob/master/README.md",
 	"source": "https://github.com/stellare-modular",
