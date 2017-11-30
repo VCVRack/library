@@ -3,6 +3,10 @@
 
 *Manifest repository for VCV Rack plugins*
 
+### Contributing your plugin
+
+Create or edit your plugin's manifest file in `plugins/` using the template and documentation below.
+You can do this without cloning by clicking GitHub's "Create new file" button or by clicking the pencil icon to edit a file.
 
 ### Manifest template
 
