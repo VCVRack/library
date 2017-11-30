@@ -1,9 +1,11 @@
 {
   "slug": "JW-Modules",
   "name": "JW-Modules",
-  "version": "0.5.4",
+  "version": "0.5.5",
+  "homepage": "http://jeremywentworth.com",
+  "manual": "https://github.com/jeremywen/JW-Modules/blob/master/README.md",
   "source": "https://github.com/jeremywen/JW-Modules",
-  "download": "https://github.com/jeremywen/JW-Modules/releases",
+  "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.5/JW-Modules.zip",
   "arch": [
     "win",
     "mac",
