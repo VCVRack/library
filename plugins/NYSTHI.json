@@ -2,10 +2,11 @@
   "slug": "NYSTHI",
   "name": "NYSTHI",
   "version": "0.5.2.1",
-  "download": "https://github.com/nysthi/nysthi/releases/",
+  "download": "https://github.com/nysthi/nysthi/releases/download/v0.5.2.1/nysthi.zip",
   "arch": [
     "win",
     "mac",
     "lin"
-  ]
+  ],
+  "sha256":"32997ef5658a38555eba1cb66362954845d102a53ebd50c4853512d63a305dca"
 }
