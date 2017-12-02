@@ -1,7 +1,7 @@
 {
   "slug": "RJModules",
   "name": "RJModules",
-  "version": "0.5.0+",
+  "version": "0.5.0",
   "source": "https://github.com/Miserlou/RJModules",
-  "manual": "https://github.com/Miserlou/RJModules"
+  "manual": "https://github.com/Miserlou/RJModules/blob/master/README.md"
 }
