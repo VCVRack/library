@@ -2,5 +2,19 @@
   "slug": "SonusDept",
   "name": "Sonus Dept",
   "version": "0.5.0",
-  "source": "https://gitlab.com/sonusdept/sonusmodular"
+  "source": "https://gitlab.com/sonusdept/sonusmodular",
+  "downloads": {
+    "win": {
+      "download": "http://sonusdept.altervista.org/files/sonusmodular/sonusmodular-0.5.0-win.zip",
+      "sha256": "e9052b01a0f483814ac45cfaa5e380e5af18c347b941bc74af8fb0f22fb0d656"
+    },
+    "mac": {
+      "download": "http://sonusdept.altervista.org/files/sonusmodular/sonusmodular-0.5.0-mac.zip",
+      "sha256": "6e11a16d202a560be8d0e79cd36b22577a2d8e43b777bd000ba5c4b2f265e166"
+    },
+    "lin": {
+      "download": "http://sonusdept.altervista.org/files/sonusmodular/sonusmodular-0.5.0-lin.zip",
+      "sha256": "98d36ddcbe6dca71a8060deb27d1e33279495d2ae2992f1b530bad058765bc59"
+    }
+  }
 }
