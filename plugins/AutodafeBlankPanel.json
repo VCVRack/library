@@ -3,7 +3,7 @@
   "name": "Autodafe Blank Panel",
   "version": "0.5.0",
   "download": "http://www.autodafe.net/virtual-instruments/vcv-rack-modules/autodafe-blank-panel-for-vcv-rack.html",
-  "arch": [
+  "downloads": [
     "win",
     "mac",
     "lin"

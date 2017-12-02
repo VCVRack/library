@@ -4,7 +4,7 @@
   "version": "0.5.1",
   "source": "https://github.com/phdsg/PvC",
   "download": "https://github.com/phdsg/PvC/releases/",
-  "arch": [
+  "downloads": [
     "win",
     "lin"
   ]

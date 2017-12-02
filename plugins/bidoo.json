@@ -4,7 +4,7 @@
   "version": "0.5.3",
   "source": "https://github.com/sebastien-bouffier/Bidoo",
   "download": "https://github.com/sebastien-bouffier/Bidoo/releases",
-  "arch": [
+  "downloads": [
     "win",
     "lin"
   ]

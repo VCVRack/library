@@ -5,7 +5,7 @@
   "source": "https://gitlab.com/sonusdept/sonusmodular",
   "manual": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular",
   "download": "http://sonusmodular.sonusdept.com/",
-  "arch": [
+  "downloads": [
     "win",
     "mac",
     "lin"

@@ -5,7 +5,7 @@
   "source": "https://github.com/Strum/Strums_Mental_VCV_Modules",
   "manual": "https://github.com/Strum/Strums_Mental_VCV_Modules/wiki/Mental-Modules-WIKI/",
   "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/blob/master/Releases",
-  "arch": [
+  "downloads": [
     "win",
     "mac",
     "lin"

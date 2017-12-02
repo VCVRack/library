@@ -5,7 +5,7 @@
   "source": "https://github.com/Miserlou/RJModules",
   "manual": "https://github.com/Miserlou/RJModules",
   "download": "https://github.com/Miserlou/RJModules/tree/master/dist/",
-  "arch": [
+  "downloads": [
     "win",
     "mac",
     "lin"

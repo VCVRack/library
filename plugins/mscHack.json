@@ -4,7 +4,7 @@
   "version": "0.5.0",
   "source": "https://github.com/mschack/VCV-Rack-Plugins",
   "download": "https://github.com/mschack/VCV-Rack-Plugins/blob/master/mscHack.zip",
-  "arch": [
+  "downloads": [
     "win"
   ]
 }

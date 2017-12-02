@@ -5,7 +5,7 @@
   "source": "https://github.com/gratrix/vcv-gratrix",
   "manual": "http://gratrix.net/vcvrack/",
   "download": "http://gratrix.net/vcvrack/",
-  "arch": [
+  "downloads": [
     "win",
     "mac"
   ]

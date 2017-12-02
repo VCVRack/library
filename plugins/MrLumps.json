@@ -5,7 +5,7 @@
   "version": "0.5.0",
   "manual": "https://github.com/djpeterso23662/MrLumps/blob/master/README.md",
   "source": "https://github.com/djpeterso23662/MrLumps",
-  "arch": {
+  "downloads": {
     "mac": {
       "download": "https://github.com/djpeterso23662/MrLumps/releases/download/v0.5.0/MrLumps-0.5.0.zip",
       "sha256": "66b7656bdb6fb6b3224e98429bec98a7495909700acd664937e2f37d2e0d6089"

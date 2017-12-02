@@ -3,7 +3,7 @@
   "name": "ML-modules",
   "version": "0.5.1",
   "source": "https://github.com/martin-lueders/ML-modules",
-  "arch": {
+  "downloads": {
     "win": {
       "download": "https://github.com/martin-lueders/ML_modules/files/1502969/ML_modules.zip",
       "sha256": "1a4ade350338efe5ad3f59f0e4c67c70d24094a59a867c6758a1c17a8840f9b0"

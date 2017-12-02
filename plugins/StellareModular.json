@@ -7,6 +7,6 @@
 	"manual": "https://github.com/stellare-modular/vcv-rack/blob/master/README.md",
 	"source": "https://github.com/stellare-modular",
 	"download": "https://github.com/stellare-modular/vcv-rack/releases/download/0.5.0/Stellare-Modular.zip",
-	"arch": ["win", "lin", "mac"],
+	"downloads": ["win", "lin", "mac"],
 	"sha256": "83241b5560d3db9a57f16230b650109d3aab6a6bb7086badf9f07e01a628c3d7",
 }

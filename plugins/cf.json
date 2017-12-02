@@ -3,7 +3,7 @@
   "name": "cf",
   "version": "0.5.5",
   "source": "https://github.com/cfoulc/cf",
-  "arch": {
+  "downloads": {
     "win": {
       "download": "https://github.com/cfoulc/cf/releases/download/0.5.5/cf.zip",
       "sha256": "f01fcf9afdecb31c2e8a3283440b15d852523837b0215f49053beb0e6859125a"

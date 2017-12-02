@@ -5,7 +5,7 @@
   "source": "https://github.com/IohannRabeson/VCVRack-Simple",
   "manual": "https://iohannrabeson.github.io/VCVRack-Simple/",
   "download": "https://github.com/IohannRabeson/VCVRack-Simple/releases",
-  "arch": [
+  "downloads": [
     "win",
     "mac"
   ]
