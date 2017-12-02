@@ -1,11 +1,18 @@
 {
   "slug": "KarateSnoopy",
   "name": "KarateSnoopy",
+  "license": "MIT",
   "version": "0.5.0",
+  "homepage": "https://github.com/KarateSnoopy/vcv-karatesnoopy",
   "source": "https://github.com/KarateSnoopy/vcv-karatesnoopy",
-  "download": "https://github.com/KarateSnoopy/vcv-karatesnoopy/releases",
-  "downloads": [
-    "win",
-    "mac"
-  ]
+  "downloads": {
+    "win": {
+      "download": "https://github.com/KarateSnoopy/vcv-karatesnoopy/releases/download/v0.5.0/KarateSnoopy-0.5-win.zip",
+      "sha256": "687097d09428177db70392765d4aa4391f4b11a00df2a98ae0220101f0822600"
+    },
+    "mac": {
+      "download": "https://github.com/KarateSnoopy/vcv-karatesnoopy/releases/download/v0.5.0/karatesnoopy-0.5-mac.zip",
+      "sha256": "86c8e7068f425c2cd9a8d4022b3b74d784a705715aaf55587cef0d0229a4d10d"
+    }
+  }
 }
