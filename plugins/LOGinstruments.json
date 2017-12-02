@@ -3,11 +3,18 @@
   "name": "LOGinstruments",
   "version": "0.5.2",
   "source": "https://github.com/leopard86/LOGinstruments",
-  "download": "https://github.com/leopard86/LOGinstruments/releases/download/v0_5_2/LOGinstruments-all-platforms-v052.zip",
-  "arch": [
-    "win",
-    "mac",
-    "lin"
-  ],
-  "sha256":"8b0a480a5d5c8d8afd6b83d2a52f4b0f49f2cd073f7834beed7eaa23685edbf7"
+  "arch": {
+    "win": {
+      "download": "https://github.com/leopard86/LOGinstruments/releases/download/v0_5_2/LOGinstruments-all-platforms-v052.zip",
+      "sha256": "8b0a480a5d5c8d8afd6b83d2a52f4b0f49f2cd073f7834beed7eaa23685edbf7"
+    },
+    "mac": {
+      "download": "https://github.com/leopard86/LOGinstruments/releases/download/v0_5_2/LOGinstruments-all-platforms-v052.zip",
+      "sha256": "8b0a480a5d5c8d8afd6b83d2a52f4b0f49f2cd073f7834beed7eaa23685edbf7"
+    },
+    "lin": {
+      "download": "https://github.com/leopard86/LOGinstruments/releases/download/v0_5_2/LOGinstruments-all-platforms-v052.zip",
+      "sha256": "8b0a480a5d5c8d8afd6b83d2a52f4b0f49f2cd073f7834beed7eaa23685edbf7"
+    }
+  }
 }
