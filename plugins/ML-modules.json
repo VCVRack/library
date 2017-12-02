@@ -3,10 +3,14 @@
   "name": "ML-modules",
   "version": "0.5.1",
   "source": "https://github.com/martin-lueders/ML-modules",
-  "download": "https://github.com/martin-lueders/ML_modules/files/1502969/ML_modules.zip",
-  "arch": [
-    "win",
-    "mac"
-  ],
-  "sha256":"1a4ade350338efe5ad3f59f0e4c67c70d24094a59a867c6758a1c17a8840f9b0"
+  "arch": {
+    "win": {
+      "download": "https://github.com/martin-lueders/ML_modules/files/1502969/ML_modules.zip",
+      "sha256": "1a4ade350338efe5ad3f59f0e4c67c70d24094a59a867c6758a1c17a8840f9b0"
+    },
+    "mac": {
+      "download": "https://github.com/martin-lueders/ML_modules/files/1502969/ML_modules.zip",
+      "sha256": "1a4ade350338efe5ad3f59f0e4c67c70d24094a59a867c6758a1c17a8840f9b0"
+    }
+  }
 }

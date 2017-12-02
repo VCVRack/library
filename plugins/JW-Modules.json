@@ -5,11 +5,18 @@
   "homepage": "http://jeremywentworth.com",
   "manual": "https://github.com/jeremywen/JW-Modules/blob/master/README.md",
   "source": "https://github.com/jeremywen/JW-Modules",
-  "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.5/JW-Modules.zip",
-  "arch": [
-    "win",
-    "mac",
-    "lin"
-  ],
-  "sha256":"e21b7b894ce9edf99cd820f84086b8745f0a2e0fc52323b6cb4cc3cd7a8b533f"
+  "arch": {
+    "win": {
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.5/JW-Modules.zip",
+      "sha256": "e21b7b894ce9edf99cd820f84086b8745f0a2e0fc52323b6cb4cc3cd7a8b533f"
+    },
+    "mac": {
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.5/JW-Modules.zip",
+      "sha256": "e21b7b894ce9edf99cd820f84086b8745f0a2e0fc52323b6cb4cc3cd7a8b533f"
+    },
+    "lin": {
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.5/JW-Modules.zip",
+      "sha256": "e21b7b894ce9edf99cd820f84086b8745f0a2e0fc52323b6cb4cc3cd7a8b533f"
+    }
+  }
 }
