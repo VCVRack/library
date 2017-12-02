@@ -1,12 +1,13 @@
 {
   "slug": "trowaSoft",
   "name": "trowaSoft",
-  "version": "0.5.0",
+  "version": "0.5.1",
+  "homepage": "http://www.geekasaurusrex.net/page/trowaSoft-Sequencer-Modules-for-VCV-Rack.aspx",
   "source": "https://github.com/j4s0n-c/trowaSoft-VCV",
-  "download": "http://www.geekasaurusrex.net/page/trowaSoft-Sequencer-Modules-for-VCV-Rack.aspx",
-  "downloads": [
-    "win",
-    "mac",
-    "lin"
-  ]
+  "downloads": {
+    "win": {
+      "download": "http://www.geekasaurusrex.net/file.axd?file=2017%2f11%2ftrowaSoft--win_201711281819.zip",
+      "sha256": "3e825ecdf6f9df35ecd505f305bb4c44f91270ef25fcf1d111e2948216d4152d"
+    }
+  }
 }
