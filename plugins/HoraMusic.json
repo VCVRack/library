@@ -1,11 +1,5 @@
 {
   "slug": "HoraMusic",
   "name": "Hora Music",
-  "version": "0.5.0",
-  "download": "https://gumroad.com/horamusic",
-  "downloads": [
-    "win",
-    "mac",
-    "lin"
-  ]
+  "version": "0.5.0"
 }
