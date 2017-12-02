@@ -52,5 +52,5 @@ Keys with * are required.
 - **source**: URL of the source code landing page.
 - **productId**: VCV store ID for commercial plugins.
 - **arch**: Mapping of supported architectures to downloads.
-  - **download**: Direct URL to the compiled binary ZIP. If supported architectures are merged into one ZIP file, you can copy the same link into each of the architecture sections. Each zip must contain a single folder equal to the name of the plugin's slug. GitHub releases is a good choice for open-source plugins.
+  - **download**: Direct URL to the compiled binary ZIP. If supported architectures are merged into one ZIP file, you can copy the same link into each of the architecture sections. The name of the zip file does not matter.  However, each zip must contain a single folder equal to the name of the plugin's slug. GitHub releases is a good choice for open-source plugins.
   - **sha256**: Hex SHA256 string of the binary ZIP file for verifying downloads. Use `sha256sum [FILE]` or `sha256 [FILE]` or https://www.virustotal.com
