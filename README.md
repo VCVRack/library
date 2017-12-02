@@ -22,7 +22,7 @@ Filename should be `YourSlug.json`.
   "manual": "https://vcvrack.com/manual/AudibleInstruments.html",
   "source": "https://github.com/VCVRack/AudibleInstruments",
   "productId": "1234567890",
-  "arch": {
+  "downloads": {
     "win": {
       "download": "https://example.com/AudibleInstruments-0.5.0-win.zip",
       "sha256": "9372ce3f8ef42d7e874beda36f7c051b3d7de9c904e259a5fc9dba8dc664bf65"
@@ -51,6 +51,6 @@ Keys with * are required.
 - **manual**: URL of the manual of your plugin. HTML, PDF, or GitHub readme/wiki are fine.
 - **source**: URL of the source code landing page.
 - **productId**: VCV store ID for commercial plugins.
-- **arch**: Mapping of supported architectures to downloads.
+- **downloads**: Mapping of supported architectures to downloads.
   - **download**: Direct URL to the compiled binary ZIP. If supported architectures are merged into one ZIP file, you can copy the same link into each of the architecture sections. The name of the zip file does not matter.  However, each zip must contain a single folder equal to the name of the plugin's slug. GitHub releases is a good choice for open-source plugins.
   - **sha256**: Hex SHA256 string of the binary ZIP file for verifying downloads. Use `sha256sum [FILE]` or `sha256 [FILE]` or https://www.virustotal.com
