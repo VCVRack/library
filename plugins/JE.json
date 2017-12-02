@@ -2,10 +2,5 @@
   "slug": "JE",
   "name": "JE",
   "version": "0.5.1",
-  "source": "https://github.com/eres-j/VCVRack-plugin-JE",
-  "download": "https://github.com/eres-j/VCVRack-plugin-JE/releases",
-  "downloads": [
-    "win",
-    "mac"
-  ]
+  "source": "https://github.com/eres-j/VCVRack-plugin-JE"
 }

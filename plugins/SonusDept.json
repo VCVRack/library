@@ -2,12 +2,5 @@
   "slug": "SonusDept",
   "name": "Sonus Dept",
   "version": "0.5.0",
-  "source": "https://gitlab.com/sonusdept/sonusmodular",
-  "manual": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular",
-  "download": "http://sonusmodular.sonusdept.com/",
-  "downloads": [
-    "win",
-    "mac",
-    "lin"
-  ]
+  "source": "https://gitlab.com/sonusdept/sonusmodular"
 }

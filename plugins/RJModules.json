@@ -3,11 +3,5 @@
   "name": "RJModules",
   "version": "0.5.0+",
   "source": "https://github.com/Miserlou/RJModules",
-  "manual": "https://github.com/Miserlou/RJModules",
-  "download": "https://github.com/Miserlou/RJModules/tree/master/dist/",
-  "downloads": [
-    "win",
-    "mac",
-    "lin"
-  ]
+  "manual": "https://github.com/Miserlou/RJModules"
 }

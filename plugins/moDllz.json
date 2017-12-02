@@ -4,7 +4,5 @@
 	"license": "BSD 3-clause",
 	"version": "0.5.0",
 	"manual": "https://github.com/dllmusic/VCV_moDllz/blob/master/README.md",
-	"source": "https://github.com/dllmusic/VCV_moDllz",
-	"download": "https://github.com/dllmusic/VCV_moDllz/blob/master/moDllz_0.5.0.zip",
-	"downloads": ["mac"],
+	"source": "https://github.com/dllmusic/VCV_moDllz"
 }

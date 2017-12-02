@@ -2,10 +2,5 @@
   "slug": "Qwelk",
   "name": "Qwelk",
   "version": "0.5.0",
-  "source": "https://github.com/raincheque/qwelk",
-  "download": "https://github.com/raincheque/qwelk/tree/master/dist/",
-  "downloads": [
-    "win",
-    "mac"
-  ]
+  "source": "https://github.com/raincheque/qwelk"
 }
