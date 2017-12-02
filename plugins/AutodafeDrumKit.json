@@ -2,5 +2,6 @@
   "slug": "AutodafeDrumKit",
   "name": "Autodafe Drum Kit",
   "version": "0.5.0",
-  "source": "https://github.com/antoniograzioli/Autodafe-Drums"
+  "source": "https://github.com/antoniograzioli/Autodafe-Drums",
+  "homepage": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules.html"
 }
