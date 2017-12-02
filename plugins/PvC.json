@@ -3,6 +3,7 @@
   "name": "PvC",
   "version": "0.5.1",
   "source": "https://github.com/phdsg/PvC",
+  "manual": "https://github.com/phdsg/PvC/blob/master/README.md",
   "downloads": {
     "win": {
       "download": "https://github.com/phdsg/PvC/releases/download/0.5.1/PvC-0.5.1-win.zip",

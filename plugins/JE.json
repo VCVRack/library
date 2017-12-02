@@ -3,6 +3,7 @@
   "name": "JE",
   "version": "0.5.1",
   "source": "https://github.com/eres-j/VCVRack-plugin-JE",
+  "manual": "https://github.com/eres-j/VCVRack-plugin-JE/blob/master/README.md",
   "downloads": {
     "mac": {
       "download": "https://github.com/eres-j/VCVRack-plugin-JE/releases/download/v0.5.1/VCVRack-plugin-JE-0.5.0-OSX.zip",

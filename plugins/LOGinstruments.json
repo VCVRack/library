@@ -3,6 +3,7 @@
   "name": "LOGinstruments",
   "version": "0.5.2",
   "source": "https://github.com/leopard86/LOGinstruments",
+  "manual": "https://github.com/leopard86/LOGinstruments/blob/master/README.md",
   "downloads": {
     "win": {
       "download": "https://github.com/leopard86/LOGinstruments/releases/download/v0_5_2/LOGinstruments-all-platforms-v052.zip",

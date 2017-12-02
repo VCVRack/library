@@ -3,6 +3,7 @@
   "name": "dBiz",
   "version": "0.5.1",
   "source": "https://github.com/dBiz/dBiz",
+  "manual": "https://github.com/dBiz/dBiz/blob/master/README.md",
   "downloads": {
     "win": {
       "download": "https://github.com/dBiz/dBiz/files/1513107/dBiz--win.zip",

@@ -5,6 +5,7 @@
   "version": "0.5.0",
   "homepage": "https://github.com/KarateSnoopy/vcv-karatesnoopy",
   "source": "https://github.com/KarateSnoopy/vcv-karatesnoopy",
+  "manual": "https://github.com/KarateSnoopy/vcv-karatesnoopy/blob/master/README.md",
   "downloads": {
     "win": {
       "download": "https://github.com/KarateSnoopy/vcv-karatesnoopy/releases/download/v0.5.0/KarateSnoopy-0.5-win.zip",

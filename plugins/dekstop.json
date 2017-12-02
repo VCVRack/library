@@ -3,6 +3,7 @@
   "name": "dekstop",
   "version": "0.5.0",
   "source": "https://github.com/dekstop/vcvrackplugins_dekstop",
+  "manual": "https://github.com/dekstop/vcvrackplugins_dekstop/blob/master/README.md",
   "downloads": {
     "win": {
       "download": "https://github.com/dekstop/vcvrackplugins_dekstop/releases/download/v0.5.0/dekstop-dev_f4526cb-win.zip",

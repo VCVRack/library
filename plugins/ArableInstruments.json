@@ -3,6 +3,7 @@
   "name": "Arable Instruments",
   "version": "0.5.0",
   "source": "https://github.com/adbrant/ArableInstruments",
+  "manual": "https://github.com/adbrant/ArableInstruments/blob/master/README.md",
   "downloads": {
     "win": {
       "download": "https://github.com/adbrant/ArableInstruments/releases/download/v0.5.0/ArableInstruments-v0.5.0-win.zip",

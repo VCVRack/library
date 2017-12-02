@@ -3,6 +3,7 @@
   "name": "luckyxxl",
   "version": "0.5.0",
   "source": "https://github.com/luckyxxl/vcv_luckyxxl",
+  "manual": "https://github.com/luckyxxl/vcv_luckyxxl/blob/master/README.md",
   "downloads": {
     "win": {
       "download": "https://github.com/luckyxxl/vcv_luckyxxl/releases/download/v0.5.0/luckyxxl-0.5.0-win.zip",

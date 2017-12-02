@@ -2,5 +2,6 @@
   "slug": "Qwelk",
   "name": "Qwelk",
   "version": "0.5.0",
-  "source": "https://github.com/raincheque/qwelk"
+  "source": "https://github.com/raincheque/qwelk",
+  "manual": "https://github.com/raincheque/qwelk/blob/master/README.md"
 }

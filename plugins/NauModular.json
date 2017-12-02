@@ -3,6 +3,7 @@
   "name": "NauModular",
   "version": "0.5.0",
   "source": "https://github.com/naus3a/NauModular",
+  "manual": "https://github.com/naus3a/NauModular/blob/master/README.md",
   "downloads": {
     "win": {
       "download": "https://github.com/naus3a/NauModular/releases/download/v0.5.0/NauModular-1.0-win.zip",

@@ -3,6 +3,7 @@
   "name": "cf",
   "version": "0.5.5",
   "source": "https://github.com/cfoulc/cf",
+  "manual": "https://github.com/cfoulc/cf/blob/master/README.md",
   "downloads": {
     "win": {
       "download": "https://github.com/cfoulc/cf/releases/download/0.5.5/cf.zip",
