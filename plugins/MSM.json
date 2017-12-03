@@ -1,6 +1,16 @@
 {
   "slug": "MSM",
   "name": "MSM",
-  "version": "0.5.0",
-  "source": "https://github.com/Phal-anx/MSM"
+  "version": "0.5.2",
+  "source": "https://github.com/Phal-anx/MSM",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.2/MSM.WIN.zip",
+      "sha256": "f90ee6272e03c3da7e559037666a0bccc029da89d920848f29a0144a08e70d1f"
+    },
+    "mac": {
+      "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.2/MSM.MAC.zip",
+      "sha256": "82a636946e47558bcaa7fbb57225e500abfba15f6e371b99392e56a8f2490cfc"
+    }
+  }
 }
