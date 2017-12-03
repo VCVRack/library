@@ -3,5 +3,19 @@
   "name": "Strum's Mental Modules",
   "version": "0.5.0",
   "source": "https://github.com/Strum/Strums_Mental_VCV_Modules",
-  "manual": "https://github.com/Strum/Strums_Mental_VCV_Modules/wiki/Mental-Modules-WIKI/"
+  "manual": "https://github.com/Strum/Strums_Mental_VCV_Modules/wiki/Mental-Modules-WIKI/",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/blob/master/Releases/Windows/Strums_Mental_VCV_Modules_05a.zip?raw=true",
+      "sha256": "1c03080587716d69ff456650acf11836ed0b210999dbbc49b59a73eeb7f7c7b6"
+    },
+    "mac": {
+      "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/blob/master/Releases/Mac/mental-0.5.0-mac.zip?raw=true",
+      "sha256": "dafb2a231f54399909a49ec4538cf912ccc6f675f4f171eaec38b46e0cbaaab5"
+    },
+    "lin": {
+      "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/blob/master/Releases/Linux/mental-0.5.0-lin.zip?raw=true",
+      "sha256": "b7eb0f354f18ba3ca9593fc46c41e004dce6c9e782462c97b11f6d6ad9b1f500"
+    }
+  }
 }
