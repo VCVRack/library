@@ -1,21 +1,21 @@
 {
   "slug": "cf",
   "name": "cf",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "source": "https://github.com/cfoulc/cf",
   "manual": "https://github.com/cfoulc/cf/blob/master/README.md",
   "downloads": {
     "win": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.5/cf.zip",
-      "sha256": "f01fcf9afdecb31c2e8a3283440b15d852523837b0215f49053beb0e6859125a"
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.6/cf.zip",
+      "sha256": "f89b32bae7f66906e55bee9e7798b6718302c5c6d9cfb8029f75bfc8368af7b2"
     },
     "mac": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.5/cf.zip",
-      "sha256": "f01fcf9afdecb31c2e8a3283440b15d852523837b0215f49053beb0e6859125a"
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.6/cf.zip",
+      "sha256": "f89b32bae7f66906e55bee9e7798b6718302c5c6d9cfb8029f75bfc8368af7b2"
     },
     "lin": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.5/cf.zip",
-      "sha256": "f01fcf9afdecb31c2e8a3283440b15d852523837b0215f49053beb0e6859125a"
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.6/cf.zip",
+      "sha256": "f89b32bae7f66906e55bee9e7798b6718302c5c6d9cfb8029f75bfc8368af7b2"
     }
   }
 }
