@@ -13,8 +13,8 @@
       "sha256": "09457118683bff44281d0ed2ca136e76fed34bbae65b5b8c52daf1aaf4444acd"
     },
     "linux": {
-      "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.3/MSM.LINUX.tar.xz",
-      "sha256": "35ec1d7d2d2992638b3e886d145ab1fac6d107ade56a5d27b81f66036ec3219b"
+      "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.3/MSM.LINUX.zip",
+      "sha256": "458b4b3b64bfb912fe0bc973807310be64f7eeb5ba6bd3c244f5ddbe33ac6784"
     },
   }
 }
