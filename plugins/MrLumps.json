@@ -2,13 +2,21 @@
   "slug": "MrLumps",
   "name": "MrLumps",
   "license": "BSD 3-clause",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "manual": "https://github.com/djpeterso23662/MrLumps/blob/master/README.md",
   "source": "https://github.com/djpeterso23662/MrLumps",
-  "download": "https://github.com/djpeterso23662/MrLumps/releases/download/v0.5.0/MrLumps-0.5.0.zip",
-  "arch": [
-    "mac"
-    "win"
-  ],
-  "sha256": "66b7656bdb6fb6b3224e98429bec98a7495909700acd664937e2f37d2e0d6089",
+  "downloads": {
+    "lin": {
+      "download": "https://github.com/djpeterso23662/MrLumps/releases/download/v0.5.1/MrLumps-0.5.1-lin.zip",
+      "sha256": "9a4eebce92169d96c11d0c5c99e596a9f46f2d50c912dfda458802b598729ec9"
+    },
+    "mac": {
+      "download": "https://github.com/djpeterso23662/MrLumps/releases/download/v0.5.1/MrLumps-0.5.1-mac.zip",
+      "sha256": "c952b9564328c59d0710d15c5eab2bb23619dc15d83341c9cf2ed86683ef9f9c"
+    },
+    "win": {
+      "download": "https://github.com/djpeterso23662/MrLumps/releases/download/v0.5.1/MrLumps-0.5.1-win.zip",
+      "sha256": "c78174837c62f2125136351de80339f89b763496cd29d308bb5f76fec46c8021"
+    }
+  }
 }
