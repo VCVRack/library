@@ -3,10 +3,18 @@
   "name": "Lindenberg Research",
   "version": "0.5.0",
   "source": "https://github.com/lindenbergresearch/LRTRack",
-  "download": "https://github.com/lindenbergresearch/LRTRack/releases",
-  "arch": [
-    "win",
-    "mac",
-    "lin"
-  ]
+  "downloads": {
+    "win": {
+      "download": "https://github.com/lindenbergresearch/LRTRack/releases/download/v0.0.3/Lindenberg.Research_v0.0.3_OSX_WIN_LINUX.zip",
+      "sha256": "be1925bd76b3c4361ffd3a06f9ebdd49891b5b8b6f4ed72cc7c221495c757ce4"
+    },
+    "mac": {
+      "download": "https://github.com/lindenbergresearch/LRTRack/releases/download/v0.0.3/Lindenberg.Research_v0.0.3_OSX_WIN_LINUX.zip",
+      "sha256": "be1925bd76b3c4361ffd3a06f9ebdd49891b5b8b6f4ed72cc7c221495c757ce4"
+    },
+    "lin": {
+      "download": "https://github.com/lindenbergresearch/LRTRack/releases/download/v0.0.3/Lindenberg.Research_v0.0.3_OSX_WIN_LINUX.zip",
+      "sha256": "be1925bd76b3c4361ffd3a06f9ebdd49891b5b8b6f4ed72cc7c221495c757ce4"
+    }
+  }
 }

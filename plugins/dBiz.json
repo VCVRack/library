@@ -1,10 +1,13 @@
 {
   "slug": "dBiz",
   "name": "dBiz",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "source": "https://github.com/dBiz/dBiz",
-  "download": "https://github.com/dBiz/dBiz/releases",
-  "arch": [
-    "win"
-  ]
+  "manual": "https://github.com/dBiz/dBiz/blob/master/README.md",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/dBiz/dBiz/files/1513107/dBiz--win.zip",
+      "sha256": "b2da8c7711d85da8ba99cc683b05f6f7dc6c3f634e28010aff0693e3002af99b"
+    }
+  }
 }

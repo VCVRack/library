@@ -3,9 +3,15 @@
   "name": "JE",
   "version": "0.5.1",
   "source": "https://github.com/eres-j/VCVRack-plugin-JE",
-  "download": "https://github.com/eres-j/VCVRack-plugin-JE/releases",
-  "arch": [
-    "win",
-    "mac"
-  ]
+  "manual": "https://github.com/eres-j/VCVRack-plugin-JE/blob/master/README.md",
+  "downloads": {
+    "mac": {
+      "download": "https://github.com/eres-j/VCVRack-plugin-JE/releases/download/v0.5.1/VCVRack-plugin-JE-0.5.0-OSX.zip",
+      "sha256": "303dace08ccf5fbf6d9359f42fe161ace48eb538f3dbf2d4efce65a8a95764af"
+    },
+    "win": {
+      "download": "https://github.com/eres-j/VCVRack-plugin-JE/releases/download/v0.5.1/VCVRack-plugin-JE-0.5.0-Win.zip",
+      "sha256": "cedd94e8013367f1ff2dea58764273fd524ed81e28efd64da1655b5b34df2554"
+    }
+  }
 }

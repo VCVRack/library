@@ -3,8 +3,11 @@
   "name": "luckyxxl",
   "version": "0.5.0",
   "source": "https://github.com/luckyxxl/vcv_luckyxxl",
-  "download": "https://github.com/luckyxxl/vcv_luckyxxl/releases/",
-  "arch": [
-    "win"
-  ]
+  "manual": "https://github.com/luckyxxl/vcv_luckyxxl/blob/master/README.md",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/luckyxxl/vcv_luckyxxl/releases/download/v0.5.0/luckyxxl-0.5.0-win.zip",
+      "sha256": "02b2864d78b95b749e83d5aebddd00733520f2e6dcc0fa92e551a2432f835620"
+    }
+  }
 }

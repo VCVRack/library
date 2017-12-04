@@ -3,10 +3,19 @@
   "name": "dekstop",
   "version": "0.5.0",
   "source": "https://github.com/dekstop/vcvrackplugins_dekstop",
-  "download": "https://github.com/dekstop/vcvrackplugins_dekstop/releases",
-  "arch": [
-    "win",
-    "mac",
-    "lin"
-  ]
+  "manual": "https://github.com/dekstop/vcvrackplugins_dekstop/blob/master/README.md",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/dekstop/vcvrackplugins_dekstop/releases/download/v0.5.0/dekstop-dev_f4526cb-win.zip",
+      "sha256": "077def4bfba3f325b5cd5c45f5d4b33b3ce5bc4a3dfe5211a209af69636f3dae"
+    },
+    "mac": {
+      "download": "https://github.com/dekstop/vcvrackplugins_dekstop/releases/download/v0.5.0/dekstop-v0.5.0-osx.zip",
+      "sha256": "fed59c5023f9e0409f7bae1215a5607064cfb0e1252cc8dc4d35c5f86a9a1f93"
+    },
+    "lin": {
+      "download": "https://github.com/dekstop/vcvrackplugins_dekstop/releases/download/v0.5.0/dekstop-devf4526cb-lin.zip",
+      "sha256": "2435c5d6054b46ac07465aefb2b057e64d0728044db43f441c40631a0e63f6a2"
+    }
+  }
 }

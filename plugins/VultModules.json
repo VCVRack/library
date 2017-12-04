@@ -1,13 +1,22 @@
 {
   "slug": "VultModules",
   "name": "VultModules",
-  "version": "0.5.1",
+  "version": "0.5.2",
+  "homepage": "https://modlfo.github.io/VultModules",
+  "manual": "https://modlfo.github.io/VultModules",
   "source": "https://github.com/modlfo/VultModules",
-  "manual": "https://modlfo.github.io/VultModules/",
-  "download": "https://modlfo.github.io/VultModules/download/",
-  "arch": [
-    "win",
-    "mac",
-    "lin"
-  ]
+  "downloads": {
+    "win": {
+      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.2/VultModules.zip",
+      "sha256": "0e130d414ed76630118fe63eff9f586b93f982b0b972d0251266dc818a7229cb"
+    },
+    "mac": {
+      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.2/VultModules.zip",
+      "sha256": "0e130d414ed76630118fe63eff9f586b93f982b0b972d0251266dc818a7229cb"
+    },
+    "lin": {
+      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.2/VultModules.zip",
+      "sha256": "0e130d414ed76630118fe63eff9f586b93f982b0b972d0251266dc818a7229cb"
+    }
+  }
 }

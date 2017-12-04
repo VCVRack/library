@@ -4,9 +4,14 @@
   "version": "0.5.3",
   "source": "https://github.com/mhetrick/hetrickcv",
   "manual": "https://github.com/mhetrick/hetrickcv/blob/master/README.md",
-  "download": "https://github.com/mhetrick/hetrickcv/releases",
-  "arch": [
-    "win",
-    "mac"
-  ]
+  "downloads": {
+    "win": {
+      "download": "https://github.com/mhetrick/hetrickcv/releases/download/0.5.3/HetrickCV-0.5.3-win.zip",
+      "sha256": "4afb040dcfdc72e8ae8146f0978b28d1da7331bbd2857e7b3f4a2abf4dc86e8e"
+    },
+    "mac": {
+      "download": "https://github.com/mhetrick/hetrickcv/releases/download/0.5.3/HetrickCV-0.5.3-mac.zip",
+      "sha256": "187feeb66cf84e13ea1dd3df02b3a2871c88387709903c69be8feaeca9a998f0"
+    }
+  }
 }
