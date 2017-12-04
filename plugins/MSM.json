@@ -15,6 +15,6 @@
     "linux": {
       "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.3/MSM.LINUX.zip",
       "sha256": "458b4b3b64bfb912fe0bc973807310be64f7eeb5ba6bd3c244f5ddbe33ac6784"
-    },
+    }
   }
 }
