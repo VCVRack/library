@@ -1,21 +1,21 @@
 {
   "slug": "bidoo",
   "name": "bid°°",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "source": "https://github.com/sebastien-bouffier/Bidoo",
   "manual": "https://github.com/sebastien-bouffier/Bidoo/wiki",
   "downloads": {
     "win": {
-      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1522797/BidooWIN.0.5.4.zip",
-      "sha256": "1f7f3105a8ef1cbce27b557b9a5e2b740978218a113d362a6fa3da183bc15b1d"
+      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1527824/BidooWIN.0.5.5.zip",
+      "sha256": "6f0400e1cf405e055083b76384a02ad467e6d654b6bbf4da13fb21d445c1ec9d"
     },
     "mac": {
-      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1523631/BidooMAC.0.5.4.zip",
-      "sha256": "bb9e6fba559d6eca11278ed2d903a518190e35139ee243a078cabc24f8fc9b70"
+      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1528832/BidooMAC.0.5.5.zip",
+      "sha256": "a8fc6be677a756dd5e9b1e7a9fc3744ca10ee0f6690db457d886b3419a9f5f33"
     },
     "lin": {
-      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1522935/BidooLIN.0.5.4.zip",
-      "sha256": "3735ab63aca0d693f30119300e6d061a213d164f49d48e99120cea483f9124f6"
+      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1528462/BidooLIN.0.5.5.zip",
+      "sha256": "8d5a6fcd7485824d1d7bdacdf92bac1405e9595865c0d84acf89b43d6bd91c81"
     }
   }
 }
