@@ -1,0 +1,22 @@
+{
+  "slug": "ValleyRackFree",
+  "name": "Valley Rack Free",
+  "license": "GPL-3.0 and BSD-3-Clause",
+  "version": "0.5.1",
+  "manual": "https://github.com/ValleyAudio/ValleyRackFree/",
+  "source": "https://github.com/ValleyAudio/ValleyRackFree/",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/ValleyAudio/ValleyRackFree/releases/download/0.5.1/ValleyRackFree-0.5.1-win.zip",
+      "sha256": "ea7b2e9556dc6416acc2941bdca8d8a1dbfb2ce6bb36f47a76502701b95475e9"
+    },
+    "lin": {
+      "download": "https://github.com/ValleyAudio/ValleyRackFree/releases/download/0.5.1/ValleyRackFree-0.5.1-lin.zip",
+      "sha256": "4b70fe07b3bb705ea80908310b9edc434fae34101378af33504d8b550a21b8d5"
+    },
+    "mac": {
+      "download": "https://github.com/ValleyAudio/ValleyRackFree/releases/download/0.5.1/ValleyRackFree-0.5.1-mac.zip",
+      "sha256": "3967f382a6b1247b1dc3bd5a8d1bbaab0795cd16debffcba9df672d68fe2ecc7"
+    }
+  }
+}
