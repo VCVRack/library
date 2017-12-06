@@ -1,0 +1,23 @@
+{
+  "slug": "Bogaudio",
+  "name": "Bogaudio",
+  "license": "BSD 3-clause",
+  "version": "0.5.1",
+  "homepage": "https://github.com/bogaudio/BogaudioModules",
+  "manual": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md",
+  "source": "https://github.com/bogaudio/BogaudioModules",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/v0.5.1/Bogaudio-0.5.1-win.zip",
+      "sha256": "bef6bde0d9353379226839b8d32d21a8ab31d096be8c23b9f913d967d7224ef1"
+    },
+    "lin": {
+      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/v0.5.1/Bogaudio-0.5.1-lin.zip",
+      "sha256": "e8ce451f3558c4646649b85f2f516ca60d0745eeb934be66f776487dcf882b8b"
+    },
+    "mac": {
+      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/v0.5.1/Bogaudio-0.5.1-mac.zip",
+      "sha256": "22a15b5fbd7f7581967fffe45e62d1853b853b8be26086bcc8c12108a377fdb8"
+    }
+  }
+}
