@@ -1,8 +1,8 @@
 {
-  "slug": "ML-modules",
-  "name": "ML-modules",
+  "slug": "ML_modules",
+  "name": "ML modules",
   "version": "0.5.1",
-  "source": "https://github.com/martin-lueders/ML-modules",
+  "source": "https://github.com/martin-lueders/ML_modules",
   "manual": "https://github.com/martin-lueders/ML_modules/wiki",
   "downloads": {
     "win": {
