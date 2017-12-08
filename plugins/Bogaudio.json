@@ -13,7 +13,7 @@
     },
     "lin": {
       "download": "https://github.com/bogaudio/BogaudioModules/releases/download/v0.5.1/Bogaudio-0.5.1-lin.zip",
-      "sha256": "e8ce451f3558c4646649b85f2f516ca60d0745eeb934be66f776487dcf882b8b"
+      "sha256": "3673028cc3369a72e90cbf0ac838689138c2db77b4af33d8d6fac3febb61fa37"
     },
     "mac": {
       "download": "https://github.com/bogaudio/BogaudioModules/releases/download/v0.5.1/Bogaudio-0.5.1-mac.zip",
