@@ -1,0 +1,22 @@
+{
+  "slug": "Nohmad",
+  "name": "Nohmad",
+  "license": "MIT",
+  "version": "0.5.0",
+  "manual": "https://github.com/joelrobichaud/Nohmad/blob/master/README.md",
+  "source": "https://github.com/joelrobichaud/Nohmad",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.0/Nohmad.zip",
+      "sha256": "e6482337c0a7b0c9fd3ccf7bf4d81e9a575a9196125600a5caaa6f6609a72ca3"
+    },
+    "lin": {
+      "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.0/Nohmad.zip",
+      "sha256": "e6482337c0a7b0c9fd3ccf7bf4d81e9a575a9196125600a5caaa6f6609a72ca3"
+    },
+    "mac": {
+      "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.0/Nohmad.zip",
+      "sha256": "e6482337c0a7b0c9fd3ccf7bf4d81e9a575a9196125600a5caaa6f6609a72ca3"
+    }
+  }
+}
