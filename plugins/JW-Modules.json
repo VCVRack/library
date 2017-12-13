@@ -1,22 +1,22 @@
 {
   "slug": "JW-Modules",
   "name": "JW-Modules",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "homepage": "http://jeremywentworth.com",
   "manual": "https://github.com/jeremywen/JW-Modules/blob/master/README.md",
   "source": "https://github.com/jeremywen/JW-Modules",
   "downloads": {
     "win": {
-      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.5/JW-Modules.zip",
-      "sha256": "e21b7b894ce9edf99cd820f84086b8745f0a2e0fc52323b6cb4cc3cd7a8b533f"
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.6/JW-Modules.zip",
+      "sha256": "f940ced20fc36aff04f0da327045664faa29f3b39a434d9e9c8795cb35815873"
     },
     "mac": {
-      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.5/JW-Modules.zip",
-      "sha256": "e21b7b894ce9edf99cd820f84086b8745f0a2e0fc52323b6cb4cc3cd7a8b533f"
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.6/JW-Modules.zip",
+      "sha256": "f940ced20fc36aff04f0da327045664faa29f3b39a434d9e9c8795cb35815873"
     },
     "lin": {
-      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.5/JW-Modules.zip",
-      "sha256": "e21b7b894ce9edf99cd820f84086b8745f0a2e0fc52323b6cb4cc3cd7a8b533f"
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.6/JW-Modules.zip",
+      "sha256": "f940ced20fc36aff04f0da327045664faa29f3b39a434d9e9c8795cb35815873"
     }
   }
 }
