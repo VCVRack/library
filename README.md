@@ -16,6 +16,7 @@ Filename should be `YourSlug.json`.
 {
   "slug": "AudibleInstruments",
   "name": "Audible Instruments",
+  "author": "VCV",
   "license": "BSD 3-clause",
   "version": "0.5.0",
   "homepage": "https://vcvrack.com/",
@@ -44,6 +45,7 @@ Keys with * are required.
 
 - **slug**\*: Unique identifier for your plugin. Should never change. Avoid spaces. Prefix with your company or developer name if you plan to release multiple plugins, e.g. "VCV-PulseMatrix". But most importantly, should never change.
 - **name**: Human-readable display name for your plugin. Defaults to the slug if omitted. May change on a whim.
+- **author**: Your name, company, alias, or GitHub username, whichever you prefer
 - **version**\*: Your plugin's version, using the guidelines at https://github.com/VCVRack/Rack/issues/266. Do not include the "v" prefix.
 - **license**: Abbreviation of the license(s) of your plugin. Use "proprietary" if all rights are reserved.
 - **homepage**: URL of the landing page of your plugin. Omit if redundant with the source URL.
