@@ -1,6 +1,7 @@
 {
   "slug": "PvC",
   "name": "PvC",
+  "author": "phdsg",
   "version": "0.5.1",
   "source": "https://github.com/phdsg/PvC",
   "manual": "https://github.com/phdsg/PvC/blob/master/README.md",

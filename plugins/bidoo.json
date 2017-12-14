@@ -1,6 +1,7 @@
 {
   "slug": "bidoo",
   "name": "bid°°",
+  "author": "sebastien-bouffier",
   "version": "0.5.5",
   "source": "https://github.com/sebastien-bouffier/Bidoo",
   "manual": "https://github.com/sebastien-bouffier/Bidoo/wiki",

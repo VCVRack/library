@@ -1,6 +1,7 @@
 {
   "slug": "HetrickCV",
   "name": "HetrickCV",
+  "author": "mhetrick",
   "version": "0.5.3",
   "source": "https://github.com/mhetrick/hetrickcv",
   "manual": "https://github.com/mhetrick/hetrickcv/blob/master/README.md",

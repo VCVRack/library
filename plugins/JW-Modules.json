@@ -1,6 +1,7 @@
 {
   "slug": "JW-Modules",
   "name": "JW-Modules",
+  "author": "jeremywen",
   "version": "0.5.7",
   "homepage": "http://jeremywentworth.com",
   "manual": "https://github.com/jeremywen/JW-Modules/blob/master/README.md",

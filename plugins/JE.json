@@ -1,6 +1,7 @@
 {
   "slug": "JE",
   "name": "JE",
+  "author": "eres-j",
   "version": "0.5.1",
   "source": "https://github.com/eres-j/VCVRack-plugin-JE",
   "manual": "https://github.com/eres-j/VCVRack-plugin-JE/blob/master/README.md",

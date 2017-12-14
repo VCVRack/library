@@ -1,6 +1,7 @@
 {
   "slug": "Bogaudio",
   "name": "Bogaudio",
+  "author": "bogaudio",
   "license": "BSD 3-clause",
   "version": "0.5.1",
   "homepage": "https://github.com/bogaudio/BogaudioModules",

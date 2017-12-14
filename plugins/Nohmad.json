@@ -1,6 +1,7 @@
 {
   "slug": "Nohmad",
   "name": "Nohmad",
+  "author": "joelrobichaud",
   "license": "MIT",
   "version": "0.5.0",
   "manual": "https://github.com/joelrobichaud/Nohmad/blob/master/README.md",

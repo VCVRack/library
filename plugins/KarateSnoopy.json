@@ -1,6 +1,7 @@
 {
   "slug": "KarateSnoopy",
   "name": "KarateSnoopy",
+  "author": "KarateSnoopy",
   "license": "MIT",
   "version": "0.5.0",
   "homepage": "https://github.com/KarateSnoopy/vcv-karatesnoopy",
