@@ -1,0 +1,10 @@
+{
+  "slug": "ESeries",
+  "name": "E-Series",
+  "author": "VCV",
+  "license": "BSD 3-clause",
+  "version": "0.5.0",
+  "homepage": "https://vcvrack.com/",
+  "manual": "https://vcvrack.com/manual/ESeries.html",
+  "source": "https://github.com/VCVRack/ESeries"
+}
