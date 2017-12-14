@@ -7,15 +7,15 @@
   "source": "https://github.com/jeremywen/JW-Modules",
   "downloads": {
     "win": {
-      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.7/JW-Modules-0.5.7",
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.7/JW-Modules-0.5.7.zip",
       "sha256": "327a11fed6f2299e87d799a58c0e5b2c026649c1c863367e8a54a116ac258c06"
     },
     "mac": {
-      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.7/JW-Modules-0.5.7",
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.7/JW-Modules-0.5.7.zip",
       "sha256": "327a11fed6f2299e87d799a58c0e5b2c026649c1c863367e8a54a116ac258c06"
     },
     "lin": {
-      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.7/JW-Modules-0.5.7",
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.7/JW-Modules-0.5.7.zip",
       "sha256": "327a11fed6f2299e87d799a58c0e5b2c026649c1c863367e8a54a116ac258c06"
     }
   }
