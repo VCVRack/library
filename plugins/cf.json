@@ -2,20 +2,20 @@
   "slug": "cf",
   "name": "cf",
   "author": "cfoulc",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "source": "https://github.com/cfoulc/cf",
   "manual": "https://github.com/cfoulc/cf/blob/master/README.md",
   "downloads": {
     "win": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.7/cf.zip",
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.8/cf_058.zip",
       "sha256": "f89b32bae7f66906e55bee9e7798b6718302c5c6d9cfb8029f75bfc8368af7b2"
     },
     "mac": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.7/cf.zip",
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.8/cf_058.zip",
       "sha256": "f89b32bae7f66906e55bee9e7798b6718302c5c6d9cfb8029f75bfc8368af7b2"
     },
     "lin": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.7/cf.zip",
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.8/cf_058.zip",
       "sha256": "f89b32bae7f66906e55bee9e7798b6718302c5c6d9cfb8029f75bfc8368af7b2"
     }
   }
