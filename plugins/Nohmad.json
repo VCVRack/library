@@ -3,21 +3,21 @@
   "name": "Nohmad",
   "author": "joelrobichaud",
   "license": "MIT",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "manual": "https://github.com/joelrobichaud/Nohmad/blob/master/README.md",
   "source": "https://github.com/joelrobichaud/Nohmad",
   "downloads": {
     "win": {
-      "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.0/Nohmad.zip",
-      "sha256": "e6482337c0a7b0c9fd3ccf7bf4d81e9a575a9196125600a5caaa6f6609a72ca3"
+      "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.1/Nohmad.zip",
+      "sha256": "65acc58d7276a0aceb5b9c519671bc29e5cd3b498cf93112b86a0d8088cc7c13"
     },
     "lin": {
-      "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.0/Nohmad.zip",
-      "sha256": "e6482337c0a7b0c9fd3ccf7bf4d81e9a575a9196125600a5caaa6f6609a72ca3"
+      "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.1/Nohmad.zip",
+      "sha256": "65acc58d7276a0aceb5b9c519671bc29e5cd3b498cf93112b86a0d8088cc7c13"
     },
     "mac": {
-      "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.0/Nohmad.zip",
-      "sha256": "e6482337c0a7b0c9fd3ccf7bf4d81e9a575a9196125600a5caaa6f6609a72ca3"
+      "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.1/Nohmad.zip",
+      "sha256": "65acc58d7276a0aceb5b9c519671bc29e5cd3b498cf93112b86a0d8088cc7c13"
     }
   }
 }
