@@ -5,5 +5,19 @@
   "license": "BSD 3-clause",
   "version": "0.5.0",
   "manual": "https://vcvrack.com/manual/Grayscale.html",
-  "source": "https://github.com/VCVRack/Grayscale"
+  "source": "https://github.com/VCVRack/Grayscale",
+  "downloads": {
+    "win": {
+      "download": "https://vcvrack.com/downloads/plugins/Grayscale-0.5.0.zip",
+      "sha256": "dc8656f3ebb51f0a72e05ca856373c582838b8b4f6c74ef48e83ee99676bf334"
+    },
+    "mac": {
+      "download": "https://vcvrack.com/downloads/plugins/Grayscale-0.5.0.zip",
+      "sha256": "dc8656f3ebb51f0a72e05ca856373c582838b8b4f6c74ef48e83ee99676bf334"
+    },
+    "lin": {
+      "download": "https://vcvrack.com/downloads/plugins/Grayscale-0.5.0.zip",
+      "sha256": "dc8656f3ebb51f0a72e05ca856373c582838b8b4f6c74ef48e83ee99676bf334"
+    }
+  }
 }

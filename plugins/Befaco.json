@@ -5,5 +5,19 @@
   "license": "BSD 3-clause",
   "version": "0.5.0",
   "manual": "https://vcvrack.com/manual/Befaco.html",
-  "source": "https://github.com/VCVRack/Befaco"
+  "source": "https://github.com/VCVRack/Befaco",
+  "downloads": {
+    "win": {
+      "download": "https://vcvrack.com/downloads/plugins/Befaco-0.5.0.zip",
+      "sha256": "05dcf10bbb0cb8ccfc912e69afa3a3e08c453370248309d950a967e98f9527b6"
+    },
+    "mac": {
+      "download": "https://vcvrack.com/downloads/plugins/Befaco-0.5.0.zip",
+      "sha256": "05dcf10bbb0cb8ccfc912e69afa3a3e08c453370248309d950a967e98f9527b6"
+    },
+    "lin": {
+      "download": "https://vcvrack.com/downloads/plugins/Befaco-0.5.0.zip",
+      "sha256": "05dcf10bbb0cb8ccfc912e69afa3a3e08c453370248309d950a967e98f9527b6"
+    }
+  }
 }

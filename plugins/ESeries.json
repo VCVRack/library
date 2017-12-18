@@ -5,5 +5,19 @@
   "license": "BSD 3-clause",
   "version": "0.5.0",
   "manual": "https://vcvrack.com/manual/ESeries.html",
-  "source": "https://github.com/VCVRack/ESeries"
+  "source": "https://github.com/VCVRack/ESeries",
+  "downloads": {
+    "win": {
+      "download": "https://vcvrack.com/downloads/plugins/ESeries-0.5.0.zip",
+      "sha256": "ab44a5ba6567e670c74c0027d199e1dfb42bac323b70c27de2d093fbebc0ba3a"
+    },
+    "mac": {
+      "download": "https://vcvrack.com/downloads/plugins/ESeries-0.5.0.zip",
+      "sha256": "ab44a5ba6567e670c74c0027d199e1dfb42bac323b70c27de2d093fbebc0ba3a"
+    },
+    "lin": {
+      "download": "https://vcvrack.com/downloads/plugins/ESeries-0.5.0.zip",
+      "sha256": "ab44a5ba6567e670c74c0027d199e1dfb42bac323b70c27de2d093fbebc0ba3a"
+    }
+  }
 }
