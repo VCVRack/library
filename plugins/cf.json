@@ -8,15 +8,15 @@
   "downloads": {
     "win": {
       "download": "https://github.com/cfoulc/cf/releases/download/0.5.8/cf_058.zip",
-      "sha256": "f89b32bae7f66906e55bee9e7798b6718302c5c6d9cfb8029f75bfc8368af7b2"
+      "sha256": "d5562cf21f61019e96a525c8cec6d00c2ace0b0130be7f73df275abf6ae898e6"
     },
     "mac": {
       "download": "https://github.com/cfoulc/cf/releases/download/0.5.8/cf_058.zip",
-      "sha256": "f89b32bae7f66906e55bee9e7798b6718302c5c6d9cfb8029f75bfc8368af7b2"
+      "sha256": "d5562cf21f61019e96a525c8cec6d00c2ace0b0130be7f73df275abf6ae898e6"
     },
     "lin": {
       "download": "https://github.com/cfoulc/cf/releases/download/0.5.8/cf_058.zip",
-      "sha256": "f89b32bae7f66906e55bee9e7798b6718302c5c6d9cfb8029f75bfc8368af7b2"
+      "sha256": "d5562cf21f61019e96a525c8cec6d00c2ace0b0130be7f73df275abf6ae898e6"
     }
   }
 }
