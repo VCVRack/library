@@ -2,7 +2,6 @@
   "slug": "cf",
   "name": "cf",
   "author": "cfoulc",
-  "version": "0.5.8",
   "source": "https://github.com/cfoulc/cf",
   "manual": "https://github.com/cfoulc/cf/blob/master/README.md",
   "downloads": {
