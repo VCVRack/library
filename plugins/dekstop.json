@@ -2,7 +2,6 @@
   "slug": "dekstop",
   "name": "dekstop",
   "author": "dekstop",
-  "version": "0.5.0",
   "source": "https://github.com/dekstop/vcvrackplugins_dekstop",
   "manual": "https://github.com/dekstop/vcvrackplugins_dekstop/blob/master/README.md",
   "downloads": {
