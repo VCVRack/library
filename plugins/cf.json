@@ -6,15 +6,15 @@
   "manual": "https://github.com/cfoulc/cf/blob/master/README.md",
   "downloads": {
     "win": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.8/cf_058.zip",
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.10/cf_0510.zip",
       "sha256": "d5562cf21f61019e96a525c8cec6d00c2ace0b0130be7f73df275abf6ae898e6"
     },
     "mac": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.8/cf_058.zip",
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.10/cf_0510.zip",
       "sha256": "d5562cf21f61019e96a525c8cec6d00c2ace0b0130be7f73df275abf6ae898e6"
     },
     "lin": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.8/cf_058.zip",
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.10/cf_0510.zip",
       "sha256": "d5562cf21f61019e96a525c8cec6d00c2ace0b0130be7f73df275abf6ae898e6"
     }
   }
