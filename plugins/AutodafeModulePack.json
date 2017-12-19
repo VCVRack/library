@@ -5,4 +5,23 @@
   "version": "0.5.0",
   "source": "https://github.com/antoniograzioli/Autodafe",
   "homepage": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules.html"
+  
+  
+  "downloads": {
+    "win": {
+      "download": "www.autodafe.net/VCVRack/Autodafe-Modules-Pack-VCV-Rack.zip",
+      "sha256": "2d8f53c5ae8eaf70e0188d188aee432c1f26e4042f272c9a76d84bb10e9c5477"
+    },
+    "lin": {
+      "download": "www.autodafe.net/VCVRack/Autodafe-Modules-Pack-VCV-Rack.zip",
+      "sha256": "2d8f53c5ae8eaf70e0188d188aee432c1f26e4042f272c9a76d84bb10e9c5477"
+    },
+    "mac": {
+      "download": "www.autodafe.net/VCVRack/Autodafe-Modules-Pack-VCV-Rack.zip",
+      "sha256": "2d8f53c5ae8eaf70e0188d188aee432c1f26e4042f272c9a76d84bb10e9c5477"
+    }
+  
+  
 }
+
+
