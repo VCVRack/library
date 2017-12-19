@@ -10,12 +10,12 @@
   "manual": "https://github.com/martin-lueders/ML_modules/wiki",
   "downloads": {
     "win": {
-      "download": "https://github.com/martin-lueders/ML_modules/files/1553561/ML_modules.zip",
-      "sha256": "5eea17a24b284731f428843d278680f54b788867fdf4f5d5933c6875e1fefcd4"
+      "download": "https://github.com/martin-lueders/ML_modules/releases/download/0.5.2/ML_modules.zip",
+      "sha256": "16c70a3122abb9dcba90e5c87a4f4445b11244d849fda24312bb4c4dc2cdbeec"
     },
     "mac": {
-      "download": "https://github.com/martin-lueders/ML_modules/files/1553561/ML_modules.zip",
-      "sha256": "5eea17a24b284731f428843d278680f54b788867fdf4f5d5933c6875e1fefcd4"
+      "download": "https://github.com/martin-lueders/ML_modules/releases/download/0.5.2/ML_modules.zip",
+      "sha256": "16c70a3122abb9dcba90e5c87a4f4445b11244d849fda24312bb4c4dc2cdbeec"
     }
   }
 }
