@@ -2,17 +2,20 @@
   "slug": "ML_modules",
   "name": "ML modules",
   "author": "Martin Lueders",
-  "version": "0.5.1",
+  "license": "BSD 3-clause",
+  "version": "0.5.2",
+  "homepage": "https://github.com/martin-lueders/ML_modules",
+  "donation": "https://paypal.me/MartinLueders",
   "source": "https://github.com/martin-lueders/ML_modules",
   "manual": "https://github.com/martin-lueders/ML_modules/wiki",
   "downloads": {
     "win": {
-      "download": "https://github.com/martin-lueders/ML_modules/files/1502969/ML_modules.zip",
-      "sha256": "1a4ade350338efe5ad3f59f0e4c67c70d24094a59a867c6758a1c17a8840f9b0"
+      "download": "https://github.com/martin-lueders/ML_modules/files/1553561/ML_modules.zip",
+      "sha256": "5eea17a24b284731f428843d278680f54b788867fdf4f5d5933c6875e1fefcd4"
     },
     "mac": {
-      "download": "https://github.com/martin-lueders/ML_modules/files/1502969/ML_modules.zip",
-      "sha256": "1a4ade350338efe5ad3f59f0e4c67c70d24094a59a867c6758a1c17a8840f9b0"
+      "download": "https://github.com/martin-lueders/ML_modules/files/1553561/ML_modules.zip",
+      "sha256": "5eea17a24b284731f428843d278680f54b788867fdf4f5d5933c6875e1fefcd4"
     }
   }
 }
