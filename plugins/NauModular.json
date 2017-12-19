@@ -2,21 +2,13 @@
   "slug": "NauModular",
   "name": "NauModular",
   "author": "naus3a",
-  "version": "1.0",
+  "version": "0.5.2",
   "source": "https://github.com/naus3a/NauModular",
-  "manual": "https://github.com/naus3a/NauModular/blob/master/README.md",
+  "manual": "http://naus3al.ml/NauModular",
   "downloads": {
-    "win": {
-      "download": "https://github.com/naus3a/NauModular/releases/download/v0.5.0/NauModular-1.0-win.zip",
-      "sha256": "7bd9ce26e3754b89f937817a1b82bf816cc100849b43673f943e01d795d03b44"
-    },
     "mac": {
-      "download": "https://github.com/naus3a/NauModular/releases/download/v0.5.0/NauModular-1.0-mac.zip",
-      "sha256": "c517b42c4b1daf31e8d6252fe960cb46e4c5bd825e6cf53b87e7418011366e63"
-    },
-    "lin": {
-      "download": "https://github.com/naus3a/NauModular/releases/download/v0.5.0/NauModular-1.0-linux.zip",
-      "sha256": "1447abc5fb8e6930d4a25a07e67d39e32d2242dff33561431b0f83ceb019806e"
+      "download": "https://github.com/naus3a/NauModular/releases/download/0.5.2/NauModular-0.5.2-mac.zip",
+      "sha256": "8ce02c23615663d6af4b2370a89dadbcda984f49b8c2f3cae96be3b1f41112c8"
     }
   }
 }
