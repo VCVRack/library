@@ -7,15 +7,15 @@
   "homepage": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules.html",
   "downloads": {
       "win": {
-        "download": "www.autodafe.net/VCVRack/Autodafe-Drum-Kit-VCV-Rack.zip",
+        "download": "https://www.autodafe.net/VCVRack/Autodafe-Drum-Kit-VCV-Rack.zip",
         "sha256": "939015f7124da305183d5aeeef18d32828e3fe4f4da81c9b1fd6105b1f61ec18"
       },
       "lin": {
-        "download": "www.autodafe.net/VCVRack/Autodafe-Drum-Kit-VCV-Rack.zip",
+        "download": "https://www.autodafe.net/VCVRack/Autodafe-Drum-Kit-VCV-Rack.zip",
         "sha256": "939015f7124da305183d5aeeef18d32828e3fe4f4da81c9b1fd6105b1f61ec18"
       },
       "mac": {
-        "download": "www.autodafe.net/VCVRack/Autodafe-Drum-Kit-VCV-Rack.zip",
+        "download": "https://www.autodafe.net/VCVRack/Autodafe-Drum-Kit-VCV-Rack.zip",
         "sha256": "939015f7124da305183d5aeeef18d32828e3fe4f4da81c9b1fd6105b1f61ec18"
       }
     }
