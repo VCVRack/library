@@ -2,6 +2,8 @@
   "slug": "NYSTHI",
   "name": "NYSTHI",
   "version": "0.5.8",
+  "homepage": "https://github.com/nysthi/nysthi",
+  "manual": "https://github.com/nysthi/nysthi/blob/master/README.md",
   "downloads": {
     "win": {
       "download": "https://github.com/nysthi/nysthi/releases/download/v0.5.8/nysthi.zip",
