@@ -7,15 +7,15 @@
   "downloads": {
     "win": {
       "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.4/MSM.WIN.zip",
-      "sha256": "d267bc0d98393dc3226e31270322c6d9868503c6d50451ca869dca883ec4f18d"
+      "sha256": "9d2f6cc6debf6c4153caa75a563ca1c3fc0112461f37657ee2d8b9a250424821"
     },
     "mac": {
       "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.4/MSM.MAC.zip",
-      "sha256": "ece7258e75b8358eb8887d7917be99c2acdcb342da47a455798de5997245bf59"
+      "sha256": "bdeee52705dfd5e1bf51650c478961adbe19fad743a810f58a26af20f0de9ea8"
     },
     "linux": {
       "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.4/MSM.LINUX.zip",
-      "sha256": "d12bc92e7f69faaaaae1f136d7b74e0101a829c199e11dcf7d4e7de24cbd11be"
+      "sha256": "d626abf45c5a562dfef0b68a3a34ee852159c3ce2918d4bc57db1fa950ff3727"
     }
   }
 }
