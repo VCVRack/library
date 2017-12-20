@@ -15,7 +15,7 @@
     },
     "lin": {
       "download": "https://github.com/cfoulc/cf/releases/download/0.5.10/cf-0.5.10-lin.zip",
-      "sha256": "	92927fa7fbd2a917de0f601dd77a9ab0d3a8e053778f92f8fb36547955ace2dd"
+      "sha256": "92927fa7fbd2a917de0f601dd77a9ab0d3a8e053778f92f8fb36547955ace2dd"
     }
   }
 }
