@@ -1,6 +1,8 @@
 
 # VCV community
 
+[![Build Status](https://travis-ci.org/VCVRack/community.svg?branch=master)](https://travis-ci.org/VCVRack/community)
+
 *Manifest repository for VCV Rack plugins*
 
 ### Contributing your plugin
