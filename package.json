@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/VCVRack/community#readme",
   "devDependencies": {
-    "node-virustotal": "^2.4.2"
+    "node-virustotal": "^2.4.2",
+    "request": "^2.83.0"
   }
 }
