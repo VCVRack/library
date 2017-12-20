@@ -1,0 +1,100 @@
+{
+  "id": "manifest.json",
+  "type": "object",
+  "required": [
+    "slug",
+    "version"
+  ],
+  "description": "A plugin manifest file for VCV Rack.",
+  "properties": {
+    "slug": {
+      "type": "string",
+      "description": ""
+    },
+    "name": {
+      "type": "string",
+      "description": ""
+    },
+    "author": {
+      "type": "string",
+      "description": ""
+    },
+    "license": {
+      "type": "string",
+      "description": ""
+    },
+    "version": {
+      "type": "string",
+      "description": ""
+    },
+    "homepage": {
+      "type": "string",
+      "description": ""
+    },
+    "donation": {
+      "type": "string",
+      "description": ""
+    },
+    "manual": {
+      "type": "string",
+      "description": ""
+    },
+    "source": {
+      "type": "string",
+      "description": ""
+    },
+    "disabled": {
+      "type": "boolean",
+      "description": "used when a plugin needs to be disabled"
+    },
+    "productId": {
+      "type": "number",
+      "description": "only used by vcv rack website"
+    },
+    "downloads": {
+      "type": "object",
+      "properties": {
+        "win": {
+          "type": "object",
+          "properties": {
+            "download": {
+              "type": "string",
+              "description": ""
+            },
+            "sha256": {
+              "type": "string",
+              "description": ""
+            }
+          }
+        },
+        "lin": {
+          "type": "object",
+          "properties": {
+            "download": {
+              "type": "string",
+              "description": ""
+            },
+            "sha256": {
+              "type": "string",
+              "description": ""
+            }
+          }
+        },
+        "mac": {
+          "type": "object",
+          "properties": {
+            "download": {
+              "type": "string",
+              "description": ""
+            },
+            "sha256": {
+              "type": "string",
+              "description": ""
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
