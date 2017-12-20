@@ -22,7 +22,7 @@ describe("json", function() {
                 
                 let manifestObj;
                 try {
-                    manifestObj = JSON.parse(fileContent+"FAIL");
+                    manifestObj = JSON.parse(fileContent);
                     done();
                 } catch(err){
                     fail(`Invalid JSON: ${filePath}\n${err}`);
