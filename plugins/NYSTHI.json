@@ -1,21 +1,21 @@
 {
   "slug": "NYSTHI",
   "name": "NYSTHI",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "homepage": "https://github.com/nysthi/nysthi",
   "manual": "https://github.com/nysthi/nysthi/blob/master/README.md",
   "downloads": {
     "win": {
-      "download": "https://github.com/nysthi/nysthi/releases/download/v0.5.8/nysthi.zip",
-      "sha256": "2af97913c1074d0c989b2ecbcfc62b4c90fe03746ff8d30d9c9e423fc7bc9f17"
+      "download": "https://github.com/nysthi/nysthi/releases/download/v0.5.9/nysthi.zip",
+      "sha256": "cdba68f3c5fa59af37ea0f4eb271c9ade583c2dea35fa3a0a56288fec142dca3"
     },
     "mac": {
-      "download": "https://github.com/nysthi/nysthi/releases/download/v0.5.8/nysthi.zip",
-      "sha256": "2af97913c1074d0c989b2ecbcfc62b4c90fe03746ff8d30d9c9e423fc7bc9f17"
+      "download": "https://github.com/nysthi/nysthi/releases/download/v0.5.9/nysthi.zip",
+      "sha256": "cdba68f3c5fa59af37ea0f4eb271c9ade583c2dea35fa3a0a56288fec142dca3"
     },
     "lin": {
-      "download": "https://github.com/nysthi/nysthi/releases/download/v0.5.8/nysthi.zip",
-      "sha256": "2af97913c1074d0c989b2ecbcfc62b4c90fe03746ff8d30d9c9e423fc7bc9f17"
+      "download": "https://github.com/nysthi/nysthi/releases/download/v0.5.9/nysthi.zip",
+      "sha256": "cdba68f3c5fa59af37ea0f4eb271c9ade583c2dea35fa3a0a56288fec142dca3"
     }
   }
 }
