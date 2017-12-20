@@ -11,6 +11,10 @@
     "win": {
       "download": "https://github.com/sebastien-bouffier/Bidoo/files/1575756/Bidoo.WIN.0.5.8.zip",
       "sha256": "f05ef2128b0457ee48c42482894e20aea8f8ff1c6271e82c6a24439d0e8dc83d"
+    },
+    "lin": {
+      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1576565/Bidoo.LIN.0.5.8.zip",
+      "sha256": "b7501a59b8aa0390cb939ee5ce0754a2ca3c912683938bbc7cb049ce6db5ee99"
     }
   }
 }
