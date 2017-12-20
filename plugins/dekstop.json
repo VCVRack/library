@@ -17,5 +17,6 @@
       "download": "https://github.com/dekstop/vcvrackplugins_dekstop/releases/download/v0.5.0/dekstop-devf4526cb-lin.zip",
       "sha256": "2435c5d6054b46ac07465aefb2b057e64d0728044db43f441c40631a0e63f6a2"
     }
-  }
+  },
+  "disabled": true
 }
