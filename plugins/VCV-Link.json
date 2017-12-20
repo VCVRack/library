@@ -5,9 +5,9 @@
   "license": "GPL-3",
   "version": "0.5.1",
   "homepage": "https://www.facebook.com/stellaremodular",
-  "donation": "https://paypal.me/stellaremodular"
+  "donation": "https://paypal.me/stellaremodular",
   "manual": "https://github.com/stellare-modular/vcv-link/blob/master/README.md",
-  "source": "https://github.com/stellare-modular/vcv-link"
+  "source": "https://github.com/stellare-modular/vcv-link",
   "downloads": {
     "win": {
       "download": "https://github.com/stellare-modular/vcv-link/releases/download/0.5.1/VCV-Link-0.5.1.zip",
