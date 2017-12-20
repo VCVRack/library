@@ -1,0 +1,19 @@
+{
+  "name": "community",
+  "version": "1.0.0",
+  "description": "*Manifest repository for VCV Rack plugins*",
+  "scripts": {
+    "test": "echo \"Error: no tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VCVRack/community.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VCVRack/community/issues"
+  },
+  "homepage": "https://github.com/VCVRack/community#readme",
+  "devDependencies": {
+    "node-virustotal": "^2.4.2"
+  }
+}
