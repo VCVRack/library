@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "*Manifest repository for VCV Rack plugins*",
   "scripts": {
-    "test": "node test.js"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/VCVRack/community#readme",
   "devDependencies": {
+    "jasmine": "^2.8.0",
     "node-virustotal": "^2.4.2",
     "request": "^2.83.0"
   }
