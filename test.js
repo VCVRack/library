@@ -1,3 +1,24 @@
+/*
+ 
+check valid JSON
+check valid SHA256
+upload to VirusTotal and assert less than 3 or so engines return suspicious for each ZIP
+
+ZIP must not contain a __MACOSX directory at root level.
+ZIP must not be a tarbomb. Yes, I know the first is a subset of this one, but it's better to have more feedback.
+We might even want to assert that the single folder at root level is named as the slug of the plugin. I'm for this.
+
+schema validation
+
+slug required
+if we could have a "soft" warning for slugs matching /[a-zA-Z0-9_\-]/+, that'd be great, although I'd rather their slugs break this than change.
+version required
+version must begin with "0.5." (this will be changed with each version bump.)
+
+*/
+
+
+
 const fs = require("fs");
 const request = require("request");
 const { exec } = require('child_process');
@@ -17,6 +38,12 @@ if(verbose){console.log('delay', con.getDelay());}
 
 //We always just check all JSON because it's easy.  
 //However, we only want to check zip files of manifests that have changed.
+
+
+
+//TODO FIX - travis doesn't have master
+//           https://github.com/travis-ci/travis-ci/issues/6069
+//           todo check diff to see if "download" or "sha256" changed 
 exec('git diff -w --stat --name-only origin/master -- plugins/', (error, stdout, stderr) => {
   if (error) {
     console.error(`exec error: ${error}`);
