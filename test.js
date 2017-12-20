@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 const vt = require("node-virustotal");//https://github.com/natewatson999/node-virustotal
 const con = vt.MakePublicConnection();
 const archArr = ['win', 'lin', 'mac'];
-const verbose = true;
+const verbose = false;
 
 //VT_API_KEY is set in travisci (or set when run locally)
 con.setKey(process.env.VT_API_KEY);
@@ -27,7 +27,7 @@ exec('git diff -w --stat --name-only origin/master -- plugins/', (error, stdout,
 });
 
 function testAllManifests(changedManifestFiles){
-    console.log("changedManifestFiles", changedManifestFiles);
+    if(verbose){console.log("changedManifestFiles", changedManifestFiles);}
     fs.readdir('plugins', function(err, files) {
         if (err){ throw err; }
 

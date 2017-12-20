@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "*Manifest repository for VCV Rack plugins*",
   "scripts": {
-    "test": "echo \"Error: no tests yet\" && exit 0"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
