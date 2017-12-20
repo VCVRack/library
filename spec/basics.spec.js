@@ -3,7 +3,7 @@ const fs = require("fs");
 
 describe("json", function() {
   
-  it("simply valid parsable json", function(done) {
+  it("manifest files should be valid parsable json", function(done) {
     fs.readdir('plugins', function(err, files) {
         if (err){ 
             fail("unable to read plugins dir"); 
