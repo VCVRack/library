@@ -8,15 +8,15 @@
   "downloads": {
     "win": {
       "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.1/Nohmad.zip",
-      "sha256": "65acc58d7276a0aceb5b9c519671bc29e5cd3b498cf93112b86a0d8088cc7c13"
+      "sha256": "2ffcafd4c546983b196a87cde6ec5563d9a29ba3aded214442bbc71951a345f9"
     },
     "lin": {
       "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.1/Nohmad.zip",
-      "sha256": "65acc58d7276a0aceb5b9c519671bc29e5cd3b498cf93112b86a0d8088cc7c13"
+      "sha256": "2ffcafd4c546983b196a87cde6ec5563d9a29ba3aded214442bbc71951a345f9"
     },
     "mac": {
       "download": "https://github.com/joelrobichaud/Nohmad/releases/download/v0.5.1/Nohmad.zip",
-      "sha256": "65acc58d7276a0aceb5b9c519671bc29e5cd3b498cf93112b86a0d8088cc7c13"
+      "sha256": "2ffcafd4c546983b196a87cde6ec5563d9a29ba3aded214442bbc71951a345f9"
     }
   }
 }
