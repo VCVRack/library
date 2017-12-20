@@ -13,7 +13,7 @@
       "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.4/MSM.MAC.zip",
       "sha256": "bdeee52705dfd5e1bf51650c478961adbe19fad743a810f58a26af20f0de9ea8"
     },
-    "linux": {
+    "lin": {
       "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.4/MSM.LINUX.zip",
       "sha256": "d626abf45c5a562dfef0b68a3a34ee852159c3ce2918d4bc57db1fa950ff3727"
     }
