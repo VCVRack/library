@@ -4,6 +4,7 @@
   "author": "Autodafe",
   "version": "0.5.0",
    "homepage": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules.html",
+   "donation": "https://www.paypal.me/autodafe",
   "downloads": {
       "win": {
         "download": "https://www.autodafe.net/VCVRack/Autodafe-REDs-FREE.zip",
