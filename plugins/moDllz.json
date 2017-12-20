@@ -3,13 +3,13 @@
   "name": "moDllz",
   "author": "dllmusic",
   "license": "BSD 3-clause",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "manual": "https://github.com/dllmusic/VCV_moDllz/blob/master/README.md",
   "source": "https://github.com/dllmusic/VCV_moDllz",
   "downloads": {
     "mac": {
-      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/moDllz-0.5.0-mac.zip?raw=true",
-      "sha256": "273db62abc0fcdfbcbca0c1941851c7aba072d0c9ab6afe7d3bdccf74f3c459b"
+      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/moDllz-0.5.1-mac.zip?raw=true",
+      "sha256": "a211925b690d178843175ed8c7442b1d31ca818d614ed50a151bb8539e72cf74"
     }
   }
 }
