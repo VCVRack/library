@@ -6,7 +6,7 @@ const validate = ajv.compile(require('./manifest.json'));
 
 describe("json", function() {
 
-  it("manifest files should be valid against the schema", function(/*done*/) {//TODO fix
+  it("manifest files should be valid against the schema", function(/*done*/) {//TODO call done on Promise.all done
     fs.readdir('plugins', function(err, files) {
         if (err){ 
             fail("unable to read plugins dir"); 
