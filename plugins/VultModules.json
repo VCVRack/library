@@ -9,15 +9,15 @@
   "downloads": {
     "win": {
       "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.3/Vult-0.5.3-win.zip",
-      "sha256": "0c32fb89f6c80a8a70cd5b51e916553ca00819ccf99f2bf8b654c1278a509f35"
+      "sha256": "7d2560aa197aac48efc8e7a0327ff0d1af13db036e1caca2cd053835962208c1"
     },
     "mac": {
       "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.3/Vult-0.5.3-mac.zip",
-      "sha256": "52d5a59c7db23a830c3874c519b46125cb2e6eb89a8e7278bc388de34615fe05"
+      "sha256": "1c8039c0e69704e979e4e77a3fb35773bbabef352f1c47e4712878d9823f0bc2"
     },
     "lin": {
       "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.3/Vult-0.5.3-lin.zip",
-      "sha256": "e101f49f289a3dd6e5342e27f68389458d031ecc1a51604f835426afd47009de"
+      "sha256": "b950914ff6ecd3aad05c7f56fbd08839e2ddf52a7a7d57bae653f547d396fe5e"
     }
   }
 }
