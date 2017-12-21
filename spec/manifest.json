@@ -6,6 +6,7 @@
     "version"
   ],
   "description": "A plugin manifest file for VCV Rack.",
+  "additionalProperties": false,
   "properties": {
     "slug": {
       "type": "string",
@@ -53,6 +54,7 @@
     },
     "downloads": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "win": {
           "type": "object",
@@ -95,6 +97,5 @@
         }
       }
     }
-  },
-  "additionalProperties": false
+  }
 }

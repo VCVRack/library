@@ -6,7 +6,7 @@ const validate = ajv.compile(require('./manifest.json'));
 
 describe("json", function() {
 
-  it("manifest files should be valid against the schema", function(done) {
+  it("manifest files should be valid against the schema", function(/*done*/) {//TODO fix
     fs.readdir('plugins', function(err, files) {
         if (err){ 
             fail("unable to read plugins dir"); 
@@ -47,12 +47,12 @@ describe("json", function() {
                         fail(`version '${obj.version}' must start with '${CUR_VER_PREFIX}'`);
                     }
 
-                    done();
                 } catch(err){
                     fail(`Invalid JSON: ${filePath}\n${err}`);
                 }
             });
         }
+        // done(); //TODO use promises
     });
   });
 
