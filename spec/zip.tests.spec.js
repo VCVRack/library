@@ -1,4 +1,4 @@
-const TEMP_DIR = ".tmp-zip-downloads/";
+const TEMP_DIR = ".tmp-zips/";
 const fs = require("fs");
 const request = require("request");
 const { execSync } = require('child_process');
@@ -33,7 +33,7 @@ describe("zips", function() {
     });
 
     const testZipsInMF = (filePath) => {
-        it("valid zips in manifest", function(done) {
+        it("valid zip files in manifest", function(done) {
             const mfObj = JSON.parse(fs.readFileSync(filePath, 'utf8'));
             if(mfObj.downloads){
                 const urlsChecked = [];
@@ -68,7 +68,14 @@ function testOneZip(expectedRootDir, osObj, done) {
         console.log(`Downloaded ${TEMP_DIR+zipName}`);
         const zip = new AdmZip(TEMP_DIR+zipName);
         const zipEntries = zip.getEntries();
-        const invalidEntry = zipEntries.find(ze => !ze.entryName.startsWith(expectedRootDir));
+        // zipEntries.map(ze=>console.log(ze.toString()));
+
+        const slugDirFound = zipEntries.find(ze => ze.isDirectory && ze.entryName === expectedRootDir+'/');
+        if(!slugDirFound){
+            fail(`Zip should have one dir named ${expectedRootDir}`);
+        }
+
+        const invalidEntry = zipEntries.find(ze => !ze.entryName.startsWith(expectedRootDir+'/'));
         if(invalidEntry){
             fail(`Zip entries should all be under a dir named ${expectedRootDir} but this entry was found: ${invalidEntry.entryName}`);
         }
