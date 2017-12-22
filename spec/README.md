@@ -5,15 +5,18 @@
 [Jasmine Intro](https://jasmine.github.io/2.8/introduction.html)
 
 To run all tests:
-
 ```
 npm test
 ```
 
-To run only the zip tests for example:
-
+To run one set of tests:
 ```
-./node_modules/.bin/jasmine --filter=zip
+npm test spec/basic.tests.spec.js
+```
+
+To force the zip tests to run for certain manifest files:
+```
+TEST_MANIFEST_ZIPS=plugins/JW-Modules.json npm test
 ```
 
 ## Virus Total
@@ -24,9 +27,4 @@ To run only the zip tests for example:
 
 [Public API](https://www.virustotal.com/en/documentation/public-api/v2/)
 
-[Node Module](https://github.com/natewatson999/node-virustotal)
 
-
-## Schema Validation 
-
-[AJV](https://github.com/epoberezkin/ajv)

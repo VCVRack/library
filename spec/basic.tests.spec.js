@@ -2,7 +2,7 @@ const CUR_VER_PREFIX = '0.5';
 const MF_DIR = 'plugins';
 const fs = require("fs");
 
-const Ajv = require('ajv');
+const Ajv = require('ajv'); //https://github.com/epoberezkin/ajv
 const ajv = new Ajv({allErrors:true});
 const validate = ajv.compile(require('./manifest.json'));
 

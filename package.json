@@ -14,7 +14,9 @@
   },
   "homepage": "https://github.com/VCVRack/community#readme",
   "devDependencies": {
+    "adm-zip": "^0.4.7",
     "ajv": "^5.5.2",
+    "hash-files": "^1.1.1",
     "jasmine": "^2.8.0",
     "node-virustotal": "^2.4.2",
     "request": "^2.83.0"

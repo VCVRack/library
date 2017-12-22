@@ -1,12 +1,12 @@
 {
   "id": "manifest.json",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "slug",
     "version"
   ],
   "description": "A plugin manifest file for VCV Rack.",
-  "additionalProperties": false,
   "properties": {
     "slug": {
       "type": "string",
@@ -58,6 +58,11 @@
       "properties": {
         "win": {
           "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "download",
+            "sha256"
+          ],
           "properties": {
             "download": {
               "type": "string",
@@ -71,6 +76,11 @@
         },
         "lin": {
           "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "download",
+            "sha256"
+          ],
           "properties": {
             "download": {
               "type": "string",
@@ -84,6 +94,11 @@
         },
         "mac": {
           "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "download",
+            "sha256"
+          ],
           "properties": {
             "download": {
               "type": "string",
