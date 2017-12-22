@@ -10,39 +10,39 @@
   "properties": {
     "slug": {
       "type": "string",
-      "description": ""
+      "description": "SEE README"
     },
     "name": {
       "type": "string",
-      "description": ""
+      "description": "SEE README"
     },
     "author": {
       "type": "string",
-      "description": ""
+      "description": "SEE README"
     },
     "license": {
       "type": "string",
-      "description": ""
+      "description": "SEE README"
     },
     "version": {
       "type": "string",
-      "description": ""
+      "description": "SEE README"
     },
     "homepage": {
       "type": "string",
-      "description": ""
+      "description": "SEE README"
     },
     "donation": {
       "type": "string",
-      "description": ""
+      "description": "SEE README"
     },
     "manual": {
       "type": "string",
-      "description": ""
+      "description": "SEE README"
     },
     "source": {
       "type": "string",
-      "description": ""
+      "description": "SEE README"
     },
     "disabled": {
       "type": "boolean",
@@ -66,11 +66,11 @@
           "properties": {
             "download": {
               "type": "string",
-              "description": ""
+              "description": "SEE README"
             },
             "sha256": {
               "type": "string",
-              "description": ""
+              "description": "SEE README"
             }
           }
         },
@@ -84,11 +84,11 @@
           "properties": {
             "download": {
               "type": "string",
-              "description": ""
+              "description": "SEE README"
             },
             "sha256": {
               "type": "string",
-              "description": ""
+              "description": "SEE README"
             }
           }
         },
@@ -102,11 +102,11 @@
           "properties": {
             "download": {
               "type": "string",
-              "description": ""
+              "description": "SEE README"
             },
             "sha256": {
               "type": "string",
-              "description": ""
+              "description": "SEE README"
             }
           }
         }
