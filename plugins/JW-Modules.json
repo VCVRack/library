@@ -7,7 +7,7 @@
   "manual": "https://github.com/jeremywen/JW-Modules/blob/master/README.md",
   "source": "https://github.com/jeremywen/JW-Modules",
   "downloads": {
-    "win": {
+    "SHOULD FAIL": {
       "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.7/JW-Modules-0.5.7.zip",
       "sha256": "327a11fed6f2299e87d799a58c0e5b2c026649c1c863367e8a54a116ac258c06"
     },
