@@ -70,12 +70,14 @@ function testOneZip(expectedRootDir, osObj, done) {
         const zipEntries = zip.getEntries();
         // zipEntries.map(ze=>console.log(ze.toString()));
 
-        const slugDirFound = zipEntries.find(ze => ze.isDirectory && ze.entryName === expectedRootDir+'/');
+        const slugDirFound = zipEntries.find(ze => ze.isDirectory && 
+            (ze.entryName === expectedRootDir+'/' || ze.entryName === expectedRootDir+'\\')
+        );
         if(!slugDirFound){
             fail(`Zip should have one dir named ${expectedRootDir}`);
         }
 
-        const invalidEntry = zipEntries.find(ze => !ze.entryName.startsWith(expectedRootDir+'/'));
+        const invalidEntry = zipEntries.find(ze => !ze.entryName.startsWith(slugDirFound.entryName));
         if(invalidEntry){
             fail(`Zip entries should all be under a dir named ${expectedRootDir} but this entry was found: ${invalidEntry.entryName}`);
         }
