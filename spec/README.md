@@ -1,4 +1,6 @@
-# Jasmine Tests
+# Tests
+
+## Jasmine
 
 [Jasmine Intro](https://jasmine.github.io/2.8/introduction.html)
 
@@ -14,7 +16,7 @@ To run only the zip tests for example:
 ./node_modules/.bin/jasmine --filter=zip
 ```
 
-# Virus Total
+## Virus Total
 
 **Rate Limit: 4 per minute**
 
@@ -25,3 +27,6 @@ To run only the zip tests for example:
 [Node Module](https://github.com/natewatson999/node-virustotal)
 
 
+## Schema Validation 
+
+[AJV](https://github.com/epoberezkin/ajv)
