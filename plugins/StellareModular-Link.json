@@ -1,0 +1,25 @@
+{
+  "slug": "StellareModular-Link",
+  "name": "Stellare Link",
+  "author": "Stellare Modular",
+  "license": "GPL-3",
+  "version": "0.5.1",
+  "homepage": "https://www.facebook.com/stellaremodular",
+  "donation": "https://paypal.me/stellaremodular",
+  "manual": "https://github.com/stellare-modular/vcv-link/blob/master/README.md",
+  "source": "https://github.com/stellare-modular/vcv-link",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/stellare-modular/vcv-link/releases/download/0.5.1/StellareModular-Link-0.5.1.zip",
+      "sha256": "ebe352951876af91d9139bf51491c94d45bbebd94bc9b906d05f4621ed7f0d77"
+    },
+    "mac": {
+      "download": "https://github.com/stellare-modular/vcv-link/releases/download/0.5.1/StellareModular-Link-0.5.1.zip",
+      "sha256": "ebe352951876af91d9139bf51491c94d45bbebd94bc9b906d05f4621ed7f0d77"
+    },
+    "lin": {
+      "download": "https://github.com/stellare-modular/vcv-link/releases/download/0.5.1/StellareModular-Link-0.5.1.zip",
+      "sha256": "ebe352951876af91d9139bf51491c94d45bbebd94bc9b906d05f4621ed7f0d77"
+    }
+  }
+}
