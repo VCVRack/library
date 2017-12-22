@@ -2,19 +2,15 @@
   "slug": "Bidoo",
   "name": "bid°°",
   "author": "sebastien-bouffier",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "license": "BSD 3-clause",
   "source": "https://github.com/sebastien-bouffier/Bidoo",
   "manual": "https://github.com/sebastien-bouffier/Bidoo/wiki",
   "donation": "https://paypal.me/sebastienbouffier",
   "downloads": {
     "win": {
-      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1575756/Bidoo.WIN.0.5.8.zip",
-      "sha256": "f05ef2128b0457ee48c42482894e20aea8f8ff1c6271e82c6a24439d0e8dc83d"
-    },
-    "lin": {
-      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1576565/Bidoo.LIN.0.5.8.zip",
-      "sha256": "b7501a59b8aa0390cb939ee5ce0754a2ca3c912683938bbc7cb049ce6db5ee99"
+      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1580630/Bidoo-0.5.9-win.zip",
+      "sha256": "ff1c15c3095e40bf275a05725574db248568bf3ecc6fe3dc409add54bcab1d38"
     }
   }
 }

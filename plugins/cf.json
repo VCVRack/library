@@ -1,7 +1,9 @@
 {
   "slug": "cf",
   "name": "cf",
-  "author": "cfoulc",
+  "author": "clément foulc",
+  "version": "0.5.10",
+  "donation": "https://www.paypal.me/cfoulc",
   "source": "https://github.com/cfoulc/cf",
   "manual": "https://github.com/cfoulc/cf/blob/master/README.md",
   "downloads": {

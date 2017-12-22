@@ -1,22 +1,24 @@
 {
   "slug": "StellareModular",
-  "name": "Stellare Modular",
+  "name": "Turing Machine + Blank",
+  "author": "Stellare Modular",
   "license": "MIT",
-  "homepage": "https://www.facebook.com/stellaremodular/",
+  "version": "0.5.1",
+  "homepage": "https://www.facebook.com/stellaremodular",
+  "donation": "https://paypal.me/stellaremodular",
   "manual": "https://github.com/stellare-modular/vcv-rack/blob/master/README.md",
-  "source": "https://github.com/stellare-modular",
   "downloads": {
     "win": {
-      "download": "https://github.com/stellare-modular/vcv-rack/releases/download/0.5.0/Stellare-Modular.zip",
-      "sha256": "83241b5560d3db9a57f16230b650109d3aab6a6bb7086badf9f07e01a628c3d7"
+      "download": "https://github.com/stellare-modular/vcv-rack/releases/download/0.5.1/Stellare-Modular-0.5.1.zip",
+      "sha256": "406fe11b1e908709226a9014590d72871e8de8301a3b0239e8ddd85d02baefc5"
     },
     "mac": {
-      "download": "https://github.com/stellare-modular/vcv-rack/releases/download/0.5.0/Stellare-Modular.zip",
-      "sha256": "83241b5560d3db9a57f16230b650109d3aab6a6bb7086badf9f07e01a628c3d7"
+      "download": "https://github.com/stellare-modular/vcv-rack/releases/download/0.5.1/Stellare-Modular-0.5.1.zip",
+      "sha256": "406fe11b1e908709226a9014590d72871e8de8301a3b0239e8ddd85d02baefc5"
     },
     "lin": {
-      "download": "https://github.com/stellare-modular/vcv-rack/releases/download/0.5.0/Stellare-Modular.zip",
-      "sha256": "83241b5560d3db9a57f16230b650109d3aab6a6bb7086badf9f07e01a628c3d7"
+      "download": "https://github.com/stellare-modular/vcv-rack/releases/download/0.5.1/Stellare-Modular-0.5.1.zip",
+      "sha256": "406fe11b1e908709226a9014590d72871e8de8301a3b0239e8ddd85d02baefc5"
     }
   }
 }
