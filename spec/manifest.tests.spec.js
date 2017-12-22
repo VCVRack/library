@@ -1,5 +1,12 @@
 const TEMP_DIR = ".tmp-zips/";
+const CUR_VER_PREFIX = '0.5';
+const MF_DIR = 'plugins';
 const fs = require("fs");
+
+const Ajv = require('ajv'); //https://github.com/epoberezkin/ajv
+const ajv = new Ajv({allErrors:true});
+const validate = ajv.compile(require('./manifest.json'));
+
 const request = require("request");
 const { execSync } = require('child_process');
 const AdmZip = require('adm-zip'); //https://github.com/cthackers/adm-zip
@@ -7,8 +14,8 @@ const hashFiles = require('hash-files'); //https://github.com/mac-/hash-files
 const manifestsToTest = getManifestsThatApply();
 
 if(manifestsToTest.length === 0){
-    console.log("No manifest zip files to test.");
-    process.exit(0);
+    console.log("No manifest files to test.");
+    return;
 }
 
 //virus total stuff
@@ -21,7 +28,7 @@ if(VIRUS_TOTAL_ENABLED){
     jasmine.DEFAULT_TIMEOUT_INTERVAL = manifestsToTest.length * 4 * con.getDelay();
 }
 
-describe("zips", function() {
+describe("test manifests", function() {
     
     beforeEach(()=>{
         execSync(`mkdir -p ${TEMP_DIR}`)
@@ -32,32 +39,62 @@ describe("zips", function() {
         fs.rmdirSync(TEMP_DIR);
     });
 
-    const testZipsInMF = (filePath) => {
-        it("valid zip files in manifest", function(done) {
-            const mfObj = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-            if(mfObj.downloads){
-                const urlsChecked = [];
-                let lastSha256;
-                ['win', 'lin', 'mac'].map(os => {
-                    const osObj = mfObj.downloads[os];
-                    if(osObj && osObj.download && osObj.sha256){
-                        const zipUrl = osObj.download;
-                        if(urlsChecked.includes(zipUrl)){
-                            if(lastSha256 !== osObj.sha256){
-                                fail("SHA256 should be the same if the download URL is the same");
+    const testMF = (filePath) => {
+        it("valid properties and zip files", function(done) {
+
+            try {
+                if (!filePath.toLowerCase().endsWith('.json')) {
+                    fail("manifests should have .json extension");
+                }
+
+                const fileContent = fs.readFileSync(filePath, 'utf8');
+                const mfObj = JSON.parse(fileContent);
+                const valid = validate(mfObj);
+                if (!valid) {
+                    validate.errors.map(e => e.message += ` in ${filePath}`)
+                    fail(validate.errors);
+                }
+
+                if (!(/^[a-zA-Z0-9_\-]*$/).test(mfObj.slug)) {
+                    fail(`slug does not match regex in ${filePath}`);
+                }
+
+                const fileName = filePath.replace('plugins/', '');
+                if (fileName.replace('.json', '') !== mfObj.slug) {
+                    fail(`slug '${mfObj.slug}' does not match fileName: ${fileName}`);
+                }
+
+                if (mfObj.version && !mfObj.version.startsWith(CUR_VER_PREFIX)) {
+                    fail(`version '${mfObj.version}' must start with '${CUR_VER_PREFIX}'`);
+                }
+
+                if(mfObj.downloads){
+                    const urlsChecked = [];
+                    let lastSha256;
+                    ['win', 'lin', 'mac'].map(os => {
+                        const osObj = mfObj.downloads[os];
+                        if(osObj && osObj.download && osObj.sha256){
+                            const zipUrl = osObj.download;
+                            if(urlsChecked.includes(zipUrl)){
+                                if(lastSha256 !== osObj.sha256){
+                                    fail("SHA256 should be the same if the download URL is the same");
+                                }
+                            } else {
+                                urlsChecked.push(zipUrl);
+                                lastSha256 = osObj.sha256;
+                                testOneZip(mfObj.slug, osObj, done);
                             }
-                        } else {
-                            urlsChecked.push(zipUrl);
-                            lastSha256 = osObj.sha256;
-                            testOneZip(mfObj.slug, osObj, done);
                         }
-                    }
-                });
+                    });
+                }
+
+            } catch(err){
+                fail(`Error while trying to validate manifest: ${fileName}\n${err}`);
             }
         });
     };
 
-    manifestsToTest.map(testZipsInMF);
+    manifestsToTest.map(testMF);
 });
 
 function testOneZip(expectedRootDir, osObj, done) {
@@ -109,10 +146,10 @@ function testOneZip(expectedRootDir, osObj, done) {
 
 function getManifestsThatApply(){
     let paths = "";
-    if(process.env.TEST_MANIFEST_ZIPS){
-         paths = process.env.TEST_MANIFEST_ZIPS;
+    if(process.env.TEST_MANIFEST){
+         paths = process.env.TEST_MANIFEST;
     } else {
-        paths = execSync('git diff -w --stat --name-only origin/master -- plugins/', {encoding:'utf8'});
+        paths = execSync(`git diff -w --stat --name-only origin/master -- ${MF_DIR}/`, {encoding:'utf8'});
     }
     return paths.trim().split('\n').filter(s=>s.trim() !== '');
 }

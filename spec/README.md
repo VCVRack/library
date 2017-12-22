@@ -4,22 +4,16 @@
 
 [Jasmine Intro](https://jasmine.github.io/2.8/introduction.html)
 
-* the **basic** tests run on every manifest on any change.
-* the **zip** tests only run on manifest files which are different than master.
+Tests only run on changed manifests files.
 
 To run all tests:
 ```
 npm test
 ```
 
-To run one set of tests:
+To force the tests to run for certain manifest files:
 ```
-npm test spec/basic.tests.spec.js
-```
-
-To force the zip tests to run for certain manifest files:
-```
-TEST_MANIFEST_ZIPS=plugins/JW-Modules.json npm test spec/zip.tests.spec.js
+TEST_MANIFEST=plugins/JW-Modules.json npm test spec/zip.tests.spec.js
 ```
 
 ## Schema Validation
