@@ -13,7 +13,7 @@ npm test
 
 To force the tests to run for certain manifest files:
 ```
-TEST_MANIFEST=plugins/JW-Modules.json npm test spec/zip.tests.spec.js
+TEST_MANIFEST=plugins/JW-Modules.json npm test
 ```
 
 ## Schema Validation
