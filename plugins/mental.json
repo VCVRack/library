@@ -18,5 +18,6 @@
       "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/releases/download/v0.5b/Strums_Mental_VCV_Modules_05b_linux.zip",
       "sha256": "4782481e26fd3d50a900eaaeb2a0ce173c0ff8fe14f7aa82b3669fe6dd454c44"
     }
-  }
+  },
+  "disabled": true
 }

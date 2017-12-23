@@ -4,15 +4,5 @@
   "author": "phdsg",
   "version": "0.5.1",
   "source": "https://github.com/phdsg/PvC",
-  "manual": "https://github.com/phdsg/PvC/blob/master/README.md",
-  "downloads": {
-    "win": {
-      "download": "https://github.com/phdsg/PvC/releases/download/0.5.1/PvC-0.5.1-win.zip",
-      "sha256": "c47593ea6ecc33ca6d181518890c4df4b53dbca3fd2174b87ce56178fac5614b"
-    },
-    "lin": {
-      "download": "https://github.com/phdsg/PvC/releases/download/0.5.1/PvC-0.5.1-lin.zip",
-      "sha256": "f4886b085e91afd183eed7f6d1b47e5587841e4011347841a1db3d916e28fe37"
-    }
-  }
+  "manual": "https://github.com/phdsg/PvC/blob/master/README.md"
 }
