@@ -8,15 +8,15 @@
   "downloads": {
     "win": {
       "download": "https://www.autodafe.net/VCVRack/Autodafe-REDs-FREE.zip",
-      "sha256": "14f87483ed7b67cc45b52db21f99665b4b9dbc044351e404a37201ffb440c47f"
+      "sha256": "bc60a3e28e27dcb867b37c4cd352b5f6970dcf8efbdd00d4628488f69b7d2611"
     },
     "lin": {
       "download": "https://www.autodafe.net/VCVRack/Autodafe-REDs-FREE.zip",
-      "sha256": "14f87483ed7b67cc45b52db21f99665b4b9dbc044351e404a37201ffb440c47f"
+      "sha256": "bc60a3e28e27dcb867b37c4cd352b5f6970dcf8efbdd00d4628488f69b7d2611"
     },
     "mac": {
       "download": "https://www.autodafe.net/VCVRack/Autodafe-REDs-FREE.zip",
-      "sha256": "14f87483ed7b67cc45b52db21f99665b4b9dbc044351e404a37201ffb440c47f"
+      "sha256": "bc60a3e28e27dcb867b37c4cd352b5f6970dcf8efbdd00d4628488f69b7d2611"
     }
   }
 }
