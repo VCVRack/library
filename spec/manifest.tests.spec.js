@@ -89,7 +89,7 @@ describe("test manifests", function() {
                 }
 
             } catch(err){
-                fail(`Error while trying to validate manifest: ${fileName}\n${err}`);
+                fail(`Error while trying to validate manifest: ${filePath}\n${err}`);
             }
         });
     };
