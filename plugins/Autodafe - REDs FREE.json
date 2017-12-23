@@ -4,19 +4,5 @@
   "author": "Autodafe",
   "version": "0.5.1",
   "homepage": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules.html",
-  "donation": "https://www.paypal.me/autodafe",
-  "downloads": {
-    "win": {
-      "download": "https://www.autodafe.net/VCVRack/Autodafe-REDs-FREE.zip",
-      "sha256": "bc60a3e28e27dcb867b37c4cd352b5f6970dcf8efbdd00d4628488f69b7d2611"
-    },
-    "lin": {
-      "download": "https://www.autodafe.net/VCVRack/Autodafe-REDs-FREE.zip",
-      "sha256": "bc60a3e28e27dcb867b37c4cd352b5f6970dcf8efbdd00d4628488f69b7d2611"
-    },
-    "mac": {
-      "download": "https://www.autodafe.net/VCVRack/Autodafe-REDs-FREE.zip",
-      "sha256": "bc60a3e28e27dcb867b37c4cd352b5f6970dcf8efbdd00d4628488f69b7d2611"
-    }
-  }
+  "donation": "https://www.paypal.me/autodafe"
 }

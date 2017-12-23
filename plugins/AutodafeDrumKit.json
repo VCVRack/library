@@ -5,19 +5,5 @@
   "version": "0.5.1",
   "source": "https://github.com/antoniograzioli/Autodafe-Drums",
   "homepage": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules.html",
-  "donation": "https://www.paypal.me/autodafe",
-  "downloads": {
-    "win": {
-      "download": "https://www.autodafe.net/VCVRack/Autodafe-Drum-Kit-VCV-Rack.zip",
-      "sha256": "9bcf29c85665f9e9ab3bf976bf12b47b1adc5a485cbcbf8bd0dd0ff2be2e1895"
-    },
-    "lin": {
-      "download": "https://www.autodafe.net/VCVRack/Autodafe-Drum-Kit-VCV-Rack.zip",
-      "sha256": "9bcf29c85665f9e9ab3bf976bf12b47b1adc5a485cbcbf8bd0dd0ff2be2e1895"
-    },
-    "mac": {
-      "download": "https://www.autodafe.net/VCVRack/Autodafe-Drum-Kit-VCV-Rack.zip",
-      "sha256": "9bcf29c85665f9e9ab3bf976bf12b47b1adc5a485cbcbf8bd0dd0ff2be2e1895"
-    }
-  }
+  "donation": "https://www.paypal.me/autodafe"
 }
