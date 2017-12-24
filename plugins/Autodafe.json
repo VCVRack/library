@@ -8,16 +8,16 @@
   "donation": "https://www.paypal.me/autodafe",
   "downloads": {
     "win": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-win.zip",
-      "sha256": "e75e476dab756075468b31e82f0b7a0538ce66f606f62217c244de6050b71baa"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-0.5.1-win.zip",
+      "sha256": "93d75bd954299fa2f0fad6c7945b7d1182cc8efd5a4276446a8b283f90484e2b"
     },
     "lin": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-lin.zip",
-      "sha256": "2810d3fbeb643f993d27416ed32f10904ceebaafe3a9e75255334b756c94fa52"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-0.5.1-lin.zip",
+      "sha256": "01cc8f37db5d4c572d739520b375847e5f18132b0cedfbae3b3474669e50e77c"
     },
     "mac": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-mac.zip",
-      "sha256": "e79e7ec9142073a7e560cde07c0db6c9ef6c26f35c147f08ed46f8f43d001418"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-0.5.1-mac.zip",
+      "sha256": "a071ca35661ecd125d2955c1501137188338304400b1a515d4bc34f018a344fc"
     }
   }
   
