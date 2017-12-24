@@ -1,5 +1,5 @@
 {
-  "slug": "Autodafe - Drum Kit",
+  "slug": "Autodafe-DrumKit",
   "name": "Autodafe Drum Kit",
   "author": "Autodafe",
   "version": "0.5.1",
@@ -8,16 +8,16 @@
   "donation": "https://www.paypal.me/autodafe",
    "downloads": {
     "win": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-win.zip",
-      "sha256": "e75e476dab756075468b31e82f0b7a0538ce66f606f62217c244de6050b71baa"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-DrumKit-0.5.1-win.zip",
+      "sha256": "462655bd8e3489b225dd2dc7eb88d51ebc0d274cc60a3dce0d02edf1bfce4119"
     },
     "lin": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-lin.zip",
-      "sha256": "2810d3fbeb643f993d27416ed32f10904ceebaafe3a9e75255334b756c94fa52"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-DrumKit-0.5.1-lin.zip",
+      "sha256": "1aeb402c5aab360222dfda0898852f4056f08d0a97f1beba72f8704299ec377b"
     },
     "mac": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-mac.zip",
-      "sha256": "e79e7ec9142073a7e560cde07c0db6c9ef6c26f35c147f08ed46f8f43d001418"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-DrumKit-0.5.1-mac.zip",
+      "sha256": "f3d00d2cb9a0af45bcff657c99cb4acafddff0e07c0fb3f463ee7e340e301232"
     }
   }
 }
