@@ -15,7 +15,7 @@
     },
     "lin": {
       "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.0/AS-0.5.0-lin.zip",
-      "sha256": ""
+      "sha256": "db6c77f01b5527e2e1a513b5153fac880676e1a2cc02a1ee04ded36b9e954b65"
     },
     "mac": {
       "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.0/AS-0.5.0-mac.zip",
