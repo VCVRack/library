@@ -8,15 +8,15 @@
   "donation": "https://www.paypal.me/autodafe",
   "downloads": {
     "win": {
-      "download": "www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-win.zip",
+      "download": "http://www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-win.zip",
       "sha256": "e75e476dab756075468b31e82f0b7a0538ce66f606f62217c244de6050b71baa"
     },
     "lin": {
-      "download": "www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-lin.zip",
+      "download": "http://www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-lin.zip",
       "sha256": "2810d3fbeb643f993d27416ed32f10904ceebaafe3a9e75255334b756c94fa52"
     },
     "mac": {
-      "download": "www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-mac.zip",
+      "download": "http://www.autodafe.net/VCVRack/Autodafe - Drum Kit-0.5.1-mac.zip",
       "sha256": "e79e7ec9142073a7e560cde07c0db6c9ef6c26f35c147f08ed46f8f43d001418"
     }
   }
