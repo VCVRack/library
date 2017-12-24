@@ -11,7 +11,7 @@
   "downloads": {
     "win": {
       "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.0/AS-0.5.0-win.zip",
-      "sha256": "5239a5a8ad7f2e2aa314c3125668d213c59c1bd2b655c7f57b86b048b04e8422"
+      "sha256": "7478ccd81b32d332abb99e3f259bb5cb9fd00a196f4598cd8bd8dec4ac7f6780"
     },
     "lin": {
       "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.0/AS-0.5.0-lin.zip",
