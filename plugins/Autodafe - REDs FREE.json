@@ -1,5 +1,5 @@
 {
-  "slug": "Autodafe - REDs FREE",
+  "slug": "Autodafe-REDsFREE",
   "name": "Autodafe - REDs FREE",
   "author": "Autodafe",
   "version": "0.5.1",
@@ -7,16 +7,16 @@
   "donation": "https://www.paypal.me/autodafe",
    "downloads": {
     "win": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe - REDs FREE-0.5.1-win.zip",
-      "sha256": "f6216a33e401783db79244b2a24209360ed96c760cf15638658a2e73ef84f34e"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-REDsFREE-0.5.1-win.zip",
+      "sha256": "d4963bed85aee17f18daa8aafd10aaab575151e0ad6dc6dfa816f2d1d4d9e059"
     },
     "lin": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe - REDs FREE-0.5.1-lin.zip",
-      "sha256": "9a18db57a893833c0cbe54f19de31d126c3a85ce60527cbfa12ab870a52fd3fe"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-REDsFREE-0.5.1-lin.zip",
+      "sha256": "d9e76dd810da41a53456747a799dfcad6ab5805031b62838e3368b8e03d784f7"
     },
     "mac": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe - REDs FREE-0.5.1-mac.zip",
-      "sha256": "7cabcd9e32dbc11b7fcd1fe4bf71eda1d1a3f863630352ce2b137a4960e788b1"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-REDsFREE-0.5.1-mac.zip",
+      "sha256": "57ae6f9e7b4844a0a6715948a7a46e8c38fa3823cdcfa1e45f6660a23cb1225f"
     }
   }
 }
