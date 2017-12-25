@@ -4,17 +4,17 @@
   "author": "Michael Hetrick",
   "homepage": "https://github.com/mhetrick/hetrickcv",
   "donation": "https://paypal.me/MHetrick",
-  "version": "",
+  "version": "0.5.4",
   "source": "https://github.com/mhetrick/hetrickcv",
   "manual": "https://github.com/mhetrick/hetrickcv/blob/master/README.md",
   "downloads": {
     "win": {
-      "download": "https://github.com/mhetrick/hetrickcv/releases/download/0.5.3/HetrickCV-0.5.3-win.zip",
-      "sha256": "4afb040dcfdc72e8ae8146f0978b28d1da7331bbd2857e7b3f4a2abf4dc86e8e"
+      "download": "https://github.com/mhetrick/hetrickcv/releases/download/0.5.4/HetrickCV-0.5.4-win.zip",
+      "sha256": "4a5280c9091b69a34f8d2cc3178a702cac79c89a0a1e751dbbebbd0a7f41375c"
     },
     "mac": {
-      "download": "https://github.com/mhetrick/hetrickcv/releases/download/0.5.3/HetrickCV-0.5.3-mac.zip",
-      "sha256": "187feeb66cf84e13ea1dd3df02b3a2871c88387709903c69be8feaeca9a998f0"
+      "download": "https://github.com/mhetrick/hetrickcv/releases/download/0.5.4/HetrickCV-0.5.4-mac.zip",
+      "sha256": "fedf5738d6603ab02ec3c3912e085f82e7a6e4c956ce7058673d067a7b49ec8f"
     }
   }
 }
