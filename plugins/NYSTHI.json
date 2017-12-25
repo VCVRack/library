@@ -7,15 +7,15 @@
   "downloads": {
     "win": {
       "download": "https://github.com/nysthi/nysthi/releases/download/v0.5.10/nysthi.zip",
-      "sha256": "af5be01fd555cdab79d467b14f58f8aa13c7d32500dbc393064194279169c306"
+      "sha256": "a12253019ee04906c89aceabfe5f7cbe031e302482498a95d65b83918ebc0f37"
     },
     "mac": {
       "download": "https://github.com/nysthi/nysthi/releases/download/v0.5.10/nysthi.zip",
-      "sha256": "af5be01fd555cdab79d467b14f58f8aa13c7d32500dbc393064194279169c306"
+      "sha256": "a12253019ee04906c89aceabfe5f7cbe031e302482498a95d65b83918ebc0f37"
     },
     "lin": {
       "download": "https://github.com/nysthi/nysthi/releases/download/v0.5.10/nysthi.zip",
-      "sha256": "af5be01fd555cdab79d467b14f58f8aa13c7d32500dbc393064194279169c306"
+      "sha256": "a12253019ee04906c89aceabfe5f7cbe031e302482498a95d65b83918ebc0f37"
     }
   }
 }
