@@ -10,7 +10,7 @@
   "downloads": {
     "win": {
       "download": "https://github.com/mhetrick/hetrickcv/releases/download/0.5.4/HetrickCV-0.5.4-win.zip",
-      "sha256": "4a5280c9091b69a34f8d2cc3178a702cac79c89a0a1e751dbbebbd0a7f41375c"
+      "sha256": "6d5db0b532a5252e866d2cd12a955c8fcf78e22cb127c70ebacd418e8b1689da"
     },
     "mac": {
       "download": "https://github.com/mhetrick/hetrickcv/releases/download/0.5.4/HetrickCV-0.5.4-mac.zip",
