@@ -8,8 +8,8 @@
   "source": "https://github.com/dllmusic/VCV_moDllz",
   "downloads": {
     "win": {
-      "download": "",
-      "sha256": ""
+      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist/moDllz-0.5.2-win.zip?raw=true",
+      "sha256": "991296d60f03893c4325b7b2077ef84c4cf1f4d4651137ea877ae865cb7501cd"
     },
     "mac": {
       "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist/moDllz-0.5.2-mac.zip?raw=true",
