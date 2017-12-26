@@ -1,0 +1,25 @@
+{
+  "slug": "AS",
+  "name": "AS",
+  "author": "Alfredo Santamaria",
+  "license": "CC0 1.0 Universal",
+  "version": "0.5.0",
+  "homepage": "https://github.com/AScustomWorks/AS",
+  "donation": "https://www.paypal.me/frederius/",
+  "manual": "https://github.com/AScustomWorks/AS/blob/master/README.md",
+  "source": "https://github.com/AScustomWorks/AS",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.0/AS-0.5.0-win.zip",
+      "sha256": "7478ccd81b32d332abb99e3f259bb5cb9fd00a196f4598cd8bd8dec4ac7f6780"
+    },
+    "lin": {
+      "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.0/AS-0.5.0-lin.zip",
+      "sha256": "db6c77f01b5527e2e1a513b5153fac880676e1a2cc02a1ee04ded36b9e954b65"
+    },
+    "mac": {
+      "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.0/AS-0.5.0-mac.zip",
+      "sha256": "45d871d19d884ebfb085a511c8bb8e3ad8cafdcab34a9e5fcc122a551c26f759"
+    }
+  }
+}

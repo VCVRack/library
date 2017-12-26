@@ -2,20 +2,21 @@
   "slug": "LOGinstruments",
   "name": "LOGinstruments",
   "author": "leopard86",
+  "version": "0.5.5",
   "source": "https://github.com/leopard86/LOGinstruments",
   "manual": "https://github.com/leopard86/LOGinstruments/blob/master/README.md",
   "downloads": {
     "win": {
-      "download": "https://github.com/leopard86/LOGinstruments/releases/download/v0_5_3/LOGinstruments-all-platforms-v053.zip",
-      "sha256": "e2bae5c98097f337af2ac1e3f4c914bffb4aa0a75906ffdd45e76a98a90cfd8e"
+      "download": "https://github.com/leopard86/LOGinstruments/releases/download/v0_5_5/LOGinstruments-0.5.5-win.zip",
+      "sha256": "34783266e8cebd27d796211ad6afe545ef3ff2beba5674110d8bd552507f9e37"
     },
     "mac": {
-      "download": "https://github.com/leopard86/LOGinstruments/releases/download/v0_5_3/LOGinstruments-all-platforms-v053.zip",
-      "sha256": "e2bae5c98097f337af2ac1e3f4c914bffb4aa0a75906ffdd45e76a98a90cfd8e"
+      "download": "https://github.com/leopard86/LOGinstruments/releases/download/v0_5_5/LOGinstruments-0.5.5-mac.zip",
+      "sha256": "d324044b8a88244d1a57f909b02017ad8a251da899ff3e3a646a1cb9643bf4da"
     },
     "lin": {
-      "download": "https://github.com/leopard86/LOGinstruments/releases/download/v0_5_3/LOGinstruments-all-platforms-v053.zip",
-      "sha256": "e2bae5c98097f337af2ac1e3f4c914bffb4aa0a75906ffdd45e76a98a90cfd8e"
+      "download": "https://github.com/leopard86/LOGinstruments/releases/download/v0_5_5/LOGinstruments-0.5.5-lin.zip",
+      "sha256": "ceb58af00ff6822dd3d9c5232eca593ab27fd6a929d081fb00a8abaa7060d5d1"
     }
   }
 }
