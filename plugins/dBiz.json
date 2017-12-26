@@ -7,8 +7,8 @@
   "manual": "https://github.com/dBiz/dBiz/blob/master/README.md",
   "downloads": {
     "win": {
-      "download": "https://github.com/dBiz/dBiz/files/1513107/dBiz--win.zip",
-      "sha256": "b2da8c7711d85da8ba99cc683b05f6f7dc6c3f634e28010aff0693e3002af99b"
+      "download": "https://github.com/dBiz/dBiz/releases/download/v0.5.2/dBiz-0.5.1-win.zip",
+      "sha256": "120378b562ff7a74e96f09314a3d9de0a69574b87edddc6cf52ea37957e6fa43"
     }
   }
 }

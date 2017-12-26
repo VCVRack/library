@@ -3,11 +3,5 @@
   "name": "RODENTMODULES",
   "author": "RODENTCAT",
   "version": "0.5.0",
-  "source": "https://github.com/RODENTCAT/RODENTMODULES",
-  "downloads": {
-    "mac": {
-      "download": "https://github.com/RODENTCAT/RODENTMODULES/releases/download/0.5.0/RODENTMODULES.zip",
-      "sha256": "ed59da71379acf593623b6df24c83d050ea3d8f37b099a3f3039c3dbffd8e2d2"
-    }
-  }
+  "source": "https://github.com/RODENTCAT/RODENTMODULES"
 }

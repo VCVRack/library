@@ -1,0 +1,116 @@
+{
+  "id": "manifest.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "version"
+  ],
+  "description": "A plugin manifest file for VCV Rack.",
+  "properties": {
+    "slug": {
+      "type": "string",
+      "description": "SEE README"
+    },
+    "name": {
+      "type": "string",
+      "description": "SEE README"
+    },
+    "author": {
+      "type": "string",
+      "description": "SEE README"
+    },
+    "license": {
+      "type": "string",
+      "description": "SEE README"
+    },
+    "version": {
+      "type": "string",
+      "description": "SEE README"
+    },
+    "homepage": {
+      "type": "string",
+      "description": "SEE README"
+    },
+    "donation": {
+      "type": "string",
+      "description": "SEE README"
+    },
+    "manual": {
+      "type": "string",
+      "description": "SEE README"
+    },
+    "source": {
+      "type": "string",
+      "description": "SEE README"
+    },
+    "disabled": {
+      "type": "boolean",
+      "description": "used when a plugin needs to be disabled"
+    },
+    "productId": {
+      "type": "number",
+      "description": "only used by vcv rack website"
+    },
+    "downloads": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "win": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "download",
+            "sha256"
+          ],
+          "properties": {
+            "download": {
+              "type": "string",
+              "description": "SEE README"
+            },
+            "sha256": {
+              "type": "string",
+              "description": "SEE README"
+            }
+          }
+        },
+        "lin": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "download",
+            "sha256"
+          ],
+          "properties": {
+            "download": {
+              "type": "string",
+              "description": "SEE README"
+            },
+            "sha256": {
+              "type": "string",
+              "description": "SEE README"
+            }
+          }
+        },
+        "mac": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "download",
+            "sha256"
+          ],
+          "properties": {
+            "download": {
+              "type": "string",
+              "description": "SEE README"
+            },
+            "sha256": {
+              "type": "string",
+              "description": "SEE README"
+            }
+          }
+        }
+      }
+    }
+  }
+}

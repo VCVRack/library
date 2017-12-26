@@ -2,13 +2,18 @@
   "slug": "luckyxxl",
   "name": "luckyxxl",
   "author": "luckyxxl",
-  "version": "0.5.0",
+  "license": "zlib",
+  "version": "0.5.1",
   "source": "https://github.com/luckyxxl/vcv_luckyxxl",
-  "manual": "https://github.com/luckyxxl/vcv_luckyxxl/blob/master/README.md",
+  "manual": "https://github.com/luckyxxl/vcv_luckyxxl/blob/v0.5.1/README.md",
   "downloads": {
     "win": {
-      "download": "https://github.com/luckyxxl/vcv_luckyxxl/releases/download/v0.5.0/luckyxxl-0.5.0-win.zip",
-      "sha256": "02b2864d78b95b749e83d5aebddd00733520f2e6dcc0fa92e551a2432f835620"
+      "download": "https://github.com/luckyxxl/vcv_luckyxxl/releases/download/v0.5.1/luckyxxl-0.5.1-win.zip",
+      "sha256": "8a45268ee60280c06edb86e0d346c5c55ba5da828bb89d9ffd30c6057c43c6d8"
+    },
+    "lin": {
+      "download": "https://github.com/luckyxxl/vcv_luckyxxl/releases/download/v0.5.1/luckyxxl-0.5.1-lin.zip",
+      "sha256": "ccebdc79571c06542f27374a802b550535053bbe2cc8d0fbc668e0bd83cd1924"
     }
   }
 }

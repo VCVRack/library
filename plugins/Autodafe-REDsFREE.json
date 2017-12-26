@@ -1,0 +1,23 @@
+{
+  "slug": "Autodafe-REDsFREE",
+  "name": "Autodafe - REDs FREE",
+  "author": "Autodafe",
+  "version": "0.5.2",
+  "homepage": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules.html",
+  "manual": "https://www.autodafe.net/media/com_eshop/attachments/autodafe-reds-collection-manual.pdf",
+  "donation": "https://www.paypal.me/autodafe",
+   "downloads": {
+    "win": {
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-REDsFREE-0.5.2-win.zip",
+      "sha256": "ce34d273085ded0d90d083b080ee1360817bab78b88d0a89165a77615eaf576c"
+    },
+    "lin": {
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-REDsFREE-0.5.2-lin.zip",
+      "sha256": "3af4575b5f364824f826090b1b3e14f444448e109d180f6517ad2255b5701249"
+    },
+    "mac": {
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-REDsFREE-0.5.2-mac.zip",
+      "sha256": "29b118c81b18a15c11052f40aadd28f694ebf3a0ef834c76dd7eb705a275062d"
+    }
+  }
+}

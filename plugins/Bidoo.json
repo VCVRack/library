@@ -4,9 +4,9 @@
   "author": "sebastien-bouffier",
   "version": "0.5.10",
   "license": "BSD 3-clause",
-  "source": "https://github.com/sebastien-bouffier/Bidoo",
-  "manual": "https://github.com/sebastien-bouffier/Bidoo/wiki",
   "donation": "https://paypal.me/sebastienbouffier",
+  "manual": "https://github.com/sebastien-bouffier/Bidoo/wiki",
+  "source": "https://github.com/sebastien-bouffier/Bidoo",
   "downloads": {
     "win": {
       "download": "https://github.com/sebastien-bouffier/Bidoo/files/1587168/Bidoo-0.5.10-win.zip",
