@@ -1,6 +1,7 @@
 {
   "slug": "JW-Modules",
   "name": "JW-Modules",
+  "version": "0.5.8",
   "author": "Jeremy Wentworth",
   "homepage": "http://jeremywentworth.com",
   "donation": "https://www.paypal.me/jeremywen",
@@ -8,16 +9,16 @@
   "source": "https://github.com/jeremywen/JW-Modules",
   "downloads": {
     "win": {
-      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.7/JW-Modules-0.5.7.zip",
-      "sha256": "327a11fed6f2299e87d799a58c0e5b2c026649c1c863367e8a54a116ac258c06"
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.8/JW-Modules-0.5.8.zip",
+      "sha256": "cc651a7dba649ce350b32dba6837f8814ea119b17c2cdeb0aa3b0734a02a39ff"
     },
     "mac": {
-      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.7/JW-Modules-0.5.7.zip",
-      "sha256": "327a11fed6f2299e87d799a58c0e5b2c026649c1c863367e8a54a116ac258c06"
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.8/JW-Modules-0.5.8.zip",
+      "sha256": "cc651a7dba649ce350b32dba6837f8814ea119b17c2cdeb0aa3b0734a02a39ff"
     },
     "lin": {
-      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.7/JW-Modules-0.5.7.zip",
-      "sha256": "327a11fed6f2299e87d799a58c0e5b2c026649c1c863367e8a54a116ac258c06"
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.8/JW-Modules-0.5.8.zip",
+      "sha256": "cc651a7dba649ce350b32dba6837f8814ea119b17c2cdeb0aa3b0734a02a39ff"
     }
   }
 }
