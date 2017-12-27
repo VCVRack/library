@@ -1,9 +1,13 @@
 {
   "slug": "SonusModular",
-  "name": "Sonus Dept",
+  "name": "Sonus Modular",
+  "author": "Sonus Dept.",
+  "license": "GNU General Public License 3.0"
   "version": "0.5.0",
   "homepage": "http://sonusmodular.sonusdept.com/",
+  "manual": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular"
   "source": "https://gitlab.com/sonusdept/sonusmodular",
+  "donate": "https://paypal.me/sonusdept",
   "downloads": {
     "win": {
       "download": "http://sonusdept.altervista.org/files/sonusmodular/sonusmodular-0.5.0-win.zip",
