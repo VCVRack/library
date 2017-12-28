@@ -2,10 +2,10 @@
   "slug": "SonusModular",
   "name": "Sonus Modular",
   "author": "Sonus Dept.",
-  "license": "GNU General Public License 3.0"
+  "license": "GNU General Public License 3.0",
   "version": "0.5.0",
   "homepage": "http://sonusmodular.sonusdept.com/",
-  "manual": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular"
+  "manual": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular",
   "source": "https://gitlab.com/sonusdept/sonusmodular",
   "donate": "https://paypal.me/sonusdept",
   "downloads": {
