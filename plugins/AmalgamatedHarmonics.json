@@ -8,15 +8,15 @@
   "downloads": {
     "win": {
       "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.5/AmalgamatedHarmonics-0.5.5-win.zip",
-      "sh256": "19a92b527917dd5109a00d752f1099f99390c16859770d739346d419744718d6"
+      "sha256": "19a92b527917dd5109a00d752f1099f99390c16859770d739346d419744718d6"
     },
     "mac": {
       "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.5/AmalgamatedHarmonics-0.5.5-mac.zip",
-      "sh256": "ec155d713c37af9313c59a9112e73b4b4645dfb0d10ec6d1da4fe98b21b43d6e"
+      "sha256": "ec155d713c37af9313c59a9112e73b4b4645dfb0d10ec6d1da4fe98b21b43d6e"
     },
     "lin": {
       "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.5/AmalgamatedHarmonics-0.5.5-lin.zip",
-      "sh256": "f416a78cf88a92e2572b92575b68251acfd2d997ccaf35dbc62231adddcae67a"
+      "sha256": "f416a78cf88a92e2572b92575b68251acfd2d997ccaf35dbc62231adddcae67a"
     }
   }
 }
