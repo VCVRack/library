@@ -1,22 +1,23 @@
 {
   "slug": "MrLumps",
   "name": "MrLumps",
-  "author": "djpeterso23662",
-  "license": "BSD 3-clause",
+  "author": "David Peterson",
+  "license": "MIT License",
+  "version": "0.5.2",
   "manual": "https://github.com/djpeterso23662/MrLumps/blob/master/README.md",
   "source": "https://github.com/djpeterso23662/MrLumps",
   "downloads": {
     "win": {
-      "download": "https://github.com/djpeterso23662/MrLumps/releases/download/v0.5.1/MrLumps-0.5.1-win.zip",
-      "sha256": "c78174837c62f2125136351de80339f89b763496cd29d308bb5f76fec46c8021"
+      "download": "https://github.com/djpeterso23662/MrLumps/releases/download/v0.5.2/MrLumps-0.5.2-win.zip",
+      "sha256": "56cb4bf57c8d82dc59f3db8f8f97f7aaad2e37facf53dd8057165b64fdaf5794"
     },
     "mac": {
-      "download": "https://github.com/djpeterso23662/MrLumps/releases/download/v0.5.1/MrLumps-0.5.1-mac.zip",
-      "sha256": "c952b9564328c59d0710d15c5eab2bb23619dc15d83341c9cf2ed86683ef9f9c"
+      "download": "https://github.com/djpeterso23662/MrLumps/releases/download/v0.5.2/MrLumps-0.5.2-mac.zip",
+      "sha256": "be1e7d1a6457c3406d2f7f30dfdfe22717ff59525ca9a3f22f71a65084cec526"
     },
     "lin": {
-      "download": "https://github.com/djpeterso23662/MrLumps/releases/download/v0.5.1/MrLumps-0.5.1-lin.zip",
-      "sha256": "9a4eebce92169d96c11d0c5c99e596a9f46f2d50c912dfda458802b598729ec9"
+      "download": "https://github.com/djpeterso23662/MrLumps/releases/download/v0.5.2/MrLumps-0.5.2-lin.zip",
+      "sha256": "7ea8ea5b733b3e05e4aaed7e4f42e2f8300a2a497113c600cbd187b97dcf96a5"
     }
   }
 }
