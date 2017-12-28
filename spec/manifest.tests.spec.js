@@ -35,7 +35,7 @@ describe("test manifests", function() {
     });
     
     afterEach(()=>{
-        execSync(`rm ${TEMP_DIR}/*.zip`)
+        execSync(`rm ${TEMP_DIR}*.zip`)
         fs.rmdirSync(TEMP_DIR);
     });
 
