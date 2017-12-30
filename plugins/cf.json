@@ -2,22 +2,22 @@
   "slug": "cf",
   "name": "cf",
   "author": "clément foulc",
-  "version": "0.5.10",
+  "version": "0.5.11",
   "donation": "https://www.paypal.me/cfoulc",
   "source": "https://github.com/cfoulc/cf",
   "manual": "https://github.com/cfoulc/cf/blob/master/README.md",
   "downloads": {
     "win": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.10/cf-0.5.10-win.zip",
-      "sha256": "63509b786eb86d28464b1f553ca14804f1ddf570219676c43b7b932d156775ed"
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.11/cf-0.5.11-win.zip",
+      "sha256": "3930bbe4aba2a5d9090194fc9f556fd830f4371249600ddf368d3a228ea9d5bf"
     },
     "mac": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.10/cf-0.5.10-mac.zip",
-      "sha256": "296df530b0a3be648c3b94d9da6832e46aa86b432514862117014755916f20d2"
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.11/cf-0.5.11-mac.zip",
+      "sha256": "612c51ba1964da39077b944fefad4f880ab1bbfa3b05bbec8723a7340d0f1ebb"
     },
     "lin": {
-      "download": "https://github.com/cfoulc/cf/releases/download/0.5.10/cf-0.5.10-lin.zip",
-      "sha256": "92927fa7fbd2a917de0f601dd77a9ab0d3a8e053778f92f8fb36547955ace2dd"
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.11/cf-0.5.11-lin.zip",
+      "sha256": "ff7dd539da2fc573d8102455632226514c173163d74852431f347aa098a670d8"
     }
   }
 }
