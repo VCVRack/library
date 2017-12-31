@@ -2,21 +2,21 @@
   "slug": "AmalgamatedHarmonics",
   "name": "Amalgamated Harmonics",
   "author": "jhoar",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "manual": "https://github.com/jhoar/AmalgamatedHarmonics/wiki",
   "source": "https://github.com/jhoar/AmalgamatedHarmonics",
   "downloads": {
     "win": {
-      "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.5/AmalgamatedHarmonics-0.5.5-win.zip",
-      "sha256": "19a92b527917dd5109a00d752f1099f99390c16859770d739346d419744718d6"
+      "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.6/AmalgamatedHarmonics-0.5.6-win.zip",
+      "sha256": "71395aa3de34e680acc7a469667fd14b45564b710c706027b1f86d8f6b7e295f"
     },
     "mac": {
-      "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.5/AmalgamatedHarmonics-0.5.5-mac.zip",
-      "sha256": "ec155d713c37af9313c59a9112e73b4b4645dfb0d10ec6d1da4fe98b21b43d6e"
+      "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.6/AmalgamatedHarmonics-0.5.6-mac.zip",
+      "sha256": "41604b0155855d3f525fcc27dbdc856f5ac8d1ee2c3cada3f3e93a4fd75ed343"
     },
     "lin": {
-      "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.5/AmalgamatedHarmonics-0.5.5-lin.zip",
-      "sha256": "f416a78cf88a92e2572b92575b68251acfd2d997ccaf35dbc62231adddcae67a"
+      "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.6/AmalgamatedHarmonics-0.5.6-lin.zip",
+      "sha256": "472333350975965690ae017d05af1ceee2ae288fd3adcea2cd988712b9e699af"
     }
   }
 }
