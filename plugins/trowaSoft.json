@@ -10,15 +10,15 @@
   "downloads": {
     "win": {
       "download": "https://github.com/j4s0n-c/trowaSoft-VCV/releases/download/v0.5.5.1/trowaSoft-0.5.5.1-win.zip",
-      "sha256": "70b62c34b4243e0f230d2acf23de5628daaff07e0bb2d90e4b9fe0031dbcafa9"
+      "sha256": "3e884697145e1c8e3288dcc478e0f139eb9e2f1f1172839ca330474f107574bf"
     },
     "mac": {
       "download": "https://github.com/j4s0n-c/trowaSoft-VCV/releases/download/v0.5.5.1/trowaSoft-0.5.5.1-mac.zip",
-      "sha256": "6956ba75471671de77a788076fe513d94ba7c184027fa68c56c2a989f807dd64"
+      "sha256": "1cc90a7c97a284cd461642091cd4a5a234efc36b36dbdb59c334a9184656f641"
     },
     "lin": {
       "download": "https://github.com/j4s0n-c/trowaSoft-VCV/releases/download/v0.5.5.1/trowaSoft-0.5.5.1-lin.zip",
-      "sha256": "8770b69043b7c151d876ac3195e1262d6f63f1e69c3db57d4d683ad9de258f0f"
+      "sha256": "3cafc58db1311ea45e9e64c97c3934a2c98abc5b7216b96b6fb5e96b672573fc"
     }
   }
 }
