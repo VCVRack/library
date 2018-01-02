@@ -1,0 +1,24 @@
+{
+  "slug": "CastleRocktronics",
+  "name": "Castle Rocktronics",
+  "author": "Kieran Pringle",
+  "license": "Creative Commons Attribution Share Alike 4.0",
+  "version": "0.5.0",
+  "homepage": "https://github.com/KieranPringle/CastleRocktronics",
+  "manual": "https://github.com/KieranPringle/CastleRocktronics/blob/master/docs/index.md",
+  "source": "https://github.com/KieranPringle/CastleRocktronics",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/KieranPringle/CastleRocktronics/releases/download/v0.5.0/CastleRocktronics-0.5.0-win.zip",
+      "sha256": "f16bc4328ca6ed5b84aecb4e2774b12ae755c953ef48d11d8ea76f30b1818438"
+    },
+    "lin": {
+      "download": "https://github.com/KieranPringle/CastleRocktronics/releases/download/v0.5.0/CastleRocktronics-0.5.0-lin.zip",
+      "sha256": "de5590b7de622a5d16259df93538c65a5343cf6d604ca67af84ca779234792d8"
+    },
+    "mac": {
+      "download": "https://github.com/KieranPringle/CastleRocktronics/releases/download/v0.5.0/CastleRocktronics-0.5.0-mac.zip",
+      "sha256": "e841753aba6f07c0004a05648c8c2ce88fdfa146f0c692e52c7b51e04f1a04a7"
+    }
+  }
+}
