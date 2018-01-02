@@ -49,7 +49,7 @@
       "description": "used when a plugin needs to be disabled"
     },
     "productId": {
-      "type": "number",
+      "type": "string",
       "description": "only used by vcv rack website"
     },
     "downloads": {
