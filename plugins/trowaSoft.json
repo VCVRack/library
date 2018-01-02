@@ -2,17 +2,23 @@
   "slug": "trowaSoft",
   "name": "trowaSoft",
   "author": "j4s0n-c",
-  "version": "",
+  "version": "0.5.5.1",
   "homepage": "http://www.geekasaurusrex.net/page/trowaSoft-Sequencer-Modules-for-VCV-Rack.aspx",
+  "donation": "https://paypal.me/j4s0n",
+  "manual": "https://github.com/j4s0n-c/trowaSoft-VCV/blob/master/README.md",
   "source": "https://github.com/j4s0n-c/trowaSoft-VCV",
   "downloads": {
     "win": {
-      "download": "https://github.com/j4s0n-c/trowaSoft-VCV/releases/download/v0.5.5/trowaSoft-0.5.5-win.zip",
-      "sha256": "66d8e1d82fe2e2bd440139d76e347a449595ba2fecd3433ed2243263d1480be1"
+      "download": "https://github.com/j4s0n-c/trowaSoft-VCV/releases/download/v0.5.5.1/trowaSoft-0.5.5.1-win.zip",
+      "sha256": "70b62c34b4243e0f230d2acf23de5628daaff07e0bb2d90e4b9fe0031dbcafa9"
     },
     "mac": {
-      "download": "https://github.com/j4s0n-c/trowaSoft-VCV/releases/download/v0.5.5/trowaSoft-0.5.5-mac.zip",
-      "sha256": "ac3525cb3aa9a821659042319baf327080fc00dd3ee440d03e5fe73c0dd9a3c0"
+      "download": "https://github.com/j4s0n-c/trowaSoft-VCV/releases/download/v0.5.5.1/trowaSoft-0.5.5.1-mac.zip",
+      "sha256": "6956ba75471671de77a788076fe513d94ba7c184027fa68c56c2a989f807dd64"
+    },
+    "lin": {
+      "download": "https://github.com/j4s0n-c/trowaSoft-VCV/releases/download/v0.5.5.1/trowaSoft-0.5.5.1-lin.zip",
+      "sha256": "8770b69043b7c151d876ac3195e1262d6f63f1e69c3db57d4d683ad9de258f0f"
     }
   }
 }
