@@ -9,8 +9,12 @@
   "source": "https://github.com/sebastien-bouffier/Bidoo",
   "downloads": {
     "win": {
-      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1587168/Bidoo-0.5.10-win.zip",
-      "sha256": "96ad12c3bbf175a1e2a9e34afda48e5d89cfa1f01e3cfecd492072845828342b"
+      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1597613/Bidoo-0.5.14-win.zip",
+      "sha256": "cc0322df72176d4000cf7ff76bb098c41662cd543780121424bc66cd21aab0ff"
+    },
+    "lin": {
+      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1598062/Bidoo-0.5.14-lin.zip",
+      "sha256": "37fddc6ab232fdf324b585bb0fa543cf7336a79c2b188e8f9079f22745bb0966"
     }
   }
 }
