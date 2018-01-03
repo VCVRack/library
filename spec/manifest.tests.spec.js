@@ -35,7 +35,7 @@ describe("test manifests", function() {
     });
     
     afterEach(()=>{
-        execSync(`rm ${TEMP_DIR}/*.zip`)
+        execSync(`rm ${TEMP_DIR}*.zip`)
         fs.rmdirSync(TEMP_DIR);
     });
 
@@ -110,14 +110,16 @@ function testOneZip(expectedRootDir, osObj, done) {
         const slugDirFound = zipEntries.find(ze => ze.isDirectory && 
             (ze.entryName === expectedRootDir+'/' || ze.entryName === expectedRootDir+'\\')
         );
-        if(!slugDirFound){
-            fail(`Zip should have one dir named ${expectedRootDir}`);
+        
+        if(slugDirFound){
+            const invalidEntry = zipEntries.find(ze => !ze.entryName.startsWith(slugDirFound.entryName));
+            if(invalidEntry){
+                fail(`Zip entries should all be under a dir named ${expectedRootDir} but this entry was found: ${invalidEntry.entryName}`);
+            }
+        } else {
+            fail(`Zip should have one dir named ${expectedRootDir}`);            
         }
 
-        const invalidEntry = zipEntries.find(ze => !ze.entryName.startsWith(slugDirFound.entryName));
-        if(invalidEntry){
-            fail(`Zip entries should all be under a dir named ${expectedRootDir} but this entry was found: ${invalidEntry.entryName}`);
-        }
 
         if(VIRUS_TOTAL_ENABLED){
             con.FileEvaluation(zipName, "application/zip", fs.readFileSync(TEMP_DIR+zipName), function(data) {

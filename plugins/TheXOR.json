@@ -1,0 +1,14 @@
+{
+  "slug": "TheXOR",
+  "name": "Unusual Sequencers",
+  "author": "The XOR",
+  "license": "CC0 1.0 Universal",
+  "version": "0.5.1",
+  "source": "https://github.com/The-XOR/VCV-Sequencers",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/The-XOR/VCV-Sequencers/files/1600847/TheXOR-0.5.2-win.zip",
+      "sha256": "c65e4b8e5992d501d55066e45e071503fad3d2314762c34a01a36c6af5c05d28"
+    }
+  }
+}
