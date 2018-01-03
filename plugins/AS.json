@@ -11,15 +11,15 @@
   "downloads": {
     "win": {
       "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.2/AS-0.5.2-win.zip",
-      "sha256": "6bf55cfdc179a69402b77817dfaffd74da4e7ab6e99ab878e9cf86cb94108839"
+      "sha256": "a929ac156763b382ee61f7ce4b00210544d6adf88ffe4f314104f0b41eea2c46"
     },
     "lin": {
       "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.2/AS-0.5.2-lin.zip",
-      "sha256": "8a282b280980cde7dcd9af9c0d029407b4b9401f20864262d48af3064ff9134d"
+      "sha256": "805a73b0d766b6bf8b910f84477fe290f062b57054d370b9170479af71e18a2e"
     },
     "mac": {
       "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.2/AS-0.5.2-mac.zip",
-      "sha256": "d6e6d0397b4a160dbdd048295d16adb87721805f89148fe5cd91c0ae50967cbb"
+      "sha256": "0e8da70ffecf44d542c6c9b7e30fc12fd174029aa0b3078fd3b94fdafc917b07"
     }
   }
 }
