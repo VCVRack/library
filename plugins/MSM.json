@@ -3,6 +3,7 @@
   "name": "MSM",
   "author": "Phal-anx",
   "version": "0.5.5",
+  "manual": "https://github.com/Phal-anx/MSM/blob/master/Help/MSM%20Help.pdf",
   "source": "https://github.com/Phal-anx/MSM",
   "downloads": {
     "win": {
