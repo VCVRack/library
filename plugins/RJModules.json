@@ -6,7 +6,7 @@
   "version": "0.5.0",
   "homepage": "https://github.com/Miserlou/RJModules",
   "source": "https://github.com/Miserlou/RJModules",
-  "manual": "https://github.com/Miserlou/RJModules/blob/master/README.md"
+  "manual": "https://github.com/Miserlou/RJModules/blob/master/README.md",
   "downloads": {
     "win": {
       "download": "https://github.com/Miserlou/RJModules/releases/download/0.5.0/RJModules-0.5.0-win.zip",
