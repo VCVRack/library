@@ -8,11 +8,11 @@
   "downloads": {
     "win": {
       "download": "https://github.com/raincheque/qwelk/blob/master/dist/Qwelk-0.5.5-win.zip?raw=true",
-      "sh256": "c6d7bdade90976acea6f056abd13822914f8d629b177c1f61bcbeb958d7ac311"
+      "sh256": "0835d6e16b6b283a6d27e86c69f08967c7cfb1f406ac844a87a0d50aaa78a035"
     },
     "mac": {
       "download": "https://github.com/raincheque/qwelk/blob/master/dist/Qwelk-0.5.5-mac.zip?raw=true",
-      "sh256": "f9d8c9e2e448456e2d93c2c4ed53c33d0bb80f38e0e508aa605d3dd5edd73731"
+      "sh256": "815736b07c534c7f8ccf92151fbf831552e16ca024ee07b45ff9a053630ea16e"
     }
   }
 }
