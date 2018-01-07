@@ -2,22 +2,22 @@
   "slug": "VultModules",
   "name": "VultModules",
   "author": "modlfo",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "homepage": "https://modlfo.github.io/VultModules",
   "manual": "https://modlfo.github.io/VultModules",
   "donation": "https://www.paypal.me/VultModules",
   "downloads": {
     "win": {
-      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.3/Vult-0.5.3-win.zip",
-      "sha256": "7d2560aa197aac48efc8e7a0327ff0d1af13db036e1caca2cd053835962208c1"
+      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.4/Vult-0.5.4-win.zip",
+      "sha256": "dafa7c53222f767fde01eba5ab194596078c532d49ec7dfc7cc6f364f935ddee"
     },
     "mac": {
-      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.3/Vult-0.5.3-mac.zip",
-      "sha256": "1c8039c0e69704e979e4e77a3fb35773bbabef352f1c47e4712878d9823f0bc2"
+      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.4/Vult-0.5.4-mac.zip",
+      "sha256": "9d29fffd582d053310760053e4ca3dfcbce58d09d5be3de56406e71aebbf4949"
     },
     "lin": {
-      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.3/Vult-0.5.3-lin.zip",
-      "sha256": "b950914ff6ecd3aad05c7f56fbd08839e2ddf52a7a7d57bae653f547d396fe5e"
+      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.4/Vult-0.5.4-lin.zip",
+      "sha256": "2f67738f91cf2bbb181f877f001451054f4153721c8177c46a543eec2fa328a3"
     }
   }
 }
