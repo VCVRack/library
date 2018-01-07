@@ -3,23 +3,23 @@
   "name": "AS",
   "author": "Alfredo Santamaria",
   "license": "MIT License",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "homepage": "https://github.com/AScustomWorks/AS",
   "donation": "https://www.paypal.me/frederius/",
   "manual": "https://github.com/AScustomWorks/AS/blob/master/README.md",
   "source": "https://github.com/AScustomWorks/AS",
   "downloads": {
     "win": {
-      "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.2/AS-0.5.2-win.zip",
-      "sha256": "a929ac156763b382ee61f7ce4b00210544d6adf88ffe4f314104f0b41eea2c46"
+      "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.2/AS-0.5.3-win.zip",
+      "sha256": "d7ee1f1ba5ceae23a91fc8464eea37dc0e14de6b9c4b41efe5810ae4dc9644e3"
     },
     "lin": {
-      "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.2/AS-0.5.2-lin.zip",
-      "sha256": "805a73b0d766b6bf8b910f84477fe290f062b57054d370b9170479af71e18a2e"
+      "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.2/AS-0.5.3-lin.zip",
+      "sha256": "b015da04086048d8469b697f3a8fd72ae012d0fca977ee519d25fea439de29a1"
     },
     "mac": {
-      "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.2/AS-0.5.2-mac.zip",
-      "sha256": "0e8da70ffecf44d542c6c9b7e30fc12fd174029aa0b3078fd3b94fdafc917b07"
+      "download": "https://github.com/AScustomWorks/AS/releases/download/0.5.2/AS-0.5.3-mac.zip",
+      "sha256": "7307e8eca28e56d4926eda216f1192d259345fbeeb7d8645c59c1450595d364d"
     }
   }
 }
