@@ -11,15 +11,15 @@
   "downloads": {
     "win": {
       "download": "http://sonusdept.altervista.org/files/sonusmodular/SonusModular-0.5.1-win.zip",
-      "sha256": "e4a1accc66c41631c94768bb8e71b5d4a420f3cff798fc24f28738933d0d4146"
+      "sha256": "6c72c4bf8c1892a89be2033ea36279cbab25336498dfba284eaad459e864541d"
     },
     "mac": {
       "download": "http://sonusdept.altervista.org/files/sonusmodular/SonusModular-0.5.1-mac.zip",
-      "sha256": "fe728b0b42ab2b01ec5a8ccbde02dc45cbe4f5f16ba5bf4cd74ca4cbd98c976d"
+      "sha256": "7c26caf6a0bd4dfb444133db838a3c9171fb13086c93dea862ba284f51d4b820"
     },
     "lin": {
       "download": "http://sonusdept.altervista.org/files/sonusmodular/SonusModular-0.5.1-lin.zip",
-      "sha256": "79a60a92cefc3460a4598ebc4d0dc94d2aff24793742f72d88cbe3b189a9f1bc"
+      "sha256": "dc11857bc76bec125bbba1cbb2c58343f1d2c74489d916a84f2775fc18461aa5"
     }
   }
 }
