@@ -9,6 +9,10 @@
     "win": {
       "download": "https://github.com/dBiz/dBiz/releases/download/v0.5.3/dBiz-0.5.2-win.zip",
       "sha256": "789cd48657be314e5eaf841c827fe50bdfcd230787fa68cd762c68c8e674b4f7"
+    },
+  "mac": {
+      "download": "https://github.com/dBiz/dBiz/releases/download/v0.5.3/dBiz-0.5.2-mac.zip",
+      "sha256": "f3b21e4ccedb0cd5d584b63144df79e2594deb97581412512bc31accc1d54da0"
     }
-  }
+   }
 }
