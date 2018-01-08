@@ -1,0 +1,24 @@
+{
+  "slug": "mtsch-plugins",
+  "name": "mtsch",
+  "author": "mtsch",
+  "license": "MIT",
+  "version": "0.5.1",
+  "homepage": "https://github.com/mtsch/mtsch-vcvrack-plugins",
+  "manual": "https://github.com/mtsch/mtsch-vcvrack-plugins",
+  "source": "https://github.com/mtsch/mtsch-vcvrack-plugins",
+  "downloads": {
+    "lin": {
+      "download": "https://github.com/mtsch/mtsch-vcvrack-plugins/releases/download/v0.5.1/mtsch-plugins-0.5.1-lin.zip",
+      "sha256": "7e952548a19c33122b5644da698f626721f954db0f7d2ff9e69f48ec8efe46cc"
+    },
+    "win": {
+      "download": "https://github.com/mtsch/mtsch-vcvrack-plugins/files/1611272/mtsch-plugins-0.5.1-win.zip",
+      "sha256": "60658d0959ca6902057e40003b5e216b6ae2de15f8bef0bfe21260adc018ccfd"
+    },
+    "mac": {
+        "download": "https://github.com/mtsch/mtsch-vcvrack-plugins/files/1611304/mtsch-plugins-0.5.1-mac.zip",
+        "sha256": "1723cf4e6e71bac8360ee0d00de2a3388130ce0fad8f877e90d453814bae2b9f"
+    }
+  }
+}
