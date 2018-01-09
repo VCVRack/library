@@ -3,22 +3,22 @@
   "name": "Bogaudio",
   "author": "Matt Demanett",
   "license": "BSD 3-clause",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "homepage": "https://github.com/bogaudio/BogaudioModules",
   "manual": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md",
   "source": "https://github.com/bogaudio/BogaudioModules",
   "downloads": {
     "win": {
-      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/v0.5.2/Bogaudio-0.5.2-win.zip",
-      "sha256": "cb1539a4709d0e681a4e1f379e7296279e9e7ced9c0432701ccea1b69dcaaf9a"
+      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/v0.5.3/Bogaudio-0.5.3-win.zip",
+      "sha256": "6f630cb44d44eadfee801b7311adfa6f1763849c9330d71d79e09a2ba8f32da4"
     },
     "lin": {
-      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/v0.5.2/Bogaudio-0.5.2-lin.zip",
-      "sha256": "2724227d9a5a86749a4e6b34ad68ddf9798a185cc303aefaaf7f91efceb985a9"
+      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/v0.5.3/Bogaudio-0.5.3-lin.zip",
+      "sha256": "1c19120382ee3ad519dd5b834879221b78031b90cf17283e89c24d5930cd7f4d"
     },
     "mac": {
-      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/v0.5.2/Bogaudio-0.5.2-mac.zip",
-      "sha256": "7afd07007084603fbd0e317d3411df1f55f6ba609b31640ac7ef333c8ed44ddc"
+      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/v0.5.3/Bogaudio-0.5.3-mac.zip",
+      "sha256": "161cb15fb7bd452338f482f11d13aeede139f9b6544f738c98e2d21da6a94d2d"
     }
   }
 }
