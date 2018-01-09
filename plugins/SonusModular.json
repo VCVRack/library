@@ -3,23 +3,23 @@
   "name": "Sonus Modular",
   "author": "Sonus Dept.",
   "license": "GNU General Public License 3.0",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "http://sonusmodular.sonusdept.com/",
   "manual": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular",
   "source": "https://gitlab.com/sonusdept/sonusmodular",
-  "donate": "https://paypal.me/sonusdept",
+  "donation": "https://paypal.me/sonusdept",
   "downloads": {
     "win": {
-      "download": "http://sonusdept.altervista.org/files/sonusmodular/sonusmodular-0.5.0-win.zip",
-      "sha256": "e9052b01a0f483814ac45cfaa5e380e5af18c347b941bc74af8fb0f22fb0d656"
+      "download": "http://sonusdept.altervista.org/files/sonusmodular/SonusModular-0.5.1-win.zip",
+      "sha256": "6c72c4bf8c1892a89be2033ea36279cbab25336498dfba284eaad459e864541d"
     },
     "mac": {
-      "download": "http://sonusdept.altervista.org/files/sonusmodular/sonusmodular-0.5.0-mac.zip",
-      "sha256": "6e11a16d202a560be8d0e79cd36b22577a2d8e43b777bd000ba5c4b2f265e166"
+      "download": "http://sonusdept.altervista.org/files/sonusmodular/SonusModular-0.5.1-mac.zip",
+      "sha256": "7c26caf6a0bd4dfb444133db838a3c9171fb13086c93dea862ba284f51d4b820"
     },
     "lin": {
-      "download": "http://sonusdept.altervista.org/files/sonusmodular/sonusmodular-0.5.0-lin.zip",
-      "sha256": "98d36ddcbe6dca71a8060deb27d1e33279495d2ae2992f1b530bad058765bc59"
+      "download": "http://sonusdept.altervista.org/files/sonusmodular/SonusModular-0.5.1-lin.zip",
+      "sha256": "dc11857bc76bec125bbba1cbb2c58343f1d2c74489d916a84f2775fc18461aa5"
     }
   }
 }

@@ -2,20 +2,21 @@
   "slug": "MSM",
   "name": "MSM",
   "author": "Phal-anx",
-  "version": "0.5.4",
+  "version": "0.5.5",
+  "manual": "https://github.com/Phal-anx/MSM/blob/master/Help/MSM%20Help.pdf",
   "source": "https://github.com/Phal-anx/MSM",
   "downloads": {
     "win": {
-      "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.4/MSM.WIN.zip",
-      "sha256": "9d2f6cc6debf6c4153caa75a563ca1c3fc0112461f37657ee2d8b9a250424821"
+      "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.5/MSM-0.5.5-win.zip",
+      "sha256": "8090263893d1219c6d521f6a9039e5c2dd0c37ee351ea260f85f00ce8238ee90"
     },
     "mac": {
-      "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.4/MSM.MAC.zip",
-      "sha256": "bdeee52705dfd5e1bf51650c478961adbe19fad743a810f58a26af20f0de9ea8"
+      "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.5/MSM-0.5.5-mac.zip",
+      "sha256": "03336c856fc6c1dda7d3ba099665cc5de9e25a9d6cec3fa2440f235b5c5b2115"
     },
     "lin": {
-      "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.4/MSM.LINUX.zip",
-      "sha256": "d626abf45c5a562dfef0b68a3a34ee852159c3ce2918d4bc57db1fa950ff3727"
+      "download": "https://github.com/Phal-anx/MSM/releases/download/0.5.5/MSM-0.5.5-lin.zip",
+      "sha256": "07ec99e12bec81b9e0fcdc3f76df4fac6e426ede62ceb867924e3ed6e04c38f6"
     }
   }
 }
