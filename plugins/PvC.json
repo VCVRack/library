@@ -7,7 +7,7 @@
   "homepage": "https://phdsg.github.io/PvC/",
   "donation": "https://gumroad.com/pvc",
   "manual": "https://phdsg.github.io/PvC/",
-  "source": "https://github.com/phdsg/PvC/tree/0.5.7",
+  "source": "https://github.com/phdsg/PvC.git",
   "downloads": {
     "win": {
       "download": "https://github.com/phdsg/PvC/releases/download/0.5.7/PvC-0.5.7-win.zip",
