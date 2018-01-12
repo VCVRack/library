@@ -3,22 +3,22 @@
   "name": "Non Linear Instruments",
   "author": "NonLinearInstruments",
   "license": "BSD 3-clause",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "homepage": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
   "manual": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/blob/master/README.md",
   "source": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
   "downloads": {
     "mac": {
-      "download": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/releases/download/0.5.1/NonLinearInstruments-0.5.1-mac.zip",
-      "sha256": "a1151486477c70644210c5229cb15a29894065ba3495d8bf83a2541e3a3cdeb3"
+      "download": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/releases/download/0.5.2/NonLinearInstruments-0.5.2-mac.zip",
+      "sha256": "f54158193aa0f31c0ea9bd1e2861ad80f1a49545b9a7270cad0d536265da1e3e"
     },
     "win": {
-      "download": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/releases/download/0.5.1/NonLinearInstruments-0.5.1-win.zip",
-      "sha256": "fbec569b54d21dcd70cd64ac676ff7aa80c5e96806da25851a6ee8995ef78b3e"
+      "download": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/releases/download/0.5.2/NonLinearInstruments-0.5.2-win.zip",
+      "sha256": "cf6734555fcdaa7e4196ebe83056ba3d6958b4af3159adc3656bd8cbc7b128fb"
     },
     "lin": {
-      "download": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/releases/download/0.5.1/NonLinearInstruments-0.5.1-lin.zip",
-      "sha256": "fa6be52825bed83df002b431ebc8dd6f4cd799ef45c4e6808be02b998990e95a"
+      "download": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/releases/download/0.5.2/NonLinearInstruments-0.5.2-lin.zip",
+      "sha256": "681fc42efd3c10d7afd266a659dfb4cbf6ec71593d1bc3f939e68486d8ccd443"
     }
   }
 }
