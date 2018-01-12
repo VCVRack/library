@@ -1,0 +1,20 @@
+{
+  "slug": "Blamsoft-XFXReverb",
+  "name": "XFX Reverb",
+  "author": "Blamsoft",
+  "license": "proprietary",
+  "version": "0.5.1",
+  "homepage": "http://blamsoft.com/vcv-rack/xfx-reverb",
+  "manual": "http://blamsoft.com/wp-content/uploads/2018/01/XFXReverbUserManual.pdf",
+  "downloads": {
+    "win": {
+      "productId": "753556324395"
+    },
+    "mac": {
+      "productId": "753556324395"
+    },
+    "lin": {
+      "productId": "753556324395"
+    }
+  }
+}
