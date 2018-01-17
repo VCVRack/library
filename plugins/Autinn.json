@@ -1,0 +1,19 @@
+{
+  "slug": "Autinn",
+  "name": "Autinn",
+  "author": "Nikolai V. Chr.",
+  "license": "proprietary",
+  "version": "0.5.1.15",
+  "homepage": "https://github.com/NikolaiVChr/Autinn",
+  "manual": "https://github.com/NikolaiVChr/Autinn/blob/master/README.md",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/NikolaiVChr/Autinn/releases/download/v0.5.1.15/Autinn-0.5.1.15-win.zip",
+      "sha256": "3e56560764e212eca1938f13f46868018fce97dc77dc87c606fd6a13d82afd8e"
+    },
+    "lin": {
+      "download": "https://github.com/NikolaiVChr/Autinn/releases/download/v0.5.1.15/Autinn-0.5.1.15-lin.zip",
+      "sha256": "6e3c709e0652ada3fd4b72c701f0d7dfe47b433f38e80ec693fe59cca1133eb8"
+    }
+  }
+}
