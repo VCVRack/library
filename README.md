@@ -50,7 +50,7 @@ Keys with * are required.
 - **name**: Human-readable display name for your plugin. Defaults to the slug if omitted. May change on a whim.
 - **author**: Your name, company, alias, or GitHub username, whichever you prefer
 - **version**\*: Your plugin's version, using the guidelines at https://github.com/VCVRack/Rack/issues/266. Do not include the "v" prefix.
-- **license**: Abbreviation of the license(s) of your plugin. Use "proprietary" if all rights are reserved. See [SPDX license list](https://spdx.org/licenses/) for abbreviations.
+- **license**: The license type of your plugin. Use "proprietary" if all rights are reserved. If your license is in the [SPDX license list](https://spdx.org/licenses/), use its abbreviation in the "Identifier" column.
 - **homepage**: URL of the landing page of your plugin. Omit if redundant with the source URL.
 - **donation**: URL of your donation page.  Use this to provide a URL to users who wish to donate.
 - **manual**: URL of the manual of your plugin. HTML, PDF, or GitHub readme/wiki are fine.
