@@ -2,19 +2,23 @@
   "slug": "Bidoo",
   "name": "bid°°",
   "author": "sebastien-bouffier",
-  "version": "0.5.16",
+  "version": "0.5.17",
   "license": "BSD 3-clause",
   "donation": "https://paypal.me/sebastienbouffier",
   "manual": "https://github.com/sebastien-bouffier/Bidoo/wiki",
   "source": "https://github.com/sebastien-bouffier/Bidoo",
   "downloads": {
     "win": {
-      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1609276/Bidoo-0.5.16-win.zip",
-      "sha256": "3b51231384aea2105554f0d47d1fb4609630da495030844c88a3219101b2a30e"
+      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1640835/Bidoo-0.5.17-win.zip",
+      "sha256": "39936f2ed0c00fa54c59e1dcca13b4da9477577bc69ca4968d67a03a172eb324"
     },
     "lin": {
-      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1609835/Bidoo-0.5.16-lin.zip",
-      "sha256": "e4881f12111fa819c7dc7297975f46c015998c64de749a90f21c7eb930fdbdda"
+      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1640880/Bidoo-0.5.17-lin.zip",
+      "sha256": "82d3e37eda91b14e658b46a23e320cfeacd707b1f57907ad7529e9fab33a1068"
+    },
+    "mac": {
+      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1645750/Bidoo-0.5.17-mac.zip",
+      "sha256": "a22bea407068ad60bfb2b1d8ba6dba94e2c607252f47ce2e977f10db7d405a81"
     }
   }
 }

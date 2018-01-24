@@ -2,7 +2,24 @@
   "slug": "PvC",
   "name": "PvC",
   "author": "phdsg",
-  "version": "0.5.1",
-  "source": "https://github.com/phdsg/PvC",
-  "manual": "https://github.com/phdsg/PvC/blob/master/README.md"
+  "license": "BSD 3-clause",
+  "version": "0.5.7",
+  "homepage": "https://phdsg.github.io/PvC/",
+  "donation": "https://gumroad.com/pvc",
+  "manual": "https://phdsg.github.io/PvC/",
+  "source": "https://github.com/phdsg/PvC.git",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/phdsg/PvC/releases/download/0.5.7/PvC-0.5.7-win.zip",
+      "sha256": "5ee7caed1ef2a18ca2dd1d5e7168e72fb2c659fd54cccfb5c61083ed4fbaf7b3"
+    },
+    "lin": {
+      "download": "https://github.com/phdsg/PvC/releases/download/0.5.7/PvC-0.5.7-lin.zip",
+      "sha256": "c2d5e3ab8d01cac462824375c824e5804a1ae422e674ed4642e1f22e035f07cd"
+    },
+    "mac": {
+      "download": "https://github.com/phdsg/PvC/releases/download/0.5.7/PvC-0.5.7-mac.zip",
+      "sha256": "afe0432c467a8302d052401773ee08102fee6376f0c43243ffca86e299bc9545"
+    }
+  }
 }
