@@ -13,11 +13,11 @@
     },
     "lin": {
       "download": "https://github.com/almostEric/FrozenWasteland/releases/download/0.5.0/FrozenWasteland-0.5.0-lin.zip",
-      "sha256": "8ba6fad7c7f5684730470a154ed80b8e520508abeeb384aa56d3263c91f326f1 "
+      "sha256": "8ba6fad7c7f5684730470a154ed80b8e520508abeeb384aa56d3263c91f326f1"
     },
     "mac": {
       "download": "https://github.com/almostEric/FrozenWasteland/releases/download/0.5.0/FrozenWasteland-0.5.0-mac.zip",
-      "sha256": "e15fb0a2d46f1cce022abbe32700c940fb2e3da3c1d32b8476923207d7f0b0ff "
+      "sha256": "e15fb0a2d46f1cce022abbe32700c940fb2e3da3c1d32b8476923207d7f0b0ff"
     }
   }
 }
