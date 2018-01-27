@@ -1,0 +1,10 @@
+{
+  "slug": "Blamsoft-XFXDistortionPack",
+  "name": "XFX Distortion Pack",
+  "author": "Blamsoft",
+  "license": "proprietary",
+  "version": "0.5.1",
+  "homepage": "http://blamsoft.com/vcv-rack/xfx-distortion-pack",
+  "manual": "http://blamsoft.com/wp-content/uploads/2018/01/XFXDistortionPackUserManual.pdf",
+  "productId": "800730710059"
+}
