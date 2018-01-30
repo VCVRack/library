@@ -1,0 +1,25 @@
+{
+  "slug": "Southpole",
+  "name": "Southpole Modular",
+  "author": "Gerhard Brandt",
+  "license": "BSD 3-clause",
+  "version": "0.5.1",
+  "source": "https://github.com/gbrandt1/southpole-vcvrack",
+  "homepage": "https://github.com/gbrandt1/southpole-vcvrack",
+  "manual": "https://github.com/gbrandt1/southpole-vcvrack/blob/master/README.md",
+  "donation": "https://www.paypal.me/southpolemodular",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.1/Southpole-0.5.1-win.zip",
+      "sha256": "a73e8da8fd6ee7e33b1bd2f42c54e90c59de7cd572d542ef2087ef3988da0656"
+    },
+    "lin": {
+      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.1/Southpole-0.5.1-lin.zip",
+      "sha256": "82327346e2566ac2b296602ebc0eb7cfd25c5c9d8619da8efc24704d711bf83c"
+    },
+    "mac": {
+      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.1/Southpole-0.5.1-mac.zip",
+      "sha256": "ae4e1af3aeafa6158180f6a76d21009cac13632ac6e8d982e52ac0c984761913"
+    }
+  }  
+}
