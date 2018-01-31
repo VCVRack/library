@@ -1,20 +1,20 @@
 {
   "slug": "Lindenberg Research",
   "name": "Lindenberg Research",
-  "author": "lindenbergresearch",
+  "author": "Patrick Lindenberg / Lindenberg Research Tec.",
   "source": "https://github.com/lindenbergresearch/LRTRack",
   "downloads": {
     "win": {
-      "download": "https://github.com/lindenbergresearch/LRTRack/releases/download/v0.0.3/Lindenberg.Research_v0.0.3_OSX_WIN_LINUX.zip",
-      "sha256": "be1925bd76b3c4361ffd3a06f9ebdd49891b5b8b6f4ed72cc7c221495c757ce4"
+      "download": "https://github.com/lindenbergresearch/LRTRack/files/1663394/LindenbergResearch-0.5.210-win.zip",
+      "sha256": "ac1c67ff862af056bc462817c6d65cecfd236f9ebaab76f58253ee820039abac"
     },
     "mac": {
-      "download": "https://github.com/lindenbergresearch/LRTRack/releases/download/v0.0.3/Lindenberg.Research_v0.0.3_OSX_WIN_LINUX.zip",
-      "sha256": "be1925bd76b3c4361ffd3a06f9ebdd49891b5b8b6f4ed72cc7c221495c757ce4"
+      "download": "https://github.com/lindenbergresearch/LRTRack/files/1663377/LindenbergResearch-0.5.210-mac.zip",
+      "sha256": "300e661a89ff17e5057e455969374efb39f042aac63b56e920d3b2d4d3c0f3a1"
     },
     "lin": {
-      "download": "https://github.com/lindenbergresearch/LRTRack/releases/download/v0.0.3/Lindenberg.Research_v0.0.3_OSX_WIN_LINUX.zip",
-      "sha256": "be1925bd76b3c4361ffd3a06f9ebdd49891b5b8b6f4ed72cc7c221495c757ce4"
+      "download": "https://github.com/lindenbergresearch/LRTRack/files/1663455/LindenbergResearch-0.5.210-lin.zip",
+      "sha256": "0acf6ea9faac90cdc88b52fc49641edf0013c275f06044323e6ef81d7b250fd8"
     }
   }
 }
