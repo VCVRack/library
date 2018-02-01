@@ -6,18 +6,5 @@
   "homepage": "https://modlfo.github.io/VultModules",
   "manual": "https://modlfo.github.io/VultModules",
   "donation": "https://www.paypal.me/VultModules",
-  "downloads": {
-    "win": {
-      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.5/VultModules-0.5.5-win.zip",
-      "sha256": "67948844f8ade23c0276705db64d858c3c44bdfd868f60632c0a18fd8dc7292d"
-    },
-    "mac": {
-      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.5/VultModules-0.5.5-mac.zip",
-      "sha256": "7980b532eb149b2777024e987095ec25db88ea12859506c9077fa6c846704eb0"
-    },
-    "lin": {
-      "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.5/VultModules-0.5.5-lin.zip",
-      "sha256": "1c3600d95049dd2aca31069145969075237f482ca3cf90cadf846bb799a62be9"
-    }
-  }
+  "productId": "937306325035"
 }
