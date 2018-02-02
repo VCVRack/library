@@ -11,7 +11,11 @@
   "downloads": {
     "mac": {
       "download": "https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/releases/download/v0.5.0/PulsumQuadratum-rtlsdr-0.5.0-mac.zip",
-      "sha256": "9fc05f4c7c41d56c6c1ef417e6ea107a47d8d0d424e999e1b80edb490a9e1904"
+      "sha256": "ee435bcc9645a8cb40147071b59bfd17acf6d7adb4e2dcf53ea51303ad305762"
+    },
+    "win": {
+      "download": "https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/files/1689387/PulsumQuadratum-rtlsdr-0.5.0-win.zip",
+      "sha256": "4058699ea1f854fa6a04e35ecef58c7fc6d94e696b536d33720d6e2bf328cb54"
     }
   }
 }
