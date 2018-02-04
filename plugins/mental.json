@@ -9,7 +9,8 @@
   "source": "https://github.com/Strum/Strums_Mental_VCV_Modules",
   "downloads": {
     "win": {
-      "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/releases/download/v0.5.b/mental-0.5.b-win.zip"      
+      "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/releases/download/v0.5.b/mental-0.5.b-win.zip",
+      "sha256": "3d93d74cbbcd4899a367799f5803ed57c6d171f49e3062fe4c3dd8c932e00854"
     }
   }
 }
