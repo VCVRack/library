@@ -15,6 +15,10 @@
     "lin": {
       "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/releases/download/v0.5.b/mental-0.5.b-lin.zip",
       "sha256": "e716ff6a9a98addc5eb07f92d8d524c627da5734375d97a084b8878a25b8f7c2"
+    },
+    "mac": {
+      "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/releases/download/v0.5.b/mental-0.5.b-mac.zip",
+      "sha256": "34e5fab67cd3ef643f958c9a200161e3dd0f0628105fa38121d1147e22fb27f1"
     }
   }
 }
