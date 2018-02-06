@@ -1,0 +1,25 @@
+{
+  "slug": "Aepelzens Modules",
+  "name": "Aepelzens Modules",
+  "author": "Aepelzen",
+  "license": "",
+  "version": "",
+  "homepage": "https://github.com/Aepelzen/AepelzensModules",
+  "donation": "",
+  "manual": "https://github.com/Aepelzen/AepelzensModules/blob/master/README.md",
+  "source": "https://github.com/Aepelzen/AepelzensModules",
+  "downloads": {
+    "win": {
+      "download": "",
+      "sha256": ""
+    },
+    "lin": {
+      "download": "",
+      "sha256": ""
+    },
+    "mac": {
+      "download": "",
+      "sha256": ""
+    }
+  }
+}

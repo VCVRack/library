@@ -1,0 +1,25 @@
+{
+  "slug": "Aepelzens Modules",
+  "name": "Aepelzens Parasites",
+  "author": "Aepelzen",
+  "license": "",
+  "version": "",
+  "homepage": "https://github.com/Aepelzen/AepelzensParasites",
+  "donation": "",
+  "manual": "https://github.com/Aepelzen/AepelzensParasites/blob/master/README.md",
+  "source": "https://github.com/Aepelzen/AepelzensParasites",
+  "downloads": {
+    "win": {
+      "download": "",
+      "sha256": ""
+    },
+    "lin": {
+      "download": "",
+      "sha256": ""
+    },
+    "mac": {
+      "download": "",
+      "sha256": ""
+    }
+  }
+}
