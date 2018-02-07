@@ -1,0 +1,34 @@
+language: cpp
+node_js:
+  "9.3.0"
+cache:
+  directories:
+    - /tmp/Rack
+osx_image: xcode9.2
+os:
+  - linux
+  - osx
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-7
+install:
+#  - npm install
+  - if [ $TRAVIS_OS_NAME == linux ]; then sudo apt-get install coreutils realpath git libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libgl1-mesa-dev libglu1-mesa-dev zlib1g-dev libasound2-dev libgtk2.0-dev unzip cmake3 ; fi
+  - if [ $TRAVIS_OS_NAME == osx ]; then echo; fi
+  - git submodule update --init --
+before_script:
+#  - npm test
+  - git clone -b master https://github.com/VCVRack/Rack.git /tmp/Rack || cd /tmp/Rack && git pull
+  - cd /tmp/Rack
+  - git submodule update --init --recursive
+  - if [ $TRAVIS_OS_NAME == linux ]; then export CC=gcc-7 && CXX=g++-7; fi
+  - make -j 8 dep > /dev/null
+  - make -j 8
+script:
+  - cd $TRAVIS_BUILD_DIR
+  - RACK_DIR=/tmp/Rack make -j 8 dist_all
+notifications:
+  email: false
