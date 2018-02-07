@@ -5,3 +5,6 @@ node_js:
 before_install:
 - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 - git fetch
+
+notifications:
+  email: false
