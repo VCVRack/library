@@ -1,0 +1,3 @@
+[submodule "repos/AudibleInstruments"]
+	path = repos/AudibleInstruments
+	url = https://github.com/VCVRack/AudibleInstruments.git
