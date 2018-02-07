@@ -1,7 +1,0 @@
-language: node_js
-node_js:
-  "9.3.0"
-
-before_install:
-- git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
-- git fetch
