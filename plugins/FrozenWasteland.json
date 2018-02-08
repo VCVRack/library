@@ -3,23 +3,23 @@
   "name": "Frozen Wasteland",
   "author": "almostEric",
   "license": "CC0 1.0 Universal",
-  "version": "0.5.11",
+  "version": "0.5.12",
   "homepage": "https://github.com/almostEric/FrozenWasteland/blob/master/README.md",
   "manual": "https://github.com/almostEric/FrozenWasteland/blob/master/README.md",
   "donation": "https://paypal.me/FrozenWasteland",
   "source": "https://github.com/almostEric/FrozenWasteland",
   "downloads": {
     "win": {
-      "download": "https://github.com/almostEric/FrozenWasteland/releases/download/0.5.11/FrozenWasteland-0.5.11-win.zip",
-      "sha256": "df233bb718ff171fd9d9b120e44adcbf77924178e848816930356876df07c689"
+      "download": "https://github.com/almostEric/FrozenWasteland/releases/download/0.5.12/FrozenWasteland-0.5.12-win.zip",
+      "sha256": "d6d987ec40877e6810eedf8ca0b55829183dfffbfe87e034ca591e77838a73b5"
     },
     "lin": {
-      "download": "https://github.com/almostEric/FrozenWasteland/releases/download/0.5.11/FrozenWasteland-0.5.11-lin.zip",
-      "sha256": "fd218cdc3a973e1993a9d67c183f70060050bce3f60bbdad2c5912fe1b9a3495"
+      "download": "https://github.com/almostEric/FrozenWasteland/releases/download/0.5.12/FrozenWasteland-0.5.12-lin.zip",
+      "sha256": "d591acc040af049eb54c25cf3994d6c0d8b962c002650e01bec243aed0a8e88e"
     },
     "mac": {
-      "download": "https://github.com/almostEric/FrozenWasteland/releases/download/0.5.11/FrozenWasteland-0.5.11-mac.zip",
-      "sha256": "931b01fd11533e005f9c74bc950e58399dc82bd64113ae7d53d4dd5f086ba52f"
+      "download": "https://github.com/almostEric/FrozenWasteland/releases/download/0.5.12/FrozenWasteland-0.5.12-mac.zip",
+      "sha256": "3c4aad3dca826493d03b76cfdae9bb31685427158afb9563e9843ca18f795ef1"
     }
   }
 }
