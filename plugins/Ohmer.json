@@ -2,10 +2,10 @@
   "slug": "Ohmer",
   "name": "Ohmer Modules",
   "author": "Dominique Camus",
-  "license": "CC-BY-3.0",
+  "license": "proprietary",
   "version": "0.5.2",
   "homepage": "https://github.com/DomiKamu/Ohmer-Modules",
-  "donation": "https://www.paypal.me/DominiqueCAMUS/3",
+  "donation": "https://www.paypal.me/DominiqueCAMUS",
   "manual": "https://github.com/DomiKamu/Ohmer-Modules/blob/master/README.md",
   "source": "https://github.com/DomiKamu/Ohmer-Modules.git",
   "downloads": {
