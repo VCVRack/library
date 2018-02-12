@@ -1,0 +1,25 @@
+{
+  "slug": "Ohmer",
+  "name": "Ohmer Modules",
+  "author": "Dominique Camus",
+  "license": "CC-BY-3.0",
+  "version": "0.5.2",
+  "homepage": "https://github.com/DomiKamu/Ohmer-Modules",
+  "donation": "https://www.paypal.me/DominiqueCAMUS/3",
+  "manual": "https://github.com/DomiKamu/Ohmer-Modules/blob/master/README.md",
+  "source": "https://github.com/DomiKamu/Ohmer-Modules.git",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/DomiKamu/Ohmer-Modules/releases/download/v0.5.2/Ohmer-0.5.2-win.zip",
+      "sha256": "771bef18a5463b2e2d504a6e43a0c6d0a0b25f216ddcadb422e0868f1a4517bc"
+    },
+    "lin": {
+      "download": "",
+      "sha256": ""
+    },
+    "mac": {
+      "download": "",
+      "sha256": ""
+    }
+  }
+}
