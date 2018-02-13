@@ -1,0 +1,23 @@
+{
+  "slug": "squinkylabs-plug1",
+  "name": "Squinky Labs I",
+  "author": "Squinky Labs",
+  "license": "MIT",
+  "version": "0.5.0",
+  "manual": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/booty-shifter.md",
+  "source": "https://github.com/squinkylabs/SquinkyVCV",
+  "downloads": {
+    "win": {
+        "download": "https://github.com/squinkylabs/SquinkyVCV/releases/download/v0.5.0/squinkylabs-plug1-0.5.0.zip",
+        "sha256": "d580b098278317300bced777b4efff413adbcd2e293c2063501548cbaa2ce56d"
+    },
+    "lin": {   
+        "download": "https://github.com/squinkylabs/SquinkyVCV/releases/download/v0.5.0/squinkylabs-plug1-0.5.0.zip",
+        "sha256": "d580b098278317300bced777b4efff413adbcd2e293c2063501548cbaa2ce56d"
+    },
+    "mac": {
+        "download": "https://github.com/squinkylabs/SquinkyVCV/releases/download/v0.5.0/squinkylabs-plug1-0.5.0.zip",
+        "sha256": "d580b098278317300bced777b4efff413adbcd2e293c2063501548cbaa2ce56d"
+    }
+  }
+}
