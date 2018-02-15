@@ -14,6 +14,10 @@
     "mac": {
       "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist/moDllz-0.5.3-mac.zip?raw=true",
       "sha256": "86c47c5631c8846d70c4f8ac159c6d9009ad89101362b7af71df28234c2ba213"
+    },
+    "lin": {
+      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist/moDllz-0.5.3-lin.zip?raw=true",
+      "sha256": "e50ac4a7c2840d0c387439d95eb5facc3929bd21880268fad4198b9dbd6268bf"
     }
-  }
+    }
 }
