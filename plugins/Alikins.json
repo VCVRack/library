@@ -15,6 +15,10 @@
     "mac": {
       "download": "https://github.com/alikins/Alikins-rack-plugins/releases/download/v0.5.3/Alikins-0.5.3-mac.zip",
       "sha256": "f90b8ee10c6ae5e32ae8d61f4d021925eba1cd4a7ba195241d0468b594039a7b"
+    },
+    "win": {
+      "download": "https://github.com/alikins/Alikins-rack-plugins/releases/download/v0.5.3/Alikins-0.5.3-win.zip",
+      "sha256": "01e1623d955e1818a79107e6a623a79d710a17ed9aed7537155acde097dba83e"
     }
   }
 }
