@@ -2,22 +2,22 @@
   "slug": "Autodafe",
   "name": "Autodafe Module Pack",
   "author": "Autodafe",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "source": "https://github.com/antoniograzioli/Autodafe",
   "homepage": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules.html",
   "donation": "https://www.paypal.me/autodafe",
   "downloads": {
     "win": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe-0.5.2-win.zip",
-      "sha256": "9795333e0a5560c4649919e437a1ba444a7222f395ec3a5c8d116d182c6726d4"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-0.6.0-win.zip",
+      "sha256": "605460a32bb3fd4d51a82b019771f7664c2c467a0cae84e6afbb0a36632621d9"
     },
     "lin": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe-0.5.2-lin.zip",
-      "sha256": "88f6193d99037e0387dc43670c7655eb80a25a09287f8c8782b030868db9abe7"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-0.6.0-lin.zip",
+      "sha256": "7973d35d67783dabe7f886981e40cfb7642ae28cc908ae0e0883844a95989c33"
     },
     "mac": {
-      "download": "http://www.autodafe.net/VCVRack/Autodafe-0.5.2-mac.zip",
-      "sha256": "956b3b8dfbb38038ea56ce5532ae346cd64e4eaf0150944dda600a54a6a234e4"
+      "download": "http://www.autodafe.net/VCVRack/Autodafe-0.6.0-mac.zip",
+      "sha256": "b4ef8ac6734a89b8aeca8f30266f48190b6f64d836b563111dd832a05727123a"
     }
   }
   
