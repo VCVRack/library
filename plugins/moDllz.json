@@ -3,21 +3,21 @@
   "name": "moDllz",
   "author": "Pablo Delaloza",
   "license": "BSD 3-clause",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "manual": "https://github.com/dllmusic/VCV_moDllz/blob/master/README.md",
   "source": "https://github.com/dllmusic/VCV_moDllz",
   "downloads": {
     "win": {
-      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist/moDllz-0.5.3-win.zip?raw=true",
-      "sha256": "e8d08eff204e0c02336ea1ca14a5b2ef3390e0261c97ab27718e5368476693d7"
+      "download": "",
+      "sha256": ""
     },
     "mac": {
-      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist/moDllz-0.5.3-mac.zip?raw=true",
-      "sha256": "86c47c5631c8846d70c4f8ac159c6d9009ad89101362b7af71df28234c2ba213"
+      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist/moDllz-0.5.4-mac.zip?raw=true",
+      "sha256": "3060f001e229bb2d159ae42ca4f32a660fb96f66da94c04c23cef55e9b0a0ab1"
     },
     "lin": {
-      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist/moDllz-0.5.3-lin.zip?raw=true",
-      "sha256": "e50ac4a7c2840d0c387439d95eb5facc3929bd21880268fad4198b9dbd6268bf"
+      "download": "",
+      "sha256": ""
     }
     }
 }
