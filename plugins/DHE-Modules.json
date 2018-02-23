@@ -1,0 +1,25 @@
+{
+  "slug": "DHE-Modules",
+  "name": "DHE Modules",
+  "author": "Dale Emery",
+  "license": "MIT",
+  "version": "0.5.0",
+  "homepage": "https://github.com/dhemery/DHE-Modules/wiki",
+  "donation": "https://paypal.me/DaleHEmery",
+  "source": "https://github.com/dhemery/DHE-Modules",
+  "manual": "https://github.com/dhemery/DHE-Modules/wiki",
+  "downloads": {
+    "lin": {
+      "download": "https://github.com/dhemery/DHE-Modules/releases/download/v0.5.0/DHE-Modules-0.5.0-lin.zip",
+      "sha256": "6de889e9cd043aea2202b349e95236314114b104b4c82b8ae13802e3e3ae1233"
+    },
+    "mac": {
+      "download": "https://github.com/dhemery/DHE-Modules/releases/download/v0.5.0/DHE-Modules-0.5.0-mac.zip",
+      "sha256": "22da98c62c9ff6c38bbb2fc907ba2581237cdceb10919cf97f359cee9c5f43ca"
+    },
+    "win": {
+      "download": "https://github.com/dhemery/DHE-Modules/releases/download/v0.5.0/DHE-Modules-0.5.0-win.zip",
+      "sha256": "65ba50d14ddf8e14cd57b21d312b948096d6bf3ac54cb3c7a336235c26ed86c9"
+    }
+  }
+}

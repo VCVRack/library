@@ -3,17 +3,22 @@
   "name": "Autinn",
   "author": "Nikolai V. Chr.",
   "license": "proprietary",
-  "version": "0.5.1.18",
+  "version": "0.5.21",
   "homepage": "https://github.com/NikolaiVChr/Autinn",
+  "donation": "https://www.paypal.me/autinn",
   "manual": "https://github.com/NikolaiVChr/Autinn/blob/master/README.md",
   "downloads": {
     "win": {
-      "download": "https://github.com/NikolaiVChr/Autinn/releases/download/v0.5.1.18/Autinn-0.5.1.18-win.zip",
-      "sha256": "6898172d6efb0d850d6802dcc923034fbe19fea6abbde8d6412a1478faaeb700"
+      "download": "https://github.com/NikolaiVChr/Autinn/releases/download/v0.5.21/Autinn-0.5.21-win.zip",
+      "sha256": "55bb8da474377a512cb0c17cee814ece1067c67090c6bee601ca07b308f29394"
     },
     "lin": {
-      "download": "https://github.com/NikolaiVChr/Autinn/releases/download/v0.5.1.18/Autinn-0.5.1.18-lin.zip",
-      "sha256": "581a305bb98bcb500a9170fddef87a1191a6fbde0fbb41f6967bab8d0ecd561f"
+      "download": "https://github.com/NikolaiVChr/Autinn/releases/download/v0.5.21/Autinn-0.5.21-lin.zip",
+      "sha256": "9859ee13e5567664f1e7867e4957dbae3379e2293a98d00bbde0efa3de9d237e"
+    },
+    "mac": {
+      "download": "https://github.com/NikolaiVChr/Autinn/releases/download/v0.5.21/Autinn-0.5.21-mac.zip",
+      "sha256": "8b02237fbc769bfb27e84f3d4e9e9e0c1fdfaa445e63b39140fa1b61ed1b17e0"
     }
   }
 }
