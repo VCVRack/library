@@ -1,0 +1,14 @@
+{
+  "slug": "JLmod",
+  "name": "JLmod",
+  "author": "Joakim.Lindbom@gmail.com",
+  "version": "0.6dev",
+  "source": "https://github.com/JoakimLindbom/JLmod",
+  "manual": "https://github.com/JoakimLindbom/JLmod/blob/master/README.md",
+  "downloads": {
+    "lin": {
+      "download": "https://github.com/JoakimLindbom/JLmod/archive/0.51.tar.gz",
+      "sha256": "fe60b16aa111bd90cd9fefbd82e20b548bdf6a662b3370107ba7f0aed59cf09e"
+    }
+  }
+}
