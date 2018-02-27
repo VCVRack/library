@@ -10,16 +10,16 @@
   "donation": "https://www.paypal.me/southpolemodular",
   "downloads": {
     "win": {
-      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.2/Southpole-0.5.2-win.zip",
-      "sha256": "c8553f2c967df96b43d534ac95fc01a722fd3d65ad995910f263a3aced3f6b86"
+      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.3/Southpole-0.5.3-win.zip",
+      "sha256": "4887032133be497125dc459c5e4432c0870d056d85921285a2aad9812eba6ffe"
     },
     "lin": {
-      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.2/Southpole-0.5.2-lin.zip",
-      "sha256": "4ee9efb4eb5bf18d40cece3b91b453d0e67fc963455e423a555b2652c32f6353"
+      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.3/Southpole-0.5.3-lin.zip",
+      "sha256": "4f6c98c4cd7d5a36ba8fa8c0eadf9b954a2ada57d8b94a80e73d43617c9958f5"
     },
     "mac": {
-      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.2/Southpole-0.5.2-mac.zip",
-      "sha256": "744fddeea6ee4de2f2fb07a64895befb56498151bc583b4514cf745bd9a6b16d"
+      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.3/Southpole-0.5.3-mac.zip",
+      "sha256": "445939f197158f028a7aa62c43078d6c6a44f96b93d0ca04549ac609dbb82391"
     }
   }  
 }

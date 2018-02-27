@@ -1,0 +1,25 @@
+{
+  "slug": "Southpole-parasites",
+  "name": "Southpole Parasites",
+  "author": "Gerhard Brandt",
+  "license": "BSD 3-clause",
+  "version": "0.5.3",
+  "source": "https://github.com/gbrandt1/southpole-vcvrack",
+  "homepage": "https://github.com/gbrandt1/southpole-vcvrack",
+  "manual": "https://github.com/gbrandt1/southpole-vcvrack/blob/master/README.md",
+  "donation": "https://www.paypal.me/southpolemodular",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.3/Southpole-parasites-0.5.3-win.zip",
+      "sha256": "472c186d4503cd3135814c0bc2f74fa670b9260c36d1f029c44ec27c4e896c63"
+    },
+    "lin": {
+      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.3/Southpole-parasites-0.5.3-lin.zip",
+      "sha256": "c9c1a5381a85befe990b848ac3bc050a054579c49315b48bbeb5f7bb1e50c7df"
+    },
+    "mac": {
+      "download": "https://github.com/gbrandt1/southpole-vcvrack/releases/download/0.5.3/Southpole-parasites-0.5.3-mac.zip",
+      "sha256": "3454f672546eff1ac9183fceeed916d478f249e8b7b7a3c64170659b7e7ea6e6"
+    }
+  }  
+}
