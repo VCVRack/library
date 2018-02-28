@@ -3,23 +3,19 @@
   "name": "Ohmer Modules",
   "author": "Dominique Camus",
   "license": "BSD 3-clause",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "homepage": "https://github.com/DomiKamu/Ohmer-Modules",
   "donation": "https://www.paypal.me/DominiqueCAMUS",
   "manual": "https://github.com/DomiKamu/Ohmer-Modules/blob/master/README.md",
   "source": "https://github.com/DomiKamu/Ohmer-Modules.git",
   "downloads": {
     "win": {
-      "download": "https://github.com/DomiKamu/Ohmer-Modules/releases/download/v0.5.3/Ohmer-0.5.3-win.zip",
-      "sha256": "63ea9a8eecd6ac1298768b4c4f83e9b7b6cf936c748516297d838bd9a99c438d"
-    },
-    "lin": {
-      "download": "https://github.com/DomiKamu/Ohmer-Modules/releases/download/v0.5.3/Ohmer-0.5.3-lin.zip",
-      "sha256": "86a1d263c600ca0e40a88cdfe35fefb3a9c23777676c07ef5b130afa8c6daa71"
+      "download": "https://github.com/DomiKamu/Ohmer-Modules/releases/download/v0.5.4/Ohmer-0.5.4-win.zip",
+      "sha256": "b952bd78647fcbd543a313b5e664844f7b7e0264aabe0f7c33b5186ae8d144a7"
     },
     "mac": {
       "download": "https://github.com/DomiKamu/Ohmer-Modules/releases/download/v0.5.3/Ohmer-0.5.3-mac.zip",
-      "sha256": "45e914847c77cb35ae03516afc20d42af029328ed5f81035ec098abb9e911147"
+      "sha256": "e839d3e51b35d04bf797eca077c9f97c7817edf3bec30de37364c8908fab0a50"
     }
   }
 }
