@@ -15,6 +15,10 @@
     "lin": {
       "download": "https://github.com/sebastien-bouffier/Bidoo/files/1768630/Bidoo-0.5.24-lin.zip",
       "sha256": "6d27ff3d2e23816e039acceb397ba036427c61b02c72fef7070f32136d3aa234"
+    },
+    "mac": {
+      "download": "https://github.com/sebastien-bouffier/Bidoo/files/1780149/Bidoo-0.5.24-mac.zip",
+      "sha256": "957b67e9c5e0bc8dd8aa7c6ab0666a1788252c049d33ee133b72ff45d1ecbf64"
     }
   }
 }
