@@ -6,6 +6,7 @@
   "version": "0.5.4",
   "manual": "https://github.com/ValleyAudio/ValleyRackFree/",
   "source": "https://github.com/ValleyAudio/ValleyRackFree/",
+  "donation": "paypal.me/valleyvcv",
   "downloads": {
     "win": {
       "download": "https://github.com/ValleyAudio/ValleyRackFree/releases/download/0.5.4/Valley.Free-0.5.4-win.zip",
