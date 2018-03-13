@@ -5,3 +5,223 @@
 	path = repos/Fundamental
 	url = https://github.com/VCVRack/Fundamental.git
 	branch = master
+[submodule "repos/AS"]
+	path = repos/AS
+	url = https://github.com/AScustomWorks/AS.git
+	branch = master
+[submodule "repos/AepelzensModules"]
+	path = repos/AepelzensModules
+	url = https://github.com/Aepelzen/AepelzensModules.git
+	branch = 0.6-dev
+[submodule "repos/Alikins"]
+	path = repos/Alikins
+	url = https://github.com/alikins/Alikins-rack-plugins.git
+	branch = v0.6
+[submodule "repos/ArableInstruments"]
+	path = repos/ArableInstruments
+	url = https://github.com/adbrant/ArableInstruments.git
+	branch = master
+[submodule "repos/Autodafe-DrumKit"]
+	path = repos/Autodafe-DrumKit
+	url = https://github.com/antoniograzioli/Autodafe-Drums.git
+	branch = master
+[submodule "repos/Autodafe"]
+	path = repos/Autodafe
+	url = https://github.com/antoniograzioli/Autodafe.git
+	branch = master
+[submodule "repos/Befaco"]
+	path = repos/Befaco
+	url = https://github.com/VCVRack/Befaco.git
+	branch = master
+[submodule "repos/Bidoo"]
+	path = repos/Bidoo
+	url = https://github.com/sebastien-bouffier/Bidoo.git
+	branch = master
+[submodule "repos/Bogaudio"]
+	path = repos/Bogaudio
+	url = https://github.com/bogaudio/BogaudioModules.git
+	branch = master
+[submodule "repos/CastleRocktronics"]
+	path = repos/CastleRocktronics
+	url = https://github.com/KieranPringle/CastleRocktronics.git
+	branch = master
+[submodule "repos/CharredDesert"]
+	path = repos/CharredDesert
+	url = https://github.com/JerrySievert/CharredDesert
+	branch = master
+[submodule "repos/DHE-Modules"]
+	path = repos/DHE-Modules
+	url = https://github.com/dhemery/DHE-Modules.git
+	branch = master
+[submodule "repos/DrumKit"]
+	path = repos/DrumKit
+	url = https://github.com/JerrySievert/DrumKit.git
+	branch = master
+[submodule "repos/ESeries"]
+	path = repos/ESeries
+	url = https://github.com/VCVRack/ESeries.git
+	branch = master
+[submodule "repos/FrozenWasteland"]
+	path = repos/FrozenWasteland
+	url = https://github.com/almostEric/FrozenWasteland.git
+	branch = master
+[submodule "repos/Gratrix"]
+	path = repos/Gratrix
+	url = https://github.com/gratrix/vcv-gratrix.git
+	branch = master
+[submodule "repos/HetrickCV"]
+	path = repos/HetrickCV
+	url = https://github.com/mhetrick/hetrickcv.git
+	branch = master
+[submodule "repos/IO-Simple"]
+	path = repos/IO-Simple
+	url = https://github.com/IohannRabeson/VCVRack-Simple.git
+	branch = master
+[submodule "repos/JE"]
+	path = repos/JE
+	url = https://github.com/eres-j/VCVRack-plugin-JE.git
+	branch = master
+[submodule "repos/JW-Modules"]
+	path = repos/JW-Modules
+	url = https://github.com/jeremywen/JW-Modules.git
+	branch = master
+[submodule "repos/KarateSnoopy"]
+	path = repos/KarateSnoopy
+	url = https://github.com/KarateSnoopy/vcv-karatesnoopy.git
+	branch = master
+[submodule "repos/LOGinstruments"]
+	path = repos/LOGinstruments
+	url = https://github.com/leopard86/LOGinstruments.git
+	branch = master
+[submodule "repos/LindenbergResearch"]
+	path = repos/LindenbergResearch
+	url = https://github.com/lindenbergresearch/LRTRack.git
+	branch = master
+[submodule "repos/ML_modules"]
+	path = repos/ML_modules
+	url = https://github.com/martin-lueders/ML_modules.git
+	branch = master
+[submodule "repos/MrLumps"]
+	path = repos/MrLumps
+	url = https://github.com/djpeterso23662/MrLumps.git
+	branch = master
+[submodule "repos/NauModular"]
+	path = repos/NauModular
+	url = https://github.com/naus3a/NauModular.git
+	branch = master
+[submodule "repos/Nohmad"]
+	path = repos/Nohmad
+	url = https://github.com/joelrobichaud/Nohmad.git
+	branch = master
+[submodule "repos/NonLinearInstruments"]
+	path = repos/NonLinearInstruments
+	url = https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins.git
+	branch = master
+[submodule "repos/Ohmer"]
+	path = repos/Ohmer
+	url = https://github.com/DomiKamu/Ohmer-Modules.git
+	branch = 060dev
+[submodule "repos/ParableInstruments"]
+	path = repos/ParableInstruments
+	url = https://github.com/adbrant/ArableInstruments.git
+	branch = parables
+[submodule "repos/PulsumQuadratum-rtlsdr"]
+	path = repos/PulsumQuadratum-rtlsdr
+	url = https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr.git
+	branch = master
+[submodule "repos/PvC"]
+	path = repos/PvC
+	url = https://github.com/phdsg/PvC.git
+	branch = master
+[submodule "repos/Qwelk"]
+	path = repos/Qwelk
+	url = https://github.com/raincheque/qwelk.git
+	branch = master
+[submodule "repos/RJModules"]
+	path = repos/RJModules
+	url = https://github.com/Miserlou/RJModules.git
+	branch = master
+[submodule "repos/RODENTMODULES"]
+	path = repos/RODENTMODULES
+	url = https://github.com/RODENTCAT/RODENTMODULES.git
+	branch = master
+[submodule "repos/SonusModular"]
+	path = repos/SonusModular
+	url = https://gitlab.com/sonusdept/sonusmodular.git
+	branch = master
+[submodule "repos/Southpole-parasites"]
+	path = repos/Southpole-parasites
+	url = https://github.com/gbrandt1/southpole-vcvrack.git
+	branch = master
+[submodule "repos/Southpole"]
+	path = repos/Southpole
+	url = https://github.com/gbrandt1/southpole-vcvrack.git
+	branch = master
+[submodule "repos/StellareModular-Link"]
+	path = repos/StellareModular-Link
+	url = https://github.com/stellare-modular/vcv-link.git
+	branch = master
+[submodule "repos/SynthKit"]
+	path = repos/SynthKit
+	url = https://github.com/JerrySievert/SynthKit.git
+	branch = master
+[submodule "repos/TheXOR"]
+	path = repos/TheXOR
+	url = https://github.com/The-XOR/VCV-Sequencers.git
+	branch = master
+[submodule "repos/Valley"]
+	path = repos/Valley
+	url = https://github.com/ValleyAudio/ValleyRackFree.git
+	branch = v0.6
+[submodule "repos/av500"]
+	path = repos/av500
+	url = https://github.com/av500/vcvrackplugins_av500.git
+	branch = master
+[submodule "repos/cf"]
+	path = repos/cf
+	url = https://github.com/cfoulc/cf.git
+	branch = master
+[submodule "repos/dBiz"]
+	path = repos/dBiz
+	url = https://github.com/dBiz/dBiz.git
+	branch = 060dev
+[submodule "repos/dekstop"]
+	path = repos/dekstop
+	url = https://github.com/dekstop/vcvrackplugins_dekstop.git
+	branch = master
+[submodule "repos/luckyxxl"]
+	path = repos/luckyxxl
+	url = https://github.com/luckyxxl/vcv_luckyxxl.git
+	branch = master
+[submodule "repos/mental"]
+	path = repos/mental
+	url = https://github.com/Strum/Strums_Mental_VCV_Modules.git
+	branch = 06dev
+[submodule "repos/moDllz"]
+	path = repos/moDllz
+	url = https://github.com/dllmusic/VCV_moDllz.git
+	branch = master-0.6.0dev
+[submodule "repos/mscHack"]
+	path = repos/mscHack
+	url = https://github.com/mschack/VCV-Rack-Plugins.git
+	branch = master
+[submodule "repos/mtsch-plugins"]
+	path = repos/mtsch-plugins
+	url = https://github.com/mtsch/mtsch-vcvrack-plugins.git
+	branch = master
+[submodule "repos/s-ol"]
+	path = repos/s-ol
+	url = https://github.com/s-ol/vcvmods.git
+	branch = master
+[submodule "repos/squinkylabs-plug1"]
+	path = repos/squinkylabs-plug1
+	url = https://github.com/squinkylabs/SquinkyVCV.git
+	branch = master
+[submodule "repos/trowaSoft"]
+	path = repos/trowaSoft
+	url = https://github.com/j4s0n-c/trowaSoft-VCV.git
+	branch = master
+[submodule "repos/AmalgamatedHarmonics"]
+	path = repos/AmalgamatedHarmonics
+	url = https://github.com/jhoar/AmalgamatedHarmonics.git
+	branch = master
