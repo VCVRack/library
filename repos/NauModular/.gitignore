@@ -1,4 +1,0 @@
-*.dylib
-build/*
-dist/*
-testRun.sh

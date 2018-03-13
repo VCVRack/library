@@ -1,2 +1,0 @@
-{% assign dark = page | dark %}
-{% include button.svg color=dark state_color=dark %}

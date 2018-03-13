@@ -1,8 +1,0 @@
-plugin.dylib
-.DS_Store
-src/*.o
-src/*.d
-build
-dist
-tests/*.o
-testrunner

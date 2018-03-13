@@ -1,6 +1,0 @@
-build/
-dist/
-res/*.ai
-*.dll
-*.dylib
-*.so

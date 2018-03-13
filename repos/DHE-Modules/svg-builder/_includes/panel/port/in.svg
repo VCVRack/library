@@ -1,1 +1,0 @@
-{{ page | in_port: include.x, include.y, include.label }}

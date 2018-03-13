@@ -1,9 +1,0 @@
-*.dll
-build/*
-dist/*
-RackPlugins/.vs/*
-*.log
-*.opensdf
-*.suo
-*.sdf
-*.suo

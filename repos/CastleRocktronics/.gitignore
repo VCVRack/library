@@ -1,8 +1,0 @@
-#make output
-/build
-*.dylib
-/dist
-
-#project files
-/.vscode
-*.code-workspace

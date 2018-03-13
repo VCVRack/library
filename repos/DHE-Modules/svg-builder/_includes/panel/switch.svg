@@ -1,1 +1,0 @@
-{{ page | switch: include.x, include.y, include.high, include.low, include.mid }}
