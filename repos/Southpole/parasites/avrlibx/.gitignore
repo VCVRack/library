@@ -1,0 +1,29 @@
+# Precompiled python modules
+*.pyc
+
+# Eagle backups
+*.s#?
+*.b#?
+
+# Gerber files
+*.CUT
+*.GBL
+*.GBO
+*.GBS
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+*.TXT
+*.dri
+*.gpi
+*.pro
+
+# LaTeX compiled file
+*.pdf
+*.log
+*.aux
+
+# OS X crap
+.DS_Stor?

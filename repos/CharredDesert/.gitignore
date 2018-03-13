@@ -1,0 +1,4 @@
+build
+dist
+plugin.dylib
+.DS_Store

@@ -1,0 +1,39 @@
+---
+layout: page
+---
+
+<p align="center" id="compact_images">
+{% for module in site.modules %}
+<a href="{{site.baseurl}}/modules/{{ module.key }}.html"><img class="compact" src="{{ site.baseurl }}/screenshots/{{module.key }}.png" alt="{{module.name}} image"></a>
+{% endfor %}
+</p>
+
+{% assign latest_release = site.data.releases | last %}
+<h2> Current release </h2>
+<table>
+<tr><th>Version</th><td>{{ latest_release.version }}</td></tr>
+{% if latest_release.notes %}
+<tr>
+<th>Release notes</th><td>{{ latest_release.notes }}</td>
+</tr>
+{% endif %}
+<tr>
+	<th rowspan="{{ latest_release.downloads | size}}">Download links</th>
+	<td><a href="{{ latest_release.downloads[0].link }}">{{ latest_release.downloads[0].label }}</a></td>
+</tr>
+{% for download in latest_release.downloads offset:1 %}
+<tr><td><a href="{{ download.link }}">{{ download.label }}</a></td></tr>
+{% endfor %}
+</table>
+
+<h2>Documentation</h2>
+<p>
+Click on the module's images above to read the corresponding documentation.</br>
+You can also get the <a href="{{site.baseurl}}/modules">list of available modules</a>.
+</p>
+
+<h2>Issue tracker</h2>
+<p>
+Use the <a href="{{ site.github.repository_url }}/issues">issues tracker</a> to submit bug reports.</br>
+Feature requests are also welcome, but I can't promise you that I will do what you propose.
+</p>

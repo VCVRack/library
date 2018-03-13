@@ -1,0 +1,243 @@
+
+#include "EightFO.hpp"
+#include "dsp/pitch.hpp"
+
+void EightFO::onReset() {
+	_resetTrigger.reset();
+	_modulationStep = modulationSteps;
+	_sampleStep = _phasor._sampleRate;
+}
+
+void EightFO::onSampleRateChange() {
+	_phasor.setSampleRate(engineGetSampleRate());
+	_modulationStep = modulationSteps;
+	_sampleStep = _phasor._sampleRate;
+}
+
+void EightFO::step() {
+	lights[SLOW_LIGHT].value = _slowMode;
+	if (!(
+		outputs[PHASE7_OUTPUT].active ||
+		outputs[PHASE6_OUTPUT].active ||
+		outputs[PHASE5_OUTPUT].active ||
+		outputs[PHASE4_OUTPUT].active ||
+		outputs[PHASE3_OUTPUT].active ||
+		outputs[PHASE2_OUTPUT].active ||
+		outputs[PHASE1_OUTPUT].active ||
+		outputs[PHASE0_OUTPUT].active
+	)) {
+		return;
+	}
+
+	++_modulationStep;
+	if (_modulationStep >= modulationSteps) {
+		_modulationStep = 0;
+
+		_slowMode = ((int)params[SLOW_PARAM].value) == 1;
+		float frequency = 0.0f;
+		if (inputs[PITCH_INPUT].active) {
+			frequency = clamp(cvToFrequency(inputs[PITCH_INPUT].value), minFrequency, maxFrequency);
+		}
+		else {
+			frequency = params[FREQUENCY_PARAM].value;
+			if (_slowMode) {
+				frequency *= slowModeFactor;
+			}
+		}
+		_phasor.setFrequency(frequency);
+
+		_wave = (Wave)params[WAVE_PARAM].value;
+		if (_wave == SQUARE_WAVE) {
+			_square.setPulseWidth((params[SAMPLE_PWM_PARAM].value + 1.0f) / 2.0f);
+		}
+		else {
+			float maxSampleSteps = (_phasor._sampleRate / _phasor._frequency) / 4.0f;
+			_sampleSteps = clamp((int)(abs(params[SAMPLE_PWM_PARAM].value) * maxSampleSteps), 1, (int)maxSampleSteps);
+		}
+
+		if (_resetTrigger.process(inputs[RESET_INPUT].value)) {
+			_phasor.setPhase(0.0f);
+		}
+
+		_phase7Offset = phaseOffset(params[PHASE7_PARAM], inputs[PHASE7_INPUT], basePhase7Offset);
+		_phase6Offset = phaseOffset(params[PHASE6_PARAM], inputs[PHASE6_INPUT], basePhase6Offset);
+		_phase5Offset = phaseOffset(params[PHASE5_PARAM], inputs[PHASE5_INPUT], basePhase5Offset);
+		_phase4Offset = phaseOffset(params[PHASE4_PARAM], inputs[PHASE4_INPUT], basePhase4Offset);
+		_phase3Offset = phaseOffset(params[PHASE3_PARAM], inputs[PHASE3_INPUT], basePhase3Offset);
+		_phase2Offset = phaseOffset(params[PHASE2_PARAM], inputs[PHASE2_INPUT], basePhase2Offset);
+		_phase1Offset = phaseOffset(params[PHASE1_PARAM], inputs[PHASE1_INPUT], basePhase1Offset);
+		_phase0Offset = phaseOffset(params[PHASE0_PARAM], inputs[PHASE0_INPUT], basePhase0Offset);
+	}
+
+	_phasor.next();
+	bool useSample = true;
+	++_sampleStep;
+	if (_sampleStep >= _sampleSteps) {
+		_sampleStep = 0;
+		useSample = false;
+	}
+	updateOutput(useSample, outputs[PHASE7_OUTPUT], _phase7Offset, _phase7Sample, _phase7Active);
+	updateOutput(useSample, outputs[PHASE6_OUTPUT], _phase6Offset, _phase6Sample, _phase6Active);
+	updateOutput(useSample, outputs[PHASE5_OUTPUT], _phase5Offset, _phase5Sample, _phase5Active);
+	updateOutput(useSample, outputs[PHASE4_OUTPUT], _phase4Offset, _phase4Sample, _phase4Active);
+	updateOutput(useSample, outputs[PHASE3_OUTPUT], _phase3Offset, _phase3Sample, _phase3Active);
+	updateOutput(useSample, outputs[PHASE2_OUTPUT], _phase2Offset, _phase2Sample, _phase2Active);
+	updateOutput(useSample, outputs[PHASE1_OUTPUT], _phase1Offset, _phase1Sample, _phase1Active);
+	updateOutput(useSample, outputs[PHASE0_OUTPUT], _phase0Offset, _phase0Sample, _phase0Active);
+}
+
+float EightFO::phaseOffset(Param& p, Input& i, float baseOffset) {
+	float o = p.value * Phasor::maxPhase;
+	if (i.active) {
+		o *= clamp(i.value / 5.0f, -1.0f, 1.0f);
+	}
+	return o + baseOffset;
+}
+
+void EightFO::updateOutput(bool useSample, Output& output, float& offset, float& sample, bool& active) {
+	if (output.active) {
+		if (useSample && active) {
+			output.value = sample;
+		}
+		else {
+			float v = 0.0f;
+			switch (_wave) {
+				case NO_WAVE: {
+					assert(false);
+				}
+				case SINE_WAVE: {
+					v = sinf((_phasor._phase + offset) * M_PI); // FIXME
+					break;
+				}
+				case TRIANGLE_WAVE: {
+					v = _triangle.nextFromPhasor(_phasor, offset);
+					break;
+				}
+				case RAMP_UP_WAVE: {
+					v = _ramp.nextFromPhasor(_phasor, offset);
+					break;
+				}
+				case RAMP_DOWN_WAVE: {
+					v = -_ramp.nextFromPhasor(_phasor, offset);
+					break;
+				}
+				case SQUARE_WAVE: {
+					v = _square.nextFromPhasor(_phasor, offset);
+					break;
+				}
+			}
+			output.value = sample = amplitude * v;
+		}
+		active = true;
+	}
+	else {
+		active = false;
+	}
+}
+
+struct EightFOWidget : ModuleWidget {
+	EightFOWidget(EightFO* module) : ModuleWidget(module) {
+		box.size = Vec(RACK_GRID_WIDTH * 20, RACK_GRID_HEIGHT);
+
+		{
+			SVGPanel *panel = new SVGPanel();
+			panel->box.size = box.size;
+			panel->setBackground(SVG::load(assetPlugin(plugin, "res/EightFO.svg")));
+			addChild(panel);
+		}
+
+		addChild(Widget::create<ScrewSilver>(Vec(15, 0)));
+		addChild(Widget::create<ScrewSilver>(Vec(box.size.x - 30, 0)));
+		addChild(Widget::create<ScrewSilver>(Vec(15, 365)));
+		addChild(Widget::create<ScrewSilver>(Vec(box.size.x - 30, 365)));
+
+		// generated by svg_widgets.rb
+		auto frequencyParamPosition = Vec(40.5, 50.5);
+		auto waveParamPosition = Vec(120.5, 50.5);
+		auto slowParamPosition = Vec(79.0, 94.5);
+		auto samplePwmParamPosition = Vec(40.5, 130.5);
+		auto phase7ParamPosition = Vec(187.0, 28.0);
+		auto phase6ParamPosition = Vec(187.0, 68.0);
+		auto phase5ParamPosition = Vec(187.0, 108.0);
+		auto phase4ParamPosition = Vec(187.0, 148.0);
+		auto phase3ParamPosition = Vec(187.0, 188.0);
+		auto phase2ParamPosition = Vec(187.0, 228.0);
+		auto phase1ParamPosition = Vec(187.0, 268.0);
+		auto phase0ParamPosition = Vec(187.0, 308.0);
+
+		auto samplePwmInputPosition = Vec(13.0, 203.0);
+		auto phase7InputPosition = Vec(223.0, 24.0);
+		auto phase6InputPosition = Vec(223.0, 64.0);
+		auto phase5InputPosition = Vec(223.0, 104.0);
+		auto phase4InputPosition = Vec(223.0, 144.0);
+		auto phase3InputPosition = Vec(223.0, 184.0);
+		auto phase2InputPosition = Vec(223.0, 224.0);
+		auto phase1InputPosition = Vec(223.0, 264.0);
+		auto phase0InputPosition = Vec(223.0, 304.0);
+		auto pitchInputPosition = Vec(13.0, 323.0);
+		auto resetInputPosition = Vec(53.0, 323.0);
+
+		auto phase7OutputPosition = Vec(263.0, 24.0);
+		auto phase6OutputPosition = Vec(263.0, 64.0);
+		auto phase5OutputPosition = Vec(263.0, 104.0);
+		auto phase4OutputPosition = Vec(263.0, 144.0);
+		auto phase3OutputPosition = Vec(263.0, 184.0);
+		auto phase2OutputPosition = Vec(263.0, 224.0);
+		auto phase1OutputPosition = Vec(263.0, 264.0);
+		auto phase0OutputPosition = Vec(263.0, 304.0);
+
+		auto slowLightPosition = Vec(35.0, 97.5);
+		// end generated by svg_widgets.rb
+
+		addParam(ParamWidget::create<Knob38>(frequencyParamPosition, module, EightFO::FREQUENCY_PARAM, module->minFrequency, module->maxFrequency, module->maxFrequency / 10.0f));
+		{
+			auto w = ParamWidget::create<Knob38>(waveParamPosition, module, EightFO::WAVE_PARAM, 1.0, 5.0, 5.0);
+			dynamic_cast<Knob*>(w)->snap = true;
+			addParam(w);
+		}
+		addParam(ParamWidget::create<StatefulButton9>(slowParamPosition, module, EightFO::SLOW_PARAM, 0.0, 1.0, 0.0));
+		addParam(ParamWidget::create<Knob26>(samplePwmParamPosition, module, EightFO::SAMPLE_PWM_PARAM, -1.0, 1.0, 0.0));
+
+		addPhaseParam(phase7ParamPosition, module, EightFO::PHASE7_PARAM, 1.75f * M_PI);
+		addPhaseParam(phase6ParamPosition, module, EightFO::PHASE6_PARAM, 1.5f * M_PI);
+		addPhaseParam(phase5ParamPosition, module, EightFO::PHASE5_PARAM, 1.25f * M_PI);
+		addPhaseParam(phase4ParamPosition, module, EightFO::PHASE4_PARAM, M_PI);
+		addPhaseParam(phase3ParamPosition, module, EightFO::PHASE3_PARAM, 0.75f * M_PI);
+		addPhaseParam(phase2ParamPosition, module, EightFO::PHASE2_PARAM, 0.5f * M_PI);
+		addPhaseParam(phase1ParamPosition, module, EightFO::PHASE1_PARAM, 0.25f * M_PI);
+		addPhaseParam(phase0ParamPosition, module, EightFO::PHASE0_PARAM, 0.0f);
+
+		addInput(Port::create<Port24>(samplePwmInputPosition, Port::INPUT, module, EightFO::SAMPLE_PWM_INPUT));
+		addInput(Port::create<Port24>(phase7InputPosition, Port::INPUT, module, EightFO::PHASE7_INPUT));
+		addInput(Port::create<Port24>(phase6InputPosition, Port::INPUT, module, EightFO::PHASE6_INPUT));
+		addInput(Port::create<Port24>(phase5InputPosition, Port::INPUT, module, EightFO::PHASE5_INPUT));
+		addInput(Port::create<Port24>(phase4InputPosition, Port::INPUT, module, EightFO::PHASE4_INPUT));
+		addInput(Port::create<Port24>(phase3InputPosition, Port::INPUT, module, EightFO::PHASE3_INPUT));
+		addInput(Port::create<Port24>(phase2InputPosition, Port::INPUT, module, EightFO::PHASE2_INPUT));
+		addInput(Port::create<Port24>(phase1InputPosition, Port::INPUT, module, EightFO::PHASE1_INPUT));
+		addInput(Port::create<Port24>(phase0InputPosition, Port::INPUT, module, EightFO::PHASE0_INPUT));
+		addInput(Port::create<Port24>(pitchInputPosition, Port::INPUT, module, EightFO::PITCH_INPUT));
+		addInput(Port::create<Port24>(resetInputPosition, Port::INPUT, module, EightFO::RESET_INPUT));
+
+		addOutput(Port::create<Port24>(phase7OutputPosition, Port::OUTPUT, module, EightFO::PHASE7_OUTPUT));
+		addOutput(Port::create<Port24>(phase6OutputPosition, Port::OUTPUT, module, EightFO::PHASE6_OUTPUT));
+		addOutput(Port::create<Port24>(phase5OutputPosition, Port::OUTPUT, module, EightFO::PHASE5_OUTPUT));
+		addOutput(Port::create<Port24>(phase4OutputPosition, Port::OUTPUT, module, EightFO::PHASE4_OUTPUT));
+		addOutput(Port::create<Port24>(phase3OutputPosition, Port::OUTPUT, module, EightFO::PHASE3_OUTPUT));
+		addOutput(Port::create<Port24>(phase2OutputPosition, Port::OUTPUT, module, EightFO::PHASE2_OUTPUT));
+		addOutput(Port::create<Port24>(phase1OutputPosition, Port::OUTPUT, module, EightFO::PHASE1_OUTPUT));
+		addOutput(Port::create<Port24>(phase0OutputPosition, Port::OUTPUT, module, EightFO::PHASE0_OUTPUT));
+
+		addChild(ModuleLightWidget::create<TinyLight<GreenLight>>(slowLightPosition, module, EightFO::SLOW_LIGHT));
+	}
+
+	void addPhaseParam(const Vec& position, Module* module, EightFO::ParamsIds paramId, float rotation) {
+		auto w = ParamWidget::create<Knob16>(position, module, paramId, -1.0, 1.0, 0.0);
+		auto k = dynamic_cast<SVGKnob*>(w);
+		k->minAngle += 0.5 * M_PI - rotation;
+		k->maxAngle += 0.5 * M_PI - rotation;
+		addParam(w);
+	}
+};
+
+Model* modelEightFO = Model::create<EightFO, EightFOWidget>("Bogaudio", "Bogaudio-EightFO", "8FO", LFO_TAG);

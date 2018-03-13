@@ -1,0 +1,1154 @@
+{
+  "version": "0.4.0",
+  "modules": [
+    {
+      "plugin": "Fundamental",
+      "model": "LFO",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "params": [
+        1.0,
+        1.0,
+        3.4309992790222168,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "pos": [
+        1305.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        -2.9100015163421631,
+        -1.0,
+        0.41999992728233337,
+        -6.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 1
+      }
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalButtons",
+      "pos": [
+        150.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "buttons": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalLogic",
+      "pos": [
+        450.0,
+        0.0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "Autodafe - Drum Kit",
+      "model": "Drums - Closed Hats",
+      "pos": [
+        795.0,
+        0.0
+      ],
+      "params": [
+        0.0
+      ],
+      "data": {
+        "sampletype": 8
+      }
+    },
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        1395.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "deviceName": "ASIO: Focusrite USB 2.0 Audio Driver (18 in, 20 out)",
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalMixer",
+      "pos": [
+        855.0,
+        0.0
+      ],
+      "params": [
+        0.31800007820129395,
+        0.92199993133544922,
+        0.0,
+        0.96699982881546021,
+        0.0,
+        0.63750022649765015,
+        0.5,
+        0.43299999833106995,
+        0.0,
+        0.0,
+        0.13500009477138519,
+        0.5,
+        0.64200007915496826,
+        0.0,
+        0.0,
+        0.94149976968765259,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.82800006866455078,
+        0.5,
+        0.36749932169914246,
+        0.0,
+        0.0,
+        0.42149990797042847,
+        0.5,
+        0.55199998617172241,
+        0.0,
+        0.0,
+        0.46500003337860107,
+        0.5,
+        0.98949992656707764,
+        0.0,
+        0.0,
+        0.30150014162063599,
+        0.5,
+        0.81600046157836914,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "mutes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalClockDivider",
+      "pos": [
+        525.0,
+        0.0
+      ],
+      "params": [
+        0.0
+      ]
+    },
+    {
+      "plugin": "Autodafe - Drum Kit",
+      "model": "Drums - Rim/Claves",
+      "pos": [
+        735.0,
+        0.0
+      ],
+      "params": [
+        0.0
+      ],
+      "data": {
+        "sampletype": 4
+      }
+    },
+    {
+      "plugin": "Autodafe - Drum Kit",
+      "model": "Drums - Kick",
+      "pos": [
+        615.0,
+        0.0
+      ],
+      "params": [
+        0.0
+      ],
+      "data": {
+        "sampletype": 5
+      }
+    },
+    {
+      "plugin": "Autodafe - Drum Kit",
+      "model": "Drums - Snare",
+      "pos": [
+        675.0,
+        0.0
+      ],
+      "params": [
+        0.0
+      ],
+      "data": {
+        "sampletype": 8
+      }
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalClockDivider",
+      "pos": [
+        570.0,
+        0.0
+      ],
+      "params": [
+        0.0
+      ]
+    },
+    {
+      "plugin": "ML_modules",
+      "model": "FreeVerb",
+      "pos": [
+        1305.0,
+        0.0
+      ],
+      "params": [
+        0.85849994421005249,
+        0.51800006628036499,
+        0.0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Braids",
+      "pos": [
+        765.0,
+        380.0
+      ],
+      "params": [
+        0.32849997282028198,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.5
+      ],
+      "data": {
+        "settings": [
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Kinks",
+      "pos": [
+        525.0,
+        380.0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "ML_modules",
+      "model": "SeqSwitch",
+      "pos": [
+        405.0,
+        380.0
+      ],
+      "params": [
+        5.1230006217956543,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalChord",
+      "pos": [
+        315.0,
+        380.0
+      ],
+      "params": [
+        0.62149995565414429,
+        0.5070001482963562,
+        0.4995000958442688
+      ]
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalMuxes",
+      "pos": [
+        705.0,
+        380.0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Branches",
+      "pos": [
+        150.0,
+        380.0
+      ],
+      "params": [
+        0.025999834761023521,
+        0.35449999570846558
+      ]
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalABSwitches",
+      "pos": [
+        240.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "buttons": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Branches",
+      "pos": [
+        60.0,
+        380.0
+      ],
+      "params": [
+        0.7579999566078186,
+        0.34700009226799011
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Braids",
+      "pos": [
+        1065.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.5
+      ],
+      "data": {
+        "settings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalPitchShift",
+      "pos": [
+        1005.0,
+        380.0
+      ],
+      "params": [
+        -1.7414997816085815,
+        1.0395005941390991,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "ADSR",
+      "pos": [
+        765.0,
+        760.0
+      ],
+      "params": [
+        0.0074999998323619366,
+        0.52999991178512573,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Veils",
+      "pos": [
+        885.0,
+        760.0
+      ],
+      "params": [
+        0.80100071430206299,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "LFO",
+      "pos": [
+        150.0,
+        760.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        -3.9820003509521484,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "LFO",
+      "pos": [
+        0.0,
+        760.0
+      ],
+      "params": [
+        1.0,
+        1.0,
+        -4.6960015296936035,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalCounters",
+      "pos": [
+        330.0,
+        760.0
+      ],
+      "params": [
+        4.9920001029968262,
+        0.0,
+        7.1520004272460938,
+        0.0
+      ]
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalMults",
+      "pos": [
+        300.0,
+        760.0
+      ],
+      "params": []
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Braids",
+      "pos": [
+        390.0,
+        760.0
+      ],
+      "params": [
+        0.087000451982021332,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.099499911069869995
+      ],
+      "data": {
+        "settings": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "LFO",
+      "pos": [
+        1065.0,
+        760.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        -4.6960015296936035,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalFold",
+      "pos": [
+        630.0,
+        760.0
+      ],
+      "params": [
+        0.55299997329711914,
+        0.42500007152557373
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "LFO",
+      "pos": [
+        1215.0,
+        760.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        -4.6960015296936035,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "model": "DualAtenuverter",
+      "pos": [
+        690.0,
+        760.0
+      ],
+      "params": [
+        0.22800000011920929,
+        0.0,
+        -0.40799996256828308,
+        0.0
+      ]
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalGateMaker",
+      "pos": [
+        210.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        2.2079997062683105,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalGateMaker",
+      "pos": [
+        330.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        1.9679999351501465,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalGateMaker",
+      "pos": [
+        585.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        3.6480004787445068,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 5,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 3,
+      "inputModuleId": 7,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 1,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 5,
+      "inputModuleId": 11,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 8
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 1,
+      "inputModuleId": 10,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 12
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 2,
+      "inputModuleId": 12,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 48
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 49
+    },
+    {
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 16
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 9,
+      "inputModuleId": 3,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 13,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 16,
+      "outputId": 4,
+      "inputModuleId": 15,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 16,
+      "outputId": 5,
+      "inputModuleId": 15,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 16,
+      "outputId": 6,
+      "inputModuleId": 15,
+      "inputId": 6
+    },
+    {
+      "outputModuleId": 16,
+      "outputId": 7,
+      "inputModuleId": 15,
+      "inputId": 7
+    },
+    {
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 17,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 16,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 2,
+      "inputModuleId": 16,
+      "inputId": 6
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 5,
+      "inputModuleId": 15,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 14,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 17,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 14,
+      "outputId": 6,
+      "inputModuleId": 17,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 19,
+      "outputId": 0,
+      "inputModuleId": 15,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 19,
+      "outputId": 1,
+      "inputModuleId": 15,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 5,
+      "inputModuleId": 19,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 19,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 18,
+      "outputId": 2,
+      "inputModuleId": 16,
+      "inputId": 7
+    },
+    {
+      "outputModuleId": 20,
+      "outputId": 0,
+      "inputModuleId": 14,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 20,
+      "outputId": 2,
+      "inputModuleId": 16,
+      "inputId": 8
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 20,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 22,
+      "outputId": 0,
+      "inputModuleId": 21,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 22,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 21,
+      "outputId": 0,
+      "inputModuleId": 24,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 24,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 20
+    },
+    {
+      "outputModuleId": 23,
+      "outputId": 0,
+      "inputModuleId": 24,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 5,
+      "inputModuleId": 23,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 25,
+      "outputId": 1,
+      "inputModuleId": 16,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 26,
+      "outputId": 1,
+      "inputModuleId": 16,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 6,
+      "inputModuleId": 8,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 1,
+      "inputModuleId": 20,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 1,
+      "inputModuleId": 28,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 28,
+      "outputId": 0,
+      "inputModuleId": 27,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 28,
+      "outputId": 1,
+      "inputModuleId": 27,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 27,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 6
+    },
+    {
+      "outputModuleId": 27,
+      "outputId": 1,
+      "inputModuleId": 3,
+      "inputId": 7
+    },
+    {
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 22,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 22,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 22,
+      "outputId": 1,
+      "inputModuleId": 15,
+      "inputId": 8
+    },
+    {
+      "outputModuleId": 22,
+      "outputId": 0,
+      "inputModuleId": 29,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 31,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 24
+    },
+    {
+      "outputModuleId": 30,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 26
+    },
+    {
+      "outputModuleId": 29,
+      "outputId": 0,
+      "inputModuleId": 31,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 32,
+      "outputId": 1,
+      "inputModuleId": 33,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 33,
+      "outputId": 0,
+      "inputModuleId": 31,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 32,
+      "outputId": 1,
+      "inputModuleId": 33,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 33,
+      "outputId": 1,
+      "inputModuleId": 31,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 31,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 11,
+      "inputModuleId": 27,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 3,
+      "inputModuleId": 18,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 1,
+      "inputModuleId": 18,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 6,
+      "inputModuleId": 16,
+      "inputId": 11
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 3,
+      "inputModuleId": 34,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 3,
+      "inputModuleId": 35,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 34,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 35,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 36,
+      "outputId": 0,
+      "inputModuleId": 17,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 28,
+      "outputId": 3,
+      "inputModuleId": 36,
+      "inputId": 3
+    }
+  ]
+}

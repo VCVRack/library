@@ -1,0 +1,28 @@
+Hi,
+
+Since release v0.5.4 (and v0.6.0.x-beta), some internal modules IDs are
+changed. In case you get an error while opening .vcv patch file, open it
+from any text editor (such Notepad on Windows, Text Edit on MacOS...).
+
+---------------------------------------------------------------------------------
+KlokSpid modules
+---------------------------------------------------------------------------------
+
+Search any of following occurences (include first quote in your search criteria):
+
+"KlokSpid
+
+then remove trailings such Classic, Stage, Dark or DBlue - BUT DON'T REMOVE
+quotation marks surrounding KlokSpid", it's very important!
+
+Save, then you'll can repoen .vcv file from VCV Rack: all KlokSpid modules will
+come back as Classic (beige) into your Rack. You'll can change model you'd like
+via its right-click menu (context-menu).
+Selected model will be saved along .vcv patch files (don't forget to save it).
+
+---------------------------------------------------------------------------------
+Other modules
+---------------------------------------------------------------------------------
+
+Blank panels and "splitter 1x9" aren't affected and stay compatible with previous
+.vcv saves.

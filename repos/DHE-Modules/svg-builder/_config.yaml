@@ -1,0 +1,33 @@
+destination: ../res
+incremental: true
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: svg
+  -
+    scope:
+      path: booster-stage
+    values:
+      color: [0,100,30]
+  -
+    scope:
+      path: hostage
+    values:
+      color: [300,100,30]
+  -
+    scope:
+      path: stage
+    values:
+      color: [120,100,30]
+  -
+    scope:
+      path: swave
+    values:
+      color: [16,100,50]
+  -
+    scope:
+      path: upstage
+    values:
+      color: [210,100,30]

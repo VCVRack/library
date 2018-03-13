@@ -1,0 +1,65 @@
+
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="74.9999999997" height="379.42913385675"  viewbox="0 0 74.9999999997 379.42913385675">
+  
+
+
+
+<rect x="0" y="0" width="75.0" height="380.01968503784997" stroke="#990099" fill="#fff0ff" stroke-width="1"/><text dominant-baseline="baseline" text-anchor="middle" fill="#990099" x="37.5" y="26.5748031495" style="font-family:Proxima Nova;font-weight:bold;font-size:12.0px">HOSTAGE</text><text dominant-baseline="hanging" text-anchor="middle" fill="#990099" x="37.5" y="353.44488188835" style="font-family:Proxima Nova;font-weight:bold;font-size:12.0px">DHE</text>
+
+<text dominant-baseline="baseline" text-anchor="middle" fill="#990099" x="37.49999999985" y="61.491141732037505" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">GATE</text><text dominant-baseline="hanging" text-anchor="middle" fill="#990099" x="37.49999999985" y="86.1466535429625" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">TIMER</text>
+
+
+
+        <rect x="3.863179133842814" y="104.9543963250675" width="31.742125984125003" height="39.361548556245"
+          stroke-width="1.033464566925" rx="3.0" ry="3.0"
+          stroke="none" fill="none"/>
+        <text dominant-baseline="baseline" text-anchor="middle" fill="#990099" x="19.734242125905315" y="113.09055118065001" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">CV</text>
+
+
+<text dominant-baseline="baseline" text-anchor="middle" fill="#990099" x="55.26575787379469" y="111.68799212553752" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">100</text><text dominant-baseline="hanging" text-anchor="middle" fill="#990099" x="55.26575787379469" y="145.2017716529625" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">1</text><text dominant-baseline="middle" text-anchor="start" fill="#990099" x="61.68800196825719" y="128.44488188925" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">10</text>
+
+
+<text dominant-baseline="baseline" text-anchor="middle" fill="#990099" x="37.49999999985" y="160.92519684975002" style="font-family:Proxima Nova;font-weight:bold;font-size:9.0px">DURATION</text>
+
+
+
+        <rect x="3.863179133842814" y="218.63549868681753" width="31.742125984125003" height="39.361548556245"
+          stroke-width="1.033464566925" rx="3.0" ry="3.0"
+          stroke="#990099" fill="#fff0ff"/>
+        <text dominant-baseline="baseline" text-anchor="middle" fill="#990099" x="19.734242125905315" y="226.7716535424" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">DEFER</text>
+
+
+        <rect x="39.39469488173219" y="218.63549868681753" width="31.742125984124996" height="39.361548556245"
+          stroke-width="1.033464566925" rx="3.0" ry="3.0"
+          stroke="#990099" fill="#990099"/>
+        <text dominant-baseline="baseline" text-anchor="middle" fill="#fff0ff" x="55.26575787379469" y="226.7716535424" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">ACTIVE</text>
+
+
+
+        <rect x="3.863179133842814" y="262.9268372693175" width="31.742125984125003" height="39.361548556245"
+          stroke-width="1.033464566925" rx="3.0" ry="3.0"
+          stroke="#990099" fill="#fff0ff"/>
+        <text dominant-baseline="baseline" text-anchor="middle" fill="#990099" x="19.734242125905315" y="271.0629921249" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">HOLD</text>
+
+
+        <rect x="39.39469488173219" y="262.9268372693175" width="31.742125984124996" height="39.361548556245"
+          stroke-width="1.033464566925" rx="3.0" ry="3.0"
+          stroke="#990099" fill="#990099"/>
+        <text dominant-baseline="baseline" text-anchor="middle" fill="#fff0ff" x="55.26575787379469" y="271.0629921249" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">EOC</text>
+
+
+
+        <rect x="3.863179133842814" y="307.21817585181753" width="31.742125984125003" height="39.361548556245"
+          stroke-width="1.033464566925" rx="3.0" ry="3.0"
+          stroke="#990099" fill="#fff0ff"/>
+        <text dominant-baseline="baseline" text-anchor="middle" fill="#990099" x="19.734242125905315" y="315.35433070740004" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">IN</text>
+
+
+        <rect x="39.39469488173219" y="307.21817585181753" width="31.742125984124996" height="39.361548556245"
+          stroke-width="1.033464566925" rx="3.0" ry="3.0"
+          stroke="#990099" fill="#990099"/>
+        <text dominant-baseline="baseline" text-anchor="middle" fill="#fff0ff" x="55.26575787379469" y="315.35433070740004" style="font-family:Proxima Nova;font-weight:bold;font-size:7.0px">OUT</text>
+
+
+</svg>

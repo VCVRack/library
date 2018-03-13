@@ -1,0 +1,4 @@
+.compact_images img {
+    float: left;
+	display: block
+}

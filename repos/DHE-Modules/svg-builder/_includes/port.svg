@@ -1,0 +1,11 @@
+{% assign dark = page | dark %}
+{% assign light = page | light %}
+<svg width="8.4mm" height="8.4mm" viewBox="-4.2 -4.2 8.4 8.4">
+  <g stroke="{{ dark }}" fill="{{ light }}">
+    <g stroke-width=".25">
+      <circle r="4"/>
+      <circle r="2.9"/>
+      <circle r="1.8" fill="{{ dark }}"/>
+    </g>
+  </g>
+</svg>

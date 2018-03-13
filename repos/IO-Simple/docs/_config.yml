@@ -1,0 +1,15 @@
+title: Simple
+description: VCVRack modules
+theme: jekyll-theme-midnight
+baseurl: /VCVRack-Simple
+repository: IohannRabeson/VCVRack-Simple
+google_analytics: UA-108824428-1
+
+collections:
+  modules:
+    output: true
+  releases:
+    output: true
+    permalink: /releases/:path/
+
+

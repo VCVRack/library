@@ -1,0 +1,49 @@
+{% assign dark = page | dark %}
+{% assign light = page | light %}
+
+{% assign switch_width = include.width %}
+{% assign switch_height = include.height %}
+{% assign lever_position = include.position %}
+
+{% assign switch_origin_x = 0.0 | minus:switch_width | divided_by:2.0 %}
+{% assign switch_origin_y = 0.0 | minus:switch_height | divided_by:2.0 %}
+
+{% assign switch_stroke_width = 0.35 %}
+{% assign switch_inset = switch_stroke_width | divided_by:2.0 %}
+{% assign switch_interior_width = switch_width | minus:switch_stroke_width %}
+{% assign switch_interior_height = switch_height | minus:switch_stroke_width %}
+{% assign corner_radius = switch_inset %}
+
+{% assign view_width = switch_width | plus:switch_stroke_width %}
+{% assign view_height = switch_height | plus:switch_stroke_width %}
+{% assign view_origin_x = switch_origin_x | minus:switch_inset %}
+{% assign view_origin_y = switch_origin_y | minus:switch_inset %}
+
+{% assign knurl_stroke_width = 0.25 %}
+{% assign knurl_inset = knurl_stroke_width | times:2.0 %}
+{% assign knurl_length = switch_interior_width | minus:knurl_inset %}
+{% assign knurl_left = 0.0 | minus:knurl_length | divided_by:2.0 %}
+{% assign knurl_right = knurl_left | plus:knurl_length %}
+{% assign knurl_spacing = knurl_stroke_width | times:2.0 %}
+{% assign lever_height = knurl_spacing | times:4.0 | plus:knurl_stroke_width %}
+{% assign lever_inset = knurl_stroke_width %}
+{% assign lever_distance = switch_interior_height | minus:lever_height | divided_by:2.0 | minus:lever_inset %}
+{% assign lever_offset = lever_distance | times:lever_position | times:-1.0 %}
+
+<svg width="{{ view_width }}mm" height="{{ view_height }}mm"
+  viewBox="{{ view_origin_x }} {{ view_origin_y }} {{ view_width }} {{ view_height }}">
+  <g fill="{{ light }}" stroke="{{ dark }}">
+
+    <rect x="{{ switch_origin_x }}" y="{{ switch_origin_y }}"
+      width="{{ switch_width }}" height="{{ switch_height }}"
+      rx="{{ corner_radius }}" ry="{{ corner_radius }}"
+      stroke-width="{{ switch_stroke_width }}"/>
+
+    <g stroke-width="{{ knurl_stroke_width }}" stroke-linecap="round">
+      {% for index in (-2..2) %}
+      {% assign y = knurl_spacing | times:index | plus:lever_offset %}
+      <line x1="{{ knurl_left }}" x2="{{ knurl_right }}" y1="{{ y }}" y2="{{ y }}"/>
+      {% endfor %}
+    </g>
+  </g>
+</svg>

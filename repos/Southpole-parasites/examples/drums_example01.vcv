@@ -1,0 +1,606 @@
+{
+  "version": "",
+  "modules": [
+    {
+      "plugin": "Valley Free",
+      "model": "Topograph",
+      "pos": [
+        210.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.49741369485855103,
+        0.48891425132751465,
+        0.0,
+        0.34950056672096252,
+        0.58200007677078247,
+        0.59100037813186646,
+        0.0
+      ],
+      "data": {
+        "sequencerMode": 0,
+        "triggerOutputMode": 0,
+        "accOutputMode": 0,
+        "extClockResolution": 0,
+        "chaosKnobMode": 0,
+        "panelStyle": 0
+      }
+    },
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        765.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "driver": 5,
+        "device": 0,
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "Southpole",
+      "model": "Piste",
+      "pos": [
+        210.0,
+        380.0
+      ],
+      "params": [
+        0.30750003457069397,
+        -0.13799987733364105,
+        0.37200000882148743,
+        0.61549991369247437,
+        0.3519999086856842,
+        0.81350064277648926,
+        1.0
+      ]
+    },
+    {
+      "plugin": "Southpole",
+      "model": "Abr",
+      "pos": [
+        450.0,
+        0.0
+      ],
+      "params": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "swStates": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "plugin": "Autodafe - Drum Kit",
+      "model": "Drums - Snare",
+      "pos": [
+        300.0,
+        380.0
+      ],
+      "params": [
+        0.0
+      ],
+      "data": {
+        "sampletype": 1
+      }
+    },
+    {
+      "plugin": "Autodafe - Drum Kit",
+      "model": "Drums - Open Hats",
+      "pos": [
+        450.0,
+        380.0
+      ],
+      "params": [
+        0.0
+      ],
+      "data": {
+        "sampletype": 1
+      }
+    },
+    {
+      "plugin": "Southpole",
+      "model": "Piste",
+      "pos": [
+        360.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.22500012814998627,
+        0.84449970722198486,
+        0.14599999785423279,
+        1.0,
+        0.78650015592575073,
+        1.0
+      ]
+    },
+    {
+      "plugin": "Southpole",
+      "model": "Piste",
+      "pos": [
+        510.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.43199989199638367,
+        0.0,
+        0.28699925541877747,
+        1.0,
+        0.73450016975402832,
+        1.0
+      ]
+    },
+    {
+      "plugin": "NYSTHI",
+      "model": "PlateVerb",
+      "pos": [
+        660.0,
+        0.0
+      ],
+      "params": [
+        0.69999998807907104,
+        0.20000000298023224,
+        0.5,
+        0.89999997615814209,
+        0.4754999577999115,
+        0.30000001192092896,
+        0.49950003623962402,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Southpole",
+      "model": "Piste",
+      "pos": [
+        705.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.50399976968765259,
+        0.0,
+        0.20000021159648895,
+        1.0,
+        0.81550002098083496,
+        1.0
+      ]
+    },
+    {
+      "plugin": "Autodafe - Drum Kit",
+      "model": "Drums - Closed Hats",
+      "pos": [
+        645.0,
+        380.0
+      ],
+      "params": [
+        0.0
+      ],
+      "data": {
+        "sampletype": 1
+      }
+    },
+    {
+      "plugin": "AS",
+      "model": "BPMClock",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "params": [
+        120.0,
+        4.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "run": [
+          1
+        ]
+      }
+    },
+    {
+      "plugin": "Southpole",
+      "model": "Fuse",
+      "pos": [
+        90.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Offset",
+      "pos": [
+        600.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.59800142049789429
+      ]
+    },
+    {
+      "plugin": "Autodafe - Drum Kit",
+      "model": "Drums - Kick",
+      "pos": [
+        0.0,
+        380.0
+      ],
+      "params": [
+        0.0
+      ],
+      "data": {
+        "sampletype": 1
+      }
+    },
+    {
+      "plugin": "Southpole",
+      "model": "Piste",
+      "pos": [
+        60.0,
+        380.0
+      ],
+      "params": [
+        0.1800001859664917,
+        -0.22499999403953552,
+        0.0,
+        0.73100036382675171,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "plugin": "Autodafe - Drum Kit",
+      "model": "Drums - Claps",
+      "pos": [
+        150.0,
+        380.0
+      ],
+      "params": [
+        0.0
+      ],
+      "data": {
+        "sampletype": 1
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "pos": [
+        795.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -8.4800004959106445,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      }
+    },
+    {
+      "plugin": "cf",
+      "model": "MONO",
+      "pos": [
+        570.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.76999968290328979,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "solostate": 0,
+        "onstate": 1
+      }
+    },
+    {
+      "plugin": "Southpole",
+      "model": "Fuse",
+      "pos": [
+        150.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 2,
+      "outputId": 2,
+      "inputModuleId": 3,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 3,
+      "inputModuleId": 2,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 1,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 2,
+      "inputModuleId": 5,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 2,
+      "inputModuleId": 3,
+      "inputId": 7
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 2,
+      "inputModuleId": 3,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 2,
+      "inputModuleId": 7,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 5,
+      "inputModuleId": 7,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 4,
+      "inputModuleId": 6,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 4,
+      "inputModuleId": 10,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 2,
+      "inputModuleId": 3,
+      "inputId": 9
+    },
+    {
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 4,
+      "inputModuleId": 9,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 3,
+      "inputModuleId": 9,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 4,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 2,
+      "inputModuleId": 12,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 6
+    },
+    {
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 7
+    },
+    {
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 0,
+      "inputModuleId": 16,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 2,
+      "inputModuleId": 14,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 15,
+      "outputId": 2,
+      "inputModuleId": 3,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 14,
+      "outputId": 0,
+      "inputModuleId": 15,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 17,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 2,
+      "inputModuleId": 15,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 9,
+      "inputModuleId": 18,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 18,
+      "outputId": 3,
+      "inputModuleId": 8,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 18,
+      "outputId": 2,
+      "inputModuleId": 8,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 19,
+      "outputId": 0,
+      "inputModuleId": 15,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 2,
+      "inputModuleId": 19,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 19,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 1
+    }
+  ]
+}

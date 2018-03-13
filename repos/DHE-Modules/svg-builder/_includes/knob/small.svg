@@ -1,0 +1,1 @@
+{% include knob.svg diameter=9.0 pointer_width=0.75 %}

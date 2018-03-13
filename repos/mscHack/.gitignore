@@ -1,0 +1,8 @@
+/backup
+/build
+/mschack
+plugin.dll
+WaveShaper1.svg
+WaveShaper.cpp
+*.bat
+*.scc

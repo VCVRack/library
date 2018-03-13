@@ -1,0 +1,241 @@
+{
+  "version": "",
+  "modules": [
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        1110.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "driver": 5,
+        "device": 1,
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "JW-Modules",
+      "model": "FullScope",
+      "pos": [
+        420.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.9849998950958252,
+        -0.81500053405761719,
+        0.0,
+        -14.0
+      ],
+      "data": {
+        "lissajous": 1,
+        "external": 0
+      },
+      "width": 360.0
+    },
+    {
+      "plugin": "AS",
+      "model": "TriLFO",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "params": [
+        -4.4580049514770508,
+        0.0,
+        1.0,
+        -2.4629998207092285,
+        0.0,
+        1.0,
+        -4.9759988784790039,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "plugin": "Southpole",
+      "model": "Splash",
+      "pos": [
+        150.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        -34.992012023925781,
+        0.0,
+        0.0,
+        0.47399991750717163,
+        0.0
+      ],
+      "data": {
+        "mode": 0,
+        "range": 0,
+        "sheep": true
+      }
+    },
+    {
+      "plugin": "VultModules",
+      "model": "Vortex",
+      "pos": [
+        270.0,
+        0.0
+      ],
+      "params": [
+        0.64250016212463379,
+        0.67950010299682617,
+        1.3239996433258057,
+        0.27600002288818359,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "NYSTHI",
+      "model": "MVerb",
+      "pos": [
+        780.0,
+        0.0
+      ],
+      "params": [
+        0.80600035190582275,
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        0.68000000715255737,
+        0.81450009346008301,
+        0.80000001192092896,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "plugin": "cf",
+      "model": "STEREO",
+      "pos": [
+        1020.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        4.0700016021728516,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "solostate": 0,
+        "onstate": 1
+      }
+    },
+    {
+      "plugin": "AS",
+      "model": "TriLFO",
+      "pos": [
+        870.0,
+        0.0
+      ],
+      "params": [
+        -3.5340051651000977,
+        1.0,
+        1.0,
+        -5.360999584197998,
+        0.0,
+        1.0,
+        -4.9759988784790039,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 9,
+      "inputModuleId": 3,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 5,
+      "inputModuleId": 3,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 3,
+      "inputModuleId": 3,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 4,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 4,
+      "inputModuleId": 0,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 3,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 0
+    }
+  ]
+}

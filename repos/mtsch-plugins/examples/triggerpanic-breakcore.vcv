@@ -1,0 +1,293 @@
+{
+  "version": "0.5.1",
+  "modules": [
+    {
+      "plugin": "Fundamental",
+      "model": "VCA",
+      "pos": [
+        540.0,
+        0.0
+      ],
+      "params": [
+        0.4230000376701355,
+        0.56849992275238037
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Braids",
+      "pos": [
+        150.0,
+        0.0
+      ],
+      "params": [
+        0.78000122308731079,
+        0.0,
+        -0.62999987602233887,
+        0.0,
+        0.51199984550476074,
+        0.024000000208616257,
+        0.64550012350082397
+      ],
+      "data": {
+        "settings": [
+          36,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lowCpu": false
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "LFO",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "params": [
+        1.0,
+        1.0,
+        -1.314997673034668,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "LFO",
+      "pos": [
+        0.0,
+        380.0
+      ],
+      "params": [
+        1.0,
+        1.0,
+        -0.55900377035140991,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        630.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "driver": 4,
+        "device": 0,
+        "sampleRate": 48000.0,
+        "blockSize": 1024
+      }
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCO",
+      "pos": [
+        720.0,
+        380.0
+      ],
+      "params": [
+        1.0,
+        1.0,
+        -14.904000282287598,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "model": "Branches",
+      "pos": [
+        420.0,
+        380.0
+      ],
+      "params": [
+        0.28849989175796509,
+        0.0,
+        0.841499924659729,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "ADSR",
+      "pos": [
+        510.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.88550001382827759,
+        0.0,
+        0.32450005412101746
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "VCA",
+      "pos": [
+        630.0,
+        380.0
+      ],
+      "params": [
+        0.5,
+        0.35299992561340332
+      ]
+    },
+    {
+      "plugin": "Fundamental",
+      "model": "LFO",
+      "pos": [
+        870.0,
+        380.0
+      ],
+      "params": [
+        1.0,
+        1.0,
+        -4.0870003700256348,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Core",
+      "model": "Notes",
+      "pos": [
+        150.0,
+        380.0
+      ],
+      "params": [],
+      "text": "Give it time to develop or play around with the LFO frequencies.\n\nPush the panic button to reset."
+    },
+    {
+      "plugin": "mtsch-plugins",
+      "model": "TriggerPanic",
+      "pos": [
+        390.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.5,
+        0.0,
+        0.83750021457672119,
+        0.0
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 2,
+      "outputId": 3,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 6,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 2,
+      "inputModuleId": 7,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 1,
+      "inputModuleId": 8,
+      "inputId": 5
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 3
+    },
+    {
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 11,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 8,
+      "outputId": 1,
+      "inputModuleId": 11,
+      "inputId": 3
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+---
+layout: page
+title: Releases
+---
+<h1>Releases</h1>
+<table>
+{% for release in site.data.releases reversed %}
+<tr><th><h3>Version {{ release.version }}</h3></th><td></td></tr>
+{% if release.notes %}
+<tr><th>Release notes</th><td>{{ release.notes }}</td></tr>
+{% endif %}
+<tr>
+	<th rowspan="{{ release.downloads | size}}">Download links</th>
+	<td><a href="{{ release.downloads[0].link }}">{{ release.downloads[0].label }}</a></td>
+</tr>
+{% for download in release.downloads offset:1 %}
+<tr><td><a href="{{ download.link }}">{{ download.label }}</a></td></tr>
+{% endfor %}
+{% endfor %}
+</table>

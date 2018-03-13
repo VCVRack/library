@@ -1,0 +1,7 @@
+---
+---
+{% assign height = 128.5 | times:2.9527559055 %}
+{% assign width = page.width | times:2.9527559055 %}
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="{{ width }}" height="{{ height }}"  viewbox="0 0 {{ width }} {{ height }}">
+  {{ content }}
+</svg>

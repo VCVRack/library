@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+plugin.dylib
+
+.idea/
+build/
+cmake-build-debug/
+dist/

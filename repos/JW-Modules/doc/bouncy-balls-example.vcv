@@ -1,0 +1,192 @@
+{
+  "version": "",
+  "modules": [
+    {
+      "plugin": "JW-Modules",
+      "model": "SimpleClock",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        1.0,
+        0.0,
+        -2.0
+      ],
+      "data": {
+        "running": true
+      }
+    },
+    {
+      "plugin": "JW-Modules",
+      "model": "BouncyBalls",
+      "pos": [
+        60.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        2.3680016994476318,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.5,
+        0.5,
+        5.0,
+        5.0
+      ],
+      "data": {
+        "paddleX": 174.0,
+        "paddleY": 346.0,
+        "paddleVisible": false
+      }
+    },
+    {
+      "plugin": "VultModules",
+      "model": "Vessek",
+      "pos": [
+        0.0,
+        380.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.52799993753433228,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.30450001358985901,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "mod_a": 0,
+        "mod_b": 0,
+        "mod_c": 0,
+        "mod_d": 0,
+        "mod_e": 0,
+        "mod_f": 0
+      }
+    },
+    {
+      "plugin": "VultModules",
+      "model": "Stabile",
+      "pos": [
+        300.0,
+        380.0
+      ],
+      "params": [
+        0.21799997985363007,
+        0.69600003957748413,
+        1.0,
+        1.0,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        450.0,
+        380.0
+      ],
+      "params": [],
+      "data": {
+        "driver": 5,
+        "device": 3,
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 0,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 24,
+      "inputModuleId": 2,
+      "inputId": 7
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 2,
+      "inputModuleId": 3,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 8
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 1,
+      "outputId": 4,
+      "inputModuleId": 3,
+      "inputId": 1
+    }
+  ]
+}
