@@ -109,3 +109,15 @@
 	path = repos/SynthKit
 	url = https://github.com/JerrySievert/SynthKit
 	branch = master
+[submodule "repos/JW-Modules"]
+	path = repos/JW-Modules
+	url = https://github.com/jeremywen/JW-Modules
+	branch = master
+[submodule "repos/Alikins"]
+	path = repos/Alikins
+	url = https://github.com/alikins/Alikins-rack-plugins
+	branch = master
+[submodule "repos/DrumKit"]
+	path = repos/DrumKit
+	url = https://github.com/JerrySievert/DrumKit
+	branch = master
