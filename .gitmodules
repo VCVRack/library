@@ -5,3 +5,111 @@
 	path = repos/Fundamental
 	url = https://github.com/VCVRack/Fundamental.git
 	branch = master
+[submodule "repos/AS"]
+	path = repos/AS
+	url = https://github.com/AScustomWorks/AS
+	branch = master
+[submodule "repos/Alikins-rack-plugins"]
+	path = repos/Alikins-rack-plugins
+	url = https://github.com/alikins/Alikins-rack-plugins
+	branch = master
+[submodule "repos/AmalgamatedHarmonics"]
+	path = repos/AmalgamatedHarmonics
+	url = https://github.com/jhoar/AmalgamatedHarmonics
+	branch = master
+[submodule "repos/Befaco"]
+	path = repos/Befaco
+	url = https://github.com/VCVRack/Befaco
+	branch = master
+[submodule "repos/Bidoo"]
+	path = repos/Bidoo
+	url = https://github.com/sebastien-bouffier/Bidoo
+	branch = master
+[submodule "repos/BogaudioModules"]
+	path = repos/BogaudioModules
+	url = https://github.com/bogaudio/BogaudioModules
+	branch = master
+[submodule "repos/DHE-Modules"]
+	path = repos/DHE-Modules
+	url = https://github.com/dhemery/DHE-Modules
+	branch = master
+[submodule "repos/ESeries"]
+	path = repos/ESeries
+	url = https://github.com/VCVRack/ESeries
+	branch = master
+[submodule "repos/FrozenWasteland"]
+	path = repos/FrozenWasteland
+	url = https://github.com/almostEric/FrozenWasteland
+	branch = master
+[submodule "repos/vcv-gratrix"]
+	path = repos/vcv-gratrix
+	url = https://github.com/gratrix/vcv-gratrix
+	branch = master
+[submodule "repos/hetrickcv"]
+	path = repos/hetrickcv
+	url = https://github.com/mhetrick/hetrickcv
+	branch = master
+[submodule "repos/JW-Modules"]
+	path = repos/JW-Modules
+	url = https://github.com/jeremywen/JW-Modules
+	branch = master
+[submodule "repos/LRTRack"]
+	path = repos/LRTRack
+	url = https://github.com/lindenbergresearch/LRTRack
+	branch = master
+[submodule "repos/ML_modules"]
+	path = repos/ML_modules
+	url = https://github.com/martin-lueders/ML_modules
+	branch = master
+[submodule "repos/NauModular"]
+	path = repos/NauModular
+	url = https://github.com/naus3a/NauModular
+	branch = master
+[submodule "repos/Ohmer-Modules"]
+	path = repos/Ohmer-Modules
+	url = https://github.com/DomiKamu/Ohmer-Modules.git
+	branch = 060dev
+[submodule "repos/PvC"]
+	path = repos/PvC
+	url = https://github.com/phdsg/PvC.git
+	branch = master
+[submodule "repos/RJModules"]
+	path = repos/RJModules
+	url = https://github.com/Miserlou/RJModules
+	branch = master
+[submodule "repos/VCV-Sequencers"]
+	path = repos/VCV-Sequencers
+	url = https://github.com/The-XOR/VCV-Sequencers
+	branch = master
+[submodule "repos/cf"]
+	path = repos/cf
+	url = https://github.com/cfoulc/cf
+	branch = master
+[submodule "repos/dBiz"]
+	path = repos/dBiz
+	url = https://github.com/dBiz/dBiz
+	branch = master
+[submodule "repos/vcv_luckyxxl"]
+	path = repos/vcv_luckyxxl
+	url = https://github.com/luckyxxl/vcv_luckyxxl
+	branch = master
+[submodule "repos/Strums_Mental_VCV_Modules"]
+	path = repos/Strums_Mental_VCV_Modules
+	url = https://github.com/Strum/Strums_Mental_VCV_Modules
+	branch = 06dev
+[submodule "repos/VCV_moDllz"]
+	path = repos/VCV_moDllz
+	url = https://github.com/dllmusic/VCV_moDllz
+	branch = master-0.6.0dev
+[submodule "repos/mtsch-vcvrack-plugins"]
+	path = repos/mtsch-vcvrack-plugins
+	url = https://github.com/mtsch/mtsch-vcvrack-plugins
+	branch = master
+[submodule "repos/vcvmods"]
+	path = repos/vcvmods
+	url = https://github.com/s-ol/vcvmods
+	branch = master
+[submodule "repos/SquinkyVCV"]
+	path = repos/SquinkyVCV
+	url = https://github.com/squinkylabs/SquinkyVCV
+	branch = master
