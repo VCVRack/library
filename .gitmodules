@@ -9,10 +9,6 @@
 	path = repos/AS
 	url = https://github.com/AScustomWorks/AS
 	branch = master
-[submodule "repos/Alikins"]
-	path = repos/Alikins
-	url = https://github.com/alikins/Alikins-rack-plugins
-	branch = master
 [submodule "repos/AmalgamatedHarmonics"]
 	path = repos/AmalgamatedHarmonics
 	url = https://github.com/jhoar/AmalgamatedHarmonics
@@ -45,10 +41,6 @@
 	path = repos/HetrickCV
 	url = https://github.com/mhetrick/hetrickcv
 	branch = master
-[submodule "repos/JW-Modules"]
-	path = repos/JW-Modules
-	url = https://github.com/jeremywen/JW-Modules
-	branch = master
 [submodule "repos/LindenbergResearch"]
 	path = repos/LindenbergResearch
 	url = https://github.com/lindenbergresearch/LRTRack
@@ -77,10 +69,6 @@
 	path = repos/TheXOR
 	url = https://github.com/The-XOR/VCV-Sequencers
 	branch = master
-[submodule "repos/cf"]
-	path = repos/cf
-	url = https://github.com/cfoulc/cf
-	branch = master
 [submodule "repos/dBiz"]
 	path = repos/dBiz
 	url = https://github.com/dBiz/dBiz
@@ -108,4 +96,16 @@
 [submodule "repos/squinkylabs-plug1"]
 	path = repos/squinkylabs-plug1
 	url = https://github.com/squinkylabs/SquinkyVCV
+	branch = master
+[submodule "repos/ValleyFree"]
+	path = repos/ValleyFree
+	url = https://github.com/ValleyAudio/ValleyRackFree.git
+	branch = v0.6
+[submodule "repos/CharredDesert"]
+	path = repos/CharredDesert
+	url = https://github.com/JerrySievert/CharredDesert
+	branch = master
+[submodule "repos/SynthKit"]
+	path = repos/SynthKit
+	url = https://github.com/JerrySievert/SynthKit
 	branch = master
