@@ -129,3 +129,11 @@
 	path = repos/Bidoo
 	url = https://github.com/sebastien-bouffier/Bidoo
 	branch = master
+[submodule "repos/trowaSoft"]
+	path = repos/trowaSoft
+	url = https://github.com/j4s0n-c/trowaSoft-VCV
+	branch = master
+[submodule "repos/ArableInstruments"]
+	path = repos/ArableInstruments
+	url = https://github.com/adbrant/ArableInstruments
+	branch = master
