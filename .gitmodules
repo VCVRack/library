@@ -121,3 +121,11 @@
 	path = repos/DrumKit
 	url = https://github.com/JerrySievert/DrumKit
 	branch = master
+[submodule "repos/SonusModular"]
+	path = repos/SonusModular
+	url = https://gitlab.com/sonusdept/sonusmodular
+	branch = master
+[submodule "repos/Bidoo"]
+	path = repos/Bidoo
+	url = https://github.com/sebastien-bouffier/Bidoo
+	branch = master
