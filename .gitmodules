@@ -137,3 +137,7 @@
 	path = repos/ArableInstruments
 	url = https://github.com/adbrant/ArableInstruments
 	branch = master
+[submodule "repos/LOGinstruments"]
+	path = repos/LOGinstruments
+	url = https://github.com/leopard86/LOGinstruments
+	branch = master
