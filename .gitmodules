@@ -141,3 +141,7 @@
 	path = repos/LOGinstruments
 	url = https://github.com/leopard86/LOGinstruments
 	branch = master
+[submodule "repos/BaconMusic"]
+	path = repos/BaconMusic
+	url = https://github.com/baconpaul/BaconPlugs.git
+	branch = master
