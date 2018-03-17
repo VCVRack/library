@@ -145,3 +145,11 @@
 	path = repos/BaconMusic
 	url = https://github.com/baconpaul/BaconPlugs.git
 	branch = master
+[submodule "repos/com-soundchasing-stochasm"]
+	path = repos/com-soundchasing-stochasm
+	url = https://github.com/teletypist/stochasm
+	branch = master
+[submodule "repos/MrLumps"]
+	path = repos/MrLumps
+	url = https://github.com/djpeterso23662/MrLumps
+	branch = master
