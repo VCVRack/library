@@ -153,3 +153,11 @@
 	path = repos/MrLumps
 	url = https://github.com/djpeterso23662/MrLumps
 	branch = master
+[submodule "repos/Southpole"]
+	path = repos/Southpole
+	url = https://github.com/gbrandt1/southpole-vcvrack.git
+	branch = 0.6
+[submodule "repos/Southpole-parasites"]
+	path = repos/Southpole-parasites
+	url = https://github.com/gbrandt1/southpole-vcvrack.git
+	branch = 0.6-parasites
