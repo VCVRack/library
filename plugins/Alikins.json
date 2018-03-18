@@ -3,22 +3,22 @@
   "name": "Alikins",
   "author": "Adrian Likins",
   "license": "BSD 3-Clause 'New' or 'Revised' License",
-  "version": "0.5.3",
+  "version": "0.5.5",
   "homepage": "https://github.com/alikins/Alikins-rack-plugins",
   "manual": "https://github.com/alikins/Alikins-rack-plugins",
   "source": "https://github.com/alikins/Alikins-rack-plugins",
   "downloads": {
     "lin": {
-      "download": "https://github.com/alikins/Alikins-rack-plugins/releases/download/v0.5.3/Alikins-0.5.3-lin.zip",
-      "sha256": "cb68c5c520b6ca69f391961292117fc56bd59cb4c2410ecbca11f487417f172f"
+      "download": "https://github.com/alikins/Alikins-rack-plugins/releases/download/v0.5.5/Alikins-0.5.5-lin.zip",
+      "sha256": "acaa6911e8bc45eb27e7acbaa44ecd4d91bf943db2580a03459df1ec397fa30c"
     },
     "mac": {
-      "download": "https://github.com/alikins/Alikins-rack-plugins/releases/download/v0.5.3/Alikins-0.5.3-mac.zip",
-      "sha256": "f90b8ee10c6ae5e32ae8d61f4d021925eba1cd4a7ba195241d0468b594039a7b"
+      "download": "https://github.com/alikins/Alikins-rack-plugins/releases/download/v0.5.5/Alikins-0.5.5-mac.zip",
+      "sha256": "86e047614aaac6cea581f404debc7fa19f3ae157cfc9bd8613fd626a22b99afe"
     },
     "win": {
-      "download": "https://github.com/alikins/Alikins-rack-plugins/releases/download/v0.5.3/Alikins-0.5.3-win.zip",
-      "sha256": "01e1623d955e1818a79107e6a623a79d710a17ed9aed7537155acde097dba83e"
+      "download": "https://github.com/alikins/Alikins-rack-plugins/releases/download/v0.5.5/Alikins-0.5.5-win.zip",
+      "sha256": "ae0fae12156a4319b34e9e983ad86121461f74686663abc7b6fccc0df35d8aa0"
     }
   }
 }
