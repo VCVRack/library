@@ -3,23 +3,24 @@
   "name": "Valley",
   "author": "ValleyAudio",
   "license": "GPL-3.0 and BSD-3-Clause",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "manual": "https://github.com/ValleyAudio/ValleyRackFree/",
   "source": "https://github.com/ValleyAudio/ValleyRackFree/",
   "donation": "https://www.paypal.me/valleyvcv",
   "downloads": {
     "win": {
-      "download": "https://github.com/ValleyAudio/ValleyRackFree/releases/download/0.5.5/Valley.Free-0.5.5-win.zip",
-      "sha256": "d68e9954542521a476b7266eb2e6810857f3dc266fd3842ee18d5a90925741a8"
+      "download": "https://github.com/ValleyAudio/ValleyRackFree/releases/download/0.5.6/Valley-Free-0.5.6-win.zip",
+      "sha256": "5b9bad185547f66914bc902587b25bab8c766a5ff90a64c37a68063a61c3d80a"
     },
     "lin": {
-      "download": "https://github.com/ValleyAudio/ValleyRackFree/releases/download/0.5.5/Valley.Free-0.5.5-lin.zip",
-      "sha256": "30f71b9d875d40ccf59a2b0b26e191e75b8f8b5c3561e6953a726573710f7993"
+      "download": "https://github.com/ValleyAudio/ValleyRackFree/releases/download/0.5.6/Valley-Free-0.5.6-lin.zip",
+      "sha256": "4cbe5fd6147538ac5963f53eae16aadda246a0de645dc8be0fe1c9576e6f06a3"
     },
     "mac": {
-      "download": "https://github.com/ValleyAudio/ValleyRackFree/releases/download/0.5.5/Valley.Free-0.5.5-mac.zip",
-      "sha256": "fca95309575e50e60be66e267a90c559e3686c3fc2b13560c78cc6244cc8c24a"
+      "download": "https://github.com/ValleyAudio/ValleyRackFree/releases/download/0.5.6/Valley.Free-0.5.6-mac.zip",
+      "sha256": "00ad5456df05619d5679473bb8a376b396a3daca5a9145c5a005bf9d620bc6ee"
     }
   }
 }
+
 
