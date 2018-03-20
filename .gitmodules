@@ -161,3 +161,7 @@
 	path = repos/Southpole-parasites
 	url = https://github.com/gbrandt1/southpole-vcvrack.git
 	branch = 0.6-parasites
+[submodule "repos/cf"]
+	path = repos/cf
+	url = https://github.com/cfoulc/cf
+	branch = master
