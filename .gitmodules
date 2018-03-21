@@ -98,7 +98,7 @@
 	url = https://github.com/squinkylabs/SquinkyVCV
 	branch = master
 [submodule "repos/ValleyFree"]
-	path = repos/ValleyFree
+	path = repos/Valley
 	url = https://github.com/ValleyAudio/ValleyRackFree.git
 	branch = v0.6
 [submodule "repos/CharredDesert"]
@@ -164,4 +164,8 @@
 [submodule "repos/cf"]
 	path = repos/cf
 	url = https://github.com/cfoulc/cf
+	branch = master
+[submodule "repos/ImpromptuModular"]
+	path = repos/ImpromptuModular
+	url = https://github.com/MarcBoule/ImpromptuModular.git
 	branch = master
