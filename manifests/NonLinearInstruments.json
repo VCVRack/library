@@ -1,24 +1,9 @@
 {
-  "slug": "NonLinearInstruments",
   "name": "Non Linear Instruments",
   "author": "NonLinearInstruments",
   "license": "BSD 3-clause",
-  "version": "0.5.3",
-  "homepage": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
-  "manual": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/blob/master/README.md",
-  "source": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
-  "downloads": {
-    "mac": {
-      "download": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/releases/download/0.5.3/NonLinearInstruments-0.5.3-mac.zip",
-      "sha256": "127ae5e6ea9748fb1d577305427cbaf5114de448995f8a252adc70709308b3b5"
-    },
-    "win": {
-      "download": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/releases/download/0.5.3/NonLinearInstruments-0.5.3-win.zip",
-      "sha256": "27d332f54177a8cb629889db883c574fe02dc6e4278611cfc09c24dad8d2fac4"
-    },
-    "lin": {
-      "download": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/releases/download/0.5.3/NonLinearInstruments-0.5.3-lin.zip",
-      "sha256": "e23b29d68c6c69bc4ae5fcdf4fc72f788a14c648ef63bbf017a906878c2a5a4b"
-    }
-  }
+  "websiteUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
+  "manualUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/blob/master/README.md",
+  "sourceUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
+  "latestVersion": "0.5.3"
 }

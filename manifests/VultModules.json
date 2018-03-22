@@ -1,9 +1,8 @@
 {
-  "slug": "VultModules",
   "name": "Vult Modules",
   "author": "Leonardo Laguna Ruiz",
-  "version": "0.5.10",
-  "homepage": "https://modlfo.github.io/VultModules",
-  "manual": "https://modlfo.github.io/VultModules",
+  "websiteUrl": "https://modlfo.github.io/VultModules",
+  "manualUrl": "https://modlfo.github.io/VultModules",
+  "latestVersion": "0.5.10",
   "productId": "937306325035"
 }

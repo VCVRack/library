@@ -1,22 +1,7 @@
 {
-   "slug": "VultModulesFree",
-   "name": "Vult Modules (Free Version)",
-   "author": "Leonardo Laguna Ruiz",
-   "version": "0.5.3",
-   "homepage": "https://modlfo.github.io/VultModules",
-   "manual": "https://modlfo.github.io/VultModules/download/",
-   "downloads": {
-      "win": {
-         "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.3/VultModulesFree-0.5.3-win.zip",
-         "sha256": "d889d776f7e9976b278d72e6b192524ac4acd06ccaa4ba0cfa9df5c9a1a75f1d"
-      },
-      "mac": {
-         "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.3/VultModulesFree-0.5.3-mac.zip",
-         "sha256": "4f1982f4ea4ffae74ebbb1f4db7a6e6bb9be26b1f223a8c046eed030f9e7b4aa"
-      },
-      "lin": {
-         "download": "https://github.com/modlfo/VultModules/releases/download/v0.5.3/VultModulesFree-0.5.3-lin.zip",
-         "sha256": "869c563414e453e0627d865d7a59db2afef1c52149100b267994e465c5b7dffb"
-      }
-   }
+  "name": "Vult Modules (Free Version)",
+  "author": "Leonardo Laguna Ruiz",
+  "websiteUrl": "https://modlfo.github.io/VultModules",
+  "manualUrl": "https://modlfo.github.io/VultModules/download/",
+  "latestVersion": "0.5.3"
 }

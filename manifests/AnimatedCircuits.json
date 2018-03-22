@@ -1,8 +1,7 @@
 {
-  "slug": "AnimatedCircuits",
   "name": "Animated Circuits",
   "author": "Animated Circuits",
-  "version": "0.5.2",
-  "manual": "https://drive.google.com/open?id=15_buBKqEdGkuTn9EOeZuFqE2m4qH-xUu",
-  "homepage": "http://www.animated-circuits.com"
+  "websiteUrl": "http://www.animated-circuits.com",
+  "manualUrl": "https://drive.google.com/open?id=15_buBKqEdGkuTn9EOeZuFqE2m4qH-xUu",
+  "latestVersion": "0.5.2"
 }

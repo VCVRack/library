@@ -1,8 +1,7 @@
 {
-  "slug": "dBiz",
   "name": "dBiz",
   "author": "dBiz",
-  "version": "0.5.2",
-  "source": "https://github.com/dBiz/dBiz",
-  "manual": "https://github.com/dBiz/dBiz/blob/master/README.md"
+  "manualUrl": "https://github.com/dBiz/dBiz/blob/master/README.md",
+  "sourceUrl": "https://github.com/dBiz/dBiz",
+  "latestVersion": "0.5.2"
 }

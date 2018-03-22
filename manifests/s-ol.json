@@ -1,14 +1,7 @@
 {
-  "slug": "s-ol",
   "name": "s-ol",
   "author": "s-ol",
-  "version": "",
-  "source": "https://github.com/s-ol/vcvmods",
-  "manual": "https://github.com/s-ol/vcvmods/blob/master/README.md",
-  "downloads": {
-    "win": {
-      "download": "https://github.com/s-ol/vcvmods/releases/download/0.5.0/solmods-0.5.0-win.zip",
-      "sha256": "414a39591f92751f1ec643b8147c29546d155df857b0bbc9fe18650f97259b3a"
-    }
-  }
+  "manualUrl": "https://github.com/s-ol/vcvmods/blob/master/README.md",
+  "sourceUrl": "https://github.com/s-ol/vcvmods",
+  "latestVersion": ""
 }

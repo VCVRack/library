@@ -1,25 +1,10 @@
 {
-  "slug": "SonusModular",
   "name": "Sonus Modular",
   "author": "Sonus Dept.",
   "license": "GNU General Public License 3.0",
-  "version": "0.5.1",
-  "homepage": "http://sonusmodular.sonusdept.com/",
-  "manual": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular",
-  "source": "https://gitlab.com/sonusdept/sonusmodular",
-  "donation": "https://paypal.me/sonusdept",
-  "downloads": {
-    "win": {
-      "download": "http://sonusdept.altervista.org/files/sonusmodular/SonusModular-0.5.1-win.zip",
-      "sha256": "6c72c4bf8c1892a89be2033ea36279cbab25336498dfba284eaad459e864541d"
-    },
-    "mac": {
-      "download": "http://sonusdept.altervista.org/files/sonusmodular/SonusModular-0.5.1-mac.zip",
-      "sha256": "7c26caf6a0bd4dfb444133db838a3c9171fb13086c93dea862ba284f51d4b820"
-    },
-    "lin": {
-      "download": "http://sonusdept.altervista.org/files/sonusmodular/SonusModular-0.5.1-lin.zip",
-      "sha256": "dc11857bc76bec125bbba1cbb2c58343f1d2c74489d916a84f2775fc18461aa5"
-    }
-  }
+  "websiteUrl": "http://sonusmodular.sonusdept.com/",
+  "manualUrl": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular",
+  "sourceUrl": "https://gitlab.com/sonusdept/sonusmodular",
+  "donateUrl": "https://paypal.me/sonusdept",
+  "latestVersion": "0.5.1"
 }

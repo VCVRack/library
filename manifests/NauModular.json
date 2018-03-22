@@ -1,14 +1,7 @@
 {
-  "slug": "NauModular",
   "name": "NauModular",
   "author": "naus3a",
-  "version": "0.5.2",
-  "source": "https://github.com/naus3a/NauModular",
-  "manual": "http://naus3al.ml/NauModular",
-  "downloads": {
-    "mac": {
-      "download": "https://github.com/naus3a/NauModular/releases/download/0.5.2/NauModular-0.5.2-mac.zip",
-      "sha256": "8ce02c23615663d6af4b2370a89dadbcda984f49b8c2f3cae96be3b1f41112c8"
-    }
-  }
+  "manualUrl": "http://naus3al.ml/NauModular",
+  "sourceUrl": "https://github.com/naus3a/NauModular",
+  "latestVersion": "0.5.2"
 }

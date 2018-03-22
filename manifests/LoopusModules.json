@@ -1,8 +1,7 @@
 {
-  "slug": "LoopusModules",
   "name": "Loopus Modules",
   "author": "Sonus Dept.",
-  "version": "0.5.1",
-  "homepage": "http://loopusmodules.sonusdept.com",
-  "manual": "https://sonusdept.altervista.org/files/loopusmodules/LoopusModules_manual.pdf"
+  "websiteUrl": "http://loopusmodules.sonusdept.com",
+  "manualUrl": "https://sonusdept.altervista.org/files/loopusmodules/LoopusModules_manual.pdf",
+  "latestVersion": "0.5.1"
 }

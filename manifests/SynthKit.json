@@ -1,25 +1,10 @@
 {
-  "slug": "SynthKit",
   "name": "SynthKit",
   "author": "Jerry Sievert",
   "license": "BSD 3-clause",
-  "version": "0.5.5",
-  "homepage": "https://github.com/JerrySievert/SynthKit/blob/master/README.md",
-  "manual": "https://github.com/JerrySievert/SynthKit/tree/master/docs",
-  "source": "https://github.com/JerrySievert/SynthKit",
-  "donation": "https://paypal.me/JerrySievert",
-  "downloads": {
-    "win": {
-      "download": "https://github.com/JerrySievert/SynthKit/releases/download/v0.5.5/SynthKit-0.5.5-win.zip",
-      "sha256": "40d1f2d3c9a96854392b85da62962959ae8fdef3e737f6a58e97f7acaa174d19"
-    },
-    "lin": {
-      "download": "https://github.com/JerrySievert/SynthKit/releases/download/v0.5.5/SynthKit-0.5.5-lin.zip",
-      "sha256": "2ac73ab95a568abaa625be59b146ef67c2c81cfc393c44aabdd2e41edecd2425"
-    },
-    "mac": {
-      "download": "https://github.com/JerrySievert/SynthKit/releases/download/v0.5.5/SynthKit-0.5.5-mac.zip",
-      "sha256": "a697f4b0480972c1a8e466012bc88ad24a37728006c0720c1471c393cd5d35b7"
-    }
-  }
+  "websiteUrl": "https://github.com/JerrySievert/SynthKit/blob/master/README.md",
+  "manualUrl": "https://github.com/JerrySievert/SynthKit/tree/master/docs",
+  "sourceUrl": "https://github.com/JerrySievert/SynthKit",
+  "donateUrl": "https://paypal.me/JerrySievert",
+  "latestVersion": "0.5.5"
 }

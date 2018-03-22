@@ -22,8 +22,8 @@ Filename should be `YourSlug.json`.
 ```json
 {
   "name": "Fundamental",
-  "license": "BSD 3-clause",
   "author": "VCV",
+  "license": "BSD 3-clause",
   "contactEmail": "contact@vcvrack.com",
   "websiteUrl": "https://vcvrack.com/Fundamental.html",
   "manualUrl": "https://vcvrack.com/Fundamental.html#manual",
@@ -38,8 +38,8 @@ Filename should be `YourSlug.json`.
 All properties are optional.
 
 - **name**: Human-readable display name for your plugin. You can change this on a whim, unlike slugs.
-- **license**: The license type of your plugin. Use "proprietary" if all rights are reserved. If your license is in the [SPDX license list](https://spdx.org/licenses/), use its abbreviation in the "Identifier" column.
 - **author**: Your name, company, alias, or GitHub username.
+- **license**: The license type of your plugin. Use "proprietary" if all rights are reserved. If your license is in the [SPDX license list](https://spdx.org/licenses/), use its abbreviation in the "Identifier" column.
 - **contactEmail**: Your email address for support inquiries.
 - **websiteUrl**: The homepage page of your plugin. Omit if redundant with the source URL.
 - **manualUrl**: The manual of your plugin. HTML, PDF, or GitHub readme/wiki are fine.

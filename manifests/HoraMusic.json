@@ -1,7 +1,6 @@
 {
-  "slug": "HoraMusic",
   "name": "Hora Music",
   "author": "Hora Music",
-  "version": "0.5.0",
-  "homepage": "https://gumroad.com/horamusic"
+  "websiteUrl": "https://gumroad.com/horamusic",
+  "latestVersion": "0.5.0"
 }

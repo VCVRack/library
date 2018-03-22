@@ -1,18 +1,7 @@
 {
-  "slug": "Qwelk",
   "name": "Qwelk",
   "author": "raincheque",
-  "version": "0.5.5",
-  "source": "https://github.com/raincheque/qwelk",
-  "manual": "https://github.com/raincheque/qwelk/blob/master/README.md",
-  "downloads": {
-    "win": {
-      "download": "https://github.com/raincheque/qwelk/blob/master/dist/Qwelk-0.5.5-win.zip?raw=true",
-      "sha256": "0835d6e16b6b283a6d27e86c69f08967c7cfb1f406ac844a87a0d50aaa78a035"
-    },
-    "mac": {
-      "download": "https://github.com/raincheque/qwelk/blob/master/dist/Qwelk-0.5.5-mac.zip?raw=true",
-      "sha256": "815736b07c534c7f8ccf92151fbf831552e16ca024ee07b45ff9a053630ea16e"
-    }
-  }
+  "manualUrl": "https://github.com/raincheque/qwelk/blob/master/README.md",
+  "sourceUrl": "https://github.com/raincheque/qwelk",
+  "latestVersion": "0.5.5"
 }

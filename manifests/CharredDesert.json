@@ -1,25 +1,10 @@
 {
-  "slug": "CharredDesert",
   "name": "Charred Desert",
   "author": "Jerry Sievert",
   "license": "CC0 1.0 Universal",
-  "version": "0.5.0",
-  "homepage": "https://github.com/JerrySievert/CharredDesert/blob/master/README.md",
-  "manual": "https://github.com/JerrySievert/CharredDesert/blob/master/docs/README.md",
-  "donation": "https://paypal.me/JerrySievert",
-  "source": "https://github.com/JerrySievert/CharredDesert",
-  "downloads": {
-    "win": {
-      "download": "https://github.com/JerrySievert/CharredDesert/releases/download/v0.5.0/CharredDesert-0.5.0-win.zip",
-      "sha256": "628eb93368c2f636e9b682681285a8877286d85952531d138fa96576e7d9cd22"
-    },
-    "lin": {
-      "download": "https://github.com/JerrySievert/CharredDesert/releases/download/v0.5.0/CharredDesert-0.5.0-lin.zip",
-      "sha256": "bfab5294a28286f7e10818b295081685fa2987dbffbb009615f330be037e1849"
-    },
-    "mac": {
-      "download": "https://github.com/JerrySievert/CharredDesert/releases/download/v0.5.0/CharredDesert-0.5.0-mac.zip",
-      "sha256": "59ff2100537d2c047564d3f665f315d38a9c3169786a913613db60cf8ece8634"
-    }
-  }
+  "websiteUrl": "https://github.com/JerrySievert/CharredDesert/blob/master/README.md",
+  "manualUrl": "https://github.com/JerrySievert/CharredDesert/blob/master/docs/README.md",
+  "sourceUrl": "https://github.com/JerrySievert/CharredDesert",
+  "donateUrl": "https://paypal.me/JerrySievert",
+  "latestVersion": "0.5.0"
 }

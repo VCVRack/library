@@ -1,9 +1,8 @@
 {
-  "slug": "UnfilteredVolume1",
   "name": "Unfiltered Volume 1",
   "author": "Unfiltered Audio",
   "license": "proprietary",
-  "version": "0.5.0",
-  "manual": "https://www.unfilteredaudio.com/pages/vcv-manuals",
+  "manualUrl": "https://www.unfilteredaudio.com/pages/vcv-manuals",
+  "latestVersion": "0.5.0",
   "productId": "679766392875"
 }

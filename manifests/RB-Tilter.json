@@ -1,11 +1,9 @@
 {
-    "slug": "RB-Tilter",
-    "name": "Tilter",
-    "author": "Robotic Bean",
-    "license": "proprietary",
-    "version": "0.5.0",
-    "homepage": "http://roboticbean.com/creative/products/tilter/",
-    "manual": "http://roboticbean.com/creative/products/tilter/",
-    "productId": "1061051203627"
-  }
-  
+  "name": "Tilter",
+  "author": "Robotic Bean",
+  "license": "proprietary",
+  "websiteUrl": "http://roboticbean.com/creative/products/tilter/",
+  "manualUrl": "http://roboticbean.com/creative/products/tilter/",
+  "latestVersion": "0.5.0",
+  "productId": "1061051203627"
+}
