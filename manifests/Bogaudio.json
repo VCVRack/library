@@ -1,0 +1,24 @@
+{
+  "slug": "Bogaudio",
+  "name": "Bogaudio",
+  "author": "Matt Demanett",
+  "license": "BSD 3-clause",
+  "version": "0.5.4",
+  "homepage": "https://github.com/bogaudio/BogaudioModules",
+  "manual": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md",
+  "source": "https://github.com/bogaudio/BogaudioModules",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/0.5.4/Bogaudio-0.5.4-win.zip",
+      "sha256": "5be75d6790bab493c51508206f4dffa784fb4aded3d7278944aa837eafc93c8d"
+    },
+    "lin": {
+      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/0.5.4/Bogaudio-0.5.4-lin.zip",
+      "sha256": "856c62c972a75c28992769cf43eee013e07ae0ad75ff2cae5428c61bcd48d250"
+    },
+    "mac": {
+      "download": "https://github.com/bogaudio/BogaudioModules/releases/download/0.5.4/Bogaudio-0.5.4-mac.zip",
+      "sha256": "6ddd7cf71b55c148a28d2a9ee7693ff6cfc4135af2c9bd20607aae0017ebb5d4"
+    }
+  }
+}

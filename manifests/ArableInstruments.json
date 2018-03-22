@@ -1,0 +1,22 @@
+{
+  "slug": "ArableInstruments",
+  "name": "Arable Instruments",
+  "author": "adbrant",
+  "version": "v0.5.0",
+  "source": "https://github.com/adbrant/ArableInstruments",
+  "manual": "https://github.com/adbrant/ArableInstruments/blob/master/README.md",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/adbrant/ArableInstruments/releases/download/v0.5.0/ArableInstruments-v0.5.0-win.zip",
+      "sha256": "45723f337b43c125ff20ab20fda6e31bccd58ac5a847b8d0bbe86f507b4c347a"
+    },
+    "mac": {
+      "download": "https://github.com/adbrant/ArableInstruments/releases/download/v0.5.0/ArableInstruments-v0.5.0-mac.zip",
+      "sha256": "ab329cb3d9d4a82ae1f715a18c136ed9b436f7b656940ca765b495e93a59d37b"
+    },
+    "lin": {
+      "download": "https://github.com/adbrant/ArableInstruments/releases/download/v0.5.0/ArableInstruments-v0.5.0-lin.zip",
+      "sha256": "f0fd0913397081a279350899cbc5389d1bd48024638b1223dafd61c3570e39ea"
+    }
+  }
+}

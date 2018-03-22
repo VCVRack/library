@@ -1,0 +1,21 @@
+{
+  "slug": "PulsumQuadratum-rtlsdr",
+  "name": "Pulsum Quadratum RTL_SDR",
+  "author": "Jon Williams",
+  "license": "GPL-2",
+  "version": "0.5.0",
+  "homepage": "https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/",
+  "donation": "https://www.paypal.me/wizardishungry",
+  "manual": "https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/",
+  "source": "https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/",
+  "downloads": {
+    "mac": {
+      "download": "https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/releases/download/v0.5.0/PulsumQuadratum-rtlsdr-0.5.0-mac.zip",
+      "sha256": "ee435bcc9645a8cb40147071b59bfd17acf6d7adb4e2dcf53ea51303ad305762"
+    },
+    "win": {
+      "download": "https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/files/1689387/PulsumQuadratum-rtlsdr-0.5.0-win.zip",
+      "sha256": "4058699ea1f854fa6a04e35ecef58c7fc6d94e696b536d33720d6e2bf328cb54"
+    }
+  }
+}

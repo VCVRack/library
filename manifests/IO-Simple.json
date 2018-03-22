@@ -1,0 +1,18 @@
+{
+  "slug": "IO-Simple",
+  "name": "Simple module pack",
+  "author": "IohannRabeson",
+  "version": "0.5.0",
+  "source": "https://github.com/IohannRabeson/VCVRack-Simple",
+  "manual": "https://iohannrabeson.github.io/VCVRack-Simple/",
+  "downloads": {
+    "mac": {
+      "download": "https://github.com/IohannRabeson/VCVRack-Simple/releases/download/v0.5.0/VCVRack-Simple-0.5.0-mac.zip",
+      "sha256": "b584f35c4772f628dc938132b8a5f999eb86b6a75c39aad80ba506e60c60a30d"
+    },
+    "win": {
+      "download": "https://github.com/IohannRabeson/VCVRack-Simple/releases/download/v0.5.0/VCVRack-Simple-0.5.0-win.zip",
+      "sha256": "515a87a6f124189cb998840894e7fe41470d95622deef5917557ef82f947d18d"
+    }
+  }
+}

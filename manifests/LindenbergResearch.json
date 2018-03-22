@@ -1,0 +1,21 @@
+{
+  "slug": "LindenbergResearch",
+  "name": "Lindenberg Research",
+  "author": "Patrick Lindenberg / Lindenberg Research Tec.",
+  "version": "0.5.3",
+  "source": "https://github.com/lindenbergresearch/LRTRack",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/lindenbergresearch/LRTRack/releases/download/v0.5.3/LindenbergResearch-0.5.3-win.zip",
+      "sha256": "3bc2867edbbe7db6dcde2e314cd8a25bdb3fc4866eb1cf4ec91578df317d9dbc"
+    },
+    "mac": {
+      "download": "https://github.com/lindenbergresearch/LRTRack/releases/download/v0.5.3/LindenbergResearch-0.5.3-mac.zip",
+      "sha256": "65e0229237b1cf07f7c1622eb62638702c788367ca296baca5a7022ffd58d591"
+    },
+    "lin": {
+      "download": "https://github.com/lindenbergresearch/LRTRack/releases/download/v0.5.3/LindenbergResearch-0.5.3-lin.zip",
+      "sha256": "3eecacf59da4ae25d4f868ae0f134cbd8369118acc3c2969fa0adbaf20368546"
+    }
+  }
+}

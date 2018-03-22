@@ -1,0 +1,22 @@
+{
+  "slug": "AmalgamatedHarmonics",
+  "name": "Amalgamated Harmonics",
+  "author": "John Hoar",
+  "version": "0.5.8",
+  "manual": "https://github.com/jhoar/AmalgamatedHarmonics/wiki",
+  "source": "https://github.com/jhoar/AmalgamatedHarmonics",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.8/AmalgamatedHarmonics-0.5.8-win.zip",
+      "sha256": "35f95d895e7bdac0d53e92b08c7e9f5fa58bccbab395e45a9f728856fd8f30f1"
+    },
+    "mac": {
+      "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.8/AmalgamatedHarmonics-0.5.8-mac.zip",
+      "sha256": "49ce246a03b69b1a9246ba03f6df26c58197c08f8e4d51d425e2d1600b05d7b3"
+    },
+    "lin": {
+      "download": "https://github.com/jhoar/AmalgamatedHarmonics/releases/download/v0.5.8/AmalgamatedHarmonics-0.5.8-lin.zip",
+      "sha256": "c712f55c01b96c964226b9fc39040953a2246b70d91ffb3a64ee1b6c89e6214b"
+    }
+  }
+}

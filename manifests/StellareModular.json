@@ -1,0 +1,24 @@
+{
+  "slug": "StellareModular",
+  "name": "Turing Machine + Blank",
+  "author": "Stellare Modular",
+  "license": "MIT",
+  "version": "0.5.2",
+  "homepage": "https://www.facebook.com/stellaremodular",
+  "donation": "https://paypal.me/stellaremodular",
+  "manual": "https://github.com/stellare-modular/vcv-rack/blob/master/README.md",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/stellare-modular/vcv-rack/releases/download/0.5.2/StellareModular-0.5.2-all.zip",
+      "sha256": "ba4766cfd3e4f3cf8f0b82f84d14c8adf562f895ffcff9c4316a26d770a7b212"
+    },
+    "mac": {
+      "download": "https://github.com/stellare-modular/vcv-rack/releases/download/0.5.2/StellareModular-0.5.2-all.zip",
+      "sha256": "ba4766cfd3e4f3cf8f0b82f84d14c8adf562f895ffcff9c4316a26d770a7b212"
+    },
+    "lin": {
+      "download": "https://github.com/stellare-modular/vcv-rack/releases/download/0.5.2/StellareModular-0.5.2-all.zip",
+      "sha256": "ba4766cfd3e4f3cf8f0b82f84d14c8adf562f895ffcff9c4316a26d770a7b212"
+    }
+  }
+}

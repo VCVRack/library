@@ -1,0 +1,24 @@
+{
+  "slug": "JW-Modules",
+  "name": "JW-Modules",
+  "version": "0.5.11",
+  "author": "Jeremy Wentworth",
+  "homepage": "http://jeremywentworth.com",
+  "donation": "https://www.paypal.me/jeremywen",
+  "manual": "https://github.com/jeremywen/JW-Modules/blob/master/README.md",
+  "source": "https://github.com/jeremywen/JW-Modules",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.11/JW-Modules-0.5.11-win.zip",
+      "sha256": "0a0b5a9bd7bc4b4055022fd2c9611d0869e8cbaa36c1487a110bd5cc5d355ae4"
+    },
+    "mac": {
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.11/JW-Modules-0.5.11-mac.zip",
+      "sha256": "dc659fc833c924adc7981f592481f5e348d12481efaed8d41360fd7916d0aa62"
+    },
+    "lin": {
+      "download": "https://github.com/jeremywen/JW-Modules/releases/download/v0.5.11/JW-Modules-0.5.11-lin.zip",
+      "sha256": "c711ea606d5a2fbd4143583e6c344724c30a32e64bcd44e4c18886059f1d28f9"
+    }
+  }
+}

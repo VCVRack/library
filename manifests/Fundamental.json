@@ -1,0 +1,9 @@
+{
+  "slug": "Fundamental",
+  "name": "Fundamental",
+  "author": "VCV",
+  "license": "BSD 3-clause",
+  "version": "0.5.1",
+  "manual": "https://vcvrack.com/manual/Fundamental.html",
+  "source": "https://github.com/VCVRack/Fundamental"
+}

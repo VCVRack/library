@@ -1,0 +1,24 @@
+{
+  "slug": "mental",
+  "name": "Strum's Mental Modules",
+  "author": "Strum",
+  "license": "BSD 3-clause",
+  "version": "0.5.b",
+  "homepage": "https://github.com/Strum/Strums_Mental_VCV_Modules",
+  "manual": "https://github.com/Strum/Strums_Mental_VCV_Modules/wiki/Mental-Modules-WIKI",
+  "source": "https://github.com/Strum/Strums_Mental_VCV_Modules",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/releases/download/v0.5.b/mental-0.5.b-win.zip",
+      "sha256": "3d93d74cbbcd4899a367799f5803ed57c6d171f49e3062fe4c3dd8c932e00854"      
+    },
+    "lin": {
+      "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/releases/download/v0.5.b/mental-0.5.b-lin.zip",
+      "sha256": "e716ff6a9a98addc5eb07f92d8d524c627da5734375d97a084b8878a25b8f7c2"
+    },
+    "mac": {
+      "download": "https://github.com/Strum/Strums_Mental_VCV_Modules/releases/download/v0.5.b/mental-0.5.b-mac.zip",
+      "sha256": "34e5fab67cd3ef643f958c9a200161e3dd0f0628105fa38121d1147e22fb27f1"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "mscHack",
+  "name": "mscHack",
+  "author": "mschack",
+  "version": "",
+  "source": "https://github.com/mschack/VCV-Rack-Plugins",
+  "manual": "https://github.com/mschack/VCV-Rack-Plugins/blob/master/README.md#demo-vids",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/mschack/VCV-Rack-Plugins/blob/master/mscHack.zip?raw=true",
+      "sha256": "7a65eefb1d61de753e6a2f185385a15a36fb3cf235062055d9e692734867fe5b"
+    }
+  }
+}

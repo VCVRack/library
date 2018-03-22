@@ -1,0 +1,23 @@
+{
+  "slug": "cf",
+  "name": "cf",
+  "author": "clément foulc",
+  "version": "0.5.16",
+  "donation": "https://www.paypal.me/cfoulc",
+  "source": "https://github.com/cfoulc/cf",
+  "manual": "https://github.com/cfoulc/cf/blob/master/README.md",
+  "downloads": {
+    "win": {
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.16.2/cf-0.5.16-win.zip",
+      "sha256": "782f2edb77fb5907e153c3b855be19d4fa33cbba2ed86a9643afc961ba1ef768"
+    },
+    "mac": {
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.16.2/cf-0.5.16-mac.zip",
+      "sha256": "cd748ee43ab9c64cc88251032a7411a8ef1087b99fdacf7dfebde11b3c9e2df7"
+    },
+    "lin": {
+      "download": "https://github.com/cfoulc/cf/releases/download/0.5.16.2/cf-0.5.16-lin.zip",
+      "sha256": "dcddfb304b32611d907502a5153beaf7af2a9dc90ea444560d519bfb82114a7f"
+    }
+  }
+}
