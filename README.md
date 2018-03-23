@@ -29,7 +29,6 @@ Filename should be `YourSlug.json`.
   "manualUrl": "https://vcvrack.com/Fundamental.html#manual",
   "sourceUrl": "https://github.com/VCVRack/Fundamental",
   "latestVersion": "0.6.0",
-  "status": ""
 }
 ```
 
