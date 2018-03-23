@@ -169,3 +169,7 @@
 	path = repos/ImpromptuModular
 	url = https://github.com/MarcBoule/ImpromptuModular.git
 	branch = master
+[submodule "repos/RODENTMODULES"]
+	path = repos/RODENTMODULES
+	url = https://github.com/RODENTCAT/RODENTMODULES
+	branch = master
