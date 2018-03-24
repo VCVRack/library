@@ -173,3 +173,7 @@
 	path = repos/RODENTMODULES
 	url = https://github.com/RODENTCAT/RODENTMODULES
 	branch = master
+[submodule "repos/modular80"]
+	path = repos/modular80
+	url = https://github.com/cschol/modular80
+	branch = master
