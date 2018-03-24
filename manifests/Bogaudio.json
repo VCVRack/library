@@ -1,9 +1,8 @@
 {
   "name": "Bogaudio",
   "author": "Matt Demanett",
-  "license": "BSD 3-clause",
-  "websiteUrl": "https://github.com/bogaudio/BogaudioModules",
+  "license": "BSD-3-Clause",
   "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md",
   "sourceUrl": "https://github.com/bogaudio/BogaudioModules",
-  "latestVersion": "0.5.4"
+  "latestVersion": "0.6.4"
 }
