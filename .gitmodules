@@ -145,10 +145,6 @@
 	path = repos/BaconMusic
 	url = https://github.com/baconpaul/BaconPlugs.git
 	branch = master
-[submodule "repos/com-soundchasing-stochasm"]
-	path = repos/com-soundchasing-stochasm
-	url = https://github.com/teletypist/stochasm
-	branch = master
 [submodule "repos/MrLumps"]
 	path = repos/MrLumps
 	url = https://github.com/djpeterso23662/MrLumps
@@ -168,10 +164,6 @@
 [submodule "repos/ImpromptuModular"]
 	path = repos/ImpromptuModular
 	url = https://github.com/MarcBoule/ImpromptuModular.git
-	branch = master
-[submodule "repos/RODENTMODULES"]
-	path = repos/RODENTMODULES
-	url = https://github.com/RODENTCAT/RODENTMODULES
 	branch = master
 [submodule "repos/modular80"]
 	path = repos/modular80

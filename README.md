@@ -23,7 +23,7 @@ Filename should be `YourSlug.json`.
 {
   "name": "Fundamental",
   "author": "VCV",
-  "license": "BSD 3-clause",
+  "license": "BSD-3-Clause",
   "contactEmail": "contact@vcvrack.com",
   "websiteUrl": "https://vcvrack.com/Fundamental.html",
   "manualUrl": "https://vcvrack.com/Fundamental.html#manual",
