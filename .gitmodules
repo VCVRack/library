@@ -123,7 +123,7 @@
 	branch = master
 [submodule "repos/SonusModular"]
 	path = repos/SonusModular
-	url = https://gitlab.com/sonusdept/sonusmodular
+	url = https://gitlab.com/sonusdept/sonusmodular.git
 	branch = master
 [submodule "repos/Bidoo"]
 	path = repos/Bidoo
