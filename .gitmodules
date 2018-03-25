@@ -173,3 +173,7 @@
 	path = repos/com-soundchasing-stochasm
 	url = https://github.com/teletypist/stochasm.git
 	branch = master
+[submodule "repos/ParableInstruments"]
+	path = repos/ParableInstruments
+	url = https://github.com/adbrant/ArableInstruments.git
+	branch = parable

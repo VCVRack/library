@@ -1,9 +1,8 @@
 {
   "name": "RJModules",
   "author": "Miserlou",
-  "license": "BSD 3-clause",
-  "websiteUrl": "https://github.com/Miserlou/RJModules",
+  "license": "BSD-3-Clause",
   "manualUrl": "https://github.com/Miserlou/RJModules/blob/master/README.md",
   "sourceUrl": "https://github.com/Miserlou/RJModules",
-  "latestVersion": "0.5.0"
+  "latestVersion": "0.6.0"
 }
