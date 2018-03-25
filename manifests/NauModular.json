@@ -1,7 +1,8 @@
 {
   "name": "NauModular",
   "author": "naus3a",
+  "license": "CC0-1.0",
   "manualUrl": "http://naus3al.ml/NauModular",
   "sourceUrl": "https://github.com/naus3a/NauModular",
-  "latestVersion": "0.5.2"
+  "latestVersion": "0.6.0"
 }
