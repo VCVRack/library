@@ -169,3 +169,7 @@
 	path = repos/modular80
 	url = https://github.com/cschol/modular80
 	branch = master
+[submodule "repos/com-soundchasing-stochasm"]
+	path = repos/com-soundchasing-stochasm
+	url = https://github.com/teletypist/stochasm.git
+	branch = master
