@@ -1,8 +1,8 @@
 {
   "name": "Fundamental",
   "author": "VCV",
-  "license": "BSD 3-clause",
+  "license": "BSD-3-Clause",
   "manualUrl": "https://vcvrack.com/manual/Fundamental.html",
   "sourceUrl": "https://github.com/VCVRack/Fundamental",
-  "latestVersion": "0.5.1"
+  "latestVersion": "0.6.0"
 }

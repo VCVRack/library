@@ -1,10 +1,8 @@
 {
   "name": "PvC",
   "author": "phdsg",
-  "license": "BSD 3-clause",
+  "license": "BSD-3-Clause",
   "websiteUrl": "https://phdsg.github.io/PvC/",
-  "manualUrl": "https://phdsg.github.io/PvC/",
-  "sourceUrl": "https://github.com/phdsg/PvC.git",
-  "donateUrl": "https://gumroad.com/pvc",
-  "latestVersion": "0.5.7"
+  "sourceUrl": "https://github.com/phdsg/PvC",
+  "latestVersion": "0.6.0"
 }

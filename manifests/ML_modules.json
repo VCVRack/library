@@ -1,10 +1,9 @@
 {
   "name": "ML modules",
   "author": "Martin Lueders",
-  "license": "BSD 3-clause",
-  "websiteUrl": "https://github.com/martin-lueders/ML_modules",
+  "license": "BSD-3-Clause",
   "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki",
   "sourceUrl": "https://github.com/martin-lueders/ML_modules",
   "donateUrl": "https://paypal.me/MartinLueders",
-  "latestVersion": "0.5.4"
+  "latestVersion": "0.6.0"
 }

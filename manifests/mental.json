@@ -1,9 +1,8 @@
 {
   "name": "Strum's Mental Modules",
   "author": "Strum",
-  "license": "BSD 3-clause",
-  "websiteUrl": "https://github.com/Strum/Strums_Mental_VCV_Modules",
+  "license": "BSD-3-Clause",
   "manualUrl": "https://github.com/Strum/Strums_Mental_VCV_Modules/wiki/Mental-Modules-WIKI",
   "sourceUrl": "https://github.com/Strum/Strums_Mental_VCV_Modules",
-  "latestVersion": "0.5.b"
+  "latestVersion": "0.6.1"
 }
