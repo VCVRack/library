@@ -1,7 +1,8 @@
 {
   "name": "Unusual Sequencers",
   "author": "The XOR",
-  "license": "CC0 1.0 Universal",
+  "license": "CC0-1.0",
+  "manual": "https://github.com/The-XOR/RackPlugins/blob/master/README.md",
   "sourceUrl": "https://github.com/The-XOR/VCV-Sequencers",
-  "latestVersion": "0.5.2"
+  "latestVersion": "0.6.0"
 }
