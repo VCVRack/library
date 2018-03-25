@@ -8,15 +8,15 @@
   "source": "https://github.com/dllmusic/VCV_moDllz",
   "downloads": {
     "win": {
-      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist/moDllz-0.5.4-win.zip?raw=true",
+      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist_054/moDllz-0.5.4-win.zip?raw=true",
       "sha256": "005c8fe6df8d2b59c2b5a1b1c9ac226f0ddb96903d8fee0b0b1b983ce0fc0a68"
     },
     "mac": {
-      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist/moDllz-0.5.4-mac.zip?raw=true",
+      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist_054/moDllz-0.5.4-mac.zip?raw=true",
       "sha256": "fb9aa4a2df0e908d5243dc5878a8005249f14453765043f15f70e309c47159a8"
     },
     "lin": {
-      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist/moDllz-0.5.4-lin.zip?raw=true",
+      "download": "https://github.com/dllmusic/VCV_moDllz/blob/master/dist_054/moDllz-0.5.4-lin.zip?raw=true",
       "sha256": "abe97ab6f8f204b8b3ee9b25bb3bec520fa099278fb9d07a82bc151b0e0ec733"
     }
     }
