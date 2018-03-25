@@ -1,9 +1,8 @@
 {
   "name": "HetrickCV",
   "author": "Michael Hetrick",
-  "websiteUrl": "https://github.com/mhetrick/hetrickcv",
   "manualUrl": "https://github.com/mhetrick/hetrickcv/blob/master/README.md",
   "sourceUrl": "https://github.com/mhetrick/hetrickcv",
   "donateUrl": "https://paypal.me/MHetrick",
-  "latestVersion": "0.5.4"
+  "latestVersion": "0.6.0"
 }
