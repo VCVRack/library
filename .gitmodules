@@ -123,7 +123,7 @@
 	branch = master
 [submodule "repos/SonusModular"]
 	path = repos/SonusModular
-	url = https://gitlab.com/sonusdept/sonusmodular
+	url = https://gitlab.com/sonusdept/sonusmodular.git
 	branch = master
 [submodule "repos/Bidoo"]
 	path = repos/Bidoo
@@ -145,10 +145,6 @@
 	path = repos/BaconMusic
 	url = https://github.com/baconpaul/BaconPlugs.git
 	branch = master
-[submodule "repos/com-soundchasing-stochasm"]
-	path = repos/com-soundchasing-stochasm
-	url = https://github.com/teletypist/stochasm
-	branch = master
 [submodule "repos/MrLumps"]
 	path = repos/MrLumps
 	url = https://github.com/djpeterso23662/MrLumps
@@ -169,11 +165,15 @@
 	path = repos/ImpromptuModular
 	url = https://github.com/MarcBoule/ImpromptuModular.git
 	branch = master
-[submodule "repos/RODENTMODULES"]
-	path = repos/RODENTMODULES
-	url = https://github.com/RODENTCAT/RODENTMODULES
-	branch = master
 [submodule "repos/modular80"]
 	path = repos/modular80
 	url = https://github.com/cschol/modular80
 	branch = master
+[submodule "repos/com-soundchasing-stochasm"]
+	path = repos/com-soundchasing-stochasm
+	url = https://github.com/teletypist/stochasm.git
+	branch = master
+[submodule "repos/ParableInstruments"]
+	path = repos/ParableInstruments
+	url = https://github.com/adbrant/ArableInstruments.git
+	branch = parable

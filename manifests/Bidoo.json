@@ -1,9 +1,9 @@
 {
   "name": "bid\u00b0\u00b0",
   "author": "sebastien-bouffier",
-  "license": "BSD 3-clause",
+  "license": "BSD-3-Clause",
   "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki",
   "sourceUrl": "https://github.com/sebastien-bouffier/Bidoo",
   "donateUrl": "https://paypal.me/sebastienbouffier",
-  "latestVersion": "0.5.24"
+  "latestVersion": "0.6.0"
 }

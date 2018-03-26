@@ -1,9 +1,8 @@
 {
   "name": "Alikins",
   "author": "Adrian Likins",
-  "license": "BSD 3-Clause 'New' or 'Revised' License",
-  "websiteUrl": "https://github.com/alikins/Alikins-rack-plugins",
-  "manualUrl": "https://github.com/alikins/Alikins-rack-plugins",
+  "license": "BSD-3-Clause",
+  "manualUrl": "https://github.com/alikins/Alikins-rack-plugins/blob/master/README.md",
   "sourceUrl": "https://github.com/alikins/Alikins-rack-plugins",
-  "latestVersion": "0.5.5"
+  "latestVersion": "0.6.0"
 }

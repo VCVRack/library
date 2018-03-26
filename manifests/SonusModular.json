@@ -1,10 +1,10 @@
 {
   "name": "Sonus Modular",
   "author": "Sonus Dept.",
-  "license": "GNU General Public License 3.0",
+  "license": "GPL-3.0-only",
   "websiteUrl": "http://sonusmodular.sonusdept.com/",
   "manualUrl": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular",
   "sourceUrl": "https://gitlab.com/sonusdept/sonusmodular",
   "donateUrl": "https://paypal.me/sonusdept",
-  "latestVersion": "0.5.1"
+  "latestVersion": "0.6.0"
 }

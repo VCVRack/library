@@ -1,7 +1,8 @@
 {
   "name": "Arable Instruments",
   "author": "adbrant",
+  "license": "BSD-3-Clause",
   "manualUrl": "https://github.com/adbrant/ArableInstruments/blob/master/README.md",
   "sourceUrl": "https://github.com/adbrant/ArableInstruments",
-  "latestVersion": "v0.5.0"
+  "latestVersion": "0.6.0"
 }
