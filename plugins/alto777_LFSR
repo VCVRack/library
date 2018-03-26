@@ -1,0 +1,14 @@
+{
+  "slug": "alto777_LFSR",
+  "name": "alto777 LFSR",
+  "author": "Robert A Moeser",
+  "license": "BSD 3-clause",
+  "version": "0.5.0",
+  "source": "https://github.com/alto777/LFSR",
+  "downloads": {
+    "mac": {
+      "download": "https://github.com/alto777/LFSR/releases/download/v0.5.0/LFSR_FG8-0.5.0-mac.zip",
+      "sha256": "ccccdb19cb913a78464292f35a92e45730aa62b96638baf86766e7c6a8e6fa00"
+    }
+  }
+}
