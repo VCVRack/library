@@ -2,7 +2,7 @@
   "name": "Pulsum Quadratum RTL_SDR",
   "author": "Jon Williams",
   "license": "GPL-2",
-  "websiteUrl": "https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/",
+  "pluginUrl": "https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/",
   "manualUrl": "https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/",
   "sourceUrl": "https://github.com/WIZARDISHUNGRY/vcvrack-rtlsdr/",
   "donateUrl": "https://www.paypal.me/wizardishungry",

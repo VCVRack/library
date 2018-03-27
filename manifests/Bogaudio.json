@@ -4,5 +4,6 @@
   "license": "BSD-3-Clause",
   "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md",
   "sourceUrl": "https://github.com/bogaudio/BogaudioModules",
-  "latestVersion": "0.6.4"
+  "latestVersion": "0.6.4",
+  "status": "available"
 }

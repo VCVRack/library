@@ -1,9 +1,10 @@
 {
   "name": "JW-Modules",
   "author": "Jeremy Wentworth",
-  "websiteUrl": "http://jeremywentworth.com",
+  "pluginUrl": "http://jeremywentworth.com",
   "manualUrl": "https://github.com/jeremywen/JW-Modules/blob/master/README.md",
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
-  "latestVersion": "0.6.0"
+  "latestVersion": "0.6.0",
+  "status": "available"
 }

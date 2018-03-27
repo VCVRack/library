@@ -2,9 +2,10 @@
   "name": "Ohmer Modules",
   "author": "Dominique Camus",
   "license": "BSD-3-Clause",
-  "websiteUrl": "https://github.com/DomiKamu/Ohmer-Modules",
+  "pluginUrl": "https://github.com/DomiKamu/Ohmer-Modules",
   "manualUrl": "https://github.com/DomiKamu/Ohmer-Modules/blob/WIP050/README.md",
   "sourceUrl": "https://github.com/DomiKamu/Ohmer-Modules.git",
   "donateUrl": "https://www.paypal.me/DominiqueCAMUS",
-  "latestVersion": "0.6.0"
+  "latestVersion": "0.6.0",
+  "status": "available"
 }

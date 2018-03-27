@@ -15,32 +15,19 @@ Tasks:
 - Handle issues opened by plugin developers who want to add/update their plugin.
 - Seek new plugins/updates when developers don't notify us.
 
-#### Manifest example
+#### Manifest
 
-Filename should be `YourSlug.json`.
+The filename of each manifest should be `YourSlug.json`.
+See [Fundamental.json](manifests/Fundamental.json) for an example.
 
-```json
-{
-  "name": "Fundamental",
-  "author": "VCV",
-  "license": "BSD-3-Clause",
-  "contactEmail": "contact@vcvrack.com",
-  "websiteUrl": "https://vcvrack.com/Fundamental.html",
-  "manualUrl": "https://vcvrack.com/Fundamental.html#manual",
-  "sourceUrl": "https://github.com/VCVRack/Fundamental",
-  "latestVersion": "0.6.0",
-}
-```
-
-#### Manifest properties
-
-All properties are optional.
+All properties are optional. URLs should not be redundant across different keys, meaning you must choose the most relevant key for a particular URL.
 
 - **name**: Human-readable display name for your plugin. You can change this on a whim, unlike slugs.
 - **author**: Your name, company, alias, or GitHub username.
 - **license**: The license type of your plugin. Use "proprietary" if all rights are reserved. If your license is in the [SPDX license list](https://spdx.org/licenses/), use its abbreviation in the "Identifier" column.
 - **contactEmail**: Your email address for support inquiries.
-- **websiteUrl**: The homepage page of your plugin. Omit if redundant with the source URL.
+- **pluginUrl**: Homepage featuring the plugin itself.
+- **authorUrl**: Homepage of the author.
 - **manualUrl**: The manual of your plugin. HTML, PDF, or GitHub readme/wiki are fine.
 - **sourceUrl**: The source code homepage. E.g. GitHub repo.
 - **donateUrl**: Link to donation page for users who wish to donate. E.g. PayPal URL.
