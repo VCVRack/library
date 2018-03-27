@@ -2,7 +2,9 @@
   "name": "Befaco",
   "author": "VCV",
   "license": "BSD-3-Clause",
-  "manualUrl": "https://vcvrack.com/manual/Befaco.html",
+  "homepageUrl": "https://vcvrack.com/manual/Befaco.html",
+  "authorUrl": "https://vcvrack.com/",
+  "manualUrl": "https://vcvrack.com/manual/Befaco.html#manual",
   "sourceUrl": "https://github.com/VCVRack/Befaco",
   "latestVersion": "0.6.0",
   "status": "available"

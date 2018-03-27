@@ -2,6 +2,9 @@
   "name": "Router",
   "author": "VCV",
   "license": "proprietary",
+  "homepageUrl": "https://vcvrack.com/manual/Router.html",
+  "authorUrl": "https://vcvrack.com/",
+  "manualUrl": "https://vcvrack.com/manual/Router.html#manual",
   "latestVersion": "0.5.0",
   "productId": "1054185160747"
 }

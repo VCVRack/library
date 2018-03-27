@@ -40,7 +40,8 @@ All properties are optional.
 - **author**: Your name, company, alias, or GitHub username.
 - **license**: The license type of your plugin. Use "proprietary" if all rights are reserved. If your license is in the [SPDX license list](https://spdx.org/licenses/), use its abbreviation in the "Identifier" column.
 - **contactEmail**: Your email address for support inquiries.
-- **websiteUrl**: The homepage page of your plugin. Omit if redundant with the source URL.
+- **websiteUrl**: Homepage featuring the plugin itself.
+- **authorUrl**: Homepage of the author.
 - **manualUrl**: The manual of your plugin. HTML, PDF, or GitHub readme/wiki are fine.
 - **sourceUrl**: The source code homepage. E.g. GitHub repo.
 - **donateUrl**: Link to donation page for users who wish to donate. E.g. PayPal URL.

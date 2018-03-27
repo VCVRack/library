@@ -2,7 +2,9 @@
   "name": "Audible Instruments",
   "author": "VCV",
   "license": "BSD-3-Clause",
-  "manualUrl": "https://vcvrack.com/manual/AudibleInstruments.html",
+  "homepageUrl": "https://vcvrack.com/manual/AudibleInstruments.html",
+  "authorUrl": "https://vcvrack.com/",
+  "manualUrl": "https://vcvrack.com/manual/AudibleInstruments.html#manual",
   "sourceUrl": "https://github.com/VCVRack/AudibleInstruments",
   "latestVersion": "0.6.0",
   "status": "available"
