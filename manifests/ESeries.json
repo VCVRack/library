@@ -2,7 +2,9 @@
   "name": "E-Series",
   "author": "VCV",
   "license": "BSD-3-Clause",
-  "manualUrl": "https://vcvrack.com/manual/ESeries.html",
+  "homepageUrl": "https://vcvrack.com/ESeries.html",
+  "authorUrl": "https://vcvrack.com/",
+  "manualUrl": "https://vcvrack.com/ESeries.html#manual",
   "sourceUrl": "https://github.com/VCVRack/ESeries",
   "latestVersion": "0.6.0",
   "status": "available"
