@@ -2,7 +2,7 @@
   "name": "Non Linear Instruments",
   "author": "NonLinearInstruments",
   "license": "BSD 3-clause",
-  "websiteUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
+  "pluginUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
   "manualUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/blob/master/README.md",
   "sourceUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
   "latestVersion": "0.5.3"
