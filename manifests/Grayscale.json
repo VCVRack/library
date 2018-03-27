@@ -2,9 +2,9 @@
   "name": "Grayscale",
   "author": "VCV",
   "license": "proprietary",
-  "homepageUrl": "https://vcvrack.com/manual/Grayscale.html",
+  "pluginUrl": "https://vcvrack.com/Grayscale.html",
   "authorUrl": "https://vcvrack.com/",
-  "manualUrl": "https://vcvrack.com/manual/Grayscale.html#manual",
+  "manualUrl": "https://vcvrack.com/Grayscale.html#manual",
   "latestVersion": "0.5.0",
   "status": "available"
 }
