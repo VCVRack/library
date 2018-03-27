@@ -4,5 +4,6 @@
   "license": "BSD-3-Clause",
   "manualUrl": "https://vcvrack.com/manual/ESeries.html",
   "sourceUrl": "https://github.com/VCVRack/ESeries",
-  "latestVersion": "0.6.0"
+  "latestVersion": "0.6.0",
+  "status": "available"
 }

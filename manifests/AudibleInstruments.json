@@ -4,5 +4,6 @@
   "license": "BSD-3-Clause",
   "manualUrl": "https://vcvrack.com/manual/AudibleInstruments.html",
   "sourceUrl": "https://github.com/VCVRack/AudibleInstruments",
-  "latestVersion": "0.6.0"
+  "latestVersion": "0.6.0",
+  "status": "available"
 }

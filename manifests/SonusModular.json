@@ -6,5 +6,6 @@
   "manualUrl": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular",
   "sourceUrl": "https://gitlab.com/sonusdept/sonusmodular",
   "donateUrl": "https://paypal.me/sonusdept",
-  "latestVersion": "0.6.0"
+  "latestVersion": "0.6.0",
+  "status": "available"
 }
