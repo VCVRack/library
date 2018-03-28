@@ -7,4 +7,4 @@ dist_all:
 
 # Only useful if you have the private keys to the vcvrack.com server
 dist_upload:
-	rsync repos/*/dist/*.zip vortico@vcvrack.com:downloads/z -uvz
+	rsync repos/*/dist/*.zip vortico@vcvrack.com:downloads/ -uvz
