@@ -1,7 +1,7 @@
 {
   "name": "Autodafe Drum Kit",
   "author": "Autodafe",
-  "websiteUrl": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules.html",
+  "pluginUrl": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules.html",
   "sourceUrl": "https://github.com/antoniograzioli/Autodafe-Drums",
   "donateUrl": "https://www.paypal.me/autodafe",
   "latestVersion": "0.5.1"

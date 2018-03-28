@@ -2,8 +2,9 @@
   "name": "DrumKit",
   "author": "Jerry Sievert",
   "license": "BSD-3-Clause",
-  "websiteUrl": "https://github.com/JerrySievert/DrumKit/blob/master/README.md",
+  "pluginUrl": "https://github.com/JerrySievert/DrumKit/blob/master/README.md",
   "manualUrl": "https://github.com/JerrySievert/DrumKit/tree/master/docs",
   "sourceUrl": "https://github.com/JerrySievert/DrumKit",
-  "latestVersion": "0.6.0"
+  "latestVersion": "0.6.0",
+  "status": "available"
 }
