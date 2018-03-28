@@ -83,7 +83,7 @@
 	branch = 06dev
 [submodule "repos/moDllz"]
 	path = repos/moDllz
-	url = https://github.com/dllmusic/VCV_moDllz
+	url = https://github.com/dllmusic/moDllz
 	branch = master-0.6.0dev
 [submodule "repos/mtsch-plugins"]
 	path = repos/mtsch-plugins
