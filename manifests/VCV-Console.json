@@ -5,6 +5,7 @@
   "pluginUrl": "https://vcvrack.com/Console.html",
   "authorUrl": "https://vcvrack.com/",
   "manualUrl": "https://vcvrack.com/Console.html#manual",
-  "latestVersion": "0.5.0",
-  "productId": "521624682539"
+  "latestVersion": "0.6.0",
+  "productId": "521624682539",
+  "status": "available"
 }

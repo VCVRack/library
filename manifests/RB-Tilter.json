@@ -4,6 +4,7 @@
   "license": "proprietary",
   "pluginUrl": "http://roboticbean.com/creative/products/tilter/",
   "manualUrl": "http://roboticbean.com/creative/products/tilter/",
-  "latestVersion": "0.5.0",
-  "productId": "1061051203627"
+  "latestVersion": "0.6.0",
+  "productId": "1061051203627",
+  "status": "available"
 }
