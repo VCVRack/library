@@ -4,6 +4,7 @@
   "license": "proprietary",
   "pluginUrl": "http://blamsoft.com/vcv-rack/xfx-wave",
   "manualUrl": "http://blamsoft.com/wp-content/uploads/2018/02/XFXWaveUserManual.pdf",
-  "latestVersion": "0.5.2",
-  "productId": "1032400076843"
+  "latestVersion": "0.6.0",
+  "productId": "1032400076843",
+  "status": "available"
 }

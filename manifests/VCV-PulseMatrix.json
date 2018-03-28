@@ -5,6 +5,7 @@
   "pluginUrl": "https://vcvrack.com/PulseMatrix.html",
   "authorUrl": "https://vcvrack.com/",
   "manualUrl": "https://vcvrack.com/PulseMatrix.html#manual",
-  "latestVersion": "0.5.1",
-  "productId": "449821147179"
+  "latestVersion": "0.6.0",
+  "productId": "449821147179",
+  "status": "available"
 }
