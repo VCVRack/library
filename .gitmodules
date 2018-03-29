@@ -53,10 +53,6 @@
 	path = repos/NauModular
 	url = https://github.com/naus3a/NauModular
 	branch = master
-[submodule "repos/Ohmer"]
-	path = repos/Ohmer
-	url = https://github.com/DomiKamu/Ohmer-Modules.git
-	branch = 060dev
 [submodule "repos/PvC"]
 	path = repos/PvC
 	url = https://github.com/phdsg/PvC.git
@@ -177,3 +173,7 @@
 	path = repos/ParableInstruments
 	url = https://github.com/adbrant/ArableInstruments.git
 	branch = parable
+[submodule "repos/Ohmer"]
+	path = repos/Ohmer
+	url = https://github.com/DomiKamu/Ohmer-Modules.git
+	branch = master
