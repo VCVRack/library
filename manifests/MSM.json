@@ -1,9 +1,8 @@
 {
   "name": "MSM",
   "author": "Phal-anx",
-  "license": "CC-BY-NC-ND-4.0",
-  "contactEmail": "phal.anx.art@gmail.com",
+  "license": "CC BY-NC-ND 4.0",
   "pluginUrl": "https://github.com/Phal-anx/MSM",
-  "manualUrl": "https://drive.google.com/file/d/1Cjof90oYVltSJuXu0hqpw9hIN3r3U94T/view",
-  "latestVersion": "0.6.0"
+  "manualUrl": "https://github.com/Phal-anx/MSM/blob/master/Help/MSM%20Help.pdf",
+  "latestVersion": "0.5.6"
 }
