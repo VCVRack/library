@@ -1,6 +1,7 @@
 {
   "name": "Squinky Labs I",
-  "author": "Squinky Labs",
+  "author": "squinkylabs",
+  "authorUrl": "https://www.facebook.com/SquinkyLabs",
   "license": "MIT",
   "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/booty-shifter.md",
   "sourceUrl": "https://github.com/squinkylabs/SquinkyVCV",
