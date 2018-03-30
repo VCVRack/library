@@ -1,0 +1,8 @@
+{
+  "name": "PulsumQuadratum-SDR",
+  "author": "Jon Williams",
+  "license": "GPL-2",
+  "sourceUrl": "https://github.com/bongozone/vcvrack-rtlsdr",
+  "donateUrl": "https://www.paypal.me/wizardishungry",
+  "latestVersion": "0.5.0"
+}
