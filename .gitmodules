@@ -67,7 +67,7 @@
 	branch = master
 [submodule "repos/TheXOR"]
 	path = repos/TheXOR
-	url = https://github.com/The-XOR/VCV-Sequencers
+	url = https://github.com/The-XOR/RackPlugins
 	branch = master
 [submodule "repos/dBiz"]
 	path = repos/dBiz
