@@ -1,6 +1,8 @@
 {
   "name": "cf",
   "author": "cl\u00e9ment foulc",
+  "contactEmail": "c.foulc@gmail.com",
+  "authorUrl": "https://www.facebook.com/clement.foulc",
   "manualUrl": "https://github.com/cfoulc/cf/blob/master/README.md",
   "sourceUrl": "https://github.com/cfoulc/cf",
   "donateUrl": "https://www.paypal.me/cfoulc",
