@@ -56,11 +56,11 @@
 [submodule "repos/Ohmer"]
 	path = repos/Ohmer
 	url = https://github.com/DomiKamu/Ohmer-Modules.git
-	branch = 060dev
+	branch = master
 [submodule "repos/PvC"]
 	path = repos/PvC
 	url = https://github.com/phdsg/PvC.git
-	branch = master
+	branch = release
 [submodule "repos/RJModules"]
 	path = repos/RJModules
 	url = https://github.com/Miserlou/RJModules
