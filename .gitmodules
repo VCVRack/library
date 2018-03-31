@@ -177,3 +177,7 @@
 	path = repos/ParableInstruments
 	url = https://github.com/adbrant/ArableInstruments.git
 	branch = parable
+[submodule "repos/KoralfxVCV"]
+	path = repos/KoralfxVCV
+	url = https://github.com/koralfx/KoralfxVCV
+	branch = master
