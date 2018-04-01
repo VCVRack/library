@@ -84,7 +84,7 @@
 [submodule "repos/moDllz"]
 	path = repos/moDllz
 	url = https://github.com/dllmusic/VCV_moDllz
-	branch = master-0.6.0dev
+	branch = master
 [submodule "repos/mtsch-plugins"]
 	path = repos/mtsch-plugins
 	url = https://github.com/mtsch/mtsch-vcvrack-plugins
@@ -100,7 +100,7 @@
 [submodule "repos/ValleyFree"]
 	path = repos/Valley
 	url = https://github.com/ValleyAudio/ValleyRackFree.git
-	branch = v0.6
+	branch = master
 [submodule "repos/CharredDesert"]
 	path = repos/CharredDesert
 	url = https://github.com/JerrySievert/CharredDesert
