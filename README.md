@@ -15,14 +15,7 @@ Give us each plugin name, your desired author name, license information, relevan
 A Library Team member will handle your request.
 
 
-## [Library team](https://github.com/VCVRack/community/issues/352)
-
-Tasks:
-- Keep plugin manifests correct and up-to-date.
-- Handle issues opened by plugin developers who want to add/update their plugin.
-- Seek new plugins/updates when developers don't notify us.
-
-#### Manifest
+## Manifest files
 
 The filename of each manifest should be `YourSlug.json`.
 See [Fundamental.json](manifests/Fundamental.json) for an example.
@@ -32,7 +25,7 @@ All properties are optional. URLs should not be redundant across different keys,
 - **name**: Human-readable display name for your plugin. You can change this on a whim, unlike slugs.
 - **author**: Your name, company, alias, or GitHub username.
 - **license**: The license type of your plugin. Use "proprietary" if all rights are reserved. If your license is in the [SPDX license list](https://spdx.org/licenses/), use its abbreviation in the "Identifier" column.
-- **contactEmail**: Your email address for support inquiries.
+- **authorEmail**: Your email address for support inquiries.
 - **pluginUrl**: Homepage featuring the plugin itself.
 - **authorUrl**: Homepage of the author.
 - **manualUrl**: The manual of your plugin. HTML, PDF, or GitHub readme/wiki are fine.
@@ -43,33 +36,18 @@ All properties are optional. URLs should not be redundant across different keys,
 - **status**: *TODO*
 
 
-## [Review team](https://github.com/VCVRack/community/issues/354)
-
-*TODO*
-
-
-## [Repair team](https://github.com/VCVRack/community/issues/269)
-
-Tasks:
-- Fix broken plugins, in particular caused by Rack API updates, by opening issues, sending PRs, or even forking and adopting plugins.
-
-
-## [Build team](https://github.com/VCVRack/community/issues/353)
-
-*TODO*
-
-#### Building repos
+## Building repos
 
 Clone all repos with `git submodule update --init --recursive`
 
 Then build all repos with `RACK_DIR=<path to Rack directory> make dist_all`
 
-#### Adding a repo
+## Adding a repo
 
 The folder name should match the slug, even if it is not the repository name.
 Be sure to check out the correct branch.
 
 ```
 cd repos
-git submodule add -b v0.6 https://github.com/VCVRack/Fundamental.git Fundamental
+git submodule add -b master https://github.com/VCVRack/Fundamental.git Fundamental
 ```
