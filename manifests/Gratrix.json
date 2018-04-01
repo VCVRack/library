@@ -1,6 +1,7 @@
 {
   "name": "Gratrix",
   "author": "gratrix",
+  "authorEmail": "http://gratrix.net/",
   "manualUrl": "http://gratrix.net/vcvrack/",
   "sourceUrl": "https://github.com/gratrix/vcv-gratrix",
   "latestVersion": "0.6.0",
