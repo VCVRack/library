@@ -10,7 +10,8 @@ All Rack plugins are welcome assuming they
 
 ## For plugin developers: Adding/updating your plugin
 
-To add your plugin(s) to the Plugin Manager, update its information, or inform us of new builds, please create an [issue](https://github.com/VCVRack/community/issues) with the title equal to your plugin slug (or slugs, comma-separated).
+To add your plugin(s) to the Plugin Manager, update its information, or inform us of new builds, create an [issue](https://github.com/VCVRack/community/issues) with the title equal to your plugin slug (or slugs, comma-separated).
+If you already have an existing issue for your plugin, reuse it for additional requests.
 Give us each plugin name, your desired author name, license information, relevant URLs, and anything else under the *Manifest* section below.
 A Library Team member will handle your request.
 
