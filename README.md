@@ -16,7 +16,7 @@ This will be your permanent communication channel with VCV community members.
 
 #### Adding/updating your plugin's information
 
-State in your plugin thread the plugin name, license, all available URLs, and your email address if you want it to be public.
+Post a comment in your plugin's thread with the plugin name, license, all available URLs, and your email address if you want it to be public.
 
 A Library team member will handle your request and post a comment when updated.
 
@@ -24,7 +24,7 @@ A Library team member will handle your request and post a comment when updated.
 #### Adding/updating your plugin's build (for open-source plugins)
 
 To inform us of an update to the plugin itself, make sure to increment the `VERSION` in your Makefile (e.g. from 0.6.12 to 0.6.13), and push a commit to your repository.
-State in your thread
+Post a comment in your plugin's thread with
 - the new version
 - the new commit hash (given by `git log` or `git rev-parse HEAD`)
 - the branch of the commit.
