@@ -185,3 +185,7 @@
 	path = repos/mscHack
 	url = https://github.com/mschack/VCV-Rack-Plugins
 	branch = master
+[submodule "repos/NonLinearInstruments"]
+	path = repos/NonLinearInstruments
+	url = https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins
+	branch = master
