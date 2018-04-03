@@ -1,6 +1,6 @@
 {
   "name": "cf",
-  "author": "clément foulc",
+  "author": "cl\u00e9ment foulc",
   "authorEmail": "c.foulc@gmail.com",
   "license": "MIT",
   "authorUrl": "https://www.facebook.com/clement.foulc",
@@ -8,5 +8,7 @@
   "sourceUrl": "https://github.com/cfoulc/cf",
   "donateUrl": "https://www.paypal.me/cfoulc",
   "repoVersion": "0.6.0",
-  "latestVersion": "0.5.16"
+  "latestVersion": "0.6.0",
+  "buildTimestamp": 1522750550,
+  "status": "available"
 }
