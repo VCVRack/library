@@ -5,10 +5,6 @@
 	path = repos/Fundamental
 	url = https://github.com/VCVRack/Fundamental.git
 	branch = master
-[submodule "repos/AS"]
-	path = repos/AS
-	url = https://github.com/AScustomWorks/AS
-	branch = master
 [submodule "repos/AmalgamatedHarmonics"]
 	path = repos/AmalgamatedHarmonics
 	url = https://github.com/jhoar/AmalgamatedHarmonics
@@ -124,10 +120,6 @@
 [submodule "repos/SonusModular"]
 	path = repos/SonusModular
 	url = https://gitlab.com/sonusdept/sonusmodular.git
-	branch = master
-[submodule "repos/Bidoo"]
-	path = repos/Bidoo
-	url = https://github.com/sebastien-bouffier/Bidoo
 	branch = master
 [submodule "repos/trowaSoft"]
 	path = repos/trowaSoft
