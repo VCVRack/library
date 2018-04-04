@@ -169,10 +169,6 @@
 	path = repos/ParableInstruments
 	url = https://github.com/adbrant/ArableInstruments.git
 	branch = parable
-[submodule "repos/KoralfxVCV"]
-	path = repos/KoralfxVCV
-	url = https://github.com/koralfx/KoralfxVCV
-	branch = master
 [submodule "repos/NonLinearInstruments"]
 	path = repos/NonLinearInstruments
 	url = https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins
@@ -180,4 +176,8 @@
 [submodule "repos/mscHack"]
 	path = repos/mscHack
 	url = https://github.com/mschack/VCV-Rack-Plugins.git
+	branch = master
+[submodule "repos/Koralfx-Modules"]
+	path = repos/Koralfx-Modules
+	url = https://github.com/koralfx/Koralfx-Modules
 	branch = master
