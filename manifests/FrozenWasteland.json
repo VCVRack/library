@@ -5,7 +5,8 @@
   "manualUrl": "https://github.com/almostEric/FrozenWasteland/blob/master/README.md",
   "sourceUrl": "https://github.com/almostEric/FrozenWasteland",
   "donateUrl": "https://paypal.me/FrozenWasteland",
-  "latestVersion": "0.6.0",
+  "latestVersion": "0.6.2",
   "status": "available",
-  "repoVersion": "0.6.1"
+  "repoVersion": "0.6.2",
+  "buildTimestamp": 1522751401
 }

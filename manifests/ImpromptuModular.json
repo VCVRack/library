@@ -1,11 +1,12 @@
 {
   "name": "ImpromptuModular",
-  "author": "Marc Boulé",
+  "author": "Marc Boul\u00e9",
   "license": "BSD-3-Clause",
   "authorEmail": "marc.boule@etsmtl.ca",
   "manualUrl": "https://github.com/MarcBoule/ImpromptuModular/blob/master/README.md",
   "sourceUrl": "https://github.com/MarcBoule/ImpromptuModular",
-  "latestVersion": "0.6.0",
+  "latestVersion": "0.6.1",
   "repoVersion": "0.6.1",
-  "status": "available"
+  "status": "available",
+  "buildTimestamp": 1522781789
 }

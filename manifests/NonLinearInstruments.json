@@ -1,8 +1,12 @@
 {
   "name": "Non Linear Instruments",
-  "author": "Ignasi Álvarez Garriga",
-  "license": "BSD 3-clause",
+  "author": "Ignasi \u00c1lvarez Garriga",
+  "authorUrl": "https://www.ignasialvarez.cat",
+  "license": "BSD-3-Clause",
   "manualUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/blob/master/README.md",
   "sourceUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
-  "latestVersion": "0.5.3"
+  "repoVersion": "0.6.0",
+  "latestVersion": "0.6.0",
+  "buildTimestamp": 1522751321,
+  "status": "available"
 }

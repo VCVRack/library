@@ -1,10 +1,14 @@
 {
   "name": "cf",
-  "author": "clément foulc",
+  "author": "cl\u00e9ment foulc",
   "authorEmail": "c.foulc@gmail.com",
+  "license": "MIT",
   "authorUrl": "https://www.facebook.com/clement.foulc",
   "manualUrl": "https://github.com/cfoulc/cf/blob/master/README.md",
   "sourceUrl": "https://github.com/cfoulc/cf",
   "donateUrl": "https://www.paypal.me/cfoulc",
-  "latestVersion": "0.5.16"
+  "repoVersion": "0.6.0",
+  "latestVersion": "0.6.0",
+  "buildTimestamp": 1522750550,
+  "status": "available"
 }

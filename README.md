@@ -5,23 +5,45 @@ The VCV community members are responsible for curating Rack plugins into a centr
 
 All Rack plugins are welcome assuming they
 - are not malware (i.e. harm your computer or your privacy)
-- do not misuse intellectual property (legally or morally).
+- do not misuse intellectual property (legally or morally)
 
 
-## For plugin developers: Adding/updating your plugin
+## For plugin developers:
 
-To add your plugin(s) to the Plugin Manager, update its information, or inform us of new builds, create an [issue](https://github.com/VCVRack/community/issues) with the title equal to your plugin slug (or slugs, comma-separated).
-If you already have an existing issue for your plugin, reuse it for additional requests.
-Give us each plugin name, your desired author name, license information, relevant URLs, and anything else under the *Manifest* section below.
-A Library Team member will handle your request.
+Create exactly one thread in the [Issue Tracker](https://github.com/VCVRack/community/issues), with a title equal to your plugin slug (or multiple slugs, comma-separated, if you have more than one plugin).
+This will be your permanent communication channel with VCV community members.
+
+
+#### Adding/updating your plugin's information
+
+Post a comment in your plugin's thread with the plugin name, license, all available URLs, and your email address if you want it to be public.
+
+A Library team member will handle your request and post a comment when updated.
+
+
+#### Adding/updating your plugin's build (for open-source plugins)
+
+To inform us of an update to the plugin itself, make sure to increment the `VERSION` in your Makefile (e.g. from 0.6.12 to 0.6.13), and push a commit to your repository.
+Post a comment in your plugin's thread with
+- the new version
+- the new commit hash (given by `git log` or `git rev-parse HEAD`)
+- the branch of the commit.
+
+A Review team member will handle your request and post a comment when updated.
+
+
+#### Adding/updating your plugin's build (for closed-source plugins)
+
+We are currently designing a procedure to add closed-source plugins to the Plugin Manager.
+Stay tuned.
 
 
 ## Manifest files
 
-The filename of each manifest should be `YourSlug.json`.
-See [Fundamental.json](manifests/Fundamental.json) for an example.
+The path of each manifest should be `manifests/YourSlug.json`.
+See [manifest/Fundamental.json](manifests/Fundamental.json) for an example.
 
-All properties are optional. URLs should not be redundant across different keys, meaning you must choose the most relevant key for a particular URL.
+All properties are currently optional, but it is recommended to enter as much information as possible. URLs should not be redundant across different keys, e.g. you should not add a `pluginUrl` if it is the same URL as `sourceUrl`.
 
 - **name**: Human-readable display name for your plugin. You can change this on a whim, unlike slugs.
 - **author**: Your name, company, alias, or GitHub username.
@@ -41,7 +63,7 @@ All properties are optional. URLs should not be redundant across different keys,
 
 Clone all repos with `git submodule update --init --recursive`
 
-Then build all repos with `RACK_DIR=<path to Rack directory> make dist_all`
+Then build all repos with `RACK_DIR=<path to Rack directory> make -j$(nproc) dist_all`
 
 ## Adding a repo
 
