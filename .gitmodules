@@ -181,3 +181,6 @@
 	path = repos/Koralfx-Modules
 	url = https://github.com/koralfx/Koralfx-Modules
 	branch = master
+[submodule "repos/Qwelk"]
+	path = repos/Qwelk
+	url = https://github.com/raincheque/qwelk.git
