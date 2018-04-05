@@ -59,7 +59,8 @@ for filename in glob.glob("manifests/*"):
 		move_package(slug)
 	except Exception as e:
 		print(e)
-		break
+		input("Enter to proceed")
+		continue
 
 	# Update build information
 	manifest['latestVersion'] = manifest['repoVersion']
