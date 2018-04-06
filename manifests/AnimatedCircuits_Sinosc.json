@@ -3,8 +3,10 @@
   "author": "Animated Circuits",
   "license": "proprietary",
   "authorEmail": "animatedcircuits@gmail.com",
-  "manualUrl": "https://www.youtube.com/watch?v=PEhEm86G2Gw&list=PLS-4_rXBSQ-heXf7Q9ixgUgpeTNQ9r9WG",
-  "latestVersion": "0.6.0",
+  "authorUrl": "https://www.animated-circuits.com",
+  "pluginUrl": "https://www.animated-circuits.com/sineoscillators.html",
+  "manualUrl": "https://drive.google.com/open?id=1CX40TGgDjNHxJZ0Sk9zVl_EviW7ZZ7DX",
+  "latestVersion": "0.6.1",
   "productId": "1072290529323",
   "status": "available"
 }
