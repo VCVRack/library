@@ -4,31 +4,30 @@ import time
 import os
 
 
+def system(cmd):
+	if os.system(cmd):
+		raise Exception(f"Failed command: {cmd}")
+
+
 def build_mac(slug):
 	env = f'CC=x86_64-apple-darwin15-clang CXX=x86_64-apple-darwin15-clang++-libc++ STRIP=x86_64-apple-darwin15-strip RACK_DIR=../../Rack-SDK'
 	make = f'{env} make -j$(nproc) -C repos/{slug}'
-	if os.system(f'{make} clean'):
-		raise Exception(f"Could not clean Mac build of {slug}")
-	if os.system(f'{make} dist'):
-		raise Exception(f"Could not make Mac build of {slug}")
+	system(f'{make} clean')
+	system(f'{make} dist')
 
 
 def build_win(slug):
 	env = f'CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ STRIP=x86_64-w64-mingw32-strip RACK_DIR=../../Rack-SDK'
 	make = f'{env} make -j$(nproc) -C repos/{slug}'
-	if os.system(f'{make} clean'):
-		raise Exception(f"Could not clean Windows build of {slug}")
-	if os.system(f'{make} dist'):
-		raise Exception(f"Could not make Windows build of {slug}")
+	system(f'{make} clean')
+	system(f'{make} dist')
 
 
 def build_lin(slug):
 	env = f'-e RACK_DIR=../../Rack-SDK'
 	make = f'make -j$(nproc) -C repos/{slug}'
-	if os.system(f'docker run --rm -v $(pwd):/mnt -u vortico {env} a0b9c87ec456 {make} clean'):
-		raise Exception(f"Could not clean Linux build of {slug}")
-	if os.system(f'docker run --rm -v $(pwd):/mnt -u vortico {env} a0b9c87ec456 {make} dist'):
-		raise Exception(f"Could not make Linux build of {slug}")
+	system(f'docker run --rm -v $(pwd):/mnt -u vortico {env} a0b9c87ec456 {make} clean')
+	system(f'docker run --rm -v $(pwd):/mnt -u vortico {env} a0b9c87ec456 {make} dist')
 
 
 def move_package(slug):

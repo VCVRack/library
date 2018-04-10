@@ -5,5 +5,9 @@
   "license": "BSD-3-Clause",
   "sourceUrl": "https://github.com/koralfx/Koralfx-Modules/",
   "manualUrl": "https://github.com/koralfx/Koralfx-Modules/blob/master/README.md",
-  "donateUrl": "https://www.paypal.me/koralfx/"
+  "donateUrl": "https://www.paypal.me/koralfx/",
+  "repoVersion": "0.6.7",
+  "latestVersion": "0.6.7",
+  "buildTimestamp": 1523318775,
+  "status": "available"
 }
