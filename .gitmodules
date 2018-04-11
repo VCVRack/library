@@ -190,3 +190,7 @@
 [submodule "repos/alto777_LFSR"]
 	path = repos/alto777_LFSR
 	url = https://github.com/alto777/LFSR.git
+[submodule "repos/AS"]
+	path = repos/AS
+	url = https://github.com/AScustomWorks/AS.git
+	branch = master
