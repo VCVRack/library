@@ -31,9 +31,12 @@ def build_lin(slug):
 
 
 def move_package(slug):
-	os.system('mkdir -p downloads')
-	if os.system(f'mv repos/{slug}/dist/{slug}-*.zip downloads/'):
-		raise Exception(f"No package found for {slug}")
+	system('mkdir -p downloads')
+	system(f'mv repos/{slug}/dist/{slug}-*.zip downloads/')
+
+
+def delete_package(slug):
+	system(f'rm -f downloads/{slug}-*.zip')
 
 
 for filename in glob.glob("manifests/*"):
@@ -59,6 +62,7 @@ for filename in glob.glob("manifests/*"):
 	except Exception as e:
 		print(e)
 		input("Enter to proceed")
+		delete_package(slug)
 		continue
 
 	# Update build information
