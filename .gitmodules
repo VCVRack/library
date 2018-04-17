@@ -194,3 +194,7 @@
 [submodule "repos/Bidoo"]
 	path = repos/Bidoo
 	url = https://github.com/sebastien-bouffier/Bidoo.git
+[submodule "repos/ErraticInstruments"]
+	path = repos/ErraticInstruments
+	url = https://github.com/bafonso/Erratic.git
+	branch = v0.6
