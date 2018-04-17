@@ -194,3 +194,6 @@
 	path = repos/AS
 	url = https://github.com/AScustomWorks/AS.git
 	branch = master
+[submodule "repos/Bidoo"]
+	path = repos/Bidoo
+	url = https://github.com/sebastien-bouffier/Bidoo.git
