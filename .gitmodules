@@ -184,9 +184,6 @@
 [submodule "repos/Qwelk"]
 	path = repos/Qwelk
 	url = https://github.com/raincheque/qwelk.git
-[submodule "repos/Erratic"]
-	path = repos/Erratic
-	url = https://github.com/bafonso/Erratic.git
 [submodule "repos/alto777_LFSR"]
 	path = repos/alto777_LFSR
 	url = https://github.com/alto777/LFSR.git
