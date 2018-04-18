@@ -4,7 +4,8 @@
   "license": "Apache-2.0",
   "manualUrl": "https://github.com/baconpaul/BaconPlugs/blob/master/README.md",
   "sourceUrl": "https://github.com/baconpaul/BaconPlugs",
-  "latestVersion": "0.6.0",
+  "latestVersion": "0.6.1",
   "repoVersion": "0.6.1",
-  "status": "available"
+  "status": "available",
+  "buildTimestamp": 1523775794
 }
