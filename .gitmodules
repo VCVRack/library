@@ -191,3 +191,6 @@
 	path = repos/ErraticInstruments
 	url = https://github.com/bafonso/Erratic.git
 	branch = v0.6
+[submodule "repos/PG-Instruments"]
+	path = repos/PG-Instruments
+	url = https://github.com/imekon/PG-Instruments.git

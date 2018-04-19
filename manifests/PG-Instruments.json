@@ -1,6 +1,7 @@
 {
   "name": "PG-Instruments",
   "author": "Pete Goodwin",
-  "license": "MIT",
-  "sourceUrl": "https://github.com/imekon/PG-Instruments"
+  "license": "CC0 1.0 Universal",
+  "sourceUrl": "https://github.com/imekon/PG-Instruments",
+  "repoVersion": "0.6.0"
 }
