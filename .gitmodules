@@ -194,3 +194,6 @@
 [submodule "repos/PG-Instruments"]
 	path = repos/PG-Instruments
 	url = https://github.com/imekon/PG-Instruments.git
+[submodule "repos/SubmarineFree"]
+	path = repos/SubmarineFree
+	url = https://github.com/david-c14/SubmarineFree.git
