@@ -197,3 +197,7 @@
 [submodule "repos/SubmarineFree"]
 	path = repos/SubmarineFree
 	url = https://github.com/david-c14/SubmarineFree.git
+[submodule "repos/unless_modules"]
+	path = repos/unless_modules
+	url = https://gitlab.com/unlessgames/unless_modules.git
+	branch = master
