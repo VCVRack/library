@@ -2,7 +2,7 @@
   "name": "MSM",
   "author": "Phal-anx",
   "license": "CC BY-NC-ND 4.0",
-  "pluginUrl": "https://github.com/Phal-anx/MSM",
+  "pluginUrl": "https://github.com/Phal-anx/MSM/releases",
   "manualUrl": "https://github.com/Phal-anx/MSM/raw/master/Manual/Manual.pdf",
-  "latestVersion": "0.5.6"
+  "latestVersion": "0.6.0"
 }
