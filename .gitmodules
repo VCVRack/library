@@ -197,3 +197,7 @@
 	path = repos/unless_modules
 	url = https://gitlab.com/unlessgames/unless_modules.git
 	branch = master
+[submodule "mental"]
+	path = mental
+	url = https://github.com/Strum/Strums_Mental_VCV_Modules
+	branch = master
