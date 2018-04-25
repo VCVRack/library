@@ -1,7 +1,9 @@
 {
   "name": "Vult Modules (Free Version)",
+  "license": "proprietary",
   "author": "Leonardo Laguna Ruiz",
-  "pluginUrl": "https://modlfo.github.io/VultModules",
-  "manualUrl": "https://modlfo.github.io/VultModules/download/",
-  "latestVersion": "0.5.3"
+  "authorEmail": "modlfo@gmail.com",
+  "authorUrl": "http://modlfo.github.io",
+  "pluginUrl": "https://github.com/modlfo/VultModules/releases/tag/v0.6.1",
+  "latestVersion": "0.6.1"
 }
