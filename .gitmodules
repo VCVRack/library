@@ -201,3 +201,6 @@
 	path = repos/mental
 	url = https://github.com/Strum/Strums_Mental_VCV_Modules
 	branch = master
+[submodule "repos/SerialRacker"]
+	path = repos/SerialRacker
+	url = https://github.com/apbianco/SerialRacker.git
