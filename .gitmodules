@@ -204,3 +204,6 @@
 [submodule "repos/SerialRacker"]
 	path = repos/SerialRacker
 	url = https://github.com/apbianco/SerialRacker.git
+[submodule "repos/BOKONTEPByteBeatMachine"]
+	path = repos/BOKONTEPByteBeatMachine
+	url = https://github.com/bokontep/BokontepByteBeatMachine.git
