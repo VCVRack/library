@@ -207,3 +207,6 @@
 [submodule "repos/BOKONTEPByteBeatMachine"]
 	path = repos/BOKONTEPByteBeatMachine
 	url = https://github.com/bokontep/BokontepByteBeatMachine.git
+[submodule "repos/Bidoo"]
+	path = repos/Bidoo
+	url = https://github.com/sebastien-bouffier/Bidoo.git
