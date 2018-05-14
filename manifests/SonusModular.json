@@ -2,6 +2,7 @@
   "name": "Sonus Modular",
   "author": "Sonus Dept.",
   "license": "GPL-3.0-only",
+  "authorEmail": "sonusdept@gmail.com",
   "pluginUrl": "http://sonusmodular.sonusdept.com/",
   "manualUrl": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular",
   "sourceUrl": "https://gitlab.com/sonusdept/sonusmodular",
