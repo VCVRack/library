@@ -1,10 +1,12 @@
 {
   "name": "ML modules",
   "author": "Martin Lueders",
+  "authorEmail": "MLmodules@gmail.com",
   "license": "BSD-3-Clause",
   "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki",
   "sourceUrl": "https://github.com/martin-lueders/ML_modules",
   "donateUrl": "https://paypal.me/MartinLueders",
   "latestVersion": "0.6.0",
+  "repoVersion": "0.6.1",
   "status": "available"
 }
