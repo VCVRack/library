@@ -6,5 +6,6 @@
   "pluginUrl": "http://hora-music.wifeo.com/sound-processors.php",
   "authorUrl": "http://www.hora-music.com/",
   "manualUrl": "http://hora-music.wifeo.com/manuals.php",
-  "latestVersion": "0.6.0"
+  "latestVersion": "0.6.0",
+  "status": "available"
 }
