@@ -1,7 +1,7 @@
 {
   "name": "Torpedo Demo",
   "author": "carbon14",
-  "license": "GPL-3",
+  "license": "BSD-3-Clause",
   "manualUrl": "https://github.com/david-c14/Torpedo/wiki",
   "sourceUrl": "https://github.com/david-c14/Torpedo",
   "latestVersion": "0.6.1"
