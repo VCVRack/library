@@ -2,8 +2,9 @@
   "name": "Autinn",
   "author": "Nikolai V. Chr.",
   "license": "proprietary",
+  "authorEmail": "emptyyetfull@gmail.com",
   "pluginUrl": "https://github.com/NikolaiVChr/Autinn",
   "manualUrl": "https://github.com/NikolaiVChr/Autinn/blob/master/README.md",
   "donateUrl": "https://www.paypal.me/autinn",
-  "latestVersion": "0.5.21"
+  "latestVersion": "0.6.1"
 }
