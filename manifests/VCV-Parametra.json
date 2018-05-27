@@ -7,5 +7,8 @@
   "authorEmail": "contact@vcvrack.com",
   "manualUrl": "https://vcvrack.com/Parametra.html#manual",
   "repoVersion": "0.6.0",
-  "productId": "1284227432491"
+  "productId": "1284227432491",
+  "latestVersion": "0.6.0",
+  "buildTimestamp": 1527458713,
+  "status": "available"
 }
