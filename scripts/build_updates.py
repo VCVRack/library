@@ -56,7 +56,6 @@ for repo in repos:
 	manifest_filename = "manifests/" + slug + ".json"
 	with open(manifest_filename, "r") as f:
 		manifest = json.load(f)
-	print(manifest)
 
 	# We need a repoVersion to build
 	if 'repoVersion' not in manifest:
@@ -90,5 +89,8 @@ for repo in repos:
 		json.dump(manifest, f, indent="  ")
 
 
-print()
-print("Built " + ",".join(built_repos))
+if built_repos:
+	print()
+	print("Built " + ",".join(built_repos))
+else:
+	print("Nothing to build")
