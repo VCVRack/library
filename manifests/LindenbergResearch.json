@@ -4,5 +4,7 @@
   "license": "proprietary",
   "sourceUrl": "https://github.com/lindenbergresearch/LRTRack",
   "repoVersion": "0.6.0",
-  "status": "available"
+  "status": "available",
+  "latestVersion": "0.6.0",
+  "buildTimestamp": 1528148066
 }
