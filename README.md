@@ -1,6 +1,6 @@
 # VCV community repository
 
-The VCV community members are responsible for curating Rack plugins into a centralized database.
+The VCV community members are responsible for curating Rack plugins into the [VCV Plugin Manager](https://vcvrack.com/plugins.html).
 [Anyone is welcome to join.](https://github.com/VCVRack/community/issues/248)
 
 All Rack plugins are welcome assuming they
@@ -8,7 +8,7 @@ All Rack plugins are welcome assuming they
 - do not misuse intellectual property (legally or morally)
 
 
-## For plugin developers:
+# Adding your plugin to the VCV Plugin Manager
 
 Create exactly one thread in the [Issue Tracker](https://github.com/VCVRack/community/issues), with a title equal to your plugin slug (or multiple slugs, comma-separated, if you have more than one plugin).
 This will be your permanent communication channel with VCV community members.
@@ -16,7 +16,7 @@ This will be your permanent communication channel with VCV community members.
 
 #### Adding/updating your plugin's information
 
-Post a comment in your plugin's thread with the plugin name, license, all available URLs, and your email address if you want it to be public.
+Post a comment in your plugin's thread with the plugin name, license, all relevant URLs, and your email address if you want it to be public.
 
 A Library team member will handle your request and post a comment when updated.
 
@@ -25,17 +25,16 @@ A Library team member will handle your request and post a comment when updated.
 
 To inform us of an update to the plugin itself, make sure to increment the `VERSION` in your Makefile (e.g. from 0.6.12 to 0.6.13), and push a commit to your repository.
 Post a comment in your plugin's thread with
-- the new version
-- the new commit hash (given by `git log` or `git rev-parse HEAD`)
-- the branch of the commit.
+- the new version (e.g. `0.6.42`)
+- the commit hash (given by `git log` or `git rev-parse HEAD`. Please do not just give the name of a branch like `master`.)
 
 A Review team member will handle your request and post a comment when updated.
 
 
-#### Adding/updating your plugin's build (for closed-source plugins)
+#### Adding/updating your plugin's build (for closed-source free and commercial plugins)
 
-We are currently designing a procedure to add closed-source plugins to the Plugin Manager.
-Stay tuned.
+Email contact@vcvrack.com to be added to the VCV Plugin Manager or sold through the VCV Store.
+It is not necessary to have a plugin thread, although you may create one if you like.
 
 
 ## Manifest files
