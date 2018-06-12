@@ -207,3 +207,6 @@
 [submodule "repos/BOKONTEPByteBeatMachine"]
 	path = repos/BOKONTEPByteBeatMachine
 	url = https://github.com/bokontep/BokontepByteBeatMachine.git
+[submodule "repos/huaba"]
+	path = repos/huaba
+	url = https://github.com/dhuber81/huaba.git
