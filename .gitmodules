@@ -210,3 +210,6 @@
 [submodule "repos/huaba"]
 	path = repos/huaba
 	url = https://github.com/dhuber81/huaba.git
+[submodule "repos/Bidoo"]
+	path = repos/Bidoo
+	url = https://github.com/sebastien-bouffier/Bidoo.git
