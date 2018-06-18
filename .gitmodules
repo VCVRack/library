@@ -213,3 +213,6 @@
 [submodule "repos/Bidoo"]
 	path = repos/Bidoo
 	url = https://github.com/sebastien-bouffier/Bidoo.git
+[submodule "repos/trowaSoft"]
+	path = repos/trowaSoft
+	url = https://github.com/j4s0n-c/trowaSoft-VCV.git
