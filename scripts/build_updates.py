@@ -5,7 +5,6 @@ import os
 import sys
 
 
-RACK_SDK = os.path.abspath("Rack-SDK")
 
 
 def system(cmd):
@@ -14,25 +13,28 @@ def system(cmd):
 
 
 def build_mac(repo):
-	env = f'CC=x86_64-apple-darwin15-clang CXX=x86_64-apple-darwin15-clang++-libc++ STRIP=x86_64-apple-darwin15-strip RACK_DIR={RACK_SDK}'
+	rack_sdk = os.path.abspath("Rack-SDK-mac")
+	env = f'CC=x86_64-apple-darwin15-clang CXX=x86_64-apple-darwin15-clang++-libc++ STRIP=x86_64-apple-darwin15-strip RACK_DIR={rack_sdk}'
 	make = f'{env} make -j$(nproc) -C {repo}'
 	system(f'{make} clean')
 	system(f'{make} dist')
 
 
 def build_win(repo):
-	env = f'CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ STRIP=x86_64-w64-mingw32-strip RACK_DIR={RACK_SDK}'
+	rack_sdk = os.path.abspath("Rack-SDK-win")
+	env = f'CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ STRIP=x86_64-w64-mingw32-strip RACK_DIR={rack_sdk}'
 	make = f'{env} make -j$(nproc) -C {repo}'
 	system(f'{make} clean')
 	system(f'{make} dist')
 
 
 def build_lin(repo):
+	rack_sdk = os.path.abspath("Rack-SDK-lin")
 	env = f'-e RACK_DIR=/Rack-SDK'
 	make = f'make -j$(nproc)'
 	repo_abs = os.path.abspath(repo)
-	system(f'docker run --rm -v {RACK_SDK}:/Rack-SDK -v {repo_abs}:/workdir -w /workdir -u vortico {env} a0b9c87ec456 {make} clean')
-	system(f'docker run --rm -v {RACK_SDK}:/Rack-SDK -v {repo_abs}:/workdir -w /workdir -u vortico {env} a0b9c87ec456 {make} dist')
+	system(f'docker run --rm -v {rack_sdk}:/Rack-SDK -v {repo_abs}:/workdir -w /workdir -u vortico {env} a0b9c87ec456 {make} clean')
+	system(f'docker run --rm -v {rack_sdk}:/Rack-SDK -v {repo_abs}:/workdir -w /workdir -u vortico {env} a0b9c87ec456 {make} dist')
 
 
 def move_package(repo, slug):
