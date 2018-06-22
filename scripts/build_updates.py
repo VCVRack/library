@@ -48,7 +48,9 @@ def delete_package(slug):
 
 
 repos = sys.argv[1:]
+force_update = True
 if not repos:
+	force_update = False
 	repos = glob.glob("repos/*")
 
 built_repos = []
@@ -63,7 +65,7 @@ for repo in repos:
 	if 'repoVersion' not in manifest:
 		continue
 	# Skip if update is not needed
-	if 'repoVersion' in manifest and 'latestVersion' in manifest and manifest['latestVersion'] == manifest['repoVersion']:
+	if not force_update and 'repoVersion' in manifest and 'latestVersion' in manifest and manifest['latestVersion'] == manifest['repoVersion']:
 		continue
 
 	# Build repo
