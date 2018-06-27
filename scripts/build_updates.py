@@ -93,6 +93,6 @@ for repo in repos:
 
 if built_repos:
 	print()
-	print("Built " + ",".join(built_repos))
+	print("Built " + ", ".join(built_repos))
 else:
 	print("Nothing to build")
