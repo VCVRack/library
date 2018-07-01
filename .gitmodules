@@ -216,3 +216,6 @@
 [submodule "repos/trowaSoft"]
 	path = repos/trowaSoft
 	url = https://github.com/j4s0n-c/trowaSoft-VCV.git
+[submodule "repos/FrankBussFormula"]
+	path = repos/FrankBussFormula
+	url = https://github.com/FrankBuss/Formula.git
