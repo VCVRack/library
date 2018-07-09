@@ -6,7 +6,8 @@
   "manualUrl": "https://dhemery.github.io/DHE-Modules/",
   "sourceUrl": "https://github.com/dhemery/DHE-Modules/",
   "donateUrl": "https://paypal.me/DaleHEmery/",
-  "latestVersion": "0.6.0",
+  "latestVersion": "0.6.1",
   "repoVersion": "0.6.1",
-  "status": "available"
+  "status": "available",
+  "buildTimestamp": 1531096320
 }
