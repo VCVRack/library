@@ -6,7 +6,9 @@
   "authorUrl": "https://vcvrack.com/",
   "authorEmail": "contact@vcvrack.com",
   "manualUrl": "https://vcvrack.com/Console.html#manual",
-  "latestVersion": "0.6.0",
+  "repoVersion": "0.6.1",
+  "latestVersion": "0.6.1",
   "productId": "521624682539",
+  "buildTimestamp": 1531164772,
   "status": "available"
 }
