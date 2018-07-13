@@ -4,7 +4,8 @@
   "license": "MIT",
   "manualUrl": "https://github.com/s-ol/vcvmods/blob/master/README.md",
   "sourceUrl": "https://github.com/s-ol/vcvmods",
-  "latestVersion": "0.6.0",
+  "latestVersion": "0.6.1",
   "repoVersion": "0.6.1",
-  "status": "available"
+  "status": "available",
+  "buildTimestamp": 1531513876
 }
