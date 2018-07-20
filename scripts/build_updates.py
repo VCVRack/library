@@ -6,10 +6,16 @@ import time
 import build_plugin
 
 
+plugin_dirs = sys.argv[1:]
+
+if not plugin_dirs:
+	plugin_dirs = glob.glob("repos/*")
+
 built_slugs = []
 
-for manifest_filename in glob.glob("manifests/*.json"):
-	slug = os.path.basename(manifest_filename).split('.')[0]
+for plugin_dir in plugin_dirs:
+	slug = os.path.basename(plugin_dir)
+	manifest_filename = f"manifests/{slug}.json"
 	with open(manifest_filename, "r") as f:
 		manifest = json.load(f)
 
@@ -21,7 +27,6 @@ for manifest_filename in glob.glob("manifests/*.json"):
 		continue
 
 	# Build repo
-	plugin_dir = f"repos/{slug}"
 	success = build_plugin.build(plugin_dir)
 	if not success:
 		print(f"{slug} failed")
