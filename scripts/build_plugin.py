@@ -11,17 +11,16 @@ def system(cmd):
 
 
 def stage_package(plugin_dir):
-	system('mkdir -p downloads_tmp')
-	system(f'mv {plugin_dir}/dist/*.zip downloads_tmp/')
+	system('mkdir -p stage')
+	system(f'mv {plugin_dir}/dist/*.zip stage/')
 
 
 def delete_stage():
-	system(f'rm -rf downloads_tmp')
+	system(f'rm -rf stage')
 
 
 def commit_stage():
-	system('mkdir -p downloads')
-	system('mv downloads_tmp/* downloads/')
+	system('mv -vi stage/* ../../downloads/')
 	delete_stage()
 
 
