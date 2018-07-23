@@ -20,7 +20,7 @@ def delete_stage():
 
 
 def commit_stage():
-	system('mv -vi stage/* ../../downloads/')
+	system('mv -vi stage/* ../downloads/')
 	delete_stage()
 
 
