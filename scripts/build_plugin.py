@@ -19,11 +19,6 @@ def delete_stage():
 	system(f'rm -rf stage')
 
 
-def commit_stage():
-	system('mv -vi stage/* ../downloads/')
-	delete_stage()
-
-
 def build_mac(plugin_dir):
 	env = f'CC=x86_64-apple-darwin15-clang CXX=x86_64-apple-darwin15-clang++-libc++ STRIP=x86_64-apple-darwin15-strip RACK_DIR={RACK_SDK}'
 	make = f'{env} make -j$(nproc) -C {plugin_dir}'
@@ -60,7 +55,6 @@ def build(plugin_dir):
 		build_lin(plugin_dir)
 		build_win(plugin_dir)
 		build_mac(plugin_dir)
-		commit_stage()
 	except Exception as e:
 		delete_stage()
 		print(e)

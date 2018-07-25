@@ -33,6 +33,9 @@ for plugin_dir in plugin_dirs:
 		input()
 		continue
 
+	build_plugin.system('mv -vi stage/* ../downloads/')
+	build_plugin.delete_stage()
+
 	# Update build information
 	manifest['latestVersion'] = manifest['repoVersion']
 	manifest['buildTimestamp'] = round(time.time())

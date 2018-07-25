@@ -1,0 +1,14 @@
+{
+  "name": "Spectra",
+  "author": "VCV",
+  "license": "proprietary",
+  "pluginUrl": "https://vcvrack.com/Spectra.html",
+  "authorUrl": "https://vcvrack.com/",
+  "authorEmail": "contact@vcvrack.com",
+  "manualUrl": "https://vcvrack.com/Spectra.html#manual",
+  "repoVersion": "0.6.0",
+  "productId": "1399370907691",
+  "latestVersion": "0.6.0",
+  "buildTimestamp": 1532540586,
+  "status": "available"
+}
