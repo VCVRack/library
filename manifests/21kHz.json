@@ -1,0 +1,10 @@
+{
+    "name": "21kHz",
+    "author": "Jake Huryn",
+    "license": "MIT",
+    "authorEmail": "jakehuryn@gmail.com",
+    "manualUrl": "https://github.com/21kHz/21kHz-rack-plugins/blob/master/README.md",
+    "sourceUrl": "https://github.com/21kHz/21kHz-rack-plugins",
+    "donateUrl": "https://www.paypal.me/JakeHuryn",
+    "repoVersion": "0.6.0"
+}

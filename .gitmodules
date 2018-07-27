@@ -219,3 +219,6 @@
 [submodule "repos/FrankBussFormula"]
 	path = repos/FrankBussFormula
 	url = https://github.com/FrankBuss/Formula.git
+[submodule "repos/21kHz"]
+	path = repos/21kHz
+	url = https://github.com/21kHz/21kHz-rack-plugins.git
