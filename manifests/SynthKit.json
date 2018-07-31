@@ -3,11 +3,11 @@
   "author": "Jerry Sievert",
   "license": "BSD-3-Clause",
   "pluginUrl": "https://github.com/JerrySievert/SynthKit/blob/master/README.md",
-  "manualUrl": "https://github.com/JerrySievert/SynthKit/tree/master/docs",
+  "manualUrl": "https://github.com/JerrySievert/SynthKit/blob/master/docs/README.md",
   "sourceUrl": "https://github.com/JerrySievert/SynthKit",
   "donateUrl": "https://paypal.me/JerrySievert",
   "latestVersion": "0.6.1",
-  "repoVersion": "0.6.1",
+  "repoVersion": "0.6.2",
   "status": "available",
   "buildTimestamp": 1532047647
 }
