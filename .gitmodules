@@ -225,3 +225,6 @@
 [submodule "repos/Nohmad"]
 	path = repos/Nohmad
 	url = https://github.com/joelrobichaud/Nohmad.git
+[submodule "repos/RODENTMODULES"]
+	path = repos/RODENTMODULES
+	url = https://github.com/RODENTCAT/RODENTMODULES.git
