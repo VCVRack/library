@@ -222,3 +222,6 @@
 [submodule "repos/21kHz"]
 	path = repos/21kHz
 	url = https://github.com/21kHz/21kHz-rack-plugins.git
+[submodule "repos/Nohmad"]
+	path = repos/Nohmad
+	url = https://github.com/joelrobichaud/Nohmad.git
