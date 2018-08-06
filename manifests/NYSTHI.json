@@ -1,7 +1,9 @@
 {
   "name": "NYSTHI",
+  "author": "Antonio Tuzzi",
   "license": "proprietary",
+  "authorEmail": "antoniotuzzi@gmail.com",
   "manualUrl": "https://github.com/nysthi/nysthi/blob/master/README.md",
-  "pluginUrl": "https://github.com/nysthi/nysthi/releases",
-  "latestVersion": "0.6.3"
+  "latestVersion": "0.6.13",
+  "status": "available"
 }
