@@ -228,3 +228,6 @@
 [submodule "repos/RODENTMODULES"]
 	path = repos/RODENTMODULES
 	url = https://github.com/RODENTCAT/RODENTMODULES.git
+[submodule "repos/computerscare"]
+	path = repos/computerscare
+	url = https://github.com/freddyz/computerscare-vcv-modules
