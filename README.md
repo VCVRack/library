@@ -8,7 +8,7 @@ All Rack plugins are welcome assuming they
 - do not misuse intellectual property (legally or morally)
 
 
-# Adding your plugin to the VCV Plugin Manager
+## Adding your plugin to the VCV Plugin Manager
 
 Create exactly one thread in the [Issue Tracker](https://github.com/VCVRack/community/issues), with a title equal to your plugin slug (or multiple slugs, comma-separated, if you have more than one plugin).
 This will be your permanent communication channel with VCV community members.
