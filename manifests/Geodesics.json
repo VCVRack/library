@@ -1,0 +1,10 @@
+{
+  "name": "Geodesics",
+  "author": "Pyer & Marc Boul\u00e9",
+  "license": "BSD-3-Clause",
+  "authorEmail": "geodesics.modular@outlook.com",
+  "manualUrl": "https://github.com/MarcBoule/Geodesics/blob/master/README.md",
+  "sourceUrl": "https://github.com/MarcBoule/Geodesics",
+  "donateUrl": "https://paypal.me/pyercollard",
+  "repoVersion": "0.6.1"
+}

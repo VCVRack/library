@@ -231,3 +231,6 @@
 [submodule "repos/computerscare"]
 	path = repos/computerscare
 	url = https://github.com/freddyz/computerscare-vcv-modules
+[submodule "repos/Geodesics"]
+	path = repos/Geodesics
+	url = https://github.com/MarcBoule/Geodesics.git
