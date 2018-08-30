@@ -2,9 +2,11 @@
   "name": "Lindenberg Research",
   "author": "Patrick Lindenberg / Lindenberg Research Tec.",
   "license": "proprietary",
+  "authorEmail": "heapdump@icloud.com",
+  "manualUrl": "https://github.com/lindenbergresearch/LRTRack/wiki/Generell-help-and-manuals",
   "sourceUrl": "https://github.com/lindenbergresearch/LRTRack",
   "latestVersion": "0.6.1",
-  "repoVersion": "0.6.1",
+  "repoVersion": "0.6.2",
   "status": "available",
   "buildTimestamp": 1531511310
 }
