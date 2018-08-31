@@ -234,3 +234,6 @@
 [submodule "repos/Geodesics"]
 	path = repos/Geodesics
 	url = https://github.com/MarcBoule/Geodesics.git
+[submodule "repos/KarateSnoopy"]
+	path = repos/KarateSnoopy
+	url = https://github.com/KarateSnoopy/vcv-karatesnoopy
