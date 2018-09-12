@@ -7,7 +7,8 @@
   "authorEmail": "contact@vcvrack.com",
   "manualUrl": "https://vcvrack.com/AudibleInstruments.html#manual",
   "sourceUrl": "https://github.com/VCVRack/AudibleInstruments",
-  "latestVersion": "0.6.0",
+  "latestVersion": "0.6.1",
   "repoVersion": "0.6.1",
-  "status": "available"
+  "status": "available",
+  "buildTimestamp": 1536783077
 }
