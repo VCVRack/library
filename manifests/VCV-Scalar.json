@@ -6,8 +6,9 @@
   "authorUrl": "https://vcvrack.com/",
   "authorEmail": "contact@vcvrack.com",
   "manualUrl": "https://vcvrack.com/Scalar.html#manual",
-  "repoVersion": "0.6.0",
+  "repoVersion": "0.6.1",
   "productId": "1474276327467",
-  "latestVersion": "0.6.0",
-  "status": "available"
+  "latestVersion": "0.6.1",
+  "status": "available",
+  "buildTimestamp": 1536970284
 }
