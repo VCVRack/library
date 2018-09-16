@@ -240,3 +240,6 @@
 [submodule "repos/noobhour"]
 	path = repos/noobhour
 	url = https://github.com/NicolasNeubauer/noobhour_modules
+[submodule "repos/TriggerFish-Elements"]
+	path = repos/TriggerFish-Elements
+	url = https://github.com/JTriggerFish/TriggerFish-VCV.git
