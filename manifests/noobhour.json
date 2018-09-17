@@ -5,6 +5,8 @@
   "authorEmail": "noobhourmusic@gmail.com",
   "manualUrl": "https://github.com/NicolasNeubauer/noobhour_modules/blob/master/README.md",
   "pluginUrl": "https://github.com/NicolasNeubauer/noobhour_modules",
-  "repoVersion": "0.6.0"
+  "repoVersion": "0.6.0",
+  "latestVersion": "0.6.0",
+  "buildTimestamp": 1537148505,
+  "status": "available"
 }
-
