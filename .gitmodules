@@ -243,3 +243,6 @@
 [submodule "repos/TriggerFish-Elements"]
 	path = repos/TriggerFish-Elements
 	url = https://github.com/JTriggerFish/TriggerFish-VCV.git
+[submodule "repos/SubmarineUtility"]
+	path = repos/SubmarineUtility
+	url = https://github.com/david-c14/SubmarineUtility.git
