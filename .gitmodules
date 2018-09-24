@@ -246,3 +246,6 @@
 [submodule "repos/SubmarineUtility"]
 	path = repos/SubmarineUtility
 	url = https://github.com/david-c14/SubmarineUtility.git
+[submodule "repos/BeckstromResearch"]
+	path = repos/BeckstromResearch
+	url = https://github.com/chrisbeckstrom/Beckstrom_Research_Rack.git
