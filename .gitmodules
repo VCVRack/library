@@ -249,3 +249,6 @@
 [submodule "repos/BeckstromResearch"]
 	path = repos/BeckstromResearch
 	url = https://github.com/chrisbeckstrom/Beckstrom_Research_Rack.git
+[submodule "repos/Sculpt-O-Sound"]
+	path = repos/Sculpt-O-Sound
+	url = https://github.com/josbouten/Sculpt-O-Sound.git
