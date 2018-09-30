@@ -252,3 +252,6 @@
 [submodule "repos/Sculpt-O-Sound"]
 	path = repos/Sculpt-O-Sound
 	url = https://github.com/josbouten/Sculpt-O-Sound.git
+[submodule "repos/aP-Modules"]
+	path = repos/aP-Modules
+	url = https://github.com/aptrn/aP-Modules.git
