@@ -7,5 +7,8 @@
   "manualUrl": "https://github.com/aptrn/aP-Modules/blob/master/README.md",
   "sourceUrl": "https://github.com/aptrn/aP-Modules.git",
   "donateUrl": "https://www.paypal.me/aptrn",
-  "repoVersion": "0.6.0"
+  "repoVersion": "0.6.0",
+  "latestVersion": "0.6.0",
+  "buildTimestamp": 1538501647,
+  "status": "available"
 }
