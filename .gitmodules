@@ -255,3 +255,6 @@
 [submodule "repos/aP-Modules"]
 	path = repos/aP-Modules
 	url = https://github.com/aptrn/aP-Modules.git
+[submodule "repos/arjo_modules"]
+	path = repos/arjo_modules
+	url = https://github.com/ArjoNagelhout/arjo_modules
