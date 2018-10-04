@@ -6,6 +6,10 @@ import time
 import build_plugin
 
 
+build_plugin.system("git pull")
+build_plugin.system("git submodule update --init --recursive")
+
+
 plugin_dirs = sys.argv[1:]
 
 if not plugin_dirs:
@@ -47,8 +51,18 @@ for plugin_dir in plugin_dirs:
 	built_slugs.append(slug)
 
 
-if built_slugs:
-	print()
-	print("Built " + ", ".join(built_slugs))
-else:
-	print("Nothing to build")
+if not built_slugs:
+	raise Exception("Nothing to build")
+
+
+# Upload packages
+build_plugin.system("cd ../downloads && make upload")
+
+# Commit repository
+build_plugin.system("git add -u")
+build_plugin.system("git commit -m 'Updated builds'")
+build_plugin.system("git push")
+
+
+print()
+print("Built " + ", ".join(built_slugs))
