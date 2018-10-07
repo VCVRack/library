@@ -60,7 +60,7 @@ build_plugin.system("cd ../downloads && make upload")
 
 # Commit repository
 build_plugin.system("git add -u")
-build_plugin.system("git commit -m 'Updated builds'")
+build_plugin.system("git commit -m 'Update builds'")
 build_plugin.system("git push")
 
 
