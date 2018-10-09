@@ -258,3 +258,6 @@
 [submodule "repos/arjo_modules"]
 	path = repos/arjo_modules
 	url = https://github.com/ArjoNagelhout/arjo_modules
+[submodule "repos/NocturnalEncoder"]
+	path = repos/NocturnalEncoder
+	url = https://github.com/djpeterso23662/NocturnalEncoder.git
