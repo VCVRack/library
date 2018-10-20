@@ -264,3 +264,6 @@
 [submodule "repos/ModularFungi"]
 	path = repos/ModularFungi
 	url = https://github.com/david-c14/ModularFungi.git
+[submodule "repos/STS"]
+	path = repos/STS
+	url = https://github.com/SmallTownSound/STS.git
