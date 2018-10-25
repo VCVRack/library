@@ -267,3 +267,6 @@
 [submodule "repos/STS"]
 	path = repos/STS
 	url = https://github.com/SmallTownSound/STS.git
+[submodule "repos/HolonicSystems-Free"]
+	path = repos/HolonicSystems-Free
+	url = https://github.com/hdavid/VCVRack-Holon.ist.git
