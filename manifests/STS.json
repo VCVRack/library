@@ -1,6 +1,7 @@
 {
   "name": "STS",
-  "author": "Don Turnrock",
+  "author": "Don Turnock",
+  "authorEmail": "don.turnock@gmail.com",
   "license": "BSD-3-Clause",
   "sourceUrl": "https://github.com/SmallTownSound/STS.git",
   "manualUrl": "https://github.com/SmallTownSound/STS/blob/master/README.md",
