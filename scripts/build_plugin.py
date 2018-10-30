@@ -52,8 +52,8 @@ def build_lin(plugin_dir):
 
 def build(plugin_dir):
 	try:
-		build_lin(plugin_dir)
-		build_win(plugin_dir)
+		# build_lin(plugin_dir)
+		# build_win(plugin_dir)
 		build_mac(plugin_dir)
 	except Exception as e:
 		delete_stage()
