@@ -270,3 +270,6 @@
 [submodule "repos/HolonicSystems-Free"]
 	path = repos/HolonicSystems-Free
 	url = https://github.com/hdavid/VCVRack-Holon.ist.git
+[submodule "repos/rcm"]
+	path = repos/rcm
+	url = https://github.com/Rcomian/rcm-modules.git

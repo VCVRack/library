@@ -1,0 +1,11 @@
+{
+  "name": "rcm",
+  "author": "Jim T, Steve Baker",
+  "license": "GPL-3",
+  "pluginUrl": "https://github.com/Rcomian/rcm-modules",
+  "authorUrl": "https://github.com/Rcomian/",
+  "authorEmail": "rcmmodules@tupper.org.uk",
+  "manualUrl": "https://github.com/Rcomian/rcm-modules/blob/v0.6/README.md",
+  "sourceUrl": "https://github.com/Rcomian/rcm-modules.git",
+  "repoVersion": "0.6.4"
+}
