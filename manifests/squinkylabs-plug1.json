@@ -8,5 +8,6 @@
   "latestVersion": "0.6.11",
   "repoVersion": "0.6.11",
   "buildTimestamp": 1541627142,
-  "status": "available"
+  "status": "available",
+  "pluginUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/booty-shifter.md"
 }

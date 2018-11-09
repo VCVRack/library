@@ -9,5 +9,6 @@
   "repoVersion": "0.6.3",
   "status": "available",
   "buildTimestamp": 1541360160,
-  "latestVersion": "0.6.3"
+  "latestVersion": "0.6.3",
+  "pluginUrl": "https://github.com/martin-lueders/ML_modules/wiki"
 }

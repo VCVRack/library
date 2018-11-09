@@ -6,5 +6,6 @@
   "sourceUrl": "https://github.com/mtsch/mtsch-vcvrack-plugins",
   "donateUrl": "https://www.paypal.me/matcuf",
   "latestVersion": "0.6.0",
-  "status": "available"
+  "status": "available",
+  "pluginUrl": "https://github.com/mtsch/mtsch-vcvrack-plugins/blob/master/README.md"
 }

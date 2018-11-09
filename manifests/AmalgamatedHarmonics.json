@@ -1,12 +1,13 @@
 {
   "name": "Amalgamated Harmonics",
   "author": "John Hoar",
-  "authorEmail" : "amalgamatedharmonics@outlook.com",
+  "authorEmail": "amalgamatedharmonics@outlook.com",
   "license": "BSD-3-Clause",
   "manualUrl": "https://github.com/jhoar/AmalgamatedHarmonics/wiki",
   "sourceUrl": "https://github.com/jhoar/AmalgamatedHarmonics",
   "latestVersion": "0.6.1",
   "repoVersion": "0.6.2",
   "status": "available",
-  "buildTimestamp": 1522750473
+  "buildTimestamp": 1522750473,
+  "pluginUrl": "https://github.com/jhoar/AmalgamatedHarmonics/wiki"
 }

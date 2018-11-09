@@ -2,5 +2,6 @@
   "name": "dekstop",
   "author": "dekstop",
   "manualUrl": "https://github.com/dekstop/vcvrackplugins_dekstop/blob/master/README.md",
-  "sourceUrl": "https://github.com/dekstop/vcvrackplugins_dekstop"
+  "sourceUrl": "https://github.com/dekstop/vcvrackplugins_dekstop",
+  "pluginUrl": "https://github.com/dekstop/vcvrackplugins_dekstop/blob/master/README.md"
 }

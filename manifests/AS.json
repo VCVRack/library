@@ -10,5 +10,6 @@
   "latestVersion": "0.6.12",
   "repoVersion": "0.6.12",
   "status": "available",
-  "buildTimestamp": 1540848176
+  "buildTimestamp": 1540848176,
+  "pluginUrl": "https://github.com/AScustomWorks/AS/blob/master/README.md"
 }

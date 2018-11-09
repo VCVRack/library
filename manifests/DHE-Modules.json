@@ -9,5 +9,6 @@
   "latestVersion": "0.6.3",
   "repoVersion": "0.6.3",
   "status": "available",
-  "buildTimestamp": 1541627179
+  "buildTimestamp": 1541627179,
+  "pluginUrl": "https://dhemery.github.io/DHE-Modules/"
 }

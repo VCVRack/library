@@ -7,5 +7,6 @@
   "latestVersion": "0.6.3",
   "repoVersion": "0.6.3",
   "buildTimestamp": 1534732485,
-  "status": "available"
+  "status": "available",
+  "pluginUrl": "https://github.com/mschack/VCV-Rack-Plugins/blob/master/README.md#demo-vids"
 }
