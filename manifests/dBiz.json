@@ -1,10 +1,11 @@
 {
   "name": "dBiz",
-  "author": "dBiz",
+  "author": "Giovanni Ghisleni",
   "manualUrl": "https://github.com/dBiz/dBiz/blob/master/README.md",
   "sourceUrl": "https://github.com/dBiz/dBiz",
   "repoVersion": "0.6.1",
   "latestVersion": "0.6.1",
+  "donateUrl": "https://paypal.me/GiovanniGhisleni",
   "status": "available",
   "buildTimestamp": 1538199714,
   "pluginUrl": "https://github.com/dBiz/dBiz/blob/master/README.md"
