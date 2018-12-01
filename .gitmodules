@@ -273,3 +273,6 @@
 [submodule "repos/rcm"]
 	path = repos/rcm
 	url = https://github.com/Rcomian/rcm-modules.git
+[submodule "repos/QuantalAudio"]
+	path = repos/QuantalAudio
+	url = https://github.com/sumpygump/quantal-audio.git
