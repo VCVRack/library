@@ -1,10 +1,13 @@
 {
   "name": "QuantalAudio",
   "author": "Jansen Price",
-  "license": ""CC0-1.0,
+  "license": "CC0-1.0",
   "pluginUrl": "https://github.com/sumpygump/quantal-audio",
   "authorUrl": "https://jansenprice.com/",
   "manualUrl": "https://github.com/sumpygump/quantal-audio/blob/master/README.md",
   "sourceUrl": "https://github.com/sumpygump/quantal-audio",
-  "repoVersion": "0.6.2"
+  "repoVersion": "0.6.2",
+  "latestVersion": "0.6.2",
+  "buildTimestamp": 1543685412,
+  "status": "available"
 }
