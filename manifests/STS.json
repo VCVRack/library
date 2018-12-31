@@ -2,12 +2,9 @@
   "name": "STS",
   "author": "Don Turnock",
   "authorEmail": "don.turnock@gmail.com",
-  "license": "BSD-3-Clause",
-  "sourceUrl": "https://github.com/SmallTownSound/STS.git",
+  "license": "proprietary",
   "manualUrl": "https://github.com/SmallTownSound/STS/blob/master/README.md",
-  "repoVersion": "0.6.0.2",
-  "latestVersion": "0.6.0.2",
-  "buildTimestamp": 1540226886,
+  "latestVersion": "0.6.0.3",
   "status": "available",
   "pluginUrl": "https://github.com/SmallTownSound/STS/blob/master/README.md"
 }
