@@ -37,7 +37,7 @@ for plugin_dir in plugin_dirs:
 		input()
 		continue
 
-	build_plugin.system('mv -vi stage/* ../downloads/')
+	build_plugin.system('mv -vi stage/* ../packages/')
 	build_plugin.delete_stage()
 
 	# Update build information
@@ -56,7 +56,7 @@ if not built_slugs:
 
 
 # Upload packages
-build_plugin.system("cd ../downloads && make upload")
+build_plugin.system("cd ../packages && make upload")
 
 # Commit repository
 build_plugin.system("git add -u")
