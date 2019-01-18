@@ -1,0 +1,11 @@
+{
+  "name": "Core",
+  "author": "VCV",
+  "license": "BSD-3-Clause",
+  "pluginUrl": "https://vcvrack.com/manual/Core.html",
+  "authorUrl": "https://vcvrack.com/",
+  "authorEmail": "contact@vcvrack.com",
+  "manualUrl": "https://vcvrack.com/manual/Core.html",
+  "sourceUrl": "https://github.com/VCVRack/Rack/tree/v0.6/src/Core",
+  "latestVersion": "0.6.2c"
+}
