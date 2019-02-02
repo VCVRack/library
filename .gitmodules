@@ -279,3 +279,6 @@
 [submodule "repos/EH_modules"]
 	path = repos/EH_modules
 	url = https://github.com/eh2k/fv1-emu
+[submodule "repos/Bark"]
+	path = repos/Bark
+	url = https://github.com/Coirt/Bark.git
