@@ -7,5 +7,8 @@
   "authorEmail": "philg@live.ie",
   "manualUrl": "https://github.com/Coirt/Bark/wiki",
   "sourceUrl": "https://github.com/Coirt/Bark",
-  "repoVersion": "0.6.3"
+  "repoVersion": "0.6.3",
+  "latestVersion": "0.6.3",
+  "buildTimestamp": 1549075356,
+  "status": "available"
 }
