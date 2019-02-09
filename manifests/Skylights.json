@@ -1,0 +1,10 @@
+{
+    "name": "Skylights",
+    "author": "Skrylar",
+    "license": "BSD-3-Clause",
+    "authorEmail": "joshua.cearley@gmail.com",
+    "manualUrl": "https://github.com/Skrylar/skylights-vcv/blob/master/README.org",
+    "sourceUrl": "https://github.com/Skrylar/skylights-vcv",
+    "pluginUrl": "https://github.com/Skrylar/skylights-vcv/blob/master/README.org",
+    "repoVersion": "0.6.2"
+}
