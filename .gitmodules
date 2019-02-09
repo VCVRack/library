@@ -285,3 +285,6 @@
 [submodule "repos/Skylights"]
 	path = repos/Skylights
 	url = https://github.com/Skrylar/skylights-vcv.git
+[submodule "repos/SkJack"]
+	path = repos/SkJack
+	url = https://github.com/Skrylar/skjack-vcv.git
