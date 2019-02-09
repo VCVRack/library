@@ -2,11 +2,11 @@
   "name": "Valley",
   "author": "ValleyAudio",
   "license": "GPL-3.0 and BSD-3-Clause",
-  "manualUrl": "https://github.com/ValleyAudio/ValleyRackFree/blob/master/README.md",
+  "manualUrl": "https://valleyaudio.github.io",
   "sourceUrl": "https://github.com/ValleyAudio/ValleyRackFree/",
   "donateUrl": "https://www.paypal.me/valleyvcv",
   "latestVersion": "0.6.9",
-  "repoVersion": "0.6.9",
+  "repoVersion": "0.6.10",
   "status": "available",
   "buildTimestamp": 1547260618,
   "pluginUrl": "https://github.com/ValleyAudio/ValleyRackFree/blob/master/README.md"
