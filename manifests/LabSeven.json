@@ -1,0 +1,11 @@
+{
+    "name": "LabSeven",
+    "author": "Gernot Wurst",
+    "authorEmail": "highcarbschwabe@prospectum.com",
+    "license": "CC-BY-NC-SA-4.0",
+    "pluginUrl": "http://labseven.prospectum.com",
+    "manualUrl": "http://labseven.prospectum.com",
+    "sourceUrl": "https://github.com/LabSevenDevVCVRack/LabSeven_VCVRack_modules.git",
+    "donateUrl": "https://paypal.me/labseven",
+    "repoVersion": "0.6.1"
+}

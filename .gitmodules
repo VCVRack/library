@@ -288,3 +288,6 @@
 [submodule "repos/SkJack"]
 	path = repos/SkJack
 	url = https://github.com/Skrylar/skjack-vcv.git
+[submodule "repos/LabSeven"]
+	path = repos/LabSeven
+	url = https://github.com/LabSevenDevVCVRack/LabSeven_VCVRack_modules.git
