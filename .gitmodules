@@ -294,3 +294,6 @@
 [submodule "repos/MicMusic"]
 	path = repos/MicMusic
 	url = https://github.com/very-cool-name/MicMusic-VCV.git
+[submodule "repos/Edge"]
+	path = repos/Edge
+	url = https://github.com/Edge-Modules/Edge.git
