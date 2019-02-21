@@ -1,10 +1,13 @@
 {
-    "name": "MicMusic",
-    "author": "Mike Maximov",
-    "license": "MIT",
-    "authorEmail": "vigorous.activity@gmail.com",
-    "manualUrl": "https://github.com/very-cool-name/MicMusic-VCV/blob/master/README.md",
-    "sourceUrl": "https://github.com/very-cool-name/MicMusic-VCV.git",
-    "pluginUrl": "https://github.com/very-cool-name/MicMusic-VCV/blob/master/README.md",
-    "repoVersion": "0.6.0"
+  "name": "MicMusic",
+  "author": "Mike Maximov",
+  "license": "MIT",
+  "authorEmail": "vigorous.activity@gmail.com",
+  "manualUrl": "https://github.com/very-cool-name/MicMusic-VCV/blob/master/README.md",
+  "sourceUrl": "https://github.com/very-cool-name/MicMusic-VCV.git",
+  "pluginUrl": "https://github.com/very-cool-name/MicMusic-VCV/blob/master/README.md",
+  "repoVersion": "0.6.0",
+  "latestVersion": "0.6.0",
+  "buildTimestamp": 1550785893,
+  "status": "available"
 }

@@ -1,10 +1,13 @@
 {
-    "name": "Edge",
-    "author": "Barit Nicolas",
-    "authorEmail": "mayatito51@hotmail.com",
-    "license": "GPL-3",
-    "manualUrl": "https://github.com/Edge-Modules/Edge/blob/master/README.md",
-    "pluginUrl": "https://github.com/Edge-Modules/Edge/blob/master/README.md",
-    "sourceUrl": "https://github.com/Edge-Modules/Edge.git",
-    "repoVersion": "0.6.3"
+  "name": "Edge",
+  "author": "Barit Nicolas",
+  "authorEmail": "mayatito51@hotmail.com",
+  "license": "GPL-3",
+  "manualUrl": "https://github.com/Edge-Modules/Edge/blob/master/README.md",
+  "pluginUrl": "https://github.com/Edge-Modules/Edge/blob/master/README.md",
+  "sourceUrl": "https://github.com/Edge-Modules/Edge.git",
+  "repoVersion": "0.6.3",
+  "latestVersion": "0.6.3",
+  "buildTimestamp": 1550785883,
+  "status": "available"
 }
