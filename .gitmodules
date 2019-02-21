@@ -291,3 +291,6 @@
 [submodule "repos/LabSeven"]
 	path = repos/LabSeven
 	url = https://github.com/LabSevenDevVCVRack/LabSeven_VCVRack_modules.git
+[submodule "repos/MicMusic"]
+	path = repos/MicMusic
+	url = https://github.com/very-cool-name/MicMusic-VCV.git
