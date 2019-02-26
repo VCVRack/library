@@ -297,3 +297,6 @@
 [submodule "repos/Edge"]
 	path = repos/Edge
 	url = https://github.com/Edge-Modules/Edge.git
+[submodule "repos/Quadraphonics"]
+	path = repos/Quadraphonics
+	url = https://github.com/KoreTeknology/Quadraphonic-Plugins-for-VCV-Rack.git
