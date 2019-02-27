@@ -49,6 +49,8 @@ for plugin_dir in plugin_dirs:
 		json.dump(manifest, f, indent="  ")
 
 	built_slugs.append(slug)
+	os.system("qutebrowser \"https://github.com/VCVRack/library/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+" + slug + "\" &")
+
 
 
 if not built_slugs:
