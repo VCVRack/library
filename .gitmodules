@@ -300,3 +300,6 @@
 [submodule "repos/Quadraphonics"]
 	path = repos/Quadraphonics
 	url = https://github.com/KoreTeknology/Quadraphonic-Plugins-for-VCV-Rack.git
+[submodule "repos/UnforgettableLuncheon"]
+	path = repos/UnforgettableLuncheon
+	url = https://github.com/johnnymurf/Unforgettable-Luncheon.git
