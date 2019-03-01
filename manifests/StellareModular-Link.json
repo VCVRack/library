@@ -3,9 +3,11 @@
   "author": "Stellare Modular",
   "license": "GPL-3",
   "authorUrl": "https://www.facebook.com/stellaremodular",
+  "authorEmail": "stellaremodular@gmail.com",
+  "pluginUrl": "https://github.com/stellare-modular/vcv-link",
   "manualUrl": "https://github.com/stellare-modular/vcv-link/blob/master/README.md",
   "sourceUrl": "https://github.com/stellare-modular/vcv-link",
   "donateUrl": "https://paypal.me/stellaremodular",
-  "latestVersion": "0.6.1",
-  "pluginUrl": "https://github.com/stellare-modular/vcv-link/blob/master/README.md"
+  "latestVersion": "0.6.2",
+  "status": "available"
 }
