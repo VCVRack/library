@@ -5,5 +5,8 @@
   "authorEmail": "os@expert-sleepers.co.uk",
   "authorUrl": "http://expert-sleepers.co.uk/",
   "sourceUrl": "https://github.com/expertsleepersltd/vcvrack-encoders",
-  "repoVersion": "0.6.0"
+  "repoVersion": "0.6.0",
+  "latestVersion": "0.6.0",
+  "buildTimestamp": 1553682589,
+  "status": "available"
 }
