@@ -303,3 +303,6 @@
 [submodule "repos/UnforgettableLuncheon"]
 	path = repos/UnforgettableLuncheon
 	url = https://github.com/johnnymurf/Unforgettable-Luncheon.git
+[submodule "repos/ExpertSleepers-Encoders"]
+	path = repos/ExpertSleepers-Encoders
+	url = https://github.com/expertsleepersltd/vcvrack-encoders
