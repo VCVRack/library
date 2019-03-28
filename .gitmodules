@@ -306,3 +306,6 @@
 [submodule "repos/ExpertSleepers-Encoders"]
 	path = repos/ExpertSleepers-Encoders
 	url = https://github.com/expertsleepersltd/vcvrack-encoders
+[submodule "repos/WhatTheRack"]
+	path = repos/WhatTheRack
+	url = https://github.com/korfuri/WhatTheRack.git
