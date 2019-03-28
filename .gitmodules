@@ -309,3 +309,6 @@
 [submodule "repos/WhatTheRack"]
 	path = repos/WhatTheRack
 	url = https://github.com/korfuri/WhatTheRack.git
+[submodule "repos/8Mode"]
+	path = repos/8Mode
+	url = https://github.com/8Mode/8Mode-VCV_Modules.git
