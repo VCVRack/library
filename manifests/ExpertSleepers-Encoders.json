@@ -4,6 +4,8 @@
   "author": "Expert Sleepers",
   "authorEmail": "os@expert-sleepers.co.uk",
   "authorUrl": "http://expert-sleepers.co.uk/",
+  "manualUrl": "http://expert-sleepers.co.uk/vcvrack_encoders.html",
+  "pluginUrl": "http://expert-sleepers.co.uk/vcvrack_encoders.html",
   "sourceUrl": "https://github.com/expertsleepersltd/vcvrack-encoders",
   "repoVersion": "0.6.1",
   "latestVersion": "0.6.0",
