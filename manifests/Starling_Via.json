@@ -1,0 +1,12 @@
+{
+  "name": "Via",
+  "author": "Starling",
+  "license": "MIT",
+  "pluginUrl": "https://starling.space/via/rack",
+  "authorUrl": "https://starling.space",
+  "authorEmail": "admin@starling.space",
+  "manualUrl": "https://starling.space/via/rack#manual",
+  "sourceUrl": "https://github.com/starlingcode/Via-for-Rack.git",
+  "donateUrl": "https://paypal.me/ssttaarrlliinngg",
+  "repoVersion": "0.6.0"
+}

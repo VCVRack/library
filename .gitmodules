@@ -312,3 +312,6 @@
 [submodule "repos/8Mode"]
 	path = repos/8Mode
 	url = https://github.com/8Mode/8Mode-VCV_Modules.git
+[submodule "repos/Starling_Via"]
+	path = repos/Starling_Via
+	url = https://github.com/starlingcode/Via-for-Rack.git
