@@ -315,3 +315,6 @@
 [submodule "repos/Starling_Via"]
 	path = repos/Starling_Via
 	url = https://github.com/starlingcode/Via-for-Rack.git
+[submodule "repos/CatroModulo"]
+	path = repos/CatroModulo
+	url = https://github.com/catronomix/catro-modulo.git
