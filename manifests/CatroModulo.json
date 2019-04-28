@@ -5,5 +5,8 @@
   "repoVersion": "0.6.4",
   "manualUrl": "https://github.com/catronomix/catro-modulo/blob/master/CM-manual-v0.6.4.pdf",
   "sourceUrl": "https://github.com/catronomix/catro-modulo.git",
-  "pluginUrl": "https://github.com/catronomix/catro-modulo/blob/master/README.md"
+  "pluginUrl": "https://github.com/catronomix/catro-modulo/blob/master/README.md",
+  "latestVersion": "0.6.4",
+  "buildTimestamp": 1556416685,
+  "status": "available"
 }
