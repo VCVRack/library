@@ -318,3 +318,6 @@
 [submodule "repos/CatroModulo"]
 	path = repos/CatroModulo
 	url = https://github.com/catronomix/catro-modulo.git
+[submodule "repos/sb-StochKit"]
+	path = repos/sb-StochKit
+	url = https://github.com/smbddha/sb-StochKit.git
