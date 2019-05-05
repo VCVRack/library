@@ -7,10 +7,7 @@ for filename in sys.argv[1:]:
 	with open(filename, "r") as f:
 		manifest = json.load(f)
 
-	if os.path.exists("repos/" + slug):
-		manifest['status'] = "available"
+	if 'license' in manifest:
+		print(f"{slug}:\t\t\t{manifest['license']}")
 	else:
-		next
-
-	with open(filename, "w") as f:
-		json.dump(manifest, f, indent="  ")
+		print(f"{slug}:\t\t\tnone")
