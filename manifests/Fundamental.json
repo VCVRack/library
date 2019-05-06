@@ -1,12 +1,173 @@
 {
+  "slug": "Fundamental",
   "name": "Fundamental",
   "author": "VCV",
   "license": "BSD-3-Clause",
+  "authorEmail": "contact@vcvrack.com",
   "pluginUrl": "https://vcvrack.com/Fundamental.html",
   "authorUrl": "https://vcvrack.com/",
-  "authorEmail": "contact@vcvrack.com",
   "manualUrl": "https://vcvrack.com/Fundamental.html#manual",
   "sourceUrl": "https://github.com/VCVRack/Fundamental",
-  "latestVersion": "0.6.2",
-  "status": "available"
+  "version": "1.0.0",
+  "modules": [
+    {
+      "slug": "VCO",
+      "name": "VCO-1",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "VCO2",
+      "name": "VCO-2",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "VCF",
+      "name": "VCF",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "VCA-1",
+      "name": "VCA-1",
+      "tags": [
+        "VCA"
+      ]
+    },
+    {
+      "slug": "VCA",
+      "name": "VCA-2",
+      "tags": [
+        "VCA",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "LFO",
+      "name": "LFO-1",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "LFO2",
+      "name": "LFO-2",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "Delay",
+      "name": "Delay",
+      "tags": [
+        "Delay"
+      ]
+    },
+    {
+      "slug": "ADSR",
+      "name": "ADSR",
+      "tags": [
+        "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "VCMixer",
+      "name": "Mixer",
+      "tags": [
+        "Mixer",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "8vert",
+      "name": "8vert",
+      "tags": [
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "Unity",
+      "name": "Unity",
+      "tags": [
+        "Mixer",
+        "Utility",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Mutes",
+      "name": "Mutes",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Scope",
+      "name": "Scope",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "SEQ3",
+      "name": "SEQ-3",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "SequentialSwitch1",
+      "name": "Sequential Switch 1",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SequentialSwitch2",
+      "name": "Sequential Switch 2",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Split",
+      "name": "Split",
+      "description": "Splits a polyphonic cable into multiple monophonic cables",
+      "tags": [
+        "Poly",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Merge",
+      "name": "Merge",
+      "description": "Combines multiple monophonic cables into a polyphonic cable",
+      "tags": [
+        "Poly",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Sum",
+      "name": "Sum",
+      "description": "Sums all channels in a polyphonic cable",
+      "tags": [
+        "Poly",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Viz",
+      "name": "Viz",
+      "description": "Visualizes all channels of a polyphonic cable",
+      "tags": [
+        "Poly",
+        "Visual"
+      ]
+    }
+  ]
 }
