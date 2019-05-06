@@ -9,8 +9,8 @@ for filename in glob.glob("repos/*/plugin.json"):
 		with open(filename, "r") as f:
 			manifest = json.load(f, strict=False)
 	except Exception as e:
-		print(e)
 		print(f"Could not parse {filename}")
+		print(e)
 		continue
 
 	# Write library manifest
@@ -18,3 +18,4 @@ for filename in glob.glob("repos/*/plugin.json"):
 	manifest_filename = f"manifests/{slug}.json"
 	with open(manifest_filename, "w") as f:
 		json.dump(manifest, f, indent="  ")
+	print(f"Copied {slug}")
