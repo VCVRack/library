@@ -1,0 +1,38 @@
+{
+  "slug": "modular80",
+  "name": "modular80",
+  "author": "cschol",
+  "license": "BSD-3-Clause",
+  "authorEmail": "modular80@gmail.com",
+  "pluginUrl": "https://github.com/cschol/modular80/blob/master/README.md",
+  "manualUrl": "https://github.com/cschol/modular80/blob/master/README.md",
+  "sourceUrl": "https://github.com/cschol/modular80.git",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "slug": "Logistiker",
+      "name": "Logistiker",
+      "description": "Chaotic CV generator based on Logistics equation",
+      "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "Radio Music",
+      "name": "Radio Music",
+      "description": "Radio Music is a sampler pretending to be a radio",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "Nosering",
+      "name": "Nosering",
+      "description": "Interpretation of Grant Richter's Noisering design",
+      "tags": [
+        "Noise",
+        "Random"
+      ]
+    }
+  ]
+}
