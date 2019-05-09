@@ -321,3 +321,6 @@
 [submodule "repos/sb-StochKit"]
 	path = repos/sb-StochKit
 	url = https://github.com/smbddha/sb-StochKit.git
+[submodule "repos/ZZC"]
+	path = repos/ZZC
+	url = https://github.com/zezic/ZZC.git

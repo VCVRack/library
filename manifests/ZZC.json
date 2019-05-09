@@ -1,0 +1,15 @@
+{
+  "name": "ZZC",
+  "author": "Sergey Ukolov",
+  "license": "GPL-3.0",
+  "authorEmail": "zezic51@yandex.ru",
+  "pluginUrl": "https://zzc-cv.github.io",
+  "authorUrl": "https://github.com/zezic",
+  "manualUrl": "https://zzc-cv.github.io",
+  "sourceUrl": "https://github.com/zezic/ZZC",
+  "donateUrl": "https://paypal.me/zezic",
+  "repoVersion": "0.6.3",
+  "latestVersion": "0.6.3",
+  "buildTimestamp": 1557407256,
+  "status": "available"
+}
