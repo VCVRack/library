@@ -43,7 +43,7 @@ def build_lin(plugin_dir):
 	plugin_abs = os.path.abspath(plugin_dir)
 	# TODO Make this Docker image publicly available
 	# It's essentially just Ubuntu 16.04 with plugin build dependencies installed, the workdir, and a user account set up so it matches my own machine's UID to solve file permissions issues.
-	docker = f'docker run --rm -v {RACK_SDK}:/Rack-SDK -v {plugin_abs}:/workdir -w /workdir -u vortico {env} a0b9c87ec456'
+	docker = f'docker run --rm -v {RACK_SDK}:/Rack-SDK -v {plugin_abs}:/workdir -w /workdir -u vortico {env} d91c37409ded'
 	system(f'{docker} {make} clean')
 	system(f'{docker} {make} dist')
 	stage_package(plugin_dir)
