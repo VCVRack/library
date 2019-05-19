@@ -1,0 +1,165 @@
+{
+  "slug": "ImpromptuModular",
+  "name": "Impromptu Modular",
+  "version": "1.0.0",
+  "author": "Impromptu Modular",
+  "license": "BSD-3-Clause",
+  "authorEmail": "marc.boule@etsmtl.ca",
+  "authorUrl": "https://github.com/MarcBoule/ImpromptuModular/tree/v1",
+  "manualUrl": "https://github.com/MarcBoule/ImpromptuModular/tree/v1#modules-",
+  "modules": [
+    {
+      "slug": "Tact",
+      "name": "Tact",
+      "description": "Tactile-inspired controller, dual channel",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "Tact1",
+      "name": "Tact1",
+      "description": "Tactile-inspired controller",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "Twelve-Key",
+      "name": "TwelveKey",
+      "description": "Chainable one octave keyboard controller",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "Clocked",
+      "name": "Clocked",
+      "description": "Chainable one octave keyboard controller",
+      "tags": [
+        "Clock"
+      ]
+    },
+    {
+      "slug": "Clocked-Expander",
+      "name": "Clocked expander",
+      "description": "Expander for Clocked",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Foundry",
+      "name": "Foundry",
+      "description": "3-channel 32-step sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Foundry-Expander",
+      "name": "Foundry expander",
+      "description": "Expander for Foundry",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Gate-Seq-64",
+      "name": "GateSeq64",
+      "description": "64 step / 32 pattern gate sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Gate-Seq-64-Expander",
+      "name": "GateSeq64 expander",
+      "description": "Expander for GateSeq64",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Phrase-Seq-16",
+      "name": "PhraseSeq16",
+      "description": "16 step / 16 phrase sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Phrase-Seq-32",
+      "name": "PhraseSeq32",
+      "description": "32 step / 32 phrase sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Phrase-Seq-Expander",
+      "name": "PhraseSeq expander",
+      "description": "Expander for PhraseSeq16/32",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Write-Seq-32",
+      "name": "WriteSeq32",
+      "description": "3-channel 32-step sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Write-Seq-64",
+      "name": "WriteSeq64",
+      "description": "4-channel 64-step sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Big-Button-Seq",
+      "name": "BigButtonSeq",
+      "description": "6-channel 64-step trigger sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Big-Button-Seq2",
+      "name": "BigButtonSeq2",
+      "description": "6-channel 128-step cv and gate sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Four-View",
+      "name": "FourView",
+      "description": "Quad note number viewer with pass through",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Semi-Modular Synth",
+      "name": "SemiModular Synth",
+      "description": "Semi-modular monophonic synthesizer with sequencer",
+      "tags": [
+        "Sequencer",
+        "Vco"
+      ]
+    },
+    {
+      "slug": "Blank-Panel",
+      "name": "BlankPanel",
+      "description": "Blank panel",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
+}
