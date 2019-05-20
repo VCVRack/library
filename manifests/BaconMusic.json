@@ -1,0 +1,104 @@
+{
+  "slug": "BaconMusic",
+  "name": "Bacon Music",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "author": "@baconpaul",
+  "authorEmail": "",
+  "authorUrl": "https://www.baconpaul.org/",
+  "pluginUrl": "https://github.com/baconpaul/BaconPlugs/",
+  "manualUrl": "https://github.com/baconpaul/BaconPlugs/README.md",
+  "sourceUrl": "https://github.com/baconpaul/BaconPlugs/",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "HarMoNee",
+      "name": "HarMoNee",
+      "description": "Apply musical (major third, fifth, etc...) offsets to CV 1v/oct signals",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "Glissinator",
+      "name": "Glissinator",
+      "description": "Do a constant time gliss over a changing input signal",
+      "tags": [
+        "Slew limiter"
+      ]
+    },
+    {
+      "slug": "PolyGnome",
+      "name": "PolyGnome",
+      "description": "A poly-rhythmic clock generator",
+      "tags": [
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "QuantEyes",
+      "name": "QuantEyes",
+      "description": "Quantize your signals to notes on a 12 tone scale",
+      "tags": [
+        "Quantier"
+      ]
+    },
+    {
+      "slug": "SampleDelay",
+      "name": "SampleDelay",
+      "description": "A tiny number of sample delay",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ChipNoise",
+      "name": "ChipNoise",
+      "description": "A recreation of the NES Noise Generator",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "ChipWaves",
+      "name": "ChipWaves",
+      "description": "A recreation of the NES oscillators",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "ChipYourWave",
+      "name": "ChipYourWave",
+      "description": "An 8 bit oscillator where you draw the waveform",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "KarplusStrongPoly",
+      "name": "KarplusStrongPoly",
+      "description": "An implementation of KS in a module",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "ALingADing",
+      "name": "ALingADing",
+      "description": "A sub-par ring modulator",
+      "tags": [
+        "Ring modulator"
+      ]
+    },
+    {
+      "slug": "Bitulator",
+      "name": "Bitulator",
+      "description": "A sub-par distortion and bit cruncher",
+      "tags": [
+        "Distortion",
+        "Waveshaper"
+      ]
+    }
+  ]
+}
