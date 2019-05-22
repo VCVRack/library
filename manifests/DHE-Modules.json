@@ -1,0 +1,112 @@
+{
+  "slug": "DHE-Modules",
+  "version": "1.0.0",
+  "license": "MIT",
+  "name": "DHE Modules",
+  "author": "Dale Emery",
+  "authorEmail": "dale@dhemery.com",
+  "pluginUrl": "https://dhemery.github.io/DHE-Modules/",
+  "authorUrl": "https://dhemery.com/",
+  "manualUrl": "https://dhemery.github.io/DHE-Modules/",
+  "sourceUrl": "https://github.com/dhemery/DHE-Modules/",
+  "donateUrl": "https://paypal.me/DaleHEmery/",
+  "changelogUrl": "https://dhemery.github.io/DHE-Modules/release-notes/",
+  "modules": [
+    {
+      "slug": "Blossom",
+      "name": "Blossom",
+      "description": "Generates a pair of complex, pulsing LFO signals",
+      "tags": [
+        "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "BoosterStage",
+      "name": "Booster Stage",
+      "description": "Generates a single envelope stage",
+      "tags": [
+        "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "Cubic",
+      "name": "Cubic",
+      "description": "Offsets, scales, squares, and cubes its input signal",
+      "tags": [
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Func",
+      "name": "Func",
+      "description": "A knob with a selectable range to offset or scale its input signal",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Func6",
+      "name": "Func 6",
+      "description": "A chain of knobs with selectable ranges to offset and scale input signals",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Hostage",
+      "name": "Hostage",
+      "description": "Generates a hold or sustain envelope stage",
+      "tags": [
+        "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "Ranger",
+      "name": "Ranger",
+      "description": "A modulatable knob with an adjustable, modulatable range",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Stage",
+      "name": "Stage",
+      "description": "Generates a single envelope stage",
+      "tags": [
+        "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "Swave",
+      "name": "Swave",
+      "description": "A waveshaper with a unique sigmoid transfer function",
+      "tags": [
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Tapers",
+      "name": "Tapers",
+      "description": "A pair of modulatable knobs with adjustable, modulatable tapers",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Upstage",
+      "name": "Upstage",
+      "description": "Special-purpose envelope controls",
+      "tags": [
+        "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "Xycloid",
+      "name": "Xycloid",
+      "description": "Generates a pair of complex, pulsing LFO signals",
+      "tags": [
+        "LFO"
+      ]
+    }
+  ]
+}
