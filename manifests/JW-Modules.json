@@ -1,0 +1,118 @@
+{
+  "slug": "JW-Modules",
+  "name": "JW-Modules",
+  "author": "Jeremy Wentworth",
+  "license": "BSD-3-Clause",
+  "authorEmail": "jeremy@jeremywentworth.com",
+  "pluginUrl": "https://github.com/jeremywen/JW-Modules",
+  "authorUrl": "http://jeremywentworth.com/",
+  "manualUrl": "https://github.com/jeremywen/JW-Modules#jw-modules",
+  "sourceUrl": "https://github.com/jeremywen/JW-Modules",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "slug": "BlankPanel_SM",
+      "name": "Blank Panel (Small)",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "BlankPanel_MD",
+      "name": "Blank Panel (Medium)",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "BlankPanel_LG",
+      "name": "Blank Panel (Large)",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "BouncyBalls",
+      "name": "Bouncy Balls",
+      "tags": [
+        "Sequencer",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "0Cat",
+      "name": "0Cat",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "FullScope",
+      "name": "Full Scope",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "GridSeq",
+      "name": "GridSeq",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "MinMax",
+      "name": "Min Max",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "NoteSeq",
+      "name": "NoteSeq",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Quantizer",
+      "name": "Quantizer",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "SimpleClock",
+      "name": "Simple Clock",
+      "tags": [
+        "Clock",
+        "Random"
+      ]
+    },
+    {
+      "slug": "ThingThing",
+      "name": "Thing Thing",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "WavHead",
+      "name": "Wav Head",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "XYPad",
+      "name": "XY Pad",
+      "tags": [
+        "LFO",
+        "Envelope Generator",
+        "Random",
+        "Oscillator",
+        "Sample and Hold"
+      ]
+    }
+  ]
+}
