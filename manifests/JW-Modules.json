@@ -71,14 +71,16 @@
       "slug": "NoteSeq",
       "name": "NoteSeq",
       "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Poly"
       ]
     },
     {
       "slug": "Quantizer",
       "name": "Quantizer",
       "tags": [
-        "Quantizer"
+        "Quantizer",
+        "Poly"
       ]
     },
     {
@@ -100,7 +102,8 @@
       "slug": "WavHead",
       "name": "Wav Head",
       "tags": [
-        "Visual"
+        "Visual",
+        "Poly"
       ]
     },
     {
