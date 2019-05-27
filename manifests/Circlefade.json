@@ -1,0 +1,12 @@
+{
+  "name": "Circlefade",
+  "author": "Max Circlefade",
+  "license": "CC0-1.0",
+  "authorEmail": "max@circlefade.com",
+  "pluginUrl": "https://github.com/max-circlefade/Circlefade",
+  "authorUrl": "https://github.com/max-circlefade",
+  "manualUrl": "https://github.com/max-circlefade/Circlefade/blob/master/README.md",
+  "sourceUrl": "https://github.com/max-circlefade/Circlefade.git",
+  "repoVersion": "0.6.2",
+  "donate": "https://www.paypal.me/circlefade"
+}
