@@ -1,0 +1,180 @@
+{
+  "slug": "squinkylabs-plug1",
+  "name": "Squinky Labs",
+  "author": "Squinky Labs",
+  "license": "CC0-1.0",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://github.com/squinkylabs/SquinkyVCV/README.md",
+  "sourceUrl": "https://github.com/squinkylabs/SquinkyVCV",
+  "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/booty-shifter.md",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "slug": "squinkylabs-ev3",
+      "name": "EV3",
+      "description": "Triple VCO with even waveform",
+      "tags": [
+        "VCO",
+        "Multiple"
+      ]
+    },
+    {
+      "slug": "squinkylabs-vocalfilter",
+      "name": "Formants",
+      "description": "Singing Vocal Filter",
+      "tags": [
+        "Effect",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "squinkylabs-funv",
+      "name": "Functional VCO-1",
+      "description": "Multi-function VCO with low aliasing",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "squinkylabs-lfn",
+      "name": "LFN",
+      "description": "Low frequency random voltage generator",
+      "tags": [
+        "Noise",
+        "Random",
+        "LFO"
+      ]
+    },
+    {
+      "slug": "squinkylabs-vocalanimator",
+      "name": "Growler",
+      "description": "Vocal Animator",
+      "tags": [
+        "Effect",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "squinkylabs-CHB2",
+      "name": "Chebyshev II",
+      "description": "Waveshaper VCO with FM",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "squinkylabs-shp",
+      "name": "Shaper",
+      "description": "Precision Wave Shaper",
+      "tags": [
+        "Effect",
+        "Waveshaper",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "squinkylabs-tremolo",
+      "name": "Chopper",
+      "description": "Tremolo with synched LFO",
+      "tags": [
+        "Clock modulator",
+        "Effect",
+        "LFO"
+      ]
+    },
+    {
+      "slug": "squinkylabs-gry",
+      "name": "Gray Code",
+      "description": "Eclectic clock divider",
+      "tags": [
+        "Clock modulator",
+        "Random",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "squinkylabs-coloredNoise",
+      "name": "Colors",
+      "description": "All the colors of noise",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "squinkylabs-freqshifter",
+      "name": "Booty Shifter",
+      "description": "Frequency Shifter",
+      "tags": [
+        "Ring Modulator",
+        "effect"
+      ]
+    },
+    {
+      "slug": "squinkylabs-sequencer",
+      "name": "Seq++",
+      "description": "DAW-like sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "squinkylabs-super",
+      "name": "Saws",
+      "description": "Super saw VCO emulation",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "squinkylabs-blank",
+      "name": "Blank",
+      "description": "blank starting project"
+    },
+    {
+      "slug": "squinkylabs-slew4",
+      "name": "Slade",
+      "description": "Ocatal slew/lag/VCA"
+    },
+    {
+      "slug": "squinkylabs-mix8",
+      "name": "Mixer-8",
+      "description": "8 channel mixer"
+    },
+    {
+      "slug": "squinkylabs-mix4",
+      "name": "Mixer-EX 4",
+      "description": "4 channel mixer expander"
+    },
+    {
+      "slug": "squinkylabs-mixm",
+      "name": "Mixer Master",
+      "description": "Mixer master module",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "squinkylabs-ch10",
+      "name": "ch10",
+      "description": "ch10"
+    },
+    {
+      "slug": "squinkylabs-lfnb",
+      "name": "LFNB",
+      "description": "Low frequency random voltage generator 2",
+      "tags": [
+        "NOISE",
+        "RANDOM",
+        "LFO"
+      ]
+    },
+    {
+      "slug": "squinkylabs-filt",
+      "name": "Stairway",
+      "description": "Ladder filter on steroids",
+      "tags": [
+        "VCF"
+      ]
+    }
+  ]
+}
