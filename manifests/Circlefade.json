@@ -8,5 +8,8 @@
   "manualUrl": "https://github.com/max-circlefade/Circlefade/blob/master/README.md",
   "sourceUrl": "https://github.com/max-circlefade/Circlefade.git",
   "repoVersion": "0.6.2",
-  "donate": "https://www.paypal.me/circlefade"
+  "donate": "https://www.paypal.me/circlefade",
+  "latestVersion": "0.6.2",
+  "buildTimestamp": 1559293601,
+  "status": "available"
 }
