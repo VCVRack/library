@@ -324,3 +324,6 @@
 [submodule "repos/VCV-Recorder"]
 	path = repos/VCV-Recorder
 	url = https://github.com/VCVRack/VCV-Recorder.git
+[submodule "repos/Stoermelder-P1"]
+	path = repos/Stoermelder-P1
+	url = https://github.com/stoermelder/vcvrack-packone

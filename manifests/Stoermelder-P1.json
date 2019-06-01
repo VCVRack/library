@@ -1,0 +1,37 @@
+{
+  "slug": "Stoermelder-P1",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "author": "Benjamin Dill",
+  "name": "PackOne",
+  "brand": "stoermelder",
+  "authorEmail": "stoermelder@outlook.com",
+  "pluginUrl": "https://github.com/stoermelder/vcvrack-packone",
+  "authorUrl": "https://github.com/stoermelder",
+  "sourceUrl": "https://github.com/stoermelder/vcvrack-packone.git",
+  "changelogUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "CVMap",
+      "name": "CV-MAP",
+      "description": "Add CV control to any parameter of any module",
+      "tags": [
+        "CV",
+        "Parameter",
+        "Modulation",
+        "Map"
+      ]
+    },
+    {
+      "slug": "CVPam",
+      "name": "CV-PAM",
+      "description": "Generate CV from any parameter change of any module",
+      "tags": [
+        "CV",
+        "Parameter",
+        "Modulation",
+        "Map"
+      ]
+    }
+  ]
+}
