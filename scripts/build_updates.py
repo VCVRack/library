@@ -20,8 +20,12 @@ built_slugs = []
 for plugin_dir in plugin_dirs:
 	slug = os.path.basename(plugin_dir)
 	manifest_filename = f"manifests/{slug}.json"
-	with open(manifest_filename, "r") as f:
-		manifest = json.load(f)
+	try:
+		with open(manifest_filename, "r") as f:
+			manifest = json.load(f)
+	except Exception as e:
+		print(e)
+		input()
 
 	# We need a repoVersion to build
 	if 'repoVersion' not in manifest:
