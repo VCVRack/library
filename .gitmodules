@@ -327,3 +327,6 @@
 [submodule "repos/Circlefade"]
 	path = repos/Circlefade
 	url = https://github.com/max-circlefade/Circlefade.git
+[submodule "repos/CountModula"]
+	path = repos/CountModula
+	url = https://github.com/countmodula/VCVRackPlugins.git
