@@ -17,7 +17,7 @@
       "name": "Blossom",
       "description": "Generates a pair of complex, pulsing LFO signals",
       "tags": [
-        "Envelope Generator"
+        "LFO"
       ]
     },
     {
@@ -89,6 +89,7 @@
       "name": "Tapers",
       "description": "A pair of modulatable knobs with adjustable, modulatable tapers",
       "tags": [
+        "Dual",
         "Utility"
       ]
     },
