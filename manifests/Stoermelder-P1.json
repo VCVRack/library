@@ -32,6 +32,15 @@
         "Modulation",
         "Map"
       ]
+    },
+    {
+      "slug": "RotorA",
+      "name": "Rotor Model A",
+      "description": "Rotates a signal across channels",
+      "tags": [
+        "Modulation",
+        "Poly"
+      ]
     }
   ]
 }
