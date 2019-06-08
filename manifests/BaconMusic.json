@@ -1,8 +1,8 @@
 {
   "slug": "BaconMusic",
   "name": "Bacon Music",
-  "version": "1.0.0",
-  "license": "Apache-2.0",
+  "version": "1.0.1",
+  "license": "GPL-3.0-or-later",
   "author": "@baconpaul",
   "authorEmail": "",
   "authorUrl": "https://www.baconpaul.org/",
@@ -16,7 +16,8 @@
       "name": "HarMoNee",
       "description": "Apply musical (major third, fifth, etc...) offsets to CV 1v/oct signals",
       "tags": [
-        "Quantizer"
+        "Quantizer",
+        "Polyphonic"
       ]
     },
     {
@@ -24,7 +25,8 @@
       "name": "Glissinator",
       "description": "Do a constant time gliss over a changing input signal",
       "tags": [
-        "Slew limiter"
+        "Slew limiter",
+        "Polyphonic"
       ]
     },
     {
@@ -40,7 +42,8 @@
       "name": "QuantEyes",
       "description": "Quantize your signals to notes on a 12 tone scale",
       "tags": [
-        "Quantier"
+        "Quantier",
+        "Polyphonic"
       ]
     },
     {
@@ -48,7 +51,8 @@
       "name": "SampleDelay",
       "description": "A tiny number of sample delay",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -64,7 +68,8 @@
       "name": "ChipWaves",
       "description": "A recreation of the NES oscillators",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
@@ -72,7 +77,8 @@
       "name": "ChipYourWave",
       "description": "An 8 bit oscillator where you draw the waveform",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
@@ -80,7 +86,8 @@
       "name": "KarplusStrongPoly",
       "description": "An implementation of KS in a module",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
@@ -88,7 +95,8 @@
       "name": "ALingADing",
       "description": "A sub-par ring modulator",
       "tags": [
-        "Ring modulator"
+        "Ring modulator",
+        "Polyphonic"
       ]
     },
     {
@@ -97,7 +105,17 @@
       "description": "A sub-par distortion and bit cruncher",
       "tags": [
         "Distortion",
-        "Waveshaper"
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyGenerator",
+      "name": "PolyGenerator",
+      "description": "Generate test polyphonic midi-like sequences",
+      "tags": [
+        "Utility",
+        "Polyphonic"
       ]
     }
   ]
