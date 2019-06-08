@@ -216,9 +216,6 @@
 [submodule "repos/trowaSoft"]
 	path = repos/trowaSoft
 	url = https://github.com/j4s0n-c/trowaSoft-VCV.git
-[submodule "repos/FrankBussFormula"]
-	path = repos/FrankBussFormula
-	url = https://github.com/FrankBuss/Formula.git
 [submodule "repos/21kHz"]
 	path = repos/21kHz
 	url = https://github.com/21kHz/21kHz-rack-plugins.git
@@ -327,3 +324,6 @@
 [submodule "repos/Stoermelder-P1"]
 	path = repos/Stoermelder-P1
 	url = https://github.com/stoermelder/vcvrack-packone
+[submodule "repos/FrankBuss"]
+	path = repos/FrankBuss
+	url = https://github.com/FrankBuss/FrankBussRackPlugin.git
