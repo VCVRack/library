@@ -1,6 +1,6 @@
 # VCV library repository
 
-The VCV library maintainers are responsible for curating Rack plugins into the [VCV Plugin Manager](https://vcvrack.com/plugins.html).
+The VCV library maintainers are responsible for curating Rack plugins into the [VCV Library](https://vcvrack.com/plugins.html).
 [Anyone is welcome to become a maintainer.](https://github.com/VCVRack/library/issues/248)
 
 All Rack plugins are welcome assuming they
@@ -8,7 +8,7 @@ All Rack plugins are welcome assuming they
 - do not misuse intellectual property (legally or ethically)
 
 
-## Adding your plugin to the VCV Plugin Manager (for open-source plugins)
+## Adding your plugin to the VCV Library (for open-source plugins)
 
 Create exactly one thread in the [Issue Tracker](https://github.com/VCVRack/library/issues), with a title equal to your plugin slug (or multiple slugs, comma-separated, if you have more than one plugin).
 In your post, include a URL to your source code.
@@ -27,7 +27,7 @@ Post a comment in your plugin's thread with
 A library maintainer will handle your request and post a comment when updated.
 
 
-## Adding your plugin to the VCV Plugin Manager (for closed-source freeware and commercial plugins)
+## Adding your plugin to the VCV Library (for closed-source freeware and commercial plugins)
 
-Email contact@vcvrack.com to be added to the VCV Plugin Manager or sold through the VCV Store.
+Email contact@vcvrack.com to be added to the VCV Library or sold through the VCV Store.
 You do not need to create a plugin thread.
