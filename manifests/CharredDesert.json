@@ -1,0 +1,123 @@
+{
+  "slug": "CharredDesert",
+  "name": "CharredDesert",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "author": "Jerry Sievert",
+  "authorEmail": "rack@legitimatesounding.com",
+  "authorUrl": "https://legitimatesounding.com/",
+  "pluginUrl": "https://github.com/JerrySievert/CharredDesert",
+  "manualUrl": "https://github.com/JerrySievert/CharredDesert/blob/master/docs/README.md",
+  "sourceUrl": "https://github.com/JerrySievert/CharredDesert",
+  "donateUrl": "https://paypal.me/JerrySievert",
+  "modules": [
+    {
+      "slug": "DTMF",
+      "name": "DTMF",
+      "description": "DTMF Tone Generator",
+      "tags": [
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "Noise",
+      "name": "Noise",
+      "description": "White and Pink Noise Generator",
+      "tags": [
+        "Envelope generator",
+        "Noise"
+      ]
+    },
+    {
+      "slug": "CVSequencer",
+      "name": "CV Sequencer",
+      "description": "CV Sequencer",
+      "tags": [
+        "Logic",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Not",
+      "name": "Not",
+      "description": "CV and Voltage Inverter",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Pan",
+      "name": "Pan",
+      "description": "Stereo Panner",
+      "tags": [
+        "Panning"
+      ]
+    },
+    {
+      "slug": "Shift",
+      "name": "Shift",
+      "description": "CV and Waveform Shifter/Attenuator",
+      "tags": [
+        "Logic",
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "Oscar2",
+      "name": "Oscar^2",
+      "description": "Oscillator Madness",
+      "tags": [
+        "VCO",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Eq",
+      "name": "Eq",
+      "description": "CV Controlled Equalizer",
+      "tags": [
+        "Equalizer"
+      ]
+    },
+    {
+      "slug": "Carbon",
+      "name": "Carbon",
+      "description": "Moog-like Filter",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "Mixer",
+      "name": "Mixer",
+      "description": "8 Channel Stereo Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "MixerCV",
+      "name": "Mixer CV",
+      "description": "CV Controlled 8 Channel Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "CV",
+      "name": "CV",
+      "description": "Simple CV Manipulator",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "M",
+      "name": "M",
+      "description": "Mini 2 Channel Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    }
+  ]
+}

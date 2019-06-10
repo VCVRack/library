@@ -1,0 +1,87 @@
+{
+  "slug": "DrumKit",
+  "name": "DrumKit",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "author": "Jerry Sievert",
+  "authorEmail": "rack@legitimatesounding.com",
+  "authorUrl": "https://legitimatesounding.com/",
+  "pluginUrl": "https://github.com/JerrySievert/DrumKit",
+  "manualUrl": "https://github.com/JerrySievert/DrumKit/blob/master/README.md",
+  "sourceUrl": "https://github.com/JerrySievert/DrumKit",
+  "donateUrl": "https://paypal.me/JerrySievert",
+  "modules": [
+    {
+      "slug": "BassDrum9",
+      "name": "Bass Drum 9",
+      "description": "Bass Drum Kit based on 909",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "ClosedHiHat",
+      "name": "Closed HiHat",
+      "description": "HiHat Module",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "CR78",
+      "name": "CR78",
+      "description": "CompuRhythm 78 Kit",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "CR78mk2",
+      "name": "CR78 mk2",
+      "description": "CompuRhythm 78 Kit, mk 2",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "DMX",
+      "name": "DMX",
+      "description": "DMX Drum Kit",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "DMXmk2",
+      "name": "DMX mk2",
+      "description": "DMX Drum Kit mk 2",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "OpenHiHat",
+      "name": "Open HiHat",
+      "description": "HiHat Module",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "SyntheticBassDrum",
+      "name": "Synthetic Bass Drum",
+      "description": "Synthetic Bass Drum",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "SnareDrumN",
+      "name": "Snare Drum N",
+      "description": "Snare Drum Kit based on Novation Drumstation",
+      "tags": [
+        "Drum"
+      ]
+    }
+  ]
+}

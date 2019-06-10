@@ -1,0 +1,128 @@
+{
+  "slug": "SynthKit",
+  "name": "SynthKit",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "author": "Jerry Sievert",
+  "authorEmail": "rack@legitimatesounding.com",
+  "authorUrl": "https://legitimatesounding.com/",
+  "pluginUrl": "https://github.com/jerrysievert/synthkit/",
+  "manualUrl": "https://github.com/JerrySievert/SynthKit/blob/master/docs/README.md",
+  "sourceUrl": "https://github.com/jerrysievert/synthkit/",
+  "donateUrl": "https://paypal.me/JerrySievert",
+  "modules": [
+    {
+      "slug": "1x8Splitter",
+      "name": "1x8 Splitter",
+      "description": "1 in 8 out",
+      "tags": [
+        "Clock modulator",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "1x8SplitterCV",
+      "name": "1x8 Splitter (CV)",
+      "description": "CV Controlled 1x8 Splitter",
+      "tags": [
+        "Clock modulator",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Addition",
+      "name": "Addition",
+      "description": "Simple value addition",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Subtraction",
+      "name": "Subtraction",
+      "description": "Simple value subtraction",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "ClockDivider",
+      "name": "Clock Divider",
+      "description": "Clock Divider",
+      "tags": [
+        "Clock modulator",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "And",
+      "name": "And",
+      "description": "Logical Bitwise And",
+      "tags": [
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Or",
+      "name": "Or",
+      "description": "Logical Bitwise Or",
+      "tags": [
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "FibonacciClockDivider",
+      "name": "Fibonacci Clock Divider",
+      "description": "Fibonacci Clock Divider",
+      "tags": [
+        "Clock modulator",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "PrimeClockDivider",
+      "name": "PrimeClock Divider",
+      "description": "Prime Clock Divider",
+      "tags": [
+        "Clock modulator",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "RotatingClockDivider",
+      "name": "Rotating Clock Divider",
+      "description": "Rotating Clock Divider",
+      "tags": [
+        "Clock modulator",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "ShiftingClockDividerCV",
+      "name": "Shifting Clock Divider",
+      "description": "Shifting Clock Divider",
+      "tags": [
+        "Clock modulator",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "4-StepSequencer",
+      "name": "4-Step Sequencer",
+      "description": "4-Step Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "8-StepSequencer",
+      "name": "8-Step Sequencer",
+      "description": "8-Step Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}
