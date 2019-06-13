@@ -1,0 +1,40 @@
+{
+  "slug": "ExpertSleepers-SilentWay",
+  "name": "Silent Way",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Expert Sleepers",
+  "author": "Andrew Ostler",
+  "authorEmail": "contact@expert-sleepers.co.uk",
+  "authorUrl": "https://expert-sleepers.co.uk",
+  "pluginUrl": "https://expert-sleepers.co.uk/vcvrack_silentway.html",
+  "manualUrl": "https://expert-sleepers.co.uk/vcvrack_silentway.html#manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "ExpertSleepers-SilentWay-VoiceController",
+      "name": "Voice Controller",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "ExpertSleepers-SilentWay-ACEncoder",
+      "name": "AC Encoder",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "ExpertSleepers-SilentWay-CVInput",
+      "name": "CV Input",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "ExpertSleepers-SilentWay-CVToMIDI",
+      "name": "CV To MIDI",
+      "description": "",
+      "tags": []
+    }
+  ]
+}
