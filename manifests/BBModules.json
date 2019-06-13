@@ -1,0 +1,66 @@
+{
+	"slug": "BBModules",
+	"name": "BB Modules",
+	"version": "1.0.0",
+	"license": "proprietary",
+	"brand": "BB Modules",
+	"author": "Roberto Colabene",
+	"authorEmail": "robertocolabene@gmail.com",
+	"authorUrl": "https://github.com/soulbridge/BBModules",
+	"pluginUrl": "https://github.com/soulbridge/BBModules",
+	"manualUrl": "https://github.com/soulbridge/BBModules",
+	"sourceUrl": "",
+	"donateUrl": "",
+	"changelogUrl": "https://github.com/soulbridge/BBModules",
+	"modules": [
+	{
+			"slug": "fox",
+			"name": "Fox",
+			"description": "Clean Overdrive",
+			"tags": ["Effect", "Distortion"]
+		},
+		{
+			"slug": "ability",
+			"name": "Mirror",
+			"description": "Multi-Algorithm Module",
+			"tags": ["Utility"]
+		},
+		{
+			"slug": "mixture",
+			"name": "MX",
+			"description": "Amplifier, Mixer and Attenuator",
+			"tags": ["Amplifier","Mixer","Attenuator"]
+		},
+		{
+			"slug": "triverse",
+			"name": "TT",
+			"description": "Mixer and Attenuator",
+			"tags": ["Mixer","Attenuator"]
+		},
+		{
+			"slug": "bimix",
+			"name": "BX",
+			"description": "Mixer and Attenuator",
+			"tags": ["Mixer", "Attenuator"]
+		},
+		{
+			"slug": "nostromo",
+			"name": "Nostromo",
+			"description": "Complex Oscillator",
+			"tags": ["Oscillator"]
+		},
+		{
+			"slug": "yggdrasill",
+			"name": "Yggdrasill",
+			"disabled": true,
+			"description": "Random Function Generator",
+			"tags": ["Utility"]
+		},
+		{
+			"slug": "ut",
+			"name": "UT",
+			"description": "Touch Strip",
+			"tags": ["Utility"]
+		}
+	]
+}
