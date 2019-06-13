@@ -1,0 +1,78 @@
+{
+  "slug": "UnfilteredVolume1",
+  "name": "Unfiltered Volume 1",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Unfiltered Audio",
+  "authorEmail": "contact@unfilteredaudio.com",
+  "authorUrl": "unfilteredaudio.com",
+  "pluginUrl": "https://www.unfilteredaudio.com/pages/vcv-manuals",
+  "manualUrl": "https://www.unfilteredaudio.com/pages/vcv-manuals",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "DentCrusher",
+      "name": "Dent Crusher",
+      "description": "Multimode bitcrusher",
+      "tags": [
+        "Effect",
+        "Digital",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Fusion",
+      "name": "Fusion",
+      "description": "Two-input signal smasher and creative mixer",
+      "tags": [
+        "Effect",
+        "Digital",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "GlitchShifter",
+      "name": "Glitch Shifter",
+      "description": "Unpredictable granular delay buffer",
+      "tags": [
+        "Effect",
+        "Digital",
+        "Granular",
+        "Clock Generator"
+      ]
+    },
+    {
+      "slug": "Indent",
+      "name": "Indent Saturation",
+      "description": "Multimode distortion and saturation",
+      "tags": [
+        "Effect",
+        "Waveshaper",
+        "ADistortion"
+      ]
+    },
+    {
+      "slug": "InstantDelay",
+      "name": "Instant Delay",
+      "description": "Smooth granular delay without artifacts",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Granular",
+        "Clock Generator"
+      ]
+    },
+    {
+      "slug": "PitchDelay",
+      "name": "Pitch Delay",
+      "description": "Granular pitch-shifting delay",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Granular",
+        "Clock Generator"
+      ]
+    }
+  ]
+}
