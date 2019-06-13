@@ -30,6 +30,7 @@ def build_mac(plugin_dir):
 	env = f'CC=x86_64-apple-darwin15-clang CXX=x86_64-apple-darwin15-clang++-libc++ STRIP=x86_64-apple-darwin15-strip RACK_DIR={RACK_SDK}'
 	make = f'{env} make -j$(nproc) -C {plugin_dir}'
 	system(f'{make} clean')
+	system(f'{make} dep')
 	system(f'{make} dist')
 	stage_package(plugin_dir)
 	system(f'{make} clean')
@@ -39,6 +40,7 @@ def build_win(plugin_dir):
 	env = f'CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ STRIP=x86_64-w64-mingw32-strip RACK_DIR={RACK_SDK}'
 	make = f'{env} make -j$(nproc) -C {plugin_dir}'
 	system(f'{make} clean')
+	system(f'{make} dep')
 	system(f'{make} dist')
 	stage_package(plugin_dir)
 	system(f'{make} clean')
@@ -51,6 +53,7 @@ def build_lin(plugin_dir):
 	# It's essentially just Ubuntu 16.04 with plugin build dependencies installed, the workdir, and a user account set up so it matches my own machine's UID to solve file permissions issues.
 	docker = f'docker run --rm -v {RACK_SDK}:/Rack-SDK -v {plugin_abs}:/workdir -w /workdir -u vortico -e RACK_DIR=/Rack-SDK rackplugin:1'
 	system(f'{docker} {make} clean')
+	system(f'{docker} {make} dep')
 	system(f'{docker} {make} dist')
 	stage_package(plugin_dir)
 	system(f'{docker} {make} clean')

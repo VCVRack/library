@@ -1,0 +1,23 @@
+{
+  "slug": "ESeries",
+  "name": "E-Series",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/ESeries.html",
+  "manualUrl": "https://vcvrack.com/ESeries.html#manual",
+  "sourceUrl": "https://github.com/VCVRack/ESeries",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "E340",
+      "name": "E340 Cloud Generator",
+      "description": "Based on Synthesis Technology E340",
+      "tags": [
+        "VCO"
+      ]
+    }
+  ]
+}

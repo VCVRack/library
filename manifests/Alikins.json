@@ -1,0 +1,106 @@
+{
+  "slug": "Alikins",
+  "name": "Alikins",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "author": "Adrian Likins",
+  "authorEmail": "adrian@likins.com",
+  "authorUrl": "https://github.com/alikins/",
+  "pluginUrl": "https://github/com/alikins/Alikins-rack-plugins",
+  "manualUrl": "",
+  "sourceUrl": "https://github/com/alikins/Alikins-rack-plugins",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "GateLength",
+      "name": "Gate Length",
+      "description": "Create a gate with CV controlled length",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "BigMuteButton",
+      "name": "Big Mute Button",
+      "description": "A big mute button",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Reference",
+      "name": "Reference Voltages",
+      "description": "Fixed output voltages for -10V,-5V, -1V, 0V, 1V, 5V, 10V",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ColorPanel",
+      "name": "Color Panel",
+      "description": "Control the color of the panel with CV",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "MomentaryOnButtons",
+      "name": "Momentary On Buttons",
+      "description": "Set of momentarily on buttons",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "ShiftPedal",
+      "name": "Shift Pedal",
+      "description": "Generate gates on mod key presses",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SpecificValue",
+      "name": "Specific Value",
+      "description": "Set or view voltages with text widget",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "HoveredValue",
+      "name": "Hovered Value",
+      "description": "Display and output the value of the currently hovered widget",
+      "tags": [
+        "Utility",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "InjectValue",
+      "name": "Inject Value",
+      "description": "Inject value into param under cursor",
+      "tags": [
+        "Utility",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "ValueSaver",
+      "name": "Value Saver",
+      "description": "Save last used value",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "IdleSwitch",
+      "name": "Idle Switch",
+      "description": "If a signal goes idle, flip a switch",
+      "tags": [
+        "Utility",
+        "Switch"
+      ]
+    }
+  ]
+}

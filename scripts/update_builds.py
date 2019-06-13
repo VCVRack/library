@@ -62,8 +62,6 @@ for plugin_dir in plugin_dirs:
 if not built_slugs:
 	raise Exception("Nothing to build")
 
-raise Exception("finished")
-
 # Upload packages
 build.system("cd ../packages && make upload")
 
