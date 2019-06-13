@@ -1,0 +1,213 @@
+{
+  "slug": "Fundamental",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "name": "Fundamental",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "pluginUrl": "https://vcvrack.com/Fundamental.html",
+  "authorUrl": "https://vcvrack.com/",
+  "manualUrl": "https://vcvrack.com/Fundamental.html#manual",
+  "sourceUrl": "https://github.com/VCVRack/Fundamental",
+  "changelogUrl": "https://github.com/VCVRack/Fundamental/blob/v1/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "VCO",
+      "name": "VCO-1",
+      "description": "Voltage-controlled oscillator",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "VCO2",
+      "name": "VCO-2",
+      "description": "Voltage-controlled oscillator",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "VCF",
+      "name": "VCF",
+      "description": "Voltage-controlled filter",
+      "tags": [
+        "VCF",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "VCA-1",
+      "name": "VCA-1",
+      "description": "Voltage-controlled amplifier",
+      "tags": [
+        "VCA",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "VCA",
+      "name": "VCA-2",
+      "description": "Voltage-controlled amplifier",
+      "tags": [
+        "VCA",
+        "Dual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "LFO",
+      "name": "LFO-1",
+      "description": "Low-frequency oscillator",
+      "tags": [
+        "LFO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "LFO2",
+      "name": "LFO-2",
+      "description": "Low-frequency oscillator",
+      "tags": [
+        "LFO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Delay",
+      "name": "Delay",
+      "description": "",
+      "tags": [
+        "Delay"
+      ]
+    },
+    {
+      "slug": "ADSR",
+      "name": "ADSR",
+      "description": "Generates an envelope with Attack/Decay/Sustain/Release",
+      "tags": [
+        "Envelope Generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "VCMixer",
+      "name": "Mixer",
+      "description": "Mixes 4 signals with built-in VCAs",
+      "tags": [
+        "Mixer",
+        "VCA",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "8vert",
+      "name": "8vert",
+      "description": "Attenuverts 8 signals or creates constant voltages",
+      "tags": [
+        "Attenuator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Unity",
+      "name": "Unity",
+      "description": "Mixes or averages signals with unity gain",
+      "tags": [
+        "Mixer",
+        "Utility",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Mutes",
+      "name": "Mutes",
+      "description": "Toggles 10 signals on/off",
+      "tags": [
+        "Switch",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Scope",
+      "name": "Scope",
+      "description": "Inspect waveforms with an oscilloscope",
+      "tags": [
+        "Visual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SEQ3",
+      "name": "SEQ-3",
+      "description": "3-channel 8-step sequencer also with gate outputs",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "SequentialSwitch1",
+      "name": "Sequential Switch 1",
+      "description": "Routes an input to one of to 4 outputs",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SequentialSwitch2",
+      "name": "Sequential Switch 2",
+      "description": "Routes one of to 4 inputs to an output",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Octave",
+      "name": "Octave",
+      "description": "Shifts 1V/oct CV by octaves",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Split",
+      "name": "Split",
+      "description": "Splits a polyphonic cable into multiple monophonic cables",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Merge",
+      "name": "Merge",
+      "description": "Combines multiple monophonic cables into a polyphonic cable",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Sum",
+      "name": "Sum",
+      "description": "Sums all channels in a polyphonic cable",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Viz",
+      "name": "Viz",
+      "description": "Visualizes all channels of a polyphonic cable",
+      "tags": [
+        "Polyphonic",
+        "Visual"
+      ]
+    }
+  ]
+}
