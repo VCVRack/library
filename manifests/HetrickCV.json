@@ -1,0 +1,195 @@
+{
+  "slug": "HetrickCV",
+  "name": "HetrickCV",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "author": "Michael Hetrick",
+  "authorEmail": "",
+  "authorUrl": "https://mhetrick.com",
+  "pluginUrl": "https://github.com/mhetrick/hetrickcv",
+  "manualUrl": "https://github.com/mhetrick/hetrickcv/blob/master/README.md",
+  "sourceUrl": "https://github.com/mhetrick/hetrickcv",
+  "donateUrl": "https://paypal.me/MHetrick",
+  "modules": [
+    {
+      "slug": "ASR",
+      "name": "ASR",
+      "description": "Analog shift register. Multi-stage sample and hold",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "AnalogToDigital",
+      "name": "Analog to Digital",
+      "description": "Converts a continuous signal into eight gates representing bit values.",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Bitshift",
+      "name": "Bitshift",
+      "description": "Bitshifting distortion and waveshaping effect",
+      "tags": [
+        "Effect",
+        "Distortion",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "BlankPanel",
+      "name": "Blank Panel",
+      "description": "A blank panel. Show your love for HetrickCV",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Boolean3",
+      "name": "Boolean Logic",
+      "description": "Six way boolean logic processor",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Comparator",
+      "name": "Comparator",
+      "description": "Determine whether a signal is above or below a threshold.",
+      "tags": [
+        "Logic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Contrast",
+      "name": "Contrast",
+      "description": "A mild distortion that brightens up a signal.",
+      "tags": [
+        "Effect",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Crackle",
+      "name": "Crackle",
+      "description": "Vinyl-like noise generator ported from SuperCollider.",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "Delta",
+      "name": "Delta",
+      "description": "Determine which direction a signal is heading.",
+      "tags": [
+        "Logic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DigitalToAnalog",
+      "name": "Digital to Analog",
+      "description": "Converts eight gates to a smooth signal.",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Dust",
+      "name": "Dust",
+      "description": "Random impulse and noise generator ported from SuperCollider",
+      "tags": [
+        "Noise",
+        "Granular"
+      ]
+    },
+    {
+      "slug": "Exponent",
+      "name": "Exponent",
+      "description": "Raise a signal to a power",
+      "tags": [
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "FlipFlop",
+      "name": "Flip-Flop",
+      "description": "A flexible toggle switch",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "FlipPan",
+      "name": "Flip Pan",
+      "description": "A bidirectional panner, crossfader, and VCA",
+      "tags": [
+        "Panning",
+        "VCA",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "GateJunction",
+      "name": "Gate Junction",
+      "description": "Eight channel gate processor.",
+      "tags": [
+        "Switch",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "LogicCombine",
+      "name": "OR Logic (Gate Combiner)",
+      "description": "Combines multiple gates into one gate.",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "RandomGates",
+      "name": "Random Gates",
+      "description": "Generates up to eight random gates.",
+      "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "Rotator",
+      "name": "Rotator",
+      "description": "Eight-way channel rotation.",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Scanner",
+      "name": "Scanner",
+      "description": "8-channel signal crossfader, mixer, scanner, and router.",
+      "tags": [
+        "Mixer",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "2To4",
+      "name": "2 To 4 Mix Matrix",
+      "description": "Takes two signals and generates four variations.",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Waveshaper",
+      "name": "Waveshaper",
+      "description": "Modulatable hyperbolic waveshaper",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Waveshaper"
+      ]
+    }
+  ]
+}

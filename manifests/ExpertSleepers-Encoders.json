@@ -1,0 +1,46 @@
+{
+  "slug": "ExpertSleepers-Encoders",
+  "name": "Encoders",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "Expert Sleepers",
+  "author": "Andrew Ostler",
+  "authorEmail": "contact@expert-sleepers.co.uk",
+  "authorUrl": "https://expert-sleepers.co.uk",
+  "pluginUrl": "https://expert-sleepers.co.uk/vcvrack_encoders.html",
+  "manualUrl": "https://expert-sleepers.co.uk/vcvrack_encoders.html",
+  "sourceUrl": "https://github.com/expertsleepersltd/vcvrack-encoders",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "ExpertSleepers-Encoders-8CV",
+      "name": "8CV Encoder",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "ExpertSleepers-Encoders-8GT",
+      "name": "8GT Encoder",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "ExpertSleepers-Encoders-ES5",
+      "name": "ES-5 Encoder",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "ExpertSleepers-Encoders-ES40",
+      "name": "ES-4(0) Encoder",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "ExpertSleepers-Encoders-SMUX",
+      "name": "SMUX",
+      "description": "",
+      "tags": []
+    }
+  ]
+}
