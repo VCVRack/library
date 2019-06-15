@@ -1,0 +1,100 @@
+{
+  "slug": "Geodesics",
+  "name": "Geodesics",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "author": "Pyer & Marc Boul\u00e9",
+  "brand": "Geodesics",
+  "authorEmail": "geodesics.modular@outlook.com",
+  "authorUrl": "",
+  "pluginUrl": "https://www.pyer.be/geodesics.html",
+  "manualUrl": "https://www.pyer.be/download.html",
+  "sourceUrl": "https://github.com/MarcBoule/Geodesics/tree/v1",
+  "donateUrl": "https://paypal.me/pyercollard",
+  "modules": [
+    {
+      "slug": "BlackHoles",
+      "name": "BlackHoles",
+      "description": "Gravitational attenumixset",
+      "tags": [
+        "Ring modulator",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "Pulsars",
+      "name": "Pulsars",
+      "description": "Neutron powered morphing",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Branes",
+      "name": "Branes",
+      "description": "Coliding sample and hold",
+      "tags": [
+        "Sample and Hold",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Ions",
+      "name": "Ions",
+      "description": "Atomic dual cv sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Entropia",
+      "name": "Entropia",
+      "description": "Thermodynamic microstate sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Energy",
+      "name": "Energy",
+      "description": "Relativistic oscillator",
+      "tags": [
+        "Oscillator",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "Torus",
+      "name": "Torus",
+      "description": "Bi-dimensional multimixer",
+      "tags": [
+        "Mixer",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Fate",
+      "name": "Fate",
+      "description": "Event modifier",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Blank-PanelInfo",
+      "name": "Blank-Panel Info",
+      "description": "Blank panel with info",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank-PanelLogo",
+      "name": "Blank-Panel Logo",
+      "description": "Blank panel with logo",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
+}
