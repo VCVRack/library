@@ -6,9 +6,9 @@
   "author": "Adrian Likins",
   "authorEmail": "adrian@likins.com",
   "authorUrl": "https://github.com/alikins/",
-  "pluginUrl": "https://github/com/alikins/Alikins-rack-plugins",
-  "manualUrl": "",
-  "sourceUrl": "https://github/com/alikins/Alikins-rack-plugins",
+  "pluginUrl": "https://github.com/alikins/Alikins-rack-plugins",
+  "manualUrl": "https://github.com/alikins/Alikins-rack-plugins/blob/master/README.md",
+  "sourceUrl": "https://github.com/alikins/Alikins-rack-plugins",
   "donateUrl": "",
   "modules": [
     {

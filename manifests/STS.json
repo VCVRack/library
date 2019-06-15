@@ -1,0 +1,66 @@
+{
+  "slug": "STS",
+  "version": "1.0.1",
+  "license": "GPL-3.0-only",
+  "name": "STS",
+  "author": "STS",
+  "authorEmail": "sts.modules@gmail.com",
+  "authorUrl": "https://github.com/SmallTownSound/STS/blob/V1/README.md",
+  "pluginUrl": "https://github.com/SmallTownSound/STS/",
+  "manualUrl": "https://github.com/SmallTownSound/STS/blob/V1/README.md",
+  "sourceUrl": "https://github.com/SmallTownSound/STS/blob/V1/README.md",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Odyssey",
+      "name": "Oddy",
+      "description": "Poly Synth",
+      "tags": [
+        "Synth Voice",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolySEQ16",
+      "name": "PolySEQ16",
+      "description": "Quantized 16 Step POLY Sequencer",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Illiad",
+      "name": "Illiad",
+      "description": "Synth Controller",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "RingModulator",
+      "name": "RingModulator",
+      "description": "Ring Modulator",
+      "tags": [
+        "Ring Modulator"
+      ]
+    },
+    {
+      "slug": "WaveFolder",
+      "name": "WaveFolder",
+      "description": "Wave Folder",
+      "tags": [
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "VU_Poly",
+      "name": "VU_Poly",
+      "description": "VU Meter Poly",
+      "tags": [
+        "Visual",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

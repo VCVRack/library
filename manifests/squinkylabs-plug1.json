@@ -3,7 +3,7 @@
   "name": "Squinky Labs",
   "author": "Squinky Labs",
   "license": "CC0-1.0",
-  "authorEmail": "contact@vcvrack.com",
+  "pluginUrl": "https://github.com/squinkylabs/SquinkyVCV/README.md",
   "authorUrl": "https://github.com/squinkylabs/SquinkyVCV/README.md",
   "sourceUrl": "https://github.com/squinkylabs/SquinkyVCV",
   "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/booty-shifter.md",
@@ -130,7 +130,10 @@
       "slug": "squinkylabs-blank",
       "name": "Blank",
       "disabled": true,
-      "description": "blank starting project"
+      "description": "blank starting project",
+      "tags": [
+        "Blank"
+      ]
     },
     {
       "slug": "squinkylabs-slew4",
