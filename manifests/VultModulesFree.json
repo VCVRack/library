@@ -1,0 +1,169 @@
+{
+   "slug": "VultModulesFree",
+   "name": "Vult Modules Free",
+   "author": "Leonardo Laguna Ruiz",
+   "brand": "Vult",
+   "license": "proprietary",
+   "authorEmail": "leonardo@vult-dsp.com",
+   "pluginUrl": "https://modlfo.github.io/VultModules/",
+   "authorUrl": "https://vult-dsp.com",
+   "manualUrl": "https://modlfo.github.io/VultModules",
+   "version": "1.0.0",
+   "modules": [{
+         "slug": "Basal",
+         "name": "Basal (Free)",
+         "tags": ["VCO"],
+         "description": "Smooth Oscillator"
+      },
+      {
+         "slug": "Bleak",
+         "name": "Bleak (Free)",
+         "tags": ["VCO"],
+         "description": "Analog Oscillator"
+      },
+      {
+         "slug": "Caudal",
+         "name": "Caudal (Free)",
+         "tags": ["Random", "LFO", "Noise"],
+         "description": "Mechanical Chaos Source"
+      },
+      {
+         "slug": "Debriatus",
+         "name": "Debriatus (Free)",
+         "tags": ["Distortion", "Waveshaper", "Effect"],
+         "description": "Wave Destruction"
+      },
+      {
+         "slug": "Flux",
+         "name": "Flux (Free)",
+         "tags": ["Attenuator", "Envelope follower", "Quad", "Sample and hold", "Slew limiter", "Utility"],
+         "description": "Quad Voltage Processor"
+      },
+      {
+         "slug": "Julste",
+         "name": "Julste (Free)",
+         "tags": ["Low pass gate"],
+         "description": "Simple Low Pass Gate"
+      },
+      {
+         "slug": "Lateralus",
+         "name": "Lateralus (Free)",
+         "tags": ["VCF", "VCO"],
+         "description": "Diode Ladder Filter"
+      },
+      {
+         "slug": "Leakage",
+         "name": "Leakage (Free)",
+         "tags": ["Attenuator", "Envelope follower", "Sample and hold", "Slew limiter", "Utility", "Random", "Noise"],
+         "description": "Voltage Processor"
+      },
+      {
+         "slug": "Nopskate",
+         "name": "Nopskate (Free)",
+         "tags": ["Waveshaper", "Effect"],
+         "description": "Flip-Flop Octaver"
+      },
+      {
+         "slug": "Rescomb",
+         "name": "Rescomb (Free)",
+         "tags": ["VCF", "Effect"],
+         "description": "Resonant Comb Filter"
+      },
+      {
+         "slug": "Slap",
+         "name": "Slap (Free)",
+         "tags": ["Envelope generator", "VCA"],
+         "description": "Hitting Envelope"
+      },
+      {
+         "slug": "Spank",
+         "name": "Spank (Free)",
+         "tags": ["Envelope generator", "VCA"],
+         "description": "Drum Envelope"
+      },
+      {
+         "slug": "Splie",
+         "name": "Splie (Free)",
+         "tags": ["Multiple", "Utility"],
+         "description": "Active Buffer"
+      },
+      {
+         "slug": "Stabile",
+         "name": "Stabile (Free)",
+         "tags": ["VCF"],
+         "description": "State Variable Filter"
+      },
+      {
+         "slug": "Tangents",
+         "name": "Tangents (Free)",
+         "tags": ["VCF", "VCO"],
+         "description": "Steiner-Parker Filter"
+      },
+      {
+         "slug": "Tohe",
+         "name": "Tohe (Free)",
+         "tags": ["VCF", "Equalizer"],
+         "description": "Tone Control"
+      },
+      {
+         "slug": "Trummor",
+         "name": "Trummor (Free)",
+         "tags": ["Drum", "Envelope generator", "Noise"],
+         "description": "Drum Synthesizer"
+      },
+      {
+         "slug": "Trummor2",
+         "name": "Trummor 2 (Free)",
+         "tags": ["Drum", "Envelope generator", "Noise"],
+         "description": "Percussion Synthesizer"
+      },
+      {
+         "slug": "Unstabile",
+         "name": "Unstabile (Free)",
+         "tags": ["VCF"],
+         "description": "Bent State Variable Filter"
+      },
+      {
+         "slug": "Vessek",
+         "name": "Vessek (Free)",
+         "tags": ["VCO"],
+         "description": "Complex Analog Oscillator"
+      },
+      {
+         "slug": "BlackPanelSmall",
+         "name": "Blank: 3 HP (Free)",
+         "tags": ["Blank"],
+         "description": "Blank: 3 HP"
+      },
+      {
+         "slug": "BlackPanel",
+         "name": "Blank: 6 HP (Free)",
+         "tags": ["Blank"],
+         "description": "Blank: 6 HP"
+      },
+      {
+         "slug": "BlackPanelBig",
+         "name": "Blank: 12 HP (Free)",
+         "tags": ["Blank"],
+         "description": "Blank: 12 HP"
+      },
+      {
+         "slug": "UtilBypass",
+         "name": "Bypass (Free)",
+         "tags": ["Utility"],
+         "description": "Stereo Channel Effect Bypass"
+      },
+      {
+         "slug": "UtilKnobs",
+         "name": "Knobs (Free)",
+         "tags": ["Utility", "Attenuator", "Mixer", "Dual"],
+         "description": "Modulation Mixer and Macro Control"
+      },
+      {
+         "slug": "UtilSend",
+         "name": "Send (Free)",
+         "tags": ["Utility"],
+         "description": "Stereo Channel Send/Return"
+      }
+   ]
+}
