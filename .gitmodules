@@ -327,3 +327,9 @@
 [submodule "repos/FrankBuss"]
 	path = repos/FrankBuss
 	url = https://github.com/FrankBuss/FrankBussRackPlugin.git
+[submodule "repos/CountModula"]
+	path = repos/CountModula
+	url = https://github.com/countmodula/VCVRackPlugins.git
+[submodule "repos/CYC"]
+	path = repos/CYC
+	url = https://github.com/mrletourneau/strong_kar.git
