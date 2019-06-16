@@ -8,47 +8,47 @@
    "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
    "authorUrl": "https://vult-dsp.com",
    "manualUrl": "https://modlfo.github.io/VultModules",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "modules": [{
          "slug": "Basal",
          "name": "Basal",
-         "tags": ["VCO"],
+         "tags": ["VCO", "Polyphonic"],
          "description": "Smooth Oscillator"
       },
       {
          "slug": "Bleak",
          "name": "Bleak",
-         "tags": ["VCO"],
+         "tags": ["VCO", "Polyphonic"],
          "description": "Analog Oscillator"
       },
       {
          "slug": "Caudal",
          "name": "Caudal",
-         "tags": ["Random", "LFO", "Noise"],
+         "tags": ["Random", "LFO", "Noise", "Polyphonic"],
          "description": "Mechanical Chaos Source"
       },
       {
          "slug": "Debriatus",
          "name": "Debriatus",
-         "tags": ["Distortion", "Waveshaper", "Effect"],
+         "tags": ["Distortion", "Waveshaper", "Effect", "Polyphonic"],
          "description": "Wave Destruction"
       },
       {
          "slug": "Flame",
          "name": "Flame",
-         "tags": ["Distortion", "Waveshaper", "Effect"],
+         "tags": ["Distortion", "Waveshaper", "Effect", "Polyphonic"],
          "description": "Analog Distortion"
       },
       {
          "slug": "Ferox",
          "name": "Ferox",
-         "tags": ["VCF"],
+         "tags": ["VCF", "Polyphonic"],
          "description": "CMOS Filter"
       },
       {
          "slug": "Flux",
          "name": "Flux",
-         "tags": ["Attenuator", "Envelope follower", "Quad", "Sample and hold", "Slew limiter", "Utility"],
+         "tags": ["Attenuator", "Envelope follower", "Quad", "Sample and hold", "Slew limiter", "Utility", "Polyphonic"],
          "description": "Quad Voltage Processor"
       },
       {
@@ -60,31 +60,31 @@
       {
          "slug": "Julste",
          "name": "Julste",
-         "tags": ["Low pass gate"],
+         "tags": ["Low pass gate", "Polyphonic"],
          "description": "Simple Low Pass Gate"
       },
       {
          "slug": "Lateralus",
          "name": "Lateralus",
-         "tags": ["VCF", "VCO"],
+         "tags": ["VCF", "VCO", "Polyphonic"],
          "description": "Diode Ladder Filter"
       },
       {
          "slug": "Leakage",
          "name": "Leakage",
-         "tags": ["Attenuator", "Envelope follower", "Sample and hold", "Slew limiter", "Utility", "Random", "Noise"],
+         "tags": ["Attenuator", "Envelope follower", "Sample and hold", "Slew limiter", "Utility", "Random", "Noise", "Polyphonic"],
          "description": "Voltage Processor"
       },
       {
          "slug": "Nopskate",
          "name": "Nopskate",
-         "tags": ["Waveshaper", "Effect"],
+         "tags": ["Waveshaper", "Effect", "Polyphonic"],
          "description": "Flip-Flop Octaver"
       },
       {
          "slug": "Noxious",
          "name": "Noxious",
-         "tags": ["VCO", "LFO"],
+         "tags": ["VCO", "LFO", "Polyphonic"],
          "description": "Pure Distortion Oscillator"
       },
       {
@@ -96,85 +96,85 @@
       {
          "slug": "Nurage",
          "name": "Nurage",
-         "tags": ["Low pass gate", "VCF", "VCO", "VCA"],
+         "tags": ["Low pass gate", "VCF", "VCO", "VCA", "Polyphonic"],
          "description": "Dual Low Pass Gate/Filter"
       },
       {
          "slug": "Rescomb",
          "name": "Rescomb",
-         "tags": ["VCF", "Effect"],
+         "tags": ["VCF", "Effect", "Polyphonic"],
          "description": "Resonant Comb Filter"
       },
       {
          "slug": "Rescomb2",
          "name": "Rescomb 2",
-         "tags": ["VCF", "Effect", "VCO"],
+         "tags": ["VCF", "Effect", "VCO", "Polyphonic"],
          "description": "Resonant Comb Filter"
       },
       {
          "slug": "Slap",
          "name": "Slap",
-         "tags": ["Envelope generator", "VCA"],
+         "tags": ["Envelope generator", "VCA", "Polyphonic"],
          "description": "Hitting Envelope"
       },
       {
          "slug": "Spank",
          "name": "Spank",
-         "tags": ["Envelope generator", "VCA"],
+         "tags": ["Envelope generator", "VCA", "Polyphonic"],
          "description": "Drum Envelope"
       },
       {
          "slug": "Splie",
          "name": "Splie",
-         "tags": ["Multiple", "Utility"],
+         "tags": ["Multiple", "Utility", "Polyphonic"],
          "description": "Active Buffer"
       },
       {
          "slug": "Stabile",
          "name": "Stabile",
-         "tags": ["VCF"],
+         "tags": ["VCF", "Polyphonic"],
          "description": "State Variable Filter"
       },
       {
          "slug": "Tangents",
          "name": "Tangents",
-         "tags": ["VCF", "VCO"],
+         "tags": ["VCF", "VCO", "Polyphonic"],
          "description": "Steiner-Parker Filter"
       },
       {
          "slug": "Tohe",
          "name": "Tohe",
-         "tags": ["VCF", "Equalizer"],
+         "tags": ["VCF", "Equalizer", "Polyphonic"],
          "description": "Tone Control"
       },
       {
          "slug": "Trummor",
          "name": "Trummor",
-         "tags": ["Drum", "Envelope generator", "Noise"],
+         "tags": ["Drum", "Envelope generator", "Noise", "Polyphonic"],
          "description": "Drum Synthesizer"
       },
       {
          "slug": "Trummor2",
          "name": "Trummor 2",
-         "tags": ["Drum", "Envelope generator", "Noise"],
+         "tags": ["Drum", "Envelope generator", "Noise", "Polyphonic"],
          "description": "Percussion Synthesizer"
       },
       {
          "slug": "Unstabile",
          "name": "Unstabile",
-         "tags": ["VCF"],
+         "tags": ["VCF", "Polyphonic"],
          "description": "Bent State Variable Filter"
       },
       {
          "slug": "Vessek",
          "name": "Vessek",
-         "tags": ["VCO"],
+         "tags": ["VCO", "Polyphonic"],
          "description": "Complex Analog Oscillator"
       },
       {
          "slug": "Vortex",
          "name": "Vortex",
-         "tags": ["VCF", "VCO"],
+         "tags": ["VCF", "VCO", "Polyphonic"],
          "description": "Russian Filter"
       },
       {
@@ -198,19 +198,19 @@
       {
          "slug": "UtilBypass",
          "name": "Bypass",
-         "tags": ["Utility"],
+         "tags": ["Utility", "Polyphonic"],
          "description": "Stereo Channel Effect Bypass"
       },
       {
          "slug": "UtilKnobs",
          "name": "Knobs",
-         "tags": ["Utility", "Attenuator", "Mixer", "Dual"],
+         "tags": ["Utility", "Attenuator", "Mixer", "Dual", "Polyphonic"],
          "description": "Modulation Mixer and Macro Control"
       },
       {
          "slug": "UtilSend",
          "name": "Send",
-         "tags": ["Utility"],
+         "tags": ["Utility", "Polyphonic"],
          "description": "Stereo Channel Send/Return"
       }
    ]
