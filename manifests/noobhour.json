@@ -1,0 +1,49 @@
+{
+  "slug": "noobhour",
+  "name": "noobhour",
+  "version": "1.0.2",
+  "license": "BSD-3-Clause",
+  "brand": "noobhour",
+  "author": "Nicolas Neubauer",
+  "authorEmail": "noobhourmusic@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/NicolasNeubauer/noobhour_modules",
+  "manualUrl": "https://github.com/NicolasNeubauer/noobhour_modules/blob/master/README.md",
+  "sourceUrl": "https://github.com/NicolasNeubauer/noobhour_modules",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "baseliner",
+      "name": "Baseliner",
+      "description": "",
+      "tags": [
+        "random",
+        "attenuator",
+        "switch",
+        "quad",
+        "poly"
+      ]
+    },
+    {
+      "slug": "bsl1r",
+      "name": "Bsl1r",
+      "description": "",
+      "tags": [
+        "random",
+        "attenuator",
+        "switch",
+        "poly"
+      ]
+    },
+    {
+      "slug": "customscale",
+      "name": "Customscaler",
+      "description": "",
+      "tags": [
+        "quantizer",
+        "random",
+        "poly"
+      ]
+    }
+  ]
+}
