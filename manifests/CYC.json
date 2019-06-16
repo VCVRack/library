@@ -1,0 +1,24 @@
+{
+  "slug": "CYC",
+  "name": "Strong Kar",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "CYC",
+  "author": "Alexander Letourneau",
+  "authorEmail": "alex.letourneau@gmail.com",
+  "authorUrl": "http://alexanderletourneau.com/",
+  "pluginUrl": "https://github.com/mrletourneau/strong_kar",
+  "manualUrl": "https://github.com/mrletourneau/strong_kar",
+  "sourceUrl": "https://github.com/mrletourneau/strong_kar",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "cyc-strong_kar",
+      "name": "Strong Kar",
+      "description": "Implementation of the Karplus-Strong algorithm",
+      "tags": [
+        "VCO"
+      ]
+    }
+  ]
+}

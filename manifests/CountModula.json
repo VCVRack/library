@@ -1,0 +1,282 @@
+{
+  "slug": "CountModula",
+  "name": "Count Modular",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "Count Modula",
+  "author": "Adam Verspaget",
+  "authorEmail": "CountModula@gmail.com",
+  "authorUrl": "https://github.com/countmodula",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/countmodula/VCVRackPlugins/blob/master/MANUAL.md",
+  "sourceUrl": "https://github.com/countmodula/VCVRackPlugins",
+  "donateUrl": "https://paypal.me/countmodula?locale.x=en_AU",
+  "modules": [
+    {
+      "slug": "AnalogueShiftRegister",
+      "name": "Analogue Shift Register",
+      "description": "A dual 4, or single 8, step shift register.",
+      "tags": [
+        "Sample and Hold"
+      ]
+    },
+    {
+      "slug": "Attenuator",
+      "name": "Attenuator",
+      "description": "Dual attenuator with attenuverting option.",
+      "tags": [
+        "Attenuator",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "BinarySequencer",
+      "name": "Binary Sequencer",
+      "description": "Binary counter based sequencer.",
+      "tags": [
+        "Clock generator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "BooleanAND",
+      "name": "Boolean AND Gate",
+      "description": "4 input boolean AND/NAND gate.",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "BooleanOR",
+      "name": "Boolean OR Gate",
+      "description": "4 input boolean OR/NOR gate.",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "BooleanVCNOT",
+      "name": "Boolean VC Inverter",
+      "description": "Dual voltage controlled logical inverter.",
+      "tags": [
+        "Logic",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "BooleanXOR",
+      "name": "Boolean XOR Gate",
+      "description": "4 input boolean XOR/XNOR gate.",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "BurstGenerator",
+      "name": "Burst Generator",
+      "description": "Generates bursts of 1-16 pulses whenever a trigger is received at the trigger input.",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Comparator",
+      "name": "Comparator",
+      "description": "Compares the input signal with either an internal or external threshold value and outputs gate signals based on the outcome.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "CVSpreader",
+      "name": "CV Spreader",
+      "description": "Accepts \"Base\" and \"Spread\" CV inputs and creates a set of new CV values that are spread either side of the base value by an amount determined by the spread value.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "EventArranger",
+      "name": "Event Arranger",
+      "description": "A VCV Rack implementation of the VC Clock and Event Arranger published in an article by John Blacet in the Jan/Feb edition of Synapse magazine.",
+      "tags": [
+        "Clock generator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "GateDelay",
+      "name": "Gate Delay",
+      "description": "A dual gate delay line giving up to 40 seconds of delay with voltage control over the delay time.",
+      "tags": [
+        "Delay",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "G2T",
+      "name": "gate to Trigger Converter",
+      "description": "Description.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ManualCV",
+      "name": "Manual CV Generator",
+      "description": "A simple dual manual CV generator offering +/- 10V with both coarse and fine controls.",
+      "tags": [
+        "Dual",
+        "Controller",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ManualGate",
+      "name": "Manual Gate",
+      "description": "A manually triggered gate generator offering a number of simultaneous gate and inverted gate outputs.",
+      "tags": [
+        "Utility",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "MatrixMixer",
+      "name": "Matrix Mixer",
+      "description": "A 4 x 4 matrix mixer allowing up to 4 input signals to be independently mixed to 4 different outputs.",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "MinimusMaximus",
+      "name": "Minimus Maximus",
+      "description": "A signal processor that determines and outputs the minimum, maximum and mean (average) of up to 4 input signals.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Mixer",
+      "name": "Mixer",
+      "description": "A basic 4 input utility mixer with output level control, overload indicator, inverted output and selectable bipolar/unipolar operation.",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "MorphShaper",
+      "name": "Morph Shaper",
+      "description": "Morphing controller and wave shaper.",
+      "tags": [
+        "Utility",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Multiplexer",
+      "name": "Multiplexer",
+      "description": "A 1 input to 8 output and 8 input to 1 output multiplexer.",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Mute-iple",
+      "name": "Mute-iple",
+      "description": "A dual 4-way/ Single 8 way mutable multiple.",
+      "tags": [
+        "Dual",
+        "Multiple",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "PolyrhythmicGenerator",
+      "name": "Polyrhythmic Generator",
+      "description": "A set of 8 voltage controlled clock dividers that can be used to generate polyrhythms by clocking and/or dividing at different rates.",
+      "tags": [
+        "Clock modulator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ShepardGenerator",
+      "name": "Shepard Generator",
+      "description": "Generates a set of 8 ramp and sawtooth control signals appropriately phased for generation of Shepard tones.",
+      "tags": [
+        "LFO",
+        "Function generator"
+      ]
+    },
+    {
+      "slug": "SRFlipFlop",
+      "name": "SR Flip Flop",
+      "description": "A logical Set/Reset flip flop with enable.",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "TriggerSequencer8",
+      "name": "Trigger Sequencer (8 Step)",
+      "description": "Quad 8 step trigger sequencer",
+      "tags": [
+        "Quad",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TriggerSequencer16",
+      "name": "Trigger Sequencer (16 Step)",
+      "description": "Quad 16 step trigger sequencer",
+      "tags": [
+        "Quad",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "GateDelayMT",
+      "name": "Tapped Gate Delay",
+      "description": "A gate delay that offers up to 40 seconds of delay with tapped outputs at equal intervals along the delay line.",
+      "tags": [
+        "Delay"
+      ]
+    },
+    {
+      "slug": "VCFrequencyDivider",
+      "name": "Voltage Controlled Frequency Divider",
+      "description": "Frequency divider with a variable and voltage controlled division ratio from 1 to around 20.",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "VCPolarizer",
+      "name": "Voltage Controlled Polarizer",
+      "description": "A dual voltage controlled polarizer.",
+      "tags": [
+        "Dual",
+        "Attenuator",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "VoltageControlledSwitch",
+      "name": "Voltage Controlled Switch",
+      "description": "Selects between 2 inputs or routes 1 input to one of 2 outputs based on the level of the signal at the CV input.",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "VoltageInverter",
+      "name": "Voltage Inverter",
+      "description": "A quad voltage inverter that inverts signals around zero.",
+      "tags": [
+        "Utility",
+        "Quad"
+      ]
+    }
+  ]
+}
