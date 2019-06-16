@@ -1,0 +1,154 @@
+{
+  "slug": "FrozenWasteland",
+  "name": "Frozen Wasteland",
+  "version": "1.0.0",
+  "author": "Eric Sterling",
+  "license": "CC0-1.0",
+  "authorEmail": "e.sterling@comcast.net",
+  "pluginUrl": "https://github.com/almostEric/FrozenWasteland/blob/master/README.md",
+  "authorUrl": "https://vcvrack.com/",
+  "manualUrl": "https://github.com/almostEric/FrozenWasteland/blob/master/README.md",
+  "sourceUrl": "https://github.com/almostEric/FrozenWasteland",
+  "donateUrl": "https://paypal.me/FrozenWasteland",
+  "modules": [
+    {
+      "slug": "BPMLFO",
+      "name": "BPM LFO",
+      "description": "Beat Synchronized LFO",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "BPMLFO2",
+      "name": "BPM LFO 2",
+      "description": "Beat Synchronized LFO with CV Waveshape",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "CDCSeriouslySlowLFO",
+      "name": "CDC Seriously Slow LFO",
+      "description": "Slow LFO taken to absurdity",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "DamianLillard",
+      "name": "Damian Lillard",
+      "description": "4-channel CV crossover/mixer",
+      "tags": [
+        "VCA"
+      ]
+    },
+    {
+      "slug": "EverlastingGlottalStopper",
+      "name": "Everlasting Glottal Stopper",
+      "description": "Vocal Tract simulating VCO",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "HairPick",
+      "name": "Hair Pick",
+      "description": "64 Tap Rhythmic Comb Filter",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "LissajousLFO",
+      "name": "Lissajous LFO",
+      "description": "LFO based on interactions of 4 sine waves",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "MrBlueSky",
+      "name": "Mr. Blue Sky",
+      "description": "16 band vocoder",
+      "tags": [
+        "Vocoder"
+      ]
+    },
+    {
+      "slug": "PhasedLockedLoop",
+      "name": "Phased Locked Loop",
+      "description": "PLL attempts to follow input signals freqency",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "PortlandWeather",
+      "name": "Portland Weather",
+      "description": "16 tap rhytmic delay with per tap pitch shifting and filtering",
+      "tags": [
+        "Delay",
+        "Granular",
+        "VCF"
+      ]
+    },
+    {
+      "slug": "QuadAlgorithmicRhythm",
+      "name": "Quad Algorithmic Rhythm Generator",
+      "description": "4 track Euclidean and Golumb Ruler Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "QuadRhythmExpander",
+      "name": "Quad Rhythm Expander",
+      "description": "Expander for QAR adds probabilty and swing",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "QuantussyCell",
+      "name": "Quantussy Cell",
+      "description": "Chainable semi-chatotic CV generator",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "RouletteLFO",
+      "name": "Roulette LFO",
+      "description": "LFO Based on based on rolling curves",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "SeriouslySlowLFO",
+      "name": "Seriously Slow LFO",
+      "description": "LFO for modulating CV over *very* long time periods",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "TheOneRingModulator",
+      "name": "The One Ring Modulator",
+      "description": "Ring Modulator with CV controlable response",
+      "tags": [
+        "Ring Modulator"
+      ]
+    },
+    {
+      "slug": "VoxInhumana",
+      "name": "Vox Inhumana",
+      "description": "Formant/Vowel Filter",
+      "tags": [
+        "VCF"
+      ]
+    }
+  ]
+}
