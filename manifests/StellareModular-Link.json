@@ -1,0 +1,21 @@
+{
+	"slug": "StellareModular-Link",
+	"version": "1.0.0",
+	"name": "Stellare Link",
+	"brand": "Stellare Modular",
+	"author": "Stellare Modular",
+	"license": "GPL-3",
+	"authorEmail": "stellaremodular@gmail.com",
+	"pluginUrl": "https://github.com/stellare-modular/vcv-link",
+	"authorUrl": "https://www.facebook.com/stellaremodular",
+	"sourceUrl": "https://github.com/stellare-modular/vcv-link",
+	"manualUrl": "https://github.com/stellare-modular/vcv-link/blob/master/README.md",
+	"donateUrl": "https://paypal.me/stellaremodular",
+	"modules": [
+		{
+			"slug": "Link",
+			"name": "Link",
+			"tags": ["Clock"]
+		}
+	]
+}
