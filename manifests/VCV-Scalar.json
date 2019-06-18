@@ -1,0 +1,24 @@
+{
+  "slug": "VCV-Scalar",
+  "name": "Scalar",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/Scalar.html",
+  "manualUrl": "https://vcvrack.com/Scalar.html#manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Scalar",
+      "name": "Scalar",
+      "description": "Quantizer and scale tuner",
+      "tags": [
+        "Quantizer"
+      ]
+    }
+  ]
+}
