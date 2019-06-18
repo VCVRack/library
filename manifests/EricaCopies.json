@@ -1,0 +1,34 @@
+{
+  "slug": "EricaCopies",
+  "name": "Erica",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Erica",
+  "brand": "Erica",
+  "authorEmail": "https://www.ericasynths.lv/",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "BlackWaveTableVCO",
+      "name": "BlackWaveTableVCO",
+      "description": "Wavetable oscillator",
+      "tags": [
+        "VCO"
+      ]
+    },
+	{
+      "slug": "BlackOctasource",
+      "name": "BlackOctasource",
+      "description": "Octa LFO",
+      "tags": [
+        "LFO"
+      ]
+    }
+
+	]
+}
+
