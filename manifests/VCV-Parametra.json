@@ -1,0 +1,25 @@
+{
+  "slug": "VCV-Parametra",
+  "name": "Parametra",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/Parametra.html",
+  "manualUrl": "https://vcvrack.com/Parametra.html#manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Parametra",
+      "name": "Parametra",
+      "description": "Parametric filter designer",
+      "tags": [
+        "VCF",
+        "Visual"
+      ]
+    }
+  ]
+}
