@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Eric Sterling",
   "license": "CC0-1.0",
   "authorEmail": "e.sterling@comcast.net",
@@ -10,6 +10,7 @@
   "manualUrl": "https://github.com/almostEric/FrozenWasteland/blob/master/README.md",
   "sourceUrl": "https://github.com/almostEric/FrozenWasteland",
   "donateUrl": "https://paypal.me/FrozenWasteland",
+  "changelogUrl": "https://github.com/almostEric/FrozenWasteland/blob/CHANGELOG.md",
   "modules": [
     {
       "slug": "BPMLFO",
