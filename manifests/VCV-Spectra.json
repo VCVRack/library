@@ -1,0 +1,25 @@
+{
+  "slug": "VCV-Spectra",
+  "name": "Spectra",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/Spectra.html",
+  "manualUrl": "https://vcvrack.com/Spectra.html#manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Spectra",
+      "name": "Spectra",
+      "description": "16-band spectral designer",
+      "tags": [
+        "VCF",
+        "Equalizer"
+      ]
+    }
+  ]
+}
