@@ -1,0 +1,43 @@
+{
+  "slug": "VCV-Router",
+  "name": "Router",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/Router.html",
+  "manualUrl": "https://vcvrack.com/Router.html#manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "OctalRouter",
+      "name": "Octal Router",
+      "description": "Sequential switch matrix",
+      "tags": [
+        "Sequencer",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Router1_4",
+      "name": "Router 1:4",
+      "description": "Sequential switch",
+      "tags": [
+        "Sequencer",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Router4_1",
+      "name": "Router 4:1",
+      "description": "Sequential switch",
+      "tags": [
+        "Sequencer",
+        "Switch"
+      ]
+    }
+  ]
+}
