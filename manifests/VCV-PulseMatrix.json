@@ -1,0 +1,32 @@
+{
+  "slug": "VCV-PulseMatrix",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "name": "Pulse Matrix",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/PulseMatrix.html",
+  "manualUrl": "https://vcvrack.com/PulseMatrix.html#manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "PulseMatrix16",
+      "name": "Pulse Matrix 16",
+      "description": "Grid-based trigger sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "PulseMatrix8",
+      "name": "Pulse Matrix 8",
+      "description": "Grid-based trigger sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}
