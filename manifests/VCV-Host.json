@@ -1,0 +1,43 @@
+{
+  "slug": "VCV-Host",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "name": "Host",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/Host.html",
+  "manualUrl": "https://vcvrack.com/Host.html#manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Host",
+      "name": "Host",
+      "description": "VST instrument plugin host",
+      "tags": [
+        "External",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Host-FX",
+      "name": "Host-FX",
+      "description": "VST effect plugin host",
+      "tags": [
+        "External",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Host-XL",
+      "name": "Host-XL",
+      "description": "Expanded VST instrument/effect plugin host",
+      "tags": [
+        "External",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
