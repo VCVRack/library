@@ -330,3 +330,6 @@
 [submodule "repos/CYC"]
 	path = repos/CYC
 	url = https://github.com/mrletourneau/strong_kar.git
+[submodule "repos/MosquitoLabs"]
+	path = repos/MosquitoLabs
+	url = https://github.com/rmosquito/vcv-mosquito.git
