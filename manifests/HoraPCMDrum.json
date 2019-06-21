@@ -1,0 +1,88 @@
+{
+  "slug": "HoraPCMDrum",
+  "name": "PCM Drum",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Hora",
+  "brand": "Hora",
+  "authorEmail": "Hora.music.contact@gmail.com",
+  "authorUrl": "www.hora-music.be/",
+  "pluginUrl": "http://www.hora-music.be/pcm-drums.php",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "HoraPCMDDD1",
+      "name": "DDD",
+      "description": "PCM Drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HoraPCMDMX",
+      "name": "Dmx",
+      "description": "PCM Drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HoraPCMEmu",
+      "name": "Emu",
+      "description": "PCM Drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HoraPCMDrumLDrum",
+      "name": "LDrum",
+      "description": "PCM Drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HoraPCMRX",
+      "name": "RX",
+      "description": "PCM Drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HoraPCMRXII",
+      "name": "RXII",
+      "description": "PCM Drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HoraPCMSakata",
+      "name": "Sakata",
+      "description": "PCM Drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HoraPCMX26",
+      "name": "X26",
+      "description": "PCM Drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HoraPCM907",
+      "name": "SevenDrum",
+      "description": "PCM Drums",
+      "tags": [
+        "DRUM"
+      ]
+    }
+  ]
+}

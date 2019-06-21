@@ -1,0 +1,32 @@
+{
+  "slug": "HoraProcessorsfree",
+  "name": "Processors Free",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Hora",
+  "brand": "Hora",
+  "authorEmail": "Hora.music.contact@gmail.com",
+  "authorUrl": "http://hora-music.be",
+  "pluginUrl": "http://www.hora-music.be/sound-processors.php",
+  "manualUrl": "https://www.cjoint.com/doc/19_01/IAqlAsXj2GA_SpectralPocessorManualCorrected.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "EnvelopeFollower",
+      "name": "Follower",
+      "description": "Envelope follower",
+      "tags": [
+        "Envelope follower"
+      ]
+    },
+    {
+      "slug": "Delay",
+      "name": "Delay",
+      "description": "multimode delay",
+      "tags": [
+        "Effect"
+      ]
+    }
+  ]
+}

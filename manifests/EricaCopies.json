@@ -1,12 +1,12 @@
 {
   "slug": "EricaCopies",
   "name": "Erica",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "proprietary",
   "author": "Erica",
   "brand": "Erica",
-  "authorEmail": "https://www.ericasynths.lv/",
-  "authorUrl": "",
+  "authorEmail": "",
+  "authorUrl": "https://www.ericasynths.lv/",
   "pluginUrl": "",
   "manualUrl": "",
   "sourceUrl": "",
@@ -20,7 +20,7 @@
         "VCO"
       ]
     },
-	{
+    {
       "slug": "BlackOctasource",
       "name": "BlackOctasource",
       "description": "Octa LFO",
@@ -28,7 +28,5 @@
         "LFO"
       ]
     }
-
-	]
+  ]
 }
-
