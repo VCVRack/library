@@ -1,0 +1,83 @@
+{
+  "slug": "StellareModular-CreativeSuite",
+  "version": "1.0.0",
+  "license": "Proprietary",
+  "name": "Creative Suite",
+  "brand": "Stellare Modular",
+  "author": "Stellare Modular",
+  "authorEmail": "stellaremodular@gmail.com",
+  "pluginUrl": "https://www.facebook.com/stellaremodular",
+  "authorUrl": "https://www.facebook.com/stellaremodular",
+  "modules": [
+    {
+      "slug": "Andromeda",
+      "name": "Andromeda",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "BlankPanel",
+      "name": "Blank Panel",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Qusia",
+      "name": "Qusia",
+      "tags": [
+        "Utilities, Delay"
+      ]
+    },
+    {
+      "slug": "Sigma",
+      "name": "Sigma",
+      "tags": [
+        "Utilities"
+      ]
+    },
+    {
+      "slug": "Nomlia",
+      "name": "Nomlia",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Azular",
+      "name": "Azular",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Delta",
+      "name": "Delta",
+      "tags": [
+        "Clock Modulator"
+      ]
+    },
+    {
+      "slug": "Pelisia",
+      "name": "Pelisia",
+      "tags": [
+        "Mixer, Utilities"
+      ]
+    },
+    {
+      "slug": "AL41",
+      "name": "AL41",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "AL14",
+      "name": "AL14",
+      "tags": [
+        "Switch"
+      ]
+    }
+  ]
+}
