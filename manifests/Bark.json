@@ -1,6 +1,6 @@
 {
   "slug": "Bark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "BSD-4-Clause",
   "name": "Coirt",
   "brand": "Bark",
@@ -8,7 +8,7 @@
   "authorEmail": "philg@live.ie",
   "authorUrl": "https://github.com/Coirt",
   "pluginUrl": "https://github.com/Coirt/Bark",
-  "manualUrl": "",
+  "manualUrl": "https://github.com/Coirt/Bark/wiki",
   "sourceUrl": "https://github.com/Coirt/Bark",
   "changelogUrl": "",
   "donateUrl": "https://www.paypal.me/philgolden",
