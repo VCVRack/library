@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "BSD-3-Clause",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -26,7 +26,8 @@
       "description": "Dual attenuator with attenuverting option.",
       "tags": [
         "Attenuator",
-        "Dual"
+        "Dual",
+        "Polyphonic"
       ]
     },
     {
@@ -186,7 +187,8 @@
       "name": "Mute",
       "description": "A voltage controlled mute",
       "tags": [
-        "Controller"
+        "Controller",
+        "Polyphonic"
       ]
     },
     {
@@ -196,7 +198,8 @@
       "tags": [
         "Dual",
         "Multiple",
-        "Controller"
+        "Controller",
+        "Polyphonic"
       ]
     },
     {
@@ -205,7 +208,8 @@
       "description": "A set of 8 voltage controlled clock dividers that can be used to generate polyrhythms by clocking and/or dividing at different rates.",
       "tags": [
         "Clock modulator",
-        "Sequencer"
+        "Sequencer",
+        "Polyphonic"
       ]
     },
     {
@@ -214,7 +218,8 @@
       "description": "Generates a set of 8 ramp and sawtooth control signals appropriately phased for generation of Shepard tones.",
       "tags": [
         "LFO",
-        "Function generator"
+        "Function generator",
+        "Polyphonic"
       ]
     },
     {
@@ -265,6 +270,7 @@
       "description": "A dual voltage controlled polarizer.",
       "tags": [
         "Dual",
+        "Polyphonic",
         "Attenuator",
         "Utility"
       ]
@@ -274,7 +280,8 @@
       "name": "Voltage Controlled Switch",
       "description": "Selects between 2 inputs or routes 1 input to one of 2 outputs based on the level of the signal at the CV input.",
       "tags": [
-        "Switch"
+        "Switch",
+        "Polyphonic"
       ]
     },
     {
@@ -283,6 +290,7 @@
       "description": "A quad voltage inverter that inverts signals around zero.",
       "tags": [
         "Utility",
+        "Polyphonic",
         "Quad"
       ]
     }
