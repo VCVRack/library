@@ -1,0 +1,167 @@
+{
+  "slug": "dBiz",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "name": "dBiz",
+  "brand": "dBiz",
+  "author": "Giovanni Ghisleni",
+  "authorEmail": "giovanni.ghisleni@gmail.com",
+  "pluginUrl": "https://github.com/dBiz/dBiz/releases",
+  "authorUrl": "https://github.com/dBiz/",
+  "manualUrl": "https://github.com/dBiz/dBiz/wiki",
+  "sourceUrl": "https://github.com/dBiz/dBiz",
+  "modules": [
+    {
+      "slug": "Multiple",
+      "name": "Multiple",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Contorno",
+      "name": "Contorno",
+      "tags": [
+        "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "Transpose",
+      "name": "Transpose",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Utility",
+      "name": "Utility",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Chord",
+      "name": "Chord",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "Bene",
+      "name": "Bene",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "BenePads",
+      "name": "BenePads",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PerfMixer",
+      "name": "PerfMixer",
+      "tags": [
+        "Mixer",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "Remix",
+      "name": "Remix",
+      "tags": [
+        "Mixer",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "Smixer",
+      "name": "Smixer",
+      "tags": [
+        "Mixer",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "VCA4",
+      "name": "VCA4",
+      "tags": [
+        "Mixer",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "VCA530",
+      "name": "VCA530",
+      "tags": [
+        "Mixer",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "Verbo",
+      "name": "Verbo",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "DVCO",
+      "name": "DVCO",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "DAOSC",
+      "name": "DAOSC",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "TROSC",
+      "name": "TROSC",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "SuHa",
+      "name": "SuHa",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "FourSeq",
+      "name": "FourSeq",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Divider",
+      "name": "Divider",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Util2",
+      "name": "Util2",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Smorph",
+      "name": "Smorph",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}
