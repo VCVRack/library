@@ -1,0 +1,25 @@
+{
+  "brand": "Blamsoft",
+  "slug": "Blamsoft-XFXWave",
+  "name": "XFX Wave",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Blamsoft",
+  "authorEmail": "info@blamsoft.com",
+  "authorUrl": "https://blamsoft.com",
+  "pluginUrl": "https://blamsoft.com/vcv-rack/xfx-wave",
+  "manualUrl": "https://blamsoft.com/wp-content/uploads/2018/02/XFXWaveUserManual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Blamsoft-XFXWave",
+      "name": "XFX Wave",
+      "description": "Wavetable Oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

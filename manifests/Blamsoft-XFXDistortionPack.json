@@ -1,0 +1,43 @@
+{
+  "slug": "Blamsoft-XFXDistortionPack",
+  "brand": "Blamsoft",
+  "name": "XFX Distortion Pack",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Blamsoft",
+  "authorEmail": "info@blamsoft.com",
+  "authorUrl": "https://blamsoft.com",
+  "pluginUrl": "https://blamsoft.com/vcv-rack/xfx-distortion-pack",
+  "manualUrl": "https://blamsoft.com/wp-content/uploads/2018/01/XFXDistortionPackUserManual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Blamsoft-XFXGrunge",
+      "name": "XFX Grunge",
+      "description": "Distortion Stompbox",
+      "tags": [
+        "Effect",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Blamsoft-XFXOverdrive",
+      "name": "XFX Overdrive",
+      "description": "Distortion Stompbox",
+      "tags": [
+        "Effect",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Blamsoft-XFXTube",
+      "name": "XFX Tube",
+      "description": "Tube Distortion",
+      "tags": [
+        "Effect",
+        "Distortion"
+      ]
+    }
+  ]
+}

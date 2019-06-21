@@ -1,0 +1,26 @@
+{
+  "brand": "Blamsoft",
+  "slug": "Blamsoft-XFXF35",
+  "name": "XFX F-35",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Blamsoft",
+  "authorEmail": "info@blamsoft.com",
+  "authorUrl": "https://blamsoft.com",
+  "pluginUrl": "https://blamsoft.com/vcv-rack/xfx-f-35",
+  "manualUrl": "https://blamsoft.com/wp-content/uploads/2018/01/XFXF35UserManual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Blamsoft-XFXF35",
+      "name": "XFX F-35",
+      "description": "Multimode Filter",
+      "tags": [
+        "Effect",
+        "Filter",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

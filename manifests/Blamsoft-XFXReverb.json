@@ -1,0 +1,25 @@
+{
+  "brand": "Blamsoft",
+  "slug": "Blamsoft-XFXReverb",
+  "name": "XFX Reverb",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Blamsoft",
+  "authorEmail": "info@blamsoft.com",
+  "authorUrl": "https://blamsoft.com",
+  "pluginUrl": "https://blamsoft.com/vcv-rack/xfx-reverb",
+  "manualUrl": "https://blamsoft.com/wp-content/uploads/2018/01/XFXReverbUserManual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Blamsoft-XFXReverb",
+      "description": "Reverb",
+      "name": "XFX Reverb",
+      "tags": [
+        "Effect",
+        "Reverb"
+      ]
+    }
+  ]
+}
