@@ -1,0 +1,73 @@
+{
+  "slug": "Koralfx-Modules",
+  "name": "Koralfx-Modules",
+  "version": "1.0.2",
+  "license": "BSD-3-Clause",
+  "brand": "Koralfx-Modules",
+  "author": "Tomasz Sosnowski",
+  "authorEmail": "koralfx@gmail.com",
+  "authorUrl": "koralfx.com",
+  "pluginUrl": "https://github.com/koralfx/Koralfx-Modules/blob/master/README.md",
+  "manualUrl": "https://github.com/koralfx/Koralfx-Modules/blob/master/README.md",
+  "sourceUrl": "https://github.com/koralfx/Koralfx-Modules",
+  "donateUrl": "https://www.paypal.me/koralfx/",
+  "modules": [
+    {
+      "slug": "Beatovnik",
+      "name": "Beatovnik",
+      "description": "",
+      "tags": [
+        "Clock",
+        "Clock Modulator"
+      ]
+    },
+    {
+      "slug": "Mixovnik",
+      "name": "Mixovnik",
+      "description": "",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Nullovnik4",
+      "name": "Nullovnik4",
+      "description": "",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Nullovnik6",
+      "name": "Nullovnik6",
+      "description": "",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Presetovnik",
+      "name": "Presetovnik",
+      "description": "",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Quantovnik",
+      "name": "Quantovnik",
+      "description": "",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Scorovnik",
+      "name": "Scorovnik",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}

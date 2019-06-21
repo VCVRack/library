@@ -1,0 +1,23 @@
+{
+  "slug": "KarateSnoopy",
+  "name": "KarateSnoopy",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "KarateSnoopy",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/KarateSnoopy/vcv-karatesnoopy/blob/master/README.md",
+  "manualUrl": "https://github.com/KarateSnoopy/vcv-karatesnoopy/blob/master/README.md",
+  "sourceUrl": "https://github.com/KarateSnoopy/vcv-karatesnoopy.git",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "KSnpy2DGridSeq",
+      "name": "2D grid sequencer",
+      "description": "2D grid sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}
