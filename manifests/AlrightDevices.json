@@ -1,0 +1,36 @@
+{
+  "slug": "AlrightDevices",
+  "name": "Alright Devices",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Alright Devices",
+  "authorEmail": "tyler@alrightdevices.com",
+  "authorUrl": "https://www.alrightdevices.com/",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Chronoblob2",
+      "name": "Chronoblob2",
+      "description": "Dual clock-syncable delay",
+      "tags": [
+        "Delay",
+        "Digital",
+        "Dual",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "T-Wrex",
+      "name": "T-Wrex",
+      "description": "Analog bitcrusher and decimator",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Sample and hold"
+      ]
+    }
+  ]
+}
