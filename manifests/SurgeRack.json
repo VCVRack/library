@@ -1,0 +1,185 @@
+{
+  "slug": "SurgeRack",
+  "name": "Surge for Rack",
+  "version": "1.beta1.0",
+  "license": "GPL-3.0-or-later",
+  "author": "The Surge Team",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/surge-synthesizer/",
+  "pluginUrl": "https://surge-synthesizer.github.io/",
+  "manualUrl": "https://surge-synthesizer.github.io/rack_manual/",
+  "sourceUrl": "https://github.com/surge-synthesizer/surge-rack/",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "SurgeDelay",
+      "name": "SurgeDelay",
+      "description": "The Surge stereo delay effect",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "SurgeChorus",
+      "name": "SurgeChorus",
+      "description": "The Surge chorus effect",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Chorus"
+      ]
+    },
+    {
+      "slug": "SurgeEQ",
+      "name": "SurgeEQ",
+      "description": "The Surge 3-band equalizer",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Equalizer"
+      ]
+    },
+    {
+      "slug": "SurgePhaser",
+      "name": "SurgePhaser",
+      "description": "The Surge phaser",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Phaser"
+      ]
+    },
+    {
+      "slug": "SurgeRotary",
+      "name": "SurgeRotary",
+      "description": "The Surge rotary speaker emulation effect",
+      "tags": [
+        "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeDistort",
+      "name": "SurgeDistort",
+      "description": "The Surge distortion effect",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Distortion",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "SurgeReverb",
+      "name": "SurgeReverb",
+      "description": "The Surge reverb",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "SurgeFreqShift",
+      "name": "SurgeFreqShift",
+      "description": "The Surge frequency shifter",
+      "tags": [
+        "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeConditioner",
+      "name": "SurgeConditioner",
+      "description": "The Surge conditioner/limiter effect",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Limiter",
+        "EQ"
+      ]
+    },
+    {
+      "slug": "SurgeClock",
+      "name": "SurgeClock",
+      "description": "A utility clock generator",
+      "tags": [
+        "Clock Generator"
+      ]
+    },
+    {
+      "slug": "SurgeADSR",
+      "name": "SurgeADSR",
+      "description": "The Surge ADSR envelope generator with various modes",
+      "tags": [
+        "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeOSC",
+      "name": "SurgeOSC",
+      "description": "The Surge classic oscillators, including square, saw, sine, FM and niose",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeWaveShaper",
+      "name": "SurgeWaveShaper",
+      "description": "The Surge waveshapers",
+      "tags": [
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeWTOSC",
+      "name": "SurgeWTOSC",
+      "description": "The Surge WaveTable collection with a pair of interpolating oscillators",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeLFO",
+      "name": "SurgeLFO",
+      "description": "The Surge LFO",
+      "tags": [
+        "LFO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeVOC",
+      "name": "SurgeVOC",
+      "description": "The Surge vocoder",
+      "tags": [
+        "Vocoder",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeBiquad",
+      "name": "SurgeBiquad",
+      "description": "A single BiQuad filter stage of the Surge FilterBank",
+      "tags": [
+        "VCF",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgePatchPlayer",
+      "name": "SurgePatchPlayer",
+      "description": "A full instance of the Surge plugin able to play the patches in your environment",
+      "tags": [
+        "Synth voice",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
