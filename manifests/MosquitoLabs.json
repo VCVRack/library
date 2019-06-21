@@ -1,0 +1,31 @@
+{
+  "slug": "MosquitoLabs",
+  "name": "Mosquito Labs",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "author": "R. Mosquito",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/rmosquito/vcv-mosquito/",
+  "manualUrl": "https://github.com/rmosquito/vcv-mosquito/",
+  "sourceUrl": "https://github.com/rmosquito/vcv-mosquito/",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "PulseCzar",
+      "name": "PulseCzar",
+      "description": "8-bit wavetable oscillator based on C. Roads' Pulsar Synthesis model.",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "PhaseCzar",
+      "name": "PhaseCzar",
+      "description": "8-bit wavetable oscillator based on Casio's Phase Distortion model.",
+      "tags": [
+        "Oscillator"
+      ]
+    }
+  ]
+}

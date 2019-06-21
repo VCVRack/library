@@ -1,0 +1,31 @@
+{
+    "slug": "LoopusModules",
+    "name": "Sonus Modular",
+    "version": "1.0.0",
+    "license": "Proprietary",
+    "author": "Valerio Orlandini",
+    "brand": "Sonus Dept.",
+    "authorEmail": "sonusdept@gmail.com",
+    "authorUrl": "http://www.sonusdept.com/",
+    "pluginUrl": "http://loopusmodules.sonusdept.com",
+    "modules": [{
+            "slug": "Foursome",
+            "name": "Foursome",
+            "description": "Four tracks looper",
+            "tags": [
+                "Recording",
+                "Sampler"
+            ]
+        },
+        {
+            "slug": "Voyeur",
+            "name": "Voyeur",
+            "description": "Looper expander",
+            "tags": [
+                "Expander",
+                "Recording",
+                "Sampler"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,224 @@
+{
+  "slug": "SonusModular",
+  "name": "Sonus Modular",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "author": "Valerio Orlandini",
+  "brand": "Sonus Dept.",
+  "authorEmail": "sonusdept@gmail.com",
+  "authorUrl": "http://www.sonusdept.com",
+  "pluginUrl": "http://sonusmodular.sonusdept.com",
+  "manualUrl": "https://gitlab.com/sonusdept/sonusmodular#sonus-modular",
+  "sourceUrl": "https://gitlab.com/sonusdept/sonusmodular",
+  "donateUrl": "https://www.paypal.me/sonusdept",
+  "modules": [
+    {
+      "slug": "Addiction",
+      "name": "Addiction",
+      "description": "Additive Oscillator",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Bitter",
+      "name": "Bitter",
+      "description": "Bit Manipulator",
+      "tags": [
+        "Distortion",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Bymidside",
+      "name": "Bymidside",
+      "description": "MS Encoder",
+      "tags": [
+        "Dynamics",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Campione",
+      "name": "Campione",
+      "description": "Live Sampler",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "Chainsaw",
+      "name": "Chainsaw",
+      "description": "Fat Sawish VCO",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Ctrl",
+      "name": "Ctrl",
+      "description": "Customizable Controller",
+      "tags": [
+        "Controller",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Deathcrush",
+      "name": "Deathcrush",
+      "description": "Driver and Crusher",
+      "tags": [
+        "Distortion",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Harmony",
+      "name": "Harmony",
+      "description": "Chord Tool",
+      "tags": [
+        "Tuner",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Ladrone",
+      "name": "Ladrone",
+      "description": "Drone Oscillator",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Luppolo",
+      "name": "Luppolo",
+      "description": "Simple Looper",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "Luppolo3",
+      "name": "Luppolo3",
+      "description": "Loop Station",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "Micromacro",
+      "name": "Micromacro",
+      "description": "Pitch Quantized Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Mrcheb",
+      "name": "Mr. Cheb",
+      "description": "Chebyshev Waveshaper",
+      "tags": [
+        "Effect",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Multimulti",
+      "name": "Multimulti",
+      "description": "2x8 Multiples",
+      "tags": [
+        "Multiple",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Oktagon",
+      "name": "Oktagon",
+      "description": "Quad-Quad LFO/VCO",
+      "tags": [
+        "LFO",
+        "Quad",
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Osculum",
+      "name": "Osculum",
+      "description": "Unusual Oscillator",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Paramath",
+      "name": "Paramath",
+      "description": "Comparing and Maths",
+      "tags": [
+        "Logic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Piconoise",
+      "name": "Piconoise",
+      "description": "Noise Generator",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "PanintheHaas",
+      "name": "Pan in the Haas",
+      "description": "Haas Delay",
+      "tags": [
+        "Delay",
+        "Dual",
+        "Panning"
+      ]
+    },
+    {
+      "slug": "Pusher",
+      "name": "Pusher",
+      "description": "Buttons Controller",
+      "tags": [
+        "Controller",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Ringo",
+      "name": "Ringo",
+      "description": "Ring Modulator",
+      "tags": [
+        "Ring modulator",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Scramblase",
+      "name": "Scramblase",
+      "description": "Many Waveshapers",
+      "tags": [
+        "Effect",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Twoff",
+      "name": "Twoff",
+      "description": "CV Offset",
+      "tags": [
+        "Dual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Yabp",
+      "name": "Yabp",
+      "description": "Yet Another Blank Panel",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "slug": "AS",
+  "version": "1.0.0",
+  "license": "MIT",
+  "name": "AS",
+  "brand": "AS",
+  "author": "Alfredo Santamaria",
+  "authorEmail": "ascustomworks@gmail.com",
+  "pluginUrl": "https://github.com/AScustomWorks/AS/blob/master/README.md",
+  "authorUrl": "https://github.com/AScustomWorks/AS",
+  "manualUrl": "https://github.com/AScustomWorks/AS/blob/master/README.md",
+  "sourceUrl": "https://github.com/AScustomWorks/AS",
+  "changelogUrl": "https://github.com/AScustomWorks/AS/blob/master/README.md",
+  "modules": [
+    {
+      "slug": "SineOsc",
+      "disabled": "false",
+      "name": "TinySine",
+      "description": "Simple Voltage-controlled sine oscillator",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "SawOsc",
+      "disabled": "false",
+      "name": "TinySawish",
+      "description": "Simple Voltage-controlled saw oscillator",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "ADSR",
+      "disabled": "false",
+      "name": "ADSR",
+      "description": "Generates an envelope with Attack/Decay/Sustain/Release",
+      "tags": [
+        "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "VCA",
+      "disabled": "false",
+      "name": "VCA",
+      "description": "Voltage-controlled amplifier",
+      "tags": [
+        "VCA"
+      ]
+    },
+    {
+      "slug": "QuadVCA",
+      "disabled": "false",
+      "name": "QuadVCA/Mixer",
+      "description": "VCA module x 4, plus mixer functionality",
+      "tags": [
+        "VCA",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "TriLFO",
+      "disabled": "false",
+      "name": "TriLFO",
+      "description": "Low-frequency oscillator",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "AtNuVrTr",
+      "disabled": "false",
+      "name": "AtNuVrTr",
+      "description": "Dual Attenuator",
+      "tags": [
+        "Attenuator",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "BPMClock",
+      "disabled": "false",
+      "name": "BPM Clock",
+      "description": "BPM Clock",
+      "tags": [
+        "Clock"
+      ]
+    },
+    {
+      "slug": "BPMCalc",
+      "disabled": "false",
+      "name": "BPM to delay/hz calculator",
+      "description": "BPM to delay/hz calculator helper",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "BPMCalc2",
+      "disabled": "false",
+      "name": "BPM to delay/ms calculator",
+      "description": "BPM Delay/MS Calculator",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SEQ16",
+      "disabled": "false",
+      "name": "SEQ16",
+      "description": "3-channel 16-step sequencer with step editor",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Mixer2ch",
+      "disabled": "false",
+      "name": "Mixer2ch",
+      "description": "2 channel Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Mixer4ch",
+      "disabled": "false",
+      "name": "Mixer4ch",
+      "description": "4 channel Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Mixer8ch",
+      "disabled": "false",
+      "name": "Mixer8ch",
+      "description": "8 channel Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "MonoVUmeter",
+      "disabled": "false",
+      "name": "MonoVUmeter",
+      "description": "Mono VU meter",
+      "tags": [
+        "Visual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "StereoVUmeter",
+      "disabled": "false",
+      "name": "StereoVUmeter",
+      "description": "Stereo VU meter",
+      "tags": [
+        "Visual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Steps",
+      "disabled": "false",
+      "name": "Steps",
+      "description": "3 channel 64 steps counter",
+      "tags": [
+        "Sequencer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "LaunchGate",
+      "disabled": "false",
+      "name": "LaunchGate",
+      "description": "2 channel signal flow start counter",
+      "tags": [
+        "Sequencer",
+        "Dual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "KillGate",
+      "disabled": "false",
+      "name": "KillGate",
+      "description": "2 channel signal stop counter",
+      "tags": [
+        "Sequencer",
+        "Dual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Flow",
+      "disabled": "false",
+      "name": "Flow",
+      "description": "Cut the flow of signals with a switch or a cv signal input",
+      "tags": [
+        "Switch",
+        "Dual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SignalDelay",
+      "disabled": "false",
+      "name": "Signal Delay",
+      "description": "Delay the incomming CV signal by set milliseconds",
+      "tags": [
+        "Delay",
+        "Dual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Cv2T",
+      "disabled": "false",
+      "name": "CV 2 Trigger",
+      "description": "CV to Trigger generator",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ZeroCV2T",
+      "disabled": "false",
+      "name": "Zero CV 2 Trigger",
+      "description": "Zero Crossing CV to Trigger generator",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ReScale",
+      "disabled": "false",
+      "name": "ReScale",
+      "description": "Utility module to convert from one voltage range to another",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Multiple2_5",
+      "disabled": "false",
+      "name": "Multi 2x5",
+      "description": "2x5 Signal multiplier",
+      "tags": [
+        "Multiple",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Merge2_5",
+      "disabled": "false",
+      "name": "Merge2x5",
+      "description": "2x5 CV Signal merger",
+      "tags": [
+        "Multiple",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "TriggersMKI",
+      "name": "Triggers MKI",
+      "description": "Manual CV signal trigger with latch and temporary triggers + adjustable output voltage",
+      "tags": [
+        "Switch",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "TriggersMKII",
+      "name": "Triggers MKII",
+      "description": "Manual CV signal temporary trigger with labeling integrated",
+      "tags": [
+        "Switch",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "TriggersMKIII",
+      "name": "TriggersMKIII",
+      "description": "Manual CV signal temporary trigger with editable labeling integrated",
+      "tags": [
+        "Switch",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DelayPlusFx",
+      "disabled": "false",
+      "name": "Delay Plus Fx",
+      "description": "Delay effect with MS digital display, wet signal send & return and bypass switch",
+      "tags": [
+        "Delay",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "DelayPlusStereoFx",
+      "disabled": "false",
+      "name": "Delay Plus Stereo Fx",
+      "description": "Stereo Delay effect with MS digital display, wet signal send & return and bypass switch",
+      "tags": [
+        "Delay",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "PhaserFx",
+      "disabled": "false",
+      "name": "Phaser Fx",
+      "description": "Phaser FX with CV input for each parameter and bypass switch",
+      "tags": [
+        "Phaser",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "ReverbFx",
+      "disabled": "false",
+      "name": "Reverb Fx",
+      "description": "Reverb FX with CV input for each parameter and bypass switch",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "ReverbStereoFx",
+      "disabled": "false",
+      "name": "Reverb Stereo Fx",
+      "description": "Stereo Reverb FX with CV input for each parameter and bypass switch",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "SuperDriveFx",
+      "disabled": "false",
+      "name": "SuperDrive Fx",
+      "description": "Overdrive FX with CV input for each parameter and bypass switch",
+      "tags": [
+        "Distortion",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "TremoloFx",
+      "disabled": "false",
+      "name": "Tremolo Fx",
+      "description": "Tremolo Fx with CV input for each parameter and bypass switch",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "TremoloStereoFx",
+      "disabled": "false",
+      "name": "Tremolo Stereo Fx",
+      "description": "Stereo Tremolo Fx with CV input for each parameter and bypass switch",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "WaveShaper",
+      "disabled": "false",
+      "name": "WaveShaper",
+      "description": "WaveShaper Fx with bypass switch",
+      "tags": [
+        "Waveshaper",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "BlankPanel4",
+      "disabled": "false",
+      "name": "BlankPanel4",
+      "description": "Blank Panel 4 HP",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "BlankPanel6",
+      "disabled": "false",
+      "name": "BlankPanel6",
+      "description": "Blank Panel 6 HP",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "BlankPanel8",
+      "disabled": "false",
+      "name": "BlankPanel8",
+      "description": "Blank Panel 8 HP",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "BlankPanelSpecial",
+      "disabled": "false",
+      "name": "Blank Panel Special",
+      "description": "Blank Panel goodies",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
+}

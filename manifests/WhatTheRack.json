@@ -1,0 +1,39 @@
+{
+  "slug": "WhatTheRack",
+  "name": "WhatTheRack",
+  "version": "1.0.0",
+  "license": "WTFPL",
+  "author": "korfuri",
+  "authorEmail": "korfuri@gmail.com",
+  "authorUrl": "https://github.com/korfuri",
+  "pluginUrl": "https://github.com/korfuri/WhatTheRack",
+  "manualUrl": "https://github.com/korfuri/WhatTheRack",
+  "sourceUrl": "https://github.com/korfuri/WhatTheRack",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "WhatTheRack",
+      "name": "WhatTheRack",
+      "description": "Rack randomizer",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "WhatTheJack",
+      "name": "WhatTheJack",
+      "description": "Wire randomizer",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "WhatTheMod",
+      "name": "WhatTheMod",
+      "description": "Module randomizer",
+      "tags": [
+        "utility"
+      ]
+    }
+  ]
+}

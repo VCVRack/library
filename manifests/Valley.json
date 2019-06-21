@@ -1,0 +1,73 @@
+{
+  "slug": "Valley",
+  "name": "Valley",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "author": "Valley",
+  "authorEmail": "valley.audio.soft@gmail.com",
+  "authorUrl": "https://valleyaudio.github.io",
+  "pluginUrl": "https://valleyaudio.github.io",
+  "manualUrl": "https://valleyaudio.github.io",
+  "sourceUrl": "https://github.com/ValleyAudio/ValleyRackFree",
+  "donateUrl": "https://paypal.me/valleyvcv",
+  "modules": [
+    {
+      "slug": "Topograph",
+      "name": "Topograph",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "uGraph",
+      "name": "uGraph",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Dexter",
+      "name": "Dexter",
+      "description": "",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Plateau",
+      "name": "Plateau",
+      "description": "",
+      "tags": [
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "Interzone",
+      "name": "Interzone",
+      "description": "",
+      "tags": [
+        "Synth Voice"
+      ]
+    },
+    {
+      "slug": "Amalgam",
+      "name": "Amalgam",
+      "description": "",
+      "tags": [
+        "Ring Modulator",
+        "Effect",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Feline",
+      "name": "Feline",
+      "description": "",
+      "tags": [
+        "Filter"
+      ]
+    }
+  ]
+}

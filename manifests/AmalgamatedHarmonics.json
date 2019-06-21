@@ -2,14 +2,14 @@
   "slug": "AmalgamatedHarmonics",
   "name": "Amalgamated Harmonics",
   "author": "John Hoar",
-  "license": "BSD 3-Clause",
+  "license": "BSD-3-Clause",
   "authorEmail": "amalgamatedharmonics@outlook.com",
   "manualUrl": "https://github.com/jhoar/AmalgamatedHarmonics/wiki",
   "pluginUrl": "https://github.com/jhoar/AmalgamatedHarmonics/wiki",
   "authorUrl": "https://github.com/jhoar/AmalgamatedHarmonics/wiki",
   "sourceUrl": "https://github.com/jhoar/AmalgamatedHarmonics",
   "changelogUrl": "https://github.com/jhoar/AmalgamatedHarmonics/releases",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "modules": [
     {
       "slug": "Arp31",

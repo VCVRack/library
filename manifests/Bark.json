@@ -1,0 +1,121 @@
+{
+  "slug": "Bark",
+  "version": "1.0.0",
+  "license": "BSD-4-Clause",
+  "name": "Coirt",
+  "brand": "Bark",
+  "author": "Phil Golden",
+  "authorEmail": "philg@live.ie",
+  "authorUrl": "https://github.com/Coirt",
+  "pluginUrl": "https://github.com/Coirt/Bark",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/Coirt/Bark",
+  "changelogUrl": "",
+  "donateUrl": "https://www.paypal.me/philgolden",
+  "modules": [
+    {
+      "slug": "TrimLFO",
+      "name": "Trim LFO Hz",
+      "description": "Trims top/bottom values on the selected\nLFO output, without attenuating\n",
+      "tags": [
+        "LFO",
+        "Utility",
+        "Logic",
+        "Dual",
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "OneBand",
+      "name": "One Band",
+      "description": "Dual-Mono parametric EQ\n",
+      "tags": [
+        "Equalizer",
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "bpmTrimLFO",
+      "name": "Trim LFO BPM",
+      "description": "Trims top/bottom values on the selected\nLFO output, without attenuating\n",
+      "tags": [
+        "LFO",
+        "Utility",
+        "Logic",
+        "Dual",
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "TestPanel",
+      "name": "Testing Panel",
+      "description": "Panel for testing\n",
+      "tags": [
+        "Utility"
+      ],
+      "disabled": true
+    },
+    {
+      "slug": "ClockSeq16",
+      "name": "Clock Seq 16",
+      "description": "2 x 8 or 16 step sequencer\n",
+      "tags": [
+        "Sequencer"
+      ],
+      "disabled": true
+    },
+    {
+      "slug": "PolyMix",
+      "name": "Polyphonic Mixer",
+      "description": "One Cable(s),\n4x4 channel Mixer with send/return\n",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "QuadLogic",
+      "name": "Quad Logic",
+      "description": "Min/Max value based on inputs\n",
+      "tags": [
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Panel6",
+      "name": "Panel 6",
+      "description": "Blank\n",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Clamp",
+      "name": "Clamp",
+      "description": "Feed signal, gained output\nwon't go over voltages set.\nCan also attenuvert signals,\nInvert applied to input.\n",
+      "tags": [
+        "Utility",
+        "Attenuator",
+        "Dual",
+        "Limiter"
+      ]
+    },
+    {
+      "slug": "vuMeter2",
+      "name": "testMeter",
+      "description": "dev test\n",
+      "tags": [],
+      "disabled": true
+    },
+    {
+      "slug": "PolyX",
+      "name": "Poly X",
+      "description": "Merge to polyphonic with mute buttons.\n\nWhen no input channels are connected\nthe mute buttons send 10v or 0v, for\nuse with Level/Pan inputs on Poly Mix.\n",
+      "tags": [
+        "Polyphonic",
+        "Switch"
+      ]
+    }
+  ]
+}
