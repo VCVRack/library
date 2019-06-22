@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -9,17 +9,25 @@
   "pluginUrl": "https://github.com/stoermelder/vcvrack-packone",
   "authorUrl": "https://github.com/stoermelder",
   "sourceUrl": "https://github.com/stoermelder/vcvrack-packone.git",
+  "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/README.md",
   "changelogUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/CHANGELOG.md",
+  "donateUrl": "https://paypal.me/stoermelder",
   "modules": [
     {
       "slug": "CVMap",
       "name": "CV-MAP",
-      "description": "Add CV control to any parameter of any module",
+      "description": "Add CV automation to 32 parameters of any module",
       "tags": [
-        "CV",
-        "Parameter",
-        "Modulation",
-        "Map"
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CVMapMicro",
+      "name": "\u00b5MAP",
+      "description": "Add CV automation to one parameter of any module",
+      "tags": [
+        "Utility"
       ]
     },
     {
@@ -27,19 +35,35 @@
       "name": "CV-PAM",
       "description": "Generate CV from any parameter change of any module",
       "tags": [
-        "CV",
-        "Parameter",
-        "Modulation",
-        "Map"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
       "slug": "RotorA",
       "name": "Rotor Model A",
-      "description": "Rotates a signal across channels",
+      "description": "Rotates a signal across polyphonic channels",
       "tags": [
-        "Modulation",
-        "Poly"
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "ReMoveLite",
+      "name": "ReMOVE Lite",
+      "description": "Recorder for parameter automation",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Bolt",
+      "name": "BOLT",
+      "description": "Polyphonic logic operations with modulation and sample & hold",
+      "tags": [
+        "Utility",
+        "Logic",
+        "Polyphonic"
       ]
     }
   ]
