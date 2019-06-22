@@ -1,0 +1,87 @@
+{
+  "slug": "Autodafe-DrumKit",
+  "name": "Autodafe - DrumKit",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "DrumsKick",
+      "name": "Drums - Kick",
+      "description": "Sampled Kick module with different samples of vintage Drum Machines",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "DrumsSnare",
+      "name": "Drums - Snare",
+      "description": "Sampled Snare module with different samples of vintage Drum Machines",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "DrumsHiHatClosed",
+      "name": "Drums - Closed Hats",
+      "description": "Sampled Closed Hi-Hats module with different samples of vintage Drum Machines",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "DrumsHiHatOpen",
+      "name": "Drums - HiHat Open",
+      "description": "Sampled Open Hi-Hats module with different samples of vintage Drum Machines",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "DrumsClaps",
+      "name": "Drums - Claps",
+      "description": "Sampled Claps module with different samples of vintage Drum Machines",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "DrumsRimClaves",
+      "name": "Drums - Rim/Claves",
+      "description": "Sampled Rim/Claves module with different samples of vintage Drum Machines",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "DrumsCymbals",
+      "name": "Drums - Cymbals",
+      "description": "Sampled Cymbals module with different samples of vintage Drum Machines",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "DrumsRide",
+      "name": "Drums - Ride",
+      "description": "Sampled Ride module with different samples of vintage Drum Machines",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "DrumsMixer",
+      "name": "Drums - Mixer",
+      "description": "8-Channel Mixer Module with CV Controls",
+      "tags": [
+        "Mixer"
+      ]
+    }
+  ]
+}

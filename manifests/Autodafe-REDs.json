@@ -1,0 +1,96 @@
+{
+  "slug": "Autodafe-REDs",
+  "name": "Autodafe - REDs",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Autodafe - REDs",
+  "author": "",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "SQUARE",
+      "name": "S[Q]UARE",
+      "description": "A Square VCO made up of sine waves and Harmonics",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "COSINE",
+      "name": "CO[S]INE",
+      "description": "A VCO based on Cosine Waves",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "TRESAMIGOS",
+      "name": "TRES[AM]IGOS",
+      "description": "A triple wave VCO with AM (Amplitude Modulation) between the Oscillators",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "KICK",
+      "name": "[K]ICK",
+      "description": "Kick Drum generator, analogue emulation",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "SNARE",
+      "name": "[S]NARE",
+      "description": "Snare Drum generator, analogue emulation",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "HATS",
+      "name": "[H]ATS",
+      "description": "Hi-Hats generator, analogue emulation",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "WARSAW",
+      "name": "WAR[S]AW",
+      "description": "A Super-Saw Oscillator",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "FMERIDES",
+      "name": "[FM]ERIDES",
+      "description": "A FM (frequency Modulation) Oscillator with one carrier and one modulator",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "TWLV",
+      "name": "T[W]LV",
+      "description": "An Oscillator based on a wave and its 12 harmonics",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "DRUMSAMPLER",
+      "name": "[DR]UMSAMPLER",
+      "description": "8 part Drum Sampler",
+      "tags": [
+        "Drums"
+      ]
+    }
+  ]
+}

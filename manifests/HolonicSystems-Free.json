@@ -1,0 +1,84 @@
+{
+  "slug": "HolonicSystems-Free",
+  "name": "Holonic Systems - Free",
+  "version": "1.0.1",
+  "license": "CC0-1.0",
+  "author": "Holonic Systems",
+  "brand": "Holonic Systems",
+  "authorEmail": "henri@holonic.systems",
+  "authorUrl": "https://holonic.systems/",
+  "pluginUrl": "https://holonic.systems/vcv/",
+  "manualUrl": "https://holonic.systems/vcv/",
+  "sourceUrl": "https://github.com/hdavid/VCVRack-Holon.ist",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "HolonicSystems-Gaps",
+      "name": "Gaps",
+      "description": "Clock divider with multiple modes",
+      "tags": [
+        "CLOCK MODULATOR"
+      ]
+    },
+    {
+      "slug": "HolonicSystems-Pantry",
+      "name": "Pantry",
+      "description": "Dual CV/Gate Recorder/Looper",
+      "tags": [
+        "SEQUENCER",
+        "RECORDING"
+      ]
+    },
+    {
+      "slug": "HolonicSystems-DumbwaiterSequencer",
+      "name": "Dumbwaiter",
+      "description": "8 step sequencer and switch. One could see it as a A-155 / A-154 / A-152 merged into one module",
+      "tags": [
+        "SEQUENCER",
+        "ATTENUATOR",
+        "SWITCH"
+      ]
+    },
+    {
+      "slug": "HolonicSystems-SwissCheeseKnife",
+      "name": "SwissCheeseKnife",
+      "description": "Quad utility module with a twist",
+      "tags": [
+        "UTILITY",
+        "ATTENUATOR",
+        "MIXER",
+        "QUAD",
+        "VCA",
+        "SAMPLE AND HOLD",
+        "SLEW LIMITER"
+      ]
+    },
+    {
+      "slug": "HolonicSystems-HolonicSource",
+      "name": "Holonic Source",
+      "description": "Integrates with the Holon.ist iOS app and outputs CV control signals to VCV Rack",
+      "tags": [
+        "CONTROLLER",
+        "EXTERNAL"
+      ]
+    },
+    {
+      "slug": "HolonicSystems-Junctions",
+      "name": "Junctions",
+      "description": "A simple dual switch. Two inputs, one output",
+      "tags": [
+        "SWITCH",
+        "DUAL"
+      ]
+    },
+    {
+      "slug": "HolonicSystems-LazySusanQuantiser",
+      "name": "Lazy Susan",
+      "description": "Quad Quantiser with user editable scales",
+      "tags": [
+        "QUANTIZER",
+        "QUAD"
+      ]
+    }
+  ]
+}

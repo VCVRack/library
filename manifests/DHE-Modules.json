@@ -1,6 +1,6 @@
 {
   "slug": "DHE-Modules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "name": "DHE Modules",
   "author": "Dale Emery",
@@ -50,6 +50,14 @@
       "description": "A chain of knobs with selectable ranges to offset and scale input signals",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "Gator",
+      "name": "Gator",
+      "description": "Computes eight common logic functions for up to 16 inputs",
+      "tags": [
+        "Logic"
       ]
     },
     {
