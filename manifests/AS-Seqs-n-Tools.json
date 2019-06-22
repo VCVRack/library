@@ -1,0 +1,132 @@
+{
+  "slug": "AS-Seqs-n-Tools",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "name": "AS Seqs n Tools",
+  "brand": "AS",
+  "author": "Alfredo Santamaria",
+  "authorEmail": "ascustomworks@gmail.com",
+  "pluginUrl": "http://www.hakken.com.mx/ascustomworks/seqs-n-tools/",
+  "authorUrl": "http://www.hakken.com.mx/ascustomworks/seqs-n-tools/",
+  "manualUrl": "https://drive.google.com/file/d/1htuLNpWGBhjrJ7Yjszjkew6Hhs6HyH7G/view?usp=sharing",
+  "sourceUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ReCon",
+      "disabled": "false",
+      "name": "ReCon",
+      "description": "Controller helper for ReStepOne, ReStep sequencers",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ReStepOne",
+      "disabled": "false",
+      "name": "ReStepOne",
+      "description": "Single step sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ReStep",
+      "disabled": "false",
+      "name": "ReStep",
+      "description": "4 steps sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ReBeat",
+      "disabled": "false",
+      "name": "ReBeat Trigger Seq/Clock Divider",
+      "description": "4x4 Grid trigger sequencer/clock divider",
+      "tags": [
+        "Sequencer",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "ReBit",
+      "disabled": "false",
+      "name": "ReBit Trigger Seq/Clock Divider",
+      "description": "Single 4 step trigger sequencer/clock divider",
+      "tags": [
+        "Sequencer",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "ReQ",
+      "disabled": "false",
+      "name": "ReQ",
+      "description": "Note quantizer",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "ReNote",
+      "disabled": "false",
+      "name": "ReNote",
+      "description": "3 channel note transposer",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ReKey",
+      "disabled": "false",
+      "name": "ReKey",
+      "description": "1V/oct-key keyboard",
+      "tags": [
+        "Controller",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ReGate",
+      "disabled": "false",
+      "name": "ReGate",
+      "description": "Gate generator/modifier",
+      "tags": [
+        "Dual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ReFluke",
+      "disabled": "false",
+      "name": "ReFluke",
+      "description": "S&H/Noise/Gate generator",
+      "tags": [
+        "Noise",
+        "Random",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "ReFlip",
+      "disabled": "false",
+      "name": "ReFlip",
+      "description": "Random Gate Switch",
+      "tags": [
+        "Dual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "aBy",
+      "disabled": "false",
+      "name": "A-B-Y Switch",
+      "description": "A-B-Y Switch",
+      "tags": [
+        "Switch",
+        "Utility"
+      ]
+    }
+  ]
+}
