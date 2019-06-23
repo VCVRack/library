@@ -1,12 +1,17 @@
 {
   "slug": "ImpromptuModular",
   "name": "Impromptu Modular",
-  "version": "1.0.0",
-  "author": "Impromptu Modular",
+  "version": "1.0.1",
   "license": "BSD-3-Clause",
+  "author": "Marc Boul\u00e9",
+  "brand": "Impromptu Modular",
   "authorEmail": "marc.boule@etsmtl.ca",
-  "authorUrl": "https://github.com/MarcBoule/ImpromptuModular/tree/v1",
+  "authorUrl": "",
+  "pluginUrl": "",
   "manualUrl": "https://github.com/MarcBoule/ImpromptuModular/tree/v1#modules-",
+  "sourceUrl": "https://github.com/MarcBoule/ImpromptuModular/tree/v1",
+  "donateUrl": "https://www.paypal.me/marcboule",
+  "changelogUrl": "https://github.com/MarcBoule/ImpromptuModular/tree/v1/CHANGELOG.md",
   "modules": [
     {
       "slug": "Tact",
