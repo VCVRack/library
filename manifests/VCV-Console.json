@@ -1,0 +1,24 @@
+{
+  "slug": "VCV-Console",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "name": "Console",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/Console.html",
+  "manualUrl": "https://vcvrack.com/Console.html#manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Console8_3",
+      "name": "Console",
+      "description": "8-channel stereo master mixer",
+      "tags": [
+        "Mixer"
+      ]
+    }
+  ]
+}
