@@ -1,6 +1,6 @@
 {
   "slug": "VCV-Host",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "proprietary",
   "name": "Host",
   "brand": "VCV",
@@ -9,6 +9,7 @@
   "authorUrl": "https://vcvrack.com/",
   "pluginUrl": "https://vcvrack.com/Host.html",
   "manualUrl": "https://vcvrack.com/Host.html#manual",
+  "changelogUrl": "https://vcvrack.com/Host.html#changelog",
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
