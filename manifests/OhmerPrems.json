@@ -1,0 +1,25 @@
+{
+  "slug": "OhmerPrems-Free",
+  "name": "OhmerPrems Free",
+  "version": "1.0.1",
+  "license": "proprietary",
+  "author": "Dominique Camus",
+  "brand": "Ohmer Modules",
+  "authorEmail": "docam@free.fr",
+  "authorUrl": "https://github.com/DomiKamu",
+  "pluginUrl": "https://github.com/DomiKamu/OhmerPrems",
+  "manualUrl": "https://github.com/DomiKamu/OhmerPrems",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "QuadPercs",
+      "name": "QuadPercs Free",
+      "description": "Quad-channel drum machines module (free)",
+      "tags": [
+        "Drum",
+        "Quad"
+      ]
+    }
+  ]
+}
