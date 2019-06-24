@@ -1,30 +1,30 @@
-# VCV library repository
+# VCV Library database
 
-The VCV library maintainers are responsible for curating Rack plugins into the [VCV Library](https://vcvrack.com/plugins.html).
+The VCV Library maintainers are responsible for curating Rack plugins into the [VCV Library](https://vcvrack.com/plugins.html).
 [Anyone is welcome to become a maintainer.](https://github.com/VCVRack/library/issues/248)
 
 All Rack plugins are welcome assuming they
-- are not malware (i.e. harm users' computer or privacy)
-- do not misuse intellectual property (legally or ethically)
+- are not malware (i.e. harm users' computer or privacy).
+- follow the [VCV Plugin Ethics Guidelines](https://vcvrack.com/manual/PluginLicensing.html#vcv-plugin-ethics-guidelines).
 
 
 ## Adding your plugin to the VCV Library (for open-source plugins)
 
 Create exactly one thread in the [Issue Tracker](https://github.com/VCVRack/library/issues), with a title equal to your plugin slug (or multiple slugs, comma-separated, if you have more than one plugin).
 In your post, include a URL to your source code.
-This will be your permanent communication channel with VCV library maintainers.
+This will be your permanent communication channel with VCV Library maintainers.
 
-A library maintainer will handle your request and post a comment when updated.
+A Library maintainer will handle your request and post a comment when updated.
 
 
 #### Pushing an update
 
 To inform us of an update to your plugin, make sure to increment `"version"` in your `plugin.json` file (e.g. from 1.2.12 to 1.2.13), and push a commit to your repository.
-Post a comment in your plugin's thread with
+Post a comment in your plugin's thread (we will re-open it for you) with
 - the new version
 - the commit hash (given by `git log` or `git rev-parse HEAD`). Please do not just give the name of a branch like `master`.
 
-A library maintainer will handle your request and post a comment when updated.
+A Library maintainer will handle your request and post a comment when updated.
 
 
 ## Adding your plugin to the VCV Library (for closed-source freeware and commercial plugins)
