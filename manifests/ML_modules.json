@@ -1,10 +1,10 @@
 {
   "slug": "ML_modules",
   "name": "ML modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "BSD-3-Clause",
   "author": "Martin Lueders",
-  "brand": "ML modules",
+  "brand": "ML Modules",
   "authorEmail": "mlmodules@gmail.com",
   "authorUrl": "https://github.com/martin-lueders",
   "pluginUrl": "https://github.com/martin-lueders/ML_modules/wiki",
