@@ -1,0 +1,32 @@
+{
+  "slug": "ML_modules_seq",
+  "name": "Sequencer Pack",
+  "brand": "ML Modules",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Martin Lueders",
+  "authorEmail": "MLmodules@gmail.com",
+  "authorUrl": "https://github.com/martin-lueders",
+  "pluginUrl": "https://github.com/martin-lueders/ML_Pro_Series",
+  "manualUrl": "https://github.com/martin-lueders/ML_Pro_Series/wiki",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Mem_Sequencer",
+      "name": "Memory Sequencer",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Analog_Sequencer",
+      "name": "Analog Sequencer",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}
