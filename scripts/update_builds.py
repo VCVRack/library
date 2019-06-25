@@ -67,7 +67,8 @@ build.system("cd ../packages && make upload")
 
 # Commit repository
 build.system("git add manifests")
-build.system("git commit -m 'Update builds'")
+built_slugs_list = ", ".join(built_slugs)
+build.system(f"git commit -m 'Update build for {built_slugs_list}'")
 build.system("git push")
 
 
