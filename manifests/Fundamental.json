@@ -1,6 +1,6 @@
 {
   "slug": "Fundamental",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "BSD-3-Clause",
   "name": "Fundamental",
   "brand": "VCV",
@@ -17,7 +17,8 @@
       "name": "VCO-1",
       "description": "Voltage-controlled oscillator",
       "tags": [
-        "VCO"
+        "VCO",
+        "Polyphonic"
       ]
     },
     {
@@ -25,7 +26,8 @@
       "name": "VCO-2",
       "description": "Voltage-controlled oscillator",
       "tags": [
-        "VCO"
+        "VCO",
+        "Polyphonic"
       ]
     },
     {
