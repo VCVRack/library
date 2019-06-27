@@ -1,0 +1,128 @@
+{
+  "slug": "Hora-AnalogDrums",
+  "name": "Analog Drums",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Hora",
+  "author": "Hora",
+  "authorEmail": "Hora.music.contact@gmail.com",
+  "authorUrl": "http://hora-music.be",
+  "pluginUrl": "http://hora-music.wifeo.com/analog-drums.php",
+  "manualUrl": "https://www.cjoint.com/doc/19_01/IAqlr6iR4TA_TreasureCompleteManual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "BassDrumVult",
+      "name": "Bass Drum Vult",
+      "description": "Analog Bass Drum using vult made filter model (use less CPU)",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "BassDrum-VCV",
+      "name": "Bass Drum",
+      "description": "Analog Bass Drum",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Cymbal-VCV",
+      "name": "Cymbal",
+      "description": "Analog cymbal",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HandClap-VCV",
+      "name": "HandClap/Maracas",
+      "description": "Analog Handclap",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "CymbalVult",
+      "name": "Cymbal Vult",
+      "description": "Analog Cymbal  using vult made filter model (use less CPU)",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HandClapVult",
+      "name": "HandClap/Maracas Vult",
+      "description": "Analog HandClap using vult made filter model (use less CPU)",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HiHat-VCV",
+      "name": "Hi-Hat",
+      "description": "Analog HiHat",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HiHatVult",
+      "name": "Hi-Hat Vult",
+      "description": "Analog HiHat using vult made filter model (use less CPU)",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "RimShot-VCV",
+      "name": "RimShot",
+      "description": "Analog RimShot",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "SoftBellVult",
+      "name": "SoftBell/Clave  Vult",
+      "description": "Analog Bell using vult made filter model (use less CPU)",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "SnareDrum-VCV",
+      "name": "Snare Drum",
+      "description": "Analog Snare Drum",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "SnareDrumVult",
+      "name": "Snare Drum Vult",
+      "description": "Analog Snare Drum using vult made filter model (use less CPU)",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Toms-VCV",
+      "name": "Toms/Congas",
+      "description": "Analog Toms",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "TomsVult",
+      "name": "Toms/Congas Vult",
+      "description": "Analog Toms using vult made filter model (use less CPU)",
+      "tags": [
+        "DRUM"
+      ]
+    }
+  ]
+}
