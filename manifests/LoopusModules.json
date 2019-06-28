@@ -1,13 +1,14 @@
 {
   "slug": "LoopusModules",
   "name": "Loopus Modules",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "Proprietary",
-  "author": "Valerio Orlandini",
+  "author": "Sonus Dept.",
   "brand": "Sonus Dept.",
   "authorEmail": "sonusdept@gmail.com",
   "authorUrl": "http://www.sonusdept.com/",
   "pluginUrl": "http://loopusmodules.sonusdept.com",
+  "manualUrl": "https://www.dropbox.com/s/yg0txos5jt79qfn/Loopus%20Modules%20manual.pdf?dl=0",
   "modules": [
     {
       "slug": "Foursome",
