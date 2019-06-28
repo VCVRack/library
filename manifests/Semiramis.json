@@ -1,0 +1,38 @@
+{
+  "slug": "Semiramis",
+  "name": "Semiramis",
+  "version": "1.1.0",
+  "license": "Proprietary",
+  "author": "Sonus Dept.",
+  "brand": "Sonus Dept.",
+  "authorEmail": "sonusdept@gmail.com",
+  "authorUrl": "http://www.sonusdept.com",
+  "pluginUrl": "http://semiramis.sonusdept.com",
+  "manualUrl": "https://www.dropbox.com/s/9nuhhoo2el8ugcb/Semiramis%20Manual.pdf?dl=0",
+  "modules": [
+    {
+      "slug": "Semiramis",
+      "name": "Semiramis",
+      "description": "Semimodular synthesizer",
+      "tags": [
+        "Synth voice",
+        "Filter",
+        "Delay",
+        "LFO",
+        "VCO",
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "Cellularnoise",
+      "name": "Cellular Noise",
+      "description": "Cellular automata VCO/LFO",
+      "tags": [
+        "Noise",
+        "LFO",
+        "Random",
+        "VCO"
+      ]
+    }
+  ]
+}
