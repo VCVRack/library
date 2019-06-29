@@ -1,6 +1,6 @@
 {
   "slug": "DHE-Modules",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "name": "DHE Modules",
   "author": "Dale Emery",
@@ -34,6 +34,24 @@
       "description": "Offsets, scales, squares, and cubes its input signal",
       "tags": [
         "Waveshaper"
+      ]
+    },
+    {
+      "slug": "FuzzyLogicH",
+      "name": "Fuzzy Logic H",
+      "description": "Computes ten hyperbolic parabaloid fuzzy logic functions",
+      "tags": [
+        "Logic",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "FuzzyLogicZ",
+      "name": "Fuzzy Logic Z",
+      "description": "Computes ten \u201cZadeh\u201d fuzzy logic functions",
+      "tags": [
+        "Logic",
+        "Dual"
       ]
     },
     {

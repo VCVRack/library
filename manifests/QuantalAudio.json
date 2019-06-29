@@ -1,0 +1,97 @@
+{
+  "slug": "QuantalAudio",
+  "name": "QuantalAudio",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "brand": "QuantalAudio",
+  "author": "Jansen Price",
+  "authorEmail": "jansen.price@gmail.com",
+  "authorUrl": "https://jansenprice.com",
+  "pluginUrl": "https://github.com/sumpygump/quantal-audio",
+  "manualUrl": "https://github.com/sumpygump/quantal-audio/blob/master/README.md",
+  "sourceUrl": "https://github.com/sumpygump/quantal-audio",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Blank1",
+      "name": "Blank Panel | 1HP",
+      "description": "Blank Panel | 1HP",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank3",
+      "name": "Blank Panel | 3HP",
+      "description": "Blank Panel | 3HP",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank5",
+      "name": "Blank Panel | 5HP",
+      "description": "Blank Panel | 5HP",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "BufferedMult",
+      "name": "Buffered Mult | 2HP",
+      "description": "Buffered multiple 1->3 or 1->6",
+      "tags": [
+        "Multiple"
+      ]
+    },
+    {
+      "slug": "DaisyChannel",
+      "name": "Daisy Mix Channel | 2HP",
+      "description": "Modular mixer channel - daisy chainable",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "DaisyMaster",
+      "name": "Daisy Mix Master | 3HP",
+      "description": "Modular mixer master",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "DaisyMaster",
+      "name": "Daisy Mix Master | 3HP",
+      "description": "Modular mixer master",
+      "tags": [
+        "Mixer",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "Horsehair",
+      "name": "Horsehair VCO | 7HP",
+      "description": "2x VCO saw to pulsewave",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Mixer2",
+      "name": "Mixer 2 | Mono->Stereo | 5HP",
+      "description": "Mono or stereo 2 channel mixer",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "UnityMix",
+      "name": "Unity Mix | 2HP",
+      "description": "Multiple 3->1 or 6->1",
+      "tags": [
+        "Multiple"
+      ]
+    }
+  ]
+}

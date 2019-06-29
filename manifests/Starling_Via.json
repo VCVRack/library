@@ -1,0 +1,56 @@
+{
+  "slug": "Starling_Via",
+  "name": "Via",
+  "author": "Starling",
+  "license": "MIT",
+  "version": "1.0.0",
+  "pluginUrl": "https://starling.space/via/rack",
+  "authorUrl": "https://starling.space",
+  "authorEmail": "admin@starling.space",
+  "manualUrl": "https://starling.space/via/rack#manual",
+  "sourceUrl": "https://github.com/starlingcode/Via-for-Rack.git",
+  "donateUrl": "https://paypal.me/ssttaarrlliinngg",
+  "changelogUrl": "https://github.com/starlingcode/Via-for-Rack/blob/v1/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "META",
+      "name": "META",
+      "tags": [
+        "Function Generator",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "SYNC",
+      "name": "SYNC",
+      "tags": [
+        "Oscillator",
+        "Clock Modulator"
+      ]
+    },
+    {
+      "slug": "SCANNER",
+      "name": "SCANNER",
+      "tags": [
+        "Waveshaper",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "GATESEQ",
+      "name": "GATESEQ",
+      "tags": [
+        "Sequencer",
+        "Sample and Hold"
+      ]
+    },
+    {
+      "slug": "ATSR",
+      "name": "ATSR",
+      "tags": [
+        "Envelope Generator",
+        "LFO"
+      ]
+    }
+  ]
+}

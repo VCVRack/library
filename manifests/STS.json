@@ -1,6 +1,6 @@
 {
   "slug": "STS",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "GPL-3.0-only",
   "name": "STS",
   "author": "STS",
@@ -59,6 +59,15 @@
       "description": "VU Meter Poly",
       "tags": [
         "Visual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "LFOPoly",
+      "name": "LFOPoly",
+      "description": "Poly LFO 16",
+      "tags": [
+        "LFO",
         "Polyphonic"
       ]
     }
