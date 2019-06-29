@@ -1,0 +1,48 @@
+{
+  "slug": "Hora-treasureFree",
+  "name": "Treasure Free",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Hora",
+  "brand": "Hora",
+  "authorEmail": "Hora.music.contact@gmail.com",
+  "authorUrl": "http://hora-music.be",
+  "pluginUrl": "http://www.hora-music.be/free-modules.php",
+  "manualUrl": "http://www.hora-music.be/manuals.php",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "SnareDrum-VCV",
+      "name": "Snare Drum",
+      "description": "Analog Snare Drum",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "SoftBell",
+      "name": "Soft Bell",
+      "description": "Analog Bell using vult made fiter mdoel",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "HiHat",
+      "name": "Hi Hat",
+      "description": "Analog HiHat  using vult made fiter mdoel",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Frequencydivider",
+      "name": "Frequency Divider",
+      "description": "Frequency divider",
+      "tags": [
+        "Utility"
+      ]
+    }
+  ]
+}

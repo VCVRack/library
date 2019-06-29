@@ -1,0 +1,32 @@
+{
+  "slug": "Hora-Modulation",
+  "name": "Modulations",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Hora",
+  "author": "Hora",
+  "authorEmail": "Hora.music.contact@gmail.com",
+  "authorUrl": "http://hora-music.be",
+  "pluginUrl": "http://www.hora-music.be/modulation.php",
+  "manualUrl": "http://www.hora-music.be/manuals.php",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Relief-Envelopegeneretor",
+      "name": "complexEnvelope",
+      "description": "complex envelope generator",
+      "tags": [
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "TwinQuartet-LFO",
+      "name": "quadraLFO",
+      "description": "Quadratic LFO",
+      "tags": [
+        "LFO"
+      ]
+    }
+  ]
+}

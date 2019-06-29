@@ -1,0 +1,24 @@
+{
+  "slug": "Hora-VCO_VCF_VCA_Free",
+  "name": "VCO-VCF-VCA Free",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Hora",
+  "brand": "Hora",
+  "authorEmail": "Hora.music.contact@gmail.com",
+  "authorUrl": "http://hora-music.be",
+  "pluginUrl": "http://www.hora-music.be/vco-vcf-vca.php",
+  "manualUrl": "http://www.hora-music.be/manuals.php",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Amplitude-VCMixer",
+      "name": "Amplitude",
+      "description": "voltage controlled mixer/inverter/amp",
+      "tags": [
+        "VCA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "Hora-Sequencers",
+  "name": "Sequencers",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Hora",
+  "brand": "Hora",
+  "authorEmail": "Hora.music.contact@gmail.com",
+  "authorUrl": "http://hora-music.be",
+  "pluginUrl": "http://www.hora-music.be/sequencer.php",
+  "manualUrl": "http://www.hora-music.be/manuals.php",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Frequencydivider",
+      "name": "Frequency Divider",
+      "description": "frequency divider",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Drumsequencer",
+      "name": "Drum Sequencer",
+      "description": "Advanced drum sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "DrumSongMapper",
+      "name": "Song Mapper",
+      "description": "Pattern sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}

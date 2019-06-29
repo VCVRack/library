@@ -1,0 +1,88 @@
+{
+  "slug": "Hora-PCMDrum",
+  "name": "PCM Drum",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Hora",
+  "brand": "Hora",
+  "authorEmail": "Hora.music.contact@gmail.com",
+  "authorUrl": "www.hora-music.be/",
+  "pluginUrl": "http://www.hora-music.be/pcm-drums.php",
+  "manualUrl": "http://www.hora-music.be/manuals.php",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Hora-PCMDDD1",
+      "name": "PCM drums",
+      "description": "DDD1 & PSS50 samples based drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Hora-PCMDMX",
+      "name": "PCM drums",
+      "description": "DMX & MXR samples based drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Hora-PCMEmu",
+      "name": "PCM drums",
+      "description": "EMU & SP12 samples based drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Hora-PCMDrumLDrum",
+      "name": "PCM drums",
+      "description": "LinnDrum samples based drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Hora-PCMRX",
+      "name": "PCM drums",
+      "description": "RX samples based drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Hora-PCMRXII",
+      "name": "PCM drums",
+      "description": "RXII samples based drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Hora-PCMSakata",
+      "name": "PCM drums",
+      "description": "Sakata & sequentialTOM samples based drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Hora-PCMX26",
+      "name": "PCM drums",
+      "description": "626 samples based drums",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Hora-PCM907",
+      "name": "PCM drums",
+      "description": "707 & 909 samples based drums",
+      "tags": [
+        "DRUM"
+      ]
+    }
+  ]
+}

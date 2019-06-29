@@ -1,0 +1,24 @@
+{
+  "slug": "Hora-PCMDrumFree",
+  "name": "PCM Drums free",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Hora",
+  "author": "Hora",
+  "authorEmail": "hora.music.contact@gmail.com",
+  "authorUrl": "http://www.hora-music.be",
+  "pluginUrl": "http://www.hora-music.be/pcm-drums.php",
+  "manualUrl": "http://www.hora-music.be/manuals.php",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Hora-PCMDrumLDrum",
+      "name": "PCM Drum",
+      "description": "LinnDrum samples based drums",
+      "tags": [
+        "DRUM"
+      ]
+    }
+  ]
+}

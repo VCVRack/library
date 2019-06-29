@@ -1,0 +1,40 @@
+{
+  "slug": "Hora-VCO_VCF_VCA",
+  "name": "VCO VCF VCA",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Hora",
+  "brand": "Hora",
+  "authorEmail": "Hora.music.contact@gmail.com",
+  "authorUrl": "http://hora-music.be",
+  "pluginUrl": "http://www.hora-music.be/vco-vcf-vca.php",
+  "manualUrl": "http://www.hora-music.be/manuals.php",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Amplitude-VCMixer",
+      "name": "Amplitude",
+      "description": "Volatge control mixer/inverter/amp",
+      "tags": [
+        "VCA"
+      ]
+    },
+    {
+      "slug": "Timbre-VCF",
+      "name": "Timbre VCF",
+      "description": "Multimode VCF",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "Pure-VCO",
+      "name": "Pure VCO",
+      "description": "sine core foldable VCO",
+      "tags": [
+        "VCO"
+      ]
+    }
+  ]
+}

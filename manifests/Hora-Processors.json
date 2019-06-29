@@ -1,0 +1,40 @@
+{
+  "slug": "Hora-Processors",
+  "name": "Processors",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Hora",
+  "author": "Hora",
+  "authorEmail": "Hora.music.contact@gmail.com",
+  "authorUrl": "http://hora-music.be",
+  "pluginUrl": "http://www.hora-music.be/sound-processors.php",
+  "manualUrl": "http://www.hora-music.be/manuals.php",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "SpectralProcessor",
+      "name": "Spectral Processor",
+      "description": "Spectral processor inspired by bucchla 296e",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "EnvelopeFollower",
+      "name": "Follower",
+      "description": "Envelope follower",
+      "tags": [
+        "Envelope follower"
+      ]
+    },
+    {
+      "slug": "Delay",
+      "name": "Delay",
+      "description": "Multimode Delay",
+      "tags": [
+        "Effect"
+      ]
+    }
+  ]
+}
