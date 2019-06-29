@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -19,7 +19,8 @@
       "description": "Add CV automation to 32 parameters of any module",
       "tags": [
         "Utility",
-        "Polyphonic"
+        "Polyphonic",
+        "Controller"
       ]
     },
     {
@@ -27,7 +28,8 @@
       "name": "\u00b5MAP",
       "description": "Add CV automation to one parameter of any module",
       "tags": [
-        "Utility"
+        "Utility",
+        "Controller"
       ]
     },
     {
@@ -36,12 +38,13 @@
       "description": "Generate CV from any parameter change of any module",
       "tags": [
         "Utility",
-        "Polyphonic"
+        "Polyphonic",
+        "Controller"
       ]
     },
     {
       "slug": "RotorA",
-      "name": "Rotor Model A",
+      "name": "ROTOR Model A",
       "description": "Rotates a signal across polyphonic channels",
       "tags": [
         "Utility",
@@ -53,16 +56,28 @@
       "name": "ReMOVE Lite",
       "description": "Recorder for parameter automation",
       "tags": [
-        "Utility"
+        "Utility",
+        "Recording",
+        "Controller"
       ]
     },
     {
       "slug": "Bolt",
       "name": "BOLT",
-      "description": "Polyphonic logic operations with modulation and sample & hold",
+      "description": "Polyphonic logic boolean functions with modulation and sample & hold",
       "tags": [
         "Utility",
         "Logic",
+        "Polyphonic",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "Infix",
+      "name": "INFIX",
+      "description": "Insert for polyphonic cables",
+      "tags": [
+        "Utility",
         "Polyphonic"
       ]
     }

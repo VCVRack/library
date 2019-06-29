@@ -1,0 +1,100 @@
+{
+  "slug": "CatroModulo",
+  "name": "Catro/Modulo",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "catronomix",
+  "author": "catronomix",
+  "authorEmail": "catronomix+dev@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/catronomix/catro-modulo",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/catronomix/catro-modulo",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "CatroModulo_CM-1",
+      "name": "8xlfo",
+      "description": "8x LFO with full CV control and bpm sync",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "CatroModulo_CM-2",
+      "name": "8xatn",
+      "description": "8 attenuverters with cv control anx x2 signal boost",
+      "tags": [
+        "Attenuator",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "CatroModulo_CM-3",
+      "name": "PreSetSeq",
+      "description": "Preset scanner/sequencer for 8 parameters with 8 save slots",
+      "tags": [
+        "Sample and hold",
+        "sequencer"
+      ]
+    },
+    {
+      "slug": "CatroModulo_CM-4",
+      "name": "vcClk",
+      "description": "BPM clock with BPM sync output for other C/M modules",
+      "tags": [
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "CatroModulo_CM-5",
+      "name": "vcClk++",
+      "description": "Clock multiplier for vcClk (can be used as a standalone clock with cv input)",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "CatroModulo_CM-6",
+      "name": "1hp blank",
+      "description": "May the Light shine forever upon You",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "CatroModulo_CM-7",
+      "name": "vcClk--",
+      "description": "Clock divider for vcClk (can be used as a standalone clock with cv input)",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "CatroModulo_CM-8",
+      "name": "aAvsBb",
+      "description": "Multi-purpose quadcomparator/wave folder with 4 inputs",
+      "tags": [
+        "Logic",
+        "Sample and hold",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "CatroModulo_CM-9",
+      "name": "1-8-1",
+      "description": "8>1 and 1>8 (stepping) switch in one.",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "CatroModulo_CM-10",
+      "name": "bitStep",
+      "description": "Receives a trigger to sample a binary value which gets passed on when the next trigger is received, made to be chained together",
+      "tags": [
+        "Logic"
+      ]
+    }
+  ]
+}

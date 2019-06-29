@@ -1,0 +1,232 @@
+{
+  "slug": "cf",
+  "version": "1.0.1",
+  "license": "BSD-3-Clause",
+  "name": "cf",
+  "brand": "cf",
+  "author": "clement foulc",
+  "authorEmail": "c.foulc@gmail.com",
+  "pluginUrl": "https://github.com/cfoulc/cf",
+  "authorUrl": "https://github.com/cfoulc/cf",
+  "manualUrl": "https://github.com/cfoulc/cf",
+  "sourceUrl": "https://github.com/cfoulc/cf",
+  "changelogUrl": "https://github.com/cfoulc/cf",
+  "modules": [
+    {
+      "slug": "METRO",
+      "name": "Metro",
+      "description": "Clock",
+      "tags": [
+        "CLOCK"
+      ]
+    },
+    {
+      "slug": "EACH",
+      "name": "Each",
+      "description": "Clock divider",
+      "tags": [
+        "UTILITY"
+      ]
+    },
+    {
+      "slug": "trSEQ",
+      "name": "trSeq",
+      "description": "sequencer with per step inputs",
+      "tags": [
+        "SEQUENCER"
+      ]
+    },
+    {
+      "slug": "LEDSEQ",
+      "name": "ledSeq",
+      "description": "5x16 triggers sequencer",
+      "tags": [
+        "SEQUENCER"
+      ]
+    },
+    {
+      "slug": "L3DS3Q",
+      "name": "l3dS3q",
+      "description": "5x16 triggers sequencer",
+      "tags": [
+        "SEQUENCER"
+      ]
+    },
+    {
+      "slug": "L3DS3Q",
+      "name": "l3dS3q",
+      "description": "5x16 triggers sequencer",
+      "tags": [
+        "SEQUENCER"
+      ]
+    },
+    {
+      "slug": "SLIDERSEQ",
+      "name": "SliderSeq",
+      "description": "16 CVs sequencer",
+      "tags": [
+        "SEQUENCER"
+      ]
+    },
+    {
+      "slug": "PLAYER",
+      "name": "Player",
+      "description": "Sample player",
+      "tags": [
+        "SAMPLER"
+      ]
+    },
+    {
+      "slug": "PLAY",
+      "name": "Play",
+      "description": "Mini sample player",
+      "tags": [
+        "SAMPLER"
+      ]
+    },
+    {
+      "slug": "MONO",
+      "name": "Mono",
+      "description": "Modular mixer Mono Channel",
+      "tags": [
+        "MIXER"
+      ]
+    },
+    {
+      "slug": "STEREO",
+      "name": "Stereo",
+      "description": "Modular mixer Stereo Channel",
+      "tags": [
+        "MIXER"
+      ]
+    },
+    {
+      "slug": "SUB",
+      "name": "Sub",
+      "description": "Modular mixer Sends",
+      "tags": [
+        "MIXER"
+      ]
+    },
+    {
+      "slug": "MASTER",
+      "name": "Master",
+      "description": "Modular mixer Master",
+      "tags": [
+        "MIXER"
+      ]
+    },
+    {
+      "slug": "VARIABLE",
+      "name": "Variable",
+      "description": "Sample & Hold",
+      "tags": [
+        "UTILITY"
+      ]
+    },
+    {
+      "slug": "ALGEBRA",
+      "name": "Algebra",
+      "description": "2 signals math",
+      "tags": [
+        "UTILITY"
+      ]
+    },
+    {
+      "slug": "FUNKTION",
+      "name": "Funktion",
+      "description": "1 signal math",
+      "tags": [
+        "UTILITY"
+      ]
+    },
+    {
+      "slug": "CHOKE",
+      "name": "Choke",
+      "description": "hi hat style choker",
+      "tags": [
+        "UTILITY"
+      ]
+    },
+    {
+      "slug": "FOUR",
+      "name": "Four",
+      "description": "4 x solo/mute",
+      "tags": [
+        "UTILITY"
+      ]
+    },
+    {
+      "slug": "STEPS",
+      "name": "Steps",
+      "description": "quantiser",
+      "tags": [
+        "UTILITY"
+      ]
+    },
+    {
+      "slug": "PEAK",
+      "name": "Peak",
+      "description": "limiter",
+      "tags": [
+        "LIMITER"
+      ]
+    },
+    {
+      "slug": "CUTS",
+      "name": "Cuts",
+      "description": "dirty HP & LP filters",
+      "tags": [
+        "FILTER"
+      ]
+    },
+    {
+      "slug": "BUFFER",
+      "name": "Buffer",
+      "description": "dirty delay buffer/filter",
+      "tags": [
+        "DELAY"
+      ]
+    },
+    {
+      "slug": "DISTO",
+      "name": "Disto",
+      "description": "dirty distortion",
+      "tags": [
+        "DISTORTION"
+      ]
+    },
+    {
+      "slug": "CUBE",
+      "name": "Cube",
+      "description": "weird lfo",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "PATCH",
+      "name": "Patch",
+      "description": "patch bay",
+      "tags": [
+        "UTILITY"
+      ]
+    },
+    {
+      "slug": "LEDS",
+      "name": "Leds",
+      "description": "leds",
+      "tags": [
+        "VISUAL"
+      ]
+    },
+    {
+      "slug": "DAVE",
+      "name": "Dave",
+      "description": "blank panel",
+      "tags": [
+        "BLANK"
+      ]
+    }
+  ]
+}

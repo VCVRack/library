@@ -1,0 +1,107 @@
+{
+  "slug": "Ohmer",
+  "name": "Ohmer Modules",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "author": "Dominique Camus",
+  "brand": "Ohmer Modules",
+  "authorEmail": "docam@free.fr",
+  "authorUrl": "https://github.com/DomiKamu",
+  "pluginUrl": "https://github.com/DomiKamu/Ohmer-Modules",
+  "manualUrl": "https://github.com/DomiKamu/Ohmer-Modules/blob/v1/README.md",
+  "sourceUrl": "https://github.com/DomiKamu/Ohmer-Modules.git",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "KlokSpid",
+      "name": "KlokSpid",
+      "description": "CPU-controlled clock generator / modulator",
+      "tags": [
+        "Clock generator",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "RKD",
+      "name": "RKD (Rotate Klok Divider)",
+      "description": "Rotate Klok Divider (RKD) module (inspired from real hardware)",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "RKDBRK",
+      "name": "RKD with \"Break\"",
+      "description": "RKD with \"Break\" companion panel (inspired from real hardware)",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Metriks",
+      "name": "Metriks",
+      "description": "Voltmeter, frequency/BPM counter, pulse counter",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "SplitterModule",
+      "name": "Splitter 1x9",
+      "description": "Spread incoming mono or polyphonic signal to 9 outputs",
+      "tags": [
+        "Multiple",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "OhmerBlank1",
+      "name": "Blank 1 HP",
+      "description": "1 HP blank plate (using 2 screws)",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "OhmerBlank2",
+      "name": "Blank 2 HP",
+      "description": "2 HP blank plate (costomizable screws disposal)",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "OhmerBlank4",
+      "name": "Blank 4 HP",
+      "description": "4 HP blank plate (using 4 screws)",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "OhmerBlank8",
+      "name": "Blank 8 HP",
+      "description": "8 HP blank plate (using 4 screws)",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "OhmerBlank16",
+      "name": "Blank 16 HP",
+      "description": "16 HP blank plate (using 4 screws)",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "OhmerBlank32",
+      "name": "Blank 32 HP",
+      "description": "32 HP blank plate (using 4 screws)",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
+}
