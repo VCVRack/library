@@ -1,0 +1,24 @@
+{
+  "slug": "ChortlingHamsterModules",
+  "name": "Chortling Hamster Modules",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause-Clear",
+  "brand": "Chortling Hamster Modules",
+  "author": "Alan Holding",
+  "authorEmail": "alanholding@me.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/chortlinghamster/modules/blob/master/README.md",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/chortlinghamster/modules",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Pop",
+      "name": "Pop",
+      "description": "Pop is a small sample and hold module. One input, one trigger and one output. But it has a chortling hamster on it!",
+      "tags": [
+        "Sample and hold"
+      ]
+    }
+  ]
+}
