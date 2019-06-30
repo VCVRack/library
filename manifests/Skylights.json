@@ -1,0 +1,73 @@
+{
+  "slug": "Skylights",
+  "name": "Skylights",
+  "brand": "Skrylar",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "author": "Skrylar",
+  "authorEmail": "joshua.cearley@gmail.com",
+  "authorUrl": "https://github.com/Skrylar",
+  "pluginUrl": "https://github.com/Skrylar/skylights-vcv",
+  "manualUrl": "https://github.com/Skrylar/skylights-vcv",
+  "sourceUrl": "https://github.com/Skrylar/skylights-vcv",
+  "donateUrl": "https://www.ko-fi.com/V7V6RG3E",
+  "modules": [
+    {
+      "slug": "SkAdrift",
+      "name": "Adrift (Analogue Drift)",
+      "description": "Randomized Sample and Hold, simulates minor analogue drift",
+      "tags": [
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "SkTuringV2",
+      "name": "Alan (Turing Machine)",
+      "description": "A Whitwell turing machine.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "SkTuringPulse",
+      "name": "Alan (Pulse Expander)",
+      "description": "Turing Machine pulse expander",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SkTuringVolts",
+      "name": "Alan (Volts Expander)",
+      "description": "Turing Machine volts expander",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SkTuringVactrol",
+      "name": "Alan (Digital Mix Expander)",
+      "description": "A vactrol mix expander using digital signal attenuation.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SkTuringVactrolAnalogue",
+      "name": "Alan (Vactrol Mix Expander)",
+      "description": "A vactrol mix expander using an emulated vactrol chip.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SkWhatnoteCV",
+      "name": "What Note?",
+      "description": "A CV tuner.",
+      "tags": [
+        "Tuner",
+        "Utility"
+      ]
+    }
+  ]
+}

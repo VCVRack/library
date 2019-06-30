@@ -1,0 +1,161 @@
+{
+  "slug": "mscHack",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "name": "mscHack",
+  "brand": "mscHack",
+  "author": "mscHack",
+  "authorEmail": "",
+  "pluginUrl": "https://github.com/mschack/VCV-Rack-Plugins/blob/master/README.md",
+  "authorUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/mschack/VCV-Rack-Plugins",
+  "changelogUrl": "https://github.com/mschack/VCV-Rack-Plugins",
+  "modules": [
+    {
+      "slug": "MasterClockx4",
+      "name": "Master Clock x4",
+      "description": "4 Channel Clock",
+      "tags": [
+        "Clock"
+      ]
+    },
+    {
+      "slug": "SEQ_Envelope_8",
+      "name": "ENVY - 9",
+      "description": "9 Channel Editable Envelope Generator",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TriadSeq2",
+      "name": "Triad 2 Sequencer",
+      "description": "3 Channel Keyboard Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ARP700",
+      "name": "ARP 700",
+      "description": "7 Note programmable Arpeggiator",
+      "tags": [
+        "Arpeggiator"
+      ]
+    },
+    {
+      "slug": "Seq_6ch_32step",
+      "name": "SEQ 6 x 32",
+      "description": "6 Channel 32 step voltage/trigger sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Osc_3Ch_Widget",
+      "name": "OSC 3 Channel",
+      "description": "3 Channel Synth",
+      "tags": [
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "PingPong_Widget",
+      "name": "Ping Pong",
+      "description": "Ping Pong Delay",
+      "tags": [
+        "Delay"
+      ]
+    },
+    {
+      "slug": "Mix_4_0_4",
+      "name": "MIX 4 Channel",
+      "description": "4 Channel Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Mix_9_3_4",
+      "name": "MIX 9 Channel, 3 Groups",
+      "description": "9 Channel Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Mix_16_4_4",
+      "name": "MIX 16 Channel, 4 groups",
+      "description": "16 Channel Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Mix_24_4_4",
+      "name": "MIX 24 Channel, 4 groups",
+      "description": "24 Channel Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "ASAF8",
+      "name": "ASAF8",
+      "description": "8 Channel Auto Stereo Audio Fader",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Dronez",
+      "name": "Dronez",
+      "description": "Random Drone",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Alienz",
+      "name": "Alienz",
+      "description": "Alien transmissions",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Windz",
+      "name": "Windz",
+      "description": "Random Noise",
+      "tags": [
+        "Random",
+        "Noise"
+      ]
+    },
+    {
+      "slug": "Morze",
+      "name": "Morze",
+      "description": "Morse Code Generator",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "OSC_WaveMorph_3",
+      "name": "Wave morph Oscillator",
+      "description": "CV Morph 3 Drawable Waveforms",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "SynthDrums",
+      "name": "Synth Drums",
+      "description": "3 Channel Synth Drums",
+      "tags": [
+        "Drum"
+      ]
+    }
+  ]
+}
