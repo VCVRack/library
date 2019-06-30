@@ -333,3 +333,6 @@
 [submodule "repos/MosquitoLabs"]
 	path = repos/MosquitoLabs
 	url = https://github.com/rmosquito/vcv-mosquito.git
+[submodule "repos/ChortlingHamsterModules"]
+	path = repos/ChortlingHamsterModules
+	url = https://github.com/chortlinghamster/modules.git
