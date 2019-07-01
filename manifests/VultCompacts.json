@@ -1,37 +1,52 @@
 {
-   "slug": "VultCompacts",
-   "name": "Vult Compacts",
-   "author": "Leonardo Laguna Ruiz",
-   "brand": "Vult",
-   "license": "proprietary",
-   "authorEmail": "leonardo@vult-dsp.com",
-   "pluginUrl": "https://modlfo.github.io/VultModules/compacts/",
-   "authorUrl": "https://vult-dsp.com",
-   "manualUrl": "https://modlfo.github.io/VultModules",
-   "version": "1.0.1",
-   "modules": [{
-         "slug": "Freak",
-         "name": "Freak",
-         "tags": ["VCF", "VCO", "Polyphonic"],
-         "description": "Manifold Filter"
-      },
-      {
-         "slug": "Incubus",
-         "name": "Incubus",
-         "tags": ["Synth Voice", "Polyphonic"],
-         "description": "Nightmare Synthesizer"
-      },
-      {
-         "slug": "Knock",
-         "name": "Knock",
-         "tags": ["Drum", "Polyphonic"],
-         "description": "Bass Drum"
-      },
-      {
-         "slug": "Vorg",
-         "name": "Vorg",
-         "tags": ["VCF", "VCO", "Polyphonic"],
-         "description": "Low/High Pass Filter"
-      }
-   ]
+  "slug": "VultCompacts",
+  "name": "Vult Compacts",
+  "author": "Leonardo Laguna Ruiz",
+  "brand": "Vult",
+  "license": "proprietary",
+  "authorEmail": "leonardo@vult-dsp.com",
+  "pluginUrl": "https://modlfo.github.io/VultModules/compacts/",
+  "authorUrl": "https://vult-dsp.com",
+  "manualUrl": "https://modlfo.github.io/VultModules",
+  "version": "1.0.2",
+  "modules": [
+    {
+      "slug": "Freak",
+      "name": "Freak",
+      "tags": [
+        "VCF",
+        "VCO",
+        "Polyphonic"
+      ],
+      "description": "Manifold Filter"
+    },
+    {
+      "slug": "Incubus",
+      "name": "Incubus",
+      "tags": [
+        "Synth Voice",
+        "Polyphonic"
+      ],
+      "description": "Nightmare Synthesizer"
+    },
+    {
+      "slug": "Knock",
+      "name": "Knock",
+      "tags": [
+        "Drum",
+        "Polyphonic"
+      ],
+      "description": "Bass Drum"
+    },
+    {
+      "slug": "Vorg",
+      "name": "Vorg",
+      "tags": [
+        "VCF",
+        "VCO",
+        "Polyphonic"
+      ],
+      "description": "Low/High Pass Filter"
+    }
+  ]
 }
