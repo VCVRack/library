@@ -1,0 +1,26 @@
+{
+  "slug": "Entrian-Free",
+  "name": "Entrian",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Entrian",
+  "author": "Entrian Solutions Ltd",
+  "authorEmail": "support@entrian.com",
+  "authorUrl": "",
+  "pluginUrl": "http://entrian.com/audio/entrian-free.html",
+  "manualUrl": "http://entrian.com/audio/entrian-free.html",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Follower",
+      "name": "Follower",
+      "description": "Pitch and Envelope Follower",
+      "tags": [
+        "Utility",
+        "Visual",
+        "Envelope Follower"
+      ]
+    }
+  ]
+}
