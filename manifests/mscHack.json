@@ -1,6 +1,6 @@
 {
   "slug": "mscHack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "BSD-3-Clause",
   "name": "mscHack",
   "brand": "mscHack",
@@ -64,6 +64,14 @@
       "slug": "PingPong_Widget",
       "name": "Ping Pong",
       "description": "Ping Pong Delay",
+      "tags": [
+        "Delay"
+      ]
+    },
+    {
+      "slug": "StepDelay",
+      "name": "Step Delay",
+      "description": "Step Delay",
       "tags": [
         "Delay"
       ]
@@ -155,6 +163,14 @@
       "description": "3 Channel Synth Drums",
       "tags": [
         "Drum"
+      ]
+    },
+    {
+      "slug": "Maude221",
+      "name": "Maude Two to One",
+      "description": "Rectify/Combine 2 mono signals",
+      "tags": [
+        "Waveshaper"
       ]
     }
   ]

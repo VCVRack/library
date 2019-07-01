@@ -1,6 +1,6 @@
 {
   "slug": "AS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "name": "AS",
   "brand": "AS",
@@ -13,7 +13,7 @@
   "changelogUrl": "https://github.com/AScustomWorks/AS/blob/master/README.md",
   "modules": [
     {
-      "slug": "SineOsc",
+      "slug": "SineOSC",
       "disabled": "false",
       "name": "TinySine",
       "description": "Simple Voltage-controlled sine oscillator",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "slug": "SawOsc",
+      "slug": "SawOSC",
       "disabled": "false",
       "name": "TinySawish",
       "description": "Simple Voltage-controlled saw oscillator",
