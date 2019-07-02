@@ -1,6 +1,6 @@
 {
   "slug": "StellareModular-CreativeSuite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Proprietary",
   "name": "Creative Suite",
   "brand": "Stellare Modular",
@@ -8,6 +8,7 @@
   "authorEmail": "stellaremodular@gmail.com",
   "pluginUrl": "https://www.facebook.com/stellaremodular",
   "authorUrl": "https://www.facebook.com/stellaremodular",
+  "manualUrl": "http://www.stellaremodular.com/downloads/CreativeSuite_Manual.pdf",
   "modules": [
     {
       "slug": "Andromeda",
