@@ -1,0 +1,24 @@
+{
+  "slug": "RB-Clapper",
+  "name": "Clapper",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Robotic Bean",
+  "author": "Robotic Bean",
+  "authorEmail": "info@roboticbean.com",
+  "authorUrl": "roboticbean.com",
+  "pluginUrl": "roboticbean.com/creative/products/clapper/",
+  "manualUrl": "roboticbean.com/creative/products/clapper/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "RB-Clapper",
+      "name": "Clapper",
+      "description": "Synthesized 808-Style Hand Clap",
+      "tags": [
+        "Drum"
+      ]
+    }
+  ]
+}

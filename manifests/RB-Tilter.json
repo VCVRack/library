@@ -1,0 +1,24 @@
+{
+  "slug": "RB-Tilter",
+  "name": "Tilter",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Robotic Bean",
+  "author": "Robotic Bean",
+  "authorEmail": "info@roboticbean.com",
+  "authorUrl": "roboticbean.com",
+  "pluginUrl": "roboticbean.com/creative/products/tilter/",
+  "manualUrl": "roboticbean.com/creative/products/tilter/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "RB-Tilter",
+      "name": "Tilter",
+      "description": "Combined LP and HP filter",
+      "tags": [
+        "VCF"
+      ]
+    }
+  ]
+}
