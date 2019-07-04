@@ -1,14 +1,14 @@
 {
   "slug": "EricaCopies",
   "name": "Erica",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "proprietary",
   "author": "Erica",
   "brand": "Erica",
-  "authorEmail": "",
+  "authorEmail": "hora.music.contact@gmail.com",
   "authorUrl": "https://www.ericasynths.lv/",
   "pluginUrl": "",
-  "manualUrl": "",
+  "manualUrl": "https://www.ericasynths.lv/support/",
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
@@ -26,6 +26,14 @@
       "description": "Octa LFO",
       "tags": [
         "LFO"
+      ]
+    },
+    {
+      "slug": "PicoDrums",
+      "name": "PicoDrums",
+      "description": "Drum sampler",
+      "tags": [
+        "DRUMS"
       ]
     }
   ]
