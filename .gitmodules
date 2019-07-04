@@ -339,3 +339,6 @@
 [submodule "repos/SLM"]
 	path = repos/SLM
 	url = https://github.com/salvolm84/SLM-vcv-rack.git
+[submodule "repos/Circlefade"]
+	path = repos/Circlefade
+	url = https://github.com/max-circlefade/Circlefade.git
