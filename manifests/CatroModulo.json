@@ -1,7 +1,7 @@
 {
   "slug": "CatroModulo",
   "name": "Catro/Modulo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "BSD-3-Clause",
   "brand": "catronomix",
   "author": "catronomix",
@@ -49,7 +49,7 @@
     {
       "slug": "CatroModulo_CM-5",
       "name": "vcClk++",
-      "description": "Clock multiplier for vcClk (can be used as a standalone clock with cv input)",
+      "description": "Clock multiplier for vcClk",
       "tags": [
         "Clock modulator"
       ]
@@ -65,7 +65,7 @@
     {
       "slug": "CatroModulo_CM-7",
       "name": "vcClk--",
-      "description": "Clock divider for vcClk (can be used as a standalone clock with cv input)",
+      "description": "Clock divider for vcClk",
       "tags": [
         "Clock modulator"
       ]
@@ -91,7 +91,7 @@
     {
       "slug": "CatroModulo_CM-10",
       "name": "bitStep",
-      "description": "Receives a trigger to sample a binary value which gets passed on when the next trigger is received, made to be chained together",
+      "description": "1 'building block' for creating binary shift registers",
       "tags": [
         "Logic"
       ]

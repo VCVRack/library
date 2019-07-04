@@ -1,6 +1,6 @@
 {
   "slug": "cf",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "BSD-3-Clause",
   "name": "cf",
   "brand": "cf",
@@ -210,6 +210,14 @@
       "description": "patch bay",
       "tags": [
         "UTILITY"
+      ]
+    },
+    {
+      "slug": "LABEL",
+      "name": "LABEL",
+      "description": "label",
+      "tags": [
+        "VISUAL"
       ]
     },
     {

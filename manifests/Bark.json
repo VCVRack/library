@@ -1,8 +1,8 @@
 {
   "slug": "Bark",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "BSD-4-Clause",
-  "name": "Coirt\t/\tBark",
+  "name": "Coirt / Bark",
   "brand": "Bark",
   "author": "Phil Golden",
   "authorEmail": "philg@live.ie",
@@ -16,7 +16,7 @@
     {
       "slug": "TrimLFO",
       "name": "Trim LFO Hz",
-      "description": "Trims top/bottom values on the selected\nLFO output, without attenuating\n",
+      "description": "Trims top/bottom values on the selected\nLFO output, without attenuating. Quick\naccess buttons on labels\n",
       "tags": [
         "LFO",
         "Utility",
@@ -37,7 +37,7 @@
     {
       "slug": "bpmTrimLFO",
       "name": "Trim LFO BPM",
-      "description": "Trims top/bottom values on the selected\nLFO output, without attenuating\n",
+      "description": "Trims top/bottom values on the selected\nLFO output, without attenuating. Quick\naccess buttons on labels\n",
       "tags": [
         "LFO",
         "Utility",
@@ -67,7 +67,7 @@
     {
       "slug": "PolyMix",
       "name": "Polyphonic Mixer",
-      "description": "One Cable(s),\n4x4 channel Mixer with send/return\n",
+      "description": "One Cable(s),\n4x4 channel Mixer with send/return. Constant\npower pan law Aux pre solo/master\npost fader\n",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -93,7 +93,7 @@
     {
       "slug": "Clamp",
       "name": "Clamp",
-      "description": "Feed signal, gained output\nwon't go over voltages set.\nCan also attenuvert signals,\nInvert applied to input.\n",
+      "description": "Feed signal, gained output won't\ngo over voltages set. Can also\nattenuvert signals, Invert\napplied to input.\n",
       "tags": [
         "Utility",
         "Attenuator",
