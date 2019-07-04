@@ -336,3 +336,6 @@
 [submodule "repos/ChortlingHamsterModules"]
 	path = repos/ChortlingHamsterModules
 	url = https://github.com/chortlinghamster/modules.git
+[submodule "repos/SLM"]
+	path = repos/SLM
+	url = https://github.com/salvolm84/SLM-vcv-rack.git
