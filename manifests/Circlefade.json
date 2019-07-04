@@ -1,0 +1,48 @@
+{
+  "slug": "Circlefade",
+  "name": "Circlefade",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "Circlefade",
+  "author": "Max Circlefade",
+  "authorEmail": "max@circlefade.com",
+  "authorUrl": "https://www.circlefade.com",
+  "pluginUrl": "https://www.circlefade.com/vcv",
+  "manualUrl": "https://www.circlefade.com/vcv",
+  "sourceUrl": "https://github.com/max-circlefade/Circlefade",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Random",
+      "name": "Random",
+      "description": "Random Pitch Gate with Ratcheting",
+      "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "LFO",
+      "name": "LFO",
+      "description": "LFO with a Reset Input",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "Delay",
+      "name": "Delay",
+      "description": "Delay module",
+      "tags": [
+        "Delay"
+      ]
+    },
+    {
+      "slug": "Clock",
+      "name": "Clock",
+      "description": "Clock module",
+      "tags": [
+        "Clock"
+      ]
+    }
+  ]
+}

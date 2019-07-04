@@ -1,0 +1,26 @@
+{
+  "slug": "SLM",
+  "name": "SLM",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "SLM",
+  "author": "Salvatore LA MALFA",
+  "authorEmail": "salvolm84@gmail.com",
+  "authorUrl": "https://github.com/salvolm84/SLM-vcv-rack",
+  "pluginUrl": "https://github.com/salvolm84/SLM-vcv-rack",
+  "manualUrl": "https://github.com/salvolm84/SLM-vcv-rack/blob/master/README.md",
+  "sourceUrl": "https://github.com/salvolm84/SLM-vcv-rack",
+  "donateUrl": "https://paypal.me/salvolm",
+  "modules": [
+    {
+      "slug": "mux-freak",
+      "name": "mux-freak",
+      "description": "4 to 1 clocked multiplexer with switch probability and gate length controls",
+      "tags": [
+        "quad",
+        "switch",
+        "random"
+      ]
+    }
+  ]
+}

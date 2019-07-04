@@ -1,0 +1,119 @@
+{
+  "slug": "LindenbergResearch",
+  "name": "LindenbergResearch",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "author": "Lindenberg Research",
+  "authorEmail": "heapdump@icloud.com",
+  "authorUrl": "https://github.com/lindenbergresearch",
+  "sourceUrl": "https://github.com/lindenbergresearch/LRTRack",
+  "donateUrl": "https://paypal.me/heapdump",
+  "modules": [
+    {
+      "slug": "VCO",
+      "name": "Woldemar analog VCO",
+      "description": "Analog oscillator",
+      "tags": [
+        "OSCILLATOR"
+      ]
+    },
+    {
+      "slug": "TYPE35_VCF",
+      "name": "Vampyr type35 VCF",
+      "description": "Sallen-Key type dual filter: Lowpass: 12dB/oct Highpass: 6dB/oct",
+      "tags": [
+        "FILTER"
+      ]
+    },
+    {
+      "slug": "DIODE_VCF",
+      "name": "Laika Diode-Ladder Filter",
+      "description": "Classic diode driven ladder filter with 12/dB/oct",
+      "tags": [
+        "FILTER"
+      ]
+    },
+    {
+      "slug": "BlankPanel_01",
+      "name": "Blank: Logo",
+      "description": "Blank panel with Logo and Information",
+      "tags": [
+        "BLANK"
+      ]
+    },
+    {
+      "slug": "BlankPanel_Wood",
+      "name": "Blank: Wood-Panel",
+      "description": "Wooden side panel",
+      "tags": [
+        "BLANK"
+      ]
+    },
+    {
+      "slug": "LPFilter24dB",
+      "name": "Simple lowpass filter",
+      "description": "Simple ladder style filter with 24dB7oct",
+      "tags": [
+        "FILTER"
+      ]
+    },
+    {
+      "slug": "ReShaper",
+      "name": "ReShaper wavefolder",
+      "description": "Simple wavefolder module",
+      "tags": [
+        "WAVESHAPER"
+      ]
+    },
+    {
+      "slug": "BlankPanel_02",
+      "name": "Big Blankpanel",
+      "description": "Big Blankpanel",
+      "tags": [
+        "BLANK"
+      ]
+    },
+    {
+      "slug": "BlankPanel_Small",
+      "name": "Blankpanel | Multiple",
+      "description": "Small blankpanel extendable to a 2x4 multiple",
+      "tags": [
+        "BLANK",
+        "MULTIPLE"
+      ]
+    },
+    {
+      "slug": "VCF",
+      "name": "Alma 24dB/oct ladder filter",
+      "description": "Alma 24dB/oct lowpass ladder filter",
+      "tags": [
+        "FILTER"
+      ]
+    },
+    {
+      "slug": "MS20_VCF",
+      "name": "Valerie MS20 filter",
+      "description": "Valerie MS20 type 12dB/oct lowpass filter",
+      "tags": [
+        "FILTER"
+      ]
+    },
+    {
+      "slug": "Westcoast_VCS",
+      "name": "Westcoast Complex Shaper",
+      "description": "Westcoast waveshaper with different modes",
+      "tags": [
+        "WAVESHAPER"
+      ]
+    },
+    {
+      "slug": "QuickMixer",
+      "name": "5 Channel Mixing Amp",
+      "description": "Voltage controlled 5 channel mixer amp with dynamic amp curve",
+      "tags": [
+        "MIXER",
+        "VCA"
+      ]
+    }
+  ]
+}

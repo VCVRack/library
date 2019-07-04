@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "BSD-3-Clause",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -115,11 +115,29 @@
       ]
     },
     {
+      "slug": "GateModifier",
+      "name": "Gate Modifier",
+      "description": "Voltage controlled gate length modifier.",
+      "tags": [
+        "Logic",
+        "Utility"
+      ]
+    },
+    {
       "slug": "G2T",
       "name": "gate to Trigger Converter",
       "description": "Description.",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "Mangler",
+      "name": "Mangler",
+      "description": "A voltage controlled sample rate/bit depth reducer.",
+      "tags": [
+        "Distortion",
+        "Polyphonic"
       ]
     },
     {
@@ -213,6 +231,24 @@
       ]
     },
     {
+      "slug": "Rectifier",
+      "name": "Rectifier",
+      "description": "A full/half wave rectifier with variable rectification axis.",
+      "tags": [
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SampleAndHold",
+      "name": "Sample & Hold",
+      "description": "Sample and Hold/Track and hold.",
+      "tags": [
+        "Sample and hold",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "ShepardGenerator",
       "name": "Shepard Generator",
       "description": "Generates a set of 8 ramp and sawtooth control signals appropriately phased for generation of Shepard tones.",
@@ -227,7 +263,27 @@
       "name": "SR Flip Flop",
       "description": "A logical Set/Reset flip flop with enable.",
       "tags": [
-        "Logic"
+        "Logic",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "StepSequencer8",
+      "name": "8 Step Sequencer",
+      "description": "An 8 step sequencer",
+      "tags": [
+        "Sequencer",
+        "Dual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TFlipFlop",
+      "name": "T Flip Flop",
+      "description": "A logical T type (toggle) flip flop with enable.",
+      "tags": [
+        "Logic",
+        "Dual"
       ]
     },
     {

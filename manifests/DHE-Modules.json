@@ -1,6 +1,6 @@
 {
   "slug": "DHE-Modules",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "name": "DHE Modules",
   "author": "Dale Emery",
@@ -39,7 +39,7 @@
     {
       "slug": "FuzzyLogicH",
       "name": "Fuzzy Logic H",
-      "description": "Computes ten hyperbolic parabaloid fuzzy logic functions",
+      "description": "Combines signals by applying hyperbolic paraboloid fuzzy logic operators",
       "tags": [
         "Logic",
         "Dual"
@@ -48,7 +48,7 @@
     {
       "slug": "FuzzyLogicZ",
       "name": "Fuzzy Logic Z",
-      "description": "Computes ten \u201cZadeh\u201d fuzzy logic functions",
+      "description": "Combines signals by applying Lofti Zadeh\u2019s fuzzy logic operators",
       "tags": [
         "Logic",
         "Dual"
