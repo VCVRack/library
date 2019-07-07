@@ -1,0 +1,311 @@
+{
+  "slug": "Bidoo",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "name": "Bidoo",
+  "brand": "Bidoo",
+  "author": "Bidoo",
+  "authorEmail": "sebastien.bouffier@gmail.com",
+  "pluginUrl": "https://github.com/sebastien-bouffier/Bidoo",
+  "authorUrl": "https://github.com/sebastien-bouffier/Bidoo",
+  "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki",
+  "sourceUrl": "https://github.com/sebastien-bouffier/Bidoo",
+  "changelogUrl": "https://github.com/sebastien-bouffier/Bidoo",
+  "modules": [
+    {
+      "slug": "vOId",
+      "name": "vOId",
+      "description": "The ultimate mastering tool for Rack.\nOnce plugged in your Rack, you gonna\n sound FAAAAT.\n\nPicture is taken from a very good LP\nTERA MELOS.\n",
+      "tags": [
+        "Physical modeling",
+        "Blank",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "ChUTE",
+      "name": "ChUTE",
+      "description": "Space/Strange trigger based on the\nfree fall and bouncing an object.\nYou can change the drop altitude\nbetween 1cm and 3m\n",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "antN",
+      "name": "antN",
+      "description": "antN",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "tOCAnTe",
+      "name": "tOCAnTe",
+      "description": "tOCAnTe",
+      "tags": [
+        "Clock"
+      ]
+    },
+    {
+      "slug": "cuRt",
+      "name": "cuRt",
+      "description": "cuRt",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "ACnE",
+      "name": "ACnE",
+      "description": "ACnE",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "baR",
+      "name": "baR",
+      "description": "baR",
+      "tags": [
+        "Dynamics"
+      ]
+    },
+    {
+      "slug": "BISTROT",
+      "name": "BISTROT",
+      "description": "BISTROT",
+      "tags": [
+        "Effect",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "bordL",
+      "name": "bordL",
+      "description": "bordL",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "cANARd",
+      "name": "cANARd",
+      "description": "cANARd",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "clACos",
+      "name": "clACos",
+      "description": "clACos \n\nPG",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "dFUZE",
+      "name": "dFUZE",
+      "description": "dFUZE",
+      "tags": [
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "dTrOY",
+      "name": "dTrOY",
+      "description": "dTrOY",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "dUKe",
+      "name": "dUKe",
+      "description": "dUKe",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "EMILE",
+      "name": "EMILE",
+      "description": "EMILE",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "FFilTr",
+      "name": "FFilTr",
+      "description": "FFilTr \n\nPG",
+      "tags": [
+        "VCF",
+        "filter",
+        "vcf"
+      ]
+    },
+    {
+      "slug": "ForK",
+      "name": "ForK",
+      "description": "ForK",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Garcon",
+      "name": "Gar\u00e7on",
+      "description": "FFT display",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "HCTIP",
+      "name": "HCTIP",
+      "description": "Pitch shifter\n\nPG",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "lATe",
+      "name": "lATe",
+      "description": "Clock Modulator, Takes a clock input\nand applies a delay on even ticks to\ncreate swing. Reset sets the next tick\nfor the incoming clock to odd.\n \n\nPG",
+      "tags": [
+        "Logic",
+        "Sequencer",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "lIMbO",
+      "name": "lIMbO",
+      "description": "4th order stereo LP ladder filter.\nGain boosts the signal to compensate for\nglobal signal energy lose at high\nresonance. When non linear is selected gain is applied to each stage \n\nPG",
+      "tags": [
+        "VCF",
+        "filter",
+        "vcf"
+      ]
+    },
+    {
+      "slug": "liMonADe",
+      "name": "liMonADe",
+      "description": "liMonADe",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "LoURdE",
+      "name": "LoURdE",
+      "description": "LoURdE",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "MOiRE",
+      "name": "MOiRE",
+      "description": "MOiRE",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "MS",
+      "name": "MS",
+      "description": "Mid/Side Decoder/Encoder \n\nPG",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "MU",
+      "name": "\u00b5",
+      "description": "Synced pulse generator \n\nPG",
+      "tags": [
+        "Logic",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "OUAIve",
+      "name": "OUAIve",
+      "description": "OUAIve",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "PeNEqUe",
+      "name": "PeNEqUe",
+      "description": "PeNEqUe",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "pErCO",
+      "name": "pErCO",
+      "description": "pErCO \n\nPG",
+      "tags": [
+        "VCF",
+        "filter",
+        "vcf"
+      ]
+    },
+    {
+      "slug": "rabBIT",
+      "name": "rabBIT",
+      "description": "rabBIT \n\nPG",
+      "tags": [
+        "Effect",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "REI",
+      "name": "REI",
+      "description": "REI \n\nPG",
+      "tags": [
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "SIGMA",
+      "name": "\u03a3 multiprise :)",
+      "description": "\u03a3 Mult \n\nPG",
+      "tags": [
+        "Multiple"
+      ]
+    },
+    {
+      "slug": "TiARE",
+      "name": "TiARE",
+      "description": "TiARE \n\nPG Analogue mode does not work!",
+      "tags": [
+        "Oscillator",
+        "LFO"
+      ]
+    },
+    {
+      "slug": "ziNC",
+      "name": "ziNC",
+      "description": "ziNC \n\nPG",
+      "tags": [
+        "Effect",
+        "Vocoder"
+      ]
+    },
+    {
+      "slug": "ZOUMAI",
+      "name": "zO\u00f9 MA\u00ef",
+      "description": "zO\u00f9 MA\u00ef",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}

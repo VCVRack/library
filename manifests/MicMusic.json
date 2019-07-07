@@ -1,0 +1,32 @@
+{
+  "slug": "MicMusic",
+  "name": "MicMusic",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "MicMusic",
+  "author": "Mike Maximov",
+  "authorEmail": "vigorous.activity@gmail.com",
+  "authorUrl": "https://micmusic.carrd.co",
+  "pluginUrl": "https://github.com/very-cool-name/MicMusic-VCV/blob/master/README.md",
+  "manualUrl": "https://github.com/very-cool-name/MicMusic-VCV/blob/master/README.md",
+  "sourceUrl": "https://github.com/very-cool-name/MicMusic-VCV",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Seven",
+      "name": "SeVeN",
+      "description": "Adds +-1V signals",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Cuter",
+      "name": "CuTeR",
+      "description": "Simple distortion - cuts signal between levels",
+      "tags": [
+        "Distortion"
+      ]
+    }
+  ]
+}

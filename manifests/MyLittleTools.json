@@ -1,0 +1,23 @@
+{
+  "slug": "MyLittleTools",
+  "name": "MyLittleTools",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "digitalhappens.de",
+  "authorEmail": "vandelay@digitalhappens.de",
+  "authorUrl": "https://github.com/digitalhappens",
+  "pluginUrl": "https://github.com/digitalhappens/MyLittleTools",
+  "manualUrl": "https://github.com/digitalhappens/MyLittleTools",
+  "sourceUrl": "https://github.com/digitalhappens/MyLittleTools",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "MyLittleFavorites",
+      "name": "MyLittleFavorites",
+      "description": "favorite module handling",
+      "tags": [
+        "utility"
+      ]
+    }
+  ]
+}

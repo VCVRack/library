@@ -1,0 +1,69 @@
+{
+  "slug": "ZZC",
+  "name": "ZZC",
+  "brand": "ZZC",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "author": "Sergey Ukolov",
+  "authorEmail": "zezic51@yandex.ru",
+  "authorUrl": "https://github.com/zezic",
+  "pluginUrl": "https://zzc-cv.github.io",
+  "manualUrl": "https://zzc-cv.github.io",
+  "sourceUrl": "https://github.com/zezic/ZZC",
+  "donateUrl": "https://paypal.me/zezic",
+  "modules": [
+    {
+      "slug": "Clock",
+      "name": "Clock",
+      "description": "Clock & Phase Generator",
+      "tags": [
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "Divider",
+      "name": "Divider",
+      "description": "Phase Clock Divider (Scaler)",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "FN-3",
+      "name": "FN-3",
+      "description": "Function Generator",
+      "tags": [
+        "Function generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SC-VCA",
+      "name": "SC-VCA",
+      "description": "Soft Clipping VCA",
+      "tags": [
+        "VCA",
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SH-8",
+      "name": "SH-8",
+      "description": "Sample & Hold",
+      "tags": [
+        "Noise",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "SRC",
+      "name": "SRC",
+      "description": "Voltage Source",
+      "tags": [
+        "Quantizer",
+        "Utility"
+      ]
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "slug": "noobhour",
   "name": "noobhour",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "BSD-3-Clause",
   "brand": "noobhour",
   "author": "Nicolas Neubauer",
   "authorEmail": "noobhourmusic@gmail.com",
-  "authorUrl": "",
+  "authorUrl": "https://www.facebook.com/noobhourmusic",
   "pluginUrl": "https://github.com/NicolasNeubauer/noobhour_modules",
   "manualUrl": "https://github.com/NicolasNeubauer/noobhour_modules/blob/master/README.md",
   "sourceUrl": "https://github.com/NicolasNeubauer/noobhour_modules",
@@ -15,7 +15,7 @@
     {
       "slug": "baseliner",
       "name": "Baseliner",
-      "description": "",
+      "description": "A 4x probabilistic attenuverting switch.",
       "tags": [
         "random",
         "attenuator",
@@ -27,7 +27,7 @@
     {
       "slug": "bsl1r",
       "name": "Bsl1r",
-      "description": "",
+      "description": "A single-channel Baseliner.",
       "tags": [
         "random",
         "attenuator",
@@ -38,10 +38,19 @@
     {
       "slug": "customscale",
       "name": "Customscaler",
-      "description": "",
+      "description": "A quantizer for custom, CV-modifiable scales.",
       "tags": [
         "quantizer",
         "random",
+        "poly"
+      ]
+    },
+    {
+      "slug": "Normaliser",
+      "name": "Normaliser",
+      "description": "An attenuator scaling values to an output range.",
+      "tags": [
+        "attenuator",
         "poly"
       ]
     }

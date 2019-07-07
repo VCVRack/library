@@ -10,7 +10,7 @@
   "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/master/manual/index.md",
   "donateUrl": "https://www.paypal.me/SubmarineFree",
   "pluginUrl": "https://github.com/david-c14/SubmarineFree/blob/master/README.md",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "modules": [
     {
       "slug": "AG-104",

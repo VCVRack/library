@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -79,6 +79,14 @@
       "tags": [
         "Utility",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Strip",
+      "name": "STRIP",
+      "description": "Manage a group of modules by using the expander-mechanism, providing load and save functionality",
+      "tags": [
+        "Utility"
       ]
     }
   ]
