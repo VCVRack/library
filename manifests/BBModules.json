@@ -1,7 +1,7 @@
 {
   "slug": "BBModules",
   "name": "BB Modules",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "proprietary",
   "brand": "BB Modules",
   "author": "Roberto Colabene",
@@ -69,7 +69,7 @@
     {
       "slug": "yggdrasill",
       "name": "Yggdrasill",
-      "disabled": false,
+      "disabled": true,
       "description": "Random Function Generator",
       "tags": [
         "Utility"
@@ -88,6 +88,15 @@
       "slug": "ut",
       "name": "UT",
       "description": "Touch Strip",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "nodes",
+      "name": "Nodes",
+      "disabled": false,
+      "description": "Patch Bay",
       "tags": [
         "Utility"
       ]
