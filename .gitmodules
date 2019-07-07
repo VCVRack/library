@@ -342,3 +342,9 @@
 [submodule "repos/Circlefade"]
 	path = repos/Circlefade
 	url = https://github.com/max-circlefade/Circlefade.git
+[submodule "repos/MyLittleTools"]
+	path = repos/MyLittleTools
+	url = https://github.com/digitalhappens/MyLittleTools.git
+[submodule "repos/ZZC"]
+	path = repos/ZZC
+	url = https://github.com/zezic/ZZC.git
