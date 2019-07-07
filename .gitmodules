@@ -58,7 +58,7 @@
 	url = https://github.com/phdsg/PvC.git
 	branch = release
 [submodule "repos/RJModules"]
-	path = repos/RJModules
+	path = repos/rjmodules
 	url = https://github.com/Miserlou/RJModules
 	branch = master
 [submodule "repos/TheXOR"]
