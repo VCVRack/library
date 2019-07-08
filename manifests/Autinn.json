@@ -1,0 +1,171 @@
+{
+  "slug": "Autinn",
+  "name": "Autinn",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Autinn",
+  "author": "Nikolai V. Chr.",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/NikolaiVChr/Autinn/wiki",
+  "sourceUrl": "",
+  "donateUrl": "https://www.paypal.me/autinn",
+  "modules": [
+    {
+      "slug": "Amp",
+      "name": "Amp",
+      "description": "Amplifier",
+      "tags": [
+        "VCA",
+        "Polyphonic",
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "Bass",
+      "name": "Bass",
+      "description": "Bass and Acid synth",
+      "tags": [
+        "VCF",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "Boomerang",
+      "name": "Mera",
+      "description": "Pre-post VCA",
+      "tags": [
+        "VCA",
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "CVConverter",
+      "name": "Conv",
+      "description": "Converts to and from uni/bi CV voltages",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Deadband",
+      "name": "Deadband",
+      "description": "Constrain low voltages to zero",
+      "tags": [
+        "VCA",
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "Digi",
+      "name": "Digi",
+      "description": "Quantizes a signal into discrete steps",
+      "tags": [
+        "Utility",
+        "Digital",
+        "Effect",
+        "Quantizer",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Disee",
+      "name": "DC",
+      "description": "Outputs DC component of signal",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Flopper",
+      "name": "Flopper",
+      "description": "Mix signals in uncommon way",
+      "tags": [
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Jette",
+      "name": "Jette",
+      "description": "Oscillator with harmonics control",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Oxcart",
+      "name": "Oxcart",
+      "description": "Aggresive oscillator",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Retri",
+      "name": "Flora",
+      "description": "A 24dB low-pass filter emulating a 4-pole transistor ladder",
+      "tags": [
+        "VCF",
+        "Physical modeling",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Saw",
+      "name": "Saw",
+      "description": "Oscillator with a sawish sound",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Sjip",
+      "name": "Sjip",
+      "description": "Oscillator with rounded waveform",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Square",
+      "name": "Square",
+      "description": "Oscillator with a squareish sound",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Vector",
+      "name": "Vxy",
+      "description": "Random x-y generator",
+      "tags": [
+        "Controller",
+        "Utility",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Vibrato",
+      "name": "Vibrato",
+      "description": "Vibrato effect with optional Flanger",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Flanger"
+      ]
+    },
+    {
+      "slug": "Zod",
+      "name": "Zod",
+      "description": "Dynamic range manipulator with noisegate",
+      "tags": [
+        "Compressor",
+        "Limiter",
+        "Dynamics",
+        "Expander",
+        "Dual"
+      ]
+    }
+  ]
+}
