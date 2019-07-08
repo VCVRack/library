@@ -348,3 +348,6 @@
 [submodule "repos/ZZC"]
 	path = repos/ZZC
 	url = https://github.com/zezic/ZZC.git
+[submodule "repos/AnimatedCircuits"]
+	path = repos/AnimatedCircuits
+	url = https://github.com/AnimatedCircuits/RackModules.git
