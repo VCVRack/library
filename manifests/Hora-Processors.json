@@ -1,7 +1,7 @@
 {
   "slug": "Hora-Processors",
   "name": "Processors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "proprietary",
   "brand": "Hora",
   "author": "Hora",
@@ -34,6 +34,15 @@
       "description": "Multimode Delay",
       "tags": [
         "Effect"
+      ]
+    },
+    {
+      "slug": "Vacuum",
+      "name": "Vacuumba",
+      "description": "Tube Distortion",
+      "tags": [
+        "Effect",
+        "Distortion"
       ]
     }
   ]
