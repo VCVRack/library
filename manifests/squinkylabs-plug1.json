@@ -7,7 +7,8 @@
   "authorUrl": "https://github.com/squinkylabs/SquinkyVCV/README.md",
   "sourceUrl": "https://github.com/squinkylabs/SquinkyVCV",
   "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/booty-shifter.md",
-  "version": "1.0.0",
+  "changelogUrl": "https://github.com/squinkylabs/SquinkyVCV/CHANGELOG.md",
+  "version": "1.0.1",
   "modules": [
     {
       "slug": "squinkylabs-ev3",
@@ -154,9 +155,9 @@
     },
     {
       "slug": "squinkylabs-mix4",
-      "name": "Mixer-EX 4",
+      "name": "ExFor",
       "description": "4 channel mixer expander",
-      "disabled": true,
+      "disabled": false,
       "tags": [
         "Mixer",
         "Expander"
@@ -164,9 +165,9 @@
     },
     {
       "slug": "squinkylabs-mixm",
-      "name": "Mixer Master",
+      "name": "Form",
       "description": "Mixer master module",
-      "disabled": true,
+      "disabled": false,
       "tags": [
         "Mixer"
       ]
