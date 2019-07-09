@@ -1,6 +1,6 @@
 {
   "slug": "AS-Drums-n-Filters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "proprietary",
   "name": "AS Drums n Filters",
   "brand": "AS",
@@ -198,7 +198,7 @@
       "name": "Parametric EQ",
       "description": "Parametric Equalizer",
       "tags": [
-        "VCF"
+        "Equalizer"
       ]
     },
     {
