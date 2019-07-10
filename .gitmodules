@@ -351,3 +351,6 @@
 [submodule "repos/AnimatedCircuits"]
 	path = repos/AnimatedCircuits
 	url = https://github.com/AnimatedCircuits/RackModules.git
+[submodule "repos/Ahornberg"]
+	path = repos/Ahornberg
+	url = https://github.com/Coirt/Ahornberg-Microtonal.git
