@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "author": "almostEric",
   "license": "CC0-1.0",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -10,7 +10,7 @@
   "manualUrl": "https://github.com/almostEric/FrozenWasteland/blob/master/README.md",
   "sourceUrl": "https://github.com/almostEric/FrozenWasteland",
   "donateUrl": "https://paypal.me/FrozenWasteland",
-  "changelogUrl": "https://github.com/almostEric/FrozenWasteland/blob/CHANGELOG.md",
+  "changelogUrl": "https://github.com/almostEric/FrozenWasteland/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "BPMLFO",
@@ -149,6 +149,15 @@
       "description": "Formant/Vowel Filter",
       "tags": [
         "VCF"
+      ]
+    },
+    {
+      "slug": "VoxInhumanaExpander",
+      "name": "Vox Inhumana Expander",
+      "description": "Resonance and Slope Control",
+      "tags": [
+        "VCF",
+        "Expander"
       ]
     }
   ]

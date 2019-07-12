@@ -1,6 +1,6 @@
 {
   "slug": "mscHack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "BSD-3-Clause",
   "name": "mscHack",
   "brand": "mscHack",
@@ -12,6 +12,14 @@
   "sourceUrl": "https://github.com/mschack/VCV-Rack-Plugins",
   "changelogUrl": "https://github.com/mschack/VCV-Rack-Plugins",
   "modules": [
+    {
+      "slug": "Compressor1",
+      "name": "Compressor",
+      "description": "Compressor",
+      "tags": [
+        "Compressor"
+      ]
+    },
     {
       "slug": "MasterClockx4",
       "name": "Master Clock x4",
@@ -136,6 +144,15 @@
       "slug": "Windz",
       "name": "Windz",
       "description": "Random Noise",
+      "tags": [
+        "Random",
+        "Noise"
+      ]
+    },
+    {
+      "slug": "Lorenz",
+      "name": "Lorenz",
+      "description": "Lorenz Attractor",
       "tags": [
         "Random",
         "Noise"

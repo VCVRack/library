@@ -1,6 +1,6 @@
 {
   "slug": "AS",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "name": "AS",
   "brand": "AS",
@@ -45,7 +45,8 @@
       "name": "VCA",
       "description": "Voltage-controlled amplifier",
       "tags": [
-        "VCA"
+        "VCA",
+        "Dual"
       ]
     },
     {

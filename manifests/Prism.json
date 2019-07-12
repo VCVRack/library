@@ -1,0 +1,23 @@
+{
+  "slug": "Prism",
+  "name": "Prism",
+  "author": "John Hoar",
+  "license": "BSD-3-Clause",
+  "authorEmail": "amalgamatedharmonics@outlook.com",
+  "manualUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
+  "pluginUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
+  "authorUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
+  "sourceUrl": "https://github.com/AmalgamatedHarmonics/Prism",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "slug": "Rainbow",
+      "name": "Rainbow",
+      "description": "A multiband band-pass resonant filter",
+      "tags": [
+        "Physical modeling",
+        "VCF"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "Ahornberg",
+  "version": "1.0.1",
+  "license": "CC0-1.0",
+  "name": "Ahornberg",
+  "brand": "Ahornberg",
+  "author": "Ahornberg",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/Ahornberg/Ahornberg-Microtonal",
+  "pluginUrl": "https://github.com/Ahornberg/Ahornberg-Microtonal",
+  "manualUrl": "https://github.com/Coirt/Ahornberg-Microtonal/blob/master/README.md",
+  "sourceUrl": "https://github.com/Coirt/Ahornberg-Microtonal",
+  "changelogUrl": "",
+  "donateUrl": "https://www.paypal.me/Ahornberg/",
+  "modules": [
+    {
+      "slug": "EqualDivision",
+      "name": "Micro-Tonal",
+      "description": "Compress or stretch a tuning in the range\nof -3% to +3%. Converts v/oct to several\nEqual Division Tunings. 1 step equals\n100 cents.\nSee manual for more details...\n",
+      "tags": [
+        "Tuner"
+      ]
+    }
+  ]
+}
