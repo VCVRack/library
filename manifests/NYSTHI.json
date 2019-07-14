@@ -1,13 +1,14 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
   "authorEmail": "antoniotuzzi+nysthi@gmail.com",
   "pluginUrl": "https://github.com/nysthi/nysthi/releases",
   "authorUrl": "https://github.com/nysthi/nysthi/",
+  "manualUrl": "https://github.com/patman023/nysthimanual",
   "sourceUrl": "",
   "modules": [
     {
@@ -1105,6 +1106,24 @@
         "Recording",
         "Sampler",
         "VCO"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "Pepper",
+      "name": "Pepper",
+      "description": "Jooper companion for naming",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "TheCage",
+      "name": "TheCage",
+      "description": "Keyboard, Switch, Bridge, Sequencer, Quantizer with free comparators",
+      "tags": [
+        "Utility"
       ]
     }
   ]
