@@ -3,12 +3,12 @@
   "name": "Squinky Labs",
   "author": "Squinky Labs",
   "license": "CC0-1.0",
-  "pluginUrl": "https://github.com/squinkylabs/SquinkyVCV/README.md",
-  "authorUrl": "https://github.com/squinkylabs/SquinkyVCV/README.md",
+  "pluginUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/README.md",
+  "authorUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/README.md",
   "sourceUrl": "https://github.com/squinkylabs/SquinkyVCV",
   "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/booty-shifter.md",
-  "changelogUrl": "https://github.com/squinkylabs/SquinkyVCV/CHANGELOG.md",
-  "version": "1.0.1",
+  "changelogUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/CHANGELOG.md",
+  "version": "1.0.2",
   "modules": [
     {
       "slug": "squinkylabs-ev3",
@@ -26,14 +26,6 @@
       "tags": [
         "Effect",
         "Filter"
-      ]
-    },
-    {
-      "slug": "squinkylabs-funv",
-      "name": "Functional VCO-1",
-      "description": "Multi-function VCO with low aliasing",
-      "tags": [
-        "VCO"
       ]
     },
     {
@@ -198,6 +190,14 @@
       "description": "Ladder filter on steroids",
       "tags": [
         "VCF"
+      ]
+    },
+    {
+      "slug": "squinkylabs-funv",
+      "name": "Functional VCO-1",
+      "description": "[deprecated] Multi-function VCO with low aliasing",
+      "tags": [
+        "VCO"
       ]
     }
   ]
