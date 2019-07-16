@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "modules": [
     {
       "slug": "Basal",
@@ -87,7 +87,6 @@
       "name": "Lateralus (Free)",
       "tags": [
         "VCF",
-        "VCO",
         "Polyphonic"
       ],
       "description": "Diode Ladder Filter"
@@ -171,7 +170,6 @@
       "name": "Tangents (Free)",
       "tags": [
         "VCF",
-        "VCO",
         "Polyphonic"
       ],
       "description": "Steiner-Parker Filter"

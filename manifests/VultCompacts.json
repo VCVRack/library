@@ -8,14 +8,13 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/compacts/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "modules": [
     {
       "slug": "Freak",
       "name": "Freak",
       "tags": [
         "VCF",
-        "VCO",
         "Polyphonic"
       ],
       "description": "Manifold Filter"
@@ -43,7 +42,6 @@
       "name": "Vorg",
       "tags": [
         "VCF",
-        "VCO",
         "Polyphonic"
       ],
       "description": "Low/High Pass Filter"

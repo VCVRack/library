@@ -1,0 +1,31 @@
+{
+  "slug": "VultMysteries",
+  "name": "Vult Mysteries",
+  "author": "Leonardo Laguna Ruiz",
+  "brand": "Vult",
+  "license": "proprietary",
+  "authorEmail": "leonardo@vult-dsp.com",
+  "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
+  "authorUrl": "https://vult-dsp.com",
+  "manualUrl": "https://modlfo.github.io/VultModules",
+  "version": "1.1.0",
+  "modules": [
+    {
+      "slug": "Quincunx",
+      "name": "Quincunx",
+      "tags": [
+        "Random"
+      ],
+      "description": "Probability Machine"
+    },
+    {
+      "slug": "Dopamine",
+      "name": "Dopamine",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "description": "Neural Tape"
+    }
+  ]
+}
