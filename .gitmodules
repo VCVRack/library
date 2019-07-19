@@ -363,3 +363,6 @@
 [submodule "repos/repelzen"]
 	path = repos/repelzen
 	url = https://github.com/wiqid/repelzen
+[submodule "repos/LomasModules"]
+	path = repos/LomasModules
+	url = https://github.com/LomasModules/LomasModules
