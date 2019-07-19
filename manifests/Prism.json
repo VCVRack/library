@@ -8,12 +8,12 @@
   "pluginUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
   "authorUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
   "sourceUrl": "https://github.com/AmalgamatedHarmonics/Prism",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "modules": [
     {
       "slug": "Rainbow",
       "name": "Rainbow",
-      "description": "A multiband band-pass resonant filter",
+      "description": "A multiband band-pass resonant filter, a port of the 4ms SMR",
       "tags": [
         "Physical modeling",
         "VCF"

@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.3.0",
+  "version": "1.5.0",
   "author": "almostEric",
   "license": "CC0-1.0",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -100,6 +100,15 @@
       "description": "4 track Euclidean and Golumb Ruler Sequencer",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "QuadGrooveExpander",
+      "name": "Quad Groove Expander",
+      "description": "Expander for QAR adds grooves...",
+      "tags": [
+        "Sequencer",
+        "Expander"
       ]
     },
     {

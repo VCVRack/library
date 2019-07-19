@@ -1,0 +1,32 @@
+{
+  "slug": "LomasModules",
+  "name": "Lomas Modules",
+  "version": "1.0.1",
+  "license": "BSD-3-Clause",
+  "brand": "Lomas",
+  "author": "Guillermo Moreno",
+  "authorEmail": "LomasModules@gmail.com",
+  "authorUrl": "https://github.com/LomasModules",
+  "pluginUrl": "https://github.com/LomasModules/LomasModules",
+  "manualUrl": "https://github.com/LomasModules/LomasModules",
+  "sourceUrl": "https://github.com/LomasModules/LomasModules.git",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "AdvancedSampler",
+      "name": "Advanced Sampler",
+      "description": "",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "GateSequencer",
+      "name": "Gate Sequencer",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}

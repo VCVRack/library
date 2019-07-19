@@ -1,0 +1,68 @@
+{
+  "slug": "repelzen",
+  "name": "repelzen",
+  "version": "1.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "repelzen",
+  "author": "wiqid",
+  "authorEmail": "wiqid@protonmail.com",
+  "authorUrl": "https://github.com/wiqid/",
+  "pluginUrl": "https://github.com/wiqid/repelzen",
+  "manualUrl": "https://github.com/wiqid/repelzen/blob/master/README.md",
+  "sourceUrl": "https://github.com/wiqid/repelzen",
+  "donateUrl": "https://paypal.me/wiqid",
+  "modules": [
+    {
+      "slug": "reblank",
+      "name": "re-blank",
+      "description": "4hp blank panel with logo",
+      "tags": [
+        "blank"
+      ]
+    },
+    {
+      "slug": "reburst",
+      "name": "re-burst",
+      "description": "burst generator",
+      "tags": [
+        "clock modulator",
+        "random"
+      ]
+    },
+    {
+      "slug": "refold",
+      "name": "re-fold",
+      "description": "wavefolder",
+      "tags": [
+        "waveshaper",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "rewin",
+      "name": "re-win",
+      "description": "4 channel quantizer",
+      "tags": [
+        "quantizer",
+        "quad"
+      ]
+    },
+    {
+      "slug": "rexmix",
+      "name": "rexmix",
+      "description": "6 channel mixer with three band eq and dual sends, inspired by befaco hexmix",
+      "tags": [
+        "mixer",
+        "equalizer"
+      ]
+    },
+    {
+      "slug": "retrig",
+      "name": "re-trig",
+      "description": "cv to trigger utility",
+      "tags": [
+        "utility"
+      ]
+    }
+  ]
+}

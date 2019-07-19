@@ -1,7 +1,7 @@
 {
   "slug": "RJModules",
   "name": "RJModules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "brand": "RJModules",
   "author": "Rich Jones",
@@ -9,7 +9,7 @@
   "authorUrl": "http://github.com/Miserlou/RJModules",
   "pluginUrl": "http://github.com/Miserlou/RJModules",
   "manualUrl": "http://github.com/Miserlou/RJModules",
-  "sourceUrl": "htto://github.com/Miserlou/RJModules",
+  "sourceUrl": "http://github.com/Miserlou/RJModules",
   "donateUrl": "https://www.patreon.com/zappa",
   "modules": [
     {
@@ -343,6 +343,14 @@
         "Effect",
         "VCA",
         "Envelope generator"
+      ]
+    },
+    {
+      "slug": "KTF",
+      "name": "KTF - Key Tracking Filter",
+      "description": "A 1v/oct key tracking filter.",
+      "tags": [
+        "VCF"
       ]
     }
   ]

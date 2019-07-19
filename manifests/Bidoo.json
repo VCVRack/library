@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "BSD-3-Clause",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -33,7 +33,7 @@
     {
       "slug": "antN",
       "name": "antN",
-      "description": "antN",
+      "description": "mp3 m3u pls radio",
       "tags": [
         "Oscillator"
       ]
@@ -41,7 +41,7 @@
     {
       "slug": "tOCAnTe",
       "name": "tOCAnTe",
-      "description": "tOCAnTe",
+      "description": "Clock",
       "tags": [
         "Clock"
       ]
@@ -49,7 +49,7 @@
     {
       "slug": "cuRt",
       "name": "cuRt",
-      "description": "cuRt",
+      "description": "Pitcher based on audio bins replication",
       "tags": [
         "Effect"
       ]
@@ -57,7 +57,7 @@
     {
       "slug": "ACnE",
       "name": "ACnE",
-      "description": "ACnE",
+      "description": "Mixer with snaphots",
       "tags": [
         "Mixer"
       ]
@@ -65,7 +65,7 @@
     {
       "slug": "baR",
       "name": "baR",
-      "description": "baR",
+      "description": "Compressor",
       "tags": [
         "Dynamics"
       ]
@@ -73,7 +73,7 @@
     {
       "slug": "BISTROT",
       "name": "BISTROT",
-      "description": "BISTROT",
+      "description": "Bit toy",
       "tags": [
         "Effect",
         "Distortion"
@@ -82,7 +82,7 @@
     {
       "slug": "bordL",
       "name": "bordL",
-      "description": "bordL",
+      "description": "Sequencer",
       "tags": [
         "Sequencer"
       ]
@@ -90,7 +90,7 @@
     {
       "slug": "cANARd",
       "name": "cANARd",
-      "description": "cANARd",
+      "description": "Sampler with slice tools & transients detection",
       "tags": [
         "Sampler"
       ]
@@ -98,7 +98,7 @@
     {
       "slug": "clACos",
       "name": "clACos",
-      "description": "clACos \n\nPG",
+      "description": "Phase distortion 4 segments oscillator",
       "tags": [
         "Oscillator"
       ]
@@ -106,7 +106,7 @@
     {
       "slug": "dFUZE",
       "name": "dFUZE",
-      "description": "dFUZE",
+      "description": "Reverb",
       "tags": [
         "Reverb"
       ]
@@ -114,7 +114,7 @@
     {
       "slug": "dTrOY",
       "name": "dTrOY",
-      "description": "dTrOY",
+      "description": "Sequencer",
       "tags": [
         "Sequencer"
       ]
@@ -122,7 +122,7 @@
     {
       "slug": "dUKe",
       "name": "dUKe",
-      "description": "dUKe",
+      "description": "Controller",
       "tags": [
         "Controller"
       ]
@@ -130,7 +130,7 @@
     {
       "slug": "EMILE",
       "name": "EMILE",
-      "description": "EMILE",
+      "description": ".png to sound",
       "tags": [
         "Sampler"
       ]
@@ -138,7 +138,7 @@
     {
       "slug": "FFilTr",
       "name": "FFilTr",
-      "description": "FFilTr \n\nPG",
+      "description": "LP Filter",
       "tags": [
         "VCF",
         "filter",
@@ -148,7 +148,7 @@
     {
       "slug": "ForK",
       "name": "ForK",
-      "description": "ForK",
+      "description": "Formant oscillator",
       "tags": [
         "Oscillator"
       ]
@@ -164,7 +164,7 @@
     {
       "slug": "HCTIP",
       "name": "HCTIP",
-      "description": "Pitch shifter\n\nPG",
+      "description": "Pitch shifter",
       "tags": [
         "Effect"
       ]
@@ -172,7 +172,7 @@
     {
       "slug": "lATe",
       "name": "lATe",
-      "description": "Clock Modulator, Takes a clock input\nand applies a delay on even ticks to\ncreate swing. Reset sets the next tick\nfor the incoming clock to odd.\n \n\nPG",
+      "description": "Clock Modulator, Takes a clock input\nand applies a delay on even ticks to\ncreate swing. Reset sets the next tick\nfor the incoming clock to odd.",
       "tags": [
         "Logic",
         "Sequencer",
@@ -182,7 +182,7 @@
     {
       "slug": "lIMbO",
       "name": "lIMbO",
-      "description": "4th order stereo LP ladder filter.\nGain boosts the signal to compensate for\nglobal signal energy lose at high\nresonance. When non linear is selected gain is applied to each stage \n\nPG",
+      "description": "4th order stereo LP ladder filter.\nGain boosts the signal to compensate for\nglobal signal energy lose at high\nresonance. When non linear is selected gain is applied to each stage",
       "tags": [
         "VCF",
         "filter",
@@ -192,7 +192,7 @@
     {
       "slug": "liMonADe",
       "name": "liMonADe",
-      "description": "liMonADe",
+      "description": "Wavetable oscillator station & additive synth",
       "tags": [
         "Oscillator"
       ]
@@ -200,7 +200,7 @@
     {
       "slug": "LoURdE",
       "name": "LoURdE",
-      "description": "LoURdE",
+      "description": "Neural comparator",
       "tags": [
         "Logic"
       ]
@@ -208,7 +208,7 @@
     {
       "slug": "MOiRE",
       "name": "MOiRE",
-      "description": "MOiRE",
+      "description": "Controller with snapshots and morphing",
       "tags": [
         "Controller"
       ]
@@ -216,7 +216,7 @@
     {
       "slug": "MS",
       "name": "MS",
-      "description": "Mid/Side Decoder/Encoder \n\nPG",
+      "description": "Mid/Side Decoder/Encoder",
       "tags": [
         "Effect"
       ]
@@ -224,7 +224,7 @@
     {
       "slug": "MU",
       "name": "\u00b5",
-      "description": "Synced pulse generator \n\nPG",
+      "description": "Synced pulse generator",
       "tags": [
         "Logic",
         "Sequencer"
@@ -233,7 +233,7 @@
     {
       "slug": "OUAIve",
       "name": "OUAIve",
-      "description": "OUAIve",
+      "description": "Sample player with beat slicing grid",
       "tags": [
         "Sampler"
       ]
@@ -241,7 +241,7 @@
     {
       "slug": "PeNEqUe",
       "name": "PeNEqUe",
-      "description": "PeNEqUe",
+      "description": "Additive osicllator",
       "tags": [
         "Oscillator"
       ]
@@ -249,7 +249,7 @@
     {
       "slug": "pErCO",
       "name": "pErCO",
-      "description": "pErCO \n\nPG",
+      "description": "3 bands filter",
       "tags": [
         "VCF",
         "filter",
@@ -259,7 +259,7 @@
     {
       "slug": "rabBIT",
       "name": "rabBIT",
-      "description": "rabBIT \n\nPG",
+      "description": "Bit toy",
       "tags": [
         "Effect",
         "Distortion"
@@ -268,7 +268,7 @@
     {
       "slug": "REI",
       "name": "REI",
-      "description": "REI \n\nPG",
+      "description": "Reverb",
       "tags": [
         "Reverb"
       ]
@@ -276,7 +276,7 @@
     {
       "slug": "SIGMA",
       "name": "\u03a3 multiprise :)",
-      "description": "\u03a3 Mult \n\nPG",
+      "description": "Patch",
       "tags": [
         "Multiple"
       ]
@@ -284,7 +284,7 @@
     {
       "slug": "TiARE",
       "name": "TiARE",
-      "description": "TiARE \n\nPG Analogue mode does not work!",
+      "description": "Phase distortion oscillator",
       "tags": [
         "Oscillator",
         "LFO"
@@ -293,7 +293,7 @@
     {
       "slug": "ziNC",
       "name": "ziNC",
-      "description": "ziNC \n\nPG",
+      "description": "Vocoder",
       "tags": [
         "Effect",
         "Vocoder"
@@ -302,7 +302,7 @@
     {
       "slug": "ZOUMAI",
       "name": "zO\u00f9 MA\u00ef",
-      "description": "zO\u00f9 MA\u00ef",
+      "description": "Sequencer",
       "tags": [
         "Sequencer"
       ]
