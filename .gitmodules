@@ -360,3 +360,6 @@
 [submodule "repos/ByteBeatMachine"]
 	path = repos/ByteBeatMachine
 	url = https://github.com/bokontep/ByteBeatMachine.git
+[submodule "repos/repelzen"]
+	path = repos/repelzen
+	url = https://github.com/wiqid/repelzen
