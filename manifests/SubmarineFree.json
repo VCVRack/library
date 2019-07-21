@@ -10,7 +10,7 @@
   "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/master/manual/index.md",
   "donateUrl": "https://www.paypal.me/SubmarineFree",
   "pluginUrl": "https://github.com/david-c14/SubmarineFree/blob/master/README.md",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "modules": [
     {
       "slug": "AG-104",
@@ -420,6 +420,14 @@
         "QUANTIZER",
         "TUNER",
         "MULTIPLE"
+      ]
+    },
+    {
+      "slug": "WM-101",
+      "name": "WM-101",
+      "description": "WM-101 Wire Manager",
+      "tags": [
+        "UTILITY"
       ]
     },
     {

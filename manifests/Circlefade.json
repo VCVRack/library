@@ -1,7 +1,7 @@
 {
   "slug": "Circlefade",
   "name": "Circlefade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "BSD-3-Clause",
   "brand": "Circlefade",
   "author": "Max Circlefade",
@@ -16,6 +16,14 @@
       "slug": "Random",
       "name": "Random",
       "description": "Random Pitch Gate with Ratcheting",
+      "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "Random2",
+      "name": "Random2",
+      "description": "Random Pitch Gate with Ratcheting, Sync, Scales and Loop",
       "tags": [
         "Random"
       ]

@@ -1,6 +1,6 @@
 {
   "slug": "AS",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "name": "AS",
   "brand": "AS",
@@ -350,6 +350,16 @@
       ]
     },
     {
+      "slug": "SuperDriveStereoFx",
+      "disabled": "false",
+      "name": "SuperDrive Stereo Fx",
+      "description": "Stereo Overdrive FX with CV input for each parameter and bypass switch",
+      "tags": [
+        "Distortion",
+        "Effect"
+      ]
+    },
+    {
       "slug": "TremoloFx",
       "disabled": "false",
       "name": "Tremolo Fx",
@@ -370,8 +380,18 @@
     {
       "slug": "WaveShaper",
       "disabled": "false",
-      "name": "WaveShaper",
+      "name": "Wave Shaper",
       "description": "WaveShaper Fx with bypass switch",
+      "tags": [
+        "Waveshaper",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "WaveShaperStereo",
+      "disabled": "false",
+      "name": "Wave Shaper Stereo",
+      "description": "WaveShaper Stereo Fx with bypass switch",
       "tags": [
         "Waveshaper",
         "Effect"
