@@ -1,10 +1,6 @@
 [submodule "repos/AudibleInstruments"]
 	path = repos/AudibleInstruments
 	url = https://github.com/VCVRack/AudibleInstruments.git
-[submodule "repos/Fundamental"]
-	path = repos/Fundamental
-	url = https://github.com/VCVRack/Fundamental.git
-	branch = master
 [submodule "repos/AmalgamatedHarmonics"]
 	path = repos/AmalgamatedHarmonics
 	url = https://github.com/jhoar/AmalgamatedHarmonics
