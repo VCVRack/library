@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "BSD-3-Clause",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -222,8 +222,8 @@
     },
     {
       "slug": "PolyrhythmicGenerator",
-      "name": "Polyrhythmic Generator",
-      "description": "A set of 8 voltage controlled clock dividers that can be used to generate polyrhythms by clocking and/or dividing at different rates.",
+      "name": "Polyrhythmic Generator  (Deprecated - Do Not Use)",
+      "description": "This module is no longer supported - use Polyrhythmic Generator MkII instead",
       "tags": [
         "Clock modulator",
         "Sequencer",
@@ -269,8 +269,8 @@
     },
     {
       "slug": "StepSequencer8",
-      "name": "8 Step Sequencer",
-      "description": "An 8 step sequencer",
+      "name": "Dual 8 Step Sequencer",
+      "description": "Fully featured dual channel 8 step sequencer.",
       "tags": [
         "Sequencer",
         "Dual",
@@ -314,8 +314,8 @@
     },
     {
       "slug": "VCFrequencyDivider",
-      "name": "Voltage Controlled Frequency Divider",
-      "description": "Frequency divider with a variable and voltage controlled division ratio from 1 to around 20.",
+      "name": "Voltage Controlled Frequency Divider (Deprecated - Do Not Use)",
+      "description": "This module is no longer supported - use VC Frequency Divider instead",
       "tags": [
         "Clock modulator"
       ]
@@ -348,6 +348,67 @@
         "Utility",
         "Polyphonic",
         "Quad"
+      ]
+    },
+    {
+      "slug": "BasicSequencer8",
+      "name": "Basic 8 Step Sequencer",
+      "description": "Basic single channel 8 step sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "SequencerExpanderCV8",
+      "name": "Sequencer CV Expander ",
+      "description": "8 step sequencer expander adding an extra channel of CV output",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "SequencerExpanderOut8",
+      "name": "Sequencer Output Expander ",
+      "description": "8 step sequencer expander adding a gate output for each step",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "SequencerExpanderTrig8",
+      "name": "Sequencer Trigger Expander ",
+      "description": "8 step sequencer expander adding a an extra channel of gate/trigger output",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "SubHarmonicGenerator",
+      "name": "Sub Harmonic Generator ",
+      "description": "Fatten up a single oscillator with sub harmonics",
+      "tags": [
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "VCFrequencyDividerMkII",
+      "name": "Voltage Controlled Frequency Divider MkII",
+      "description": "Frequency divider with a variable and voltage controlled division ratio from 1 to around 20.",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "PolyrhythmicGeneratorMkII",
+      "name": "Polyrhythmic Generator",
+      "description": "A set of 8 voltage controlled clock dividers that can be used to generate polyrhythms by clocking and/or dividing at different rates.",
+      "tags": [
+        "Clock modulator",
+        "Sequencer",
+        "Polyphonic"
       ]
     }
   ]
