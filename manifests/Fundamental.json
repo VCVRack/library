@@ -1,6 +1,6 @@
 {
   "slug": "Fundamental",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "BSD-3-Clause",
   "name": "Fundamental",
   "brand": "VCV",
@@ -209,6 +209,15 @@
       "tags": [
         "Polyphonic",
         "Visual"
+      ]
+    },
+    {
+      "slug": "MidSide",
+      "name": "Mid/Side",
+      "description": "Mid/side stereo encoder/decoder",
+      "tags": [
+        "Utility",
+        "Polyphonic"
       ]
     }
   ]
