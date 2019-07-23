@@ -47,7 +47,7 @@
 	branch = master
 [submodule "repos/Ohmer"]
 	path = repos/Ohmer
-	url = https://github.com/DomiKamu/Ohmer-Modules.git
+	url = https://github.com/DomiKamu/Ohmer
 	branch = master
 [submodule "repos/PvC"]
 	path = repos/PvC
