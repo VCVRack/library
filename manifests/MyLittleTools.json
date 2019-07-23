@@ -1,20 +1,28 @@
 {
   "slug": "MyLittleTools",
   "name": "MyLittleTools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "digitalhappens.de",
   "authorEmail": "vandelay@digitalhappens.de",
   "authorUrl": "https://github.com/digitalhappens",
   "pluginUrl": "https://github.com/digitalhappens/MyLittleTools",
-  "manualUrl": "https://github.com/digitalhappens/MyLittleTools",
+  "manualUrl": "https://www.youtube.com/watch?v=BCSQwT4ZiHU",
   "sourceUrl": "https://github.com/digitalhappens/MyLittleTools",
-  "donateUrl": "",
+  "donateUrl": "https://paypal.me/digitalhappens",
   "modules": [
     {
       "slug": "MyLittleFavorites",
       "name": "MyLittleFavorites",
-      "description": "favorite module handling",
+      "description": "favorite module handling, with state saving and loading",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "MyLittleTags",
+      "name": "MyLittleTags",
+      "description": "browse modules by tags the old way (without screenshots)",
       "tags": [
         "utility"
       ]
