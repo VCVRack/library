@@ -1,7 +1,7 @@
 {
   "slug": "Semiramis",
   "name": "Semiramis",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "Proprietary",
   "author": "Sonus Dept.",
   "brand": "Sonus Dept.",
@@ -31,6 +31,36 @@
         "Noise",
         "LFO",
         "Random",
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Filtron",
+      "name": "Filtron",
+      "description": "Double Butterworth Filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "FMdom",
+      "name": "FMdom",
+      "description": "Linear FM VCO/LFO",
+      "tags": [
+        "LFO",
+        "Polyphonic",
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Virtualog",
+      "name": "Virtualog",
+      "description": "Virtual Analog VCO/LFO",
+      "tags": [
+        "Noise",
+        "LFO",
+        "Polyphonic",
         "VCO"
       ]
     }
