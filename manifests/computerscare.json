@@ -1,0 +1,112 @@
+{
+  "slug": "computerscare",
+  "name": "computerscare",
+  "brand": "computerscare",
+  "author": "computerscare",
+  "license": "BSD-3-Clause",
+  "authorEmail": "aemalone@test.com",
+  "pluginUrl": "https://github.com/freddyz/computerscare-vcv-modules",
+  "authorUrl": "https://github.com/freddyz/computerscare-vcv-modules",
+  "sourceUrl": "https://github.com/freddyz/computerscare-vcv-modules",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "slug": "computerscare-knolypobs",
+      "name": "Knoly Pobs",
+      "description": "16 knobs with polyphonic output",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "computerscare-bolyputtons",
+      "name": "Boly Puttons",
+      "description": "16 momentary or latch buttons with polyphonic output and optional input",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "computerscare-debug",
+      "name": "Debug",
+      "description": "Debugger, poly sample & hold, poly volt meter",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Random",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "computerscare-ohpeas",
+      "name": "Oh Peas!",
+      "description": "Quad Quantenuverter.  Attenuverter, Offsetter, Microtonal Quantizer",
+      "tags": [
+        "Polyphonic",
+        "Quantizer",
+        "Utility",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "computerscare-fatherandson",
+      "name": "Father and Son Patch Sequencer",
+      "description": "Patch Sequencer - 10 in, 10 out patch matrix with 16 scenes",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "computerscare-laundry-soup",
+      "name": "Laundry Soup",
+      "description": "Rhythm sequencer, pulse generator, text-based",
+      "tags": [
+        "Sequencer",
+        "Clock modulator",
+        "Random"
+      ]
+    },
+    {
+      "slug": "computerscare-i-love-cookies",
+      "name": "I Love Cookies",
+      "description": "Text-based CV and signal sequencer",
+      "tags": [
+        "Sequencer",
+        "Utility",
+        "Random"
+      ]
+    },
+    {
+      "slug": "computerscare-roly-pouter",
+      "name": "Roly Pouter",
+      "description": "Polyphonic router",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "computerscare-toly-pools",
+      "name": "Toly Pools",
+      "description": "Polyphonic toolset including rotator, number-of-channels selector",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "computerscare-soly-pequencer",
+      "name": "Soly Pequencer",
+      "description": "Sequentially step through the channels of a polyphonic signal.",
+      "tags": [
+        "Polyphonic",
+        "Sequencer"
+      ]
+    }
+  ]
+}

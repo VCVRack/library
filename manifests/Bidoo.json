@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "BSD-3-Clause",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -65,6 +65,14 @@
     {
       "slug": "baR",
       "name": "baR",
+      "description": "Compressor",
+      "tags": [
+        "Dynamics"
+      ]
+    },
+    {
+      "slug": "mINIBar",
+      "name": "mINIBar",
       "description": "Compressor",
       "tags": [
         "Dynamics"

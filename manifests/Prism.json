@@ -8,7 +8,8 @@
   "pluginUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
   "authorUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
   "sourceUrl": "https://github.com/AmalgamatedHarmonics/Prism",
-  "version": "1.0.1",
+  "changelogUrl": "https://github.com/AmalgamatedHarmonics/Prism/blob/master/CHANGELOG.md",
+  "version": "1.0.2",
   "modules": [
     {
       "slug": "Rainbow",
