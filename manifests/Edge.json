@@ -1,0 +1,37 @@
+{
+  "slug": "Edge",
+  "name": "Edge",
+  "version": "1.0.1",
+  "brand": "VCV",
+  "author": "Edge",
+  "license": "GPL-3.0-or-later",
+  "authorEmail": "edgemodules@gmail.com",
+  "sourceUrl": "https://github.com/Edge-Modules/Edge",
+  "modules": [
+    {
+      "slug": "WCO_Osc",
+      "name": "WCO_Osc",
+      "description": "Window-Controlled Oscillator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "K_Rush",
+      "name": "K_Rush",
+      "description": "WaveTable Crusher",
+      "tags": [
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Bad_Haas",
+      "name": "Bad_Haas",
+      "description": "Haas Effect Panning",
+      "tags": [
+        "Delay"
+      ]
+    }
+  ]
+}
