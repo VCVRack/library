@@ -1,0 +1,57 @@
+{
+  "slug": "PatchAndTweak",
+  "name": "Patch & Tweak",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "author": "Kim Bj\u00f8rn",
+  "brand": "Patch & Tweak",
+  "authorEmail": "kim@bjooks.com",
+  "authorUrl": "http://patchandtweak.com/",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Blank",
+      "name": "Blank panel",
+      "description": "Blank panel narrow",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "BlankBenders",
+      "name": "C. Benders blank",
+      "description": "Blank panel with C. Benders quote",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "BlankRimbaud",
+      "name": "R. Rimbaud blank",
+      "description": "Blank panel with R. Rimbaud quote",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "BlankStarlight",
+      "name": "L. Starlight blank",
+      "description": "Blank panel with L. Starlight quote",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "BlankBarbieri",
+      "name": "C. Barbieri blank",
+      "description": "Blank panel with C. Barbieri quote",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
+}
