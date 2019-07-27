@@ -1,14 +1,14 @@
 {
   "slug": "RB-Clapper",
   "name": "Clapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "proprietary",
   "brand": "Robotic Bean",
   "author": "Robotic Bean",
   "authorEmail": "info@roboticbean.com",
-  "authorUrl": "roboticbean.com",
-  "pluginUrl": "roboticbean.com/creative/products/clapper/",
-  "manualUrl": "roboticbean.com/creative/products/clapper/",
+  "authorUrl": "http://roboticbean.com",
+  "pluginUrl": "http://roboticbean.com/creative/products/clapper/",
+  "manualUrl": "http://roboticbean.com/creative/products/clapper/",
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
