@@ -1,15 +1,15 @@
 {
   "slug": "Ohmer",
   "name": "Ohmer Modules",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "license": "BSD-3-Clause",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
   "authorEmail": "docam@free.fr",
   "authorUrl": "https://github.com/DomiKamu",
-  "pluginUrl": "https://github.com/DomiKamu/Ohmer-Modules",
-  "manualUrl": "https://github.com/DomiKamu/Ohmer-Modules/blob/v1/README.md",
-  "sourceUrl": "https://github.com/DomiKamu/Ohmer-Modules.git",
+  "pluginUrl": "https://github.com/DomiKamu/Ohmer",
+  "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v1/README.md",
+  "sourceUrl": "https://github.com/DomiKamu/Ohmer.git",
   "donateUrl": "",
   "modules": [
     {
