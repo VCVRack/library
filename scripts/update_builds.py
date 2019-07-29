@@ -56,7 +56,7 @@ for plugin_dir in plugin_dirs:
 
 	built_slugs.append(slug)
 	# Open plugin issue thread
-	os.system(f"qutebrowser \"https://github.com/VCVRack/library/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+{slug}\" &")
+	os.system(f"qutebrowser \"https://github.com/VCVRack/library/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+in%3Atitle+{slug}\" &")
 
 
 if not built_slugs:

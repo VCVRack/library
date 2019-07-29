@@ -32,9 +32,9 @@ for package_src in plugin_packages:
 	with open(manifest_dest, "w") as f:
 		json.dump(manifest, f, indent="  ")
 
-	# Move package
+	# Copy package
 	package_dest = os.path.join(PACKAGES_DIR, os.path.basename(package_src))
-	shutil.move(package_src, package_dest)
+	build.system(f"cp '{package_src}' '{package_dest}'")
 	build.system(f"touch '{package_dest}'")
 
 	slugs.add(slug)
