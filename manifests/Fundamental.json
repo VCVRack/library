@@ -1,6 +1,6 @@
 {
   "slug": "Fundamental",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "BSD-3-Clause",
   "name": "Fundamental",
   "brand": "VCV",
@@ -217,6 +217,15 @@
       "description": "Mid/side stereo encoder/decoder",
       "tags": [
         "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Quantizer",
+      "name": "Quantizer",
+      "description": "12-note quantizer and scale selector",
+      "tags": [
+        "Quantizer",
         "Polyphonic"
       ]
     }
