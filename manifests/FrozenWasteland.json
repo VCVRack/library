@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "author": "almostEric",
   "license": "CC0-1.0",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -103,20 +103,18 @@
       ]
     },
     {
-      "slug": "QuadGrooveExpander",
-      "name": "Quad Groove Expander",
-      "description": "Expander for QAR adds grooves...",
+      "slug": "QARGrooveExpander",
+      "name": "QAR - Groove",
+      "description": "Create Grooves and Microrhythms for QAR",
       "tags": [
-        "Sequencer",
         "Expander"
       ]
     },
     {
-      "slug": "QuadRhythmExpander",
-      "name": "Quad Rhythm Expander",
-      "description": "Expander for QAR adds probabilty and swing",
+      "slug": "QARProbabilityExpander",
+      "name": "QAR - Probability",
+      "description": "Add Randomness to QAR Rhythms",
       "tags": [
-        "Sequencer",
         "Expander"
       ]
     },
@@ -165,7 +163,6 @@
       "name": "Vox Inhumana Expander",
       "description": "Resonance and Slope Control",
       "tags": [
-        "VCF",
         "Expander"
       ]
     }

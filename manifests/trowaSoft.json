@@ -1,0 +1,75 @@
+{
+  "slug": "trowaSoft",
+  "name": "trowaSoft",
+  "version": "1.0.1",
+  "license": "BSD-3-Clause",
+  "author": "j4s0n-c",
+  "authorEmail": "",
+  "authorUrl": "http://www.geekasaurusrex.net/",
+  "pluginUrl": "https://github.com/j4s0n-c/trowaSoft-VCV",
+  "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV/blob/master/README.md",
+  "sourceUrl": "https://github.com/j4s0n-c/trowaSoft-VCV",
+  "donateUrl": "https://paypal.me/j4s0n",
+  "modules": [
+    {
+      "slug": "trigSeq",
+      "name": "trigSeq",
+      "description": "16-step pad sequencer with a built-in Open Sound Control (OSC) interface.",
+      "tags": [
+        "Sequencer",
+        "External"
+      ]
+    },
+    {
+      "slug": "trigSeq64",
+      "name": "trigSeq64",
+      "description": "64-step pad sequencer with a built-in Open Sound Control (OSC) interface.",
+      "tags": [
+        "Sequencer",
+        "External"
+      ]
+    },
+    {
+      "slug": "voltSeq",
+      "name": "voltSeq",
+      "description": "16-step variable voltage/note sequencer with a built-in Open Sound Control (OSC) interface.",
+      "tags": [
+        "Sequencer",
+        "External"
+      ]
+    },
+    {
+      "slug": "multiWave",
+      "name": "multiWave",
+      "description": "Digital oscillator module with three (3) oscillators/clocks, each with two (2) configurable wave channel outputs.",
+      "tags": [
+        "Oscillator",
+        "Ring modulator"
+      ]
+    },
+    {
+      "slug": "multiScope",
+      "name": "multiScope",
+      "description": "Visual effects scope, with lissajous mode, that allows three (3) waveforms to be drawn on the same screen/canvas.",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "cvOSCcv",
+      "name": "cvOSCcv",
+      "description": "Generic Open Sound Control (OSC) module for outputting Rack CVs to OSC and reading in simple OSC messages into Rack CVs.",
+      "tags": [
+        "External"
+      ]
+    },
+    {
+      "slug": "tsBlank",
+      "name": "tsBlank",
+      "description": "Simple trowaSoft blank panel (variable width).",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
+}

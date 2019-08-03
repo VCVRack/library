@@ -1,5 +1,6 @@
 {
   "slug": "computerscare",
+  "version": "1.0.3",
   "name": "computerscare",
   "brand": "computerscare",
   "author": "computerscare",
@@ -8,7 +9,7 @@
   "pluginUrl": "https://github.com/freddyz/computerscare-vcv-modules",
   "authorUrl": "https://github.com/freddyz/computerscare-vcv-modules",
   "sourceUrl": "https://github.com/freddyz/computerscare-vcv-modules",
-  "version": "1.0.0",
+  "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules",
   "modules": [
     {
       "slug": "computerscare-knolypobs",

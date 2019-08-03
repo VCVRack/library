@@ -1,7 +1,7 @@
 {
   "slug": "SLM",
   "name": "SLM",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "SLM",
   "author": "Salvatore LA MALFA",
@@ -11,15 +11,24 @@
   "manualUrl": "https://github.com/salvolm84/SLM-vcv-rack/blob/master/README.md",
   "sourceUrl": "https://github.com/salvolm84/SLM-vcv-rack",
   "donateUrl": "https://paypal.me/salvolm",
+  "changelogUrl": "https://github.com/salvolm84/SLM-vcv-rack/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "mux-freak",
-      "name": "mux-freak",
+      "name": "Mux Freak",
       "description": "4 to 1 clocked multiplexer with switch probability and gate length controls",
       "tags": [
         "quad",
         "switch",
         "random"
+      ]
+    },
+    {
+      "slug": "the-tailor",
+      "name": "The Tailor",
+      "description": "waveforms morphing tool",
+      "tags": [
+        "digital"
       ]
     }
   ]
