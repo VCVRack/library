@@ -359,3 +359,6 @@
 [submodule "repos/LomasModules"]
 	path = repos/LomasModules
 	url = https://github.com/LomasModules/LomasModules
+[submodule "repos/wiqid-anomalies"]
+	path = repos/wiqid-anomalies
+	url = https://github.com/wiqid/anomalies.git
