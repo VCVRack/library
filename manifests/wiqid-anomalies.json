@@ -1,0 +1,116 @@
+{
+  "slug": "wiqid-anomalies",
+  "name": "wiqid anomalies",
+  "version": "1.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "wiqid",
+  "author": "wiqid",
+  "authorEmail": "wiqid@protonmail.com",
+  "authorUrl": "https://github.com/wiqid/",
+  "pluginUrl": "https://github.com/wiqid/anomalies",
+  "manualUrl": "https://github.com/wiqid/anomalies/blob/master/README.md",
+  "sourceUrl": "https://github.com/wiqid/anomalies",
+  "donateUrl": "https://paypal.me/wiqid",
+  "modules": [
+    {
+      "slug": "expanse",
+      "name": "expanse",
+      "description": "resizable blank",
+      "tags": [
+        "blank"
+      ]
+    },
+    {
+      "slug": "languor",
+      "name": "languor",
+      "description": "chaotic low-frequency oscillator using strange attractors",
+      "tags": [
+        "lfo",
+        "multiple",
+        "random"
+      ]
+    },
+    {
+      "slug": "halvorsen",
+      "name": "halvorsen",
+      "description": "2hp halvorsen strange attractor chaotic lfo",
+      "tags": [
+        "lfo",
+        "random"
+      ]
+    },
+    {
+      "slug": "lorenz",
+      "name": "lorenz",
+      "description": "2hp lorenz strange attractor chaotic lfo",
+      "tags": [
+        "lfo",
+        "random"
+      ]
+    },
+    {
+      "slug": "thomas",
+      "name": "thomas",
+      "description": "2hp thomas strange attractor chaotic lfo",
+      "tags": [
+        "lfo",
+        "random"
+      ]
+    },
+    {
+      "slug": "sakarya",
+      "name": "sakarya",
+      "description": "2hp sakarya strange attractor chaotic lfo",
+      "tags": [
+        "lfo",
+        "random"
+      ]
+    },
+    {
+      "slug": "dadras",
+      "name": "dadras",
+      "description": "2hp dadras strange attractor chaotic lfo",
+      "tags": [
+        "lfo",
+        "random"
+      ]
+    },
+    {
+      "slug": "slf",
+      "name": "sprott-linz f",
+      "description": "2hp sprott-linz f strange attractor chaotic lfo",
+      "tags": [
+        "lfo",
+        "random"
+      ]
+    },
+    {
+      "slug": "2at",
+      "name": "dual attenuverter",
+      "description": "2hp polyphonic dual attenuverter with offset",
+      "tags": [
+        "attenuator",
+        "dual",
+        "poly",
+        "vca"
+      ]
+    },
+    {
+      "slug": "fullscope",
+      "name": "full scope black edition",
+      "description": "full scope - in black! with toggleable stats",
+      "tags": [
+        "visual"
+      ]
+    },
+    {
+      "slug": "tiq",
+      "name": "tiq",
+      "disabled": true,
+      "description": "2hp simple clock",
+      "tags": [
+        "clock"
+      ]
+    }
+  ]
+}
