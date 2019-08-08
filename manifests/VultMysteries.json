@@ -5,10 +5,10 @@
   "brand": "Vult",
   "license": "proprietary",
   "authorEmail": "leonardo@vult-dsp.com",
-  "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
+  "pluginUrl": "https://modlfo.github.io/VultModules/mysteries/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "modules": [
     {
       "slug": "Quincunx",
