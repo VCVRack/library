@@ -362,3 +362,6 @@
 [submodule "repos/wiqid-anomalies"]
 	path = repos/wiqid-anomalies
 	url = https://github.com/wiqid/anomalies.git
+[submodule "repos/GoodSheperd"]
+	path = repos/GoodSheperd
+	url = https://github.com/jensschulze/GoodSheperd.git
