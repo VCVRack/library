@@ -1,7 +1,7 @@
 {
   "slug": "Bogaudio",
   "name": "Bogaudio",
-  "version": "1.1.21",
+  "version": "1.1.22",
   "license": "BSD-3-Clause",
   "brand": "Bogaudio",
   "author": "Matt Demanett",
@@ -349,8 +349,7 @@
       "name": "VU",
       "description": "stereo signal meter",
       "tags": [
-        "Visual",
-        "Dual"
+        "Visual"
       ]
     },
     {

@@ -1,0 +1,170 @@
+{
+  "slug": "TheXOR",
+  "name": "TheXOR",
+  "version": "1.1.0",
+  "license": "CC0-1.0",
+  "brand": "TheXOR",
+  "author": "The XOR",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/The-XOR/RackPlugins",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Klee",
+      "name": "Klee",
+      "description": "Klee Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ascii",
+      "name": "ascii",
+      "description": "ascii Sequencer - make notes sing",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "M581",
+      "name": "M581",
+      "description": "581 Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Z8K",
+      "name": "Z8K",
+      "description": "Z8000 Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Renato",
+      "name": "Renato",
+      "description": "Renato Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Spiralone",
+      "name": "Spiralone",
+      "description": "Spiralone Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "nag",
+      "name": "nag nag nag",
+      "description": "nag nag nag Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Burst",
+      "name": "Burst",
+      "description": "quick output bursts",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Uncertain",
+      "name": "Uncertain",
+      "description": "uncertain, buchla-esque voltages",
+      "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "PWMClock",
+      "name": "PWMClock",
+      "description": "PWM Clock Generator",
+      "tags": [
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "Quantizer",
+      "name": "Quantizer",
+      "description": "note quantizer",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "midyQuant",
+      "name": "midyQuant",
+      "description": "quantized MIDI output",
+      "tags": [
+        "Quantizer",
+        "MIDI"
+      ]
+    },
+    {
+      "slug": "AttAmp",
+      "name": "AttAmp",
+      "description": "attenuator/amplifier/offset",
+      "tags": [
+        "Attenuator",
+        "Amplifier"
+      ]
+    },
+    {
+      "slug": "Boole",
+      "name": "Boole",
+      "description": "boolean logic for your signals",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "XSwitch",
+      "name": "XSwitch",
+      "description": "circuit breaker",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Counter",
+      "name": "Counter",
+      "description": "count inputs and generate a signal when reaches 0",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Mplex",
+      "name": "Mplex",
+      "description": "Multiplexer",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Dmplex",
+      "name": "Dmplex",
+      "description": "Demultiplexer",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "empty",
+      "name": "empty",
+      "description": "a strategy to waste your precious rack space",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
+}
