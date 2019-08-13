@@ -1,0 +1,32 @@
+{
+  "slug": "Synthetic",
+  "name": "Synthetic",
+  "brand": "SV Modular",
+  "version": "1.0.0",
+  "license": "Proprietary",
+  "author": "SV Modular",
+  "authorEmail": "svmodular@legitimatesounding.com",
+  "authorUrl": "https://legitimatesounding.com/sv-modular",
+  "pluginUrl": "https://legitimatesounding.com/sv-modular",
+  "manualUrl": "https://legitimatesounding.com/sv-modular",
+  "modules": [
+    {
+      "slug": "Eastside",
+      "name": "Eastside",
+      "description": "Eastside Polyphonic Synth",
+      "tags": [
+        "Synth voice",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "BigBlue",
+      "name": "Big Blue",
+      "description": "Big Blue Polyphonic Synth",
+      "tags": [
+        "Synth voice",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
