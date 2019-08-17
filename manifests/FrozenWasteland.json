@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "author": "almostEric",
   "license": "CC0-1.0",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -26,6 +26,14 @@
       "description": "Beat Synchronized LFO with CV Waveshape",
       "tags": [
         "LFO"
+      ]
+    },
+    {
+      "slug": "BPMLFOPhaseExpander",
+      "name": "BPM LFO Phase Expander",
+      "description": "Add multiple phased outputs to BMPLFO and BPMLFO 2",
+      "tags": [
+        "Expander"
       ]
     },
     {
