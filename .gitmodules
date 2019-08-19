@@ -365,3 +365,6 @@
 [submodule "repos/GoodSheperd"]
 	path = repos/GoodSheperd
 	url = https://github.com/jensschulze/GoodSheperd.git
+[submodule "repos/SignalFlux"]
+	path = repos/SignalFlux
+	url = https://github.com/signal-flux/Signal-Flux-VCV-Rack-Modules.git
