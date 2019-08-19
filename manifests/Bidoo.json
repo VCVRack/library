@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "BSD-3-Clause",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -10,7 +10,8 @@
   "authorUrl": "https://github.com/sebastien-bouffier/Bidoo",
   "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki",
   "sourceUrl": "https://github.com/sebastien-bouffier/Bidoo",
-  "changelogUrl": "https://github.com/sebastien-bouffier/Bidoo",
+  "changelogUrl": "https://github.com/sebastien-bouffier/Bidoo/blob/v1.0/changelog.txt",
+  "donateUrl": "https://www.paypal.me/sebastienbouffier",
   "modules": [
     {
       "slug": "vOId",

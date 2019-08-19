@@ -1,0 +1,32 @@
+{
+  "slug": "SignalFlux",
+  "name": "Signal Flux",
+  "version": "1.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Signal Flux",
+  "author": "Sam Wolk and Signal Flux",
+  "authorEmail": "info@signalflux.org",
+  "authorUrl": "https://signalflux.org",
+  "pluginUrl": "https://github.com/signal-flux/Signal-Flux-VCV-Rack-Modules",
+  "manualUrl": "https://github.com/signal-flux/Signal-Flux-VCV-Rack-Modules/blob/master/README.md",
+  "sourceUrl": "https://github.com/signal-flux/Signal-Flux-VCV-Rack-Modules",
+  "donateUrl": "https://signalflux.org/about/",
+  "modules": [
+    {
+      "slug": "SimpleKnob",
+      "name": "Simple Knob",
+      "description": "Generates a voltage offset based on the knob position.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "BipolarKnob",
+      "name": "Bipolar Knob",
+      "description": "Outputs positive and negative voltage proprtional to knob position.",
+      "tags": [
+        "Utility"
+      ]
+    }
+  ]
+}
