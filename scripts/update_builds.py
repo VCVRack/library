@@ -44,11 +44,14 @@ for plugin_dir in plugin_dirs:
 	print(f"Building {slug}")
 	try:
 		build.build(plugin_dir)
+		build.move_stage()
 	except Exception as e:
 		print(e)
 		print(f"{slug} build failed")
 		input()
 		continue
+	finally:
+		build.delete_stage()
 
 	# Copy manifest
 	with open(library_manifest_filename, "w") as f:
