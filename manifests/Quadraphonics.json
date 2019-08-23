@@ -1,0 +1,12 @@
+{
+  "slug": "Quadraphonics",
+  "name": "Quadraphonics",
+  "author": "Uriel Deveaud",
+  "license": "GPL-3.0 and BSD-3-Clause",
+  "pluginUrl": "https://github.com/KoreTeknology/Quadraphonic-Plugins-for-VCV-Rack",
+  "authorUrl": "https://github.com/KoreTeknology/Quadraphonic-Plugins-for-VCV-Rack",
+  "authorEmail": "uriel.deveaud.gmail.com",
+  "manualUrl": "https://github.com/KoreTeknology/Quadraphonic-Plugins-for-VCV-Rack",
+  "sourceUrl": "https://github.com/KoreTeknology/Quadraphonic-Plugins-for-VCV-Rack",
+  "version": "0.6.3"
+}

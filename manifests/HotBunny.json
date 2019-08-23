@@ -1,0 +1,9 @@
+{
+  "name": "Hot Bunny",
+  "author": "Matthew Friedrichs",
+  "license": "proprietary",
+  "manualUrl": "https://github.com/matthewfriedrichs/HotBunnyManual/wiki/01.-Module-Overviews",
+  "pluginUrl": "https://github.com/matthewfriedrichs/HotBunnyManual/wiki/01.-Module-Overviews",
+  "slug": "HotBunny",
+  "version": "0.6.0"
+}

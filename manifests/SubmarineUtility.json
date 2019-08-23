@@ -1,0 +1,10 @@
+{
+  "name": "SubmarineUtility",
+  "author": "carbon14",
+  "license": "BSD-3-Clause",
+  "sourceUrl": "https://github.com/david-c14/SubmarineUtility/",
+  "manualUrl": "https://github.com/david-c14/SubmarineUtility/blob/master/manual/index.md",
+  "pluginUrl": "https://github.com/david-c14/SubmarineUtility/blob/master/manual/index.md",
+  "slug": "SubmarineUtility",
+  "version": "0.6.2"
+}

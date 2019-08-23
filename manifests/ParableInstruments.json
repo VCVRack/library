@@ -1,0 +1,10 @@
+{
+  "name": "Parable Instruments",
+  "author": "adbrant",
+  "license": "BSD-3-Clause",
+  "manualUrl": "https://github.com/adbrant/ArableInstruments/blob/master/README.md",
+  "sourceUrl": "https://github.com/adbrant/ArableInstruments",
+  "pluginUrl": "https://github.com/adbrant/ArableInstruments/blob/master/README.md",
+  "slug": "ParableInstruments",
+  "version": "0.6.0"
+}

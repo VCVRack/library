@@ -1,0 +1,11 @@
+{
+  "name": "alto777 LFSR",
+  "author": "Robert A Moeser",
+  "authorEmail": "ram32768@gmail.com",
+  "license": "BSD-3-Clause",
+  "sourceUrl": "https://github.com/alto777/LFSR",
+  "manualUrl": "https://github.com/alto777/LFSR/blob/master/README.md",
+  "pluginUrl": "https://github.com/alto777/LFSR/blob/master/README.md",
+  "slug": "alto777_LFSR",
+  "version": "0.6.21"
+}

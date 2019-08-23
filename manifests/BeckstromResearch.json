@@ -1,0 +1,10 @@
+{
+  "name": "Beckstrom Research",
+  "author": "Chris Beckstrom",
+  "authorEmail": "chris@chrisbeckstrom.com",
+  "manualUrl": "https://github.com/chrisbeckstrom/Beckstrom_Research_Rack/blob/master/README.md",
+  "sourceUrl": "https://github.com/chrisbeckstrom/Beckstrom_Research_Rack",
+  "pluginUrl": "https://github.com/chrisbeckstrom/Beckstrom_Research_Rack/blob/master/README.md",
+  "slug": "BeckstromResearch",
+  "version": "0.6.0"
+}

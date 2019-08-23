@@ -1,0 +1,11 @@
+{
+  "name": "Southpole",
+  "author": "Gerhard Brandt",
+  "license": "BSD-3-Clause",
+  "manualUrl": "https://github.com/gbrandt1/southpole-vcvrack/blob/master/README.md",
+  "sourceUrl": "https://github.com/gbrandt1/southpole-vcvrack",
+  "donateUrl": "https://www.paypal.me/southpolemodular",
+  "pluginUrl": "https://github.com/gbrandt1/southpole-vcvrack/blob/master/README.md",
+  "slug": "Southpole",
+  "version": "0.6.0"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "LOGinstruments",
+  "author": "leopard86 (Leonardo Gabrielli)",
+  "license": "BSD-3-Clause",
+  "manualUrl": "https://github.com/LOGUNIVPM/LOGinstruments/blob/master/README.md",
+  "sourceUrl": "https://github.com/LOGUNIVPM/LOGinstruments",
+  "pluginUrl": "https://github.com/LOGUNIVPM/LOGinstruments/blob/master/README.md",
+  "slug": "LOGinstruments",
+  "version": "0.6.0"
+}

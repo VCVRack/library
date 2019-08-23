@@ -1,0 +1,11 @@
+{
+  "name": "TriggerFish Elements",
+  "author": "J TriggerFish",
+  "authorEmail": "FastTriggerFish@gmail.com",
+  "license": "BSD-3-Clause",
+  "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV/blob/master/README.md",
+  "sourceUrl": "https://github.com/JTriggerFish/TriggerFish-VCV.git",
+  "pluginUrl": "https://github.com/JTriggerFish/TriggerFish-VCV/blob/master/README.md",
+  "slug": "TriggerFish-Elements",
+  "version": "0.6.4"
+}

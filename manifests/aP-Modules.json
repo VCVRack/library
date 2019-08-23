@@ -1,0 +1,13 @@
+{
+  "name": "aP Modules",
+  "author": "Alessandro Petrone",
+  "license": "BSD-3-Clause",
+  "authorEmail": "alessandro.nge@gmail.com",
+  "authorURL": "https://www.facebook.com/mai.piu.cioccabbiocco",
+  "manualUrl": "https://github.com/aptrn/aP-Modules/blob/master/README.md",
+  "sourceUrl": "https://github.com/aptrn/aP-Modules.git",
+  "donateUrl": "https://www.paypal.me/aptrn",
+  "pluginUrl": "https://github.com/aptrn/aP-Modules/blob/master/README.md",
+  "slug": "aP-Modules",
+  "version": "0.6.0"
+}

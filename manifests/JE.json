@@ -1,0 +1,10 @@
+{
+  "name": "JE",
+  "author": "Julien Eres",
+  "license": "MIT",
+  "manualUrl": "https://github.com/eres-j/VCVRack-plugin-JE/blob/master/README.md",
+  "sourceUrl": "https://github.com/eres-j/VCVRack-plugin-JE",
+  "pluginUrl": "https://github.com/eres-j/VCVRack-plugin-JE/blob/master/README.md",
+  "slug": "JE",
+  "version": "0.5.1"
+}

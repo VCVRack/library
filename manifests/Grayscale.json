@@ -1,0 +1,11 @@
+{
+  "name": "Grayscale",
+  "author": "VCV",
+  "license": "proprietary",
+  "pluginUrl": "https://vcvrack.com/Grayscale.html",
+  "authorUrl": "https://vcvrack.com/",
+  "authorEmail": "contact@vcvrack.com",
+  "manualUrl": "https://vcvrack.com/Grayscale.html#manual",
+  "slug": "Grayscale",
+  "version": "0.6.0"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "FrankBussFormula",
+  "author": "Frank Buss",
+  "license": "CC-1.0",
+  "manualUrl": "https://github.com/FrankBuss/Formula/blob/master/README.md",
+  "sourceUrl": "https://github.com/FrankBuss/Formula",
+  "donateUrl": "https://www.paypal.me/frankbuss",
+  "pluginUrl": "https://github.com/FrankBuss/Formula/blob/master/README.md",
+  "slug": "FrankBussFormula",
+  "version": "0.6.2"
+}

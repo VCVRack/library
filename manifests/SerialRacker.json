@@ -1,0 +1,9 @@
+{
+  "name": "SerialRacker",
+  "author": "Alex Petit-Bianco",
+  "license": "BSD-3-Clause",
+  "pluginUrl": "https://github.com/apbianco/SerialRacker",
+  "sourceUrl": "https://github.com/apbianco/SerialRacker",
+  "slug": "SerialRacker",
+  "version": "0.6.1"
+}

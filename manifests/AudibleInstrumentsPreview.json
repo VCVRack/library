@@ -1,0 +1,11 @@
+{
+  "name": "Audible Instruments Preview",
+  "author": "VCV",
+  "license": "proprietary",
+  "pluginUrl": "https://vcvrack.com/AudibleInstruments.html",
+  "authorUrl": "https://vcvrack.com/",
+  "authorEmail": "contact@vcvrack.com",
+  "manualUrl": "https://vcvrack.com/AudibleInstruments.html#preview",
+  "slug": "AudibleInstrumentsPreview",
+  "version": "0.6.5"
+}

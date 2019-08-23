@@ -1,0 +1,12 @@
+{
+  "name": "Erratic Instruments",
+  "author": "Bruno Afonso",
+  "license": "BSD-3-Clause",
+  "authorUrl": "https://brunoafonso.org",
+  "donateUrl": "https://www.paypal.me/ErraticModules",
+  "manualUrl": "https://github.com/bafonso/Erratic/blob/v0.6/README.md",
+  "sourceUrl": "https://github.com/bafonso/Erratic",
+  "pluginUrl": "https://github.com/bafonso/Erratic/blob/v0.6/README.md",
+  "slug": "ErraticInstruments",
+  "version": "0.6.2"
+}
