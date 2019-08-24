@@ -1,11 +1,41 @@
 {
-  "name": "sb-StochKit",
-  "author": "Samuel Laing",
-  "license": "CC0-1.0",
-  "pluginUrl": "https://github.com/smbddha/sb-StochKit/blob/master/README.md",
-  "authorUrl": "https://github.com/smbddha",
-  "manualUrl": "https://github.com/smbddha/sb-StochKit/blob/master/README.md",
-  "sourceUrl": "https://github.com/smbddha/sb-StochKit.git",
   "slug": "sb-StochKit",
-  "version": "0.6.2"
+  "name": "StochKit",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "StochKit",
+  "author": "Sam Laing",
+  "authorEmail": "samuelwlaing@gmail.com",
+  "authorUrl": "https://github.com/smbddha",
+  "pluginUrl": "https://github.com/smbddha/sb-StochKit",
+  "manualUrl": "https://github.com/smbddha/sb-StochKit",
+  "sourceUrl": "https://github.com/smbddha/sb-StochKit",
+  "modules": [
+    {
+      "slug": "GenEcho",
+      "name": "GenEcho",
+      "description": "The GenEcho module",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Grandy",
+      "name": "Grandy",
+      "description": "A generator module",
+      "tags": [
+        "Granular",
+        "VCO"
+      ]
+    },
+    {
+      "slug": "Stitcher",
+      "name": "Stitcher",
+      "description": "Stitcher module",
+      "tags": [
+        "Granular",
+        "VCO"
+      ]
+    }
+  ]
 }

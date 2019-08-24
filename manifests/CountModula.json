@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "license": "BSD-3-Clause",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -404,12 +404,47 @@
     },
     {
       "slug": "PolyrhythmicGeneratorMkII",
-      "name": "Polyrhythmic Generator",
+      "name": "Polyrhythmic Generator MkII",
       "description": "A set of 8 voltage controlled clock dividers that can be used to generate polyrhythms by clocking and/or dividing at different rates.",
       "tags": [
         "Clock modulator",
         "Sequencer",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "GatedComparator",
+      "name": "Gated Comparator",
+      "description": "Gated Comparator",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "SlopeDetector",
+      "name": "Slope Detector",
+      "description": "Slope Detector",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SequencerExpanderRM8",
+      "name": "Gated Comparator Expander - Random Melody",
+      "description": "Gated Comparator expander adding Random Melody output (also works with other sequencers).",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "SequencerExpanderLOG8",
+      "name": "Gated Comparator Expander - Gate Logic",
+      "description": "Gated Comparator expander adding logical mixing of the shift register outputs.",
+      "tags": [
+        "Sequencer",
+        "Expander"
       ]
     }
   ]

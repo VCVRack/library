@@ -1,7 +1,7 @@
 {
   "slug": "TheXOR",
   "name": "TheXOR",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "CC0-1.0",
   "brand": "TheXOR",
   "author": "The XOR",
@@ -69,6 +69,14 @@
       ]
     },
     {
+      "slug": "o88o",
+      "name": "o88o",
+      "description": "o88o Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
       "slug": "Burst",
       "name": "Burst",
       "description": "quick output bursts",
@@ -127,6 +135,14 @@
       ]
     },
     {
+      "slug": "flop",
+      "name": "flop",
+      "description": "flop (and flip) logic for your signals",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
       "slug": "XSwitch",
       "name": "XSwitch",
       "description": "circuit breaker",
@@ -159,11 +175,27 @@
       ]
     },
     {
+      "slug": "quattro",
+      "name": "quattro",
+      "description": "quattro lines for otto steps",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
       "slug": "empty",
       "name": "empty",
       "description": "a strategy to waste your precious rack space",
       "tags": [
         "Blank"
+      ]
+    },
+    {
+      "slug": "volt",
+      "name": "volt",
+      "description": "microtonal quantizer",
+      "tags": [
+        "Quantizer"
       ]
     }
   ]

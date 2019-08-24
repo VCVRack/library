@@ -1,6 +1,6 @@
 {
   "slug": "STS",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "GPL-3.0-only",
   "name": "STS",
   "author": "STS",
@@ -66,6 +66,15 @@
       "slug": "LFOPoly",
       "name": "LFOPoly",
       "description": "Poly LFO 16",
+      "tags": [
+        "LFO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "LFOPolySP",
+      "name": "LFOPolySnapPhase",
+      "description": "Poly LFO 16 with Snap Phase",
       "tags": [
         "LFO",
         "Polyphonic"
