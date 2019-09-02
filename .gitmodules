@@ -377,3 +377,6 @@
 [submodule "repos/aridacity"]
 	path = repos/aridacity
 	url = https://github.com/aridacity/aridacityVCV.git
+[submodule "repos/admiral"]
+	path = repos/admiral
+	url = https://github.com/wapiflapi/admiral.git
