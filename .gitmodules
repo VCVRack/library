@@ -368,3 +368,6 @@
 [submodule "repos/SignalFlux"]
 	path = repos/SignalFlux
 	url = https://github.com/signal-flux/Signal-Flux-VCV-Rack-Modules.git
+[submodule "repos/WrongPeople"]
+	path = repos/WrongPeople
+	url = https://github.com/WrongPeople/WrongPeopleVCV.git
