@@ -371,3 +371,6 @@
 [submodule "repos/WrongPeople"]
 	path = repos/WrongPeople
 	url = https://github.com/WrongPeople/WrongPeopleVCV.git
+[submodule "repos/CatroBlanco"]
+	path = repos/CatroBlanco
+	url = https://github.com/catronomix/Catro-Blanco.git
