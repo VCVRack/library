@@ -374,3 +374,6 @@
 [submodule "repos/CatroBlanco"]
 	path = repos/CatroBlanco
 	url = https://github.com/catronomix/Catro-Blanco.git
+[submodule "repos/aridacity"]
+	path = repos/aridacity
+	url = https://github.com/aridacity/aridacityVCV.git
