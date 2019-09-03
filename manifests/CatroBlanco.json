@@ -1,0 +1,87 @@
+{
+  "slug": "CatroBlanco",
+  "name": "Catro/Blanco",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "Catro/Blanco",
+  "author": "catronomix",
+  "authorEmail": "catronomix+dev@gmail.com",
+  "authorUrl": "https://www.instagram.com/catronomix/",
+  "pluginUrl": "https://github.com/catronomix/catro-blanco",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/catronomix/catro-blanco",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "CatroBlanco_CB-1",
+      "name": "2hp Blanco",
+      "description": "2hp decorated blank panel",
+      "tags": [
+        "Blank",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "CatroBlanco_CB-2",
+      "name": "3hp Blanco",
+      "description": "3hp decorated blank panel",
+      "tags": [
+        "Blank",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "CatroBlanco_CB-3",
+      "name": "3hp Blanco flipped",
+      "description": "3hp decorated blank panel",
+      "tags": [
+        "Blank",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "CatroBlanco_CB-4",
+      "name": "4hp Blanco",
+      "description": "4hp decorated blank panel",
+      "tags": [
+        "Blank",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "CatroBlanco_CB-5",
+      "name": "4hp Blanco alternate",
+      "description": "4hp decorated blank panel",
+      "tags": [
+        "Blank",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "CatroBlanco_CB-6",
+      "name": "5hp Blanco",
+      "description": "5hp decorated blank panel",
+      "tags": [
+        "Blank",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "CatroBlanco_CB-7",
+      "name": "10hp Blanco",
+      "description": "10hp decorated blank panel",
+      "tags": [
+        "Blank",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "CatroBlanco_CB-meter",
+      "name": "2hp Meter",
+      "description": "2hp decorated meter",
+      "tags": [
+        "Visual"
+      ]
+    }
+  ]
+}

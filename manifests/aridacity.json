@@ -1,0 +1,46 @@
+{
+  "slug": "aridacity",
+  "name": "aridacity",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "aridacity",
+  "author": "aridacity",
+  "authorEmail": "",
+  "authorUrl": "https://cubeleco.blogspot.com",
+  "pluginUrl": "https://github.com/aridacity/aridacity",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/aridacity/aridacity",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "ClockDiv",
+      "name": "Clock Divider",
+      "description": "16 step clock divider and sequencer",
+      "tags": [
+        "Clock modulator",
+        "Switch",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "BCrush",
+      "name": "Bit Crush",
+      "description": "Bit crusher with bit operators",
+      "tags": [
+        "Digital",
+        "Distortion",
+        "Sample and hold",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Clip",
+      "name": "Clip Limiter",
+      "description": "Hard Limiter with inner and outer limits",
+      "tags": [
+        "Limiter",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "Admiral",
+  "name": "Admiral",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "Admiral",
+  "author": "Wannes Rombouts",
+  "authorEmail": "wapiflapi@gmail.com",
+  "authorUrl": "https://github.com/wapiflapi",
+  "pluginUrl": "https://github.com/wapiflapi/admiral",
+  "manualUrl": "https://github.com/wapiflapi/admiral",
+  "sourceUrl": "https://github.com/wapiflapi/admiral",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Watches",
+      "name": "Watches",
+      "description": "Dual switched multiples.",
+      "tags": [
+        "Dual",
+        "Multiple",
+        "Switch",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Shifts",
+      "name": "Shifts",
+      "description": "Two stage Bernoulli mixer.",
+      "tags": [
+        "Mixer",
+        "Panning",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Tables",
+      "name": "Tables",
+      "description": "Quad sequencer.",
+      "tags": [
+        "Clock modulator",
+        "Quad",
+        "Sequencer"
+      ]
+    }
+  ]
+}

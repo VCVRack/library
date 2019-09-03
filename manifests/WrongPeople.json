@@ -1,0 +1,50 @@
+{
+  "slug": "WrongPeople",
+  "name": "Wrong People",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "brand": "Wrong People",
+  "author": "Wrong People",
+  "authorEmail": "wrngppl@gmail.com",
+  "authorUrl": "https://github.com/WrongPeople",
+  "pluginUrl": "https://github.com/WrongPeople/WrongPeopleVCV",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/WrongPeople/WrongPeopleVCV",
+  "donateUrl": "https://www.donationalerts.com/r/wrongpeople",
+  "modules": [
+    {
+      "slug": "MIDIPlayer",
+      "name": "MIDI Player",
+      "description": "Multitrack MIDI files player",
+      "tags": [
+        "Clock generator",
+        "Envelope generator",
+        "MIDI",
+        "Polyphonic",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Lua",
+      "name": "Lua",
+      "description": "Lua interpreter with 8 inputs, 8 outputs and display",
+      "tags": [
+        "Utility",
+        "Polyphonic",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Tourette",
+      "name": "Tourette",
+      "description": "Tourette syndrome simulator",
+      "tags": [
+        "Drum",
+        "Effect",
+        "Granular",
+        "Random",
+        "Sampler"
+      ]
+    }
+  ]
+}
