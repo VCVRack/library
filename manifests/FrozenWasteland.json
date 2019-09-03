@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.8.1",
+  "version": "1.9.0",
   "author": "almostEric",
   "license": "CC0-1.0",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -100,6 +100,14 @@
         "Delay",
         "Granular",
         "VCF"
+      ]
+    },
+    {
+      "slug": "ProbablyNote",
+      "name": "Probably Note",
+      "description": "Probability Quantizer",
+      "tags": [
+        "Quantizer"
       ]
     },
     {
