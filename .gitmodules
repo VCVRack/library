@@ -380,3 +380,6 @@
 [submodule "repos/admiral"]
 	path = repos/admiral
 	url = https://github.com/wapiflapi/admiral.git
+[submodule "repos/GlueTheGiant"]
+	path = repos/GlueTheGiant
+	url = https://github.com/gluethegiant/gtg-rack.git
