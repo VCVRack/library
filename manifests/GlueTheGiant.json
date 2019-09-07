@@ -1,0 +1,66 @@
+{
+  "slug": "GlueTheGiant",
+  "name": "Glue the Giant",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Glue the Giant",
+  "author": "Paul Merchant",
+  "authorEmail": "prmerchant@gmail.com",
+  "authorUrl": "https://github.com/gluethegiant",
+  "pluginUrl": "https://github.com/gluethegiant/gtg-rack",
+  "manualUrl": "https://github.com/gluethegiant/gtg-rack/wiki",
+  "sourceUrl": "https://github.com/gluethegiant/gtg-rack",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "MiniBus",
+      "name": "Mini Bus Mixer",
+      "description": "Mono to three stereo buses",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "SchoolBus",
+      "name": "School Bus Mixer",
+      "description": "Pan control to three stereo buses",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "BusRoute",
+      "name": "Bus Route",
+      "description": "Three stereo sends and returns",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "BusDepot",
+      "name": "Bus Depot",
+      "description": "Sums three stereo buses",
+      "tags": [
+        "Mixer",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "EnterBus",
+      "name": "Enter Mixer Bus",
+      "description": "Three stereo inputs to bus",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ExitBus",
+      "name": "Exit Mixer Bus",
+      "description": "Three stereo outputs from bus",
+      "tags": [
+        "Utility"
+      ]
+    }
+  ]
+}

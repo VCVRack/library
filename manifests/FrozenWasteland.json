@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "author": "almostEric",
   "license": "CC0-1.0",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -106,6 +106,30 @@
       "slug": "ProbablyNote",
       "name": "Probably Note",
       "description": "Probability Quantizer",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "ProbablyNoteArabic",
+      "name": "Probably Note - Arabic",
+      "description": "Probability Quantizer - Arabic Scales Version",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "ProbablyNoteBP",
+      "name": "Probably Note - Bohlen Pierce Version",
+      "description": "Probability Quantizer - Bohlen Pierce Tritave Version",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "ProbablyNoteIndian",
+      "name": "Probably Note - Indian Version",
+      "description": "Probability Quantizer - Indian Raga Scales Version",
       "tags": [
         "Quantizer"
       ]

@@ -1,7 +1,7 @@
 {
   "slug": "Prism",
   "name": "Prism",
-  "author": "John Hoar",
+  "author": "John Hoar / Pyer",
   "license": "BSD-3-Clause",
   "authorEmail": "amalgamatedharmonics@outlook.com",
   "manualUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
@@ -9,7 +9,7 @@
   "authorUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
   "sourceUrl": "https://github.com/AmalgamatedHarmonics/Prism",
   "changelogUrl": "https://github.com/AmalgamatedHarmonics/Prism/blob/master/CHANGELOG.md",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "modules": [
     {
       "slug": "Rainbow",
@@ -18,6 +18,14 @@
       "tags": [
         "Physical modeling",
         "VCF"
+      ]
+    },
+    {
+      "slug": "RainbowScaleExpander",
+      "name": "Spectrum",
+      "description": "Expander for Rainbow for programming of user-defined scales",
+      "tags": [
+        "Expander"
       ]
     }
   ]

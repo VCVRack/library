@@ -1,10 +1,44 @@
 {
-  "name": "s-ol",
-  "author": "s-ol",
-  "license": "MIT",
-  "manualUrl": "https://github.com/s-ol/vcvmods/blob/master/README.md",
-  "sourceUrl": "https://github.com/s-ol/vcvmods",
-  "pluginUrl": "https://github.com/s-ol/vcvmods/blob/master/README.md",
   "slug": "s-ol",
-  "version": "0.6.1"
+  "name": "s-ol",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "s-ol",
+  "author": "sol bekic",
+  "authorEmail": "s+vcv@s-ol.nu",
+  "authorUrl": "https://s-ol.nu",
+  "pluginUrl": "https://s-ol.nu/vcvmods",
+  "manualUrl": "https://s-ol.nu/vcvmods/doc",
+  "sourceUrl": "https://git.s-ol.nu/vcvmods",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "WrapComp",
+      "name": "Wrapping Comparator",
+      "description": "compares a voltage against a window in a circular space",
+      "tags": [
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CircleVCO",
+      "name": "Quadrature Circle VCO",
+      "description": "sinewave VCO with 90\u00b0 quadrature output for drawing circles.",
+      "tags": [
+        "Digital",
+        "Oscillator",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Modulo",
+      "name": "Modulo / Round",
+      "description": "generates a modulo + rounded signal for a voltage-controlled step size.",
+      "tags": [
+        "Logic",
+        "Quantizer"
+      ]
+    }
+  ]
 }

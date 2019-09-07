@@ -8,7 +8,7 @@
   "sourceUrl": "https://github.com/squinkylabs/SquinkyVCV",
   "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/booty-shifter.md",
   "changelogUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/CHANGELOG.md",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "modules": [
     {
       "slug": "squinkylabs-ev3",
@@ -106,7 +106,7 @@
       "slug": "squinkylabs-sequencer",
       "name": "Seq++",
       "description": "DAW-like sequencer",
-      "disabled": true,
+      "disabled": false,
       "tags": [
         "Sequencer"
       ]
@@ -156,6 +156,16 @@
       ]
     },
     {
+      "slug": "squinkylabs-mixStereo",
+      "name": "ExTwo",
+      "description": "Two channel stereo mixer expander",
+      "disabled": false,
+      "tags": [
+        "Mixer",
+        "Expander"
+      ]
+    },
+    {
       "slug": "squinkylabs-mixm",
       "name": "Form",
       "description": "Mixer master module",
@@ -190,6 +200,14 @@
       "description": "Ladder filter on steroids",
       "tags": [
         "VCF"
+      ]
+    },
+    {
+      "slug": "squinkylabs-dt",
+      "name": "Polygate",
+      "description": "Polyphonic gate demultiplexer",
+      "tags": [
+        "Polyphonic"
       ]
     },
     {
