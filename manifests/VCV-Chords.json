@@ -1,0 +1,24 @@
+{
+  "slug": "VCV-Chords",
+  "name": "Chords",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/Chords.html",
+  "manualUrl": "https://vcvrack.com/Chords.html#manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Chords",
+      "name": "Chords",
+      "description": "Quad-note chord generator",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}
