@@ -63,17 +63,26 @@ for plugin_dir in plugin_dirs:
 
 
 if not built_slugs:
-	raise Exception("Nothing to build")
+	print("Nothing to build")
+	exit(0)
+
+
+print("Press enter to upload packages and push library repo")
+input()
 
 # Upload packages
 build.system("cd ../packages && make upload")
 
 # Commit repository
 build.system("git add manifests")
-built_slugs_list = ", ".join(built_slugs)
-build.system(f"git commit -m 'Update build for {built_slugs_list}'")
+built_slugs_str = ", ".join(built_slugs)
+build.system(f"git commit -m 'Update build for {built_slugs_str}'")
 build.system("git push")
 
+# Delete screenshot cache
+for slug in built_slugs:
+	build.system("rm -rf '../screenshots/{slug}'")
 
 print()
 print("Built " + ", ".join(built_slugs))
+print("Remember to generate and upload screenshots")

@@ -3,7 +3,9 @@ import json
 import os
 import glob
 
-for filename in glob.glob("repos/*/plugin.json"):
+filenames = sys.argv[1:]
+
+for filename in filenames:
 	# Read plugin manifest
 	try:
 		with open(filename, "r") as f:
@@ -13,9 +15,17 @@ for filename in glob.glob("repos/*/plugin.json"):
 		print(e)
 		continue
 
-	# Write library manifest
-	slug = manifest["slug"]
-	manifest_filename = f"manifests/{slug}.json"
-	with open(manifest_filename, "w") as f:
-		json.dump(manifest, f, indent="  ")
-	print(f"Copied {slug}")
+	slug = os.path.splitext(os.path.basename(filename))[0]
+	# dest_filename = f"manifests/{slug}.json"
+	# if os.path.isfile(dest_filename):
+	# 	continue
+
+	if manifest.get('manualUrl', '') and manifest.get('pluginUrl', '') and manifest.get('author', '') and manifest.get('authorEmail', '') and manifest.get('authorUrl', '') and manifest.get('sourceUrl', '') and manifest.get('donateUrl', ''):
+		print(slug)
+
+	# # Write library manifest
+	# slug = manifest["slug"]
+	# manifest_filename = f"manifests/{slug}.json"
+	# with open(manifest_filename, "w") as f:
+	# 	json.dump(manifest, f, indent="  ")
+	# print(f"Copied {slug}")

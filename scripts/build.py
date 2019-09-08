@@ -8,6 +8,7 @@ PACKAGE_DIR = "../packages"
 
 
 def system(cmd):
+	print(cmd)
 	err = os.system(cmd)
 	if err:
 		raise Exception(f"Command failed with error {err}: {cmd}")
