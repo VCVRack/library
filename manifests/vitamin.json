@@ -1,0 +1,35 @@
+{
+  "slug": "vitamin",
+  "name": "Vitamin",
+  "version": "1.0.0",
+  "license": "BlueOak-1.0.0",
+  "brand": "Vitamin",
+  "author": "Xavier Shay",
+  "authorEmail": "contact@xaviershay.com",
+  "authorUrl": "https://xaviershay.com",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/xaviershay/vitamin-vcv-modules",
+  "sourceUrl": "https://github.com/xaviershay/vitamin-vcv-modules",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Bypass",
+      "name": "B (Effect Bypass)",
+      "description": "Multi-channel effect bypass.",
+      "tags": [
+        "utility",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "Pan",
+      "name": "P (Pan)",
+      "description": "Pan a polyphonic mono input using constant power law to maintain overall volume.",
+      "tags": [
+        "pan",
+        "mixer",
+        "polyphonic"
+      ]
+    }
+  ]
+}
