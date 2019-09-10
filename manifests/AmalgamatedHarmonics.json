@@ -9,7 +9,7 @@
   "authorUrl": "https://github.com/jhoar/AmalgamatedHarmonics/wiki",
   "sourceUrl": "https://github.com/jhoar/AmalgamatedHarmonics",
   "changelogUrl": "https://github.com/jhoar/AmalgamatedHarmonics/releases",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "modules": [
     {
       "slug": "Arp31",
@@ -167,6 +167,14 @@
       "description": "A chord sequencer",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "ScaleQuantizer",
+      "name": "Scale Quantizer (legacy)",
+      "description": "Scale-aware quantizer",
+      "tags": [
+        "Quantizer"
       ]
     }
   ]
