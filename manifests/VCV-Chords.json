@@ -1,7 +1,7 @@
 {
   "slug": "VCV-Chords",
   "name": "Chords",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "proprietary",
   "brand": "VCV",
   "author": "VCV",
@@ -9,6 +9,7 @@
   "authorUrl": "https://vcvrack.com/",
   "pluginUrl": "https://vcvrack.com/Chords.html",
   "manualUrl": "https://vcvrack.com/Chords.html#manual",
+  "changelogUrl": "https://vcvrack.com/Chords.html#changelog",
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
@@ -17,7 +18,8 @@
       "name": "Chords",
       "description": "Quad-note chord generator",
       "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Polyphonic"
       ]
     }
   ]
