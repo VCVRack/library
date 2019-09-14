@@ -1,10 +1,25 @@
 {
-  "name": "Arable Instruments",
-  "author": "adbrant",
-  "license": "BSD-3-Clause",
-  "manualUrl": "https://github.com/adbrant/ArableInstruments/blob/master/README.md",
-  "sourceUrl": "https://github.com/adbrant/ArableInstruments",
-  "pluginUrl": "https://github.com/adbrant/ArableInstruments/blob/master/README.md",
   "slug": "ArableInstruments",
-  "version": "0.6.0"
+  "name": "Arable Instruments",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "Arable Instruments",
+  "author": "adbrant",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/adbrant/ArableInstruments/blob/master/README.md",
+  "pluginUrl": "https://github.com/adbrant/ArableInstruments/blob/master/README.md",
+  "manualUrl": "https://github.com/adbrant/ArableInstruments/blob/master/README.md",
+  "sourceUrl": "https://github.com/adbrant/ArableInstruments.git",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Joni",
+      "name": "Joni",
+      "description": "",
+      "tags": [
+        "Granular",
+        "Reverb"
+      ]
+    }
+  ]
 }
