@@ -386,3 +386,6 @@
 [submodule "repos/vitamin"]
 	path = repos/vitamin
 	url = https://github.com/xaviershay/vitamin-vcv-modules.git
+[submodule "repos/Chiptuner"]
+	path = repos/Chiptuner
+	url = https://github.com/The-Great-Assyr/Chiptuner.git
