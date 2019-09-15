@@ -1,0 +1,24 @@
+{
+  "slug": "VCV-Prototype",
+  "name": "Prototype",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/VCVRack/VCV-Prototype/blob/master/README.md",
+  "sourceUrl": "https://github.com/VCVRack/VCV-Prototype",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Prototype",
+      "name": "Prototype",
+      "description": "Run scripting languages for prototyping, learning, and hacking",
+      "tags": [
+        "External"
+      ]
+    }
+  ]
+}
