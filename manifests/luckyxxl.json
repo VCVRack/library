@@ -1,10 +1,48 @@
 {
-  "name": "luckyxxl",
-  "author": "luckyxxl",
-  "license": "Zlib",
-  "manualUrl": "https://github.com/luckyxxl/vcv_luckyxxl/blob/v0.5.1/README.md",
-  "sourceUrl": "https://github.com/luckyxxl/vcv_luckyxxl",
-  "pluginUrl": "https://github.com/luckyxxl/vcv_luckyxxl/blob/v0.5.1/README.md",
   "slug": "luckyxxl",
-  "version": "0.6.0"
+  "name": "luckyxxl",
+  "version": "1.0.0",
+  "license": "Zlib",
+  "brand": "luckyxxl",
+  "author": "luckyxxl",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/luckyxxl/vcv_luckyxxl/blob/master/README.md",
+  "manualUrl": "https://github.com/luckyxxl/vcv_luckyxxl/blob/master/README.md",
+  "sourceUrl": "https://github.com/luckyxxl/vcv_luckyxxl",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Distribute2",
+      "name": "Distribute2",
+      "description": "",
+      "tags": [
+        "Multiple"
+      ]
+    },
+    {
+      "slug": "Distribute",
+      "name": "Distribute4",
+      "description": "",
+      "tags": [
+        "Multiple"
+      ]
+    },
+    {
+      "slug": "Quantize",
+      "name": "Quantize",
+      "description": "",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "Tick",
+      "name": "Tick",
+      "description": "",
+      "tags": [
+        "Clock"
+      ]
+    }
+  ]
 }

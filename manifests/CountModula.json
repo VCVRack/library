@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "license": "BSD-3-Clause",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -445,6 +445,62 @@
       "tags": [
         "Sequencer",
         "Expander"
+      ]
+    },
+    {
+      "slug": "StartupDelay",
+      "name": "Startup Delay",
+      "description": "Generates delayed start signals for sequencers on load or startup.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "RackEarLeft",
+      "name": "Left Hand Rack Ear",
+      "description": "A Left Hand Rack Ear",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "RackEarRight",
+      "name": "Right Hand Rack Ear",
+      "description": "A Right Hand Rack Ear",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank4HP",
+      "name": "Blank Panel - 4HP",
+      "description": "4HP blanking panel",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank8HP",
+      "name": "Blank Panel - 8HP",
+      "description": "8HP blank panel",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank12HP",
+      "name": "Blank Panel - 12HP",
+      "description": "12HP blank panel",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank16HP",
+      "name": "Blank Panel - 16HP",
+      "description": "16HP blank panel",
+      "tags": [
+        "Blank"
       ]
     }
   ]

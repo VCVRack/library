@@ -1,0 +1,103 @@
+{
+  "slug": "Chiptuner",
+  "name": "Chiptuner",
+  "author": "Andrea Grossi",
+  "brand": "TGA",
+  "license": "MIT",
+  "authorUrl": "https://github.com/The-Great-Assyr/Chiptuner",
+  "authorEmail": "andreagrossi.69@gmail.com",
+  "pluginUrl": "https://github.com/The-Great-Assyr/Chiptuner",
+  "sourceUrl": "https://github.com/The-Great-Assyr/Chiptuner",
+  "manualUrl": "https://github.com/The-Great-Assyr/Chiptuner/blob/master/README.md",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "slug": "Blank1HP",
+      "name": "Blank 1HP",
+      "description": "1 HP Blanking Plate",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank2HP",
+      "name": "Blank 2HP",
+      "description": "2 HP Blanking Plate",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank3HP",
+      "name": "Blank 3HP",
+      "description": "3 HP Blanking Plate",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank4HP",
+      "name": "Blank 4HP",
+      "description": "4 HP Blanking Plate",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank6HP",
+      "name": "Blank 6HP",
+      "description": "6 HP Blanking Plate",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank10HP",
+      "name": "Blank 10HP",
+      "description": "10 HP Blanking Plate",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank12HP",
+      "name": "Blank 12HP",
+      "description": "12 HP Blanking Plate",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank16HP",
+      "name": "Blank 16HP",
+      "description": "16 HP Blanking Plate",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank20HP",
+      "name": "Blank 20HP",
+      "description": "20 HP Blanking Plate",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank26HP",
+      "name": "Blank 26HP",
+      "description": "26 HP Blanking Plate",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank32HP",
+      "name": "Blank 32HP",
+      "description": "32 HP Blanking Plate",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
+}
