@@ -4,7 +4,6 @@ import sys
 
 RACK_SDK = os.path.abspath("Rack-SDK")
 STAGE_DIR = "stage"
-PACKAGE_DIR = "../packages"
 
 
 def system(cmd):
@@ -17,10 +16,6 @@ def system(cmd):
 def stage_package(plugin_dir):
 	system(f'mkdir -p {STAGE_DIR}')
 	system(f'mv {plugin_dir}/dist/*.zip {STAGE_DIR}/')
-
-
-def move_stage():
-	system(f'mv -vi {STAGE_DIR}/* {PACKAGE_DIR}/')
 
 
 def delete_stage():
