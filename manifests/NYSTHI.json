@@ -1,7 +1,7 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
@@ -1101,7 +1101,7 @@
       "disabled": false,
       "slug": "Simpliciter",
       "name": "Simpliciter",
-      "description": "sampler oscillator also known as confusingSimpler",
+      "description": "Sample oscillator also known as confusingSimpler",
       "tags": [
         "Recording",
         "Sampler",
@@ -1112,7 +1112,7 @@
       "disabled": false,
       "slug": "Pepper",
       "name": "Pepper",
-      "description": "Jooper companion for naming",
+      "description": "Notes module + Jooper companion",
       "tags": [
         "Utility"
       ]
@@ -1123,6 +1123,63 @@
       "name": "TheCage",
       "description": "Keyboard, Switch, Bridge, Sequencer, Quantizer with free comparators",
       "tags": [
+        "Quantizer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "Sussudio",
+      "name": "Sussudio",
+      "description": "Multi head sample based oscillator",
+      "tags": [
+        "Sampler",
+        "Quad",
+        "VCO"
+      ]
+    },
+    {
+      "slug": "LFOMultiPhase2",
+      "name": "LFOMultiPhase2",
+      "description": "LFO with 6 fixed phases and 1 variable, with precise frequency setting",
+      "tags": [
+        "LFO",
+        "VCO"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "MusicalBox",
+      "name": "MusicalBox",
+      "description": "Multi sampler with 8 oscillators",
+      "tags": [
+        "Sampler",
+        "Quad",
+        "VCO"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "MusicalBox2",
+      "name": "MusicalBox2",
+      "description": "Multi sampler with 16 oscillators",
+      "tags": [
+        "Sampler",
+        "Quad",
+        "VCO"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "GateTrigMerger",
+      "name": "GateTrigMerger",
+      "description": "GATE or TRIG mixer/merger, 4 times",
+      "tags": [
+        "Gate",
+        "Quad",
+        "LOGIC",
+        "ADSR",
         "Utility"
       ]
     }
