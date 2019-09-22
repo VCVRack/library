@@ -1,7 +1,7 @@
 {
   "slug": "Hora-Processors",
   "name": "Processors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "proprietary",
   "brand": "Hora",
   "author": "Hora",
@@ -43,6 +43,24 @@
       "tags": [
         "Effect",
         "Distortion"
+      ]
+    },
+    {
+      "slug": "Scheme",
+      "name": "Scheme",
+      "description": "Tube Drive",
+      "tags": [
+        "Effect",
+        "Overdrive"
+      ]
+    },
+    {
+      "slug": "Brigade",
+      "name": "Brigade",
+      "description": "Bucket Brigade Delay",
+      "tags": [
+        "Effect",
+        "Delay"
       ]
     }
   ]

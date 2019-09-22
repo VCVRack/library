@@ -1,7 +1,7 @@
 {
   "slug": "Hora-ProcessorsFree",
   "name": "Processors Free",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
@@ -35,6 +35,15 @@
       "tags": [
         "Effect",
         "Distortion"
+      ]
+    },
+    {
+      "slug": "Brigade",
+      "name": "Brigade",
+      "description": "Bucket Brigade Delay",
+      "tags": [
+        "Effect",
+        "Delay"
       ]
     }
   ]

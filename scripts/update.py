@@ -49,6 +49,7 @@ for plugin_filename in plugin_filenames:
 
 	# Get library manifest
 	slug = manifest['slug']
+	version = manifest['version']
 	library_manifest_filename = os.path.join(MANIFESTS_DIR, f"{slug}.json")
 
 	if os.path.isdir(plugin_filename):
@@ -56,7 +57,7 @@ for plugin_filename in plugin_filenames:
 		try:
 			with open(library_manifest_filename, "r") as f:
 				library_manifest = json.load(f)
-			if library_manifest and manifest['version'] == library_manifest['version']:
+			if library_manifest and version == library_manifest['version']:
 				continue
 		except IOError:
 			pass
