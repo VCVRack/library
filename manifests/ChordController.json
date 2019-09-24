@@ -1,0 +1,24 @@
+{
+  "slug": "ChordController",
+  "name": "Chord Controller",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "ym2612",
+  "author": "Trevor Wilson",
+  "authorEmail": "wilsontr@gmail.com",
+  "authorUrl": "https://github.com/wilsontr",
+  "pluginUrl": "https://github.com/wilsontr/ChordController",
+  "manualUrl": "https://github.com/wilsontr/ChordController",
+  "sourceUrl": "https://github.com/wilsontr/ChordController",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "ChordController",
+      "name": "Chord Controller",
+      "description": "Builds control voltages for a chord of up to six notes from one CV input",
+      "tags": [
+        "Utility"
+      ]
+    }
+  ]
+}

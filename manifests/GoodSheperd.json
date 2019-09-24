@@ -1,14 +1,14 @@
 {
   "slug": "GoodSheperd",
   "name": "GoodSheperd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "CC0-1.0",
   "brand": "GoodSheperd",
   "author": "Jens Schulze",
   "authorEmail": "",
   "authorUrl": "https://github.com/jensschulze",
   "pluginUrl": "https://github.com/jensschulze/GoodSheperd",
-  "manualUrl": "https://github.com/jensschulze/GoodSheperd/README.md",
+  "manualUrl": "https://github.com/jensschulze/GoodSheperd/blob/master/README.md",
   "sourceUrl": "https://github.com/jensschulze/GoodSheperd",
   "donateUrl": "",
   "modules": [
