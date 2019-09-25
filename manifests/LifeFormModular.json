@@ -1,0 +1,113 @@
+{
+  "slug": "LifeFormModular",
+  "name": "LifeFormModular",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "LifeFormModular",
+  "author": "Marc Dacunha",
+  "authorEmail": "marcdacunha@yahoo.fr",
+  "authorUrl": "https://timecontrolledorganism.bandcamp.com/",
+  "pluginUrl": "https://github.com/TimeControlledOrganism/LifeFormModular",
+  "manualUrl": "https://github.com/TimeControlledOrganism/LifeFormModular",
+  "sourceUrl": "https://github.com/TimeControlledOrganism/LifeFormModular",
+  "donateUrl": "https://timecontrolledorganism.bandcamp.com/",
+  "modules": [
+    {
+      "slug": "TimeDiktat",
+      "name": "TimeDiktat",
+      "description": "Clock Gen based on JW clock",
+      "tags": [
+        "Clock Generator"
+      ]
+    },
+    {
+      "slug": "SequenceModeler",
+      "name": "SequenceModeler",
+      "description": "Sequencer based on Fundamental SEQ3",
+      "tags": [
+        "Sequencer",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "PitchDiktat",
+      "name": "PitchDiktat",
+      "description": "Quantizer based on ML Quantum",
+      "tags": [
+        "Quantizer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "PitchIntegrator",
+      "name": "PitchIntegrator",
+      "description": "Sequential switch  based on ML switches, with sample and hold designed for pitch",
+      "tags": [
+        "Switch",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "BurstIntegrator",
+      "name": "BurstIntegrator",
+      "description": "Sequential switch based on ML switches, with trigger generator to add burst of trigs to yout patterns",
+      "tags": [
+        "Switch",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "QuadModulator",
+      "name": "QuadModulator",
+      "description": "Quad synced LFO with skew from ramp up to ramp down through sine plus dual unity mixer",
+      "tags": [
+        "LFO",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "ImpulseControl",
+      "name": "ImpulseControl",
+      "description": "Trigger sequencer based on Fundamental SEQ3",
+      "tags": [
+        "Sequencer",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "PercussiveVibration",
+      "name": "PercussiveVibration",
+      "description": "Synth voice based on 21Khz PalmLoop and Befaco Rampage mainly for drums",
+      "tags": [
+        "Synth voice",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "QuadUtility",
+      "name": "QuadUtility",
+      "description": "Sequencer based on Fundamental SEQ3",
+      "tags": [
+        "Sequencer",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "AdditiveVibration",
+      "name": "AdditiveVibration",
+      "description": "Additive/FM synth voice based on 21Khz PalmLoop and Befaco Rampage ",
+      "tags": [
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "QuadSteppedOffset",
+      "name": "QuadSteppedOffset",
+      "description": "Octave and semitone transposer",
+      "tags": [
+        "Utility",
+        "Quad"
+      ]
+    }
+  ]
+}

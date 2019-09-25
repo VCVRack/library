@@ -1,8 +1,8 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.4.0",
-  "license": "BSD-3-Clause",
+  "version": "1.4.2",
+  "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
   "authorEmail": "CountModula@gmail.com",
