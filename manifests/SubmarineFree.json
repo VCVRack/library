@@ -11,7 +11,7 @@
   "donateUrl": "https://www.paypal.me/SubmarineFree",
   "pluginUrl": "https://github.com/david-c14/SubmarineFree/blob/master/README.md",
   "changelogUrl": "https://github.com/david-c14/SubmarineFree/blob/master/changelog.md",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "modules": [
     {
       "slug": "AG-104",
@@ -389,9 +389,25 @@
       ]
     },
     {
+      "slug": "TD-316",
+      "name": "TD-316",
+      "description": "TD-316 Text Display",
+      "tags": [
+        "VISUAL"
+      ]
+    },
+    {
       "slug": "TF-101",
       "name": "TF-101",
       "description": "TF-101 Text Display Format Control",
+      "tags": [
+        "VISUAL"
+      ]
+    },
+    {
+      "slug": "TF-102",
+      "name": "TF-102",
+      "description": "TF-102 Text Display Format Control",
       "tags": [
         "VISUAL"
       ]
