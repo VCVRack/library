@@ -395,3 +395,6 @@
 [submodule "repos/stocaudio"]
 	path = repos/stocaudio
 	url = https://github.com/aptrn/stocaudio-modules.git
+[submodule "repos/LifeFormModular"]
+	path = repos/LifeFormModular
+	url = https://github.com/TimeControlledOrganism/LifeFormModular.git
