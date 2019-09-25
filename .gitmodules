@@ -392,3 +392,6 @@
 [submodule "repos/ChordController"]
 	path = repos/ChordController
 	url = https://github.com/wilsontr/ChordController.git
+[submodule "repos/stocaudio"]
+	path = repos/stocaudio
+	url = https://github.com/aptrn/stocaudio-modules.git
