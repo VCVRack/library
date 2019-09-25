@@ -1,7 +1,7 @@
 {
   "slug": "CharredDesert",
   "name": "CharredDesert",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "CC0-1.0",
   "author": "Jerry Sievert",
   "authorEmail": "rack@legitimatesounding.com",
@@ -10,6 +10,7 @@
   "manualUrl": "https://github.com/JerrySievert/CharredDesert/blob/master/docs/README.md",
   "sourceUrl": "https://github.com/JerrySievert/CharredDesert",
   "donateUrl": "https://paypal.me/JerrySievert",
+  "brand": "SV Modular",
   "modules": [
     {
       "slug": "DTMF",
@@ -117,6 +118,23 @@
       "description": "Mini 2 Channel Mixer",
       "tags": [
         "Mixer"
+      ]
+    },
+    {
+      "slug": "Tine",
+      "name": "Tine",
+      "description": "Voltage Based Splitter",
+      "tags": [
+        "Attenuator",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "K",
+      "name": "K",
+      "description": "K is for Compressor",
+      "tags": [
+        "Attenuator"
       ]
     }
   ]
