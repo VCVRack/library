@@ -1,8 +1,8 @@
 {
   "slug": "VCV-Prototype",
   "name": "Prototype",
-  "version": "1.1.0",
-  "license": "BSD-3-Clause",
+  "version": "1.1.1",
+  "license": "GPL-3.0-only",
   "brand": "VCV",
   "author": "VCV",
   "authorEmail": "contact@vcvrack.com",
@@ -16,7 +16,7 @@
     {
       "slug": "Prototype",
       "name": "Prototype",
-      "description": "Run scripting languages for prototyping, learning, and hacking",
+      "description": "Run scripting languages for prototyping, learning, and live coding.",
       "tags": [
         "External"
       ]
