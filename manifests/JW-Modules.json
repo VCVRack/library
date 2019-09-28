@@ -9,7 +9,7 @@
   "manualUrl": "https://github.com/jeremywen/JW-Modules#jw-modules",
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "modules": [
     {
       "slug": "BlankPanel_SM",
@@ -89,6 +89,14 @@
       "tags": [
         "Sequencer",
         "Poly"
+      ]
+    },
+    {
+      "slug": "Patterns",
+      "name": "Patterns",
+      "tags": [
+        "Sequencer",
+        "Clock Modulator"
       ]
     },
     {

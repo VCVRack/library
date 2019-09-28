@@ -1,15 +1,15 @@
 {
   "slug": "aridacity",
   "name": "aridacity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "BSD-3-Clause",
   "brand": "aridacity",
   "author": "aridacity",
   "authorEmail": "",
   "authorUrl": "https://cubeleco.blogspot.com",
-  "pluginUrl": "https://github.com/aridacity/aridacity",
+  "pluginUrl": "https://github.com/aridacity/aridacityVCV",
   "manualUrl": "",
-  "sourceUrl": "https://github.com/aridacity/aridacity",
+  "sourceUrl": "https://github.com/aridacity/aridacityVCV",
   "donateUrl": "",
   "modules": [
     {
@@ -36,7 +36,7 @@
     {
       "slug": "Clip",
       "name": "Clip Limiter",
-      "description": "Hard Limiter with inner and outer limits",
+      "description": "Hard limiter with inner and outer limits",
       "tags": [
         "Limiter",
         "Polyphonic"

@@ -1,0 +1,87 @@
+{
+  "slug": "stocaudio",
+  "name": "stocaudio",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "author": "Alessandro Petrone",
+  "authorEmail": "contact@stocaudio.com",
+  "authorUrl": "https://stocaudio.com",
+  "pluginUrl": "https://github.com/aptrn/stocaudio-modules",
+  "manualUrl": "https://github.com/aptrn/stocaudio-modules",
+  "sourceUrl": "https://github.com/aptrn/stocaudio-modules",
+  "donateUrl": "https://paypal.me/aptrn",
+  "modules": [
+    {
+      "slug": "Polyturing",
+      "name": "Polyturing",
+      "description": "Turing Machine inspired polyphonic sampler/sequencer",
+      "tags": [
+        "Random",
+        "Sequencer",
+        "Sampler",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Polydelay",
+      "name": "Polydelay",
+      "description": "Polyphonic Delay with channel spread",
+      "tags": [
+        "Delay",
+        "Effect",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Spread",
+      "name": "Spread",
+      "description": "Polyphonic stereo spreader and summer",
+      "tags": [
+        "VCA",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Clock",
+      "name": "Clock",
+      "description": "Clock multiplier/divider with swing",
+      "tags": [
+        "Utility",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Manseq",
+      "name": "Manseq",
+      "description": "Polyphonic button driven sequencer",
+      "tags": [
+        "Sequencer",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Btnseq",
+      "name": "Btnseq",
+      "description": "Polyphonic gate sequencer",
+      "tags": [
+        "Sequencer",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Polyslew",
+      "name": "Polyslew",
+      "description": "Polyphonic Slew Limiter",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
