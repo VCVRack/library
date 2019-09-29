@@ -1,12 +1,41 @@
 {
+  "slug": "unless_modules",
   "name": "unless modules",
   "author": "unless games",
-  "license": "BSD-3-Clause",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
   "authorEmail": "unlessgames@gmail.com",
-  "pluginUrl": "https://gitlab.com/unlessgames/unless_modules",
-  "authorUrl": "http://unlessgames.com",
-  "manualUrl": "https://gitlab.com/unlessgames/unless_modules/blob/master/README.md",
-  "sourceUrl": "https://gitlab.com/unlessgames/unless_modules",
-  "slug": "unless_modules",
-  "version": "0.6.2"
+  "pluginUrl": "http://gitlab.com/unlessgames/unless_modules",
+  "authorUrl": "http://unlessgames.com/",
+  "sourceUrl": "http://gitlab.com/unlessgames/unless_modules",
+  "modules": [
+    {
+      "slug": "markov",
+      "name": "mr. chainkov",
+      "description": "markov-chain melody generator",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "piong",
+      "name": "piong",
+      "description": "arcade modulator",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "atoms",
+      "name": "atoms",
+      "description": "adjustable rotating octa-multi-switch",
+      "tags": [
+        "Switch",
+        "Mixer",
+        "Utility"
+      ]
+    }
+  ]
 }
