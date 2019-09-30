@@ -1,7 +1,7 @@
 {
   "slug": "LifeFormModular",
   "name": "LifeFormModular",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "brand": "LifeFormModular",
   "author": "Marc Dacunha",
@@ -86,9 +86,9 @@
     {
       "slug": "QuadUtility",
       "name": "QuadUtility",
-      "description": "Sequencer based on Fundamental SEQ3",
+      "description": "4 scalers 4 adders and 4 VCAs",
       "tags": [
-        "Sequencer",
+        "Utility",
         "Dual"
       ]
     },
