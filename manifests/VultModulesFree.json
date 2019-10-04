@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.4.0",
+  "version": "1.3.0",
   "modules": [
     {
       "slug": "Basal",
@@ -223,14 +223,6 @@
         "Polyphonic"
       ],
       "description": "Complex Analog Oscillator"
-    },
-    {
-      "slug": "Vultari",
-      "name": "Vultari",
-      "tags": [
-        "VCO"
-      ],
-      "description": "Punk Console"
     },
     {
       "slug": "BlackPanelSmall",
