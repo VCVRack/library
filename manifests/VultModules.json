@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "modules": [
     {
       "slug": "Basal",
@@ -302,6 +302,14 @@
         "Polyphonic"
       ],
       "description": "Russian Filter"
+    },
+    {
+      "slug": "Vultari",
+      "name": "Vultari",
+      "tags": [
+        "VCO"
+      ],
+      "description": "Punk Console"
     },
     {
       "slug": "BlackPanelSmall",
