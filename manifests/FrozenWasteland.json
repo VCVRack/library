@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.9.5",
+  "version": "1.9.7",
   "author": "almostEric",
   "license": "CC0-1.0",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -149,7 +149,8 @@
       "name": "QAR - Probability",
       "description": "Add Randomness to QAR Rhythms",
       "tags": [
-        "Expander"
+        "Expander",
+        "Random"
       ]
     },
     {
@@ -173,6 +174,24 @@
       "name": "Seeds Of Change",
       "description": "Repeatable Random Number Generator",
       "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "SeedsOfChangeCVExpander",
+      "name": "Seeds Of Change - CV Expander",
+      "description": "Additional CV Outs for SoC",
+      "tags": [
+        "Expander",
+        "Random"
+      ]
+    },
+    {
+      "slug": "SeedsOfChangeGateExpander",
+      "name": "Seeds Of Change - Gate Expander",
+      "description": "Additional Gates for SoC",
+      "tags": [
+        "Expander",
         "Random"
       ]
     },

@@ -1,0 +1,26 @@
+{
+  "slug": "TercerBrazo",
+  "name": "TercerBrazo",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "TercerBrazo",
+  "author": "Diego Dorado",
+  "authorEmail": "diegodorado@gmail.com",
+  "authorUrl": "https://diegodorado.com",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/diegodorado/TercerBrazo",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "TercerBrazo-CV2612",
+      "name": "CV2612",
+      "description": "Sega Genesis chip based synth",
+      "tags": [
+        "MIDI",
+        "VCO",
+        "Poly"
+      ]
+    }
+  ]
+}

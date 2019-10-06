@@ -1,7 +1,7 @@
 {
   "slug": "RJModules",
   "name": "RJModules",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "brand": "RJModules",
   "author": "Rich Jones",
@@ -351,6 +351,24 @@
       "description": "A 1v/oct key tracking filter.",
       "tags": [
         "VCF"
+      ]
+    },
+    {
+      "slug": "TriggerSwitch",
+      "name": "TriggerSwitch - Trigger Activated Gate Switch With Button",
+      "description": "Trigger Activated Gate Switch With Button.",
+      "tags": [
+        "Controller",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "DryWet",
+      "name": "DryWet - Voltage Controlled Dry Wet Knob",
+      "description": "Voltage Controlled Dry Wet Knob",
+      "tags": [
+        "Controller",
+        "Effect"
       ]
     }
   ]
