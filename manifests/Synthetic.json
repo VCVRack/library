@@ -2,7 +2,7 @@
   "slug": "Synthetic",
   "name": "Synthetic",
   "brand": "SV Modular",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "Proprietary",
   "author": "SV Modular",
   "authorEmail": "svmodular@legitimatesounding.com",
@@ -34,6 +34,14 @@
       "description": "PAD Algorithm Based Synthesizer",
       "tags": [
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "Alchemy",
+      "name": "Alchemy",
+      "description": "Alchemy Polyphonic Synth",
+      "tags": [
+        "Synth voice"
       ]
     }
   ]
