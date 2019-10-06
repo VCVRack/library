@@ -398,3 +398,6 @@
 [submodule "repos/LifeFormModular"]
 	path = repos/LifeFormModular
 	url = https://github.com/TimeControlledOrganism/LifeFormModular.git
+[submodule "repos/TercerBrazo"]
+	path = repos/TercerBrazo
+	url = https://github.com/diegodorado/TercerBrazo.git
