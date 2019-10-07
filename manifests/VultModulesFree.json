@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "modules": [
     {
       "slug": "Basal",
@@ -27,6 +27,15 @@
         "Polyphonic"
       ],
       "description": "Analog Oscillator"
+    },
+    {
+      "slug": "Boomstick",
+      "name": "Boomstick",
+      "tags": [
+        "VCF",
+        "Polyphonic"
+      ],
+      "description": "Sallen-Key filter"
     },
     {
       "slug": "Caudal",
@@ -228,7 +237,8 @@
       "slug": "Vultari",
       "name": "Vultari",
       "tags": [
-        "VCO"
+        "VCO",
+        "Polyphonic"
       ],
       "description": "Punk Console"
     },
