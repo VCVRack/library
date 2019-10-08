@@ -33,10 +33,6 @@
 	path = repos/HetrickCV
 	url = https://github.com/mhetrick/hetrickcv
 	branch = master
-[submodule "repos/LindenbergResearch"]
-	path = repos/LindenbergResearch
-	url = https://github.com/lindenbergresearch/LRTRack
-	branch = master
 [submodule "repos/ML_modules"]
 	path = repos/ML_modules
 	url = https://github.com/martin-lueders/ML_modules
