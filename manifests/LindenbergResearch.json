@@ -1,8 +1,8 @@
 {
   "slug": "LindenbergResearch",
   "name": "LindenbergResearch",
-  "version": "1.0.0",
-  "license": "CC0-1.0",
+  "version": "1.1.0",
+  "license": "proprietary",
   "author": "Lindenberg Research",
   "authorEmail": "heapdump@icloud.com",
   "authorUrl": "https://github.com/lindenbergresearch",
@@ -113,6 +113,15 @@
       "tags": [
         "MIXER",
         "VCA"
+      ]
+    },
+    {
+      "slug": "Sangster",
+      "name": "Sangster BBD Analog Delay",
+      "description": "Voltage controlled BBD Analog time repeater",
+      "tags": [
+        "DELAY",
+        "EFFECT"
       ]
     }
   ]
