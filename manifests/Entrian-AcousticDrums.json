@@ -1,0 +1,33 @@
+{
+  "slug": "Entrian-AcousticDrums",
+  "name": "Entrian Acoustic Drums",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Entrian Solutions Ltd",
+  "brand": "Entrian",
+  "authorEmail": "support@entrian.com",
+  "authorUrl": "http://entrian.com/audio/",
+  "pluginUrl": "http://entrian.com/audio/entrian-acoustic-drums.html",
+  "manualUrl": "http://entrian.com/audio/entrian-acoustic-drums.html",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "AcousticDrums",
+      "name": "Acoustic Drums",
+      "description": "Real acoustic drums, sampled with multiple round-robin samples in multiple velocity layers.",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Drummer",
+      "name": "Drummer",
+      "description": "Trigger sequencer for expressive drum grooves.",
+      "tags": [
+        "Drum",
+        "Sequencer"
+      ]
+    }
+  ]
+}
