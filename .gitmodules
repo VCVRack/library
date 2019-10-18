@@ -397,3 +397,6 @@
 [submodule "repos/TercerBrazo"]
 	path = repos/TercerBrazo
 	url = https://github.com/diegodorado/TercerBrazo.git
+[submodule "repos/Nozoid"]
+	path = repos/Nozoid
+	url = https://github.com/ch-nry/VCV_nozori.git
