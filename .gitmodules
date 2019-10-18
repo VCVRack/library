@@ -400,3 +400,6 @@
 [submodule "repos/Nozoid"]
 	path = repos/Nozoid
 	url = https://github.com/ch-nry/VCV_nozori.git
+[submodule "repos/TinyTricks"]
+	path = repos/TinyTricks
+	url = https://github.com/thomassidor/tinytricks.git
