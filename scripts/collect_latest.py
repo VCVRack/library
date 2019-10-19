@@ -18,14 +18,14 @@ for manifest_filename in glob.glob('manifests/*.json'):
 	with open(manifest_filename, "r") as f:
 		manifest = json.load(f)
 
-	if 'version' not in manifest:
-		continue
+	if "authorEmail" in manifest:
+		print(manifest["authorEmail"])
 
-	version = manifest['version']
-	arch = 'win'
-	package_filename = os.path.join(PACKAGES_DIR, f"{slug}-{version}-{arch}.zip")
+	# version = manifest['version']
+	# arch = 'win'
+	# package_filename = os.path.join(PACKAGES_DIR, f"{slug}-{version}-{arch}.zip")
 
-	try:
-		system(f'cp {package_filename} {DOWNLOADS_DIR}')
-	except Exception as e:
-		print(e)
+	# try:
+	# 	system(f'cp {package_filename} {DOWNLOADS_DIR}')
+	# except Exception as e:
+	# 	print(e)
