@@ -1,15 +1,14 @@
 {
   "slug": "CharredDesert",
   "name": "CharredDesert",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "CC0-1.0",
   "author": "Jerry Sievert",
-  "authorEmail": "rack@legitimatesounding.com",
-  "authorUrl": "https://legitimatesounding.com/",
-  "pluginUrl": "https://github.com/JerrySievert/CharredDesert",
-  "manualUrl": "https://github.com/JerrySievert/CharredDesert/blob/master/docs/README.md",
+  "authorEmail": "svmodular@legitimatesounding.com",
+  "authorUrl": "https://legitimatesounding.com/sv-modular/",
+  "pluginUrl": "https://legitimatesounding.com/sv-modular/charred-desert/index.html",
+  "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/index.html",
   "sourceUrl": "https://github.com/JerrySievert/CharredDesert",
-  "donateUrl": "https://paypal.me/JerrySievert",
   "brand": "SV Modular",
   "modules": [
     {
@@ -135,6 +134,14 @@
       "description": "K is for Compressor",
       "tags": [
         "Attenuator"
+      ]
+    },
+    {
+      "slug": "X",
+      "name": "X",
+      "description": "Audio Exciter",
+      "tags": [
+        "Effect"
       ]
     }
   ]

@@ -1,14 +1,14 @@
 {
   "slug": "GlueTheGiant",
   "name": "Glue the Giant",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "GPL-3.0-or-later",
   "brand": "Glue the Giant",
   "author": "Paul Merchant",
   "authorEmail": "prmerchant@gmail.com",
   "authorUrl": "https://github.com/gluethegiant",
-  "pluginUrl": "https://github.com/gluethegiant/gtg-rack",
-  "manualUrl": "https://github.com/gluethegiant/gtg-rack/blob/master/README.md",
+  "pluginUrl": "https://github.com/gluethegiant/gtg-rack/blob/master/README.md",
+  "manualUrl": "https://github.com/gluethegiant/gtg-rack/wiki",
   "sourceUrl": "https://github.com/gluethegiant/gtg-rack",
   "donateUrl": "",
   "modules": [
@@ -62,7 +62,7 @@
     {
       "slug": "EnterBus",
       "name": "Enter Mixer Bus",
-      "description": "Three stereo inputs to bus",
+      "description": "Three stereo inputs to buses",
       "tags": [
         "Utility"
       ]
@@ -70,15 +70,24 @@
     {
       "slug": "ExitBus",
       "name": "Exit Mixer Bus",
-      "description": "Three stereo outputs from bus",
+      "description": "Three stereo outputs from buses",
       "tags": [
         "Utility"
       ]
     },
     {
+      "slug": "Road",
+      "name": "Road",
+      "description": "Merges buses from mix groups to a master bus",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "BusDepot",
       "name": "Bus Depot",
-      "description": "Sums three stereo buses",
+      "description": "Master fader, vu meters, and mix output for three stereo buses",
       "tags": [
         "Mixer",
         "Visual",

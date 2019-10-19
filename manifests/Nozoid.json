@@ -1,0 +1,155 @@
+{
+  "slug": "Nozoid",
+  "name": "Nozoid",
+  "version": "1.0.3",
+  "license": "GPL-3.0-or-later",
+  "brand": "nozo\u00efd",
+  "author": "Cyrille Henry",
+  "authorEmail": "vcv@nozoid.com",
+  "authorUrl": "https://nozoid.com",
+  "pluginUrl": "https://nozoid.com/nozori",
+  "manualUrl": "https://nozoid.com/nozori",
+  "sourceUrl": "https://github.com/ch-nry/VCV_nozori",
+  "donateUrl": "https://www.paypal.me/chnry",
+  "changelogUrl": "https://github.com/ch-nry/VCV_nozori/blob/master/changelog.md",
+  "modules": [
+    {
+      "slug": "Nozori_68_ADSR",
+      "name": "Nozori_68_ADSR",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_AR",
+      "name": "Nozori_68_AR",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_CRUSH",
+      "name": "Nozori_68_CRUSH",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_CV_REC",
+      "name": "Nozori_68_CV_REC",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_DELAY",
+      "name": "Nozori_68_DELAY",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_EQ",
+      "name": "Nozori_68_EQ",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_GRAN",
+      "name": "Nozori_68_GRAN",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_KS",
+      "name": "Nozori_68_KS",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_LFO",
+      "name": "Nozori_68_LFO",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_LFO_MOD",
+      "name": "Nozori_68_LFO_MOD",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_NOISE",
+      "name": "Nozori_68_NOISE",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_PITCH",
+      "name": "Nozori_68_PITCH",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_RND_LOOP",
+      "name": "Nozori_68_RND_LOOP",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_SIN_MOD",
+      "name": "Nozori_68_SIN_MOD",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_VCA_PAN",
+      "name": "Nozori_68_VCA_PAN",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_VCF_MOD",
+      "name": "Nozori_68_VCF_MOD",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_VCF_MORPH",
+      "name": "Nozori_68_VCF_MORPH",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_VCO",
+      "name": "Nozori_68_VCO",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_VCO_LOOP",
+      "name": "Nozori_68_VCO_LOOP",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_VCO_MORPH",
+      "name": "Nozori_68_VCO_MORPH",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_VCO_QTZ",
+      "name": "Nozori_68_VCO_QTZ",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_VCO_WS",
+      "name": "Nozori_68_VCO_WS",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_68_WS",
+      "name": "Nozori_68_WS",
+      "description": "",
+      "tags": []
+    }
+  ]
+}

@@ -1,11 +1,73 @@
 {
-  "name": "alto777 LFSR",
-  "author": "Robert A Moeser",
-  "authorEmail": "ram32768@gmail.com",
-  "license": "BSD-3-Clause",
-  "sourceUrl": "https://github.com/alto777/LFSR",
-  "manualUrl": "https://github.com/alto777/LFSR/blob/master/README.md",
-  "pluginUrl": "https://github.com/alto777/LFSR/blob/master/README.md",
   "slug": "alto777_LFSR",
-  "version": "0.6.21"
+  "name": "LFSR",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "alto777_LFSR",
+  "author": "alto777_LFSR",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/alto777/LFSR",
+  "manualUrl": "https://github.com/alto777/LFSR/blob/master/README.md",
+  "sourceUrl": "https://github.com/alto777/LFSR.git",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "a7Utility",
+      "name": "a7Utility VIS",
+      "description": "",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Amuse",
+      "name": "Amuse",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "cheapFX",
+      "name": "Cheap F/X",
+      "description": "",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "Divada",
+      "name": "Divada VIS",
+      "description": "",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "FG8",
+      "name": "FG-8",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Psychtone",
+      "name": "Psych tone",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "YASeq3",
+      "name": "Yet Another SEQ3",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
 }
