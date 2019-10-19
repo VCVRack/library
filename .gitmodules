@@ -406,3 +406,6 @@
 [submodule "repos/JE"]
 	path = repos/JE
 	url = https://github.com/eres-j/VCVRack-plugin-JE.git
+[submodule "repos/LittleUtils"]
+	path = repos/LittleUtils
+	url = https://github.com/mgunyho/Little-Utils.git
