@@ -403,3 +403,6 @@
 [submodule "repos/TinyTricks"]
 	path = repos/TinyTricks
 	url = https://github.com/thomassidor/tinytricks.git
+[submodule "repos/JE"]
+	path = repos/JE
+	url = https://github.com/eres-j/VCVRack-plugin-JE.git
