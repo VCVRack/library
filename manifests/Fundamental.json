@@ -1,7 +1,7 @@
 {
   "slug": "Fundamental",
-  "version": "1.2.1",
-  "license": "BSD-3-Clause",
+  "version": "1.3.0",
+  "license": "GPL-3.0-only",
   "name": "Fundamental",
   "brand": "VCV",
   "author": "VCV",
@@ -176,6 +176,15 @@
       ]
     },
     {
+      "slug": "Quantizer",
+      "name": "Quantizer",
+      "description": "12-note quantizer and scale selector",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Split",
       "name": "Split",
       "description": "Splits a polyphonic cable into multiple monophonic cables",
@@ -221,12 +230,20 @@
       ]
     },
     {
-      "slug": "Quantizer",
-      "name": "Quantizer",
-      "description": "12-note quantizer and scale selector",
+      "slug": "Noise",
+      "name": "Noise",
+      "description": "Multicolored noise generator",
       "tags": [
-        "Quantizer",
-        "Polyphonic"
+        "Noise"
+      ]
+    },
+    {
+      "slug": "Random",
+      "name": "Random",
+      "description": "Random CV generator",
+      "tags": [
+        "Random",
+        "Sample and hold"
       ]
     }
   ]
