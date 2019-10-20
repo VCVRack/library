@@ -1,10 +1,10 @@
 {
   "slug": "TinyTricks",
-  "name": "Tiny Trick Modules",
+  "name": "Tiny Tricks",
   "brand": "Tiny Tricks",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
-  "author": "Thomas Ren\u00c3\u00a9 Sidor",
+  "author": "Thomas Ren\u00e9 Sidor",
   "authorEmail": "mail@thomassidor.com",
   "authorUrl": "https://thomassidor.com",
   "pluginUrl": "https://github.com/thomassidor/tinytricks",
@@ -83,7 +83,7 @@
     },
     {
       "slug": "TT-A",
-      "name": "Tiny Tricks Arithmetic",
+      "name": "Arithmetic",
       "description": "A bunch of arithmetic tricks on two inputs.",
       "tags": [
         "utility"
@@ -91,7 +91,7 @@
     },
     {
       "slug": "TT-L",
-      "name": "Tiny Tricks Logic",
+      "name": "Logic",
       "description": "A bunch of logic tricks on two inputs.",
       "tags": [
         "utility",
@@ -100,7 +100,7 @@
     },
     {
       "slug": "TTSIN",
-      "name": "Tiny Tricks Sine Oscillator",
+      "name": "Sine Oscillator",
       "description": "A tiny sine based oscillator.",
       "tags": [
         "oscillator"
@@ -108,7 +108,7 @@
     },
     {
       "slug": "TTSAW",
-      "name": "Tiny Tricks Saw Oscillator",
+      "name": "Saw Oscillator",
       "description": "A tiny saw based oscillator.",
       "tags": [
         "oscillator"
@@ -116,7 +116,7 @@
     },
     {
       "slug": "TTSQR",
-      "name": "Tiny Tricks Square Oscillator",
+      "name": "Square Oscillator",
       "description": "A tiny square based oscillator.",
       "tags": [
         "oscillator"
@@ -124,7 +124,7 @@
     },
     {
       "slug": "TTTRI",
-      "name": "Tiny Tricks Triangle Oscillator",
+      "name": "Triangle Oscillator",
       "description": "A tiny triangle based oscillator.",
       "tags": [
         "oscillator"
@@ -132,7 +132,7 @@
     },
     {
       "slug": "TTSINPLUS",
-      "name": "Tiny Tricks Sine+ Oscillator",
+      "name": "Sine+ Oscillator",
       "description": "Three sine based oscillators with detune and sync.",
       "tags": [
         "oscillator"
@@ -140,7 +140,7 @@
     },
     {
       "slug": "TTSAWPLUS",
-      "name": "Tiny Tricks Sawtooth+ Oscillator",
+      "name": "Sawtooth+ Oscillator",
       "description": "Three sawtooth based oscillators with detune and sync.",
       "tags": [
         "oscillator"
@@ -148,7 +148,7 @@
     },
     {
       "slug": "TTSQRPLUS",
-      "name": "Tiny Tricks Square+ Oscillator",
+      "name": "Square+ Oscillator",
       "description": "Three square based oscillators with detune and sync.",
       "tags": [
         "oscillator"
@@ -156,7 +156,7 @@
     },
     {
       "slug": "TTTRIPLUS",
-      "name": "Tiny Tricks Triangle+ Oscillator",
+      "name": "Triangle+ Oscillator",
       "description": "Three triangle based oscillators with detune and sync.",
       "tags": [
         "oscillator"
