@@ -1,0 +1,37 @@
+{
+  "slug": "PdArray",
+  "name": "PdArray",
+  "version": "1.0.1",
+  "license": "MIT",
+  "brand": "",
+  "author": "M\u00e1rton Gunyh\u00f3",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/mgunyho/PdArray",
+  "manualUrl": "https://github.com/mgunyho/PdArray",
+  "sourceUrl": "https://github.com/mgunyho/PdArray",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Array",
+      "name": "Array",
+      "description": "Draw or record sequences, envelopes or audio",
+      "tags": [
+        "envelope generator",
+        "function generator",
+        "sampler",
+        "visual",
+        "waveshaper"
+      ]
+    },
+    {
+      "slug": "Miniramp",
+      "name": "Miniramp",
+      "description": "Generate a ramp from 0V to 10V with a given duration",
+      "tags": [
+        "envelope generator",
+        "utility"
+      ]
+    }
+  ]
+}
