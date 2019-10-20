@@ -1,0 +1,70 @@
+{
+  "slug": "LittleUtils",
+  "name": "Little Utils",
+  "version": "1.0.1",
+  "license": "MIT",
+  "brand": "",
+  "author": "M\u00e1rton Gunyh\u00f3",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/mgunyho/Little-Utils",
+  "manualUrl": "https://github.com/mgunyho/Little-Utils",
+  "sourceUrl": "https://github.com/mgunyho/Little-Utils",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Button",
+      "name": "Button",
+      "description": "",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "BiasSemitone",
+      "name": "Bias/Semitone",
+      "description": "",
+      "tags": [
+        "utility",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "MultiplyDivide",
+      "name": "Multiply/Divide",
+      "description": "",
+      "tags": [
+        "utility",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "PulseGenerator",
+      "name": "Pulse Generator",
+      "description": "Generate rectangular pulses with a given duration",
+      "tags": [
+        "utility",
+        "envelope generator",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "TeleportIn",
+      "name": "Teleport In",
+      "description": "",
+      "tags": [
+        "utility",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "TeleportOut",
+      "name": "Teleport Out",
+      "description": "",
+      "tags": [
+        "utility",
+        "polyphonic"
+      ]
+    }
+  ]
+}

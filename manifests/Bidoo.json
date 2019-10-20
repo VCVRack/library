@@ -1,7 +1,7 @@
 {
   "slug": "Bidoo",
-  "version": "1.0.10",
-  "license": "BSD-3-Clause",
+  "version": "1.0.11",
+  "license": "GPLv3",
   "name": "Bidoo",
   "brand": "Bidoo",
   "author": "Bidoo",
@@ -314,6 +314,15 @@
       "description": "Sequencer",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "BAFIS",
+      "name": "bAFIs",
+      "description": "Multiband distortion",
+      "tags": [
+        "Effect",
+        "Distortion"
       ]
     }
   ]

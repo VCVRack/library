@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -21,7 +21,8 @@
         "Utility",
         "Polyphonic",
         "Controller"
-      ]
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/CVMap.md"
     },
     {
       "slug": "CVMapMicro",
@@ -30,7 +31,8 @@
       "tags": [
         "Utility",
         "Controller"
-      ]
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/CVMapMicro.md"
     },
     {
       "slug": "CVPam",
@@ -40,7 +42,8 @@
         "Utility",
         "Polyphonic",
         "Controller"
-      ]
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/CVPam.md"
     },
     {
       "slug": "RotorA",
@@ -49,7 +52,8 @@
       "tags": [
         "Utility",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/RotorA.md"
     },
     {
       "slug": "ReMoveLite",
@@ -59,7 +63,8 @@
         "Utility",
         "Recording",
         "Controller"
-      ]
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/ReMove.md"
     },
     {
       "slug": "Bolt",
@@ -70,7 +75,8 @@
         "Logic",
         "Polyphonic",
         "Sample and hold"
-      ]
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Bolt.md"
     },
     {
       "slug": "Infix",
@@ -79,31 +85,70 @@
       "tags": [
         "Utility",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Infix.md"
     },
     {
       "slug": "Strip",
       "name": "STRIP",
-      "description": "Manage a group of modules by using the expander-mechanism, providing load and save functionality",
+      "description": "Manage a group of modules by using the expander-mechanism, providing load, save, copy, paste, disable, enable and randomize",
       "tags": [
-        "Utility"
-      ]
+        "Utility",
+        "Controller",
+        "Random"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Strip.md"
     },
     {
       "slug": "EightFace",
       "name": "8FACE",
       "description": "Universal expander for sequencing up to eight presets of any module",
       "tags": [
-        "Utility"
-      ]
+        "Utility",
+        "Sequencer"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/EightFace.md"
     },
     {
       "slug": "MidiCat",
       "name": "MIDI-CAT",
-      "description": "Mapping module for midi CCs and notes to parameters of any module, similar to MIDI-MAP",
+      "description": "Mapping module for MIDI CCs and notes to parameters of any module, similar to VCV MIDI-MAP",
       "tags": [
         "Utility",
         "MIDI"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiCat.md"
+    },
+    {
+      "slug": "Sipo",
+      "name": "SIPO",
+      "description": "Serial-in parallel-out shift register with polyphonic output and CV controls for skipping and incrementing on sampled values",
+      "tags": [
+        "Utility",
+        "Sample and hold",
+        "Digital",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Sipo.md"
+    },
+    {
+      "slug": "FourRounds",
+      "name": "4ROUNDS",
+      "description": "Randomizer for up to 16 input signals to create 15 output signals",
+      "tags": [
+        "Utility",
+        "Sample and hold",
+        "Random",
+        "Switch"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/FourRounds.md"
+    },
+    {
+      "slug": "AudioInterface64",
+      "name": "AUDIO-64",
+      "description": "Sends CV and audio to/from an audio device",
+      "tags": [
+        "External"
       ]
     }
   ]

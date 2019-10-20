@@ -1,7 +1,7 @@
 {
   "slug": "RJModules",
   "name": "RJModules",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "license": "MIT",
   "brand": "RJModules",
   "author": "Rich Jones",
@@ -369,6 +369,33 @@
       "tags": [
         "Controller",
         "Effect"
+      ]
+    },
+    {
+      "slug": "MutateSeq",
+      "name": "MutateSeq - MutateSeq - Mutating Sequencer",
+      "description": "MutateSeq - Mutating Sequencer",
+      "tags": [
+        "Utility",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Notes",
+      "name": "Notes",
+      "description": "Static Notes - Polyphonic",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sequential",
+      "name": "Sequential Switch - 8 to 1",
+      "description": "Gate-triggered Sequential Switch",
+      "tags": [
+        "Utility",
+        "Sequencer"
       ]
     }
   ]
