@@ -1,12 +1,12 @@
 {
   "slug": "LindenbergResearch",
   "name": "LindenbergResearch",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "proprietary",
   "author": "Lindenberg Research",
   "authorEmail": "heapdump@icloud.com",
   "authorUrl": "https://github.com/lindenbergresearch",
-  "sourceUrl": "https://github.com/lindenbergresearch/LRTRack",
+  "sourceUrl": "",
   "donateUrl": "https://paypal.me/heapdump",
   "modules": [
     {
@@ -21,6 +21,14 @@
       "slug": "TYPE35_VCF",
       "name": "Vampyr type35 VCF",
       "description": "Sallen-Key type dual filter: Lowpass: 12dB/oct Highpass: 6dB/oct",
+      "tags": [
+        "FILTER"
+      ]
+    },
+    {
+      "slug": "Neo",
+      "name": "Neo Filter",
+      "description": "Neo distortion filter",
       "tags": [
         "FILTER"
       ]
@@ -80,6 +88,14 @@
       "tags": [
         "BLANK",
         "MULTIPLE"
+      ]
+    },
+    {
+      "slug": "PolyStereo",
+      "name": "Stereo via polyphonic tool",
+      "description": "Converts a stereo signal to poly and vice versa",
+      "tags": [
+        "TOOL"
       ]
     },
     {
