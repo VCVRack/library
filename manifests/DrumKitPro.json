@@ -1,0 +1,86 @@
+{
+  "slug": "DrumKitPro",
+  "name": "DrumKit Pro",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Jerry Sievert",
+  "brand": "SV Modular",
+  "authorEmail": "rack@legitimatesounding.com",
+  "authorUrl": "https://legitimatesounding.com/sv-modular",
+  "pluginUrl": "https://legitimatesounding.com/sv-modular/drumkitpro/index/html",
+  "manualUrl": "https://legitimatesounding.com/sv-modular/drumkitpro/index.html",
+  "modules": [
+    {
+      "slug": "Kick",
+      "name": "Kick+",
+      "description": "DrumKit Pro Kick+",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Snare",
+      "name": "Snare+",
+      "description": "DrumKit Pro Snare+",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "HiHat",
+      "name": "HiHat+",
+      "description": "DrumKit Pro HiHat+",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Tom",
+      "name": "Tom+",
+      "description": "DrumKit Pro Tom+",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "EDrum",
+      "name": "E-Drum",
+      "description": "DrumKit Pro E-Drum",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "MarionetteBass",
+      "name": "Marionette Bass+",
+      "description": "DrumKit Pro Marionette Bass+",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Bomb",
+      "name": "Marionette Boom",
+      "description": "DrumKit Pro Boom Drum Synthesizer",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Shp",
+      "name": "Shp",
+      "description": "Envelope Shaper",
+      "tags": [
+        "Envelope"
+      ]
+    },
+    {
+      "slug": "Baronial",
+      "name": "Baronial+",
+      "description": "DrumKit Pro Baronial+ Envelope Generator",
+      "tags": [
+        "Envelope"
+      ]
+    }
+  ]
+}
