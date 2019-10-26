@@ -1,13 +1,13 @@
 {
   "slug": "DrumKitPro",
   "name": "DrumKit Pro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "proprietary",
   "author": "Jerry Sievert",
   "brand": "SV Modular",
   "authorEmail": "rack@legitimatesounding.com",
   "authorUrl": "https://legitimatesounding.com/sv-modular",
-  "pluginUrl": "https://legitimatesounding.com/sv-modular/drumkitpro/index/html",
+  "pluginUrl": "https://legitimatesounding.com/sv-modular/drumkitpro/index.html",
   "manualUrl": "https://legitimatesounding.com/sv-modular/drumkitpro/index.html",
   "modules": [
     {
