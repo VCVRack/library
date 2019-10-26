@@ -2,7 +2,7 @@
   "slug": "TinyTricks",
   "name": "Tiny Tricks",
   "brand": "Tiny Tricks",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "license": "MIT",
   "author": "Thomas Ren\u00e9 Sidor",
   "authorEmail": "mail@thomassidor.com",
@@ -160,6 +160,34 @@
       "description": "Three triangle based oscillators with detune and sync.",
       "tags": [
         "oscillator"
+      ]
+    },
+    {
+      "slug": "RX8",
+      "name": "Random Mix x8",
+      "description": "Randomly mix 8 channels.",
+      "tags": [
+        "switch",
+        "random",
+        "utility"
+      ]
+    },
+    {
+      "slug": "SN1",
+      "name": "Simplex Noise LFO",
+      "description": "Low-frequency oscillator based on simplex noise.",
+      "tags": [
+        "low-frequency oscillator",
+        "random"
+      ]
+    },
+    {
+      "slug": "SN8",
+      "name": "Simplex Noise LFO x8",
+      "description": "8x Low-frequency oscillators based on simplex noise.",
+      "tags": [
+        "low-frequency oscillator",
+        "random"
       ]
     }
   ]
