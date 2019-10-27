@@ -421,3 +421,6 @@
 [submodule "repos/MindMeldModular"]
 	path = repos/MindMeldModular
 	url = https://github.com/MarcBoule/MindMeldModular.git
+[submodule "repos/RacketScience"]
+	path = repos/RacketScience
+	url = https://github.com/ContemporaryInsanity/RacketScience.git
