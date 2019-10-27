@@ -1,0 +1,26 @@
+{
+  "slug": "kocmoc",
+  "name": "kocmoc",
+  "version": "1.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "kocmoc",
+  "author": "janne808",
+  "authorEmail": "janne808@radiofreerobotron.net",
+  "authorUrl": "https://radiofreerobotron.net/blog/",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/janne808/kocmoc-rack-modules/",
+  "donateUrl": "https://ko-fi.com/janne808",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "SVF-1",
+      "name": "SVF-1",
+      "description": "State Variable Filter",
+      "tags": [
+        "vcf",
+        "filter"
+      ]
+    }
+  ]
+}
