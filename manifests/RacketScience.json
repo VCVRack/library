@@ -1,0 +1,40 @@
+{
+  "slug": "RacketScience",
+  "name": "RacketScience",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "brand": "RacketScience",
+  "author": "Ewen Bates",
+  "authorEmail": "ContemporaryInsanity@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/ContemporaryInsanity/RacketScience",
+  "manualUrl": "https://github.com/ContemporaryInsanity/RacketScience",
+  "sourceUrl": "https://github.com/ContemporaryInsanity/RacketScience",
+  "donateUrl": "https://www.paypal.me/EwenBates",
+  "modules": [
+    {
+      "slug": "RSVectorVictor",
+      "name": "Vector Victor",
+      "description": "Phase driven CV loop recorder",
+      "tags": [
+        "Recording",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "RSBoogieBay",
+      "name": "RSBoogieBay",
+      "description": "Volt meter / cable wobbler",
+      "tags": [
+        "Visual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "RSBoogieBayH8",
+      "name": "RSBoogieBayH8",
+      "description": "",
+      "tags": []
+    }
+  ]
+}
