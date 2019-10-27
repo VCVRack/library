@@ -415,3 +415,6 @@
 [submodule "repos/PdArray"]
 	path = repos/PdArray
 	url = https://github.com/mgunyho/PdArray.git
+[submodule "repos/kocmoc"]
+	path = repos/kocmoc
+	url = https://github.com/janne808/kocmoc-rack-modules.git
