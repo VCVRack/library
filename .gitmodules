@@ -427,3 +427,6 @@
 [submodule "repos/SA-Seasons"]
 	path = repos/SA-Seasons
 	url = https://github.com/SpektroAudio/Seasons.git
+[submodule "repos/pfzzz"]
+	path = repos/pfzzz
+	url = https://github.com/pfzzz/rack-plugin.git
