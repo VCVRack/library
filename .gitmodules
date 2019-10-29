@@ -424,3 +424,6 @@
 [submodule "repos/RacketScience"]
 	path = repos/RacketScience
 	url = https://github.com/ContemporaryInsanity/RacketScience.git
+[submodule "repos/SA-Seasons"]
+	path = repos/SA-Seasons
+	url = https://github.com/SpektroAudio/Seasons.git
