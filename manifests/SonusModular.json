@@ -1,7 +1,7 @@
 {
   "slug": "SonusModular",
   "name": "Sonus Modular",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "GPL-3.0-or-later",
   "author": "Sonus Dept.",
   "brand": "Sonus Dept.",
@@ -201,6 +201,14 @@
       "tags": [
         "Effect",
         "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Tropicana",
+      "name": "Tropicana",
+      "description": "Tropical Additive Oscillator",
+      "tags": [
+        "VCO"
       ]
     },
     {

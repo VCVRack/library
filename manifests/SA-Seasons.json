@@ -1,0 +1,26 @@
+{
+  "slug": "SA-Seasons",
+  "name": "Seasons",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "Spektro Audio",
+  "author": "Spektro Audio",
+  "authorEmail": "contact@spektroaudio.com",
+  "authorUrl": "http://spektroaudio.com/",
+  "pluginUrl": "https://github.com/SpektroAudio/Seasons",
+  "manualUrl": "https://github.com/SpektroAudio/Seasons",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/SpektroAudio/Seasons/commits/master",
+  "modules": [
+    {
+      "slug": "Seasons",
+      "name": "Seasons",
+      "description": "4-Stage Step Sequencer",
+      "tags": [
+        "Sequencer",
+        "Quad"
+      ]
+    }
+  ]
+}

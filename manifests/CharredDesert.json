@@ -1,7 +1,7 @@
 {
   "slug": "CharredDesert",
   "name": "CharredDesert",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "license": "CC0-1.0",
   "author": "Jerry Sievert",
   "authorEmail": "svmodular@legitimatesounding.com",
@@ -17,7 +17,8 @@
       "description": "DTMF Tone Generator",
       "tags": [
         "Envelope generator"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/DTMF.pdf"
     },
     {
       "slug": "Noise",
@@ -26,7 +27,8 @@
       "tags": [
         "Envelope generator",
         "Noise"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/Noise.pdf"
     },
     {
       "slug": "CVSequencer",
@@ -35,7 +37,8 @@
       "tags": [
         "Logic",
         "Sequencer"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/CVSeq.pdf"
     },
     {
       "slug": "Not",
@@ -43,7 +46,8 @@
       "description": "CV and Voltage Inverter",
       "tags": [
         "Logic"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/Not.pdf"
     },
     {
       "slug": "Pan",
@@ -51,7 +55,8 @@
       "description": "Stereo Panner",
       "tags": [
         "Panning"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/Pan.pdf"
     },
     {
       "slug": "Shift",
@@ -60,7 +65,8 @@
       "tags": [
         "Logic",
         "Attenuator"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/Shift.pdf"
     },
     {
       "slug": "Oscar2",
@@ -69,7 +75,8 @@
       "tags": [
         "VCO",
         "Waveshaper"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/Oscar2.pdf"
     },
     {
       "slug": "Eq",
@@ -77,7 +84,8 @@
       "description": "CV Controlled Equalizer",
       "tags": [
         "Equalizer"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/Eq.pdf"
     },
     {
       "slug": "Carbon",
@@ -85,7 +93,8 @@
       "description": "Moog-like Filter",
       "tags": [
         "VCF"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/Carbon.pdf"
     },
     {
       "slug": "Mixer",
@@ -93,7 +102,8 @@
       "description": "8 Channel Stereo Mixer",
       "tags": [
         "Mixer"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/Mixer.pdf"
     },
     {
       "slug": "MixerCV",
@@ -101,7 +111,8 @@
       "description": "CV Controlled 8 Channel Mixer",
       "tags": [
         "Mixer"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/MixerCV.pdf"
     },
     {
       "slug": "CV",
@@ -109,7 +120,8 @@
       "description": "Simple CV Manipulator",
       "tags": [
         "Logic"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/CV.pdf"
     },
     {
       "slug": "M",
@@ -117,7 +129,8 @@
       "description": "Mini 2 Channel Mixer",
       "tags": [
         "Mixer"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/M.pdf"
     },
     {
       "slug": "Tine",
@@ -126,15 +139,18 @@
       "tags": [
         "Attenuator",
         "Mixer"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/Tine.pdf"
     },
     {
       "slug": "K",
       "name": "K",
       "description": "K is for Compressor",
       "tags": [
-        "Attenuator"
-      ]
+        "Attenuator",
+        "Compressor"
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/K.pdf"
     },
     {
       "slug": "X",
@@ -142,7 +158,19 @@
       "description": "Audio Exciter",
       "tags": [
         "Effect"
-      ]
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/X.pdf"
+    },
+    {
+      "slug": "Tsunami",
+      "name": "Tsunami",
+      "description": "Tsunami Wave Multiplier",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Waveshaper"
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/charred-desert/downloads/Tsunami.pdf"
     }
   ]
 }
