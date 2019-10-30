@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -501,6 +501,30 @@
       "description": "16HP blank panel",
       "tags": [
         "Blank"
+      ]
+    },
+    {
+      "slug": "OffsetGenerator",
+      "name": "Offset Generator",
+      "description": "Offsets a CV signal by a given amount.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Chances",
+      "name": "Single Bernoulli Gate",
+      "description": "Randomized routing of gate signals",
+      "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "Fade",
+      "name": "Fade-in/Fade-out and Record Controller",
+      "description": "Automated fade in/out with integrated start/stop control for the VCV Record module",
+      "tags": [
+        "Controller"
       ]
     }
   ]

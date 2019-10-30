@@ -1,0 +1,25 @@
+{
+  "slug": "pfzzz",
+  "name": "Pfzzz",
+  "version": "1.0.3",
+  "license": "GPL-3.0-or-later",
+  "brand": "Pfzzz",
+  "author": "Omar Shaban",
+  "authorEmail": "pfzzz.pfzzz@gmail.com",
+  "authorUrl": "https://github.com/0mars",
+  "pluginUrl": "https://github.com/pfzzz/rack-plugin",
+  "manualUrl": "https://github.com/pfzzz/rack-plugin/tree/master",
+  "sourceUrl": "https://github.com/pfzzz/rack-plugin",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/pfzzz/rack-plugin/releases",
+  "modules": [
+    {
+      "slug": "OhGates",
+      "name": "OhGates",
+      "description": "",
+      "tags": [
+        "Function generator"
+      ]
+    }
+  ]
+}
