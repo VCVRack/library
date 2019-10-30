@@ -430,3 +430,6 @@
 [submodule "repos/pfzzz"]
 	path = repos/pfzzz
 	url = https://github.com/pfzzz/rack-plugin.git
+[submodule "repos/scanner-darkly-collection-one"]
+	path = repos/scanner-darkly-collection-one
+	url = https://github.com/scanner-darkly/vcv-collection-one.git
