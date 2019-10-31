@@ -1,15 +1,15 @@
 {
   "slug": "DrumKit",
   "name": "DrumKit",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "CC0-1.0",
   "author": "Jerry Sievert",
   "authorEmail": "rack@legitimatesounding.com",
   "authorUrl": "https://legitimatesounding.com/",
-  "pluginUrl": "https://github.com/JerrySievert/DrumKit",
-  "manualUrl": "https://github.com/JerrySievert/DrumKit/blob/v1.0/docs/manual.pdf",
+  "pluginUrl": "https://legitimatesounding.com/sv-modular/drumkit/",
+  "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/drumkit-manual.pdf",
   "sourceUrl": "https://github.com/JerrySievert/DrumKit",
-  "donateUrl": "https://paypal.me/JerrySievert",
+  "brand": "SV Modular",
   "modules": [
     {
       "slug": "BassDrum9",

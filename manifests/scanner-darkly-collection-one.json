@@ -1,0 +1,27 @@
+{
+  "slug": "scanner-darkly-collection-one",
+  "name": "Collection One",
+  "version": "1.0.1",
+  "license": "GPL-3.0-only",
+  "brand": "Scanner Darkly",
+  "author": "scanner-darkly",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/scanner-darkly",
+  "pluginUrl": "https://github.com/scanner-darkly/vcv-collection-one",
+  "manualUrl": "https://github.com/scanner-darkly/vcv-collection-one/wiki/Orca's-Heart",
+  "sourceUrl": "https://github.com/scanner-darkly/vcv-collection-one",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "SDOrcasHeart",
+      "name": "Orca's Heart",
+      "description": "quad algorithmic sequencer generator",
+      "tags": [
+        "Arpeggiator",
+        "Clock modulator",
+        "Quad",
+        "Sequencer"
+      ]
+    }
+  ]
+}

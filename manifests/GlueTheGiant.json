@@ -1,7 +1,7 @@
 {
   "slug": "GlueTheGiant",
   "name": "Glue the Giant",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "GPL-3.0-or-later",
   "brand": "Glue the Giant",
   "author": "Paul Merchant",
@@ -42,7 +42,7 @@
     {
       "slug": "MetroCityBus",
       "name": "Metro City Bus Mixer",
-      "description": "Polyphonic stereo spread (and pan follow) to three buses",
+      "description": "Polyphonic stereo spread (and pan follow) to three stereo buses",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -62,7 +62,7 @@
     {
       "slug": "EnterBus",
       "name": "Enter Mixer Bus",
-      "description": "Three stereo inputs to buses",
+      "description": "Three stereo inputs to stereo buses",
       "tags": [
         "Utility"
       ]
@@ -70,7 +70,7 @@
     {
       "slug": "ExitBus",
       "name": "Exit Mixer Bus",
-      "description": "Three stereo outputs from buses",
+      "description": "Three stereo outputs from stereo buses",
       "tags": [
         "Utility"
       ]
@@ -78,7 +78,7 @@
     {
       "slug": "Road",
       "name": "Road",
-      "description": "Merges buses from mix groups to a master bus",
+      "description": "Merge stereo buses from mix groups",
       "tags": [
         "Utility",
         "Polyphonic"
