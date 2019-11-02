@@ -1,0 +1,41 @@
+{
+  "slug": "MockbaModular",
+  "name": "Mockba Modular",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "Mockba Modular",
+  "author": "Mockba the Borg",
+  "authorEmail": "mockba.the.borg@gmail.com",
+  "authorUrl": "http://mockbatheb.org/",
+  "pluginUrl": "https://github.com/MockbaTheBorg/MockbaModular",
+  "manualUrl": "https://github.com/MockbaTheBorg/MockbaModular/blob/master/README.md",
+  "sourceUrl": "https://github.com/MockbaTheBorg/MockbaModular",
+  "donateUrl": "http://paypal.me/MockbaTheBorg",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Feidah",
+      "name": "Feidah",
+      "description": "Simple signal fader",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "UDPClockMaster",
+      "name": "Mastah",
+      "description": "UDP Clock Synchronizer (Master)",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "UDPClockSlave",
+      "name": "Slavah",
+      "description": "UDP Clock Synchronizer (Slave)",
+      "tags": [
+        "Utility"
+      ]
+    }
+  ]
+}
