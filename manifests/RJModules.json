@@ -1,7 +1,7 @@
 {
   "slug": "RJModules",
   "name": "RJModules",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "license": "MIT",
   "brand": "RJModules",
   "author": "Rich Jones",
@@ -68,6 +68,15 @@
       "slug": "Chord",
       "name": "Chord",
       "description": "Generates chords in various positions",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PlayableChord",
+      "name": "Playable Chord",
+      "description": "Generates chords in various positions, and accepts input via V/OCT with octave control.",
       "tags": [
         "MIDI",
         "Utility"
@@ -404,6 +413,22 @@
       "description": "r/synthesizercirclejerk",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "PingPong",
+      "name": "Clock Synced Ping Pong Delay",
+      "description": "Clock Synced Ping Pong Delay",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Brickwall",
+      "name": "Brick Wall Limiter",
+      "description": "Brick Wall Limiter",
+      "tags": [
+        "Effect"
       ]
     }
   ]
