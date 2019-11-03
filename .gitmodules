@@ -436,3 +436,6 @@
 [submodule "repos/MockbaModular"]
 	path = repos/MockbaModular
 	url = https://github.com/MockbaTheBorg/MockbaModular.git
+[submodule "repos/SurgeRack"]
+	path = repos/SurgeRack
+	url = https://github.com/surge-synthesizer/surge-rack.git
