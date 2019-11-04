@@ -1,10 +1,24 @@
 {
-  "name": "Sculpt-O-Sound",
-  "author": "Jos Bouten",
-  "authorEmail": "josbouten@gmail.com",
-  "manualUrl": "https://github.com/josbouten/Sculpt-O-Sound/blob/master/README.md",
-  "sourceUrl": "https://github.com/josbouten/Sculpt-O-Sound",
-  "pluginUrl": "https://github.com/josbouten/Sculpt-O-Sound/blob/master/README.md",
   "slug": "Sculpt-O-Sound",
-  "version": "0.6.4"
+  "name": "Vocode-O-Matic",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Sculpt-O-Sound",
+  "author": "Zaphod B",
+  "authorEmail": "josbouten@gmail.com",
+  "authorUrl": "https://soundcloud.com/zaphodb42",
+  "pluginUrl": "https://github.com/josbouten/Sculpt-O-Sound",
+  "manualUrl": "https://github.com/josbouten/Sculpt-O-Sound",
+  "sourceUrl": "https://github.com/josbouten/Sculpt-O-Sound",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Vocode_O_Matic",
+      "name": "Vocode-O-Matic",
+      "description": "Vocode-O-Matic a 31 terts band vocoder from Sculpt-O-Sound",
+      "tags": [
+        "Effect"
+      ]
+    }
+  ]
 }
