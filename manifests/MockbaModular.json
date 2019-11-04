@@ -1,7 +1,7 @@
 {
   "slug": "MockbaModular",
   "name": "Mockba Modular",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -18,7 +18,7 @@
       "name": "Feidah",
       "description": "Simple signal fader",
       "tags": [
-        "Utility"
+        "Attenuator"
       ]
     },
     {
@@ -26,13 +26,21 @@
       "name": "Dividah",
       "description": "Simple clock divider",
       "tags": [
-        "Utility"
+        "Clock modulator"
       ]
     },
     {
       "slug": "Countah",
       "name": "Countah",
       "description": "Simple clock counter",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Selectah",
+      "name": "Selectah",
+      "description": "Simple 4 to 1 selector",
       "tags": [
         "Utility"
       ]
