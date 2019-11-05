@@ -24,7 +24,7 @@ def delete_stage():
 
 def build_mac(plugin_dir):
 	print(f"Building {plugin_dir} for mac")
-	env = f'CC=x86_64-apple-darwin15-clang CXX=x86_64-apple-darwin15-clang++-libc++ STRIP=x86_64-apple-darwin15-strip RACK_DIR={RACK_SDK}'
+	env = f'CC=x86_64-apple-darwin17-clang CXX=x86_64-apple-darwin17-clang++-libc++ STRIP=x86_64-apple-darwin17-strip RACK_DIR={RACK_SDK}'
 	make = f'{env} make -j$(nproc) -C {plugin_dir}'
 	system(f'{make} clean')
 	system(f'{make} cleandep')

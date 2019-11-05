@@ -16,6 +16,7 @@ RACK_USER_PLUGIN_DIR = os.path.join(RACK_USER_DIR, "plugins-v1")
 
 # Update git before continuing
 build.system("git pull")
+# build.system("git submodule sync")
 build.system("git submodule update --init --recursive")
 
 plugin_filenames = sys.argv[1:]
