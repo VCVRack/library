@@ -1,7 +1,7 @@
 {
   "slug": "Bogaudio",
   "name": "Bogaudio",
-  "version": "1.1.22",
+  "version": "1.1.23",
   "license": "BSD-3-Clause",
   "brand": "Bogaudio",
   "author": "Matt Demanett",
@@ -15,163 +15,181 @@
     {
       "slug": "Bogaudio-VCO",
       "name": "VCO",
-      "description": "oscillator",
+      "description": "Oscillator with 4 waveforms, PWM, FM, hard sync",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-XCO",
       "name": "XCO",
-      "description": "oscillator with wave mixer",
+      "description": "Oscillator with wave mixer, wave mods, FM, hard sync",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Additator",
-      "name": "Additator",
-      "description": "additive oscillator",
+      "name": "ADDITATOR",
+      "description": "Additive oscillator",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-FMOp",
       "name": "FM-OP",
-      "description": "FM oscillator",
+      "description": "FM operator / oscillator / synth voice",
       "tags": [
         "Oscillator",
-        "Synth voice"
+        "Synth voice",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-LFO",
       "name": "LFO",
-      "description": "low-frequency oscillator",
+      "description": "Low frequency oscillator",
       "tags": [
-        "LFO"
+        "LFO",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-EightFO",
       "name": "8FO",
-      "description": "LFO with 8 phased outputs",
+      "description": "LFO with outputs at 8 different phases",
       "tags": [
-        "LFO"
+        "LFO",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-LLFO",
       "name": "LLFO",
-      "description": "compact LFO",
+      "description": "Compact low frequency oscillator",
       "tags": [
-        "LFO"
+        "LFO",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-DADSRH",
       "name": "DADSR(H)",
-      "description": "advanced envelope",
+      "description": "Advanced envelope generator",
       "tags": [
-        "Envelope generator"
+        "Envelope generator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-DADSRHPlus",
       "name": "DADSR(H)+",
-      "description": "advanced envelope",
+      "description": "Advanced envelope generator with additional CV",
       "tags": [
-        "Envelope generator"
+        "Envelope generator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-DGate",
-      "name": "DGate",
-      "description": "trigger-to-gate with delay",
+      "name": "DGATE",
+      "description": "Trigger-to-gate converter with delay",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Shaper",
-      "name": "Shaper",
-      "description": "envelope and amplifier",
+      "name": "SHAPER",
+      "description": "Retro-inspired envelope generator and amplifier",
       "tags": [
         "Envelope generator",
-        "VCA"
+        "VCA",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-ShaperPlus",
-      "name": "Shaper+",
-      "description": "envelope and amplifier",
+      "name": "SHAPER+",
+      "description": "Retro-inspired envelope generator and amplifier with additional CV",
       "tags": [
         "Envelope generator",
-        "VCA"
+        "VCA",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-AD",
       "name": "AD",
-      "description": "utility envelope",
+      "description": "Utility attack/decay envelope generator",
       "tags": [
-        "Envelope generator"
+        "Envelope generator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-ADSR",
       "name": "ADSR",
-      "description": "utility envelope",
+      "description": "Utility ADSR envelope generator",
       "tags": [
-        "Envelope generator"
+        "Envelope generator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Follow",
-      "name": "Follow",
-      "description": "envelope follower",
+      "name": "FOLLOW",
+      "description": "Envelope follower",
       "tags": [
-        "Envelope follower"
+        "Envelope follower",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Noise",
-      "name": "Noise",
-      "description": "noise source",
+      "name": "NOISE",
+      "description": "Noise source with multiple flavors & absolute value",
       "tags": [
         "Noise",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-SampleHold",
       "name": "S&H",
-      "description": "dual sample (or track) and hold",
+      "description": "Dual sample (or track) and hold",
       "tags": [
         "Sample and hold",
-        "Dual"
+        "Dual",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Walk2",
-      "name": "Walk2",
-      "description": "random-walk CV source",
+      "name": "WALK2",
+      "description": "2-channel random-walk CV source",
       "tags": [
         "Random"
       ]
     },
     {
       "slug": "Bogaudio-Walk",
-      "name": "Walk",
-      "description": "random-walk CV source",
+      "name": "WALK",
+      "description": "Random-walk CV source",
       "tags": [
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Mix8",
-      "name": "Mix8",
+      "name": "MIX8",
       "description": "8-channel mixer and panner",
       "tags": [
         "Mixer",
@@ -180,7 +198,7 @@
     },
     {
       "slug": "Bogaudio-Mix4",
-      "name": "Mix4",
+      "name": "MIX4",
       "description": "4-channel mixer and panner",
       "tags": [
         "Mixer",
@@ -190,156 +208,173 @@
     {
       "slug": "Bogaudio-Mix1",
       "name": "MIX1",
-      "description": "fader/amplifier with mute",
+      "description": "Fader/amplifier with CV controllable mute",
       "tags": [
-        "VCA"
+        "VCA",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-VCM",
       "name": "VCM",
-      "description": "4-channel mixer",
+      "description": "4-channel CV controllable mixer",
       "tags": [
-        "Mixer"
+        "Mixer",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-UMix",
-      "name": "UMix",
-      "description": "unity mixer",
+      "name": "UMIX",
+      "description": "8-input unity mixer",
       "tags": [
-        "Mixer"
+        "Mixer",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Matrix88",
-      "name": "Matrix88",
-      "description": "8x8 matrix mixer",
+      "name": "MATRIX88",
+      "description": "8x8 channel matrix mixer",
       "tags": [
-        "Mixer"
+        "Mixer",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Mute8",
-      "name": "Mute8",
-      "description": "eight mutes with CV",
+      "name": "MUTE8",
+      "description": "Eight independent mutes with CV control",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Pan",
-      "name": "Pan",
-      "description": "dual panner",
+      "name": "PAN",
+      "description": "Dual stereo panner",
       "tags": [
         "Panning",
-        "Dual"
+        "Dual",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-XFade",
-      "name": "XFade",
-      "description": "crossfader",
+      "name": "XFADE",
+      "description": "Crossfader",
       "tags": [
-        "Mixer"
+        "Mixer",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-VCA",
       "name": "VCA",
-      "description": "dual attenuator",
+      "description": "Dual voltage controlled attenuator",
       "tags": [
         "VCA",
-        "Dual"
+        "Dual",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-VCAmp",
-      "name": "VCAmp",
-      "description": "amplifier",
+      "name": "VCAMP",
+      "description": "Voltage controlled amplifier with 12dB gain",
       "tags": [
-        "VCA"
+        "VCA",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-AMRM",
       "name": "AM/RM",
-      "description": "ring modulator",
+      "description": "Variable ring/amplitude modulator and rectifier",
       "tags": [
         "Ring modulator",
-        "Effect"
+        "Effect",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Pressor",
-      "name": "Pressor",
-      "description": "stereo compressor",
+      "name": "PRESSOR",
+      "description": "Stereo compressor and noise gate",
       "tags": [
         "Compressor",
-        "Dynamics"
+        "Dynamics",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Clpr",
       "name": "CLPR",
-      "description": "clipper",
+      "description": "Audio level hard clipper and distortion",
       "tags": [
         "Dynamics",
-        "Distortion"
+        "Distortion",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Lmtr",
       "name": "LMTR",
-      "description": "limiter",
+      "description": "Audio level limiter",
       "tags": [
-        "Dynamics"
+        "Dynamics",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Nsgt",
-      "name": "Nsgt",
-      "description": "noise gate",
+      "name": "NSGT",
+      "description": "Noise gate",
       "tags": [
-        "Dynamics"
+        "Dynamics",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-OneEight",
       "name": "1:8",
-      "description": "mux & sequential switch",
+      "description": "8-channel multiplexer & sequential switch",
       "tags": [
-        "Switch"
+        "Switch",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-EightOne",
       "name": "8:1",
-      "description": "demux & sequential switch",
+      "description": "8-channel demultiplexer & sequential switch",
       "tags": [
-        "Switch"
+        "Switch",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-AddrSeq",
       "name": "ADDR-SEQ",
-      "description": "voltage-addressable sequencer",
+      "description": "Voltage-addressable 8-step sequencer",
       "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Analyzer",
-      "name": "Analyzer",
-      "description": "spectrum analyzer",
+      "name": "ANALYZER",
+      "description": "4-channel spectrum analyzer",
       "tags": [
         "Visual"
       ]
     },
     {
       "slug": "Bogaudio-AnalyzerXL",
-      "name": "Analyzer-XL",
-      "description": "spectrum analyzer",
+      "name": "ANALYZER-XL",
+      "description": "8-channel spectrum analyzer",
       "tags": [
         "Visual"
       ]
@@ -347,128 +382,148 @@
     {
       "slug": "Bogaudio-VU",
       "name": "VU",
-      "description": "stereo signal meter",
+      "description": "Stereo signal meter",
       "tags": [
         "Visual"
       ]
     },
     {
       "slug": "Bogaudio-Detune",
-      "name": "Detune",
-      "description": "pitch CV processor",
+      "name": "DETUNE",
+      "description": "Pitch CV processor for detuning oscillator pairs",
       "tags": [
-        "Tuner"
+        "Tuner",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Stack",
-      "name": "Stack",
-      "description": "pitch CV processor",
+      "name": "STACK",
+      "description": "Relative pitch CV generator for stacking oscillators",
       "tags": [
-        "Tuner"
+        "Tuner",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Reftone",
-      "name": "Reftone",
-      "description": "precision pitch CV generator",
+      "name": "REFTONE",
+      "description": "Precision pitch CV generator",
       "tags": [
         "Tuner"
       ]
     },
     {
-      "slug": "Bogaudio-Bool",
-      "name": "Bool",
-      "description": "boolean logic",
+      "slug": "Bogaudio-Mono",
+      "name": "Mono",
+      "description": "Poly-to-mono converter with onboard compressor",
       "tags": [
-        "Logic"
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Bool",
+      "name": "BOOL",
+      "description": "Boolean logic utility",
+      "tags": [
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Cmp",
       "name": "CMP",
-      "description": "comparator",
+      "description": "Window comparator utility",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-CVD",
       "name": "CVD",
-      "description": "CV delay",
+      "description": "Simple delay designed for triggers and other CVs",
       "tags": [
-        "Delay"
+        "Delay",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-FlipFlop",
-      "name": "FlipFlop",
-      "description": "dual stateful logic",
+      "name": "FLIPFLOP",
+      "description": "Dual stateful/memory logic utility",
       "tags": [
         "Logic",
-        "Dual"
+        "Dual",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Manual",
-      "name": "Manual",
-      "description": "manual gates / triggers",
+      "name": "MANUAL",
+      "description": "Button controlled gates / triggers",
       "tags": [
         "Utility"
       ]
     },
     {
       "slug": "Bogaudio-Mult",
-      "name": "Mult",
-      "description": "multiple",
+      "name": "MULT",
+      "description": "1:6 or dual 1:3 multiple/splitter",
       "tags": [
-        "Multiple"
+        "Multiple",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Offset",
-      "name": "Offset",
+      "name": "OFFSET",
       "description": "CV offset and scaler",
       "tags": [
-        "Attenuator"
+        "Attenuator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Slew",
-      "name": "Slew",
-      "description": "slew / lag / glide",
+      "name": "SLEW",
+      "description": "Slew limiter / lag generator / glide utility",
       "tags": [
-        "Slew limiter"
+        "Slew limiter",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Sums",
-      "name": "Sums",
-      "description": "arithmetic logic",
+      "name": "SUMS",
+      "description": "Arithmetic logic utility",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Switch",
-      "name": "Switch",
-      "description": "signal router",
+      "name": "SWITCH",
+      "description": "2-way signal router",
       "tags": [
-        "Switch"
+        "Switch",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Blank3",
-      "name": "Blank3",
-      "description": "blank panel",
+      "name": "BLANK3",
+      "description": "3HP blank panel",
       "tags": [
         "Blank"
       ]
     },
     {
       "slug": "Bogaudio-Blank6",
-      "name": "Blank6",
-      "description": "blank panel",
+      "name": "BLANK6",
+      "description": "6HP blank panel",
       "tags": [
         "Blank"
       ]
