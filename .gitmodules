@@ -439,3 +439,6 @@
 [submodule "repos/SurgeRack"]
 	path = repos/SurgeRack
 	url = https://github.com/surge-synthesizer/surge-rack.git
+[submodule "repos/NEXSwitches"]
+	path = repos/NEXSwitches
+	url = https://github.com/lkdjiin/SwitchesModules.git
