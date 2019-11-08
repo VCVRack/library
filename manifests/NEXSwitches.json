@@ -1,0 +1,33 @@
+{
+  "slug": "NEXSwitches",
+  "name": "NEX Switches",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "NEX",
+  "author": "Xavier Nayrac",
+  "authorEmail": "xavier.nayrac@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/lkdjiin/SwitchesModules",
+  "manualUrl": "https://github.com/lkdjiin/SwitchesModules",
+  "sourceUrl": "https://github.com/lkdjiin/SwitchesModules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "DoubleMute",
+      "name": "Double Mute",
+      "description": "Mute two channels at once with fades",
+      "tags": [
+        "switch"
+      ]
+    },
+    {
+      "slug": "TwoByTwo",
+      "name": "2 x 2 Mute",
+      "description": "Mute/unmute 2 groups of 2 inputs",
+      "tags": [
+        "switch"
+      ]
+    }
+  ]
+}
