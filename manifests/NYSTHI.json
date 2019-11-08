@@ -1,7 +1,7 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
@@ -1206,6 +1206,36 @@
       "tags": [
         "VCA",
         "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "Interleaver",
+      "name": "Interleaver: poly channels (de)interleaver",
+      "description": "Poly channels (de)interleaver",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "YYdisplay",
+      "name": "YYdisplay",
+      "description": "YY visualizer",
+      "tags": [
+        "Visual",
+        "Utility"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "PolyRecorder64",
+      "name": "PolyRecorder64 64 tracks recorder",
+      "description": "64 tracks recorder",
+      "tags": [
+        "Recording",
         "Polyphonic"
       ]
     }
