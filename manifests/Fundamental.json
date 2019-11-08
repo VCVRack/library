@@ -1,6 +1,6 @@
 {
   "slug": "Fundamental",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "license": "GPL-3.0-only",
   "name": "Fundamental",
   "brand": "VCV",
@@ -125,10 +125,18 @@
     {
       "slug": "Mutes",
       "name": "Mutes",
-      "description": "Toggles 10 signals on/off",
+      "description": "Toggles up to 10 signals",
       "tags": [
         "Switch",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Pulses",
+      "name": "Pulses",
+      "description": "Generates up to 10 trigger and gate signals",
+      "tags": [
+        "Switch"
       ]
     },
     {
