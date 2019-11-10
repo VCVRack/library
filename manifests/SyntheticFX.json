@@ -1,0 +1,76 @@
+{
+  "slug": "SyntheticFX",
+  "name": "Synthetic FX",
+  "version": "1.0.0",
+  "license": "PROPRIETARY",
+  "author": "SV Modular",
+  "authorEmail": "svmodular@legitimatesounding.com",
+  "authorUrl": "https://legitimatesounding.com/sv-modular/",
+  "pluginUrl": "https://legitimatesounding.com/sv-modular/synthetic-fx/index.html",
+  "manualUrl": "https://legitimatesounding.com/sv-modular/synthetic-fx/index.html",
+  "brand": "SV Modular",
+  "modules": [
+    {
+      "slug": "FourPoleLadder",
+      "name": "4-Pole",
+      "description": "Four Pole Ladder Filter",
+      "tags": [
+        "VCF"
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/FourPole.pdf"
+    },
+    {
+      "slug": "Curds",
+      "name": "Curds",
+      "description": "Curds",
+      "tags": [
+        "VCF"
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Curds.pdf"
+    },
+    {
+      "slug": "State",
+      "name": "State",
+      "description": "State Variable Filter",
+      "tags": [
+        "VCF"
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/State.pdf"
+    },
+    {
+      "slug": "Rez",
+      "name": "Rez",
+      "description": "Resonant Filter",
+      "tags": [
+        "VCF"
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Rez.pdf"
+    },
+    {
+      "slug": "Comb",
+      "name": "Comb",
+      "description": "Comb Filter",
+      "tags": [
+        "VCF"
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Comb.pdf"
+    },
+    {
+      "slug": "Chorus",
+      "name": "Chorus",
+      "description": "Chorus Effect",
+      "tags": [
+        "VCF"
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Chorus.pdf"
+    },
+    {
+      "slug": "Mix",
+      "name": "Mix",
+      "description": "Effect Mixer",
+      "tags": [
+        "Mixer"
+      ]
+    }
+  ]
+}
