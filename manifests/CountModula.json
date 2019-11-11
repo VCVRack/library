@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -508,7 +508,8 @@
       "name": "Offset Generator",
       "description": "Offsets a CV signal by a given amount.",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -525,6 +526,24 @@
       "description": "Automated fade in/out with integrated start/stop control for the VCV Record module",
       "tags": [
         "Controller"
+      ]
+    },
+    {
+      "slug": "FadeExpander",
+      "name": "Fade-in/Fade-out Expander",
+      "description": "Adds sequencer start/stop and envelope outputs to the fade controller",
+      "tags": [
+        "Controller",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "SequencerExpanderTSG",
+      "name": "Trigger Sequencer Gate Expander",
+      "description": "Adds gate outputs to the 8 and 16 Step Trigger Sequencers",
+      "tags": [
+        "Sequencer",
+        "Expander"
       ]
     }
   ]
