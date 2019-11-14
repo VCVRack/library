@@ -445,3 +445,6 @@
 [submodule "repos/23volts"]
 	path = repos/23volts
 	url = https://github.com/23volts/23volts-vcv.git
+[submodule "repos/MSM"]
+	path = repos/MSM
+	url = https://github.com/netboy3/MSM-vcvrack-plugin.git
