@@ -1,7 +1,7 @@
 {
   "slug": "SyntheticFXFree",
   "name": "Synthetic FX Free",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "license": "PROPRIETARY",
   "author": "SV Modular",
   "authorEmail": "svmodular@legitimatesounding.com",
@@ -13,41 +13,47 @@
     {
       "slug": "FourPoleLadder",
       "name": "4-Pole",
-      "description": "Four Pole Ladder Filter",
+      "description": "Synthetic FX Free Four Pole Ladder Filter",
       "tags": [
-        "VCF"
+        "VCF",
+        "Effect"
       ]
     },
     {
       "slug": "State",
       "name": "State",
-      "description": "State Variable Filter",
+      "description": "Synthetic FX Free State Variable Filter",
       "tags": [
-        "VCF"
+        "VCF",
+        "Effect"
       ]
     },
     {
       "slug": "Rez",
       "name": "Rez",
-      "description": "Resonant Filter",
+      "description": "Synthetic FX Free Resonant Filter",
       "tags": [
-        "VCF"
+        "VCF",
+        "Effect"
       ]
     },
     {
       "slug": "Comb",
       "name": "Comb",
-      "description": "Comb Filter",
+      "description": "Synthetic FX Free Comb Filter",
       "tags": [
-        "VCF"
+        "VCF",
+        "Effect"
       ]
     },
     {
       "slug": "Chorus",
       "name": "Chorus",
-      "description": "Chorus Effect",
+      "description": "Synthetic FX Free Chorus Effect",
       "tags": [
-        "VCF"
+        "VCF",
+        "Chorus",
+        "Effect"
       ]
     }
   ]

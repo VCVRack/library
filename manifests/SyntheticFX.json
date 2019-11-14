@@ -1,7 +1,7 @@
 {
   "slug": "SyntheticFX",
   "name": "Synthetic FX",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "license": "PROPRIETARY",
   "author": "SV Modular",
   "authorEmail": "svmodular@legitimatesounding.com",
@@ -13,61 +13,75 @@
     {
       "slug": "FourPoleLadder",
       "name": "4-Pole",
-      "description": "Four Pole Ladder Filter",
+      "description": "Synthetic FX Four Pole Ladder Filter",
       "tags": [
-        "VCF"
+        "VCF",
+        "Effect",
+        "Polyphonic"
       ],
       "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/FourPole.pdf"
     },
     {
       "slug": "Curds",
       "name": "Curds",
-      "description": "Curds",
+      "description": "Synthetic FX Curds",
       "tags": [
-        "VCF"
+        "VCF",
+        "Effect",
+        "Digital",
+        "Polyphonic"
       ],
       "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Curds.pdf"
     },
     {
       "slug": "State",
       "name": "State",
-      "description": "State Variable Filter",
+      "description": "Synthetic FX State Variable Filter",
       "tags": [
-        "VCF"
+        "VCF",
+        "Effect",
+        "Polyphonic"
       ],
       "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/State.pdf"
     },
     {
       "slug": "Rez",
       "name": "Rez",
-      "description": "Resonant Filter",
+      "description": "Synthetic FX Resonant Filter",
       "tags": [
-        "VCF"
+        "VCF",
+        "Effect",
+        "Polyphonic"
       ],
       "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Rez.pdf"
     },
     {
       "slug": "Comb",
       "name": "Comb",
-      "description": "Comb Filter",
+      "description": "Synthetic FX Comb Filter",
       "tags": [
-        "VCF"
+        "VCF",
+        "Effect",
+        "Polyphonic"
       ],
       "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Comb.pdf"
     },
     {
       "slug": "Chorus",
       "name": "Chorus",
-      "description": "Chorus Effect",
+      "description": "Synthetic FX Chorus Effect",
       "tags": [
-        "VCF"
+        "VCF",
+        "Chorus",
+        "Effect",
+        "Polyphonic"
       ],
       "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Chorus.pdf"
     },
     {
       "slug": "Mix",
       "name": "Mix",
-      "description": "Effect Mixer",
+      "description": "Synthetic FX Effect Mixer",
       "tags": [
         "Mixer"
       ]
