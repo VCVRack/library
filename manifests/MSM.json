@@ -1,10 +1,189 @@
 {
-  "name": "MSM",
-  "author": "Michael Struggl",
-  "license": "proprietary",
-  "authorEmail": "phal.anx.art@gmail.com",
-  "pluginUrl": "https://phal-anx.github.io",
-  "manualUrl": "https://drive.google.com/file/d/1Cjof90oYVltSJuXu0hqpw9hIN3r3U94T/view",
   "slug": "MSM",
-  "version": "0.6.51"
+  "name": "MSM",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "MSM",
+  "author": "Phal-anx",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/netboy3/MSM-vcvrack-plugin",
+  "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin/blob/master/README.md",
+  "sourceUrl": "https://github.com/netboy3/MSM-vcvrack-plugin",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ADSR",
+      "name": "ADSR",
+      "description": "",
+      "tags": [
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "Bitcrusher",
+      "name": "Bitcrusher",
+      "description": "",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "BlankPanel",
+      "name": "Blank Panel",
+      "description": "",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "DualDelay",
+      "name": "Dual Delay",
+      "description": "",
+      "tags": [
+        "Delay"
+      ]
+    },
+    {
+      "slug": "TreasureVCO",
+      "name": "Treasure VCO",
+      "description": "",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Fade",
+      "name": "Fade",
+      "description": "",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "MLFO",
+      "name": "MLFO",
+      "description": "",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "Morph",
+      "name": "Morph",
+      "description": "",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Mult",
+      "name": "Mult",
+      "description": "",
+      "tags": [
+        "Multiple"
+      ]
+    },
+    {
+      "slug": "Noise",
+      "name": "Noise",
+      "description": "",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "Phaser",
+      "name": "Phaser",
+      "description": "",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "RandomSource",
+      "name": "Random Source",
+      "description": "",
+      "tags": [
+        "Sample and hold",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Ring",
+      "name": "Ring",
+      "description": "",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "SimpleSlider",
+      "name": "Simple Slider",
+      "description": "",
+      "tags": [
+        "Mixer",
+        "Amplifier"
+      ]
+    },
+    {
+      "slug": "CrazyMult",
+      "name": "CrazyMult",
+      "description": "",
+      "tags": [
+        "Multiple"
+      ]
+    },
+    {
+      "slug": "PAN-VCA",
+      "name": "PAN-VCA",
+      "description": "",
+      "tags": [
+        "Amplifier",
+        "Panning"
+      ]
+    },
+    {
+      "slug": "OSCiX",
+      "name": "OSCiX",
+      "description": "",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Rogue",
+      "name": "Rogue",
+      "description": "",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Wavefolder",
+      "name": "Wavefolder",
+      "description": "",
+      "tags": [
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "WaveShaper",
+      "name": "WaveShaper",
+      "description": "",
+      "tags": [
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "XSEQ",
+      "name": "XSEQ",
+      "description": "",
+      "tags": [
+        "Logic",
+        "Random"
+      ]
+    }
+  ]
 }

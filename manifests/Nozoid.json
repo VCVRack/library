@@ -1,7 +1,7 @@
 {
   "slug": "Nozoid",
   "name": "Nozoid",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "license": "GPL-3.0-or-later",
   "brand": "nozo\u00efd",
   "author": "Cyrille Henry",
@@ -148,6 +148,150 @@
     {
       "slug": "Nozori_68_WS",
       "name": "Nozori_68_WS",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_8_BITS",
+      "name": "Nozori_84_8_BITS",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_ADD",
+      "name": "Nozori_84_ADD",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_ADSR",
+      "name": "Nozori_84_ADSR",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_CLOCK",
+      "name": "Nozori_84_CLOCK",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_DOPPLER",
+      "name": "Nozori_84_DOPPLER",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_FM",
+      "name": "Nozori_84_FM",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_FM_LIN",
+      "name": "Nozori_84_FM_LIN",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_HARMONICS",
+      "name": "Nozori_84_HARMONICS",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_JONG_LFO",
+      "name": "Nozori_84_JONG_LFO",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_JONG_VCO",
+      "name": "Nozori_84_JONG_VCO",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_LFO",
+      "name": "Nozori_84_LFO",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_LFO_SEQ",
+      "name": "Nozori_84_LFO_SEQ",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_MODULATE",
+      "name": "Nozori_84_MODULATE",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_PARAM",
+      "name": "Nozori_84_PARAM",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_SEQ_4",
+      "name": "Nozori_84_SEQ_4",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_SEQ_8",
+      "name": "Nozori_84_SEQ_8",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_SIN_AM",
+      "name": "Nozori_84_SIN_AM",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_SIN_FM",
+      "name": "Nozori_84_SIN_FM",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_SIN_PM",
+      "name": "Nozori_84_SIN_PM",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_SIN_WS",
+      "name": "Nozori_84_SIN_WS",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_THOMAS",
+      "name": "Nozori_84_THOMAS",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_TROPICAL",
+      "name": "Nozori_84_TROPICAL",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_VCF",
+      "name": "Nozori_84_VCF",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "Nozori_84_WS",
+      "name": "Nozori_84_WS",
       "description": "",
       "tags": []
     }

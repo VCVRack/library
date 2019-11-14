@@ -1,0 +1,83 @@
+{
+  "slug": "23volts",
+  "name": "23volts",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "23volts",
+  "author": "R\u00e9mi Collin",
+  "authorEmail": "23volts@gmail.com",
+  "authorUrl": "https://github.com/23volts/23volts-vcv",
+  "pluginUrl": "https://github.com/23volts/23volts-vcv",
+  "manualUrl": "https://github.com/23volts/23volts-vcv",
+  "sourceUrl": "https://github.com/23volts/23volts-vcv",
+  "donateUrl": "https://paypal.me/23volts",
+  "modules": [
+    {
+      "slug": "Mem",
+      "name": "Mem",
+      "description": "Sample & Hold with replay/looping abilities",
+      "tags": [
+        "Sample and hold",
+        "S&H",
+        "Utility",
+        "Sampler",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Merge8",
+      "name": "Merge8",
+      "description": "8 voice polyphonic merger",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Split8",
+      "name": "Split8",
+      "description": "8 voices polyphonic splitter",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Morph",
+      "name": "Morph",
+      "description": "8 Knobs controller with snapshots and morphing",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "SwitchN1",
+      "name": "SwitchN1",
+      "description": "Polyphonic N to 1 sequential switch",
+      "tags": [
+        "Utility",
+        "Polyphonic",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Cells",
+      "name": "Cells",
+      "description": "Cellular automaton sequencer",
+      "tags": [
+        "Random",
+        "Visual",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ClockM8",
+      "name": "ClockM8",
+      "description": "Polyphonic Clock Modulator",
+      "tags": [
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
