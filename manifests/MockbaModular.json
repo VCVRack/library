@@ -1,7 +1,7 @@
 {
   "slug": "MockbaModular",
   "name": "Mockba Modular",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -14,11 +14,27 @@
   "changelogUrl": "",
   "modules": [
     {
+      "slug": "Blank",
+      "name": "Blank",
+      "description": "Simple blank",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
       "slug": "Feidah",
       "name": "Feidah",
       "description": "Simple signal fader",
       "tags": [
         "Attenuator"
+      ]
+    },
+    {
+      "slug": "Mixah",
+      "name": "Mixah",
+      "description": "Simple two signal mixer",
+      "tags": [
+        "mixer"
       ]
     },
     {

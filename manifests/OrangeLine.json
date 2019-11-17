@@ -1,7 +1,7 @@
 {
   "slug": "OrangeLine",
   "name": "OrangeLine",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "GPL-3.0-only",
   "brand": "",
   "author": "Dieter Stubler",
@@ -31,6 +31,14 @@
       "tags": [
         "Sequencer",
         "Clock"
+      ]
+    },
+    {
+      "slug": "Mother",
+      "name": "Mother",
+      "description": "Mode aware probability driven quantizer",
+      "tags": [
+        "Quantizer"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "slug": "computerscare",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "name": "computerscare",
   "brand": "computerscare",
   "author": "computerscare",
@@ -43,7 +43,7 @@
     {
       "slug": "computerscare-ohpeas",
       "name": "Oh Peas!",
-      "description": "Quad Quantenuverter.  Attenuverter, Offsetter, Microtonal Quantizer",
+      "description": "Quad Quantenuverter. \nAttenuverter, Offsetter, Microtonal Quantizer",
       "tags": [
         "Polyphonic",
         "Quantizer",
@@ -107,6 +107,24 @@
       "tags": [
         "Polyphonic",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "computerscare-foly-pace",
+      "name": "Foly Pace",
+      "description": "Draw a face",
+      "tags": [
+        "Visual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "computerscare-blank",
+      "name": "Custom Blank",
+      "description": "Customizable, resizable, lovable blank panel. \nLoad your own PNG, JPEG, BMP, or GIF.",
+      "tags": [
+        "Blank",
+        "Visual"
       ]
     }
   ]

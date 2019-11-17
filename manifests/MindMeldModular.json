@@ -1,7 +1,7 @@
 {
   "slug": "MindMeldModular",
   "name": "MindMeld",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "license": "GPL-3.0-only",
   "author": "S.Baker and M.Boul\u00e9 ",
   "brand": "MindMeld",
@@ -11,13 +11,32 @@
   "manualUrl": "https://marcboule.github.io/MindMeldModular",
   "sourceUrl": "https://github.com/MarcBoule/MindMeldModular",
   "donateUrl": "https://www.paypal.me/mindmeldmodular",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/CHANGELOG.md",
   "modules": [
+    {
+      "slug": "MixMasterJr",
+      "name": "MixMasterJr",
+      "description": "8-track stereo mixer with 2 group busses",
+      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-MixMaster-Manual-V1_1_3.pdf",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "AuxExpanderJr",
+      "name": "AuxSpanderJr",
+      "description": "4-aux FX bus expander for MixMasterJr",
+      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-MixMaster-Manual-V1_1_3.pdf",
+      "tags": [
+        "Mixer",
+        "Expander"
+      ]
+    },
     {
       "slug": "MixMaster",
       "name": "MixMaster",
       "description": "16-track stereo mixer with 4 group busses",
-      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/blob/master/doc/MindMeld-MixMaster-Manual-V1_1_2.pdf",
+      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-MixMaster-Manual-V1_1_3.pdf",
       "tags": [
         "Mixer"
       ]
@@ -26,10 +45,30 @@
       "slug": "AuxExpander",
       "name": "AuxSpander",
       "description": "4-aux FX bus expander for MixMaster",
-      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/blob/master/doc/MindMeld-MixMaster-Manual-V1_1_2.pdf",
+      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-MixMaster-Manual-V1_1_3.pdf",
       "tags": [
         "Mixer",
         "Expander"
+      ]
+    },
+    {
+      "slug": "Meld",
+      "name": "Meld",
+      "description": "8-track stereo merge for MixMaster",
+      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-MixMaster-Manual-V1_1_3.pdf",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Unmeld",
+      "name": "Unmeld",
+      "description": "8-track stereo splitter for MixMaster",
+      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-MixMaster-Manual-V1_1_3.pdf",
+      "tags": [
+        "Polyphonic",
+        "Utility"
       ]
     }
   ]
