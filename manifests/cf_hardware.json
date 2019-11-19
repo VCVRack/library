@@ -1,0 +1,32 @@
+{
+  "slug": "cf_hardware",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "name": "Number9",
+  "brand": "cf",
+  "author": "clement foulc",
+  "authorEmail": "c.foulc@gmail.com",
+  "pluginUrl": "https://github.com/cfoulc/Number9",
+  "authorUrl": "https://github.com/cfoulc/",
+  "manualUrl": "https://github.com/cfoulc/Number9",
+  "sourceUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Number9",
+      "name": "Number9",
+      "description": "sample based keyboard drum machine",
+      "tags": [
+        "SEQUENCER"
+      ]
+    },
+    {
+      "slug": "N9exp",
+      "name": "N9exp",
+      "description": "Number9 Expander",
+      "tags": [
+        "EXPANDER"
+      ]
+    }
+  ]
+}
