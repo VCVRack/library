@@ -1,7 +1,7 @@
 {
   "slug": "MockbaModular",
   "name": "Mockba Modular",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -59,6 +59,38 @@
       "description": "Simple 4 to 1 selector",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "CZSaw",
+      "name": "CZSaw",
+      "description": "Simple CZ style SAW oscillator",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "CZSquare",
+      "name": "CZSquare",
+      "description": "Simple CZ style SQUARE oscillator",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "CZPulse",
+      "name": "CZPulse",
+      "description": "Simple CZ style PULSE oscillator",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "CZReso",
+      "name": "CZReso",
+      "description": "Simple CZ style RESO oscillator",
+      "tags": [
+        "Oscillator"
       ]
     },
     {

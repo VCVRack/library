@@ -1,7 +1,7 @@
 {
   "slug": "kocmoc",
   "name": "kocmoc",
-  "version": "1.1.2",
+  "version": "1.2.1",
   "license": "GPL-3.0-or-later",
   "brand": "kocmoc",
   "author": "janne808",
@@ -28,6 +28,15 @@
       "description": "Trigger Sequencer",
       "tags": [
         "sequencer"
+      ]
+    },
+    {
+      "slug": "LADR",
+      "name": "LADR",
+      "description": "4-pole Ladder Filter",
+      "tags": [
+        "vcf",
+        "filter"
       ]
     }
   ]

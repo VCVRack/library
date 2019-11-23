@@ -1,6 +1,6 @@
 {
   "slug": "DHE-Modules",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "license": "MIT",
   "name": "DHE Modules",
   "author": "Dale Emery",
@@ -16,6 +16,7 @@
       "slug": "Blossom",
       "name": "Blossom",
       "description": "Generates a pair of complex, pulsing LFO signals",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/blossom/",
       "tags": [
         "LFO"
       ]
@@ -24,6 +25,7 @@
       "slug": "BoosterStage",
       "name": "Booster Stage",
       "description": "Generates a single envelope stage",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/booster-stage/",
       "tags": [
         "Envelope Generator"
       ]
@@ -32,14 +34,49 @@
       "slug": "Cubic",
       "name": "Cubic",
       "description": "Offsets, scales, squares, and cubes its input signal",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/cubic/",
       "tags": [
         "Waveshaper"
+      ]
+    },
+    {
+      "slug": "CurveSequencer4",
+      "name": "Curve Sequencer 4",
+      "description": "Generates a 4 step sequence of curves",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/curve-sequencer/",
+      "tags": [
+        "Sequencer",
+        "Envelope Generator",
+        "LFO"
+      ]
+    },
+    {
+      "slug": "CurveSequencer8",
+      "name": "Curve Sequencer 8",
+      "description": "Generates an 8 step sequence of curves",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/curve-sequencer/",
+      "tags": [
+        "Sequencer",
+        "Envelope Generator",
+        "LFO"
+      ]
+    },
+    {
+      "slug": "CurveSequencer16",
+      "name": "Curve Sequencer 16",
+      "description": "Generates a 16 step sequence of curves",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/curve-sequencer/",
+      "tags": [
+        "Sequencer",
+        "Envelope Generator",
+        "LFO"
       ]
     },
     {
       "slug": "FuzzyLogicH",
       "name": "Fuzzy Logic H",
       "description": "Combines signals by applying hyperbolic paraboloid fuzzy logic operators",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/fuzzy-logic-h/",
       "tags": [
         "Logic",
         "Dual"
@@ -49,6 +86,7 @@
       "slug": "FuzzyLogicZ",
       "name": "Fuzzy Logic Z",
       "description": "Combines signals by applying Lofti Zadeh\u2019s fuzzy logic operators",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/fuzzy-logic-z/",
       "tags": [
         "Logic",
         "Dual"
@@ -58,6 +96,7 @@
       "slug": "Func",
       "name": "Func",
       "description": "A knob with a selectable range to offset or scale its input signal",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/func/",
       "tags": [
         "Utility"
       ]
@@ -66,6 +105,7 @@
       "slug": "Func6",
       "name": "Func 6",
       "description": "A chain of knobs with selectable ranges to offset and scale input signals",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/func-6/",
       "tags": [
         "Utility"
       ]
@@ -74,6 +114,7 @@
       "slug": "Gator",
       "name": "Gator",
       "description": "Computes eight common logic functions for up to 16 inputs",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/gator/",
       "tags": [
         "Logic"
       ]
@@ -82,6 +123,7 @@
       "slug": "Hostage",
       "name": "Hostage",
       "description": "Generates a hold or sustain envelope stage",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/hostage/",
       "tags": [
         "Envelope Generator"
       ]
@@ -90,6 +132,7 @@
       "slug": "Ranger",
       "name": "Ranger",
       "description": "A modulatable knob with an adjustable, modulatable range",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/ranger/",
       "tags": [
         "Utility"
       ]
@@ -98,6 +141,7 @@
       "slug": "Stage",
       "name": "Stage",
       "description": "Generates a single envelope stage",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/stage/",
       "tags": [
         "Envelope Generator"
       ]
@@ -106,6 +150,7 @@
       "slug": "Swave",
       "name": "Swave",
       "description": "A waveshaper with a unique sigmoid transfer function",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/swave/",
       "tags": [
         "Waveshaper"
       ]
@@ -114,6 +159,7 @@
       "slug": "Tapers",
       "name": "Tapers",
       "description": "A pair of modulatable knobs with adjustable, modulatable tapers",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/tapers/",
       "tags": [
         "Dual",
         "Utility"
@@ -123,6 +169,7 @@
       "slug": "Upstage",
       "name": "Upstage",
       "description": "Special-purpose envelope controls",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/upstage/",
       "tags": [
         "Envelope Generator"
       ]
@@ -131,6 +178,7 @@
       "slug": "Xycloid",
       "name": "Xycloid",
       "description": "Generates a pair of complex, pulsing LFO signals",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/xycloid/",
       "tags": [
         "LFO"
       ]
