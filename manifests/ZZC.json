@@ -2,15 +2,16 @@
   "slug": "ZZC",
   "name": "ZZC",
   "brand": "ZZC",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "GPL-3.0",
   "author": "Sergey Ukolov",
   "authorEmail": "zezic51@yandex.ru",
   "authorUrl": "https://github.com/zezic",
-  "pluginUrl": "https://zzc.github.io",
-  "manualUrl": "https://zzc.github.io",
+  "pluginUrl": "https://zzc.github.io/free",
+  "manualUrl": "https://zzc.github.io/free",
   "sourceUrl": "https://github.com/zezic/ZZC",
   "donateUrl": "https://paypal.me/zezic",
+  "changelogUrl": "https://github.com/zezic/ZZC/releases",
   "modules": [
     {
       "slug": "Clock",
@@ -62,6 +63,34 @@
       "description": "Voltage Source",
       "tags": [
         "Quantizer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Div",
+      "name": "Div",
+      "description": "Phase Clock Divider (Compact)",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "DivExp",
+      "name": "Div (Expander)",
+      "description": "Phase Clock Divider (Expander)",
+      "tags": [
+        "Clock modulator",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Polygate",
+      "name": "Polygate",
+      "description": "Polyphonic Gate Bank",
+      "tags": [
+        "Controller",
+        "Polyphonic",
+        "Switch",
         "Utility"
       ]
     }
