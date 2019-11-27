@@ -1,12 +1,12 @@
 {
   "slug": "RacketScience",
-  "name": "RacketScience",
-  "version": "1.0.0",
+  "name": "Racket Science",
+  "version": "1.1.0",
   "license": "GPL-3.0",
-  "brand": "RacketScience",
-  "author": "Ewen Bates",
+  "brand": "Racket Science",
+  "author": "ContemporaryInsanity",
   "authorEmail": "ContemporaryInsanity@gmail.com",
-  "authorUrl": "",
+  "authorUrl": "https://github.com/ContemporaryInsanity",
   "pluginUrl": "https://github.com/ContemporaryInsanity/RacketScience",
   "manualUrl": "https://github.com/ContemporaryInsanity/RacketScience",
   "sourceUrl": "https://github.com/ContemporaryInsanity/RacketScience",
@@ -17,8 +17,10 @@
       "name": "Vector Victor",
       "description": "Phase driven CV loop recorder",
       "tags": [
+        "Visual",
         "Recording",
-        "Sequencer"
+        "Sequencer",
+        "Utility"
       ]
     },
     {
@@ -33,8 +35,31 @@
     {
       "slug": "RSBoogieBayH8",
       "name": "RSBoogieBayH8",
-      "description": "",
-      "tags": []
+      "description": "Cable wobbler / poly merger",
+      "tags": [
+        "Poly",
+        "Visual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "RSMFH",
+      "name": "RSMFH",
+      "description": "Module From Hell",
+      "tags": [
+        "Poly",
+        "Function generator",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "RSHeat",
+      "name": "RSHeat",
+      "description": "Note / Octave Heat Map",
+      "tags": [
+        "Visual",
+        "Utility"
+      ]
     }
   ]
 }
