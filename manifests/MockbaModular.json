@@ -1,7 +1,7 @@
 {
   "slug": "MockbaModular",
   "name": "Mockba Modular",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -92,9 +92,45 @@
       ]
     },
     {
-      "slug": "CZReso",
-      "name": "CZReso",
-      "description": "Simple CZ style RESO oscillator",
+      "slug": "CZDblSine",
+      "name": "CZDblSine",
+      "description": "Simple CZ style DBLSINE oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CZSawPulse",
+      "name": "CZSawPulse",
+      "description": "Simple CZ style SAWPULSE oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CZReso1",
+      "name": "CZReso1",
+      "description": "Simple CZ style RESO1 oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CZReso2",
+      "name": "CZReso2",
+      "description": "Simple CZ style RESO2 oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CZReso3",
+      "name": "CZReso3",
+      "description": "Simple CZ style RESO3 oscillator",
       "tags": [
         "Oscillator",
         "Polyphonic"
