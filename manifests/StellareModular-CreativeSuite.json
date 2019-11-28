@@ -1,6 +1,6 @@
 {
   "slug": "StellareModular-CreativeSuite",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "Proprietary",
   "name": "Creative Suite",
   "brand": "Stellare Modular",
@@ -76,6 +76,20 @@
     {
       "slug": "AL14",
       "name": "AL14",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "AL81",
+      "name": "AL81",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "AL18",
+      "name": "AL18",
       "tags": [
         "Switch"
       ]
