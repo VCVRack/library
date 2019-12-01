@@ -91,6 +91,18 @@
       "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Whey.pdf"
     },
     {
+      "slug": "Tuffet",
+      "name": "Tuffet",
+      "description": "Synthetic FX Tuffet",
+      "tags": [
+        "VCF",
+        "Effect",
+        "Digital",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Tuffet.pdf"
+    },
+    {
       "slug": "Mix",
       "name": "Mix",
       "description": "Synthetic FX Effect Mixer",
