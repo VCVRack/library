@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -89,6 +89,16 @@
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Infix.md"
     },
     {
+      "slug": "InfixMicro",
+      "name": "\u00b5INFIX",
+      "description": "Insert for polyphonic cables",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Infix.md"
+    },
+    {
       "slug": "Strip",
       "name": "STRIP",
       "description": "Manage a group of modules by using the expander-mechanism, providing load, save, copy, paste, disable, enable and randomize",
@@ -103,6 +113,16 @@
       "slug": "EightFace",
       "name": "8FACE",
       "description": "Universal expander for sequencing up to eight presets of any module",
+      "tags": [
+        "Utility",
+        "Sequencer"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/EightFace.md"
+    },
+    {
+      "slug": "EightFaceX2",
+      "name": "8FACEx2",
+      "description": "Universal expander for sequencing up to sixteen presets of any module",
       "tags": [
         "Utility",
         "Sequencer"
@@ -142,6 +162,27 @@
         "Switch"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/FourRounds.md"
+    },
+    {
+      "slug": "Arena",
+      "name": "ARENA",
+      "description": "2-dimensional XY-Mixer for 8 sources with various modulation targets and fun graphical interface",
+      "tags": [
+        "Utility",
+        "Controller",
+        "Mixer"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Arena.md"
+    },
+    {
+      "slug": "Maze",
+      "name": "MAZE",
+      "description": "4 channel sequencer running on a 2-dimensional grid",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Maze.md"
     },
     {
       "slug": "AudioInterface64",

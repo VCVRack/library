@@ -1,7 +1,7 @@
 {
   "slug": "GlueTheGiant",
   "name": "Glue the Giant",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "GPL-3.0-or-later",
   "brand": "Glue the Giant",
   "author": "Paul Merchant",
@@ -11,20 +11,22 @@
   "manualUrl": "https://github.com/gluethegiant/gtg-rack/wiki",
   "sourceUrl": "https://github.com/gluethegiant/gtg-rack",
   "donateUrl": "",
+  "changelogUrl": "https://github.com/gluethegiant/gtg-rack/#release-notes",
   "modules": [
-    {
-      "slug": "MiniBus",
-      "name": "Mini Bus Mixer",
-      "description": "Mono to three stereo buses",
-      "tags": [
-        "Mixer",
-        "Polyphonic"
-      ]
-    },
     {
       "slug": "GigBus",
       "name": "Gig Bus Mixer",
       "description": "Pan to three stereo buses",
+      "tags": [
+        "Mixer",
+        "visual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MiniBus",
+      "name": "Mini Bus Mixer",
+      "description": "Mono to three stereo buses",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -61,7 +63,7 @@
     {
       "slug": "BusRoute",
       "name": "Bus Route",
-      "description": "Three stereo sends and returns",
+      "description": "Three stereo sends and returns with optional sample delays",
       "tags": [
         "Mixer",
         "Delay",
@@ -72,7 +74,7 @@
     {
       "slug": "Road",
       "name": "Road",
-      "description": "Merge stereo buses from mix groups",
+      "description": "Merge stereo buses from mixers and mix groups",
       "tags": [
         "Utility",
         "Polyphonic"
