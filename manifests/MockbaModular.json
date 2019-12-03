@@ -1,7 +1,7 @@
 {
   "slug": "MockbaModular",
   "name": "Mockba Modular",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "license": "MIT",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -25,6 +25,15 @@
       "slug": "Feidah",
       "name": "Feidah",
       "description": "Simple signal fader",
+      "tags": [
+        "Attenuator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "FeidahS",
+      "name": "FeidahS",
+      "description": "Simple stereo signal fader",
       "tags": [
         "Attenuator",
         "Polyphonic"
