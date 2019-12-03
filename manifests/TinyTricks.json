@@ -2,7 +2,7 @@
   "slug": "TinyTricks",
   "name": "Tiny Tricks",
   "brand": "Tiny Tricks",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "license": "GPL-3.0-only",
   "author": "Thomas Ren\u00e9 Sidor",
   "authorEmail": "mail@thomassidor.com",
@@ -86,7 +86,8 @@
       "name": "Arithmetic",
       "description": "A bunch of arithmetic tricks on two inputs.",
       "tags": [
-        "utility"
+        "utility",
+        "poly"
       ]
     },
     {
@@ -95,7 +96,8 @@
       "description": "A bunch of logic tricks on two inputs.",
       "tags": [
         "utility",
-        "logic"
+        "logic",
+        "poly"
       ]
     },
     {
@@ -103,7 +105,8 @@
       "name": "Sine Oscillator",
       "description": "A tiny sine based oscillator.",
       "tags": [
-        "oscillator"
+        "oscillator",
+        "poly"
       ]
     },
     {
@@ -111,7 +114,8 @@
       "name": "Saw Oscillator",
       "description": "A tiny saw based oscillator.",
       "tags": [
-        "oscillator"
+        "oscillator",
+        "poly"
       ]
     },
     {
@@ -119,7 +123,8 @@
       "name": "Square Oscillator",
       "description": "A tiny square based oscillator.",
       "tags": [
-        "oscillator"
+        "oscillator",
+        "poly"
       ]
     },
     {
@@ -127,7 +132,8 @@
       "name": "Triangle Oscillator",
       "description": "A tiny triangle based oscillator.",
       "tags": [
-        "oscillator"
+        "oscillator",
+        "poly"
       ]
     },
     {
@@ -135,7 +141,8 @@
       "name": "Sine+ Oscillator",
       "description": "Three sine based oscillators with detune and sync.",
       "tags": [
-        "oscillator"
+        "oscillator",
+        "poly"
       ]
     },
     {
@@ -143,7 +150,8 @@
       "name": "Sawtooth+ Oscillator",
       "description": "Three sawtooth based oscillators with detune and sync.",
       "tags": [
-        "oscillator"
+        "oscillator",
+        "poly"
       ]
     },
     {
@@ -151,7 +159,8 @@
       "name": "Square+ Oscillator",
       "description": "Three square based oscillators with detune and sync.",
       "tags": [
-        "oscillator"
+        "oscillator",
+        "poly"
       ]
     },
     {
@@ -159,7 +168,8 @@
       "name": "Triangle+ Oscillator",
       "description": "Three triangle based oscillators with detune and sync.",
       "tags": [
-        "oscillator"
+        "oscillator",
+        "poly"
       ]
     },
     {
@@ -195,7 +205,8 @@
       "name": "Simplex Oscillator",
       "description": "A oscillator based on a simplex noise source.",
       "tags": [
-        "oscillator"
+        "oscillator",
+        "poly"
       ]
     },
     {
@@ -203,7 +214,19 @@
       "name": "Wavetable Oscillator",
       "description": "A wavetable oscillator where you can record your own waves.",
       "tags": [
-        "oscillator"
+        "oscillator",
+        "poly"
+      ]
+    },
+    {
+      "slug": "RW",
+      "name": "Random Wrangler",
+      "description": "Random generation that you control.",
+      "tags": [
+        "random",
+        "noise",
+        "low-frequency oscillator",
+        "sample and hold"
       ]
     }
   ]
