@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "license": "GPL-3.0-only",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -20,7 +20,8 @@
       "tags": [
         "Physical modeling",
         "Blank",
-        "Controller"
+        "Controller",
+        "Utility"
       ]
     },
     {
@@ -68,7 +69,8 @@
       "name": "baR",
       "description": "Compressor",
       "tags": [
-        "Dynamics"
+        "Dynamics",
+        "Effect"
       ]
     },
     {
@@ -76,7 +78,8 @@
       "name": "mINIBar",
       "description": "Compressor",
       "tags": [
-        "Dynamics"
+        "Dynamics",
+        "Effect"
       ]
     },
     {
@@ -117,7 +120,8 @@
       "name": "dFUZE",
       "description": "Reverb",
       "tags": [
-        "Reverb"
+        "Reverb",
+        "Effect"
       ]
     },
     {
@@ -151,7 +155,7 @@
       "tags": [
         "VCF",
         "filter",
-        "vcf"
+        "Effect"
       ]
     },
     {
@@ -195,7 +199,7 @@
       "tags": [
         "VCF",
         "filter",
-        "vcf"
+        "Effect"
       ]
     },
     {
@@ -211,7 +215,8 @@
       "name": "LoURdE",
       "description": "Neural comparator & gate",
       "tags": [
-        "Logic"
+        "Logic",
+        "Effect"
       ]
     },
     {
@@ -227,7 +232,8 @@
       "name": "MS",
       "description": "Mid/Side Decoder/Encoder",
       "tags": [
-        "Effect"
+        "Effect",
+        "Utility"
       ]
     },
     {
@@ -248,6 +254,30 @@
       ]
     },
     {
+      "slug": "POUPRE",
+      "name": "p\u00f3UPr\u00e8",
+      "description": "Sample player",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "MAGMA",
+      "name": "maGma",
+      "description": "Sample player",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "OAI",
+      "name": "oA\u00ef",
+      "description": "Sample player",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
       "slug": "PeNEqUe",
       "name": "PeNEqUe",
       "description": "Additive osicllator",
@@ -262,7 +292,7 @@
       "tags": [
         "VCF",
         "filter",
-        "vcf"
+        "Effect"
       ]
     },
     {
@@ -279,7 +309,8 @@
       "name": "REI",
       "description": "Reverb",
       "tags": [
-        "Reverb"
+        "Reverb",
+        "Effect"
       ]
     },
     {
@@ -322,6 +353,7 @@
       "description": "Multiband distortion",
       "tags": [
         "Effect",
+        "VCF",
         "Distortion"
       ]
     }

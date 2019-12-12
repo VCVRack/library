@@ -1,7 +1,7 @@
 {
   "slug": "MockbaModular",
   "name": "Mockba Modular",
-  "version": "1.1.0",
+  "version": "1.1.3",
   "license": "MIT",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -40,6 +40,15 @@
       ]
     },
     {
+      "slug": "Filtah",
+      "name": "Filtah",
+      "description": "Simple Moog style filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Mixah",
       "name": "Mixah",
       "description": "Simple two signal mixer",
@@ -70,6 +79,32 @@
       "description": "Simple 4 to 1 selector",
       "tags": [
         "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Shapah",
+      "name": "Shapah",
+      "description": "Simple ADSR envelope shaper",
+      "tags": [
+        "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Holdah",
+      "name": "Holdah",
+      "description": "Simple Sample & Hold",
+      "tags": [
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "Pannah",
+      "name": "Pannah",
+      "description": "Simple stereo panner",
+      "tags": [
+        "Panning",
         "Polyphonic"
       ]
     },
@@ -143,6 +178,78 @@
       "tags": [
         "Oscillator",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Comparator",
+      "name": "Comparator",
+      "description": "Simple voltage comparator",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DualBUFFER",
+      "name": "DualBUFFER",
+      "description": "Simple BUFFER gates (3 actually)",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DualNOT",
+      "name": "DualNOT",
+      "description": "Simple NOT gates (3 actually)",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DualOR",
+      "name": "DualOR",
+      "description": "Simple OR gates",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DualNOR",
+      "name": "DualNOR",
+      "description": "Simple NOR gates",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DualAND",
+      "name": "DualAND",
+      "description": "Simple AND gates",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DualNAND",
+      "name": "DualNAND",
+      "description": "Simple NAND gates",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DualXOR",
+      "name": "DualXOR",
+      "description": "Simple XOR gates",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DualXNOR",
+      "name": "DualXNOR",
+      "description": "Simple XNOR gates",
+      "tags": [
+        "Utility"
       ]
     },
     {

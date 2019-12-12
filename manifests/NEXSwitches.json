@@ -1,7 +1,7 @@
 {
   "slug": "NEXSwitches",
   "name": "NEX Switches",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "license": "GPL-3.0-only",
   "brand": "NEX",
   "author": "Xavier Nayrac",
@@ -10,8 +10,8 @@
   "pluginUrl": "https://github.com/lkdjiin/SwitchesModules",
   "manualUrl": "https://github.com/lkdjiin/SwitchesModules",
   "sourceUrl": "https://github.com/lkdjiin/SwitchesModules",
-  "donateUrl": "",
-  "changelogUrl": "",
+  "donateUrl": "https://paypal.me/xaviernayrac",
+  "changelogUrl": "https://github.com/lkdjiin/SwitchesModules/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "DoubleMute",
@@ -27,6 +27,14 @@
       "description": "Mute/unmute 2 groups of 2 inputs",
       "tags": [
         "switch"
+      ]
+    },
+    {
+      "slug": "MatrixMixer4",
+      "name": "Matrix Mixer 4",
+      "description": "4 x 4 matrix mixer",
+      "tags": [
+        "mixer"
       ]
     }
   ]

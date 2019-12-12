@@ -1,7 +1,7 @@
 {
   "slug": "GlueTheGiant",
   "name": "Glue the Giant",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Glue the Giant",
   "author": "Paul Merchant",
@@ -16,17 +16,18 @@
     {
       "slug": "GigBus",
       "name": "Gig Bus Mixer",
-      "description": "Pan to three stereo buses",
+      "description": "Stereo mixer to three stereo buses",
       "tags": [
         "Mixer",
-        "visual",
+        "Panning",
+        "Visual",
         "Polyphonic"
       ]
     },
     {
       "slug": "MiniBus",
       "name": "Mini Bus Mixer",
-      "description": "Mono to three stereo buses",
+      "description": "Mono mixer to three stereo buses",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -35,9 +36,10 @@
     {
       "slug": "SchoolBus",
       "name": "School Bus Mixer",
-      "description": "Pan and CV to three stereo buses",
+      "description": "Pan and levels with CVs to three stereo buses",
       "tags": [
         "Mixer",
+        "Panning",
         "Polyphonic"
       ]
     },
@@ -47,6 +49,7 @@
       "description": "Polyphonic stereo spread (and pan follow) to three stereo buses",
       "tags": [
         "Mixer",
+        "Panning",
         "Polyphonic"
       ]
     },
@@ -74,7 +77,7 @@
     {
       "slug": "Road",
       "name": "Road",
-      "description": "Merge stereo buses from mixers and mix groups",
+      "description": "Merge stereo buses from mixers or mix groups",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -85,7 +88,8 @@
       "name": "Enter Mixer Bus",
       "description": "Three stereo inputs to stereo buses",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -93,7 +97,8 @@
       "name": "Exit Mixer Bus",
       "description": "Three stereo outputs from stereo buses",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     }
   ]

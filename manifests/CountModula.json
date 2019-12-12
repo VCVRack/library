@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -472,6 +472,14 @@
       ]
     },
     {
+      "slug": "Blank2HP",
+      "name": "Blank Panel - 2HP",
+      "description": "2HP blanking panel",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
       "slug": "Blank4HP",
       "name": "Blank Panel - 4HP",
       "description": "4HP blanking panel",
@@ -541,6 +549,41 @@
       "slug": "SequencerExpanderTSG",
       "name": "Trigger Sequencer Gate Expander",
       "description": "Adds gate outputs to the 8 and 16 Step Trigger Sequencers",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "VCPulseDivider",
+      "name": "Voltage Controlled Pulse Divider",
+      "description": "Voltage controlled division of pulse signals such as gates and triggers.",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "ClockedRandomGates",
+      "name": "Clocked Random Gates",
+      "description": "Generates a set of 8 synchronised gates and triggers",
+      "tags": [
+        "Clock Modulator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ClockedRandomGateExpanderCV",
+      "name": "Clocked Random Gate CV Expander",
+      "description": "Generates CV based on the state of the random gates",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "ClockedRandomGateExpanderLog",
+      "name": "Clocked Random Gate Logic Expander",
+      "description": "Logical processing of the gates from the Clocked Random Gates module",
       "tags": [
         "Sequencer",
         "Expander"
