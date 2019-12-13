@@ -1,7 +1,7 @@
 {
   "slug": "LindenbergResearch",
   "name": "LindenbergResearch",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "license": "proprietary",
   "author": "Lindenberg Research",
   "authorEmail": "heapdump@icloud.com",
@@ -14,7 +14,17 @@
       "name": "Woldemar analog VCO",
       "description": "Analog oscillator",
       "tags": [
-        "OSCILLATOR"
+        "OSCILLATOR",
+        "Polyphon"
+      ]
+    },
+    {
+      "slug": "MicroWolde",
+      "name": "Compact Woldemar analog VCO",
+      "description": "Analog oscillator",
+      "tags": [
+        "OSCILLATOR",
+        "Polyphon"
       ]
     },
     {
@@ -30,7 +40,8 @@
       "name": "Neo Filter",
       "description": "Neo distortion filter",
       "tags": [
-        "FILTER"
+        "FILTER",
+        "Polyphon"
       ]
     },
     {
@@ -95,6 +106,15 @@
       "name": "Stereo via polyphonic tool",
       "description": "Converts a stereo signal to poly and vice versa",
       "tags": [
+        "TOOL",
+        "Polyphon"
+      ]
+    },
+    {
+      "slug": "VCSpread",
+      "name": "Voltage Controlled Signal Spread",
+      "description": "Takes and input signal and generates n- shifted output signals via poly out",
+      "tags": [
         "TOOL"
       ]
     },
@@ -137,7 +157,8 @@
       "description": "Voltage controlled BBD Analog time repeater",
       "tags": [
         "DELAY",
-        "EFFECT"
+        "EFFECT",
+        "Polyphon"
       ]
     }
   ]
