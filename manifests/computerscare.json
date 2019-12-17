@@ -1,6 +1,6 @@
 {
   "slug": "computerscare",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "name": "computerscare",
   "brand": "computerscare",
   "author": "computerscare",
@@ -68,7 +68,8 @@
       "tags": [
         "Sequencer",
         "Clock modulator",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {

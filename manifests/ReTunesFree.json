@@ -1,0 +1,25 @@
+{
+  "slug": "ReTunesFree",
+  "name": "ReTunes Free",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "ReTunes",
+  "author": "Domino Marama",
+  "authorEmail": "domino@dominodesigns.info",
+  "authorUrl": "https://dominodesigns.info",
+  "pluginUrl": "https://github.com/DominoMarama/ReTunesFree/wiki/Home",
+  "manualUrl": "https://github.com/DominoMarama/ReTunesFree/wiki/For-Four",
+  "sourceUrl": "https://github.com/DominoMarama/ReTunesFree",
+  "donateUrl": "https://www.paypal.me/DominoDesigns",
+  "changelogUrl": "https://raw.githubusercontent.com/DominoMarama/ReTunesFree/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "ReTunes-ForFour",
+      "name": "For Four",
+      "description": "Clock splitter, counters and patterns for four beats per bar",
+      "tags": [
+        "Clock"
+      ]
+    }
+  ]
+}

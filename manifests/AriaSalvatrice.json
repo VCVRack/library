@@ -1,0 +1,26 @@
+{
+  "slug": "AriaSalvatrice",
+  "name": "Aria Salvatrice",
+  "version": "1.0.0",
+  "license": "WTFPL",
+  "brand": "Aria Salvatrice",
+  "author": "Aria Salvatrice",
+  "authorEmail": "woof@aria.dog",
+  "authorUrl": "https://aria.dog/",
+  "pluginUrl": "https://github.com/AriaSalvatrice/AriaVCVModules",
+  "manualUrl": "https://github.com/AriaSalvatrice/AriaVCVModules",
+  "sourceUrl": "https://github.com/AriaSalvatrice/AriaVCVModules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Splirge",
+      "name": "Splirge",
+      "description": "Tiny 4-channel polyphonic split and merge",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    }
+  ]
+}
