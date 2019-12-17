@@ -448,3 +448,6 @@
 [submodule "repos/MSM"]
 	path = repos/MSM
 	url = https://github.com/netboy3/MSM-vcvrack-plugin.git
+[submodule "repos/ReTunesFree"]
+	path = repos/ReTunesFree
+	url = https://github.com/DominoMarama/ReTunesFree.git
