@@ -451,3 +451,6 @@
 [submodule "repos/ReTunesFree"]
 	path = repos/ReTunesFree
 	url = https://github.com/DominoMarama/ReTunesFree.git
+[submodule "repos/AriaSalvatrice"]
+	path = repos/AriaSalvatrice
+	url = https://github.com/AriaSalvatrice/AriaVCVModules.git
