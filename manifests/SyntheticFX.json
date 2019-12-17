@@ -1,7 +1,7 @@
 {
   "slug": "SyntheticFX",
   "name": "Synthetic FX",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "PROPRIETARY",
   "author": "SV Modular",
   "authorEmail": "svmodular@legitimatesounding.com",
@@ -101,6 +101,17 @@
         "Polyphonic"
       ],
       "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Tuffet.pdf"
+    },
+    {
+      "slug": "Delay",
+      "name": "Delay",
+      "description": "Synthetic FX Delay",
+      "tags": [
+        "Delay",
+        "Effect",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Delay.pdf"
     },
     {
       "slug": "Mix",
