@@ -1,7 +1,7 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
@@ -169,7 +169,7 @@
     },
     {
       "slug": "AttackDecay",
-      "name": "AttackDecay Attack Decay Envelope EG",
+      "name": "AttackDecay, Attack Decay, AD, ADSR, Envelope EG",
       "description": "Attack Decay Envelope",
       "tags": [
         "Envelope generator",
@@ -178,7 +178,7 @@
     },
     {
       "slug": "PolyAttackDecay",
-      "name": "PolyAttackDecay Polyphonic Attack Decay Envelope Generator EG",
+      "name": "PolyAttackDecay Polyphonic Attack Decay, AD, ADSR, Envelope Generator EG",
       "description": "Polyphonic Attack Decay Envelope Generator",
       "tags": [
         "Envelope generator",
@@ -188,7 +188,7 @@
     },
     {
       "slug": "DelayAttackHoldDecay",
-      "name": "DAHD DelayAttackHoldDecay Delay Attack Hold Decay Envelope, like 281e, Serge USG, ems trapezoid",
+      "name": "DAHD DelayAttackHoldDecay Delay Attack Hold Decay Envelope like 281e, Serge USG, ems trapezoid",
       "description": "Delay Attack Hold Decay Envelope, like 281e, Serge USG, ems trapezoid",
       "tags": [
         "Envelope generator",
@@ -608,7 +608,7 @@
     },
     {
       "slug": "OP",
-      "name": "\u00b5OPERATOR, FM OPERATOR",
+      "name": "\u00b5OPERATOR, FM OPERATOR, Sinusoid VCO",
       "description": "Operator dx7 style, a Sine VCO",
       "tags": [
         "VCO",
@@ -618,7 +618,7 @@
     },
     {
       "slug": "EN",
-      "name": "\u00b5ENVELOPE, FM Envelope helper",
+      "name": "\u00b5ENVELOPE, AD or ADSR FM Envelope helper",
       "description": "Envelope generator AR or ADSR style",
       "tags": [
         "Envelope generator",
