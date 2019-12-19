@@ -1,0 +1,34 @@
+{
+  "slug": "MM_Oscah",
+  "name": "Special Vintage Oscillators",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Mockba Modular",
+  "author": "Mockba the Borg",
+  "authorEmail": "mockba.the.borg@gmail.com",
+  "authorUrl": "http://mockbatheb.org/",
+  "pluginUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_Oscah",
+  "manualUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_Oscah/README.md",
+  "donateUrl": "http://paypal.me/MockbaTheBorg",
+  "changelogUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_Oscah/RN.md",
+  "modules": [
+    {
+      "slug": "CZOscah",
+      "name": "CZ Oscah",
+      "description": "Casio CZ like oscillator with wave sequence",
+      "tags": [
+        "Polyphonic",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "MaugOscah",
+      "name": "Maug Oscah",
+      "description": "Moog like oscillator with wave sequence",
+      "tags": [
+        "Polyphonic",
+        "Oscillator"
+      ]
+    }
+  ]
+}
