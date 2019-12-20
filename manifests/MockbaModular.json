@@ -1,7 +1,7 @@
 {
   "slug": "MockbaModular",
   "name": "Mockba Modular",
-  "version": "1.1.3",
+  "version": "1.1.6",
   "license": "MIT",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -24,18 +24,20 @@
     {
       "slug": "Feidah",
       "name": "Feidah",
-      "description": "Simple signal fader",
+      "description": "Simple signal fader with VCA",
       "tags": [
         "Attenuator",
+        "VCA",
         "Polyphonic"
       ]
     },
     {
       "slug": "FeidahS",
       "name": "FeidahS",
-      "description": "Simple stereo signal fader",
+      "description": "Simple stereo signal fader with VCA",
       "tags": [
         "Attenuator",
+        "VCA",
         "Polyphonic"
       ]
     },
@@ -51,7 +53,17 @@
     {
       "slug": "Mixah",
       "name": "Mixah",
-      "description": "Simple two signal mixer",
+      "description": "Simple two signal mixer with VCA",
+      "tags": [
+        "Mixer",
+        "VCA",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Mixah3",
+      "name": "Mixah3",
+      "description": "Simple three signal mixer",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -102,7 +114,7 @@
     {
       "slug": "Pannah",
       "name": "Pannah",
-      "description": "Simple stereo panner",
+      "description": "Simple stereo panner with modulation",
       "tags": [
         "Panning",
         "Polyphonic"
@@ -175,6 +187,87 @@
       "slug": "CZReso3",
       "name": "CZReso3",
       "description": "Simple CZ style RESO3 oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CZOsc",
+      "name": "CZOsc",
+      "description": "Simple CZ style oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MaugTriangle",
+      "name": "MaugTriangle",
+      "description": "Simple Moog style TRIANGLE oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MaugShark",
+      "name": "MaugShark",
+      "description": "Simple Moog style SHARK oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MaugSaw",
+      "name": "MaugSaw",
+      "description": "Simple Moog style SAW oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MaugSaw2",
+      "name": "MaugSaw2",
+      "description": "Simple Moog style INVSAW oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MaugSquare",
+      "name": "MaugSquare",
+      "description": "Simple Moog style SQUARE .48 oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MaugSquare2",
+      "name": "MaugSquare2",
+      "description": "Simple Moog style SQUARE .29 oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MaugSquare3",
+      "name": "MaugSquare3",
+      "description": "Simple Moog style SQUARE .17 oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MaugOsc",
+      "name": "MaugOsc",
+      "description": "Simple Moog style oscillator",
       "tags": [
         "Oscillator",
         "Polyphonic"
