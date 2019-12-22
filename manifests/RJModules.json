@@ -1,7 +1,7 @@
 {
   "slug": "RJModules",
   "name": "RJModules",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "license": "MIT",
   "brand": "RJModules",
   "author": "Rich Jones",
@@ -429,6 +429,30 @@
       "description": "Brick Wall Limiter",
       "tags": [
         "Effect"
+      ]
+    },
+    {
+      "slug": "Slapback",
+      "name": "Dual Slap Back Delay",
+      "description": "An opinionated dual slapback delay",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "LeftHandRightHand",
+      "name": "Split Keyboard MIDI-CV",
+      "description": "MIDI to CV for Splitting a Keyboard into Left and Right Hands",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Euclidian",
+      "name": "Euclidian - Euclidian Rhythm Generator",
+      "description": "Euclidian - Euclidian Rhythm Generator in E(m, k) + i format, with presets.",
+      "tags": [
+        "Sequencer"
       ]
     }
   ]
