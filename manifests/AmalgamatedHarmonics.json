@@ -9,7 +9,7 @@
   "authorUrl": "https://github.com/jhoar/AmalgamatedHarmonics/wiki",
   "sourceUrl": "https://github.com/jhoar/AmalgamatedHarmonics",
   "changelogUrl": "https://github.com/jhoar/AmalgamatedHarmonics/releases",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "modules": [
     {
       "slug": "Arp31",
@@ -150,6 +150,24 @@
       "description": "Polyphonic 'Scope",
       "tags": [
         "Visual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyUtils",
+      "name": "PolyUtils",
+      "description": "Utilities for Polyphony",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyVolt",
+      "name": "PolyVolt",
+      "description": "Set voltages in Poly cable",
+      "tags": [
+        "Utility",
         "Polyphonic"
       ]
     },

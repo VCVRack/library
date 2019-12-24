@@ -1,9 +1,9 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.9.8",
+  "version": "1.10.0",
   "author": "almostEric",
-  "license": "CC0-1.0",
+  "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
   "pluginUrl": "https://github.com/almostEric/FrozenWasteland/blob/master/README.md",
   "authorUrl": "https://vcvrack.com/",
@@ -53,6 +53,19 @@
       ]
     },
     {
+      "slug": "DrunkenRampage",
+      "name": "Runken Rampage",
+      "description": "Probalistic Dual ramp generator. Inspired by Befaco Rampage.",
+      "tags": [
+        "Function Generator",
+        "Logic",
+        "Slew Limiter",
+        "Envelope Follower",
+        "Dual",
+        "Random"
+      ]
+    },
+    {
       "slug": "EverlastingGlottalStopper",
       "name": "Everlasting Glottal Stopper",
       "description": "Vocal Tract simulating VCO",
@@ -66,6 +79,14 @@
       "description": "64 Tap Rhythmic Comb Filter",
       "tags": [
         "VCF"
+      ]
+    },
+    {
+      "slug": "JustAPhaser",
+      "name": "Just A Phaser",
+      "description": "Advanced Phaser",
+      "tags": [
+        "Phaser"
       ]
     },
     {
@@ -112,9 +133,18 @@
       ]
     },
     {
+      "slug": "ProbablyNoteArabic",
+      "name": "Probably Note - Arabic",
+      "description": "Probabilistic Quantizer using Arabic maqams, ajnas and sayrs",
+      "tags": [
+        "Quantizer",
+        "Random"
+      ]
+    },
+    {
       "slug": "ProbablyNoteBP",
       "name": "Probably Note - Bohlen Pierce",
-      "description": "Probabilistic Quantizer using Bohlen Pierce tuning",
+      "description": "Probabilistic Quantizer using Bohlen Pierce scales and tuning",
       "tags": [
         "Quantizer",
         "Random"
@@ -151,6 +181,14 @@
       "tags": [
         "Expander",
         "Random"
+      ]
+    },
+    {
+      "slug": "QARWarpedSpaceExpander",
+      "name": "QAR - Warped Space",
+      "description": "Make your QAR Rhythms explore non-linear space",
+      "tags": [
+        "Expander"
       ]
     },
     {
