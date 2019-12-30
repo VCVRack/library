@@ -454,3 +454,6 @@
 [submodule "repos/AriaSalvatrice"]
 	path = repos/AriaSalvatrice
 	url = https://github.com/AriaSalvatrice/AriaVCVModules.git
+[submodule "repos/AuntyLangtonsFree"]
+	path = repos/AuntyLangtonsFree
+	url = https://github.com/64MM4-KN1F3/AuntyLangtons-FREE.git
