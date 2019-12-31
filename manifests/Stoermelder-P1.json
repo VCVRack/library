@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -183,6 +183,15 @@
         "Random"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Maze.md"
+    },
+    {
+      "slug": "Intermix",
+      "name": "INTERMIX",
+      "description": "Precision adder 8x8 switch matrix with scene-support",
+      "tags": [
+        "Mixer"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Intermix.md"
     },
     {
       "slug": "AudioInterface64",
