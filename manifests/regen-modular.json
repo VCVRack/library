@@ -1,0 +1,100 @@
+{
+  "slug": "regen-modular",
+  "name": "Regen Modular",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "Studio Regen",
+  "authorEmail": "studioregen@gmail.com",
+  "authorUrl": "http://www.studioregen.com/",
+  "pluginUrl": "http://modular.studioregen.com/",
+  "manualUrl": "https://gitlab.com/studio-regen/regen-modular/wikis/user-manual",
+  "modules": [
+    {
+      "slug": "regen-cyclex-vco",
+      "name": "Cyclex VCO",
+      "description": "Oscillator that generates waveforms using looped simplex noise.",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "regen-cyclex-lfo",
+      "name": "Cyclex LFO",
+      "description": "Low-frequency oscillator that generates waveforms using looped simplex noise.",
+      "tags": [
+        "LFO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "regen-frames",
+      "name": "Frames",
+      "description": "A sequencer that takes inspiration from tracker software.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "regen-nessie-triangle",
+      "name": "Nessie Triangle",
+      "description": "Chip inspired quantized triangle oscillator.",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "regen-nessie-pulse",
+      "name": "Nessie Pulse",
+      "description": "Chip inspired pulse oscillator.",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "regen-nessie-noise",
+      "name": "Nessie Noise",
+      "description": "Chip inspired periodic noise oscillator.",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "regen-nessie-saw",
+      "name": "Nessie Saw",
+      "description": "Chip inspired sawtooth oscillator.",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "regen-quan",
+      "name": "Quan",
+      "description": "Note quantizer with even and uneven distribution modes.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "regen-const",
+      "name": "Const",
+      "description": "Four-channel DC voltage generator.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "regen-xfade",
+      "name": "XFade",
+      "description": "Linear crossfader for blending between two input signals.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
