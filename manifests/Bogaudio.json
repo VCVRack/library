@@ -1,7 +1,7 @@
 {
   "slug": "Bogaudio",
   "name": "Bogaudio",
-  "version": "1.1.25",
+  "version": "1.1.26",
   "license": "BSD-3-Clause",
   "brand": "Bogaudio",
   "author": "Matt Demanett",
@@ -16,6 +16,33 @@
       "slug": "Bogaudio-VCO",
       "name": "VCO",
       "description": "Oscillator with 4 waveforms, PWM, FM, hard sync",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-LVCO",
+      "name": "LVCO",
+      "description": "Compact oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Sine",
+      "name": "SINE",
+      "description": "Compact oscillator with phase offset",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Pulse",
+      "name": "PULSE",
+      "description": "Compact square/pulse oscillator with PWM",
       "tags": [
         "Oscillator",
         "Polyphonic"
@@ -95,15 +122,6 @@
       ]
     },
     {
-      "slug": "Bogaudio-DGate",
-      "name": "DGATE",
-      "description": "Trigger-to-gate converter with delay",
-      "tags": [
-        "Utility",
-        "Polyphonic"
-      ]
-    },
-    {
       "slug": "Bogaudio-Shaper",
       "name": "SHAPER",
       "description": "Retro-inspired envelope generator and amplifier",
@@ -133,6 +151,15 @@
       ]
     },
     {
+      "slug": "Bogaudio-ASR",
+      "name": "ASR",
+      "description": "Utility attack/sustain/release envelope generator",
+      "tags": [
+        "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Bogaudio-ADSR",
       "name": "ADSR",
       "description": "Utility ADSR envelope generator",
@@ -147,6 +174,25 @@
       "description": "Envelope follower",
       "tags": [
         "Envelope follower",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-DGate",
+      "name": "DGATE",
+      "description": "Trigger-to-gate converter with delay",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Edge",
+      "name": "EDGE",
+      "description": "Edge detector, gate-to-trigger, comparator",
+      "tags": [
+        "Logic",
+        "Utility",
         "Polyphonic"
       ]
     },
@@ -224,24 +270,6 @@
       ]
     },
     {
-      "slug": "Bogaudio-UMix",
-      "name": "UMIX",
-      "description": "8-input unity mixer",
-      "tags": [
-        "Mixer",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "Bogaudio-Matrix88",
-      "name": "MATRIX88",
-      "description": "8x8 channel matrix mixer",
-      "tags": [
-        "Mixer",
-        "Polyphonic"
-      ]
-    },
-    {
       "slug": "Bogaudio-Mute8",
       "name": "MUTE8",
       "description": "Eight independent mutes with CV control",
@@ -285,6 +313,69 @@
       "description": "Voltage controlled amplifier with 12dB gain",
       "tags": [
         "VCA",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-UMix",
+      "name": "UMIX",
+      "description": "8-input unity mixer",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Mumix",
+      "name": "MUMIX",
+      "description": "8-input unity mixer with mutes",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Matrix44",
+      "name": "MATRIX44",
+      "description": "4x4 matrix mixer",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Matrix88",
+      "name": "MATRIX88",
+      "description": "8x8 matrix mixer",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Switch44",
+      "name": "SWITCH44",
+      "description": "4x4 matrix mixer",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Switch88",
+      "name": "SWITCH88",
+      "description": "8x8 matrix mixer",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Switch1616",
+      "name": "SWITCH1616",
+      "description": "16x16 matrix mixer",
+      "tags": [
+        "Mixer",
         "Polyphonic"
       ]
     },
@@ -399,7 +490,7 @@
     {
       "slug": "Bogaudio-Stack",
       "name": "STACK",
-      "description": "Relative pitch CV generator for stacking oscillators",
+      "description": "Pitch CV transposer, for stacking oscillators",
       "tags": [
         "Tuner",
         "Polyphonic"
@@ -415,8 +506,53 @@
     },
     {
       "slug": "Bogaudio-Mono",
-      "name": "Mono",
+      "name": "MONO",
       "description": "Poly-to-mono converter with onboard compressor",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Arp",
+      "name": "ARP",
+      "description": "Poly-input arpeggiator",
+      "tags": [
+        "Arpeggiator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Assign",
+      "name": "ASSIGN",
+      "description": "Poly voice (re)assigner",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Unison",
+      "name": "UNISON",
+      "description": "Poly unison voicing utility with detune",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-PolyCon",
+      "name": "POLYCON",
+      "description": "Polyphonic per-channel constant voltages",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-PolyMult",
+      "name": "POLYMULT",
+      "description": "Mono-to-poly multiple",
       "tags": [
         "Utility",
         "Polyphonic"
