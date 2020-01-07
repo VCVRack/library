@@ -1,0 +1,25 @@
+{
+  "slug": "MM_ModelV",
+  "name": "Model V",
+  "version": "1.0.1",
+  "license": "proprietary",
+  "brand": "Mockba Modular",
+  "author": "Mockba the Borg",
+  "authorEmail": "mockba.the.borg@gmail.com",
+  "authorUrl": "http://mockbatheb.org/",
+  "pluginUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_ModelV",
+  "manualUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_ModelV/README.md",
+  "donateUrl": "http://paypal.me/MockbaTheBorg",
+  "changelogUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_ModelV/RN.md",
+  "modules": [
+    {
+      "slug": "ModelV",
+      "name": "Model V",
+      "description": "Virtual analog 3-oscillator polysynth",
+      "tags": [
+        "Polyphonic",
+        "Hardware clone"
+      ]
+    }
+  ]
+}
