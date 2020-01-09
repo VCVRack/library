@@ -457,3 +457,6 @@
 [submodule "repos/AuntyLangtonsFree"]
 	path = repos/AuntyLangtonsFree
 	url = https://github.com/64MM4-KN1F3/AuntyLangtons-FREE.git
+[submodule "repos/Sckitam"]
+	path = repos/Sckitam
+	url = https://github.com/philippesalembier/SckitamVCV.git
