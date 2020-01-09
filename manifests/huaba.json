@@ -1,13 +1,33 @@
 {
-  "name": "huaba",
-  "author": "David Huber",
-  "authorEmail": "dhuber318@gmail.com",
-  "license": "MIT",
-  "authorUrl": "https://github.com/dhuber81",
-  "pluginUrl": "https://github.com/dhuber81/huaba",
-  "sourceUrl": "https://github.com/dhuber81/huaba",
-  "manualUrl": "https://github.com/dhuber81/huaba",
-  "donateUrl": "https://paypal.me/DanielHuber81",
   "slug": "huaba",
-  "version": "0.6.3"
+  "name": "huaba",
+  "version": "1.1.0",
+  "license": "MIT",
+  "brand": "huaba",
+  "author": "Daniel Huber",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/dhuber81/huaba",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "EQ3",
+      "name": "EQ3",
+      "description": "3-Band Equalizer",
+      "tags": [
+        "Equalizer"
+      ]
+    },
+    {
+      "slug": "ABBus",
+      "name": "A+B Bus",
+      "description": "Merges signals on the selected output bus",
+      "tags": [
+        "Utility"
+      ]
+    }
+  ]
 }

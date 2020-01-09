@@ -1,0 +1,27 @@
+{
+  "slug": "Kosmodules-Free",
+  "name": "Kosmodules-Free",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "brand": "Kosmodules",
+  "author": "Calvin Kosmatka",
+  "authorEmail": "calvin.kosmatka@gmail.com",
+  "authorUrl": "https://github.com/calvinkosmatka",
+  "pluginUrl": "https://github.com/calvinkosmatka/Kosmodules-Free",
+  "manualUrl": "https://github.com/calvinkosmatka/Kosmodules-Free#free-modules",
+  "sourceUrl": "https://github.com/calvinkosmatka/Kosmodules-Free",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "OSF",
+      "name": "OSF",
+      "description": "Offset Scale Fold",
+      "tags": [
+        "attenuator",
+        "dual",
+        "utility"
+      ]
+    }
+  ]
+}

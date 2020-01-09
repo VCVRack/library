@@ -1,0 +1,50 @@
+{
+  "slug": "Sckitam",
+  "name": "Sckitam",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "Sckitam",
+  "author": "Philippe Salembier",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/philippesalembier/SckitamVCV",
+  "sourceUrl": "https://github.com/philippesalembier/SckitamVCV",
+  "donateUrl": "PayPal.Me/Sckitam",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "2DRotation",
+      "name": "2DRotation",
+      "description": "2D Rotation of 2 input signals",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "2DAffine",
+      "name": "2DAffine",
+      "description": "2D Affine transform of 2 input signals",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MarkovSeq",
+      "name": "MarkovSeq",
+      "description": "Sequencer based on Markov chain",
+      "tags": [
+        "Sequencer",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "PolygonalVCO",
+      "name": "PolygonalVCO",
+      "description": "Polygonal VCO",
+      "tags": [
+        "VCO"
+      ]
+    }
+  ]
+}
