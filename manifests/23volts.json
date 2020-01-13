@@ -1,7 +1,7 @@
 {
   "slug": "23volts",
   "name": "23volts",
-  "version": "1.1.1",
+  "version": "1.0.1",
   "license": "GPL-3.0-only",
   "brand": "23volts",
   "author": "R\u00e9mi Collin",
@@ -11,7 +11,6 @@
   "manualUrl": "https://github.com/23volts/23volts-vcv",
   "sourceUrl": "https://github.com/23volts/23volts-vcv",
   "donateUrl": "https://paypal.me/23volts",
-  "changelogUrl": "https://github.com/23volts/23volts-vcv/CHANGELOG.md",
   "modules": [
     {
       "slug": "Mem",
@@ -35,47 +34,9 @@
       ]
     },
     {
-      "slug": "MultimapK",
-      "name": "Multimap",
-      "description": "Versatile Midi IO & mapping utility, 16 knobs version",
-      "tags": [
-        "Midi",
-        "Controller",
-        "Utility"
-      ]
-    },
-    {
-      "slug": "MultimapS",
-      "name": "Multimap",
-      "description": "Versatile Midi IO & mapping utility, 16 switches version",
-      "tags": [
-        "Midi",
-        "Controller",
-        "Utility"
-      ]
-    },
-    {
       "slug": "Split8",
       "name": "Split8",
       "description": "8 voices polyphonic splitter",
-      "tags": [
-        "Polyphonic",
-        "Utility"
-      ]
-    },
-    {
-      "slug": "Split4",
-      "name": "Split4",
-      "description": "2 x 4 voices polyphonic splitter",
-      "tags": [
-        "Polyphonic",
-        "Utility"
-      ]
-    },
-    {
-      "slug": "Merge4",
-      "name": "Merge4",
-      "description": "2 x 4 voices polyphonic merger",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -116,41 +77,6 @@
       "tags": [
         "Clock Modulator",
         "Polyphonic"
-      ]
-    },
-    {
-      "slug": "MidiPC",
-      "name": "MidiPC",
-      "description": "Sends and receive midi program change",
-      "tags": [
-        "MIDI"
-      ]
-    },
-    {
-      "slug": "PolyMerge",
-      "name": "PolyMerge",
-      "description": "Merge N polyphonic inputs to 1 polyphonic output",
-      "tags": [
-        "Polyphonic",
-        "Utility"
-      ]
-    },
-    {
-      "slug": "PolySplit",
-      "name": "PolySplit",
-      "description": "Splits 1 polyphonic input to N polyphonic outputs",
-      "tags": [
-        "Polyphonic",
-        "Utility"
-      ]
-    },
-    {
-      "slug": "MonoPoly",
-      "name": "MonoPoly",
-      "description": "Copy a mono channel to 1-n poly channels",
-      "tags": [
-        "Polyphonic",
-        "Utility"
       ]
     }
   ]
