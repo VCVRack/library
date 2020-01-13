@@ -1,6 +1,6 @@
 {
   "slug": "Bark",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "BSD-4-Clause",
   "name": "Coirt / Bark",
   "brand": "Bark",
@@ -13,6 +13,15 @@
   "changelogUrl": "https://github.com/Coirt/Bark/blob/master/changelog.txt",
   "donateUrl": "https://www.paypal.me/philgolden",
   "modules": [
+    {
+      "slug": "EOsum",
+      "name": "EO Sum",
+      "description": "Sums polyphonic channels and\ndistributes them to outputs\nbased on odd or even channel\nnumbers.",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
     {
       "slug": "TrimLFO",
       "name": "Trim LFO Hz",
