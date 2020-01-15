@@ -1,7 +1,7 @@
 {
   "slug": "AriaSalvatrice",
   "name": "Aria Salvatrice",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "WTFPL",
   "brand": "Aria Salvatrice",
   "author": "Aria Salvatrice",
@@ -11,15 +11,66 @@
   "manualUrl": "https://github.com/AriaSalvatrice/AriaVCVModules",
   "sourceUrl": "https://github.com/AriaSalvatrice/AriaVCVModules",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/AriaSalvatrice/AriaVCVModules/blob/master/CHANGELOG.md",
   "modules": [
     {
-      "slug": "Splirge",
-      "name": "Splirge",
-      "description": "Tiny 4-channel polyphonic split and merge",
+      "slug": "Splort",
+      "name": "Signature Series Splort",
+      "description": "16 channels polyphonic split with optional chainable sort mode",
       "tags": [
         "Polyphonic",
-        "Utility"
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Smerge",
+      "name": "Signature Series Smerge",
+      "description": "16 channels polyphonic merge with optional chainable sort mode",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Spleet",
+      "name": "Signature Series Spleet",
+      "description": "Dual 4 channels / single 8 channels polyphonic split with optional sort mode",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Logic",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Swerge",
+      "name": "Signature Series Swerge",
+      "description": "Dual 4 channels / single 8 channels polyphonic merge with optional sort mode",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Logic",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Splirge",
+      "name": "Signature Series Splirge",
+      "description": "4 channels polyphonic split and merge with optional sort mode",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Blank",
+      "name": "Signature Series 8hp Blank Plate",
+      "description": "A complimentary blank plate and \u2665-head screwdriver are provided with every Signature Series module purchase",
+      "tags": [
+        "Blank"
       ]
     }
   ]
