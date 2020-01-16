@@ -1,7 +1,7 @@
 {
   "slug": "Sckitam",
   "name": "Sckitam",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "GPL-3.0-only",
   "brand": "Sckitam",
   "author": "Philippe Salembier",
@@ -10,8 +10,8 @@
   "pluginUrl": "",
   "manualUrl": "https://github.com/philippesalembier/SckitamVCV",
   "sourceUrl": "https://github.com/philippesalembier/SckitamVCV",
-  "donateUrl": "PayPal.Me/Sckitam",
-  "changelogUrl": "",
+  "donateUrl": "https://PayPal.Me/Sckitam",
+  "changelogUrl": "https://github.com/philippesalembier/SckitamVCV/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "2DRotation",
