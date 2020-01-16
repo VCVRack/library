@@ -1,0 +1,24 @@
+{
+  "slug": "MM_ModelX",
+  "name": "Model X",
+  "version": "1.0.5",
+  "license": "proprietary",
+  "brand": "Mockba Modular",
+  "author": "Mockba the Borg",
+  "authorEmail": "mockba.the.borg@gmail.com",
+  "authorUrl": "http://mockbatheb.org/",
+  "pluginUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_ModelX",
+  "manualUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_ModelX/README.md",
+  "donateUrl": "http://paypal.me/MockbaTheBorg",
+  "changelogUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_ModelX/RN.md",
+  "modules": [
+    {
+      "slug": "ModelX",
+      "name": "Model X",
+      "description": "Virtual analog 3-oscillator hybrid polysynth",
+      "tags": [
+        "Polyphonic"
+      ]
+    }
+  ]
+}
