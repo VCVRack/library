@@ -1,7 +1,7 @@
 {
   "slug": "RJModules",
   "name": "RJModules",
-  "version": "1.5.0",
+  "version": "1.7.0",
   "license": "MIT",
   "brand": "RJModules",
   "author": "Rich Jones",
@@ -70,6 +70,14 @@
       "description": "Generates chords in various positions",
       "tags": [
         "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Noise",
+      "name": "Noise",
+      "description": "Filtered Noise Generator",
+      "tags": [
         "Utility"
       ]
     },
@@ -337,14 +345,6 @@
       ]
     },
     {
-      "slug": "Noise",
-      "name": "Noise",
-      "description": "Generates different types of noise.",
-      "tags": [
-        "Noise"
-      ]
-    },
-    {
       "slug": "Pluck",
       "name": "Pluck",
       "description": "Integrated ADSR/VCA. Makes a pluck noise.",
@@ -453,6 +453,30 @@
       "description": "Euclidian - Euclidian Rhythm Generator in E(m, k) + i format, with presets.",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Octo",
+      "name": "Octo - 8 Bespokely Phased Triangles",
+      "description": "Octo - 8 Bespokely Phased Triangles",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "RJChorus",
+      "name": "Chorus - It's a Chorus",
+      "description": "Chorus",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Instro",
+      "name": "Instro - Various Voices",
+      "description": "Instro - Various Voices",
+      "tags": [
+        "VCO"
       ]
     }
   ]

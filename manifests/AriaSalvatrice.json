@@ -1,7 +1,7 @@
 {
   "slug": "AriaSalvatrice",
   "name": "Aria Salvatrice",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "WTFPL",
   "brand": "Aria Salvatrice",
   "author": "Aria Salvatrice",
@@ -63,6 +63,15 @@
         "Polyphonic",
         "Utility",
         "Logic"
+      ]
+    },
+    {
+      "slug": "Darius",
+      "name": "Signature Series Darius",
+      "description": "Branching 8-step sequencer taking a random path through its nodes",
+      "tags": [
+        "Sequencer",
+        "Random"
       ]
     },
     {
