@@ -466,3 +466,6 @@
 [submodule "repos/PS-PurrSoftware"]
 	path = repos/PS-PurrSoftware
 	url = https://github.com/knchaffin/Meander.git
+[submodule "repos/voxglitch"]
+	path = repos/voxglitch
+	url = https://github.com/clone45/voxglitch.git
