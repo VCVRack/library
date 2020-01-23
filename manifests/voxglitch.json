@@ -1,0 +1,61 @@
+{
+  "slug": "voxglitch",
+  "name": "Voxglitch",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "Voxglitch",
+  "author": "Bret Truchan",
+  "authorEmail": "clone45@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/clone45/voxglitch",
+  "manualUrl": "https://github.com/clone45/voxglitch",
+  "sourceUrl": "https://github.com/clone45/voxglitch",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ghosts",
+      "name": "Ghosts",
+      "description": "Granular synthesis based sample player/scanner.",
+      "tags": [
+        "Granular",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "goblins",
+      "name": "Goblins",
+      "description": "Antisocial .wav player/scanner using granular synthesis",
+      "tags": [
+        "Granular",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "repeater",
+      "name": "Repeater",
+      "description": "Looping sample player with playback offset control.",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "wavbank",
+      "name": "Wav Bank",
+      "description": "Sample player that can load and switch between all .wav files in a folder.",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "xy",
+      "name": "XY",
+      "description": "CV output generator with built in gesture recording.",
+      "tags": [
+        "Sequencer",
+        "Recording",
+        "Envelope Generator"
+      ]
+    }
+  ]
+}
