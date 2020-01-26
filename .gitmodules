@@ -345,7 +345,7 @@
 	url = https://github.com/AnimatedCircuits/RackModules.git
 [submodule "repos/Ahornberg"]
 	path = repos/Ahornberg
-	url = https://github.com/Coirt/Ahornberg-Microtonal.git
+	url = https://github.com/Ahornberg/Ahornberg-Microtonal.git
 [submodule "repos/Prism"]
 	path = repos/Prism
 	url = https://github.com/AmalgamatedHarmonics/Prism.git
