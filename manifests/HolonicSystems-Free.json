@@ -1,14 +1,14 @@
 {
   "slug": "HolonicSystems-Free",
   "name": "Holonic Systems - Free",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "CC0-1.0",
   "author": "Holonic Systems",
   "brand": "Holonic Systems",
   "authorEmail": "henri@holonic.systems",
   "authorUrl": "https://holonic.systems/",
-  "pluginUrl": "https://holon.ist/vcv/",
-  "manualUrl": "https://holon.ist/vcv/",
+  "pluginUrl": "http://holon.ist/vcv/",
+  "manualUrl": "http://holon.ist/vcv/",
   "sourceUrl": "https://github.com/hdavid/VCVRack-Holon.ist",
   "donateUrl": "",
   "modules": [
