@@ -1,7 +1,7 @@
 {
   "slug": "LindenbergResearch",
   "name": "LindenbergResearch",
-  "version": "1.3.0",
+  "version": "1.3.3",
   "license": "proprietary",
   "author": "Lindenberg Research",
   "authorEmail": "heapdump@icloud.com",
@@ -15,7 +15,15 @@
       "description": "Analog oscillator",
       "tags": [
         "OSCILLATOR",
-        "Polyphon"
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Noiser",
+      "name": "NO!ZER Probability Emitter",
+      "description": "Variable noise and random generator",
+      "tags": [
+        "OSCILLATOR"
       ]
     },
     {
@@ -24,7 +32,7 @@
       "description": "Analog oscillator",
       "tags": [
         "OSCILLATOR",
-        "Polyphon"
+        "Polyphonic"
       ]
     },
     {
@@ -41,7 +49,7 @@
       "description": "Neo distortion filter",
       "tags": [
         "FILTER",
-        "Polyphon"
+        "Polyphonic"
       ]
     },
     {
@@ -107,7 +115,7 @@
       "description": "Converts a stereo signal to poly and vice versa",
       "tags": [
         "TOOL",
-        "Polyphon"
+        "Polyphonic"
       ]
     },
     {
@@ -158,7 +166,7 @@
       "tags": [
         "DELAY",
         "EFFECT",
-        "Polyphon"
+        "Polyphonic"
       ]
     }
   ]
