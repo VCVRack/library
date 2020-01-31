@@ -1,0 +1,24 @@
+{
+  "slug": "MM_Proton",
+  "name": "Proton",
+  "version": "1.0.6",
+  "license": "proprietary",
+  "brand": "Mockba Modular",
+  "author": "Mockba the Borg",
+  "authorEmail": "mockba.the.borg@gmail.com",
+  "authorUrl": "http://mockbatheb.org/",
+  "pluginUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_Proton",
+  "manualUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_Proton/README.md",
+  "donateUrl": "http://paypal.me/MockbaTheBorg",
+  "changelogUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_Proton/RN.md",
+  "modules": [
+    {
+      "slug": "Proton",
+      "name": "Proton",
+      "description": "Virtual analog 3-oscillator polysynth",
+      "tags": [
+        "Polyphonic"
+      ]
+    }
+  ]
+}
