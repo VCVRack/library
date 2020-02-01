@@ -1,7 +1,7 @@
 {
   "slug": "AriaSalvatrice",
   "name": "Aria Salvatrice",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "license": "WTFPL",
   "brand": "Aria Salvatrice",
   "author": "Aria Salvatrice",
@@ -75,9 +75,46 @@
       ]
     },
     {
+      "slug": "Arcane",
+      "name": "Signature Series Arcane",
+      "description": "Today's fortune \u2605",
+      "tags": [
+        "Random",
+        "Clock generator",
+        "Polyphonic",
+        "Quantizer",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Atout",
+      "name": "Signature Series Atout",
+      "description": "Today's fortune \u2605",
+      "tags": [
+        "Random",
+        "Clock generator",
+        "Polyphonic",
+        "Quantizer",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Aleister",
+      "name": "Signature Series Aleister",
+      "description": "Today's fortune \u2605",
+      "tags": [
+        "Random",
+        "Clock generator",
+        "Polyphonic",
+        "Quantizer",
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
       "slug": "Blank",
       "name": "Signature Series 8hp Blank Plate",
-      "description": "A complimentary blank plate and \u2665-head screwdriver are provided with every Signature Series module purchase",
+      "description": "A complimentary blank plate and \u2665-head screwdriver are included with every Signature Series module purchase",
       "tags": [
         "Blank"
       ]
