@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -192,6 +192,46 @@
         "Mixer"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Intermix.md"
+    },
+    {
+      "slug": "Detour",
+      "name": "DETOUR",
+      "description": "Send/Return switch matrix with scene-support",
+      "tags": [
+        "Mixer",
+        "Switch",
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Detour.md",
+      "disabled": true
+    },
+    {
+      "slug": "Sail",
+      "name": "SAIL",
+      "description": "Control any parameter currently hovered by mouse with CV, especially useful with MIDI-CC or MIDI-STEP",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Sail.md"
+    },
+    {
+      "slug": "Pile",
+      "name": "PILE",
+      "description": "Translate increment triggers or decrement triggers in an absolute voltage, especially useful with MIDI-STEP, with slew support",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Pile.md"
+    },
+    {
+      "slug": "MidiStep",
+      "name": "MIDI-STEP",
+      "description": "Module for relative modes of endless knobs on your MIDI controller, such as Arturia Beatstep, Native Instruments Komplete Keyboards or Behringer X-TOUCH",
+      "tags": [
+        "Utility",
+        "MIDI"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiStep.md"
     },
     {
       "slug": "AudioInterface64",
