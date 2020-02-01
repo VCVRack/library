@@ -1,14 +1,14 @@
 {
   "slug": "DrumKitPro",
   "name": "DrumKit Pro",
-  "version": "1.1.1",
+  "version": "1.0.2",
   "license": "proprietary",
   "author": "Jerry Sievert",
   "brand": "SV Modular",
-  "authorEmail": "contact@svmodular.com",
-  "authorUrl": "https://svmodular.com/",
-  "pluginUrl": "https://svmodular.com/plugin/vcv/drumkit-pro.html",
-  "manualUrl": "https://svmodular.com/plugin/vcv/drumkit-pro.html",
+  "authorEmail": "rack@legitimatesounding.com",
+  "authorUrl": "https://legitimatesounding.com/sv-modular",
+  "pluginUrl": "https://legitimatesounding.com/sv-modular/drumkitpro/index.html",
+  "manualUrl": "https://legitimatesounding.com/sv-modular/drumkitpro/index.html",
   "modules": [
     {
       "slug": "Kick",
@@ -46,14 +46,6 @@
       "slug": "EDrum",
       "name": "E-Drum",
       "description": "DrumKit Pro E-Drum",
-      "tags": [
-        "Drum"
-      ]
-    },
-    {
-      "slug": "Tek",
-      "name": "Tek",
-      "description": "DrumKit Pro Tek",
       "tags": [
         "Drum"
       ]
