@@ -103,7 +103,7 @@
 	branch = master
 [submodule "repos/DrumKit"]
 	path = repos/DrumKit
-	url = https://github.com/JerrySievert/DrumKit
+	url = https://github.com/SVModular/DrumKit
 	branch = master
 [submodule "repos/SonusModular"]
 	path = repos/SonusModular
