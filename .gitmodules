@@ -469,3 +469,6 @@
 [submodule "repos/voxglitch"]
 	path = repos/voxglitch
 	url = https://github.com/clone45/voxglitch.git
+[submodule "repos/AaronStatic"]
+	path = repos/AaronStatic
+	url = https://github.com/aaronstatic/AaronStatic_modules.git
