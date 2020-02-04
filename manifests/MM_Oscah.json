@@ -1,7 +1,7 @@
 {
   "slug": "MM_Oscah",
   "name": "Special Vintage Oscillators",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "proprietary",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -34,6 +34,15 @@
       "slug": "MixOscah",
       "name": "Mix Oscah",
       "description": "Mixing waves oscillator",
+      "tags": [
+        "Polyphonic",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "WMOscah",
+      "name": "WaveMod Oscah",
+      "description": "Modulating waves oscillator",
       "tags": [
         "Polyphonic",
         "Oscillator"
