@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.6.0",
+  "version": "1.7.1",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -62,7 +62,8 @@
       "description": "Dual voltage controlled logical inverter.",
       "tags": [
         "Logic",
-        "Dual"
+        "Dual",
+        "Polyphonic"
       ]
     },
     {
@@ -361,7 +362,7 @@
     },
     {
       "slug": "SequencerExpanderCV8",
-      "name": "Sequencer CV Expander ",
+      "name": "Sequencer CV Expander",
       "description": "8 step sequencer expander adding an extra channel of CV output",
       "tags": [
         "Sequencer",
@@ -370,7 +371,7 @@
     },
     {
       "slug": "SequencerExpanderOut8",
-      "name": "Sequencer Output Expander ",
+      "name": "Sequencer Output Expander",
       "description": "8 step sequencer expander adding a gate output for each step",
       "tags": [
         "Sequencer",
@@ -379,7 +380,7 @@
     },
     {
       "slug": "SequencerExpanderTrig8",
-      "name": "Sequencer Trigger Expander ",
+      "name": "Sequencer Trigger Expander",
       "description": "8 step sequencer expander adding a an extra channel of gate/trigger output",
       "tags": [
         "Sequencer",
@@ -587,6 +588,120 @@
       "tags": [
         "Sequencer",
         "Expander"
+      ]
+    },
+    {
+      "slug": "Euclid",
+      "name": "Euclidean Sequencer",
+      "description": "Algorithmic trigger sequencer based on Euclidean division",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "EuclidExpanderCV",
+      "name": "Euclidean Sequencer Expander",
+      "description": "CV Expander for the Euclidean Sequencer",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "VoltageScaler",
+      "name": "Voltage Scaler",
+      "description": "Rescale a voltage from one range to another",
+      "tags": [
+        "Attenuator",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyMinMax",
+      "name": "Polyphonic Min/Max",
+      "description": "Determines minimum and maximum values from a polyphonic CV input",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Breakout",
+      "name": "Breakout",
+      "description": "Breaks polyphonic signals out to individual normalled output/input pairs",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "GateSequencer8",
+      "name": "8 x 8 Gate Sequencer",
+      "description": "An 8 Channel 8 Step Gate/Trigger Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "GateSequencer16",
+      "name": "8 x 16 Gate Sequencer",
+      "description": "An 8 Channel 16 Step Gate/Trigger Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "PolyMute",
+      "name": "Polyphonic Mute",
+      "description": "Polyphonic Manual/VC Mute",
+      "tags": [
+        "Controller",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sequencer16",
+      "name": "16 Step Sequencer",
+      "description": "16 Step Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Sequencer8",
+      "name": "8 Step Sequencer",
+      "description": "8 Step Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "SequencerChannel16",
+      "name": "16 Step Sequencer Channel Expander",
+      "description": "Adds another channel to the 16 Step Sequencer",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "SequencerChannel8",
+      "name": "8 Step Sequencer Channel Expander",
+      "description": "Adds another channel to the 8 Step Sequencer",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "MasterReset",
+      "name": "Master Reset Controller",
+      "description": "Master reset button and clock wrangler",
+      "tags": [
+        "Clock modulator",
+        "Controller",
+        "Utility"
       ]
     }
   ]
