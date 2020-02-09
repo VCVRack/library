@@ -472,3 +472,6 @@
 [submodule "repos/AaronStatic"]
 	path = repos/AaronStatic
 	url = https://github.com/aaronstatic/AaronStatic_modules.git
+[submodule "repos/Mog"]
+	path = repos/Mog
+	url = https://github.com/JustMog/Mog-VCV.git
