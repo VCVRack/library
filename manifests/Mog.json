@@ -1,0 +1,27 @@
+{
+  "slug": "Mog",
+  "name": "Mog",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "brand": "Mog",
+  "author": "Mog",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/JustMog/Mog-VCV",
+  "sourceUrl": "https://github.com/JustMog/Mog-VCV",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Network",
+      "name": "Network",
+      "description": "Node-based polyphonic sequencer",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/JustMog/Mog-VCV/#network"
+    }
+  ]
+}

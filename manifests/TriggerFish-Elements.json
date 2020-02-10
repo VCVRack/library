@@ -1,11 +1,49 @@
 {
-  "name": "TriggerFish Elements",
-  "author": "J TriggerFish",
-  "authorEmail": "FastTriggerFish@gmail.com",
-  "license": "BSD-3-Clause",
-  "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV/blob/master/README.md",
-  "sourceUrl": "https://github.com/JTriggerFish/TriggerFish-VCV.git",
-  "pluginUrl": "https://github.com/JTriggerFish/TriggerFish-VCV/blob/master/README.md",
   "slug": "TriggerFish-Elements",
-  "version": "0.6.4"
+  "name": "TriggerFish-Elements",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "TriggerFish",
+  "author": "JTriggerFish",
+  "authorEmail": "FastTriggerFish@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/JTriggerFish/TriggerFish-VCV",
+  "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV",
+  "sourceUrl": "https://github.com/JTriggerFish/TriggerFish-VCV",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "TfSlop",
+      "name": "Slop",
+      "description": "Slop",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "TfSlop4",
+      "name": "Slop4",
+      "description": "Slop",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "TfVDPO",
+      "name": "VDPO",
+      "description": "Van Der Pol Oscillator",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "TfVCA",
+      "name": "TFVCA",
+      "description": "analog modelled VCA that is loosely based on the minimoog's circuit",
+      "tags": [
+        "Voltage-controlled amplifier"
+      ]
+    }
+  ]
 }
