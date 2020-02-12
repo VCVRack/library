@@ -475,3 +475,6 @@
 [submodule "repos/Mog"]
 	path = repos/Mog
 	url = https://github.com/JustMog/Mog-VCV.git
+[submodule "repos/ILovePerlin"]
+	path = repos/ILovePerlin
+	url = https://github.com/digitalhappens/ILovePerlin.git
