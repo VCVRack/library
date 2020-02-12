@@ -1,7 +1,7 @@
 {
   "slug": "AriaSalvatrice",
   "name": "Aria Salvatrice",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "license": "WTFPL",
   "brand": "Aria Salvatrice",
   "author": "Aria Salvatrice",
@@ -109,6 +109,15 @@
         "Quantizer",
         "Sequencer",
         "Expander"
+      ]
+    },
+    {
+      "slug": "Undular",
+      "name": "Signature Series Undular",
+      "description": "Scroll the rack via CV for live performance. If locked by mistake: Engine > Sample Rate > Pause",
+      "tags": [
+        "Controller",
+        "Visual"
       ]
     },
     {

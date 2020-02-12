@@ -1,7 +1,7 @@
 {
   "slug": "MockbaModular",
   "name": "Mockba Modular",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MIT",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -341,6 +341,14 @@
       "slug": "DualXNOR",
       "name": "DualXNOR",
       "description": "Simple XNOR gates",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PSelectah",
+      "name": "PSelectah",
+      "description": "Simple Priority Selector (AND->OR MUX)",
       "tags": [
         "Utility"
       ]

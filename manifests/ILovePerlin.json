@@ -1,0 +1,24 @@
+{
+  "slug": "ILovePerlin",
+  "name": "ILovePerlin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "digitalhappens.de",
+  "authorEmail": "vandelay@digitalhappens.de",
+  "authorUrl": "https://github.com/digitalhappens",
+  "pluginUrl": "https://github.com/digitalhappens/ILovePerlin",
+  "manualUrl": "https://github.com/digitalhappens/ILovePerlin/blob/master/README.md",
+  "sourceUrl": "https://github.com/digitalhappens/ILovePerlin",
+  "donateUrl": "https://paypal.me/digitalhappens",
+  "modules": [
+    {
+      "slug": "PerlinOne",
+      "name": "PerlinOne",
+      "description": "adaption of NauModular Perin Noise module",
+      "tags": [
+        "noise",
+        "random"
+      ]
+    }
+  ]
+}
