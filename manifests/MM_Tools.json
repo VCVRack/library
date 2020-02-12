@@ -1,0 +1,70 @@
+{
+  "slug": "MM_Tools",
+  "name": "Mockba Modular Tools",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Mockba Modular",
+  "author": "Mockba the Borg",
+  "authorEmail": "mockba.the.borg@gmail.com",
+  "authorUrl": "http://mockbatheb.org/",
+  "pluginUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_Tools",
+  "manualUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_Tools/README.md",
+  "donateUrl": "http://paypal.me/MockbaTheBorg",
+  "changelogUrl": "https://github.com/MockbaTheBorg/VCVProducts/tree/master/MM_Tools/RN.md",
+  "modules": [
+    {
+      "slug": "SMExpL",
+      "name": "Split/Merge Mix Expander (left side)",
+      "description": "Input Expander for SMMix (no crossfade)",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SMMix",
+      "name": "Split/Merge Mix",
+      "description": "8 Channel splitter/merger with signal mix (crossfade)",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SMExpR",
+      "name": "Split/Merge Mix Expander (right side)",
+      "description": "Output Expander for SMMix (no crossfade)",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SHEight",
+      "name": "8 Channel S&H with Clock Generator",
+      "description": "8 Channel S&H with poly output and clock",
+      "tags": [
+        "Sample and Hold",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "ASSprdr",
+      "name": "Automatic Stereo Spreader",
+      "description": "Multi channel stereo combiner/spreader",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Tuube",
+      "name": "Tube Saturator",
+      "description": "Simple tube saturator/distortion",
+      "tags": [
+        "Distortion",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
