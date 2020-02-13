@@ -1,7 +1,7 @@
 {
   "slug": "GoodSheperd",
   "name": "GoodSheperd",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "CC0-1.0",
   "brand": "GoodSheperd",
   "author": "Jens Schulze",
@@ -36,6 +36,16 @@
       "tags": [
         "Sequencer",
         "Random"
+      ]
+    },
+    {
+      "slug": "Stall",
+      "name": "Stall",
+      "description": "",
+      "tags": [
+        "Polyphonic",
+        "Switch",
+        "Utility"
       ]
     }
   ]
