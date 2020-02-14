@@ -1,7 +1,7 @@
 {
   "slug": "MM_Tools",
   "name": "Mockba Modular Tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "proprietary",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -54,6 +54,15 @@
       "description": "Multi channel stereo combiner/spreader",
       "tags": [
         "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TheCBlocker",
+      "name": "DC Blocker",
+      "description": "Polyphonic adjustable DC blocker",
+      "tags": [
+        "Filter",
         "Polyphonic"
       ]
     },
