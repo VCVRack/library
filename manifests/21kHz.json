@@ -1,12 +1,43 @@
 {
-  "name": "21kHz",
-  "author": "Jake Huryn",
-  "license": "MIT",
-  "authorEmail": "jakehuryn@gmail.com",
-  "manualUrl": "https://github.com/21kHz/21kHz-rack-plugins/blob/master/README.md",
-  "sourceUrl": "https://github.com/21kHz/21kHz-rack-plugins",
-  "donateUrl": "https://www.paypal.me/JakeHuryn",
-  "pluginUrl": "https://github.com/21kHz/21kHz-rack-plugins/blob/master/README.md",
   "slug": "21kHz",
-  "version": "0.6.1"
+  "name": "21kHz",
+  "version": "1.0.1",
+  "license": "MIT",
+  "brand": "21kHz",
+  "author": "21kHz",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/netboy3/21kHz-rack-plugins",
+  "manualUrl": "https://github.com/netboy3/21kHz-rack-plugins/blob/master/README.md",
+  "sourceUrl": "https://github.com/netboy3/21kHz-rack-plugins.git",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "kHzPalmLoop",
+      "name": "PalmLoop",
+      "description": "Palm Loop \u2014 basic VCO \u2014 8hp",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "kHzTachyonEntangler",
+      "name": "TachyonEntangler",
+      "description": "Tachyon Entangler \u2014 chaotic sync VCO \u2014 20hp",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "kHzD_Inf",
+      "name": "D\u221e",
+      "description": "D\u221e \u2014 pitch tools \u2014 4hp",
+      "tags": [
+        "Tuner",
+        "Utility",
+        "Polyphonic"
+      ]
+    }
+  ]
 }

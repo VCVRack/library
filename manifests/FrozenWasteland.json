@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "author": "almostEric",
   "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -114,6 +114,14 @@
       ]
     },
     {
+      "slug": "TheOneRingModulator",
+      "name": "The One Ring Modulator",
+      "description": "Ring Modulator with CV controlable response",
+      "tags": [
+        "Ring Modulator"
+      ]
+    },
+    {
       "slug": "PhasedLockedLoop",
       "name": "Phased Locked Loop",
       "description": "PLL attempts to follow input signals freqency",
@@ -137,7 +145,8 @@
       "description": "Probabilistic Quantizer",
       "tags": [
         "Quantizer",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -155,7 +164,8 @@
       "description": "Probabilistic Quantizer using Bohlen Pierce scales and tuning",
       "tags": [
         "Quantizer",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -255,14 +265,6 @@
       "description": "LFO for modulating CV over *very* long time periods",
       "tags": [
         "LFO"
-      ]
-    },
-    {
-      "slug": "TheOneRingModulator",
-      "name": "The One Ring Modulator",
-      "description": "Ring Modulator with CV controlable response",
-      "tags": [
-        "Ring Modulator"
       ]
     },
     {
