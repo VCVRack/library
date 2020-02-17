@@ -8,13 +8,13 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/mysteries/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "modules": [
     {
       "slug": "Lapsus",
       "name": "Lapsus",
       "tags": [
-        ""
+        "Sequencer"
       ],
       "description": "Non-Euclidean Rhythm Generator"
     },

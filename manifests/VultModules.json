@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "modules": [
     {
       "slug": "Basal",
@@ -67,6 +67,16 @@
         "Polyphonic"
       ],
       "description": "Equalizer Line"
+    },
+    {
+      "slug": "Disjoint",
+      "name": "Disjoint",
+      "tags": [
+        "Equalizer",
+        "VCF",
+        "Polyphonic"
+      ],
+      "description": "DJ Style Filter"
     },
     {
       "slug": "Flame",
