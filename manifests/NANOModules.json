@@ -1,0 +1,56 @@
+{
+  "slug": "NANOModules",
+  "name": "NANO Modules",
+  "version": "1.5.1",
+  "license": "Proprietary",
+  "brand": "NANO Modules",
+  "author": "Jorge Gutierrez",
+  "authorEmail": "jorge@nanomodul.es",
+  "authorUrl": "http://nanomodul.es",
+  "pluginUrl": "http://nanomodul.es",
+  "manualUrl": "http://nanomodul.es",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "MAR",
+      "name": "MAR",
+      "description": "Dual Eurorack Mixer",
+      "tags": [
+        "mixer",
+        "attenuator"
+      ]
+    },
+    {
+      "slug": "FONT",
+      "name": "FONT",
+      "description": "Massive Sounding Liquid Filter",
+      "tags": [
+        "Filter",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "ALT",
+      "name": "ALT",
+      "description": "Quad Voltage Controlled Amplifier & Cascading Mixer",
+      "tags": [
+        "Attenuator",
+        "Mixer",
+        "Quad",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "QUART",
+      "name": "QUART",
+      "description": "Quad AD Envelope & LFO Generator",
+      "tags": [
+        "Envelope",
+        "LFO",
+        "Oscillator",
+        "Function generator"
+      ]
+    }
+  ]
+}
