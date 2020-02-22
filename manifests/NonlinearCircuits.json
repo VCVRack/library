@@ -1,0 +1,47 @@
+{
+  "slug": "NonlinearCircuits",
+  "name": "Nonlinear Circuits",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "author": "Michael Hetrick",
+  "authorEmail": "",
+  "authorUrl": "https://mhetrick.com",
+  "pluginUrl": "http://nonlinearcircuits.blogspot.com/",
+  "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
+  "sourceUrl": "https://github.com/mhetrick/nonlinearcircuits",
+  "modules": [
+    {
+      "slug": "BOOLs",
+      "name": "BOOLs",
+      "description": "Four binary logic jumblers. Panel by Papernoise.",
+      "tags": [
+        "Logic",
+        "Hardware Clone",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "DoubleNeuron",
+      "name": "Double Neuron",
+      "description": "Two Neurons and Two Difference Rectifiers. Panel by Papernoise.",
+      "tags": [
+        "Mixer",
+        "Noise",
+        "Utility",
+        "Random",
+        "Hardware Clone",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "SquidAxon",
+      "name": "Squid Axon",
+      "description": "Mixer, Shift Register, and Feedback. ",
+      "tags": [
+        "Mixer",
+        "Random",
+        "Hardware Clone"
+      ]
+    }
+  ]
+}
