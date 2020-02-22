@@ -475,3 +475,6 @@
 [submodule "repos/ILovePerlin"]
 	path = repos/ILovePerlin
 	url = https://github.com/digitalhappens/ILovePerlin.git
+[submodule "repos/NonlinearCircuits"]
+	path = repos/NonlinearCircuits
+	url = https://github.com/mhetrick/nonlinearcircuits.git
