@@ -1,7 +1,7 @@
 {
   "slug": "NANOModules",
   "name": "NANO Modules",
-  "version": "1.5.2",
+  "version": "1.5.2.1",
   "license": "Proprietary",
   "brand": "NANO Modules",
   "author": "Jorge Gutierrez",
@@ -17,8 +17,8 @@
       "name": "MAR",
       "description": "Dual Eurorack Mixer",
       "tags": [
-        "mixer",
-        "attenuator"
+        "Mixer",
+        "Attenuator"
       ]
     },
     {
@@ -46,7 +46,7 @@
       "name": "QUART",
       "description": "Quad AD Envelope & LFO Generator",
       "tags": [
-        "Envelope",
+        "Envelope generator",
         "LFO",
         "Oscillator",
         "Function generator"
@@ -57,7 +57,7 @@
       "name": "BLANK 12Hp",
       "description": "Boast & protect your VCV rack",
       "tags": [
-        "Blind"
+        "Blank, Visual"
       ]
     },
     {
@@ -65,7 +65,7 @@
       "name": "BLANK 8Hp",
       "description": "Boast & protect your VCV rack",
       "tags": [
-        "Blind"
+        "Blank, Visual"
       ]
     },
     {
@@ -73,7 +73,7 @@
       "name": "BLANK 6Hp",
       "description": "Boast & protect your VCV rack",
       "tags": [
-        "Blind"
+        "Blank, Visual"
       ]
     },
     {
@@ -81,7 +81,7 @@
       "name": "BLANK 4Hp",
       "description": "Boast & protect your VCV rack",
       "tags": [
-        "Blind"
+        "Blank, Visual"
       ]
     },
     {
@@ -89,7 +89,7 @@
       "name": "BLANK 2Hp",
       "description": "Boast & protect your VCV rack",
       "tags": [
-        "Blind"
+        "Blank, Visual"
       ]
     }
   ]
