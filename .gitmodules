@@ -478,3 +478,6 @@
 [submodule "repos/NonlinearCircuits"]
 	path = repos/NonlinearCircuits
 	url = https://github.com/mhetrick/nonlinearcircuits.git
+[submodule "repos/HamptonHarmonics"]
+	path = repos/HamptonHarmonics
+	url = https://gitlab.com/hampton-harmonics/hampton-harmonics-modules.git
