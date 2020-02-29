@@ -1,8 +1,8 @@
 {
   "slug": "ESeries",
   "name": "E-Series",
-  "version": "1.0.1",
-  "license": "BSD-3-Clause",
+  "version": "1.0.2",
+  "license": "GPL-3.0-only",
   "author": "VCV",
   "authorEmail": "contact@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
@@ -16,9 +16,11 @@
       "slug": "E340",
       "name": "E340 Cloud Generator",
       "description": "Based on Synthesis Technology E340",
+      "modularGridUrl": "https://www.modulargrid.net/e/synthesis-technology-e340-cloud-generator",
       "tags": [
         "VCO",
-        "Polyphonic"
+        "Polyphonic",
+        "Hardware clone"
       ]
     }
   ]
