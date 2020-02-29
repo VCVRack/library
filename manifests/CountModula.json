@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -16,7 +16,7 @@
     {
       "slug": "AnalogueShiftRegister",
       "name": "Analogue Shift Register",
-      "description": "A dual 4, or single 8, step shift register.",
+      "description": "A dual 4, or single 8, step shift register",
       "tags": [
         "Sample and Hold"
       ]
@@ -24,7 +24,7 @@
     {
       "slug": "Attenuator",
       "name": "Attenuator",
-      "description": "Dual attenuator with attenuverting option.",
+      "description": "Dual attenuator with attenuverting option",
       "tags": [
         "Attenuator",
         "Dual",
@@ -34,7 +34,7 @@
     {
       "slug": "BinarySequencer",
       "name": "Binary Sequencer",
-      "description": "Binary counter based sequencer.",
+      "description": "Binary counter based sequencer",
       "tags": [
         "Clock generator",
         "Sequencer"
@@ -43,23 +43,25 @@
     {
       "slug": "BooleanAND",
       "name": "Boolean AND Gate",
-      "description": "4 input boolean AND/NAND gate.",
+      "description": "4 input boolean AND/NAND gate",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
       "slug": "BooleanOR",
       "name": "Boolean OR Gate",
-      "description": "4 input boolean OR/NOR gate.",
+      "description": "4 input boolean OR/NOR gate",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
       "slug": "BooleanVCNOT",
       "name": "Boolean VC Inverter",
-      "description": "Dual voltage controlled logical inverter.",
+      "description": "Dual voltage controlled logical inverter",
       "tags": [
         "Logic",
         "Dual",
@@ -69,15 +71,16 @@
     {
       "slug": "BooleanXOR",
       "name": "Boolean XOR Gate",
-      "description": "4 input boolean XOR/XNOR gate.",
+      "description": "4 input boolean XOR/XNOR gate",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
       "slug": "BurstGenerator",
       "name": "Burst Generator",
-      "description": "Generates bursts of 1-16 pulses whenever a trigger is received at the trigger input.",
+      "description": "Generates bursts of 1-16 pulses whenever a trigger is received at the trigger input",
       "tags": [
         "Clock modulator"
       ]
@@ -101,7 +104,7 @@
     {
       "slug": "EventArranger",
       "name": "Event Arranger",
-      "description": "A VCV Rack implementation of the VC Clock and Event Arranger published in an article by John Blacet in the Jan/Feb edition of Synapse magazine.",
+      "description": "A VCV Rack implementation of the VC Clock and Event Arranger published in an article by John Blacet in the Jan/Feb edition of Synapse magazine",
       "tags": [
         "Clock generator",
         "Sequencer"
@@ -110,7 +113,7 @@
     {
       "slug": "GateDelay",
       "name": "Gate Delay",
-      "description": "A dual gate delay line giving up to 40 seconds of delay with voltage control over the delay time.",
+      "description": "A dual gate delay line giving up to 40 seconds of delay with voltage control over the delay time",
       "tags": [
         "Delay",
         "Dual"
@@ -119,7 +122,7 @@
     {
       "slug": "GateModifier",
       "name": "Gate Modifier",
-      "description": "Voltage controlled gate length modifier.",
+      "description": "Voltage controlled gate length modifier",
       "tags": [
         "Logic",
         "Utility"
@@ -136,7 +139,7 @@
     {
       "slug": "Mangler",
       "name": "Mangler",
-      "description": "A voltage controlled sample rate/bit depth reducer.",
+      "description": "A voltage controlled sample rate/bit depth reducer",
       "tags": [
         "Distortion",
         "Polyphonic"
@@ -145,7 +148,7 @@
     {
       "slug": "ManualCV",
       "name": "Manual CV Generator",
-      "description": "A simple dual manual CV generator offering +/- 10V with both coarse and fine controls.",
+      "description": "A simple dual manual CV generator offering +/- 10V with both coarse and fine controls",
       "tags": [
         "Dual",
         "Controller",
@@ -155,7 +158,7 @@
     {
       "slug": "ManualGate",
       "name": "Manual Gate",
-      "description": "A manually triggered gate generator offering a number of simultaneous gate and inverted gate outputs.",
+      "description": "A manually triggered gate generator offering a number of simultaneous gate and inverted gate outputs",
       "tags": [
         "Utility",
         "Controller"
@@ -164,7 +167,7 @@
     {
       "slug": "MatrixMixer",
       "name": "Matrix Mixer",
-      "description": "A 4 x 4 matrix mixer allowing up to 4 input signals to be independently mixed to 4 different outputs.",
+      "description": "A 4 x 4 matrix mixer allowing up to 4 input signals to be independently mixed to 4 different outputs",
       "tags": [
         "Mixer"
       ]
@@ -172,7 +175,7 @@
     {
       "slug": "MinimusMaximus",
       "name": "Minimus Maximus",
-      "description": "A signal processor that determines and outputs the minimum, maximum and mean (average) of up to 4 input signals.",
+      "description": "A signal processor that determines and outputs the minimum, maximum and mean (average) of up to 4 input signals",
       "tags": [
         "Utility"
       ]
@@ -180,7 +183,7 @@
     {
       "slug": "Mixer",
       "name": "Mixer",
-      "description": "A basic 4 input utility mixer with output level control, overload indicator, inverted output and selectable bipolar/unipolar operation.",
+      "description": "A basic 4 input utility mixer with output level control, overload indicator, inverted output and selectable bipolar/unipolar operation",
       "tags": [
         "Mixer"
       ]
@@ -188,7 +191,7 @@
     {
       "slug": "MorphShaper",
       "name": "Morph Shaper",
-      "description": "Morphing controller and wave shaper.",
+      "description": "Morphing controller and wave shaper",
       "tags": [
         "Utility",
         "Waveshaper"
@@ -197,7 +200,7 @@
     {
       "slug": "Multiplexer",
       "name": "Multiplexer",
-      "description": "A 1 input to 8 output and 8 input to 1 output multiplexer.",
+      "description": "A 1 input to 8 output and 8 input to 1 output multiplexer",
       "tags": [
         "Switch"
       ]
@@ -214,7 +217,7 @@
     {
       "slug": "Mute-iple",
       "name": "Mute-iple",
-      "description": "A dual 4-way/ Single 8 way mutable multiple.",
+      "description": "A dual 4-way/ Single 8 way mutable multiple",
       "tags": [
         "Dual",
         "Multiple",
@@ -235,7 +238,7 @@
     {
       "slug": "Rectifier",
       "name": "Rectifier",
-      "description": "A full/half wave rectifier with variable rectification axis.",
+      "description": "A full/half wave rectifier with variable rectification axis",
       "tags": [
         "Waveshaper",
         "Polyphonic"
@@ -244,7 +247,7 @@
     {
       "slug": "SampleAndHold",
       "name": "Sample & Hold",
-      "description": "Sample and Hold/Track and hold.",
+      "description": "Sample and Hold/Track and hold",
       "tags": [
         "Sample and hold",
         "Polyphonic"
@@ -253,7 +256,7 @@
     {
       "slug": "ShepardGenerator",
       "name": "Shepard Generator",
-      "description": "Generates a set of 8 ramp and sawtooth control signals appropriately phased for generation of Shepard tones.",
+      "description": "Generates a set of 8 ramp and sawtooth control signals appropriately phased for generation of Shepard tones",
       "tags": [
         "LFO",
         "Function generator",
@@ -263,7 +266,7 @@
     {
       "slug": "SRFlipFlop",
       "name": "SR Flip Flop",
-      "description": "A logical Set/Reset flip flop with enable.",
+      "description": "A logical Set/Reset flip flop with enable",
       "tags": [
         "Logic",
         "Dual"
@@ -272,7 +275,7 @@
     {
       "slug": "StepSequencer8",
       "name": "Dual 8 Step Sequencer",
-      "description": "Fully featured dual channel 8 step sequencer.",
+      "description": "Fully featured dual channel 8 step sequencer",
       "tags": [
         "Sequencer",
         "Dual",
@@ -282,7 +285,7 @@
     {
       "slug": "TFlipFlop",
       "name": "T Flip Flop",
-      "description": "A logical T type (toggle) flip flop with enable.",
+      "description": "A logical T type (toggle) flip flop with enable",
       "tags": [
         "Logic",
         "Dual"
@@ -309,7 +312,7 @@
     {
       "slug": "GateDelayMT",
       "name": "Tapped Gate Delay",
-      "description": "A gate delay that offers up to 40 seconds of delay with tapped outputs at equal intervals along the delay line.",
+      "description": "A gate delay that offers up to 40 seconds of delay with tapped outputs at equal intervals along the delay line",
       "tags": [
         "Delay"
       ]
@@ -325,7 +328,7 @@
     {
       "slug": "VCPolarizer",
       "name": "Voltage Controlled Polarizer",
-      "description": "A dual voltage controlled polarizer.",
+      "description": "A dual voltage controlled polarizer",
       "tags": [
         "Dual",
         "Polyphonic",
@@ -336,7 +339,7 @@
     {
       "slug": "VoltageControlledSwitch",
       "name": "Voltage Controlled Switch",
-      "description": "Selects between 2 inputs or routes 1 input to one of 2 outputs based on the level of the signal at the CV input.",
+      "description": "Selects between 2 inputs or routes 1 input to one of 2 outputs based on the level of the signal at the CV input",
       "tags": [
         "Switch",
         "Polyphonic"
@@ -345,7 +348,7 @@
     {
       "slug": "VoltageInverter",
       "name": "Voltage Inverter",
-      "description": "A quad voltage inverter that inverts signals around zero.",
+      "description": "A quad voltage inverter that inverts signals around zero",
       "tags": [
         "Utility",
         "Polyphonic",
@@ -398,7 +401,7 @@
     {
       "slug": "VCFrequencyDividerMkII",
       "name": "Voltage Controlled Frequency Divider MkII",
-      "description": "Frequency divider with a variable and voltage controlled division ratio from 1 to around 20.",
+      "description": "Frequency divider with a variable and voltage controlled division ratio from 1 to around 20",
       "tags": [
         "Clock modulator"
       ]
@@ -406,7 +409,7 @@
     {
       "slug": "PolyrhythmicGeneratorMkII",
       "name": "Polyrhythmic Generator MkII",
-      "description": "A set of 8 voltage controlled clock dividers that can be used to generate polyrhythms by clocking and/or dividing at different rates.",
+      "description": "A set of 8 voltage controlled clock dividers that can be used to generate polyrhythms by clocking and/or dividing at different rates",
       "tags": [
         "Clock modulator",
         "Sequencer",
@@ -433,7 +436,7 @@
     {
       "slug": "SequencerExpanderRM8",
       "name": "Gated Comparator Expander - Random Melody",
-      "description": "Gated Comparator expander adding Random Melody output (also works with other sequencers).",
+      "description": "Gated Comparator expander adding Random Melody output (also works with other sequencers)",
       "tags": [
         "Sequencer",
         "Expander"
@@ -442,7 +445,7 @@
     {
       "slug": "SequencerExpanderLOG8",
       "name": "Gated Comparator Expander - Gate Logic",
-      "description": "Gated Comparator expander adding logical mixing of the shift register outputs.",
+      "description": "Gated Comparator expander adding logical mixing of the shift register outputs",
       "tags": [
         "Sequencer",
         "Expander"
@@ -451,7 +454,7 @@
     {
       "slug": "StartupDelay",
       "name": "Startup Delay",
-      "description": "Generates delayed start signals for sequencers on load or startup.",
+      "description": "Generates delayed start signals for sequencers on load or startup",
       "tags": [
         "Utility"
       ]
@@ -515,7 +518,7 @@
     {
       "slug": "OffsetGenerator",
       "name": "Offset Generator",
-      "description": "Offsets a CV signal by a given amount.",
+      "description": "Offsets a CV signal by a given amount",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -526,7 +529,9 @@
       "name": "Single Bernoulli Gate",
       "description": "Randomized routing of gate signals",
       "tags": [
-        "Random"
+        "Random",
+        "Logic",
+        "Clock Modulator"
       ]
     },
     {
@@ -558,7 +563,7 @@
     {
       "slug": "VCPulseDivider",
       "name": "Voltage Controlled Pulse Divider",
-      "description": "Voltage controlled division of pulse signals such as gates and triggers.",
+      "description": "Voltage controlled division of pulse signals such as gates and triggers",
       "tags": [
         "Clock modulator"
       ]
@@ -702,6 +707,102 @@
         "Clock modulator",
         "Controller",
         "Utility"
+      ]
+    },
+    {
+      "slug": "PolyChances",
+      "name": "Polyphonic Bernoulli Gate",
+      "description": "Randomized routing of polyphonic gate signals",
+      "tags": [
+        "Random",
+        "Logic",
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyVCSwitch",
+      "name": "Polyphonic Voltage Controlled Switch",
+      "description": "Selects between 2 polyphonic inputs or routes 1 polyphonic input to one of 2 polyphonic outputs based on the level of the signal at the polyphonic CV input",
+      "tags": [
+        "Switch",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyVCPolarizer",
+      "name": "Polyphonic VC Polarizer",
+      "description": "A polyphonic voltage controlled polarizer",
+      "tags": [
+        "Polyphonic",
+        "Attenuator",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PolyLogic",
+      "name": "Polyphonic Boolean Logic Processor",
+      "description": "Applies boolean logic across the channels of a polyphonic signal",
+      "tags": [
+        "Polyphonic",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "ManualCV2",
+      "name": "Polyphonic Manual CV Generator",
+      "description": "A basic manual CV generator with a range of output voltages",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "Manifold",
+      "name": "Signal Manifold",
+      "description": "Replicates a mono/poly input signal to a selected number of channels in a poly output signal",
+      "tags": [
+        "Multiple",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SequencerGates8",
+      "name": "8 Step Sequencer Gate Output Expander",
+      "description": "Adds individual gate outputs to the 8 Step Sequencer",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "SequencerGates16",
+      "name": "16 Step Sequencer Gate Output Expander",
+      "description": "Adds individual gate outputs to the 16 Step Sequencer",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Attenuverter",
+      "name": "Attenuverter",
+      "description": "Attenuverter/Attenuator",
+      "tags": [
+        "Utility",
+        "Attenuator",
+        "Polyphonic",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "PolyG2T",
+      "name": "gate to Trigger Converter",
+      "description": "Description.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "trowaSoft",
   "name": "trowaSoft",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "BSD-3-Clause",
   "author": "j4s0n-c",
   "authorEmail": "",
@@ -60,7 +60,28 @@
       "name": "cvOSCcv",
       "description": "Generic Open Sound Control (OSC) module for outputting Rack CVs to OSC and reading in simple OSC messages into Rack CVs.",
       "tags": [
-        "External"
+        "External",
+        "Poly"
+      ]
+    },
+    {
+      "slug": "cvOSCcv-InputExpander",
+      "name": "cvOSC Input Expander",
+      "description": "Expansion module for cvOSCcv. Allows more input CV channels to be sent to OSC.",
+      "tags": [
+        "External",
+        "Poly",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "cvOSCcv-OutputExpander",
+      "name": "OSCcv Output Expander",
+      "description": "Expansion module for cvOSCcv. Allows more output CV channels to be received from OSC.",
+      "tags": [
+        "External",
+        "Poly",
+        "Expander"
       ]
     },
     {

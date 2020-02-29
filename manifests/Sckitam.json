@@ -1,7 +1,7 @@
 {
   "slug": "Sckitam",
   "name": "Sckitam",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "GPL-3.0-only",
   "brand": "Sckitam",
   "author": "Philippe Salembier",
@@ -18,7 +18,8 @@
       "name": "2DRotation",
       "description": "2D Rotation of 2 input signals",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -26,16 +27,18 @@
       "name": "2DAffine",
       "description": "2D Affine transform of 2 input signals",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
       "slug": "MarkovSeq",
       "name": "MarkovSeq",
-      "description": "Sequencer based on Markov chain",
+      "description": "Sequencer/Switch based on Markov chain",
       "tags": [
         "Sequencer",
-        "Switch"
+        "Switch",
+        "Polyphonic"
       ]
     },
     {
@@ -43,7 +46,8 @@
       "name": "PolygonalVCO",
       "description": "Polygonal VCO",
       "tags": [
-        "VCO"
+        "Oscillator",
+        "Polyphonic"
       ]
     }
   ]

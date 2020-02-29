@@ -1,0 +1,26 @@
+{
+  "slug": "HamptonHarmonics",
+  "name": "Hampton Harmonics",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "Hampton Harmonics",
+  "author": "Scott Hampton",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Progress",
+      "name": "Progress",
+      "description": "Polyphonic Chord Sequencer",
+      "tags": [
+        "sequencer",
+        "poly"
+      ]
+    }
+  ]
+}
