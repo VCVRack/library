@@ -1,6 +1,6 @@
 {
   "slug": "AS-Seqs-n-Tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "proprietary",
   "name": "AS Seqs n Tools",
   "brand": "AS",
@@ -14,7 +14,7 @@
   "modules": [
     {
       "slug": "ReCon",
-      "disabled": "false",
+      "disabled": false,
       "name": "ReCon",
       "description": "Controller helper for ReStepOne, ReStep sequencers",
       "tags": [
@@ -23,7 +23,7 @@
     },
     {
       "slug": "ReStepOne",
-      "disabled": "false",
+      "disabled": false,
       "name": "ReStepOne",
       "description": "Single step sequencer",
       "tags": [
@@ -32,7 +32,7 @@
     },
     {
       "slug": "ReStep",
-      "disabled": "false",
+      "disabled": false,
       "name": "ReStep",
       "description": "4 steps sequencer",
       "tags": [
@@ -41,7 +41,7 @@
     },
     {
       "slug": "ReBeat",
-      "disabled": "false",
+      "disabled": false,
       "name": "ReBeat Trigger Seq/Clock Divider",
       "description": "4x4 Grid trigger sequencer/clock divider",
       "tags": [
@@ -51,7 +51,7 @@
     },
     {
       "slug": "ReBit",
-      "disabled": "false",
+      "disabled": false,
       "name": "ReBit Trigger Seq/Clock Divider",
       "description": "Single 4 step trigger sequencer/clock divider",
       "tags": [
@@ -61,7 +61,7 @@
     },
     {
       "slug": "ReQ",
-      "disabled": "false",
+      "disabled": false,
       "name": "ReQ",
       "description": "Note quantizer",
       "tags": [
@@ -70,7 +70,7 @@
     },
     {
       "slug": "ReNote",
-      "disabled": "false",
+      "disabled": false,
       "name": "ReNote",
       "description": "3 channel note transposer",
       "tags": [
@@ -79,7 +79,7 @@
     },
     {
       "slug": "ReKey",
-      "disabled": "false",
+      "disabled": false,
       "name": "ReKey",
       "description": "1V/oct-key keyboard",
       "tags": [
@@ -89,7 +89,7 @@
     },
     {
       "slug": "ReGate",
-      "disabled": "false",
+      "disabled": false,
       "name": "ReGate",
       "description": "Gate generator/modifier",
       "tags": [
@@ -99,7 +99,7 @@
     },
     {
       "slug": "ReFluke",
-      "disabled": "false",
+      "disabled": false,
       "name": "ReFluke",
       "description": "S&H/Noise/Gate generator",
       "tags": [
@@ -110,7 +110,7 @@
     },
     {
       "slug": "ReFlip",
-      "disabled": "false",
+      "disabled": false,
       "name": "ReFlip",
       "description": "Random Gate Switch",
       "tags": [
@@ -120,7 +120,7 @@
     },
     {
       "slug": "aBy",
-      "disabled": "false",
+      "disabled": false,
       "name": "A-B-Y Switch",
       "description": "A-B-Y Switch",
       "tags": [
