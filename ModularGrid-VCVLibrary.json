@@ -1,4 +1,102 @@
 [
-	{"mgModuleId": 4759, "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds"},
-	{"mgModuleId": 18802, "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides"}
+  {
+    "mgModuleId": 6927,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Braids"
+  },
+  {
+    "mgModuleId": 16165,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Plaits"
+  },
+  {
+    "mgModuleId": 4606,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Elements"
+  },
+  {
+    "mgModuleId": 2578,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides"
+  },
+  {
+    "mgModuleId": 18802,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides2"
+  },
+  {
+    "mgModuleId": 4759,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds"
+  },
+  {
+    "mgModuleId": 5791,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Warps"
+  },
+  {
+    "mgModuleId": 7411,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Rings"
+  },
+  {
+    "mgModuleId": 2529,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Links"
+  },
+  {
+    "mgModuleId": 8253,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Kinks"
+  },
+  {
+    "mgModuleId": 2912,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Shades"
+  },
+  {
+    "mgModuleId": 3055,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Branches"
+  },
+  {
+    "mgModuleId": 8925,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Blinds"
+  },
+  {
+    "mgModuleId": 8924,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Veils"
+  },
+  {
+    "mgModuleId": 2579,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Frames"
+  },
+  {
+    "mgModuleId": 16507,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Stages"
+  },
+  {
+    "mgModuleId": 16508,
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Marbles"
+  },
+  {
+    "mgModuleId": 7070,
+    "vcvUrl": "https://library.vcvrack.com/Befaco/EvenVCO"
+  },
+  {
+    "mgModuleId": 6702,
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Rampage"
+  },
+  {
+    "mgModuleId": 8071,
+    "vcvUrl": "https://library.vcvrack.com/Befaco/ABC"
+  },
+  {
+    "mgModuleId": 7069,
+    "vcvUrl": "https://library.vcvrack.com/Befaco/SpringReverb"
+  },
+  {
+    "mgModuleId": 7073,
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Mixer"
+  },
+  {
+    "mgModuleId": 7074,
+    "vcvUrl": "https://library.vcvrack.com/Befaco/SlewLimiter"
+  },
+  {
+    "mgModuleId": 6588,
+    "vcvUrl": "https://library.vcvrack.com/Befaco/DualAtenuverter"
+  },
+  {
+    "mgModuleId": 304,
+    "vcvUrl": "https://library.vcvrack.com/ESeries/E340"
+  }
 ]
