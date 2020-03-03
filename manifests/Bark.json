@@ -1,6 +1,6 @@
 {
   "slug": "Bark",
-  "version": "1.2.0",
+  "version": "1.2.4",
   "license": "BSD-4-Clause",
   "name": "Coirt / Bark",
   "brand": "Bark",
@@ -14,9 +14,27 @@
   "donateUrl": "https://www.paypal.me/philgolden",
   "modules": [
     {
+      "slug": "LMH",
+      "name": "Low Mid High EQ",
+      "description": "Attenuating EQ with mid boost.",
+      "tags": [
+        "EQ",
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "SHTH",
+      "name": "S&H / T&H",
+      "description": "Sample & Hold | Track & Hold",
+      "tags": [
+        "Polyphonic",
+        "Sample and hold"
+      ]
+    },
+    {
       "slug": "EOsum",
       "name": "EO Sum",
-      "description": "Sums polyphonic channels and\ndistributes them to outputs\nbased on odd or even channel\nnumbers.",
+      "description": "Sums polyphonic channels and\ndistributes them to outputs\nbased on odd / even channel\nnumbers.",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -39,7 +57,7 @@
       "name": "One Band",
       "description": "Dual-Mono parametric EQ\n",
       "tags": [
-        "Equalizer",
+        "EQ",
         "Attenuator"
       ]
     },

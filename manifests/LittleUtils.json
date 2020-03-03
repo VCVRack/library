@@ -1,7 +1,7 @@
 {
   "slug": "LittleUtils",
   "name": "Little Utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "brand": "",
   "author": "M\u00e1rton Gunyh\u00f3",
@@ -15,7 +15,7 @@
     {
       "slug": "Button",
       "name": "Button",
-      "description": "",
+      "description": "Press a button to output a trigger, gate or flip-flop signal",
       "tags": [
         "utility"
       ]
@@ -23,7 +23,7 @@
     {
       "slug": "BiasSemitone",
       "name": "Bias/Semitone",
-      "description": "",
+      "description": "Offset an incoming voltage by volts or semitones",
       "tags": [
         "utility",
         "polyphonic"
@@ -32,7 +32,7 @@
     {
       "slug": "MultiplyDivide",
       "name": "Multiply/Divide",
-      "description": "",
+      "description": "Multiply or divide two signals",
       "tags": [
         "utility",
         "polyphonic"
@@ -51,7 +51,7 @@
     {
       "slug": "TeleportIn",
       "name": "Teleport In",
-      "description": "",
+      "description": "Send signals wirelessly to one or more Teleport Out modules",
       "tags": [
         "utility",
         "polyphonic"
@@ -60,7 +60,7 @@
     {
       "slug": "TeleportOut",
       "name": "Teleport Out",
-      "description": "",
+      "description": "Receive signals wirelessly from a Teleport In module",
       "tags": [
         "utility",
         "polyphonic"

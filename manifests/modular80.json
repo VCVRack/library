@@ -2,12 +2,12 @@
   "slug": "modular80",
   "name": "modular80",
   "author": "cschol",
-  "license": "BSD-3-Clause",
+  "license": "GPL-3.0-or-later",
   "authorEmail": "modular80@gmail.com",
   "pluginUrl": "https://github.com/cschol/modular80/blob/master/README.md",
   "manualUrl": "https://github.com/cschol/modular80/blob/master/README.md",
   "sourceUrl": "https://github.com/cschol/modular80.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "modules": [
     {
       "slug": "Logistiker",
@@ -20,9 +20,10 @@
     {
       "slug": "RadioMusic",
       "name": "Radio Music",
-      "description": "Radio Music is a sampler pretending to be a radio",
+      "description": "The Music Thing Modular Radio Music is a sampler pretending to be a radio",
       "tags": [
-        "Sampler"
+        "Sampler",
+        "Hardware clone"
       ]
     },
     {

@@ -1,17 +1,17 @@
 {
   "slug": "HamptonHarmonics",
   "name": "Hampton Harmonics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "brand": "Hampton Harmonics",
   "author": "Scott Hampton",
   "authorEmail": "",
-  "authorUrl": "",
-  "pluginUrl": "",
-  "manualUrl": "",
-  "sourceUrl": "",
+  "authorUrl": "https://gitlab.com/shampton",
+  "pluginUrl": "https://gitlab.com/hampton-harmonics/hampton-harmonics-modules",
+  "manualUrl": "https://gitlab.com/hampton-harmonics/hampton-harmonics-modules/-/blob/master/README.md",
+  "sourceUrl": "https://gitlab.com/hampton-harmonics/hampton-harmonics-modules",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://gitlab.com/hampton-harmonics/hampton-harmonics-modules/-/commits/master",
   "modules": [
     {
       "slug": "Progress",
