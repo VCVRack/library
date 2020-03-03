@@ -1,102 +1,973 @@
 [
   {
     "mgModuleId": 6927,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-braids-2015",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Braids",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Braids"
+  },
+  {
+    "mgModuleId": 2202,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-braids-old-version",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Braids",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Braids"
+  },
+  {
+    "mgModuleId": 4102,
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-braids-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Braids",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Braids"
+  },
+  {
+    "mgModuleId": 6726,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-braids-",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Braids",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Braids"
+  },
+  {
+    "mgModuleId": 8230,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-braids-magpie-plate",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Braids",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Braids"
+  },
+  {
+    "mgModuleId": 9232,
+    "mgUrl": "https://www.modulargrid.net/e/oscillosaurus-braids-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Braids",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Braids"
+  },
+  {
+    "mgModuleId": 11069,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-braids-80s-retro-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Braids",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Braids"
+  },
+  {
+    "mgModuleId": 11375,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-braids-diy",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Braids",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Braids"
+  },
+  {
+    "mgModuleId": 13250,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-braids-magpie-white-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Braids",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Braids"
   },
   {
     "mgModuleId": 16165,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-plaits",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Plaits",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Plaits"
+  },
+  {
+    "mgModuleId": 25745,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-plaits---",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Plaits",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Plaits"
+  },
+  {
+    "mgModuleId": 24456,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-plaits-magpie-original-knobs",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Plaits",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Plaits"
+  },
+  {
+    "mgModuleId": 23360,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-mutable-instruments-plaits-eurorack-synth-oscillator-clone-module-black-magpie-textured",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Plaits",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Plaits"
+  },
+  {
+    "mgModuleId": 21336,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-plaits-black-gold-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Plaits",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Plaits"
+  },
+  {
+    "mgModuleId": 20549,
+    "mgUrl": "https://www.modulargrid.net/e/oscillosaurus-plaits-clone",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Plaits",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Plaits"
+  },
+  {
+    "mgModuleId": 19812,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-mutable-instruments-plaits-custom-black-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Plaits",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Plaits"
   },
   {
     "mgModuleId": 4606,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-elements",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Elements",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Elements"
+  },
+  {
+    "mgModuleId": 25741,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-momomodular-elements",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Elements",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Elements"
+  },
+  {
+    "mgModuleId": 16458,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-elements-diy",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Elements",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Elements"
+  },
+  {
+    "mgModuleId": 16453,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-elements-magpie-white-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Elements",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Elements"
+  },
+  {
+    "mgModuleId": 16431,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-elements-magpie",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Elements",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Elements"
+  },
+  {
+    "mgModuleId": 9437,
+    "mgUrl": "https://www.modulargrid.net/e/oscillosaurus-elements-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Elements",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Elements"
+  },
+  {
+    "mgModuleId": 5678,
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-elements-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Elements",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Elements"
   },
   {
     "mgModuleId": 2578,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-tides-2014-version",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides"
+  },
+  {
+    "mgModuleId": 17589,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-black-tides",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides"
+  },
+  {
+    "mgModuleId": 17455,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-mutable-instruments-sheep-magpie-white-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides"
+  },
+  {
+    "mgModuleId": 16227,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-black-sheep",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides"
+  },
+  {
+    "mgModuleId": 9475,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-tides-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides"
+  },
+  {
+    "mgModuleId": 6433,
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-sheep-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides"
+  },
+  {
+    "mgModuleId": 2578,
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-tides-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides"
+  },
+  {
+    "mgModuleId": 5734,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-sheep",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides"
   },
   {
     "mgModuleId": 18802,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-tides",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides2",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides2"
+  },
+  {
+    "mgModuleId": 25849,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-tides-",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides2",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides2"
+  },
+  {
+    "mgModuleId": 25305,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-tides-magpie-black-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides2",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides2"
+  },
+  {
+    "mgModuleId": 23113,
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-tides-black-gold-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Tides2",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Tides2"
   },
   {
     "mgModuleId": 4759,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-clouds",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-clouds-cctv-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 16199
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-clouds-magpie-white-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 13051
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-clouds-black-panel-version",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 10917
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-clouds-magpie-murdered-out-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 9059
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-clouds-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 8788
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/gmsn-thc-through-hole-clouds",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 7819
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-clouds-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 5672
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-clouds-",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 25743
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/after-later-audio-clouds-",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 25436
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-clouds-black-gold-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 21332
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-clouds-magpie",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 19593
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-clouds-runes",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 19409
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/oscillosaurus-clouds-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 18886
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-clouds-chora-runes",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Clouds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Clouds",
+    "mgModuleId": 18216
+  },
+  {
     "mgModuleId": 5791,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-warps",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Warps",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Warps"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-warps-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Warps",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Warps",
+    "mgModuleId": 5794
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/oscillosaurus-warps-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Warps",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Warps",
+    "mgModuleId": 9468
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-warps-magpie-black-mirror-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Warps",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Warps",
+    "mgModuleId": 13034
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-warps-magpie-white-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Warps",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Warps",
+    "mgModuleId": 13104
+  },
+  {
     "mgModuleId": 7411,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-rings",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Rings",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Rings"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-rings-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Rings",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Rings",
+    "mgModuleId": 8123
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-black-rings-magpie",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Rings",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Rings",
+    "mgModuleId": 8973
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/oscillosaurus-rings-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Rings",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Rings",
+    "mgModuleId": 8990
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-rings-magpie-white-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Rings",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Rings",
+    "mgModuleId": 13062
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-zumbitsu-2000-",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Rings",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Rings",
+    "mgModuleId": 13999
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-rings-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Rings",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Rings",
+    "mgModuleId": 17483
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-rings-magpie-black-mirror",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Rings",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Rings",
+    "mgModuleId": 17807
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-rings-black-gold-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Rings",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Rings",
+    "mgModuleId": 21333
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-rings-resonator",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Rings",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Rings",
+    "mgModuleId": 24086
+  },
+  {
     "mgModuleId": 2529,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-links",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Links",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Links"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-links-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Links",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Links",
+    "mgModuleId": 5820
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-magpie-links-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Links",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Links",
+    "mgModuleId": 9439
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-links-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Links",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Links",
+    "mgModuleId": 9442
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-links-black-gold-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Links",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Links",
+    "mgModuleId": 21327
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-links-clone",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Links",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Links",
+    "mgModuleId": 23670
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-links",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Links",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Links",
+    "mgModuleId": 26429
+  },
+  {
     "mgModuleId": 8253,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-kinks",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Kinks",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Kinks"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-kinks-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Kinks",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Kinks",
+    "mgModuleId": 9624
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-kinks-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Kinks",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Kinks",
+    "mgModuleId": 10541
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-magpie-modular-kinks-black",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Kinks",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Kinks",
+    "mgModuleId": 18897
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-kinks-black-gold-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Kinks",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Kinks",
+    "mgModuleId": 21328
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-kinks",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Kinks",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Kinks",
+    "mgModuleId": 26430
+  },
+  {
     "mgModuleId": 2912,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-shades-",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Shades",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Shades"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-shades-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Shades",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Shades",
+    "mgModuleId": 5818
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-shades-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Shades",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Shades",
+    "mgModuleId": 9623
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-shades-magpie-black-mirror-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Shades",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Shades",
+    "mgModuleId": 13035
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-magpie-shades-white",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Shades",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Shades",
+    "mgModuleId": 19697
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-shades-alternate-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Shades",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Shades",
+    "mgModuleId": 20170
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-shades-black-gold-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Shades",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Shades",
+    "mgModuleId": 23467
+  },
+  {
     "mgModuleId": 3055,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-branches",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Branches",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Branches"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-branches-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Branches",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Branches",
+    "mgModuleId": 5813
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/oscillosaurus-branches-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Branches",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Branches",
+    "mgModuleId": 9621
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-branches",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Branches",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Branches",
+    "mgModuleId": 12859
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-branches-alternate-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Branches",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Branches",
+    "mgModuleId": 20169
+  },
+  {
     "mgModuleId": 8925,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-blinds",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Blinds",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Blinds"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-blinds-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Blinds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Blinds",
+    "mgModuleId": 9880
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-blinds-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Blinds",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Blinds",
+    "mgModuleId": 10542
+  },
+  {
     "mgModuleId": 8924,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-veils",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Veils",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Veils"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-veils-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Veils",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Veils",
+    "mgModuleId": 9858
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-veils-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Veils",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Veils",
+    "mgModuleId": 10543
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-veils-magpie",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Veils",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Veils",
+    "mgModuleId": 19592
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-veils-black-gold-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Veils",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Veils",
+    "mgModuleId": 21330
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-veils-black-and-gold-oscillosaurus-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Veils",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Veils",
+    "mgModuleId": 21421
+  },
+  {
     "mgModuleId": 2579,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-frames",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Frames",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Frames"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-mutable-instruments-frames-grayscale-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Frames",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Frames",
+    "mgModuleId": 5619
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/oscillosaurus-frames-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Frames",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Frames",
+    "mgModuleId": 9493
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-frames-alternate-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Frames",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Frames",
+    "mgModuleId": 20165
+  },
+  {
     "mgModuleId": 16507,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-stages",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Stages",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Stages"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-stages-black-gold-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Stages",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Stages",
+    "mgModuleId": 21334
+  },
+  {
     "mgModuleId": 16508,
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-marbles",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Marbles",
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Marbles"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/oscillosaurus-marbles-pcb-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Marbles",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Marbles",
+    "mgModuleId": 20547
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-marbles-black-gold-panel",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Marbles",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Marbles",
+    "mgModuleId": 21335
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/after-later-audio-marbles",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Marbles",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Marbles",
+    "mgModuleId": 25232
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-marbles-",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Marbles",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Marbles",
+    "mgModuleId": 25742
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-momo-modular-marbles-clone-oscillosaurus-black-gold",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Marbles",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Marbles",
+    "mgModuleId": 26282
+  },
+  {
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-momo-modular-mutable-instruments-marbles-clone-black-textured-magpie",
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Marbles",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Marbles",
+    "mgModuleId": 26469
+  },
+  {
     "mgModuleId": 7070,
+    "mgUrl": "https://www.modulargrid.net/e/befaco-even-vco-",
+    "pluginSlug": "Befaco",
+    "moduleSlug": "EvenVCO",
     "vcvUrl": "https://library.vcvrack.com/Befaco/EvenVCO"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/befaco-even-vco",
+    "pluginSlug": "Befaco",
+    "moduleSlug": "EvenVCO",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/EvenVCO",
+    "mgModuleId": 4409
+  },
+  {
     "mgModuleId": 6702,
+    "mgUrl": "https://www.modulargrid.net/e/befaco-rampage",
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Rampage",
     "vcvUrl": "https://library.vcvrack.com/Befaco/Rampage"
   },
   {
+    "mgUrl": "https://www.modulargrid.net/e/befaco-rampage-pocochis-edition",
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Rampage",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Rampage",
+    "mgModuleId": 22782
+  },
+  {
     "mgModuleId": 8071,
+    "mgUrl": "https://www.modulargrid.net/e/befaco-a-b-c",
+    "pluginSlug": "Befaco",
+    "moduleSlug": "ABC",
     "vcvUrl": "https://library.vcvrack.com/Befaco/ABC"
   },
   {
     "mgModuleId": 7069,
+    "mgUrl": "https://www.modulargrid.net/e/befaco-spring-reverb-",
+    "pluginSlug": "Befaco",
+    "moduleSlug": "SpringReverb",
     "vcvUrl": "https://library.vcvrack.com/Befaco/SpringReverb"
   },
   {
     "mgModuleId": 7073,
+    "mgUrl": "https://www.modulargrid.net/e/befaco-mixer-",
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Mixer",
     "vcvUrl": "https://library.vcvrack.com/Befaco/Mixer"
   },
   {
     "mgModuleId": 7074,
+    "mgUrl": "https://www.modulargrid.net/e/befaco-vc-slew-limiter-",
+    "pluginSlug": "Befaco",
+    "moduleSlug": "SlewLimiter",
     "vcvUrl": "https://library.vcvrack.com/Befaco/SlewLimiter"
   },
   {
     "mgModuleId": 6588,
+    "mgUrl": "https://www.modulargrid.net/e/befaco-dual-atenuverter-",
+    "pluginSlug": "Befaco",
+    "moduleSlug": "DualAtenuverter",
     "vcvUrl": "https://library.vcvrack.com/Befaco/DualAtenuverter"
   },
   {
     "mgModuleId": 304,
+    "mgUrl": "https://www.modulargrid.net/e/synthesis-technology-e340-cloud-generator",
+    "pluginSlug": "ESeries",
+    "moduleSlug": "E340",
     "vcvUrl": "https://library.vcvrack.com/ESeries/E340"
+  },
+  {
+    "mgModuleId": 19870,
+    "mgUrl": "https://www.modulargrid.net/e/alright-devices-chronoblob2",
+    "pluginSlug": "AlrightDevices",
+    "moduleSlug": "Chronoblob2",
+    "vcvUrl": "https://library.vcvrack.com/AlrightDevices/Chronoblob2"
+  },
+  {
+    "mgModuleId": 11551,
+    "mgUrl": "https://www.modulargrid.net/e/alright-devices-t-wrex-",
+    "pluginSlug": "AlrightDevices",
+    "moduleSlug": "T-Wrex",
+    "vcvUrl": "https://library.vcvrack.com/AlrightDevices/T-Wrex"
+  },
+  {
+    "mgModuleId": 8479,
+    "mgUrl": "https://www.modulargrid.net/e/erica-synths-black-wavetable-vco",
+    "pluginSlug": "EricaCopies",
+    "moduleSlug": "BlackWaveTableVCO",
+    "vcvUrl": "https://library.vcvrack.com/EricaCopies/BlackWaveTableVCO"
+  },
+  {
+    "mgModuleId": 10361,
+    "mgUrl": "https://www.modulargrid.net/e/erica-synths-black-octasource",
+    "pluginSlug": "EricaCopies",
+    "moduleSlug": "BlackOctasource",
+    "vcvUrl": "https://library.vcvrack.com/EricaCopies/BlackOctasource"
+  },
+  {
+    "mgModuleId": 8463,
+    "mgUrl": "https://www.modulargrid.net/e/erica-synths-pico-drums",
+    "pluginSlug": "EricaCopies",
+    "moduleSlug": "PicoDrums",
+    "vcvUrl": "https://library.vcvrack.com/EricaCopies/PicoDrums"
+  },
+  {
+    "mgModuleId": 5445,
+    "mgUrl": "https://www.modulargrid.net/e/music-thing-modular-radio-music",
+    "pluginSlug": "modular80",
+    "moduleSlug": "RadioMusic",
+    "vcvUrl": "https://library.vcvrack.com/modular80/RadioMusic"
+  },
+  {
+    "mgModuleId": 6392,
+    "mgUrl": "https://www.modulargrid.net/e/nonlinearcircuits-bools",
+    "pluginSlug": "NonlinearCircuits",
+    "moduleSlug": "BOOLs",
+    "vcvUrl": "https://library.vcvrack.com/NonlinearCircuits/BOOLs"
+  },
+  {
+    "mgModuleId": 16578,
+    "mgUrl": "https://www.modulargrid.net/e/nonlinearcircuits-dual-neuron-diff-rect-papernoise-panel",
+    "pluginSlug": "NonlinearCircuits",
+    "moduleSlug": "DoubleNeuron",
+    "vcvUrl": "https://library.vcvrack.com/NonlinearCircuits/DoubleNeuron"
+  },
+  {
+    "mgModuleId": 2990,
+    "mgUrl": "https://www.modulargrid.net/e/nonlinearcircuits-dual-neuron-difference-rectifier",
+    "pluginSlug": "NonlinearCircuits",
+    "moduleSlug": "DoubleNeuron",
+    "vcvUrl": "https://library.vcvrack.com/NonlinearCircuits/DoubleNeuron"
+  },
+  {
+    "mgModuleId": 19443,
+    "mgUrl": "https://www.modulargrid.net/e/nonlinearcircuits-squid-axon-",
+    "pluginSlug": "NonlinearCircuits",
+    "moduleSlug": "SquidAxon",
+    "vcvUrl": "https://library.vcvrack.com/NonlinearCircuits/SquidAxon"
+  },
+  {
+    "mgModuleId": 17320,
+    "mgUrl": "https://www.modulargrid.net/e/nonlinearcircuits-squid-axon-magpie-white-panel",
+    "pluginSlug": "NonlinearCircuits",
+    "moduleSlug": "SquidAxon",
+    "vcvUrl": "https://library.vcvrack.com/NonlinearCircuits/SquidAxon"
+  },
+  {
+    "mgModuleId": 16182,
+    "mgUrl": "https://www.modulargrid.net/e/nonlinearcircuits-squid-axon-magpie-black-panel",
+    "pluginSlug": "NonlinearCircuits",
+    "moduleSlug": "SquidAxon",
+    "vcvUrl": "https://library.vcvrack.com/NonlinearCircuits/SquidAxon"
+  },
+  {
+    "mgModuleId": 8202,
+    "mgUrl": "https://www.modulargrid.net/e/nonlinearcircuits-squid-axon",
+    "pluginSlug": "NonlinearCircuits",
+    "moduleSlug": "SquidAxon",
+    "vcvUrl": "https://library.vcvrack.com/NonlinearCircuits/SquidAxon"
+  },
+  {
+    "mgModuleId": 22813,
+    "mgUrl": "https://www.modulargrid.net/e/vult-freak",
+    "pluginSlug": "VultCompacts",
+    "moduleSlug": "Freak",
+    "vcvUrl": "https://library.vcvrack.com/VultCompacts/Freak"
+  },
+  {
+    "mgModuleId": 21556,
+    "mgUrl": "https://www.modulargrid.net/e/vult-vorg",
+    "pluginSlug": "VultCompacts",
+    "moduleSlug": "Vorg",
+    "vcvUrl": "https://library.vcvrack.com/VultCompacts/Vorg"
+  },
+  {
+    "mgModuleId": 20812,
+    "mgUrl": "https://www.modulargrid.net/e/nozoid-nozori-68",
+    "pluginSlug": "Nozoid",
+    "vcvUrl": "https://library.vcvrack.com/Nozoid"
+  },
+  {
+    "mgModuleId": 20813,
+    "mgUrl": "https://www.modulargrid.net/e/nozoid-nozori-84",
+    "pluginSlug": "Nozoid",
+    "vcvUrl": "https://library.vcvrack.com/Nozoid"
   }
 ]
