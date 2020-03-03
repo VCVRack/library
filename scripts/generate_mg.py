@@ -28,10 +28,10 @@ for manifest_filename in glob.glob('manifests/*.json'):
 			continue
 
 		mg_data = {}
-		mg_data['mgUrl'] = mg_url
 		mg_data['pluginSlug'] = plugin_slug
 		mg_data['moduleSlug'] = module_slug
 		mg_data['vcvUrl'] = f"https://library.vcvrack.com/{plugin_slug}/{module_slug}"
+		mg_data['mgUrl'] = mg_url
 		mg.append(mg_data)
 		print(mg_data)
 

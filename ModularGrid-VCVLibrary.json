@@ -969,5 +969,33 @@
     "mgUrl": "https://www.modulargrid.net/e/nozoid-nozori-84",
     "pluginSlug": "Nozoid",
     "vcvUrl": "https://library.vcvrack.com/Nozoid"
+  },
+  {
+    "pluginSlug": "Starling_Via",
+    "moduleSlug": "META",
+    "vcvUrl": "https://library.vcvrack.com/Starling_Via/META",
+    "mgUrl": "https://www.modulargrid.net/e/starling-via-meta",
+    "mgModuleId": 21793
+  },
+  {
+    "pluginSlug": "Starling_Via",
+    "moduleSlug": "SYNC",
+    "vcvUrl": "https://library.vcvrack.com/Starling_Via/SYNC",
+    "mgUrl": "https://www.modulargrid.net/e/starling-via-sync",
+    "mgModuleId": 21794
+  },
+  {
+    "pluginSlug": "Starling_Via",
+    "moduleSlug": "SCANNER",
+    "vcvUrl": "https://library.vcvrack.com/Starling_Via/SCANNER",
+    "mgUrl": "https://www.modulargrid.net/e/starling-via-scanner",
+    "mgModuleId": 21795
+  },
+  {
+    "pluginSlug": "Starling_Via",
+    "moduleSlug": "GATESEQ",
+    "vcvUrl": "https://library.vcvrack.com/Starling_Via/GATESEQ",
+    "mgUrl": "https://www.modulargrid.net/e/starling-via-gateseq",
+    "mgModuleId": 21796
   }
 ]
