@@ -1,7 +1,7 @@
 {
   "slug": "NANOModules",
   "name": "NANO Modules",
-  "version": "1.5.2.1",
+  "version": "1.5.2.2",
   "license": "Proprietary",
   "brand": "NANO Modules",
   "author": "Jorge Gutierrez",
@@ -16,80 +16,112 @@
       "slug": "MAR",
       "name": "MAR",
       "description": "Dual Eurorack Mixer",
+      "manualUrl": "https://nanomodul.es/wp-content/uploads/2019/09/MAR-Manual-Final.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-mar",
       "tags": [
         "Mixer",
-        "Attenuator"
+        "Attenuator",
+        "Hardware clone"
       ]
     },
     {
       "slug": "FONT",
       "name": "FONT",
       "description": "Massive Sounding Liquid Filter",
+      "manualUrl": "https://nanomodul.es/wp-content/uploads/2019/04/FONT-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-font",
       "tags": [
         "Filter",
-        "Oscillator"
+        "Oscillator",
+        "Hardware clone"
       ]
     },
     {
       "slug": "ALT",
       "name": "ALT",
       "description": "Quad Voltage Controlled Amplifier & Cascading Mixer",
+      "manualUrl": "https://nanomodul.es/wp-content/uploads/2019/08/ALT-Manual-1.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-alt",
       "tags": [
         "Attenuator",
         "Mixer",
         "Quad",
-        "VCA"
+        "VCA",
+        "Hardware clone"
       ]
     },
     {
       "slug": "QUART",
       "name": "QUART",
       "description": "Quad AD Envelope & LFO Generator",
+      "manualUrl": "https://nanomodul.es/wp-content/uploads/2020/02/QUART-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-quart",
       "tags": [
         "Envelope generator",
         "LFO",
         "Oscillator",
-        "Function generator"
+        "Function generator",
+        "Hardware clone"
       ]
     },
     {
       "slug": "BLANK12Hp",
       "name": "BLANK 12Hp",
       "description": "Boast & protect your VCV rack",
+      "manualUrl": "https://nanomodul.es/blank/",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-blank-12hp",
       "tags": [
-        "Blank, Visual"
+        "Blank",
+        "Visual",
+        "Hardware clone"
       ]
     },
     {
       "slug": "BLANK8Hp",
       "name": "BLANK 8Hp",
       "description": "Boast & protect your VCV rack",
+      "manualUrl": "https://nanomodul.es/blank/",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-blank-8hp",
       "tags": [
-        "Blank, Visual"
+        "Blank",
+        "Visual",
+        "Hardware clone"
       ]
     },
     {
       "slug": "BLANK6Hp",
       "name": "BLANK 6Hp",
       "description": "Boast & protect your VCV rack",
+      "manualUrl": "https://nanomodul.es/blank/",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-blank-6hp",
       "tags": [
-        "Blank, Visual"
+        "Blank",
+        "Visual",
+        "Hardware clone"
       ]
     },
     {
       "slug": "BLANK4Hp",
       "name": "BLANK 4Hp",
       "description": "Boast & protect your VCV rack",
+      "manualUrl": "https://nanomodul.es/blank/",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-blank-4hp",
       "tags": [
-        "Blank, Visual"
+        "Blank",
+        "Visual",
+        "Hardware clone"
       ]
     },
     {
       "slug": "BLANK2Hp",
       "name": "BLANK 2Hp",
       "description": "Boast & protect your VCV rack",
+      "manualUrl": "https://nanomodul.es/blank/",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-blank-2hp",
       "tags": [
-        "Blank, Visual"
+        "Blank",
+        "Visual",
+        "Hardware clone"
       ]
     }
   ]
