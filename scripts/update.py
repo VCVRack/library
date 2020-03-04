@@ -16,7 +16,7 @@ RACK_USER_PLUGIN_DIR = os.path.join(RACK_USER_DIR, "plugins-v1")
 
 # Update git before continuing
 build.system("git pull")
-# build.system("git submodule sync")
+build.system("git submodule sync --quiet")
 build.system("git submodule update --init --recursive")
 
 plugin_filenames = sys.argv[1:]
@@ -119,19 +119,23 @@ if not updated_slugs:
 	print("Nothing to build")
 	exit(0)
 
+built_slugs_str = ", ".join(updated_slugs)
 
-print("Press enter to upload packages and push library repo")
+print()
+print(f"Please test packages and generate screenshots.")
+print(f"Press enter to upload the following packages and push the library repo: {built_slugs_str}")
 input()
 
 # Upload packages
 build.system("cd ../packages && make upload")
 
+# Upload screenshots
+build.system("cd ../screenshots && make upload")
+
 # Commit repository
 build.system("git add manifests")
-built_slugs_str = ", ".join(updated_slugs)
 build.system(f"git commit -m 'Update manifest for {built_slugs_str}'")
 build.system("git push")
 
 print()
 print(f"Updated {built_slugs_str}")
-print("Remember to generate and upload screenshots")

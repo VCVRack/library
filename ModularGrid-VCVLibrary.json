@@ -997,5 +997,68 @@
     "vcvUrl": "https://library.vcvrack.com/Starling_Via/GATESEQ",
     "mgUrl": "https://www.modulargrid.net/e/starling-via-gateseq",
     "mgModuleId": 21796
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "MAR",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/MAR",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-mar",
+    "mgModuleId": 18168
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "FONT",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/FONT",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-font",
+    "mgModuleId": 21864
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "ALT",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/ALT",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-alt",
+    "mgModuleId": 22980
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "QUART",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/QUART",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-quart",
+    "mgModuleId": 25549
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "BLANK12Hp",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/BLANK12Hp",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-blank-12hp",
+    "mgModuleId": 25231
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "BLANK8Hp",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/BLANK8Hp",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-blank-8hp",
+    "mgModuleId": 25230
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "BLANK6Hp",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/BLANK6Hp",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-blank-6hp",
+    "mgModuleId": 25229
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "BLANK4Hp",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/BLANK4Hp",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-blank-4hp",
+    "mgModuleId": 25228
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "BLANK2Hp",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/BLANK2Hp",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-blank-2hp",
+    "mgModuleId": 25227
   }
 ]
