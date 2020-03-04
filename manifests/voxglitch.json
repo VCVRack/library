@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "1.3.0",
+  "version": "1.6.0",
   "license": "BSD-3-Clause",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -20,6 +20,14 @@
       "tags": [
         "Sampler",
         "Drum"
+      ]
+    },
+    {
+      "slug": "digitalsequencer",
+      "name": "Digital Sequencer",
+      "description": "Six-in-one cv/gate sequencers with independent control over clock division and sequence length.",
+      "tags": [
+        "Sequencer"
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
   "slug": "kocmoc",
   "name": "kocmoc",
-  "version": "1.2.1",
+  "version": "1.2.5",
   "license": "GPL-3.0-or-later",
   "brand": "kocmoc",
   "author": "janne808",
@@ -14,12 +14,11 @@
   "changelogUrl": "",
   "modules": [
     {
-      "slug": "SVF-1",
-      "name": "SVF-1",
+      "slug": "SVF",
+      "name": "SVF",
       "description": "State Variable Filter",
       "tags": [
-        "vcf",
-        "filter"
+        "Filter"
       ]
     },
     {
@@ -27,7 +26,7 @@
       "name": "TRG",
       "description": "Trigger Sequencer",
       "tags": [
-        "sequencer"
+        "Sequencer"
       ]
     },
     {
@@ -35,8 +34,31 @@
       "name": "LADR",
       "description": "4-pole Ladder Filter",
       "tags": [
-        "vcf",
-        "filter"
+        "Filter"
+      ]
+    },
+    {
+      "slug": "OP",
+      "name": "OP",
+      "description": "Phase-modulation operator",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "PHASR",
+      "name": "PHASR",
+      "description": "Phasor oscillator",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "MUL",
+      "name": "MUL",
+      "description": "Multiplier",
+      "tags": [
+        "Utility"
       ]
     }
   ]
