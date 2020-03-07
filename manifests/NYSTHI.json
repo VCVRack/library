@@ -1,7 +1,7 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
@@ -169,8 +169,8 @@
     },
     {
       "slug": "AttackDecay",
-      "name": "AttackDecay, Attack Decay, AD, ADSR, Envelope EG",
-      "description": "Attack Decay Envelope",
+      "name": "AttackDecay AD",
+      "description": "Attack Decay, AD, Envelope EG",
       "tags": [
         "Envelope generator",
         "Function generator"
@@ -178,8 +178,8 @@
     },
     {
       "slug": "PolyAttackDecay",
-      "name": "PolyAttackDecay Polyphonic Attack Decay, AD, ADSR, Envelope Generator EG",
-      "description": "Polyphonic Attack Decay Envelope Generator",
+      "name": "PolyAttackDecay Polyphonic AD",
+      "description": "Polyphonic Attack Decay, AD, ADSR, Envelope Generator EG",
       "tags": [
         "Envelope generator",
         "Function generator",
@@ -188,8 +188,8 @@
     },
     {
       "slug": "DelayAttackHoldDecay",
-      "name": "DAHD DelayAttackHoldDecay Delay Attack Hold Decay Envelope like 281e, Serge USG, ems trapezoid",
-      "description": "Delay Attack Hold Decay Envelope, like 281e, Serge USG, ems trapezoid",
+      "name": "DelayAttackHoldDecay DAHD",
+      "description": "DAHD Delay Attack Hold Decay Envelope like 281e, Serge USG, ems trapezoid",
       "tags": [
         "Envelope generator",
         "Function generator"
@@ -197,8 +197,8 @@
     },
     {
       "slug": "PolyDelayAttackHoldDecay",
-      "name": "PolyDelayAttackHoldDecay Polyphonic Delay Attack Hold Decay Envelope, like 281e, Serge USG, ems trapezoid  EG DAHD",
-      "description": "Polyphonic Delay Attack Hold Decay Envelope, like 281e, Serge USG, ems trapezoid",
+      "name": "PolyDelayAttackHoldDecay PolyDAHD",
+      "description": "PolyDAHD Polyphonic Delay Attack Hold Decay Envelope, like 281e, Serge USG, ems trapezoid  EG DAHD",
       "tags": [
         "Envelope generator",
         "Function generator",
@@ -207,7 +207,7 @@
     },
     {
       "slug": "PolyAttackDecaySustainRelease",
-      "name": "PolyAttackDecaySustainRelease Polyphonic Attack Decay Sustain Release Envelope DADSR",
+      "name": "PolyAttackDecaySustainRelease PolyADSR",
       "description": "Polyphonic Attack Decay Sustain Release Envelope",
       "tags": [
         "Envelope generator",
@@ -227,7 +227,7 @@
     },
     {
       "slug": "Dica33",
-      "name": "Dica33 Distorted Acid filter 303",
+      "name": "Dica33 303 filter",
       "description": "Distorted Acid filter 303 wannabe",
       "tags": [
         "filter"
@@ -235,7 +235,7 @@
     },
     {
       "slug": "HotTuna",
-      "name": "HotTuna Chromatic TUNER",
+      "name": "HotTuna TUNER",
       "description": "Chromatic TUNER",
       "tags": [
         "Utility",
@@ -244,8 +244,8 @@
     },
     {
       "slug": "SoyModelSOU",
-      "name": "SoyModelSOU Source of uncertainty Buchla266/Doepfer149 wannabe",
-      "description": "Source of uncertainty Buchla266/Doepfer149 wannabe",
+      "name": "SoyModelSOU",
+      "description": "Source of uncertainty Buchla266/Doepfer149 wannabe wannabe",
       "tags": [
         "Random",
         "Sample and hold"
@@ -253,7 +253,7 @@
     },
     {
       "slug": "SOU-UTILS",
-      "name": "SOU-UTILS SoyModelSOU little helper, scaler, offsetter, voltage folders, analogue shifter",
+      "name": "SOUUtils",
       "description": "SoyModelSOU little helper, scaler, offsetter, voltage folders, analogue shifter",
       "tags": [
         "Random",
@@ -266,7 +266,7 @@
     {
       "slug": "SQUONK",
       "name": "SQUONK sequencer",
-      "description": "sequencer, keyboard, memory, gater, bridger",
+      "description": "sequencer, keyboard, memory, gater, bridger, ratcheter",
       "tags": [
         "Sequencer"
       ]
@@ -280,7 +280,7 @@
     },
     {
       "slug": "QuadPanner",
-      "name": "QuadPanner Buchla 227e single channel emulation: quadraphonic audio source placer",
+      "name": "QuadPanner",
       "description": "Buchla 227e single channel emulation: quadraphonic audio source placer",
       "tags": [
         "Mixer",
@@ -290,13 +290,14 @@
     {
       "slug": "DX7Envelope",
       "name": "DX7Envelope",
+      "description": "DX7 style envelope",
       "tags": [
         "Envelope generator"
       ]
     },
     {
       "slug": "DualFeedbackEcho",
-      "name": "DualFeedbackEcho: experimental delay driven by VCO",
+      "name": "DualFeedbackEcho",
       "description": "experimental delay driven by VCO",
       "tags": [
         "Effect",
@@ -314,7 +315,7 @@
     },
     {
       "slug": "PlateVerb",
-      "name": "PlateVerb: Plate Reverb based on dattorro paper",
+      "name": "PlateVerb: Plate Reverb",
       "description": "Plate Reverb based on dattorro paper (beware, sometimes scares you!)",
       "tags": [
         "Reverb",
@@ -323,7 +324,7 @@
     },
     {
       "slug": "DissonantVerb",
-      "name": "DissonantVerb: Plate Reverb with dual pitch shifter (with different tuning) in the feedback loop",
+      "name": "DissonantVerb: Plate Reverb",
       "description": "Plate Reverb with dual pitch shifter (with different tuning) in the feedback loop",
       "tags": [
         "Reverb",
@@ -332,7 +333,7 @@
     },
     {
       "slug": "ScalaQuantizer",
-      "name": "ScalaQuantizer: Quantizer based on .scl SCALA files",
+      "name": "ScalaQuantizer",
       "description": "Quantizer based on .scl SCALA files",
       "tags": [
         "Quantizer",
@@ -341,7 +342,7 @@
     },
     {
       "slug": "EqualDivisionQuantizer",
-      "name": "Equal Division Quantizer: Quantizer based on the formula A-th root of B",
+      "name": "EqualDivisionQuantizer",
       "description": "Quantizer based on the formula A-th root of B",
       "tags": [
         "Quantizer",
@@ -350,7 +351,7 @@
     },
     {
       "slug": "XattoTime",
-      "name": "XattoDelayer, Clockable delayer, with precise microseconds settings",
+      "name": "XattoDelayer",
       "description": "Clockable delayer, with precise microseconds settings",
       "tags": [
         "Effect",
@@ -360,7 +361,7 @@
     },
     {
       "slug": "ConstAddMult",
-      "name": "ConstAddMult, Utility to Add, Sub, Div and Mult",
+      "name": "ConstAddMult",
       "description": "Utility to Add, Sub, Div and Mult",
       "tags": [
         "Utility",
@@ -372,7 +373,7 @@
     },
     {
       "slug": "8AttackDecay",
-      "name": "8 Attack Decay, ttack Decay Envelope generator with VCA and unity mixer",
+      "name": "8 AD",
       "description": "8 Attack Decay EG with VCA and unity mixer",
       "tags": [
         "Function generator",
@@ -382,7 +383,7 @@
     },
     {
       "slug": "QuadSimplerSlicerQuantizer",
-      "name": "QuadSimplerSlicerQuantizer Quad Equal voltage division quantizer",
+      "name": "QuadSimplerSlicerQuantizer",
       "description": "Quad Equal voltage division quantizer",
       "tags": [
         "Quantizer",
@@ -392,7 +393,7 @@
     },
     {
       "slug": "Spectre",
-      "name": "Spectre Real time spectrogram",
+      "name": "Spectre",
       "description": "Real time spectrogram",
       "tags": [
         "Visual"
@@ -400,7 +401,7 @@
     },
     {
       "slug": "DeepNote",
-      "name": "DeepNote THX effect simulator",
+      "name": "DeepNote",
       "description": "THX effect simulator",
       "tags": [
         "VCO",
@@ -409,7 +410,7 @@
     },
     {
       "slug": "DOPPLAB",
-      "name": "Doppler Lab Doppler simulator",
+      "name": "DOPPLAB Doppler simulator",
       "description": "Doppler simulator",
       "tags": [
         "Filter"
@@ -435,7 +436,7 @@
     },
     {
       "slug": "Flipper",
-      "name": "Flipper FlipFlops and Trigs",
+      "name": "Flipper",
       "description": "FlipFlops and Trigs to generate GATES and TRIGS on demand ",
       "tags": [
         "Logic",
@@ -444,7 +445,7 @@
     },
     {
       "slug": "DYNAMO",
-      "name": "DYNAMO Stereo compressor, hard limiter",
+      "name": "DYNAMO",
       "description": "Stereo compressor, hard limiter",
       "tags": [
         "Effect",
@@ -453,7 +454,7 @@
     },
     {
       "slug": "Strummer",
-      "name": "Strummer String strummer device",
+      "name": "Strummer",
       "description": "String strummer device",
       "tags": [
         "Utility"
@@ -461,7 +462,7 @@
     },
     {
       "slug": "AutoFader",
-      "name": "AutoFader Automated fader and cross fader",
+      "name": "AutoFader",
       "description": "Automated fader and cross fader",
       "tags": [
         "Utility",
@@ -471,7 +472,7 @@
     },
     {
       "slug": "VectorMixer",
-      "name": "VectorMixer Bidimensional mixer with 4 sources and sequencer for animations",
+      "name": "VectorMixer",
       "description": "Bidimensional mixer with 4 sources and sequencer for animations",
       "tags": [
         "Mixer",
@@ -481,7 +482,7 @@
     },
     {
       "slug": "metaAARDVARK",
-      "name": "metaAARDVARK Warren Burt noise s&h lfo Aardvark IV RVG cell, clockable, cvable, syncable",
+      "name": "metaAARDVARK",
       "description": "Warren Burt noise s&h lfo Aardvark IV RVG cell, clockable, cvable, syncable",
       "tags": [
         "Noise",
@@ -493,7 +494,7 @@
     },
     {
       "slug": "Jooper",
-      "name": "Jooper 8 channel, with scene manager, UNITYMIXER, MULTIPLEXER, IN-OUT SWITCH",
+      "name": "Jooper 8 channel",
       "description": "8 channel, with scene manager, UNITYMIXER, MULTIPLEXER, IN-OUT SWITCH",
       "tags": [
         "Switch",
@@ -504,8 +505,8 @@
     },
     {
       "slug": "ClockableDelay",
-      "name": "ClockableDelay stereo echo delay, clockable, synchronizable, DLD",
-      "description": "stereo echo delay, clockable, synchronizable",
+      "name": "ClockableDelay",
+      "description": " stereo echo delay, clockable, synchronizable, DLD imitation",
       "tags": [
         "Effect",
         "Delay"
@@ -513,7 +514,7 @@
     },
     {
       "slug": "STKPitchShifter",
-      "name": "STKPitchShifter pitch shifter from STK library",
+      "name": "STKPitchShifter",
       "description": "pitch shifter from STK library",
       "tags": [
         "Effect",
@@ -522,7 +523,7 @@
     },
     {
       "slug": "4Hands",
-      "name": "4Hands multi value sequencer",
+      "name": "4Hands",
       "description": "multi value sequencer",
       "tags": [
         "Controller",
@@ -531,7 +532,7 @@
     },
     {
       "slug": "LFOMultiPhase",
-      "name": "LFOMultiPhase LFO with 8 fixed phases and 1 variable",
+      "name": "LFOMultiPhase",
       "description": "LFO with 8 fixed phases and 1 variable, with precise frequency setting",
       "tags": [
         "LFO",
@@ -540,7 +541,7 @@
     },
     {
       "slug": "mix4",
-      "name": "mix4 4 channels stero mixer. Channel 1 LEFT is POLY in INPUT",
+      "name": "mix4",
       "description": "4mix 4 channels stero mixer. Channel 1 LEFT is POLY in INPUT",
       "tags": [
         "Mixer",
@@ -550,7 +551,7 @@
     },
     {
       "slug": "mix8",
-      "name": "mix8 8 channels stero mixer. Channel 1 LEFT is POLY in INPUT",
+      "name": "mix8",
       "description": "8mix 8 channels stero mixer. Channel 1 LEFT is POLY in INPUT",
       "tags": [
         "Mixer",
@@ -560,7 +561,7 @@
     },
     {
       "slug": "mix16",
-      "name": "mix16 16 channels stero mixer. Channel 1 LEFT is POLY in INPUT",
+      "name": "mix16",
       "description": "16mix 16 channels stero mixer. Channel 1 LEFT is POLY in INPUT",
       "tags": [
         "Mixer",
@@ -570,7 +571,7 @@
     },
     {
       "slug": "UNNYSTHIPLEASURESGRAPHER",
-      "name": "UNNYSTHIPLEASURESGRAPHER TOY Waterfall Spectrograph",
+      "name": "UNNYSTHIPLEASURESGRAPHER",
       "description": "TOY Waterfall Spectrograph",
       "tags": [
         "Visual"
@@ -585,7 +586,7 @@
     },
     {
       "slug": "Phasor",
-      "name": "Phasor Graphic Harmonic VCO",
+      "name": "Phasor",
       "description": "Graphic Harmonic VCO",
       "tags": [
         "VCO"
@@ -608,8 +609,8 @@
     },
     {
       "slug": "OP",
-      "name": "\u00b5OPERATOR, FM OPERATOR, Sinusoid VCO",
-      "description": "Operator dx7 style, a Sine VCO",
+      "name": "\u00b5OPERATOR",
+      "description": "FM Operator dx7 style, Sinusoid VCO",
       "tags": [
         "VCO",
         "LFO",
@@ -618,8 +619,8 @@
     },
     {
       "slug": "EN",
-      "name": "\u00b5ENVELOPE, AD or ADSR FM Envelope helper",
-      "description": "Envelope generator AR or ADSR style",
+      "name": "\u00b5ENVELOPE",
+      "description": "FM Envelope generator AR or ADSR style",
       "tags": [
         "Envelope generator",
         "Function generator",
@@ -628,16 +629,16 @@
     },
     {
       "slug": "M1",
-      "name": "\u00b5MIXER Stereo mixer, 3 IN channels",
-      "description": "Stereo mixer, 3 IN channels",
+      "name": "\u00b5MIXER",
+      "description": "FM Mixer helper, Stereo mixer, 3 IN channels",
       "tags": [
         "Mixer"
       ]
     },
     {
       "slug": "M2",
-      "name": "\u00b5MIXER2, FM Mixer helper; Mixer, 4 IN channels",
-      "description": "Mixer, 4 IN channels",
+      "name": "\u00b5MIXER2",
+      "description": "FM Mixer helper, Mixer, 4 IN mono channels",
       "tags": [
         "Mixer",
         "Quad",
@@ -647,7 +648,7 @@
     },
     {
       "slug": "SQ1",
-      "name": "\u00b5SEQUENCER1 16 steps analog style sequencer",
+      "name": "\u00b5SEQUENCER1",
       "description": "16 steps analog style sequencer",
       "tags": [
         "Sequencer"
@@ -655,7 +656,7 @@
     },
     {
       "slug": "SQ2",
-      "name": "\u00b5SEQUENCER2 Programmable sequencer (Roland MC-4 style)",
+      "name": "\u00b5SEQUENCER2",
       "description": "Programmable sequencer (Roland MC-4 style)",
       "tags": [
         "Sequencer"
@@ -663,7 +664,7 @@
     },
     {
       "slug": "SL",
-      "name": "\u00b5SLEW Dual slew with shaper",
+      "name": "\u00b5SLEW",
       "description": "Dual slew with shaper",
       "tags": [
         "Dual",
@@ -674,7 +675,7 @@
     },
     {
       "slug": "DL",
-      "name": "\u00b5DELAY Dual signal delay with display",
+      "name": "\u00b5DELAY",
       "description": "Dual signal delay with display",
       "tags": [
         "Effect",
@@ -684,8 +685,8 @@
     },
     {
       "slug": "confusingSimpler",
-      "name": "confusingSimpler sampler with echophone attempt",
-      "description": "Really confused sampler oscillator granular",
+      "name": "confusingSimpler",
+      "description": "Really confused sampler oscillator",
       "tags": [
         "Recording",
         "Sampler",
@@ -694,8 +695,8 @@
     },
     {
       "slug": "WORMHOLIZER",
-      "name": "WORMHOLIZER wormhole effect, delay reverb",
-      "description": "Wormhole effect",
+      "name": "WORMHOLIZER",
+      "description": "Wormhole effect, delay reverb",
       "tags": [
         "Delay",
         "Effect",
@@ -704,8 +705,8 @@
     },
     {
       "slug": "CONVOLVZILLA",
-      "name": "CONVOLVZILLA Real time impulse convolver, convolution reverb",
-      "description": "Real time impulse convolver",
+      "name": "CONVOLVZILLA reverb",
+      "description": "Real time impulse convolver, convolution reverb",
       "tags": [
         "Delay",
         "Effect",
@@ -714,31 +715,31 @@
     },
     {
       "slug": "Ratchet",
-      "name": "Ratchet Timed pulse repeater",
-      "description": "Timed pulse repeater",
+      "name": "Ratchet",
+      "description": "Ratcheting helper, Timed pulse repeater",
       "tags": [
         "Utility"
       ]
     },
     {
       "slug": "Bridges",
-      "name": "Bridges Gate with probabilty and locks",
-      "description": "Gate with attitude (probabilty and locks)",
+      "name": "Bridges",
+      "description": "Gate with probabilty and locks",
       "tags": [
         "Utility"
       ]
     },
     {
       "slug": "Bivio",
-      "name": "Bivio: a dual path randomizer; TRI path randomizer(probabilty and locks)",
-      "description": "TRI path randomizer(probabilty and locks)",
+      "name": "Bivio",
+      "description": "3 path randomizers (with probabilty and locks)",
       "tags": [
         "Utility"
       ]
     },
     {
       "slug": "Janneker",
-      "name": "Janneker Pulse sequencer and sequencers director",
+      "name": "Janneker",
       "description": "Pulse sequencer and sequencers director",
       "tags": [
         "Utility",
@@ -747,7 +748,7 @@
     },
     {
       "slug": "JannekerTimed",
-      "name": "JannekerTimed Timed pulse sequencer and sequencers director",
+      "name": "JannekerTimed",
       "description": "Timed pulse sequencer and sequencers director",
       "tags": [
         "Utility",
@@ -756,7 +757,7 @@
     },
     {
       "slug": "MagisterFuzz",
-      "name": "MagisterFuzz distortion emulator",
+      "name": "MagisterFuzz",
       "description": "Maestro Fuzz emulator",
       "tags": [
         "Effect",
@@ -765,8 +766,8 @@
     },
     {
       "slug": "RodentV2",
-      "name": "RodentV2 distortion emulator",
-      "description": "ProCo RAT emulator",
+      "name": "RodentV2",
+      "description": "ProCo RAT distortion emulator",
       "tags": [
         "Effect",
         "Distortion"
@@ -774,8 +775,8 @@
     },
     {
       "slug": "SmashMaster",
-      "name": "SmashMaster distortion emulator",
-      "description": "SmashMaster emulator",
+      "name": "SmashMaster",
+      "description": "SmashMaster distortion emulator",
       "tags": [
         "Effect",
         "Distortion"
@@ -783,8 +784,8 @@
     },
     {
       "slug": "RXG100ChanA",
-      "name": "RXG100ChanA distortion emulator",
-      "description": "RXG100ChanA emulator",
+      "name": "RXG100ChanA",
+      "description": "RXG100ChanA distortion emulator",
       "tags": [
         "Effect",
         "Distortion"
@@ -792,8 +793,8 @@
     },
     {
       "slug": "RXG100ChanB",
-      "name": "RXG100ChanB distortion emulator",
-      "description": "RXG100ChanB emulator",
+      "name": "RXG100ChanB",
+      "description": "RXG100ChanB distortion emulator",
       "tags": [
         "Effect",
         "Distortion"
@@ -801,7 +802,7 @@
     },
     {
       "slug": "PolySevenSeas",
-      "name": "PolySevenSeas Polyphonic Wavetable VCO, with bidimensional navigator",
+      "name": "PolySevenSeas",
       "description": "Polyphonic Wavetable VCO, with bidimensional navigator",
       "tags": [
         "VCO",
@@ -810,7 +811,7 @@
     },
     {
       "slug": "SevenSeas",
-      "name": "SevenSeas Wavetable VCO, with bidimensional navigator",
+      "name": "SevenSeas",
       "description": "Wavetable VCO, with bidimensional navigator",
       "tags": [
         "VCO"
@@ -818,7 +819,7 @@
     },
     {
       "slug": "TIMEX",
-      "name": "TIMEX Timer and time utilities",
+      "name": "TIMEX",
       "description": "Timer and time utilities",
       "tags": [
         "CLOCK"
@@ -826,7 +827,7 @@
     },
     {
       "slug": "SAM",
-      "name": "SAM CBM64 voice synthesizer",
+      "name": "SAM",
       "description": "CBM64 voice synthesizer",
       "tags": [
         "VCO",
@@ -835,7 +836,7 @@
     },
     {
       "slug": "AttackSustainRelease16",
-      "name": "AttackSustainRelease16 ASR Envelope",
+      "name": "AttackSustainRelease16",
       "description": "16 Attack (Sustain) Release Envelopes",
       "tags": [
         "Utility",
@@ -846,7 +847,7 @@
     },
     {
       "slug": "AttackSustainRelease8",
-      "name": "AttackSustainRelease8 ASR Envelope",
+      "name": "AttackSustainRelease8",
       "description": "8 Attack (Sustain) Release Envelopes",
       "tags": [
         "Utility",
@@ -857,7 +858,7 @@
     },
     {
       "slug": "AttackSustainRelease4",
-      "name": "AttackSustainRelease4 ASR Envelope",
+      "name": "AttackSustainRelease4",
       "description": "4 Attack (Sustain) Release Envelopes",
       "tags": [
         "Utility",
@@ -884,7 +885,7 @@
     },
     {
       "slug": "02NAGOL",
-      "name": "02NAGOL the UN-logger",
+      "name": "02NAGOL UN-logger",
       "description": "Read CSV files generated by LOGAN20 and LOGAN and replay it",
       "tags": [
         "Utility"
@@ -892,7 +893,7 @@
     },
     {
       "slug": "b208_5steps",
-      "name": "208 5 steps - dual",
+      "name": "208 5 steps sequencer",
       "description": "Imitation of the Buchla 208 5 steps sequencer from the Buchla Easel",
       "tags": [
         "Dual",
@@ -901,7 +902,7 @@
     },
     {
       "slug": "b208_pulser",
-      "name": "208 pulser - dual",
+      "name": "208 pulser",
       "description": "Imitation of the Buchla 208 pulser from the Buchla Easel",
       "tags": [
         "Dual",
@@ -910,7 +911,7 @@
     },
     {
       "slug": "b208_envelope",
-      "name": "208 envelope - dual",
+      "name": "208 envelope",
       "description": "Imitation of the Buchla 208 envelope from the Buchla Easel",
       "tags": [
         "Dual",
@@ -920,7 +921,7 @@
     },
     {
       "slug": "b208_random",
-      "name": "208 random - quad + dual inverter",
+      "name": "208 random + inverter",
       "description": "Imitation of the Buchla 208 noise generators from the Buchla Easel",
       "tags": [
         "Quad",
@@ -940,7 +941,7 @@
     },
     {
       "slug": "b208_dualLPG",
-      "name": "208 style dual dual LPG",
+      "name": "208 LPG",
       "description": "Imitation of the Buchla 208 dual LPG from the Buchla Easel",
       "tags": [
         "Dual",
@@ -951,7 +952,7 @@
     },
     {
       "slug": "QuadSimpler",
-      "name": "QuadSimpler Quad Sample player with mixer",
+      "name": "QuadSimpler",
       "description": "Quad Sample player with mixer",
       "tags": [
         "Quad",
@@ -962,8 +963,8 @@
     },
     {
       "slug": "ClockMultiplier",
-      "name": "ClockMultiplie Clock Multiplier Divider r",
-      "description": "Clock Multiplier Divider",
+      "name": "ClockMultiplier",
+      "description": "Clock Multiplier-Divider",
       "tags": [
         "Quad",
         "Clock modulator"
@@ -971,7 +972,7 @@
     },
     {
       "slug": "Bitshifter",
-      "name": "BOH!NGLER 256 bits bitshifter with S&H and noise and inner LFO and VCO",
+      "name": "Bitshifter BOH!NGLER",
       "description": "256 bits bitshifter with S&H and noise and inner LFO and VCO",
       "tags": [
         "Noise",
@@ -981,8 +982,8 @@
     },
     {
       "slug": "GraphicMeter",
-      "name": "GraphicMeter Voltage Visualizer Voltmeter",
-      "description": "Voltage Visualizer",
+      "name": "GraphicMeter",
+      "description": "Voltage Visualizer-Voltmeter",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -990,7 +991,7 @@
     },
     {
       "slug": "MultiVoltimetro",
-      "name": "MultiVoltimetro Voltmeter",
+      "name": "MultiVoltimetro",
       "description": "Voltage Visualizer",
       "tags": [
         "Utility",
@@ -999,7 +1000,7 @@
     },
     {
       "slug": "FixedVoltageSource",
-      "name": "FixedVoltageSource Fixed Voltage Source with GATE and SUM",
+      "name": "FixedVoltageSource",
       "description": "Fixed Voltage Source with GATE and SUM",
       "tags": [
         "Utility",
@@ -1008,7 +1009,7 @@
     },
     {
       "slug": "TUNATHOR",
-      "name": "TUNATHOR hardware calibration tool for external CV devices",
+      "name": "TUNATHOR",
       "description": "hardware calibration tool for external CV devices",
       "tags": [
         "Utility",
@@ -1036,7 +1037,7 @@
     {
       "slug": "ExpiredTime",
       "name": "ExpiredTime",
-      "description": "Utility to count time an create temporal events",
+      "description": "Timer Utility to count time an create temporal events",
       "tags": [
         "Utility",
         "Timer"
@@ -1044,7 +1045,7 @@
     },
     {
       "slug": "MultiTriggerDelayer",
-      "name": "ELSKER Multi TRIG/GATE with delay and settable lenght, clockable",
+      "name": "ELSKER",
       "description": "Multi TRIG/GATE with delay and settable lenght, clockable",
       "tags": [
         "Utility",
@@ -1053,7 +1054,7 @@
     },
     {
       "slug": "NYECHOEcoeco",
-      "name": "NYECHOEcoeco Analog delay based on magnetic disk",
+      "name": "NYECHOEcoeco",
       "description": "Analog delay based on magnetic disk",
       "tags": [
         "Effect",
@@ -1062,7 +1063,7 @@
     },
     {
       "slug": "JIRAJIRAECHO",
-      "name": "JIRA JIRA ECHO Analog delay based on magnetic disk, Binson Echorec imitation",
+      "name": "JIRAJIRAECHO",
       "description": "Analog delay based on magnetic disk, Binson Echorec imitation",
       "tags": [
         "Effect",
@@ -1082,7 +1083,7 @@
     {
       "disabled": false,
       "slug": "MicrotonalHostHelper",
-      "name": "MicrotonalHostHelper: microtonality to VST Host",
+      "name": "MicrotonalHostHelper",
       "description": "Helper to bring microtonality to VST Host",
       "tags": [
         "Utility",
@@ -1093,7 +1094,7 @@
     {
       "disabled": false,
       "slug": "PolyLPG",
-      "name": "Polyphonic Buchla 208 LPG",
+      "name": "Polyphonic LPG",
       "description": "Polyphonic Buchla 208 LPG",
       "tags": [
         "VCF",
@@ -1105,7 +1106,7 @@
     {
       "disabled": false,
       "slug": "Simpliciter",
-      "name": "Simpliciter sampler with morphagene genes ;)",
+      "name": "Simpliciter",
       "description": "Sample oscillator also known as confusingSimpler",
       "tags": [
         "Recording",
@@ -1116,8 +1117,8 @@
     {
       "disabled": false,
       "slug": "Pepper",
-      "name": "Pepper: Jooper friend (for naming)",
-      "description": "Notes module + Jooper companion",
+      "name": "Pepper",
+      "description": "Notes module to be used with Jooper",
       "tags": [
         "Utility"
       ]
@@ -1125,10 +1126,13 @@
     {
       "disabled": false,
       "slug": "TheCage",
-      "name": "TheCage Keyboard, Switch, Bridge, Sequencer, Quantizer with editable comparators",
+      "name": "TheCage",
       "description": "Keyboard, Switch, Bridge, Sequencer, Quantizer with editable comparators",
       "tags": [
         "Quantizer",
+        "Switch",
+        "Sequencer",
+        "Bridge",
         "Polyphonic",
         "Utility"
       ]
@@ -1136,7 +1140,7 @@
     {
       "disabled": false,
       "slug": "Sussudio",
-      "name": "Sussudio Multi head sampler",
+      "name": "Sussudio",
       "description": "Multi head sample based oscillator",
       "tags": [
         "Sampler",
@@ -1146,8 +1150,8 @@
     },
     {
       "slug": "LFOMultiPhase2",
-      "name": "LFOMultiPhase2 phases 0 60 120 180 240 300",
-      "description": "LFO with 6 fixed phases and 1 variable, with precise frequency setting",
+      "name": "LFOMultiPhase2 ",
+      "description": "LFO with 6 fixed phases and 1 variable, phases 0 60 120 180 240 300, with precise frequency setting",
       "tags": [
         "LFO",
         "VCO"
@@ -1156,7 +1160,7 @@
     {
       "disabled": false,
       "slug": "MusicalBox",
-      "name": "MusicalBox Multi sampler",
+      "name": "MusicalBox",
       "description": "Multi sampler with 8 oscillators",
       "tags": [
         "Sampler",
@@ -1167,8 +1171,8 @@
     {
       "disabled": false,
       "slug": "MusicalBox2",
-      "name": "MusicalBox2 Multi sampler 16 (max 2Mb samples)",
-      "description": "Multi sampler with 16 oscillators",
+      "name": "MusicalBox2",
+      "description": "Multi sampler 16 stereo channels (max 2Mb samples)",
       "tags": [
         "Sampler",
         "Quad",
@@ -1178,8 +1182,8 @@
     {
       "disabled": false,
       "slug": "GateTrigMerger",
-      "name": "GateTrigMerger GATE OR and/or TRIG OR module",
-      "description": "GATE or TRIG mixer/merger, 4 times",
+      "name": "GateTrigMerger",
+      "description": "GATE or TRIG mixer/merger",
       "tags": [
         "Gate",
         "Quad",
@@ -1212,7 +1216,7 @@
     {
       "disabled": false,
       "slug": "Interleaver",
-      "name": "Interleaver: poly channels (de)interleaver",
+      "name": "Interleaver",
       "description": "Poly channels (de)interleaver",
       "tags": [
         "Utility",
@@ -1232,11 +1236,42 @@
     {
       "disabled": false,
       "slug": "PolyRecorder64",
-      "name": "PolyRecorder64 64 tracks recorder",
+      "name": "PolyRecorder64 64 tracks",
       "description": "64 tracks recorder",
       "tags": [
         "Recording",
         "Polyphonic"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "BZ-MAPPER",
+      "name": "BZ-MAPPER",
+      "description": "function mapper",
+      "tags": [
+        "Filter",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "BZ-XPAND",
+      "name": "BZ-XPAND",
+      "description": "function mapper expander",
+      "tags": [
+        "Expander",
+        "Utility"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "BZ-XPANDXPAND",
+      "name": "BZ-XPANDXPAND",
+      "description": "function mapper expander expander",
+      "tags": [
+        "Expander",
+        "Utility"
       ]
     }
   ]
