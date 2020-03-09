@@ -1,12 +1,12 @@
 {
   "slug": "Entrian-Free",
   "name": "Entrian Free",
-  "version": "1.1.0",
+  "version": "1.1.14",
   "license": "proprietary",
   "brand": "Entrian",
   "author": "Entrian Solutions Ltd",
   "authorEmail": "support@entrian.com",
-  "authorUrl": "",
+  "authorUrl": "http://entrian.com/audio/",
   "pluginUrl": "http://entrian.com/audio/entrian-free.html",
   "manualUrl": "http://entrian.com/audio/entrian-free.html",
   "sourceUrl": "",
@@ -20,6 +20,33 @@
         "Utility",
         "Visual",
         "Envelope Follower"
+      ]
+    },
+    {
+      "slug": "Player-Drummer",
+      "name": "Player: Drummer",
+      "description": "Trigger sequence player.",
+      "tags": [
+        "Drum",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Player-Melody",
+      "name": "Player: Melody",
+      "description": "Piano roll melody and chord player.",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Player-Timeline",
+      "name": "Player: Timeline",
+      "description": "Timeline player.",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
       ]
     }
   ]
