@@ -1,0 +1,43 @@
+{
+  "slug": "Entrian-Sequencers",
+  "name": "Entrian Sequencers",
+  "version": "1.1.14",
+  "license": "proprietary",
+  "author": "Entrian Solutions Ltd",
+  "authorEmail": "support@entrian.com",
+  "brand": "Entrian",
+  "authorUrl": "http://entrian.com/audio/",
+  "pluginUrl": "http://entrian.com/audio/entrian-sequencers.html",
+  "manualUrl": "http://entrian.com/audio/entrian-sequencers.html",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Drummer",
+      "name": "Drummer",
+      "description": "Trigger sequencer for expressive drum grooves.",
+      "tags": [
+        "Drum",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Melody",
+      "name": "Melody",
+      "description": "Piano roll melody and chord sequencer.",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Timeline",
+      "name": "Timeline",
+      "description": "Timeline sequencer.",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
