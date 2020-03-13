@@ -1,7 +1,7 @@
 {
   "slug": "Nozoid",
   "name": "Nozoid",
-  "version": "1.1.1",
+  "version": "1.1.3",
   "license": "GPL-3.0-or-later",
   "brand": "nozo\u00efd",
   "author": "Cyrille Henry",
@@ -16,284 +16,529 @@
     {
       "slug": "Nozori_68_ADSR",
       "name": "Nozori_68_ADSR",
-      "description": "",
-      "tags": []
+      "description": "Dual loopable ADSR with modulation speed and integrated VCA",
+      "tags": [
+        "Hardware clone",
+        "Envelope generator",
+        "Dual",
+        "LFO"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_AR",
       "name": "Nozori_68_AR",
-      "description": "",
-      "tags": []
+      "description": "Dual Attack Release with independent modulation",
+      "tags": [
+        "Hardware clone",
+        "Envelope generator",
+        "Dual"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_CRUSH",
       "name": "Nozori_68_CRUSH",
-      "description": "",
-      "tags": []
+      "description": "Stereo Down-sampler / Bitcrusher",
+      "tags": [
+        "Hardware clone",
+        "Digital",
+        "Effect",
+        "Dual"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_CV_REC",
       "name": "Nozori_68_CV_REC",
-      "description": "",
-      "tags": []
+      "description": "Record and play back 2 independent CV, at variable speed",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Digital",
+        "Envelope generator",
+        "Recording"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_DELAY",
       "name": "Nozori_68_DELAY",
-      "description": "",
-      "tags": []
+      "description": "Audio Delay, with tempo synchronisation",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Delay",
+        "Effect"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_EQ",
       "name": "Nozori_68_EQ",
-      "description": "",
-      "tags": []
+      "description": "3 band equalizer",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Effect",
+        "Equalizer"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_GRAN",
       "name": "Nozori_68_GRAN",
-      "description": "",
-      "tags": []
+      "description": "Audio Granulator",
+      "tags": [
+        "Hardware clone",
+        "Digital",
+        "Effect",
+        "Granular"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_KS",
       "name": "Nozori_68_KS",
-      "description": "",
-      "tags": []
+      "description": "Karplus-Strong audio model",
+      "tags": [
+        "Hardware clone",
+        "Delay",
+        "Effect"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_LFO",
       "name": "Nozori_68_LFO",
-      "description": "",
-      "tags": []
+      "description": "Dual LFO, with parametric waveform and syncronisation to any signal",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Function generator",
+        "LFO",
+        "Sample and hold"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_LFO_MOD",
       "name": "Nozori_68_LFO_MOD",
-      "description": "",
-      "tags": []
+      "description": "LFO, with parametric waveform and syncronisation to any signal",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Function generator",
+        "LFO",
+        "Sample and hold"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_NOISE",
       "name": "Nozori_68_NOISE",
-      "description": "",
-      "tags": []
+      "description": "Stereo Noise source, with low and high frequency filter",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Noise"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_PITCH",
       "name": "Nozori_68_PITCH",
-      "description": "",
-      "tags": []
+      "description": "Dual Pitch shifter using tape emulation",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Effect"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_RND_LOOP",
       "name": "Nozori_68_RND_LOOP",
-      "description": "",
-      "tags": []
+      "description": "Loop of Random Value, with various interpolation and external synchronisation",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Function generator",
+        "LFO",
+        "Random"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_SIN_MOD",
       "name": "Nozori_68_SIN_MOD",
-      "description": "",
-      "tags": []
+      "description": "Sinusoidal oscillator with 2 external modulation (PM / FM / AM)",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_VCA_PAN",
       "name": "Nozori_68_VCA_PAN",
-      "description": "",
-      "tags": []
+      "description": "Stereo VCA-Panoramic, with modulation of the panoramic control",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Effect",
+        "Panning",
+        "Voltage-controlled amplifier"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_VCF_MOD",
       "name": "Nozori_68_VCF_MOD",
-      "description": "",
-      "tags": []
+      "description": "Stereo VCF",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Filter"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_VCF_MORPH",
       "name": "Nozori_68_VCF_MORPH",
-      "description": "",
-      "tags": []
+      "description": "Parametric stereo filter.",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Filter"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_VCO",
       "name": "Nozori_68_VCO",
-      "description": "",
-      "tags": []
+      "description": "Simple VCO, with VCA and VC Panoramic",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_VCO_LOOP",
       "name": "Nozori_68_VCO_LOOP",
-      "description": "",
-      "tags": []
+      "description": "Loop of Random Value at audio rate",
+      "tags": [
+        "Hardware clone",
+        "Oscillator",
+        "Random"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_VCO_MORPH",
       "name": "Nozori_68_VCO_MORPH",
-      "description": "",
-      "tags": []
+      "description": "Parametric VCO, with VCA and VC Panoramic",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_VCO_QTZ",
       "name": "Nozori_68_VCO_QTZ",
-      "description": "",
-      "tags": []
+      "description": "Simple VCO, with VCA",
+      "tags": [
+        "Hardware clone",
+        "Oscillator",
+        "Quantizer"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_VCO_WS",
       "name": "Nozori_68_VCO_WS",
-      "description": "",
-      "tags": []
+      "description": "Sinusoidal oscillator with VC waveshaper and VCA and VC Panoramic",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_68_WS",
       "name": "Nozori_68_WS",
-      "description": "",
-      "tags": []
+      "description": "Wave shaper and distortion with a VC Panoramic",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Distortion",
+        "Effect",
+        "Waveshaper"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-68"
     },
     {
       "slug": "Nozori_84_8_BITS",
       "name": "Nozori_84_8_BITS",
-      "description": "",
-      "tags": []
+      "description": "8 bit audio generator",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Digital",
+        "Effect",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_ADD",
       "name": "Nozori_84_ADD",
-      "description": "",
-      "tags": []
+      "description": "Additive synthesis : a sinusoidal oscillator with 6 different harmonics",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_ADSR",
       "name": "Nozori_84_ADSR",
-      "description": "",
-      "tags": []
+      "description": "Dual ADSR with loop mode",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Envelope generator",
+        "LFO"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_CLOCK",
       "name": "Nozori_84_CLOCK",
-      "description": "",
-      "tags": []
+      "description": "Stochastic Clock with ADSR and VCA",
+      "tags": [
+        "Hardware clone",
+        "Clock generator",
+        "Envelope generator",
+        "LFO"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_DOPPLER",
       "name": "Nozori_84_DOPPLER",
-      "description": "",
-      "tags": []
+      "description": "Emulate a Doppler effect applied on an audio source",
+      "tags": [
+        "Hardware clone",
+        "Delay",
+        "Effect"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_FM",
       "name": "Nozori_84_FM",
-      "description": "",
-      "tags": []
+      "description": "Sinusoidal oscillator with 3 modulations oscillators",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_FM_LIN",
       "name": "Nozori_84_FM_LIN",
-      "description": "",
-      "tags": []
+      "description": "4 sinusoidal oscillators linear FM synthesis",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_HARMONICS",
       "name": "Nozori_84_HARMONICS",
-      "description": "",
-      "tags": []
+      "description": "Sinusoidal oscillator with 3 harmonics at variable relative frequency",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_JONG_LFO",
       "name": "Nozori_84_JONG_LFO",
-      "description": "",
-      "tags": []
+      "description": "Peter de Jong chaotic attractor",
+      "tags": [
+        "Hardware clone",
+        "Function generator",
+        "LFO"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_JONG_VCO",
       "name": "Nozori_84_JONG_VCO",
-      "description": "",
-      "tags": []
+      "description": "Peter de Jong chaotic attractor at audio frequency",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_LFO",
       "name": "Nozori_84_LFO",
-      "description": "",
-      "tags": []
+      "description": "Dual LFO",
+      "tags": [
+        "Hardware clone",
+        "Dual",
+        "Function generator",
+        "LFO",
+        "Sample and hold"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_LFO_SEQ",
       "name": "Nozori_84_LFO_SEQ",
-      "description": "",
-      "tags": []
+      "description": "6 step LFO / Sequencer",
+      "tags": [
+        "Hardware clone",
+        "Function generator",
+        "LFO",
+        "Sequencer"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_MODULATE",
       "name": "Nozori_84_MODULATE",
-      "description": "",
-      "tags": []
+      "description": "Modulate 2 audio sources together using various algorithms",
+      "tags": [
+        "Hardware clone",
+        "Digital",
+        "Effect",
+        "Ring modulator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_PARAM",
       "name": "Nozori_84_PARAM",
-      "description": "",
-      "tags": []
+      "description": "6 points parametric audio oscillator",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_SEQ_4",
       "name": "Nozori_84_SEQ_4",
-      "description": "",
-      "tags": []
+      "description": "4 step sequencer with parameterizable step length",
+      "tags": [
+        "Hardware clone",
+        "Sequencer"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_SEQ_8",
       "name": "Nozori_84_SEQ_8",
-      "description": "",
-      "tags": []
+      "description": "8 steps sequencer",
+      "tags": [
+        "Hardware clone",
+        "Sequencer"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_SIN_AM",
       "name": "Nozori_84_SIN_AM",
-      "description": "",
-      "tags": []
+      "description": "4 oscillators AM modulation oscillator",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_SIN_FM",
       "name": "Nozori_84_SIN_FM",
-      "description": "",
-      "tags": []
+      "description": "4 oscillators FM modulation oscillator",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_SIN_PM",
       "name": "Nozori_84_SIN_PM",
-      "description": "",
-      "tags": []
+      "description": "4 oscillators Phase Modulation oscillator",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_SIN_WS",
       "name": "Nozori_84_SIN_WS",
-      "description": "",
-      "tags": []
+      "description": "Dual oscillator and a Peter De Jong waveshaper",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_THOMAS",
       "name": "Nozori_84_THOMAS",
-      "description": "",
-      "tags": []
+      "description": "Dual Thomas strange attractor for CV or audio noise source",
+      "tags": [
+        "Hardware clone",
+        "Digital",
+        "LFO",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_TROPICAL",
       "name": "Nozori_84_TROPICAL",
-      "description": "",
-      "tags": []
+      "description": "Tropical additive synthesis",
+      "tags": [
+        "Hardware clone",
+        "Digital",
+        "Oscillator"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_VCF",
       "name": "Nozori_84_VCF",
-      "description": "",
-      "tags": []
+      "description": "Dual filter with parametric control of the frequency response.",
+      "tags": [
+        "Hardware clone",
+        "Filter"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     },
     {
       "slug": "Nozori_84_WS",
       "name": "Nozori_84_WS",
-      "description": "",
-      "tags": []
+      "description": "Stereo Wave Shaper",
+      "tags": [
+        "Hardware clone",
+        "Distortion",
+        "Effect",
+        "Waveshaper"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/nozoid-nozori-84"
     }
   ]
 }
