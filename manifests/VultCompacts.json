@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/compacts/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "modules": [
     {
       "slug": "Freak",
@@ -16,9 +16,10 @@
       "tags": [
         "VCF",
         "Polyphonic",
-        "Hardware"
+        "Hardware clone"
       ],
-      "description": "Manifold Filter"
+      "description": "Manifold Filter",
+      "modularGridUrl": "https://www.modulargrid.net/e/vult-freak"
     },
     {
       "slug": "Incubus",
@@ -43,9 +44,11 @@
       "name": "Vorg",
       "tags": [
         "VCF",
-        "Polyphonic"
+        "Polyphonic",
+        "Hardware clone"
       ],
-      "description": "Low/High Pass Filter"
+      "description": "Low/High Pass Filter",
+      "modularGridUrl": "https://www.modulargrid.net/e/vult-vorg"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "modules": [
     {
       "slug": "Basal",
@@ -30,7 +30,7 @@
     },
     {
       "slug": "Boomstick",
-      "name": "Boomstick",
+      "name": "Boomstick (Free)",
       "tags": [
         "VCF",
         "Polyphonic"
@@ -61,7 +61,7 @@
     },
     {
       "slug": "Decline",
-      "name": "Decline",
+      "name": "Decline (Free)",
       "tags": [
         "Equalizer",
         "Polyphonic"
@@ -70,7 +70,7 @@
     },
     {
       "slug": "Disjoint",
-      "name": "Disjoint",
+      "name": "Disjoint (Free)",
       "tags": [
         "Equalizer",
         "VCF",
@@ -245,7 +245,7 @@
     },
     {
       "slug": "Vultari",
-      "name": "Vultari",
+      "name": "Vultari (Free)",
       "tags": [
         "VCO",
         "Polyphonic"
