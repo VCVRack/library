@@ -1,14 +1,14 @@
 {
   "slug": "Semiramis",
   "name": "Semiramis",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "license": "Proprietary",
   "author": "Sonus Dept.",
   "brand": "Sonus Dept.",
   "authorEmail": "sonusdept@gmail.com",
   "authorUrl": "http://www.sonusdept.com",
   "pluginUrl": "http://semiramis.sonusdept.com",
-  "manualUrl": "https://www.dropbox.com/s/9nuhhoo2el8ugcb/Semiramis%20Manual.pdf?dl=0",
+  "manualUrl": "https://www.dropbox.com/s/zpeuu8ury6a4kg2/Semiramis%20Manual.pdf?dl=0",
   "modules": [
     {
       "slug": "Semiramis",
@@ -32,6 +32,15 @@
         "LFO",
         "Random",
         "VCO"
+      ]
+    },
+    {
+      "slug": "Envels",
+      "name": "Envels",
+      "description": "ADSR Envelope",
+      "tags": [
+        "Envelope generator",
+        "Polyphonic"
       ]
     },
     {
