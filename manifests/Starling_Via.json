@@ -1,13 +1,13 @@
 {
   "slug": "Starling_Via",
-  "name": "Via",
+  "name": "Starling Via",
   "author": "Starling",
   "license": "MIT",
-  "version": "1.0.0",
-  "pluginUrl": "https://starling.space/via/rack",
+  "version": "1.0.1",
+  "pluginUrl": "https://starling.space/via",
   "authorUrl": "https://starling.space",
   "authorEmail": "admin@starling.space",
-  "manualUrl": "https://starling.space/via/rack#manual",
+  "manualUrl": "https://starling.space/via/platform-info#rack",
   "sourceUrl": "https://github.com/starlingcode/Via-for-Rack.git",
   "donateUrl": "https://paypal.me/ssttaarrlliinngg",
   "changelogUrl": "https://github.com/starlingcode/Via-for-Rack/blob/v1/CHANGELOG.md",
@@ -15,41 +15,77 @@
     {
       "slug": "META",
       "name": "META",
+      "description": "flexible contour generator",
+      "modularGridUrl": "https://www.modulargrid.net/e/starling-via-meta",
       "tags": [
         "Function Generator",
-        "Drum"
+        "Drum",
+        "Hardware"
       ]
     },
     {
       "slug": "SYNC",
       "name": "SYNC",
+      "description": "clock-synced signal source",
+      "modularGridUrl": "https://www.modulargrid.net/e/starling-via-sync",
       "tags": [
         "Oscillator",
-        "Clock Modulator"
+        "Clock Modulator",
+        "Hardware"
       ]
     },
     {
       "slug": "SCANNER",
       "name": "SCANNER",
+      "description": "multi-channel waveshaper",
+      "modularGridUrl": "https://www.modulargrid.net/e/starling-via-scanner",
       "tags": [
         "Waveshaper",
-        "Distortion"
+        "Distortion",
+        "Hardware"
       ]
     },
     {
       "slug": "GATESEQ",
       "name": "GATESEQ",
+      "description": "rhythm engine",
+      "modularGridUrl": "https://www.modulargrid.net/e/starling-via-gateseq",
       "tags": [
         "Sequencer",
-        "Sample and Hold"
+        "Sample and Hold",
+        "Hardware"
       ]
     },
     {
       "slug": "ATSR",
       "name": "ATSR",
+      "description": "crossfading envelope",
+      "modularGridUrl": "https://www.modulargrid.net/e/starling-via-atsr-",
       "tags": [
         "Envelope Generator",
-        "LFO"
+        "LFO",
+        "Hardware"
+      ]
+    },
+    {
+      "slug": "OSC3",
+      "name": "OSC3",
+      "description": "musical oscillator trio",
+      "modularGridUrl": "https://www.modulargrid.net/e/starling-via-osc3-",
+      "tags": [
+        "VCO",
+        "Hardware"
+      ]
+    },
+    {
+      "slug": "SYNC3",
+      "name": "SYNC3",
+      "description": "frequency synthesizer",
+      "modularGridUrl": "https://www.modulargrid.net/e/starling-via-sync3-",
+      "tags": [
+        "Oscillator",
+        "Clock Modulator",
+        "Hardware"
       ]
     }
   ]
