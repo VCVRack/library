@@ -1,8 +1,8 @@
 {
   "slug": "Bogaudio",
   "name": "Bogaudio",
-  "version": "1.1.26",
-  "license": "BSD-3-Clause",
+  "version": "1.1.27",
+  "license": "GPL-3.0-or-later",
   "brand": "Bogaudio",
   "author": "Matt Demanett",
   "authorEmail": "mattdemanett@gmail.com",
@@ -100,6 +100,42 @@
       "description": "Compact low frequency oscillator",
       "tags": [
         "LFO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-VCF",
+      "name": "VCF",
+      "description": "Multimode filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-LVCF",
+      "name": "LVCF",
+      "description": "Compact multimode filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-FFB",
+      "name": "FFB",
+      "description": "Fixed filter bank",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-EQ",
+      "name": "EQ",
+      "description": "Compact 3-channel equalizer",
+      "tags": [
+        "Equalizer",
         "Polyphonic"
       ]
     },

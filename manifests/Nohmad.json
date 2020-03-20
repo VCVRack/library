@@ -1,10 +1,32 @@
 {
+  "slug": "Nohmad",
   "name": "Nohmad",
-  "author": "Joel Robichaud",
+  "version": "1.0.0",
   "license": "MIT",
+  "author": "Joel Robichaud",
+  "authorEmail": "robichaud.jo@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/joelrobichaud/Nohmad/blob/master/README.md",
   "manualUrl": "https://github.com/joelrobichaud/Nohmad/blob/master/README.md",
   "sourceUrl": "https://github.com/joelrobichaud/Nohmad",
-  "pluginUrl": "https://github.com/joelrobichaud/Nohmad",
-  "slug": "Nohmad",
-  "version": "0.6.0"
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Noise",
+      "name": "Noise",
+      "description": "",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "StrangeAttractors",
+      "name": "Strange Attractors",
+      "description": "",
+      "tags": [
+        "Oscillator",
+        "LFO"
+      ]
+    }
+  ]
 }
