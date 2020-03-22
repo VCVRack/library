@@ -1,7 +1,7 @@
 {
   "slug": "LifeFormModular",
   "name": "LifeFormModular",
-  "version": "1.0.2",
+  "version": "1.1",
   "license": "MIT",
   "brand": "LifeFormModular",
   "author": "Marc Dacunha",
@@ -107,6 +107,22 @@
       "tags": [
         "Utility",
         "Quad"
+      ]
+    },
+    {
+      "slug": "ComplexOsc",
+      "name": "ComplexOsc",
+      "description": "Complex Oscillator made with 2 phase modulatable sines plus a clipper",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Driftgen",
+      "name": "Driftgen",
+      "description": "CV modifier, will add subtle drift to V/Oct signals",
+      "tags": [
+        "Utility"
       ]
     }
   ]
