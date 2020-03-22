@@ -1,11 +1,24 @@
 {
-  "name": "EH_modules",
-  "author": "Eduard Heidt",
-  "license": "GPL-3",
-  "pluginUrl": "https://github.com/eh2k/fv1-emu",
-  "authorUrl": "https://github.com/eh2k",
-  "manualUrl": "https://github.com/eh2k/fv1-emu/blob/master/README.md",
-  "sourceUrl": "https://github.com/eh2k/fv1-emu",
   "slug": "EH_modules",
-  "version": "0.6.1"
+  "name": "FV-1.emu",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "author": "Eduard Heidt",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/eh2k",
+  "pluginUrl": "https://github.com/eh2k/fv1-emu",
+  "manualUrl": "https://github.com/eh2k/fv1-emu/blob/master/README.md",
+  "sourceUrl": "https://github.com/eh2k/fv1-emu.git",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "FV-1emu",
+      "name": "FV-1.emu",
+      "description": "Spin Semi FV-1 DSP chip emulator",
+      "tags": [
+        "Effect"
+      ]
+    }
+  ]
 }
