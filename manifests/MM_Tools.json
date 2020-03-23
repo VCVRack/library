@@ -1,7 +1,7 @@
 {
   "slug": "MM_Tools",
   "name": "Mockba Modular Tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "proprietary",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -14,8 +14,8 @@
   "modules": [
     {
       "slug": "SMExpL",
-      "name": "Split/Merge Mix Expander (left side)",
-      "description": "Input Expander for SMMix (no crossfade)",
+      "name": "SMExpL",
+      "description": "Split/Merge Mix Expander (left side, no crossfade)",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -23,7 +23,7 @@
     },
     {
       "slug": "SMMix",
-      "name": "Split/Merge Mix",
+      "name": "SMMix",
       "description": "8 Channel splitter/merger with signal mix (crossfade)",
       "tags": [
         "Utility",
@@ -32,8 +32,8 @@
     },
     {
       "slug": "SMExpR",
-      "name": "Split/Merge Mix Expander (right side)",
-      "description": "Output Expander for SMMix (no crossfade)",
+      "name": "SMExpR",
+      "description": "Split/Merge Mix Expander (right side, no crossfade)",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -41,7 +41,7 @@
     },
     {
       "slug": "SHEight",
-      "name": "8 Channel S&H with Clock Generator",
+      "name": "SHEight",
       "description": "8 Channel S&H with poly output and clock",
       "tags": [
         "Sample and Hold",
@@ -50,8 +50,8 @@
     },
     {
       "slug": "ASSprdr",
-      "name": "Automatic Stereo Spreader",
-      "description": "Multi channel stereo combiner/spreader",
+      "name": "ASSprdr",
+      "description": "Multi channel automatic stereo spreader/combiner",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -59,7 +59,7 @@
     },
     {
       "slug": "TheCBlocker",
-      "name": "DC Blocker",
+      "name": "TheCBlocker",
       "description": "Polyphonic adjustable DC blocker",
       "tags": [
         "Filter",
@@ -68,7 +68,7 @@
     },
     {
       "slug": "Tuube",
-      "name": "Tube Saturator",
+      "name": "Tuube",
       "description": "Simple tube saturator/distortion",
       "tags": [
         "Distortion",
