@@ -1,10 +1,38 @@
 {
+  "slug": "NocturnalEncoder",
   "name": "Nocturnal Encoder",
-  "author": "David Peterson",
+  "version": "1.0.0",
   "license": "BSD-3-Clause",
+  "brand": "Nocturnal Encoder",
+  "author": "David Peterson",
+  "authorEmail": "djp23662@gmail.com",
+  "authorUrl": "https://github.com/djpeterso23662",
+  "pluginUrl": "https://github.com/djpeterso23662/NocturnalEncoder",
   "manualUrl": "https://github.com/djpeterso23662/NocturnalEncoder/blob/master/README.md",
   "sourceUrl": "https://github.com/djpeterso23662/NocturnalEncoder",
-  "pluginUrl": "https://github.com/djpeterso23662/NocturnalEncoder/blob/master/README.md",
-  "slug": "NocturnalEncoder",
-  "version": "0.6.1"
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "AMDecoder",
+      "name": "NE-1 Decoder",
+      "description": "Dual Amplitude Modulation Decoder",
+      "tags": [
+        "Attenuator",
+        "Slew limiter",
+        "Envelope follower",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "AMEncoder",
+      "name": "NE-2 Encoder",
+      "description": "Dual Amplitude Modulation Encoder",
+      "tags": [
+        "Oscillator",
+        "Amplifier",
+        "Dual"
+      ]
+    }
+  ]
 }

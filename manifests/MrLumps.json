@@ -1,10 +1,41 @@
 {
+  "slug": "MrLumps",
   "name": "MrLumps",
-  "author": "David Peterson",
+  "version": "1.0.0",
   "license": "MIT",
+  "brand": "MrLumps",
+  "author": "David Peterson",
+  "authorEmail": "djp23662@gmail.com",
+  "authorUrl": "https://github.com/djpeterso23662",
+  "pluginUrl": "https://github.com/djpeterso23662/MrLumps",
   "manualUrl": "https://github.com/djpeterso23662/MrLumps/blob/master/README.md",
   "sourceUrl": "https://github.com/djpeterso23662/MrLumps",
-  "pluginUrl": "https://github.com/djpeterso23662/MrLumps/blob/master/README.md",
-  "slug": "MrLumps",
-  "version": "0.6.0"
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "SEQE",
+      "name": "SEQEuclid",
+      "description": "Euclidean Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "VCS1",
+      "name": "VCS1",
+      "description": "1x8 Voltage Controlled Switch",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "VCS2",
+      "name": "VCS2",
+      "description": "2x4 Voltage Controlled Switch",
+      "tags": [
+        "Switch"
+      ]
+    }
+  ]
 }
