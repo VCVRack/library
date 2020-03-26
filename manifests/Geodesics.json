@@ -1,7 +1,7 @@
 {
   "slug": "Geodesics",
   "name": "Geodesics",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "GPL-3.0-only",
   "author": "Pyer & Marc Boul\u00e9",
   "brand": "Geodesics",
@@ -21,7 +21,11 @@
       "tags": [
         "Ring modulator",
         "VCA",
-        "Polyphonic"
+        "Polyphonic",
+        "Attenuator",
+        "Controller",
+        "Mixer",
+        "Quad"
       ]
     },
     {
@@ -31,7 +35,9 @@
       "manualUrl": "https://www.pyer.be/pulsars.html",
       "tags": [
         "Mixer",
-        "Polyphonic"
+        "Polyphonic",
+        "Switch",
+        "Sequencer"
       ]
     },
     {
@@ -40,8 +46,10 @@
       "description": "Coliding sample and hold",
       "manualUrl": "https://www.pyer.be/branes.html",
       "tags": [
-        "Sample and Hold",
-        "Random"
+        "Sample and hold",
+        "Random",
+        "Dual",
+        "Noise"
       ]
     },
     {
@@ -50,7 +58,8 @@
       "description": "Atomic dual cv sequencer",
       "manualUrl": "https://www.pyer.be/ions.html",
       "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Dual"
       ]
     },
     {
@@ -59,7 +68,10 @@
       "description": "Thermodynamic microstate sequencer",
       "manualUrl": "https://www.pyer.be/entropia.html",
       "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Switch",
+        "Random",
+        "Attenuator"
       ]
     },
     {
@@ -70,7 +82,8 @@
       "tags": [
         "Oscillator",
         "Synth voice",
-        "Polyphonic"
+        "Polyphonic",
+        "Digital"
       ]
     },
     {
@@ -80,7 +93,11 @@
       "manualUrl": "https://www.pyer.be/torus.html",
       "tags": [
         "Mixer",
-        "Filter"
+        "Filter",
+        "Equalizer",
+        "Multiple",
+        "Utility",
+        "Attenuator"
       ]
     },
     {
@@ -90,7 +107,10 @@
       "manualUrl": "https://www.pyer.be/fate.html",
       "tags": [
         "Utility",
-        "Random"
+        "Random",
+        "Clock modulator",
+        "Dual",
+        "Switch"
       ]
     },
     {

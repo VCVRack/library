@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.12.0",
+  "version": "1.12.1",
   "author": "almostEric",
   "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -54,7 +54,7 @@
     },
     {
       "slug": "DrunkenRampage",
-      "name": "Runken Rampage",
+      "name": "Drunken Rampage",
       "description": "Probalistic Dual ramp generator. Inspired by Befaco Rampage.",
       "tags": [
         "Function Generator",
@@ -172,6 +172,14 @@
       "slug": "PNChordExpander",
       "name": "Probably Note - Chord Expander",
       "description": "Adds Chord Generation to Probably Not(e)",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "PWTapBreakoutExpander",
+      "name": "Portland Weather - Tap Breakout Expander",
+      "description": "Breaks out the individual taps of Portland Weather",
       "tags": [
         "Expander"
       ]
