@@ -87,7 +87,7 @@
 	branch = master
 [submodule "repos/CharredDesert"]
 	path = repos/CharredDesert
-	url = https://github.com/JerrySievert/CharredDesert
+    url = https://github.com/SVModular/CharredDesert
 	branch = master
 [submodule "repos/SynthKit"]
 	path = repos/SynthKit
