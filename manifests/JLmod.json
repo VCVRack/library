@@ -1,0 +1,33 @@
+{
+  "slug": "JLmod",
+  "name": "JLmod",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "JLmod",
+  "author": "Joakim Lindbom",
+  "authorEmail": "Joakim.Lindbom@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/JoakimLindbom/JLmod",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "DebugExpander",
+      "name": "DebugExpander",
+      "description": "Debugger for Ratchets module",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Ratchets",
+      "name": "Ratchets",
+      "description": "Gate and CV sequencer with 1-8 gates generated per step, generating a ratcheting effect",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}

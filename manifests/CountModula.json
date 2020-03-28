@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.8.1",
+  "version": "1.9.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -516,6 +516,22 @@
       ]
     },
     {
+      "slug": "Blank20HP",
+      "name": "Blank Panel - 20HP",
+      "description": "20HP blank panel",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank24HP",
+      "name": "Blank Panel - 24HP",
+      "description": "24HP blank panel",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
       "slug": "OffsetGenerator",
       "name": "Offset Generator",
       "description": "Offsets a CV signal by a given amount",
@@ -803,6 +819,100 @@
       "tags": [
         "Utility",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Switch1To8",
+      "name": "Switch 1-8",
+      "description": "1 input to 8 output sequential/VC switch",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Switch8To1",
+      "name": "Switch 8-1",
+      "description": "8 input to 1 output sequential/VC switch/router",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Switch1To16",
+      "name": "Switch 1-16",
+      "description": "1 input to 16 output sequential/VC switch",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Switch16To1",
+      "name": "Switch 16-1",
+      "description": "16 input to 1 output sequential/VC switch/router",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "SequencerTriggers8",
+      "name": "8 Step Sequencer Trigger Output Expander",
+      "description": "Adds individual trigger outputs to the 8 Step Sequencer",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "SequencerTriggers16",
+      "name": "16 Step Sequencer Trigger Output Expander",
+      "description": "Adds individual trigger outputs to the 16 Step Sequencer",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "BusRoute",
+      "name": "Bus Route",
+      "description": "Switched gate combiner/router",
+      "tags": [
+        "Switch",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "BusRoute2",
+      "name": "Bus Route",
+      "description": "Switched gate combiner",
+      "tags": [
+        "Switch",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "MatrixCombiner",
+      "name": "Matrix Combiner",
+      "description": "Gate combiner/switched multiple",
+      "tags": [
+        "Switch",
+        "Logic",
+        "Multiple"
+      ]
+    },
+    {
+      "slug": "ClockDivider",
+      "name": "Clock Divider",
+      "description": "Clock divider with up/down mode and optional trigger outputs",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "BinaryComparator",
+      "name": "Binary Comparator",
+      "description": "Compares two binary words",
+      "tags": [
+        "Logic"
       ]
     }
   ]
