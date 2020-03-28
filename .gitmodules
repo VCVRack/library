@@ -478,3 +478,6 @@
 [submodule "repos/HamptonHarmonics"]
 	path = repos/HamptonHarmonics
 	url = https://gitlab.com/hampton-harmonics/hampton-harmonics-modules.git
+[submodule "repos/JLmod"]
+	path = repos/JLmod
+	url = https://github.com/JoakimLindbom/JLmod.git
