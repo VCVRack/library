@@ -1,0 +1,25 @@
+{
+  "slug": "Interrobang",
+  "name": "Interrobang (Free)",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "Interrobang",
+  "author": "Jim Allman",
+  "authorEmail": "jim@ibang.com",
+  "authorUrl": "https://ibang.com/",
+  "pluginUrl": "https://github.com/jimallman/interrobang-rack-modules/",
+  "manualUrl": "https://github.com/jimallman/interrobang-rack-modules/blob/master/README.md",
+  "sourceUrl": "https://github.com/jimallman/interrobang-rack-modules/",
+  "donateUrl": "https://paypal.me/jimallman",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ScribbleStrip",
+      "name": "Scribble Strip, 3 HP (SS-3)",
+      "description": "Makes it easy to navigate a complex patch.",
+      "tags": [
+        "visual"
+      ]
+    }
+  ]
+}

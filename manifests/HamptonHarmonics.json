@@ -1,7 +1,7 @@
 {
   "slug": "HamptonHarmonics",
   "name": "Hampton Harmonics",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "brand": "Hampton Harmonics",
   "author": "Scott Hampton",
@@ -19,6 +19,15 @@
       "description": "Polyphonic Chord Sequencer",
       "tags": [
         "sequencer",
+        "poly"
+      ]
+    },
+    {
+      "slug": "Arp",
+      "name": "Arp",
+      "description": "Polyphonic Input Arpeggiator",
+      "tags": [
+        "arpeggiator",
         "poly"
       ]
     }
