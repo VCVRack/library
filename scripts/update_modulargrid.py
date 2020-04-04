@@ -8,6 +8,7 @@ import requests
 
 def update():
 	# Load existing dataset
+	# This dataset is standardized by ModularGrid. Do not change the schema or filename.
 	mg_filename = "ModularGrid-VCVLibrary.json"
 	with open(mg_filename) as f:
 		mg = json.load(f)

@@ -1,0 +1,3149 @@
+{
+  "HolonicSystems-Free": {
+    "creationTimestamp": 1540482286.0,
+    "modules": {
+      "HolonicSystems-Gaps": {},
+      "HolonicSystems-Pantry": {},
+      "HolonicSystems-DumbwaiterSequencer": {},
+      "HolonicSystems-SwissCheeseKnife": {},
+      "HolonicSystems-HolonicSource": {},
+      "HolonicSystems-Junctions": {},
+      "HolonicSystems-LazySusanQuantiser": {}
+    }
+  },
+  "RJModules": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Acid": {},
+      "BPF": {},
+      "Buttons": {},
+      "Filters": {},
+      "Notch": {},
+      "Sidechain": {},
+      "Chord": {},
+      "Noise": {},
+      "PlayableChord": {},
+      "Floats": {},
+      "Octaves": {},
+      "Splitter": {},
+      "ChordSeq": {},
+      "Glides": {},
+      "RandomFilter": {},
+      "Splitters": {},
+      "Volumes": {},
+      "Displays": {},
+      "Integers": {},
+      "Randoms": {},
+      "Stutter": {},
+      "Widener": {},
+      "BPM": {},
+      "EssEff": {},
+      "LRMixer": {},
+      "Range": {},
+      "Supersaw": {},
+      "uQuant": {},
+      "Button": {},
+      "MetaKnob": {},
+      "Panner": {},
+      "RangeLFO": {},
+      "TwinLFO": {},
+      "BitCrush": {},
+      "Filter": {},
+      "Mono": {},
+      "Panners": {},
+      "ReplayKnob": {},
+      "Buffers": {},
+      "FilterDelay": {},
+      "Pluck": {},
+      "KTF": {},
+      "TriggerSwitch": {},
+      "DryWet": {},
+      "MutateSeq": {},
+      "Notes": {},
+      "Sequential": {},
+      "Succulent": {},
+      "PingPong": {},
+      "Brickwall": {},
+      "Slapback": {},
+      "LeftHandRightHand": {},
+      "Euclidian": {},
+      "Octo": {},
+      "RJChorus": {},
+      "Instro": {},
+      "Gaussian": {}
+    }
+  },
+  "MSM": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "ADSR": {},
+      "Bitcrusher": {},
+      "BlankPanel": {},
+      "DualDelay": {},
+      "TreasureVCO": {},
+      "Fade": {},
+      "MLFO": {},
+      "Morph": {},
+      "Mult": {},
+      "Noise": {},
+      "Phaser": {},
+      "RandomSource": {},
+      "Ring": {},
+      "SimpleSlider": {},
+      "CrazyMult": {},
+      "PAN-VCA": {},
+      "OSCiX": {},
+      "Rogue": {},
+      "Wavefolder": {},
+      "WaveShaper": {},
+      "XSEQ": {}
+    }
+  },
+  "Alikins": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "GateLength": {},
+      "BigMuteButton": {},
+      "Reference": {},
+      "ColorPanel": {},
+      "MomentaryOnButtons": {},
+      "ShiftPedal": {},
+      "SpecificValue": {},
+      "HoveredValue": {},
+      "InjectValue": {},
+      "ValueSaver": {},
+      "IdleSwitch": {}
+    }
+  },
+  "ML_modules_seq": {
+    "creationTimestamp": 1528143975.0,
+    "modules": {
+      "Mem_Sequencer": {},
+      "Analog_Sequencer": {}
+    }
+  },
+  "Hora-Mixers": {
+    "creationTimestamp": 1526939028.0,
+    "modules": {
+      "StereoMixer-8": {},
+      "StereoMixer-8-2": {},
+      "StereoMixer-16-2": {}
+    }
+  },
+  "AS-Seqs-n-Tools": {
+    "creationTimestamp": 1523290734.0,
+    "modules": {
+      "ReCon": {},
+      "ReStepOne": {},
+      "ReStep": {},
+      "ReBeat": {},
+      "ReBit": {},
+      "ReQ": {},
+      "ReNote": {},
+      "ReKey": {},
+      "ReGate": {},
+      "ReFluke": {},
+      "ReFlip": {},
+      "aBy": {}
+    }
+  },
+  "voxglitch": {
+    "creationTimestamp": 1579792597.0,
+    "modules": {
+      "autobreak": {},
+      "digitalsequencer": {},
+      "glitchsequencer": {},
+      "ghosts": {},
+      "goblins": {},
+      "grainengine": {},
+      "repeater": {},
+      "wavbank": {},
+      "xy": {}
+    }
+  },
+  "SurgeRack": {
+    "creationTimestamp": 1561132770.0,
+    "modules": {
+      "SurgeDelay": {},
+      "SurgeChorus": {},
+      "SurgeEQ": {},
+      "SurgePhaser": {},
+      "SurgeRotary": {},
+      "SurgeDistort": {},
+      "SurgeReverb": {},
+      "SurgeFreqShift": {},
+      "SurgeConditioner": {},
+      "SurgeClock": {},
+      "SurgeADSR": {},
+      "SurgeOSC": {},
+      "SurgeWaveShaper": {},
+      "SurgeWTOSC": {},
+      "SurgeNoise": {},
+      "SurgeLFO": {},
+      "SurgeVOC": {},
+      "SurgeBiquad": {},
+      "SurgePatchPlayer": {}
+    }
+  },
+  "MM_Oscah": {
+    "creationTimestamp": 1576709857.0,
+    "modules": {
+      "CZOscah": {},
+      "MaugOscah": {},
+      "MixOscah": {},
+      "WMOscah": {}
+    }
+  },
+  "Synthetic": {
+    "creationTimestamp": 1565726934.0,
+    "modules": {
+      "Eastside": {},
+      "BigBlue": {},
+      "Paddington": {},
+      "Alchemy": {}
+    }
+  },
+  "cf_hardware": {
+    "creationTimestamp": 1574185434.0,
+    "modules": {
+      "Number9": {},
+      "N9exp": {}
+    }
+  },
+  "AudibleInstrumentsPreview": {
+    "creationTimestamp": 1527593182.0,
+    "modules": {}
+  },
+  "NocturnalEncoder": {
+    "creationTimestamp": 1539049455.0,
+    "modules": {
+      "AMDecoder": {},
+      "AMEncoder": {}
+    }
+  },
+  "Fundamental": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "VCO": {},
+      "VCO2": {},
+      "VCF": {},
+      "VCA-1": {},
+      "VCA": {},
+      "LFO": {},
+      "LFO2": {},
+      "Delay": {},
+      "ADSR": {},
+      "VCMixer": {},
+      "8vert": {},
+      "Unity": {},
+      "Mutes": {},
+      "Pulses": {},
+      "Scope": {},
+      "SEQ3": {},
+      "SequentialSwitch1": {},
+      "SequentialSwitch2": {},
+      "Octave": {},
+      "Quantizer": {},
+      "Split": {},
+      "Merge": {},
+      "Sum": {},
+      "Viz": {},
+      "MidSide": {},
+      "Noise": {},
+      "Random": {}
+    }
+  },
+  "VCV-PulseMatrix": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "PulseMatrix16": {},
+      "PulseMatrix8": {}
+    }
+  },
+  "GoodSheperd": {
+    "creationTimestamp": 1565624403.0,
+    "modules": {
+      "Hurdle": {},
+      "Stable16": {},
+      "SEQ3st": {},
+      "Stall": {}
+    }
+  },
+  "AmalgamatedHarmonics": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Arp31": {},
+      "Arp32": {},
+      "Bombe": {},
+      "Circle": {},
+      "Chord": {},
+      "Galaxy": {},
+      "Generative": {},
+      "Imp": {},
+      "Imperfect2": {},
+      "Progress2": {},
+      "Ruckus": {},
+      "ScaleQuantizer2": {},
+      "SLN": {},
+      "MuxDeMux": {},
+      "PolyProbe": {},
+      "PolyScope": {},
+      "PolyUtils": {},
+      "PolyVolt": {},
+      "Arpeggiator2": {},
+      "Progress": {},
+      "ScaleQuantizer": {}
+    }
+  },
+  "Bogaudio": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Bogaudio-VCO": {},
+      "Bogaudio-LVCO": {},
+      "Bogaudio-Sine": {},
+      "Bogaudio-Pulse": {},
+      "Bogaudio-XCO": {},
+      "Bogaudio-Additator": {},
+      "Bogaudio-FMOp": {},
+      "Bogaudio-LFO": {},
+      "Bogaudio-EightFO": {},
+      "Bogaudio-LLFO": {},
+      "Bogaudio-VCF": {},
+      "Bogaudio-LVCF": {},
+      "Bogaudio-FFB": {},
+      "Bogaudio-EQ": {},
+      "Bogaudio-DADSRH": {},
+      "Bogaudio-DADSRHPlus": {},
+      "Bogaudio-Shaper": {},
+      "Bogaudio-ShaperPlus": {},
+      "Bogaudio-AD": {},
+      "Bogaudio-ASR": {},
+      "Bogaudio-ADSR": {},
+      "Bogaudio-Follow": {},
+      "Bogaudio-DGate": {},
+      "Bogaudio-Edge": {},
+      "Bogaudio-Noise": {},
+      "Bogaudio-SampleHold": {},
+      "Bogaudio-Walk2": {},
+      "Bogaudio-Walk": {},
+      "Bogaudio-Mix8": {},
+      "Bogaudio-Mix4": {},
+      "Bogaudio-Mix1": {},
+      "Bogaudio-VCM": {},
+      "Bogaudio-Mute8": {},
+      "Bogaudio-Pan": {},
+      "Bogaudio-XFade": {},
+      "Bogaudio-VCA": {},
+      "Bogaudio-VCAmp": {},
+      "Bogaudio-UMix": {},
+      "Bogaudio-Mumix": {},
+      "Bogaudio-Matrix44": {},
+      "Bogaudio-Matrix88": {},
+      "Bogaudio-Switch44": {},
+      "Bogaudio-Switch88": {},
+      "Bogaudio-Switch1616": {},
+      "Bogaudio-AMRM": {},
+      "Bogaudio-Pressor": {},
+      "Bogaudio-Clpr": {},
+      "Bogaudio-Lmtr": {},
+      "Bogaudio-Nsgt": {},
+      "Bogaudio-OneEight": {},
+      "Bogaudio-EightOne": {},
+      "Bogaudio-AddrSeq": {},
+      "Bogaudio-Analyzer": {},
+      "Bogaudio-AnalyzerXL": {},
+      "Bogaudio-VU": {},
+      "Bogaudio-Detune": {},
+      "Bogaudio-Stack": {},
+      "Bogaudio-Reftone": {},
+      "Bogaudio-Mono": {},
+      "Bogaudio-Arp": {},
+      "Bogaudio-Assign": {},
+      "Bogaudio-Unison": {},
+      "Bogaudio-PolyCon": {},
+      "Bogaudio-PolyMult": {},
+      "Bogaudio-Bool": {},
+      "Bogaudio-Cmp": {},
+      "Bogaudio-CVD": {},
+      "Bogaudio-FlipFlop": {},
+      "Bogaudio-Manual": {},
+      "Bogaudio-Mult": {},
+      "Bogaudio-Offset": {},
+      "Bogaudio-Slew": {},
+      "Bogaudio-Sums": {},
+      "Bogaudio-Switch": {},
+      "Bogaudio-Blank3": {},
+      "Bogaudio-Blank6": {}
+    }
+  },
+  "Starling_Via": {
+    "creationTimestamp": 1554510935.0,
+    "modules": {
+      "META": {},
+      "SYNC": {},
+      "SCANNER": {},
+      "GATESEQ": {},
+      "ATSR": {},
+      "OSC3": {},
+      "SYNC3": {}
+    }
+  },
+  "Quadraphonics": {
+    "creationTimestamp": 1551152660.0,
+    "modules": {}
+  },
+  "stocaudio": {
+    "creationTimestamp": 1569702009.0,
+    "modules": {
+      "Polyturing": {},
+      "Polydelay": {},
+      "Spread": {},
+      "Clock": {},
+      "Manseq": {},
+      "Btnseq": {},
+      "Polyslew": {}
+    }
+  },
+  "StellareModular-CreativeSuite": {
+    "creationTimestamp": 1561079604.0,
+    "modules": {
+      "Andromeda": {},
+      "BlankPanel": {},
+      "Qusia": {},
+      "Sigma": {},
+      "Nomlia": {},
+      "Azular": {},
+      "Delta": {},
+      "Pelisia": {},
+      "AL41": {},
+      "AL14": {},
+      "AL81": {},
+      "AL18": {}
+    }
+  },
+  "HotBunny": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "IO-Simple": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "SubmarineUtility": {
+    "creationTimestamp": 1537314736.0,
+    "modules": {}
+  },
+  "StellareModular": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "TuringMachine": {},
+      "BlankPanel": {}
+    }
+  },
+  "EricaCopies": {
+    "creationTimestamp": 1560887654.0,
+    "modules": {
+      "BlackWaveTableVCO": {},
+      "BlackOctasource": {},
+      "PicoDrums": {}
+    }
+  },
+  "FrankBuss": {
+    "creationTimestamp": 1560003446.0,
+    "modules": {
+      "Formula": {},
+      "Shaker": {}
+    }
+  },
+  "OrangeLine": {
+    "creationTimestamp": 1571530639.0,
+    "modules": {
+      "Fence": {},
+      "Swing": {},
+      "Mother": {}
+    }
+  },
+  "HamptonHarmonics": {
+    "creationTimestamp": 1582941680.0,
+    "modules": {
+      "Progress": {},
+      "Arp": {}
+    }
+  },
+  "repelzen": {
+    "creationTimestamp": 1563506194.0,
+    "modules": {
+      "reblank": {},
+      "reburst": {},
+      "refold": {},
+      "rewin": {},
+      "rexmix": {},
+      "retrig": {}
+    }
+  },
+  "LifeFormModular": {
+    "creationTimestamp": 1569379652.0,
+    "modules": {
+      "TimeDiktat": {},
+      "SequenceModeler": {},
+      "PitchDiktat": {},
+      "PitchIntegrator": {},
+      "BurstIntegrator": {},
+      "QuadModulator": {},
+      "ImpulseControl": {},
+      "PercussiveVibration": {},
+      "QuadUtility": {},
+      "AdditiveVibration": {},
+      "QuadSteppedOffset": {},
+      "ComplexOsc": {},
+      "Driftgen": {}
+    }
+  },
+  "UnfilteredVolume2": {
+    "creationTimestamp": 1579108208.0,
+    "modules": {
+      "Yoko": {},
+      "Sunder": {}
+    }
+  },
+  "Edge": {
+    "creationTimestamp": 1550716714.0,
+    "modules": {
+      "WCO_Osc": {},
+      "K_Rush": {},
+      "Bad_Haas": {}
+    }
+  },
+  "Southpole": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "LittleUtils": {
+    "creationTimestamp": 1571530639.0,
+    "modules": {
+      "Button": {},
+      "BiasSemitone": {},
+      "MultiplyDivide": {},
+      "PulseGenerator": {},
+      "TeleportIn": {},
+      "TeleportOut": {}
+    }
+  },
+  "PulsumQuadratum-shift": {
+    "creationTimestamp": 1524083026.0,
+    "modules": {}
+  },
+  "Hora-Modulation": {
+    "creationTimestamp": 1526939028.0,
+    "modules": {
+      "Relief-Envelopegeneretor": {},
+      "TwinQuartet-LFO": {}
+    }
+  },
+  "21kHz": {
+    "creationTimestamp": 1532652056.0,
+    "modules": {
+      "kHzPalmLoop": {},
+      "kHzTachyonEntangler": {},
+      "kHzD_Inf": {}
+    }
+  },
+  "PG-Instruments": {
+    "creationTimestamp": 1524123465.0,
+    "modules": {}
+  },
+  "Hora-Sequencers": {
+    "creationTimestamp": 1526939028.0,
+    "modules": {
+      "Frequencydivider": {},
+      "Drumsequencer": {},
+      "DrumSongMapper": {}
+    }
+  },
+  "Hora-Processors": {
+    "creationTimestamp": 1526939028.0,
+    "modules": {
+      "SpectralProcessor": {},
+      "EnvelopeFollower": {},
+      "Delay": {},
+      "Vacuum": {},
+      "Scheme": {},
+      "Brigade": {}
+    }
+  },
+  "aridacity": {
+    "creationTimestamp": 1567535427.0,
+    "modules": {
+      "ClockDiv": {},
+      "BCrush": {},
+      "Clip": {}
+    }
+  },
+  "arjo_modules": {
+    "creationTimestamp": 1538534208.0,
+    "modules": {}
+  },
+  "DHE-Modules": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {
+      "Blossom": {},
+      "BoosterStage": {},
+      "Cubic": {},
+      "CurveSequencer4": {},
+      "CurveSequencer8": {},
+      "CurveSequencer16": {},
+      "FuzzyLogicH": {},
+      "FuzzyLogicZ": {},
+      "Func": {},
+      "Func6": {},
+      "Gator": {},
+      "Hostage": {},
+      "Ranger": {},
+      "Stage": {},
+      "Swave": {},
+      "Tapers": {},
+      "Upstage": {},
+      "Xycloid": {}
+    }
+  },
+  "Chiptuner": {
+    "creationTimestamp": 1568568548.0,
+    "modules": {
+      "Blank1HP": {},
+      "Blank2HP": {},
+      "Blank3HP": {},
+      "Blank4HP": {},
+      "Blank6HP": {},
+      "Blank10HP": {},
+      "Blank12HP": {},
+      "Blank16HP": {},
+      "Blank20HP": {},
+      "Blank26HP": {},
+      "Blank32HP": {}
+    }
+  },
+  "BaconMusic": {
+    "creationTimestamp": 1521929448.0,
+    "modules": {
+      "HarMoNee": {},
+      "Glissinator": {},
+      "PolyGnome": {},
+      "QuantEyes": {},
+      "SampleDelay": {},
+      "ChipNoise": {},
+      "ChipWaves": {},
+      "ChipYourWave": {},
+      "KarplusStrongPoly": {},
+      "ALingADing": {},
+      "Bitulator": {},
+      "PolyGenerator": {}
+    }
+  },
+  "SA-Seasons": {
+    "creationTimestamp": 1572354186.0,
+    "modules": {
+      "Seasons": {}
+    }
+  },
+  "AS-Drums-n-Filters": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {
+      "Drums8x8Kicks": {},
+      "Drums8x8Snares": {},
+      "Drums8x8Hihats": {},
+      "Drums8x8toms": {},
+      "Drums8x8Percs": {},
+      "Drums9x9Kicks": {},
+      "Drums9x9Snares": {},
+      "Drums9x9Hihats": {},
+      "Drums9x9Percs": {},
+      "DrumsSdSKicks": {},
+      "DrumsSdSSnares": {},
+      "DrumsSdSHihats": {},
+      "DrumsSdStoms": {},
+      "DrumsC64Kicks": {},
+      "DrumsC64Snares": {},
+      "DrumsC64Hihats": {},
+      "DrumsC64Percs": {},
+      "VCFilter": {},
+      "VCFilterStereo": {},
+      "FixedFilterBank": {},
+      "ParaEQ": {},
+      "BlankPanel4Dark": {},
+      "BlankPanel6Dark": {},
+      "BlankPanel8Dark": {}
+    }
+  },
+  "FrankBussFormula": {
+    "creationTimestamp": 1530483305.0,
+    "modules": {}
+  },
+  "Entrian-Sequencers": {
+    "creationTimestamp": 1583775360.0,
+    "modules": {
+      "Drummer": {},
+      "Melody": {},
+      "Timeline": {}
+    }
+  },
+  "Blamsoft-XFXDistortionPack": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Blamsoft-XFXGrunge": {},
+      "Blamsoft-XFXOverdrive": {},
+      "Blamsoft-XFXTube": {}
+    }
+  },
+  "AudibleInstruments": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Braids": {},
+      "Plaits": {},
+      "Elements": {},
+      "Tides": {},
+      "Tides2": {},
+      "Clouds": {},
+      "Warps": {},
+      "Rings": {},
+      "Links": {},
+      "Kinks": {},
+      "Shades": {},
+      "Branches": {},
+      "Blinds": {},
+      "Veils": {},
+      "Frames": {},
+      "Stages": {},
+      "Marbles": {}
+    }
+  },
+  "SubmarinePrototype": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {}
+  },
+  "Aaron-MicroTools": {
+    "creationTimestamp": 1524769263.0,
+    "modules": {}
+  },
+  "PulsumQuadratum-SDR": {
+    "creationTimestamp": 1522452120.0,
+    "modules": {}
+  },
+  "ImpromptuModular": {
+    "creationTimestamp": 1521979525.0,
+    "modules": {
+      "Tact": {},
+      "Tact1": {},
+      "Cv-Pad": {},
+      "Twelve-Key": {},
+      "Chord-Key": {},
+      "Chord-Key-Expander": {},
+      "Clocked": {},
+      "Clocked-Clkd": {},
+      "Clocked-Expander": {},
+      "Foundry": {},
+      "Foundry-Expander": {},
+      "Gate-Seq-64": {},
+      "Gate-Seq-64-Expander": {},
+      "Phrase-Seq-16": {},
+      "Phrase-Seq-32": {},
+      "Phrase-Seq-Expander": {},
+      "Write-Seq-32": {},
+      "Write-Seq-64": {},
+      "Big-Button-Seq": {},
+      "Big-Button-Seq2": {},
+      "Four-View": {},
+      "Semi-ModularSynth": {},
+      "Hotkey": {},
+      "Part-Gate-Split": {},
+      "Blank-Panel": {}
+    }
+  },
+  "Autodafe-REDs": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "SQUARE": {},
+      "COSINE": {},
+      "TRESAMIGOS": {},
+      "KICK": {},
+      "SNARE": {},
+      "HATS": {},
+      "WARSAW": {},
+      "FMERIDES": {},
+      "TWLV": {},
+      "DRUMSAMPLER": {}
+    }
+  },
+  "VCV-Host": {
+    "creationTimestamp": 1543081940.0,
+    "modules": {
+      "Host": {},
+      "Host-FX": {},
+      "Host-XL": {}
+    }
+  },
+  "LindenbergResearch": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "VCO": {},
+      "Noiser": {},
+      "MicroWolde": {},
+      "TYPE35_VCF": {},
+      "Neo": {},
+      "DIODE_VCF": {},
+      "BlankPanel_01": {},
+      "BlankPanel_Wood": {},
+      "LPFilter24dB": {},
+      "ReShaper": {},
+      "BlankPanel_02": {},
+      "BlankPanel_Small": {},
+      "PolyStereo": {},
+      "VCSpread": {},
+      "VCF": {},
+      "MS20_VCF": {},
+      "Westcoast_VCS": {},
+      "QuickMixer": {},
+      "Sangster": {}
+    }
+  },
+  "scanner-darkly-collection-one": {
+    "creationTimestamp": 1572480488.0,
+    "modules": {
+      "SDOrcasHeart": {}
+    }
+  },
+  "Koralfx-Modules": {
+    "creationTimestamp": 1522846964.0,
+    "modules": {
+      "Beatovnik": {},
+      "Mixovnik": {},
+      "Nullovnik4": {},
+      "Nullovnik6": {},
+      "Presetovnik": {},
+      "Quantovnik": {},
+      "Scorovnik": {}
+    }
+  },
+  "huaba": {
+    "creationTimestamp": 1528761745.0,
+    "modules": {
+      "EQ3": {},
+      "ABBus": {}
+    }
+  },
+  "MM_Tools": {
+    "creationTimestamp": 1581526477.0,
+    "modules": {
+      "SMExpL": {},
+      "SMMix": {},
+      "SMExpR": {},
+      "SHEight": {},
+      "ASSprdr": {},
+      "TheCBlocker": {},
+      "Tuube": {}
+    }
+  },
+  "VCV-Scalar": {
+    "creationTimestamp": 1536272165.0,
+    "modules": {
+      "Scalar": {}
+    }
+  },
+  "MindMeldModular": {
+    "creationTimestamp": 1572165273.0,
+    "modules": {
+      "MixMasterJr": {},
+      "AuxExpanderJr": {},
+      "MixMaster": {},
+      "AuxExpander": {},
+      "EqMaster": {},
+      "EqExpander": {},
+      "Meld": {},
+      "Unmeld": {}
+    }
+  },
+  "Stoermelder-P1": {
+    "creationTimestamp": 1559409342.0,
+    "modules": {
+      "CVMap": {},
+      "CVMapMicro": {},
+      "CVPam": {},
+      "RotorA": {},
+      "ReMoveLite": {},
+      "Bolt": {},
+      "Infix": {},
+      "InfixMicro": {},
+      "Strip": {},
+      "EightFace": {},
+      "EightFaceX2": {},
+      "MidiCat": {},
+      "Sipo": {},
+      "FourRounds": {},
+      "Arena": {},
+      "Maze": {},
+      "Intermix": {},
+      "Detour": {},
+      "Sail": {},
+      "Pile": {},
+      "MidiStep": {},
+      "AudioInterface64": {}
+    }
+  },
+  "ILovePerlin": {
+    "creationTimestamp": 1581498042.0,
+    "modules": {
+      "PerlinOne": {}
+    }
+  },
+  "MM_ModelX": {
+    "creationTimestamp": 1579213564.0,
+    "modules": {
+      "ModelX": {}
+    }
+  },
+  "unless_modules": {
+    "creationTimestamp": 1524653643.0,
+    "modules": {
+      "markov": {},
+      "piong": {},
+      "atoms": {}
+    }
+  },
+  "ArableInstruments": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Joni": {}
+    }
+  },
+  "SonusModular": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Addiction": {},
+      "Bitter": {},
+      "Bymidside": {},
+      "Campione": {},
+      "Chainsaw": {},
+      "Ctrl": {},
+      "Deathcrush": {},
+      "Fraction": {},
+      "Harmony": {},
+      "Ladrone": {},
+      "Luppolo": {},
+      "Luppolo3": {},
+      "Micromacro": {},
+      "Mrcheb": {},
+      "Multimulti": {},
+      "Oktagon": {},
+      "Osculum": {},
+      "Paramath": {},
+      "Piconoise": {},
+      "PanintheHaas": {},
+      "Pusher": {},
+      "Ringo": {},
+      "Scramblase": {},
+      "Tropicana": {},
+      "Twoff": {},
+      "Yabp": {}
+    }
+  },
+  "VCV-Router": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {
+      "OctalRouter": {},
+      "Router1_4": {},
+      "Router4_1": {}
+    }
+  },
+  "VCV-Chords": {
+    "creationTimestamp": 1567952550.0,
+    "modules": {
+      "Chords": {}
+    }
+  },
+  "PvC": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "AnimatedCircuits_Panimated": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {}
+  },
+  "TriggerFish-Elements": {
+    "creationTimestamp": 1537114678.0,
+    "modules": {
+      "TfSlop": {},
+      "TfSlop4": {},
+      "TfVDPO": {},
+      "TfVCA": {}
+    }
+  },
+  "Geodesics": {
+    "creationTimestamp": 1534547467.0,
+    "modules": {
+      "BlackHoles": {},
+      "Pulsars": {},
+      "Branes": {},
+      "Ions": {},
+      "Entropia": {},
+      "Energy": {},
+      "Torus": {},
+      "Fate": {},
+      "Blank-PanelInfo": {},
+      "Blank-PanelLogo": {}
+    }
+  },
+  "noobhour": {
+    "creationTimestamp": 1537049681.0,
+    "modules": {
+      "baseliner": {},
+      "bsl1r": {},
+      "customscale": {},
+      "Normaliser": {}
+    }
+  },
+  "squinkylabs-plug1": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {
+      "squinkylabs-ev3": {},
+      "squinkylabs-vocalfilter": {},
+      "squinkylabs-lfn": {},
+      "squinkylabs-vocalanimator": {},
+      "squinkylabs-CHB2": {},
+      "squinkylabs-shp": {},
+      "squinkylabs-tremolo": {},
+      "squinkylabs-gry": {},
+      "squinkylabs-coloredNoise": {},
+      "squinkylabs-freqshifter": {},
+      "squinkylabs-sequencer": {},
+      "squinkylabs-sequencer4": {},
+      "squinkylabs-super": {},
+      "squinkylabs-blank": {},
+      "squinkylabs-slew4": {},
+      "squinkylabs-mix8": {},
+      "squinkylabs-mix4": {},
+      "squinkylabs-mixStereo": {},
+      "squinkylabs-mixm": {},
+      "squinkylabs-ch10": {},
+      "squinkylabs-lfnb": {},
+      "squinkylabs-filt": {},
+      "squinkylabs-dt": {},
+      "squinkylabs-funv": {}
+    }
+  },
+  "wiqid-anomalies": {
+    "creationTimestamp": 1565096910.0,
+    "modules": {
+      "expanse": {},
+      "languor": {},
+      "halvorsen": {},
+      "lorenz": {},
+      "thomas": {},
+      "sakarya": {},
+      "dadras": {},
+      "slf": {},
+      "2at": {},
+      "fullscope": {},
+      "tiq": {}
+    }
+  },
+  "NANOModules": {
+    "creationTimestamp": 1581971790.0,
+    "modules": {
+      "MAR": {},
+      "FONT": {},
+      "ALT": {},
+      "QUART": {},
+      "BLANK12Hp": {},
+      "BLANK8Hp": {},
+      "BLANK6Hp": {},
+      "BLANK4Hp": {},
+      "BLANK2Hp": {}
+    }
+  },
+  "Autodafe-REDsFREE": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "SQUARE": {},
+      "COSINE": {},
+      "TRESAMIGOS": {},
+      "KICK": {},
+      "DRUMSAMPLER": {},
+      "HATS": {}
+    }
+  },
+  "MockbaModular": {
+    "creationTimestamp": 1572711703.0,
+    "modules": {
+      "Blank": {},
+      "Feidah": {},
+      "FeidahS": {},
+      "Filtah": {},
+      "Mixah": {},
+      "Mixah3": {},
+      "Dividah": {},
+      "Countah": {},
+      "Selectah": {},
+      "Shapah": {},
+      "Holdah": {},
+      "Pannah": {},
+      "CZSaw": {},
+      "CZSquare": {},
+      "CZPulse": {},
+      "CZDblSine": {},
+      "CZSawPulse": {},
+      "CZReso1": {},
+      "CZReso2": {},
+      "CZReso3": {},
+      "CZOsc": {},
+      "MaugTriangle": {},
+      "MaugShark": {},
+      "MaugSaw": {},
+      "MaugSaw2": {},
+      "MaugSquare": {},
+      "MaugSquare2": {},
+      "MaugSquare3": {},
+      "MaugOsc": {},
+      "Comparator": {},
+      "DualBUFFER": {},
+      "DualNOT": {},
+      "DualOR": {},
+      "DualNOR": {},
+      "DualAND": {},
+      "DualNAND": {},
+      "DualXOR": {},
+      "DualXNOR": {},
+      "PSelectah": {},
+      "UDPClockMaster": {},
+      "UDPClockSlave": {}
+    }
+  },
+  "SynthKit": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "1x8Splitter": {},
+      "1x8SplitterCV": {},
+      "Addition": {},
+      "Subtraction": {},
+      "ClockDivider": {},
+      "And": {},
+      "Or": {},
+      "FibonacciClockDivider": {},
+      "PrimeClockDivider": {},
+      "RotatingClockDivider": {},
+      "ShiftingClockDividerCV": {},
+      "4-StepSequencer": {},
+      "8-StepSequencer": {}
+    }
+  },
+  "ModularFungi": {
+    "creationTimestamp": 1539737109.0,
+    "modules": {
+      "Blank1HP": {},
+      "Blank3HP": {},
+      "Blank4HP": {},
+      "Blank6HP": {},
+      "Blank10HP": {},
+      "Blank12HP": {},
+      "Blank16HP": {},
+      "Blank20HP": {},
+      "Blank26HP": {},
+      "Blank32HP": {},
+      "Color12HP": {}
+    }
+  },
+  "Befaco": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "EvenVCO": {},
+      "Rampage": {},
+      "ABC": {},
+      "SpringReverb": {},
+      "Mixer": {},
+      "SlewLimiter": {},
+      "DualAtenuverter": {}
+    }
+  },
+  "Autodafe": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "BitCrusher": {},
+      "Multiple18": {},
+      "Multiple28": {},
+      "LFO": {},
+      "Keyboard": {},
+      "BPMClock": {},
+      "ClockDivider": {},
+      "FixedFilter": {},
+      "MultiModeFilter": {},
+      "FormantFilter": {},
+      "FoldBack": {},
+      "PhaserFx": {},
+      "ChorusFx": {},
+      "ReverbFx": {},
+      "SEQ8": {},
+      "SEQ16": {},
+      "TriggerSeq": {}
+    }
+  },
+  "Entrian-Free": {
+    "creationTimestamp": 1562021186.0,
+    "modules": {
+      "Follower": {},
+      "Player-Drummer": {},
+      "Player-Melody": {},
+      "Player-Timeline": {}
+    }
+  },
+  "ChortlingHamsterModules": {
+    "creationTimestamp": 1561876305.0,
+    "modules": {
+      "Pop": {},
+      "Bitwise": {}
+    }
+  },
+  "VCV-Prototype": {
+    "creationTimestamp": 1568526902.0,
+    "modules": {
+      "Prototype": {}
+    }
+  },
+  "CatroBlanco": {
+    "creationTimestamp": 1567535427.0,
+    "modules": {
+      "CatroBlanco_CB-1": {},
+      "CatroBlanco_CB-2": {},
+      "CatroBlanco_CB-3": {},
+      "CatroBlanco_CB-4": {},
+      "CatroBlanco_CB-5": {},
+      "CatroBlanco_CB-6": {},
+      "CatroBlanco_CB-7": {},
+      "CatroBlanco_CB-meter": {}
+    }
+  },
+  "JW-Modules": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "BlankPanel_SM": {},
+      "BlankPanel_MD": {},
+      "BlankPanel_LG": {},
+      "CoolBreeze": {},
+      "BouncyBalls": {},
+      "0Cat": {},
+      "FullScope": {},
+      "GridSeq": {},
+      "MinMax": {},
+      "NoteSeq": {},
+      "NoteSeq16": {},
+      "Patterns": {},
+      "Quantizer": {},
+      "SimpleClock": {},
+      "Str1ker": {},
+      "ThingThing": {},
+      "WavHead": {},
+      "XYPad": {}
+    }
+  },
+  "Sckitam": {
+    "creationTimestamp": 1578539523.0,
+    "modules": {
+      "2DRotation": {},
+      "2DAffine": {},
+      "MarkovSeq": {},
+      "PolygonalVCO": {}
+    }
+  },
+  "AuntyLangtonsFree": {
+    "creationTimestamp": 1577783590.0,
+    "modules": {
+      "MusicalAnt": {}
+    }
+  },
+  "RacketScience": {
+    "creationTimestamp": 1572206322.0,
+    "modules": {
+      "RSVectorVictor": {},
+      "RSBoogieBay": {},
+      "RSBoogieBayH8": {},
+      "RSMFH": {},
+      "RSHeat": {}
+    }
+  },
+  "BBModules": {
+    "creationTimestamp": 1560422286.0,
+    "modules": {
+      "fox": {},
+      "ability": {},
+      "mixture": {},
+      "triverse": {},
+      "bimix": {},
+      "nostromo": {},
+      "yggdrasill": {},
+      "oknotok": {},
+      "ut": {},
+      "nodes": {}
+    }
+  },
+  "SkJack": {
+    "creationTimestamp": 1549682919.0,
+    "modules": {
+      "JackAudio": {},
+      "JackAudioOut8": {},
+      "JackAudioIn8": {}
+    }
+  },
+  "pfzzz": {
+    "creationTimestamp": 1572445989.0,
+    "modules": {
+      "OhGates": {}
+    }
+  },
+  "AnimatedCircuits": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "ACFolding": {}
+    }
+  },
+  "kocmoc": {
+    "creationTimestamp": 1572165273.0,
+    "modules": {
+      "SVF-1": {},
+      "TRG": {},
+      "LADR": {},
+      "OP": {},
+      "PHASR": {},
+      "MUL": {}
+    }
+  },
+  "Blamsoft-XFXWave": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {
+      "Blamsoft-XFXWave": {}
+    }
+  },
+  "cf": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "METRO": {},
+      "EACH": {},
+      "trSEQ": {},
+      "LEDSEQ": {},
+      "L3DS3Q": {},
+      "SLIDERSEQ": {},
+      "PLAYER": {},
+      "PLAY": {},
+      "MONO": {},
+      "STEREO": {},
+      "SUB": {},
+      "MASTER": {},
+      "VARIABLE": {},
+      "ALGEBRA": {},
+      "FUNKTION": {},
+      "CHOKE": {},
+      "FOUR": {},
+      "STEPS": {},
+      "PEAK": {},
+      "CUTS": {},
+      "BUFFER": {},
+      "DISTO": {},
+      "CUBE": {},
+      "PATCH": {},
+      "LABEL": {},
+      "LEDS": {},
+      "DAVE": {}
+    }
+  },
+  "AlrightDevices": {
+    "creationTimestamp": 1554966626.0,
+    "modules": {
+      "Chronoblob2": {},
+      "T-Wrex": {}
+    }
+  },
+  "ZZC-Phaseque": {
+    "creationTimestamp": 1564493495.0,
+    "modules": {
+      "Phaseque": {}
+    }
+  },
+  "Sculpt-O-Sound": {
+    "creationTimestamp": 1538003976.0,
+    "modules": {
+      "Vocode_O_Matic": {},
+      "Vocode_O_Matic_XL": {}
+    }
+  },
+  "mtsch-plugins": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "PS-PurrSoftware": {
+    "creationTimestamp": 1579232908.0,
+    "modules": {
+      "Meander": {}
+    }
+  },
+  "Autodafe-DrumKit": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "DrumsKick": {},
+      "DrumsSnare": {},
+      "DrumsHiHatClosed": {},
+      "DrumsHiHatOpen": {},
+      "DrumsClaps": {},
+      "DrumsRimClaves": {},
+      "DrumsCymbals": {},
+      "DrumsRide": {},
+      "DrumsMixer": {}
+    }
+  },
+  "trowaSoft": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "trigSeq": {},
+      "trigSeq64": {},
+      "voltSeq": {},
+      "multiWave": {},
+      "multiScope": {},
+      "cvOSCcv": {},
+      "cvOSCcv-InputExpander": {},
+      "cvOSCcv-OutputExpander": {},
+      "tsBlank": {}
+    }
+  },
+  "Valley": {
+    "creationTimestamp": 1521979525.0,
+    "modules": {
+      "Topograph": {},
+      "uGraph": {},
+      "Dexter": {},
+      "Plateau": {},
+      "Interzone": {},
+      "Amalgam": {},
+      "Feline": {}
+    }
+  },
+  "CharredDesert": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {
+      "DTMF": {},
+      "Noise": {},
+      "CVSequencer": {},
+      "Not": {},
+      "Pan": {},
+      "Shift": {},
+      "Oscar2": {},
+      "Eq": {},
+      "Carbon": {},
+      "Mixer": {},
+      "MixerCV": {},
+      "CV": {},
+      "M": {},
+      "Tine": {},
+      "K": {},
+      "X": {},
+      "Tsunami": {}
+    }
+  },
+  "ChordController": {
+    "creationTimestamp": 1569324418.0,
+    "modules": {
+      "ChordController": {}
+    }
+  },
+  "Kosmodules-Free": {
+    "creationTimestamp": 1578539523.0,
+    "modules": {
+      "OSF": {}
+    }
+  },
+  "8Mode": {
+    "creationTimestamp": 1553743716.0,
+    "modules": {}
+  },
+  "TercerBrazo": {
+    "creationTimestamp": 1570374286.0,
+    "modules": {
+      "TercerBrazo-CV2612": {}
+    }
+  },
+  "dBiz": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Multiple": {},
+      "Contorno": {},
+      "ContornoMK2": {},
+      "Transpose": {},
+      "Utility": {},
+      "Chord": {},
+      "Bene": {},
+      "BenePads": {},
+      "PerfMixer": {},
+      "Remix": {},
+      "Smixer": {},
+      "VCA4": {},
+      "VCA530": {},
+      "Verbo": {},
+      "DVCO": {},
+      "DAOSC": {},
+      "TROSC": {},
+      "SuHa": {},
+      "FourSeq": {},
+      "Divider": {},
+      "Util2": {},
+      "Smorph": {},
+      "QuePasa": {},
+      "SPan": {}
+    }
+  },
+  "av500": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "luckyxxl": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Distribute2": {},
+      "Distribute": {},
+      "Quantize": {},
+      "Tick": {}
+    }
+  },
+  "AS": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "SineOSC": {},
+      "SawOSC": {},
+      "ADSR": {},
+      "VCA": {},
+      "QuadVCA": {},
+      "TriLFO": {},
+      "AtNuVrTr": {},
+      "BPMClock": {},
+      "BPMCalc": {},
+      "BPMCalc2": {},
+      "SEQ16": {},
+      "Mixer2ch": {},
+      "Mixer4ch": {},
+      "Mixer8ch": {},
+      "MonoVUmeter": {},
+      "StereoVUmeter": {},
+      "Steps": {},
+      "LaunchGate": {},
+      "KillGate": {},
+      "Flow": {},
+      "SignalDelay": {},
+      "Cv2T": {},
+      "ZeroCV2T": {},
+      "ReScale": {},
+      "Multiple2_5": {},
+      "Merge2_5": {},
+      "TriggersMKI": {},
+      "TriggersMKII": {},
+      "TriggersMKIII": {},
+      "DelayPlusFx": {},
+      "DelayPlusStereoFx": {},
+      "PhaserFx": {},
+      "ReverbFx": {},
+      "ReverbStereoFx": {},
+      "SuperDriveFx": {},
+      "SuperDriveStereoFx": {},
+      "TremoloFx": {},
+      "TremoloStereoFx": {},
+      "WaveShaper": {},
+      "WaveShaperStereo": {},
+      "BlankPanel4": {},
+      "BlankPanel6": {},
+      "BlankPanel8": {},
+      "BlankPanelSpecial": {}
+    }
+  },
+  "TinyTricks": {
+    "creationTimestamp": 1571471313.0,
+    "modules": {
+      "SH16": {},
+      "MG1": {},
+      "MG8": {},
+      "MG16": {},
+      "A8": {},
+      "RM8": {},
+      "RM8S": {},
+      "TT-A": {},
+      "TT-L": {},
+      "TTSIN": {},
+      "TTSAW": {},
+      "TTSQR": {},
+      "TTTRI": {},
+      "TTSINPLUS": {},
+      "TTSAWPLUS": {},
+      "TTSQRPLUS": {},
+      "TTTRIPLUS": {},
+      "RX8": {},
+      "SN1": {},
+      "SN8": {},
+      "SNOSC": {},
+      "WAVE": {},
+      "RW": {}
+    }
+  },
+  "computerscare": {
+    "creationTimestamp": 1533693056.0,
+    "modules": {
+      "computerscare-knolypobs": {},
+      "computerscare-bolyputtons": {},
+      "computerscare-debug": {},
+      "computerscare-ohpeas": {},
+      "computerscare-fatherandson": {},
+      "computerscare-laundry-soup": {},
+      "computerscare-i-love-cookies": {},
+      "computerscare-roly-pouter": {},
+      "computerscare-toly-pools": {},
+      "computerscare-soly-pequencer": {},
+      "computerscare-foly-pace": {},
+      "computerscare-blank": {},
+      "computerscare-stoly-fick-pigure": {}
+    }
+  },
+  "Blamsoft-XFXReverb": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Blamsoft-XFXReverb": {}
+    }
+  },
+  "MM_Proton": {
+    "creationTimestamp": 1580501276.0,
+    "modules": {
+      "Proton": {}
+    }
+  },
+  "JLmod": {
+    "creationTimestamp": 1585414369.0,
+    "modules": {
+      "DebugExpander": {},
+      "Ratchets": {}
+    }
+  },
+  "Nozoid": {
+    "creationTimestamp": 1571471313.0,
+    "modules": {
+      "Nozori_68_ADSR": {},
+      "Nozori_68_AR": {},
+      "Nozori_68_CRUSH": {},
+      "Nozori_68_CV_REC": {},
+      "Nozori_68_DELAY": {},
+      "Nozori_68_EQ": {},
+      "Nozori_68_GRAN": {},
+      "Nozori_68_KS": {},
+      "Nozori_68_LFO": {},
+      "Nozori_68_LFO_MOD": {},
+      "Nozori_68_NOISE": {},
+      "Nozori_68_PITCH": {},
+      "Nozori_68_RND_LOOP": {},
+      "Nozori_68_SIN_MOD": {},
+      "Nozori_68_VCA_PAN": {},
+      "Nozori_68_VCF_MOD": {},
+      "Nozori_68_VCF_MORPH": {},
+      "Nozori_68_VCO": {},
+      "Nozori_68_VCO_LOOP": {},
+      "Nozori_68_VCO_MORPH": {},
+      "Nozori_68_VCO_QTZ": {},
+      "Nozori_68_VCO_WS": {},
+      "Nozori_68_WS": {},
+      "Nozori_84_8_BITS": {},
+      "Nozori_84_ADD": {},
+      "Nozori_84_ADSR": {},
+      "Nozori_84_CLOCK": {},
+      "Nozori_84_DOPPLER": {},
+      "Nozori_84_FM": {},
+      "Nozori_84_FM_LIN": {},
+      "Nozori_84_HARMONICS": {},
+      "Nozori_84_JONG_LFO": {},
+      "Nozori_84_JONG_VCO": {},
+      "Nozori_84_LFO": {},
+      "Nozori_84_LFO_SEQ": {},
+      "Nozori_84_MODULATE": {},
+      "Nozori_84_PARAM": {},
+      "Nozori_84_SEQ_4": {},
+      "Nozori_84_SEQ_8": {},
+      "Nozori_84_SIN_AM": {},
+      "Nozori_84_SIN_FM": {},
+      "Nozori_84_SIN_PM": {},
+      "Nozori_84_SIN_WS": {},
+      "Nozori_84_THOMAS": {},
+      "Nozori_84_TROPICAL": {},
+      "Nozori_84_VCF": {},
+      "Nozori_84_WS": {}
+    }
+  },
+  "Qwelk": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "WhatTheRack": {
+    "creationTimestamp": 1553743009.0,
+    "modules": {
+      "WhatTheRack": {},
+      "WhatTheJack": {},
+      "WhatTheMod": {}
+    }
+  },
+  "CrystalPalace": {
+    "creationTimestamp": 1539715932.0,
+    "modules": {
+      "Perspex": {}
+    }
+  },
+  "moDllz": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "MIDIpolyMPE": {},
+      "MIDIdualCV": {},
+      "MIDI8MPE": {},
+      "MIDIpoly16": {},
+      "XBender": {},
+      "TwinGlider": {}
+    }
+  },
+  "Mog": {
+    "creationTimestamp": 1581360191.0,
+    "modules": {
+      "Network": {},
+      "Nexus": {}
+    }
+  },
+  "WrongPeople": {
+    "creationTimestamp": 1567535427.0,
+    "modules": {
+      "MIDIPlayer": {},
+      "Lua": {},
+      "Tourette": {}
+    }
+  },
+  "Bidoo": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "vOId": {},
+      "ChUTE": {},
+      "antN": {},
+      "tOCAnTe": {},
+      "cuRt": {},
+      "ACnE": {},
+      "baR": {},
+      "mINIBar": {},
+      "BISTROT": {},
+      "bordL": {},
+      "cANARd": {},
+      "clACos": {},
+      "dFUZE": {},
+      "dTrOY": {},
+      "dUKe": {},
+      "EMILE": {},
+      "FFilTr": {},
+      "ForK": {},
+      "Garcon": {},
+      "HCTIP": {},
+      "lATe": {},
+      "lIMbO": {},
+      "liMonADe": {},
+      "LoURdE": {},
+      "MOiRE": {},
+      "MS": {},
+      "MU": {},
+      "OUAIve": {},
+      "POUPRE": {},
+      "MAGMA": {},
+      "OAI": {},
+      "PeNEqUe": {},
+      "pErCO": {},
+      "rabBIT": {},
+      "REI": {},
+      "SIGMA": {},
+      "TiARE": {},
+      "ziNC": {},
+      "ZOUMAI": {},
+      "BAFIS": {}
+    }
+  },
+  "LomasModules": {
+    "creationTimestamp": 1563506194.0,
+    "modules": {
+      "AdvancedSampler": {},
+      "GateSequencer": {}
+    }
+  },
+  "modular80": {
+    "creationTimestamp": 1521868849.0,
+    "modules": {
+      "Logistiker": {},
+      "RadioMusic": {},
+      "Nosering": {}
+    }
+  },
+  "JE": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "RM": {},
+      "WF": {}
+    }
+  },
+  "com-soundchasing-stochasm": {
+    "creationTimestamp": 1521979525.0,
+    "modules": {}
+  },
+  "Hora-ModulationFree": {
+    "creationTimestamp": 1526939028.0,
+    "modules": {
+      "TwinQuartet-LFO": {}
+    }
+  },
+  "AnimatedCircuits_Noises": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {}
+  },
+  "Grayscale": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "ReTunesFree": {
+    "creationTimestamp": 1576593342.0,
+    "modules": {
+      "ReTunes-ForFour": {}
+    }
+  },
+  "QuantalAudio": {
+    "creationTimestamp": 1543672744.0,
+    "modules": {
+      "Blank1": {},
+      "Blank3": {},
+      "Blank5": {},
+      "BufferedMult": {},
+      "DaisyChannel": {},
+      "DaisyMaster": {},
+      "Horsehair": {},
+      "Mixer2": {},
+      "UnityMix": {}
+    }
+  },
+  "HetrickCV": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "ASR": {},
+      "AnalogToDigital": {},
+      "Bitshift": {},
+      "BlankPanel": {},
+      "Boolean3": {},
+      "Comparator": {},
+      "Contrast": {},
+      "Crackle": {},
+      "Delta": {},
+      "DigitalToAnalog": {},
+      "Dust": {},
+      "Exponent": {},
+      "FlipFlop": {},
+      "FlipPan": {},
+      "GateJunction": {},
+      "LogicCombine": {},
+      "RandomGates": {},
+      "Rotator": {},
+      "Scanner": {},
+      "2To4": {},
+      "Waveshaper": {}
+    }
+  },
+  "UnfilteredVolume1": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "DentCrusher": {},
+      "Fusion": {},
+      "GlitchShifter": {},
+      "Indent": {},
+      "InstantDelay": {},
+      "PitchDelay": {}
+    }
+  },
+  "SignalFlux": {
+    "creationTimestamp": 1566236671.0,
+    "modules": {
+      "SimpleKnob": {},
+      "BipolarKnob": {},
+      "Attenuate": {},
+      "Attenuvert": {},
+      "Invert": {}
+    }
+  },
+  "Interrobang": {
+    "creationTimestamp": 1585696001.0,
+    "modules": {
+      "ScribbleStrip": {}
+    }
+  },
+  "Hora-ProcessorsFree": {
+    "creationTimestamp": 1526939028.0,
+    "modules": {
+      "EnvelopeFollower": {},
+      "Delay": {},
+      "Vacuum": {},
+      "Brigade": {}
+    }
+  },
+  "Circlefade": {
+    "creationTimestamp": 1562258300.0,
+    "modules": {
+      "Random": {},
+      "Random2": {},
+      "LFO": {},
+      "Delay": {},
+      "Clock": {}
+    }
+  },
+  "ParableInstruments": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Neil": {}
+    }
+  },
+  "CountModula": {
+    "creationTimestamp": 1560722026.0,
+    "modules": {
+      "AnalogueShiftRegister": {},
+      "Attenuator": {},
+      "BinarySequencer": {},
+      "BooleanAND": {},
+      "BooleanOR": {},
+      "BooleanVCNOT": {},
+      "BooleanXOR": {},
+      "BurstGenerator": {},
+      "Comparator": {},
+      "CVSpreader": {},
+      "EventArranger": {},
+      "GateDelay": {},
+      "GateModifier": {},
+      "G2T": {},
+      "Mangler": {},
+      "ManualCV": {},
+      "ManualGate": {},
+      "MatrixMixer": {},
+      "MinimusMaximus": {},
+      "Mixer": {},
+      "MorphShaper": {},
+      "Multiplexer": {},
+      "Mute": {},
+      "Mute-iple": {},
+      "PolyrhythmicGenerator": {},
+      "Rectifier": {},
+      "SampleAndHold": {},
+      "ShepardGenerator": {},
+      "SRFlipFlop": {},
+      "StepSequencer8": {},
+      "TFlipFlop": {},
+      "TriggerSequencer8": {},
+      "TriggerSequencer16": {},
+      "GateDelayMT": {},
+      "VCFrequencyDivider": {},
+      "VCPolarizer": {},
+      "VoltageControlledSwitch": {},
+      "VoltageInverter": {},
+      "BasicSequencer8": {},
+      "SequencerExpanderCV8": {},
+      "SequencerExpanderOut8": {},
+      "SequencerExpanderTrig8": {},
+      "SubHarmonicGenerator": {},
+      "VCFrequencyDividerMkII": {},
+      "PolyrhythmicGeneratorMkII": {},
+      "GatedComparator": {},
+      "SlopeDetector": {},
+      "SequencerExpanderRM8": {},
+      "SequencerExpanderLOG8": {},
+      "StartupDelay": {},
+      "RackEarLeft": {},
+      "RackEarRight": {},
+      "Blank2HP": {},
+      "Blank4HP": {},
+      "Blank8HP": {},
+      "Blank12HP": {},
+      "Blank16HP": {},
+      "Blank20HP": {},
+      "Blank24HP": {},
+      "OffsetGenerator": {},
+      "Chances": {},
+      "Fade": {},
+      "FadeExpander": {},
+      "SequencerExpanderTSG": {},
+      "VCPulseDivider": {},
+      "ClockedRandomGates": {},
+      "ClockedRandomGateExpanderCV": {},
+      "ClockedRandomGateExpanderLog": {},
+      "Euclid": {},
+      "EuclidExpanderCV": {},
+      "VoltageScaler": {},
+      "PolyMinMax": {},
+      "Breakout": {},
+      "GateSequencer8": {},
+      "GateSequencer16": {},
+      "PolyMute": {},
+      "Sequencer16": {},
+      "Sequencer8": {},
+      "SequencerChannel16": {},
+      "SequencerChannel8": {},
+      "MasterReset": {},
+      "PolyChances": {},
+      "PolyVCSwitch": {},
+      "PolyVCPolarizer": {},
+      "PolyLogic": {},
+      "ManualCV2": {},
+      "Manifold": {},
+      "SequencerGates8": {},
+      "SequencerGates16": {},
+      "Attenuverter": {},
+      "PolyG2T": {},
+      "Switch1To8": {},
+      "Switch8To1": {},
+      "Switch1To16": {},
+      "Switch16To1": {},
+      "SequencerTriggers8": {},
+      "SequencerTriggers16": {},
+      "BusRoute": {},
+      "BusRoute2": {},
+      "MatrixCombiner": {},
+      "ClockDivider": {},
+      "BinaryComparator": {}
+    }
+  },
+  "SerialRacker": {
+    "creationTimestamp": 1525127241.0,
+    "modules": {}
+  },
+  "AriaSalvatrice": {
+    "creationTimestamp": 1576593342.0,
+    "modules": {
+      "Splort": {},
+      "Smerge": {},
+      "Spleet": {},
+      "Swerge": {},
+      "Splirge": {},
+      "Darius": {},
+      "Arcane": {},
+      "Atout": {},
+      "Aleister": {},
+      "Undular": {},
+      "Blank": {}
+    }
+  },
+  "MM_ModelV": {
+    "creationTimestamp": 1578436003.0,
+    "modules": {
+      "ModelV": {}
+    }
+  },
+  "StellareModular-Link": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Link": {}
+    }
+  },
+  "VCV-Console": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Console8_3": {}
+    }
+  },
+  "MosquitoLabs": {
+    "creationTimestamp": 1561076996.0,
+    "modules": {
+      "PulseCzar": {},
+      "PhaseCzar": {},
+      "FoldCzar": {}
+    }
+  },
+  "Southpole-parasites": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {}
+  },
+  "NonlinearCircuits": {
+    "creationTimestamp": 1582350675.0,
+    "modules": {
+      "BOOLs": {},
+      "DoubleNeuron": {},
+      "SquidAxon": {}
+    }
+  },
+  "VCV-Parametra": {
+    "creationTimestamp": 1527457581.0,
+    "modules": {
+      "Parametra": {}
+    }
+  },
+  "AnimatedCircuits_Cosmic": {
+    "creationTimestamp": 1532341589.0,
+    "modules": {}
+  },
+  "BOKONTEPByteBeatMachine": {
+    "creationTimestamp": 1525995838.0,
+    "modules": {}
+  },
+  "ML_modules": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "BPMdetect": {},
+      "Constants": {},
+      "Counter": {},
+      "FreeVerb": {},
+      "OctaFlop": {},
+      "OctaPlus": {},
+      "OctaSwitch": {},
+      "OctaTimes": {},
+      "OctaTrig": {},
+      "Quantizer": {},
+      "Quantum": {},
+      "SH8": {},
+      "SeqSwitch": {},
+      "SeqSwitch2": {},
+      "ShiftRegister": {},
+      "Evolution": {},
+      "Sum8mk2": {},
+      "Sum8": {},
+      "TrigBuf": {},
+      "TrigDelay": {},
+      "TrigSwitch": {},
+      "TrigSwitch2": {},
+      "TrigSwitch3": {},
+      "TrigSwitch3_2": {},
+      "VoltMeter": {}
+    }
+  },
+  "ML_modules_QU": {
+    "creationTimestamp": 1528143975.0,
+    "modules": {
+      "Quantum_Pro": {}
+    }
+  },
+  "CYC": {
+    "creationTimestamp": 1560722026.0,
+    "modules": {
+      "cyc-strong_kar": {}
+    }
+  },
+  "Gratrix": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "23volts": {
+    "creationTimestamp": 1573703887.0,
+    "modules": {
+      "Mem": {},
+      "Merge8": {},
+      "MultimapK": {},
+      "MultimapS": {},
+      "Split8": {},
+      "Split4": {},
+      "Merge4": {},
+      "Morph": {},
+      "SwitchN1": {},
+      "Cells": {},
+      "ClockM8": {},
+      "MidiPC": {},
+      "PolyMerge": {},
+      "PolySplit": {},
+      "MonoPoly": {}
+    }
+  },
+  "Blamsoft-XFXF35": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Blamsoft-XFXF35": {}
+    }
+  },
+  "tnorris-BostonBrightonModules": {
+    "creationTimestamp": 1524769580.0,
+    "modules": {}
+  },
+  "EH_modules": {
+    "creationTimestamp": 1546374379.0,
+    "modules": {
+      "FV-1emu": {}
+    }
+  },
+  "LabSeven": {
+    "creationTimestamp": 1549773693.0,
+    "modules": {
+      "LS3340VCO": {}
+    }
+  },
+  "MrLumps": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "SEQE": {},
+      "VCS1": {},
+      "VCS2": {}
+    }
+  },
+  "TorpedoDemo": {
+    "creationTimestamp": 1527241956.0,
+    "modules": {}
+  },
+  "GlueTheGiant": {
+    "creationTimestamp": 1567863407.0,
+    "modules": {
+      "GigBus": {},
+      "MiniBus": {},
+      "SchoolBus": {},
+      "MetroCityBus": {},
+      "BusDepot": {},
+      "BusRoute": {},
+      "Road": {},
+      "EnterBus": {},
+      "ExitBus": {}
+    }
+  },
+  "Hora-AnalogDrums": {
+    "creationTimestamp": 1526939028.0,
+    "modules": {
+      "BassDrumVult": {},
+      "BassDrum-VCV": {},
+      "Cymbal-VCV": {},
+      "HandClap-VCV": {},
+      "CymbalVult": {},
+      "HandClapVult": {},
+      "HiHat-VCV": {},
+      "HiHatVult": {},
+      "RimShot-VCV": {},
+      "SoftBellVult": {},
+      "SnareDrum-VCV": {},
+      "SnareDrumVult": {},
+      "Toms-VCV": {},
+      "TomsVult": {}
+    }
+  },
+  "ZZC": {
+    "creationTimestamp": 1562517176.0,
+    "modules": {
+      "Clock": {},
+      "Divider": {},
+      "FN-3": {},
+      "SC-VCA": {},
+      "SH-8": {},
+      "SRC": {},
+      "Div": {},
+      "DivExp": {},
+      "Polygate": {}
+    }
+  },
+  "alto777_LFSR": {
+    "creationTimestamp": 1522728847.0,
+    "modules": {
+      "a7Utility": {},
+      "Amuse": {},
+      "cheapFX": {},
+      "Divada": {},
+      "FG8": {},
+      "Psychtone": {},
+      "YASeq3": {}
+    }
+  },
+  "ESeries": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "E340": {}
+    }
+  },
+  "sb-StochKit": {
+    "creationTimestamp": 1556679350.0,
+    "modules": {
+      "GenEcho": {},
+      "Grandy": {},
+      "Stitcher": {}
+    }
+  },
+  "CastleRocktronics": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "NonLinearInstruments": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "OhmerPrems": {
+    "creationTimestamp": 1561308392.0,
+    "modules": {
+      "QuadPercs": {}
+    }
+  },
+  "VultModulesFree": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {
+      "Basal": {},
+      "Bleak": {},
+      "Boomstick": {},
+      "Caudal": {},
+      "Debriatus": {},
+      "Decline": {},
+      "Disjoint": {},
+      "Flux": {},
+      "Julste": {},
+      "Lateralus": {},
+      "Leakage": {},
+      "Nopskate": {},
+      "Rescomb": {},
+      "Slap": {},
+      "Spank": {},
+      "Splie": {},
+      "Stabile": {},
+      "Tangents": {},
+      "Tohe": {},
+      "Trummor": {},
+      "Trummor2": {},
+      "Unstabile": {},
+      "Vessek": {},
+      "Vultari": {},
+      "BlackPanelSmall": {},
+      "BlackPanel": {},
+      "BlackPanelBig": {},
+      "UtilBypass": {},
+      "UtilKnobs": {},
+      "UtilSend": {}
+    }
+  },
+  "Core": {
+    "creationTimestamp": 1547777537.0,
+    "modules": {
+      "AudioInterface": {},
+      "AudioInterface16": {},
+      "MIDIToCVInterface": {},
+      "MIDICCToCVInterface": {},
+      "MIDITriggerToCVInterface": {},
+      "MIDI-Map": {},
+      "CV-MIDI": {},
+      "CV-CC": {},
+      "CV-Gate": {},
+      "Blank": {},
+      "Notes": {}
+    }
+  },
+  "rcm": {
+    "creationTimestamp": 1541202370.0,
+    "modules": {
+      "rcm-CVTgl": {},
+      "rcm-CVMmt": {},
+      "rcm-CVS0to10": {},
+      "rcm-CV5to5": {},
+      "rcm-CV0to10": {},
+      "rcm-gverb": {},
+      "rcm-duck": {},
+      "rcm-seq-adapter": {},
+      "rcm-sync": {},
+      "rcm-polynos": {},
+      "rcm-pianoroll": {},
+      "AudioInterface16": {}
+    }
+  },
+  "Hora-VCO_VCF_VCA": {
+    "creationTimestamp": 1526939028.0,
+    "modules": {
+      "Amplitude-VCMixer": {},
+      "Timbre-VCF": {},
+      "Pure-VCO": {}
+    }
+  },
+  "NEXSwitches": {
+    "creationTimestamp": 1573181285.0,
+    "modules": {
+      "DoubleMute": {},
+      "TwoByTwo": {},
+      "MatrixMixer4": {}
+    }
+  },
+  "regen-modular": {
+    "creationTimestamp": 1577982229.0,
+    "modules": {
+      "regen-cyclex-vco": {},
+      "regen-cyclex-lfo": {},
+      "regen-frames": {},
+      "regen-nessie-triangle": {},
+      "regen-nessie-pulse": {},
+      "regen-nessie-noise": {},
+      "regen-nessie-saw": {},
+      "regen-quan": {},
+      "regen-const": {},
+      "regen-xfade": {}
+    }
+  },
+  "Prism": {
+    "creationTimestamp": 1562952023.0,
+    "modules": {
+      "Rainbow": {},
+      "RainbowScaleExpander": {}
+    }
+  },
+  "KarateSnoopy": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "KSnpy2DGridSeq": {}
+    }
+  },
+  "STS": {
+    "creationTimestamp": 1540066161.0,
+    "modules": {
+      "Odyssey": {},
+      "PolySEQ16": {},
+      "Illiad": {},
+      "RingModulator": {},
+      "WaveFolder": {},
+      "VU_Poly": {},
+      "LFOPoly": {},
+      "LFOPolySP": {},
+      "MidiPlayer": {}
+    }
+  },
+  "Skylights": {
+    "creationTimestamp": 1549682919.0,
+    "modules": {
+      "SkAdrift": {},
+      "SkTuringV2": {},
+      "SkTuringPulse": {},
+      "SkTuringVolts": {},
+      "SkTuringVactrol": {},
+      "SkTuringVactrolAnalogue": {},
+      "SkWhatnoteCV": {},
+      "SkVactrolyzer": {}
+    }
+  },
+  "BeckstromResearch": {
+    "creationTimestamp": 1537827251.0,
+    "modules": {}
+  },
+  "MicMusic": {
+    "creationTimestamp": 1550716028.0,
+    "modules": {
+      "Seven": {},
+      "Cuter": {}
+    }
+  },
+  "VCV-Recorder": {
+    "creationTimestamp": 1557176959.0,
+    "modules": {
+      "Recorder": {}
+    }
+  },
+  "s-ol": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "WrapComp": {},
+      "CircleVCO": {},
+      "Modulo": {}
+    }
+  },
+  "PdArray": {
+    "creationTimestamp": 1571588193.0,
+    "modules": {
+      "Array": {},
+      "Miniramp": {},
+      "Ministep": {}
+    }
+  },
+  "aP-Modules": {
+    "creationTimestamp": 1538335767.0,
+    "modules": {}
+  },
+  "RODENTMODULES": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "Mental": {
+    "creationTimestamp": 1569943058.0,
+    "modules": {
+      "MentalMults": {},
+      "MentalMixer": {},
+      "MentalSubMixer": {},
+      "MentalFold": {},
+      "MentalClip": {},
+      "MentalGates": {},
+      "MentalABSwitches": {},
+      "MentalQuantiser": {},
+      "MentalChord": {},
+      "MentalMuxes": {},
+      "MentalLogic": {},
+      "MentalButtons": {},
+      "MentalSums": {},
+      "MentalPitchShift": {},
+      "MentalCartesian": {},
+      "MentalPatchMatrix": {},
+      "MentalBinaryDecoder": {},
+      "MentalSwitch8": {},
+      "MentalClockDivider": {},
+      "MentalMux8": {},
+      "MentalCounters": {},
+      "MentalKnobs": {},
+      "MentalMasterClock": {},
+      "MentalGateMaker": {},
+      "MentalQuadLFO": {},
+      "MentalRadioButtons": {}
+    }
+  },
+  "CatroModulo": {
+    "creationTimestamp": 1556379997.0,
+    "modules": {
+      "CatroModulo_CM-1": {},
+      "CatroModulo_CM-2": {},
+      "CatroModulo_CM-3": {},
+      "CatroModulo_CM-4": {},
+      "CatroModulo_CM-5": {},
+      "CatroModulo_CM-6": {},
+      "CatroModulo_CM-7": {},
+      "CatroModulo_CM-8": {},
+      "CatroModulo_CM-9": {},
+      "CatroModulo_CM-10": {}
+    }
+  },
+  "SubmarineFree": {
+    "creationTimestamp": 1522452120.0,
+    "modules": {
+      "AG-104": {},
+      "AG-106": {},
+      "A0-106": {},
+      "A0-112": {},
+      "A0-118": {},
+      "A0-124": {},
+      "A0-136": {},
+      "BB-120": {},
+      "BP-101": {},
+      "BP-102": {},
+      "BP-104": {},
+      "BP-108": {},
+      "BP-110": {},
+      "BP-112": {},
+      "BP-116": {},
+      "BP-120": {},
+      "BP-124": {},
+      "BP-132": {},
+      "DN-112": {},
+      "DO-105": {},
+      "DO-110": {},
+      "DO-115": {},
+      "DO-120": {},
+      "EO-102": {},
+      "FF-110": {},
+      "FF-120": {},
+      "FF-206": {},
+      "FF-212": {},
+      "LA-108": {},
+      "LD-103": {},
+      "LD-106": {},
+      "LT-116": {},
+      "NG-106": {},
+      "NG-112": {},
+      "OG-104": {},
+      "OG-106": {},
+      "PG-104": {},
+      "PG-112": {},
+      "PO-101": {},
+      "PO-102": {},
+      "PO-204": {},
+      "SN-101": {},
+      "SS-112": {},
+      "SS-208": {},
+      "SS-212": {},
+      "SS-220": {},
+      "SS-221": {},
+      "TD-116": {},
+      "TD-202": {},
+      "TD-316": {},
+      "TF-101": {},
+      "TF-102": {},
+      "TM-105": {},
+      "WK-101": {},
+      "WK-205": {},
+      "WM-101": {},
+      "WM-102": {},
+      "XF-101": {},
+      "XF-102": {},
+      "XF-104": {},
+      "XF-201": {},
+      "XF-202": {},
+      "XG-104": {},
+      "XG-106": {},
+      "XX-219": {}
+    }
+  },
+  "SyntheticFXFree": {
+    "creationTimestamp": 1573352403.0,
+    "modules": {
+      "FourPoleLadder": {},
+      "State": {},
+      "Rez": {},
+      "Comb": {},
+      "Chorus": {}
+    }
+  },
+  "MyLittleTools": {
+    "creationTimestamp": 1562517176.0,
+    "modules": {
+      "MyLittleFavorites": {},
+      "MyLittleTags": {}
+    }
+  },
+  "TheXOR": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Klee": {},
+      "ascii": {},
+      "M581": {},
+      "Z8K": {},
+      "Renato": {},
+      "Spiralone": {},
+      "nag": {},
+      "o88o": {},
+      "Burst": {},
+      "Uncertain": {},
+      "PWMClock": {},
+      "Quantizer": {},
+      "midyQuant": {},
+      "AttAmp": {},
+      "Boole": {},
+      "flop": {},
+      "XSwitch": {},
+      "Counter": {},
+      "Mplex": {},
+      "Dmplex": {},
+      "quattro": {},
+      "empty": {},
+      "volt": {}
+    }
+  },
+  "VCV-Spectra": {
+    "creationTimestamp": 1532541338.0,
+    "modules": {
+      "Spectra": {}
+    }
+  },
+  "Admiral": {
+    "creationTimestamp": 1567535427.0,
+    "modules": {
+      "Watches": {},
+      "Shifts": {},
+      "Tables": {}
+    }
+  },
+  "DrumKitPro": {
+    "creationTimestamp": 1571891042.0,
+    "modules": {
+      "Kick": {},
+      "Snare": {},
+      "HiHat": {},
+      "Tom": {},
+      "EDrum": {},
+      "Tek": {},
+      "MarionetteBass": {},
+      "Bomb": {},
+      "Shp": {},
+      "Baronial": {}
+    }
+  },
+  "RB-Tilter": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {
+      "RB-Tilter": {}
+    }
+  },
+  "ExpertSleepers-SilentWay": {
+    "creationTimestamp": 1554408029.0,
+    "modules": {
+      "ExpertSleepers-SilentWay-VoiceController": {},
+      "ExpertSleepers-SilentWay-ACEncoder": {},
+      "ExpertSleepers-SilentWay-CVInput": {},
+      "ExpertSleepers-SilentWay-CVToMIDI": {}
+    }
+  },
+  "PatchAndTweak": {
+    "creationTimestamp": 1564126153.0,
+    "modules": {
+      "Blank": {},
+      "BlankBenders": {},
+      "BlankRimbaud": {},
+      "BlankStarlight": {},
+      "BlankBarbieri": {}
+    }
+  },
+  "Ohmer": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {
+      "KlokSpid": {},
+      "RKD": {},
+      "BRK": {},
+      "Metriks": {},
+      "SplitterModule": {},
+      "OhmerBlank1": {},
+      "OhmerBlank2": {},
+      "OhmerBlank4": {},
+      "OhmerBlank8": {},
+      "OhmerBlank16": {},
+      "OhmerBlank32": {}
+    }
+  },
+  "DrumKit": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "BassDrum9": {},
+      "ClosedHiHat": {},
+      "CR78": {},
+      "DMX": {},
+      "OpenHiHat": {},
+      "SyntheticBassDrum": {},
+      "SnareDrumN": {},
+      "Tomi": {},
+      "Gnome": {},
+      "Sequencer": {},
+      "Baronial": {},
+      "MarionetteBass": {}
+    }
+  },
+  "VultCompacts": {
+    "creationTimestamp": 1527117794.0,
+    "modules": {
+      "Freak": {},
+      "Incubus": {},
+      "Knock": {},
+      "Vorg": {}
+    }
+  },
+  "Semiramis": {
+    "creationTimestamp": 1561682777.0,
+    "modules": {
+      "Semiramis": {},
+      "Cellularnoise": {},
+      "Envels": {},
+      "Filtron": {},
+      "FMdom": {},
+      "Virtualog": {}
+    }
+  },
+  "Entrian-AcousticDrums": {
+    "creationTimestamp": 1571086034.0,
+    "modules": {
+      "AcousticDrums": {},
+      "Drummer": {}
+    }
+  },
+  "NYSTHI": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Logic": {},
+      "MVerb": {},
+      "HiVerb": {},
+      "TwistedMVerb": {},
+      "Model277": {},
+      "Surveillance": {},
+      "NYStereoPhaser": {},
+      "NYStereoChorus": {},
+      "DualSignalDelayer": {},
+      "NYEnvFollower": {},
+      "MasterRecorder": {},
+      "MultiTrack": {},
+      "MasterRecorder2": {},
+      "PolyRecorder": {},
+      "MonoRecorder": {},
+      "VUMeterDual": {},
+      "VUMeterSingle": {},
+      "VUMeterSlim": {},
+      "AttackDecay": {},
+      "PolyAttackDecay": {},
+      "DelayAttackHoldDecay": {},
+      "PolyDelayAttackHoldDecay": {},
+      "PolyAttackDecaySustainRelease": {},
+      "complexSimpler": {},
+      "Dica33": {},
+      "HotTuna": {},
+      "SoyModelSOU": {},
+      "SOU-UTILS": {},
+      "SQUONK": {},
+      "NYSTHIOMETER": {},
+      "QuadPanner": {},
+      "DX7Envelope": {},
+      "DualFeedbackEcho": {},
+      "4DCBlock": {},
+      "PlateVerb": {},
+      "DissonantVerb": {},
+      "ScalaQuantizer": {},
+      "EqualDivisionQuantizer": {},
+      "XattoTime": {},
+      "ConstAddMult": {},
+      "8AttackDecay": {},
+      "QuadSimplerSlicerQuantizer": {},
+      "Spectre": {},
+      "DeepNote": {},
+      "DOPPLAB": {},
+      "StereoPhaser2": {},
+      "StereoChorus2": {},
+      "Flipper": {},
+      "DYNAMO": {},
+      "Strummer": {},
+      "AutoFader": {},
+      "VectorMixer": {},
+      "metaAARDVARK": {},
+      "Jooper": {},
+      "ClockableDelay": {},
+      "STKPitchShifter": {},
+      "4Hands": {},
+      "LFOMultiPhase": {},
+      "mix4": {},
+      "mix8": {},
+      "mix16": {},
+      "UNNYSTHIPLEASURESGRAPHER": {},
+      "SYNTHIKAT": {},
+      "Phasor": {},
+      "BIGNUMBER": {},
+      "BIGBUTTON": {},
+      "OP": {},
+      "EN": {},
+      "M1": {},
+      "M2": {},
+      "SQ1": {},
+      "SQ2": {},
+      "SL": {},
+      "DL": {},
+      "confusingSimpler": {},
+      "WORMHOLIZER": {},
+      "CONVOLVZILLA": {},
+      "Ratchet": {},
+      "Bridges": {},
+      "Bivio": {},
+      "Janneker": {},
+      "JannekerTimed": {},
+      "MagisterFuzz": {},
+      "RodentV2": {},
+      "SmashMaster": {},
+      "RXG100ChanA": {},
+      "RXG100ChanB": {},
+      "PolySevenSeas": {},
+      "SevenSeas": {},
+      "TIMEX": {},
+      "SAM": {},
+      "AttackSustainRelease16": {},
+      "AttackSustainRelease8": {},
+      "AttackSustainRelease4": {},
+      "LOGAN": {},
+      "LOGAN20": {},
+      "02NAGOL": {},
+      "b208_5steps": {},
+      "b208_pulser": {},
+      "b208_envelope": {},
+      "b208_random": {},
+      "b208_complex": {},
+      "b208_dualLPG": {},
+      "QuadSimpler": {},
+      "ClockMultiplier": {},
+      "Bitshifter": {},
+      "GraphicMeter": {},
+      "MultiVoltimetro": {},
+      "FixedVoltageSource": {},
+      "TUNATHOR": {},
+      "GranTunismo": {},
+      "PitchVoltager": {},
+      "ExpiredTime": {},
+      "MultiTriggerDelayer": {},
+      "NYECHOEcoeco": {},
+      "JIRAJIRAECHO": {},
+      "RoundAround": {},
+      "MicrotonalHostHelper": {},
+      "PolyLPG": {},
+      "Simpliciter": {},
+      "Pepper": {},
+      "TheCage": {},
+      "Sussudio": {},
+      "LFOMultiPhase2": {},
+      "MusicalBox": {},
+      "MusicalBox2": {},
+      "GateTrigMerger": {},
+      "XYdisplay": {},
+      "ScaleOffset": {},
+      "Interleaver": {},
+      "YYdisplay": {},
+      "PolyRecorder64": {},
+      "BZ-MAPPER": {},
+      "BZ-XPAND": {},
+      "BZ-XPANDXPAND": {}
+    }
+  },
+  "Hora-treasureFree": {
+    "creationTimestamp": 1526939247.0,
+    "modules": {
+      "SnareDrum-VCV": {},
+      "SoftBell": {},
+      "HiHat": {},
+      "Frequencydivider": {}
+    }
+  },
+  "UnforgettableLuncheon": {
+    "creationTimestamp": 1551234966.0,
+    "modules": {}
+  },
+  "vitamin": {
+    "creationTimestamp": 1567948277.0,
+    "modules": {
+      "Bypass": {},
+      "Pan": {}
+    }
+  },
+  "RB-Clapper": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {
+      "RB-Clapper": {}
+    }
+  },
+  "mscHack": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Compressor1": {},
+      "MasterClockx4": {},
+      "SEQ_Envelope_8": {},
+      "TriadSeq2": {},
+      "ARP700": {},
+      "Seq_6ch_32step": {},
+      "Osc_3Ch_Widget": {},
+      "PingPong_Widget": {},
+      "StepDelay": {},
+      "Mix_4_0_4": {},
+      "Mix_9_3_4": {},
+      "Mix_16_4_4": {},
+      "Mix_24_4_4": {},
+      "ASAF8": {},
+      "Dronez": {},
+      "Alienz": {},
+      "Windz": {},
+      "Lorenz": {},
+      "Morze": {},
+      "OSC_WaveMorph_3": {},
+      "SynthDrums": {},
+      "Maude221": {}
+    }
+  },
+  "ErraticInstruments": {
+    "creationTimestamp": 1523605207.0,
+    "modules": {}
+  },
+  "LoopusModules": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Foursome": {},
+      "Voyeur": {}
+    }
+  },
+  "Hora-PCMDrum": {
+    "creationTimestamp": 1550098392.0,
+    "modules": {
+      "Hora-PCMDDD1": {},
+      "Hora-PCMDMX": {},
+      "Hora-PCMEmu": {},
+      "Hora-PCMDrumLDrum": {},
+      "Hora-PCMRX": {},
+      "Hora-PCMRXII": {},
+      "Hora-PCMSakata": {},
+      "Hora-PCMX26": {},
+      "Hora-PCM907": {}
+    }
+  },
+  "VultMysteries": {
+    "creationTimestamp": 1563301966.0,
+    "modules": {
+      "Lapsus": {},
+      "Quincunx": {},
+      "Dopamine": {}
+    }
+  },
+  "ExpertSleepers-Encoders": {
+    "creationTimestamp": 1553682505.0,
+    "modules": {
+      "ExpertSleepers-Encoders-8CV": {},
+      "ExpertSleepers-Encoders-8GT": {},
+      "ExpertSleepers-Encoders-ES5": {},
+      "ExpertSleepers-Encoders-ES40": {},
+      "ExpertSleepers-Encoders-SMUX": {}
+    }
+  },
+  "Hora-PCMDrumFree": {
+    "creationTimestamp": 1550098392.0,
+    "modules": {
+      "Hora-PCMDrumLDrum": {}
+    }
+  },
+  "Nohmad": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Noise": {},
+      "StrangeAttractors": {}
+    }
+  },
+  "Bark": {
+    "creationTimestamp": 1549074603.0,
+    "modules": {
+      "LMH": {},
+      "SHTH": {},
+      "EOsum": {},
+      "TrimLFO": {},
+      "OneBand": {},
+      "bpmTrimLFO": {},
+      "PolyMix": {},
+      "QuadLogic": {},
+      "Panel6": {},
+      "Clamp": {},
+      "PolyX": {}
+    }
+  },
+  "SyntheticFX": {
+    "creationTimestamp": 1573352765.0,
+    "modules": {
+      "FourPoleLadder": {},
+      "Curds": {},
+      "State": {},
+      "Rez": {},
+      "Comb": {},
+      "Chorus": {},
+      "Whey": {},
+      "Tuffet": {},
+      "Delay": {},
+      "Mix": {}
+    }
+  },
+  "LOGinstruments": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Speck": {},
+      "Crystal": {},
+      "Velvet": {},
+      "LessMess": {}
+    }
+  },
+  "Autinn": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Amp": {},
+      "Bass": {},
+      "Boomerang": {},
+      "CVConverter": {},
+      "Deadband": {},
+      "Digi": {},
+      "Disee": {},
+      "Flopper": {},
+      "Jette": {},
+      "Oxcart": {},
+      "Retri": {},
+      "Saw": {},
+      "Sjip": {},
+      "Square": {},
+      "Vector": {},
+      "Vibrato": {},
+      "Zod": {}
+    }
+  },
+  "SLM": {
+    "creationTimestamp": 1562258300.0,
+    "modules": {
+      "mux-freak": {},
+      "the-tailor": {}
+    }
+  },
+  "AaronStatic": {
+    "creationTimestamp": 1580577302.0,
+    "modules": {
+      "ChordCV": {}
+    }
+  },
+  "FrozenWasteland": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "BPMLFO": {},
+      "BPMLFO2": {},
+      "BPMLFOPhaseExpander": {},
+      "CDCSeriouslySlowLFO": {},
+      "DamianLillard": {},
+      "DrunkenRampage": {},
+      "EverlastingGlottalStopper": {},
+      "TheGardener": {},
+      "HairPick": {},
+      "JustAPhaser": {},
+      "LissajousLFO": {},
+      "MrBlueSky": {},
+      "TheOneRingModulator": {},
+      "PhasedLockedLoop": {},
+      "PortlandWeather": {},
+      "ProbablyNote": {},
+      "ProbablyNoteArabic": {},
+      "ProbablyNoteBP": {},
+      "PNChordExpander": {},
+      "PWTapBreakoutExpander": {},
+      "QuadAlgorithmicRhythm": {},
+      "QARGrooveExpander": {},
+      "QARProbabilityExpander": {},
+      "QARWarpedSpaceExpander": {},
+      "QuantussyCell": {},
+      "RouletteLFO": {},
+      "SeedsOfChange": {},
+      "SeedsOfChangeCVExpander": {},
+      "SeedsOfChangeGateExpander": {},
+      "StringTheory": {},
+      "SeriouslySlowLFO": {},
+      "VoxInhumana": {},
+      "VoxInhumanaExpander": {}
+    }
+  },
+  "NauModular": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {}
+  },
+  "VultModules": {
+    "creationTimestamp": 1518016501.0,
+    "modules": {
+      "Basal": {},
+      "Bleak": {},
+      "Boomstick": {},
+      "Caudal": {},
+      "Debriatus": {},
+      "Decline": {},
+      "Disjoint": {},
+      "Flame": {},
+      "Ferox": {},
+      "Flux": {},
+      "HyperPower": {},
+      "Julste": {},
+      "Lateralus": {},
+      "Leakage": {},
+      "Nopskate": {},
+      "Noxious": {},
+      "Noxious-Poly": {},
+      "Nurage": {},
+      "Rescomb": {},
+      "Rescomb2": {},
+      "Slap": {},
+      "Spank": {},
+      "Splie": {},
+      "Stabile": {},
+      "Tangents": {},
+      "Tohe": {},
+      "Trummor": {},
+      "Trummor2": {},
+      "Unstabile": {},
+      "Vessek": {},
+      "Vortex": {},
+      "Vultari": {},
+      "BlackPanelSmall": {},
+      "BlackPanel": {},
+      "BlackPanelBig": {},
+      "UtilBypass": {},
+      "UtilKnobs": {},
+      "UtilSend": {}
+    }
+  },
+  "Hora-VCO_VCF_VCA_Free": {
+    "creationTimestamp": 1526939028.0,
+    "modules": {
+      "Amplitude-VCMixer": {}
+    }
+  },
+  "AnimatedCircuits_Sinosc": {
+    "creationTimestamp": 1521738241.0,
+    "modules": {}
+  },
+  "Ahornberg": {
+    "creationTimestamp": 1562952023.0,
+    "modules": {
+      "EqualDivision": {}
+    }
+  }
+}

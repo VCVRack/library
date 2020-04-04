@@ -6,8 +6,10 @@ import time
 import zipfile
 import re
 
+import common
 import build
 import update_modulargrid
+import update_cache
 
 
 PACKAGES_DIR = "../packages"
@@ -17,9 +19,9 @@ RACK_USER_DIR = "$HOME/.Rack"
 RACK_USER_PLUGIN_DIR = os.path.join(RACK_USER_DIR, "plugins-v1")
 
 # Update git before continuing
-build.system("git pull")
-build.system("git submodule sync --quiet")
-build.system("git submodule update --init --recursive")
+common.system("git pull")
+common.system("git submodule sync --quiet")
+common.system("git submodule update --init --recursive")
 
 plugin_filenames = sys.argv[1:]
 
@@ -80,8 +82,8 @@ for plugin_filename in plugin_filenames:
 		try:
 			build.delete_stage()
 			build.build(plugin_filename)
-			build.system(f'cp -vi stage/* "{PACKAGES_DIR}"')
-			build.system(f'cp -vi stage/*-lin.zip "{RACK_USER_PLUGIN_DIR}"')
+			common.system(f'cp -vi stage/* "{PACKAGES_DIR}"')
+			common.system(f'cp -vi stage/*-lin.zip "{RACK_USER_PLUGIN_DIR}"')
 		except Exception as e:
 			print(e)
 			print(f"{slug} build failed")
@@ -101,10 +103,10 @@ for plugin_filename in plugin_filenames:
 
 		# Copy package
 		package_dest = os.path.join(PACKAGES_DIR, os.path.basename(plugin_filename))
-		build.system(f'cp "{plugin_filename}" "{package_dest}"')
-		build.system(f'touch "{package_dest}"')
+		common.system(f'cp "{plugin_filename}" "{package_dest}"')
+		common.system(f'touch "{package_dest}"')
 		if arch == 'lin':
-			build.system(f'cp "{plugin_filename}" "{RACK_USER_PLUGIN_DIR}"')
+			common.system(f'cp "{plugin_filename}" "{RACK_USER_PLUGIN_DIR}"')
 
 	# Copy manifest
 	with open(library_manifest_filename, "w") as f:
@@ -112,7 +114,7 @@ for plugin_filename in plugin_filenames:
 
 	# Delete screenshot cache
 	screenshots_dir = os.path.join(SCREENSHOTS_DIR, slug)
-	build.system(f'rm -rf "{screenshots_dir}"')
+	common.system(f'rm -rf "{screenshots_dir}"')
 
 	updated_slugs.add(slug)
 
@@ -121,6 +123,7 @@ if not updated_slugs:
 	print("Nothing to build")
 	exit(0)
 
+update_cache.update()
 update_modulargrid.update()
 
 # Upload data
@@ -133,15 +136,16 @@ print(f"Press enter to upload the following packages and push the library repo: 
 input()
 
 # Upload packages
-build.system("cd ../packages && make upload")
+common.system("cd ../packages && make upload")
 
 # Upload screenshots
-build.system("cd ../screenshots && make upload")
+common.system("cd ../screenshots && make upload")
 
 # Commit repository
-build.system("git add manifests")
-build.system(f"git commit -m 'Update manifest for {built_slugs_str}'")
-build.system("git push")
+common.system("git add manifests")
+common.system("git add manifest-cache.json ModularGrid-VCVLibrary.json")
+common.system(f"git commit -m 'Update manifest for {built_slugs_str}'")
+common.system("git push")
 
 print()
 print(f"Updated {built_slugs_str}")
