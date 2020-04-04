@@ -2,6 +2,7 @@ import sys
 import os
 import glob
 import json
+import time
 
 import common
 
@@ -28,10 +29,21 @@ def get_plugin_creation(manifest_filename):
 # Get the timestamp of the earliest commit having the module slug
 def get_module_creation(manifest_filename, module_slug):
 	stdout = common.system(f"git log --format='%H %ct' -- {manifest_filename}")
+	# Use current time as a fallback because if there's no commit with the module, it was added just now.
+	earliestTime = time.time()
 	for line in stdout.strip().split("\n"):
-		hash, time = line.split(" ")
-		stdout = common.system(f"git show {hash}:{manifest_filename}")
-		print(stdout)
+		hash, timestamp = line.split(" ")
+		try:
+			stdout = common.system(f"git show {hash}:{manifest_filename}")
+			manifest = json.loads(stdout)
+			# If the module exists in this commit, keep iterating
+			if not common.find(manifest.get('modules', []), lambda module: module['slug'] == module_slug):
+				break
+		except:
+			# If git fails, then the commit didn't actually touch the manifest file, so we can skip it.
+			continue
+		earliestTime = float(timestamp)
+	return earliestTime
 
 
 def update():
@@ -63,15 +75,14 @@ def update():
 			cache_plugin['creationTimestamp'] = get_plugin_creation(manifest_filename)
 
 		# Iterate modules in plugin
-		cache_modules = cache.get('modules', {})
+		cache_modules = cache_plugin.get('modules', {})
 		for module in plugin.get('modules', []):
 			module_slug = module['slug']
 			cache_module = cache_modules.get(module_slug, {})
 
-			# TODO
 			# Get module creation
-			# get_module_creation()
-			# exit()
+			if 'creationTimestamp' not in cache_module:
+				cache_module['creationTimestamp'] = get_module_creation(manifest_filename, module_slug)
 
 			cache_modules[module_slug] = cache_module
 		cache_plugin['modules'] = cache_modules
