@@ -2,10 +2,21 @@ import sys
 import os
 import glob
 import json
-import re
-import requests
 
 import common
+
+
+PACKAGES_DIR = "../packages"
+
+
+# Get the timestamp of the earliest commit touching the manifest file
+def get_plugin_build(plugin):
+	slug = plugin['slug']
+	version = plugin['version']
+	arch = 'lin'
+	package_filename = f"{slug}-{version}-{arch}.zip"
+	package_path = PACKAGES_DIR + "/" + package_filename
+	return os.path.getmtime(package_path)
 
 
 # Get the timestamp of the earliest commit touching the manifest file
@@ -26,8 +37,11 @@ def get_module_creation(manifest_filename, module_slug):
 def update():
 	# Load existing dataset
 	cache_filename = "manifests-cache.json"
-	with open(cache_filename) as f:
-		cache = json.load(f)
+	try:
+		with open(cache_filename) as f:
+			cache = json.load(f)
+	except:
+		cache = {}
 
 	# Iterate plugins
 	for manifest_filename in glob.glob('manifests/*.json'):
@@ -36,6 +50,13 @@ def update():
 
 		plugin_slug = plugin['slug']
 		cache_plugin = cache.get(plugin_slug, {})
+
+		# Get plugin build
+		if 'buildTimestamp' not in cache_plugin:
+			try:
+				cache_plugin['buildTimestamp'] = get_plugin_build(plugin)
+			except:
+				pass
 
 		# Get plugin creation
 		if 'creationTimestamp' not in cache_plugin:

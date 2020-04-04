@@ -1,5 +1,6 @@
 {
   "HolonicSystems-Free": {
+    "buildTimestamp": 1585811513.4862268,
     "creationTimestamp": 1540482286.0,
     "modules": {
       "HolonicSystems-Gaps": {},
@@ -12,6 +13,7 @@
     }
   },
   "RJModules": {
+    "buildTimestamp": 1580847081.1689684,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Acid": {},
@@ -74,6 +76,7 @@
     }
   },
   "MSM": {
+    "buildTimestamp": 1573702349.379689,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ADSR": {},
@@ -100,6 +103,7 @@
     }
   },
   "Alikins": {
+    "buildTimestamp": 1563830092.302787,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "GateLength": {},
@@ -116,6 +120,7 @@
     }
   },
   "ML_modules_seq": {
+    "buildTimestamp": 1561412106.4306781,
     "creationTimestamp": 1528143975.0,
     "modules": {
       "Mem_Sequencer": {},
@@ -123,6 +128,7 @@
     }
   },
   "Hora-Mixers": {
+    "buildTimestamp": 1569185760.6896684,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "StereoMixer-8": {},
@@ -131,6 +137,7 @@
     }
   },
   "AS-Seqs-n-Tools": {
+    "buildTimestamp": 1583034642.700774,
     "creationTimestamp": 1523290734.0,
     "modules": {
       "ReCon": {},
@@ -148,6 +155,7 @@
     }
   },
   "voxglitch": {
+    "buildTimestamp": 1585695571.541545,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {},
@@ -162,6 +170,7 @@
     }
   },
   "SurgeRack": {
+    "buildTimestamp": 1573918545.2527554,
     "creationTimestamp": 1561132770.0,
     "modules": {
       "SurgeDelay": {},
@@ -186,6 +195,7 @@
     }
   },
   "MM_Oscah": {
+    "buildTimestamp": 1581496563.762998,
     "creationTimestamp": 1576709857.0,
     "modules": {
       "CZOscah": {},
@@ -195,6 +205,7 @@
     }
   },
   "Synthetic": {
+    "buildTimestamp": 1580233076.72006,
     "creationTimestamp": 1565726934.0,
     "modules": {
       "Eastside": {},
@@ -204,6 +215,7 @@
     }
   },
   "cf_hardware": {
+    "buildTimestamp": 1576512041.0611475,
     "creationTimestamp": 1574185434.0,
     "modules": {
       "Number9": {},
@@ -211,10 +223,12 @@
     }
   },
   "AudibleInstrumentsPreview": {
+    "buildTimestamp": 1547320848.0302203,
     "creationTimestamp": 1527593182.0,
     "modules": {}
   },
   "NocturnalEncoder": {
+    "buildTimestamp": 1585040034.0010586,
     "creationTimestamp": 1539049455.0,
     "modules": {
       "AMDecoder": {},
@@ -222,6 +236,7 @@
     }
   },
   "Fundamental": {
+    "buildTimestamp": 1573195163.2124546,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "VCO": {},
@@ -254,6 +269,7 @@
     }
   },
   "VCV-PulseMatrix": {
+    "buildTimestamp": 1560916730.9045677,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "PulseMatrix16": {},
@@ -261,6 +277,7 @@
     }
   },
   "GoodSheperd": {
+    "buildTimestamp": 1581596152.221419,
     "creationTimestamp": 1565624403.0,
     "modules": {
       "Hurdle": {},
@@ -270,6 +287,7 @@
     }
   },
   "AmalgamatedHarmonics": {
+    "buildTimestamp": 1577173066.110999,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Arp31": {},
@@ -296,6 +314,7 @@
     }
   },
   "Bogaudio": {
+    "buildTimestamp": 1585237608.2393143,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {},
@@ -377,6 +396,7 @@
     }
   },
   "Starling_Via": {
+    "buildTimestamp": 1584322495.275343,
     "creationTimestamp": 1554510935.0,
     "modules": {
       "META": {},
@@ -389,10 +409,12 @@
     }
   },
   "Quadraphonics": {
+    "buildTimestamp": 1551206637.516931,
     "creationTimestamp": 1551152660.0,
     "modules": {}
   },
   "stocaudio": {
+    "buildTimestamp": 1570919128.04277,
     "creationTimestamp": 1569702009.0,
     "modules": {
       "Polyturing": {},
@@ -405,6 +427,7 @@
     }
   },
   "StellareModular-CreativeSuite": {
+    "buildTimestamp": 1574983037.0496788,
     "creationTimestamp": 1561079604.0,
     "modules": {
       "Andromeda": {},
@@ -430,10 +453,12 @@
     "modules": {}
   },
   "SubmarineUtility": {
+    "buildTimestamp": 1539058495.1027439,
     "creationTimestamp": 1537314736.0,
     "modules": {}
   },
   "StellareModular": {
+    "buildTimestamp": 1560536492.0,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "TuringMachine": {},
@@ -441,6 +466,7 @@
     }
   },
   "EricaCopies": {
+    "buildTimestamp": 1562258704.8896613,
     "creationTimestamp": 1560887654.0,
     "modules": {
       "BlackWaveTableVCO": {},
@@ -449,6 +475,7 @@
     }
   },
   "FrankBuss": {
+    "buildTimestamp": 1561227876.2182152,
     "creationTimestamp": 1560003446.0,
     "modules": {
       "Formula": {},
@@ -456,6 +483,7 @@
     }
   },
   "OrangeLine": {
+    "buildTimestamp": 1576991468.3685184,
     "creationTimestamp": 1571530639.0,
     "modules": {
       "Fence": {},
@@ -464,6 +492,7 @@
     }
   },
   "HamptonHarmonics": {
+    "buildTimestamp": 1585695794.0896184,
     "creationTimestamp": 1582941680.0,
     "modules": {
       "Progress": {},
@@ -471,6 +500,7 @@
     }
   },
   "repelzen": {
+    "buildTimestamp": 1563505120.3535604,
     "creationTimestamp": 1563506194.0,
     "modules": {
       "reblank": {},
@@ -482,6 +512,7 @@
     }
   },
   "LifeFormModular": {
+    "buildTimestamp": 1584908979.673539,
     "creationTimestamp": 1569379652.0,
     "modules": {
       "TimeDiktat": {},
@@ -500,6 +531,7 @@
     }
   },
   "UnfilteredVolume2": {
+    "buildTimestamp": 1579125673.5650332,
     "creationTimestamp": 1579108208.0,
     "modules": {
       "Yoko": {},
@@ -507,6 +539,7 @@
     }
   },
   "Edge": {
+    "buildTimestamp": 1564268442.3708575,
     "creationTimestamp": 1550716714.0,
     "modules": {
       "WCO_Osc": {},
@@ -515,10 +548,12 @@
     }
   },
   "Southpole": {
+    "buildTimestamp": 1522253117.1636157,
     "creationTimestamp": 1518016501.0,
     "modules": {}
   },
   "LittleUtils": {
+    "buildTimestamp": 1583225387.457739,
     "creationTimestamp": 1571530639.0,
     "modules": {
       "Button": {},
@@ -530,10 +565,12 @@
     }
   },
   "PulsumQuadratum-shift": {
+    "buildTimestamp": 1524082616.5642543,
     "creationTimestamp": 1524083026.0,
     "modules": {}
   },
   "Hora-Modulation": {
+    "buildTimestamp": 1569185763.1263964,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Relief-Envelopegeneretor": {},
@@ -541,6 +578,7 @@
     }
   },
   "21kHz": {
+    "buildTimestamp": 1581709515.4551363,
     "creationTimestamp": 1532652056.0,
     "modules": {
       "kHzPalmLoop": {},
@@ -549,10 +587,12 @@
     }
   },
   "PG-Instruments": {
+    "buildTimestamp": 1524555541.0901663,
     "creationTimestamp": 1524123465.0,
     "modules": {}
   },
   "Hora-Sequencers": {
+    "buildTimestamp": 1569185783.8435855,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Frequencydivider": {},
@@ -561,6 +601,7 @@
     }
   },
   "Hora-Processors": {
+    "buildTimestamp": 1569185781.5668614,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "SpectralProcessor": {},
@@ -572,6 +613,7 @@
     }
   },
   "aridacity": {
+    "buildTimestamp": 1569701753.0425594,
     "creationTimestamp": 1567535427.0,
     "modules": {
       "ClockDiv": {},
@@ -580,10 +622,12 @@
     }
   },
   "arjo_modules": {
+    "buildTimestamp": 1538613911.6193283,
     "creationTimestamp": 1538534208.0,
     "modules": {}
   },
   "DHE-Modules": {
+    "buildTimestamp": 1576114293.3217928,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Blossom": {},
@@ -607,6 +651,7 @@
     }
   },
   "Chiptuner": {
+    "buildTimestamp": 1568567864.5386674,
     "creationTimestamp": 1568568548.0,
     "modules": {
       "Blank1HP": {},
@@ -623,6 +668,7 @@
     }
   },
   "BaconMusic": {
+    "buildTimestamp": 1560901191.6004872,
     "creationTimestamp": 1521929448.0,
     "modules": {
       "HarMoNee": {},
@@ -640,12 +686,14 @@
     }
   },
   "SA-Seasons": {
+    "buildTimestamp": 1572353787.19488,
     "creationTimestamp": 1572354186.0,
     "modules": {
       "Seasons": {}
     }
   },
   "AS-Drums-n-Filters": {
+    "buildTimestamp": 1583034615.3135018,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Drums8x8Kicks": {},
@@ -675,10 +723,12 @@
     }
   },
   "FrankBussFormula": {
+    "buildTimestamp": 1532070568.5575137,
     "creationTimestamp": 1530483305.0,
     "modules": {}
   },
   "Entrian-Sequencers": {
+    "buildTimestamp": 1583775223.8378897,
     "creationTimestamp": 1583775360.0,
     "modules": {
       "Drummer": {},
@@ -687,6 +737,7 @@
     }
   },
   "Blamsoft-XFXDistortionPack": {
+    "buildTimestamp": 1561078408.3708463,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Blamsoft-XFXGrunge": {},
@@ -695,6 +746,7 @@
     }
   },
   "AudibleInstruments": {
+    "buildTimestamp": 1582995898.489716,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Braids": {},
@@ -729,6 +781,7 @@
     "modules": {}
   },
   "ImpromptuModular": {
+    "buildTimestamp": 1585237782.2772186,
     "creationTimestamp": 1521979525.0,
     "modules": {
       "Tact": {},
@@ -759,6 +812,7 @@
     }
   },
   "Autodafe-REDs": {
+    "buildTimestamp": 1562620724.3768492,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "SQUARE": {},
@@ -774,6 +828,7 @@
     }
   },
   "VCV-Host": {
+    "buildTimestamp": 1576607884.8251114,
     "creationTimestamp": 1543081940.0,
     "modules": {
       "Host": {},
@@ -782,6 +837,7 @@
     }
   },
   "LindenbergResearch": {
+    "buildTimestamp": 1580428984.8123128,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "VCO": {},
@@ -806,12 +862,14 @@
     }
   },
   "scanner-darkly-collection-one": {
+    "buildTimestamp": 1572480383.626691,
     "creationTimestamp": 1572480488.0,
     "modules": {
       "SDOrcasHeart": {}
     }
   },
   "Koralfx-Modules": {
+    "buildTimestamp": 1561122103.5800982,
     "creationTimestamp": 1522846964.0,
     "modules": {
       "Beatovnik": {},
@@ -824,6 +882,7 @@
     }
   },
   "huaba": {
+    "buildTimestamp": 1578538847.1637442,
     "creationTimestamp": 1528761745.0,
     "modules": {
       "EQ3": {},
@@ -831,6 +890,7 @@
     }
   },
   "MM_Tools": {
+    "buildTimestamp": 1584927063.7328157,
     "creationTimestamp": 1581526477.0,
     "modules": {
       "SMExpL": {},
@@ -843,12 +903,14 @@
     }
   },
   "VCV-Scalar": {
+    "buildTimestamp": 1560818566.7565181,
     "creationTimestamp": 1536272165.0,
     "modules": {
       "Scalar": {}
     }
   },
   "MindMeldModular": {
+    "buildTimestamp": 1580575938.9703298,
     "creationTimestamp": 1572165273.0,
     "modules": {
       "MixMasterJr": {},
@@ -862,6 +924,7 @@
     }
   },
   "Stoermelder-P1": {
+    "buildTimestamp": 1580576060.0229723,
     "creationTimestamp": 1559409342.0,
     "modules": {
       "CVMap": {},
@@ -889,18 +952,21 @@
     }
   },
   "ILovePerlin": {
+    "buildTimestamp": 1581497503.6273055,
     "creationTimestamp": 1581498042.0,
     "modules": {
       "PerlinOne": {}
     }
   },
   "MM_ModelX": {
+    "buildTimestamp": 1581496533.1556466,
     "creationTimestamp": 1579213564.0,
     "modules": {
       "ModelX": {}
     }
   },
   "unless_modules": {
+    "buildTimestamp": 1569772130.7815971,
     "creationTimestamp": 1524653643.0,
     "modules": {
       "markov": {},
@@ -909,12 +975,14 @@
     }
   },
   "ArableInstruments": {
+    "buildTimestamp": 1568476712.0263762,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Joni": {}
     }
   },
   "SonusModular": {
+    "buildTimestamp": 1577173162.6598647,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Addiction": {},
@@ -946,6 +1014,7 @@
     }
   },
   "VCV-Router": {
+    "buildTimestamp": 1585755860.2039757,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "OctalRouter": {},
@@ -954,20 +1023,24 @@
     }
   },
   "VCV-Chords": {
+    "buildTimestamp": 1580700410.8722105,
     "creationTimestamp": 1567952550.0,
     "modules": {
       "Chords": {}
     }
   },
   "PvC": {
+    "buildTimestamp": 1522253115.9255843,
     "creationTimestamp": 1518016501.0,
     "modules": {}
   },
   "AnimatedCircuits_Panimated": {
+    "buildTimestamp": 1544049429.9041607,
     "creationTimestamp": 1521738241.0,
     "modules": {}
   },
   "TriggerFish-Elements": {
+    "buildTimestamp": 1584060037.4262915,
     "creationTimestamp": 1537114678.0,
     "modules": {
       "TfSlop": {},
@@ -977,6 +1050,7 @@
     }
   },
   "Geodesics": {
+    "buildTimestamp": 1585237855.2191334,
     "creationTimestamp": 1534547467.0,
     "modules": {
       "BlackHoles": {},
@@ -992,6 +1066,7 @@
     }
   },
   "noobhour": {
+    "buildTimestamp": 1562516710.944598,
     "creationTimestamp": 1537049681.0,
     "modules": {
       "baseliner": {},
@@ -1001,6 +1076,7 @@
     }
   },
   "squinkylabs-plug1": {
+    "buildTimestamp": 1582939645.2778745,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {},
@@ -1030,6 +1106,7 @@
     }
   },
   "wiqid-anomalies": {
+    "buildTimestamp": 1565096600.3465106,
     "creationTimestamp": 1565096910.0,
     "modules": {
       "expanse": {},
@@ -1046,6 +1123,7 @@
     }
   },
   "NANOModules": {
+    "buildTimestamp": 1583318515.1690028,
     "creationTimestamp": 1581971790.0,
     "modules": {
       "MAR": {},
@@ -1060,6 +1138,7 @@
     }
   },
   "Autodafe-REDsFREE": {
+    "buildTimestamp": 1562620724.8001926,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "SQUARE": {},
@@ -1071,6 +1150,7 @@
     }
   },
   "MockbaModular": {
+    "buildTimestamp": 1581497487.466946,
     "creationTimestamp": 1572711703.0,
     "modules": {
       "Blank": {},
@@ -1117,6 +1197,7 @@
     }
   },
   "SynthKit": {
+    "buildTimestamp": 1564126344.2732818,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "1x8Splitter": {},
@@ -1135,6 +1216,7 @@
     }
   },
   "ModularFungi": {
+    "buildTimestamp": 1581057800.3875039,
     "creationTimestamp": 1539737109.0,
     "modules": {
       "Blank1HP": {},
@@ -1151,6 +1233,7 @@
     }
   },
   "Befaco": {
+    "buildTimestamp": 1582994264.0406651,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "EvenVCO": {},
@@ -1163,6 +1246,7 @@
     }
   },
   "Autodafe": {
+    "buildTimestamp": 1562620723.2534893,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BitCrusher": {},
@@ -1185,6 +1269,7 @@
     }
   },
   "Entrian-Free": {
+    "buildTimestamp": 1583774541.5382712,
     "creationTimestamp": 1562021186.0,
     "modules": {
       "Follower": {},
@@ -1194,6 +1279,7 @@
     }
   },
   "ChortlingHamsterModules": {
+    "buildTimestamp": 1579149967.1983876,
     "creationTimestamp": 1561876305.0,
     "modules": {
       "Pop": {},
@@ -1201,12 +1287,14 @@
     }
   },
   "VCV-Prototype": {
+    "buildTimestamp": 1573903599.841217,
     "creationTimestamp": 1568526902.0,
     "modules": {
       "Prototype": {}
     }
   },
   "CatroBlanco": {
+    "buildTimestamp": 1567534664.4178581,
     "creationTimestamp": 1567535427.0,
     "modules": {
       "CatroBlanco_CB-1": {},
@@ -1220,6 +1308,7 @@
     }
   },
   "JW-Modules": {
+    "buildTimestamp": 1582438078.1431234,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {},
@@ -1243,6 +1332,7 @@
     }
   },
   "Sckitam": {
+    "buildTimestamp": 1582939817.5682116,
     "creationTimestamp": 1578539523.0,
     "modules": {
       "2DRotation": {},
@@ -1252,12 +1342,14 @@
     }
   },
   "AuntyLangtonsFree": {
+    "buildTimestamp": 1577783355.8492022,
     "creationTimestamp": 1577783590.0,
     "modules": {
       "MusicalAnt": {}
     }
   },
   "RacketScience": {
+    "buildTimestamp": 1574890143.1115015,
     "creationTimestamp": 1572206322.0,
     "modules": {
       "RSVectorVictor": {},
@@ -1268,6 +1360,7 @@
     }
   },
   "BBModules": {
+    "buildTimestamp": 1562516444.1577868,
     "creationTimestamp": 1560422286.0,
     "modules": {
       "fox": {},
@@ -1283,6 +1376,7 @@
     }
   },
   "SkJack": {
+    "buildTimestamp": 1562278111.3813248,
     "creationTimestamp": 1549682919.0,
     "modules": {
       "JackAudio": {},
@@ -1291,18 +1385,21 @@
     }
   },
   "pfzzz": {
+    "buildTimestamp": 1574984211.7738519,
     "creationTimestamp": 1572445989.0,
     "modules": {
       "OhGates": {}
     }
   },
   "AnimatedCircuits": {
+    "buildTimestamp": 1562695805.3925881,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ACFolding": {}
     }
   },
   "kocmoc": {
+    "buildTimestamp": 1584680861.7870274,
     "creationTimestamp": 1572165273.0,
     "modules": {
       "SVF-1": {},
@@ -1314,12 +1411,14 @@
     }
   },
   "Blamsoft-XFXWave": {
+    "buildTimestamp": 1561747472.9029984,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Blamsoft-XFXWave": {}
     }
   },
   "cf": {
+    "buildTimestamp": 1571598470.819968,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "METRO": {},
@@ -1352,6 +1451,7 @@
     }
   },
   "AlrightDevices": {
+    "buildTimestamp": 1570130535.0657115,
     "creationTimestamp": 1554966626.0,
     "modules": {
       "Chronoblob2": {},
@@ -1359,12 +1459,14 @@
     }
   },
   "ZZC-Phaseque": {
+    "buildTimestamp": 1574018465.9553983,
     "creationTimestamp": 1564493495.0,
     "modules": {
       "Phaseque": {}
     }
   },
   "Sculpt-O-Sound": {
+    "buildTimestamp": 1584060070.026988,
     "creationTimestamp": 1538003976.0,
     "modules": {
       "Vocode_O_Matic": {},
@@ -1372,16 +1474,19 @@
     }
   },
   "mtsch-plugins": {
+    "buildTimestamp": 1522253129.0079143,
     "creationTimestamp": 1518016501.0,
     "modules": {}
   },
   "PS-PurrSoftware": {
+    "buildTimestamp": 1583674096.8058724,
     "creationTimestamp": 1579232908.0,
     "modules": {
       "Meander": {}
     }
   },
   "Autodafe-DrumKit": {
+    "buildTimestamp": 1562620723.980173,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "DrumsKick": {},
@@ -1396,6 +1501,7 @@
     }
   },
   "trowaSoft": {
+    "buildTimestamp": 1582939783.5808206,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "trigSeq": {},
@@ -1410,6 +1516,7 @@
     }
   },
   "Valley": {
+    "buildTimestamp": 1561420842.8922517,
     "creationTimestamp": 1521979525.0,
     "modules": {
       "Topograph": {},
@@ -1422,6 +1529,7 @@
     }
   },
   "CharredDesert": {
+    "buildTimestamp": 1585237161.404226,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "DTMF": {},
@@ -1444,28 +1552,33 @@
     }
   },
   "ChordController": {
+    "buildTimestamp": 1569324271.925433,
     "creationTimestamp": 1569324418.0,
     "modules": {
       "ChordController": {}
     }
   },
   "Kosmodules-Free": {
+    "buildTimestamp": 1578538652.245714,
     "creationTimestamp": 1578539523.0,
     "modules": {
       "OSF": {}
     }
   },
   "8Mode": {
+    "buildTimestamp": 1555667306.4616747,
     "creationTimestamp": 1553743716.0,
     "modules": {}
   },
   "TercerBrazo": {
+    "buildTimestamp": 1572081624.4647405,
     "creationTimestamp": 1570374286.0,
     "modules": {
       "TercerBrazo-CV2612": {}
     }
   },
   "dBiz": {
+    "buildTimestamp": 1565457622.7185247,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Multiple": {},
@@ -1499,6 +1612,7 @@
     "modules": {}
   },
   "luckyxxl": {
+    "buildTimestamp": 1568568237.1364398,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Distribute2": {},
@@ -1508,6 +1622,7 @@
     }
   },
   "AS": {
+    "buildTimestamp": 1583225533.6908162,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "SineOSC": {},
@@ -1557,6 +1672,7 @@
     }
   },
   "TinyTricks": {
+    "buildTimestamp": 1575346733.1598036,
     "creationTimestamp": 1571471313.0,
     "modules": {
       "SH16": {},
@@ -1585,6 +1701,7 @@
     }
   },
   "computerscare": {
+    "buildTimestamp": 1581057942.3606677,
     "creationTimestamp": 1533693056.0,
     "modules": {
       "computerscare-knolypobs": {},
@@ -1603,18 +1720,21 @@
     }
   },
   "Blamsoft-XFXReverb": {
+    "buildTimestamp": 1561078408.3708463,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Blamsoft-XFXReverb": {}
     }
   },
   "MM_Proton": {
+    "buildTimestamp": 1581496588.8502262,
     "creationTimestamp": 1580501276.0,
     "modules": {
       "Proton": {}
     }
   },
   "JLmod": {
+    "buildTimestamp": 1585413470.3869798,
     "creationTimestamp": 1585414369.0,
     "modules": {
       "DebugExpander": {},
@@ -1622,6 +1742,7 @@
     }
   },
   "Nozoid": {
+    "buildTimestamp": 1585001069.7235706,
     "creationTimestamp": 1571471313.0,
     "modules": {
       "Nozori_68_ADSR": {},
@@ -1674,10 +1795,12 @@
     }
   },
   "Qwelk": {
+    "buildTimestamp": 1553779086.0607274,
     "creationTimestamp": 1518016501.0,
     "modules": {}
   },
   "WhatTheRack": {
+    "buildTimestamp": 1567534765.8265,
     "creationTimestamp": 1553743009.0,
     "modules": {
       "WhatTheRack": {},
@@ -1686,12 +1809,14 @@
     }
   },
   "CrystalPalace": {
+    "buildTimestamp": 1580144173.548448,
     "creationTimestamp": 1539715932.0,
     "modules": {
       "Perspex": {}
     }
   },
   "moDllz": {
+    "buildTimestamp": 1575252458.1030638,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "MIDIpolyMPE": {},
@@ -1703,6 +1828,7 @@
     }
   },
   "Mog": {
+    "buildTimestamp": 1582939986.7751868,
     "creationTimestamp": 1581360191.0,
     "modules": {
       "Network": {},
@@ -1710,6 +1836,7 @@
     }
   },
   "WrongPeople": {
+    "buildTimestamp": 1568568215.0193117,
     "creationTimestamp": 1567535427.0,
     "modules": {
       "MIDIPlayer": {},
@@ -1718,6 +1845,7 @@
     }
   },
   "Bidoo": {
+    "buildTimestamp": 1585325709.553254,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {},
@@ -1763,6 +1891,7 @@
     }
   },
   "LomasModules": {
+    "buildTimestamp": 1576991899.575822,
     "creationTimestamp": 1563506194.0,
     "modules": {
       "AdvancedSampler": {},
@@ -1770,6 +1899,7 @@
     }
   },
   "modular80": {
+    "buildTimestamp": 1583225353.0770142,
     "creationTimestamp": 1521868849.0,
     "modules": {
       "Logistiker": {},
@@ -1778,6 +1908,7 @@
     }
   },
   "JE": {
+    "buildTimestamp": 1572081243.4525836,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "RM": {},
@@ -1785,10 +1916,12 @@
     }
   },
   "com-soundchasing-stochasm": {
+    "buildTimestamp": 1522253125.3198214,
     "creationTimestamp": 1521979525.0,
     "modules": {}
   },
   "Hora-ModulationFree": {
+    "buildTimestamp": 1569185765.2297828,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "TwinQuartet-LFO": {}
@@ -1799,16 +1932,19 @@
     "modules": {}
   },
   "Grayscale": {
+    "buildTimestamp": 1522254178.5796423,
     "creationTimestamp": 1518016501.0,
     "modules": {}
   },
   "ReTunesFree": {
+    "buildTimestamp": 1576593010.3715522,
     "creationTimestamp": 1576593342.0,
     "modules": {
       "ReTunes-ForFour": {}
     }
   },
   "QuantalAudio": {
+    "buildTimestamp": 1561830919.2333767,
     "creationTimestamp": 1543672744.0,
     "modules": {
       "Blank1": {},
@@ -1823,6 +1959,7 @@
     }
   },
   "HetrickCV": {
+    "buildTimestamp": 1560591128.3533008,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ASR": {},
@@ -1849,6 +1986,7 @@
     }
   },
   "UnfilteredVolume1": {
+    "buildTimestamp": 1579125672.5850096,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "DentCrusher": {},
@@ -1860,6 +1998,7 @@
     }
   },
   "SignalFlux": {
+    "buildTimestamp": 1567022977.8971434,
     "creationTimestamp": 1566236671.0,
     "modules": {
       "SimpleKnob": {},
@@ -1870,12 +2009,14 @@
     }
   },
   "Interrobang": {
+    "buildTimestamp": 1585695510.9302518,
     "creationTimestamp": 1585696001.0,
     "modules": {
       "ScribbleStrip": {}
     }
   },
   "Hora-ProcessorsFree": {
+    "buildTimestamp": 1569546523.8098865,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "EnvelopeFollower": {},
@@ -1885,6 +2026,7 @@
     }
   },
   "Circlefade": {
+    "buildTimestamp": 1563736853.857866,
     "creationTimestamp": 1562258300.0,
     "modules": {
       "Random": {},
@@ -1895,12 +2037,14 @@
     }
   },
   "ParableInstruments": {
+    "buildTimestamp": 1568476689.8358605,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Neil": {}
     }
   },
   "CountModula": {
+    "buildTimestamp": 1585413954.393134,
     "creationTimestamp": 1560722026.0,
     "modules": {
       "AnalogueShiftRegister": {},
@@ -2008,10 +2152,12 @@
     }
   },
   "SerialRacker": {
+    "buildTimestamp": 1526113034.853709,
     "creationTimestamp": 1525127241.0,
     "modules": {}
   },
   "AriaSalvatrice": {
+    "buildTimestamp": 1581497562.295278,
     "creationTimestamp": 1576593342.0,
     "modules": {
       "Splort": {},
@@ -2028,24 +2174,28 @@
     }
   },
   "MM_ModelV": {
+    "buildTimestamp": 1581496507.6050746,
     "creationTimestamp": 1578436003.0,
     "modules": {
       "ModelV": {}
     }
   },
   "StellareModular-Link": {
+    "buildTimestamp": 1560536516.0,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Link": {}
     }
   },
   "VCV-Console": {
+    "buildTimestamp": 1561264488.7710981,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Console8_3": {}
     }
   },
   "MosquitoLabs": {
+    "buildTimestamp": 1564126311.169173,
     "creationTimestamp": 1561076996.0,
     "modules": {
       "PulseCzar": {},
@@ -2054,10 +2204,12 @@
     }
   },
   "Southpole-parasites": {
+    "buildTimestamp": 1522253118.0986392,
     "creationTimestamp": 1521738241.0,
     "modules": {}
   },
   "NonlinearCircuits": {
+    "buildTimestamp": 1582350618.825921,
     "creationTimestamp": 1582350675.0,
     "modules": {
       "BOOLs": {},
@@ -2066,20 +2218,24 @@
     }
   },
   "VCV-Parametra": {
+    "buildTimestamp": 1560819701.9177022,
     "creationTimestamp": 1527457581.0,
     "modules": {
       "Parametra": {}
     }
   },
   "AnimatedCircuits_Cosmic": {
+    "buildTimestamp": 1544049429.6041536,
     "creationTimestamp": 1532341589.0,
     "modules": {}
   },
   "BOKONTEPByteBeatMachine": {
+    "buildTimestamp": 1526113092.488281,
     "creationTimestamp": 1525995838.0,
     "modules": {}
   },
   "ML_modules": {
+    "buildTimestamp": 1576114254.4209,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMdetect": {},
@@ -2110,22 +2266,26 @@
     }
   },
   "ML_modules_QU": {
+    "buildTimestamp": 1561482337.5489736,
     "creationTimestamp": 1528143975.0,
     "modules": {
       "Quantum_Pro": {}
     }
   },
   "CYC": {
+    "buildTimestamp": 1560721680.831249,
     "creationTimestamp": 1560722026.0,
     "modules": {
       "cyc-strong_kar": {}
     }
   },
   "Gratrix": {
+    "buildTimestamp": 1522253102.7192514,
     "creationTimestamp": 1518016501.0,
     "modules": {}
   },
   "23volts": {
+    "buildTimestamp": 1582350556.851348,
     "creationTimestamp": 1573703887.0,
     "modules": {
       "Mem": {},
@@ -2146,6 +2306,7 @@
     }
   },
   "Blamsoft-XFXF35": {
+    "buildTimestamp": 1561078408.3708463,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Blamsoft-XFXF35": {}
@@ -2156,18 +2317,21 @@
     "modules": {}
   },
   "EH_modules": {
+    "buildTimestamp": 1585526249.3170934,
     "creationTimestamp": 1546374379.0,
     "modules": {
       "FV-1emu": {}
     }
   },
   "LabSeven": {
+    "buildTimestamp": 1579309795.571072,
     "creationTimestamp": 1549773693.0,
     "modules": {
       "LS3340VCO": {}
     }
   },
   "MrLumps": {
+    "buildTimestamp": 1585040068.5352645,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "SEQE": {},
@@ -2180,6 +2344,7 @@
     "modules": {}
   },
   "GlueTheGiant": {
+    "buildTimestamp": 1580575811.8775542,
     "creationTimestamp": 1567863407.0,
     "modules": {
       "GigBus": {},
@@ -2194,6 +2359,7 @@
     }
   },
   "Hora-AnalogDrums": {
+    "buildTimestamp": 1562694922.2907262,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "BassDrumVult": {},
@@ -2213,6 +2379,7 @@
     }
   },
   "ZZC": {
+    "buildTimestamp": 1576869504.6206212,
     "creationTimestamp": 1562517176.0,
     "modules": {
       "Clock": {},
@@ -2227,6 +2394,7 @@
     }
   },
   "alto777_LFSR": {
+    "buildTimestamp": 1571471137.1219156,
     "creationTimestamp": 1522728847.0,
     "modules": {
       "a7Utility": {},
@@ -2239,12 +2407,14 @@
     }
   },
   "ESeries": {
+    "buildTimestamp": 1582996976.776742,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "E340": {}
     }
   },
   "sb-StochKit": {
+    "buildTimestamp": 1566681390.6796327,
     "creationTimestamp": 1556679350.0,
     "modules": {
       "GenEcho": {},
@@ -2257,16 +2427,19 @@
     "modules": {}
   },
   "NonLinearInstruments": {
+    "buildTimestamp": 1522751320.5835,
     "creationTimestamp": 1518016501.0,
     "modules": {}
   },
   "OhmerPrems": {
+    "buildTimestamp": 1561559386.4655087,
     "creationTimestamp": 1561308392.0,
     "modules": {
       "QuadPercs": {}
     }
   },
   "VultModulesFree": {
+    "buildTimestamp": 1584308876.2601695,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Basal": {},
@@ -2318,6 +2491,7 @@
     }
   },
   "rcm": {
+    "buildTimestamp": 1572081691.8396351,
     "creationTimestamp": 1541202370.0,
     "modules": {
       "rcm-CVTgl": {},
@@ -2335,6 +2509,7 @@
     }
   },
   "Hora-VCO_VCF_VCA": {
+    "buildTimestamp": 1569589638.7271588,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Amplitude-VCMixer": {},
@@ -2343,6 +2518,7 @@
     }
   },
   "NEXSwitches": {
+    "buildTimestamp": 1576113571.0051813,
     "creationTimestamp": 1573181285.0,
     "modules": {
       "DoubleMute": {},
@@ -2351,6 +2527,7 @@
     }
   },
   "regen-modular": {
+    "buildTimestamp": 1580404307.0863087,
     "creationTimestamp": 1577982229.0,
     "modules": {
       "regen-cyclex-vco": {},
@@ -2366,6 +2543,7 @@
     }
   },
   "Prism": {
+    "buildTimestamp": 1570919188.6141493,
     "creationTimestamp": 1562952023.0,
     "modules": {
       "Rainbow": {},
@@ -2373,12 +2551,14 @@
     }
   },
   "KarateSnoopy": {
+    "buildTimestamp": 1561122132.4207475,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "KSnpy2DGridSeq": {}
     }
   },
   "STS": {
+    "buildTimestamp": 1569943016.200009,
     "creationTimestamp": 1540066161.0,
     "modules": {
       "Odyssey": {},
@@ -2393,6 +2573,7 @@
     }
   },
   "Skylights": {
+    "buildTimestamp": 1565623916.286483,
     "creationTimestamp": 1549682919.0,
     "modules": {
       "SkAdrift": {},
@@ -2406,10 +2587,12 @@
     }
   },
   "BeckstromResearch": {
+    "buildTimestamp": 1538022298.5976062,
     "creationTimestamp": 1537827251.0,
     "modules": {}
   },
   "MicMusic": {
+    "buildTimestamp": 1562517069.0837412,
     "creationTimestamp": 1550716028.0,
     "modules": {
       "Seven": {},
@@ -2417,12 +2600,14 @@
     }
   },
   "VCV-Recorder": {
+    "buildTimestamp": 1569324510.5909204,
     "creationTimestamp": 1557176959.0,
     "modules": {
       "Recorder": {}
     }
   },
   "s-ol": {
+    "buildTimestamp": 1567863355.6815243,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "WrapComp": {},
@@ -2431,6 +2616,7 @@
     }
   },
   "PdArray": {
+    "buildTimestamp": 1580144421.6261022,
     "creationTimestamp": 1571588193.0,
     "modules": {
       "Array": {},
@@ -2439,14 +2625,17 @@
     }
   },
   "aP-Modules": {
+    "buildTimestamp": 1538501624.8966348,
     "creationTimestamp": 1538335767.0,
     "modules": {}
   },
   "RODENTMODULES": {
+    "buildTimestamp": 1533053072.4425342,
     "creationTimestamp": 1518016501.0,
     "modules": {}
   },
   "Mental": {
+    "buildTimestamp": 1572354009.5338948,
     "creationTimestamp": 1569943058.0,
     "modules": {
       "MentalMults": {},
@@ -2478,6 +2667,7 @@
     }
   },
   "CatroModulo": {
+    "buildTimestamp": 1580576107.1873353,
     "creationTimestamp": 1556379997.0,
     "modules": {
       "CatroModulo_CM-1": {},
@@ -2493,6 +2683,7 @@
     }
   },
   "SubmarineFree": {
+    "buildTimestamp": 1585695770.3191123,
     "creationTimestamp": 1522452120.0,
     "modules": {
       "AG-104": {},
@@ -2563,6 +2754,7 @@
     }
   },
   "SyntheticFXFree": {
+    "buildTimestamp": 1575242629.2846048,
     "creationTimestamp": 1573352403.0,
     "modules": {
       "FourPoleLadder": {},
@@ -2573,6 +2765,7 @@
     }
   },
   "MyLittleTools": {
+    "buildTimestamp": 1567692652.3655953,
     "creationTimestamp": 1562517176.0,
     "modules": {
       "MyLittleFavorites": {},
@@ -2580,6 +2773,7 @@
     }
   },
   "TheXOR": {
+    "buildTimestamp": 1566681308.2973886,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Klee": {},
@@ -2608,12 +2802,14 @@
     }
   },
   "VCV-Spectra": {
+    "buildTimestamp": 1560888733.2062218,
     "creationTimestamp": 1532541338.0,
     "modules": {
       "Spectra": {}
     }
   },
   "Admiral": {
+    "buildTimestamp": 1567534638.044011,
     "creationTimestamp": 1567535427.0,
     "modules": {
       "Watches": {},
@@ -2622,6 +2818,7 @@
     }
   },
   "DrumKitPro": {
+    "buildTimestamp": 1580800783.1979206,
     "creationTimestamp": 1571891042.0,
     "modules": {
       "Kick": {},
@@ -2637,12 +2834,14 @@
     }
   },
   "RB-Tilter": {
+    "buildTimestamp": 1564261917.0998127,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "RB-Tilter": {}
     }
   },
   "ExpertSleepers-SilentWay": {
+    "buildTimestamp": 1560448852.0,
     "creationTimestamp": 1554408029.0,
     "modules": {
       "ExpertSleepers-SilentWay-VoiceController": {},
@@ -2652,6 +2851,7 @@
     }
   },
   "PatchAndTweak": {
+    "buildTimestamp": 1564372941.699171,
     "creationTimestamp": 1564126153.0,
     "modules": {
       "Blank": {},
@@ -2662,6 +2862,7 @@
     }
   },
   "Ohmer": {
+    "buildTimestamp": 1580178859.3901412,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "KlokSpid": {},
@@ -2678,6 +2879,7 @@
     }
   },
   "DrumKit": {
+    "buildTimestamp": 1580576477.792087,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BassDrum9": {},
@@ -2695,6 +2897,7 @@
     }
   },
   "VultCompacts": {
+    "buildTimestamp": 1584308873.80678,
     "creationTimestamp": 1527117794.0,
     "modules": {
       "Freak": {},
@@ -2704,6 +2907,7 @@
     }
   },
   "Semiramis": {
+    "buildTimestamp": 1585843062.6202016,
     "creationTimestamp": 1561682777.0,
     "modules": {
       "Semiramis": {},
@@ -2715,6 +2919,7 @@
     }
   },
   "Entrian-AcousticDrums": {
+    "buildTimestamp": 1583774537.8281825,
     "creationTimestamp": 1571086034.0,
     "modules": {
       "AcousticDrums": {},
@@ -2722,6 +2927,7 @@
     }
   },
   "NYSTHI": {
+    "buildTimestamp": 1583762010.9182127,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Logic": {},
@@ -2862,6 +3068,7 @@
     }
   },
   "Hora-treasureFree": {
+    "buildTimestamp": 1569185784.9769473,
     "creationTimestamp": 1526939247.0,
     "modules": {
       "SnareDrum-VCV": {},
@@ -2871,10 +3078,12 @@
     }
   },
   "UnforgettableLuncheon": {
+    "buildTimestamp": 1551888810.4233232,
     "creationTimestamp": 1551234966.0,
     "modules": {}
   },
   "vitamin": {
+    "buildTimestamp": 1567863743.902604,
     "creationTimestamp": 1567948277.0,
     "modules": {
       "Bypass": {},
@@ -2882,12 +3091,14 @@
     }
   },
   "RB-Clapper": {
+    "buildTimestamp": 1564261915.7964492,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "RB-Clapper": {}
     }
   },
   "mscHack": {
+    "buildTimestamp": 1562951951.2198663,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Compressor1": {},
@@ -2915,10 +3126,12 @@
     }
   },
   "ErraticInstruments": {
+    "buildTimestamp": 1529262058.9458103,
     "creationTimestamp": 1523605207.0,
     "modules": {}
   },
   "LoopusModules": {
+    "buildTimestamp": 1577390672.0365882,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Foursome": {},
@@ -2926,6 +3139,7 @@
     }
   },
   "Hora-PCMDrum": {
+    "buildTimestamp": 1570820404.6941063,
     "creationTimestamp": 1550098392.0,
     "modules": {
       "Hora-PCMDDD1": {},
@@ -2940,6 +3154,7 @@
     }
   },
   "VultMysteries": {
+    "buildTimestamp": 1584308915.907742,
     "creationTimestamp": 1563301966.0,
     "modules": {
       "Lapsus": {},
@@ -2948,6 +3163,7 @@
     }
   },
   "ExpertSleepers-Encoders": {
+    "buildTimestamp": 1560591178.9809196,
     "creationTimestamp": 1553682505.0,
     "modules": {
       "ExpertSleepers-Encoders-8CV": {},
@@ -2958,12 +3174,14 @@
     }
   },
   "Hora-PCMDrumFree": {
+    "buildTimestamp": 1569185768.9665437,
     "creationTimestamp": 1550098392.0,
     "modules": {
       "Hora-PCMDrumLDrum": {}
     }
   },
   "Nohmad": {
+    "buildTimestamp": 1584680248.0440443,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Noise": {},
@@ -2971,6 +3189,7 @@
     }
   },
   "Bark": {
+    "buildTimestamp": 1583674152.67039,
     "creationTimestamp": 1549074603.0,
     "modules": {
       "LMH": {},
@@ -2987,6 +3206,7 @@
     }
   },
   "SyntheticFX": {
+    "buildTimestamp": 1576592256.5682895,
     "creationTimestamp": 1573352765.0,
     "modules": {
       "FourPoleLadder": {},
@@ -3002,6 +3222,7 @@
     }
   },
   "LOGinstruments": {
+    "buildTimestamp": 1576991875.0018556,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Speck": {},
@@ -3011,6 +3232,7 @@
     }
   },
   "Autinn": {
+    "buildTimestamp": 1562606393.0656204,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Amp": {},
@@ -3033,6 +3255,7 @@
     }
   },
   "SLM": {
+    "buildTimestamp": 1564832626.6459382,
     "creationTimestamp": 1562258300.0,
     "modules": {
       "mux-freak": {},
@@ -3040,12 +3263,14 @@
     }
   },
   "AaronStatic": {
+    "buildTimestamp": 1580576124.9310558,
     "creationTimestamp": 1580577302.0,
     "modules": {
       "ChordCV": {}
     }
   },
   "FrozenWasteland": {
+    "buildTimestamp": 1585238016.8367066,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {},
@@ -3084,10 +3309,12 @@
     }
   },
   "NauModular": {
+    "buildTimestamp": 1522253113.255517,
     "creationTimestamp": 1518016501.0,
     "modules": {}
   },
   "VultModules": {
+    "buildTimestamp": 1584308875.3668156,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Basal": {},
@@ -3131,16 +3358,19 @@
     }
   },
   "Hora-VCO_VCF_VCA_Free": {
+    "buildTimestamp": 1569185787.833686,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Amplitude-VCMixer": {}
     }
   },
   "AnimatedCircuits_Sinosc": {
+    "buildTimestamp": 1544049429.9341614,
     "creationTimestamp": 1521738241.0,
     "modules": {}
   },
   "Ahornberg": {
+    "buildTimestamp": 1580144395.2956438,
     "creationTimestamp": 1562952023.0,
     "modules": {
       "EqualDivision": {}
