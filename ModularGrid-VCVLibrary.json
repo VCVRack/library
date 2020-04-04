@@ -1060,5 +1060,26 @@
     "vcvUrl": "https://library.vcvrack.com/NANOModules/BLANK2Hp",
     "mgUrl": "https://www.modulargrid.net/e/nano-modules-blank-2hp",
     "mgModuleId": 25227
+  },
+  {
+    "pluginSlug": "Starling_Via",
+    "moduleSlug": "ATSR",
+    "vcvUrl": "https://library.vcvrack.com/Starling_Via/ATSR",
+    "mgUrl": "https://www.modulargrid.net/e/starling-via-atsr-",
+    "mgModuleId": 26726
+  },
+  {
+    "pluginSlug": "Starling_Via",
+    "moduleSlug": "OSC3",
+    "vcvUrl": "https://library.vcvrack.com/Starling_Via/OSC3",
+    "mgUrl": "https://www.modulargrid.net/e/starling-via-osc3-",
+    "mgModuleId": 26727
+  },
+  {
+    "pluginSlug": "Starling_Via",
+    "moduleSlug": "SYNC3",
+    "vcvUrl": "https://library.vcvrack.com/Starling_Via/SYNC3",
+    "mgUrl": "https://www.modulargrid.net/e/starling-via-sync3-",
+    "mgModuleId": 26728
   }
 ]

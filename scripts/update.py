@@ -3,9 +3,11 @@ import os
 import glob
 import json
 import time
-import build
 import zipfile
 import re
+
+import build
+import update_modulargrid
 
 
 PACKAGES_DIR = "../packages"
@@ -79,7 +81,7 @@ for plugin_filename in plugin_filenames:
 			build.delete_stage()
 			build.build(plugin_filename)
 			build.system(f'cp -vi stage/* "{PACKAGES_DIR}"')
-			build.system(f'cp -vi stage/* "{RACK_USER_PLUGIN_DIR}"')
+			build.system(f'cp -vi stage/*-lin.zip "{RACK_USER_PLUGIN_DIR}"')
 		except Exception as e:
 			print(e)
 			print(f"{slug} build failed")
@@ -89,7 +91,7 @@ for plugin_filename in plugin_filenames:
 			build.delete_stage()
 
 		# Open plugin issue thread
-		os.system(f"qutebrowser 'https://github.com/VCVRack/library/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+in%3Atitle+{slug}' &")
+		os.system(f"xdg-open 'https://github.com/VCVRack/library/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+in%3Atitle+{slug}' &")
 
 	elif plugin_ext == ".zip":
 		# Review manifest for errors
@@ -118,6 +120,10 @@ for plugin_filename in plugin_filenames:
 if not updated_slugs:
 	print("Nothing to build")
 	exit(0)
+
+update_modulargrid.update()
+
+# Upload data
 
 built_slugs_str = ", ".join(updated_slugs)
 
