@@ -25,7 +25,7 @@ def get_module_creation(manifest_filename, module_slug):
 
 def update():
 	# Load existing dataset
-	cache_filename = "manifest-cache.json"
+	cache_filename = "manifests-cache.json"
 	with open(cache_filename) as f:
 		cache = json.load(f)
 
