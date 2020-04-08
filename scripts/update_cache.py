@@ -22,19 +22,19 @@ def get_plugin_build(plugin):
 
 # Get the timestamp of the earliest commit touching the manifest file
 def get_plugin_creation(manifest_filename):
-	stdout = common.system(f"git log --format=%ct -- {manifest_filename} | tail -1")
+	stdout = common.run(f"git log --format=%ct -- {manifest_filename} | tail -1")
 	return float(stdout.strip())
 
 
 # Get the timestamp of the earliest commit having the module slug
 def get_module_creation(manifest_filename, module_slug):
-	stdout = common.system(f"git log --format='%H %ct' -- {manifest_filename}")
+	stdout = common.run(f"git log --format='%H %ct' -- {manifest_filename}")
 	# Use current time as a fallback because if there's no commit with the module, it was added just now.
 	earliestTime = time.time()
 	for line in stdout.strip().split("\n"):
 		hash, timestamp = line.split(" ")
 		try:
-			stdout = common.system(f"git show {hash}:{manifest_filename}")
+			stdout = common.run(f"git show {hash}:{manifest_filename}")
 			manifest = json.loads(stdout)
 			# If the module exists in this commit, keep iterating
 			if not common.find(manifest.get('modules', []), lambda module: module['slug'] == module_slug):
@@ -65,6 +65,7 @@ def update():
 
 		# Get plugin build
 		if 'buildTimestamp' not in cache_plugin:
+			print(f"Getting buildTimestamp for plugin {plugin_slug}")
 			try:
 				cache_plugin['buildTimestamp'] = get_plugin_build(plugin)
 			except:
@@ -72,6 +73,7 @@ def update():
 
 		# Get plugin creation
 		if 'creationTimestamp' not in cache_plugin:
+			print(f"Getting creationTimestamp for plugin {plugin_slug}")
 			cache_plugin['creationTimestamp'] = get_plugin_creation(manifest_filename)
 
 		# Iterate modules in plugin
@@ -82,6 +84,7 @@ def update():
 
 			# Get module creation
 			if 'creationTimestamp' not in cache_module:
+				print(f"Getting creationTimestamp for plugin {plugin_slug} module {module_slug}")
 				cache_module['creationTimestamp'] = get_module_creation(manifest_filename, module_slug)
 
 			cache_modules[module_slug] = cache_module

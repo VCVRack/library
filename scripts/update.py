@@ -143,7 +143,7 @@ common.system("cd ../screenshots && make upload")
 
 # Commit repository
 common.system("git add manifests")
-common.system("git add manifest-cache.json ModularGrid-VCVLibrary.json")
+common.system("git add manifests-cache.json ModularGrid-VCVLibrary.json")
 common.system(f"git commit -m 'Update manifest for {built_slugs_str}'")
 common.system("git push")
 
