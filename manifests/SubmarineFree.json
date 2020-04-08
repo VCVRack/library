@@ -1,6 +1,6 @@
 {
   "slug": "SubmarineFree",
-  "name": "Submarine (Free)",
+  "name": "Submarine",
   "author": "carbon14",
   "brand": "Submarine",
   "license": "GPL-3.0-only",
@@ -11,7 +11,7 @@
   "donateUrl": "https://www.paypal.me/SubmarineFree",
   "pluginUrl": "https://github.com/david-c14/SubmarineFree/blob/master/README.md",
   "changelogUrl": "https://github.com/david-c14/SubmarineFree/blob/master/changelog.md",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "modules": [
     {
       "slug": "AG-104",
@@ -286,6 +286,15 @@
       ]
     },
     {
+      "slug": "HS-101",
+      "name": "HS-101",
+      "description": "HS-101 Hi-Res Storage Oscilloscope",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/master/manual/HS.md",
+      "tags": [
+        "VISUAL"
+      ]
+    },
+    {
       "slug": "LA-108",
       "name": "LA-108",
       "description": "LA-108 Logic Analyser",
@@ -500,6 +509,15 @@
       ]
     },
     {
+      "slug": "TD-410",
+      "name": "TD-410",
+      "description": "TD-410 Text Display",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/master/manual/TD.md",
+      "tags": [
+        "VISUAL"
+      ]
+    },
+    {
       "slug": "TF-101",
       "name": "TF-101",
       "description": "TF-101 Text Display Format Control",
@@ -612,6 +630,15 @@
       "tags": [
         "MIXER",
         "DUAL"
+      ]
+    },
+    {
+      "slug": "XF-301",
+      "name": "XF-301",
+      "description": "XF-301 Small Form Factor Stereo Cross Fader",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/master/manual/XF.md",
+      "tags": [
+        "MIXER"
       ]
     },
     {

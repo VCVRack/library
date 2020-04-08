@@ -1,7 +1,7 @@
 {
   "slug": "Mental",
   "name": "Mental",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "BSD-3-Clause",
   "brand": "Strum's VCV Modules",
   "author": "Strum",
@@ -15,7 +15,7 @@
     {
       "slug": "MentalMults",
       "name": "MentalMults",
-      "disabled": "false",
+      "disabled": false,
       "description": "Dual multiple",
       "tags": [
         "Multiple"
@@ -24,7 +24,7 @@
     {
       "slug": "MentalMixer",
       "name": "MentalMixer",
-      "disabled": "false",
+      "disabled": false,
       "description": "12 channel stereo mixer with 2 auxiliaries",
       "tags": [
         "Mixer"
@@ -33,7 +33,7 @@
     {
       "slug": "MentalSubMixer",
       "name": "MentalSubMixer",
-      "disabled": "false",
+      "disabled": false,
       "description": "Simple 4 channel stereo mixer",
       "tags": [
         "Mixer"
@@ -42,7 +42,7 @@
     {
       "slug": "MentalFold",
       "name": "MentalFold",
-      "disabled": "false",
+      "disabled": false,
       "description": "Wave Folder",
       "tags": [
         "Effect"
@@ -51,7 +51,7 @@
     {
       "slug": "MentalClip",
       "name": "MentalClip",
-      "disabled": "false",
+      "disabled": false,
       "description": "Wave clipper",
       "tags": [
         "Effect"
@@ -60,7 +60,7 @@
     {
       "slug": "MentalGates",
       "name": "MentalGates",
-      "disabled": "false",
+      "disabled": false,
       "description": "Gates or Mutes",
       "tags": [
         "Switch",
@@ -70,7 +70,7 @@
     {
       "slug": "MentalABSwitches",
       "name": "MentalABSwitches",
-      "disabled": "false",
+      "disabled": false,
       "description": "A/B Switches, select A or B output",
       "tags": [
         "Switch",
@@ -80,7 +80,7 @@
     {
       "slug": "MentalQuantiser",
       "name": "MentalQuantiser",
-      "disabled": "false",
+      "disabled": false,
       "description": "",
       "tags": [
         "Quantizer",
@@ -90,7 +90,7 @@
     {
       "slug": "MentalChord",
       "name": "MentalChord",
-      "disabled": "false",
+      "disabled": false,
       "description": "Generates chords based on input pitch CV",
       "tags": [
         "Controller"
@@ -99,7 +99,7 @@
     {
       "slug": "MentalMuxes",
       "name": "MentalMuxes",
-      "disabled": "false",
+      "disabled": false,
       "description": "Multiplexers",
       "tags": [
         "Switch",
@@ -109,7 +109,7 @@
     {
       "slug": "MentalLogic",
       "name": "MentalLogic",
-      "disabled": "false",
+      "disabled": false,
       "description": "And, Or, Not logic gates",
       "tags": [
         "Logic",
@@ -119,7 +119,7 @@
     {
       "slug": "MentalButtons",
       "name": "MentalButtons",
-      "disabled": "false",
+      "disabled": false,
       "description": "Control buttons and switches",
       "tags": [
         "Controller",
@@ -129,7 +129,7 @@
     {
       "slug": "MentalSums",
       "name": "MentalSums",
-      "disabled": "false",
+      "disabled": false,
       "description": "Dual 4 channel summing mixer",
       "tags": [
         "Mixer"
@@ -138,7 +138,7 @@
     {
       "slug": "MentalPitchShift",
       "name": "MentalPitchShift",
-      "disabled": "false",
+      "disabled": false,
       "description": "Shift CVs by octaves or semitones",
       "tags": [
         "Utility"
@@ -147,7 +147,7 @@
     {
       "slug": "MentalCartesian",
       "name": "MentalCartesian",
-      "disabled": "false",
+      "disabled": false,
       "description": "Grid Sequencer based on Make Noise's Rene",
       "tags": [
         "Sequencer"
@@ -156,7 +156,7 @@
     {
       "slug": "MentalPatchMatrix",
       "name": "MentalPatchMatrix",
-      "disabled": "false",
+      "disabled": false,
       "description": "10 * 10 switched summing matrix",
       "tags": [
         "Switch",
@@ -166,7 +166,7 @@
     {
       "slug": "MentalBinaryDecoder",
       "name": "MentalBinaryDecoder",
-      "disabled": "false",
+      "disabled": false,
       "description": "",
       "tags": [
         "Utility",
@@ -176,7 +176,7 @@
     {
       "slug": "MentalSwitch8",
       "name": "MentalSwitch8",
-      "disabled": "false",
+      "disabled": false,
       "description": "Send one input and a selected output",
       "tags": [
         "Switch"
@@ -185,7 +185,7 @@
     {
       "slug": "MentalClockDivider",
       "name": "MentalClockDivider",
-      "disabled": "false",
+      "disabled": false,
       "description": "Clock divider with odd number division outputs",
       "tags": [
         "Clock"
@@ -194,7 +194,7 @@
     {
       "slug": "MentalMux8",
       "name": "MentalMux8",
-      "disabled": "false",
+      "disabled": false,
       "description": "8 input Multiplexer",
       "tags": [
         "Utility",
@@ -204,7 +204,7 @@
     {
       "slug": "MentalCounters",
       "name": "MentalCounters",
-      "disabled": "false",
+      "disabled": false,
       "description": "Clocked Counters",
       "tags": [
         "Clock",
@@ -214,7 +214,7 @@
     {
       "slug": "MentalKnobs",
       "name": "MentalKnobs",
-      "disabled": "false",
+      "disabled": false,
       "description": "Outputs Constant CVs",
       "tags": [
         "Controller",
@@ -224,7 +224,7 @@
     {
       "slug": "MentalMasterClock",
       "name": "MentalMasterClock",
-      "disabled": "false",
+      "disabled": false,
       "description": "BPM setable clock with division outputs",
       "tags": [
         "Clock"
@@ -233,7 +233,7 @@
     {
       "slug": "MentalGateMaker",
       "name": "MentalGateMaker",
-      "disabled": "false",
+      "disabled": false,
       "description": "triggerable clocked gate with delay and tail",
       "tags": [
         "Utility"
@@ -242,7 +242,7 @@
     {
       "slug": "MentalQuadLFO",
       "name": "MentalQuadLFO",
-      "disabled": "false",
+      "disabled": false,
       "description": "Quad LFO based on Batumi",
       "tags": [
         "LFO",
@@ -252,7 +252,7 @@
     {
       "slug": "MentalRadioButtons",
       "name": "MentalRadioButtons",
-      "disabled": "false",
+      "disabled": false,
       "description": "Radio Buttons",
       "tags": [
         "Switch",

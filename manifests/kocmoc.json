@@ -1,7 +1,7 @@
 {
   "slug": "kocmoc",
   "name": "kocmoc",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "license": "GPL-3.0-or-later",
   "brand": "kocmoc",
   "author": "janne808",
@@ -59,6 +59,14 @@
       "description": "Multiplier",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "SKF",
+      "name": "SKF",
+      "description": "Sallen-Key filter",
+      "tags": [
+        "Filter"
       ]
     }
   ]
