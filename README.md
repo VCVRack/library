@@ -1,11 +1,11 @@
 # VCV Library database
 
-The VCV Library maintainers are responsible for curating Rack plugins into the [VCV Library](https://vcvrack.com/plugins.html).
-[Anyone is welcome to become a maintainer.](https://github.com/VCVRack/library/issues/248)
+This repo contains the database of all known VCV Rack plugins, for [VCV Library](https://library.vcvrack.com/).
 
 All Rack plugins are welcome assuming they
 - are not malware (i.e. harm users' computer or privacy).
 - follow the [VCV Plugin Ethics Guidelines](https://vcvrack.com/manual/PluginLicensing.html#vcv-plugin-ethics-guidelines).
+- Minor forks of existing plugins are not included here in order prevent user confusion, unless panel graphics and names are changed to be indistinguishable.
 
 
 ## Adding your plugin to the VCV Library (for open-source plugins)
@@ -17,7 +17,7 @@ This will be your permanent communication channel with VCV Library maintainers.
 A Library maintainer will handle your request and post a comment when updated.
 
 
-#### Pushing an update
+### Pushing an update
 
 To inform us of an update to your plugin, make sure to increment the `"version"` in your [`plugin.json` manifest file](https://vcvrack.com/manual/Manifest.html) (e.g. from 1.2.3 to 1.2.4), and push a commit to your repository.
 Post a comment in your plugin's thread (we will re-open it for you) with
