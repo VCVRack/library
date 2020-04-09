@@ -3765,7 +3765,7 @@
     }
   },
   "Nozoid": {
-    "buildTimestamp": 1585001069.7235706,
+    "buildTimestamp": 1586465107.658522,
     "creationTimestamp": 1571471313.0,
     "modules": {
       "Nozori_68_ADSR": {
@@ -3992,7 +3992,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1585325709.553254,
+    "buildTimestamp": 1586464860.8063095,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -4114,6 +4114,9 @@
       },
       "BAFIS": {
         "creationTimestamp": 1571530639.0
+      },
+      "HUITre": {
+        "creationTimestamp": 1586465272.8006983
       }
     }
   },

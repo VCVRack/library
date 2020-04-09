@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "1.1.14",
+  "version": "1.1.15",
   "license": "GPL-3.0-only",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -18,10 +18,7 @@
       "name": "vOId",
       "description": "The ultimate mastering tool for Rack.\nOnce plugged in your Rack, you gonna\n sound FAAAAT.\n\nPicture is taken from a very good LP\nTERA MELOS.\n",
       "tags": [
-        "Physical modeling",
-        "Blank",
-        "Controller",
-        "Utility"
+        "Blank"
       ]
     },
     {
@@ -154,7 +151,6 @@
       "description": "LP Filter",
       "tags": [
         "VCF",
-        "filter",
         "Effect"
       ]
     },
@@ -198,7 +194,6 @@
       "description": "4th order stereo LP ladder filter.\nGain boosts the signal to compensate for\nglobal signal energy lose at high\nresonance. When non linear is selected gain is applied to each stage",
       "tags": [
         "VCF",
-        "filter",
         "Effect"
       ]
     },
@@ -291,7 +286,6 @@
       "description": "3 bands filter",
       "tags": [
         "VCF",
-        "filter",
         "Effect"
       ]
     },
@@ -355,6 +349,14 @@
         "Effect",
         "VCF",
         "Distortion"
+      ]
+    },
+    {
+      "slug": "HUITre",
+      "name": "HUITre",
+      "description": "Pattern launcher",
+      "tags": [
+        "Controller"
       ]
     }
   ]
