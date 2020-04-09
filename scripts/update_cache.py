@@ -64,12 +64,11 @@ def update():
 		cache_plugin = cache.get(plugin_slug, {})
 
 		# Get plugin build
-		if 'buildTimestamp' not in cache_plugin:
-			print(f"Getting buildTimestamp for plugin {plugin_slug}")
-			try:
-				cache_plugin['buildTimestamp'] = get_plugin_build(plugin)
-			except:
-				pass
+		print(f"Getting buildTimestamp for plugin {plugin_slug}")
+		try:
+			cache_plugin['buildTimestamp'] = get_plugin_build(plugin)
+		except:
+			pass
 
 		# Get plugin creation
 		if 'creationTimestamp' not in cache_plugin:
