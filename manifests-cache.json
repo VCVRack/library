@@ -7350,5 +7350,32 @@
         "creationTimestamp": 1562952023.0
       }
     }
+  },
+  "Mantra": {
+    "buildTimestamp": 1586658100.0728111,
+    "creationTimestamp": 1586658593.1194773,
+    "modules": {
+      "DualAmp": {
+        "creationTimestamp": 1586658593.3731189
+      },
+      "StereoMult8": {
+        "creationTimestamp": 1586658593.6182935
+      },
+      "InSel8": {
+        "creationTimestamp": 1586658593.8045874
+      },
+      "OutSel8": {
+        "creationTimestamp": 1586658593.9943995
+      },
+      "PanelA4": {
+        "creationTimestamp": 1586658594.2164652
+      },
+      "PanelB4": {
+        "creationTimestamp": 1586658594.4067752
+      },
+      "PanelC4": {
+        "creationTimestamp": 1586658594.5966752
+      }
+    }
   }
 }

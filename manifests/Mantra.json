@@ -1,0 +1,80 @@
+{
+  "slug": "Mantra",
+  "name": "Mantra",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "author": "Giovanni Gramegna",
+  "authorEmail": "giovanni.gramegna88@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/giogramegna/mantra-master/blob/master/README.md",
+  "sourceUrl": "https://github.com/giogramegna/mantra-master",
+  "donateUrl": "https://paypal.me/giogramegna?locale.x=it_IT",
+  "modules": [
+    {
+      "slug": "DualAmp",
+      "name": "DualAmp",
+      "description": "Dual amplifier with up to X3 Gain",
+      "tags": [
+        "Dual",
+        "Attenuator",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "StereoMult8",
+      "name": "StereoMult8",
+      "description": "Stereo multiplier 1x8",
+      "tags": [
+        "Dual",
+        "Multiple",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "InSel8",
+      "name": "InSel8",
+      "description": "Input Selector 8x1",
+      "tags": [
+        "Multiple",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "OutSel8",
+      "name": "OutSel8",
+      "description": "Output Selector 1x8",
+      "tags": [
+        "Multiple",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PanelA4",
+      "name": "Panel A4",
+      "description": "Blanking Panel 4hp",
+      "tags": [
+        "Blank",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PanelB4",
+      "name": "Panel B4",
+      "description": "Blanking Panel 4hp",
+      "tags": [
+        "Blank",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PanelC4",
+      "name": "Panel C4",
+      "description": "Blanking Panel 4hp",
+      "tags": [
+        "Blank",
+        "Utility"
+      ]
+    }
+  ]
+}
