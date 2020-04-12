@@ -487,3 +487,6 @@
 [submodule "repos/Mantra"]
 	path = repos/Mantra
 	url = https://github.com/giogramegna/mantra-master.git
+[submodule "repos/AuraAudio"]
+	path = repos/AuraAudio
+	url = https://github.com/emurray2/auraaudio-vcv-rack.git
