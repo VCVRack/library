@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "1.11.1",
+  "version": "1.12.0",
   "license": "BSD-3-Clause",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -69,6 +69,14 @@
       "slug": "repeater",
       "name": "Repeater",
       "description": "Looping sample player with playback offset control.",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "samplerx8",
+      "name": "SamplerX8",
+      "description": "Eight stereo sample playback devices in one compact module.",
       "tags": [
         "Sampler"
       ]

@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1586323588.98252,
+    "buildTimestamp": 1586748533.5937314,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -410,6 +410,9 @@
       },
       "xy": {
         "creationTimestamp": 1579792597.0
+      },
+      "samplerx8": {
+        "creationTimestamp": 1586748554.3179598
       }
     }
   },
@@ -7375,6 +7378,15 @@
       },
       "PanelC4": {
         "creationTimestamp": 1586658594.5966752
+      }
+    }
+  },
+  "AuraAudio": {
+    "buildTimestamp": 1586748553.8809187,
+    "creationTimestamp": 1586748554.6386294,
+    "modules": {
+      "ModularForecast": {
+        "creationTimestamp": 1586748554.8362346
       }
     }
   }

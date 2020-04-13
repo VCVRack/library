@@ -1,0 +1,25 @@
+{
+  "slug": "AuraAudio",
+  "name": "Aura Audio",
+  "version": "1.0.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "Aura Audio",
+  "author": "Evan Murray",
+  "authorEmail": "evanmurray22@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/emurray2/EVMusic-Rack",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ModularForecast",
+      "name": "Modular Forecast",
+      "description": "Visualize sound as weather!",
+      "tags": [
+        "Visual"
+      ]
+    }
+  ]
+}
