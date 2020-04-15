@@ -23,7 +23,11 @@ def get_plugin_build(plugin):
 # Get the timestamp of the earliest commit touching the manifest file
 def get_plugin_creation(manifest_filename):
 	stdout = common.run(f"git log --format=%ct -- {manifest_filename} | tail -1")
-	return float(stdout.strip())
+	stdout = stdout.strip()
+	# Use current time as a fallback because if there's no commit with the module, it was added just now.
+	if not stdout:
+		return time.time()
+	return float(stdout)
 
 
 # Get the timestamp of the earliest commit having the module slug
@@ -32,6 +36,9 @@ def get_module_creation(manifest_filename, module_slug):
 	# Use current time as a fallback because if there's no commit with the module, it was added just now.
 	earliestTime = time.time()
 	for line in stdout.strip().split("\n"):
+		# "".split("\n") == [""] which is dumb
+		if not line:
+			continue
 		hash, timestamp = line.split(" ")
 		try:
 			stdout = common.run(f"git show {hash}:{manifest_filename}")
