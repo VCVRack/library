@@ -1,0 +1,39 @@
+{
+  "slug": "FrequencyDomain",
+  "name": "Frequency Domain",
+  "version": "1.0.0",
+  "license": "Proprietary",
+  "brand": "Frequency Domain",
+  "author": "almostEric and JerrySV",
+  "authorEmail": "almostEric@frozenwastelandmodules.com",
+  "manualUrl": "https://github.com/almostEric/Frequency-Domain-Manual/blob/master/README.md",
+  "donateUrl": "https://paypal.me/FrozenWasteland",
+  "changelogUrl": "https://github.com/almostEric/Frequency-Domain-Manual/blob/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "HarmonicConvergence",
+      "name": "Harmonic Convergence",
+      "description": "Resynthesis Engine",
+      "tags": [
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "DelayedReaction",
+      "name": "Delayed Reaction",
+      "description": "Spectrum based delay",
+      "tags": [
+        "Delay"
+      ]
+    },
+    {
+      "slug": "Morphology",
+      "name": "Morphology",
+      "description": "Spectral Morpher",
+      "tags": [
+        "Vocoder",
+        "Effect"
+      ]
+    }
+  ]
+}

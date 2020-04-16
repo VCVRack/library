@@ -7398,5 +7398,20 @@
         "creationTimestamp": 1586748554.8362346
       }
     }
+  },
+  "FrequencyDomain": {
+    "buildTimestamp": 1587076104.4562583,
+    "creationTimestamp": 1587076104.7002873,
+    "modules": {
+      "HarmonicConvergence": {
+        "creationTimestamp": 1587076104.8883035
+      },
+      "DelayedReaction": {
+        "creationTimestamp": 1587076105.0645952
+      },
+      "Morphology": {
+        "creationTimestamp": 1587076105.2977908
+      }
+    }
   }
 }
