@@ -1629,7 +1629,7 @@
     }
   },
   "AudibleInstruments": {
-    "buildTimestamp": 1582995898.489716,
+    "buildTimestamp": 1587046385.696944,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Braids": {
@@ -1682,6 +1682,9 @@
       },
       "Marbles": {
         "creationTimestamp": 1560427455.0
+      },
+      "Ripples": {
+        "creationTimestamp": 1587046425.073859
       }
     }
   },
@@ -7358,7 +7361,7 @@
     }
   },
   "Mantra": {
-    "buildTimestamp": 1586658100.0728111,
+    "buildTimestamp": 1587046423.7778752,
     "creationTimestamp": 1586658593.1194773,
     "modules": {
       "DualAmp": {
@@ -7381,6 +7384,9 @@
       },
       "PanelC4": {
         "creationTimestamp": 1586658594.5966752
+      },
+      "PanelD4": {
+        "creationTimestamp": 1587046425.3750484
       }
     }
   },

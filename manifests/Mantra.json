@@ -1,7 +1,7 @@
 {
   "slug": "Mantra",
   "name": "Mantra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "GPL-3.0-or-later",
   "author": "Giovanni Gramegna",
   "authorEmail": "giovanni.gramegna88@gmail.com",
@@ -54,8 +54,7 @@
       "name": "Panel A4",
       "description": "Blanking Panel 4hp",
       "tags": [
-        "Blank",
-        "Utility"
+        "Blank"
       ]
     },
     {
@@ -63,8 +62,7 @@
       "name": "Panel B4",
       "description": "Blanking Panel 4hp",
       "tags": [
-        "Blank",
-        "Utility"
+        "Blank"
       ]
     },
     {
@@ -72,8 +70,15 @@
       "name": "Panel C4",
       "description": "Blanking Panel 4hp",
       "tags": [
-        "Blank",
-        "Utility"
+        "Blank"
+      ]
+    },
+    {
+      "slug": "PanelD4",
+      "name": "Panel D4",
+      "description": "Power Panel 4hp",
+      "tags": [
+        "Blank"
       ]
     }
   ]

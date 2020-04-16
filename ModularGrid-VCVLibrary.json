@@ -1081,5 +1081,12 @@
     "vcvUrl": "https://library.vcvrack.com/Starling_Via/SYNC3",
     "mgUrl": "https://www.modulargrid.net/e/starling-via-sync3-",
     "mgModuleId": 26728
+  },
+  {
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Ripples",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Ripples",
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-ripples",
+    "mgModuleId": 2204
   }
 ]
