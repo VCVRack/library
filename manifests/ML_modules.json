@@ -1,7 +1,7 @@
 {
   "slug": "ML_modules",
   "name": "ML Modules",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "license": "BSD-3-Clause",
   "author": "Martin Lueders",
   "brand": "ML Modules",
@@ -239,6 +239,33 @@
       "description": "",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "Cloner",
+      "name": "Cloner",
+      "description": "Clone a signal to polyphonic channels",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolySplitter",
+      "name": "Poly Splitter",
+      "description": "split polyphonic inputs into two outputs",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Arpeggiator",
+      "name": "Arpeggiator",
+      "description": "multi-channel arpeggiator",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
       ]
     }
   ]

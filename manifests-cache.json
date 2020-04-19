@@ -4842,7 +4842,7 @@
     "modules": {}
   },
   "ML_modules": {
-    "buildTimestamp": 1576114254.4209,
+    "buildTimestamp": 1587306869.1219683,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMdetect": {
@@ -4919,6 +4919,15 @@
       },
       "VoltMeter": {
         "creationTimestamp": 1561076996.0
+      },
+      "Cloner": {
+        "creationTimestamp": 1587306870.6399038
+      },
+      "PolySplitter": {
+        "creationTimestamp": 1587306871.0245655
+      },
+      "Arpeggiator": {
+        "creationTimestamp": 1587306871.324406
       }
     }
   },
