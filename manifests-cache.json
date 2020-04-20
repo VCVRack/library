@@ -3998,7 +3998,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1586464860.8063095,
+    "buildTimestamp": 1587407788.3373349,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -4123,6 +4123,9 @@
       },
       "HUITre": {
         "creationTimestamp": 1586465272.8006983
+      },
+      "DIKTAT": {
+        "creationTimestamp": 1587407790.7484407
       }
     }
   },
