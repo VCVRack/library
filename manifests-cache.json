@@ -731,7 +731,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1585237608.2393143,
+    "buildTimestamp": 1587750652.11736,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -961,6 +961,33 @@
       },
       "Bogaudio-Blank6": {
         "creationTimestamp": 1560591446.0
+      },
+      "Bogaudio-EQS": {
+        "creationTimestamp": 1587750656.7384772
+      },
+      "Bogaudio-Mix8x": {
+        "creationTimestamp": 1587750656.979079
+      },
+      "Bogaudio-Mix4x": {
+        "creationTimestamp": 1587750657.2650168
+      },
+      "Bogaudio-Pgmr": {
+        "creationTimestamp": 1587750657.4575741
+      },
+      "Bogaudio-PgmrX": {
+        "creationTimestamp": 1587750657.6502295
+      },
+      "Bogaudio-PolyCon8": {
+        "creationTimestamp": 1587750657.842057
+      },
+      "Bogaudio-PolyOff8": {
+        "creationTimestamp": 1587750658.0392563
+      },
+      "Bogaudio-PolyOff16": {
+        "creationTimestamp": 1587750658.2346826
+      },
+      "Bogaudio-Inv": {
+        "creationTimestamp": 1587750658.4621515
       }
     }
   },

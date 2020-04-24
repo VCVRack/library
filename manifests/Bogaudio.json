@@ -1,7 +1,7 @@
 {
   "slug": "Bogaudio",
   "name": "Bogaudio",
-  "version": "1.1.28",
+  "version": "1.1.29",
   "license": "GPL-3.0-or-later",
   "brand": "Bogaudio",
   "author": "Matt Demanett",
@@ -15,7 +15,8 @@
     {
       "slug": "Bogaudio-VCO",
       "name": "VCO",
-      "description": "Oscillator with 4 waveforms, PWM, FM, hard sync",
+      "description": "Oscillator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#vco",
       "tags": [
         "Oscillator",
         "Polyphonic"
@@ -24,7 +25,8 @@
     {
       "slug": "Bogaudio-LVCO",
       "name": "LVCO",
-      "description": "Compact oscillator",
+      "description": "Oscillator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#lvco",
       "tags": [
         "Oscillator",
         "Polyphonic"
@@ -33,7 +35,8 @@
     {
       "slug": "Bogaudio-Sine",
       "name": "SINE",
-      "description": "Compact oscillator with phase offset",
+      "description": "Sine oscillator with phase offset",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#sine",
       "tags": [
         "Oscillator",
         "Polyphonic"
@@ -42,7 +45,8 @@
     {
       "slug": "Bogaudio-Pulse",
       "name": "PULSE",
-      "description": "Compact square/pulse oscillator with PWM",
+      "description": "Square/pulse oscillator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#pulse",
       "tags": [
         "Oscillator",
         "Polyphonic"
@@ -51,7 +55,8 @@
     {
       "slug": "Bogaudio-XCO",
       "name": "XCO",
-      "description": "Oscillator with wave mixer, wave mods, FM, hard sync",
+      "description": "Oscillator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#xco",
       "tags": [
         "Oscillator",
         "Polyphonic"
@@ -61,6 +66,7 @@
       "slug": "Bogaudio-Additator",
       "name": "ADDITATOR",
       "description": "Additive oscillator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#additator",
       "tags": [
         "Oscillator",
         "Polyphonic"
@@ -70,6 +76,7 @@
       "slug": "Bogaudio-FMOp",
       "name": "FM-OP",
       "description": "FM operator / oscillator / synth voice",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#fmop",
       "tags": [
         "Oscillator",
         "Synth voice",
@@ -80,6 +87,7 @@
       "slug": "Bogaudio-LFO",
       "name": "LFO",
       "description": "Low frequency oscillator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#lfo",
       "tags": [
         "LFO",
         "Polyphonic"
@@ -89,6 +97,7 @@
       "slug": "Bogaudio-EightFO",
       "name": "8FO",
       "description": "LFO with outputs at 8 different phases",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#eightfo",
       "tags": [
         "LFO",
         "Polyphonic"
@@ -97,7 +106,8 @@
     {
       "slug": "Bogaudio-LLFO",
       "name": "LLFO",
-      "description": "Compact low frequency oscillator",
+      "description": "Low frequency oscillator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#llfo",
       "tags": [
         "LFO",
         "Polyphonic"
@@ -107,6 +117,7 @@
       "slug": "Bogaudio-VCF",
       "name": "VCF",
       "description": "Multimode filter",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#vcf",
       "tags": [
         "Filter",
         "Polyphonic"
@@ -115,7 +126,8 @@
     {
       "slug": "Bogaudio-LVCF",
       "name": "LVCF",
-      "description": "Compact multimode filter",
+      "description": "Multimode filter",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#lvcf",
       "tags": [
         "Filter",
         "Polyphonic"
@@ -125,6 +137,7 @@
       "slug": "Bogaudio-FFB",
       "name": "FFB",
       "description": "Fixed filter bank",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#ffb",
       "tags": [
         "Filter",
         "Polyphonic"
@@ -133,7 +146,18 @@
     {
       "slug": "Bogaudio-EQ",
       "name": "EQ",
-      "description": "Compact 3-channel equalizer",
+      "description": "3-band equalizer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#eq",
+      "tags": [
+        "Equalizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-EQS",
+      "name": "EQS",
+      "description": "Stereo 3-band equalizer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#eqs",
       "tags": [
         "Equalizer",
         "Polyphonic"
@@ -143,6 +167,7 @@
       "slug": "Bogaudio-DADSRH",
       "name": "DADSR(H)",
       "description": "Advanced envelope generator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#dadsrh",
       "tags": [
         "Envelope generator",
         "Polyphonic"
@@ -152,6 +177,7 @@
       "slug": "Bogaudio-DADSRHPlus",
       "name": "DADSR(H)+",
       "description": "Advanced envelope generator with additional CV",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#dadsrhplus",
       "tags": [
         "Envelope generator",
         "Polyphonic"
@@ -161,6 +187,7 @@
       "slug": "Bogaudio-Shaper",
       "name": "SHAPER",
       "description": "Retro-inspired envelope generator and amplifier",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#shaper",
       "tags": [
         "Envelope generator",
         "VCA",
@@ -171,6 +198,7 @@
       "slug": "Bogaudio-ShaperPlus",
       "name": "SHAPER+",
       "description": "Retro-inspired envelope generator and amplifier with additional CV",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#shaperplus",
       "tags": [
         "Envelope generator",
         "VCA",
@@ -180,7 +208,8 @@
     {
       "slug": "Bogaudio-AD",
       "name": "AD",
-      "description": "Utility attack/decay envelope generator",
+      "description": "Attack/decay envelope generator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#ad",
       "tags": [
         "Envelope generator",
         "Polyphonic"
@@ -189,7 +218,8 @@
     {
       "slug": "Bogaudio-ASR",
       "name": "ASR",
-      "description": "Utility attack/sustain/release envelope generator",
+      "description": "Attack/sustain/release envelope generator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#asr",
       "tags": [
         "Envelope generator",
         "Polyphonic"
@@ -198,7 +228,8 @@
     {
       "slug": "Bogaudio-ADSR",
       "name": "ADSR",
-      "description": "Utility ADSR envelope generator",
+      "description": "ADSR envelope generator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#adsr",
       "tags": [
         "Envelope generator",
         "Polyphonic"
@@ -208,6 +239,7 @@
       "slug": "Bogaudio-Follow",
       "name": "FOLLOW",
       "description": "Envelope follower",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#follow",
       "tags": [
         "Envelope follower",
         "Polyphonic"
@@ -217,8 +249,8 @@
       "slug": "Bogaudio-DGate",
       "name": "DGATE",
       "description": "Trigger-to-gate converter with delay",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#dgate",
       "tags": [
-        "Utility",
         "Polyphonic"
       ]
     },
@@ -226,16 +258,17 @@
       "slug": "Bogaudio-Edge",
       "name": "EDGE",
       "description": "Edge detector, gate-to-trigger, comparator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#edge",
       "tags": [
         "Logic",
-        "Utility",
         "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Noise",
       "name": "NOISE",
-      "description": "Noise source with multiple flavors & absolute value",
+      "description": "Noise source",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#noise",
       "tags": [
         "Noise",
         "Random",
@@ -246,6 +279,7 @@
       "slug": "Bogaudio-SampleHold",
       "name": "S&H",
       "description": "Dual sample (or track) and hold",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#samplehold",
       "tags": [
         "Sample and hold",
         "Dual",
@@ -256,6 +290,7 @@
       "slug": "Bogaudio-Walk2",
       "name": "WALK2",
       "description": "2-channel random-walk CV source",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#walk2",
       "tags": [
         "Random"
       ]
@@ -264,6 +299,7 @@
       "slug": "Bogaudio-Walk",
       "name": "WALK",
       "description": "Random-walk CV source",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#walk",
       "tags": [
         "Random",
         "Polyphonic"
@@ -273,24 +309,47 @@
       "slug": "Bogaudio-Mix8",
       "name": "MIX8",
       "description": "8-channel mixer and panner",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#mix8",
       "tags": [
         "Mixer",
         "Panning"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Mix8x",
+      "name": "MIX8X",
+      "description": "Expander for MIX8, adds EQs and sends",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#mix8x",
+      "tags": [
+        "Mixer",
+        "Expander"
       ]
     },
     {
       "slug": "Bogaudio-Mix4",
       "name": "MIX4",
       "description": "4-channel mixer and panner",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#mix4",
       "tags": [
         "Mixer",
         "Panning"
       ]
     },
     {
+      "slug": "Bogaudio-Mix4x",
+      "name": "MIX4X",
+      "description": "Expander for MIX4, adds EQs and sends",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#mix4x",
+      "tags": [
+        "Mixer",
+        "Expander"
+      ]
+    },
+    {
       "slug": "Bogaudio-Mix1",
       "name": "MIX1",
       "description": "Fader/amplifier with CV controllable mute",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#mix1",
       "tags": [
         "VCA",
         "Polyphonic"
@@ -300,6 +359,7 @@
       "slug": "Bogaudio-VCM",
       "name": "VCM",
       "description": "4-channel CV controllable mixer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#vcm",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -308,9 +368,9 @@
     {
       "slug": "Bogaudio-Mute8",
       "name": "MUTE8",
-      "description": "Eight independent mutes with CV control",
+      "description": "8 independent mutes with CV control",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#mute8",
       "tags": [
-        "Utility",
         "Polyphonic"
       ]
     },
@@ -318,6 +378,7 @@
       "slug": "Bogaudio-Pan",
       "name": "PAN",
       "description": "Dual stereo panner",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#pan",
       "tags": [
         "Panning",
         "Dual",
@@ -328,6 +389,7 @@
       "slug": "Bogaudio-XFade",
       "name": "XFADE",
       "description": "Crossfader",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#xfade",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -337,6 +399,7 @@
       "slug": "Bogaudio-VCA",
       "name": "VCA",
       "description": "Dual voltage controlled attenuator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#vca",
       "tags": [
         "VCA",
         "Dual",
@@ -347,6 +410,7 @@
       "slug": "Bogaudio-VCAmp",
       "name": "VCAMP",
       "description": "Voltage controlled amplifier with 12dB gain",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#vcamp",
       "tags": [
         "VCA",
         "Polyphonic"
@@ -356,6 +420,7 @@
       "slug": "Bogaudio-UMix",
       "name": "UMIX",
       "description": "8-input unity mixer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#umix",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -365,6 +430,7 @@
       "slug": "Bogaudio-Mumix",
       "name": "MUMIX",
       "description": "8-input unity mixer with mutes",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#mumix",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -374,6 +440,7 @@
       "slug": "Bogaudio-Matrix44",
       "name": "MATRIX44",
       "description": "4x4 matrix mixer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#matrix44",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -383,6 +450,7 @@
       "slug": "Bogaudio-Matrix88",
       "name": "MATRIX88",
       "description": "8x8 matrix mixer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#matrix88",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -392,6 +460,7 @@
       "slug": "Bogaudio-Switch44",
       "name": "SWITCH44",
       "description": "4x4 matrix mixer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#switch44",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -401,6 +470,7 @@
       "slug": "Bogaudio-Switch88",
       "name": "SWITCH88",
       "description": "8x8 matrix mixer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#switch88",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -410,6 +480,7 @@
       "slug": "Bogaudio-Switch1616",
       "name": "SWITCH1616",
       "description": "16x16 matrix mixer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#switch1616",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -419,6 +490,7 @@
       "slug": "Bogaudio-AMRM",
       "name": "AM/RM",
       "description": "Variable ring/amplitude modulator and rectifier",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#amrm",
       "tags": [
         "Ring modulator",
         "Effect",
@@ -429,6 +501,7 @@
       "slug": "Bogaudio-Pressor",
       "name": "PRESSOR",
       "description": "Stereo compressor and noise gate",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#pressor",
       "tags": [
         "Compressor",
         "Dynamics",
@@ -438,7 +511,8 @@
     {
       "slug": "Bogaudio-Clpr",
       "name": "CLPR",
-      "description": "Audio level hard clipper and distortion",
+      "description": "Hard clipper and distortion",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#clpr",
       "tags": [
         "Dynamics",
         "Distortion",
@@ -448,7 +522,8 @@
     {
       "slug": "Bogaudio-Lmtr",
       "name": "LMTR",
-      "description": "Audio level limiter",
+      "description": "Limiter",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#lmtr",
       "tags": [
         "Dynamics",
         "Polyphonic"
@@ -458,6 +533,7 @@
       "slug": "Bogaudio-Nsgt",
       "name": "NSGT",
       "description": "Noise gate",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#nsgt",
       "tags": [
         "Dynamics",
         "Polyphonic"
@@ -467,6 +543,7 @@
       "slug": "Bogaudio-OneEight",
       "name": "1:8",
       "description": "8-channel multiplexer & sequential switch",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#oneeight",
       "tags": [
         "Switch",
         "Polyphonic"
@@ -476,6 +553,7 @@
       "slug": "Bogaudio-EightOne",
       "name": "8:1",
       "description": "8-channel demultiplexer & sequential switch",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#eightone",
       "tags": [
         "Switch",
         "Polyphonic"
@@ -485,8 +563,30 @@
       "slug": "Bogaudio-AddrSeq",
       "name": "ADDR-SEQ",
       "description": "Voltage-addressable 8-step sequencer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#addrseq",
       "tags": [
         "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Pgmr",
+      "name": "PGMR",
+      "description": "4-step programmer and sequencer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#pgmr",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-PgmrX",
+      "name": "PGMRX",
+      "description": "4-step chainable expander for PGMR",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#pgmrx",
+      "tags": [
+        "Sequencer",
+        "Expander",
         "Polyphonic"
       ]
     },
@@ -494,6 +594,7 @@
       "slug": "Bogaudio-Analyzer",
       "name": "ANALYZER",
       "description": "4-channel spectrum analyzer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#analyzer",
       "tags": [
         "Visual"
       ]
@@ -502,6 +603,7 @@
       "slug": "Bogaudio-AnalyzerXL",
       "name": "ANALYZER-XL",
       "description": "8-channel spectrum analyzer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#analyzerxl",
       "tags": [
         "Visual"
       ]
@@ -510,6 +612,7 @@
       "slug": "Bogaudio-VU",
       "name": "VU",
       "description": "Stereo signal meter",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#vu",
       "tags": [
         "Visual"
       ]
@@ -518,6 +621,7 @@
       "slug": "Bogaudio-Detune",
       "name": "DETUNE",
       "description": "Pitch CV processor for detuning oscillator pairs",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#detune",
       "tags": [
         "Tuner",
         "Polyphonic"
@@ -526,7 +630,8 @@
     {
       "slug": "Bogaudio-Stack",
       "name": "STACK",
-      "description": "Pitch CV transposer, for stacking oscillators",
+      "description": "Pitch CV transposer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#stack",
       "tags": [
         "Tuner",
         "Polyphonic"
@@ -536,6 +641,7 @@
       "slug": "Bogaudio-Reftone",
       "name": "REFTONE",
       "description": "Precision pitch CV generator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#reftone",
       "tags": [
         "Tuner"
       ]
@@ -543,16 +649,17 @@
     {
       "slug": "Bogaudio-Mono",
       "name": "MONO",
-      "description": "Poly-to-mono converter with onboard compressor",
+      "description": "Polyphonic-to-monophonic converter with onboard compressor",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#mono",
       "tags": [
-        "Utility",
         "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Arp",
       "name": "ARP",
-      "description": "Poly-input arpeggiator",
+      "description": "Polyphonic-input arpeggiator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#arp",
       "tags": [
         "Arpeggiator",
         "Polyphonic"
@@ -561,43 +668,71 @@
     {
       "slug": "Bogaudio-Assign",
       "name": "ASSIGN",
-      "description": "Poly voice (re)assigner",
+      "description": "Polyphonic voice (re)assigner",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#assign",
       "tags": [
-        "Utility",
         "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Unison",
       "name": "UNISON",
-      "description": "Poly unison voicing utility with detune",
+      "description": "Polyphonic unison voicing processor with detune",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#unison",
       "tags": [
-        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-PolyCon8",
+      "name": "POLYCON8",
+      "description": "Polyphonic per-channel constant voltages",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#polycon8",
+      "tags": [
         "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-PolyCon",
-      "name": "POLYCON",
+      "name": "POLYCON16",
       "description": "Polyphonic per-channel constant voltages",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#polycon",
       "tags": [
-        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-PolyOff8",
+      "name": "POLYOFF8",
+      "description": "Polyphonic per-channel offset and scale",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#polyoff8",
+      "tags": [
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-PolyOff16",
+      "name": "POLYOFF16",
+      "description": "Polyphonic per-channel offset and scale",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#polyoff16",
+      "tags": [
         "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-PolyMult",
       "name": "POLYMULT",
-      "description": "Mono-to-poly multiple",
+      "description": "Monophonic-to-polyphonic multiple",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#polymult",
       "tags": [
-        "Utility",
         "Polyphonic"
       ]
     },
     {
       "slug": "Bogaudio-Bool",
       "name": "BOOL",
-      "description": "Boolean logic utility",
+      "description": "Boolean logic",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#bool",
       "tags": [
         "Logic",
         "Polyphonic"
@@ -606,7 +741,8 @@
     {
       "slug": "Bogaudio-Cmp",
       "name": "CMP",
-      "description": "Window comparator utility",
+      "description": "Window comparator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#cmp",
       "tags": [
         "Logic",
         "Polyphonic"
@@ -616,6 +752,7 @@
       "slug": "Bogaudio-CVD",
       "name": "CVD",
       "description": "Simple delay designed for triggers and other CVs",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#cvd",
       "tags": [
         "Delay",
         "Polyphonic"
@@ -624,7 +761,19 @@
     {
       "slug": "Bogaudio-FlipFlop",
       "name": "FLIPFLOP",
-      "description": "Dual stateful/memory logic utility",
+      "description": "Dual flipflop",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#flipflop",
+      "tags": [
+        "Logic",
+        "Dual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Inv",
+      "name": "INV",
+      "description": "Dual signal inverter",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#inv",
       "tags": [
         "Logic",
         "Dual",
@@ -635,14 +784,16 @@
       "slug": "Bogaudio-Manual",
       "name": "MANUAL",
       "description": "Button controlled gates / triggers",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#manual",
       "tags": [
-        "Utility"
+        "Controller"
       ]
     },
     {
       "slug": "Bogaudio-Mult",
       "name": "MULT",
       "description": "1:6 or dual 1:3 multiple/splitter",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#mult",
       "tags": [
         "Multiple",
         "Polyphonic"
@@ -652,6 +803,7 @@
       "slug": "Bogaudio-Offset",
       "name": "OFFSET",
       "description": "CV offset and scaler",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#offset",
       "tags": [
         "Attenuator",
         "Polyphonic"
@@ -660,7 +812,8 @@
     {
       "slug": "Bogaudio-Slew",
       "name": "SLEW",
-      "description": "Slew limiter / lag generator / glide utility",
+      "description": "Slew limiter / lag generator / glide",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#slew",
       "tags": [
         "Slew limiter",
         "Polyphonic"
@@ -669,7 +822,8 @@
     {
       "slug": "Bogaudio-Sums",
       "name": "SUMS",
-      "description": "Arithmetic logic utility",
+      "description": "Arithmetic logic",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#sums",
       "tags": [
         "Logic",
         "Polyphonic"
@@ -679,6 +833,7 @@
       "slug": "Bogaudio-Switch",
       "name": "SWITCH",
       "description": "2-way signal router",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#switch",
       "tags": [
         "Switch",
         "Polyphonic"
@@ -688,6 +843,7 @@
       "slug": "Bogaudio-Blank3",
       "name": "BLANK3",
       "description": "3HP blank panel",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#blank3",
       "tags": [
         "Blank"
       ]
@@ -696,6 +852,7 @@
       "slug": "Bogaudio-Blank6",
       "name": "BLANK6",
       "description": "6HP blank panel",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#blank6",
       "tags": [
         "Blank"
       ]
