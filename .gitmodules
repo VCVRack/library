@@ -490,3 +490,6 @@
 [submodule "repos/AuraAudio"]
 	path = repos/AuraAudio
 	url = https://github.com/emurray2/auraaudio-vcv-rack.git
+[submodule "repos/NoraCodes"]
+	path = repos/NoraCodes
+	url = https://github.com/NoraCodes/fives.git
