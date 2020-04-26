@@ -1,0 +1,36 @@
+{
+  "slug": "NoraCodes",
+  "name": "NoraCodes",
+  "version": "1.2.0",
+  "license": "ISC",
+  "brand": "NoraCodes",
+  "author": "Leonora Tindall",
+  "authorEmail": "nora@nora.codes",
+  "authorUrl": "https://nora.codes",
+  "pluginUrl": "https://nora.codes/projects/fives",
+  "manualUrl": "https://github.com/NoraCodes/fives/blob/master/README.md",
+  "sourceUrl": "https://github.com/NoraCodes/fives",
+  "donateUrl": "https://patreon.com/NoraCodes",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "NoraCodes_FivesAstable",
+      "name": "Fives Astable",
+      "description": "Astable-mode 555 oscillator",
+      "tags": [
+        "Clock generator",
+        "Low-frequency oscillator",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "NoraCodes_FivesAstableC",
+      "name": "Fives Astable C",
+      "description": "Astable-mode 555 oscillator with period control and CV inputs.",
+      "tags": [
+        "Oscillator",
+        "Physical modeling"
+      ]
+    }
+  ]
+}

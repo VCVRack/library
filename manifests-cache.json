@@ -731,7 +731,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1587750652.11736,
+    "buildTimestamp": 1587867850.564224,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -4025,7 +4025,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1587576769.938918,
+    "buildTimestamp": 1587866977.461051,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -7450,6 +7450,18 @@
       },
       "Morphology": {
         "creationTimestamp": 1587076105.2977908
+      }
+    }
+  },
+  "NoraCodes": {
+    "buildTimestamp": 1587867064.9509885,
+    "creationTimestamp": 1587867852.8621142,
+    "modules": {
+      "NoraCodes_FivesAstable": {
+        "creationTimestamp": 1587867853.251153
+      },
+      "NoraCodes_FivesAstableC": {
+        "creationTimestamp": 1587867853.4904718
       }
     }
   }
