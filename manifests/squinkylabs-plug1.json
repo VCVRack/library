@@ -8,7 +8,7 @@
   "sourceUrl": "https://github.com/squinkylabs/SquinkyVCV",
   "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/booty-shifter.md",
   "changelogUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/CHANGELOG.md",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "modules": [
     {
       "slug": "squinkylabs-ev3",
@@ -127,7 +127,7 @@
       "slug": "squinkylabs-sequencer4",
       "name": "Seq4x4",
       "description": "Sequence player",
-      "disabled": true,
+      "disabled": false,
       "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/sq2.md",
       "tags": [
         "Sequencer",
@@ -140,7 +140,8 @@
       "description": "Super saw VCO emulation",
       "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/saws.md",
       "tags": [
-        "VCO"
+        "VCO",
+        "Polyphonic"
       ]
     },
     {
@@ -229,7 +230,9 @@
       "description": "Ladder filter on steroids",
       "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/master/docs/filter.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic",
+        "Distortion"
       ]
     },
     {

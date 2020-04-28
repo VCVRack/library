@@ -731,7 +731,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1587867850.564224,
+    "buildTimestamp": 1588110705.6993463,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -2341,7 +2341,7 @@
     }
   },
   "squinkylabs-plug1": {
-    "buildTimestamp": 1582939645.2778745,
+    "buildTimestamp": 1588109903.2899172,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {
@@ -3058,7 +3058,7 @@
     }
   },
   "kocmoc": {
-    "buildTimestamp": 1586324000.8982444,
+    "buildTimestamp": 1588110760.6571217,
     "creationTimestamp": 1572165273.0,
     "modules": {
       "SVF-1": {
