@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.12.1",
+  "version": "1.13.1",
   "author": "almostEric",
   "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -106,6 +106,15 @@
       ]
     },
     {
+      "slug": "Midichlorian",
+      "name": "Midichlorian",
+      "description": "Microtonal CV-MIDI",
+      "tags": [
+        "MIDI",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "MrBlueSky",
       "name": "Mr. Blue Sky",
       "description": "16 band vocoder",
@@ -177,9 +186,17 @@
       ]
     },
     {
+      "slug": "PWAlgorithmicExpander",
+      "name": "Portland Weather - Algorithmic Expander",
+      "description": "Allows Portland Weather to create Euclidean rhythms",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
       "slug": "PWTapBreakoutExpander",
-      "name": "Portland Weather - Tap Breakout Expander",
-      "description": "Breaks out the individual taps of Portland Weather",
+      "name": "Portland Weather - Tap Breakoout Expander",
+      "description": "Individual Send/Returns for each PW Tap",
       "tags": [
         "Expander"
       ]
