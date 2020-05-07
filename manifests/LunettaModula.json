@@ -1,0 +1,217 @@
+{
+  "slug": "LunettaModula",
+  "name": "Lunetta Modula by Count Modula",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "Lunetta Modula",
+  "author": "Adam Verspaget",
+  "authorEmail": "CountModula@gmail.com",
+  "authorUrl": "https://github.com/countmodula",
+  "pluginUrl": "https://github.com/countmodula/VCVRackLunettaModula/blob/master/README.md",
+  "manualUrl": "https://github.com/countmodula/VCVRackLunettaModula/blob/master/MANUAL.md",
+  "changelogUrl": "https://github.com/countmodula/VCVRackLunettaModula/blob/master/CHANGELOG.md",
+  "sourceUrl": "https://github.com/countmodula/VCVRackLunettaModula",
+  "donateUrl": "https://paypal.me/countmodula?locale.x=en_AU",
+  "modules": [
+    {
+      "slug": "ADC",
+      "name": "Analogue to Digital Converter",
+      "description": "Analogue to Digital Converter",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DAC",
+      "name": "Digital to Analogue Converter",
+      "description": "Digital to Analogue Converter",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Buttons",
+      "name": "Hex manual logic buttons",
+      "description": "Hex manual logic buttons",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4000",
+      "name": "CD4000 Dual 3-Input NOR Gate plus Inverter",
+      "description": "Dual 3-Input NOR Gate plus Inverter",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4001",
+      "name": "CD4001 Quad 2-Input NOR Gate",
+      "description": "Quad 2-Input NOR Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4002",
+      "name": "CD4002 Dual 4-Input NOR Gate",
+      "description": "Dual 4-Input NOR Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4011",
+      "name": "CD4011 Quad 2-Input NAND Gate",
+      "description": "Quad 2-Input NAND Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4012",
+      "name": "CD4002 Dual 4-Input NAND Gate",
+      "description": "Dual 4-Input NAND Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4019",
+      "name": "CD4019 Quad AND-OR Select Gate",
+      "description": "Quad AND-OR Select Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4030",
+      "name": "CD4030 Quad 2-Input XOR Gate",
+      "description": "Quad 2-Input XOR Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4042",
+      "name": "CD4042 Quad Clocked \"D\" Latch",
+      "description": "Quad Clocked \"D\" Latch",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4048",
+      "name": "CD4048 Multifunction Expandable 8-Input Gate",
+      "description": "Multifunction Expandable 8-Input Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4049",
+      "name": "CD4049 Hex Inverter",
+      "description": "Hex Inverter",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4063",
+      "name": "CD4063 4-Bit Magnitude Comparator",
+      "description": "4-Bit Magnitude Comparator",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4068",
+      "name": "CD4068 8-Input AND/NAND Gate",
+      "description": "8-Input AND/NAND Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4071",
+      "name": "CD4071 Quad 2-Input OR Gate",
+      "description": "Quad 2-Input OR Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4072",
+      "name": "CD4072 Dual 4-Input OR Gate",
+      "description": "Dual 4-Input OR Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4077",
+      "name": "CD4077 Quad 2-Input XNOR Gate",
+      "description": "Quad 2-Input XNOR Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4078",
+      "name": "CD4078 8-Input OR/NOR Gate",
+      "description": "8-Input OR/NOR Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4081",
+      "name": "CD4081 Quad 2-Input AND Gate",
+      "description": "Quad 2-Input AND Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4082",
+      "name": "CD4082 Dual 4-Input AND Gate",
+      "description": "Dual 4-Input AND Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "ConstantOnes",
+      "name": "Ones",
+      "description": "Constant Logical Ones",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "ConstantZeroes",
+      "name": "Zeroes",
+      "description": "Constant Logical Zeroes",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4086",
+      "name": "CD4086 Expandable 4-Wide 2-Input AND-OR-INVERT Gate",
+      "description": "Expandable 4-Wide 2-Input AND-OR-INVERT Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "MC14530",
+      "name": "MC14530 Dual 5 Input Majority Gate",
+      "description": "Dual 5 Input Majority Gate",
+      "tags": [
+        "Logic"
+      ]
+    }
+  ]
+}

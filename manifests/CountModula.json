@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -229,6 +229,7 @@
       "slug": "PolyrhythmicGenerator",
       "name": "Polyrhythmic Generator  (Deprecated - Do Not Use)",
       "description": "This module is no longer supported - use Polyrhythmic Generator MkII instead",
+      "deprecated": true,
       "tags": [
         "Clock modulator",
         "Sequencer",
@@ -321,6 +322,7 @@
       "slug": "VCFrequencyDivider",
       "name": "Voltage Controlled Frequency Divider (Deprecated - Do Not Use)",
       "description": "This module is no longer supported - use VC Frequency Divider instead",
+      "deprecated": true,
       "tags": [
         "Clock modulator"
       ]
@@ -913,6 +915,22 @@
       "description": "Compares two binary words",
       "tags": [
         "Logic"
+      ]
+    },
+    {
+      "slug": "EventTimer",
+      "name": "Event Timer",
+      "description": "Clocked/realtime event timer",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Arpeggiator",
+      "name": "Super Arpeggiator",
+      "description": "Arpeggiator with user definable patterns",
+      "tags": [
+        "Arpeggiator"
       ]
     }
   ]

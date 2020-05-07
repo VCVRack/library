@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -224,14 +224,83 @@
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Pile.md"
     },
     {
+      "slug": "PilePoly",
+      "name": "POLY-PILE",
+      "description": "Translate increment triggers or decrement triggers in an absolute voltage, especially useful with MIDI-STEP, with slew support",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Pile.md"
+    },
+    {
       "slug": "MidiStep",
       "name": "MIDI-STEP",
       "description": "Module for relative modes of endless knobs on your MIDI controller, such as Arturia Beatstep, Native Instruments Komplete Keyboards or Behringer X-TOUCH",
       "tags": [
         "Utility",
-        "MIDI"
+        "MIDI",
+        "Polyphonic"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiStep.md"
+    },
+    {
+      "slug": "Mirror",
+      "name": "MIRROR",
+      "description": "Utility for synchronizing module parameters",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Mirror.md"
+    },
+    {
+      "slug": "Affix",
+      "name": "AFFIX",
+      "description": "Insert for polyphonic cables for adding offsets in Volt, semitones or octaves (16 channels)",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Attenuator"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Affix.md"
+    },
+    {
+      "slug": "AffixMicro",
+      "name": "\u00b5AFFIX",
+      "description": "Insert for polyphonic cables for adding offsets in Volt, semitones or octaves (8 channels)",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Attenuator"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Affix.md"
+    },
+    {
+      "slug": "Grip",
+      "name": "GRIP",
+      "description": "Lock for module parameters",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Grip.md"
+    },
+    {
+      "slug": "Glue",
+      "name": "GLUE",
+      "description": "Label maker for your modules!",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Glue.md"
+    },
+    {
+      "slug": "Goto",
+      "name": "GOTO",
+      "description": "Utility for jumping directly to 10 locations in your patch by hotkey or using MIDI",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Goto.md"
     },
     {
       "slug": "AudioInterface64",

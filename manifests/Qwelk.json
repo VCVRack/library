@@ -1,10 +1,136 @@
 {
+  "slug": "Qwelk",
   "name": "Qwelk",
-  "author": "raincheque (Parsa Jamshidi)",
+  "version": "1.0.0",
   "license": "MIT",
+  "brand": "Qwelk",
+  "author": "raincheque",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/raincheque/qwelk",
   "manualUrl": "https://github.com/raincheque/qwelk/blob/master/README.md",
   "sourceUrl": "https://github.com/raincheque/qwelk",
-  "pluginUrl": "https://github.com/raincheque/qwelk/blob/master/README.md",
-  "slug": "Qwelk",
-  "version": "0.6.1"
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Byte",
+      "name": "Byte",
+      "description": "",
+      "tags": [
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Chaos",
+      "name": "Chaos",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Column",
+      "name": "Column",
+      "description": "",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Gate",
+      "name": "Gate",
+      "description": "",
+      "tags": [
+        "Utility",
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "Indra",
+      "name": "Indra's Net",
+      "description": "",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Mix",
+      "name": "Mix",
+      "description": "",
+      "tags": [
+        "Utility",
+        "Mixer",
+        "Amplifier"
+      ]
+    },
+    {
+      "slug": "NEWS",
+      "name": "NEWS",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "NOT",
+      "name": "NOT",
+      "description": "",
+      "tags": [
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "OR",
+      "name": "OR",
+      "description": "",
+      "tags": [
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Wrap",
+      "name": "Wrap",
+      "description": "",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "XFade",
+      "name": "XFade",
+      "description": "",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "XOR",
+      "name": "XOR",
+      "description": "",
+      "tags": [
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Automaton",
+      "name": "Automaton",
+      "description": "",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Scaler",
+      "name": "Scaler",
+      "description": "",
+      "tags": [
+        "Utility"
+      ]
+    }
+  ]
 }
