@@ -493,3 +493,6 @@
 [submodule "repos/NoraCodes"]
 	path = repos/NoraCodes
 	url = https://github.com/NoraCodes/fives.git
+[submodule "repos/LunettaModula"]
+	path = repos/LunettaModula
+	url = https://github.com/countmodula/VCVRackLunettaModula.git
