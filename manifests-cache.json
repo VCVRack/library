@@ -2037,7 +2037,7 @@
     }
   },
   "Stoermelder-P1": {
-    "buildTimestamp": 1588868717.3231008,
+    "buildTimestamp": 1589036749.7167444,
     "creationTimestamp": 1559409342.0,
     "modules": {
       "CVMap": {
@@ -2126,6 +2126,9 @@
       },
       "Goto": {
         "creationTimestamp": 1588869624.5931532
+      },
+      "Fr": {
+        "creationTimestamp": 1589036898.0215738
       }
     }
   },
@@ -3079,7 +3082,7 @@
     }
   },
   "kocmoc": {
-    "buildTimestamp": 1588110760.6571217,
+    "buildTimestamp": 1589036896.5896275,
     "creationTimestamp": 1572165273.0,
     "modules": {
       "SVF-1": {
@@ -4942,7 +4945,7 @@
     "modules": {}
   },
   "ML_modules": {
-    "buildTimestamp": 1587306869.1219683,
+    "buildTimestamp": 1589036853.6587846,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMdetect": {
@@ -5851,7 +5854,7 @@
     }
   },
   "SubmarineFree": {
-    "buildTimestamp": 1586323866.0852828,
+    "buildTimestamp": 1589036571.8632534,
     "creationTimestamp": 1522452120.0,
     "modules": {
       "AG-104": {
@@ -6057,6 +6060,9 @@
       },
       "XF-301": {
         "creationTimestamp": 1586324002.844379
+      },
+      "TD-510": {
+        "creationTimestamp": 1589036898.3720653
       }
     }
   },

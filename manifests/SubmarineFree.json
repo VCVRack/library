@@ -11,7 +11,7 @@
   "donateUrl": "https://www.paypal.me/SubmarineFree",
   "pluginUrl": "https://github.com/david-c14/SubmarineFree/blob/master/README.md",
   "changelogUrl": "https://github.com/david-c14/SubmarineFree/blob/master/changelog.md",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "modules": [
     {
       "slug": "AG-104",
@@ -512,6 +512,15 @@
       "slug": "TD-410",
       "name": "TD-410",
       "description": "TD-410 Text Display",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/master/manual/TD.md",
+      "tags": [
+        "VISUAL"
+      ]
+    },
+    {
+      "slug": "TD-510",
+      "name": "TD-510",
+      "description": "TD-510 Vertical Text Display",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/master/manual/TD.md",
       "tags": [
         "VISUAL"

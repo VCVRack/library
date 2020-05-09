@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -301,6 +301,16 @@
         "Utility"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Goto.md"
+    },
+    {
+      "slug": "Fr",
+      "name": "FR",
+      "description": "Show the current screen framerate in the top-right corner",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Fr.md",
+      "disabled": true
     },
     {
       "slug": "AudioInterface64",
