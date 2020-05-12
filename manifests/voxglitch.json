@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "license": "BSD-3-Clause",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -51,6 +51,15 @@
       "slug": "goblins",
       "name": "Goblins",
       "description": "Antisocial .wav player/scanner using granular synthesis",
+      "tags": [
+        "Granular",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "grainfx",
+      "name": "Grain Fx",
+      "description": "Granular effects for incoming audio.",
       "tags": [
         "Granular",
         "Sampler"

@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1586748533.5937314,
+    "buildTimestamp": 1589300516.6236198,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -413,6 +413,9 @@
       },
       "samplerx8": {
         "creationTimestamp": 1586748554.3179598
+      },
+      "grainfx": {
+        "creationTimestamp": 1589300766.1420918
       }
     }
   },
@@ -2037,7 +2040,7 @@
     }
   },
   "Stoermelder-P1": {
-    "buildTimestamp": 1589036749.7167444,
+    "buildTimestamp": 1589300764.5480373,
     "creationTimestamp": 1559409342.0,
     "modules": {
       "CVMap": {
@@ -7628,6 +7631,18 @@
       },
       "MC14530": {
         "creationTimestamp": 1588869632.4858115
+      }
+    }
+  },
+  "rchoices": {
+    "buildTimestamp": 1589300543.337429,
+    "creationTimestamp": 1589300766.4543557,
+    "modules": {
+      "uchoice": {
+        "creationTimestamp": 1589300766.7486522
+      },
+      "gchoice": {
+        "creationTimestamp": 1589300766.9972281
       }
     }
   }

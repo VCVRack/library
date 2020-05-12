@@ -1,0 +1,33 @@
+{
+  "slug": "rchoices",
+  "name": "rchoices",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "brand": "",
+  "author": "David Koch",
+  "authorEmail": "dave-koch@web.de",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/davekch/rchoices",
+  "manualUrl": "https://github.com/davekch/rchoices/blob/master/README.md",
+  "sourceUrl": "https://github.com/davekch/rchoices",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "uchoice",
+      "name": "uchoice",
+      "description": "randomly select from inputs",
+      "tags": [
+        "random"
+      ]
+    },
+    {
+      "slug": "gchoice",
+      "name": "gchoice",
+      "description": "randomly select from inputs using a gaussian distribution",
+      "tags": [
+        "random"
+      ]
+    }
+  ]
+}
