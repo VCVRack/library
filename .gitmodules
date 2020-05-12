@@ -496,3 +496,6 @@
 [submodule "repos/LunettaModula"]
 	path = repos/LunettaModula
 	url = https://github.com/countmodula/VCVRackLunettaModula.git
+[submodule "repos/rchoices"]
+	path = repos/rchoices
+	url = https://github.com/davekch/rchoices.git
