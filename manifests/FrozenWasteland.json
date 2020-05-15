@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.13.2",
+  "version": "1.14",
   "author": "almostEric",
   "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -243,6 +243,14 @@
       ]
     },
     {
+      "slug": "QARWellFormedRhythmExpander",
+      "name": "QAR - Well Formed Rhythms",
+      "description": "Extra Parameters for Well Formed Algorithm",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
       "slug": "QuantussyCell",
       "name": "Quantussy Cell",
       "description": "Chainable semi-chatotic CV generator",
@@ -290,6 +298,14 @@
       "description": "Karpus-Strong String Synthesis",
       "tags": [
         "VCO"
+      ]
+    },
+    {
+      "slug": "SeriouslySlowEG",
+      "name": "Seriously Slow EG",
+      "description": "Envelope Generator for modulating CV over *very* long time periods",
+      "tags": [
+        "Envelope generator"
       ]
     },
     {

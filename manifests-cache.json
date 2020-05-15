@@ -7232,7 +7232,7 @@
     }
   },
   "FrozenWasteland": {
-    "buildTimestamp": 1588869622.1894002,
+    "buildTimestamp": 1589584931.1492314,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {
@@ -7342,6 +7342,12 @@
       },
       "PWGridControlExpander": {
         "creationTimestamp": 1588869632.6739566
+      },
+      "QARWellFormedRhythmExpander": {
+        "creationTimestamp": 1589584931.444329
+      },
+      "SeriouslySlowEG": {
+        "creationTimestamp": 1589584931.6982238
       }
     }
   },
