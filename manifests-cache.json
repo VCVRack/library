@@ -1121,7 +1121,7 @@
     }
   },
   "EricaCopies": {
-    "buildTimestamp": 1562258704.8896613,
+    "buildTimestamp": 1589568042.6147747,
     "creationTimestamp": 1560887654.0,
     "modules": {
       "BlackWaveTableVCO": {
@@ -5521,7 +5521,7 @@
     }
   },
   "Hora-VCO_VCF_VCA": {
-    "buildTimestamp": 1569589638.7271588,
+    "buildTimestamp": 1589568035.091128,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Amplitude-VCMixer": {
@@ -5532,6 +5532,9 @@
       },
       "Pure-VCO": {
         "creationTimestamp": 1561844572.0
+      },
+      "Vector-Synth": {
+        "creationTimestamp": 1589568044.5389948
       }
     }
   },
@@ -7465,11 +7468,14 @@
     }
   },
   "Hora-VCO_VCF_VCA_Free": {
-    "buildTimestamp": 1569185787.833686,
+    "buildTimestamp": 1589568039.0046244,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Amplitude-VCMixer": {
         "creationTimestamp": 1561844572.0
+      },
+      "Vector-Synth": {
+        "creationTimestamp": 1589568044.791243
       }
     }
   },

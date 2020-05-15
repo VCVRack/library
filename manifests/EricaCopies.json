@@ -1,7 +1,7 @@
 {
   "slug": "EricaCopies",
   "name": "Erica",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "proprietary",
   "author": "Erica",
   "brand": "Erica",
@@ -15,25 +15,31 @@
     {
       "slug": "BlackWaveTableVCO",
       "name": "BlackWaveTableVCO",
-      "description": "Wavetable oscillator",
+      "description": "Erica synth Wavetable oscillator",
+      "modularGridUrl": "https://www.modulargrid.net/e/erica-synths-black-wavetable-vco",
       "tags": [
-        "VCO"
+        "VCO",
+        "Hardware clone"
       ]
     },
     {
       "slug": "BlackOctasource",
       "name": "BlackOctasource",
-      "description": "Octa LFO",
+      "description": "Erica synth Octa LFO",
+      "modularGridUrl": "https://www.modulargrid.net/e/erica-synths-black-octasource",
       "tags": [
-        "LFO"
+        "LFO",
+        "Hardware clone"
       ]
     },
     {
       "slug": "PicoDrums",
       "name": "PicoDrums",
-      "description": "Drum sampler",
+      "description": "Erica synth Drum sampler",
+      "modularGridUrl": "https://www.modulargrid.net/e/erica-synths-pico-drums",
       "tags": [
-        "DRUMS"
+        "DRUMS",
+        "Hardware clone"
       ]
     }
   ]

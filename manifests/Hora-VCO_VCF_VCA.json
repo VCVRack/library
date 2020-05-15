@@ -1,7 +1,7 @@
 {
   "slug": "Hora-VCO_VCF_VCA",
   "name": "VCO VCF VCA",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
@@ -15,9 +15,10 @@
     {
       "slug": "Amplitude-VCMixer",
       "name": "Amplitude",
-      "description": "Volatge control mixer/inverter/amp",
+      "description": "Voltage control mixer/inverter/amp",
       "tags": [
-        "VCA"
+        "VCA",
+        "POLYPHONIC"
       ]
     },
     {
@@ -25,7 +26,18 @@
       "name": "Timbre VCF",
       "description": "Multimode VCF",
       "tags": [
-        "VCF"
+        "VCF",
+        "POLYPHONIC"
+      ]
+    },
+    {
+      "slug": "Vector-Synth",
+      "name": "Vector Synth",
+      "description": "Vector Phaseshaping Synthesis",
+      "tags": [
+        "VCO",
+        "POLYPHONIC",
+        "SYNTH VOICE"
       ]
     },
     {
@@ -33,7 +45,9 @@
       "name": "Pure VCO",
       "description": "sine core foldable VCO",
       "tags": [
-        "VCO"
+        "VCO",
+        "POLYPHONIC",
+        "WAVEFOLDER"
       ]
     }
   ]
