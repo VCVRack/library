@@ -2,18 +2,20 @@
   "slug": "Synthetic",
   "name": "Synthetic",
   "brand": "SV Modular",
-  "version": "1.2.4",
+  "version": "1.3.0",
   "license": "Proprietary",
   "author": "SV Modular",
-  "authorEmail": "svmodular@legitimatesounding.com",
-  "authorUrl": "https://legitimatesounding.com/sv-modular",
-  "pluginUrl": "https://legitimatesounding.com/sv-modular",
-  "manualUrl": "https://legitimatesounding.com/sv-modular",
+  "authorEmail": "contact@svmodular.com",
+  "authorUrl": "https://svmodular.com/",
+  "pluginUrl": "https://svmodular.com/plugin/vcv/synthetic.html",
+  "manualUrl": "https://svmodular.com/plugin/vcv/synthetic.html",
+  "description": "Virtual Semi-Modular Instruments.",
   "modules": [
     {
       "slug": "Eastside",
       "name": "Eastside",
       "description": "Eastside Polyphonic Synth",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/synthetic/Eastside.pdf",
       "tags": [
         "Synth voice",
         "Polyphonic"
@@ -23,6 +25,7 @@
       "slug": "BigBlue",
       "name": "Big Blue",
       "description": "Big Blue Polyphonic Synth",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/synthetic/BigBlue.pdf",
       "tags": [
         "Synth voice",
         "Polyphonic"
@@ -32,6 +35,7 @@
       "slug": "Paddington",
       "name": "Paddington",
       "description": "PAD Algorithm Based Synthesizer",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/synthetic/Paddington.pdf",
       "tags": [
         "Oscillator"
       ]
@@ -39,9 +43,21 @@
     {
       "slug": "Alchemy",
       "name": "Alchemy",
-      "description": "Alchemy Polyphonic Synth",
+      "description": "Alchemy Synth",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/synthetic/Alchemy.pdf",
       "tags": [
         "Synth voice"
+      ]
+    },
+    {
+      "slug": "Caillou",
+      "name": "Caillou",
+      "description": "Caillou Granular Resynthesis Engine",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/synthetic/Caillou.pdf",
+      "tags": [
+        "Synth voice",
+        "Granular",
+        "Oscillator"
       ]
     }
   ]

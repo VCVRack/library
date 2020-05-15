@@ -501,7 +501,7 @@
     }
   },
   "Synthetic": {
-    "buildTimestamp": 1580233076.72006,
+    "buildTimestamp": 1589577966.5534708,
     "creationTimestamp": 1565726934.0,
     "modules": {
       "Eastside": {
@@ -515,6 +515,9 @@
       },
       "Alchemy": {
         "creationTimestamp": 1570393137.0
+      },
+      "Caillou": {
+        "creationTimestamp": 1589577968.3942394
       }
     }
   },
