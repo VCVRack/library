@@ -1,7 +1,7 @@
 {
   "slug": "Hora-VCO_VCF_VCA_Free",
   "name": "VCO-VCF-VCA Free",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
@@ -14,7 +14,7 @@
   "modules": [
     {
       "slug": "Amplitude-VCMixer",
-      "name": "Amplitude",
+      "name": "Amplitude Free",
       "description": "voltage controlled mixer/inverter/amp",
       "tags": [
         "VCA"
@@ -22,7 +22,7 @@
     },
     {
       "slug": "Vector-Synth",
-      "name": "Vector Synth",
+      "name": "Vector Synth Free",
       "description": "Vector Phaseshaping Synthesis",
       "tags": [
         "VCO",
