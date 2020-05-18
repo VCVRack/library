@@ -15,6 +15,7 @@ import update_cache
 PACKAGES_DIR = "../packages"
 SCREENSHOTS_DIR = "../screenshots"
 MANIFESTS_DIR = "manifests"
+RACK_SYSTEM_DIR = "../Rack-v1"
 RACK_USER_DIR = "$HOME/.Rack"
 RACK_USER_PLUGIN_DIR = os.path.join(RACK_USER_DIR, "plugins-v1")
 
@@ -131,9 +132,12 @@ update_modulargrid.update()
 built_slugs_str = ", ".join(updated_slugs)
 
 print()
-print(f"Please test packages and generate screenshots.")
+print(f"Please test packages.")
 print(f"Press enter to upload the following packages and push the library repo: {built_slugs_str}")
 input()
+
+# Generate screenshots
+common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack -t 2")
 
 # Upload packages
 common.system("cd ../packages && make upload")
