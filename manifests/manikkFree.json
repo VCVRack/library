@@ -1,0 +1,66 @@
+{
+  "slug": "manikkFree",
+  "name": "manikk Free Modules",
+  "brand": "manikk",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "manikk",
+  "authorEmail": "manikktech@gmail.com",
+  "authorUrl": "https://www.manikk.com",
+  "modules": [
+    {
+      "slug": "manikkOutbreakLink",
+      "name": "Outbreak Link",
+      "description": "SW Link to the HW manikk OUTBREAK",
+      "manualUrl": "https://manikk.com/product/outbreak/",
+      "modularGridUrl": "https://www.modulargrid.net/e/manikk-outbreak",
+      "tags": [
+        "MIDI"
+      ]
+    },
+    {
+      "slug": "manikkShmix",
+      "name": "SHMIX",
+      "description": "6 channel mixer with level shift",
+      "manualUrl": "https://manikk.com/product/shmix/",
+      "modularGridUrl": "https://www.modulargrid.net/e/manikk-shmix",
+      "tags": [
+        "Mixer",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "manikkMash",
+      "name": "MASH",
+      "description": "1 Attenuverter, 2 Attenuators and Buffered multiple",
+      "manualUrl": "https://manikk.com/product/mash/",
+      "modularGridUrl": "https://www.modulargrid.net/e/manikk-mash",
+      "tags": [
+        "Utility",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "manikkDual3ChMixer",
+      "name": "Dual 3 Channel Mixer",
+      "description": "Dual 3 channel mixer. The upper mixer output is normalized to the lower mixer input 1",
+      "manualUrl": "https://manikk.com/product/dual-3-channel-mixer/",
+      "modularGridUrl": "https://www.modulargrid.net/e/manikk-dual-3-channel-mixer",
+      "tags": [
+        "Mixer",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "manikkDualMultiple",
+      "name": "Dual Active Multiple",
+      "description": "Dual active multiple. The upper multiple output 3 is normalized to the lower multiple input.",
+      "manualUrl": "https://manikk.com/product/dual-active-multiple-1-to-3/",
+      "modularGridUrl": "https://www.modulargrid.net/e/manikk-dual-active-multiple-1-to-3",
+      "tags": [
+        "Utility",
+        "Hardware clone"
+      ]
+    }
+  ]
+}

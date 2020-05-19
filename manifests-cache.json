@@ -7660,5 +7660,26 @@
         "creationTimestamp": 1589300766.9972281
       }
     }
+  },
+  "manikkFree": {
+    "buildTimestamp": 1589888025.3103325,
+    "creationTimestamp": 1589888037.2953057,
+    "modules": {
+      "manikkOutbreakLink": {
+        "creationTimestamp": 1589888037.4863026
+      },
+      "manikkShmix": {
+        "creationTimestamp": 1589888037.6932104
+      },
+      "manikkMash": {
+        "creationTimestamp": 1589888037.8709788
+      },
+      "manikkDual3ChMixer": {
+        "creationTimestamp": 1589888038.0613832
+      },
+      "manikkDualMultiple": {
+        "creationTimestamp": 1589888038.2495143
+      }
+    }
   }
 }

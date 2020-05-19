@@ -1088,5 +1088,40 @@
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Ripples",
     "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-ripples",
     "mgModuleId": 2204
+  },
+  {
+    "pluginSlug": "manikkFree",
+    "moduleSlug": "manikkOutbreakLink",
+    "vcvUrl": "https://library.vcvrack.com/manikkFree/manikkOutbreakLink",
+    "mgUrl": "https://www.modulargrid.net/e/manikk-outbreak",
+    "mgModuleId": 21751
+  },
+  {
+    "pluginSlug": "manikkFree",
+    "moduleSlug": "manikkShmix",
+    "vcvUrl": "https://library.vcvrack.com/manikkFree/manikkShmix",
+    "mgUrl": "https://www.modulargrid.net/e/manikk-shmix",
+    "mgModuleId": 21748
+  },
+  {
+    "pluginSlug": "manikkFree",
+    "moduleSlug": "manikkMash",
+    "vcvUrl": "https://library.vcvrack.com/manikkFree/manikkMash",
+    "mgUrl": "https://www.modulargrid.net/e/manikk-mash",
+    "mgModuleId": 21749
+  },
+  {
+    "pluginSlug": "manikkFree",
+    "moduleSlug": "manikkDual3ChMixer",
+    "vcvUrl": "https://library.vcvrack.com/manikkFree/manikkDual3ChMixer",
+    "mgUrl": "https://www.modulargrid.net/e/manikk-dual-3-channel-mixer",
+    "mgModuleId": 27185
+  },
+  {
+    "pluginSlug": "manikkFree",
+    "moduleSlug": "manikkDualMultiple",
+    "vcvUrl": "https://library.vcvrack.com/manikkFree/manikkDualMultiple",
+    "mgUrl": "https://www.modulargrid.net/e/manikk-dual-active-multiple-1-to-3",
+    "mgModuleId": 27186
   }
 ]
