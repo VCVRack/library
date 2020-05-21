@@ -502,3 +502,6 @@
 [submodule "repos/az"]
 	path = repos/az
 	url = https://github.com/azrrik/az-vcv
+[submodule "repos/StudioSixPlusOne"]
+	path = repos/StudioSixPlusOne
+	url = https://github.com/StudioSixPlusOne/rack-modules.git
