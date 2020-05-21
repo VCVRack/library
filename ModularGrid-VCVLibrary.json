@@ -1123,5 +1123,12 @@
     "vcvUrl": "https://library.vcvrack.com/manikkFree/manikkDualMultiple",
     "mgUrl": "https://www.modulargrid.net/e/manikk-dual-active-multiple-1-to-3",
     "mgModuleId": 27186
+  },
+  {
+    "pluginSlug": "EricaCopies",
+    "moduleSlug": "FusionDelay",
+    "vcvUrl": "https://library.vcvrack.com/EricaCopies/FusionDelay",
+    "mgUrl": "https://www.modulargrid.net/e/erica-synths-fusion-delay-flanger-vintage-ensemble",
+    "mgModuleId": 9296
   }
 ]

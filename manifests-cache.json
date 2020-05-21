@@ -1124,7 +1124,7 @@
     }
   },
   "EricaCopies": {
-    "buildTimestamp": 1589568042.6147747,
+    "buildTimestamp": 1590073079.650586,
     "creationTimestamp": 1560887654.0,
     "modules": {
       "BlackWaveTableVCO": {
@@ -1135,6 +1135,9 @@
       },
       "PicoDrums": {
         "creationTimestamp": 1562258837.0
+      },
+      "FusionDelay": {
+        "creationTimestamp": 1590073085.5172393
       }
     }
   },
