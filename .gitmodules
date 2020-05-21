@@ -499,3 +499,6 @@
 [submodule "repos/rchoices"]
 	path = repos/rchoices
 	url = https://github.com/davekch/rchoices.git
+[submodule "repos/az"]
+	path = repos/az
+	url = https://github.com/azrrik/az-vcv
