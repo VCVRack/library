@@ -1,0 +1,26 @@
+{
+  "slug": "az",
+  "name": "az",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "az",
+  "author": "azrrik",
+  "authorEmail": "azrrik@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/azrrik/az-vcv",
+  "donateUrl": "https://paypal.me/azrrik",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "modulo",
+      "name": "modulo",
+      "description": "sequencer based on the modulo % operation",
+      "tags": [
+        "sequencer",
+        "arpeggiator"
+      ]
+    }
+  ]
+}

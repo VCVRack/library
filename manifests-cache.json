@@ -7684,5 +7684,32 @@
         "creationTimestamp": 1589888038.2495143
       }
     }
+  },
+  "StudioSixPlusOne": {
+    "buildTimestamp": 1590117527.82187,
+    "creationTimestamp": 1590117528.1900573,
+    "modules": {
+      "KSDelay": {
+        "creationTimestamp": 1590117528.4462948
+      },
+      "Maccomo": {
+        "creationTimestamp": 1590117528.6564128
+      },
+      "PolyShiftRegister": {
+        "creationTimestamp": 1590117528.8928494
+      },
+      "CombFilter": {
+        "creationTimestamp": 1590117529.2243044
+      }
+    }
+  },
+  "az": {
+    "buildTimestamp": 1590117487.1276653,
+    "creationTimestamp": 1590117529.5065584,
+    "modules": {
+      "modulo": {
+        "creationTimestamp": 1590117529.7133899
+      }
+    }
   }
 }

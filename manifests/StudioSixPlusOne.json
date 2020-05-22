@@ -1,0 +1,56 @@
+{
+  "slug": "StudioSixPlusOne",
+  "name": "StudioSixPlusOne",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "StudioSixPlusOne",
+  "author": "Studio Six Plus One",
+  "authorEmail": "dave.french3@googlemail.com",
+  "authorUrl": "https://github.com/StudioSixPlusOne",
+  "pluginUrl": "https://github.com/StudioSixPlusOne/rack-modules",
+  "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md",
+  "sourceUrl": "https://github.com/StudioSixPlusOne/rack-modules.git",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "KSDelay",
+      "name": "Wallenda",
+      "description": "Karplus\u2013Strong Delay with unison",
+      "tags": [
+        "Polyphonic",
+        "Delay",
+        "Effect",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "Maccomo",
+      "name": "Maccomo",
+      "description": "Ladder Filter self oscillating vcf",
+      "tags": [
+        "Polyphonic",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "PolyShiftRegister",
+      "name": "Tyrant",
+      "description": "Polyphonic Shift Register",
+      "tags": [
+        "Polyphonic",
+        "Sample and Hold"
+      ]
+    },
+    {
+      "slug": "CombFilter",
+      "name": "Massarti",
+      "description": "Comb Filter",
+      "tags": [
+        "Polyphonic",
+        "Filter",
+        "Effect"
+      ]
+    }
+  ]
+}
