@@ -7711,5 +7711,29 @@
         "creationTimestamp": 1590117529.7133899
       }
     }
+  },
+  "CaptainsSounds": {
+    "buildTimestamp": 1590168690.894232,
+    "creationTimestamp": 1590168692.0334022,
+    "modules": {
+      "Blank901": {
+        "creationTimestamp": 1590168692.2810698
+      },
+      "Blank902": {
+        "creationTimestamp": 1590168692.5538511
+      },
+      "Blank904": {
+        "creationTimestamp": 1590168692.7578418
+      },
+      "Nip": {
+        "creationTimestamp": 1590168692.937334
+      },
+      "Pow": {
+        "creationTimestamp": 1590168693.1166253
+      },
+      "VBNO": {
+        "creationTimestamp": 1590168693.299347
+      }
+    }
   }
 }

@@ -1,0 +1,70 @@
+{
+  "slug": "CaptainsSounds",
+  "name": "Captain's Sounds",
+  "version": "1.0.3",
+  "license": "GPL-3.0-only",
+  "brand": "Captain's Sounds",
+  "author": "Mike Allison",
+  "authorEmail": "mike@captainssounds.com",
+  "authorUrl": "https://captainofbass.com",
+  "pluginUrl": "https://captainssounds.com",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/mikeallisonJS/vcv-CaptainsSounds",
+  "donateUrl": "https://captainofbass.com/donate",
+  "changelogUrl": "https://github.com/mikeallisonJS/vcv-CaptainsSounds/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Blank901",
+      "name": "Blank 901",
+      "description": "1HP Blank 90h theme",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank902",
+      "name": "Blank 902",
+      "description": "2HP Blank 90h theme",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank904",
+      "name": "Blank 904",
+      "description": "4HP Blank 90h theme",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Nip",
+      "name": "Nip",
+      "description": "Hard clipper with ceiling",
+      "tags": [
+        "Distortion",
+        "Dynamics",
+        "Limiter"
+      ]
+    },
+    {
+      "slug": "Pow",
+      "name": "Pow",
+      "description": "Uni-polar and Bi-polar voltage generator and attenuator",
+      "tags": [
+        "Attenuator",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "VBNO",
+      "name": "VBNO - Voice By Note Oscillator",
+      "description": "Oscillator with locked pitch by octave & note. Also allows for v/oct overrides rounding voltage to nearest octave or note.",
+      "tags": [
+        "Digital",
+        "Oscillator",
+        "Tuner"
+      ]
+    }
+  ]
+}
