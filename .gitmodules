@@ -505,3 +505,6 @@
 [submodule "repos/StudioSixPlusOne"]
 	path = repos/StudioSixPlusOne
 	url = https://github.com/StudioSixPlusOne/rack-modules.git
+[submodule "repos/CaptainsSounds"]
+	path = repos/CaptainsSounds
+	url = https://github.com/mikeallisonJS/vcv-CaptainsSounds.git
