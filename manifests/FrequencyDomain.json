@@ -1,7 +1,7 @@
 {
   "slug": "FrequencyDomain",
   "name": "Frequency Domain",
-  "version": "1.5.0",
+  "version": "1.4.0",
   "license": "Proprietary",
   "brand": "Frequency Domain",
   "author": "almostEric and JerrySV",
@@ -16,14 +16,6 @@
       "description": "Resynthesis Engine",
       "tags": [
         "Synth voice"
-      ]
-    },
-    {
-      "slug": "FreudianSlip",
-      "name": "Freudian Slip",
-      "description": "Resynthesizing Sampler",
-      "tags": [
-        "Synth voice,Sampler"
       ]
     },
     {
