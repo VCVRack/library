@@ -1,7 +1,7 @@
 {
   "slug": "CaptainsSounds",
   "name": "Captain's Sounds",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "GPL-3.0-only",
   "brand": "Captain's Sounds",
   "author": "Mike Allison",
@@ -35,6 +35,29 @@
       "description": "4HP Blank 90h theme",
       "tags": [
         "Blank"
+      ]
+    },
+    {
+      "slug": "IMO",
+      "name": "IMO - Input to Multiple Output",
+      "description": "Dual polyphonic input to multi out",
+      "tags": [
+        "Dual",
+        "Multiple",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIO",
+      "name": "MIO - Multiple Input to Output",
+      "description": "Dual polyphonic multi input to out",
+      "tags": [
+        "Dual",
+        "Mixer",
+        "Multiple",
+        "Polyphonic",
+        "Utility"
       ]
     },
     {

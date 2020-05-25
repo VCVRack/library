@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "license": "BSD-3-Clause",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -69,6 +69,15 @@
       "slug": "grainengine",
       "name": "Grain Engine",
       "description": "Basic .wav player/scanner using granular synthesis",
+      "tags": [
+        "Granular",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "GrainEngineMK2",
+      "name": "Grain Engine MK2",
+      "description": "Granular syntesis based .wav player",
       "tags": [
         "Granular",
         "Sampler"
