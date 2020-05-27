@@ -132,8 +132,10 @@ update_modulargrid.update()
 built_slugs_str = ", ".join(updated_slugs)
 
 print()
-print(f"Please test packages.")
-print(f"Press enter to upload the following packages and push the library repo: {built_slugs_str}")
+print(f"Press enter to launch Rack and test the following packages: {built_slugs_str}")
+input()
+common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack")
+print(f"Press enter to generate screenshots, upload packages, upload screenshots, and commit/push the library repo.")
 input()
 
 # Generate screenshots
