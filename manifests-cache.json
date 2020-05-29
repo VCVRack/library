@@ -2049,7 +2049,7 @@
     }
   },
   "Stoermelder-P1": {
-    "buildTimestamp": 1589300764.5480373,
+    "buildTimestamp": 1590763075.7981458,
     "creationTimestamp": 1559409342.0,
     "modules": {
       "CVMap": {
@@ -2141,6 +2141,9 @@
       },
       "Fr": {
         "creationTimestamp": 1589036898.0215738
+      },
+      "Stroke": {
+        "creationTimestamp": 1590763078.850774
       }
     }
   },

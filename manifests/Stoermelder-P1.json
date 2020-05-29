@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -310,6 +310,16 @@
         "Utility"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Fr.md",
+      "disabled": true
+    },
+    {
+      "slug": "Stroke",
+      "name": "STROKE",
+      "description": "Utility for converting hotkys to triggers and gates",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Stroke.md",
       "disabled": true
     },
     {
