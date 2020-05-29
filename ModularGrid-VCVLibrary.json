@@ -1130,5 +1130,12 @@
     "vcvUrl": "https://library.vcvrack.com/EricaCopies/FusionDelay",
     "mgUrl": "https://www.modulargrid.net/e/erica-synths-fusion-delay-flanger-vintage-ensemble",
     "mgModuleId": 9296
+  },
+  {
+    "pluginSlug": "AudibleInstruments",
+    "moduleSlug": "Shelves",
+    "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Shelves",
+    "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-shelves-2015",
+    "mgModuleId": 7740
   }
 ]
