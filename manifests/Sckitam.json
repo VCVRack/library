@@ -1,7 +1,7 @@
 {
   "slug": "Sckitam",
   "name": "Sckitam",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "GPL-3.0-only",
   "brand": "Sckitam",
   "author": "Philippe Salembier",
@@ -48,6 +48,18 @@
       "tags": [
         "Oscillator",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "WDelay",
+      "name": "WaveguideDelay",
+      "description": "High precision delay. Building block for waveguide, Karplus-Strong synthesis, Flanger and Chorus",
+      "tags": [
+        "Delay",
+        "VCO",
+        "Physical modeling",
+        "Flanger",
+        "Chorus"
       ]
     }
   ]
