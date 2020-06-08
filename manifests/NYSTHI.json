@@ -1,7 +1,7 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
@@ -292,7 +292,8 @@
       "name": "DX7Envelope",
       "description": "DX7 style envelope",
       "tags": [
-        "Envelope generator"
+        "Envelope generator",
+        "Polyphonic"
       ]
     },
     {
@@ -614,7 +615,9 @@
       "tags": [
         "VCO",
         "LFO",
-        "FM"
+        "FM",
+        "Polyphonic",
+        "Utility"
       ]
     },
     {
@@ -1272,6 +1275,39 @@
       "tags": [
         "Expander",
         "Utility"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "TZOP",
+      "name": "TZOP",
+      "description": "FM Operator dx7 style, Sinusoid VCO",
+      "tags": [
+        "VCO",
+        "LFO",
+        "FM",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Ambuance",
+      "name": "Ambuance Reverb",
+      "description": "Reverb based on the Juhana Sadeharju GigaVerb",
+      "tags": [
+        "REVERB",
+        "EFFECT"
+      ]
+    },
+    {
+      "slug": "TZEN",
+      "name": "TZEN Envelope to use as expander for TZOP",
+      "description": "Polyphonic ADSR linear and exponential",
+      "tags": [
+        "Envelope generator",
+        "Function generator",
+        "Expander",
+        "Polyphonic"
       ]
     }
   ]
