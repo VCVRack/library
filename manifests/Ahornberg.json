@@ -1,6 +1,6 @@
 {
   "slug": "Ahornberg",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "CC0-1.0",
   "name": "Ahornberg",
   "brand": "Ahornberg",
@@ -16,10 +16,19 @@
     {
       "slug": "EqualDivision",
       "name": "Equal Division",
-      "description": "microtonal re-tuner",
+      "description": "microtonal re-tuner and attenuverter",
       "tags": [
+        "Attenuator",
         "Tuner",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Metronome",
+      "name": "Metronome",
+      "description": "classic rehearsal metronome",
+      "tags": [
+        "Clock generator"
       ]
     }
   ]

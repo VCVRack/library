@@ -8,7 +8,7 @@
   "sourceUrl": "https://github.com/david-c14/ModularFungi",
   "donateUrl": "https://paypal.me/omricohencomposer",
   "manualUrl": "https://github.com/david-c14/ModularFungi/blob/master/README.md",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "modules": [
     {
       "slug": "Blank1HP",
@@ -96,6 +96,14 @@
       "description": "12 HP Blanking Plate with Color Key",
       "tags": [
         "Blank"
+      ]
+    },
+    {
+      "slug": "LightsOff",
+      "name": "Lights Off",
+      "description": "Dim the lights in your Rack!",
+      "tags": [
+        "Utility"
       ]
     }
   ]
