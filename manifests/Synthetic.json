@@ -2,7 +2,7 @@
   "slug": "Synthetic",
   "name": "Synthetic",
   "brand": "SV Modular",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "license": "Proprietary",
   "author": "SV Modular",
   "authorEmail": "contact@svmodular.com",
@@ -58,6 +58,24 @@
         "Synth voice",
         "Granular",
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "CaillouVoiceExpander",
+      "name": "Caillou Voice Expander",
+      "description": "Voice Expander for the Caillou Granular Resynthesis Engine",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/synthetic/Caillou.pdf",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "CaillouManipulatorExpander",
+      "name": "Caillou Manipulator Expander",
+      "description": "Manipulator Expander for the Caillou Granular Resynthesis Engine",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/synthetic/Caillou.pdf",
+      "tags": [
+        "Expander"
       ]
     }
   ]
