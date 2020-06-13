@@ -5364,9 +5364,34 @@
     "modules": {}
   },
   "NonLinearInstruments": {
-    "buildTimestamp": 1522751320.5835,
+    "buildTimestamp": 1592056929.0064523,
     "creationTimestamp": 1518016501.0,
-    "modules": {}
+    "modules": {
+      "QU4DiT": {
+        "creationTimestamp": 1592057022.1258242
+      },
+      "BallisticENV": {
+        "creationTimestamp": 1592057022.3247054
+      },
+      "LuciCell": {
+        "creationTimestamp": 1592057022.5170617
+      },
+      "Luci4AudioSum": {
+        "creationTimestamp": 1592057022.7302089
+      },
+      "Luci4ParamDistr": {
+        "creationTimestamp": 1592057022.927652
+      },
+      "LuciControlRND": {
+        "creationTimestamp": 1592057023.1280968
+      },
+      "LuciControlFREQ": {
+        "creationTimestamp": 1592057023.3230126
+      },
+      "LuciControlINFL": {
+        "creationTimestamp": 1592057023.5221264
+      }
+    }
   },
   "OhmerPrems": {
     "buildTimestamp": 1561559386.4655087,
@@ -7764,7 +7789,7 @@
     }
   },
   "StudioSixPlusOne": {
-    "buildTimestamp": 1590117527.82187,
+    "buildTimestamp": 1592057020.3415167,
     "creationTimestamp": 1590117528.1900573,
     "modules": {
       "KSDelay": {
@@ -7791,7 +7816,7 @@
     }
   },
   "CaptainsSounds": {
-    "buildTimestamp": 1590414774.832735,
+    "buildTimestamp": 1592056987.024218,
     "creationTimestamp": 1590168692.0334022,
     "modules": {
       "Blank901": {
@@ -7817,6 +7842,15 @@
       },
       "MIO": {
         "creationTimestamp": 1590414983.8716936
+      },
+      "Blank908": {
+        "creationTimestamp": 1592057021.361596
+      },
+      "DBug": {
+        "creationTimestamp": 1592057021.6217647
+      },
+      "Dip": {
+        "creationTimestamp": 1592057021.8680563
       }
     }
   }

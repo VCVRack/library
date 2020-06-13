@@ -1,11 +1,81 @@
 {
-  "name": "Non Linear Instruments",
-  "author": "Ignasi Alvarez Garriga",
-  "authorUrl": "https://www.ignasialvarez.cat",
-  "license": "BSD-3-Clause",
+  "slug": "NonLinearInstruments",
+  "name": "NonLinearInstruments",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "NLnRi",
+  "author": "Ignasi \u00c1lvarez Garriga",
+  "authorEmail": "",
+  "authorUrl": "https://www.ignasialvarez.cat/",
+  "pluginUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
   "manualUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/blob/master/README.md",
   "sourceUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins",
-  "pluginUrl": "https://github.com/NonLinearInstruments/NLNRI_VCVRackPlugins/blob/master/README.md",
-  "slug": "NonLinearInstruments",
-  "version": "0.6.0"
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "QU4DiT",
+      "name": "QU4DiT",
+      "description": "Quadratic Iterator",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "BallisticENV",
+      "name": "BallisticENV",
+      "description": "Ballistic ENV",
+      "tags": [
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "LuciCell",
+      "name": "LuciCell",
+      "description": "Luci Cell",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Luci4AudioSum",
+      "name": "Luci4AudioSum",
+      "description": "Luci 4 Audio Sum",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Luci4ParamDistr",
+      "name": "Luci4ParamDistr",
+      "description": "Luci 4 Param Distr",
+      "tags": [
+        "Multiple"
+      ]
+    },
+    {
+      "slug": "LuciControlRND",
+      "name": "LuciControlRND",
+      "description": "Luci Ctrl RAND",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "LuciControlFREQ",
+      "name": "LuciControlFREQ",
+      "description": "Luci Ctrl FREQ",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "LuciControlINFL",
+      "name": "LuciControlINFL",
+      "description": "Luci Ctrl INFLUENCE",
+      "tags": [
+        "Controller"
+      ]
+    }
+  ]
 }

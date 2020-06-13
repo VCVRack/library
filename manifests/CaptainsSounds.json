@@ -1,7 +1,7 @@
 {
   "slug": "CaptainsSounds",
   "name": "Captain's Sounds",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "GPL-3.0-only",
   "brand": "Captain's Sounds",
   "author": "Mike Allison",
@@ -33,6 +33,14 @@
       "slug": "Blank904",
       "name": "Blank 904",
       "description": "4HP Blank 90h theme",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank908",
+      "name": "Blank 908",
+      "description": "8HP Blank 90h theme",
       "tags": [
         "Blank"
       ]
@@ -87,6 +95,23 @@
         "Digital",
         "Oscillator",
         "Tuner"
+      ]
+    },
+    {
+      "slug": "DBug",
+      "name": "DBug",
+      "description": "Debug expander allowing for simple debug from any module.",
+      "tags": [
+        "Expander",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Dip",
+      "name": "Dip",
+      "description": "Parallel High-pass & Low-pass filter. Like a notch filter on sterioids.",
+      "tags": [
+        "Filter"
       ]
     }
   ]
