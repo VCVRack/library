@@ -1,0 +1,83 @@
+{
+  "slug": "PersonalModules",
+  "name": "Personal Modules",
+  "version": "1.0.0",
+  "license": "PROPRIETARY",
+  "author": "SV Modular",
+  "authorEmail": "contact@svmodular.com",
+  "authorUrl": "https://svmodular.com/",
+  "pluginUrl": "https://svmodular.com/plugin/vcv/personal-modules.html",
+  "manualUrl": "https://svmodular.com/plugin/vcv/personal-modules.html",
+  "brand": "SV Modular",
+  "modules": [
+    {
+      "slug": "VCO",
+      "name": "VCO",
+      "description": "My Own Personal VCO",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/personal-modules/VCO.pdf",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "VCA",
+      "name": "VCA",
+      "description": "My Own Personal VCA",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/personal-modules/VCA.pdf",
+      "tags": [
+        "VCA",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Break",
+      "name": "Break",
+      "description": "My Own Personal Attenuator",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/personal-modules/Break.pdf",
+      "tags": [
+        "Attenuator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Eq",
+      "name": "Eq",
+      "description": "My Own Personal Eq",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/personal-modules/Eq.pdf",
+      "tags": [
+        "EQ",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bias",
+      "name": "Bias",
+      "description": "My Own Personal Bias",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/personal-modules/Bias.pdf",
+      "tags": [
+        "Attenuator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Chrono",
+      "name": "Chrono",
+      "description": "My Own Personal Clock",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/personal-modules/Chrono.pdf",
+      "tags": [
+        "Clock"
+      ]
+    },
+    {
+      "slug": "MultiPan",
+      "name": "MultiPan",
+      "description": "My Own Personal Panner",
+      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/personal-modules/MultiPan.pdf",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

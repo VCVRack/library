@@ -7853,5 +7853,32 @@
         "creationTimestamp": 1592057021.8680563
       }
     }
+  },
+  "PersonalModules": {
+    "buildTimestamp": 1592401049.4501493,
+    "creationTimestamp": 1592401051.9310663,
+    "modules": {
+      "VCO": {
+        "creationTimestamp": 1592401052.1399167
+      },
+      "VCA": {
+        "creationTimestamp": 1592401052.3347683
+      },
+      "Break": {
+        "creationTimestamp": 1592401052.518249
+      },
+      "Eq": {
+        "creationTimestamp": 1592401052.7045505
+      },
+      "Bias": {
+        "creationTimestamp": 1592401052.9156983
+      },
+      "Chrono": {
+        "creationTimestamp": 1592401053.1305335
+      },
+      "MultiPan": {
+        "creationTimestamp": 1592401053.331076
+      }
+    }
   }
 }
