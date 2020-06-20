@@ -508,3 +508,6 @@
 [submodule "repos/CaptainsSounds"]
 	path = repos/CaptainsSounds
 	url = https://github.com/mikeallisonJS/vcv-CaptainsSounds.git
+[submodule "repos/KautenjaDSP-RackNES"]
+	path = repos/KautenjaDSP-RackNES
+	url = https://github.com/Kautenja/RackNES.git
