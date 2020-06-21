@@ -1,7 +1,7 @@
 {
   "slug": "AriaSalvatrice",
   "name": "Aria Salvatrice",
-  "version": "1.4.0",
+  "version": "1.4.2",
   "license": "WTFPL",
   "brand": "Aria Salvatrice",
   "author": "Aria Salvatrice",
@@ -16,7 +16,7 @@
     {
       "slug": "Splort",
       "name": "Signature Series Splort",
-      "description": "16 channels polyphonic split with optional chainable sort mode",
+      "description": "16 channels polyphonic split with optional linkable sort mode",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -26,7 +26,7 @@
     {
       "slug": "Smerge",
       "name": "Signature Series Smerge",
-      "description": "16 channels polyphonic merge with optional chainable sort mode",
+      "description": "16 channels polyphonic merge with optional linkable sort mode",
       "tags": [
         "Polyphonic",
         "Utility",

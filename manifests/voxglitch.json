@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "1.15.0",
+  "version": "1.16.0",
   "license": "BSD-3-Clause",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -81,6 +81,16 @@
       "tags": [
         "Granular",
         "Sampler"
+      ]
+    },
+    {
+      "slug": "GrainEngineMK2Expander",
+      "name": "Grain Engine MK2 Expander",
+      "description": "External audio recorder expander for Grain Engine MK2",
+      "tags": [
+        "Granular",
+        "Sampler",
+        "Expander"
       ]
     },
     {

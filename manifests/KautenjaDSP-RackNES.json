@@ -1,0 +1,28 @@
+{
+  "slug": "KautenjaDSP-RackNES",
+  "version": "1.1.2",
+  "license": "GPL-3.0-or-later",
+  "name": "KautenjaDSP-RackNES",
+  "brand": "KautenjaDSP",
+  "author": "Christian Kauten",
+  "authorEmail": "kautenja@auburn.edu",
+  "authorUrl": "https://kautenja.github.io/",
+  "pluginUrl": "https://vcvrack.com/RackNES",
+  "manualUrl": "https://kautenja.github.io/manuals/RackNES.pdf",
+  "sourceUrl": "https://github.com/Kautenja/RackNES",
+  "changelogUrl": "https://github.com/Kautenja/RackNES/blob/master/CHANGELOG.md",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "RackNES",
+      "name": "RackNES",
+      "description": "A Nintendo Entertainment System emulator with CV",
+      "manualUrl": "https://kautenja.github.io/manuals/RackNES.pdf",
+      "tags": [
+        "Hardware clone",
+        "Visual",
+        "Sampler"
+      ]
+    }
+  ]
+}
