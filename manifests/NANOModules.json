@@ -1,7 +1,7 @@
 {
   "slug": "NANOModules",
   "name": "NANO Modules",
-  "version": "1.5.2.2",
+  "version": "1.6.0",
   "license": "Proprietary",
   "brand": "NANO Modules",
   "author": "Jorge Gutierrez",
@@ -61,6 +61,18 @@
         "LFO",
         "Oscillator",
         "Function generator",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "ONA",
+      "name": "ONA",
+      "description": "Analog Multifunction Oscillator",
+      "manualUrl": "https://nanomodul.es/wp-content/uploads/2020/06/ONA-Flyer.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-ona",
+      "tags": [
+        "Oscillator",
+        "LFO",
         "Hardware clone"
       ]
     },

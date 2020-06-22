@@ -1137,5 +1137,12 @@
     "vcvUrl": "https://library.vcvrack.com/AudibleInstruments/Shelves",
     "mgUrl": "https://www.modulargrid.net/e/mutable-instruments-shelves-2015",
     "mgModuleId": 7740
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "ONA",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/ONA",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-ona",
+    "mgModuleId": 28219
   }
 ]
