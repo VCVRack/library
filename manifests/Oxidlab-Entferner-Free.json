@@ -1,0 +1,34 @@
+{
+  "slug": "Oxidlab-Entferner-Free",
+  "name": "Oxidlab Entferner Free Modules",
+  "version": "1.0.1",
+  "license": "proprietary",
+  "brand": "Oxidlab",
+  "author": "Alexander Schadenberger",
+  "authorEmail": "support@oxidlab.de",
+  "authorUrl": "https://www.oxidlab.de",
+  "pluginUrl": "",
+  "manualUrl": "https://www.oxidlab.de/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "EntfernerLE",
+      "name": "Entferner LE - Low-Pass Filter",
+      "description": "12dB Low-Pass Filter",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "EntfernerPlateL",
+      "name": "Entferner Plate L",
+      "description": "Plate (left side)",
+      "tags": [
+        "Blank",
+        "Oscillator"
+      ]
+    }
+  ]
+}

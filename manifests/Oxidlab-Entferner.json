@@ -1,0 +1,50 @@
+{
+  "slug": "Oxidlab-Entferner",
+  "name": "Oxidlab Entferner Modules",
+  "version": "1.0.1",
+  "license": "proprietary",
+  "brand": "Oxidlab",
+  "author": "Alexander Schadenberger",
+  "authorEmail": "support@oxidlab.de",
+  "authorUrl": "https://www.oxidlab.de",
+  "pluginUrl": "",
+  "manualUrl": "https://www.oxidlab.de/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "EntfernerL",
+      "name": "Entferner L - Low-Pass Filter",
+      "description": "6/12/18/24dB Low-Pass Filter",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "EntfernerH",
+      "name": "Entferner H - High-Pass Filter",
+      "description": "12/24dB High-Pass Filter",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "EntfernerB",
+      "name": "Entferner B - Band-Pass Filter",
+      "description": "12/24dB Band-Pass Filter",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "EntfernerPlateR",
+      "name": "Entferner Plate R",
+      "description": "Plate (right side)",
+      "tags": [
+        "Blank",
+        "Oscillator"
+      ]
+    }
+  ]
+}

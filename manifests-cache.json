@@ -7898,5 +7898,35 @@
         "creationTimestamp": 1592705960.2859664
       }
     }
+  },
+  "Oxidlab-Entferner": {
+    "buildTimestamp": 1593101417.682664,
+    "creationTimestamp": 1593101422.1301837,
+    "modules": {
+      "EntfernerL": {
+        "creationTimestamp": 1593101422.311191
+      },
+      "EntfernerH": {
+        "creationTimestamp": 1593101422.491821
+      },
+      "EntfernerB": {
+        "creationTimestamp": 1593101422.675595
+      },
+      "EntfernerPlateR": {
+        "creationTimestamp": 1593101422.8582282
+      }
+    }
+  },
+  "Oxidlab-Entferner-Free": {
+    "buildTimestamp": 1593101420.526058,
+    "creationTimestamp": 1593101423.0587459,
+    "modules": {
+      "EntfernerLE": {
+        "creationTimestamp": 1593101423.246367
+      },
+      "EntfernerPlateL": {
+        "creationTimestamp": 1593101423.4319046
+      }
+    }
   }
 }
