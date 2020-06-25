@@ -1,7 +1,7 @@
 {
   "slug": "FrequencyDomain",
   "name": "Frequency Domain",
-  "version": "1.6.0",
+  "version": "1.5.5",
   "license": "Proprietary",
   "brand": "Frequency Domain",
   "author": "almostEric and JerrySV",
@@ -41,16 +41,6 @@
       "description": "Spectral Morpher",
       "tags": [
         "Vocoder",
-        "Effect"
-      ]
-    },
-    {
-      "slug": "GrainsOfWrath",
-      "name": "Grains Of Wrath",
-      "description": "Spewer of Grains of varying dispositions",
-      "tags": [
-        "Granular",
-        "Sampler",
         "Effect"
       ]
     }
