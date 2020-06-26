@@ -1,7 +1,7 @@
 {
   "slug": "Oxidlab-Entferner",
   "name": "Oxidlab Entferner Modules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "proprietary",
   "brand": "Oxidlab",
   "author": "Alexander Schadenberger",
@@ -11,7 +11,7 @@
   "manualUrl": "https://www.oxidlab.de/",
   "sourceUrl": "",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://www.oxidlab.de/changelogs/#Entferner",
   "modules": [
     {
       "slug": "EntfernerL",
