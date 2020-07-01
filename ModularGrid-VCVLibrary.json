@@ -1144,5 +1144,33 @@
     "vcvUrl": "https://library.vcvrack.com/NANOModules/ONA",
     "mgUrl": "https://www.modulargrid.net/e/nano-modules-ona",
     "mgModuleId": 28219
+  },
+  {
+    "pluginSlug": "Prok-Modular",
+    "moduleSlug": "ProkBD",
+    "vcvUrl": "https://library.vcvrack.com/Prok-Modular/ProkBD",
+    "mgUrl": "https://www.modulargrid.net/e/prok-modular-bd",
+    "mgModuleId": 20152
+  },
+  {
+    "pluginSlug": "Prok-Modular",
+    "moduleSlug": "ProkSN",
+    "vcvUrl": "https://library.vcvrack.com/Prok-Modular/ProkSN",
+    "mgUrl": "https://www.modulargrid.net/e/prok-modular-sn",
+    "mgModuleId": 20153
+  },
+  {
+    "pluginSlug": "Prok-Modular",
+    "moduleSlug": "ProkHH",
+    "vcvUrl": "https://library.vcvrack.com/Prok-Modular/ProkHH",
+    "mgUrl": "https://www.modulargrid.net/e/prok-modular-hh",
+    "mgModuleId": 20156
+  },
+  {
+    "pluginSlug": "Prok-Modular",
+    "moduleSlug": "ProkCP",
+    "vcvUrl": "https://library.vcvrack.com/Prok-Modular/ProkCP",
+    "mgUrl": "https://www.modulargrid.net/e/prok-modular-cp",
+    "mgModuleId": 20155
   }
 ]

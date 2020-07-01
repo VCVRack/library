@@ -1,0 +1,146 @@
+{
+  "slug": "Prok-Modular",
+  "name": "Prok Modular",
+  "author": "Prok",
+  "license": "proprietary",
+  "authorEmail": "support@prok.co.uk",
+  "authorUrl": "https://prok.co.uk/",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "slug": "ProkBD",
+      "name": "Bass Drum",
+      "description": "Prok Drums Bass Drum",
+      "modularGridUrl": "https://www.modulargrid.net/e/prok-modular-bd",
+      "tags": [
+        "Drum",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "ProkSN",
+      "name": "Snare Drum",
+      "description": "Prok Drums Snare",
+      "modularGridUrl": "https://www.modulargrid.net/e/prok-modular-sn",
+      "tags": [
+        "Drum",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "ProkHH",
+      "name": "Hi Hat",
+      "description": "Prok Drums Hi Hat",
+      "modularGridUrl": "https://www.modulargrid.net/e/prok-modular-hh",
+      "tags": [
+        "Drum",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "ProkCP",
+      "name": "Clap",
+      "description": "Prok Drums Clap",
+      "modularGridUrl": "https://www.modulargrid.net/e/prok-modular-cp",
+      "tags": [
+        "Drum",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "ProkKL",
+      "name": "Klonk",
+      "description": "Prok Drums Klonk",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "ShiftyBusiness",
+      "name": "Shifty Business",
+      "description": "Shift Register based random noise generator",
+      "tags": [
+        "Noise",
+        "Random"
+      ]
+    },
+    {
+      "slug": "ClapEnvelope",
+      "name": "Clap Envelope",
+      "description": "Special envelope for synthesizing hand claps",
+      "tags": [
+        "Envelope generator",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "WhistleWhileYouWork",
+      "name": "Whistle While You Work",
+      "description": "Triple Noise Generator",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "Overtime",
+      "name": "Overtime",
+      "description": "Distortion and Bit Crusher",
+      "tags": [
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "DrumEnvelope",
+      "name": "Drum Envelope",
+      "description": "Three stage envelope (Attack, Decay, Breakpoint) for drum synthesis",
+      "tags": [
+        "Envelope generator",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "SkinInTheGame",
+      "name": "Skin In The Game",
+      "description": "Single oscillator with frequency and amplitude envelopes designed for drum synthesis",
+      "tags": [
+        "Drum",
+        "Oscillator",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "WinWinSituation",
+      "name": "Win Win Situation",
+      "description": "Pair of Oscillators with frequency and amplitude envelopes designed for drum synthesis",
+      "tags": [
+        "Drum",
+        "Oscillator",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "SixSquareFeet",
+      "name": "Six Square Feet",
+      "description": "Six Square Oscillators",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "MicroMixer4",
+      "name": "Micro Mixer",
+      "description": "Micro Mixer for 5 inputs",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "DualFilter",
+      "name": "DualFilter",
+      "description": "Dual filters with Band Pass, Low Pass and High Pass",
+      "tags": [
+        "Filter"
+      ]
+    }
+  ]
+}
