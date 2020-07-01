@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1592705772.6753445,
+    "buildTimestamp": 1593627728.1209161,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -7798,7 +7798,7 @@
     }
   },
   "StudioSixPlusOne": {
-    "buildTimestamp": 1592057020.3415167,
+    "buildTimestamp": 1593627835.516539,
     "creationTimestamp": 1590117528.1900573,
     "modules": {
       "KSDelay": {
@@ -7812,6 +7812,18 @@
       },
       "CombFilter": {
         "creationTimestamp": 1590117529.2243044
+      },
+      "Te": {
+        "creationTimestamp": 1593627837.3962865
+      },
+      "LaLa": {
+        "creationTimestamp": 1593627837.602062
+      },
+      "Eva": {
+        "creationTimestamp": 1593627837.8174274
+      },
+      "Zazel": {
+        "creationTimestamp": 1593627838.0490634
       }
     }
   },
@@ -7891,7 +7903,7 @@
     }
   },
   "KautenjaDSP-RackNES": {
-    "buildTimestamp": 1592705838.0167127,
+    "buildTimestamp": 1593627774.8085783,
     "creationTimestamp": 1592705960.088049,
     "modules": {
       "RackNES": {

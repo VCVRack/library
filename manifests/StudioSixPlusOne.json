@@ -1,7 +1,7 @@
 {
   "slug": "StudioSixPlusOne",
   "name": "Studio Six Plus One",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Studio Six Plus One",
   "author": "Studio Six Plus One",
@@ -47,6 +47,15 @@
       ]
     },
     {
+      "slug": "Te",
+      "name": "Te",
+      "description": "Tyrant Expander",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#te",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
       "slug": "CombFilter",
       "name": "Massarti",
       "description": "Comb Filter",
@@ -55,6 +64,41 @@
         "Polyphonic",
         "Filter",
         "Effect"
+      ]
+    },
+    {
+      "slug": "LaLa",
+      "name": "LaLa",
+      "description": "Two way cross over",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#lala",
+      "tags": [
+        "Filter",
+        "Polyphonic",
+        "Utility",
+        "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "Eva",
+      "name": "Eva",
+      "description": "Mixer",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#eva",
+      "tags": [
+        "Mixer",
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Zazel",
+      "name": "Zazel",
+      "description": "Parameter Controller for fades and LFO",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#zazel",
+      "tags": [
+        "Clock modulator",
+        "Function generator",
+        "Low-frequency oscillator",
+        "Controller"
       ]
     }
   ]
