@@ -3247,7 +3247,7 @@
     }
   },
   "AlrightDevices": {
-    "buildTimestamp": 1570130535.0657115,
+    "buildTimestamp": 1593641476.2385557,
     "creationTimestamp": 1554966626.0,
     "modules": {
       "Chronoblob2": {
@@ -3255,6 +3255,9 @@
       },
       "T-Wrex": {
         "creationTimestamp": 1561078770.0
+      },
+      "Zzzorb": {
+        "creationTimestamp": 1593641483.7155676
       }
     }
   },

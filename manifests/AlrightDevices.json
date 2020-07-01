@@ -1,7 +1,7 @@
 {
   "slug": "AlrightDevices",
   "name": "Alright Devices",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "proprietary",
   "author": "Alright Devices",
   "authorEmail": "tyler@alrightdevices.com",
@@ -19,8 +19,10 @@
         "Delay",
         "Digital",
         "Dual",
-        "Effect"
-      ]
+        "Effect",
+        "Hardware"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/alright-devices-chronoblob2"
     },
     {
       "slug": "T-Wrex",
@@ -29,8 +31,21 @@
       "tags": [
         "Distortion",
         "Effect",
-        "Sample and hold"
-      ]
+        "Sample and hold",
+        "Hardware"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/alright-devices-t-wrex-"
+    },
+    {
+      "slug": "Zzzorb",
+      "name": "Zzzorb",
+      "description": "Four-pole multimode filter and VCA",
+      "tags": [
+        "Filter",
+        "VCA",
+        "Hardware"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/alright-devices-zzzorb"
     }
   ]
 }

@@ -1172,5 +1172,12 @@
     "vcvUrl": "https://library.vcvrack.com/Prok-Modular/ProkCP",
     "mgUrl": "https://www.modulargrid.net/e/prok-modular-cp",
     "mgModuleId": 20155
+  },
+  {
+    "pluginSlug": "AlrightDevices",
+    "moduleSlug": "Zzzorb",
+    "vcvUrl": "https://library.vcvrack.com/AlrightDevices/Zzzorb",
+    "mgUrl": "https://www.modulargrid.net/e/alright-devices-zzzorb",
+    "mgModuleId": 26809
   }
 ]
