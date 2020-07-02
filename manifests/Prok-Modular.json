@@ -5,7 +5,8 @@
   "license": "proprietary",
   "authorEmail": "support@prok.co.uk",
   "authorUrl": "https://prok.co.uk/",
-  "version": "1.0.0",
+  "manualUrl": "https://prok.co.uk/pages/vcv_modules",
+  "version": "1.0.1",
   "modules": [
     {
       "slug": "ProkBD",
