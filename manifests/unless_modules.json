@@ -2,26 +2,28 @@
   "slug": "unless_modules",
   "name": "unless modules",
   "author": "unless games",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "GPL-3.0-only",
   "authorEmail": "unlessgames@gmail.com",
-  "pluginUrl": "http://gitlab.com/unlessgames/unless_modules",
-  "authorUrl": "http://unlessgames.com/",
-  "sourceUrl": "http://gitlab.com/unlessgames/unless_modules",
+  "pluginUrl": "https://gitlab.com/unlessgames/unless_modules",
+  "authorUrl": "https://unlessgames.com/",
+  "sourceUrl": "https://gitlab.com/unlessgames/unless_modules",
+  "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v1/README.md",
+  "changelogUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v1/CHANGELOG.md",
   "modules": [
     {
-      "slug": "markov",
-      "name": "mr. chainkov",
-      "description": "markov-chain melody generator",
+      "slug": "piong",
+      "name": "piong",
+      "description": "arcade modulator",
       "tags": [
         "Sequencer",
         "Random"
       ]
     },
     {
-      "slug": "piong",
-      "name": "piong",
-      "description": "arcade modulator",
+      "slug": "markov",
+      "name": "Mr. Chainkov",
+      "description": "a markov-chain melody generator",
       "tags": [
         "Sequencer",
         "Random"
@@ -34,6 +36,42 @@
       "tags": [
         "Switch",
         "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "cantor",
+      "name": "tancor",
+      "description": "swinging gate machine based around a parametric binary tree, inspired by the cantor set",
+      "tags": [
+        "Sequencer",
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "room",
+      "name": "room",
+      "description": "a rack row arranger that can move complete rows of modules and add empty rows between existing ones for a faster workflow",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "snake",
+      "name": "SNAKIA",
+      "description": "emulative snake game modulator",
+      "tags": [
+        "Random",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "towers",
+      "name": "towers",
+      "description": "dual fader bank, constant CV source with polyphonic io and mods. up to 16 faders each",
+      "tags": [
+        "Attenuator",
+        "Polyphonic",
         "Utility"
       ]
     }

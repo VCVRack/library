@@ -1,7 +1,7 @@
 {
   "slug": "CaptainsSounds",
   "name": "Captain's Sounds",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "GPL-3.0-only",
   "brand": "Captain's Sounds",
   "author": "Mike Allison",
@@ -75,7 +75,8 @@
       "tags": [
         "Distortion",
         "Dynamics",
-        "Limiter"
+        "Limiter",
+        "Polyphonic"
       ]
     },
     {
@@ -84,6 +85,7 @@
       "description": "Uni-polar and Bi-polar voltage generator and attenuator",
       "tags": [
         "Attenuator",
+        "Polyphonic",
         "Utility"
       ]
     },

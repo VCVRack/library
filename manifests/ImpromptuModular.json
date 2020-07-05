@@ -1,7 +1,7 @@
 {
   "slug": "ImpromptuModular",
   "name": "Impromptu",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "license": "GPL-3.0-only",
   "author": "Marc Boul\u00e9",
   "brand": "Impromptu",
@@ -14,39 +14,21 @@
   "changelogUrl": "https://github.com/MarcBoule/ImpromptuModular/tree/master/CHANGELOG.md",
   "modules": [
     {
-      "slug": "Tact",
-      "name": "Tact",
-      "description": "Dual-channel tactile-inspired controller",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#tact",
+      "slug": "Big-Button-Seq",
+      "name": "BigButtonSeq",
+      "description": "6-channel, 64-step trigger sequencer",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#big-button-seq",
       "tags": [
-        "Controller"
+        "Sequencer"
       ]
     },
     {
-      "slug": "Tact1",
-      "name": "Tact1",
-      "description": "Tactile-inspired controller",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#tact",
+      "slug": "Big-Button-Seq2",
+      "name": "BigButtonSeq2",
+      "description": "6-channel, 128-step sequencer",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#big-button-seq2",
       "tags": [
-        "Controller"
-      ]
-    },
-    {
-      "slug": "Cv-Pad",
-      "name": "CV-Pad",
-      "description": "16-pad CV controller",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#cv-pad",
-      "tags": [
-        "Controller"
-      ]
-    },
-    {
-      "slug": "Twelve-Key",
-      "name": "TwelveKey",
-      "description": "Chainable one octave keyboard controller",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#twelve-key",
-      "tags": [
-        "Controller"
+        "Sequencer"
       ]
     },
     {
@@ -81,6 +63,16 @@
       ]
     },
     {
+      "slug": "Clocked-Expander",
+      "name": "Clocked expander",
+      "description": "Expander for Clocked",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#expanders",
+      "tags": [
+        "Clock generator",
+        "Expander"
+      ]
+    },
+    {
       "slug": "Clocked-Clkd",
       "name": "Clkd",
       "description": "Chainable master clock",
@@ -90,13 +82,12 @@
       ]
     },
     {
-      "slug": "Clocked-Expander",
-      "name": "Clocked expander",
-      "description": "Expander for Clocked",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#expanders",
+      "slug": "Cv-Pad",
+      "name": "CV-Pad",
+      "description": "16-pad CV controller",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#cv-pad",
       "tags": [
-        "Clock generator",
-        "Expander"
+        "Controller"
       ]
     },
     {
@@ -119,6 +110,15 @@
       ]
     },
     {
+      "slug": "Four-View",
+      "name": "FourView",
+      "description": "Quad note or chord viewer with passthrough",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#four-view",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
       "slug": "Gate-Seq-64",
       "name": "GateSeq64",
       "description": "64-step, 32-pattern gate sequencer",
@@ -135,6 +135,25 @@
       "tags": [
         "Sequencer",
         "Expander"
+      ]
+    },
+    {
+      "slug": "Hotkey",
+      "name": "Hotkey",
+      "description": "Triggers when mouse is over module and hotkey is pressed",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#hotkey",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Part-Gate-Split",
+      "name": "Part",
+      "description": "Polyphonic gate splitter",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#part",
+      "tags": [
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -166,6 +185,43 @@
       ]
     },
     {
+      "slug": "Semi-ModularSynth",
+      "name": "SMS16",
+      "description": "Semi-modular monophonic synthesizer, with 16-step sequencer",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#sms-16",
+      "tags": [
+        "Synth voice",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Tact",
+      "name": "Tact",
+      "description": "Dual-channel tactile-inspired controller",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#tact",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "Tact1",
+      "name": "Tact1",
+      "description": "Tactile-inspired controller",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#tact",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "Twelve-Key",
+      "name": "TwelveKey",
+      "description": "Chainable one octave keyboard controller",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#twelve-key",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
       "slug": "Write-Seq-32",
       "name": "WriteSeq32",
       "description": "3-channel, 32-step sequencer",
@@ -181,62 +237,6 @@
       "manualUrl": "https://marcboule.github.io/ImpromptuModular/#write-seq",
       "tags": [
         "Sequencer"
-      ]
-    },
-    {
-      "slug": "Big-Button-Seq",
-      "name": "BigButtonSeq",
-      "description": "6-channel, 64-step trigger sequencer",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#big-button-seq",
-      "tags": [
-        "Sequencer"
-      ]
-    },
-    {
-      "slug": "Big-Button-Seq2",
-      "name": "BigButtonSeq2",
-      "description": "6-channel, 128-step sequencer",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#big-button-seq2",
-      "tags": [
-        "Sequencer"
-      ]
-    },
-    {
-      "slug": "Four-View",
-      "name": "FourView",
-      "description": "Quad note or chord viewer with passthrough",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#four-view",
-      "tags": [
-        "Visual"
-      ]
-    },
-    {
-      "slug": "Semi-ModularSynth",
-      "name": "SMS16",
-      "description": "Semi-modular monophonic synthesizer, with 16-step sequencer",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#sms-16",
-      "tags": [
-        "Synth voice",
-        "Sequencer"
-      ]
-    },
-    {
-      "slug": "Hotkey",
-      "name": "Hotkey",
-      "description": "Triggers when mouse is over module and hotkey is pressed",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#hotkey",
-      "tags": [
-        "Utility"
-      ]
-    },
-    {
-      "slug": "Part-Gate-Split",
-      "name": "Part",
-      "description": "Polyphonic gate splitter",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#part",
-      "tags": [
-        "Utility",
-        "Polyphonic"
       ]
     },
     {
