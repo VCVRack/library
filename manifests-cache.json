@@ -7957,7 +7957,7 @@
     }
   },
   "Prok-Modular": {
-    "buildTimestamp": 1593728352.0209997,
+    "buildTimestamp": 1593967600.8334513,
     "creationTimestamp": 1593617560.1909864,
     "modules": {
       "ProkBD": {
@@ -8004,6 +8004,9 @@
       },
       "DualFilter": {
         "creationTimestamp": 1593617563.1499252
+      },
+      "QuadSelectorExpander": {
+        "creationTimestamp": 1593967604.8185258
       }
     }
   }

@@ -6,7 +6,7 @@
   "authorEmail": "support@prok.co.uk",
   "authorUrl": "https://prok.co.uk/",
   "manualUrl": "https://prok.co.uk/pages/vcv_modules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "modules": [
     {
       "slug": "ProkBD",
@@ -137,10 +137,18 @@
     },
     {
       "slug": "DualFilter",
-      "name": "DualFilter",
+      "name": "Dual Filter",
       "description": "Dual filters with Band Pass, Low Pass and High Pass",
       "tags": [
         "Filter"
+      ]
+    },
+    {
+      "slug": "QuadSelectorExpander",
+      "name": "Quad Selector Expander",
+      "description": "Expander for Drum Modules. Allows quad selection via knob or CV",
+      "tags": [
+        "Expander"
       ]
     }
   ]
