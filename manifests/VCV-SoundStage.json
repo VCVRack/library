@@ -1,0 +1,25 @@
+{
+  "slug": "VCV-SoundStage",
+  "name": "Sound Stage",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/SoundStage",
+  "manualUrl": "https://vcvrack.com/SoundStage#manual",
+  "changelogUrl": "https://vcvrack.com/SoundStage#changelog",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "SoundStage",
+      "name": "Sound Stage",
+      "description": "Reverb processor that simulates virtual sources and microphones on a 3D stage",
+      "tags": [
+        "Reverb"
+      ]
+    }
+  ]
+}

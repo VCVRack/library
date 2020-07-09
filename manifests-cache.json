@@ -8021,5 +8021,14 @@
         "creationTimestamp": 1594269751.4262383
       }
     }
+  },
+  "VCV-SoundStage": {
+    "buildTimestamp": 1594281847.9170437,
+    "creationTimestamp": 1594281849.53524,
+    "modules": {
+      "SoundStage": {
+        "creationTimestamp": 1594281849.8602555
+      }
+    }
   }
 }
