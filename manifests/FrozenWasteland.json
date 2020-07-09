@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.14.2",
+  "version": "1.15.0",
   "author": "almostEric",
   "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -171,6 +171,16 @@
       "slug": "ProbablyNoteBP",
       "name": "Probably Note - Bohlen Pierce",
       "description": "Probabilistic Quantizer using Bohlen Pierce scales and tuning",
+      "tags": [
+        "Quantizer",
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "ProbablyNoteMN",
+      "name": "Probably Note - Math Nerd",
+      "description": "Probabilistic Quantizer using prime number based generative scales",
       "tags": [
         "Quantizer",
         "Random",

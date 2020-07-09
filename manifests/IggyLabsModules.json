@@ -1,0 +1,27 @@
+{
+  "slug": "IggyLabsModules",
+  "name": "iggy.labs",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "iggy.labs",
+  "author": "Isabel Kaspriskie",
+  "authorEmail": "ikaspriskie@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/IggyLabs/IggyLabsModules/wiki/Manual",
+  "sourceUrl": "https://github.com/IggyLabs/IggyLabsModules",
+  "donateUrl": "https://www.buymeacoffee.com/iggylabs",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "table",
+      "name": "table",
+      "description": "Wavetable oscillator for user-imported wavetables",
+      "tags": [
+        "oscillator",
+        "polyphonic"
+      ],
+      "manualUrl": "https://github.com/IggyLabs/IggyLabsModules/wiki/Oscillators#table"
+    }
+  ]
+}
