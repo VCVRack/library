@@ -511,3 +511,6 @@
 [submodule "repos/KautenjaDSP-RackNES"]
 	path = repos/KautenjaDSP-RackNES
 	url = https://github.com/Kautenja/RackNES.git
+[submodule "repos/IggyLabsModules"]
+	path = repos/IggyLabsModules
+	url = https://github.com/IggyLabs/IggyLabsModules.git
