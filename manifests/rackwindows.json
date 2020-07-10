@@ -1,0 +1,151 @@
+{
+  "slug": "rackwindows",
+  "name": "Rackwindows",
+  "version": "1.1.0",
+  "license": "MIT",
+  "brand": "Rackwindows",
+  "author": "Jens Robert Janke",
+  "authorEmail": "jensrobertjanke@gmail.com",
+  "authorUrl": "https://github.com/n0jo",
+  "pluginUrl": "https://github.com/n0jo/rackwindows",
+  "manualUrl": "https://github.com/n0jo/rackwindows/blob/master/readme.md",
+  "sourceUrl": "https://github.com/n0jo/rackwindows.git",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/n0jo/rackwindows/blob/master/changelog.md",
+  "modules": [
+    {
+      "slug": "bitshiftgain",
+      "name": "Dual BSG",
+      "description": "Dual gain shifter",
+      "tags": [
+        "Attenuator",
+        "Dual",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "capacitor",
+      "name": "Capacitor",
+      "description": "Filters (Mono)",
+      "tags": [
+        "Equalizer",
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "capacitor_stereo",
+      "name": "Capacitor Stereo",
+      "description": "Filters (Stereo)",
+      "tags": [
+        "Equalizer",
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "chorus",
+      "name": "Chorus",
+      "description": "Stereo chorus with multi-tap option",
+      "tags": [
+        "Chorus",
+        "Delay",
+        "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "console",
+      "name": "Console",
+      "description": "Stereo summing mixer",
+      "tags": [
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "distance",
+      "name": "Distance",
+      "description": "Far-away-izer",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "hombre",
+      "name": "Hombre",
+      "description": "Texas tone and texture",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "interstage",
+      "name": "Interstage",
+      "description": "Subtle analogifier",
+      "tags": [
+        "Effect",
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "mv",
+      "name": "MV",
+      "description": "Dual-mono reverb",
+      "tags": [
+        "Effect",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "reseq",
+      "name": "ResEQ",
+      "description": "Resonance equalizer",
+      "tags": [
+        "Equalizer",
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "tape",
+      "name": "Tape",
+      "description": "All-purpose tape mojo",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "tremolo",
+      "name": "Tremolo",
+      "description": "Fluctuating saturation curves",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "vibrato",
+      "name": "Vibrato",
+      "description": "FM vibrator o_O",
+      "tags": [
+        "Chorus",
+        "Clock generator",
+        "Effect",
+        "Flanger",
+        "Polyphonic",
+        "Utility"
+      ]
+    }
+  ]
+}

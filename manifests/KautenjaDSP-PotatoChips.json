@@ -1,0 +1,51 @@
+{
+  "slug": "KautenjaDSP-PotatoChips",
+  "version": "1.2.1",
+  "license": "GPL-3.0-or-later",
+  "name": "KautenjaDSP Potato Chips",
+  "brand": "KautenjaDSP",
+  "author": "Christian Kauten",
+  "authorEmail": "KautenjaDSP@gmail.com",
+  "authorUrl": "https://kautenja.github.io/",
+  "sourceUrl": "https://github.com/Kautenja/PotatoChips",
+  "changelogUrl": "https://github.com/Kautenja/PotatoChips/blob/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "2A03",
+      "name": "2A03",
+      "description": "An emulation of the Ricoh 2A03 audio processing unit.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/download/1.2.0/2A03.pdf",
+      "tags": [
+        "Oscillator",
+        "Noise"
+      ]
+    },
+    {
+      "slug": "VRC6",
+      "name": "VRC6",
+      "description": "An emulation of the Konami VRC6 audio processing unit.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/download/1.2.0/VRC6.pdf",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "106",
+      "name": "106",
+      "description": "An emulation of the Namco 106 audio processing unit.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/download/1.2.0/106.pdf",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "FME7",
+      "name": "FME7",
+      "description": "An emulation of the Sunsoft FME-7 audio processing unit.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/download/1.2.0/FME7.pdf",
+      "tags": [
+        "Oscillator"
+      ]
+    }
+  ]
+}

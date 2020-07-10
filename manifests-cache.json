@@ -7320,7 +7320,7 @@
     }
   },
   "FrozenWasteland": {
-    "buildTimestamp": 1594269723.001668,
+    "buildTimestamp": 1594395448.213897,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {
@@ -8014,11 +8014,14 @@
     }
   },
   "IggyLabsModules": {
-    "buildTimestamp": 1594269749.4188628,
+    "buildTimestamp": 1594395477.821144,
     "creationTimestamp": 1594269751.191527,
     "modules": {
       "table": {
         "creationTimestamp": 1594269751.4262383
+      },
+      "select": {
+        "creationTimestamp": 1594395484.2257426
       }
     }
   },
@@ -8028,6 +8031,69 @@
     "modules": {
       "SoundStage": {
         "creationTimestamp": 1594281849.8602555
+      }
+    }
+  },
+  "KautenjaDSP-PotatoChips": {
+    "buildTimestamp": 1594395125.3709013,
+    "creationTimestamp": 1594395479.9564288,
+    "modules": {
+      "2A03": {
+        "creationTimestamp": 1594395480.1542037
+      },
+      "VRC6": {
+        "creationTimestamp": 1594395480.3760235
+      },
+      "106": {
+        "creationTimestamp": 1594395480.6364884
+      },
+      "FME7": {
+        "creationTimestamp": 1594395480.8871474
+      }
+    }
+  },
+  "rackwindows": {
+    "buildTimestamp": 1594395203.879107,
+    "creationTimestamp": 1594395481.168588,
+    "modules": {
+      "bitshiftgain": {
+        "creationTimestamp": 1594395481.3981516
+      },
+      "capacitor": {
+        "creationTimestamp": 1594395481.614076
+      },
+      "capacitor_stereo": {
+        "creationTimestamp": 1594395481.824884
+      },
+      "chorus": {
+        "creationTimestamp": 1594395482.0391088
+      },
+      "console": {
+        "creationTimestamp": 1594395482.237692
+      },
+      "distance": {
+        "creationTimestamp": 1594395482.4380848
+      },
+      "hombre": {
+        "creationTimestamp": 1594395482.6452663
+      },
+      "interstage": {
+        "creationTimestamp": 1594395482.8663485
+      },
+      "mv": {
+        "creationTimestamp": 1594395483.0971732
+      },
+      "reseq": {
+        "creationTimestamp": 1594395483.345891
+      },
+      "tape": {
+        "creationTimestamp": 1594395483.5726662
+      },
+      "tremolo": {
+        "creationTimestamp": 1594395483.7814336
+      },
+      "vibrato": {
+        "creationTimestamp": 1594395483.987962
       }
     }
   }
