@@ -514,3 +514,6 @@
 [submodule "repos/IggyLabsModules"]
 	path = repos/IggyLabsModules
 	url = https://github.com/IggyLabs/IggyLabsModules.git
+[submodule "repos/KautenjaDSP-PotatoChips"]
+	path = repos/KautenjaDSP-PotatoChips
+	url = https://github.com/Kautenja/PotatoChips.git
