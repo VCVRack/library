@@ -517,3 +517,6 @@
 [submodule "repos/KautenjaDSP-PotatoChips"]
 	path = repos/KautenjaDSP-PotatoChips
 	url = https://github.com/Kautenja/PotatoChips.git
+[submodule "repos/rackwindows"]
+	path = repos/rackwindows
+	url = https://github.com/n0jo/rackwindows.git
