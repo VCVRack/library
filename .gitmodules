@@ -520,3 +520,6 @@
 [submodule "repos/rackwindows"]
 	path = repos/rackwindows
 	url = https://github.com/n0jo/rackwindows.git
+[submodule "repos/Truly"]
+	path = repos/Truly
+	url = https://github.com/travisat/Truly.git
