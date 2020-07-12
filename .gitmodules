@@ -523,3 +523,6 @@
 [submodule "repos/Truly"]
 	path = repos/Truly
 	url = https://github.com/travisat/Truly.git
+[submodule "repos/Dintree-Virtual"]
+	path = repos/Dintree-Virtual
+	url = https://github.com/hires/Dintree-Virtual.git
