@@ -1,0 +1,42 @@
+{
+  "slug": "Truly",
+  "name": "Truly",
+  "version": "1.0.2",
+  "license": "BSD-3-Clause",
+  "brand": "Truly",
+  "author": "Travis Thompson",
+  "authorEmail": "travisat@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/travisat/Truly",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "DasBut",
+      "name": "DasBut",
+      "description": "Push someone's buttons",
+      "tags": [
+        "controller"
+      ]
+    },
+    {
+      "slug": "DasButPoly",
+      "name": "DasButPoly",
+      "description": "Push me harder",
+      "tags": [
+        "controller",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "DasBut8",
+      "name": "DasBut8",
+      "description": "Hold on to your but",
+      "tags": [
+        "controller"
+      ]
+    }
+  ]
+}

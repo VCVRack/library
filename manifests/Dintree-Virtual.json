@@ -1,0 +1,27 @@
+{
+  "slug": "Dintree-Virtual",
+  "name": "Dintree",
+  "version": "1.0.4",
+  "license": "GPL-3.0-or-later",
+  "brand": "Dintree",
+  "author": "Andrew Kilpatrick",
+  "authorEmail": "dintree-mail@andrewkilpatrick.org",
+  "authorUrl": "http://www.dintree.com",
+  "pluginUrl": "https://github.com/hires/Dintree-Virtual",
+  "manualUrl": "https://github.com/hires/Dintree-Virtual/blob/master/README.md",
+  "sourceUrl": "https://github.com/hires/Dintree-Virtual",
+  "donateUrl": "https://paypal.me/elmood",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "V100-Scanner",
+      "name": "V100 Scanner",
+      "description": "CV and voltage-control source sequencer / scanner",
+      "tags": [
+        "Random",
+        "Sequencer",
+        "Utility"
+      ]
+    }
+  ]
+}
