@@ -1,6 +1,6 @@
 {
   "slug": "KautenjaDSP-PotatoChips",
-  "version": "1.2.1",
+  "version": "1.3.1",
   "license": "GPL-3.0-or-later",
   "name": "KautenjaDSP Potato Chips",
   "brand": "KautenjaDSP",
@@ -14,7 +14,7 @@
       "slug": "2A03",
       "name": "2A03",
       "description": "An emulation of the Ricoh 2A03 audio processing unit.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/download/1.2.0/2A03.pdf",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/2A03.pdf",
       "tags": [
         "Oscillator",
         "Noise"
@@ -24,16 +24,7 @@
       "slug": "VRC6",
       "name": "VRC6",
       "description": "An emulation of the Konami VRC6 audio processing unit.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/download/1.2.0/VRC6.pdf",
-      "tags": [
-        "Oscillator"
-      ]
-    },
-    {
-      "slug": "106",
-      "name": "106",
-      "description": "An emulation of the Namco 106 audio processing unit.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/download/1.2.0/106.pdf",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/VRC6.pdf",
       "tags": [
         "Oscillator"
       ]
@@ -42,7 +33,16 @@
       "slug": "FME7",
       "name": "FME7",
       "description": "An emulation of the Sunsoft FME-7 audio processing unit.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/download/1.2.0/FME7.pdf",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/FME7.pdf",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "106",
+      "name": "106",
+      "description": "An emulation of the Namco 106 wavetable audio processing unit.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/106.pdf",
       "tags": [
         "Oscillator"
       ]

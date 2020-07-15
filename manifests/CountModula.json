@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -931,6 +931,39 @@
       "description": "Arpeggiator with user definable patterns",
       "tags": [
         "Arpeggiator"
+      ]
+    },
+    {
+      "slug": "HyperManiacalLFO",
+      "name": "Hyper Maniacal LFO",
+      "description": "Complex LFO",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "HyperManiacalLFOExpander",
+      "name": "Hyper Maniacal LFO Output Expander",
+      "description": "Individual Outputs for the Hyper Maniacal LFO",
+      "tags": [
+        "LFO",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "LightStrip",
+      "name": "Light Strip",
+      "description": "Illuminated Blanking Panel",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Palette",
+      "name": "Cable Palette",
+      "description": "Cable colour picker",
+      "tags": [
+        "Utility"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "Dintree-Virtual",
   "name": "Dintree",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "license": "GPL-3.0-or-later",
   "brand": "Dintree",
   "author": "Andrew Kilpatrick",
@@ -17,10 +17,36 @@
       "slug": "V100-Scanner",
       "name": "V100 Scanner",
       "description": "CV and voltage-control source sequencer / scanner",
+      "manualUrl": "https://github.com/hires/Dintree-Virtual#V100-scanner",
       "tags": [
         "Random",
         "Sequencer",
         "Utility"
+      ]
+    },
+    {
+      "slug": "V101-Dual_Envelope",
+      "name": "V101 Dual Envelope",
+      "description": "Dual ADSR, AR and LFO Generator",
+      "manualUrl": "https://github.com/hires/Dintree-Virtual#V101-dual-envelope",
+      "tags": [
+        "Dual",
+        "Envelope Generator",
+        "LFO",
+        "Hardware"
+      ]
+    },
+    {
+      "slug": "V102-Output_Mixer",
+      "name": "V102 Output Mixer",
+      "description": "Four Input Mixer with Pan Pots and Output Level Meter",
+      "manualUrl": "https://github.com/hires/Dintree-Virtual#V102-output-mixer",
+      "tags": [
+        "Mixer",
+        "Pan",
+        "Quad",
+        "Utility",
+        "Hardware"
       ]
     }
   ]

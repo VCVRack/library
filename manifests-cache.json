@@ -2356,7 +2356,7 @@
     }
   },
   "Geodesics": {
-    "buildTimestamp": 1585237855.2191334,
+    "buildTimestamp": 1594797052.2819252,
     "creationTimestamp": 1534547467.0,
     "modules": {
       "BlackHoles": {
@@ -2761,7 +2761,7 @@
     }
   },
   "ModularFungi": {
-    "buildTimestamp": 1591780802.1734138,
+    "buildTimestamp": 1594796203.2808223,
     "creationTimestamp": 1539737109.0,
     "modules": {
       "Blank1HP": {
@@ -2799,6 +2799,9 @@
       },
       "LightsOff": {
         "creationTimestamp": 1591780925.6563892
+      },
+      "Opsylloscope": {
+        "creationTimestamp": 1594797086.482163
       }
     }
   },
@@ -4556,7 +4559,7 @@
     }
   },
   "CountModula": {
-    "buildTimestamp": 1588869443.7221947,
+    "buildTimestamp": 1594796944.6063392,
     "creationTimestamp": 1560722026.0,
     "modules": {
       "AnalogueShiftRegister": {
@@ -4870,6 +4873,18 @@
       },
       "Arpeggiator": {
         "creationTimestamp": 1588869627.7605753
+      },
+      "HyperManiacalLFO": {
+        "creationTimestamp": 1594797086.8178716
+      },
+      "HyperManiacalLFOExpander": {
+        "creationTimestamp": 1594797087.0353668
+      },
+      "LightStrip": {
+        "creationTimestamp": 1594797087.2838767
+      },
+      "Palette": {
+        "creationTimestamp": 1594797087.49433
       }
     }
   },
@@ -5216,7 +5231,7 @@
     "modules": {}
   },
   "GlueTheGiant": {
-    "buildTimestamp": 1580575811.8775542,
+    "buildTimestamp": 1594796025.6471024,
     "creationTimestamp": 1567863407.0,
     "modules": {
       "GigBus": {
@@ -7669,7 +7684,7 @@
     }
   },
   "LunettaModula": {
-    "buildTimestamp": 1591780775.5594816,
+    "buildTimestamp": 1594796167.9267485,
     "creationTimestamp": 1588869627.9631658,
     "modules": {
       "ADC": {
@@ -7816,7 +7831,7 @@
     }
   },
   "StudioSixPlusOne": {
-    "buildTimestamp": 1593627835.516539,
+    "buildTimestamp": 1594796364.4508636,
     "creationTimestamp": 1590117528.1900573,
     "modules": {
       "KSDelay": {
@@ -7921,7 +7936,7 @@
     }
   },
   "KautenjaDSP-RackNES": {
-    "buildTimestamp": 1593913971.9968486,
+    "buildTimestamp": 1594796303.4529197,
     "creationTimestamp": 1592705960.088049,
     "modules": {
       "RackNES": {
@@ -8014,7 +8029,7 @@
     }
   },
   "IggyLabsModules": {
-    "buildTimestamp": 1594395477.821144,
+    "buildTimestamp": 1594797084.8192728,
     "creationTimestamp": 1594269751.191527,
     "modules": {
       "table": {
@@ -8035,7 +8050,7 @@
     }
   },
   "KautenjaDSP-PotatoChips": {
-    "buildTimestamp": 1594395125.3709013,
+    "buildTimestamp": 1594796252.8585272,
     "creationTimestamp": 1594395479.9564288,
     "modules": {
       "2A03": {
@@ -8113,11 +8128,17 @@
     }
   },
   "Dintree-Virtual": {
-    "buildTimestamp": 1594665473.2570589,
+    "buildTimestamp": 1594796970.3602114,
     "creationTimestamp": 1594665475.9179342,
     "modules": {
       "V100-Scanner": {
         "creationTimestamp": 1594665476.1945503
+      },
+      "V101-Dual_Envelope": {
+        "creationTimestamp": 1594797087.7597544
+      },
+      "V102-Output_Mixer": {
+        "creationTimestamp": 1594797087.9723127
       }
     }
   }
