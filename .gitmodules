@@ -526,3 +526,6 @@
 [submodule "repos/Dintree-Virtual"]
 	path = repos/Dintree-Virtual
 	url = https://github.com/hires/Dintree-Virtual.git
+[submodule "repos/Atelier"]
+	path = repos/Atelier
+	url = https://github.com/Xenakios/Atelier.git
