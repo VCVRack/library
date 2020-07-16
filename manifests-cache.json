@@ -8141,5 +8141,14 @@
         "creationTimestamp": 1594797087.9723127
       }
     }
+  },
+  "Atelier": {
+    "buildTimestamp": 1594865271.9513671,
+    "creationTimestamp": 1594864809.245203,
+    "modules": {
+      "AtelierPalette": {
+        "creationTimestamp": 1594864809.4765267
+      }
+    }
   }
 }

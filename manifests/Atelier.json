@@ -1,0 +1,26 @@
+{
+  "slug": "Atelier",
+  "name": "Atelier",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "Atelier",
+  "author": "Xenakios",
+  "authorEmail": "xenakios@gmail.com",
+  "authorUrl": "https://xenakios.wordpress.com/",
+  "pluginUrl": "https://xenakios.wordpress.com/",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/Xenakios/Atelier",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "AtelierPalette",
+      "name": "Palette",
+      "description": "Based on Mutable Instruments Plaits",
+      "tags": [
+        "Oscillator",
+        "Hardware",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
