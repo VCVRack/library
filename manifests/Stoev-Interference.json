@@ -1,0 +1,27 @@
+{
+  "slug": "Stoev-Interference",
+  "name": "Interference",
+  "version": "1.1.0",
+  "license": "proprietary",
+  "brand": "Stoev",
+  "author": "Stoev",
+  "authorEmail": "support@stoevlab.com",
+  "authorUrl": "https://www.stoevlab.com",
+  "pluginUrl": "https://www.stoevlab.com/software/stoev-modules#interference",
+  "manualUrl": "https://www.stoevlab.com/software/stoev-modules#interference",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Interference",
+      "name": "Interference",
+      "description": "Poly rhythm generator",
+      "tags": [
+        "Sequencer",
+        "Clock generator",
+        "Clock modulator"
+      ]
+    }
+  ]
+}
