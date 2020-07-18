@@ -2410,7 +2410,7 @@
     }
   },
   "squinkylabs-plug1": {
-    "buildTimestamp": 1588109903.2899172,
+    "buildTimestamp": 1595057904.6331515,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {
@@ -2484,6 +2484,18 @@
       },
       "squinkylabs-funv": {
         "creationTimestamp": 1559231249.0
+      },
+      "squinkylabs-chaoskitty": {
+        "creationTimestamp": 1595057941.725771
+      },
+      "squinkylabs-dvg": {
+        "creationTimestamp": 1595057942.0647855
+      },
+      "squinkylabs-wvco": {
+        "creationTimestamp": 1595057942.3097763
+      },
+      "squinkylabs-sub": {
+        "creationTimestamp": 1595057942.5306096
       }
     }
   },
@@ -8050,7 +8062,7 @@
     }
   },
   "KautenjaDSP-PotatoChips": {
-    "buildTimestamp": 1594864329.229103,
+    "buildTimestamp": 1595057530.8907323,
     "creationTimestamp": 1594395479.9564288,
     "modules": {
       "2A03": {
@@ -8128,7 +8140,7 @@
     }
   },
   "Dintree-Virtual": {
-    "buildTimestamp": 1594796970.3602114,
+    "buildTimestamp": 1595057940.3812938,
     "creationTimestamp": 1594665475.9179342,
     "modules": {
       "V100-Scanner": {
@@ -8139,6 +8151,18 @@
       },
       "V102-Output_Mixer": {
         "creationTimestamp": 1594797087.9723127
+      },
+      "V103-Reverb_Delay": {
+        "creationTimestamp": 1595057942.7926311
+      },
+      "V104-Four_Vs": {
+        "creationTimestamp": 1595057943.0320537
+      },
+      "V105-Quad_CV_Proc": {
+        "creationTimestamp": 1595057943.2338188
+      },
+      "V107-Dual_Slew": {
+        "creationTimestamp": 1595057943.43813
       }
     }
   },

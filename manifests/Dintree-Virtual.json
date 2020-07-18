@@ -1,7 +1,7 @@
 {
   "slug": "Dintree-Virtual",
   "name": "Dintree",
-  "version": "1.0.6",
+  "version": "1.0.10",
   "license": "GPL-3.0-or-later",
   "brand": "Dintree",
   "author": "Andrew Kilpatrick",
@@ -47,6 +47,54 @@
         "Quad",
         "Utility",
         "Hardware"
+      ]
+    },
+    {
+      "slug": "V103-Reverb_Delay",
+      "name": "V103 Reverb Delay",
+      "description": "Stereo Reverb and Delay Digital Effects Processor",
+      "manualUrl": "https://github.com/hires/Dintree-Virtual#V103-reverb-delay",
+      "tags": [
+        "Delay",
+        "Digital",
+        "Effect",
+        "Hardware",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "V104-Four_Vs",
+      "name": "V104 Four Vs",
+      "description": "Four Channel Voltage Source",
+      "manualUrl": "https://github.com/hires/Dintree-Virtual#V104-four_vs",
+      "tags": [
+        "Controller",
+        "Hardware",
+        "Quad",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "V105-Quad_CV_Proc",
+      "name": "V105 Quad CV Proc",
+      "description": "Quad Control Voltage Processor",
+      "manualUrl": "https://github.com/hires/Dintree-Virtual#V105-quad-cv-proc",
+      "tags": [
+        "Attenuator",
+        "Mixer",
+        "Quad",
+        "Hardware"
+      ]
+    },
+    {
+      "slug": "V107-Dual_Slew",
+      "name": "V107 Dual Slew",
+      "description": "Dual Slew Rate Limiter",
+      "manualUrl": "https://github.com/hires/Dintree-Virtual#V107-dual-slew",
+      "tags": [
+        "Dual",
+        "Hardware",
+        "Slew Limiter"
       ]
     }
   ]
