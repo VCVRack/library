@@ -749,7 +749,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1588110705.6993463,
+    "buildTimestamp": 1595520288.8270383,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -1006,6 +1006,30 @@
       },
       "Bogaudio-Inv": {
         "creationTimestamp": 1587750658.4621515
+      },
+      "Bogaudio-PEQ": {
+        "creationTimestamp": 1595520294.513043
+      },
+      "Bogaudio-PEQ6": {
+        "creationTimestamp": 1595520295.0378115
+      },
+      "Bogaudio-PEQ6XF": {
+        "creationTimestamp": 1595520295.5257378
+      },
+      "Bogaudio-PEQ14": {
+        "creationTimestamp": 1595520295.8855073
+      },
+      "Bogaudio-PEQ14XF": {
+        "creationTimestamp": 1595520296.1668925
+      },
+      "Bogaudio-Mix2": {
+        "creationTimestamp": 1595520296.4452791
+      },
+      "Bogaudio-CmpDist": {
+        "creationTimestamp": 1595520296.713835
+      },
+      "Bogaudio-FourMan": {
+        "creationTimestamp": 1595520297.1383526
       }
     }
   },
@@ -8173,7 +8197,7 @@
     }
   },
   "Atelier": {
-    "buildTimestamp": 1594865271.9513671,
+    "buildTimestamp": 1595519392.3593562,
     "creationTimestamp": 1594864809.245203,
     "modules": {
       "AtelierPalette": {

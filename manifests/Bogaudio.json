@@ -1,7 +1,7 @@
 {
   "slug": "Bogaudio",
   "name": "Bogaudio",
-  "version": "1.1.31",
+  "version": "1.1.32",
   "license": "GPL-3.0-or-later",
   "brand": "Bogaudio",
   "author": "Matt Demanett",
@@ -164,6 +164,59 @@
       ]
     },
     {
+      "slug": "Bogaudio-PEQ",
+      "name": "PEQ",
+      "description": "3-channel parametric equalizer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#peq",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-PEQ6",
+      "name": "PEQ6",
+      "description": "6-channel parametric equalizer / filter bank",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#peq6",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-PEQ6XF",
+      "name": "PEQ6XF",
+      "description": "PEQ6 envelope followers expander",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#peq6xf",
+      "tags": [
+        "Filter",
+        "Expander",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-PEQ14",
+      "name": "PEQ14",
+      "description": "14-channel parametric equalizer / filter bank",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#peq14",
+      "tags": [
+        "Filter",
+        "Vocoder",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-PEQ14XF",
+      "name": "PEQ14XF",
+      "description": "PEQ14 envelope followers expander",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#peq14xf",
+      "tags": [
+        "Filter",
+        "Expander",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Bogaudio-DADSRH",
       "name": "DADSR(H)",
       "description": "Advanced envelope generator",
@@ -289,10 +342,12 @@
     {
       "slug": "Bogaudio-Walk2",
       "name": "WALK2",
-      "description": "2-channel random-walk CV source",
+      "description": "2D random-walk and X/Y controller",
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#walk2",
       "tags": [
-        "Random"
+        "Random",
+        "Sample and hold",
+        "Controller"
       ]
     },
     {
@@ -302,6 +357,7 @@
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#walk",
       "tags": [
         "Random",
+        "Sample and hold",
         "Polyphonic"
       ]
     },
@@ -346,9 +402,19 @@
       ]
     },
     {
+      "slug": "Bogaudio-Mix2",
+      "name": "MIX2",
+      "description": "Stereo fader/amplifier with CV-controllable mute",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#mix2",
+      "tags": [
+        "VCA",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Bogaudio-Mix1",
       "name": "MIX1",
-      "description": "Fader/amplifier with CV controllable mute",
+      "description": "Fader/amplifier with CV-controllable mute",
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#mix1",
       "tags": [
         "VCA",
@@ -536,6 +602,17 @@
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#nsgt",
       "tags": [
         "Dynamics",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-CmpDist",
+      "name": "CMPDIST",
+      "description": "Comparator-based distortion",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#cmpdist",
+      "tags": [
+        "Distortion",
+        "Effect",
         "Polyphonic"
       ]
     },
@@ -787,6 +864,16 @@
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#manual",
       "tags": [
         "Controller"
+      ]
+    },
+    {
+      "slug": "Bogaudio-FourMan",
+      "name": "4MAN",
+      "description": "Quad button-controlled gates / triggers",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#fourman",
+      "tags": [
+        "Controller",
+        "Quad"
       ]
     },
     {
