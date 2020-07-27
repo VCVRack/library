@@ -1,22 +1,23 @@
 {
   "slug": "AriaSalvatrice",
   "name": "Aria Salvatrice",
-  "version": "1.4.2",
-  "license": "WTFPL",
+  "version": "1.6.1",
+  "license": "GPL-3.0-only",
   "brand": "Aria Salvatrice",
   "author": "Aria Salvatrice",
   "authorEmail": "woof@aria.dog",
   "authorUrl": "https://aria.dog/",
-  "pluginUrl": "https://github.com/AriaSalvatrice/AriaVCVModules",
-  "manualUrl": "https://github.com/AriaSalvatrice/AriaVCVModules",
+  "pluginUrl": "https://aria.dog/modules/",
+  "manualUrl": "https://aria.dog/modules/",
   "sourceUrl": "https://github.com/AriaSalvatrice/AriaVCVModules",
-  "donateUrl": "",
+  "donateUrl": "https://aria.dog/modules/donations",
   "changelogUrl": "https://github.com/AriaSalvatrice/AriaVCVModules/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "Splort",
       "name": "Signature Series Splort",
       "description": "16 channels polyphonic split with optional linkable sort mode",
+      "manualUrl": "https://aria.dog/modules/splitmerge",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -27,6 +28,7 @@
       "slug": "Smerge",
       "name": "Signature Series Smerge",
       "description": "16 channels polyphonic merge with optional linkable sort mode",
+      "manualUrl": "https://aria.dog/modules/splitmerge",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -37,6 +39,7 @@
       "slug": "Spleet",
       "name": "Signature Series Spleet",
       "description": "Dual 4 channels / single 8 channels polyphonic split with optional sort mode",
+      "manualUrl": "https://aria.dog/modules/splitmerge",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -48,6 +51,7 @@
       "slug": "Swerge",
       "name": "Signature Series Swerge",
       "description": "Dual 4 channels / single 8 channels polyphonic merge with optional sort mode",
+      "manualUrl": "https://aria.dog/modules/splitmerge",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -59,6 +63,7 @@
       "slug": "Splirge",
       "name": "Signature Series Splirge",
       "description": "4 channels polyphonic split and merge with optional sort mode",
+      "manualUrl": "https://aria.dog/modules/splitmerge",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -66,9 +71,85 @@
       ]
     },
     {
+      "slug": "Qqqq",
+      "name": "Quatherina's Quality Quad Quantizer",
+      "description": "Quatherina the Quantum Duck's Quantizer with custom & external scales, 16 scenes, offset, sample and hold,\ntransposition, lead sheet chords parsing, 4 polyphonic quantizer columns, and a licensed illustration of Quatherina",
+      "manualUrl": "https://aria.dog/modules/qqqq",
+      "tags": [
+        "Quantizer",
+        "Polyphonic",
+        "Quad",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Quack",
+      "name": "Quatherina's Quack",
+      "description": "Quatherina the Quantum Duck's smaller quantizer",
+      "manualUrl": "https://aria.dog/modules/qqqq",
+      "tags": [
+        "Quantizer",
+        "Polyphonic",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Q",
+      "name": "Quatherina's Q<",
+      "description": "Quatherina the Quantum Duck's tiny quantizer - external or expander input only",
+      "manualUrl": "https://aria.dog/modules/qqqq",
+      "tags": [
+        "Quantizer",
+        "Polyphonic",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Quale",
+      "name": "Quatherina's Quale",
+      "description": "Convert chords to scales and scales to chords, using Poly External Scale representation",
+      "manualUrl": "https://aria.dog/modules/qqqq",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Expander"
+      ]
+    },
+    {
       "slug": "Darius",
       "name": "Signature Series Darius",
       "description": "Branching 8-step sequencer taking a random path through its nodes",
+      "manualUrl": "https://aria.dog/modules/darius",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Solomon4",
+      "name": "Signature Series Modulellus Salomonis Regis",
+      "description": "4-step sequencer conjuring grand knowledge of the arts for those who self-patch pleasing sigils",
+      "manualUrl": "https://aria.dog/modules/modulus",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Solomon8",
+      "name": "Signature Series Modulus Salomonis Regis",
+      "description": "8-step sequencer conjuring stupendous knowledge of the arts for those who self-patch pleasing sigils",
+      "manualUrl": "https://aria.dog/modules/modulus",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Solomon16",
+      "name": "Signature Series Modulissimus Salomonis Regis",
+      "description": "16-step sequencer conjuring transmundane knowledge of the arts for those who self-patch pleasing sigils",
+      "manualUrl": "https://aria.dog/modules/modulus",
       "tags": [
         "Sequencer",
         "Random"
@@ -78,6 +159,7 @@
       "slug": "Arcane",
       "name": "Signature Series Arcane",
       "description": "Today's fortune \u2605",
+      "manualUrl": "https://aria.dog/modules/arcane",
       "tags": [
         "Random",
         "Clock generator",
@@ -90,6 +172,7 @@
       "slug": "Atout",
       "name": "Signature Series Atout",
       "description": "Today's fortune \u2605",
+      "manualUrl": "https://aria.dog/modules/arcane",
       "tags": [
         "Random",
         "Clock generator",
@@ -102,6 +185,7 @@
       "slug": "Aleister",
       "name": "Signature Series Aleister",
       "description": "Today's fortune \u2605",
+      "manualUrl": "https://aria.dog/modules/arcane",
       "tags": [
         "Random",
         "Clock generator",
@@ -114,7 +198,8 @@
     {
       "slug": "Undular",
       "name": "Signature Series Undular",
-      "description": "Scroll the rack via CV for live performance. If locked by mistake: Engine > Sample Rate > Pause",
+      "description": "Scroll the rack via CV for live performance. After initialization, waits 10 seconds before processing signals.\nIf locked out by mistake, save your patch and reload it, you will have 10 seconds to unplug UnDuLaR",
+      "manualUrl": "https://aria.dog/modules/undular",
       "tags": [
         "Controller",
         "Visual"
@@ -124,6 +209,7 @@
       "slug": "Blank",
       "name": "Signature Series 8hp Blank Plate",
       "description": "A complimentary blank plate and \u2665-head screwdriver are included with every Signature Series module purchase",
+      "manualUrl": "https://aria.dog/modules/blank",
       "tags": [
         "Blank"
       ]
