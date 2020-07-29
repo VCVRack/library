@@ -749,7 +749,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1595520288.8270383,
+    "buildTimestamp": 1596034394.3497224,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -7395,7 +7395,7 @@
     }
   },
   "FrozenWasteland": {
-    "buildTimestamp": 1595806279.4644852,
+    "buildTimestamp": 1596034692.186356,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {
@@ -7660,7 +7660,7 @@
     "modules": {}
   },
   "Ahornberg": {
-    "buildTimestamp": 1591780923.5194774,
+    "buildTimestamp": 1596034447.821507,
     "creationTimestamp": 1562952023.0,
     "modules": {
       "EqualDivision": {
@@ -7668,6 +7668,12 @@
       },
       "Metronome": {
         "creationTimestamp": 1591780928.2264493
+      },
+      "CVFreqShift": {
+        "creationTimestamp": 1596034693.836263
+      },
+      "Harmonizer": {
+        "creationTimestamp": 1596034694.0627177
       }
     }
   },
@@ -8191,7 +8197,7 @@
     }
   },
   "Dintree-Virtual": {
-    "buildTimestamp": 1595057940.3812938,
+    "buildTimestamp": 1596034482.5860019,
     "creationTimestamp": 1594665475.9179342,
     "modules": {
       "V100-Scanner": {
