@@ -1,0 +1,54 @@
+{
+  "slug": "ChowDSP",
+  "name": "ChowDSP",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "brand": "chowdsp",
+  "author": "Jatin Chowdhury",
+  "authorEmail": "jatin@ccmra.stanford.edu",
+  "authorUrl": "https://ccrma.stanford.edu/~jatin/chowdsp",
+  "pluginUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV",
+  "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/README.md#modules",
+  "sourceUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV",
+  "donateUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=93S67ZSKMBG68&source=url",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ChowTape",
+      "name": "ChowTape",
+      "description": "Analog tape emulation",
+      "tags": [
+        "Effect",
+        "Distortion",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "ChowPhaserFeedback",
+      "name": "ChowPhaserFeedback",
+      "description": "A feedback phaser",
+      "tags": [
+        "Effect",
+        "Phaser"
+      ]
+    },
+    {
+      "slug": "ChowPhaserMod",
+      "name": "ChowPhaserMod",
+      "description": "A modulation phaser",
+      "tags": [
+        "Effect",
+        "Phaser"
+      ]
+    },
+    {
+      "slug": "ChowFDN",
+      "name": "ChowFDN",
+      "description": "Feedback delay network reverb",
+      "tags": [
+        "Effect",
+        "Reverb"
+      ]
+    }
+  ]
+}

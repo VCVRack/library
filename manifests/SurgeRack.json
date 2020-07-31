@@ -1,7 +1,7 @@
 {
   "slug": "SurgeRack",
   "name": "Surge for Rack",
-  "version": "1.beta1.4",
+  "version": "1.7.0",
   "license": "GPL-3.0-or-later",
   "author": "The Surge Team",
   "authorEmail": "",
@@ -82,6 +82,16 @@
       ]
     },
     {
+      "slug": "SurgeReverb2",
+      "name": "SurgeReverb2",
+      "description": "The Surge reverb (second one)",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Reverb"
+      ]
+    },
+    {
       "slug": "SurgeFreqShift",
       "name": "SurgeFreqShift",
       "description": "The Surge frequency shifter",
@@ -99,6 +109,26 @@
         "Polyphonic",
         "Limiter",
         "EQ"
+      ]
+    },
+    {
+      "slug": "SurgeFlanger",
+      "name": "SurgeFlanger",
+      "description": "The Surge flanger effect",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Flanger"
+      ]
+    },
+    {
+      "slug": "SurgeRingMod",
+      "name": "SurgeRingMod",
+      "description": "The Surge ring modulator effect",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Ring Modulator"
       ]
     },
     {

@@ -426,7 +426,7 @@
     }
   },
   "SurgeRack": {
-    "buildTimestamp": 1573918545.2527554,
+    "buildTimestamp": 1596178134.0673938,
     "creationTimestamp": 1561132770.0,
     "modules": {
       "SurgeDelay": {
@@ -485,6 +485,15 @@
       },
       "SurgePatchPlayer": {
         "creationTimestamp": 1561132770.0
+      },
+      "SurgeReverb2": {
+        "creationTimestamp": 1596178134.719035
+      },
+      "SurgeFlanger": {
+        "creationTimestamp": 1596178134.9277763
+      },
+      "SurgeRingMod": {
+        "creationTimestamp": 1596178135.135228
       }
     }
   },
@@ -8095,7 +8104,7 @@
     }
   },
   "IggyLabsModules": {
-    "buildTimestamp": 1594797084.8192728,
+    "buildTimestamp": 1596177757.3653467,
     "creationTimestamp": 1594269751.191527,
     "modules": {
       "table": {
@@ -8103,6 +8112,9 @@
       },
       "select": {
         "creationTimestamp": 1594395484.2257426
+      },
+      "more-ideas": {
+        "creationTimestamp": 1596178135.6102302
       }
     }
   },
@@ -8137,7 +8149,7 @@
     }
   },
   "rackwindows": {
-    "buildTimestamp": 1594395203.879107,
+    "buildTimestamp": 1596177727.867997,
     "creationTimestamp": 1594395481.168588,
     "modules": {
       "bitshiftgain": {
@@ -8178,6 +8190,9 @@
       },
       "vibrato": {
         "creationTimestamp": 1594395483.987962
+      },
+      "holt": {
+        "creationTimestamp": 1596178135.3625333
       }
     }
   },
@@ -8238,6 +8253,24 @@
     "modules": {
       "Interference": {
         "creationTimestamp": 1594865423.2429962
+      }
+    }
+  },
+  "ChowDSP": {
+    "buildTimestamp": 1596177666.9832532,
+    "creationTimestamp": 1596178135.934532,
+    "modules": {
+      "ChowTape": {
+        "creationTimestamp": 1596178136.1919043
+      },
+      "ChowPhaserFeedback": {
+        "creationTimestamp": 1596178136.4050467
+      },
+      "ChowPhaserMod": {
+        "creationTimestamp": 1596178136.621086
+      },
+      "ChowFDN": {
+        "creationTimestamp": 1596178136.8302577
       }
     }
   }
