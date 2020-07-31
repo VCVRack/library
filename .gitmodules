@@ -529,3 +529,6 @@
 [submodule "repos/Atelier"]
 	path = repos/Atelier
 	url = https://github.com/Xenakios/Atelier.git
+[submodule "repos/ChowDSP"]
+	path = repos/ChowDSP
+	url = https://github.com/jatinchowdhury18/ChowDSP-VCV.git
