@@ -1,6 +1,6 @@
 {
   "slug": "KautenjaDSP-PotatoChips",
-  "version": "1.4.0",
+  "version": "1.4.2",
   "license": "GPL-3.0-or-later",
   "name": "KautenjaDSP Potato Chips",
   "brand": "KautenjaDSP",
@@ -13,7 +13,7 @@
     {
       "slug": "VRC6",
       "name": "VRC6",
-      "description": "An emulation of the Konami VRC6 audio processing unit.",
+      "description": "An emulation of the Konami VRC6 chip.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/VRC6.pdf",
       "tags": [
         "Oscillator"
@@ -22,7 +22,7 @@
     {
       "slug": "106",
       "name": "106",
-      "description": "An emulation of the Namco 106 wavetable audio processing unit.",
+      "description": "An emulation of the Namco 106 wavetable chip.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/106.pdf",
       "tags": [
         "Oscillator"
@@ -31,7 +31,7 @@
     {
       "slug": "2A03",
       "name": "2A03",
-      "description": "An emulation of the Ricoh 2A03 audio processing unit from the Nintendo Entertainment System (NES).",
+      "description": "An emulation of the Ricoh 2A03 chip from the Nintendo Entertainment System.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/2A03.pdf",
       "tags": [
         "Oscillator",
@@ -41,7 +41,7 @@
     {
       "slug": "FME7",
       "name": "FME7",
-      "description": "An emulation of the Sunsoft FME-7 audio processing unit.",
+      "description": "An emulation of the Sunsoft FME-7 chip.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/FME7.pdf",
       "tags": [
         "Oscillator"
@@ -50,7 +50,7 @@
     {
       "slug": "SN76489",
       "name": "SN76489",
-      "description": "An emulation of the Texas Instruments SN76489 audio processing unit from the Sega Master System (SMS).",
+      "description": "An emulation of the Texas Instruments SN76489 chip from the Sega Master System.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/sn76489.pdf",
       "tags": [
         "Oscillator",
