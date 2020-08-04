@@ -1,11 +1,104 @@
 {
-  "name": "Grayscale",
-  "author": "VCV",
-  "license": "proprietary",
-  "pluginUrl": "https://vcvrack.com/Grayscale.html",
-  "authorUrl": "https://vcvrack.com/",
-  "authorEmail": "contact@vcvrack.com",
-  "manualUrl": "https://vcvrack.com/Grayscale.html#manual",
   "slug": "Grayscale",
-  "version": "0.6.0"
+  "name": "Grayscale",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://grayscale.info/",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Algorhythm",
+      "name": "Algorhythm",
+      "description": "8-channel polyrhythmic trigger sequencer",
+      "modularGridUrl": "https://www.modulargrid.net/e/grayscale-algorhythm",
+      "manualUrl": "https://grayscale.info/algorhythm/",
+      "tags": [
+        "sequencer",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Binary",
+      "name": "Binary",
+      "description": "Logic gate processor",
+      "modularGridUrl": "https://www.modulargrid.net/e/grayscale-binary",
+      "manualUrl": "https://grayscale.info/binary/",
+      "tags": [
+        "logic",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Binary2",
+      "name": "Binary\u00b2",
+      "description": "Logic gate processor",
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "slug": "Permutation18",
+      "name": "Permutation (18hp)",
+      "description": "Random sequencer based on the Turing Machine",
+      "modularGridUrl": "https://www.modulargrid.net/e/grayscale-permutation-18hp",
+      "manualUrl": "https://grayscale.info/permutation/",
+      "tags": [
+        "sequencer",
+        "random",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Permutation12",
+      "name": "Permutation (12hp)",
+      "description": "Random sequencer based on the Turing Machine",
+      "modularGridUrl": "https://www.modulargrid.net/e/grayscale-permutation-12hp",
+      "manualUrl": "https://grayscale.info/permutation/",
+      "tags": [
+        "sequencer",
+        "random",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Permutation6",
+      "name": "Permutation (6hp)",
+      "description": "Random sequencer based on the Turing Machine",
+      "modularGridUrl": "https://www.modulargrid.net/e/grayscale-permutation-6hp",
+      "manualUrl": "https://grayscale.info/permutation/",
+      "tags": [
+        "sequencer",
+        "random",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Variant",
+      "name": "Variant",
+      "description": "Expander for Permutation",
+      "modularGridUrl": "https://www.modulargrid.net/e/grayscale-variant-expander",
+      "manualUrl": "https://grayscale.info/supercell/",
+      "tags": [
+        "sequencer",
+        "random",
+        "expander",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Supercell",
+      "name": "Supercell",
+      "description": "Expanded version of Clouds by Mutable Instruments",
+      "modularGridUrl": "https://www.modulargrid.net/e/grayscale-supercell-aluminum-panel",
+      "manualUrl": "https://grayscale.info/supercell/",
+      "tags": [
+        "Granular",
+        "Reverb",
+        "Hardware clone"
+      ]
+    }
+  ]
 }

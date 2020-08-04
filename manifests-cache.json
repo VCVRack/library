@@ -4386,9 +4386,34 @@
     "modules": {}
   },
   "Grayscale": {
-    "buildTimestamp": 1522254178.5796423,
+    "buildTimestamp": 1596540369.0238628,
     "creationTimestamp": 1518016501.0,
-    "modules": {}
+    "modules": {
+      "Algorhythm": {
+        "creationTimestamp": 1596540370.5895329
+      },
+      "Binary": {
+        "creationTimestamp": 1596540370.93662
+      },
+      "Binary2": {
+        "creationTimestamp": 1596540371.1604507
+      },
+      "Permutation18": {
+        "creationTimestamp": 1596540371.4043617
+      },
+      "Permutation12": {
+        "creationTimestamp": 1596540371.629063
+      },
+      "Permutation6": {
+        "creationTimestamp": 1596540371.8402054
+      },
+      "Variant": {
+        "creationTimestamp": 1596540372.0683422
+      },
+      "Supercell": {
+        "creationTimestamp": 1596540372.2773771
+      }
+    }
   },
   "ReTunesFree": {
     "buildTimestamp": 1576593010.3715522,

@@ -1179,5 +1179,54 @@
     "vcvUrl": "https://library.vcvrack.com/AlrightDevices/Zzzorb",
     "mgUrl": "https://www.modulargrid.net/e/alright-devices-zzzorb",
     "mgModuleId": 26809
+  },
+  {
+    "pluginSlug": "Grayscale",
+    "moduleSlug": "Algorhythm",
+    "vcvUrl": "https://library.vcvrack.com/Grayscale/Algorhythm",
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-algorhythm",
+    "mgModuleId": 3724
+  },
+  {
+    "pluginSlug": "Grayscale",
+    "moduleSlug": "Binary",
+    "vcvUrl": "https://library.vcvrack.com/Grayscale/Binary",
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-binary",
+    "mgModuleId": 3725
+  },
+  {
+    "pluginSlug": "Grayscale",
+    "moduleSlug": "Permutation18",
+    "vcvUrl": "https://library.vcvrack.com/Grayscale/Permutation18",
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-permutation-18hp",
+    "mgModuleId": 12617
+  },
+  {
+    "pluginSlug": "Grayscale",
+    "moduleSlug": "Permutation12",
+    "vcvUrl": "https://library.vcvrack.com/Grayscale/Permutation12",
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-permutation-12hp",
+    "mgModuleId": 12637
+  },
+  {
+    "pluginSlug": "Grayscale",
+    "moduleSlug": "Permutation6",
+    "vcvUrl": "https://library.vcvrack.com/Grayscale/Permutation6",
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-permutation-6hp",
+    "mgModuleId": 15493
+  },
+  {
+    "pluginSlug": "Grayscale",
+    "moduleSlug": "Variant",
+    "vcvUrl": "https://library.vcvrack.com/Grayscale/Variant",
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-variant-expander",
+    "mgModuleId": 12635
+  },
+  {
+    "pluginSlug": "Grayscale",
+    "moduleSlug": "Supercell",
+    "vcvUrl": "https://library.vcvrack.com/Grayscale/Supercell",
+    "mgUrl": "https://www.modulargrid.net/e/grayscale-supercell-aluminum-panel",
+    "mgModuleId": 16367
   }
 ]
