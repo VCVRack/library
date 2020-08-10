@@ -9,8 +9,15 @@
   "manualUrl": "https://github.com/jeremywen/JW-Modules#jw-modules",
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "modules": [
+    {
+      "slug": "BlankPanel_1HP",
+      "name": "Blank Panel (1HP)",
+      "tags": [
+        "Visual"
+      ]
+    },
     {
       "slug": "BlankPanel_SM",
       "name": "Blank Panel (Small)",
@@ -123,6 +130,23 @@
       ]
     },
     {
+      "slug": "D1v1de",
+      "name": "D1v1de",
+      "description": "Clock Divider",
+      "tags": [
+        "Clock modulator",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Pres1t",
+      "name": "Pres1t",
+      "description": "Voltage Storage",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
       "slug": "ThingThing",
       "name": "Thing Thing",
       "tags": [
@@ -142,10 +166,7 @@
       "name": "XY Pad",
       "tags": [
         "LFO",
-        "Envelope Generator",
-        "Random",
-        "Oscillator",
-        "Sample and Hold"
+        "Random"
       ]
     }
   ]

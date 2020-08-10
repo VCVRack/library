@@ -426,7 +426,7 @@
     }
   },
   "SurgeRack": {
-    "buildTimestamp": 1596178134.0673938,
+    "buildTimestamp": 1597098559.31207,
     "creationTimestamp": 1561132770.0,
     "modules": {
       "SurgeDelay": {
@@ -2806,7 +2806,7 @@
     }
   },
   "ModularFungi": {
-    "buildTimestamp": 1594864260.30772,
+    "buildTimestamp": 1597098016.581315,
     "creationTimestamp": 1539737109.0,
     "modules": {
       "Blank1HP": {
@@ -3004,7 +3004,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1582438078.1431234,
+    "buildTimestamp": 1597098178.8178077,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -3060,6 +3060,15 @@
       },
       "XYPad": {
         "creationTimestamp": 1558658826.0
+      },
+      "BlankPanel_1HP": {
+        "creationTimestamp": 1597098562.2316253
+      },
+      "D1v1de": {
+        "creationTimestamp": 1597098562.529716
+      },
+      "Pres1t": {
+        "creationTimestamp": 1597098562.7365568
       }
     }
   },
@@ -8129,7 +8138,7 @@
     }
   },
   "IggyLabsModules": {
-    "buildTimestamp": 1596177757.3653467,
+    "buildTimestamp": 1597098208.0783825,
     "creationTimestamp": 1594269751.191527,
     "modules": {
       "table": {
@@ -8153,7 +8162,7 @@
     }
   },
   "KautenjaDSP-PotatoChips": {
-    "buildTimestamp": 1596395990.0063562,
+    "buildTimestamp": 1597098089.7360668,
     "creationTimestamp": 1594395479.9564288,
     "modules": {
       "2A03": {
@@ -8170,6 +8179,15 @@
       },
       "SN76489": {
         "creationTimestamp": 1595344536.574902
+      },
+      "AY_3_8910": {
+        "creationTimestamp": 1597098561.2891886
+      },
+      "POKEY": {
+        "creationTimestamp": 1597098561.610536
+      },
+      "GBS": {
+        "creationTimestamp": 1597098561.9382496
       }
     }
   },
