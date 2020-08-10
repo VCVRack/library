@@ -1,13 +1,13 @@
 {
   "slug": "Grayscale",
   "name": "Grayscale",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "proprietary",
   "author": "VCV",
   "authorEmail": "contact@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
   "pluginUrl": "https://grayscale.info/",
-  "changelogUrl": "",
+  "changelogUrl": "https://vcvrack.com/Grayscale-changelog",
   "modules": [
     {
       "slug": "Algorhythm",
