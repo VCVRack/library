@@ -135,6 +135,7 @@ print()
 print(f"Press enter to launch Rack and test the following packages: {built_slugs_str}")
 input()
 common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack")
+# common.system(f"cd {RACK_USER_DIR} && grep 'warn' log.txt")
 print(f"Press enter to generate screenshots, upload packages, upload screenshots, and commit/push the library repo.")
 input()
 
