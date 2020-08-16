@@ -1,6 +1,6 @@
 {
   "slug": "KautenjaDSP-PotatoChips",
-  "version": "1.5.1",
+  "version": "1.6.2",
   "license": "GPL-3.0-or-later",
   "name": "KautenjaDSP Potato Chips",
   "brand": "KautenjaDSP",
@@ -13,66 +13,73 @@
     {
       "slug": "AY_3_8910",
       "name": "AY-3-8910",
-      "description": "An emulation of the General Instrument AY-3-8910 audio processing unit.",
+      "description": "An emulation of the General Instrument AY-3-8910 chip.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/AY_3_8910.pdf",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "POKEY",
       "name": "POKEY",
-      "description": "An emulation of the Atari POKEY audio processing unit.",
+      "description": "An emulation of the Atari POKEY chip.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/POKEY.pdf",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "VRC6",
       "name": "VRC6",
-      "description": "An emulation of the Konami VRC6 chip.",
+      "description": "An emulation of the Konami VRC6 chip from certain Nintendo Entertainment System (NES) cartridges.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/VRC6.pdf",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "106",
       "name": "106",
-      "description": "An emulation of the Namco 106 wavetable chip.",
+      "description": "An emulation of the Namco 106 wavetable chip from certain Nintendo Entertainment System (NES) cartridges.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/106.pdf",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "GBS",
       "name": "GBS",
-      "description": "An emulation of the Nintendo Gameboy Sound System audio processing unit.",
+      "description": "An emulation of the Nintendo Gameboy Sound System chip.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/GBS.pdf",
       "tags": [
         "Oscillator",
-        "Noise"
+        "Noise",
+        "Polyphonic"
       ]
     },
     {
       "slug": "2A03",
       "name": "2A03",
-      "description": "An emulation of the Ricoh 2A03 chip from the Nintendo Entertainment System.",
+      "description": "An emulation of the Ricoh 2A03 chip from the Nintendo Entertainment System (NES).",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/2A03.pdf",
       "tags": [
         "Oscillator",
-        "Noise"
+        "Noise",
+        "Polyphonic"
       ]
     },
     {
       "slug": "FME7",
       "name": "FME7",
-      "description": "An emulation of the Sunsoft FME-7 chip.",
+      "description": "An emulation of the Sunsoft FME-7 chip from certain Nintendo Entertainment System (NES) cartridges.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/FME7.pdf",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
@@ -82,7 +89,8 @@
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/sn76489.pdf",
       "tags": [
         "Oscillator",
-        "Noise"
+        "Noise",
+        "Polyphonic"
       ]
     }
   ]

@@ -758,7 +758,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1596034394.3497224,
+    "buildTimestamp": 1597601683.6977673,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -1039,6 +1039,9 @@
       },
       "Bogaudio-FourMan": {
         "creationTimestamp": 1595520297.1383526
+      },
+      "Bogaudio-RGate": {
+        "creationTimestamp": 1597601684.9544952
       }
     }
   },
@@ -8162,7 +8165,7 @@
     }
   },
   "KautenjaDSP-PotatoChips": {
-    "buildTimestamp": 1597098089.7360668,
+    "buildTimestamp": 1597601133.2387242,
     "creationTimestamp": 1594395479.9564288,
     "modules": {
       "2A03": {
