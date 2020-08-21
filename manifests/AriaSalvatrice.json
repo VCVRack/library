@@ -1,7 +1,7 @@
 {
   "slug": "AriaSalvatrice",
   "name": "Aria Salvatrice",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "license": "GPL-3.0-only",
   "brand": "Aria Salvatrice",
   "author": "Aria Salvatrice",
@@ -73,7 +73,7 @@
     {
       "slug": "Qqqq",
       "name": "Quatherina's Quality Quad Quantizer",
-      "description": "Quatherina the Quantum Duck's Quantizer with custom & external scales, 16 scenes, offset, sample and hold,\ntransposition, lead sheet chords parsing, 4 polyphonic quantizer columns, and a licensed illustration of Quatherina",
+      "description": "Quatherina the Quantum Duck's Quantizer with custom & Poly External Scales, 16 scenes, offset, sample and hold,\ntransposition, lead sheet chords parsing, 4 polyphonic quantizer columns, and a licensed illustration of Quatherina",
       "manualUrl": "https://aria.dog/modules/qqqq",
       "tags": [
         "Quantizer",
@@ -193,6 +193,33 @@
         "Quantizer",
         "Sequencer",
         "Expander"
+      ]
+    },
+    {
+      "slug": "Pokies4",
+      "name": "Signature Series Pokies",
+      "description": "4 tiny buttons for automation or manual performance of CV parameters. Right-click options to change output values, and use in latch mode.",
+      "tags": [
+        "Controller",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Grabby",
+      "name": "Signature Series Grabby",
+      "description": "A lil fader for automation or manual performance of CV parameters. Right-click options to offset and invert output.\n Support for Poly External Scales from Quatherina's Quantizer.",
+      "tags": [
+        "Controller",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Rotatoes4",
+      "name": "Signature Series Rotatoes",
+      "description": "4 tiny knobs for automation or manual performance of CV parameters. Right-click options to offset and invert output.\n Support for Poly External Scales from Quatherina's Quantizer.",
+      "tags": [
+        "Controller",
+        "Utility"
       ]
     },
     {

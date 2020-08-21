@@ -2446,7 +2446,7 @@
     }
   },
   "squinkylabs-plug1": {
-    "buildTimestamp": 1595806050.1351125,
+    "buildTimestamp": 1598028671.074886,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {
@@ -2532,6 +2532,9 @@
       },
       "squinkylabs-sub": {
         "creationTimestamp": 1595057942.5306096
+      },
+      "squinkylabs-sines": {
+        "creationTimestamp": 1598029968.1040394
       }
     }
   },
@@ -4641,7 +4644,7 @@
     }
   },
   "CountModula": {
-    "buildTimestamp": 1594796944.6063392,
+    "buildTimestamp": 1598029377.729564,
     "creationTimestamp": 1560722026.0,
     "modules": {
       "AnalogueShiftRegister": {
@@ -4967,6 +4970,15 @@
       },
       "Palette": {
         "creationTimestamp": 1594797087.49433
+      },
+      "Megalomaniac": {
+        "creationTimestamp": 1598029968.829009
+      },
+      "SingleTFlipFlop": {
+        "creationTimestamp": 1598029969.1171217
+      },
+      "SingleSRFlipFlop": {
+        "creationTimestamp": 1598029969.3221807
       }
     }
   },
@@ -4976,7 +4988,7 @@
     "modules": {}
   },
   "AriaSalvatrice": {
-    "buildTimestamp": 1595861320.2466145,
+    "buildTimestamp": 1598029966.5439994,
     "creationTimestamp": 1576593342.0,
     "modules": {
       "Splort": {
@@ -5032,6 +5044,15 @@
       },
       "Solomon16": {
         "creationTimestamp": 1595861323.2792523
+      },
+      "Pokies4": {
+        "creationTimestamp": 1598029969.5247142
+      },
+      "Grabby": {
+        "creationTimestamp": 1598029969.730724
+      },
+      "Rotatoes4": {
+        "creationTimestamp": 1598029969.932541
       }
     }
   },
@@ -8303,7 +8324,7 @@
     }
   },
   "ChowDSP": {
-    "buildTimestamp": 1596177666.9832532,
+    "buildTimestamp": 1598028759.7770176,
     "creationTimestamp": 1596178135.934532,
     "modules": {
       "ChowTape": {
@@ -8317,6 +8338,12 @@
       },
       "ChowFDN": {
         "creationTimestamp": 1596178136.8302577
+      },
+      "ChowRNN": {
+        "creationTimestamp": 1598029968.4080982
+      },
+      "ChowModal": {
+        "creationTimestamp": 1598029968.6083245
       }
     }
   }

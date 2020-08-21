@@ -1,8 +1,8 @@
 {
   "slug": "ChowDSP",
   "name": "ChowDSP",
-  "version": "1.0.0",
-  "license": "GPL-3.0",
+  "version": "1.1.0",
+  "license": "GPL-3.0-or-later",
   "brand": "chowdsp",
   "author": "Jatin Chowdhury",
   "authorEmail": "jatin@ccmra.stanford.edu",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/README.md#modules",
   "sourceUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV",
   "donateUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=93S67ZSKMBG68&source=url",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "ChowTape",
@@ -48,6 +48,24 @@
       "tags": [
         "Effect",
         "Reverb"
+      ]
+    },
+    {
+      "slug": "ChowRNN",
+      "name": "ChowRNN",
+      "description": "Simple recurrent neural network",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "ChowModal",
+      "name": "ChowModal",
+      "description": "Single resonant mode",
+      "tags": [
+        "Effect",
+        "Oscillator",
+        "Filter"
       ]
     }
   ]

@@ -8,7 +8,7 @@
   "sourceUrl": "https://github.com/squinkylabs/SquinkyVCV",
   "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/booty-shifter.md",
   "changelogUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/CHANGELOG.md",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "modules": [
     {
       "slug": "squinkylabs-ev3",
@@ -280,7 +280,8 @@
       "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/kitchen-sink.md",
       "tags": [
         "VCO",
-        "Polyphonic"
+        "Polyphonic",
+        "Synth voice"
       ]
     },
     {
@@ -291,6 +292,18 @@
       "tags": [
         "VCO",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "squinkylabs-sines",
+      "name": "Organ Three",
+      "description": "Hammond organ emulator",
+      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/ck-1/docs/sines.md",
+      "tags": [
+        "VCO",
+        "Polyphonic",
+        "Hardware",
+        "Synth voice"
       ]
     }
   ]

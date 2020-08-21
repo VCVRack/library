@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -266,8 +266,8 @@
     },
     {
       "slug": "SRFlipFlop",
-      "name": "SR Flip Flop",
-      "description": "A logical Set/Reset flip flop with enable",
+      "name": "Dual SR Flip Flop",
+      "description": "A dual logical Set/Reset flip flop with enable",
       "tags": [
         "Logic",
         "Dual"
@@ -285,8 +285,8 @@
     },
     {
       "slug": "TFlipFlop",
-      "name": "T Flip Flop",
-      "description": "A logical T type (toggle) flip flop with enable",
+      "name": "Dual T Flip Flop",
+      "description": "A dual logical T type (toggle) flip flop with enable",
       "tags": [
         "Logic",
         "Dual"
@@ -964,6 +964,31 @@
       "description": "Cable colour picker",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "Megalomaniac",
+      "name": "Megalomaniac - Hyper Maniacal LFO CV Expander",
+      "description": "Voltage control over the Hyper Maniacal LFO",
+      "tags": [
+        "LFO",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "SingleTFlipFlop",
+      "name": "T Flip Flop",
+      "description": "A logical T type (toggle) flip flop with enable",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "SingleSRFlipFlop",
+      "name": "SR Flip Flop",
+      "description": "A logical Set/Reset flip flop with enable",
+      "tags": [
+        "Logic"
       ]
     }
   ]
