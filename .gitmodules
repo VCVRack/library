@@ -532,3 +532,6 @@
 [submodule "repos/ChowDSP"]
 	path = repos/ChowDSP
 	url = https://github.com/jatinchowdhury18/ChowDSP-VCV.git
+[submodule "repos/GrandeModular"]
+	path = repos/GrandeModular
+	url = https://github.com/dbgrande/GrandeModular.git
