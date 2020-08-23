@@ -2103,7 +2103,7 @@
     }
   },
   "Stoermelder-P1": {
-    "buildTimestamp": 1590763075.7981458,
+    "buildTimestamp": 1598123121.965469,
     "creationTimestamp": 1559409342.0,
     "modules": {
       "CVMap": {
@@ -2198,6 +2198,21 @@
       },
       "Stroke": {
         "creationTimestamp": 1590763078.850774
+      },
+      "MidiCatEx": {
+        "creationTimestamp": 1598123365.620966
+      },
+      "Spin": {
+        "creationTimestamp": 1598123365.9957113
+      },
+      "Transit": {
+        "creationTimestamp": 1598123366.2364821
+      },
+      "TransitEx": {
+        "creationTimestamp": 1598123366.523957
+      },
+      "X4": {
+        "creationTimestamp": 1598123366.8028293
       }
     }
   },
@@ -7462,7 +7477,7 @@
     }
   },
   "FrozenWasteland": {
-    "buildTimestamp": 1596034692.186356,
+    "buildTimestamp": 1598123364.334003,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {
@@ -8344,6 +8359,30 @@
       },
       "ChowModal": {
         "creationTimestamp": 1598029968.6083245
+      }
+    }
+  },
+  "GrandeModular": {
+    "buildTimestamp": 1598123158.7429252,
+    "creationTimestamp": 1598123367.069531,
+    "modules": {
+      "NoteMT": {
+        "creationTimestamp": 1598123367.266107
+      },
+      "Quant": {
+        "creationTimestamp": 1598123367.4626186
+      },
+      "QuantIntervals": {
+        "creationTimestamp": 1598123367.6618235
+      },
+      "QuantMT": {
+        "creationTimestamp": 1598123367.8484747
+      },
+      "SampleDelays": {
+        "creationTimestamp": 1598123368.0456033
+      },
+      "Scale": {
+        "creationTimestamp": 1598123368.2305691
       }
     }
   }

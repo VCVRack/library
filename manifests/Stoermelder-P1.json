@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.6.3",
+  "version": "1.7.0",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -140,6 +140,16 @@
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiCat.md"
     },
     {
+      "slug": "MidiCatEx",
+      "name": "MEM for MIDI-CAT",
+      "description": "Memory-expander for MIDI-CAT",
+      "tags": [
+        "Utility",
+        "MIDI"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiCat.md#mem-expander"
+    },
+    {
       "slug": "Sipo",
       "name": "SIPO",
       "description": "Serial-in parallel-out shift register with polyphonic output and CV controls for skipping and incrementing on sampled values",
@@ -192,18 +202,6 @@
         "Mixer"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Intermix.md"
-    },
-    {
-      "slug": "Detour",
-      "name": "DETOUR",
-      "description": "Send/Return switch matrix with scene-support",
-      "tags": [
-        "Mixer",
-        "Switch",
-        "Utility"
-      ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Detour.md",
-      "disabled": true
     },
     {
       "slug": "Sail",
@@ -303,24 +301,51 @@
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Goto.md"
     },
     {
-      "slug": "Fr",
-      "name": "FR",
-      "description": "Show the current screen framerate in the top-right corner",
-      "tags": [
-        "Utility"
-      ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Fr.md",
-      "disabled": true
-    },
-    {
       "slug": "Stroke",
       "name": "STROKE",
-      "description": "Utility for converting hotkys to triggers and gates",
+      "description": "Utility for converting hotkeys to triggers, gates and some other special commands",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Stroke.md"
+    },
+    {
+      "slug": "Spin",
+      "name": "SPIN",
+      "description": "Utility for converting mouse-wheel movement into triggers, also handles mouse-click of mouse, useful for SAIL",
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Stroke.md",
-      "disabled": true
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Spin.md"
+    },
+    {
+      "slug": "Transit",
+      "name": "TRANSIT",
+      "description": "Parameter-morpher and sequencer for up to 96 snapshots",
+      "tags": [
+        "Utility",
+        "Sequencer"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Transit.md"
+    },
+    {
+      "slug": "TransitEx",
+      "name": "+T",
+      "description": "Expander for TRANSIT",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Transit.md"
+    },
+    {
+      "slug": "X4",
+      "name": "X4",
+      "description": "Dual multiple for parameter-mapping",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/X4.md"
     },
     {
       "slug": "AudioInterface64",

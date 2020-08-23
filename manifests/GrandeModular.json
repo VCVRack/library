@@ -1,0 +1,75 @@
+{
+  "slug": "GrandeModular",
+  "name": "Grande",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "author": "David Grande",
+  "authorEmail": "dbgrande246@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/dbgrande/GrandeModular",
+  "sourceUrl": "https://github.com/dbgrande/GrandeModular",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "NoteMT",
+      "name": "NoteMT",
+      "description": "Microtonal note utility.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#notemt",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Quant",
+      "name": "Quant",
+      "description": "Quantizer with equi-likely notes mode.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#quant",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "QuantIntervals",
+      "name": "Quant Intervals",
+      "description": "Microtonal quantizer based on pitch intervals.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#quantintervals",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "QuantMT",
+      "name": "QuantMT",
+      "description": "Microtonal quantizer.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#quantmt",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SampleDelays",
+      "name": "SampleDelays",
+      "description": "Provides multiple sample delay options.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#sampledelays-sd",
+      "tags": [
+        "Delay",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Scale",
+      "name": "Scale",
+      "description": "Additional scales for Quant.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#scale",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
