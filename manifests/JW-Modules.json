@@ -9,7 +9,7 @@
   "manualUrl": "https://github.com/jeremywen/JW-Modules#jw-modules",
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "modules": [
     {
       "slug": "BlankPanel_1HP",
