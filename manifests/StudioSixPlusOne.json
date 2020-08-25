@@ -1,7 +1,7 @@
 {
   "slug": "StudioSixPlusOne",
   "name": "Studio Six Plus One",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "Studio Six Plus One",
   "author": "Studio Six Plus One",
@@ -99,6 +99,26 @@
         "Function generator",
         "Low-frequency oscillator",
         "Controller"
+      ]
+    },
+    {
+      "slug": "Iverson",
+      "name": "Iverson",
+      "description": "Trigger Sequencer for use with midi controller",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#iverson",
+      "tags": [
+        "Controller",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "IversonJr",
+      "name": "IversonJr",
+      "description": "Trigger Sequencer for use with midi controller",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#iverson",
+      "tags": [
+        "Controller",
+        "Sequencer"
       ]
     }
   ]
