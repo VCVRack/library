@@ -2461,7 +2461,7 @@
     }
   },
   "squinkylabs-plug1": {
-    "buildTimestamp": 1598028671.074886,
+    "buildTimestamp": 1598553183.5936337,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {
@@ -2550,6 +2550,12 @@
       },
       "squinkylabs-sines": {
         "creationTimestamp": 1598029968.1040394
+      },
+      "squinkylabs-basic": {
+        "creationTimestamp": 1598553492.1240952
+      },
+      "squinkylabs-dividerx": {
+        "creationTimestamp": 1598553492.8396182
       }
     }
   },
@@ -3957,7 +3963,7 @@
     }
   },
   "Nozoid": {
-    "buildTimestamp": 1586465107.658522,
+    "buildTimestamp": 1598553490.2499664,
     "creationTimestamp": 1571471313.0,
     "modules": {
       "Nozori_68_ADSR": {

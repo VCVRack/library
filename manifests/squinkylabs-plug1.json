@@ -8,7 +8,7 @@
   "sourceUrl": "https://github.com/squinkylabs/SquinkyVCV",
   "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/booty-shifter.md",
   "changelogUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/CHANGELOG.md",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "modules": [
     {
       "slug": "squinkylabs-ev3",
@@ -304,6 +304,26 @@
         "Polyphonic",
         "Hardware",
         "Synth voice"
+      ]
+    },
+    {
+      "slug": "squinkylabs-basic",
+      "name": "Basic VCO",
+      "description": "Precision VCO",
+      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/basic/docs/basic.md",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "squinkylabs-dividerx",
+      "name": "Divider",
+      "description": "x",
+      "disabled": true,
+      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/basic/docs/dividerx.md",
+      "tags": [
+        "Polyphonic"
       ]
     }
   ]
