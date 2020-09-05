@@ -1,7 +1,7 @@
 {
   "slug": "Entrian-Free",
   "name": "Entrian Free",
-  "version": "1.1.16",
+  "version": "1.1.17",
   "license": "proprietary",
   "brand": "Entrian",
   "author": "Entrian Solutions Ltd",
@@ -9,6 +9,7 @@
   "authorUrl": "http://entrian.com/audio/",
   "pluginUrl": "http://entrian.com/audio/entrian-free.html",
   "manualUrl": "http://entrian.com/audio/entrian-free.html",
+  "changelogUrl": "http://entrian.com/audio/entrian-free.html#ChangeLog",
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
@@ -25,28 +26,37 @@
     {
       "slug": "Player-Drummer",
       "name": "Player: Drummer",
-      "description": "Trigger sequence player.",
+      "description": "Trigger sequence player for MIDI files and Entrian Sequencer songs.",
       "tags": [
         "Drum",
-        "Sequencer"
+        "Sequencer",
+        "MIDI",
+        "Random",
+        "Recording"
       ]
     },
     {
       "slug": "Player-Melody",
       "name": "Player: Melody",
-      "description": "Piano roll melody and chord player.",
+      "description": "Piano roll melody and chord player for MIDI files and Entrian Sequencer songs.",
       "tags": [
         "Sequencer",
-        "Polyphonic"
+        "Polyphonic",
+        "MIDI",
+        "Random",
+        "Recording"
       ]
     },
     {
       "slug": "Player-Timeline",
       "name": "Player: Timeline",
-      "description": "Timeline player.",
+      "description": "DAW-style timeline player for MIDI files and Entrian Sequencer songs.",
       "tags": [
         "Sequencer",
-        "Polyphonic"
+        "Polyphonic",
+        "MIDI",
+        "Random",
+        "Recording"
       ]
     }
   ]

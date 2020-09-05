@@ -1,7 +1,7 @@
 {
   "slug": "Entrian-Sequencers",
   "name": "Entrian Sequencers",
-  "version": "1.1.16",
+  "version": "1.1.17",
   "license": "proprietary",
   "author": "Entrian Solutions Ltd",
   "authorEmail": "support@entrian.com",
@@ -9,6 +9,7 @@
   "authorUrl": "http://entrian.com/audio/",
   "pluginUrl": "http://entrian.com/audio/entrian-sequencers.html",
   "manualUrl": "http://entrian.com/audio/entrian-sequencers.html",
+  "changelogUrl": "http://entrian.com/audio/entrian-sequencers.html#ChangeLog",
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
@@ -18,7 +19,10 @@
       "description": "Trigger sequencer for expressive drum grooves.",
       "tags": [
         "Drum",
-        "Sequencer"
+        "Sequencer",
+        "MIDI",
+        "Random",
+        "Recording"
       ]
     },
     {
@@ -27,16 +31,34 @@
       "description": "Piano roll melody and chord sequencer.",
       "tags": [
         "Sequencer",
-        "Polyphonic"
+        "Polyphonic",
+        "MIDI",
+        "Random",
+        "Recording"
+      ]
+    },
+    {
+      "slug": "CV",
+      "name": "CV",
+      "description": "Multi-segment multi-channel CV sequencer and graphical editor.",
+      "tags": [
+        "Sequencer",
+        "Polyphonic",
+        "MIDI",
+        "Random",
+        "Recording"
       ]
     },
     {
       "slug": "Timeline",
       "name": "Timeline",
-      "description": "Timeline sequencer.",
+      "description": "DAW-style timeline sequencer.",
       "tags": [
         "Sequencer",
-        "Polyphonic"
+        "Polyphonic",
+        "MIDI",
+        "Random",
+        "Recording"
       ]
     }
   ]

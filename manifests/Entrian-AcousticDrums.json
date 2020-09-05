@@ -1,7 +1,7 @@
 {
   "slug": "Entrian-AcousticDrums",
   "name": "Entrian Acoustic Drums",
-  "version": "1.6.16",
+  "version": "1.6.17",
   "license": "proprietary",
   "author": "Entrian Solutions Ltd",
   "brand": "Entrian",
@@ -9,6 +9,7 @@
   "authorUrl": "http://entrian.com/audio/",
   "pluginUrl": "http://entrian.com/audio/entrian-acoustic-drums.html",
   "manualUrl": "http://entrian.com/audio/entrian-acoustic-drums.html",
+  "changelogUrl": "http://entrian.com/audio/entrian-acoustic-drums.html#ChangeLog",
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
@@ -26,7 +27,10 @@
       "description": "Trigger sequencer for expressive drum grooves.",
       "tags": [
         "Drum",
-        "Sequencer"
+        "Sequencer",
+        "MIDI",
+        "Random",
+        "Recording"
       ]
     }
   ]
