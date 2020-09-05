@@ -2836,7 +2836,7 @@
     }
   },
   "ModularFungi": {
-    "buildTimestamp": 1597098016.581315,
+    "buildTimestamp": 1599327940.5675757,
     "creationTimestamp": 1539737109.0,
     "modules": {
       "Blank1HP": {
@@ -8360,7 +8360,7 @@
     }
   },
   "ChowDSP": {
-    "buildTimestamp": 1598028759.7770176,
+    "buildTimestamp": 1599328027.8827107,
     "creationTimestamp": 1596178135.934532,
     "modules": {
       "ChowTape": {
@@ -8380,6 +8380,9 @@
       },
       "ChowModal": {
         "creationTimestamp": 1598029968.6083245
+      },
+      "ChowDer": {
+        "creationTimestamp": 1599328029.677068
       }
     }
   },
