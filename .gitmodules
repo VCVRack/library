@@ -535,3 +535,6 @@
 [submodule "repos/GrandeModular"]
 	path = repos/GrandeModular
 	url = https://github.com/dbgrande/GrandeModular.git
+[submodule "repos/MpSeries"]
+	path = repos/MpSeries
+	url = https://github.com/libermnnn/MpSeries.git
