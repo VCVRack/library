@@ -426,7 +426,7 @@
     }
   },
   "SurgeRack": {
-    "buildTimestamp": 1598943267.8694632,
+    "buildTimestamp": 1599748425.425682,
     "creationTimestamp": 1561132770.0,
     "modules": {
       "SurgeDelay": {
@@ -2106,7 +2106,7 @@
     }
   },
   "Stoermelder-P1": {
-    "buildTimestamp": 1598123121.965469,
+    "buildTimestamp": 1599748072.522658,
     "creationTimestamp": 1559409342.0,
     "modules": {
       "CVMap": {
@@ -6105,7 +6105,7 @@
     }
   },
   "SubmarineFree": {
-    "buildTimestamp": 1595344357.3751395,
+    "buildTimestamp": 1599747884.830796,
     "creationTimestamp": 1522452120.0,
     "modules": {
       "AG-104": {
@@ -6317,6 +6317,9 @@
       },
       "MZ-909": {
         "creationTimestamp": 1595344537.0235472
+      },
+      "EN-104": {
+        "creationTimestamp": 1599748432.398808
       }
     }
   },
@@ -7811,7 +7814,7 @@
     }
   },
   "FrequencyDomain": {
-    "buildTimestamp": 1598552432.4680934,
+    "buildTimestamp": 1599749815.3948708,
     "creationTimestamp": 1587076104.7002873,
     "modules": {
       "HarmonicConvergence": {
@@ -7831,6 +7834,9 @@
       },
       "BallOfConfusion": {
         "creationTimestamp": 1598552433.9140954
+      },
+      "BoxOfRevelation": {
+        "creationTimestamp": 1599749818.7621944
       }
     }
   },
@@ -8407,6 +8413,15 @@
       },
       "Scale": {
         "creationTimestamp": 1598123368.2305691
+      }
+    }
+  },
+  "MpSeries": {
+    "buildTimestamp": 1599748089.129783,
+    "creationTimestamp": 1599748431.7559798,
+    "modules": {
+      "MpMap": {
+        "creationTimestamp": 1599748431.998366
       }
     }
   }

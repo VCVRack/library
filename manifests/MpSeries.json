@@ -1,0 +1,23 @@
+{
+  "slug": "MpSeries",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "name": "MpSeries",
+  "brand": "MpSeries",
+  "author": "Omer Liberman",
+  "authorEmail": "omerlibermannn@gmail.com",
+  "pluginUrl": "https://vcvrack.com/",
+  "authorUrl": "https://vcvrack.com",
+  "manualUrl": "https://vcvrack.com/TiredOmer",
+  "sourceUrl": "https://github.com/libermnnn/MpSeries",
+  "changelogUrl": "https://github.com/libermnnn/MpSeries",
+  "modules": [
+    {
+      "slug": "MpMap",
+      "name": "MpMapper",
+      "tags": [
+        "CONTROLLER"
+      ]
+    }
+  ]
+}

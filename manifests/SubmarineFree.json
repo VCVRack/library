@@ -11,7 +11,7 @@
   "donateUrl": "https://www.paypal.me/SubmarineFree",
   "pluginUrl": "https://github.com/david-c14/SubmarineFree/blob/main/README.md",
   "changelogUrl": "https://github.com/david-c14/SubmarineFree/blob/main/changelog.md",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "modules": [
     {
       "slug": "AG-104",
@@ -203,7 +203,8 @@
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/DO.md",
       "tags": [
         "LOGIC",
-        "MULTIPLE"
+        "MULTIPLE",
+        "POLYPHONIC"
       ]
     },
     {
@@ -213,7 +214,8 @@
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/DO.md",
       "tags": [
         "LOGIC",
-        "MULTIPLE"
+        "MULTIPLE",
+        "POLYPHONIC"
       ]
     },
     {
@@ -223,7 +225,8 @@
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/DO.md",
       "tags": [
         "LOGIC",
-        "MULTIPLE"
+        "MULTIPLE",
+        "POLYPHONIC"
       ]
     },
     {
@@ -233,6 +236,18 @@
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/DO.md",
       "tags": [
         "LOGIC",
+        "MULTIPLE",
+        "POLYPHONIC"
+      ]
+    },
+    {
+      "slug": "EN-104",
+      "name": "EN-104",
+      "description": "EN-104 Quad ADSR Enveloper Generator",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/EN.md",
+      "tags": [
+        "ENVELOPE GENERATOR",
+        "VCA",
         "MULTIPLE"
       ]
     },
@@ -330,7 +345,8 @@
       "description": "LT-116 Linear Transformations",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/LT.md",
       "tags": [
-        "UTILITY"
+        "UTILITY",
+        "POLYPHONIC"
       ]
     },
     {
