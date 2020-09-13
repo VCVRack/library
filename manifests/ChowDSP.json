@@ -1,7 +1,7 @@
 {
   "slug": "ChowDSP",
   "name": "ChowDSP",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "GPL-3.0-or-later",
   "brand": "chowdsp",
   "author": "Jatin Chowdhury",
@@ -17,6 +17,7 @@
       "slug": "ChowTape",
       "name": "ChowTape",
       "description": "Analog tape emulation",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-tape",
       "tags": [
         "Effect",
         "Distortion",
@@ -27,6 +28,7 @@
       "slug": "ChowPhaserFeedback",
       "name": "ChowPhaserFeedback",
       "description": "A feedback phaser",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-phaser",
       "tags": [
         "Effect",
         "Phaser"
@@ -36,6 +38,7 @@
       "slug": "ChowPhaserMod",
       "name": "ChowPhaserMod",
       "description": "A modulation phaser",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-phaser",
       "tags": [
         "Effect",
         "Phaser"
@@ -45,6 +48,7 @@
       "slug": "ChowFDN",
       "name": "ChowFDN",
       "description": "Feedback delay network reverb",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-fdn",
       "tags": [
         "Effect",
         "Reverb"
@@ -54,6 +58,7 @@
       "slug": "ChowRNN",
       "name": "ChowRNN",
       "description": "Simple recurrent neural network",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-rnn",
       "tags": [
         "Effect"
       ]
@@ -62,6 +67,7 @@
       "slug": "ChowModal",
       "name": "ChowModal",
       "description": "Single resonant mode",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-modal",
       "tags": [
         "Effect",
         "Oscillator",
@@ -72,6 +78,7 @@
       "slug": "ChowDer",
       "name": "ChowDer",
       "description": "Truculent analog distortion effect",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-der",
       "tags": [
         "Effect",
         "Distortion",

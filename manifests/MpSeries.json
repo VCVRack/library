@@ -1,6 +1,6 @@
 {
   "slug": "MpSeries",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "GPL-3.0-only",
   "name": "MpSeries",
   "brand": "MpSeries",
@@ -8,13 +8,20 @@
   "authorEmail": "omerlibermannn@gmail.com",
   "pluginUrl": "https://vcvrack.com/",
   "authorUrl": "https://vcvrack.com",
-  "manualUrl": "https://vcvrack.com/TiredOmer",
+  "manualUrl": "",
   "sourceUrl": "https://github.com/libermnnn/MpSeries",
   "changelogUrl": "https://github.com/libermnnn/MpSeries",
   "modules": [
     {
       "slug": "MpMap",
       "name": "MpMapper",
+      "tags": [
+        "CONTROLLER"
+      ]
+    },
+    {
+      "slug": "Mp09",
+      "name": "CV-09",
       "tags": [
         "CONTROLLER"
       ]
