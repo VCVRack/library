@@ -1,0 +1,17 @@
+{
+  "slug": "MH",
+  "name": "MH",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "MH",
+  "author": "M. Terry Hunter",
+  "modules": [
+    {
+      "slug": "Spiro",
+      "name": "Spiro",
+      "tags": [
+        "Visual"
+      ]
+    }
+  ]
+}
