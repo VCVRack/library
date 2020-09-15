@@ -1,7 +1,7 @@
 {
   "slug": "rackwindows",
   "name": "Rackwindows",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "brand": "Rackwindows",
   "author": "Jens Robert Janke",
@@ -66,12 +66,29 @@
       ]
     },
     {
+      "slug": "console_mm",
+      "name": "Console MM",
+      "description": "Stereo summing mixer to work in conjunction with MindMeld's MixMaster",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
       "slug": "distance",
       "name": "Distance",
       "description": "Far-away-izer",
       "tags": [
         "Effect",
         "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "golem",
+      "name": "Golem",
+      "description": "Micro-delayable crossfader",
+      "tags": [
         "Utility"
       ]
     },
@@ -104,12 +121,32 @@
       ]
     },
     {
+      "slug": "monitoring",
+      "name": "Monitoring",
+      "description": "Mix checker",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
       "slug": "mv",
       "name": "MV",
       "description": "Dual-mono reverb",
       "tags": [
         "Effect",
         "Reverb"
+      ]
+    },
+    {
+      "slug": "rasp",
+      "name": "Rasp",
+      "description": "De-Edger, high frequency tamer, acceleration limiter",
+      "tags": [
+        "Equalizer",
+        "EQ",
+        "Filter",
+        "Slew limiter",
+        "Polyphonic"
       ]
     },
     {
