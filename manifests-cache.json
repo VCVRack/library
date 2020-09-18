@@ -3429,7 +3429,7 @@
     }
   },
   "trowaSoft": {
-    "buildTimestamp": 1582939783.5808206,
+    "buildTimestamp": 1600389473.0032196,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "trigSeq": {
@@ -3969,7 +3969,7 @@
     }
   },
   "Nozoid": {
-    "buildTimestamp": 1598553490.2499664,
+    "buildTimestamp": 1600389670.380849,
     "creationTimestamp": 1571471313.0,
     "modules": {
       "Nozori_68_ADSR": {
@@ -8003,7 +8003,7 @@
     }
   },
   "StudioSixPlusOne": {
-    "buildTimestamp": 1598390675.4060695,
+    "buildTimestamp": 1600389739.8490303,
     "creationTimestamp": 1590117528.1900573,
     "modules": {
       "KSDelay": {
