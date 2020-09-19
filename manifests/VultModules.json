@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.11",
+  "version": "1.12",
   "modules": [
     {
       "slug": "Basal",
@@ -193,6 +193,15 @@
         "Polyphonic"
       ],
       "description": "Dual Low Pass Gate/Filter"
+    },
+    {
+      "slug": "Punch",
+      "name": "Punch",
+      "tags": [
+        "VCA",
+        "Polyphonic"
+      ],
+      "description": "Voltage Controlled Amplifier"
     },
     {
       "slug": "Rescomb",
