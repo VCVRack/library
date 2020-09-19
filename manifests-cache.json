@@ -6681,7 +6681,7 @@
     }
   },
   "NYSTHI": {
-    "buildTimestamp": 1591858305.8781312,
+    "buildTimestamp": 1600481367.6384568,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Logic": {
@@ -7097,6 +7097,18 @@
       },
       "TZEN": {
         "creationTimestamp": 1591646706.0481784
+      },
+      "BZENVELOPE": {
+        "creationTimestamp": 1600481374.6525455
+      },
+      "TZVU": {
+        "creationTimestamp": 1600481374.945384
+      },
+      "TZMX": {
+        "creationTimestamp": 1600481375.1974032
+      },
+      "SimplerTapeControl": {
+        "creationTimestamp": 1600481375.4440374
       }
     }
   },

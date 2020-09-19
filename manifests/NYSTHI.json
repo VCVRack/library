@@ -1,7 +1,7 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
@@ -1279,6 +1279,17 @@
     },
     {
       "disabled": false,
+      "slug": "BZENVELOPE",
+      "name": "BZENVELOPE",
+      "description": "bezier envelopes",
+      "tags": [
+        "Filter",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "disabled": false,
       "slug": "TZOP",
       "name": "TZOP",
       "description": "FM Operator dx7 style, Sinusoid VCO",
@@ -1308,6 +1319,36 @@
         "Function generator",
         "Expander",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TZVU",
+      "name": "TZVU VU-meter",
+      "description": "monophonic VU-meter EMS style",
+      "tags": [
+        "Visual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "TZMX",
+      "name": "TZMX FM Operators mixers",
+      "description": "polyphonic FM mixers for DX7 style algorithms composition",
+      "tags": [
+        "Polyphonic",
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SimplerTapeControl",
+      "name": "SimplerTapeControl",
+      "description": "Reel to reel tape style controller for samplers; expander for Simpliciter and Confusing Simpler",
+      "tags": [
+        "Utility",
+        "Controller",
+        "Expander",
+        "Effect"
       ]
     }
   ]
