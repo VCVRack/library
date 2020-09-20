@@ -538,3 +538,6 @@
 [submodule "repos/MpSeries"]
 	path = repos/MpSeries
 	url = https://github.com/libermnnn/MpSeries.git
+[submodule "repos/ZetaCarinae"]
+	path = repos/ZetaCarinae
+	url = https://github.com/mhampton/ZetaCarinaeModules.git
