@@ -1,0 +1,35 @@
+{
+  "slug": "ZetaCarinae",
+  "name": "ZetaCarinae",
+  "version": "1.1.6",
+  "license": "GPL-3.0-or-later",
+  "brand": "ZetaCarinae",
+  "author": "Marshall Hampton",
+  "authorEmail": "hamptonio@gmail.com",
+  "authorUrl": "https://github.com/mhampton/ZetaCarinaeModules",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/mhampton/ZetaCarinaeModules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "BrownianBridge",
+      "name": "BrownianBridge",
+      "description": "Brownian bridge from one value to another",
+      "tags": [
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "OrnsteinUhlenbeck",
+      "name": "OrnsteinUhlenbeck",
+      "description": "Ornstein-Uhlenbeck stochastic process",
+      "tags": [
+        "Random",
+        "Utility"
+      ]
+    }
+  ]
+}

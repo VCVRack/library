@@ -1,6 +1,6 @@
 {
   "slug": "KautenjaDSP-PotatoChips",
-  "version": "1.6.2",
+  "version": "1.7.1",
   "license": "GPL-3.0-or-later",
   "name": "KautenjaDSP Potato Chips",
   "brand": "KautenjaDSP",
@@ -31,6 +31,16 @@
       ]
     },
     {
+      "slug": "SCC",
+      "name": "SCC",
+      "description": "An emulation of the Konami SCC wavetable chip.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/SCC.pdf",
+      "tags": [
+        "Oscillator"
+      ],
+      "disabled": true
+    },
+    {
       "slug": "VRC6",
       "name": "VRC6",
       "description": "An emulation of the Konami VRC6 chip from certain Nintendo Entertainment System (NES) cartridges.",
@@ -51,6 +61,16 @@
       ]
     },
     {
+      "slug": "TURBO_GRAFX_16",
+      "name": "Turbo Grafx 16",
+      "description": "An emulation of the NEC Turbo Grafx 16 wavetable chip.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/TURBO_GRAFX_16.pdf",
+      "tags": [
+        "Oscillator"
+      ],
+      "disabled": true
+    },
+    {
       "slug": "GBS",
       "name": "GBS",
       "description": "An emulation of the Nintendo Gameboy Sound System chip.",
@@ -60,6 +80,17 @@
         "Noise",
         "Polyphonic"
       ]
+    },
+    {
+      "slug": "S_SMP",
+      "name": "S-SMP",
+      "description": "An emulation of the Sony S-SMP chip from the Super Nintendo Entertainment System (SNES).",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP.pdf",
+      "tags": [
+        "Oscillator",
+        "Effect"
+      ],
+      "disabled": true
     },
     {
       "slug": "2A03",
@@ -85,9 +116,32 @@
     {
       "slug": "SN76489",
       "name": "SN76489",
-      "description": "An emulation of the Texas Instruments SN76489 chip from the Sega Master System.",
+      "description": "An emulation of the Texas Instruments SN76489 chip from the Sega Master System and Sega Mega Drive.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/sn76489.pdf",
       "tags": [
+        "Oscillator",
+        "Noise",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "2413",
+      "name": "2413",
+      "description": "An emulation of the Yamaha YM2413 FM synthesis chip from the Sega Mark III.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/2413.pdf",
+      "tags": [
+        "Oscillator",
+        "Noise"
+      ],
+      "disabled": true
+    },
+    {
+      "slug": "2612",
+      "name": "2612",
+      "description": "An emulation of the Yamaha YM2612 FM synthesis chip from the Sega Master System and Sega Mega Drive.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/2612.pdf",
+      "tags": [
+        "Synth voice",
         "Oscillator",
         "Noise",
         "Polyphonic"
