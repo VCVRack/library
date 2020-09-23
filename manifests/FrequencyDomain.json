@@ -1,10 +1,10 @@
 {
   "slug": "FrequencyDomain",
   "name": "Frequency Domain",
-  "version": "1.8.3",
+  "version": "1.8.4",
   "license": "Proprietary",
   "brand": "Frequency Domain",
-  "author": "almostEric with JerrySV",
+  "author": "almostEric with JerrySV, Jatin Chowdhury",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
   "manualUrl": "https://github.com/almostEric/Frequency-Domain-Manual/blob/master/README.md",
   "donateUrl": "https://paypal.me/FrozenWasteland",
@@ -17,7 +17,8 @@
       "tags": [
         "Oscillator",
         "Digital",
-        "Sampler"
+        "Sampler",
+        "Polyphonic"
       ]
     },
     {
@@ -43,7 +44,8 @@
       "name": "Delayed Reaction",
       "description": "Spectrum based delay",
       "tags": [
-        "Delay"
+        "Delay",
+        "Effect"
       ]
     },
     {
@@ -53,7 +55,8 @@
       "tags": [
         "Granular",
         "Sampler",
-        "Effect"
+        "Effect",
+        "Polyphonic"
       ]
     },
     {
