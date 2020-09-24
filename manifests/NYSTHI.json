@@ -1,7 +1,7 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
@@ -9,6 +9,7 @@
   "pluginUrl": "https://github.com/nysthi/nysthi/releases",
   "authorUrl": "https://github.com/nysthi/nysthi/",
   "manualUrl": "https://github.com/patman023/nysthimanual",
+  "changelogUrl": "https://github.com/nysthi/nysthi/blob/master/CHANGELOG.md",
   "sourceUrl": "",
   "modules": [
     {
@@ -1280,10 +1281,12 @@
     {
       "disabled": false,
       "slug": "BZENVELOPE",
-      "name": "BZENVELOPE",
-      "description": "bezier envelopes",
+      "name": "BZ-ENVELOPE",
+      "description": "bezier envelope",
       "tags": [
         "Filter",
+        "Envelope",
+        "Shaper",
         "Polyphonic",
         "Utility"
       ]
