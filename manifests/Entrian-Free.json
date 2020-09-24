@@ -1,7 +1,7 @@
 {
   "slug": "Entrian-Free",
   "name": "Entrian Free",
-  "version": "1.1.17",
+  "version": "1.1.18",
   "license": "proprietary",
   "brand": "Entrian",
   "author": "Entrian Solutions Ltd",
@@ -17,6 +17,7 @@
       "slug": "Follower",
       "name": "Pitch and Envelope Follower",
       "description": "Converts sounds into pitch and volume CV signals.",
+      "manualURL": "http://entrian.com/audio/entrian-free.html#follower",
       "tags": [
         "Utility",
         "Visual",
