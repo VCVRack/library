@@ -1,7 +1,7 @@
 {
   "slug": "PS-PurrSoftware",
   "name": "PS-PurrSoftware",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "license": "GPL-3.0-or-later",
   "brand": "PurrSoftware",
   "author": "Ken Chaffin",
@@ -10,6 +10,7 @@
   "pluginUrl": "https://github.com/knchaffin/Meander",
   "manualUrl": "https://github.com/knchaffin/Meander/blob/master/README.md",
   "sourceUrl": "https://github.com/knchaffin/Meander",
+  "changelogUrl": "https://github.com/knchaffin/Meander/blob/master/README.md",
   "donateUrl": "",
   "modules": [
     {
