@@ -1911,7 +1911,7 @@
     }
   },
   "VCV-Host": {
-    "buildTimestamp": 1601034919.5412533,
+    "buildTimestamp": 1601037308.357866,
     "creationTimestamp": 1543081940.0,
     "modules": {
       "Host": {
@@ -5775,7 +5775,7 @@
     }
   },
   "Hora-VCO_VCF_VCA": {
-    "buildTimestamp": 1589618450.9152863,
+    "buildTimestamp": 1601254865.1670244,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Amplitude-VCMixer": {
@@ -7764,7 +7764,7 @@
     }
   },
   "Hora-VCO_VCF_VCA_Free": {
-    "buildTimestamp": 1589618587.0318222,
+    "buildTimestamp": 1601254867.5870824,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Amplitude-VCMixer": {
