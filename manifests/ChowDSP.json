@@ -1,7 +1,7 @@
 {
   "slug": "ChowDSP",
   "name": "ChowDSP",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "chowdsp",
   "author": "Jatin Chowdhury",
@@ -83,6 +83,36 @@
         "Effect",
         "Distortion",
         "Physical modeling"
+      ]
+    },
+    {
+      "slug": "Werner",
+      "name": "Werner Filter",
+      "description": "SVF based on a generalized Moog-Octave CAT architecture",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#werner-filter",
+      "tags": [
+        "Effect",
+        "Filter",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "Credit",
+      "name": "Credit",
+      "description": "Creates a text file that credits all the modules used in your patch",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#credit",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "ChowPulse",
+      "name": "ChowPulse",
+      "description": "Pulse shaper based on the TR-808 Kick Drum circuit",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-pulse",
+      "tags": [
+        "envelope generator",
+        "physical modeling"
       ]
     }
   ]

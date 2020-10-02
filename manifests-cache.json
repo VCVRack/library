@@ -3465,7 +3465,7 @@
     }
   },
   "Valley": {
-    "buildTimestamp": 1598831216.6785953,
+    "buildTimestamp": 1601631944.4131546,
     "creationTimestamp": 1521979525.0,
     "modules": {
       "Topograph": {
@@ -8417,7 +8417,7 @@
     }
   },
   "ChowDSP": {
-    "buildTimestamp": 1600010557.762149,
+    "buildTimestamp": 1601631741.8820438,
     "creationTimestamp": 1596178135.934532,
     "modules": {
       "ChowTape": {
@@ -8440,6 +8440,15 @@
       },
       "ChowDer": {
         "creationTimestamp": 1599328029.677068
+      },
+      "Werner": {
+        "creationTimestamp": 1601631946.1815991
+      },
+      "Credit": {
+        "creationTimestamp": 1601631946.4638433
+      },
+      "ChowPulse": {
+        "creationTimestamp": 1601631946.7845182
       }
     }
   },
@@ -8489,7 +8498,7 @@
     }
   },
   "ZetaCarinae": {
-    "buildTimestamp": 1600901115.0209222,
+    "buildTimestamp": 1601631622.666093,
     "creationTimestamp": 1600901204.393585,
     "modules": {
       "BrownianBridge": {
