@@ -541,3 +541,6 @@
 [submodule "repos/ZetaCarinae"]
 	path = repos/ZetaCarinae
 	url = https://github.com/mhampton/ZetaCarinaeModules.git
+[submodule "repos/Sha-Bang-Modules"]
+	path = repos/Sha-Bang-Modules
+	url = https://github.com/jeremymuller/Sha-Bang-Modules.git
