@@ -1450,7 +1450,7 @@
     "modules": {}
   },
   "DHE-Modules": {
-    "buildTimestamp": 1576114293.3217928,
+    "buildTimestamp": 1602486508.2286272,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Blossom": {
@@ -1506,6 +1506,15 @@
       },
       "Xycloid": {
         "creationTimestamp": 1558565771.0
+      },
+      "Sequencizer4": {
+        "creationTimestamp": 1602486510.3013368
+      },
+      "Sequencizer8": {
+        "creationTimestamp": 1602486510.6709895
+      },
+      "Sequencizer16": {
+        "creationTimestamp": 1602486510.9173694
       }
     }
   },
@@ -8516,7 +8525,7 @@
     }
   },
   "ZetaCarinae": {
-    "buildTimestamp": 1601631622.666093,
+    "buildTimestamp": 1602486394.7090628,
     "creationTimestamp": 1600901204.393585,
     "modules": {
       "BrownianBridge": {
@@ -8524,6 +8533,48 @@
       },
       "OrnsteinUhlenbeck": {
         "creationTimestamp": 1600901204.9142423
+      },
+      "IOU": {
+        "creationTimestamp": 1602486514.297294
+      }
+    }
+  },
+  "WeldSplatter": {
+    "buildTimestamp": 1602486412.5295177,
+    "creationTimestamp": 1602486511.2223804,
+    "modules": {
+      "WeldSplatter-AcornTable": {
+        "creationTimestamp": 1602486511.4678462
+      }
+    }
+  },
+  "Sha-Bang-Modules": {
+    "buildTimestamp": 1602486462.9308043,
+    "creationTimestamp": 1602486511.7177973,
+    "modules": {
+      "StochSeq": {
+        "creationTimestamp": 1602486512.0217566
+      },
+      "StochSeq4": {
+        "creationTimestamp": 1602486512.344349
+      },
+      "PolyrhythmClock": {
+        "creationTimestamp": 1602486512.7775452
+      },
+      "RandGates": {
+        "creationTimestamp": 1602486513.0460773
+      },
+      "Neutrinode": {
+        "creationTimestamp": 1602486513.2869623
+      },
+      "Cosmosis": {
+        "creationTimestamp": 1602486513.5296974
+      },
+      "JeremyBlankPanel": {
+        "creationTimestamp": 1602486513.781537
+      },
+      "QubitCrusher": {
+        "creationTimestamp": 1602486514.0234332
       }
     }
   }

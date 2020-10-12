@@ -1,0 +1,23 @@
+{
+  "slug": "WeldSplatter",
+  "name": "WeldSplatter",
+  "version": "1.0.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "pknodle",
+  "author": "Philip Knodle",
+  "authorEmail": "pknodle@gmail.com",
+  "authorUrl": "https://art.pknodle.net",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/pknodle/WeldSplatter",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "WeldSplatter-AcornTable",
+      "name": "AcornTable",
+      "description": "",
+      "tags": []
+    }
+  ]
+}
