@@ -547,3 +547,6 @@
 [submodule "repos/WeldSplatter"]
 	path = repos/WeldSplatter
 	url = https://github.com/pknodle/WeldSplatter.git
+[submodule "repos/LilacLoop"]
+	path = repos/LilacLoop
+	url = https://github.com/grough/lilac-loop-vcv.git
