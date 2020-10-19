@@ -1,7 +1,7 @@
 {
   "slug": "SonusModular",
   "name": "Sonus Modular",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "license": "GPL-3.0-or-later",
   "author": "Sonus Dept.",
   "brand": "Sonus Dept.",
@@ -15,6 +15,7 @@
     {
       "slug": "Addiction",
       "name": "Addiction",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#addiction",
       "description": "Additive Oscillator",
       "tags": [
         "VCO"
@@ -23,6 +24,7 @@
     {
       "slug": "Bitter",
       "name": "Bitter",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#bitter",
       "description": "Bit Manipulator",
       "tags": [
         "Distortion",
@@ -32,6 +34,7 @@
     {
       "slug": "Bymidside",
       "name": "Bymidside",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#bymidside",
       "description": "MS Encoder",
       "tags": [
         "Dynamics",
@@ -41,6 +44,7 @@
     {
       "slug": "Campione",
       "name": "Campione",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#campione",
       "description": "Live Sampler",
       "tags": [
         "Sampler"
@@ -49,6 +53,7 @@
     {
       "slug": "Chainsaw",
       "name": "Chainsaw",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#chainsaw",
       "description": "Fat Sawish VCO",
       "tags": [
         "VCO"
@@ -57,6 +62,7 @@
     {
       "slug": "Ctrl",
       "name": "Ctrl",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#ctrl",
       "description": "Customizable Controller",
       "tags": [
         "Controller",
@@ -66,6 +72,7 @@
     {
       "slug": "Deathcrush",
       "name": "Deathcrush",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#deathcrush",
       "description": "Driver and Crusher",
       "tags": [
         "Distortion",
@@ -75,6 +82,7 @@
     {
       "slug": "Fraction",
       "name": "Fraction",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#fraction",
       "description": "n^x / (n^x + 1) Oscillator",
       "tags": [
         "VCO"
@@ -83,6 +91,7 @@
     {
       "slug": "Harmony",
       "name": "Harmony",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#harmony",
       "description": "Chord Tool",
       "tags": [
         "Tuner",
@@ -92,6 +101,7 @@
     {
       "slug": "Ladrone",
       "name": "Ladrone",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#ladrone",
       "description": "Drone Oscillator",
       "tags": [
         "VCO"
@@ -100,6 +110,7 @@
     {
       "slug": "Luppolo",
       "name": "Luppolo",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#luppolo",
       "description": "Simple Looper",
       "tags": [
         "Sampler"
@@ -108,6 +119,7 @@
     {
       "slug": "Luppolo3",
       "name": "Luppolo3",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#luppolo3",
       "description": "Loop Station",
       "tags": [
         "Sampler"
@@ -116,6 +128,7 @@
     {
       "slug": "Micromacro",
       "name": "Micromacro",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#micromacro",
       "description": "Pitch Quantized Sequencer",
       "tags": [
         "Sequencer"
@@ -124,6 +137,7 @@
     {
       "slug": "Mrcheb",
       "name": "Mr. Cheb",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#mr-cheb",
       "description": "Chebyshev Waveshaper",
       "tags": [
         "Effect",
@@ -133,6 +147,7 @@
     {
       "slug": "Multimulti",
       "name": "Multimulti",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#multimulti",
       "description": "2x8 Multiples",
       "tags": [
         "Multiple",
@@ -140,8 +155,18 @@
       ]
     },
     {
+      "slug": "Neurosc",
+      "name": "Neurosc",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#neurosc",
+      "description": "Neural Wavetable Oscillator",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
       "slug": "Oktagon",
       "name": "Oktagon",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#oktagon",
       "description": "Quad-Quad LFO/VCO",
       "tags": [
         "LFO",
@@ -152,6 +177,7 @@
     {
       "slug": "Osculum",
       "name": "Osculum",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#osculum",
       "description": "Unusual Oscillator",
       "tags": [
         "VCO"
@@ -160,6 +186,7 @@
     {
       "slug": "Paramath",
       "name": "Paramath",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#paramath",
       "description": "Comparing and Maths",
       "tags": [
         "Logic",
@@ -169,6 +196,7 @@
     {
       "slug": "Piconoise",
       "name": "Piconoise",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#piconoise",
       "description": "Noise Generator",
       "tags": [
         "Noise"
@@ -177,6 +205,7 @@
     {
       "slug": "PanintheHaas",
       "name": "Pan in the Haas",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#pain-in-the-haas",
       "description": "Haas Delay",
       "tags": [
         "Delay",
@@ -187,6 +216,7 @@
     {
       "slug": "Pusher",
       "name": "Pusher",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#pusher",
       "description": "Buttons Controller",
       "tags": [
         "Controller",
@@ -196,6 +226,7 @@
     {
       "slug": "Ringo",
       "name": "Ringo",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#ringo",
       "description": "Ring Modulator",
       "tags": [
         "Ring modulator",
@@ -205,6 +236,7 @@
     {
       "slug": "Scramblase",
       "name": "Scramblase",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#scramblase",
       "description": "Many Waveshapers",
       "tags": [
         "Effect",
@@ -214,6 +246,7 @@
     {
       "slug": "Tropicana",
       "name": "Tropicana",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#tropicana",
       "description": "Tropical Additive Oscillator",
       "tags": [
         "VCO"
@@ -222,6 +255,7 @@
     {
       "slug": "Twoff",
       "name": "Twoff",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#twoff",
       "description": "CV Offset",
       "tags": [
         "Dual",
@@ -231,6 +265,7 @@
     {
       "slug": "Yabp",
       "name": "Yabp",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#yabp",
       "description": "Yet Another Blank Panel",
       "tags": [
         "Blank"

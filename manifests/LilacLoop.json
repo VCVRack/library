@@ -1,0 +1,26 @@
+{
+  "slug": "LilacLoop",
+  "name": "Lilac Loop",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Lilac",
+  "author": "Gavin Rough",
+  "authorEmail": "gavin@grough.com",
+  "pluginUrl": "https://github.com/grough/lilac-loop-vcv",
+  "manualUrl": "https://github.com/grough/lilac-loop-vcv/blob/main/README.md",
+  "sourceUrl": "https://github.com/grough/lilac-loop-vcv",
+  "changelogUrl": "https://github.com/grough/lilac-loop-vcv/releases",
+  "modules": [
+    {
+      "slug": "Looper",
+      "name": "Looper",
+      "description": "Simple multi-track looper with a pedal-like workflow",
+      "manualUrl": "https://github.com/grough/lilac-loop-vcv/blob/main/README.md#lilac-looper",
+      "tags": [
+        "Polyphonic",
+        "Recording",
+        "Sampler"
+      ]
+    }
+  ]
+}

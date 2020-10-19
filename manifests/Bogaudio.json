@@ -1,7 +1,7 @@
 {
   "slug": "Bogaudio",
   "name": "Bogaudio",
-  "version": "1.1.34",
+  "version": "1.1.35",
   "license": "GPL-3.0-or-later",
   "brand": "Bogaudio",
   "author": "Matt Demanett",
@@ -11,6 +11,7 @@
   "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md",
   "sourceUrl": "https://github.com/bogaudio/BogaudioModules",
   "donateUrl": "",
+  "changeLogUrl": "https://github.com/bogaudio/BogaudioModules/releases",
   "modules": [
     {
       "slug": "Bogaudio-VCO",
@@ -80,6 +81,16 @@
       "tags": [
         "Oscillator",
         "Synth voice",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Chirp",
+      "name": "CHIRP",
+      "description": "Swept-sine oscillator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#chirp",
+      "tags": [
+        "Oscillator",
         "Polyphonic"
       ]
     },
@@ -160,6 +171,37 @@
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#eqs",
       "tags": [
         "Equalizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-LPG",
+      "name": "LPG",
+      "description": "Low-pass gate",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#lpg",
+      "tags": [
+        "Low-pass gate",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-LLPG",
+      "name": "LLPG",
+      "description": "Low-pass gate",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#llpg",
+      "tags": [
+        "Low-pass gate",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-MegaGate",
+      "name": "MEGAGATE",
+      "description": "Low- and high-pass gate",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#megagate",
+      "tags": [
+        "Low-pass gate",
+        "Dual",
         "Polyphonic"
       ]
     },
@@ -285,6 +327,17 @@
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#adsr",
       "tags": [
         "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Vish",
+      "name": "VISH",
+      "description": "Vactrol-ish envelope generator",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#vish",
+      "tags": [
+        "Envelope generator",
+        "Slew Limiter",
         "Polyphonic"
       ]
     },
@@ -493,6 +546,16 @@
       ]
     },
     {
+      "slug": "Bogaudio-Velo",
+      "name": "VELO",
+      "description": "Triple-CV VCA, for tremolo, MIDI velocity, etc",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#velo",
+      "tags": [
+        "VCA",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Bogaudio-UMix",
       "name": "UMIX",
       "description": "8-input unity mixer",
@@ -513,6 +576,26 @@
       ]
     },
     {
+      "slug": "Bogaudio-Matrix81",
+      "name": "MATRIX81",
+      "description": "8-channel mixer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#matrix81",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Matrix18",
+      "name": "MATRIX18",
+      "description": "8-way signal router with attenuverters",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#matrix18",
+      "tags": [
+        "Switch",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Bogaudio-Matrix44",
       "name": "MATRIX44",
       "description": "4x4 matrix mixer",
@@ -523,12 +606,65 @@
       ]
     },
     {
+      "slug": "Bogaudio-Matrix44Cvm",
+      "name": "MX44CVM",
+      "description": "CV and mutes expander for MATRIX44",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#matrix44cvm",
+      "tags": [
+        "Mixer",
+        "Expander",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Bogaudio-Matrix88",
       "name": "MATRIX88",
       "description": "8x8 matrix mixer",
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#matrix88",
       "tags": [
         "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Matrix88Cv",
+      "name": "MX88CV",
+      "description": "CV expander for MATRIX88",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#matrix88cv",
+      "tags": [
+        "Mixer",
+        "Expander",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Matrix88M",
+      "name": "MX88M",
+      "description": "Mutes expander for MATRIX88",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#matrix88m",
+      "tags": [
+        "Mixer",
+        "Expander",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Switch81",
+      "name": "SWITCH81",
+      "description": "8-channel mixer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#switch81",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Switch18",
+      "name": "SWITCH18",
+      "description": "8-way signal router",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#switch18",
+      "tags": [
+        "Switch",
         "Polyphonic"
       ]
     },
@@ -657,6 +793,17 @@
       ]
     },
     {
+      "slug": "Bogaudio-AddrSeqX",
+      "name": "ASX",
+      "description": "8-step chainable expander for ADDR-SEQ",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#addrseqx",
+      "tags": [
+        "Sequencer",
+        "Expander",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Bogaudio-Pgmr",
       "name": "PGMR",
       "description": "4-step programmer and sequencer",
@@ -678,6 +825,15 @@
       ]
     },
     {
+      "slug": "Bogaudio-VU",
+      "name": "VU",
+      "description": "Stereo signal meter",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#vu",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
       "slug": "Bogaudio-Analyzer",
       "name": "ANALYZER",
       "description": "4-channel spectrum analyzer",
@@ -696,10 +852,10 @@
       ]
     },
     {
-      "slug": "Bogaudio-VU",
-      "name": "VU",
-      "description": "Stereo signal meter",
-      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#vu",
+      "slug": "Bogaudio-Ranalyzer",
+      "name": "RANALYZER",
+      "description": "Swept-sine frequency response analyzer",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#ranalyzer",
       "tags": [
         "Visual"
       ]

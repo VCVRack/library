@@ -758,7 +758,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1597601683.6977673,
+    "buildTimestamp": 1603080661.5611992,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -1042,6 +1042,51 @@
       },
       "Bogaudio-RGate": {
         "creationTimestamp": 1597601684.9544952
+      },
+      "Bogaudio-Chirp": {
+        "creationTimestamp": 1603081442.8174822
+      },
+      "Bogaudio-LPG": {
+        "creationTimestamp": 1603081443.0499966
+      },
+      "Bogaudio-LLPG": {
+        "creationTimestamp": 1603081443.2804193
+      },
+      "Bogaudio-MegaGate": {
+        "creationTimestamp": 1603081443.508833
+      },
+      "Bogaudio-Vish": {
+        "creationTimestamp": 1603081443.7749066
+      },
+      "Bogaudio-Velo": {
+        "creationTimestamp": 1603081444.0480235
+      },
+      "Bogaudio-Matrix81": {
+        "creationTimestamp": 1603081444.287258
+      },
+      "Bogaudio-Matrix18": {
+        "creationTimestamp": 1603081444.5181155
+      },
+      "Bogaudio-Matrix44Cvm": {
+        "creationTimestamp": 1603081444.8232598
+      },
+      "Bogaudio-Matrix88Cv": {
+        "creationTimestamp": 1603081445.0680077
+      },
+      "Bogaudio-Matrix88M": {
+        "creationTimestamp": 1603081445.3126647
+      },
+      "Bogaudio-Switch81": {
+        "creationTimestamp": 1603081445.5953383
+      },
+      "Bogaudio-Switch18": {
+        "creationTimestamp": 1603081445.9080975
+      },
+      "Bogaudio-AddrSeqX": {
+        "creationTimestamp": 1603081446.1869938
+      },
+      "Bogaudio-Ranalyzer": {
+        "creationTimestamp": 1603081446.4157755
       }
     }
   },
@@ -2286,7 +2331,7 @@
     }
   },
   "SonusModular": {
-    "buildTimestamp": 1577173162.6598647,
+    "buildTimestamp": 1603079990.8958287,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Addiction": {
@@ -2366,6 +2411,9 @@
       },
       "Yabp": {
         "creationTimestamp": 1561076996.0
+      },
+      "Neurosc": {
+        "creationTimestamp": 1603081446.6769695
       }
     }
   },
@@ -3046,7 +3094,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1602203374.5911877,
+    "buildTimestamp": 1603080801.7777548,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -3111,6 +3159,9 @@
       },
       "Pres1t": {
         "creationTimestamp": 1597098562.7365568
+      },
+      "NoteSeqFu": {
+        "creationTimestamp": 1603081446.9126887
       }
     }
   },
@@ -4251,7 +4302,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1602202635.353014,
+    "buildTimestamp": 1603079781.6610503,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -4686,7 +4737,7 @@
     }
   },
   "CountModula": {
-    "buildTimestamp": 1598732555.4938278,
+    "buildTimestamp": 1603081363.847349,
     "creationTimestamp": 1560722026.0,
     "modules": {
       "AnalogueShiftRegister": {
@@ -8087,11 +8138,14 @@
     }
   },
   "az": {
-    "buildTimestamp": 1590117487.1276653,
+    "buildTimestamp": 1603079538.7421765,
     "creationTimestamp": 1590117529.5065584,
     "modules": {
       "modulo": {
         "creationTimestamp": 1590117529.7133899
+      },
+      "LoFiTV": {
+        "creationTimestamp": 1603081447.1690357
       }
     }
   },
@@ -8279,7 +8333,7 @@
     }
   },
   "KautenjaDSP-PotatoChips": {
-    "buildTimestamp": 1600901200.9661715,
+    "buildTimestamp": 1603079869.4397209,
     "creationTimestamp": 1594395479.9564288,
     "modules": {
       "2A03": {
@@ -8480,7 +8534,7 @@
     }
   },
   "GrandeModular": {
-    "buildTimestamp": 1602203139.3210752,
+    "buildTimestamp": 1603080703.6655002,
     "creationTimestamp": 1598123367.069531,
     "modules": {
       "NoteMT": {
@@ -8549,7 +8603,7 @@
     }
   },
   "Sha-Bang-Modules": {
-    "buildTimestamp": 1602486462.9308043,
+    "buildTimestamp": 1603081440.9757907,
     "creationTimestamp": 1602486511.7177973,
     "modules": {
       "StochSeq": {
@@ -8575,6 +8629,15 @@
       },
       "QubitCrusher": {
         "creationTimestamp": 1602486514.0234332
+      }
+    }
+  },
+  "LilacLoop": {
+    "buildTimestamp": 1603081382.8177855,
+    "creationTimestamp": 1603081447.3990774,
+    "modules": {
+      "Looper": {
+        "creationTimestamp": 1603081447.633297
       }
     }
   }
