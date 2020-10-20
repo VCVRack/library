@@ -1,7 +1,7 @@
 {
   "slug": "ZetaCarinae",
   "name": "ZetaCarinae",
-  "version": "1.1.8",
+  "version": "1.1.11",
   "license": "GPL-3.0-or-later",
   "brand": "ZetaCarinae",
   "author": "Marshall Hampton",
@@ -10,7 +10,7 @@
   "pluginUrl": "https://github.com/mhampton/ZetaCarinaeModules",
   "manualUrl": "https://github.com/mhampton/ZetaCarinaeModules/blob/master/README.md",
   "sourceUrl": "https://github.com/mhampton/ZetaCarinaeModules",
-  "donateUrl": "",
+  "donateUrl": "https://www.patreon.com/ZetaCarinae",
   "changelogUrl": "",
   "modules": [
     {
@@ -37,6 +37,14 @@
       "description": "stochastic generator/mixer",
       "tags": [
         "Random"
+      ]
+    },
+    {
+      "slug": "Warbler",
+      "name": "WeebleWarbler",
+      "description": "Oscillator with some mixing capability",
+      "tags": [
+        "Oscillator"
       ]
     }
   ]

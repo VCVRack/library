@@ -1,0 +1,110 @@
+{
+  "slug": "FehlerFabrik-Suite",
+  "name": "Fehler Fabrik",
+  "version": "1.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Fehler Fabrik",
+  "author": "Ross Cameron",
+  "authorEmail": "rosscameron93@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/RCameron93/FehlerFabrik",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "PSIOP",
+      "name": "PSI OP",
+      "description": "FM Percussion Synth",
+      "tags": [
+        "Oscillator",
+        "Drum",
+        "Hardware clone",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "Planck",
+      "name": "Planck",
+      "description": "Bit depth and sample rate crusher",
+      "tags": [
+        "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Luigi",
+      "name": "Luigi",
+      "description": "Random clock and noise/dust generator",
+      "tags": [
+        "noise",
+        "random"
+      ]
+    },
+    {
+      "slug": "Aspect",
+      "name": "Aspect",
+      "description": "Clock Dividers and sequential sequencer",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Monte",
+      "name": "Monte",
+      "description": "Probabalistic Clock Generator",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Arpanet",
+      "name": "Arpanet",
+      "description": "1601 Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Sigma",
+      "name": "Sigma",
+      "description": "Fixed voltage adder",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Fax",
+      "name": "Fax",
+      "description": "CV recording sequencer",
+      "tags": [
+        "Sequencer",
+        "Recording",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Rasoir",
+      "name": "Rasoir",
+      "description": "Asymmetrical Voltage Processor",
+      "tags": [
+        "Effect",
+        "Waveshaper",
+        "Slew Limiter",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "Chi",
+      "name": "Chi",
+      "description": "3 Band Crossover",
+      "tags": [
+        "Equalizer",
+        "Filter",
+        "Poly"
+      ]
+    }
+  ]
+}

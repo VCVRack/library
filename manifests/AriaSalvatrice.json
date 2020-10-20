@@ -1,7 +1,7 @@
 {
   "slug": "AriaSalvatrice",
   "name": "Aria Salvatrice",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "license": "GPL-3.0-only",
   "brand": "Aria Salvatrice",
   "author": "Aria Salvatrice",
@@ -199,15 +199,18 @@
       "slug": "Pokies4",
       "name": "Signature Series Pokies",
       "description": "4 tiny buttons for automation or manual performance of CV parameters. Right-click options to change output values, and use in latch mode.",
+      "manualUrl": "https://aria.dog/modules/remote-controllers",
       "tags": [
         "Controller",
-        "Utility"
+        "Utility",
+        "Quad"
       ]
     },
     {
       "slug": "Grabby",
       "name": "Signature Series Grabby",
       "description": "A lil fader for automation or manual performance of CV parameters. Right-click options to offset and invert output.\n Support for Poly External Scales from Quatherina's Quantizer.",
+      "manualUrl": "https://aria.dog/modules/remote-controllers",
       "tags": [
         "Controller",
         "Utility"
@@ -217,9 +220,11 @@
       "slug": "Rotatoes4",
       "name": "Signature Series Rotatoes",
       "description": "4 tiny knobs for automation or manual performance of CV parameters. Right-click options to offset and invert output.\n Support for Poly External Scales from Quatherina's Quantizer.",
+      "manualUrl": "https://aria.dog/modules/remote-controllers",
       "tags": [
         "Controller",
-        "Utility"
+        "Utility",
+        "Quad"
       ]
     },
     {
