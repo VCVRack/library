@@ -550,3 +550,6 @@
 [submodule "repos/LilacLoop"]
 	path = repos/LilacLoop
 	url = https://github.com/grough/lilac-loop-vcv.git
+[submodule "repos/FehlerFabrik-Suite"]
+	path = repos/FehlerFabrik-Suite
+	url = https://github.com/RCameron93/FehlerFabrik.git
