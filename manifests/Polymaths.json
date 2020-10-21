@@ -1,0 +1,59 @@
+{
+  "slug": "Polymaths",
+  "name": "Polymaths",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Magus Instrumentalis",
+  "author": "David Kant, Ryan Page, Mustafa Walker",
+  "authorEmail": "ryan@magusinstrumentalis.com",
+  "authorUrl": "",
+  "pluginUrl": "https://magusinstrumentalis.com/",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "STRX",
+      "name": "Ars Memorium",
+      "description": "State recall matrix",
+      "tags": [
+        "Sequencer",
+        "Function Generator",
+        "Arbitrary Function Generator",
+        "Random",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "MINI",
+      "name": "Enochian Tablet",
+      "description": "CV controlled matrix mixer",
+      "tags": [
+        "Mixer",
+        "Distortion",
+        "Feedback",
+        "Matrix Mixer"
+      ]
+    },
+    {
+      "slug": "VELO",
+      "name": "Hek\u0113bolos",
+      "description": "Integrator",
+      "tags": [
+        "Utility",
+        "Integrator",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "VERT",
+      "name": "Catoptromancer",
+      "description": "Inverter",
+      "tags": [
+        "Utility",
+        "Logic",
+        "Dual"
+      ]
+    }
+  ]
+}
