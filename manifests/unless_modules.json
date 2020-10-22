@@ -2,7 +2,7 @@
   "slug": "unless_modules",
   "name": "unless modules",
   "author": "unless games",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "GPL-3.0-only",
   "authorEmail": "unlessgames@gmail.com",
   "pluginUrl": "https://gitlab.com/unlessgames/unless_modules",
@@ -15,6 +15,7 @@
       "slug": "piong",
       "name": "piong",
       "description": "arcade modulator",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#piong",
       "tags": [
         "Sequencer",
         "Random"
@@ -24,6 +25,7 @@
       "slug": "markov",
       "name": "Mr. Chainkov",
       "description": "a markov-chain melody generator",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#mr-chainkov",
       "tags": [
         "Sequencer",
         "Random"
@@ -33,6 +35,7 @@
       "slug": "atoms",
       "name": "atoms",
       "description": "adjustable rotating octa-multi-switch",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#atoms",
       "tags": [
         "Switch",
         "Mixer",
@@ -43,6 +46,7 @@
       "slug": "cantor",
       "name": "tancor",
       "description": "swinging gate machine based around a parametric binary tree, inspired by the cantor set",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#t%C3%A1ncor",
       "tags": [
         "Sequencer",
         "Clock generator"
@@ -52,6 +56,7 @@
       "slug": "room",
       "name": "room",
       "description": "a rack row arranger that can move complete rows of modules and add empty rows between existing ones for a faster workflow",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#room",
       "tags": [
         "Utility"
       ]
@@ -60,6 +65,7 @@
       "slug": "snake",
       "name": "SNAKIA",
       "description": "emulative snake game modulator",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#snakia",
       "tags": [
         "Random",
         "Sequencer"
@@ -69,6 +75,7 @@
       "slug": "towers",
       "name": "towers",
       "description": "dual fader bank, constant CV source with polyphonic io and mods. up to 16 faders each",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#towers",
       "tags": [
         "Attenuator",
         "Polyphonic",

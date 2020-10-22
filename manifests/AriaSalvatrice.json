@@ -1,7 +1,7 @@
 {
   "slug": "AriaSalvatrice",
   "name": "Aria Salvatrice",
-  "version": "1.7.1",
+  "version": "1.8.1",
   "license": "GPL-3.0-only",
   "brand": "Aria Salvatrice",
   "author": "Aria Salvatrice",
@@ -20,8 +20,7 @@
       "manualUrl": "https://aria.dog/modules/splitmerge",
       "tags": [
         "Polyphonic",
-        "Utility",
-        "Logic"
+        "Utility"
       ]
     },
     {
@@ -31,8 +30,7 @@
       "manualUrl": "https://aria.dog/modules/splitmerge",
       "tags": [
         "Polyphonic",
-        "Utility",
-        "Logic"
+        "Utility"
       ]
     },
     {
@@ -43,7 +41,6 @@
       "tags": [
         "Polyphonic",
         "Utility",
-        "Logic",
         "Dual"
       ]
     },
@@ -55,7 +52,6 @@
       "tags": [
         "Polyphonic",
         "Utility",
-        "Logic",
         "Dual"
       ]
     },
@@ -66,8 +62,7 @@
       "manualUrl": "https://aria.dog/modules/splitmerge",
       "tags": [
         "Polyphonic",
-        "Utility",
-        "Logic"
+        "Utility"
       ]
     },
     {
@@ -193,6 +188,18 @@
         "Quantizer",
         "Sequencer",
         "Expander"
+      ]
+    },
+    {
+      "slug": "Psychopump",
+      "name": "Signature Series Psychopump",
+      "description": "8 triggered channels of CV presets and S&H with randomization. \nPairs great with percussive sound sources to send your beats straight to Hades.",
+      "manualUrl": "https://aria.dog/modules/psychopump",
+      "tags": [
+        "Controller",
+        "Polyphonic",
+        "Sample and hold",
+        "Utility"
       ]
     },
     {

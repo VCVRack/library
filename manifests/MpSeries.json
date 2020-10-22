@@ -1,16 +1,16 @@
 {
   "slug": "MpSeries",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "GPL-3.0-only",
   "name": "MpSeries",
   "brand": "MpSeries",
   "author": "Omer Liberman",
   "authorEmail": "omerlibermannn@gmail.com",
-  "pluginUrl": "https://vcvrack.com/",
-  "authorUrl": "https://vcvrack.com",
-  "manualUrl": "",
+  "pluginUrl": "https://github.com/OmerOki/MpSeries",
+  "authorUrl": "https://github.com/OmerOki/MpSeries",
+  "manualUrl": "https://github.com/OmerOki/MpSeries/blob/MpSeries-1.0.1/README.md",
   "sourceUrl": "https://github.com/libermnnn/MpSeries",
-  "changelogUrl": "https://github.com/libermnnn/MpSeries",
+  "changelogUrl": "https://github.com/OmerOki/MpSeries/blob/MpSeries-1.0.2/CHANGELOG.md",
   "modules": [
     {
       "slug": "MpMap",
