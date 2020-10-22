@@ -1,7 +1,7 @@
 {
   "slug": "ChowDSP",
   "name": "ChowDSP",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "chowdsp",
   "author": "Jatin Chowdhury",
@@ -113,6 +113,16 @@
       "tags": [
         "envelope generator",
         "physical modeling"
+      ]
+    },
+    {
+      "slug": "Warp",
+      "name": "Warp",
+      "description": "A warping distortion, developed in collaboration with IggyLabs",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#warp",
+      "tags": [
+        "Effect",
+        "Distortion"
       ]
     }
   ]
