@@ -1,6 +1,6 @@
 {
   "slug": "AudibleInstruments",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "license": "GPL-3.0-or-later",
   "name": "Audible Instruments",
   "author": "VCV",
@@ -241,6 +241,16 @@
       "tags": [
         "Equalizer",
         "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Streams",
+      "name": "Dual Dynamics Gate",
+      "description": "Based on Mutable Instruments Streams",
+      "tags": [
+        "Dynamics",
+        "Low-pass gate",
         "Polyphonic"
       ]
     }
