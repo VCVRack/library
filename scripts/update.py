@@ -7,11 +7,11 @@ import zipfile
 import re
 
 import common
-import build
 import update_modulargrid
 import update_cache
 
 
+TOOLCHAIN_DIR = "../toolchain"
 PACKAGES_DIR = "../packages"
 SCREENSHOTS_DIR = "../screenshots"
 MANIFESTS_DIR = "manifests"
@@ -24,19 +24,20 @@ common.system("git pull")
 common.system("git submodule sync --quiet")
 common.system("git submodule update --init --recursive")
 
-plugin_filenames = sys.argv[1:]
+plugin_paths = sys.argv[1:]
 
 # Default to all repos, so all out-of-date repos are built
-if not plugin_filenames:
-	plugin_filenames = glob.glob("repos/*")
+if not plugin_paths:
+	plugin_paths = glob.glob("repos/*")
 
 updated_slugs = set()
 
-for plugin_filename in plugin_filenames:
-	(plugin_basename, plugin_ext) = os.path.splitext(os.path.basename(plugin_filename))
+for plugin_path in plugin_paths:
+	plugin_path = os.path.abspath(plugin_path)
+	(plugin_basename, plugin_ext) = os.path.splitext(os.path.basename(plugin_path))
 	# Extract manifest from plugin dir or package
-	if os.path.isdir(plugin_filename):
-		manifest_filename = os.path.join(plugin_filename, "plugin.json")
+	if os.path.isdir(plugin_path):
+		manifest_filename = os.path.join(plugin_path, "plugin.json")
 		try:
 			# Read manifest
 			with open(manifest_filename, "r") as f:
@@ -52,7 +53,7 @@ for plugin_filename in plugin_filenames:
 		version = m[2]
 		arch = m[3]
 		# Open ZIP
-		z = zipfile.ZipFile(plugin_filename)
+		z = zipfile.ZipFile(plugin_path)
 		# Unzip manifest
 		manifest_filename = f"{slug}/plugin.json"
 		with z.open(manifest_filename) as f:
@@ -62,12 +63,12 @@ for plugin_filename in plugin_filenames:
 		if manifest['version'] != version:
 			raise Exception(f"Manifest slug does not match filename slug {slug}")
 	else:
-		raise Exception(f"Plugin {plugin_filename} is not a valid format")
+		raise Exception(f"Plugin {plugin_path} is not a valid format")
 
 	# Get library manifest
 	library_manifest_filename = os.path.join(MANIFESTS_DIR, f"{slug}.json")
 
-	if os.path.isdir(plugin_filename):
+	if os.path.isdir(plugin_path):
 		# Check if the library manifest is up to date
 		try:
 			with open(library_manifest_filename, "r") as f:
@@ -81,17 +82,17 @@ for plugin_filename in plugin_filenames:
 		print()
 		print(f"Building {slug}")
 		try:
-			build.delete_stage()
-			build.build(plugin_filename)
-			common.system(f'cp -vi stage/* "{PACKAGES_DIR}"')
-			common.system(f'cp -vi stage/*-lin.zip "{RACK_USER_PLUGIN_DIR}"')
+			common.system(f'cd "{TOOLCHAIN_DIR}" && make plugin-build-clean')
+			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j$(nproc) plugin-build PLUGIN_DIR={plugin_path}')
+			common.system(f'cp -vi "{TOOLCHAIN_DIR}"/plugin-build/* "{PACKAGES_DIR}"/')
+			common.system(f'cp -vi "{TOOLCHAIN_DIR}"/plugin-build/*-lin.zip "{RACK_USER_PLUGIN_DIR}"')
 		except Exception as e:
 			print(e)
 			print(f"{slug} build failed")
 			input()
 			continue
 		finally:
-			build.delete_stage()
+			common.system(f'cd "{TOOLCHAIN_DIR}" && make plugin-build-clean')
 
 		# Open plugin issue thread
 		os.system(f"xdg-open 'https://github.com/VCVRack/library/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+in%3Atitle+{slug}' &")
@@ -103,11 +104,11 @@ for plugin_filename in plugin_filenames:
 		input()
 
 		# Copy package
-		package_dest = os.path.join(PACKAGES_DIR, os.path.basename(plugin_filename))
-		common.system(f'cp "{plugin_filename}" "{package_dest}"')
+		package_dest = os.path.join(PACKAGES_DIR, os.path.basename(plugin_path))
+		common.system(f'cp "{plugin_path}" "{package_dest}"')
 		common.system(f'touch "{package_dest}"')
 		if arch == 'lin':
-			common.system(f'cp "{plugin_filename}" "{RACK_USER_PLUGIN_DIR}"')
+			common.system(f'cp "{plugin_path}" "{RACK_USER_PLUGIN_DIR}"')
 
 	# Copy manifest
 	with open(library_manifest_filename, "w") as f:
@@ -135,7 +136,7 @@ print()
 print(f"Press enter to launch Rack and test the following packages: {built_slugs_str}")
 input()
 common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack")
-# common.system(f"cd {RACK_USER_DIR} && grep 'warn' log.txt")
+common.system(f"cd {RACK_USER_DIR} && grep 'warn' log.txt || true")
 print(f"Press enter to generate screenshots, upload packages, upload screenshots, and commit/push the library repo.")
 input()
 
