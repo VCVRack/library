@@ -1,7 +1,7 @@
 {
   "slug": "ZetaCarinae",
   "name": "ZetaCarinae",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "license": "GPL-3.0-or-later",
   "brand": "ZetaCarinae",
   "author": "Marshall Hampton",
@@ -45,6 +45,15 @@
       "description": "Oscillator with some mixing capability",
       "tags": [
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "Rosenchance",
+      "name": "Rosenchance",
+      "description": "2 State, 2 Emission Hidden Markov Model",
+      "tags": [
+        "Random",
+        "Utility"
       ]
     }
   ]
