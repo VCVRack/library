@@ -1,57 +1,17 @@
 {
   "slug": "Sha-Bang-Modules",
   "name": "Sha#Bang! Modules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "GPL-3.0-only",
   "author": "Jeremy Muller",
   "authorEmail": "jeremy@jeremymuller.com",
   "authorUrl": "http://jeremymuller.com",
   "pluginUrl": "",
-  "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules",
+  "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#shabang-modules",
   "sourceUrl": "https://github.com/jeremymuller/Sha-Bang-Modules",
   "donateUrl": "https://www.paypal.me/jeremysmuller",
   "changelogUrl": "",
   "modules": [
-    {
-      "slug": "StochSeq",
-      "name": "Stochastic Sequencer 1",
-      "tags": [
-        "Sequencer",
-        "Visual"
-      ]
-    },
-    {
-      "slug": "StochSeq4",
-      "name": "Stochastic Sequencer 4",
-      "tags": [
-        "Sequencer",
-        "Visual"
-      ]
-    },
-    {
-      "slug": "PolyrhythmClock",
-      "name": "Polyrhythm Clock",
-      "tags": [
-        "Clock generator",
-        "Clock modulator"
-      ]
-    },
-    {
-      "slug": "RandGates",
-      "name": "Random Gate Switch",
-      "tags": [
-        "Switch"
-      ]
-    },
-    {
-      "slug": "Neutrinode",
-      "name": "Neutrinode",
-      "tags": [
-        "Visual",
-        "Sequencer",
-        "Polyphonic"
-      ]
-    },
     {
       "slug": "Cosmosis",
       "name": "Cosmosis",
@@ -70,6 +30,30 @@
       ]
     },
     {
+      "slug": "Neutrinode",
+      "name": "Neutrinode",
+      "tags": [
+        "Visual",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyrhythmClock",
+      "name": "Polyrhythm Clock",
+      "tags": [
+        "Clock generator",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "RandGates",
+      "name": "Random Gate Switch",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
       "slug": "QubitCrusher",
       "name": "QubitCrusher",
       "tags": [
@@ -77,6 +61,22 @@
         "Distortion",
         "Effect",
         "Sample and hold"
+      ]
+    },
+    {
+      "slug": "StochSeq",
+      "name": "Stochastic Sequencer 1",
+      "tags": [
+        "Sequencer",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "StochSeq4",
+      "name": "Stochastic Sequencer 4",
+      "tags": [
+        "Sequencer",
+        "Visual"
       ]
     }
   ]
