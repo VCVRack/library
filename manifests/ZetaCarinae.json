@@ -1,7 +1,7 @@
 {
   "slug": "ZetaCarinae",
   "name": "ZetaCarinae",
-  "version": "1.1.12",
+  "version": "1.1.15",
   "license": "GPL-3.0-or-later",
   "brand": "ZetaCarinae",
   "author": "Marshall Hampton",
@@ -54,6 +54,25 @@
       "tags": [
         "Random",
         "Utility"
+      ]
+    },
+    {
+      "slug": "GuildensTurn",
+      "name": "GuildensTurn",
+      "description": "4 state Markovian Router",
+      "tags": [
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "RosslerRustler",
+      "name": "RosslerRustler",
+      "description": "Filter/Oscillator combination based on Rossler Attractor",
+      "tags": [
+        "Oscillator",
+        "Effect",
+        "Distortion"
       ]
     }
   ]

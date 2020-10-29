@@ -8588,7 +8588,7 @@
     }
   },
   "ZetaCarinae": {
-    "buildTimestamp": 1603503433.9782295,
+    "buildTimestamp": 1603982975.1280856,
     "creationTimestamp": 1600901204.393585,
     "modules": {
       "BrownianBridge": {
@@ -8605,6 +8605,12 @@
       },
       "Rosenchance": {
         "creationTimestamp": 1603503692.338014
+      },
+      "GuildensTurn": {
+        "creationTimestamp": 1603982977.1022544
+      },
+      "RosslerRustler": {
+        "creationTimestamp": 1603982977.6475081
       }
     }
   },
