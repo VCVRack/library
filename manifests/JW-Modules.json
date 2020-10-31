@@ -10,7 +10,7 @@
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
   "changelogUrl": "https://github.com/jeremywen/JW-Modules/blob/master/CHANGELOG.md",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "modules": [
     {
       "slug": "BlankPanel_1HP",
@@ -50,6 +50,14 @@
       "manualUrl": "https://github.com/jeremywen/JW-Modules",
       "tags": [
         "Visual"
+      ]
+    },
+    {
+      "slug": "Add5",
+      "name": "Add5",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Utility"
       ]
     },
     {
@@ -124,6 +132,15 @@
       "slug": "Patterns",
       "name": "Patterns",
       "manualUrl": "https://github.com/jeremywen/JW-Modules#patterns",
+      "tags": [
+        "Sequencer",
+        "Clock Modulator"
+      ]
+    },
+    {
+      "slug": "1Pattern",
+      "name": "1Pattern",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#1pattern",
       "tags": [
         "Sequencer",
         "Clock Modulator"
