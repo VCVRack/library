@@ -2527,7 +2527,7 @@
     }
   },
   "squinkylabs-plug1": {
-    "buildTimestamp": 1598553183.5936337,
+    "buildTimestamp": 1604278995.3447187,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {
@@ -2622,6 +2622,15 @@
       },
       "squinkylabs-dividerx": {
         "creationTimestamp": 1598553492.8396182
+      },
+      "squinkylabs-f2": {
+        "creationTimestamp": 1604278997.9140058
+      },
+      "squinkylabs-f4": {
+        "creationTimestamp": 1604278998.1682253
+      },
+      "squinkylabs-comp": {
+        "creationTimestamp": 1604278998.4573581
       }
     }
   },
