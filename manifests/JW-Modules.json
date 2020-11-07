@@ -10,7 +10,7 @@
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
   "changelogUrl": "https://github.com/jeremywen/JW-Modules/blob/master/CHANGELOG.md",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "modules": [
     {
       "slug": "BlankPanel_1HP",
@@ -206,6 +206,14 @@
       "tags": [
         "Visual",
         "Poly"
+      ]
+    },
+    {
+      "slug": "Tree",
+      "name": "Tree",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#tree",
+      "tags": [
+        "Visual"
       ]
     },
     {

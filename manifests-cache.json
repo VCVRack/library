@@ -3097,7 +3097,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1604152623.6515996,
+    "buildTimestamp": 1604785496.0209458,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -3171,6 +3171,9 @@
       },
       "1Pattern": {
         "creationTimestamp": 1604152625.915538
+      },
+      "Tree": {
+        "creationTimestamp": 1604785588.0637891
       }
     }
   },
@@ -8630,7 +8633,7 @@
     }
   },
   "Sha-Bang-Modules": {
-    "buildTimestamp": 1603601525.1905675,
+    "buildTimestamp": 1604785587.0364978,
     "creationTimestamp": 1602486511.7177973,
     "modules": {
       "StochSeq": {
@@ -8656,6 +8659,15 @@
       },
       "QubitCrusher": {
         "creationTimestamp": 1602486514.0234332
+      },
+      "AbsorptionSpectrum": {
+        "creationTimestamp": 1604785588.3791134
+      },
+      "Orbitones": {
+        "creationTimestamp": 1604785588.6941571
+      },
+      "Photron": {
+        "creationTimestamp": 1604785589.1237576
       }
     }
   },

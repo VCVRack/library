@@ -1,7 +1,7 @@
 {
   "slug": "Sha-Bang-Modules",
   "name": "Sha#Bang! Modules",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "GPL-3.0-only",
   "author": "Jeremy Muller",
   "authorEmail": "jeremy@jeremymuller.com",
@@ -13,8 +13,18 @@
   "changelogUrl": "",
   "modules": [
     {
+      "slug": "AbsorptionSpectrum",
+      "name": "Absorption Spectrum",
+      "description": "Hydrogen absorption spectrum",
+      "tags": [
+        "Blank",
+        "Visual"
+      ]
+    },
+    {
       "slug": "Cosmosis",
       "name": "Cosmosis",
+      "description": "Continuous sequencer with constellations",
       "tags": [
         "Visual",
         "Sequencer",
@@ -23,7 +33,7 @@
     },
     {
       "slug": "JeremyBlankPanel",
-      "name": "Blank Panel of Jeremy",
+      "name": "Blank Panel",
       "tags": [
         "Blank",
         "Visual"
@@ -32,6 +42,7 @@
     {
       "slug": "Neutrinode",
       "name": "Neutrinode",
+      "description": "Node-based generator with four independent nodes to connected particles",
       "tags": [
         "Visual",
         "Sequencer",
@@ -39,23 +50,47 @@
       ]
     },
     {
+      "slug": "Orbitones",
+      "name": "Orbitones",
+      "description": "Physics-based LFO with four independent attractors",
+      "tags": [
+        "Visual",
+        "Low-frequency oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Photron",
+      "name": "Photron",
+      "description": "Animation with inputs",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
       "slug": "PolyrhythmClock",
       "name": "Polyrhythm Clock",
+      "description": "Clock with 3 layers of embedded rhythms and randomization",
       "tags": [
         "Clock generator",
-        "Clock modulator"
+        "Clock modulator",
+        "Random"
       ]
     },
     {
       "slug": "RandGates",
       "name": "Random Gate Switch",
+      "description": "Randomly routes one of 4 inputs to the output",
       "tags": [
-        "Switch"
+        "Utility",
+        "Switch",
+        "Polyphonic"
       ]
     },
     {
       "slug": "QubitCrusher",
       "name": "QubitCrusher",
+      "description": "Bit crusher and downsampler with randomization",
       "tags": [
         "Digital",
         "Distortion",
@@ -66,6 +101,7 @@
     {
       "slug": "StochSeq",
       "name": "Stochastic Sequencer 1",
+      "description": "Probabilistic sequencer",
       "tags": [
         "Sequencer",
         "Visual"
@@ -74,6 +110,7 @@
     {
       "slug": "StochSeq4",
       "name": "Stochastic Sequencer 4",
+      "description": "Probabilistic sequencer with four independent voices",
       "tags": [
         "Sequencer",
         "Visual"
