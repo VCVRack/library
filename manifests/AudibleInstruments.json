@@ -1,6 +1,6 @@
 {
   "slug": "AudibleInstruments",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "license": "GPL-3.0-or-later",
   "name": "Audible Instruments",
   "author": "VCV",
@@ -248,7 +248,6 @@
       "slug": "Streams",
       "name": "Dual Dynamics Gate",
       "description": "Based on Mutable Instruments Streams",
-      "disabled": true,
       "tags": [
         "Dynamics",
         "Low-pass gate",
