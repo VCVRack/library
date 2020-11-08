@@ -3097,7 +3097,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1604785496.0209458,
+    "buildTimestamp": 1604857723.5415993,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -3174,6 +3174,9 @@
       },
       "Tree": {
         "creationTimestamp": 1604785588.0637891
+      },
+      "Trigs": {
+        "creationTimestamp": 1604857724.9628415
       }
     }
   },
