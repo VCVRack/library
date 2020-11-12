@@ -1,7 +1,7 @@
 {
   "slug": "FrequencyDomain",
   "name": "Frequency Domain",
-  "version": "1.8.6",
+  "version": "1.9.0",
   "license": "Proprietary",
   "brand": "Frequency Domain",
   "author": "almostEric with JerrySV, Jatin Chowdhury",
@@ -31,12 +31,13 @@
       ]
     },
     {
-      "slug": "FreudianSlip",
-      "name": "Freudian Slip",
-      "description": "Resynthesizing Sampler",
+      "slug": "DanceThisMeshAround",
+      "name": "Dance This Mesh Around",
+      "description": "Multi-Dimensional Digital Waveguide Oscillator",
       "tags": [
-        "Synth voice",
-        "Sampler"
+        "Oscillator",
+        "Effect",
+        "Physical modeling"
       ]
     },
     {
@@ -46,6 +47,15 @@
       "tags": [
         "Delay",
         "Effect"
+      ]
+    },
+    {
+      "slug": "FreudianSlip",
+      "name": "Freudian Slip",
+      "description": "Resynthesizing Sampler",
+      "tags": [
+        "Synth voice",
+        "Sampler"
       ]
     },
     {
@@ -65,6 +75,14 @@
       "description": "Resynthesis Engine",
       "tags": [
         "Synth voice"
+      ]
+    },
+    {
+      "slug": "HeatOfTheMoment",
+      "name": "Heat Of The Moment",
+      "description": "Impulse Generator",
+      "tags": [
+        "Noise"
       ]
     },
     {
