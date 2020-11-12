@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -195,11 +195,22 @@
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Maze.md"
     },
     {
+      "slug": "Hive",
+      "name": "HIVE",
+      "description": "4 channel sequencer running on a 2-dimensional hexagonal grid",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Hive.md"
+    },
+    {
       "slug": "Intermix",
       "name": "INTERMIX",
       "description": "Precision adder 8x8 switch matrix with scene-support",
       "tags": [
-        "Mixer"
+        "Mixer",
+        "Polyphonic"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Intermix.md"
     },
@@ -348,12 +359,50 @@
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/X4.md"
     },
     {
+      "slug": "Macro",
+      "name": "MACRO",
+      "description": "Macro-knob for controlling multiple parameters, with attenuverts and slew-limiting",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Macro.md"
+    },
+    {
+      "slug": "Raw",
+      "name": "RAW",
+      "description": "Digital effect based on the dynamics of bistable systems",
+      "tags": [
+        "Distortion",
+        "Digital"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Raw.md"
+    },
+    {
+      "slug": "MidiMon",
+      "name": "MIDI-MON",
+      "description": "Monitor for MIDI messages",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiMon.md"
+    },
+    {
       "slug": "AudioInterface64",
       "name": "AUDIO-64",
       "description": "Sends CV and audio to/from an audio device",
       "tags": [
         "External"
       ]
+    },
+    {
+      "slug": "Mb",
+      "name": "MB",
+      "description": "Experimental replacement module browsers for Rack. Brings back the browser from Rack v0.6x and has a modified browser from Rack v1.x with adjustable preview size, favorites, extended filtering options and more.",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Mb.md"
     }
   ]
 }

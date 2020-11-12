@@ -2166,7 +2166,7 @@
     }
   },
   "Stoermelder-P1": {
-    "buildTimestamp": 1599748072.522658,
+    "buildTimestamp": 1605166227.0257103,
     "creationTimestamp": 1559409342.0,
     "modules": {
       "CVMap": {
@@ -2276,6 +2276,21 @@
       },
       "X4": {
         "creationTimestamp": 1598123366.8028293
+      },
+      "Hive": {
+        "creationTimestamp": 1605166388.1425292
+      },
+      "Macro": {
+        "creationTimestamp": 1605166388.4515545
+      },
+      "Raw": {
+        "creationTimestamp": 1605166388.7034822
+      },
+      "MidiMon": {
+        "creationTimestamp": 1605166388.9828613
+      },
+      "Mb": {
+        "creationTimestamp": 1605166389.2461746
       }
     }
   },
@@ -3097,7 +3112,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1604857723.5415993,
+    "buildTimestamp": 1605166386.616771,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -8555,7 +8570,7 @@
     }
   },
   "GrandeModular": {
-    "buildTimestamp": 1603080703.6655002,
+    "buildTimestamp": 1605166274.9770308,
     "creationTimestamp": 1598123367.069531,
     "modules": {
       "NoteMT": {
@@ -8575,6 +8590,12 @@
       },
       "Scale": {
         "creationTimestamp": 1598123368.2305691
+      },
+      "MicrotonalChords": {
+        "creationTimestamp": 1605166389.4952598
+      },
+      "MicrotonalNotes": {
+        "creationTimestamp": 1605166389.7494843
       }
     }
   },

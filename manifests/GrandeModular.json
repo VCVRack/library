@@ -1,7 +1,7 @@
 {
   "slug": "GrandeModular",
   "name": "Grande",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "license": "GPL-3.0-or-later",
   "author": "David Grande",
   "authorEmail": "dbgrande246@gmail.com",
@@ -12,6 +12,26 @@
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
+    {
+      "slug": "MicrotonalChords",
+      "name": "Microtonal Chords",
+      "description": "Microtonal quad chord generator.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#microtonalchords",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MicrotonalNotes",
+      "name": "Microtonal Notes",
+      "description": "Microtonal octal note generator.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#microtonalnotes",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
     {
       "slug": "NoteMT",
       "name": "NoteMT",
