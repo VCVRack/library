@@ -1,0 +1,23 @@
+{
+  "slug": "Geodesics-Vultiverse",
+  "name": "Geodesics-Vultiverse",
+  "version": "1.0.0",
+  "license": "Proprietary",
+  "brand": "Geodesics+Vult",
+  "author": "Pyer + Leonardo Laguna Ruiz",
+  "authorEmail": "geodesics.vult@outlook.com",
+  "authorUrl": "https://www.pyer.be/geodesicsvultiverse.html",
+  "pluginUrl": "https://www.pyer.be/geodesicsvultiverse.html",
+  "manualUrl": "https://www.pyer.be/hexaquark.html",
+  "modules": [
+    {
+      "slug": "Hexaquark",
+      "name": "Hexaquark",
+      "description": "Quantum Chromodynamic Trigger Sequencer",
+      "tags": [
+        "Sequencer",
+        "Envelope generator"
+      ]
+    }
+  ]
+}
