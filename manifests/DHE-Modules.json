@@ -1,6 +1,6 @@
 {
   "slug": "DHE-Modules",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "license": "MIT",
   "name": "DHE Modules",
   "author": "Dale Emery",
@@ -135,6 +135,39 @@
       "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/ranger/",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "Scannibal4",
+      "name": "Scannibal 4",
+      "description": "A 4 step scanned sequencer",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/scannibal/",
+      "tags": [
+        "Sequencer",
+        "Envelope Generator",
+        "LFO"
+      ]
+    },
+    {
+      "slug": "Scannibal8",
+      "name": "Scannibal 8",
+      "description": "An 8 step scanned sequencer",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/scannibal/",
+      "tags": [
+        "Sequencer",
+        "Envelope Generator",
+        "LFO"
+      ]
+    },
+    {
+      "slug": "Scannibal16",
+      "name": "Scannibal 16",
+      "description": "A 16 step scanned sequencer",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/scannibal/",
+      "tags": [
+        "Sequencer",
+        "Envelope Generator",
+        "LFO"
       ]
     },
     {
