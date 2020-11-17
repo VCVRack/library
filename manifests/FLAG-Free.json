@@ -1,0 +1,28 @@
+{
+  "slug": "FLAG-Free",
+  "name": "FLAG Free",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "FLAG",
+  "author": "Nils Jonas Norberg",
+  "authorEmail": "",
+  "authorUrl": "https://flagaudio.com/",
+  "pluginUrl": "https://flagaudio.com/",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "paypal.me/FlagAudio",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Electric-Ensemble",
+      "name": "Electric Ensemble",
+      "description": "Chorus Ensemble",
+      "tags": [
+        "Chorus",
+        "Effect",
+        "Distortion",
+        "Filter"
+      ]
+    }
+  ]
+}
