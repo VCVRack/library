@@ -1495,7 +1495,7 @@
     "modules": {}
   },
   "DHE-Modules": {
-    "buildTimestamp": 1605389888.0028377,
+    "buildTimestamp": 1605786840.2501686,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Blossom": {
@@ -1569,6 +1569,18 @@
       },
       "Scannibal16": {
         "creationTimestamp": 1605389890.8007603
+      },
+      "Buttons": {
+        "creationTimestamp": 1605786842.1066337
+      },
+      "Truth2": {
+        "creationTimestamp": 1605786842.3643591
+      },
+      "Truth3": {
+        "creationTimestamp": 1605786842.6326056
+      },
+      "Truth4": {
+        "creationTimestamp": 1605786842.8599265
       }
     }
   },
@@ -8381,7 +8393,7 @@
     }
   },
   "KautenjaDSP-PotatoChips": {
-    "buildTimestamp": 1603079869.4397209,
+    "buildTimestamp": 1605786766.5247252,
     "creationTimestamp": 1594395479.9564288,
     "modules": {
       "2A03": {
@@ -8422,6 +8434,24 @@
       },
       "2612": {
         "creationTimestamp": 1600901204.0791442
+      },
+      "2612_Blank1": {
+        "creationTimestamp": 1605786843.1448767
+      },
+      "S_SMP_ADSR": {
+        "creationTimestamp": 1605786843.3851602
+      },
+      "S_SMP_BRR": {
+        "creationTimestamp": 1605786843.6243796
+      },
+      "S_SMP_Echo": {
+        "creationTimestamp": 1605786843.8621259
+      },
+      "S_SMP_Gauss": {
+        "creationTimestamp": 1605786844.1013498
+      },
+      "S_SMP_Blank1": {
+        "creationTimestamp": 1605786844.3430266
       }
     }
   },
@@ -8711,7 +8741,7 @@
     }
   },
   "LilacLoop": {
-    "buildTimestamp": 1605492649.7908,
+    "buildTimestamp": 1605786783.5852137,
     "creationTimestamp": 1603081447.3990774,
     "modules": {
       "Looper": {

@@ -1,6 +1,6 @@
 {
   "slug": "KautenjaDSP-PotatoChips",
-  "version": "1.7.3",
+  "version": "1.8.2",
   "license": "GPL-3.0-or-later",
   "name": "KautenjaDSP Potato Chips",
   "brand": "KautenjaDSP",
@@ -9,26 +9,176 @@
   "authorUrl": "https://kautenja.github.io/",
   "sourceUrl": "https://github.com/Kautenja/PotatoChips",
   "changelogUrl": "https://github.com/Kautenja/PotatoChips/blob/master/CHANGELOG.md",
+  "donateUrl": "https://maps.org/donate",
   "modules": [
     {
-      "slug": "AY_3_8910",
-      "name": "AY-3-8910",
-      "description": "An emulation of the General Instrument AY-3-8910 chip.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/AY_3_8910.pdf",
+      "slug": "106",
+      "name": "Name Corp Octal Wave Generator",
+      "description": "An emulation of the Namco 163 wavetable chip from Nintendo Entertainment System (NES) cartridges.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/NameCorpOctalWaveGenerator.pdf",
       "tags": [
         "Oscillator",
         "Polyphonic"
       ]
     },
     {
-      "slug": "POKEY",
-      "name": "POKEY",
-      "description": "An emulation of the Atari POKEY chip.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/POKEY.pdf",
+      "slug": "2612",
+      "name": "Boss Fight",
+      "description": "An emulation of the Yamaha YM2612 FM synthesis chip from the Sega Mega Drive and Sega Genesis.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/Boss_Fight.pdf",
+      "tags": [
+        "Noise",
+        "Oscillator",
+        "Polyphonic",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "2612_Blank1",
+      "name": "Boss Fight Envelope Generator (Blank)",
+      "description": "A blank panel with an illustration of the envelope generator from Boss Fight.",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "2A03",
+      "name": "Infinite Stairs",
+      "description": "An emulation of the Ricoh 2A03 chip from the Nintendo Entertainment System (NES).",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/InfiniteStairs.pdf",
+      "tags": [
+        "Noise",
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "AY_3_8910",
+      "name": "Jairasullator",
+      "description": "An emulation of the General Instrument AY-3-8910 chip.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/Jairasullator.pdf",
+      "tags": [
+        "Distortion",
+        "Low-frequency Oscillator",
+        "Noise",
+        "Oscillator",
+        "Polyphonic",
+        "Synth voice",
+        "Voltage-controlled Amplifier"
+      ]
+    },
+    {
+      "slug": "FME7",
+      "name": "Pulses",
+      "description": "An emulation of the Sunsoft FME-7 chip from Nintendo Entertainment System (NES) cartridges.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/Pulses.pdf",
       "tags": [
         "Oscillator",
         "Polyphonic"
       ]
+    },
+    {
+      "slug": "GBS",
+      "name": "Pallet Town Waves System",
+      "description": "An emulation of the Nintendo Gameboy Sound System chip.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/PalletTownWavesSystem.pdf",
+      "tags": [
+        "Noise",
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "POKEY",
+      "name": "Pot Keys",
+      "description": "An emulation of the Atari POKEY chip.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/PotKeys.pdf",
+      "tags": [
+        "Noise",
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "S_SMP",
+      "name": "S-SMP",
+      "description": "An emulation of the Sony S-SMP chip from the Super Nintendo Entertainment System (SNES).",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP.pdf",
+      "tags": [
+        "Multiple",
+        "Noise",
+        "Oscillator",
+        "Polyphonic",
+        "Synth voice"
+      ],
+      "disabled": true
+    },
+    {
+      "slug": "S_SMP_ADSR",
+      "name": "S-SMP(ADSR)",
+      "description": "An emulation of the ADSR envelope from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP_ADSR.pdf",
+      "tags": [
+        "Dual",
+        "Envelope generator",
+        "Polyphonic"
+      ],
+      "disabled": true
+    },
+    {
+      "slug": "S_SMP_BRR",
+      "name": "S-SMP(BRR)",
+      "description": "An emulation of the BRR sample playback engine from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP_BRR.pdf",
+      "tags": [
+        "Multiple",
+        "Effect",
+        "Filter",
+        "Panning",
+        "Polyphonic",
+        "Sampler"
+      ],
+      "disabled": true
+    },
+    {
+      "slug": "S_SMP_Echo",
+      "name": "S-SMP(Echo)",
+      "description": "An emulation of the echo effect from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP_Echo.pdf",
+      "tags": [
+        "Delay",
+        "Dual",
+        "Effect",
+        "Filter",
+        "Panning",
+        "Polyphonic",
+        "Reverb"
+      ],
+      "disabled": true
+    },
+    {
+      "slug": "S_SMP_Gauss",
+      "name": "S-SMP(Gauss)",
+      "description": "An emulation of the Gaussian low-pass filter effect from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP_Gauss.pdf",
+      "tags": [
+        "Dual",
+        "Filter",
+        "Low-pass gate",
+        "Panning",
+        "Polyphonic",
+        "Voltage-controlled amplifier"
+      ],
+      "disabled": true
+    },
+    {
+      "slug": "S_SMP_Blank1",
+      "name": "S-SMP(Blank)",
+      "description": "A blank panel with an S-SMP illustration.",
+      "tags": [
+        "Blank"
+      ],
+      "disabled": true
     },
     {
       "slug": "SCC",
@@ -41,21 +191,12 @@
       "disabled": true
     },
     {
-      "slug": "VRC6",
-      "name": "VRC6",
-      "description": "An emulation of the Konami VRC6 chip from certain Nintendo Entertainment System (NES) cartridges.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/VRC6.pdf",
+      "slug": "SN76489",
+      "name": "Mega Tone",
+      "description": "An emulation of the Texas Instruments SN76489 chip from the Sega Master System, Sega Mega Drive, and Sega Genesis.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/MegaTone.pdf",
       "tags": [
-        "Oscillator",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "106",
-      "name": "106",
-      "description": "An emulation of the Namco 106 wavetable chip from certain Nintendo Entertainment System (NES) cartridges.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/106.pdf",
-      "tags": [
+        "Noise",
         "Oscillator",
         "Polyphonic"
       ]
@@ -71,79 +212,12 @@
       "disabled": true
     },
     {
-      "slug": "GBS",
-      "name": "GBS",
-      "description": "An emulation of the Nintendo Gameboy Sound System chip.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/GBS.pdf",
+      "slug": "VRC6",
+      "name": "StepSaw",
+      "description": "An emulation of the Konami VRC6 chip from Nintendo Entertainment System (NES) cartridges.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/StepSaw.pdf",
       "tags": [
         "Oscillator",
-        "Noise",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "S_SMP",
-      "name": "S-SMP",
-      "description": "An emulation of the Sony S-SMP chip from the Super Nintendo Entertainment System (SNES).",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP.pdf",
-      "tags": [
-        "Oscillator",
-        "Effect"
-      ],
-      "disabled": true
-    },
-    {
-      "slug": "2A03",
-      "name": "2A03",
-      "description": "An emulation of the Ricoh 2A03 chip from the Nintendo Entertainment System (NES).",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/2A03.pdf",
-      "tags": [
-        "Oscillator",
-        "Noise",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "FME7",
-      "name": "FME7",
-      "description": "An emulation of the Sunsoft FME-7 chip from certain Nintendo Entertainment System (NES) cartridges.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/FME7.pdf",
-      "tags": [
-        "Oscillator",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "SN76489",
-      "name": "SN76489",
-      "description": "An emulation of the Texas Instruments SN76489 chip from the Sega Master System and Sega Mega Drive.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/sn76489.pdf",
-      "tags": [
-        "Oscillator",
-        "Noise",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "2413",
-      "name": "2413",
-      "description": "An emulation of the Yamaha YM2413 FM synthesis chip from the Sega Mark III.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/2413.pdf",
-      "tags": [
-        "Oscillator",
-        "Noise"
-      ],
-      "disabled": true
-    },
-    {
-      "slug": "2612",
-      "name": "2612",
-      "description": "An emulation of the Yamaha YM2612 FM synthesis chip from the Sega Master System and Sega Mega Drive.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/2612.pdf",
-      "tags": [
-        "Synth voice",
-        "Oscillator",
-        "Noise",
         "Polyphonic"
       ]
     }

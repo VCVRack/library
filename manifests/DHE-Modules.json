@@ -1,6 +1,6 @@
 {
   "slug": "DHE-Modules",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "license": "MIT",
   "name": "DHE Modules",
   "author": "Dale Emery",
@@ -28,6 +28,15 @@
       "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/booster-stage/",
       "tags": [
         "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "Buttons",
+      "name": "Buttons",
+      "description": "8 buttons with overrides",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/buttons/",
+      "tags": [
+        "Utility"
       ]
     },
     {
@@ -232,6 +241,33 @@
       "tags": [
         "Dual",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Truth2",
+      "name": "Truth 2",
+      "description": "Applies a customizable truth table to 2 inputs",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/truth/",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Truth3",
+      "name": "Truth 3",
+      "description": "Applies a customizable truth table to 3 inputs",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/truth/",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Truth4",
+      "name": "Truth 4",
+      "description": "Applies a customizable truth table to 4 inputs",
+      "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/truth/",
+      "tags": [
+        "Logic"
       ]
     },
     {
