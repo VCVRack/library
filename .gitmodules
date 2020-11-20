@@ -556,3 +556,6 @@
 [submodule "repos/AlgoritmArte"]
 	path = repos/AlgoritmArte
 	url = https://github.com/algoritmarte/AlgoritmarteVCVPlugin.git
+[submodule "repos/Stalys"]
+	path = repos/Stalys
+	url = https://github.com/denischevalier/StalysVCVPlugin.git
