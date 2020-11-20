@@ -553,3 +553,6 @@
 [submodule "repos/FehlerFabrik-Suite"]
 	path = repos/FehlerFabrik-Suite
 	url = https://github.com/RCameron93/FehlerFabrik.git
+[submodule "repos/AlgoritmArte"]
+	path = repos/AlgoritmArte
+	url = https://github.com/algoritmarte/AlgoritmarteVCVPlugin.git
