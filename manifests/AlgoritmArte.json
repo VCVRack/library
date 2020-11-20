@@ -1,0 +1,26 @@
+{
+  "slug": "AlgoritmArte",
+  "name": "AlgoritmArte",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "AlgoritmArte",
+  "author": "AlgoritmArte",
+  "authorEmail": "development@algoritmarte.com",
+  "authorUrl": "https://www.algoritmarte.com",
+  "pluginUrl": "https://github.com/algoritmarte/AlgoritmarteVCVPlugin",
+  "manualUrl": "https://github.com/algoritmarte/AlgoritmarteVCVPlugin/blob/master/README.md",
+  "sourceUrl": "https://github.com/algoritmarte/AlgoritmarteVCVPlugin",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/algoritmarte/AlgoritmarteVCVPlugin/releases",
+  "modules": [
+    {
+      "slug": "Clockkky",
+      "name": "Clockkky",
+      "description": "A simple clock and gate sequencer",
+      "tags": [
+        "Clock generator",
+        "Sequencer"
+      ]
+    }
+  ]
+}

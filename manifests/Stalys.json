@@ -1,0 +1,34 @@
+{
+  "slug": "Stalys",
+  "name": "Stalys",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Stalys",
+  "author": "Denis Dubo Chevalier",
+  "authorEmail": "stalysmusic@gmail.com",
+  "authorUrl": "https://linktr.ee/stalysmusic",
+  "pluginUrl": "https://github.com/denischevalier/StalysVCVPlugin",
+  "manualUrl": "https://github.com/denischevalier/StalysVCVPlugin/blob/main/README.md",
+  "sourceUrl": "https://github.com/denischevalier/StalysVCVPlugin",
+  "donateUrl": "https://www.patreon.com/stalysmusic",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "VCDualNeuron",
+      "name": "VC Dual Neuron",
+      "description": "Voltage-controlled dual neuron module",
+      "tags": [
+        "dual",
+        "logic",
+        "mixer",
+        "noise",
+        "random",
+        "ring modulator",
+        "s&h",
+        "utility",
+        "vca",
+        "waveshaper"
+      ]
+    }
+  ]
+}
