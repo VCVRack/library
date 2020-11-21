@@ -2,7 +2,7 @@
   "slug": "ZZC-Phaseque",
   "name": "ZZC Phaseque",
   "brand": "ZZC",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "license": "proprietary",
   "author": "Sergey Ukolov",
   "authorEmail": "zezic51@yandex.ru",
@@ -11,13 +11,15 @@
   "manualUrl": "https://zzc.github.io/sequencers/phaseque",
   "sourceUrl": "",
   "donateUrl": "https://paypal.me/zezic",
+  "changelogUrl": "https://zzc.github.io/sequencers/phaseque#changelog",
   "modules": [
     {
       "slug": "Phaseque",
       "name": "Phaseque",
       "description": "Phase-Driven Sequencer",
       "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Polyphonic"
       ]
     }
   ]
