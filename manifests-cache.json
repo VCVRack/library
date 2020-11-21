@@ -2563,7 +2563,7 @@
     }
   },
   "squinkylabs-plug1": {
-    "buildTimestamp": 1598553183.5936337,
+    "buildTimestamp": 1605955072.63519,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {
@@ -2658,6 +2658,15 @@
       },
       "squinkylabs-dividerx": {
         "creationTimestamp": 1598553492.8396182
+      },
+      "squinkylabs-f2": {
+        "creationTimestamp": 1605955094.2633982
+      },
+      "squinkylabs-f4": {
+        "creationTimestamp": 1605955094.5725803
+      },
+      "squinkylabs-comp": {
+        "creationTimestamp": 1605955094.8725228
       }
     }
   },
@@ -8831,7 +8840,7 @@
     }
   },
   "Stalys": {
-    "buildTimestamp": 1605854015.5632706,
+    "buildTimestamp": 1605955092.139065,
     "creationTimestamp": 1605854039.2731016,
     "modules": {
       "VCDualNeuron": {

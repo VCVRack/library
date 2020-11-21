@@ -1,7 +1,7 @@
 {
   "slug": "Stalys",
   "name": "Stalys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "Stalys",
   "author": "Denis Dubo Chevalier",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/denischevalier/StalysVCVPlugin/blob/main/README.md",
   "sourceUrl": "https://github.com/denischevalier/StalysVCVPlugin",
   "donateUrl": "https://www.patreon.com/stalysmusic",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/denischevalier/StalysVCVPlugin/blob/main/CHANGELOG.md",
   "modules": [
     {
       "slug": "VCDualNeuron",

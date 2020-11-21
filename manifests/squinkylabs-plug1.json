@@ -8,7 +8,7 @@
   "sourceUrl": "https://github.com/squinkylabs/SquinkyVCV",
   "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/booty-shifter.md",
   "changelogUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/CHANGELOG.md",
-  "version": "1.0.12",
+  "version": "1.0.15",
   "modules": [
     {
       "slug": "squinkylabs-ev3",
@@ -128,7 +128,7 @@
       "name": "Seq4x4",
       "description": "Sequence player",
       "disabled": false,
-      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/sq2.md",
+      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/4x4.md",
       "tags": [
         "Sequencer",
         "Polyphonic"
@@ -298,7 +298,7 @@
       "slug": "squinkylabs-sines",
       "name": "Organ Three",
       "description": "Hammond organ emulator",
-      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/ck-1/docs/sines.md",
+      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/sines.md",
       "tags": [
         "VCO",
         "Polyphonic",
@@ -310,9 +310,43 @@
       "slug": "squinkylabs-basic",
       "name": "Basic VCO",
       "description": "Precision VCO",
-      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/basic/docs/basic.md",
+      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/basic.md",
       "tags": [
         "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "squinkylabs-f2",
+      "name": "F2",
+      "disabled": true,
+      "description": "Multimode state-variable filter",
+      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/f2.md",
+      "tags": [
+        "VCF",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "squinkylabs-f4",
+      "name": "F4",
+      "disabled": true,
+      "description": "F4",
+      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/f4.md",
+      "tags": [
+        "VCF",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "squinkylabs-comp",
+      "name": "Comp",
+      "disabled": false,
+      "description": "Compressor",
+      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/compressor.md",
+      "tags": [
+        "Compressor",
+        "Dynamics",
         "Polyphonic"
       ]
     },
@@ -321,7 +355,7 @@
       "name": "Divider",
       "description": "x",
       "disabled": true,
-      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/basic/docs/dividerx.md",
+      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/dividerx.md",
       "tags": [
         "Polyphonic"
       ]
