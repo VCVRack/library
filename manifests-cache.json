@@ -6792,7 +6792,7 @@
     }
   },
   "Semiramis": {
-    "buildTimestamp": 1585843062.6202016,
+    "buildTimestamp": 1606255107.0047135,
     "creationTimestamp": 1561682777.0,
     "modules": {
       "Semiramis": {
@@ -6812,6 +6812,9 @@
       },
       "Virtualog": {
         "creationTimestamp": 1563910562.0
+      },
+      "Brutus": {
+        "creationTimestamp": 1606255109.867389
       }
     }
   },

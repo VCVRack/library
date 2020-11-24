@@ -1,7 +1,7 @@
 {
   "slug": "Semiramis",
   "name": "Semiramis",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "license": "Proprietary",
   "author": "Sonus Dept.",
   "brand": "Sonus Dept.",
@@ -21,6 +21,17 @@
         "LFO",
         "VCO",
         "Envelope generator"
+      ]
+    },
+    {
+      "slug": "Brutus",
+      "name": "Brutus",
+      "description": "Waveshaper and Distortion",
+      "tags": [
+        "Distortion",
+        "Limiter",
+        "Waveshaper",
+        "Polyphonic"
       ]
     },
     {
