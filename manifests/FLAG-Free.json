@@ -1,7 +1,7 @@
 {
   "slug": "FLAG-Free",
   "name": "FLAG Free",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "proprietary",
   "brand": "FLAG",
   "author": "Nils Jonas Norberg",
@@ -10,7 +10,7 @@
   "pluginUrl": "https://flagaudio.com/",
   "manualUrl": "",
   "sourceUrl": "",
-  "donateUrl": "paypal.me/FlagAudio",
+  "donateUrl": "https://paypal.me/FlagAudio",
   "changelogUrl": "",
   "modules": [
     {
