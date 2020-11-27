@@ -1495,7 +1495,7 @@
     "modules": {}
   },
   "DHE-Modules": {
-    "buildTimestamp": 1605786840.2501686,
+    "buildTimestamp": 1606489442.7025466,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Blossom": {
@@ -6255,7 +6255,7 @@
     }
   },
   "SubmarineFree": {
-    "buildTimestamp": 1600010871.4826145,
+    "buildTimestamp": 1606489386.3877435,
     "creationTimestamp": 1522452120.0,
     "modules": {
       "AG-104": {
@@ -6470,6 +6470,36 @@
       },
       "EN-104": {
         "creationTimestamp": 1599748432.398808
+      },
+      "AG-202": {
+        "creationTimestamp": 1606489447.8312113
+      },
+      "NG-206": {
+        "creationTimestamp": 1606489448.0745437
+      },
+      "OA-103": {
+        "creationTimestamp": 1606489448.3566701
+      },
+      "OA-105": {
+        "creationTimestamp": 1606489448.6266563
+      },
+      "OG-202": {
+        "creationTimestamp": 1606489448.8794901
+      },
+      "VM-101": {
+        "creationTimestamp": 1606489449.1160069
+      },
+      "VM-102": {
+        "creationTimestamp": 1606489449.3453903
+      },
+      "VM-201": {
+        "creationTimestamp": 1606489449.604671
+      },
+      "VM-202": {
+        "creationTimestamp": 1606489449.879915
+      },
+      "XG-202": {
+        "creationTimestamp": 1606489450.1654065
       }
     }
   },
@@ -8405,7 +8435,7 @@
     }
   },
   "KautenjaDSP-PotatoChips": {
-    "buildTimestamp": 1605786766.5247252,
+    "buildTimestamp": 1606489115.6573446,
     "creationTimestamp": 1594395479.9564288,
     "modules": {
       "2A03": {
@@ -8464,6 +8494,24 @@
       },
       "S_SMP_Blank1": {
         "creationTimestamp": 1605786844.3430266
+      },
+      "SuperADSR": {
+        "creationTimestamp": 1606489444.435247
+      },
+      "SuperEcho": {
+        "creationTimestamp": 1606489444.6823776
+      },
+      "SuperVCA": {
+        "creationTimestamp": 1606489444.9221928
+      },
+      "Sony_S_SMP_Blank1": {
+        "creationTimestamp": 1606489445.1648018
+      },
+      "SuperSampler": {
+        "creationTimestamp": 1606489445.4182234
+      },
+      "SuperSynth": {
+        "creationTimestamp": 1606489445.6544745
       }
     }
   },
@@ -8843,11 +8891,32 @@
     }
   },
   "Stalys": {
-    "buildTimestamp": 1605955092.139065,
+    "buildTimestamp": 1606489153.8950093,
     "creationTimestamp": 1605854039.2731016,
     "modules": {
       "VCDualNeuron": {
         "creationTimestamp": 1605854039.5289192
+      },
+      "Comparator": {
+        "creationTimestamp": 1606489445.9517822
+      },
+      "Multiplier": {
+        "creationTimestamp": 1606489446.2117
+      },
+      "Sum": {
+        "creationTimestamp": 1606489446.4551291
+      },
+      "Diff": {
+        "creationTimestamp": 1606489446.7576923
+      },
+      "Not": {
+        "creationTimestamp": 1606489447.05097
+      },
+      "Abs": {
+        "creationTimestamp": 1606489447.3082042
+      },
+      "ASR": {
+        "creationTimestamp": 1606489447.5509214
       }
     }
   },

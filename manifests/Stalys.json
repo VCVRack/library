@@ -1,7 +1,7 @@
 {
   "slug": "Stalys",
   "name": "Stalys",
-  "version": "1.0.1",
+  "version": "1.2.1",
   "license": "GPL-3.0-or-later",
   "brand": "Stalys",
   "author": "Denis Dubo Chevalier",
@@ -28,6 +28,72 @@
         "utility",
         "vca",
         "waveshaper"
+      ]
+    },
+    {
+      "slug": "Comparator",
+      "name": "8 Comparator",
+      "description": "8x Comparator",
+      "tags": [
+        "utility",
+        "clock generator",
+        "logic"
+      ]
+    },
+    {
+      "slug": "Multiplier",
+      "name": "8 Multiplier",
+      "description": "8 four-quadrant multipliers / ring modulators",
+      "tags": [
+        "attenuator",
+        "ring modulator",
+        "utility",
+        "vca"
+      ]
+    },
+    {
+      "slug": "Sum",
+      "name": "8 Sum",
+      "description": "8 three to one unity mixers",
+      "tags": [
+        "mixer",
+        "utility"
+      ]
+    },
+    {
+      "slug": "Diff",
+      "name": "8 Diff",
+      "description": "8 difference calculators",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "Not",
+      "name": "8 Not",
+      "description": "8 Not operators",
+      "tags": [
+        "logic",
+        "utility"
+      ]
+    },
+    {
+      "slug": "Abs",
+      "name": "8 Abs",
+      "description": "8 Absolute value operators",
+      "tags": [
+        "utility",
+        "waveshaper"
+      ]
+    },
+    {
+      "slug": "ASR",
+      "name": "Analog Shift Register",
+      "description": "8 bits analog shift register",
+      "tags": [
+        "s&h",
+        "logic",
+        "clock modulator"
       ]
     }
   ]

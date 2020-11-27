@@ -1,6 +1,6 @@
 {
   "slug": "KautenjaDSP-PotatoChips",
-  "version": "1.8.2",
+  "version": "1.9.0",
   "license": "GPL-3.0-or-later",
   "name": "KautenjaDSP Potato Chips",
   "brand": "KautenjaDSP",
@@ -25,7 +25,7 @@
       "slug": "2612",
       "name": "Boss Fight",
       "description": "An emulation of the Yamaha YM2612 FM synthesis chip from the Sega Mega Drive and Sega Genesis.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/Boss_Fight.pdf",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/BossFight.pdf",
       "tags": [
         "Noise",
         "Oscillator",
@@ -100,36 +100,58 @@
       ]
     },
     {
-      "slug": "S_SMP",
-      "name": "S-SMP",
-      "description": "An emulation of the Sony S-SMP chip from the Super Nintendo Entertainment System (SNES).",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP.pdf",
-      "tags": [
-        "Multiple",
-        "Noise",
-        "Oscillator",
-        "Polyphonic",
-        "Synth voice"
-      ],
-      "disabled": true
-    },
-    {
-      "slug": "S_SMP_ADSR",
-      "name": "S-SMP(ADSR)",
-      "description": "An emulation of the ADSR envelope from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP_ADSR.pdf",
+      "slug": "SuperADSR",
+      "name": "Super ADSR",
+      "description": "An emulation of the ADSR envelope generator from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/SuperADSR.pdf",
       "tags": [
         "Dual",
         "Envelope generator",
         "Polyphonic"
-      ],
-      "disabled": true
+      ]
     },
     {
-      "slug": "S_SMP_BRR",
-      "name": "S-SMP(BRR)",
+      "slug": "SuperEcho",
+      "name": "Super Echo",
+      "description": "An emulation of the echo effect from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/SuperEcho.pdf",
+      "tags": [
+        "Delay",
+        "Dual",
+        "Effect",
+        "Filter",
+        "Panning",
+        "Polyphonic",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "SuperVCA",
+      "name": "Super Low-Pass Gate",
+      "description": "An emulation of the Gaussian interpolation filter effect from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/SuperVCA.pdf",
+      "tags": [
+        "Dual",
+        "Filter",
+        "Low-pass gate",
+        "Panning",
+        "Polyphonic",
+        "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "Sony_S_SMP_Blank1",
+      "name": "Sony S-SMP Blank",
+      "description": "A blank panel with an illustration of the Sony S-SMP chip on the Super Nintendo Entertainment System (SNES).",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "SuperSampler",
+      "name": "Super Sampler",
       "description": "An emulation of the BRR sample playback engine from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP_BRR.pdf",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/SuperSampler.pdf",
       "tags": [
         "Multiple",
         "Effect",
@@ -141,52 +163,16 @@
       "disabled": true
     },
     {
-      "slug": "S_SMP_Echo",
-      "name": "S-SMP(Echo)",
-      "description": "An emulation of the echo effect from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP_Echo.pdf",
+      "slug": "SuperSynth",
+      "name": "Super Synth",
+      "description": "An emulation of the Sony S-SMP chip from the Super Nintendo Entertainment System (SNES).",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/SuperSynth.pdf",
       "tags": [
-        "Delay",
-        "Dual",
-        "Effect",
-        "Filter",
-        "Panning",
+        "Multiple",
+        "Noise",
+        "Oscillator",
         "Polyphonic",
-        "Reverb"
-      ],
-      "disabled": true
-    },
-    {
-      "slug": "S_SMP_Gauss",
-      "name": "S-SMP(Gauss)",
-      "description": "An emulation of the Gaussian low-pass filter effect from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/S_SMP_Gauss.pdf",
-      "tags": [
-        "Dual",
-        "Filter",
-        "Low-pass gate",
-        "Panning",
-        "Polyphonic",
-        "Voltage-controlled amplifier"
-      ],
-      "disabled": true
-    },
-    {
-      "slug": "S_SMP_Blank1",
-      "name": "S-SMP(Blank)",
-      "description": "A blank panel with an S-SMP illustration.",
-      "tags": [
-        "Blank"
-      ],
-      "disabled": true
-    },
-    {
-      "slug": "SCC",
-      "name": "SCC",
-      "description": "An emulation of the Konami SCC wavetable chip.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/SCC.pdf",
-      "tags": [
-        "Oscillator"
+        "Synth voice"
       ],
       "disabled": true
     },
@@ -200,16 +186,6 @@
         "Oscillator",
         "Polyphonic"
       ]
-    },
-    {
-      "slug": "TURBO_GRAFX_16",
-      "name": "Turbo Grafx 16",
-      "description": "An emulation of the NEC Turbo Grafx 16 wavetable chip.",
-      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/TURBO_GRAFX_16.pdf",
-      "tags": [
-        "Oscillator"
-      ],
-      "disabled": true
     },
     {
       "slug": "VRC6",

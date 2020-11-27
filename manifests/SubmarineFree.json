@@ -11,7 +11,7 @@
   "donateUrl": "https://www.paypal.me/SubmarineFree",
   "pluginUrl": "https://github.com/david-c14/SubmarineFree/blob/main/README.md",
   "changelogUrl": "https://github.com/david-c14/SubmarineFree/blob/main/changelog.md",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "modules": [
     {
       "slug": "AG-104",
@@ -31,6 +31,17 @@
       "tags": [
         "LOGIC",
         "MULTIPLE"
+      ]
+    },
+    {
+      "slug": "AG-202",
+      "name": "AG-202",
+      "description": "AG-202 4-input Polyphonic AND Gates",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AG.md",
+      "tags": [
+        "LOGIC",
+        "DUAL",
+        "POLYPHONIC"
       ]
     },
     {
@@ -379,6 +390,37 @@
       ]
     },
     {
+      "slug": "NG-206",
+      "name": "NG-206",
+      "description": "NG-206 Polyphonic NOT Gates",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/NG.md",
+      "tags": [
+        "LOGIC",
+        "MULTIPLE",
+        "POLYPHONIC"
+      ]
+    },
+    {
+      "slug": "OA-103",
+      "name": "OA-103",
+      "description": "OA-103 Op-Amps",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/OA.md",
+      "tags": [
+        "LOGIC",
+        "MULTIPLE"
+      ]
+    },
+    {
+      "slug": "OA-105",
+      "name": "OA-105",
+      "description": "OA-105 Op-Amps",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/OA.md",
+      "tags": [
+        "LOGIC",
+        "MULTIPLE"
+      ]
+    },
+    {
       "slug": "OG-104",
       "name": "OG-104",
       "description": "OG-104 OR Gates",
@@ -396,6 +438,17 @@
       "tags": [
         "LOGIC",
         "MULTIPLE"
+      ]
+    },
+    {
+      "slug": "OG-202",
+      "name": "OG-202",
+      "description": "OG-202 4-Channel Polyphonic OR Gates",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/OG.md",
+      "tags": [
+        "LOGIC",
+        "DUAL",
+        "POLYPHONIC"
       ]
     },
     {
@@ -579,6 +632,54 @@
       ]
     },
     {
+      "slug": "VM-101",
+      "name": "VM-101",
+      "description": "VM-101 VU-Meter",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/VM.md",
+      "tags": [
+        "UTILITY",
+        "VISUAL",
+        "HARDWARE"
+      ]
+    },
+    {
+      "slug": "VM-102",
+      "name": "VM-102",
+      "description": "VM-102 2-Channel VU-Meter",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/VM.md",
+      "tags": [
+        "UTILITY",
+        "VISUAL",
+        "DUAL",
+        "POLYPHONIC",
+        "HARDWARE"
+      ]
+    },
+    {
+      "slug": "VM-201",
+      "name": "VM-201",
+      "description": "VM-201 Vintage VU-Meter",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/VM.md",
+      "tags": [
+        "UTILITY",
+        "VISUAL",
+        "HARDWARE"
+      ]
+    },
+    {
+      "slug": "VM-202",
+      "name": "VM-202",
+      "description": "VM-202 2-Channel Vintage VU-Meter",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/VM.md",
+      "tags": [
+        "UTILITY",
+        "VISUAL",
+        "DUAL",
+        "POLYPHONIC",
+        "HARDWARE"
+      ]
+    },
+    {
       "slug": "WK-101",
       "name": "WK-101",
       "description": "WK-101 Das Wohltemperierte Klavier",
@@ -683,6 +784,17 @@
       "tags": [
         "LOGIC",
         "MULTIPLE"
+      ]
+    },
+    {
+      "slug": "XG-202",
+      "name": "XG-202",
+      "description": "XG-202 4-Input Polyphonic XOR Gates",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/XG.md",
+      "tags": [
+        "LOGIC",
+        "DUAL",
+        "POLYPHONIC"
       ]
     },
     {
