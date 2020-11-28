@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.15.8",
+  "version": "1.16.0",
   "author": "almostEric",
   "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -103,6 +103,14 @@
       "description": "LFO based on interactions of 4 sine waves",
       "tags": [
         "LFO"
+      ]
+    },
+    {
+      "slug": "ManicCompression",
+      "name": "Manic Compression",
+      "description": "Fun Compressor",
+      "tags": [
+        "Compressor"
       ]
     },
     {
@@ -230,7 +238,15 @@
     {
       "slug": "QARGrooveExpander",
       "name": "QAR - Groove",
-      "description": "Create Grooves and Microrhythms for QAR",
+      "description": "Add Grooves and Microrhythms to QAR",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "QARIrrationalityExpander",
+      "name": "QAR - Irrational",
+      "description": "Add Irrational Rhythms to QAR",
       "tags": [
         "Expander"
       ]
