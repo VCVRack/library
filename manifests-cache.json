@@ -8774,7 +8774,7 @@
     }
   },
   "Sha-Bang-Modules": {
-    "buildTimestamp": 1605331546.6488464,
+    "buildTimestamp": 1606846505.4954038,
     "creationTimestamp": 1602486511.7177973,
     "modules": {
       "StochSeq": {
@@ -8809,6 +8809,12 @@
       },
       "Photron": {
         "creationTimestamp": 1604785589.1237576
+      },
+      "PhotronPanel": {
+        "creationTimestamp": 1606846507.6616898
+      },
+      "Talea": {
+        "creationTimestamp": 1606846507.9478638
       }
     }
   },

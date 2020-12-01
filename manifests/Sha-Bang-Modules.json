@@ -1,7 +1,7 @@
 {
   "slug": "Sha-Bang-Modules",
   "name": "Sha#Bang! Modules",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "license": "GPL-3.0-only",
   "author": "Jeremy Muller",
   "authorEmail": "jeremy@jeremymuller.com",
@@ -68,6 +68,14 @@
       ]
     },
     {
+      "slug": "PhotronPanel",
+      "name": "Photron Panel",
+      "description": "Animated panel",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
       "slug": "PolyrhythmClock",
       "name": "Polyrhythm Clock",
       "description": "Clock with 3 layers of embedded rhythms and randomization",
@@ -114,6 +122,14 @@
       "tags": [
         "Sequencer",
         "Visual"
+      ]
+    },
+    {
+      "slug": "Talea",
+      "name": "Talea",
+      "description": "A unique arpeggiator with polyrhythmic capabilities",
+      "tags": [
+        "Arpeggiator"
       ]
     }
   ]
