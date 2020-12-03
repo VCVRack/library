@@ -1,7 +1,7 @@
 {
   "slug": "Stalys",
   "name": "Stalys",
-  "version": "1.2.1",
+  "version": "1.3.1",
   "license": "GPL-3.0-or-later",
   "brand": "Stalys",
   "author": "Denis Dubo Chevalier",
@@ -94,6 +94,132 @@
         "s&h",
         "logic",
         "clock modulator"
+      ]
+    },
+    {
+      "slug": "VCSampleAndDelay",
+      "name": "8 VC Sample&Delay",
+      "description": "8 Variable length Sample&Holds",
+      "tags": [
+        "S&H",
+        "clock modulator",
+        "utility"
+      ]
+    },
+    {
+      "slug": "DAC",
+      "name": "DAC",
+      "description": "8-bit Digital to Analog Converter",
+      "tags": [
+        "digital",
+        "distortion",
+        "utility",
+        "waveshaper"
+      ]
+    },
+    {
+      "slug": "ADC",
+      "name": "ADC",
+      "description": "Analog to Digital Converter",
+      "tags": [
+        "digital",
+        "clock generator",
+        "distortion",
+        "utility",
+        "waveshaper"
+      ]
+    },
+    {
+      "slug": "Max",
+      "name": "8 Max",
+      "description": "8 times three input Max/Or operator",
+      "tags": [
+        "logic",
+        "utility"
+      ]
+    },
+    {
+      "slug": "PosNegRectifier",
+      "name": "8 Rectifier (\u00b1)",
+      "description": "8 Positive/Negative Rectifier",
+      "tags": [
+        "distortion",
+        "waveshaper",
+        "utility"
+      ]
+    },
+    {
+      "slug": "Min",
+      "name": "8 Min",
+      "description": "8 three inputs Min/And operator",
+      "tags": [
+        "utility",
+        "logic"
+      ]
+    },
+    {
+      "slug": "Function",
+      "name": "8 Function generators",
+      "description": "8 times slew-limiters/function generators/A-R envelopes",
+      "tags": [
+        "clock generator",
+        "envelope follower",
+        "envelope generator",
+        "filter",
+        "function generator",
+        "lfo",
+        "lowpass gate",
+        "vco",
+        "sequencer",
+        "slew limiter",
+        "utility"
+      ]
+    },
+    {
+      "slug": "Avg",
+      "name": "8 Avg",
+      "description": "Octal three-inputs signal averager",
+      "tags": [
+        "utility",
+        "logic"
+      ]
+    },
+    {
+      "slug": "ABY",
+      "name": "8 A/B Y Module",
+      "description": "8 2-in 1-out switch (A/B Y)",
+      "tags": [
+        "utility",
+        "logic"
+      ]
+    },
+    {
+      "slug": "Offset",
+      "name": "8 Offset",
+      "description": "Octal offset module",
+      "tags": [
+        "controller",
+        "utility"
+      ]
+    },
+    {
+      "slug": "Clip",
+      "name": "8 Clip",
+      "description": "Octal clip distortion module",
+      "tags": [
+        "distortion",
+        "effect",
+        "waveshaper",
+        "utility"
+      ]
+    },
+    {
+      "slug": "CtV",
+      "name": "8 Clock to Volt/Octave",
+      "description": "Converts clock signals to V/Oct signals",
+      "tags": [
+        "clock generator",
+        "utility"
       ]
     }
   ]

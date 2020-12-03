@@ -8915,7 +8915,7 @@
     }
   },
   "Stalys": {
-    "buildTimestamp": 1606489153.8950093,
+    "buildTimestamp": 1607019801.261607,
     "creationTimestamp": 1605854039.2731016,
     "modules": {
       "VCDualNeuron": {
@@ -8941,6 +8941,42 @@
       },
       "ASR": {
         "creationTimestamp": 1606489447.5509214
+      },
+      "VCSampleAndDelay": {
+        "creationTimestamp": 1607019801.766735
+      },
+      "DAC": {
+        "creationTimestamp": 1607019802.1674883
+      },
+      "ADC": {
+        "creationTimestamp": 1607019802.5514038
+      },
+      "Max": {
+        "creationTimestamp": 1607019803.0285227
+      },
+      "PosNegRectifier": {
+        "creationTimestamp": 1607019803.4072497
+      },
+      "Min": {
+        "creationTimestamp": 1607019803.7264001
+      },
+      "Function": {
+        "creationTimestamp": 1607019804.0122347
+      },
+      "Avg": {
+        "creationTimestamp": 1607019804.3652642
+      },
+      "ABY": {
+        "creationTimestamp": 1607019804.707252
+      },
+      "Offset": {
+        "creationTimestamp": 1607019805.0583467
+      },
+      "Clip": {
+        "creationTimestamp": 1607019805.3421512
+      },
+      "CtV": {
+        "creationTimestamp": 1607019805.6360428
       }
     }
   },
