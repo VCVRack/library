@@ -1,7 +1,7 @@
 {
   "slug": "Dintree-Virtual",
   "name": "Dintree",
-  "version": "1.0.11",
+  "version": "1.0.13",
   "license": "GPL-3.0-or-later",
   "brand": "Dintree",
   "author": "Andrew Kilpatrick",
@@ -95,6 +95,30 @@
         "Dual",
         "Hardware",
         "Slew Limiter"
+      ]
+    },
+    {
+      "slug": "V201-Tri_Comparator",
+      "name": "V201 Tri Comparator",
+      "description": "Analog Comparator Functions",
+      "manualUrl": "https://github.com/hires/Dintree-Virtual#V201-tri-comparator",
+      "tags": [
+        "logic",
+        "utility"
+      ]
+    },
+    {
+      "slug": "V218-SH-Clock-Noise",
+      "name": "V218 SH Clock Noise",
+      "description": "Sample and Hold, Clock and Noise Generator",
+      "manualUrl": "https://github.com/hires/Dintree-Virtual#V219-sh-clock-noise",
+      "tags": [
+        "clock",
+        "function generator",
+        "noise",
+        "random",
+        "S&H",
+        "utility"
       ]
     }
   ]
