@@ -1,0 +1,25 @@
+{
+  "slug": "DanTModules",
+  "name": "DanTModules",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "DanT",
+  "author": "dtilley",
+  "authorEmail": "",
+  "authorUrl": "https://dtilley.co.uk",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual",
+  "sourceUrl": "",
+  "donateUrl": "https://monzo.me/danieltilley2",
+  "changelogUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Wavulike",
+      "name": "Wavulike",
+      "description": "VCO based on generated waveform",
+      "tags": [
+        "VCO"
+      ]
+    }
+  ]
+}
