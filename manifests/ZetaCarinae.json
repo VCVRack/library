@@ -1,7 +1,7 @@
 {
   "slug": "ZetaCarinae",
   "name": "ZetaCarinae",
-  "version": "1.1.15",
+  "version": "1.1.18",
   "license": "GPL-3.0-or-later",
   "brand": "ZetaCarinae",
   "author": "Marshall Hampton",
@@ -73,6 +73,14 @@
         "Oscillator",
         "Effect",
         "Distortion"
+      ]
+    },
+    {
+      "slug": "Firefly",
+      "name": "Firefly",
+      "description": "Phase-coupled oscillator system",
+      "tags": [
+        "Oscillator"
       ]
     }
   ]
