@@ -1,7 +1,7 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
@@ -1352,6 +1352,16 @@
         "Controller",
         "Expander",
         "Effect"
+      ]
+    },
+    {
+      "slug": "Programmer",
+      "name": "Programmer",
+      "description": "Serge Style Programmer/Sequencer",
+      "tags": [
+        "Utility",
+        "Controller",
+        "Sequencer"
       ]
     }
   ]
