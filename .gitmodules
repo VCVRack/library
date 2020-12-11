@@ -559,3 +559,6 @@
 [submodule "repos/Stalys"]
 	path = repos/Stalys
 	url = https://github.com/denischevalier/StalysVCVPlugin.git
+[submodule "repos/Agave"]
+	path = repos/Agave
+	url = https://github.com/jatinchowdhury18/Agave
