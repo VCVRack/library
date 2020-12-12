@@ -1,0 +1,64 @@
+{
+  "slug": "Agave",
+  "name": "Agave",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "brand": "Agave",
+  "author": "Fabian Eqsueda, Jatin Chowdhury",
+  "authorEmail": "jatin@ccrma.stanford.edu",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/jatinchowdhury18/Agave",
+  "manualUrl": "https://github.com/jatinchowdhury18/Agave/blob/master/doc/Manual.md",
+  "sourceUrl": "https://github.com/jatinchowdhury18/Agave",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "LowpassFilterBank",
+      "name": "Agave Lowpass Filter Bank",
+      "description": "Bank of RC lowpass filters",
+      "manualUrl": "https://github.com/jatinchowdhury18/Agave/blob/master/doc/Manual.md#LPFBank",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "SharpWavefolder",
+      "name": "Agave Fxld",
+      "description": "Buchla-style wavefolder",
+      "manualUrl": "https://github.com/jatinchowdhury18/Agave/blob/master/doc/Manual.md#FXLD",
+      "tags": [
+        "Waveshaper",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "MetallicNoise",
+      "name": "Agave Metallic",
+      "description": "Noise generator for cymbals",
+      "manualUrl": "https://github.com/jatinchowdhury18/Agave/blob/master/doc/Manual.md#Metal",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "MS20VCF",
+      "name": "Agave VCF",
+      "description": "VCF modelled after the Korg MS-20",
+      "manualUrl": "https://github.com/jatinchowdhury18/Agave/blob/master/doc/Manual.md#MS20",
+      "tags": [
+        "Filter",
+        "Physical modeling",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "AgaveBlank",
+      "name": "AgaveBlank",
+      "description": "",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
+}

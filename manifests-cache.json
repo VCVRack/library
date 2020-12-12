@@ -9009,5 +9009,26 @@
         "creationTimestamp": 1607124948.1395001
       }
     }
+  },
+  "Agave": {
+    "buildTimestamp": 1607777365.6400568,
+    "creationTimestamp": 1607777367.628583,
+    "modules": {
+      "LowpassFilterBank": {
+        "creationTimestamp": 1607777367.9698281
+      },
+      "SharpWavefolder": {
+        "creationTimestamp": 1607777368.2659295
+      },
+      "MetallicNoise": {
+        "creationTimestamp": 1607777368.5096333
+      },
+      "MS20VCF": {
+        "creationTimestamp": 1607777368.7557726
+      },
+      "AgaveBlank": {
+        "creationTimestamp": 1607777369.0100946
+      }
+    }
   }
 }
