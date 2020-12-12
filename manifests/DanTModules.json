@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "proprietary",
   "brand": "DanT",
   "author": "dtilley",
@@ -18,7 +18,8 @@
       "name": "Wavulike",
       "description": "VCO based on generated waveform",
       "tags": [
-        "VCO"
+        "Oscillator",
+        "Low-frequency oscillator"
       ]
     }
   ]
