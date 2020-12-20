@@ -1,0 +1,28 @@
+{
+  "slug": "Stoev-Symmetry",
+  "name": "Symmetry",
+  "version": "1.1.0",
+  "license": "proprietary",
+  "brand": "Stoev",
+  "author": "Stoev",
+  "authorEmail": "support@stoevlab.com",
+  "authorUrl": "https://www.stoevlab.com",
+  "pluginUrl": "https://www.stoevlab.com/software/stoev-modules#symmetry",
+  "manualUrl": "https://www.stoevlab.com/software/stoev-modules#symmetry",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Symmetry",
+      "name": "Symmetry",
+      "description": "Dual quantizer / scale arpeggiator",
+      "tags": [
+        "Quantizer",
+        "Arpeggiator",
+        "Random",
+        "Dual"
+      ]
+    }
+  ]
+}
