@@ -8990,7 +8990,7 @@
     }
   },
   "AlgoritmArte": {
-    "buildTimestamp": 1607582059.4792817,
+    "buildTimestamp": 1608550034.8876102,
     "creationTimestamp": 1605854039.7624297,
     "modules": {
       "Clockkky": {
@@ -8998,6 +8998,9 @@
       },
       "Planetz": {
         "creationTimestamp": 1607582061.6180966
+      },
+      "MusiFrog": {
+        "creationTimestamp": 1608550037.1325545
       }
     }
   },
