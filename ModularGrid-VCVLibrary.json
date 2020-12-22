@@ -1228,5 +1228,124 @@
     "vcvUrl": "https://library.vcvrack.com/Grayscale/Supercell",
     "mgUrl": "https://www.modulargrid.net/e/grayscale-supercell-aluminum-panel",
     "mgModuleId": 16367
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "troika",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/troika",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-troika-black-gold-panel",
+    "mgModuleId": 17879
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "traigh",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/traigh",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-traigh",
+    "mgModuleId": 11542
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "harmonaig",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/harmonaig",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-harmonaig",
+    "mgModuleId": 13041
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "tona",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/tona",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-tona-",
+    "mgModuleId": 13767
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "ceis",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/ceis",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-ceis",
+    "mgModuleId": 15546
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "vinca",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/vinca",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-vinca--",
+    "mgModuleId": 23436
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "tanh",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/tanh",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-tanh-3",
+    "mgModuleId": 17184
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "tsl",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/tsl",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-ts-l-v2",
+    "mgModuleId": 29693
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "CsL",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/CsL",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-cs-l",
+    "mgModuleId": 17183
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "io47",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/io47",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-i-o47",
+    "mgModuleId": 19348
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "athru",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/athru",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-athru",
+    "mgModuleId": 23405
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "2f",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/2f",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-2-f",
+    "mgModuleId": 23325
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "tagh",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/tagh",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-tagh-",
+    "mgModuleId": 23729
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "ochd",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/ochd",
+    "mgUrl": "https://www.modulargrid.net/e/divkid-ochd",
+    "mgModuleId": 25301
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "tain",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/tain",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-tain",
+    "mgModuleId": 29769
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "lion",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/lion",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-lion",
+    "mgModuleId": 29729
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "saich",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/saich",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-saich",
+    "mgModuleId": 30414
   }
 ]
