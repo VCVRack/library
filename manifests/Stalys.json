@@ -1,7 +1,7 @@
 {
   "slug": "Stalys",
   "name": "Stalys",
-  "version": "1.3.1",
+  "version": "1.4.2",
   "license": "GPL-3.0-or-later",
   "brand": "Stalys",
   "author": "Denis Dubo Chevalier",
@@ -16,7 +16,7 @@
     {
       "slug": "VCDualNeuron",
       "name": "VC Dual Neuron",
-      "description": "Voltage-controlled dual neuron module",
+      "description": "Voltage-controlled neural network module",
       "tags": [
         "dual",
         "logic",
@@ -33,7 +33,7 @@
     {
       "slug": "Comparator",
       "name": "8 Comparator",
-      "description": "8x Comparator",
+      "description": "Octal comparator",
       "tags": [
         "utility",
         "clock generator",
@@ -43,7 +43,7 @@
     {
       "slug": "Multiplier",
       "name": "8 Multiplier",
-      "description": "8 four-quadrant multipliers / ring modulators",
+      "description": "Octal four-quadrant multipliers / ring modulators",
       "tags": [
         "attenuator",
         "ring modulator",
@@ -53,8 +53,8 @@
     },
     {
       "slug": "Sum",
-      "name": "8 Sum",
-      "description": "8 three to one unity mixers",
+      "name": "8 Summing mixer",
+      "description": "Octal three to one unity mixers",
       "tags": [
         "mixer",
         "utility"
@@ -62,16 +62,16 @@
     },
     {
       "slug": "Diff",
-      "name": "8 Diff",
-      "description": "8 difference calculators",
+      "name": "8 Substractor",
+      "description": "Octal difference calculators",
       "tags": [
         "utility"
       ]
     },
     {
       "slug": "Not",
-      "name": "8 Not",
-      "description": "8 Not operators",
+      "name": "8 Not operator",
+      "description": "Octal not operators",
       "tags": [
         "logic",
         "utility"
@@ -79,8 +79,8 @@
     },
     {
       "slug": "Abs",
-      "name": "8 Abs",
-      "description": "8 Absolute value operators",
+      "name": "8 Absolute",
+      "description": "Octal absolute value operators",
       "tags": [
         "utility",
         "waveshaper"
@@ -88,8 +88,8 @@
     },
     {
       "slug": "ASR",
-      "name": "Analog Shift Register",
-      "description": "8 bits analog shift register",
+      "name": "8-bit Shift Register",
+      "description": "8-bit analog shift register",
       "tags": [
         "s&h",
         "logic",
@@ -99,7 +99,7 @@
     {
       "slug": "VCSampleAndDelay",
       "name": "8 VC Sample&Delay",
-      "description": "8 Variable length Sample&Holds",
+      "description": "Octal variable length Sample&Holds",
       "tags": [
         "S&H",
         "clock modulator",
@@ -108,7 +108,7 @@
     },
     {
       "slug": "DAC",
-      "name": "DAC",
+      "name": "DA Converter",
       "description": "8-bit Digital to Analog Converter",
       "tags": [
         "digital",
@@ -119,7 +119,7 @@
     },
     {
       "slug": "ADC",
-      "name": "ADC",
+      "name": "AD Converter",
       "description": "Analog to Digital Converter",
       "tags": [
         "digital",
@@ -131,8 +131,8 @@
     },
     {
       "slug": "Max",
-      "name": "8 Max",
-      "description": "8 times three input Max/Or operator",
+      "name": "8 Max/or operator",
+      "description": "Octal three input Max/Or operator",
       "tags": [
         "logic",
         "utility"
@@ -140,8 +140,8 @@
     },
     {
       "slug": "PosNegRectifier",
-      "name": "8 Rectifier (\u00b1)",
-      "description": "8 Positive/Negative Rectifier",
+      "name": "8 Positive/negative rectifier",
+      "description": "Octal Positive/negative rectifier",
       "tags": [
         "distortion",
         "waveshaper",
@@ -150,8 +150,8 @@
     },
     {
       "slug": "Min",
-      "name": "8 Min",
-      "description": "8 three inputs Min/And operator",
+      "name": "8 Min/And operator",
+      "description": "Octal three inputs Min/And operator",
       "tags": [
         "utility",
         "logic"
@@ -160,7 +160,7 @@
     {
       "slug": "Function",
       "name": "8 Function generators",
-      "description": "8 times slew-limiters/function generators/A-R envelopes",
+      "description": "Octal slew-limiter/function generator/A-R envelope",
       "tags": [
         "clock generator",
         "envelope follower",
@@ -177,7 +177,7 @@
     },
     {
       "slug": "Avg",
-      "name": "8 Avg",
+      "name": "8 Averager",
       "description": "Octal three-inputs signal averager",
       "tags": [
         "utility",
@@ -186,8 +186,8 @@
     },
     {
       "slug": "ABY",
-      "name": "8 A/B Y Module",
-      "description": "8 2-in 1-out switch (A/B Y)",
+      "name": "8 A/B Y switches",
+      "description": "Octal 2-in 1-out switch (A/B Y)",
       "tags": [
         "utility",
         "logic"
@@ -215,11 +215,20 @@
     },
     {
       "slug": "CtV",
-      "name": "8 Clock to Volt/Octave",
-      "description": "Converts clock signals to V/Oct signals",
+      "name": "8 Clock to V/Oct",
+      "description": "Octal clock to volt per octave converter",
       "tags": [
         "clock generator",
         "utility"
+      ]
+    },
+    {
+      "slug": "Blank",
+      "name": "Blank",
+      "description": "Blank panel",
+      "tags": [
+        "blank",
+        "visual"
       ]
     }
   ]
