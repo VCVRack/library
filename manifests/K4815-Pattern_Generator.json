@@ -1,0 +1,43 @@
+{
+  "slug": "K4815-Pattern_Generator",
+  "name": "K4815 Pattern Generator",
+  "version": "1.0.5",
+  "license": "proprietary",
+  "brand": "Kilpatrick Audio",
+  "author": "Kilpatrick Audio",
+  "authorEmail": "info@kilpatrickaudio.com",
+  "authorUrl": "https://www.kilpatrickaudio.com",
+  "pluginUrl": "https://kilpatrickaudio.com/?p=K4815-virtual",
+  "manualUrl": "https://kilpatrickaudio.com/?p=K4815-virtual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "K4815-Pattern_Generator",
+      "name": "K4815 Pattern Generator",
+      "description": "CV and MIDI Pattern Generator",
+      "tags": [
+        "Hardware",
+        "MIDI",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "K4815E-Expander",
+      "name": "K4815E Expander",
+      "description": "Pattern Generator Expander",
+      "tags": [
+        "expander"
+      ]
+    },
+    {
+      "slug": "K4815P-Programmer",
+      "name": "K4815P Programmer",
+      "description": "Pattern Generator Programmer",
+      "tags": [
+        "expander"
+      ]
+    }
+  ]
+}
