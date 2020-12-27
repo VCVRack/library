@@ -1,6 +1,6 @@
 {
   "slug": "Ahornberg",
-  "version": "1.3.1",
+  "version": "1.3.3",
   "license": "CC0-1.0",
   "name": "Ahornberg",
   "brand": "Ahornberg",
@@ -13,6 +13,19 @@
   "changelogUrl": "",
   "donateUrl": "",
   "modules": [
+    {
+      "slug": "TapeRecorder",
+      "name": "Tape Recorder",
+      "description": "micro cassette recorder",
+      "disabled": true,
+      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#tape-recorder",
+      "tags": [
+        "Clock generator",
+        "Polyphonic",
+        "Recording",
+        "Sampler"
+      ]
+    },
     {
       "slug": "EqualDivision",
       "name": "Equal Division",
@@ -45,19 +58,6 @@
       "tags": [
         "Utility",
         "Polyphonic"
-      ]
-    },
-    {
-      "slug": "TapeRecorder",
-      "name": "Tape Recorder",
-      "description": "micro cassette recorder",
-      "disabled": true,
-      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#tape-recorder",
-      "tags": [
-        "Clock generator",
-        "Polyphonic",
-        "Recording",
-        "Sampler"
       ]
     },
     {
