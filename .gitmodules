@@ -562,3 +562,6 @@
 [submodule "repos/Agave"]
 	path = repos/Agave
 	url = https://github.com/jatinchowdhury18/Agave
+[submodule "repos/RareBreeds_Orbits"]
+	path = repos/RareBreeds_Orbits
+	url = https://github.com/RareBreeds/Orbits.git
