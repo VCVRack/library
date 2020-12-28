@@ -1,0 +1,21 @@
+{
+  "slug": "RareBreeds_Orbits",
+  "name": "Orbits",
+  "version": "1.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "RareBreeds",
+  "author": "Rare Breeds",
+  "manualUrl": "https://rarebreeds.github.io/Orbits",
+  "sourceUrl": "https://github.com/RareBreeds/Orbits",
+  "modules": [
+    {
+      "slug": "RareBreeds_Orbits_Eugene",
+      "name": "Eugene",
+      "description": "Euclidean Rhythm Generator",
+      "tags": [
+        "Clock modulator"
+      ],
+      "keywords": "euclidean rhythm beat pattern"
+    }
+  ]
+}
