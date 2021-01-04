@@ -1,7 +1,7 @@
 {
   "slug": "AlgoritmArte",
   "name": "AlgoritmArte",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "AlgoritmArte",
   "author": "AlgoritmArte",
@@ -10,7 +10,7 @@
   "pluginUrl": "https://github.com/algoritmarte/AlgoritmarteVCVPlugin",
   "manualUrl": "https://github.com/algoritmarte/AlgoritmarteVCVPlugin/blob/master/README.md",
   "sourceUrl": "https://github.com/algoritmarte/AlgoritmarteVCVPlugin",
-  "donateUrl": "",
+  "donateUrl": "https://www.algoritmarte.com/support-algoritmarte/",
   "changelogUrl": "https://github.com/algoritmarte/AlgoritmarteVCVPlugin/releases",
   "modules": [
     {
@@ -38,6 +38,14 @@
       "tags": [
         "Sequencer",
         "Random"
+      ]
+    },
+    {
+      "slug": "Zefiro",
+      "name": "Zefiro",
+      "description": "A full synthesizer inspired by the iconic Buchla Music Easel",
+      "tags": [
+        "Synth voice"
       ]
     }
   ]
