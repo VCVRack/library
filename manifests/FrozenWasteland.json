@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.16.4",
+  "version": "1.16.5",
   "author": "almostEric",
   "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -109,6 +109,14 @@
       "slug": "ManicCompression",
       "name": "Manic Compression",
       "description": "Fun Compressor",
+      "tags": [
+        "Compressor"
+      ]
+    },
+    {
+      "slug": "ManicCompressionMB",
+      "name": "Manic Compression - Multi Band",
+      "description": "Fun Multi-Band Compressor",
       "tags": [
         "Compressor"
       ]
