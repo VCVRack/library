@@ -565,3 +565,6 @@
 [submodule "repos/RareBreeds_Orbits"]
 	path = repos/RareBreeds_Orbits
 	url = https://github.com/RareBreeds/Orbits.git
+[submodule "repos/Comfortzone"]
+	path = repos/Comfortzone
+	url = https://github.com/hampa/comfortzone.git
