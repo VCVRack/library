@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1609731312.086163,
+    "buildTimestamp": 1609990251.6106336,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -422,6 +422,9 @@
       },
       "GrainEngineMK2Expander": {
         "creationTimestamp": 1592705959.7937336
+      },
+      "bytebeat": {
+        "creationTimestamp": 1609990253.6699991
       }
     }
   },

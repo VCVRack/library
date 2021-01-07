@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "1.21.0",
+  "version": "1.22.0",
   "license": "BSD-3-Clause",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -20,6 +20,14 @@
       "tags": [
         "Sampler",
         "Drum"
+      ]
+    },
+    {
+      "slug": "bytebeat",
+      "name": "Byte Beat",
+      "description": "Module that will get converted to something more interesting.",
+      "tags": [
+        "Oscillator"
       ]
     },
     {
