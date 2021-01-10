@@ -1,7 +1,7 @@
 {
   "slug": "AlgoritmArte",
   "name": "AlgoritmArte",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "AlgoritmArte",
   "author": "AlgoritmArte",
@@ -46,6 +46,15 @@
       "description": "A full synthesizer inspired by the iconic Buchla Music Easel",
       "tags": [
         "Synth voice"
+      ]
+    },
+    {
+      "slug": "HoldMeTight",
+      "name": "HoldMeTight",
+      "description": "Triple sample and hold with an integrated quantizer",
+      "tags": [
+        "Sample and hold",
+        "Quantizer"
       ]
     }
   ]

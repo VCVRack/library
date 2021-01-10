@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1609990251.6106336,
+    "buildTimestamp": 1610236580.7989883,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -5318,7 +5318,7 @@
     "modules": {}
   },
   "ML_modules": {
-    "buildTimestamp": 1589388127.6594925,
+    "buildTimestamp": 1610236830.0150168,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMdetect": {
@@ -7696,7 +7696,7 @@
     }
   },
   "FrozenWasteland": {
-    "buildTimestamp": 1609850063.4178987,
+    "buildTimestamp": 1610237084.6978207,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {
@@ -8798,7 +8798,7 @@
     }
   },
   "Sha-Bang-Modules": {
-    "buildTimestamp": 1608335026.0275438,
+    "buildTimestamp": 1610237171.0832305,
     "creationTimestamp": 1602486511.7177973,
     "modules": {
       "StochSeq": {
@@ -8852,7 +8852,7 @@
     }
   },
   "FehlerFabrik-Suite": {
-    "buildTimestamp": 1603168337.972348,
+    "buildTimestamp": 1610236678.6213574,
     "creationTimestamp": 1603168945.0398016,
     "modules": {
       "PSIOP": {
@@ -9002,7 +9002,7 @@
     }
   },
   "AlgoritmArte": {
-    "buildTimestamp": 1609731556.921188,
+    "buildTimestamp": 1610236722.5957546,
     "creationTimestamp": 1605854039.7624297,
     "modules": {
       "Clockkky": {
@@ -9016,6 +9016,9 @@
       },
       "Zefiro": {
         "creationTimestamp": 1609731558.54244
+      },
+      "HoldMeTight": {
+        "creationTimestamp": 1610237171.189523
       }
     }
   },

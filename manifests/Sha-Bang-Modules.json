@@ -1,16 +1,16 @@
 {
   "slug": "Sha-Bang-Modules",
   "name": "Sha#Bang! Modules",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "license": "GPL-3.0-only",
   "author": "Jeremy Muller",
   "authorEmail": "jeremy@jeremymuller.com",
   "authorUrl": "http://jeremymuller.com",
-  "pluginUrl": "",
+  "pluginUrl": "https://github.com/jeremymuller/Sha-Bang-Modules",
   "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#shabang-modules",
   "sourceUrl": "https://github.com/jeremymuller/Sha-Bang-Modules",
   "donateUrl": "https://www.paypal.me/jeremysmuller",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/jeremymuller/Sha-Bang-Modules/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "AbsorptionSpectrum",

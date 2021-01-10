@@ -1,7 +1,7 @@
 {
   "slug": "ML_modules",
   "name": "ML Modules",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "license": "BSD-3-Clause",
   "author": "Martin Lueders",
   "brand": "ML Modules",
@@ -27,7 +27,8 @@
       "description": "Output constant voltages corresponding to common intervals",
       "tags": [
         "Utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Constants"
     },
     {
       "slug": "Counter",
@@ -35,7 +36,8 @@
       "description": "Create Trigger pulses after a certain number of clock ticks",
       "tags": [
         "Clock modulator"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Counter"
     },
     {
       "slug": "FreeVerb",
@@ -44,7 +46,8 @@
       "tags": [
         "Effect",
         "Reverb"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/FreeVerb"
     },
     {
       "slug": "OctaFlop",
@@ -53,7 +56,8 @@
       "tags": [
         "Utility",
         "Clock modulator"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/OctaFlop"
     },
     {
       "slug": "OctaPlus",
@@ -63,7 +67,8 @@
         "Utility",
         "Mixer",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/OctaPlus-and-OctaTimes#octaplus"
     },
     {
       "slug": "OctaSwitch",
@@ -72,7 +77,8 @@
       "tags": [
         "Switch",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/OctaSwitch"
     },
     {
       "slug": "OctaTimes",
@@ -82,7 +88,8 @@
         "Utility",
         "Ring modulator",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/OctaPlus-and-OctaTimes#octatimes"
     },
     {
       "slug": "OctaTrig",
@@ -91,7 +98,8 @@
       "tags": [
         "Clock modulator",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/OctaTrig"
     },
     {
       "slug": "Quantizer",
@@ -100,7 +108,8 @@
       "tags": [
         "Quantizer",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Quantizers#h-bar"
     },
     {
       "slug": "Quantum",
@@ -109,7 +118,8 @@
       "tags": [
         "Quantizer",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Quantizers#quantum"
     },
     {
       "slug": "SH8",
@@ -118,7 +128,8 @@
       "tags": [
         "Sample and hold",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/S&H-8"
     },
     {
       "slug": "SeqSwitch",
@@ -128,7 +139,8 @@
         "Switch",
         "Sequencer",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Sequential-Switches"
     },
     {
       "slug": "SeqSwitch2",
@@ -137,7 +149,8 @@
       "tags": [
         "Switch",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Sequential-Switches"
     },
     {
       "slug": "ShiftRegister",
@@ -146,7 +159,8 @@
       "tags": [
         "Sample and hold",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/ShiftRegister"
     },
     {
       "slug": "Evolution",
@@ -156,7 +170,8 @@
         "Sequencer",
         "Sample and hold",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Evolution"
     },
     {
       "slug": "Sum8mk2",
@@ -165,7 +180,8 @@
       "tags": [
         "Mixer",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Mixer#sum"
     },
     {
       "slug": "Sum8",
@@ -174,7 +190,8 @@
       "tags": [
         "Mixer",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Mixer#sum-mk-ii"
     },
     {
       "slug": "TrigBuf",
@@ -185,7 +202,8 @@
         "Logic",
         "Dual",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Trigger-Buffer"
     },
     {
       "slug": "TrigDelay",
@@ -195,7 +213,8 @@
         "Utility",
         "Delay",
         "Dual"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Trigger-Delay"
     },
     {
       "slug": "TrigSwitch",
@@ -204,7 +223,8 @@
       "tags": [
         "Switch",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Triggered-Switches"
     },
     {
       "slug": "TrigSwitch2",
@@ -213,7 +233,8 @@
       "tags": [
         "Switch",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Triggered-Switches"
     },
     {
       "slug": "TrigSwitch3",
@@ -222,7 +243,8 @@
       "tags": [
         "Switch",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Triggered-Switches"
     },
     {
       "slug": "TrigSwitch3_2",
@@ -231,7 +253,8 @@
       "tags": [
         "Switch",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Triggered-Switches"
     },
     {
       "slug": "VoltMeter",
@@ -248,7 +271,8 @@
       "tags": [
         "Utility",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Cloner"
     },
     {
       "slug": "PolySplitter",
@@ -257,7 +281,8 @@
       "tags": [
         "Utility",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Poly-Splitter"
     },
     {
       "slug": "Arpeggiator",
@@ -266,7 +291,8 @@
       "tags": [
         "Sequencer",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/PolyArp"
     }
   ]
 }
