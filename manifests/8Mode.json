@@ -1,13 +1,26 @@
 {
-  "name": "8Mode",
-  "author": "Matt Dwyer, 8Mode",
-  "license": "BSD-3-Clause",
-  "pluginUrl": "https://www.8mode.com/vcv-modules",
-  "authorUrl": "https://www.8mode.com",
-  "authorEmail": "matt@8mode.com",
-  "manualUrl": "https://github.com/8Mode/8Mode-VCV_Modules/blob/master/README.md",
-  "sourceUrl": "https://github.com/8Mode/8Mode-VCV_Modules.git",
-  "donateUrl": "https://www.paypal.me/8ModeLLC",
   "slug": "8Mode",
-  "version": "0.6.1"
+  "name": "8Mode",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "8Mode",
+  "author": "Matt Dwyer, 8Mode",
+  "authorEmail": "matt@8mode.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/8Mode/8Mode-VCV_Modules/blob/master/README.md",
+  "sourceUrl": "https://github.com/8Mode/8Mode-VCV_Modules",
+  "donateUrl": "https://www.paypal.me/8ModeLLC",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "softSN",
+      "name": "softSN Machine",
+      "description": "",
+      "tags": [
+        "Oscillator",
+        "Synth voice"
+      ]
+    }
+  ]
 }

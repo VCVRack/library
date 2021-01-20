@@ -3588,7 +3588,7 @@
     }
   },
   "Valley": {
-    "buildTimestamp": 1608998924.5079637,
+    "buildTimestamp": 1611156265.931531,
     "creationTimestamp": 1521979525.0,
     "modules": {
       "Topograph": {
@@ -3693,9 +3693,13 @@
     }
   },
   "8Mode": {
-    "buildTimestamp": 1555667306.4616747,
+    "buildTimestamp": 1611156059.9231899,
     "creationTimestamp": 1553743716.0,
-    "modules": {}
+    "modules": {
+      "softSN": {
+        "creationTimestamp": 1611156266.330381
+      }
+    }
   },
   "TercerBrazo": {
     "buildTimestamp": 1572081624.4647405,
