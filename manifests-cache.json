@@ -7700,7 +7700,7 @@
     }
   },
   "FrozenWasteland": {
-    "buildTimestamp": 1610237084.6978207,
+    "buildTimestamp": 1611256008.6462564,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {
@@ -7828,6 +7828,9 @@
       },
       "ManicCompressionMB": {
         "creationTimestamp": 1609850066.3513186
+      },
+      "MidiRecorder": {
+        "creationTimestamp": 1611239898.2692616
       }
     }
   },

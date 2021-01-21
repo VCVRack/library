@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.16.6",
+  "version": "1.17.0",
   "author": "almostEric",
   "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -128,6 +128,17 @@
       "tags": [
         "MIDI",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MidiRecorder",
+      "name": "MIDI Recorder",
+      "description": "MIDI Gate Recorder",
+      "tags": [
+        "MIDI",
+        "Polyphonic",
+        "Recording",
+        "Utility"
       ]
     },
     {
