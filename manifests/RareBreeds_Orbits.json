@@ -1,10 +1,11 @@
 {
   "slug": "RareBreeds_Orbits",
   "name": "Orbits",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "GPL-3.0-or-later",
   "brand": "RareBreeds",
   "author": "Rare Breeds",
+  "authorEmail": "rare.breeds@protonmail.com",
   "manualUrl": "https://rarebreeds.github.io/Orbits",
   "sourceUrl": "https://github.com/RareBreeds/Orbits",
   "modules": [
@@ -13,9 +14,10 @@
       "name": "Eugene",
       "description": "Euclidean Rhythm Generator",
       "tags": [
-        "Clock modulator"
+        "Clock modulator",
+        "Sequencer"
       ],
-      "keywords": "euclidean rhythm beat pattern"
+      "keywords": "euclidean euclidian rhythm beat pattern"
     }
   ]
 }
