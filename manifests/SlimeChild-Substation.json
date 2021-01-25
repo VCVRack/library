@@ -1,0 +1,106 @@
+{
+  "slug": "SlimeChild-Substation",
+  "name": "Substation",
+  "version": "1.1.0",
+  "license": "Proprietary",
+  "brand": "Slime Child Audio",
+  "author": "Slime Child Audio",
+  "authorEmail": "contact@slimechildaudio.com",
+  "authorUrl": "https://slimechildaudio.com/",
+  "pluginUrl": "https://slimechildaudio.com/substation",
+  "manualUrl": "https://slimechildaudio.com/substation/manual",
+  "donateUrl": "https://slimechildaudio.com/donate",
+  "changelogUrl": "https://slimechildaudio.com/substation/changes",
+  "description": "A Subharmonic, Polyrhythmic Synthesis Toolkit",
+  "modules": [
+    {
+      "slug": "SlimeChild-Substation-Envelopes",
+      "name": "Envelopes",
+      "description": "Dual Semi-Interruptable Attack-Decay Envelope Generators",
+      "tags": [
+        "Envelope generator",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "SlimeChild-Substation-Filter",
+      "name": "LP4 Filter",
+      "description": "Physically-modelled 24dB per Octave Ladder Lowpass",
+      "tags": [
+        "Filter",
+        "Physical modeling",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SlimeChild-Substation-Mixer",
+      "name": "Saturating Mixer",
+      "description": "Chainable Non-linear Mixer",
+      "tags": [
+        "Mixer",
+        "Distortion",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "SlimeChild-Substation-Quantizer",
+      "name": "Quantizer",
+      "description": "Variable-Intonation Transposing Quantizer",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SlimeChild-Substation-PolySeq",
+      "name": "Polyrhythm Sequencer",
+      "description": "Three-track Polyrhythm Sequencer",
+      "tags": [
+        "Sequencer",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "SlimeChild-Substation-VCA",
+      "name": "VCA",
+      "description": "Linear Voltage-Controlled Amplifier",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SlimeChild-Substation-SubOscillator",
+      "name": "Sub-Oscillator",
+      "description": "Subharmonic Physically-modelled Self-Modulating Oscillator",
+      "tags": [
+        "Oscillator",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "SlimeChild-Substation-Clock",
+      "name": "Clock",
+      "description": "Multi-Rate Clock Generator",
+      "tags": [
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "SlimeChild-Substation-Blank-4",
+      "name": "Blank (4HP)",
+      "description": "Decorative Panel (4HP)",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "SlimeChild-Substation-Blank-7",
+      "name": "Blank (7HP)",
+      "description": "Decorative Panel (7HP)",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
+}

@@ -9157,5 +9157,41 @@
         "creationTimestamp": 1609850066.0242276
       }
     }
+  },
+  "SlimeChild-Substation": {
+    "buildTimestamp": 1611551658.222212,
+    "creationTimestamp": 1611551659.5248594,
+    "modules": {
+      "SlimeChild-Substation-Envelopes": {
+        "creationTimestamp": 1611551659.5865343
+      },
+      "SlimeChild-Substation-Filter": {
+        "creationTimestamp": 1611551659.6330676
+      },
+      "SlimeChild-Substation-Mixer": {
+        "creationTimestamp": 1611551659.7051673
+      },
+      "SlimeChild-Substation-Quantizer": {
+        "creationTimestamp": 1611551659.7832515
+      },
+      "SlimeChild-Substation-PolySeq": {
+        "creationTimestamp": 1611551659.86826
+      },
+      "SlimeChild-Substation-VCA": {
+        "creationTimestamp": 1611551659.9262495
+      },
+      "SlimeChild-Substation-SubOscillator": {
+        "creationTimestamp": 1611551659.9931805
+      },
+      "SlimeChild-Substation-Clock": {
+        "creationTimestamp": 1611551660.0611765
+      },
+      "SlimeChild-Substation-Blank-4": {
+        "creationTimestamp": 1611551660.1255465
+      },
+      "SlimeChild-Substation-Blank-7": {
+        "creationTimestamp": 1611551660.1966877
+      }
+    }
   }
 }
