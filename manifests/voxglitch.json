@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "1.23.0",
+  "version": "1.24.0",
   "license": "BSD-3-Clause",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -99,6 +99,14 @@
         "Granular",
         "Sampler",
         "Expander"
+      ]
+    },
+    {
+      "slug": "hazumi",
+      "name": "Hazumi",
+      "description": "Bouncing ball sequencer",
+      "tags": [
+        "Sequencer"
       ]
     },
     {
