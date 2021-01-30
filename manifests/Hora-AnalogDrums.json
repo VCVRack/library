@@ -1,7 +1,7 @@
 {
   "slug": "Hora-AnalogDrums",
   "name": "Analog Drums",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "proprietary",
   "brand": "Hora",
   "author": "Hora",
@@ -120,6 +120,22 @@
       "slug": "TomsVult",
       "name": "Toms/Congas Vult",
       "description": "Analog Toms using vult made filter model (use less CPU)",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Deep",
+      "name": "Deep",
+      "description": "Analog Bass Drum",
+      "tags": [
+        "DRUM"
+      ]
+    },
+    {
+      "slug": "Bicephalous",
+      "name": "Bicephalous",
+      "description": "Analog Drum Synth",
       "tags": [
         "DRUM"
       ]

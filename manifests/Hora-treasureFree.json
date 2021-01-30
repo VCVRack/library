@@ -1,7 +1,7 @@
 {
   "slug": "Hora-treasureFree",
   "name": "Treasure Free",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
@@ -42,6 +42,14 @@
       "description": "Frequency divider",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "Deep",
+      "name": "Deep",
+      "description": "Analog Bass Drum",
+      "tags": [
+        "DRUM"
       ]
     }
   ]

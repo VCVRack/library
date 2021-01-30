@@ -5572,7 +5572,7 @@
     }
   },
   "Hora-AnalogDrums": {
-    "buildTimestamp": 1562694922.2907262,
+    "buildTimestamp": 1612023431.1595194,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "BassDrumVult": {
@@ -5616,6 +5616,12 @@
       },
       "TomsVult": {
         "creationTimestamp": 1561647283.0
+      },
+      "Deep": {
+        "creationTimestamp": 1612023433.5391884
+      },
+      "Bicephalous": {
+        "creationTimestamp": 1612023433.5874362
       }
     }
   },
@@ -7306,7 +7312,7 @@
     }
   },
   "Hora-treasureFree": {
-    "buildTimestamp": 1569185784.9769473,
+    "buildTimestamp": 1612023432.229543,
     "creationTimestamp": 1526939247.0,
     "modules": {
       "SnareDrum-VCV": {
@@ -7320,6 +7326,9 @@
       },
       "Frequencydivider": {
         "creationTimestamp": 1561844572.0
+      },
+      "Deep": {
+        "creationTimestamp": 1612023433.6936433
       }
     }
   },
