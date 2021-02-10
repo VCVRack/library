@@ -1,7 +1,7 @@
 {
   "slug": "Semiramis",
   "name": "Semiramis",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "license": "Proprietary",
   "author": "Sonus Dept.",
   "brand": "Sonus Dept.",
@@ -43,6 +43,17 @@
         "LFO",
         "Random",
         "VCO"
+      ]
+    },
+    {
+      "slug": "Combo",
+      "name": "Combo",
+      "description": "Dirty Comb Filter",
+      "tags": [
+        "Delay",
+        "Distortion",
+        "Filter",
+        "Polyphonic"
       ]
     },
     {
