@@ -1,7 +1,7 @@
 {
   "slug": "FLAG-Free",
   "name": "FLAG Free",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "proprietary",
   "brand": "FLAG",
   "author": "Nils Jonas Norberg",
@@ -16,9 +16,22 @@
     {
       "slug": "Electric-Ensemble",
       "name": "Electric Ensemble",
+      "manualUrl": "https://flagaudio.com/vcv/electric_ensemble.html",
       "description": "Chorus Ensemble",
       "tags": [
         "Chorus",
+        "Effect",
+        "Distortion",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Tap-Dancer",
+      "name": "Tap Dancer",
+      "manualUrl": "https://flagaudio.com/vcv/tap_dancer.html",
+      "description": "Multi-Tap Delay with Modulation",
+      "tags": [
+        "Delay",
         "Effect",
         "Distortion",
         "Filter"
