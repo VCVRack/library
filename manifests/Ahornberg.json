@@ -1,6 +1,6 @@
 {
   "slug": "Ahornberg",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "license": "CC0-1.0",
   "name": "Ahornberg",
   "brand": "Ahornberg",
@@ -21,6 +21,7 @@
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#tape-recorder",
       "tags": [
         "Clock generator",
+        "Polyphonic",
         "Recording",
         "Sampler"
       ]
@@ -80,6 +81,19 @@
         "Multiple",
         "Polyphonic",
         "Tuner"
+      ]
+    },
+    {
+      "slug": "MIDIOverAudio",
+      "name": "MIDI over Audio",
+      "description": "complement to the MIDI over Audio VST",
+      "disabled": false,
+      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#midi-over-audio-to-cv",
+      "tags": [
+        "External",
+        "MIDI",
+        "Multiple",
+        "Utility"
       ]
     }
   ]
