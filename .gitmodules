@@ -571,3 +571,6 @@
 [submodule "repos/captvolt"]
 	path = repos/captvolt
 	url = https://github.com/cnvogelg/captvolt-vcv.git
+[submodule "repos/Axioma"]
+	path = repos/Axioma
+	url = https://github.com/kauewerner/Axioma.git
