@@ -1,7 +1,7 @@
 {
   "slug": "captvolt",
   "name": "CaptVolt's VCV Modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "captvolt",
   "author": "Christian Vogelgsang",
@@ -16,7 +16,7 @@
     {
       "slug": "captvolt-sidofon",
       "name": "sidofon",
-      "description": "Raw SID 6851/8580 chip emulation using ReSID engine",
+      "description": "Raw SID 6581/8580 chip emulation using ReSID engine",
       "tags": [
         "Synth Voice",
         "Filter"

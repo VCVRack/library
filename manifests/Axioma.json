@@ -1,0 +1,51 @@
+{
+  "slug": "Axioma",
+  "name": "Axioma",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Axioma",
+  "author": "Kaue Werner",
+  "authorEmail": "kaue.werner@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/kauewerner/Axioma/blob/main/README.md",
+  "sourceUrl": "https://github.com/kauewerner/Axioma",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "TheBifurcator",
+      "name": "TheBifurcator",
+      "description": "Generate CV/GATE/TRIGGER outputs based on bifurcation maps of iterated functions",
+      "tags": [
+        "Sequencer",
+        "Noise",
+        "Physical modeling",
+        "Random",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Tesseract",
+      "name": "Tesseract",
+      "description": "Generate CV output sequences using vertex positions of a rotating tesseract projected on a 2D space",
+      "tags": [
+        "Low-frequency oscillator",
+        "Physical modeling",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Ikeda",
+      "name": "Ikeda",
+      "description": "Generate CV output sequences with positions of chaotic attractors in the Ikeda map",
+      "tags": [
+        "Sequencer",
+        "Noise",
+        "Physical modeling",
+        "Random",
+        "Visual"
+      ]
+    }
+  ]
+}
