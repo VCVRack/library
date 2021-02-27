@@ -1,7 +1,7 @@
 {
   "slug": "Bogaudio",
   "name": "Bogaudio",
-  "version": "1.1.35",
+  "version": "1.1.36",
   "license": "GPL-3.0-or-later",
   "brand": "Bogaudio",
   "author": "Matt Demanett",
@@ -101,16 +101,7 @@
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#lfo",
       "tags": [
         "LFO",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "Bogaudio-EightFO",
-      "name": "8FO",
-      "description": "LFO with outputs at 8 different phases",
-      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#eightfo",
-      "tags": [
-        "LFO",
+        "Random",
         "Polyphonic"
       ]
     },
@@ -121,6 +112,29 @@
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#llfo",
       "tags": [
         "LFO",
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-FourFO",
+      "name": "4FO",
+      "description": "Quadrature LFO",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#fourfo",
+      "tags": [
+        "LFO",
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-EightFO",
+      "name": "8FO",
+      "description": "LFO with outputs at 8 different phases",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#eightfo",
+      "tags": [
+        "LFO",
+        "Random",
         "Polyphonic"
       ]
     },
@@ -722,11 +736,12 @@
     },
     {
       "slug": "Bogaudio-Clpr",
-      "name": "CLPR",
+      "name": "CLPR (Clipper)",
       "description": "Hard clipper and distortion",
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#clpr",
       "tags": [
         "Dynamics",
+        "Limiter",
         "Distortion",
         "Polyphonic"
       ]
@@ -737,6 +752,7 @@
       "description": "Limiter",
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#lmtr",
       "tags": [
+        "Limiter",
         "Dynamics",
         "Polyphonic"
       ]

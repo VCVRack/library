@@ -764,7 +764,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1603080661.5611992,
+    "buildTimestamp": 1614420552.9985874,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -1093,6 +1093,9 @@
       },
       "Bogaudio-Ranalyzer": {
         "creationTimestamp": 1603081446.4157755
+      },
+      "Bogaudio-FourFO": {
+        "creationTimestamp": 1614420553.4225817
       }
     }
   },
