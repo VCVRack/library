@@ -1,7 +1,7 @@
 {
   "slug": "RareBreeds_Orbits",
   "name": "Orbits",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "RareBreeds",
   "author": "Rare Breeds",
@@ -17,7 +17,18 @@
         "Clock modulator",
         "Sequencer"
       ],
-      "keywords": "euclidean euclidian rhythm beat pattern"
+      "keywords": "euclidean euclidian rhythm beat pattern sequence"
+    },
+    {
+      "slug": "RareBreeds_Orbits_Polygene",
+      "name": "Polygene",
+      "description": "Polyphonic Rhythm Generator",
+      "tags": [
+        "Clock modulator",
+        "Sequencer",
+        "Polyphonic"
+      ],
+      "keywords": "euclidean euclidian rhythm beat pattern poly sequence"
     }
   ]
 }

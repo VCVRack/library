@@ -1,6 +1,6 @@
 {
   "slug": "computerscare",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "name": "computerscare",
   "brand": "computerscare",
   "author": "computerscare",
@@ -18,7 +18,8 @@
       "tags": [
         "Polyphonic",
         "Utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/poly-utilities.md#knoly-pobs"
     },
     {
       "slug": "computerscare-bolyputtons",
@@ -27,7 +28,8 @@
       "tags": [
         "Polyphonic",
         "Utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/poly-utilities.md#boly-puttons"
     },
     {
       "slug": "computerscare-debug",
@@ -38,7 +40,8 @@
         "Utility",
         "Random",
         "Sample and hold"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/debug.md"
     },
     {
       "slug": "computerscare-ohpeas",
@@ -49,7 +52,8 @@
         "Quantizer",
         "Utility",
         "Quad"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/oh-peas.md"
     },
     {
       "slug": "computerscare-fatherandson",
@@ -59,7 +63,8 @@
         "Polyphonic",
         "Utility",
         "Sequencer"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/father-and-son.md"
     },
     {
       "slug": "computerscare-laundry-soup",
@@ -70,7 +75,8 @@
         "Clock modulator",
         "Random",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/laundry-soup.md"
     },
     {
       "slug": "computerscare-i-love-cookies",
@@ -79,8 +85,10 @@
       "tags": [
         "Sequencer",
         "Utility",
-        "Random"
-      ]
+        "Random",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/i-love-cookies.md"
     },
     {
       "slug": "computerscare-roly-pouter",
@@ -89,7 +97,8 @@
       "tags": [
         "Polyphonic",
         "Utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/poly-utilities.md#roly-pouter"
     },
     {
       "slug": "computerscare-toly-pools",
@@ -99,7 +108,8 @@
         "Polyphonic",
         "Utility",
         "Attenuator"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/poly-utilities.md#toly-pools"
     },
     {
       "slug": "computerscare-soly-pequencer",
@@ -108,7 +118,8 @@
       "tags": [
         "Polyphonic",
         "Sequencer"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/poly-utilities.md#soly-pequencer"
     },
     {
       "slug": "computerscare-foly-pace",
@@ -117,7 +128,8 @@
       "tags": [
         "Visual",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/foly-pace.md"
     },
     {
       "slug": "computerscare-blank",
@@ -126,7 +138,18 @@
       "tags": [
         "Blank",
         "Visual"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/custom-blank.md"
+    },
+    {
+      "slug": "computerscare-blank-expander",
+      "name": "Custom Blank Expander",
+      "description": "Allows CV Control of Computerscare Custom Blank GIF Animation",
+      "tags": [
+        "Blank",
+        "Visual"
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/custom-blank.md##Expander"
     },
     {
       "slug": "computerscare-stoly-fick-pigure",
@@ -135,7 +158,40 @@
       "tags": [
         "Visual",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/stoly-fick-pigure.md"
+    },
+    {
+      "slug": "computerscare-goly-penerator",
+      "name": "Goly Penerator",
+      "description": "Polyphonic constant CV signal generation",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/goly-penerator.md"
+    },
+    {
+      "slug": "computerscare-moly-patrix",
+      "name": "Moly Patrix",
+      "description": "Polyphonic mix matrix",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Mixer"
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/moly-patrix.md"
+    },
+    {
+      "slug": "computerscare-horse-a-doodle-doo",
+      "name": "Horse A Doodle Doo",
+      "description": "Rhythm generator",
+      "tags": [
+        "Sequencer",
+        "Clock Modulator",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/horse-a-doodle-do.md"
     }
   ]
 }
