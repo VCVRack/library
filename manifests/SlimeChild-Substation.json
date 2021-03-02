@@ -1,8 +1,8 @@
 {
   "slug": "SlimeChild-Substation",
   "name": "Substation",
-  "version": "1.1.0",
-  "license": "Proprietary",
+  "version": "1.2.1",
+  "license": "https://slimechildaudio.com/policies/",
   "brand": "Slime Child Audio",
   "author": "Slime Child Audio",
   "authorEmail": "contact@slimechildaudio.com",
@@ -17,6 +17,7 @@
       "slug": "SlimeChild-Substation-Envelopes",
       "name": "Envelopes",
       "description": "Dual Semi-Interruptable Attack-Decay Envelope Generators",
+      "manualUrl": "https://slimechildaudio.com/substation/manual/envelopes/",
       "tags": [
         "Envelope generator",
         "Dual"
@@ -26,6 +27,7 @@
       "slug": "SlimeChild-Substation-Filter",
       "name": "LP4 Filter",
       "description": "Physically-modelled 24dB per Octave Ladder Lowpass",
+      "manualUrl": "https://slimechildaudio.com/substation/manual/filter/",
       "tags": [
         "Filter",
         "Physical modeling",
@@ -36,6 +38,7 @@
       "slug": "SlimeChild-Substation-Mixer",
       "name": "Saturating Mixer",
       "description": "Chainable Non-linear Mixer",
+      "manualUrl": "https://slimechildaudio.com/substation/manual/mixer/",
       "tags": [
         "Mixer",
         "Distortion",
@@ -46,6 +49,7 @@
       "slug": "SlimeChild-Substation-Quantizer",
       "name": "Quantizer",
       "description": "Variable-Intonation Transposing Quantizer",
+      "manualUrl": "https://slimechildaudio.com/substation/manual/quantizer/",
       "tags": [
         "Quantizer",
         "Polyphonic"
@@ -55,6 +59,7 @@
       "slug": "SlimeChild-Substation-PolySeq",
       "name": "Polyrhythm Sequencer",
       "description": "Three-track Polyrhythm Sequencer",
+      "manualUrl": "https://slimechildaudio.com/substation/manual/polyseq/",
       "tags": [
         "Sequencer",
         "Clock modulator"
@@ -64,6 +69,7 @@
       "slug": "SlimeChild-Substation-VCA",
       "name": "VCA",
       "description": "Linear Voltage-Controlled Amplifier",
+      "manualUrl": "https://slimechildaudio.com/substation/manual/vca/",
       "tags": [
         "Voltage-controlled amplifier",
         "Polyphonic"
@@ -73,6 +79,7 @@
       "slug": "SlimeChild-Substation-SubOscillator",
       "name": "Sub-Oscillator",
       "description": "Subharmonic Physically-modelled Self-Modulating Oscillator",
+      "manualUrl": "https://slimechildaudio.com/substation/manual/suboscillator/",
       "tags": [
         "Oscillator",
         "Physical modeling"
@@ -82,6 +89,7 @@
       "slug": "SlimeChild-Substation-Clock",
       "name": "Clock",
       "description": "Multi-Rate Clock Generator",
+      "manualUrl": "https://slimechildaudio.com/substation/manual/clock/",
       "tags": [
         "Clock generator"
       ]
@@ -100,6 +108,18 @@
       "description": "Decorative Panel (7HP)",
       "tags": [
         "Blank"
+      ]
+    },
+    {
+      "slug": "SlimeChild-Substation-Filter-Expander",
+      "name": "Filter+",
+      "description": "Expander for LP4 Filter",
+      "manualUrl": "https://slimechildaudio.com/substation/manual/filter-plus/",
+      "tags": [
+        "Filter",
+        "Polyphonic",
+        "Physical modeling",
+        "Expander"
       ]
     }
   ]
