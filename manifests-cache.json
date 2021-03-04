@@ -764,7 +764,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1614420552.9985874,
+    "buildTimestamp": 1614836643.8115664,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -4030,7 +4030,7 @@
     }
   },
   "computerscare": {
-    "buildTimestamp": 1614651244.7320821,
+    "buildTimestamp": 1614835983.2959397,
     "creationTimestamp": 1533693056.0,
     "modules": {
       "computerscare-knolypobs": {
@@ -4387,7 +4387,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1603401604.2142484,
+    "buildTimestamp": 1614835805.8226697,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -8688,7 +8688,7 @@
     }
   },
   "Atelier": {
-    "buildTimestamp": 1600015332.2363582,
+    "buildTimestamp": 1614835843.0166986,
     "creationTimestamp": 1594864809.245203,
     "modules": {
       "AtelierPalette": {
