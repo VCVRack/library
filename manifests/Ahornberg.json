@@ -1,11 +1,11 @@
 {
   "slug": "Ahornberg",
-  "version": "1.5.1",
-  "license": "CC0-1.0",
+  "version": "1.5.2",
+  "license": "GPL-3.0-only",
   "name": "Ahornberg",
   "brand": "Ahornberg",
   "author": "Ahornberg",
-  "authorEmail": "",
+  "authorEmail": "ahornberg@ahornberg.at",
   "authorUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules",
   "pluginUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules",
   "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/README.md",
@@ -88,7 +88,7 @@
       "name": "MIDI over Audio",
       "description": "complement to the MIDI over Audio VST",
       "disabled": false,
-      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#midi-over-audio-to-cv",
+      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#midi-over-audio",
       "tags": [
         "External",
         "MIDI",
