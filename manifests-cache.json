@@ -3151,7 +3151,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1609731513.737232,
+    "buildTimestamp": 1616991246.3120143,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -3231,6 +3231,12 @@
       },
       "Trigs": {
         "creationTimestamp": 1604857724.9628415
+      },
+      "Pete": {
+        "creationTimestamp": 1616991327.5166657
+      },
+      "8Seq": {
+        "creationTimestamp": 1616991327.5839186
       }
     }
   },
@@ -4030,7 +4036,7 @@
     }
   },
   "computerscare": {
-    "buildTimestamp": 1614835983.2959397,
+    "buildTimestamp": 1616991023.2793097,
     "creationTimestamp": 1533693056.0,
     "modules": {
       "computerscare-knolypobs": {
@@ -8706,7 +8712,7 @@
     }
   },
   "ChowDSP": {
-    "buildTimestamp": 1603401716.726957,
+    "buildTimestamp": 1616991131.0522275,
     "creationTimestamp": 1596178135.934532,
     "modules": {
       "ChowTape": {
@@ -8841,7 +8847,7 @@
     }
   },
   "Sha-Bang-Modules": {
-    "buildTimestamp": 1615319446.8660166,
+    "buildTimestamp": 1616991327.3442078,
     "creationTimestamp": 1602486511.7177973,
     "modules": {
       "StochSeq": {
@@ -8882,6 +8888,12 @@
       },
       "Talea": {
         "creationTimestamp": 1606846507.9478638
+      },
+      "Collider": {
+        "creationTimestamp": 1616991327.7281644
+      },
+      "RandRoute": {
+        "creationTimestamp": 1616991327.7993047
       }
     }
   },

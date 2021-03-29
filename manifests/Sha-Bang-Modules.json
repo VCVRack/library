@@ -1,7 +1,7 @@
 {
   "slug": "Sha-Bang-Modules",
   "name": "Sha#Bang! Modules",
-  "version": "1.2.4",
+  "version": "1.3.1",
   "license": "GPL-3.0-only",
   "author": "Jeremy Muller",
   "authorEmail": "jeremy@jeremymuller.com",
@@ -19,6 +19,16 @@
       "tags": [
         "Blank",
         "Visual"
+      ]
+    },
+    {
+      "slug": "Collider",
+      "name": "Collider",
+      "description": "Physics-based shaker",
+      "tags": [
+        "Granular",
+        "Physical modeling",
+        "Polyphonic"
       ]
     },
     {
@@ -89,6 +99,16 @@
       "slug": "RandGates",
       "name": "Random Gate Switch",
       "description": "Randomly routes one of 4 inputs to the output",
+      "tags": [
+        "Utility",
+        "Switch",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "RandRoute",
+      "name": "Random Route Switch",
+      "description": "Randomly routes one input to 4 possible outputs",
       "tags": [
         "Utility",
         "Switch",

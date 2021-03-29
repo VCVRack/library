@@ -10,7 +10,7 @@
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
   "changelogUrl": "https://github.com/jeremywen/JW-Modules/blob/master/CHANGELOG.md",
-  "version": "1.0.21",
+  "version": "1.0.24",
   "modules": [
     {
       "slug": "BlankPanel_1HP",
@@ -53,6 +53,14 @@
       ]
     },
     {
+      "slug": "Pete",
+      "name": "Pete",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
       "slug": "Add5",
       "name": "Add5",
       "manualUrl": "https://github.com/jeremywen/JW-Modules",
@@ -89,6 +97,14 @@
       "slug": "GridSeq",
       "name": "GridSeq",
       "manualUrl": "https://github.com/jeremywen/JW-Modules#gridseq",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "8Seq",
+      "name": "8Seq",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#eightSeq",
       "tags": [
         "Sequencer"
       ]
