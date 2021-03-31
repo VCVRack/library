@@ -1,12 +1,12 @@
 {
   "slug": "Axioma",
   "name": "Axioma",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Axioma",
   "author": "Kaue Werner",
   "authorEmail": "kaue.werner@gmail.com",
-  "authorUrl": "",
+  "authorUrl": "https://kauewerner.github.io",
   "pluginUrl": "",
   "manualUrl": "https://github.com/kauewerner/Axioma/blob/main/README.md",
   "sourceUrl": "https://github.com/kauewerner/Axioma",
@@ -20,7 +20,6 @@
       "tags": [
         "Sequencer",
         "Noise",
-        "Physical modeling",
         "Random",
         "Visual"
       ]
@@ -31,7 +30,6 @@
       "description": "Generate CV output sequences using vertex positions of a rotating tesseract projected on a 2D space",
       "tags": [
         "Low-frequency oscillator",
-        "Physical modeling",
         "Visual"
       ]
     },
@@ -42,8 +40,16 @@
       "tags": [
         "Sequencer",
         "Noise",
-        "Physical modeling",
         "Random",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Rhodonea",
+      "name": "Rhodonea",
+      "description": "Oscillator based on rhodonea (rose) curves",
+      "tags": [
+        "Oscillator",
         "Visual"
       ]
     }
