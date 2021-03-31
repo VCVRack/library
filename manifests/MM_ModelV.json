@@ -1,7 +1,7 @@
 {
   "slug": "MM_ModelV",
   "name": "Model V",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "proprietary",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -17,7 +17,9 @@
       "name": "Model V",
       "description": "Virtual analog 3-oscillator polysynth",
       "tags": [
-        "Polyphonic"
+        "Polyphonic",
+        "Oscillator",
+        "Synth voice"
       ]
     }
   ]
