@@ -9307,59 +9307,5 @@
         "creationTimestamp": 1617222813.7159493
       }
     }
-  },
-  "Virtue-Control": {
-    "buildTimestamp": 1617895364.0175426,
-    "creationTimestamp": 1617895365.1101594,
-    "modules": {
-      "Twister": {
-        "creationTimestamp": 1617895365.1639597
-      },
-      "Twister_Expander": {
-        "creationTimestamp": 1617895365.2204056
-      },
-      "Smasher": {
-        "creationTimestamp": 1617895365.279698
-      },
-      "Smasher_Expander": {
-        "creationTimestamp": 1617895365.338869
-      },
-      "Slider": {
-        "creationTimestamp": 1617895365.3987632
-      },
-      "Slider_Expander": {
-        "creationTimestamp": 1617895365.4582436
-      },
-      "Spinner": {
-        "creationTimestamp": 1617895365.5189788
-      },
-      "Spinner_Expander": {
-        "creationTimestamp": 1617895365.5775676
-      },
-      "MIDI_Monitor": {
-        "creationTimestamp": 1617895365.6384366
-      },
-      "MIDI_Repeater": {
-        "creationTimestamp": 1617895365.692419
-      },
-      "MIDI_Merger": {
-        "creationTimestamp": 1617895365.7510214
-      },
-      "MIDI_Mapper": {
-        "creationTimestamp": 1617895365.8083396
-      },
-      "MIDI_Input": {
-        "creationTimestamp": 1617895365.8615606
-      },
-      "MIDI_Output": {
-        "creationTimestamp": 1617895365.915064
-      },
-      "MIDI_CV": {
-        "creationTimestamp": 1617895365.9691734
-      },
-      "MIDI_Channel": {
-        "creationTimestamp": 1617895366.0225801
-      }
-    }
   }
 }
