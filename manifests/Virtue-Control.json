@@ -1,0 +1,160 @@
+{
+  "slug": "Virtue-Control",
+  "name": "Virtue Hardware Companion Modules",
+  "version": "1.0.6",
+  "license": "proprietary",
+  "brand": "Kilpatrick Audio",
+  "author": "Andrew Kilpatrick",
+  "authorEmail": "info@kilpatrickaudio.com",
+  "authorUrl": "https://www.kilpatrickaudio.com",
+  "pluginUrl": "https://www.kilpatrickaudio.com/?p=viron",
+  "manualUrl": "https://kilpatrickaudio.com/?p=virtue-vcv",
+  "sourceUrl": "",
+  "donateUrl": "https://kilpatrickaudio.com/?p=virtue-vcv",
+  "changelogUrl": "https://kilpatrickaudio.com/?p=virtue-vcv",
+  "modules": [
+    {
+      "slug": "Twister",
+      "name": "Twister",
+      "description": "Quad hardware knob controller",
+      "tags": [
+        "hardware",
+        "MIDI",
+        "Quad",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Twister_Expander",
+      "name": "Twister Expander",
+      "description": "CV and MIDI expander for Twister with vMIDI Support",
+      "tags": [
+        "Expander",
+        "MIDI"
+      ]
+    },
+    {
+      "slug": "Smasher",
+      "name": "Smasher",
+      "description": "Hardware button interface",
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "slug": "Smasher_Expander",
+      "name": "Smasher Expander",
+      "description": "CV and MIDI expander for Smasher with vMIDI Support",
+      "tags": [
+        "Expander",
+        "MIDI"
+      ]
+    },
+    {
+      "slug": "Slider",
+      "name": "Slider",
+      "description": "Hardware slider/button interface",
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "slug": "Slider_Expander",
+      "name": "Slider Expander",
+      "description": "CV and MIDI expander for Slider with vMIDI Support",
+      "tags": [
+        "Expander",
+        "MIDI"
+      ]
+    },
+    {
+      "slug": "Spinner",
+      "name": "Spinner",
+      "description": "Hardware wheel interface",
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "slug": "Spinner_Expander",
+      "name": "Spinner Expander",
+      "description": "CV and MIDI expander for Spinner with vMIDI Support",
+      "tags": [
+        "Expander",
+        "MIDI"
+      ]
+    },
+    {
+      "slug": "MIDI_Monitor",
+      "name": "MIDI Monitor",
+      "description": "MIDI Monitor with vMIDI Support",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Repeater",
+      "name": "MIDI Repeater",
+      "description": "MIDI Repeat Processor vMIDI Support",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Merger",
+      "name": "MIDI Merger",
+      "description": "MIDI Merger and Filter with vMIDI Support",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Mapper",
+      "name": "MIDI Mapper",
+      "description": "MIDI CC Mapper with vMIDI Support",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Input",
+      "name": "MIDI Input",
+      "description": "MIDI Hardware Input to vMIDI Adapter",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Output",
+      "name": "MIDI Output",
+      "description": "MIDI Hardare Output from vMIDI Adapter",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_CV",
+      "name": "MIDI CV",
+      "description": "MIDI to CV Module with vMIDI Support",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Channel",
+      "name": "MIDI Channel",
+      "description": "MIDI Channel Processor with vMIDI Support",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    }
+  ]
+}
