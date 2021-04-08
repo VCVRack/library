@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/compacts/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.14",
+  "version": "1.15",
   "modules": [
     {
       "slug": "Freak",
@@ -16,6 +16,16 @@
       "tags": [
         "VCF",
         "Polyphonic",
+        "Hardware clone"
+      ],
+      "description": "Manifold Filter",
+      "modularGridUrl": "https://www.modulargrid.net/e/vult-freak"
+    },
+    {
+      "slug": "Freak-HW",
+      "name": "Freak-HW",
+      "tags": [
+        "VCF",
         "Hardware clone"
       ],
       "description": "Manifold Filter",
@@ -49,6 +59,16 @@
       ],
       "description": "Low/High Pass Filter",
       "modularGridUrl": "https://www.modulargrid.net/e/vult-vorg"
+    },
+    {
+      "slug": "Vraids",
+      "name": "Vraids (Freak alternate firmware)",
+      "tags": [
+        "VCO",
+        "Hardware clone"
+      ],
+      "description": "Macro Oscillator",
+      "modularGridUrl": "https://www.modulargrid.net/e/vult-freak"
     }
   ]
 }

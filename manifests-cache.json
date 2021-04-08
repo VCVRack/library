@@ -5777,7 +5777,7 @@
     }
   },
   "VultModulesFree": {
-    "buildTimestamp": 1609115532.443246,
+    "buildTimestamp": 1617855556.0406163,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Basal": {
@@ -6844,7 +6844,7 @@
     }
   },
   "VultCompacts": {
-    "buildTimestamp": 1609115529.6831856,
+    "buildTimestamp": 1617855553.397211,
     "creationTimestamp": 1527117794.0,
     "modules": {
       "Freak": {
@@ -6858,6 +6858,12 @@
       },
       "Vorg": {
         "creationTimestamp": 1560597684.0
+      },
+      "Freak-HW": {
+        "creationTimestamp": 1617855559.0158017
+      },
+      "Vraids": {
+        "creationTimestamp": 1617855559.0811613
       }
     }
   },
@@ -7508,7 +7514,7 @@
     }
   },
   "VultMysteries": {
-    "buildTimestamp": 1609115534.0899484,
+    "buildTimestamp": 1617855557.8573322,
     "creationTimestamp": 1563301966.0,
     "modules": {
       "Lapsus": {
@@ -7885,7 +7891,7 @@
     "modules": {}
   },
   "VultModules": {
-    "buildTimestamp": 1609115531.2165525,
+    "buildTimestamp": 1617855554.7639148,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Basal": {
