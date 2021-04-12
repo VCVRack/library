@@ -2575,7 +2575,7 @@
     }
   },
   "squinkylabs-plug1": {
-    "buildTimestamp": 1605955072.63519,
+    "buildTimestamp": 1618240249.9972656,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {
@@ -2679,6 +2679,15 @@
       },
       "squinkylabs-comp": {
         "creationTimestamp": 1605955094.8725228
+      },
+      "squinkylabs-samp": {
+        "creationTimestamp": 1618241310.91698
+      },
+      "squinkylabs-comp2": {
+        "creationTimestamp": 1618241311.0956554
+      },
+      "squinkylabs-testmodel": {
+        "creationTimestamp": 1618241311.2129128
       }
     }
   },
@@ -3154,7 +3163,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1616991246.3120143,
+    "buildTimestamp": 1618240380.6335092,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -4831,7 +4840,7 @@
     }
   },
   "CountModula": {
-    "buildTimestamp": 1603081363.847349,
+    "buildTimestamp": 1618240954.2263014,
     "creationTimestamp": 1560722026.0,
     "modules": {
       "AnalogueShiftRegister": {
@@ -5166,6 +5175,18 @@
       },
       "SingleSRFlipFlop": {
         "creationTimestamp": 1598029969.3221807
+      },
+      "Switch2": {
+        "creationTimestamp": 1618241311.347781
+      },
+      "Switch3": {
+        "creationTimestamp": 1618241311.4393125
+      },
+      "Switch4": {
+        "creationTimestamp": 1618241311.5320766
+      },
+      "Carousel": {
+        "creationTimestamp": 1618241311.6155374
       }
     }
   },
@@ -7745,7 +7766,7 @@
     }
   },
   "FrozenWasteland": {
-    "buildTimestamp": 1617570016.9305298,
+    "buildTimestamp": 1618241219.6422248,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {
@@ -8862,7 +8883,7 @@
     }
   },
   "Sha-Bang-Modules": {
-    "buildTimestamp": 1617222813.4592648,
+    "buildTimestamp": 1618241310.4709208,
     "creationTimestamp": 1602486511.7177973,
     "modules": {
       "StochSeq": {
