@@ -574,3 +574,6 @@
 [submodule "repos/Axioma"]
 	path = repos/Axioma
 	url = https://github.com/kauewerner/Axioma.git
+[submodule "repos/ODDSound_MTS_ESP"]
+	path = repos/ODDSound_MTS_ESP
+	url = https://github.com/ODDSound/MTS-ESP-VCVRack.git
