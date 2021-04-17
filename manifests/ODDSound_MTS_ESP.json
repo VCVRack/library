@@ -1,0 +1,37 @@
+{
+  "slug": "ODDSound_MTS_ESP",
+  "name": "ODDSound MTS-ESP",
+  "version": "1.0.0",
+  "license": "0BSD",
+  "brand": "ODDSound",
+  "author": "ODDSound",
+  "authorEmail": "https://oddsound.com",
+  "authorUrl": "https://oddsound.com",
+  "pluginUrl": "https://oddsound.com",
+  "manualUrl": "https://oddsound.com",
+  "sourceUrl": "https://oddsound.com",
+  "donateUrl": "https://oddsound.com",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "MIDI_CV_MTS_ESP",
+      "name": "MTS-ESP MIDI To CV",
+      "description": "Converts MIDI from an external device to CV and gates with MTS-ESP tuning support",
+      "tags": [
+        "External",
+        "MIDI",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CV_MIDI_MTS_ESP",
+      "name": "MTS-ESP CV To MIDI ",
+      "description": "Converts CV to MIDI and sends to an external device with MTS-ESP tuning support",
+      "tags": [
+        "External",
+        "MIDI",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
