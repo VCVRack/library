@@ -9403,5 +9403,23 @@
         "creationTimestamp": 1618677097.2593522
       }
     }
+  },
+  "MindMeld-ShapeMasterPro": {
+    "buildTimestamp": 1619013399.3888965,
+    "creationTimestamp": 1619013403.5611546,
+    "modules": {
+      "UMeld": {
+        "creationTimestamp": 1619013403.6166208
+      },
+      "ShapeMasterCvExpander": {
+        "creationTimestamp": 1619013403.6663396
+      },
+      "ShapeMasterPro": {
+        "creationTimestamp": 1619013403.7174635
+      },
+      "ShapeMasterTrigExpander": {
+        "creationTimestamp": 1619013403.7674463
+      }
+    }
   }
 }

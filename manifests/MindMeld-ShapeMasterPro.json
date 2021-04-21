@@ -1,0 +1,62 @@
+{
+  "slug": "MindMeld-ShapeMasterPro",
+  "name": "ShapeMaster Pro",
+  "version": "1.1.1",
+  "license": "proprietary",
+  "author": "S.Baker and M.Boul\u00e9 ",
+  "brand": "MindMeld",
+  "authorEmail": "steve@spirit-level.co.uk",
+  "authorUrl": "",
+  "pluginUrl": "https://www.facebook.com/MindMeldModular",
+  "manualUrl": "https://marcboule.github.io/MindMeldModular",
+  "sourceUrl": "",
+  "donateUrl": "https://www.paypal.me/mindmeldmodular",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "UMeld",
+      "name": "uMeld",
+      "description": "8-channel merge for SM-Pro CVs",
+      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-ShapeMaster-Manual-V1_0.pdf",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ShapeMasterCvExpander",
+      "name": "ShapeMasterPro Cv Expander",
+      "description": "CV expander for ShapeMaster Pro",
+      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-ShapeMaster-Manual-V1_0.pdf",
+      "tags": [
+        "Envelope generator",
+        "LFO",
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "ShapeMasterPro",
+      "name": "ShapeMaster Pro",
+      "description": "Multi-Stage Envelope Generator (MSEG) / Complex LFO",
+      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-ShapeMaster-Manual-V1_0.pdf",
+      "tags": [
+        "Envelope generator",
+        "LFO",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ShapeMasterTrigExpander",
+      "name": "ShapeMasterPro Trigger Expander",
+      "description": "Trigger expander for ShapeMaster Pro",
+      "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-ShapeMaster-Manual-V1_0.pdf",
+      "tags": [
+        "Envelope generator",
+        "LFO",
+        "Sequencer",
+        "Expander"
+      ]
+    }
+  ]
+}
