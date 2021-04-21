@@ -1998,7 +1998,7 @@
     }
   },
   "VCV-Host": {
-    "buildTimestamp": 1612126038.4110746,
+    "buildTimestamp": 1618988422.0101619,
     "creationTimestamp": 1543081940.0,
     "modules": {
       "Host": {
@@ -2009,6 +2009,15 @@
       },
       "Host-XL": {
         "creationTimestamp": 1560916301.0
+      },
+      "Host-CV": {
+        "creationTimestamp": 1618988423.0746102
+      },
+      "Host-CC": {
+        "creationTimestamp": 1618988423.1418948
+      },
+      "Host-Gate": {
+        "creationTimestamp": 1618988423.205462
       }
     }
   },

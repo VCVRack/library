@@ -1,6 +1,6 @@
 {
   "slug": "VCV-Host",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "license": "proprietary",
   "name": "Host",
   "brand": "VCV",
@@ -38,6 +38,33 @@
       "tags": [
         "External",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Host-CV",
+      "name": "Host-CV",
+      "description": "MIDI output expander for all Host modules",
+      "tags": [
+        "External",
+        "MIDI"
+      ]
+    },
+    {
+      "slug": "Host-CC",
+      "name": "Host-CC",
+      "description": "MIDI CC output expander for all Host modules",
+      "tags": [
+        "External",
+        "MIDI"
+      ]
+    },
+    {
+      "slug": "Host-Gate",
+      "name": "Host-Gate",
+      "description": "MIDI note gate output expander for all Host modules",
+      "tags": [
+        "External",
+        "MIDI"
       ]
     }
   ]
