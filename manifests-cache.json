@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1612645826.0301626,
+    "buildTimestamp": 1619205950.1235418,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -2172,7 +2172,7 @@
     }
   },
   "MindMeldModular": {
-    "buildTimestamp": 1605492631.8103063,
+    "buildTimestamp": 1619206093.2070413,
     "creationTimestamp": 1572165273.0,
     "modules": {
       "MixMasterJr": {
@@ -2204,6 +2204,9 @@
       },
       "BassMaster": {
         "creationTimestamp": 1591780925.4462535
+      },
+      "ShapeMaster": {
+        "creationTimestamp": 1619206093.5638
       }
     }
   },
