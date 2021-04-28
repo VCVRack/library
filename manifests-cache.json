@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1619205950.1235418,
+    "buildTimestamp": 1619642996.7092588,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -428,6 +428,9 @@
       },
       "hazumi": {
         "creationTimestamp": 1611694078.3798084
+      },
+      "looper": {
+        "creationTimestamp": 1619642996.9952097
       }
     }
   },
