@@ -577,3 +577,6 @@
 [submodule "repos/ODDSound_MTS_ESP"]
 	path = repos/ODDSound_MTS_ESP
 	url = https://github.com/ODDSound/MTS-ESP-VCVRack.git
+[submodule "repos/Plurm"]
+	path = repos/Plurm
+	url = https://github.com/terrytheplatypus/Plurm.git
