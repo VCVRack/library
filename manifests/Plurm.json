@@ -1,0 +1,25 @@
+{
+  "slug": "Plurm",
+  "name": "Plurm",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Plurm",
+  "author": "David Cherepov",
+  "authorEmail": "aliasup@yahoo.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/terrytheplatypus/Plurm/blob/master/README.md",
+  "sourceUrl": "https://github.com/terrytheplatypus/Plurm",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Stacktrace",
+      "name": "Stacktrace",
+      "description": "Sample and hold in an 8-frame stack",
+      "tags": [
+        "Sample and hold"
+      ]
+    }
+  ]
+}

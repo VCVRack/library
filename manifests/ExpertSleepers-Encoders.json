@@ -1,7 +1,7 @@
 {
   "slug": "ExpertSleepers-Encoders",
   "name": "Encoders",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "brand": "Expert Sleepers",
   "author": "Andrew Ostler",
@@ -16,31 +16,49 @@
       "slug": "ExpertSleepers-Encoders-8CV",
       "name": "8CV Encoder",
       "description": "",
-      "tags": []
+      "tags": [
+        "External"
+      ]
     },
     {
       "slug": "ExpertSleepers-Encoders-8GT",
       "name": "8GT Encoder",
       "description": "",
-      "tags": []
+      "tags": [
+        "External"
+      ]
     },
     {
       "slug": "ExpertSleepers-Encoders-ES5",
       "name": "ES-5 Encoder",
       "description": "",
-      "tags": []
+      "tags": [
+        "External"
+      ]
     },
     {
       "slug": "ExpertSleepers-Encoders-ES40",
       "name": "ES-4(0) Encoder",
       "description": "",
-      "tags": []
+      "tags": [
+        "External"
+      ]
+    },
+    {
+      "slug": "ExpertSleepers-Encoders-Calibrator",
+      "name": "Calibrator",
+      "description": "",
+      "tags": [
+        "External"
+      ]
     },
     {
       "slug": "ExpertSleepers-Encoders-SMUX",
       "name": "SMUX",
       "description": "",
-      "tags": []
+      "tags": [
+        "External"
+      ]
     }
   ]
 }

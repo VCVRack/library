@@ -1,7 +1,7 @@
 {
   "slug": "StudioSixPlusOne",
   "name": "Studio Six Plus One",
-  "version": "1.2.2",
+  "version": "1.3",
   "license": "GPL-3.0-or-later",
   "brand": "Studio Six Plus One",
   "author": "Studio Six Plus One",
@@ -98,6 +98,7 @@
         "Clock modulator",
         "Function generator",
         "Low-frequency oscillator",
+        "Envelope generator",
         "Controller"
       ]
     },
@@ -119,6 +120,16 @@
       "tags": [
         "Controller",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Zilah",
+      "name": "Zilah",
+      "description": "14 bit Midi-CC input",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#zilah",
+      "tags": [
+        "MIDI",
+        "external"
       ]
     }
   ]
