@@ -580,3 +580,6 @@
 [submodule "repos/Plurm"]
 	path = repos/Plurm
 	url = https://github.com/terrytheplatypus/Plurm.git
+[submodule "repos/Extratone"]
+	path = repos/Extratone
+	url = https://github.com/EaterOfSheep/Extratone.git
