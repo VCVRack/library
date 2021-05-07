@@ -3178,7 +3178,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1618240380.6335092,
+    "buildTimestamp": 1620402348.4415371,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -3264,6 +3264,9 @@
       },
       "8Seq": {
         "creationTimestamp": 1616991327.5839186
+      },
+      "DivSeq": {
+        "creationTimestamp": 1620402349.1316411
       }
     }
   },
@@ -8808,7 +8811,7 @@
     }
   },
   "GrandeModular": {
-    "buildTimestamp": 1618677096.8780332,
+    "buildTimestamp": 1620402223.1784315,
     "creationTimestamp": 1598123367.069531,
     "modules": {
       "NoteMT": {
@@ -8840,6 +8843,9 @@
       },
       "Tails": {
         "creationTimestamp": 1613369291.104899
+      },
+      "Clip": {
+        "creationTimestamp": 1620402349.4137728
       }
     }
   },
@@ -9443,6 +9449,18 @@
     "modules": {
       "Stacktrace": {
         "creationTimestamp": 1619962435.0621927
+      }
+    }
+  },
+  "Extratone": {
+    "buildTimestamp": 1620402165.0803254,
+    "creationTimestamp": 1620402349.2390156,
+    "modules": {
+      "Modulo": {
+        "creationTimestamp": 1620402349.2959146
+      },
+      "Opabinia": {
+        "creationTimestamp": 1620402349.348658
       }
     }
   }

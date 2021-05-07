@@ -1,0 +1,34 @@
+{
+  "slug": "Extratone",
+  "name": "Extratone",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "XTRTN",
+  "author": "Eater of Sheep",
+  "authorEmail": "extratonexyz@gmail.com",
+  "authorUrl": "http://extratone.xyz/artists/sheep.html",
+  "pluginUrl": "http://extratone.xyz",
+  "manualUrl": "http://extratone.xyz/modules.php",
+  "sourceUrl": "https://github.com/EaterOfSheep/sheepextratone",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Modulo",
+      "name": "Modulo",
+      "description": "Adjustable modulo operator for octave-stripping and waveshaping",
+      "tags": [
+        "utility",
+        "waveshaper"
+      ]
+    },
+    {
+      "slug": "Opabinia",
+      "name": "Opabinia",
+      "description": "Basic bassdrum with folding and distortion",
+      "tags": [
+        "Drum"
+      ]
+    }
+  ]
+}
