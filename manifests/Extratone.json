@@ -1,7 +1,7 @@
 {
   "slug": "Extratone",
   "name": "Extratone",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "XTRTN",
   "author": "Eater of Sheep",
@@ -9,7 +9,7 @@
   "authorUrl": "http://extratone.xyz/artists/sheep.html",
   "pluginUrl": "http://extratone.xyz",
   "manualUrl": "http://extratone.xyz/modules.php",
-  "sourceUrl": "https://github.com/EaterOfSheep/sheepextratone",
+  "sourceUrl": "https://github.com/EaterOfSheep/Extratone",
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
@@ -25,9 +25,27 @@
     {
       "slug": "Opabinia",
       "name": "Opabinia",
-      "description": "Basic bassdrum with folding and distortion",
+      "description": "Easy bassdrum with folding, distortion and envelope outputs.",
       "tags": [
-        "Drum"
+        "Drum",
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "Splitterburst",
+      "name": "Splitterburst",
+      "description": "Tempo multiplier and gate generator, perfect for snare-rushes",
+      "tags": [
+        "Clock modulator",
+        "utility"
+      ]
+    },
+    {
+      "slug": "Puzzlebox",
+      "name": "Puzzlebox",
+      "description": "Confusing mystery module. Fun.",
+      "tags": [
+        "logic"
       ]
     }
   ]

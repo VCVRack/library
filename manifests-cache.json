@@ -1,6 +1,6 @@
 {
   "HolonicSystems-Free": {
-    "buildTimestamp": 1620233669.0530617,
+    "buildTimestamp": 1620885282.6348162,
     "creationTimestamp": 1540482286.0,
     "modules": {
       "HolonicSystems-Gaps": {
@@ -3178,7 +3178,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1620402348.4415371,
+    "buildTimestamp": 1620885429.7586033,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -7787,7 +7787,7 @@
     }
   },
   "FrozenWasteland": {
-    "buildTimestamp": 1618241219.6422248,
+    "buildTimestamp": 1620885729.513099,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {
@@ -7924,6 +7924,9 @@
       },
       "PNOctaveProbabilityExpander": {
         "creationTimestamp": 1617570017.3067768
+      },
+      "QARConditionalExpander": {
+        "creationTimestamp": 1620885729.9931693
       }
     }
   },
@@ -9453,7 +9456,7 @@
     }
   },
   "Extratone": {
-    "buildTimestamp": 1620402165.0803254,
+    "buildTimestamp": 1620885307.2354493,
     "creationTimestamp": 1620402349.2390156,
     "modules": {
       "Modulo": {
@@ -9461,6 +9464,12 @@
       },
       "Opabinia": {
         "creationTimestamp": 1620402349.348658
+      },
+      "Splitterburst": {
+        "creationTimestamp": 1620885729.7389665
+      },
+      "Puzzlebox": {
+        "creationTimestamp": 1620885729.8096118
       }
     }
   }

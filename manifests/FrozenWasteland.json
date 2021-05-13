@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.18.3",
+  "version": "1.20.0",
   "author": "almostEric",
   "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -178,7 +178,7 @@
     {
       "slug": "PortlandWeather",
       "name": "Portland Weather",
-      "description": "16 tap rhytmic delay with per tap pitch shifting and filtering",
+      "description": "16 tap rhythmic delay with per tap pitch shifting and filtering",
       "tags": [
         "Delay",
         "Granular",
@@ -270,6 +270,15 @@
       "description": "4 track Euclidean and Golumb Ruler Sequencer",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "QARConditionalExpander",
+      "name": "QAR - Conditional",
+      "description": "Clock Divide individual beats in QAR Rhythms",
+      "tags": [
+        "Expander",
+        "Random"
       ]
     },
     {
