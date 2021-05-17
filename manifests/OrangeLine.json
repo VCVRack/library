@@ -1,7 +1,7 @@
 {
   "slug": "OrangeLine",
   "name": "OrangeLine",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "license": "GPL-3.0-only",
   "brand": "",
   "author": "Dieter Stubler",
@@ -44,6 +44,15 @@
         "Sequencer",
         "Polyphonic",
         "Poly"
+      ]
+    },
+    {
+      "slug": "Phrase",
+      "name": "Phrase",
+      "description": "Utility to sequence phrases by sequencing a sequencer",
+      "tags": [
+        "Sequencer",
+        "Utility"
       ]
     }
   ]
