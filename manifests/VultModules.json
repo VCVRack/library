@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.15",
+  "version": "1.16",
   "modules": [
     {
       "slug": "Basal",
@@ -339,6 +339,15 @@
         "Polyphonic"
       ],
       "description": "Punk Console"
+    },
+    {
+      "slug": "Wolv",
+      "name": "Wolv",
+      "tags": [
+        "Waveshaper",
+        "Polyphonic"
+      ],
+      "description": "Waveshaper"
     },
     {
       "slug": "BlackPanelSmall",
