@@ -1,7 +1,7 @@
 {
   "slug": "VCV-SoundStage",
   "name": "Sound Stage",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "proprietary",
   "brand": "VCV",
   "author": "VCV",
@@ -16,7 +16,7 @@
     {
       "slug": "SoundStage",
       "name": "Sound Stage",
-      "description": "Reverb processor that simulates virtual sources and microphones on a 3D stage",
+      "description": "Reverb processor that simulates virtual sound sources and microphones in a 3D room",
       "tags": [
         "Reverb"
       ]
