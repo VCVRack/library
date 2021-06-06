@@ -1,0 +1,60 @@
+{
+  "slug": "forsitan",
+  "name": "forsitan modulare",
+  "version": "1.4.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "forsitan modulare",
+  "author": "Giampaolo Guiducci",
+  "authorEmail": "giampaolo.guiducci@gmail.com",
+  "authorUrl": "https://github.com/gosub",
+  "pluginUrl": "https://github.com/gosub/forsitan-modulare",
+  "manualUrl": "https://github.com/gosub/forsitan-modulare#forsitan-modulare",
+  "sourceUrl": "https://github.com/gosub/forsitan-modulare",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/gosub/forsitan-modulare/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "alea",
+      "name": "alea",
+      "description": "Add a random module to your rack",
+      "tags": [
+        "utility",
+        "random"
+      ]
+    },
+    {
+      "slug": "interea",
+      "name": "interea",
+      "description": "Make a chord from a V/Oct input, with quality, voicing and inversion. Harmonize option.",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "cumuli",
+      "name": "cumuli",
+      "description": "Accumulator with up and down gates and rates.",
+      "tags": [
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "deinde",
+      "name": "deinde",
+      "description": "Quad cascading addressable attack-hold envelope.",
+      "tags": [
+        "Envelope generator",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "pavo",
+      "name": "pavo",
+      "description": "Spreader of polyphonic mono signals across the stereo field (Splay Ugen).",
+      "tags": [
+        "Panning",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "slug": "GrandeModular",
   "name": "Grande",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "license": "GPL-3.0-or-later",
   "author": "David Grande",
   "authorEmail": "dbgrande246@gmail.com",
@@ -58,6 +58,16 @@
       "name": "NoteMT",
       "description": "Microtonal note utility.",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#notemt",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyMergeResplit",
+      "name": "PolyMergeResplit",
+      "description": "Poly-to-poly Merge and Resplit back to the same channel widths.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#polymergeresplit-pmr",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -123,6 +133,17 @@
         "Polyphonic",
         "Attenuator",
         "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "VarSampleDelays",
+      "name": "VarSampleDelays",
+      "description": "Quad independent variable sample-delay buffers.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#varsampledelays-vsd",
+      "tags": [
+        "Delay",
+        "Polyphonic",
+        "Quad"
       ]
     }
   ]

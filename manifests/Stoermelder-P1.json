@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "license": "GPL-3.0-only",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -23,6 +23,15 @@
         "Controller"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/CVMap.md"
+    },
+    {
+      "slug": "CVMapCtx",
+      "name": "CTX for CV-MAP",
+      "description": "Expander for context menu mapping using CV-MAP",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/CVMap.md#ctx-expander"
     },
     {
       "slug": "CVMapMicro",
@@ -110,6 +119,15 @@
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Strip.md"
     },
     {
+      "slug": "StripBay4",
+      "name": "STRIP-BAY",
+      "description": "Utility module for STRIP keeping inputs/outputs connected",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Strip.md#stoermelder-strip-bay"
+    },
+    {
       "slug": "EightFace",
       "name": "8FACE",
       "description": "Universal expander for sequencing up to eight presets of any module",
@@ -148,6 +166,16 @@
         "MIDI"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiCat.md#mem-expander"
+    },
+    {
+      "slug": "MidiCatCtx",
+      "name": "CTX for MIDI-CAT",
+      "description": "Expander for context menu mapping using MIDI-CAT",
+      "tags": [
+        "Utility",
+        "MIDI"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiCat.md#ctx-expander"
     },
     {
       "slug": "Sipo",
@@ -324,7 +352,7 @@
     {
       "slug": "Spin",
       "name": "SPIN",
-      "description": "Utility for converting mouse-wheel movement into triggers, also handles mouse-click of mouse, useful for SAIL",
+      "description": "Utility for converting mouse-wheel movement into triggers, also handles middle-click of mouse, useful for SAIL",
       "tags": [
         "Utility"
       ],
@@ -388,6 +416,46 @@
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiMon.md"
     },
     {
+      "slug": "Orbit",
+      "name": "ORBIT",
+      "description": "Polyphonic stereo field spreader",
+      "tags": [
+        "Panning",
+        "Effect",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Orbit.md"
+    },
+    {
+      "slug": "EightFaceMk2",
+      "name": "8FACE mk2",
+      "description": "Universal expander for sequencing up to eight presets of multiple modules",
+      "tags": [
+        "Utility",
+        "Sequencer"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/EightFaceMk2.md"
+    },
+    {
+      "slug": "EightFaceMk2Ex",
+      "name": "+8",
+      "description": "Expander for 8FACE mk2",
+      "tags": [
+        "Expander"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/EightFaceMk2.md"
+    },
+    {
+      "slug": "MidiPlug",
+      "name": "MIDI-PLUG",
+      "description": "Virtual MIDI merger and splitter",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiPlug.md"
+    },
+    {
       "slug": "AudioInterface64",
       "name": "AUDIO-64",
       "description": "Sends CV and audio to/from an audio device",
@@ -403,6 +471,15 @@
         "Utility"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Mb.md"
+    },
+    {
+      "slug": "Me",
+      "name": "ME",
+      "description": "Mouse enhancements",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Me.md"
     }
   ]
 }

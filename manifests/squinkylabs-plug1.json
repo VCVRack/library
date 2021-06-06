@@ -2,13 +2,13 @@
   "slug": "squinkylabs-plug1",
   "name": "Squinky Labs",
   "author": "Squinky Labs",
-  "license": "CC0-1.0",
+  "license": "GPL-3.0-only",
   "pluginUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/README.md",
   "authorUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/README.md",
   "sourceUrl": "https://github.com/squinkylabs/SquinkyVCV",
   "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/booty-shifter.md",
   "changelogUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/CHANGELOG.md",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "modules": [
     {
       "slug": "squinkylabs-ev3",
@@ -342,7 +342,7 @@
       "slug": "squinkylabs-comp",
       "name": "Comp",
       "disabled": false,
-      "description": "Compressor",
+      "description": "Ultra clean Compressor",
       "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/compressor.md",
       "tags": [
         "Compressor",
@@ -363,7 +363,7 @@
     {
       "slug": "squinkylabs-samp",
       "name": "SFZ Player",
-      "description": "Sampler that loads standard SFZ files.",
+      "description": "Sampler that plays standard SFZ files.",
       "disabled": false,
       "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/sfz-player.md",
       "tags": [
@@ -375,9 +375,9 @@
     {
       "slug": "squinkylabs-comp2",
       "name": "Comp II",
-      "disabled": true,
-      "description": "Compressor",
-      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/compressor.md",
+      "disabled": false,
+      "description": "Polyphonic Compressor",
+      "manualUrl": "https://github.com/squinkylabs/SquinkyVCV/blob/main/docs/compressor2.md",
       "tags": [
         "Compressor",
         "Dynamics",
