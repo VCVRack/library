@@ -583,3 +583,6 @@
 [submodule "repos/Extratone"]
 	path = repos/Extratone
 	url = https://github.com/EaterOfSheep/Extratone.git
+[submodule "repos/forsitan"]
+	path = repos/forsitan
+	url = https://github.com/gosub/forsitan-modulare.git
