@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "license": "proprietary",
   "brand": "DanT",
   "author": "dtilley",
@@ -16,7 +16,7 @@
     {
       "slug": "Wavulike",
       "name": "Wavulike",
-      "description": "VCO based on generated waveform",
+      "description": "[12hp] VCO based on generated waveform",
       "tags": [
         "Oscillator",
         "Low-frequency oscillator"
@@ -25,7 +25,7 @@
     {
       "slug": "TMNT",
       "name": "TMNT",
-      "description": "Timed Mutating Non-Linear Triggers",
+      "description": "[34hp] Timed Mutating Non-Linear Triggers",
       "tags": [
         "Sequencer"
       ]
@@ -33,7 +33,7 @@
     {
       "slug": "5Splice",
       "name": "5Splice",
-      "description": "Window mixer for up to 5 inputs",
+      "description": "[4hp] Window mixer for up to 5 inputs",
       "tags": [
         "Mixer"
       ]
