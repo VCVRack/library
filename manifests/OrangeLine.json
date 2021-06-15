@@ -1,7 +1,7 @@
 {
   "slug": "OrangeLine",
   "name": "OrangeLine",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "license": "GPL-3.0-only",
   "brand": "",
   "author": "Dieter Stubler",
@@ -22,8 +22,7 @@
         "Utility",
         "Distortion",
         "WaveShaper",
-        "Polyphonic",
-        "Poly"
+        "Polyphonic"
       ]
     },
     {
@@ -32,7 +31,8 @@
       "description": "Micro Timing Sequencer",
       "tags": [
         "Sequencer",
-        "Clock"
+        "Clock",
+        "Clock modulator"
       ]
     },
     {
@@ -42,8 +42,7 @@
       "tags": [
         "Quantizer",
         "Sequencer",
-        "Polyphonic",
-        "Poly"
+        "Polyphonic"
       ]
     },
     {
@@ -66,6 +65,16 @@
         "Random",
         "Sequencer",
         "Visual"
+      ]
+    },
+    {
+      "slug": "Gator",
+      "name": "Gator",
+      "description": "Phased Based Microtimimg, Ratcheting and Strumming",
+      "tags": [
+        "Utility",
+        "Polyphonic",
+        "Clock Modulator"
       ]
     }
   ]

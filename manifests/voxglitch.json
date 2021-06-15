@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "1.29.0",
+  "version": "1.30.1",
   "license": "BSD-3-Clause",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -123,6 +123,14 @@
       "description": "Looping sample player with playback offset control.",
       "tags": [
         "Sampler"
+      ]
+    },
+    {
+      "slug": "satanonaut",
+      "name": "Satanonaut",
+      "description": "Based on the new comic Galacto Pitfighter: An alien entity hell-bent on mutilating your audio.",
+      "tags": [
+        "Effect"
       ]
     },
     {

@@ -1,17 +1,17 @@
 {
   "slug": "Extratone",
   "name": "Extratone",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "license": "GPL-3.0-or-later",
   "brand": "XTRTN",
   "author": "Eater of Sheep",
   "authorEmail": "extratonexyz@gmail.com",
   "authorUrl": "http://extratone.xyz/artists/sheep.html",
   "pluginUrl": "http://extratone.xyz",
-  "manualUrl": "http://extratone.xyz/modules.php",
+  "manualUrl": "http://extratone.xyz/modules",
   "sourceUrl": "https://github.com/EaterOfSheep/Extratone",
   "donateUrl": "",
-  "changelogUrl": "http://extratone.xyz/modules.php#Changelog",
+  "changelogUrl": "http://extratone.xyz/modules#Changelog",
   "modules": [
     {
       "slug": "Modulo",
@@ -47,7 +47,8 @@
       "name": "Puzzlebox",
       "description": "Confusing mystery module. Fun.",
       "tags": [
-        "logic"
+        "logic",
+        "visual"
       ]
     },
     {
