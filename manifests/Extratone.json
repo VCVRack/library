@@ -1,7 +1,7 @@
 {
   "slug": "Extratone",
   "name": "Extratone",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "XTRTN",
   "author": "Eater of Sheep",
@@ -19,7 +19,8 @@
       "description": "Adjustable modulo operator for octave-stripping and waveshaping.",
       "tags": [
         "utility",
-        "waveshaper"
+        "waveshaper",
+        "polyphonic"
       ]
     },
     {
@@ -30,7 +31,8 @@
         "Drum",
         "Envelope generator",
         "Distortion",
-        "waveshaper"
+        "waveshaper",
+        "polyphonic"
       ]
     },
     {
@@ -57,7 +59,27 @@
       "description": "Evolving, mutating random sequencer with memory - ideal for generative patches!",
       "tags": [
         "Sequencer",
-        "Random"
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Ichneumonid",
+      "name": "Ichneumonid",
+      "description": "Switch randomly (or deterministically) between signals without creating discontinuities.",
+      "tags": [
+        "Random",
+        "Mixer",
+        "Sequencer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Meganeura",
+      "name": "Meganeura",
+      "description": "Tempo multipliers - ideal for making Speedcore.",
+      "tags": [
+        "Clock Modulator"
       ]
     }
   ]
