@@ -586,3 +586,6 @@
 [submodule "repos/forsitan"]
 	path = repos/forsitan
 	url = https://github.com/gosub/forsitan-modulare.git
+[submodule "repos/RPJ"]
+	path = repos/RPJ
+	url = https://github.com/kockie69/RPJ.git
