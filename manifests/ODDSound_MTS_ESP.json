@@ -1,15 +1,15 @@
 {
   "slug": "ODDSound_MTS_ESP",
   "name": "ODDSound MTS-ESP",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "0BSD",
   "brand": "ODDSound",
   "author": "ODDSound",
-  "authorEmail": "https://oddsound.com",
+  "authorEmail": "info@oddsound.com",
   "authorUrl": "https://oddsound.com",
   "pluginUrl": "https://oddsound.com",
-  "manualUrl": "https://oddsound.com",
-  "sourceUrl": "https://oddsound.com",
+  "manualUrl": "https://github.com/ODDSound/MTS-ESP-VCVRack",
+  "sourceUrl": "https://github.com/ODDSound/MTS-ESP-VCVRack",
   "donateUrl": "https://oddsound.com",
   "changelogUrl": "",
   "modules": [
@@ -25,11 +25,29 @@
     },
     {
       "slug": "CV_MIDI_MTS_ESP",
-      "name": "MTS-ESP CV To MIDI ",
+      "name": "MTS-ESP CV To MIDI",
       "description": "Converts CV to MIDI and sends to an external device with MTS-ESP tuning support",
       "tags": [
         "External",
         "MIDI",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Quantizer_MTS_ESP",
+      "name": "MTS-ESP Quantizer",
+      "description": "Quantize pitch CV to the global MTS-ESP tuning table",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Interval",
+      "name": "Interval",
+      "description": "Transpose or bend pitch CV by any interval, defined either as an integer ratio or cents value.",
+      "tags": [
+        "Tuner",
         "Polyphonic"
       ]
     }
