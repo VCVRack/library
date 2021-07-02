@@ -589,3 +589,6 @@
 [submodule "repos/RPJ"]
 	path = repos/RPJ
 	url = https://github.com/kockie69/RPJ.git
+[submodule "repos/mmmodules"]
+	path = repos/mmmodules
+	url = https://github.com/Myst-Mach/mmmodules.git
