@@ -1,0 +1,26 @@
+{
+  "slug": "mmmodules",
+  "name": "mmmodules",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "mmmodules",
+  "author": "Myst Mach",
+  "authorEmail": "9mystmach6@gmail.com",
+  "authorUrl": "https://mystmach.bandcamp.com/",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "3mountains",
+      "name": "3mountains",
+      "description": "Triple oscillator (mixer section coming soon)",
+      "tags": [
+        "Oscillator",
+        "VCO",
+        "Voltage controlled oscillator"
+      ]
+    }
+  ]
+}
