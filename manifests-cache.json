@@ -9595,5 +9595,29 @@
         "creationTimestamp": 1625444088.8100786
       }
     }
+  },
+  "Madness": {
+    "buildTimestamp": 1625845404.828411,
+    "creationTimestamp": 1625845406.4521043,
+    "modules": {
+      "KOSC": {
+        "creationTimestamp": 1625845406.5103805
+      },
+      "KLFO": {
+        "creationTimestamp": 1625845406.5721679
+      },
+      "VCTRL": {
+        "creationTimestamp": 1625845406.6289372
+      },
+      "SLEW": {
+        "creationTimestamp": 1625845406.6928663
+      },
+      "ALPG": {
+        "creationTimestamp": 1625845406.757387
+      },
+      "MNMX": {
+        "creationTimestamp": 1625845406.821245
+      }
+    }
   }
 }

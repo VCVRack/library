@@ -1,0 +1,72 @@
+{
+  "slug": "Madness",
+  "name": "Madness",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "Magus Instrumentalis",
+  "author": "David Kant, Ryan Page, Mustafa Walker",
+  "authorEmail": "david@magusinstrumentalis.com",
+  "authorUrl": "",
+  "pluginUrl": "https://magusinstrumentalis.com/",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "KOSC",
+      "name": "Azathoth",
+      "description": "Chaotic oscillator (new)",
+      "tags": [
+        "Oscillator",
+        "Noise",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "KLFO",
+      "name": "Nyarlathotep",
+      "description": "Chaotic oscillator LFO (hbd Ryan!)",
+      "tags": [
+        "Oscillator",
+        "Low-frequency oscillator",
+        "Noise",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "VCTRL",
+      "name": "Hastur",
+      "description": "Vactrol emulation",
+      "tags": [
+        "Delay",
+        "Envelope follower",
+        "Voltage-controlled amplifier",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "SLEW",
+      "name": "Shoggoth",
+      "description": "Describe me please",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "ALPG",
+      "name": "Yog-Sothoth",
+      "description": "Low pass gate emulation",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "MNMX",
+      "name": "Eibon",
+      "description": "Saturating mixer",
+      "tags": [
+        "Mixer"
+      ]
+    }
+  ]
+}
