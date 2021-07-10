@@ -2641,7 +2641,7 @@
     }
   },
   "squinkylabs-plug1": {
-    "buildTimestamp": 1624969871.1072202,
+    "buildTimestamp": 1625921305.2303083,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {
@@ -3076,7 +3076,7 @@
     }
   },
   "Befaco": {
-    "buildTimestamp": 1582994264.0406651,
+    "buildTimestamp": 1625921372.2020144,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "EvenVCO": {
@@ -3099,6 +3099,18 @@
       },
       "DualAtenuverter": {
         "creationTimestamp": 1557176959.0
+      },
+      "Percall": {
+        "creationTimestamp": 1625921372.6278553
+      },
+      "HexmixVCA": {
+        "creationTimestamp": 1625921372.6927338
+      },
+      "ChoppingKinky": {
+        "creationTimestamp": 1625921372.7557182
+      },
+      "Kickall": {
+        "creationTimestamp": 1625921372.821748
       }
     }
   },

@@ -1347,5 +1347,33 @@
     "vcvUrl": "https://library.vcvrack.com/Instruo/saich",
     "mgUrl": "https://www.modulargrid.net/e/instruo-saich",
     "mgModuleId": 30414
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Percall",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Percall",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-percall",
+    "mgModuleId": 22071
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "HexmixVCA",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/HexmixVCA",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-hexmix-vca",
+    "mgModuleId": 12573
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "ChoppingKinky",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/ChoppingKinky",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-chopping-kinky",
+    "mgModuleId": 10734
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Kickall",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Kickall",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-kickall",
+    "mgModuleId": 20694
   }
 ]

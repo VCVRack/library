@@ -1,7 +1,7 @@
 {
   "slug": "Befaco",
-  "version": "1.0.1",
-  "license": "GPL-3.0-only",
+  "version": "1.1.0",
+  "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "author": "VCV",
   "authorEmail": "contact@vcvrack.com",
@@ -16,13 +16,15 @@
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-even-vco-",
       "tags": [
         "VCO",
-        "Hardware clone"
+        "Hardware clone",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Rampage",
       "name": "Rampage",
       "description": "Dual ramp generator",
+      "manualUrl": "https://befaco.org/docs/Rampage/Rampage_User_Manual.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-rampage",
       "tags": [
         "Function Generator",
@@ -30,19 +32,22 @@
         "Slew Limiter",
         "Envelope Follower",
         "Dual",
-        "Hardware clone"
+        "Hardware clone",
+        "Polyphonic"
       ]
     },
     {
       "slug": "ABC",
       "name": "A*B+C",
       "description": "Dual four-quadrant multiplier with VC offset",
+      "manualUrl": "https://befaco.org/docs/AB%2BC/AB%2BC_User_Manual.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-a-b-c",
       "tags": [
         "Ring Modulator",
         "Attenuator",
         "Dual",
-        "Hardware clone"
+        "Hardware clone",
+        "Polyphonic"
       ]
     },
     {
@@ -62,7 +67,8 @@
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-mixer-",
       "tags": [
         "Mixer",
-        "Hardware clone"
+        "Hardware clone",
+        "Polyphonic"
       ]
     },
     {
@@ -73,7 +79,8 @@
       "tags": [
         "Slew Limiter",
         "Envelope Follower",
-        "Hardware clone"
+        "Hardware clone",
+        "Polyphonic"
       ]
     },
     {
@@ -84,7 +91,55 @@
       "tags": [
         "Attenuator",
         "Dual",
+        "Hardware clone",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Percall",
+      "name": "Percall",
+      "description": "Percussive Envelope Generator",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-percall",
+      "tags": [
+        "Envelope generator",
+        "Mixer",
+        "Polyphonic",
         "Hardware clone"
+      ]
+    },
+    {
+      "slug": "HexmixVCA",
+      "name": "HexmixVCA",
+      "description": "Six channel VCA with response curve range from logarithmic to linear and to exponential",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-hexmix-vca",
+      "tags": [
+        "Mixer",
+        "Hardware clone",
+        "Polyphonic",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "ChoppingKinky",
+      "name": "ChoppingKinky",
+      "description": "Voltage controllable, dual channel wavefolder",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-chopping-kinky",
+      "tags": [
+        "Dual",
+        "Hardware clone",
+        "Voltage-controlled amplifier",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Kickall",
+      "name": "Kickall",
+      "description": "Bassdrum module, with pitch and volume envelopes",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-kickall",
+      "tags": [
+        "Drum",
+        "Hardware clone",
+        "Synth voice"
       ]
     }
   ]
