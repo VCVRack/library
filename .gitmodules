@@ -592,3 +592,6 @@
 [submodule "repos/mmmodules"]
 	path = repos/mmmodules
 	url = https://github.com/Myst-Mach/mmmodules.git
+[submodule "repos/SunsetSignals"]
+	path = repos/SunsetSignals
+	url = https://gitlab.com/jeremy_mitchell/sunsetsignals
