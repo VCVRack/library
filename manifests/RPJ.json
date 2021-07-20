@@ -1,7 +1,7 @@
 {
   "slug": "RPJ",
   "name": "RPJ",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "GPL-3.0-or-later",
   "brand": "RPJ",
   "author": "Robert Kock",
@@ -19,6 +19,70 @@
       "description": "Quadruple low frequency oscillator, inspired by XAOC Batumi",
       "tags": [
         "LFO"
+      ]
+    },
+    {
+      "slug": "Lavender",
+      "name": "Lavender",
+      "description": "Module with 2nd order LPF, HPF, BPF and BSF",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "Easter",
+      "name": "Easter",
+      "description": "Module with 2 resonators",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "DryLand",
+      "name": "DryLand",
+      "description": "Module with 1st order LPF and HPF",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "TheWeb",
+      "name": "TheWeb",
+      "description": "Module with 2nd order Butterworth LPF, HPF, BPF and BSF",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "Gazpacho",
+      "name": "Gazpacho",
+      "description": "Module with 2nd order Linkwitz-Riley LPF and HPF",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "Estonia",
+      "name": "Estonia",
+      "description": "Estonia is a 1st order High and Low shelving filter.",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "Brave",
+      "name": "Brave",
+      "description": "Brave is a 2nd Order Parametric EQ Filter: Non constant Q.",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "Essence",
+      "name": "Essence",
+      "description": "Essence is a 2nd Order Parametric EQ Filter with a constant Q.",
+      "tags": [
+        "VCF"
       ]
     }
   ]

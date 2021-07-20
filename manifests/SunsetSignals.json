@@ -1,0 +1,25 @@
+{
+  "slug": "SunsetSignals",
+  "name": "SunsetSignals",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "SunsetSignals",
+  "author": "Jeremy Mitchell",
+  "authorEmail": "jeremym9614@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://gitlab.com/jeremy_mitchell/sunsetsignals",
+  "manualUrl": "",
+  "sourceUrl": "https://gitlab.com/jeremy_mitchell/sunsetsignals",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "SignalBooster",
+      "name": "SignalBooster",
+      "description": "Reads a signal in and boosts it",
+      "tags": [
+        "Utility"
+      ]
+    }
+  ]
+}
