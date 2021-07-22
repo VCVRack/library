@@ -595,3 +595,6 @@
 [submodule "repos/SunsetSignals"]
 	path = repos/SunsetSignals
 	url = https://gitlab.com/jeremy_mitchell/sunsetsignals
+[submodule "repos/KRTPluginA"]
+	path = repos/KRTPluginA
+	url = https://github.com/jackokring/KRTPluginA.git
