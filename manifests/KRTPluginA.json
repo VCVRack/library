@@ -1,0 +1,48 @@
+{
+  "slug": "KRTPluginA",
+  "name": "KRTPluginA",
+  "version": "1.2.4",
+  "license": "MIT",
+  "brand": "KRT",
+  "author": "Jacko",
+  "authorEmail": "jackokring@gmail.com",
+  "authorUrl": "https://kring.co.uk",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/jackokring/KRTPluginA/blob/master/README.md",
+  "sourceUrl": "https://github.com/jackokring/KRTPluginA",
+  "donateUrl": "https://github.com/jackokring",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "A",
+      "name": "A",
+      "description": "Plate 18 dB filter. (Band pass phased ring mod.)",
+      "tags": [
+        "Effect",
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Mu",
+      "name": "\u03bc",
+      "description": "Time dependant caclulus on a summing juntion.",
+      "tags": [
+        "Effect",
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "T",
+      "name": "T",
+      "description": "A pitched time stretch and matched trigger sync delay.",
+      "tags": [
+        "Effect",
+        "Tuner",
+        "Delay",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
