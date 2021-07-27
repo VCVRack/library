@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.16",
+  "version": "1.17",
   "modules": [
     {
       "slug": "Basal",
@@ -193,6 +193,15 @@
         "Polyphonic"
       ],
       "description": "Dual Low Pass Gate/Filter"
+    },
+    {
+      "slug": "Nitrous",
+      "name": "Nitrous",
+      "tags": [
+        "VCF",
+        "Polyphonic"
+      ],
+      "description": "Acid Filter"
     },
     {
       "slug": "Punch",
