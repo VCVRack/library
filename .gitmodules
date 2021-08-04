@@ -598,3 +598,6 @@
 [submodule "repos/KRTPluginA"]
 	path = repos/KRTPluginA
 	url = https://github.com/jackokring/KRTPluginA.git
+[submodule "repos/cvly"]
+	path = repos/cvly
+	url = https://github.com/Lyqst/cvly-modules.git
