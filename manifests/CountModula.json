@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.14.0",
+  "version": "1.15.1",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -106,7 +106,7 @@
       "name": "Event Arranger",
       "description": "A VCV Rack implementation of the VC Clock and Event Arranger published in an article by John Blacet in the Jan/Feb edition of Synapse magazine",
       "tags": [
-        "Clock generator",
+        "Clock modulator",
         "Sequencer"
       ]
     },
@@ -1021,6 +1021,49 @@
       "description": "Sequentially rotate up to 8 inputs through up to 8 outputs",
       "tags": [
         "Switch"
+      ]
+    },
+    {
+      "slug": "OctetTriggerSequencer",
+      "name": "Octet Trigger Sequencer",
+      "description": "Binary octet based trigger sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "OctetTriggerSequencerCVExpander",
+      "name": "Octet Trigger Sequencer Channel Expander",
+      "description": "Adds a CV channel to the Octet Trigger Sequencer",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "BarGraph",
+      "name": "Bar Graph",
+      "description": "Linear Bar Graph Meter",
+      "tags": [
+        "Utility",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Oscilloscope",
+      "name": "Quad Trace Oscilloscope",
+      "description": "Quad trace oscilloscope.",
+      "tags": [
+        "Utility",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "SingleDFlipFlop",
+      "name": "D Flip Flop",
+      "description": "A logical D type flip flop with clock enable",
+      "tags": [
+        "Logic"
       ]
     }
   ]

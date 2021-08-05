@@ -1,18 +1,20 @@
 {
   "slug": "Befaco",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "author": "VCV",
   "authorEmail": "contact@vcvrack.com",
-  "pluginUrl": "https://vcvrack.com/Befaco.html",
+  "pluginUrl": "https://vcvrack.com/Befaco",
   "authorUrl": "https://vcvrack.com/",
   "sourceUrl": "https://github.com/VCVRack/Befaco",
+  "changelogUrl": "https://github.com/VCVRack/Befaco/blob/v1/CHANGELOG.md",
   "modules": [
     {
       "slug": "EvenVCO",
-      "name": "EvenVCO",
+      "name": "Even VCO",
       "description": "Oscillator including even-harmonic waveform",
+      "manualUrl": "https://www.befaco.org/even-vco/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-even-vco-",
       "tags": [
         "VCO",
@@ -24,7 +26,7 @@
       "slug": "Rampage",
       "name": "Rampage",
       "description": "Dual ramp generator",
-      "manualUrl": "https://befaco.org/docs/Rampage/Rampage_User_Manual.pdf",
+      "manualUrl": "https://www.befaco.org/rampage-2/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-rampage",
       "tags": [
         "Function Generator",
@@ -40,7 +42,7 @@
       "slug": "ABC",
       "name": "A*B+C",
       "description": "Dual four-quadrant multiplier with VC offset",
-      "manualUrl": "https://befaco.org/docs/AB%2BC/AB%2BC_User_Manual.pdf",
+      "manualUrl": "https://www.befaco.org/abc/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-a-b-c",
       "tags": [
         "Ring Modulator",
@@ -54,6 +56,7 @@
       "slug": "SpringReverb",
       "name": "Spring Reverb",
       "description": "Spring reverb tank driver",
+      "manualUrl": "https://www.befaco.org/spring-reverb/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-spring-reverb-",
       "tags": [
         "Reverb",
@@ -64,6 +67,7 @@
       "slug": "Mixer",
       "name": "Mixer",
       "description": "Four-channel mixer for audio or CV",
+      "manualUrl": "https://www.befaco.org/mixer-2/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-mixer-",
       "tags": [
         "Mixer",
@@ -75,6 +79,7 @@
       "slug": "SlewLimiter",
       "name": "Slew Limiter",
       "description": "Voltage controlled slew limiter, AKA lag processor",
+      "manualUrl": "https://www.befaco.org/slew-limiter/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-vc-slew-limiter-",
       "tags": [
         "Slew Limiter",
@@ -87,6 +92,7 @@
       "slug": "DualAtenuverter",
       "name": "Dual Atenuverter",
       "description": "Attenuates, inverts, and applies offset to a signal",
+      "manualUrl": "https://www.befaco.org/dual-atenuverter/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-dual-atenuverter-",
       "tags": [
         "Attenuator",
@@ -99,6 +105,7 @@
       "slug": "Percall",
       "name": "Percall",
       "description": "Percussive Envelope Generator",
+      "manualUrl": "http://www.befaco.org/percall/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-percall",
       "tags": [
         "Envelope generator",
@@ -109,8 +116,9 @@
     },
     {
       "slug": "HexmixVCA",
-      "name": "HexmixVCA",
+      "name": "Hex Mix VCA",
       "description": "Six channel VCA with response curve range from logarithmic to linear and to exponential",
+      "manualUrl": "https://www.befaco.org/hexmix-vca/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-hexmix-vca",
       "tags": [
         "Mixer",
@@ -121,8 +129,9 @@
     },
     {
       "slug": "ChoppingKinky",
-      "name": "ChoppingKinky",
+      "name": "Chopping Kinky",
       "description": "Voltage controllable, dual channel wavefolder",
+      "manualUrl": "https://www.befaco.org/chopping-kinky/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-chopping-kinky",
       "tags": [
         "Dual",
@@ -135,6 +144,7 @@
       "slug": "Kickall",
       "name": "Kickall",
       "description": "Bassdrum module, with pitch and volume envelopes",
+      "manualUrl": "https://www.befaco.org/kickall-2/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-kickall",
       "tags": [
         "Drum",

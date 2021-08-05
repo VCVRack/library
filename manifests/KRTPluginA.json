@@ -1,17 +1,17 @@
 {
   "slug": "KRTPluginA",
   "name": "KRTPluginA",
-  "version": "1.2.4",
+  "version": "1.9.15",
   "license": "MIT",
   "brand": "KRT",
   "author": "Jacko",
   "authorEmail": "jackokring@gmail.com",
   "authorUrl": "https://kring.co.uk",
-  "pluginUrl": "",
+  "pluginUrl": "https://jackokring.github.io/KRTPluginADemo/",
   "manualUrl": "https://github.com/jackokring/KRTPluginA/blob/master/README.md",
   "sourceUrl": "https://github.com/jackokring/KRTPluginA",
   "donateUrl": "https://github.com/jackokring",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/jackokring/KRTPluginA/blob/master/README.md",
   "modules": [
     {
       "slug": "A",
@@ -26,7 +26,7 @@
     {
       "slug": "Mu",
       "name": "\u03bc",
-      "description": "Time dependant caclulus on a summing juntion.",
+      "description": "Time dependant caclulus on a summing juntion. (Precise Distortion)",
       "tags": [
         "Effect",
         "Waveshaper",
@@ -36,11 +36,75 @@
     {
       "slug": "T",
       "name": "T",
-      "description": "A pitched time stretch and matched trigger sync delay.",
+      "description": "Pitched time stretch and matched trigger sync delay.",
       "tags": [
         "Effect",
         "Tuner",
         "Delay",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "L",
+      "name": "L",
+      "description": "Synchronized delay with shortening.",
+      "tags": [
+        "Utility",
+        "Clock modulator",
+        "Delay",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "D",
+      "name": ";D",
+      "description": "VCA/future estimator with error.",
+      "tags": [
+        "Utility",
+        "Attenuator",
+        "Voltage-controlled amplifier",
+        "Dynamics",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "R",
+      "name": "R",
+      "description": "Simple mixer split.",
+      "tags": [
+        "Attenuator",
+        "Mixer",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Om",
+      "name": "\u03a9",
+      "description": "Clock distribution randomizer.",
+      "tags": [
+        "Clock modulator",
+        "Polyphonic",
+        "Random",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "V",
+      "name": "V",
+      "description": "Envelope VCA and CV producer.",
+      "tags": [
+        "Envelope generator",
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "F",
+      "name": "F",
+      "description": "24 dB morph filter.",
+      "tags": [
+        "Filter",
         "Polyphonic"
       ]
     }

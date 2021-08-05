@@ -1,7 +1,7 @@
 {
   "slug": "RPJ",
   "name": "RPJ",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "GPL-3.0-or-later",
   "brand": "RPJ",
   "author": "Robert Kock",
@@ -83,6 +83,54 @@
       "description": "Essence is a 2nd Order Parametric EQ Filter with a constant Q.",
       "tags": [
         "VCF"
+      ]
+    },
+    {
+      "slug": "LadyNina",
+      "name": "LadyNina",
+      "description": "LadyNina is a 2nd order SFV (LPF, HPF, BPF, BSF)",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "SugarMice",
+      "name": "SugarMice",
+      "description": "3rd order Butterworth low-pass ladder filter.",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "Montreal",
+      "name": "Montreal",
+      "description": "Ideal 2nd Order RLC Filters LPF, HPF, BPF and BSF",
+      "tags": [
+        "VCF"
+      ]
+    },
+    {
+      "slug": "BlindCurve",
+      "name": "BlindCurve",
+      "description": "Audio Detector",
+      "tags": [
+        "Envelope Follower"
+      ]
+    },
+    {
+      "slug": "Gaza",
+      "name": "Gaza",
+      "description": "Envelope Follower",
+      "tags": [
+        "Envelope Follower"
+      ]
+    },
+    {
+      "slug": "CircularRide",
+      "name": "CircularRide",
+      "description": "Stereo Delay",
+      "tags": [
+        "Delay"
       ]
     }
   ]

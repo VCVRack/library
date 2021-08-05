@@ -1,0 +1,44 @@
+{
+  "slug": "cvly",
+  "name": "cvly",
+  "version": "1.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "cvly",
+  "author": "Benja Appel",
+  "authorEmail": "beno.appel@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/Lyqst/cvly-modules/wiki",
+  "sourceUrl": "https://github.com/Lyqst/cvly-modules",
+  "donateUrl": "https://www.buymeacoffee.com/cvly",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ntrvlc",
+      "name": "ntrvlc",
+      "description": "4x8 sequencer with incorporated quantizer",
+      "tags": [
+        "quantizer",
+        "poly",
+        "sequencer"
+      ]
+    },
+    {
+      "slug": "ntrvlx",
+      "name": "ntrvlx",
+      "description": "ntrvlc expander with output triggers and stacking configuration",
+      "tags": [
+        "expander"
+      ]
+    },
+    {
+      "slug": "stpr",
+      "name": "stpr",
+      "description": "Sequencer with switches for each step",
+      "tags": [
+        "sequencer",
+        "switch"
+      ]
+    }
+  ]
+}
