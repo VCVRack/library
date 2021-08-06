@@ -6,7 +6,7 @@
   "authorEmail": "support@prok.co.uk",
   "authorUrl": "https://prok.co.uk/",
   "manualUrl": "https://prok.co.uk/pages/vcv_modules",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "modules": [
     {
       "slug": "ProkBD",
@@ -145,8 +145,8 @@
     },
     {
       "slug": "QuadSelectorExpander",
-      "name": "Quad Selector Expander",
-      "description": "Expander for Drum Modules. Allows quad selection via knob or CV",
+      "name": "Drum Expander",
+      "description": "Expander for Drum Modules. Allows transpose, decay time and quad control via knob or CV",
       "tags": [
         "Expander"
       ]
