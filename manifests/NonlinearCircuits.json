@@ -1,7 +1,7 @@
 {
   "slug": "NonlinearCircuits",
   "name": "Nonlinear Circuits",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "license": "GPL-3.0-only",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -13,7 +13,19 @@
     {
       "slug": "4Seq",
       "name": "4Seq",
-      "description": "Dual sequencer and clock divider. Panel by J\u00fcrgen Krehan.",
+      "description": "Dual sequencer and clock divider. Panel by jk.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
+      "tags": [
+        "Sequencer",
+        "Hardware Clone",
+        "Clock Modulator"
+      ]
+    },
+    {
+      "slug": "8BitCipher",
+      "name": "8-Bit Cipher",
+      "description": "Dual sequencer and clock divider. Panel by jk.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
       "tags": [
         "Sequencer",
         "Hardware Clone",
@@ -24,6 +36,7 @@
       "slug": "BOOLs",
       "name": "BOOLs",
       "description": "Four binary logic jumblers. Panel by Papernoise.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits#bools",
       "tags": [
         "Logic",
         "Hardware Clone",
@@ -31,9 +44,20 @@
       ]
     },
     {
+      "slug": "DivineCMOS",
+      "name": "Divine CMOS",
+      "description": "Waveform and clock divider with multiple divison outputs, slew, and a mixer.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
+      "tags": [
+        "Logic",
+        "Hardware Clone"
+      ]
+    },
+    {
       "slug": "DoubleNeuron",
       "name": "Double Neuron",
       "description": "Two Neurons and Two Difference Rectifiers. Panel by Papernoise.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits#double-neuron",
       "tags": [
         "Mixer",
         "Noise",
@@ -46,7 +70,8 @@
     {
       "slug": "GENiE",
       "name": "GENiE",
-      "description": "Three Neurons tangled together in a feedback network of chaos. Panel by J\u00fcrgen Krehan.",
+      "description": "Three Neurons tangled together in a feedback network of chaos. Panel by jk.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
       "tags": [
         "Mixer",
         "Noise",
@@ -59,6 +84,7 @@
       "slug": "LetsSplosh",
       "name": "Let's Splosh",
       "description": "Four inputs run into lots of Difference Rectifiers for many output variations. Panel by Papernoise.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits#lets-splosh",
       "tags": [
         "Mixer",
         "Noise",
@@ -71,7 +97,8 @@
     {
       "slug": "Neuron",
       "name": "Neuron",
-      "description": "3-input comparator and Difference Rectifier for creating unpredictable interactions. Panel by J\u00fcrgen Krehan.",
+      "description": "3-input comparator and Difference Rectifier for creating unpredictable interactions. Panel by jk.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
       "tags": [
         "Mixer",
         "Noise",
@@ -84,9 +111,19 @@
     {
       "slug": "Numberwang",
       "name": "Numberwang",
-      "description": "Four gates make sixteen. That's Numberwang! Panel by J\u00fcrgen Krehan.",
+      "description": "Four gates make sixteen. That's Numberwang! Panel by jk.",
       "tags": [
         "Logic",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "Segue",
+      "name": "Segue",
+      "description": "Stereo channel-flipping panner, crossfader, or VCA",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
+      "tags": [
+        "Mixer",
         "Hardware Clone"
       ]
     },
@@ -94,6 +131,7 @@
       "slug": "SquidAxon",
       "name": "Squid Axon",
       "description": "Mixer, Shift Register, and Feedback. Panel by Jason Wehmhoener.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits#squid-axon",
       "tags": [
         "Mixer",
         "Random",
@@ -103,7 +141,7 @@
     {
       "slug": "Statues",
       "name": "Statues",
-      "description": "1->8 Signal switch using binary inputs. Panel by J\u00fcrgen Krehan.",
+      "description": "1->8 Signal switch using binary inputs. Panel by jk.",
       "tags": [
         "Logic",
         "Hardware Clone"

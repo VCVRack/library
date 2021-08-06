@@ -5414,7 +5414,7 @@
     "modules": {}
   },
   "NonlinearCircuits": {
-    "buildTimestamp": 1602203510.6250815,
+    "buildTimestamp": 1628277925.455543,
     "creationTimestamp": 1582350675.0,
     "modules": {
       "BOOLs": {
@@ -5443,6 +5443,15 @@
       },
       "Statues": {
         "creationTimestamp": 1602203515.6616702
+      },
+      "8BitCipher": {
+        "creationTimestamp": 1628277925.7681677
+      },
+      "DivineCMOS": {
+        "creationTimestamp": 1628277925.900492
+      },
+      "Segue": {
+        "creationTimestamp": 1628277926.0059588
       }
     }
   },
