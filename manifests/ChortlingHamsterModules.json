@@ -1,8 +1,8 @@
 {
   "slug": "ChortlingHamsterModules",
   "name": "Chortling Hamster Modules",
-  "version": "1.1.2",
-  "license": "BSD-3-Clause-Clear",
+  "version": "1.1.2.1",
+  "license": "GPL-3.0-only",
   "brand": "Chortling Hamster Modules",
   "author": "Alan Holding",
   "authorEmail": "alanholding@me.com",
@@ -10,7 +10,7 @@
   "pluginUrl": "https://github.com/chortlinghamster/modules",
   "manualUrl": "https://github.com/chortlinghamster/modules/blob/master/README.md",
   "sourceUrl": "https://github.com/chortlinghamster/modules",
-  "donateUrl": "",
+  "changelogUrl": "https://github.com/chortlinghamster/modules/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "Pop",
