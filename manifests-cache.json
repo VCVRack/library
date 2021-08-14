@@ -8673,7 +8673,7 @@
     }
   },
   "KautenjaDSP-PotatoChips": {
-    "buildTimestamp": 1606489115.6573446,
+    "buildTimestamp": 1628937444.574855,
     "creationTimestamp": 1594395479.9564288,
     "modules": {
       "2A03": {
@@ -8750,6 +8750,12 @@
       },
       "SuperSynth": {
         "creationTimestamp": 1606489445.6544745
+      },
+      "Blocks": {
+        "creationTimestamp": 1628937471.2203133
+      },
+      "MiniBoss": {
+        "creationTimestamp": 1628937471.353227
       }
     }
   },
@@ -9717,7 +9723,7 @@
     }
   },
   "KRTPluginA": {
-    "buildTimestamp": 1628184337.3491616,
+    "buildTimestamp": 1628937293.0307906,
     "creationTimestamp": 1627193159.9948137,
     "modules": {
       "A": {
@@ -9746,6 +9752,15 @@
       },
       "F": {
         "creationTimestamp": 1628185144.523317
+      },
+      "W": {
+        "creationTimestamp": 1628937471.4299579
+      },
+      "Y": {
+        "creationTimestamp": 1628937471.5031147
+      },
+      "O": {
+        "creationTimestamp": 1628937471.5761921
       }
     }
   },
@@ -9762,7 +9777,7 @@
     }
   },
   "cvly": {
-    "buildTimestamp": 1628184420.2659097,
+    "buildTimestamp": 1628937470.9622223,
     "creationTimestamp": 1628185145.562309,
     "modules": {
       "ntrvlc": {
@@ -9773,6 +9788,9 @@
       },
       "stpr": {
         "creationTimestamp": 1628185145.7980788
+      },
+      "crcl": {
+        "creationTimestamp": 1628937471.715758
       }
     }
   }

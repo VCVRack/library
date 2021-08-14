@@ -1,7 +1,7 @@
 {
   "slug": "cvly",
   "name": "cvly",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "GPL-3.0-or-later",
   "brand": "cvly",
   "author": "Benja Appel",
@@ -11,8 +11,19 @@
   "manualUrl": "https://github.com/Lyqst/cvly-modules/wiki",
   "sourceUrl": "https://github.com/Lyqst/cvly-modules",
   "donateUrl": "https://www.buymeacoffee.com/cvly",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/Lyqst/cvly-modules/releases",
   "modules": [
+    {
+      "slug": "crcl",
+      "name": "crcl",
+      "description": "Quantizer/sequencer based on the circle of fifths",
+      "tags": [
+        "quantizer",
+        "poly",
+        "sample and hold",
+        "sequencer"
+      ]
+    },
     {
       "slug": "ntrvlc",
       "name": "ntrvlc",

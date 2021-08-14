@@ -1,7 +1,7 @@
 {
   "slug": "KRTPluginA",
   "name": "KRTPluginA",
-  "version": "1.9.15",
+  "version": "1.12.18",
   "license": "MIT",
   "brand": "KRT",
   "author": "Jacko",
@@ -26,7 +26,7 @@
     {
       "slug": "Mu",
       "name": "\u03bc",
-      "description": "Time dependant caclulus on a summing juntion. (Precise Distortion)",
+      "description": "Time dependant caclulus on a summing junction. (Precise Distortion)",
       "tags": [
         "Effect",
         "Waveshaper",
@@ -106,6 +106,35 @@
       "tags": [
         "Filter",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "W",
+      "name": "W",
+      "description": "Gate transposer.",
+      "tags": [
+        "Attenuator",
+        "Mixer",
+        "Tuner",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Y",
+      "name": "Y",
+      "description": "Triple sequencer.",
+      "tags": [
+        "Clock generator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "O",
+      "name": "O",
+      "description": "Triple parabolic skew feedback oscillator.",
+      "tags": [
+        "Polyphonic",
+        "Oscillator"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "slug": "KautenjaDSP-PotatoChips",
-  "version": "1.9.0",
+  "version": "1.11.0",
   "license": "GPL-3.0-or-later",
   "name": "KautenjaDSP Potato Chips",
   "brand": "KautenjaDSP",
@@ -9,8 +9,31 @@
   "authorUrl": "https://kautenja.github.io/",
   "sourceUrl": "https://github.com/Kautenja/PotatoChips",
   "changelogUrl": "https://github.com/Kautenja/PotatoChips/blob/master/CHANGELOG.md",
-  "donateUrl": "https://maps.org/donate",
   "modules": [
+    {
+      "slug": "Blocks",
+      "name": "Blocks",
+      "description": "Inspired by Mutable Instruments Edges.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/Blocks.pdf",
+      "tags": [
+        "Noise",
+        "Oscillator",
+        "Polyphonic",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "MiniBoss",
+      "name": "Mini Boss",
+      "description": "An emulation of the Yamaha YM2612 FM synthesis chip from the Sega Mega Drive and Sega Genesis.",
+      "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/MiniBoss.pdf",
+      "tags": [
+        "Noise",
+        "Oscillator",
+        "Polyphonic",
+        "Synth voice"
+      ]
+    },
     {
       "slug": "106",
       "name": "Name Corp Octal Wave Generator",
@@ -120,21 +143,17 @@
         "Dual",
         "Effect",
         "Filter",
-        "Panning",
         "Polyphonic",
         "Reverb"
       ]
     },
     {
       "slug": "SuperVCA",
-      "name": "Super Low-Pass Gate",
+      "name": "Super VCA",
       "description": "An emulation of the Gaussian interpolation filter effect from the S-SMP chip on the Super Nintendo Entertainment System (SNES).",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/SuperVCA.pdf",
       "tags": [
         "Dual",
-        "Filter",
-        "Low-pass gate",
-        "Panning",
         "Polyphonic",
         "Voltage-controlled amplifier"
       ]
@@ -189,7 +208,7 @@
     },
     {
       "slug": "VRC6",
-      "name": "StepSaw",
+      "name": "Step Saw",
       "description": "An emulation of the Konami VRC6 chip from Nintendo Entertainment System (NES) cartridges.",
       "manualUrl": "https://github.com/Kautenja/PotatoChips/releases/latest/download/StepSaw.pdf",
       "tags": [
