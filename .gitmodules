@@ -601,3 +601,6 @@
 [submodule "repos/cvly"]
 	path = repos/cvly
 	url = https://github.com/Lyqst/cvly-modules.git
+[submodule "repos/Mojo"]
+	path = repos/Mojo
+	url = https://github.com/tomdasilva/Mojo
