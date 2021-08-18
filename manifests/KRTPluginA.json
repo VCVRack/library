@@ -1,7 +1,7 @@
 {
   "slug": "KRTPluginA",
   "name": "KRTPluginA",
-  "version": "1.12.18",
+  "version": "1.15.20",
   "license": "MIT",
   "brand": "KRT",
   "author": "Jacko",
@@ -16,7 +16,7 @@
     {
       "slug": "A",
       "name": "A",
-      "description": "Plate 18 dB filter. (Band pass phased ring mod.)",
+      "description": "Plate 18 dB filter. (Band pass phased ring mod).",
       "tags": [
         "Effect",
         "Filter",
@@ -135,6 +135,35 @@
       "tags": [
         "Polyphonic",
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "S",
+      "name": "S",
+      "description": "Clock to CV generator. (Needs MIDI clk, cont, stop, start).",
+      "tags": [
+        "MIDI",
+        "Clock modulator",
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "E",
+      "name": "E",
+      "description": "Simple AR envelope with VCA.",
+      "tags": [
+        "Envelope generator",
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "X",
+      "name": "X",
+      "description": "Oversampled wave-folder.",
+      "tags": [
+        "Waveshaper",
+        "Polyphonic"
       ]
     }
   ]

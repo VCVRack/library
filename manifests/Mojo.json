@@ -1,0 +1,44 @@
+{
+  "slug": "Mojo",
+  "name": "Mojo",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Mojo Modules",
+  "author": "Tom DA SILVA FARIA",
+  "authorEmail": "tomdasilvafaria@outlook.fr",
+  "authorUrl": "https://www.instagram.com/vcv_modules/",
+  "pluginUrl": "https://github.com/tomdasilva",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/tomdasilva",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "dogs",
+      "name": "Dogs",
+      "description": "A doggy drive effect",
+      "tags": [
+        "Effect",
+        "Distortion",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "pigs",
+      "name": "Pigs",
+      "description": "A porky bass sounds generator",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "sheep",
+      "name": "Sheep",
+      "description": "A sheepy random voltage generator",
+      "tags": [
+        "Random",
+        "Noise"
+      ]
+    }
+  ]
+}

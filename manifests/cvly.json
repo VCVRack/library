@@ -1,18 +1,29 @@
 {
   "slug": "cvly",
   "name": "cvly",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "GPL-3.0-or-later",
   "brand": "cvly",
   "author": "Benja Appel",
   "authorEmail": "beno.appel@gmail.com",
   "authorUrl": "",
   "pluginUrl": "",
-  "manualUrl": "https://github.com/Lyqst/cvly-modules/wiki",
+  "manualUrl": "https://github.com/Lyqst/cvly-modules#modules",
   "sourceUrl": "https://github.com/Lyqst/cvly-modules",
   "donateUrl": "https://www.buymeacoffee.com/cvly",
   "changelogUrl": "https://github.com/Lyqst/cvly-modules/releases",
   "modules": [
+    {
+      "slug": "bss",
+      "name": "bss",
+      "description": "Generates a bass note for the incoming poly input, using one of three modes",
+      "tags": [
+        "poly",
+        "quantizer",
+        "sample and hold",
+        "utility"
+      ]
+    },
     {
       "slug": "crcl",
       "name": "crcl",
@@ -40,6 +51,16 @@
       "description": "ntrvlc expander with output triggers and stacking configuration",
       "tags": [
         "expander"
+      ]
+    },
+    {
+      "slug": "spc",
+      "name": "spc",
+      "description": "Spreads the notes for incoming poly input, with a settable minimum interval distance",
+      "tags": [
+        "quantizer",
+        "poly",
+        "utility"
       ]
     },
     {
