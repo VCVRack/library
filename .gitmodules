@@ -604,3 +604,6 @@
 [submodule "repos/Mojo"]
 	path = repos/Mojo
 	url = https://github.com/tomdasilva/Mojo
+[submodule "repos/OSCelot"]
+	path = repos/OSCelot
+	url = https://github.com/The-Modular-Mind/oscelot.git
