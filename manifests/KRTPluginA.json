@@ -1,7 +1,7 @@
 {
   "slug": "KRTPluginA",
   "name": "KRTPluginA",
-  "version": "1.15.20",
+  "version": "1.18.20",
   "license": "MIT",
   "brand": "KRT",
   "author": "Jacko",
@@ -163,6 +163,38 @@
       "description": "Oversampled wave-folder.",
       "tags": [
         "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "M",
+      "name": "M",
+      "description": "Emphisis and de-emphisis filter. (Default RIAA and inverse).",
+      "tags": [
+        "Polyphonic",
+        "Filter",
+        "Effect",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Q",
+      "name": "Q",
+      "description": "Quantum gravimitator. Imitates a coupled gravity quantum idea.",
+      "tags": [
+        "Polyphonic",
+        "Effect",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "C",
+      "name": "C",
+      "description": "A set of three attenuverters with mixing.",
+      "tags": [
+        "Attenuator",
+        "Mixer",
+        "Utility",
         "Polyphonic"
       ]
     }

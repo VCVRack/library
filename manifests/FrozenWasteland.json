@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "1.20.4",
+  "version": "1.21.0",
   "author": "almostEric",
   "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -17,7 +17,7 @@
       "name": "BPM LFO",
       "description": "Beat Synchronized LFO",
       "tags": [
-        "LFO"
+        "Low-frequency oscillator"
       ]
     },
     {
@@ -25,7 +25,7 @@
       "name": "BPM LFO 2",
       "description": "Beat Synchronized LFO with CV Waveshape",
       "tags": [
-        "LFO"
+        "Low-frequency oscillator"
       ]
     },
     {
@@ -41,7 +41,7 @@
       "name": "CDC Seriously Slow LFO",
       "description": "Slow LFO taken to absurdity",
       "tags": [
-        "LFO"
+        "Low-frequency oscillator"
       ]
     },
     {
@@ -49,7 +49,7 @@
       "name": "Damian Lillard",
       "description": "4-channel CV crossover/mixer",
       "tags": [
-        "VCA"
+        "Voltage-controlled amplifier"
       ]
     },
     {
@@ -78,7 +78,7 @@
       "name": "Everlasting Glottal Stopper",
       "description": "Vocal Tract simulating VCO",
       "tags": [
-        "VCO"
+        "Oscillator"
       ]
     },
     {
@@ -94,7 +94,7 @@
       "name": "Hair Pick",
       "description": "64 Tap Rhythmic Comb Filter",
       "tags": [
-        "VCF"
+        "Filter"
       ]
     },
     {
@@ -110,7 +110,7 @@
       "name": "Lissajous LFO",
       "description": "LFO based on interactions of 4 sine waves",
       "tags": [
-        "LFO"
+        "Low-frequency oscillator"
       ]
     },
     {
@@ -172,7 +172,7 @@
       "name": "Phased Locked Loop",
       "description": "PLL attempts to follow input signals freqency",
       "tags": [
-        "VCO"
+        "Oscillator"
       ]
     },
     {
@@ -182,7 +182,7 @@
       "tags": [
         "Delay",
         "Granular",
-        "VCF"
+        "Filter"
       ]
     },
     {
@@ -335,7 +335,7 @@
       "name": "Roulette LFO",
       "description": "LFO Based on based on rolling curves",
       "tags": [
-        "LFO"
+        "Low-frequency oscillator"
       ]
     },
     {
@@ -365,11 +365,19 @@
       ]
     },
     {
+      "slug": "SliceOfLife",
+      "name": "Slice Of Life",
+      "description": "Wave Slicing VCO",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
       "slug": "StringTheory",
       "name": "String Theory",
       "description": "Karpus-Strong String Synthesis",
       "tags": [
-        "VCO"
+        "Oscillator"
       ]
     },
     {
@@ -385,7 +393,7 @@
       "name": "Seriously Slow LFO",
       "description": "LFO for modulating CV over *very* long time periods",
       "tags": [
-        "LFO"
+        "Low-frequency oscillator"
       ]
     },
     {
@@ -393,7 +401,7 @@
       "name": "Vox Inhumana",
       "description": "Formant/Vowel Filter",
       "tags": [
-        "VCF"
+        "Filter"
       ]
     },
     {

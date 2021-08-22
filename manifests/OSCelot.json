@@ -1,0 +1,26 @@
+{
+  "slug": "OSCelot",
+  "version": "1.0.1",
+  "license": "GPL-3.0-only",
+  "author": "TheModularMind",
+  "name": "OSCelot",
+  "brand": "TheModularMind",
+  "authorEmail": "",
+  "pluginUrl": "https://github.com/The-Modular-Mind/oscelot",
+  "authorUrl": "https://github.com/The-Modular-Mind",
+  "sourceUrl": "https://github.com/The-Modular-Mind/oscelot.git",
+  "manualUrl": "https://github.com/The-Modular-Mind/oscelot/blob/v1/README.md",
+  "changelogUrl": "https://github.com/The-Modular-Mind/oscelot/blob/v1/CHANGELOG.md",
+  "donateUrl": "https://paypal.me/themodularmind",
+  "modules": [
+    {
+      "slug": "OSCelot",
+      "name": "OSCelot",
+      "description": "OSC mapping module for parameters of any module",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/The-Modular-Mind/oscelot/blob/v1/docs/Oscelot.md"
+    }
+  ]
+}
