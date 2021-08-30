@@ -1,0 +1,27 @@
+{
+  "slug": "OmniMango-July-Chorus",
+  "name": "OmniMango Juno Chorus Clone",
+  "version": "1.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "OmniMango",
+  "author": "Garnet Grimm",
+  "authorEmail": "garnetgrimm720@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/garnetgrimm/Omnimango-Manuals/blob/master/July-60.md",
+  "sourceUrl": "",
+  "donateUrl": "https://paypal.me/Omnimango?locale.x=en_US",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "OmniMango-July-Chorus",
+      "name": "July-60",
+      "description": "Juno Chorus Clone",
+      "tags": [
+        "Hardware clone",
+        "Effect",
+        "Chorus"
+      ]
+    }
+  ]
+}
