@@ -1,7 +1,7 @@
 {
   "slug": "FehlerFabrik-Suite",
   "name": "Fehler Fabrik",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "GPL-3.0-or-later",
   "brand": "Fehler Fabrik",
   "author": "Ross Cameron",
@@ -10,7 +10,7 @@
   "pluginUrl": "https://github.com/RCameron93/FehlerFabrik/blob/master/README.md",
   "manualUrl": "",
   "sourceUrl": "https://github.com/RCameron93/FehlerFabrik",
-  "donateUrl": "paypal.me/rossdc93",
+  "donateUrl": "https://paypal.me/rossdc93",
   "changelogUrl": "",
   "modules": [
     {
@@ -26,7 +26,7 @@
     {
       "slug": "Planck",
       "name": "Planck",
-      "description": "Bit depth and sample rate crusher",
+      "description": "Bit Depth and Sample Rate Crusher",
       "tags": [
         "Effect",
         "Polyphonic"
@@ -35,7 +35,7 @@
     {
       "slug": "Luigi",
       "name": "Luigi",
-      "description": "Random clock and noise/dust generator",
+      "description": "Random Clock and Noise/Dust Generator",
       "tags": [
         "noise",
         "random"
@@ -44,7 +44,7 @@
     {
       "slug": "Aspect",
       "name": "Aspect",
-      "description": "Clock Dividers and sequential sequencer",
+      "description": "Clock Dividers and Sequential Sequencer",
       "tags": [
         "Clock modulator"
       ]
@@ -68,7 +68,7 @@
     {
       "slug": "Sigma",
       "name": "Sigma",
-      "description": "Fixed voltage adder",
+      "description": "Fixed Voltage Adder",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -77,7 +77,7 @@
     {
       "slug": "Fax",
       "name": "Fax",
-      "description": "CV recording sequencer",
+      "description": "CV Recording Sequencer",
       "tags": [
         "Sequencer",
         "Recording",
@@ -103,6 +103,16 @@
         "Equalizer",
         "Filter",
         "Poly"
+      ]
+    },
+    {
+      "slug": "Nova",
+      "name": "Nova",
+      "description": "Cut-up Sequenced Sampler",
+      "tags": [
+        "Sampler",
+        "Sequencer",
+        "Random"
       ]
     }
   ]

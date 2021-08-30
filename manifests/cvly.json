@@ -1,7 +1,7 @@
 {
   "slug": "cvly",
   "name": "cvly",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "GPL-3.0-or-later",
   "brand": "cvly",
   "author": "Benja Appel",
@@ -70,6 +70,23 @@
       "tags": [
         "sequencer",
         "switch"
+      ]
+    },
+    {
+      "slug": "txt",
+      "name": "txt",
+      "description": "Informative expander for all cvly modules",
+      "tags": [
+        "expander",
+        "utility"
+      ]
+    },
+    {
+      "slug": "whl",
+      "name": "whl",
+      "description": "3hp blank panel with cvly whale logo",
+      "tags": [
+        "blank"
       ]
     }
   ]

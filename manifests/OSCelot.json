@@ -1,6 +1,6 @@
 {
   "slug": "OSCelot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "GPL-3.0-only",
   "author": "TheModularMind",
   "name": "OSCelot",
@@ -9,8 +9,8 @@
   "pluginUrl": "https://github.com/The-Modular-Mind/oscelot",
   "authorUrl": "https://github.com/The-Modular-Mind",
   "sourceUrl": "https://github.com/The-Modular-Mind/oscelot.git",
-  "manualUrl": "https://github.com/The-Modular-Mind/oscelot/blob/v1/README.md",
-  "changelogUrl": "https://github.com/The-Modular-Mind/oscelot/blob/v1/CHANGELOG.md",
+  "manualUrl": "https://github.com/The-Modular-Mind/oscelot/blob/master/docs/Oscelot.md",
+  "changelogUrl": "https://github.com/The-Modular-Mind/oscelot/blob/master/CHANGELOG.md",
   "donateUrl": "https://paypal.me/themodularmind",
   "modules": [
     {
@@ -20,7 +20,16 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/The-Modular-Mind/oscelot/blob/v1/docs/Oscelot.md"
+      "manualUrl": "https://github.com/The-Modular-Mind/oscelot/blob/master/docs/Oscelot.md"
+    },
+    {
+      "slug": "OSCelotExpander",
+      "name": "OSCelotExpander",
+      "description": "Expander for OSC'elot outputting a trigger and CV for each controller",
+      "tags": [
+        "Expander"
+      ],
+      "manualUrl": "https://github.com/The-Modular-Mind/oscelot/blob/master/docs/Oscelot.md#expander"
     }
   ]
 }
