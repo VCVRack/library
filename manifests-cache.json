@@ -9895,5 +9895,41 @@
         "creationTimestamp": 1630323275.128001
       }
     }
+  },
+  "VCV-Drums": {
+    "buildTimestamp": 1631372573.144147,
+    "creationTimestamp": 1631372574.4663014,
+    "modules": {
+      "DrumMachine": {
+        "creationTimestamp": 1631372574.5925946
+      },
+      "Kick": {
+        "creationTimestamp": 1631372574.7238412
+      },
+      "Snare": {
+        "creationTimestamp": 1631372574.8031287
+      },
+      "Tom": {
+        "creationTimestamp": 1631372574.87808
+      },
+      "Rim": {
+        "creationTimestamp": 1631372574.960535
+      },
+      "Clap": {
+        "creationTimestamp": 1631372575.0453253
+      },
+      "ClosedHat": {
+        "creationTimestamp": 1631372575.138895
+      },
+      "OpenHat": {
+        "creationTimestamp": 1631372575.2170258
+      },
+      "Crash": {
+        "creationTimestamp": 1631372575.3044121
+      },
+      "Ride": {
+        "creationTimestamp": 1631372575.38674
+      }
+    }
   }
 }

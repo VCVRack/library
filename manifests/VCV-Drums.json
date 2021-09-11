@@ -1,0 +1,98 @@
+{
+  "slug": "VCV-Drums",
+  "version": "1.0.0",
+  "license": "https://vcvrack.com/eula",
+  "name": "Drums",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "contact@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/Drums",
+  "manualUrl": "https://vcvrack.com/Drums#manual",
+  "changelogUrl": "https://vcvrack.com/Drums#changelog",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "DrumMachine",
+      "name": "Drum Machine",
+      "description": "",
+      "tags": [
+        "Drum",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Kick",
+      "name": "Kick",
+      "description": "",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Snare",
+      "name": "Snare",
+      "description": "",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Tom",
+      "name": "Tom",
+      "description": "",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Rim",
+      "name": "Rim",
+      "description": "",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Clap",
+      "name": "Clap",
+      "description": "",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "ClosedHat",
+      "name": "Closed Hat",
+      "description": "",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "OpenHat",
+      "name": "Open Hat",
+      "description": "",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Crash",
+      "name": "Crash",
+      "description": "",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Ride",
+      "name": "Ride",
+      "description": "",
+      "tags": [
+        "Drum"
+      ]
+    }
+  ]
+}
