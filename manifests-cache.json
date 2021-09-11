@@ -7880,7 +7880,7 @@
     }
   },
   "FrozenWasteland": {
-    "buildTimestamp": 1630329891.7241442,
+    "buildTimestamp": 1631330878.3627212,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {
@@ -8295,7 +8295,7 @@
     }
   },
   "LunettaModula": {
-    "buildTimestamp": 1594796167.9267485,
+    "buildTimestamp": 1631330567.8188949,
     "creationTimestamp": 1588869627.9631658,
     "modules": {
       "ADC": {
@@ -8405,6 +8405,24 @@
       },
       "CD4532": {
         "creationTimestamp": 1591780928.0185308
+      },
+      "CD40106": {
+        "creationTimestamp": 1631330879.1328645
+      },
+      "CD4020": {
+        "creationTimestamp": 1631330879.2116907
+      },
+      "CD4040": {
+        "creationTimestamp": 1631330879.2874973
+      },
+      "CD4024": {
+        "creationTimestamp": 1631330879.3662052
+      },
+      "CD4562": {
+        "creationTimestamp": 1631330879.4590428
+      },
+      "CD4008": {
+        "creationTimestamp": 1631330879.5939326
       }
     }
   },
@@ -9729,7 +9747,7 @@
     }
   },
   "KRTPluginA": {
-    "buildTimestamp": 1629662819.1518555,
+    "buildTimestamp": 1631330423.338897,
     "creationTimestamp": 1627193159.9948137,
     "modules": {
       "A": {
@@ -9785,6 +9803,18 @@
       },
       "C": {
         "creationTimestamp": 1629663218.737702
+      },
+      "U": {
+        "creationTimestamp": 1631330878.7047958
+      },
+      "B": {
+        "creationTimestamp": 1631330878.8213382
+      },
+      "J": {
+        "creationTimestamp": 1631330878.9018383
+      },
+      "K": {
+        "creationTimestamp": 1631330879.011543
       }
     }
   },

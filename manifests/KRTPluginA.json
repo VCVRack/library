@@ -1,7 +1,7 @@
 {
   "slug": "KRTPluginA",
   "name": "KRTPluginA",
-  "version": "1.18.20",
+  "version": "1.22.22",
   "license": "MIT",
   "brand": "KRT",
   "author": "Jacko",
@@ -184,7 +184,8 @@
       "tags": [
         "Polyphonic",
         "Effect",
-        "Physical modeling"
+        "Physical modeling",
+        "Oscillator"
       ]
     },
     {
@@ -196,6 +197,48 @@
         "Mixer",
         "Utility",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "U",
+      "name": "U",
+      "description": "Sample and hold quantizer.",
+      "tags": [
+        "Quantizer",
+        "Polyphonic",
+        "Sample and hold",
+        "Noise"
+      ]
+    },
+    {
+      "slug": "B",
+      "name": "B",
+      "description": "Crossbar performance switch.",
+      "tags": [
+        "Switch",
+        "Controller",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "J",
+      "name": "J",
+      "description": "All-pass filter. (Phaser).",
+      "tags": [
+        "Filter",
+        "Polyphonic",
+        "Utility",
+        "Phaser",
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "K",
+      "name": "K",
+      "description": "Phase modulation oscillator.",
+      "tags": [
+        "Polyphonic",
+        "Oscillator"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "LunettaModula",
   "name": "Lunetta Modula by Count Modula",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "GPL-3.0-only",
   "brand": "Lunetta Modula",
   "author": "Adam Verspaget",
@@ -79,7 +79,7 @@
     },
     {
       "slug": "CD4012",
-      "name": "CD4002 Dual 4-Input NAND Gate",
+      "name": "CD4012 Dual 4-Input NAND Gate",
       "description": "Dual 4-Input NAND Gate",
       "tags": [
         "Logic"
@@ -300,6 +300,57 @@
       "slug": "MC14530",
       "name": "MC14530 Dual 5 Input Majority Gate",
       "description": "Dual 5 Input Majority Gate",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD40106",
+      "name": "CD40106 Hex Schmitt-Trigger Inverters",
+      "description": "Hex Schmitt-Trigger Inverters",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4020",
+      "name": "CD4020 14-Stage Ripple-Carry Binary Counter/Divider",
+      "description": "14-Stage Ripple-Carry Binary Counter/Divider",
+      "tags": [
+        "Logic",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "CD4040",
+      "name": "CD4040 12-Stage Ripple-Carry Binary Counter/Divider",
+      "description": "12-Stage Ripple-Carry Binary Counter/Divider",
+      "tags": [
+        "Logic",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "CD4024",
+      "name": "CD4024 7-Stage Ripple-Carry Binary Counter/Divider",
+      "description": "7-Stage Ripple-Carry Binary Counter/Divider",
+      "tags": [
+        "Logic",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "CD4562",
+      "name": "CD4562 128 Stage Static Shift Register",
+      "description": "128 Stage Static Shift Register",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4008",
+      "name": "CD4008 4-Bit Full Adder With Parallel Carry Out",
+      "description": "4-Bit Full Adder With Parallel Carry Out",
       "tags": [
         "Logic"
       ]
