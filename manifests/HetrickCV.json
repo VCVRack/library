@@ -1,7 +1,7 @@
 {
   "slug": "HetrickCV",
   "name": "HetrickCV",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -149,6 +149,14 @@
       ]
     },
     {
+      "slug": "MinMax",
+      "name": "Min-Max",
+      "description": "Outputs the greatest and least voltages from up to 4 inputs.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
       "slug": "RandomGates",
       "name": "Random Gates",
       "description": "Generates up to eight random gates.",
@@ -188,7 +196,8 @@
       "tags": [
         "Distortion",
         "Effect",
-        "Waveshaper"
+        "Waveshaper",
+        "Polyphonic"
       ]
     }
   ]

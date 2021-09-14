@@ -1,7 +1,7 @@
 {
   "slug": "NonlinearCircuits",
   "name": "Nonlinear Circuits",
-  "version": "1.3.0",
+  "version": "1.4.1",
   "license": "GPL-3.0-only",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -41,6 +41,17 @@
         "Logic",
         "Hardware Clone",
         "Quad"
+      ]
+    },
+    {
+      "slug": "DivideConquer",
+      "name": "Divide & Conquer",
+      "description": "More clock dividers than you will ever need.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
+      "tags": [
+        "Logic",
+        "Clock Modulator",
+        "Hardware Clone"
       ]
     },
     {

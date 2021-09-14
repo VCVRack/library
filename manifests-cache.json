@@ -1286,7 +1286,7 @@
     }
   },
   "HamptonHarmonics": {
-    "buildTimestamp": 1585695794.0896184,
+    "buildTimestamp": 1631650227.214161,
     "creationTimestamp": 1582941680.0,
     "modules": {
       "Progress": {
@@ -4486,7 +4486,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1622576275.4951856,
+    "buildTimestamp": 1631650202.7069921,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -4750,7 +4750,7 @@
     }
   },
   "HetrickCV": {
-    "buildTimestamp": 1560591128.3533008,
+    "buildTimestamp": 1631650688.713637,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ASR": {
@@ -4815,6 +4815,9 @@
       },
       "Waveshaper": {
         "creationTimestamp": 1560591446.0
+      },
+      "MinMax": {
+        "creationTimestamp": 1631650689.210272
       }
     }
   },
@@ -5414,7 +5417,7 @@
     "modules": {}
   },
   "NonlinearCircuits": {
-    "buildTimestamp": 1628277925.455543,
+    "buildTimestamp": 1631650285.925364,
     "creationTimestamp": 1582350675.0,
     "modules": {
       "BOOLs": {
@@ -5452,6 +5455,9 @@
       },
       "Segue": {
         "creationTimestamp": 1628277926.0059588
+      },
+      "DivideConquer": {
+        "creationTimestamp": 1631650689.3561392
       }
     }
   },
@@ -7880,7 +7886,7 @@
     }
   },
   "FrozenWasteland": {
-    "buildTimestamp": 1631330878.3627212,
+    "buildTimestamp": 1631650600.0218158,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {
@@ -9747,7 +9753,7 @@
     }
   },
   "KRTPluginA": {
-    "buildTimestamp": 1631330423.338897,
+    "buildTimestamp": 1631649930.6080964,
     "creationTimestamp": 1627193159.9948137,
     "modules": {
       "A": {
@@ -9815,6 +9821,9 @@
       },
       "K": {
         "creationTimestamp": 1631330879.011543
+      },
+      "H": {
+        "creationTimestamp": 1631650689.0480464
       }
     }
   },
