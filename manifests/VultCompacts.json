@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/compacts/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.19",
+  "version": "1.19.1",
   "modules": [
     {
       "slug": "Freak",
