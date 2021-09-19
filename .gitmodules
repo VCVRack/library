@@ -610,3 +610,6 @@
 [submodule "repos/LyraeModules"]
 	path = repos/LyraeModules
 	url = https://github.com/VegaDeftwing/LyraeModules.git
+[submodule "repos/AlliewayAudio_Freebies"]
+	path = repos/AlliewayAudio_Freebies
+	url = https://github.com/AlliewayAudio/AlliewayAudio_Freebies.git
