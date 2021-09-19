@@ -607,3 +607,6 @@
 [submodule "repos/OSCelot"]
 	path = repos/OSCelot
 	url = https://github.com/The-Modular-Mind/oscelot.git
+[submodule "repos/LyraeModules"]
+	path = repos/LyraeModules
+	url = https://github.com/VegaDeftwing/LyraeModules.git
