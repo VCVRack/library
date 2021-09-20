@@ -1,7 +1,7 @@
 {
   "slug": "KRTPluginA",
   "name": "KRTPluginA",
-  "version": "1.23.24",
+  "version": "1.25.25",
   "license": "MIT",
   "brand": "KRT",
   "author": "Jacko",
@@ -58,7 +58,7 @@
     {
       "slug": "D",
       "name": ";D",
-      "description": "VCA/future estimator with error.",
+      "description": "VCA/future estimator with error?",
       "tags": [
         "Utility",
         "Attenuator",
@@ -248,6 +248,26 @@
       "tags": [
         "Polyphonic",
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "I",
+      "name": "I",
+      "description": "Clock divider with downbeat extract.",
+      "tags": [
+        "Clock modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "G",
+      "name": "G",
+      "description": "Compressor with control outs.",
+      "tags": [
+        "Polyphonic",
+        "Compressor",
+        "Limiter",
+        "Dynamics"
       ]
     }
   ]

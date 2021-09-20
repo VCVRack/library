@@ -1,0 +1,31 @@
+{
+  "slug": "LyraeModules",
+  "name": "LyraeModules",
+  "version": "1.0.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "LyraeModules",
+  "author": "Vega Deftwing",
+  "authorUrl": "https://opguides.info",
+  "manualUrl": "https://github.com/VegaDeftwing/LyraeModules/blob/main/README.md",
+  "sourceUrl": "https://github.com/VegaDeftwing/LyraeModules",
+  "donateUrl": "https://github.com/sponsors/VegaDeftwing",
+  "modules": [
+    {
+      "slug": "Sulafat",
+      "name": "Sulafat",
+      "description": "Distortion at 15 Solar Radii",
+      "tags": [
+        "Distortion",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Gamma",
+      "name": "Gamma",
+      "description": "",
+      "tags": [
+        "Utility"
+      ]
+    }
+  ]
+}

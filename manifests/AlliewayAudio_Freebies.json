@@ -1,0 +1,33 @@
+{
+  "slug": "AlliewayAudio_Freebies",
+  "name": "AlliewayAudio_Freebies",
+  "version": "1.0.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "AlliewayAudio",
+  "author": "Allie",
+  "authorEmail": "alliewayaudio@gmail.com",
+  "authorUrl": "https://github.com/AlliewayAudio",
+  "pluginUrl": "https://github.com/AlliewayAudio/AlliewayAudio_Freebies",
+  "manualUrl": "https://github.com/AlliewayAudio/AlliewayAudio_Freebies/tree/main/docs",
+  "sourceUrl": "https://github.com/AlliewayAudio/AlliewayAudio_Freebies",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "chilly_cheese",
+      "name": "Chilly Cheese",
+      "description": "1:1 digital recreation of Mannequins 'Cold Mac' esoteric macro-utility (made with permission, but not by Mannequins)",
+      "tags": [
+        "Attenuator",
+        "Compressor",
+        "Envelope follower",
+        "Logic",
+        "Ring modulator",
+        "Slew limiter",
+        "Utility",
+        "Voltage-controlled amplifier",
+        "Waveshaper"
+      ]
+    }
+  ]
+}

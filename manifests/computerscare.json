@@ -1,11 +1,11 @@
 {
   "slug": "computerscare",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "name": "computerscare",
   "brand": "computerscare",
   "author": "computerscare",
   "license": "BSD-3-Clause",
-  "authorEmail": "aemalone@test.com",
+  "authorEmail": "computerscaremodules@gmail.com",
   "pluginUrl": "https://github.com/freddyz/computerscare-vcv-modules",
   "authorUrl": "https://github.com/freddyz/computerscare-vcv-modules",
   "sourceUrl": "https://github.com/freddyz/computerscare-vcv-modules",
