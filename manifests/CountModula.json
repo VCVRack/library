@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.15.1",
+  "version": "1.16.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -1033,7 +1033,7 @@
     },
     {
       "slug": "OctetTriggerSequencerCVExpander",
-      "name": "Octet Trigger Sequencer Channel Expander",
+      "name": "Octet Trigger Sequencer CV Expander",
       "description": "Adds a CV channel to the Octet Trigger Sequencer",
       "tags": [
         "Sequencer",
@@ -1064,6 +1064,43 @@
       "description": "A logical D type flip flop with clock enable",
       "tags": [
         "Logic"
+      ]
+    },
+    {
+      "slug": "OctetTriggerSequencerGateExpander",
+      "name": "Octet Trigger Sequencer Gate Expander",
+      "description": "Adds individual gate outputs to the Octet Trigger Sequencer",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Mult",
+      "name": "Multiple",
+      "description": "Normalled polyphonic multiple",
+      "tags": [
+        "Multiple",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyGateModifier",
+      "name": "Poly Gate Modifier",
+      "description": "Polyphonic voltage controlled gate length modifier",
+      "tags": [
+        "Logic",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SampleAndHold2",
+      "name": "Super Sample & Hold",
+      "description": "Sample and Hold/Track and hold with probability and offset",
+      "tags": [
+        "Sample and hold",
+        "Polyphonic"
       ]
     }
   ]
