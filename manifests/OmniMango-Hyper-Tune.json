@@ -1,0 +1,27 @@
+{
+  "slug": "OmniMango-Hyper-Tune",
+  "name": "OmniMango HyperTune",
+  "version": "1.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "OmniMango",
+  "author": "Garnet Grimm",
+  "authorEmail": "garnetgrimm720@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/garnetgrimm/Omnimango-Manuals/blob/master/HyperTune.md",
+  "sourceUrl": "",
+  "donateUrl": "https://paypal.me/Omnimango?locale.x=en_US",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "OmniMango-Hyper-Tune",
+      "name": "HyperTune",
+      "description": "Automatic pitch detection and retuner",
+      "tags": [
+        "Effect",
+        "Tuner",
+        "Vocoder"
+      ]
+    }
+  ]
+}
