@@ -1,7 +1,7 @@
 {
   "slug": "Bogaudio",
   "name": "Bogaudio",
-  "version": "1.1.37",
+  "version": "1.1.38",
   "license": "GPL-3.0-or-later",
   "brand": "Bogaudio",
   "author": "Matt Demanett",
@@ -1105,6 +1105,17 @@
       "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#switch",
       "tags": [
         "Switch",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bogaudio-Lgsw",
+      "name": "LGSW",
+      "description": "2-way signal router with logic",
+      "manualUrl": "https://github.com/bogaudio/BogaudioModules/blob/master/README.md#lgsw",
+      "tags": [
+        "Switch",
+        "Logic",
         "Polyphonic"
       ]
     },

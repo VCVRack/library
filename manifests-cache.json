@@ -770,7 +770,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1614836643.8115664,
+    "buildTimestamp": 1632742122.4540398,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -1102,6 +1102,9 @@
       },
       "Bogaudio-FourFO": {
         "creationTimestamp": 1614420553.4225817
+      },
+      "Bogaudio-Lgsw": {
+        "creationTimestamp": 1632742122.8221877
       }
     }
   },
@@ -4489,7 +4492,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1632453470.2940474,
+    "buildTimestamp": 1632741301.0315475,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -8319,7 +8322,7 @@
     }
   },
   "LunettaModula": {
-    "buildTimestamp": 1631330567.8188949,
+    "buildTimestamp": 1632741434.982406,
     "creationTimestamp": 1588869627.9631658,
     "modules": {
       "ADC": {
@@ -9630,7 +9633,7 @@
     }
   },
   "Extratone": {
-    "buildTimestamp": 1632453514.404989,
+    "buildTimestamp": 1632741477.6070666,
     "creationTimestamp": 1620402349.2390156,
     "modules": {
       "Modulo": {
@@ -9656,6 +9659,9 @@
       },
       "Pureneura": {
         "creationTimestamp": 1632454132.899269
+      },
+      "Mesoglea": {
+        "creationTimestamp": 1632742123.0051847
       }
     }
   },
