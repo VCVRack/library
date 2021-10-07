@@ -616,3 +616,6 @@
 [submodule "repos/Tonecarver"]
 	path = repos/Tonecarver
 	url = https://github.com/Tonecarver/tcRackModules.git
+[submodule "repos/DelexanderVol1"]
+	path = repos/DelexanderVol1
+	url = https://github.com/Delexander/Volume1.git
