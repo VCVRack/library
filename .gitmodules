@@ -613,3 +613,6 @@
 [submodule "repos/AlliewayAudio_Freebies"]
 	path = repos/AlliewayAudio_Freebies
 	url = https://github.com/AlliewayAudio/AlliewayAudio_Freebies.git
+[submodule "repos/Tonecarver"]
+	path = repos/Tonecarver
+	url = https://github.com/Tonecarver/tcRackModules.git
