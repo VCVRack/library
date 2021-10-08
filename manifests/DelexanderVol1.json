@@ -1,0 +1,44 @@
+{
+  "slug": "DelexanderVol1",
+  "name": "Delexander Volume 1",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "Delexander",
+  "author": "Delexander Collective",
+  "authorEmail": "delexander.modules@gmail.com",
+  "authorUrl": "https://github.com/Delexander",
+  "pluginUrl": "https://github.com/Delexander/Volume1",
+  "sourceUrl": "https://github.com/Delexander/Volume1.git",
+  "manualUrl": "https://github.com/Delexander/Volume1/blob/v1/README.md",
+  "changelogUrl": "https://github.com/Delexander/Volume1/blob/v1/CHANGELOG.md",
+  "donateUrl": "https://www.buymeacoffee.com/delexander",
+  "modules": [
+    {
+      "slug": "Algomorph",
+      "name": "Algomorph",
+      "description": "4-Channel Multistate Router with Morphing and Graph Visualization",
+      "disabled": true,
+      "tags": [
+        "Mixer",
+        "Multiple",
+        "Polyphonic",
+        "Quad",
+        "Utility",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "AlgomorphSmall",
+      "name": "Algomorph Pocket",
+      "description": "Miniature 4-Channel Multistate Router with Morphing and Graph Visualization",
+      "tags": [
+        "Mixer",
+        "Multiple",
+        "Polyphonic",
+        "Quad",
+        "Utility",
+        "Visual"
+      ]
+    }
+  ]
+}

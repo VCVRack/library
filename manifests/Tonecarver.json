@@ -1,0 +1,31 @@
+{
+  "slug": "Tonecarver",
+  "name": "Tonecarver",
+  "version": "1.0.1",
+  "license": "proprietary",
+  "brand": "Tonecarver",
+  "author": "Bill Davies",
+  "authorEmail": "bdavies00@yahoo.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/Tonecarver/tcRackModules#readme",
+  "sourceUrl": "https://github.com/Tonecarver/tcRackModules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Blur",
+      "name": "Blur",
+      "description": "Spectral Blur",
+      "tags": [
+        "spectral"
+      ]
+    },
+    {
+      "slug": "Morse",
+      "name": "Morse",
+      "description": "Generate Morse Code gate sequence",
+      "tags": []
+    }
+  ]
+}
