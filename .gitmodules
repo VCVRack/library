@@ -619,3 +619,6 @@
 [submodule "repos/DelexanderVol1"]
 	path = repos/DelexanderVol1
 	url = https://github.com/Delexander/Volume1.git
+[submodule "repos/VO"]
+	path = repos/VO
+	url = https://github.com/evgazloy/VO.git
