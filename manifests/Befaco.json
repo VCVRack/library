@@ -1,9 +1,9 @@
 {
   "slug": "Befaco",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
-  "author": "VCV",
+  "author": "VCV, Ewan Hemingway",
   "authorEmail": "contact@vcvrack.com",
   "pluginUrl": "https://vcvrack.com/Befaco",
   "authorUrl": "https://vcvrack.com/",
@@ -111,7 +111,8 @@
         "Envelope generator",
         "Mixer",
         "Polyphonic",
-        "Hardware clone"
+        "Hardware clone",
+        "Quad"
       ]
     },
     {
@@ -150,6 +151,80 @@
         "Drum",
         "Hardware clone",
         "Synth voice"
+      ]
+    },
+    {
+      "slug": "SamplingModulator",
+      "name": "Sampling Modulator",
+      "description": "Multi-function module that lies somewhere between a VCO, a Sample & Hold, and an 8 step trigger sequencer",
+      "manualUrl": "https://www.befaco.org/sampling-modulator/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-sampling-modulator-",
+      "tags": [
+        "Clock generator",
+        "Hardware clone",
+        "Oscillator",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "Morphader",
+      "name": "Morphader",
+      "description": "Multichannel CV/Audio crossfader",
+      "manualUrl": "https://www.befaco.org/morphader-2/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-morphader",
+      "tags": [
+        "Controller",
+        "Hardware clone",
+        "Mixer",
+        "Polyphonic",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "ADSR",
+      "name": "ADSR",
+      "description": "ADSR envelope generator with gate output on each stage, plus variable shape",
+      "manualUrl": "https://www.befaco.org/vc-adsr/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-vc-adsr",
+      "tags": [
+        "Envelope generator",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "STMix",
+      "name": "STMix",
+      "description": "A compact 4 channel stereo mixer with an auxiliary input",
+      "manualUrl": "https://www.befaco.org/stmix/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-stmix-",
+      "tags": [
+        "Hardware clone",
+        "Mixer",
+        "Stereo",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Muxlicer",
+      "name": "Muxlicer",
+      "description": "VC adressable sequential switch and sequencer",
+      "manualUrl": "https://www.befaco.org/muxlicer-2/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-muxlicer",
+      "tags": [
+        "Clock generator",
+        "Hardware clone",
+        "Polyphonic",
+        "Sequencer",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Mex",
+      "name": "Mex",
+      "description": "Gate Expander for Befaco Muxlicer",
+      "tags": [
+        "Expander",
+        "Hardware clone"
       ]
     }
   ]

@@ -1375,5 +1375,40 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/Kickall",
     "mgUrl": "https://www.modulargrid.net/e/befaco-kickall",
     "mgModuleId": 20694
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "SamplingModulator",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/SamplingModulator",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-sampling-modulator-",
+    "mgModuleId": 7068
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Morphader",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Morphader",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-morphader",
+    "mgModuleId": 33676
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "ADSR",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/ADSR",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-vc-adsr",
+    "mgModuleId": 9916
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "STMix",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/STMix",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-stmix-",
+    "mgModuleId": 20934
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Muxlicer",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Muxlicer",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-muxlicer",
+    "mgModuleId": 12804
   }
 ]

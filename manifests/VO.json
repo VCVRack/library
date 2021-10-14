@@ -1,0 +1,25 @@
+{
+  "slug": "VO",
+  "name": "VO",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "VO",
+  "author": "Evgeniy Metelev",
+  "authorEmail": "whwind@mail.ru",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/evgazloy/VO",
+  "manualUrl": "https://github.com/evgazloy/VO",
+  "sourceUrl": "https://github.com/evgazloy/VO",
+  "donateUrl": "https://www.paypal.com/paypalme/evgazloy",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "VO-OneKnob",
+      "name": "OneKnob",
+      "description": "Control last touched parameter with midi map or cv",
+      "tags": [
+        "Controller"
+      ]
+    }
+  ]
+}
