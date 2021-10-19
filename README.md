@@ -2,10 +2,9 @@
 
 This repo contains the database of all known VCV Rack plugins, for [VCV Library](https://library.vcvrack.com/).
 
-All Rack plugins are welcome assuming they
-- are not malware (i.e. harm users' computer or privacy).
+All plugins submitted here must
 - follow the [VCV Plugin Ethics Guidelines](https://vcvrack.com/manual/PluginLicensing.html#vcv-plugin-ethics-guidelines).
-- Minor forks of existing plugins are not included here in order prevent user confusion, unless panel graphics, names, and slugs are changed to be easily distinguishable.
+- not harm the user's computer or privacy.
 
 
 ## Adding your plugin to the VCV Library (for open-source plugins)
