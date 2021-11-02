@@ -1,0 +1,26 @@
+{
+  "slug": "OmniMango-Subliminal-Messages",
+  "name": "OmniMango Subliminal Messages",
+  "version": "1.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "OmniMango",
+  "author": "Garnet Grimm",
+  "authorEmail": "garnetgrimm720@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/garnetgrimm/Omnimango-Manuals/blob/master/SubliminalMessages.md",
+  "sourceUrl": "",
+  "donateUrl": "https://paypal.me/Omnimango?locale.x=en_US",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "OmniMango-Subliminal-Messages",
+      "name": "Subliminal-Messages",
+      "description": "Convert images to audio to be viewed back on a spectrogram",
+      "tags": [
+        "Visual",
+        "Physical modeling"
+      ]
+    }
+  ]
+}
