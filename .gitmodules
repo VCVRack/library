@@ -622,3 +622,6 @@
 [submodule "repos/VO"]
 	path = repos/VO
 	url = https://github.com/evgazloy/VO.git
+[submodule "repos/FreeSurface"]
+	path = repos/FreeSurface
+	url = https://github.com/freesurfacemodules/FreeSurface.git
