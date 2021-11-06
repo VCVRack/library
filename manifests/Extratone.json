@@ -1,7 +1,7 @@
 {
   "slug": "Extratone",
   "name": "Extratone",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "license": "GPL-3.0-or-later",
   "brand": "XTRTN",
   "author": "Eater of Sheep",
@@ -102,6 +102,16 @@
       "slug": "Mesohyl",
       "name": "Mesohyl",
       "description": "Easy knobs with built-in S&H powers.",
+      "tags": [
+        "Sample and hold",
+        "Utility",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "Mesoglea2",
+      "name": "Mesoglea2",
+      "description": "Easy flippable gates/mutes with sample-and-hold.",
       "tags": [
         "Sample and hold",
         "Utility",
