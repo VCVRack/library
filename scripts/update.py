@@ -147,7 +147,7 @@ common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack -t 2")
 common.system("cd ../packages && make upload")
 
 # Upload screenshots
-common.system("cd ../screenshots && make upload")
+common.system("cd ../screenshots && make -j$(nproc) upload")
 
 # Commit repository
 common.system("git add manifests")
