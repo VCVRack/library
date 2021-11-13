@@ -1,0 +1,28 @@
+{
+  "slug": "FreeSurface",
+  "version": "1.2.2",
+  "license": "GPL-3.0-only",
+  "name": "Causal Systems",
+  "brand": "Free Surface",
+  "author": "Free Surface",
+  "authorEmail": "freesurfacemodules@gmail.com",
+  "pluginUrl": "https://github.com/freesurfacemodules/FreeSurface",
+  "authorUrl": "",
+  "manualUrl": "https://github.com/freesurfacemodules/FreeSurface",
+  "sourceUrl": "https://github.com/freesurfacemodules/FreeSurface",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "FreeSurface-WaterTable",
+      "name": "WaterTable",
+      "description": "Physical modeling system with a fully analog design",
+      "tags": [
+        "Distortion",
+        "Filter",
+        "Panning",
+        "Ring modulator",
+        "Physical modeling"
+      ]
+    }
+  ]
+}
