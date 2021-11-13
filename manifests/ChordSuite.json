@@ -1,0 +1,38 @@
+{
+  "slug": "ChordSuite",
+  "name": "Chord Suite",
+  "version": "1.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "maglav modular",
+  "author": "Jiahao Huang",
+  "authorEmail": "jiahao@maglav.studio",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/erazedfx/ChordSuiteManual/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ChordPlayer",
+      "name": "Chord Player",
+      "description": "5-voice Chord Quantizer with bass output",
+      "tags": [
+        "Polyphonic",
+        "Quantizer",
+        "Arpeggiator"
+      ]
+    },
+    {
+      "slug": "ArpPlayer",
+      "name": "Arp Player",
+      "description": "Chain-able Arpeggiator Expander for Chord Player",
+      "tags": [
+        "Arpeggiator",
+        "Quantizer",
+        "Sample and hold",
+        "Expander"
+      ]
+    }
+  ]
+}
