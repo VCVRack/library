@@ -79,7 +79,7 @@
 	branch = master
 [submodule "repos/squinkylabs-plug1"]
 	path = repos/squinkylabs-plug1
-	url = https://github.com/squinkylabs/SquinkyVCV
+    url = https://github.com/kockie69/SquinkyVCV-main
 	branch = master
 [submodule "repos/ValleyFree"]
 	path = repos/Valley
@@ -625,3 +625,6 @@
 [submodule "repos/FreeSurface"]
 	path = repos/FreeSurface
 	url = https://github.com/freesurfacemodules/FreeSurface.git
+[submodule "repos/Kilpatrick-Toolbox"]
+	path = repos/Kilpatrick-Toolbox
+	url = https://github.com/kilpatrickaudio/Kilpatrick-Toolbox.git
