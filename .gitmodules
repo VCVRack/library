@@ -342,7 +342,7 @@
 	url = https://github.com/Ahornberg/Ahornberg-Microtonal.git
 [submodule "repos/Prism"]
 	path = repos/Prism
-	url = https://github.com/AmalgamatedHarmonics/Prism.git
+    url = https://github.com/SteveRussell33/Prism.git
 [submodule "repos/repelzen"]
 	path = repos/repelzen
 	url = https://github.com/wiqid/repelzen
