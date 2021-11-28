@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "1.16.0",
+  "version": "2.0.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -82,7 +82,8 @@
       "name": "Burst Generator",
       "description": "Generates bursts of 1-16 pulses whenever a trigger is received at the trigger input",
       "tags": [
-        "Clock modulator"
+        "Clock modulator",
+        "Sequencer"
       ]
     },
     {
@@ -130,8 +131,8 @@
     },
     {
       "slug": "G2T",
-      "name": "gate to Trigger Converter",
-      "description": "Description.",
+      "name": "G2T - Gate to Trigger Converter",
+      "description": "Gate to Trigger Converter",
       "tags": [
         "Utility"
       ]
@@ -226,17 +227,6 @@
       ]
     },
     {
-      "slug": "PolyrhythmicGenerator",
-      "name": "Polyrhythmic Generator  (Deprecated - Do Not Use)",
-      "description": "This module is no longer supported - use Polyrhythmic Generator MkII instead",
-      "deprecated": true,
-      "tags": [
-        "Clock modulator",
-        "Sequencer",
-        "Polyphonic"
-      ]
-    },
-    {
       "slug": "Rectifier",
       "name": "Rectifier",
       "description": "A full/half wave rectifier with variable rectification axis",
@@ -319,15 +309,6 @@
       ]
     },
     {
-      "slug": "VCFrequencyDivider",
-      "name": "Voltage Controlled Frequency Divider (Deprecated - Do Not Use)",
-      "description": "This module is no longer supported - use VC Frequency Divider instead",
-      "deprecated": true,
-      "tags": [
-        "Clock modulator"
-      ]
-    },
-    {
       "slug": "VCPolarizer",
       "name": "Voltage Controlled Polarizer",
       "description": "A dual voltage controlled polarizer",
@@ -401,12 +382,34 @@
       ]
     },
     {
+      "slug": "VCFrequencyDivider",
+      "name": "Voltage Controlled Frequency Divider (Deprecated - Do Not Use)",
+      "description": "This module is no longer supported - use VC Frequency Divider instead",
+      "deprecated": true,
+      "tags": [
+        "Clock modulator"
+      ],
+      "hidden": true
+    },
+    {
       "slug": "VCFrequencyDividerMkII",
       "name": "Voltage Controlled Frequency Divider MkII",
       "description": "Frequency divider with a variable and voltage controlled division ratio from 1 to around 20",
       "tags": [
         "Clock modulator"
       ]
+    },
+    {
+      "slug": "PolyrhythmicGenerator",
+      "name": "Polyrhythmic Generator  (Deprecated - Do Not Use)",
+      "description": "This module is no longer supported - use Polyrhythmic Generator MkII instead",
+      "deprecated": true,
+      "tags": [
+        "Clock modulator",
+        "Sequencer",
+        "Polyphonic"
+      ],
+      "hidden": true
     },
     {
       "slug": "PolyrhythmicGeneratorMkII",
@@ -544,8 +547,8 @@
     },
     {
       "slug": "Chances",
-      "name": "Single Bernoulli Gate",
-      "description": "Randomized routing of gate signals",
+      "name": "Chances - bernoulli gate",
+      "description": "Single bernoulli gate offering randomized routing of gate signals",
       "tags": [
         "Random",
         "Logic",
@@ -959,14 +962,6 @@
       ]
     },
     {
-      "slug": "Palette",
-      "name": "Cable Palette",
-      "description": "Cable colour picker",
-      "tags": [
-        "Utility"
-      ]
-    },
-    {
       "slug": "Megalomaniac",
       "name": "Megalomaniac - Hyper Maniacal LFO CV Expander",
       "description": "Voltage control over the Hyper Maniacal LFO",
@@ -1101,6 +1096,22 @@
       "tags": [
         "Sample and hold",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Palette",
+      "name": "Cable Palette",
+      "description": "Cable colour picker",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SequenceEncoder",
+      "name": "4Bit Sequence Encoder",
+      "description": "Binary addressed encoder for sequencer expanders",
+      "tags": [
+        "Sequencer"
       ]
     }
   ]

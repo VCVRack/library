@@ -1,11 +1,11 @@
 {
   "slug": "ChowDSP",
   "name": "ChowDSP",
-  "version": "1.4.1",
+  "version": "2.0.0",
   "license": "GPL-3.0-or-later",
   "brand": "chowdsp",
   "author": "Jatin Chowdhury",
-  "authorEmail": "jatin@ccmra.stanford.edu",
+  "authorEmail": "jatin@ccrma.stanford.edu",
   "authorUrl": "https://ccrma.stanford.edu/~jatin/chowdsp",
   "pluginUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV",
   "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md",
@@ -123,6 +123,58 @@
       "tags": [
         "Effect",
         "Distortion"
+      ]
+    },
+    {
+      "slug": "ChowTapeComp",
+      "name": "ChowTape Compression",
+      "description": "Analog tape compression emulation",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-tape",
+      "tags": [
+        "Effect",
+        "Compressor",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "ChowTapeChew",
+      "name": "ChowTape Chew",
+      "description": "Emulation of magnetic tape that has been chewed up by a tape machine",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-tape",
+      "tags": [
+        "Effect",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "ChowTapeDegrade",
+      "name": "ChowTape Degrade",
+      "description": "Emulation of magnetic tape that has been degraded by time and use",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-tape",
+      "tags": [
+        "Effect",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "ChowTapeLoss",
+      "name": "ChowTape Loss",
+      "description": "Emulation of playhead loss effects for a reel-to-reel analog tape machine",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-tape",
+      "tags": [
+        "Effect",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "ChowChorus",
+      "name": "ChowChorus",
+      "description": "",
+      "manualUrl": "https://github.com/jatinchowdhury18/ChowDSP-VCV/blob/master/doc/manual.md#chow-chorus",
+      "tags": [
+        "Effect",
+        "Chorus",
+        "Physical modeling"
       ]
     }
   ]

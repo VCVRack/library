@@ -5340,6 +5340,9 @@
       },
       "SampleAndHold2": {
         "creationTimestamp": 1632454133.499678
+      },
+      "SequenceEncoder": {
+        "creationTimestamp": 1638133662.4722774
       }
     }
   },
@@ -9014,6 +9017,21 @@
       },
       "Warp": {
         "creationTimestamp": 1603401718.4451983
+      },
+      "ChowTapeComp": {
+        "creationTimestamp": 1638133662.0443404
+      },
+      "ChowTapeChew": {
+        "creationTimestamp": 1638133662.1424685
+      },
+      "ChowTapeDegrade": {
+        "creationTimestamp": 1638133662.2251694
+      },
+      "ChowTapeLoss": {
+        "creationTimestamp": 1638133662.3050177
+      },
+      "ChowChorus": {
+        "creationTimestamp": 1638133662.383574
       }
     }
   },
