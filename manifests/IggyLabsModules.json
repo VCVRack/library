@@ -1,17 +1,17 @@
 {
   "slug": "IggyLabsModules",
   "name": "iggy.labs",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "license": "GPL-3.0-or-later",
   "brand": "iggy.labs",
   "author": "Isabel Kaspriskie",
   "authorEmail": "ikaspriskie@gmail.com",
   "authorUrl": "",
   "pluginUrl": "",
-  "manualUrl": "https://github.com/IggyLabs/IggyLabsModulesManual",
-  "sourceUrl": "https://github.com/IggyLabs/IggyLabsModules",
+  "manualUrl": "https://github.com/isabelgk/IggyLabsModules",
+  "sourceUrl": "https://github.com/isabelgk/IggyLabsModules",
   "donateUrl": "https://www.buymeacoffee.com/iggylabs",
-  "changelogUrl": "https://github.com/IggyLabs/IggyLabsModules/blob/master/CHANGELOG",
+  "changelogUrl": "https://github.com/isabelgk/IggyLabsModules/blob/master/CHANGELOG",
   "modules": [
     {
       "slug": "table",
@@ -21,7 +21,7 @@
         "oscillator",
         "polyphonic"
       ],
-      "manualUrl": "https://github.com/IggyLabs/IggyLabsModules/wiki/Oscillators#table"
+      "manualUrl": "https://github.com/isabelgk/IggyLabsModules/"
     },
     {
       "slug": "select",

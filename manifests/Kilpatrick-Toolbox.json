@@ -1,0 +1,171 @@
+{
+  "slug": "Kilpatrick-Toolbox",
+  "name": "Kilpatrick-Toolbox",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Kilpatrick Audio",
+  "author": "Andrew Kilpatrick",
+  "authorEmail": "andrew@kilpatrickaudio.com",
+  "authorUrl": "https://www.kilpatrickaudio.com",
+  "pluginUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox",
+  "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox",
+  "sourceUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox",
+  "donateUrl": "https://paypal.me/elmood",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "MIDI_Channel",
+      "name": "MIDI Channel",
+      "description": "MIDI Channel Processor with vMIDI Support",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#midi-channel",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_CV",
+      "name": "MIDI CV",
+      "description": "MIDI to CV Module with vMIDI Support",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#midi-cv",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Input",
+      "name": "MIDI Input",
+      "description": "MIDI Hardware Input to vMIDI Adapter",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#midi-input",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Mapper",
+      "name": "MIDI Mapper",
+      "description": "MIDI CC Mapper with vMIDI Support",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#midi-mapper",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Merger",
+      "name": "MIDI Merger",
+      "description": "MIDI Merger and Filter with vMIDI Support",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#midi-merger",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Monitor",
+      "name": "MIDI Monitor",
+      "description": "MIDI Monitor with vMIDI Support",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#midi-monitor",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Output",
+      "name": "MIDI Output",
+      "description": "MIDI Hardare Output from vMIDI Adapter",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#midi-output",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Repeater",
+      "name": "MIDI Repeater",
+      "description": "MIDI Repeat Processor vMIDI Support",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#midi-repeater",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Quad_Decoder",
+      "name": "Quad Decoder",
+      "description": "Quadraphonic 4-2-4 Matrix Decoder",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#quad-decoder",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Quad_Encoder",
+      "name": "Quad Encoder",
+      "description": "Quadraphonic 4-2-4 Matrix Encoder",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#quad-encoder",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Quad_Panner",
+      "name": "Quad Panner",
+      "description": "Quad Panner",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#quad_panner",
+      "tags": [
+        "Panning",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Stereo_Meter",
+      "name": "Stereo Meter",
+      "description": "Stereo Audio Levelmeter",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#stereo_meter",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Test_Osc",
+      "name": "Test Osc",
+      "description": "Test Oscillator with Sweep",
+      "manualUrl": "https://github.com/kilpatrickaudio/Kilpatrick-Toolbox#test_osc",
+      "tags": [
+        "Utility",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Multi_Meter",
+      "name": "Multi Meter",
+      "description": "Multi-channel and X/Y Meter",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_Clock",
+      "name": "MIDI Clock",
+      "description": "MIDI with Analog and vMIDI Support",
+      "tags": [
+        "MIDI",
+        "Clock",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MIDI_CC_Note",
+      "name": "MIDI CC Note",
+      "description": "MIDI CC to Note Converter with vMIDI Support",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ]
+    }
+  ]
+}

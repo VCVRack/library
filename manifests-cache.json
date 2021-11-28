@@ -1982,6 +1982,9 @@
       },
       "Prob-Key-Expander": {
         "creationTimestamp": 1624763005.5164895
+      },
+      "Adaptive-Quantizer": {
+        "creationTimestamp": 1638135909.2760432
       }
     }
   },
@@ -4860,6 +4863,45 @@
       },
       "MinMax": {
         "creationTimestamp": 1631650689.210272
+      },
+      "Chaos1Op": {
+        "creationTimestamp": 1638135909.4484935
+      },
+      "Chaos2Op": {
+        "creationTimestamp": 1638135909.5823703
+      },
+      "Chaos3Op": {
+        "creationTimestamp": 1638135909.730524
+      },
+      "BinaryGate": {
+        "creationTimestamp": 1638135909.8220432
+      },
+      "BinaryNoise": {
+        "creationTimestamp": 1638135909.907263
+      },
+      "ChaoticAttractors": {
+        "creationTimestamp": 1638135910.020195
+      },
+      "ClockedNoise": {
+        "creationTimestamp": 1638135910.165699
+      },
+      "DataCompander": {
+        "creationTimestamp": 1638135910.3594673
+      },
+      "FBSineChaos": {
+        "creationTimestamp": 1638135910.513746
+      },
+      "Gingerbread": {
+        "creationTimestamp": 1638135910.6407623
+      },
+      "MidSide": {
+        "creationTimestamp": 1638135910.767886
+      },
+      "Rungler": {
+        "creationTimestamp": 1638135910.8594556
+      },
+      "XYToPolar": {
+        "creationTimestamp": 1638135910.9837992
       }
     }
   },
@@ -10142,6 +10184,59 @@
       },
       "ArpPlayer": {
         "creationTimestamp": 1636820731.421938
+      }
+    }
+  },
+  "Kilpatrick-Toolbox": {
+    "creationTimestamp": 1638135911.0844643,
+    "modules": {
+      "MIDI_Channel": {
+        "creationTimestamp": 1638135911.1913054
+      },
+      "MIDI_CV": {
+        "creationTimestamp": 1638135911.2733417
+      },
+      "MIDI_Input": {
+        "creationTimestamp": 1638135911.3565059
+      },
+      "MIDI_Mapper": {
+        "creationTimestamp": 1638135911.458455
+      },
+      "MIDI_Merger": {
+        "creationTimestamp": 1638135911.5533977
+      },
+      "MIDI_Monitor": {
+        "creationTimestamp": 1638135911.6575718
+      },
+      "MIDI_Output": {
+        "creationTimestamp": 1638135911.761422
+      },
+      "MIDI_Repeater": {
+        "creationTimestamp": 1638135911.840824
+      },
+      "Quad_Decoder": {
+        "creationTimestamp": 1638135911.9532592
+      },
+      "Quad_Encoder": {
+        "creationTimestamp": 1638135912.0291562
+      },
+      "Quad_Panner": {
+        "creationTimestamp": 1638135912.1138928
+      },
+      "Stereo_Meter": {
+        "creationTimestamp": 1638135912.1931849
+      },
+      "Test_Osc": {
+        "creationTimestamp": 1638135912.2693145
+      },
+      "Multi_Meter": {
+        "creationTimestamp": 1638135912.345453
+      },
+      "MIDI_Clock": {
+        "creationTimestamp": 1638135912.4251282
+      },
+      "MIDI_CC_Note": {
+        "creationTimestamp": 1638135912.5021343
       }
     }
   }

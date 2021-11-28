@@ -1,11 +1,11 @@
 {
   "slug": "ImpromptuModular",
   "name": "Impromptu",
-  "version": "1.1.12",
+  "version": "2.0.6",
   "license": "GPL-3.0-only",
   "author": "Marc Boul\u00e9",
   "brand": "Impromptu",
-  "authorEmail": "marc.boule@etsmtl.ca",
+  "authorEmail": "m_boule@hotmail.com",
   "authorUrl": "",
   "pluginUrl": "",
   "manualUrl": "https://marcboule.github.io/ImpromptuModular/",
@@ -13,6 +13,15 @@
   "donateUrl": "https://www.paypal.me/marcboule",
   "changelogUrl": "https://github.com/MarcBoule/ImpromptuModular/tree/master/CHANGELOG.md",
   "modules": [
+    {
+      "slug": "Adaptive-Quantizer",
+      "name": "AdaptiveQuantizer",
+      "description": "Adaptive reference based quantizer",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#adaptive-quantizer",
+      "tags": [
+        "Quantizer"
+      ]
+    },
     {
       "slug": "Big-Button-Seq",
       "name": "BigButtonSeq",

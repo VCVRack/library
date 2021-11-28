@@ -1,7 +1,7 @@
 {
   "slug": "HetrickCV",
   "name": "HetrickCV",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -11,6 +11,33 @@
   "sourceUrl": "https://github.com/mhetrick/hetrickcv",
   "donateUrl": "https://paypal.me/MHetrick",
   "modules": [
+    {
+      "slug": "Chaos1Op",
+      "name": "1-Op Chaos",
+      "description": "Multimode audio and modulation chaos generator.",
+      "tags": [
+        "Noise",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Chaos2Op",
+      "name": "2-Op Chaos",
+      "description": "Multimode audio and modulation chaos generator.",
+      "tags": [
+        "Noise",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Chaos3Op",
+      "name": "3-Op Chaos",
+      "description": "Multimode audio and modulation chaos generator.",
+      "tags": [
+        "Noise",
+        "Random"
+      ]
+    },
     {
       "slug": "ASR",
       "name": "ASR",
@@ -28,13 +55,31 @@
       ]
     },
     {
+      "slug": "BinaryGate",
+      "name": "Binary Gate",
+      "description": "Manually turn a gate on or off, or toggle its current state.",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "BinaryNoise",
+      "name": "Binary Noise",
+      "description": "Generates a random gate or square wave signal.",
+      "tags": [
+        "Noise",
+        "Random"
+      ]
+    },
+    {
       "slug": "Bitshift",
       "name": "Bitshift",
       "description": "Bitshifting distortion and waveshaping effect",
       "tags": [
         "Effect",
         "Distortion",
-        "Waveshaper"
+        "Waveshaper",
+        "Polyphonic"
       ]
     },
     {
@@ -54,6 +99,24 @@
       ]
     },
     {
+      "slug": "ChaoticAttractors",
+      "name": "Chaotic Attractors",
+      "description": "Multimode audio and modulation chaos generator.",
+      "tags": [
+        "Noise",
+        "Random"
+      ]
+    },
+    {
+      "slug": "ClockedNoise",
+      "name": "Clocked Noise",
+      "description": "Multimode audio and modulation noise generator.",
+      "tags": [
+        "Noise",
+        "Random"
+      ]
+    },
+    {
       "slug": "Comparator",
       "name": "Comparator",
       "description": "Determine whether a signal is above or below a threshold.",
@@ -68,7 +131,8 @@
       "description": "A mild distortion that brightens up a signal.",
       "tags": [
         "Effect",
-        "Distortion"
+        "Distortion",
+        "Polyphonic"
       ]
     },
     {
@@ -77,6 +141,16 @@
       "description": "Vinyl-like noise generator ported from SuperCollider.",
       "tags": [
         "Noise"
+      ]
+    },
+    {
+      "slug": "DataCompander",
+      "name": "Data Compander",
+      "description": "Compresses and expands signals with a-law or mu-law compansion.",
+      "tags": [
+        "Utility",
+        "Waveshaper",
+        "Polyphonic"
       ]
     },
     {
@@ -110,7 +184,18 @@
       "name": "Exponent",
       "description": "Raise a signal to a power",
       "tags": [
-        "Waveshaper"
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "FBSineChaos",
+      "name": "Feedback Sine Chaos",
+      "description": "A chaotic oscillator and LFO created through phase distortion and feedback.",
+      "tags": [
+        "Noise",
+        "Oscillator",
+        "Random"
       ]
     },
     {
@@ -128,7 +213,8 @@
       "tags": [
         "Panning",
         "VCA",
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -141,6 +227,15 @@
       ]
     },
     {
+      "slug": "Gingerbread",
+      "name": "Gingerbread Chaos",
+      "description": "Self-modulating audio and modulation chaos generator.",
+      "tags": [
+        "Noise",
+        "Random"
+      ]
+    },
+    {
       "slug": "LogicCombine",
       "name": "OR Logic (Gate Combiner)",
       "description": "Combines multiple gates into one gate.",
@@ -149,11 +244,21 @@
       ]
     },
     {
+      "slug": "MidSide",
+      "name": "Mid/Side",
+      "description": "Converts Left/Right signals to Mid/Side and vice versa.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "MinMax",
       "name": "Min-Max",
       "description": "Outputs the greatest and least voltages from up to 4 inputs.",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -173,6 +278,15 @@
       ]
     },
     {
+      "slug": "Rungler",
+      "name": "Rungler",
+      "description": "8-Bit Shift Register and Comparator with stepped signal output via bits 6, 7, and 8.",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
       "slug": "Scanner",
       "name": "Scanner",
       "description": "8-channel signal crossfader, mixer, scanner, and router.",
@@ -186,7 +300,8 @@
       "name": "2 To 4 Mix Matrix",
       "description": "Takes two signals and generates four variations.",
       "tags": [
-        "Mixer"
+        "Mixer",
+        "Polyphonic"
       ]
     },
     {
@@ -196,6 +311,16 @@
       "tags": [
         "Distortion",
         "Effect",
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "XYToPolar",
+      "name": "XY<->Polar",
+      "description": "Converts XY coordinates to Polar and vice versa.",
+      "tags": [
+        "Utility",
         "Waveshaper",
         "Polyphonic"
       ]
