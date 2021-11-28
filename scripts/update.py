@@ -11,13 +11,13 @@ import update_modulargrid
 import update_cache
 
 
-TOOLCHAIN_DIR = "../toolchain"
+TOOLCHAIN_DIR = "../toolchain-v2"
 PACKAGES_DIR = "../packages"
 SCREENSHOTS_DIR = "../screenshots"
 MANIFESTS_DIR = "manifests"
-RACK_SYSTEM_DIR = "../Rack-v1"
-RACK_USER_DIR = "$HOME/.Rack"
-RACK_USER_PLUGIN_DIR = os.path.join(RACK_USER_DIR, "plugins-v1")
+RACK_SYSTEM_DIR = "../Rack-v2"
+RACK_USER_DIR = "$HOME/.Rack2"
+RACK_USER_PLUGIN_DIR = os.path.join(RACK_USER_DIR, "plugins")
 
 # Update git before continuing
 common.system("git pull")
@@ -47,6 +47,7 @@ for plugin_path in plugin_paths:
 			continue
 		slug = manifest['slug']
 		version = manifest['version']
+	# TODO Extract manifest from .vcvplugin
 	elif plugin_ext == ".zip":
 		m = re.match(r'^(.*)-(.*?)-(.*?)$', plugin_basename)
 		slug = m[1]
@@ -85,7 +86,7 @@ for plugin_path in plugin_paths:
 			common.system(f'cd "{TOOLCHAIN_DIR}" && make plugin-build-clean')
 			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j$(nproc) plugin-build PLUGIN_DIR={plugin_path}')
 			common.system(f'cp -vi "{TOOLCHAIN_DIR}"/plugin-build/* "{PACKAGES_DIR}"/')
-			common.system(f'cp -vi "{TOOLCHAIN_DIR}"/plugin-build/*-lin.zip "{RACK_USER_PLUGIN_DIR}"')
+			common.system(f'cp -vi "{TOOLCHAIN_DIR}"/plugin-build/*-lin.vcvplugin "{RACK_USER_PLUGIN_DIR}"')
 		except Exception as e:
 			print(e)
 			print(f"{slug} build failed")
