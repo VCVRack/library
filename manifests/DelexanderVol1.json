@@ -1,17 +1,16 @@
 {
   "slug": "DelexanderVol1",
   "name": "Delexander Volume 1",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "GPL-3.0-only",
   "brand": "Delexander",
-  "author": "Delexander Collective",
-  "authorEmail": "delexander.modules@gmail.com",
+  "author": "Delexander LLC",
+  "authorEmail": "anthony@delexander.com",
   "authorUrl": "https://github.com/Delexander",
   "pluginUrl": "https://github.com/Delexander/Volume1",
   "sourceUrl": "https://github.com/Delexander/Volume1.git",
   "manualUrl": "https://github.com/Delexander/Volume1/blob/v1/README.md",
   "changelogUrl": "https://github.com/Delexander/Volume1/blob/v1/CHANGELOG.md",
-  "donateUrl": "https://www.buymeacoffee.com/delexander",
   "modules": [
     {
       "slug": "Algomorph",
