@@ -1,7 +1,7 @@
 {
   "slug": "AaronStatic",
   "name": "Aaron Static",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "license": "MIT",
   "brand": "Aaron Static",
   "author": "Aaron Static",
@@ -20,6 +20,35 @@
       "tags": [
         "Polyphonic",
         "Tuner"
+      ]
+    },
+    {
+      "slug": "ScaleCV",
+      "name": "ScaleCV",
+      "description": "Generates a scale",
+      "tags": [
+        "Polyphonic",
+        "Tuner",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "DiatonicCV",
+      "name": "DiatonicCV",
+      "description": "Generates diatonic chords from the provided scale",
+      "tags": [
+        "Polyphonic",
+        "Tuner"
+      ]
+    },
+    {
+      "slug": "RandomNoteCV",
+      "name": "RandomNoteCV",
+      "description": "Generates a random note when triggered",
+      "tags": [
+        "Polyphonic",
+        "Tuner",
+        "Random"
       ]
     }
   ]
