@@ -1,6 +1,6 @@
 {
   "slug": "DHE-Modules",
-  "version": "1.5.1",
+  "version": "2.0.0",
   "license": "MIT",
   "name": "DHE Modules",
   "author": "Dale Emery",
@@ -50,6 +50,7 @@
     },
     {
       "slug": "CurveSequencer4",
+      "hidden": true,
       "name": "Curve Sequencer 4",
       "description": "Generates a 4 step sequence of curves",
       "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/curve-sequencer/",
@@ -61,6 +62,7 @@
     },
     {
       "slug": "CurveSequencer8",
+      "hidden": true,
       "name": "Curve Sequencer 8",
       "description": "Generates an 8 step sequence of curves",
       "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/curve-sequencer/",
@@ -72,6 +74,7 @@
     },
     {
       "slug": "CurveSequencer16",
+      "hidden": true,
       "name": "Curve Sequencer 16",
       "description": "Generates a 16 step sequence of curves",
       "manualUrl": "https://dhemery.github.io/DHE-Modules/modules/curve-sequencer/",
