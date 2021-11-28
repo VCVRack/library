@@ -1,6 +1,6 @@
 {
   "slug": "Ahornberg",
-  "version": "1.6.2",
+  "version": "2.0.0",
   "license": "GPL-3.0-only",
   "name": "Ahornberg",
   "brand": "Ahornberg",
@@ -14,6 +14,21 @@
   "donateUrl": "",
   "modules": [
     {
+      "slug": "Tracker",
+      "name": "Tracker",
+      "description": "sequencer with tracker interface",
+      "disabled": true,
+      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#tracker",
+      "tags": [
+        "Arpeggiator",
+        "Envelope generator",
+        "Clock generator",
+        "Polyphonic",
+        "Recording",
+        "Sequencer"
+      ]
+    },
+    {
       "slug": "TapeRecorder",
       "name": "Tape Recorder",
       "description": "micro cassette recorder",
@@ -21,6 +36,7 @@
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#tape-recorder",
       "tags": [
         "Clock generator",
+        "Delay",
         "Polyphonic",
         "Recording",
         "Sampler"
