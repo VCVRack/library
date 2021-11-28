@@ -1,22 +1,22 @@
 {
   "slug": "Tonecarver",
   "name": "Tonecarver",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "license": "GPL-3.0-only",
   "brand": "Tonecarver",
   "author": "Bill Davies",
   "authorEmail": "bdavies00@yahoo.com",
   "authorUrl": "",
   "pluginUrl": "",
-  "manualUrl": "https://github.com/Tonecarver/tcRackModules#readme",
-  "sourceUrl": "https://github.com/Tonecarver/tcRackModules",
+  "manualUrl": "https://github.com/Tonecarver/tcRackModules/tree/v2#readme",
+  "sourceUrl": "https://github.com/Tonecarver/tcRackModules/tree/v2",
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
     {
       "slug": "Blur",
       "name": "Blur",
-      "description": "Spectral Blur",
+      "description": "Spectral Manipulator: Blur, Filter, Pitch, Gain, Robot",
       "tags": [
         "Effect"
       ]
