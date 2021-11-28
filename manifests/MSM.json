@@ -1,14 +1,14 @@
 {
   "slug": "MSM",
   "name": "MSM",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "brand": "MSM",
-  "author": "Phal-anx",
+  "author": "Phal-anx, Netboy3",
   "authorEmail": "",
   "authorUrl": "",
   "pluginUrl": "https://github.com/netboy3/MSM-vcvrack-plugin",
-  "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin/blob/master/README.md",
+  "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#readme",
   "sourceUrl": "https://github.com/netboy3/MSM-vcvrack-plugin",
   "donateUrl": "",
   "changelogUrl": "",
@@ -16,7 +16,8 @@
     {
       "slug": "ADSR",
       "name": "ADSR",
-      "description": "",
+      "description": "ADSR Envelope Generator with modifiable curve shapes",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#ADSR",
       "tags": [
         "Envelope generator"
       ]
@@ -24,7 +25,8 @@
     {
       "slug": "Bitcrusher",
       "name": "Bitcrusher",
-      "description": "",
+      "description": "Distortion effect by changing the sample's bit length and sample rate",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#Bitcrusher",
       "tags": [
         "Effect"
       ]
@@ -32,7 +34,7 @@
     {
       "slug": "BlankPanel",
       "name": "Blank Panel",
-      "description": "",
+      "description": "Blank panel utilizing the MSM logo",
       "tags": [
         "Blank"
       ]
@@ -40,7 +42,8 @@
     {
       "slug": "DualDelay",
       "name": "Dual Delay",
-      "description": "",
+      "description": "Two independent delay lines with low/hi pass filters",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#DualDelay",
       "tags": [
         "Delay"
       ]
@@ -48,7 +51,8 @@
     {
       "slug": "TreasureVCO",
       "name": "Treasure VCO",
-      "description": "",
+      "description": "Voltage Controlled Oscillator with complex waveform modulation",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#TreasureVCO",
       "tags": [
         "Oscillator"
       ]
@@ -56,7 +60,8 @@
     {
       "slug": "Fade",
       "name": "Fade",
-      "description": "",
+      "description": "Triple fader module",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#Fade",
       "tags": [
         "Mixer"
       ]
@@ -64,7 +69,8 @@
     {
       "slug": "MLFO",
       "name": "MLFO",
-      "description": "",
+      "description": "Low frequency oscillator with multiple waveform types",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#MLFO",
       "tags": [
         "LFO"
       ]
@@ -72,7 +78,8 @@
     {
       "slug": "Morph",
       "name": "Morph",
-      "description": "",
+      "description": "Variable input morpher with 8 inputs",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#Morph",
       "tags": [
         "Effect"
       ]
@@ -80,7 +87,8 @@
     {
       "slug": "Mult",
       "name": "Mult",
-      "description": "",
+      "description": "Triple independent add/subtract split utility",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#Mult",
       "tags": [
         "Multiple"
       ]
@@ -88,7 +96,8 @@
     {
       "slug": "Noise",
       "name": "Noise",
-      "description": "",
+      "description": "Noise generator with white, pink, brown and variable colored noise outputs",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#Noise",
       "tags": [
         "Noise"
       ]
@@ -96,7 +105,8 @@
     {
       "slug": "Phaser",
       "name": "Phaser",
-      "description": "",
+      "description": "2-20 stage phaser distortion effect",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#Phaser",
       "tags": [
         "Effect"
       ]
@@ -104,7 +114,8 @@
     {
       "slug": "RandomSource",
       "name": "Random Source",
-      "description": "",
+      "description": "Random source that produces variable shape staircase waveforms",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#RandomSource",
       "tags": [
         "Sample and hold",
         "Random"
@@ -113,7 +124,8 @@
     {
       "slug": "Ring",
       "name": "Ring",
-      "description": "",
+      "description": "Dual ring modulator",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#Ring",
       "tags": [
         "Effect"
       ]
@@ -121,7 +133,8 @@
     {
       "slug": "SimpleSlider",
       "name": "Simple Slider",
-      "description": "",
+      "description": "Dual input VCA/Crossfader slider",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#SimpleSlider",
       "tags": [
         "Mixer",
         "Amplifier"
@@ -130,7 +143,8 @@
     {
       "slug": "CrazyMult",
       "name": "CrazyMult",
-      "description": "",
+      "description": "8 way dual output signal router",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#CrazyMult",
       "tags": [
         "Multiple"
       ]
@@ -138,7 +152,8 @@
     {
       "slug": "PAN-VCA",
       "name": "PAN-VCA",
-      "description": "",
+      "description": "Stereo VCA/PAN combination",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#PANVCA",
       "tags": [
         "Amplifier",
         "Panning"
@@ -147,7 +162,8 @@
     {
       "slug": "OSCiX",
       "name": "OSCiX",
-      "description": "",
+      "description": "Advanced dual oscillator/LFO with a built-in wave folder",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#OSCiX",
       "tags": [
         "Oscillator"
       ]
@@ -155,7 +171,8 @@
     {
       "slug": "Rogue",
       "name": "Rogue",
-      "description": "",
+      "description": "OSCiX's little brother. Advanced oscillator/LFO with multiple waveform type outputs",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#Rogue",
       "tags": [
         "Oscillator"
       ]
@@ -163,7 +180,8 @@
     {
       "slug": "Wavefolder",
       "name": "Wavefolder",
-      "description": "",
+      "description": "Advanced wave folder with variable symmetry controls",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#Wavefolder",
       "tags": [
         "Waveshaper"
       ]
@@ -171,7 +189,8 @@
     {
       "slug": "WaveShaper",
       "name": "WaveShaper",
-      "description": "",
+      "description": "Unique wave folder with multiple folding algorithms",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#WaveShaper",
       "tags": [
         "Waveshaper"
       ]
@@ -179,7 +198,8 @@
     {
       "slug": "XSEQ",
       "name": "XSEQ",
-      "description": "",
+      "description": "Boolean logic sequencer",
+      "manualUrl": "https://github.com/netboy3/MSM-vcvrack-plugin#XSEQ",
       "tags": [
         "Logic",
         "Random"

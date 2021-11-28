@@ -10,20 +10,25 @@
   "manualUrl": "https://github.com/cschol/modular80/blob/master/README.md",
   "sourceUrl": "https://github.com/cschol/modular80.git",
   "changelogUrl": "https://github.com/cschol/modular80/blob/v1/CHANGELOG.md",
-  "version": "1.0.3",
+  "donateUrl": "",
+  "version": "2.0.0",
   "modules": [
     {
       "slug": "Logistiker",
       "name": "Logistiker",
       "description": "Chaotic CV generator based on Logistics equation",
+      "manualUrl": "https://github.com/cschol/modular80/blob/v2/README.md#logistiker",
       "tags": [
-        "Random"
+        "Random",
+        "Sample and hold"
       ]
     },
     {
       "slug": "RadioMusic",
       "name": "Radio Music",
       "description": "The Music Thing Modular Radio Music is a sampler pretending to be a radio",
+      "manualUrl": "https://github.com/cschol/modular80/blob/v2/README.md#radio-music",
+      "modularGridUrl": "https://www.modulargrid.net/e/music-thing-modular-radio-music",
       "tags": [
         "Sampler",
         "Hardware clone"
@@ -33,9 +38,11 @@
       "slug": "Nosering",
       "name": "Nosering",
       "description": "Interpretation of Grant Richter's Noisering design",
+      "manualUrl": "https://github.com/cschol/modular80/blob/v2/README.md#nosering",
       "tags": [
         "Noise",
-        "Random"
+        "Random",
+        "Sample and hold"
       ]
     }
   ]

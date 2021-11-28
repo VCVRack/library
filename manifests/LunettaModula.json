@@ -1,7 +1,7 @@
 {
   "slug": "LunettaModula",
   "name": "Lunetta Modula by Count Modula",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "license": "GPL-3.0-only",
   "brand": "Lunetta Modula",
   "author": "Adam Verspaget",
@@ -351,6 +351,22 @@
       "slug": "CD4008",
       "name": "CD4008 4-Bit Full Adder With Parallel Carry Out",
       "description": "4-Bit Full Adder With Parallel Carry Out",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4514",
+      "name": "CD4514 4-Bit Latched/4-to-16 Line Decoder (Active High Outputs)",
+      "description": "4-Bit Latched/4-to-16 Line Decoder with Active High Outputs)",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4515",
+      "name": "CD4515 4-Bit Latched/4-to-16 Line Decoder (Active Low Outputs)",
+      "description": "4-Bit Latched/4-to-16 Line Decoder with Active Low Outputs",
       "tags": [
         "Logic"
       ]
