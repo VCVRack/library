@@ -1,10 +1,11 @@
 {
   "slug": "Befaco",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
+  "brand": "Befaco",
   "author": "VCV, Ewan Hemingway",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "pluginUrl": "https://vcvrack.com/Befaco",
   "authorUrl": "https://vcvrack.com/",
   "sourceUrl": "https://github.com/VCVRack/Befaco",
@@ -200,7 +201,6 @@
       "tags": [
         "Hardware clone",
         "Mixer",
-        "Stereo",
         "Polyphonic"
       ]
     },
