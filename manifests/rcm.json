@@ -2,13 +2,13 @@
   "slug": "rcm",
   "name": "RCM",
   "brand": "RCM",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "license": "GPL-2.0-or-later",
   "author": "RCM",
   "authorEmail": "rcmmodules@tupper.org.uk",
   "authorUrl": "https://github.com/Rcomian",
   "pluginUrl": "https://github.com/Rcomian/rcm-modules",
-  "manualUrl": "https://github.com/Rcomian/rcm-modules/blob/v0.6/README.md",
+  "manualUrl": "https://github.com/Rcomian/rcm-modules/blob/v2/README.md",
   "sourceUrl": "https://github.com/Rcomian/rcm-modules",
   "donateUrl": "",
   "modules": [
@@ -99,14 +99,6 @@
       "description": "Simple Piano Roll for sequencing",
       "tags": [
         "Sequencer"
-      ]
-    },
-    {
-      "slug": "AudioInterface16",
-      "name": "Audio Interface 16",
-      "description": "A reskin of the Audio16 Interface (only kept for backwards compat)",
-      "tags": [
-        "External"
       ]
     }
   ]

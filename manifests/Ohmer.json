@@ -1,14 +1,14 @@
 {
   "slug": "Ohmer",
-  "name": "Ohmer Modules",
-  "version": "1.1.6",
+  "name": "Ohmer",
+  "version": "2.0.0-beta 4",
   "license": "BSD-3-Clause",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
   "authorEmail": "docam@free.fr",
   "authorUrl": "https://github.com/DomiKamu",
   "pluginUrl": "https://github.com/DomiKamu/Ohmer",
-  "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v1/README.md",
+  "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/README.md",
   "sourceUrl": "https://github.com/DomiKamu/Ohmer.git",
   "donateUrl": "",
   "modules": [
@@ -25,6 +25,7 @@
       "slug": "RKD",
       "name": "RKD (Rotate Klok Divider)",
       "description": "Rotate Klok Divider (RKD) module (inspired from 4ms RCD hardware)",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/res/Manuals/RKD%20%26%20BRK%20User's%20Manual.pdf",
       "tags": [
         "Clock modulator"
       ]
@@ -33,6 +34,7 @@
       "slug": "BRK",
       "name": "BRK (\"Break\") expander for RKD",
       "description": "BRK (\"Break\") expander to setup RKD jumpers (inspired from 4ms BO hardware)",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/res/Manuals/RKD%20%26%20BRK%20User's%20Manual.pdf",
       "tags": [
         "Clock modulator",
         "Expander"
