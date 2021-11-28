@@ -1,7 +1,7 @@
 {
   "slug": "Sha-Bang-Modules",
   "name": "Sha#Bang! Modules",
-  "version": "1.3.6",
+  "version": "2.0.0",
   "license": "GPL-3.0-only",
   "author": "Jeremy Muller",
   "authorEmail": "jeremy@jeremymuller.com",
@@ -144,6 +144,15 @@
         "Sequencer",
         "Visual",
         "Logic"
+      ]
+    },
+    {
+      "slug": "StochSeq4X",
+      "name": "Stochastic Sequencer 4 Expander",
+      "description": "Expander for the StochSeq4",
+      "tags": [
+        "Expander",
+        "Sequencer"
       ]
     },
     {

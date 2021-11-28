@@ -1,11 +1,11 @@
 {
   "slug": "Sckitam",
   "name": "Sckitam",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "license": "GPL-3.0-only",
   "brand": "Sckitam",
   "author": "Philippe Salembier",
-  "authorEmail": "",
+  "authorEmail": "philippe.salembier@me.com",
   "authorUrl": "",
   "pluginUrl": "",
   "manualUrl": "https://github.com/philippesalembier/SckitamVCV",
@@ -29,6 +29,15 @@
       "tags": [
         "Utility",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "FIFOQueue",
+      "name": "FIFOQueue",
+      "description": "First-in First-out Queue",
+      "tags": [
+        "Sample and hold",
+        "Sequencer"
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
   "slug": "RPJ",
   "name": "RPJ",
-  "version": "1.0.4",
+  "version": "2.0.3",
   "license": "GPL-3.0-or-later",
   "brand": "RPJ",
   "author": "Robert Kock",
@@ -17,6 +17,7 @@
       "slug": "Grendel",
       "name": "Grendel",
       "description": "Quadruple low frequency oscillator, inspired by XAOC Batumi",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/grendel.md",
       "tags": [
         "LFO"
       ]
@@ -25,112 +26,160 @@
       "slug": "Lavender",
       "name": "Lavender",
       "description": "Module with 2nd order LPF, HPF, BPF and BSF",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/lavender.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Easter",
       "name": "Easter",
       "description": "Module with 2 resonators",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/easter.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic"
       ]
     },
     {
       "slug": "DryLand",
       "name": "DryLand",
       "description": "Module with 1st order LPF and HPF",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/dryland.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic"
       ]
     },
     {
       "slug": "TheWeb",
       "name": "TheWeb",
       "description": "Module with 2nd order Butterworth LPF, HPF, BPF and BSF",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/theweb.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Gazpacho",
       "name": "Gazpacho",
       "description": "Module with 2nd order Linkwitz-Riley LPF and HPF",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/gazpacho.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Estonia",
       "name": "Estonia",
       "description": "Estonia is a 1st order High and Low shelving filter.",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/estonia.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Brave",
       "name": "Brave",
       "description": "Brave is a 2nd Order Parametric EQ Filter: Non constant Q.",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/brave.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Essence",
       "name": "Essence",
       "description": "Essence is a 2nd Order Parametric EQ Filter with a constant Q.",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/essence.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic"
       ]
     },
     {
       "slug": "LadyNina",
       "name": "LadyNina",
       "description": "LadyNina is a 2nd order SFV (LPF, HPF, BPF, BSF)",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/ladynina.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic"
       ]
     },
     {
       "slug": "SugarMice",
       "name": "SugarMice",
       "description": "3rd order Butterworth low-pass ladder filter.",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/sugarmice.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Montreal",
       "name": "Montreal",
       "description": "Ideal 2nd Order RLC Filters LPF, HPF, BPF and BSF",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/montreal.md",
       "tags": [
-        "VCF"
+        "VCF",
+        "Polyphonic"
       ]
     },
     {
       "slug": "BlindCurve",
       "name": "BlindCurve",
       "description": "Audio Detector",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/blindcurve.md",
       "tags": [
-        "Envelope Follower"
+        "Envelope Follower",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Gaza",
       "name": "Gaza",
       "description": "Envelope Follower",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/gaza.md",
       "tags": [
-        "Envelope Follower"
+        "Envelope Follower",
+        "Polyphonic"
       ]
     },
     {
       "slug": "CircularRide",
       "name": "CircularRide",
       "description": "Stereo Delay",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/circularride.md",
       "tags": [
-        "Delay"
+        "Delay",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "DrillingHoles",
+      "name": "DrillingHoles",
+      "description": "Normalizer",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/drillingholes.md",
+      "tags": [
+        "Utility",
+        "Switch",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TuxOn",
+      "name": "TuxOn",
+      "description": "Audio player",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/tuxon.md",
+      "tags": [
+        "Utility"
       ]
     }
   ]

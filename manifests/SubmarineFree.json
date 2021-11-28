@@ -9,14 +9,15 @@
   "sourceUrl": "https://github.com/david-c14/SubmarineFree",
   "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/index.md",
   "donateUrl": "https://www.paypal.me/SubmarineFree",
-  "pluginUrl": "https://github.com/david-c14/SubmarineFree/blob/main/README.md",
+  "pluginUrl": "https://vcvrack.submarine.org.uk",
   "changelogUrl": "https://github.com/david-c14/SubmarineFree/blob/main/changelog.md",
-  "version": "1.1.10",
+  "version": "2.0.0",
   "modules": [
     {
       "slug": "AG-104",
       "name": "AG-104",
       "description": "AG-104 AND Gates",
+      "keywords": "Quad Four Digital Logic And Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AG.md",
       "tags": [
         "LOGIC",
@@ -27,6 +28,7 @@
       "slug": "AG-106",
       "name": "AG-106",
       "description": "AG-106 AND Gates",
+      "keywords": "Hex Six Digital Logic And Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AG.md",
       "tags": [
         "LOGIC",
@@ -37,6 +39,7 @@
       "slug": "AG-202",
       "name": "AG-202",
       "description": "AG-202 4-input Polyphonic AND Gates",
+      "keywords": "Dual Two Digital Logic And Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AG.md",
       "tags": [
         "LOGIC",
@@ -48,6 +51,7 @@
       "slug": "A0-106",
       "name": "AO-106",
       "description": "AO-106 Arithmetic Operators",
+      "keywords": "Hex Six Maths Algoritmm Arthimetic Operators",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AO.md",
       "tags": [
         "UTILITY",
@@ -58,6 +62,7 @@
       "slug": "A0-112",
       "name": "AO-112",
       "description": "AO-112 Arithmetic Operators",
+      "keywords": "Twelve Maths Algoritmm Arthimetic Operators",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AO.md",
       "tags": [
         "UTILITY",
@@ -68,6 +73,7 @@
       "slug": "A0-118",
       "name": "AO-118",
       "description": "AO-118 Arithmetic Operators",
+      "keywords": "Eighteen Maths Algoritmm Arthimetic Operators",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AO.md",
       "tags": [
         "UTILITY",
@@ -78,6 +84,7 @@
       "slug": "A0-124",
       "name": "AO-124",
       "description": "AO-124 Arithmetic Operators",
+      "keywords": "Twenty Four Maths Algoritmm Arthimetic Operators",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AO.md",
       "tags": [
         "UTILITY",
@@ -88,6 +95,7 @@
       "slug": "A0-136",
       "name": "AO-136",
       "description": "AO-136 Arithmetic Operators",
+      "keywords": "Thirty Six Maths Algoritmm Arthimetic Operators",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AO.md",
       "tags": [
         "UTILITY",
@@ -98,6 +106,7 @@
       "slug": "BB-120",
       "name": "BB-120",
       "description": "BB-120 20-Stage Bucket Brigade Sample and Hold",
+      "keywords": "Digital Bucket Brigade Twenty Sample Hold",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/BB.md",
       "tags": [
         "LOGIC",
@@ -110,6 +119,7 @@
       "slug": "BP-101",
       "name": "BP-101",
       "description": "BP-101 Blanking Plate",
+      "keywords": "Blanking Plate",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/BP.md",
       "tags": [
         "BLANK"
@@ -119,6 +129,7 @@
       "slug": "BP-102",
       "name": "BP-102",
       "description": "BP-102 Blanking Plate",
+      "keywords": "Blanking Plate",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/BP.md",
       "tags": [
         "BLANK"
@@ -128,6 +139,7 @@
       "slug": "BP-104",
       "name": "BP-104",
       "description": "BP-104 Blanking Plate",
+      "keywords": "Blanking Plate",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/BP.md",
       "tags": [
         "BLANK"
@@ -137,6 +149,7 @@
       "slug": "BP-108",
       "name": "BP-108",
       "description": "BP-108 Blanking Plate",
+      "keywords": "Blanking Plate",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/BP.md",
       "tags": [
         "BLANK"
@@ -146,6 +159,7 @@
       "slug": "BP-110",
       "name": "BP-110",
       "description": "BP-110 Blanking Plate",
+      "keywords": "Blanking Plate",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/BP.md",
       "tags": [
         "BLANK"
@@ -155,6 +169,7 @@
       "slug": "BP-112",
       "name": "BP-112",
       "description": "BP-112 Blanking Plate",
+      "keywords": "Blanking Plate",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/BP.md",
       "tags": [
         "BLANK"
@@ -164,6 +179,7 @@
       "slug": "BP-116",
       "name": "BP-116",
       "description": "BP-116 Blanking Plate",
+      "keywords": "Blanking Plate",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/BP.md",
       "tags": [
         "BLANK"
@@ -173,6 +189,7 @@
       "slug": "BP-120",
       "name": "BP-120",
       "description": "BP-120 Blanking Plate",
+      "keywords": "Blanking Plate",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/BP.md",
       "tags": [
         "BLANK"
@@ -182,6 +199,7 @@
       "slug": "BP-124",
       "name": "BP-124",
       "description": "BP-124 Blanking Plate",
+      "keywords": "Blanking Plate",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/BP.md",
       "tags": [
         "BLANK"
@@ -191,6 +209,7 @@
       "slug": "BP-132",
       "name": "BP-132",
       "description": "BP-132 Blanking Plate",
+      "keywords": "Blanking Plate",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/BP.md",
       "tags": [
         "BLANK"
@@ -200,6 +219,7 @@
       "slug": "DN-112",
       "name": "DN-112",
       "description": "DN-112 Digital Noise",
+      "keywords": "Twelve Digital Random Noise",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/DN.md",
       "tags": [
         "DIGITAL",
@@ -211,6 +231,7 @@
       "slug": "DO-105",
       "name": "DO-105",
       "description": "DO-105 Digital Operators",
+      "keywords": "Five Digital Logic Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/DO.md",
       "tags": [
         "LOGIC",
@@ -222,6 +243,7 @@
       "slug": "DO-110",
       "name": "DO-110",
       "description": "DO-110 Digital Operators",
+      "keywords": "Ten Digital Logic Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/DO.md",
       "tags": [
         "LOGIC",
@@ -233,6 +255,7 @@
       "slug": "DO-115",
       "name": "DO-115",
       "description": "DO-115 Digital Operators",
+      "keywords": "Fifteen Digital Logic Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/DO.md",
       "tags": [
         "LOGIC",
@@ -244,6 +267,7 @@
       "slug": "DO-120",
       "name": "DO-120",
       "description": "DO-120 Digital Operators",
+      "keywords": "Twenty Digital Logic Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/DO.md",
       "tags": [
         "LOGIC",
@@ -255,6 +279,7 @@
       "slug": "EN-104",
       "name": "EN-104",
       "description": "EN-104 Quad ADSR Enveloper Generator",
+      "keywords": "Quad Four ADSR Linear Envelope",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/EN.md",
       "tags": [
         "ENVELOPE GENERATOR",
@@ -266,6 +291,7 @@
       "slug": "EO-102",
       "name": "EO-102",
       "description": "EO-102 Envelope Oscilloscope",
+      "keywords": "Dual Two Envelope Oscilloscope Scope",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/EO.md",
       "tags": [
         "VISUAL"
@@ -275,6 +301,7 @@
       "slug": "FF-110",
       "name": "FF-110",
       "description": "FF-110 10-Stage Flip-Flop Counter",
+      "keywords": "Ten Flip Flop Digital Counter Clock Divider",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/FF.md",
       "tags": [
         "LOGIC",
@@ -285,6 +312,7 @@
       "slug": "FF-120",
       "name": "FF-120",
       "description": "FF-120 20-Stage Flip-Flop Counter",
+      "keywords": "Twenty Flip Flop Digital Counter Clock Divider",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/FF.md",
       "tags": [
         "LOGIC",
@@ -295,6 +323,7 @@
       "slug": "FF-206",
       "name": "FF-206",
       "description": "FF-206 Edge Triggered Flip-Flops",
+      "keywords": "Hex Six Flip Flop Digital",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/FF.md",
       "tags": [
         "LOGIC",
@@ -305,6 +334,7 @@
       "slug": "FF-212",
       "name": "FF-212",
       "description": "FF-212 Edge Triggered Flip-Flops",
+      "keywords": "Twelve Flip Flop Digital",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/FF.md",
       "tags": [
         "LOGIC",
@@ -315,6 +345,7 @@
       "slug": "HS-101",
       "name": "HS-101",
       "description": "HS-101 Hi-Res Storage Oscilloscope",
+      "keywords": "High Resolution Storage Oscilloscope Scope",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/HS.md",
       "tags": [
         "VISUAL"
@@ -324,6 +355,7 @@
       "slug": "LA-108",
       "name": "LA-108",
       "description": "LA-108 Logic Analyser",
+      "keywords": "Digital Logic Analyser Oct Eight Oscilloscope Scope",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/LA.md",
       "tags": [
         "LOGIC",
@@ -334,6 +366,7 @@
       "slug": "LD-103",
       "name": "LD-103",
       "description": "LD-103 Schmitt Trigger Line Drivers",
+      "keywords": "Tri Three Schmitt Trigger Line Driver Digital",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/LD.md",
       "tags": [
         "LOGIC",
@@ -344,6 +377,7 @@
       "slug": "LD-106",
       "name": "LD-106",
       "description": "LD-106 Schmitt Trigger Line Drivers",
+      "keywords": "Hex Six Schmitt Trigger Line Driver Digital",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/LD.md",
       "tags": [
         "LOGIC",
@@ -354,6 +388,7 @@
       "slug": "LT-116",
       "name": "LT-116",
       "description": "LT-116 Linear Transformations",
+      "keywords": "Linear Transform Matrix Polyphonic Cross Mixer",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/LT.md",
       "tags": [
         "UTILITY",
@@ -364,6 +399,7 @@
       "slug": "MZ-909",
       "name": "MZ-909",
       "description": "MZ-909 Masterizer",
+      "keywords": "Useless Dummy Masterizer Mastererizer",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/MZ.md",
       "tags": [
         "POLYPHONIC"
@@ -373,6 +409,7 @@
       "slug": "NG-106",
       "name": "NG-106",
       "description": "NG-106 NOT Gates",
+      "keywords": "Hex Six Digital Logic Not Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/NG.md",
       "tags": [
         "LOGIC",
@@ -383,6 +420,7 @@
       "slug": "NG-112",
       "name": "NG-112",
       "description": "NG-112 NOT Gates",
+      "keywords": "Twelve Digital Logic Not Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/NG.md",
       "tags": [
         "LOGIC",
@@ -393,6 +431,7 @@
       "slug": "NG-206",
       "name": "NG-206",
       "description": "NG-206 Polyphonic NOT Gates",
+      "keywords": "Hex Six Digital Logic Not Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/NG.md",
       "tags": [
         "LOGIC",
@@ -404,6 +443,7 @@
       "slug": "OA-103",
       "name": "OA-103",
       "description": "OA-103 Op-Amps",
+      "keywords": "Tri Three Digital Operation Amplifier Comparator",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/OA.md",
       "tags": [
         "LOGIC",
@@ -414,6 +454,7 @@
       "slug": "OA-105",
       "name": "OA-105",
       "description": "OA-105 Op-Amps",
+      "keywords": "Five Digital Operation Amplifier Comparator",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/OA.md",
       "tags": [
         "LOGIC",
@@ -424,6 +465,7 @@
       "slug": "OG-104",
       "name": "OG-104",
       "description": "OG-104 OR Gates",
+      "keywords": "Quad Four Digital Logic Or Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/OG.md",
       "tags": [
         "LOGIC",
@@ -433,6 +475,7 @@
     {
       "slug": "OG-106",
       "name": "OG-106",
+      "keywords": "Hex Six Digital Logic Or Gates",
       "description": "OG-106 OR Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/OG.md",
       "tags": [
@@ -444,6 +487,7 @@
       "slug": "OG-202",
       "name": "OG-202",
       "description": "OG-202 4-Channel Polyphonic OR Gates",
+      "keywords": "Dual Two Digital Logic Or Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/OG.md",
       "tags": [
         "LOGIC",
@@ -455,6 +499,7 @@
       "slug": "PG-104",
       "name": "PG-104",
       "description": "PG-104 Pulse Generators",
+      "keywords": "Quad Four Digital Pulse Generator Timing",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/PG.md",
       "tags": [
         "LOGIC",
@@ -465,6 +510,7 @@
       "slug": "PG-112",
       "name": "PG-112",
       "description": "PG-112 Pulse Generators",
+      "keywords": "Twelve Digital Pulse Generator Timing",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/PG.md",
       "tags": [
         "LOGIC",
@@ -475,6 +521,7 @@
       "slug": "PO-101",
       "name": "PO-101",
       "description": "PO-101 Phased VCO",
+      "Keywords": "Phase Oscillator VCO",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/PO.md",
       "tags": [
         "OSCILLATOR",
@@ -486,6 +533,7 @@
       "slug": "PO-102",
       "name": "PO-102",
       "description": "PO-102 Phased LFO",
+      "keywords": "Phase Oscillator LFO",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/PO.md",
       "tags": [
         "OSCILLATOR",
@@ -497,6 +545,7 @@
       "slug": "PO-204",
       "name": "PO-204",
       "description": "PO-204 Phase Modulation Engine",
+      "keywords": "Phase Oscillator Quad Four Modulation",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/PO.md",
       "tags": [
         "OSCILLATOR",
@@ -508,6 +557,7 @@
       "slug": "SN-101",
       "name": "SN-101",
       "description": "SN-101 Smooth Noise Generator",
+      "keywords": "Smooth Random Noise LFO VCO Perlin Simplex",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/SN.md",
       "tags": [
         "OSCILLATOR",
@@ -518,6 +568,7 @@
       "slug": "SS-112",
       "name": "SS-112",
       "description": "SS-112 12 Input Sinks",
+      "keywords": "Twelve Sink",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/SS.md",
       "tags": [
         "UTILITY"
@@ -527,6 +578,7 @@
       "slug": "SS-208",
       "name": "SS-208",
       "description": "SS-208 8 Irrational Output Voltage Sources",
+      "keywords": "Irrational Number Constant Voltage",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/SS.md",
       "tags": [
         "UTILITY"
@@ -536,6 +588,7 @@
       "slug": "SS-212",
       "name": "SS-212",
       "description": "SS-212 12 Chromatic Output Voltage Sources",
+      "keywords": "Constant Voltage Chromatic Tuned",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/SS.md",
       "tags": [
         "UTILITY"
@@ -545,6 +598,7 @@
       "slug": "SS-220",
       "name": "SS-220",
       "description": "SS-220 120 Chromatic Output Voltage Sources",
+      "keywords": "Constant Voltage Chromatic Tuned",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/SS.md",
       "tags": [
         "UTILITY"
@@ -554,6 +608,7 @@
       "slug": "SS-221",
       "name": "SS-221",
       "description": "SS-221 21 Output Voltage Sources",
+      "keywords": "Constant Voltage Chromatic Tuned",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/SS.md",
       "tags": [
         "UTILITY"
@@ -562,7 +617,7 @@
     {
       "slug": "TD-116",
       "name": "TD-116",
-      "description": "TD-116 Text Display",
+      "deprecated": true,
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/TD.md",
       "tags": [
         "VISUAL"
@@ -572,6 +627,7 @@
       "slug": "TD-202",
       "name": "TD-202",
       "description": "TD-202 Vertical Text Display",
+      "keywords": "Text Display Formattable",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/TD.md",
       "tags": [
         "VISUAL"
@@ -581,6 +637,7 @@
       "slug": "TD-316",
       "name": "TD-316",
       "description": "TD-316 Text Display",
+      "keywords": "Text Display Formattable",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/TD.md",
       "tags": [
         "VISUAL"
@@ -590,6 +647,7 @@
       "slug": "TD-410",
       "name": "TD-410",
       "description": "TD-410 Text Display",
+      "keywords": "Text Display Formattable",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/TD.md",
       "tags": [
         "VISUAL"
@@ -599,6 +657,7 @@
       "slug": "TD-510",
       "name": "TD-510",
       "description": "TD-510 Vertical Text Display",
+      "keywords": "Text Display Formattable",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/TD.md",
       "tags": [
         "VISUAL"
@@ -608,6 +667,7 @@
       "slug": "TF-101",
       "name": "TF-101",
       "description": "TF-101 Text Display Format Control",
+      "keywords": "Text Display Formatting",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/TF.md",
       "tags": [
         "VISUAL"
@@ -617,6 +677,7 @@
       "slug": "TF-102",
       "name": "TF-102",
       "description": "TF-102 Text Display Format Control",
+      "keywords": "Text Display Formatting",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/TF.md",
       "tags": [
         "VISUAL"
@@ -624,33 +685,50 @@
     },
     {
       "slug": "TM-105",
-      "name": "TM-105",
-      "description": "TM-105 Torpedo Message Merge",
-      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/TM.md",
+      "name": "Obsolete",
+      "deprecated": true,
+      "description": "This was Torpedo Merge TM-105",
       "tags": [
-        "UTILITY"
+        "BLANK"
       ]
     },
     {
       "slug": "VM-101",
       "name": "VM-101",
       "description": "VM-101 VU-Meter",
+      "keywords": "Meter VU RMS Peak",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/VM.md",
       "tags": [
         "UTILITY",
         "VISUAL",
-        "HARDWARE"
+        "HARDWARE",
+        "POLYPHONIC"
       ]
     },
     {
       "slug": "VM-102",
       "name": "VM-102",
       "description": "VM-102 2-Channel VU-Meter",
+      "keywords": "Dual Two Meter VU RMS Peak",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/VM.md",
       "tags": [
         "UTILITY",
         "VISUAL",
         "DUAL",
+        "POLYPHONIC",
+        "HARDWARE"
+      ]
+    },
+    {
+      "slug": "VM-104",
+      "name": "VM-104",
+      "description": "VM-104 4-Channel VU-Meter",
+      "keywords": "Quad Four Meter VU RMS Peak",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/VM.md",
+      "tags": [
+        "UTILITY",
+        "VISUAL",
+        "QUAD",
         "POLYPHONIC",
         "HARDWARE"
       ]
@@ -659,17 +737,20 @@
       "slug": "VM-201",
       "name": "VM-201",
       "description": "VM-201 Vintage VU-Meter",
+      "keywords": "Meter VU RMS Peak Vintage Needle",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/VM.md",
       "tags": [
         "UTILITY",
         "VISUAL",
-        "HARDWARE"
+        "HARDWARE",
+        "POLYPHONIC"
       ]
     },
     {
       "slug": "VM-202",
       "name": "VM-202",
       "description": "VM-202 2-Channel Vintage VU-Meter",
+      "keywords": "Dual Two Meter VU RMS Peak Vintage Needle",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/VM.md",
       "tags": [
         "UTILITY",
@@ -680,9 +761,24 @@
       ]
     },
     {
+      "slug": "VM-204",
+      "name": "VM-204",
+      "description": "VM-204 4-Channel Vintage VU-Meter",
+      "keywords": "Quad Four Meter VU RMS Peak Vintage Needle",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/VM.md",
+      "tags": [
+        "UTILITY",
+        "VISUAL",
+        "QUAD",
+        "POLYPHONIC",
+        "HARDWARE"
+      ]
+    },
+    {
       "slug": "WK-101",
       "name": "WK-101",
       "description": "WK-101 Das Wohltemperierte Klavier",
+      "keywords": "Quantizer Scala Tuning",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/WK.md",
       "tags": [
         "QUANTIZER",
@@ -693,6 +789,7 @@
       "slug": "WK-205",
       "name": "WK-205",
       "description": "WK-205 Das Wohltemperierte Klavier Nano",
+      "keywords": "Quantizer Scala Tuning",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/WK.md",
       "tags": [
         "QUANTIZER",
@@ -704,6 +801,7 @@
       "slug": "WM-101",
       "name": "WM-101",
       "description": "WM-101 Wire Manager",
+      "keywords": "Wire Cable Color Colour",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/WM.md",
       "tags": [
         "UTILITY"
@@ -713,6 +811,7 @@
       "slug": "WM-102",
       "name": "WM-102",
       "description": "WM-102 Wire Manager Billboard",
+      "keywords": "Wire Cable Color Colour Billboard Display Key",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/WM.md",
       "tags": [
         "BLANK",
@@ -723,6 +822,7 @@
       "slug": "XF-101",
       "name": "XF-101",
       "description": "XF-101 Single Mono Cross Fader",
+      "keywords": "Single Mono One Cross Fader",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/XF.md",
       "tags": [
         "MIXER"
@@ -732,6 +832,7 @@
       "slug": "XF-102",
       "name": "XF-102",
       "description": "XF-102 Dual Mono Cross Fader",
+      "keywords": "Dual Mono Two Cross Fader",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/XF.md",
       "tags": [
         "MIXER",
@@ -742,6 +843,7 @@
       "slug": "XF-104",
       "name": "XF-104",
       "description": "XF-104 Quad Mono Cross Fader",
+      "keywords": "Quad Mono Four Cross Fader",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/XF.md",
       "tags": [
         "MIXER",
@@ -752,6 +854,7 @@
       "slug": "XF-201",
       "name": "XF-201",
       "description": "XF-201 Single Stereo Cross Fader",
+      "keywords": "Single Stereo One Cross Fader",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/XF.md",
       "tags": [
         "MIXER"
@@ -761,6 +864,7 @@
       "slug": "XF-202",
       "name": "XF-202",
       "description": "XF-202 Dual Stereo Cross Fader",
+      "keywords": "Dual Stereo Two Cross Fader",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/XF.md",
       "tags": [
         "MIXER",
@@ -771,6 +875,7 @@
       "slug": "XF-301",
       "name": "XF-301",
       "description": "XF-301 Small Form Factor Stereo Cross Fader",
+      "keywords": "Single Stereo One Cross Fader",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/XF.md",
       "tags": [
         "MIXER"
@@ -780,6 +885,18 @@
       "slug": "XG-104",
       "name": "XG-104",
       "description": "XG-104 XOR Gates",
+      "keywords": "Quad Four Digital Logic Xor Gates",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/XG.md",
+      "tags": [
+        "LOGIC",
+        "MULTIPLE"
+      ]
+    },
+    {
+      "slug": "XG-106",
+      "name": "XG-106",
+      "description": "XG-106 XOR Gates",
+      "keywords": "Hex Six Digital Logic Xor Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/XG.md",
       "tags": [
         "LOGIC",
@@ -790,6 +907,7 @@
       "slug": "XG-202",
       "name": "XG-202",
       "description": "XG-202 4-Input Polyphonic XOR Gates",
+      "keywords": "Dual Two Digital Logic Xor Gates",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/XG.md",
       "tags": [
         "LOGIC",
@@ -798,18 +916,9 @@
       ]
     },
     {
-      "slug": "XG-106",
-      "name": "XG-106",
-      "description": "XG-106 XOR Gates",
-      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/XG.md",
-      "tags": [
-        "LOGIC",
-        "MULTIPLE"
-      ]
-    },
-    {
       "slug": "XX-219",
       "name": "Obsolete",
+      "deprecated": true,
       "description": "This was Secret Santa 2019",
       "tags": [
         "BLANK"
