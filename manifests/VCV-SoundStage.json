@@ -1,17 +1,15 @@
 {
   "slug": "VCV-SoundStage",
-  "name": "Sound Stage",
-  "version": "1.1.0",
-  "license": "proprietary",
+  "name": "VCV Sound Stage",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
   "brand": "VCV",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
   "pluginUrl": "https://vcvrack.com/SoundStage",
   "manualUrl": "https://vcvrack.com/SoundStage#manual",
   "changelogUrl": "https://vcvrack.com/SoundStage#changelog",
-  "sourceUrl": "",
-  "donateUrl": "",
   "modules": [
     {
       "slug": "SoundStage",

@@ -1,16 +1,15 @@
 {
   "slug": "VCV-Console",
-  "version": "1.0.1",
-  "license": "proprietary",
-  "name": "Console",
+  "name": "VCV Console",
+  "version": "2.0.1",
+  "license": "https://vcvrack.com/eula",
   "brand": "VCV",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
-  "pluginUrl": "https://vcvrack.com/Console.html",
-  "manualUrl": "https://vcvrack.com/Console.html#manual",
-  "sourceUrl": "",
-  "donateUrl": "",
+  "pluginUrl": "https://vcvrack.com/Console",
+  "manualUrl": "https://vcvrack.com/Console#manual",
+  "changelogUrl": "https://vcvrack.com/Console#changelog",
   "modules": [
     {
       "slug": "Console8_3",

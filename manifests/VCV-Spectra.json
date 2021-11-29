@@ -1,17 +1,15 @@
 {
   "slug": "VCV-Spectra",
-  "name": "Spectra",
-  "version": "1.0.2",
-  "license": "proprietary",
+  "name": "VCV Spectra",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
   "brand": "VCV",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
   "pluginUrl": "https://vcvrack.com/Spectra",
   "manualUrl": "https://vcvrack.com/Spectra#manual",
   "changelogUrl": "https://vcvrack.com/Spectra#changelog",
-  "sourceUrl": "",
-  "donateUrl": "",
   "modules": [
     {
       "slug": "Spectra",

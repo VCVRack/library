@@ -1,17 +1,15 @@
 {
   "slug": "VCV-Drums",
-  "version": "1.1.1",
+  "name": "VCV Drums",
+  "version": "2.1.1",
   "license": "https://vcvrack.com/eula",
-  "name": "Drums",
   "brand": "VCV",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
   "pluginUrl": "https://vcvrack.com/Drums",
   "manualUrl": "https://vcvrack.com/Drums#manual",
   "changelogUrl": "https://vcvrack.com/Drums#changelog",
-  "sourceUrl": "",
-  "donateUrl": "",
   "modules": [
     {
       "slug": "DrumMachine",

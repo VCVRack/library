@@ -1,16 +1,14 @@
 {
   "slug": "VCV-PulseMatrix",
-  "version": "1.0.0",
-  "license": "proprietary",
-  "name": "Pulse Matrix",
+  "name": "VCV Pulse Matrix",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
   "brand": "VCV",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
-  "pluginUrl": "https://vcvrack.com/PulseMatrix.html",
-  "manualUrl": "https://vcvrack.com/PulseMatrix.html#manual",
-  "sourceUrl": "",
-  "donateUrl": "",
+  "pluginUrl": "https://vcvrack.com/PulseMatrix",
+  "manualUrl": "https://vcvrack.com/PulseMatrix#manual",
   "modules": [
     {
       "slug": "PulseMatrix16",

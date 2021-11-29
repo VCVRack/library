@@ -1,10 +1,10 @@
 {
   "slug": "Grayscale",
   "name": "Grayscale",
-  "version": "1.0.2",
+  "version": "2.0.2",
   "license": "proprietary",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
   "pluginUrl": "https://grayscale.info/vcv-rack/",
   "changelogUrl": "https://vcvrack.com/Grayscale-changelog",
