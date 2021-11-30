@@ -1,22 +1,21 @@
 {
   "slug": "VCV-Parametra",
-  "name": "Parametra",
-  "version": "1.0.0",
-  "license": "proprietary",
+  "name": "VCV Parametra",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
   "brand": "VCV",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
-  "pluginUrl": "https://vcvrack.com/Parametra.html",
-  "manualUrl": "https://vcvrack.com/Parametra.html#manual",
-  "sourceUrl": "",
-  "donateUrl": "",
+  "pluginUrl": "https://vcvrack.com/Parametra",
+  "manualUrl": "https://vcvrack.com/Parametra#manual",
   "modules": [
     {
       "slug": "Parametra",
       "name": "Parametra",
       "description": "Parametric filter designer",
       "tags": [
+        "Equalizer",
         "VCF",
         "Visual"
       ]
