@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.19.1",
+  "version": "2.0.0",
   "modules": [
     {
       "slug": "Basal",
