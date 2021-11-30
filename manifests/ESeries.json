@@ -1,19 +1,21 @@
 {
   "slug": "ESeries",
   "name": "E-Series",
-  "version": "2.0.2",
-  "license": "GPL-3.0-or-later",
+  "version": "1.0.2",
+  "license": "GPL-3.0-only",
   "author": "VCV",
-  "authorEmail": "support@vcvrack.com",
+  "authorEmail": "contact@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/ESeries.html",
+  "manualUrl": "https://vcvrack.com/ESeries.html#manual",
   "sourceUrl": "https://github.com/VCVRack/ESeries",
-  "changelogUrl": "https://github.com/VCVRack/ESeries/blob/v2/CHANGELOG.md",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/VCVRack/ESeries/blob/v1/CHANGELOG.md",
   "modules": [
     {
       "slug": "E340",
       "name": "E340 Cloud Generator",
       "description": "Based on Synthesis Technology E340",
-      "manualUrl": "https://synthtech.com/eurorack/E340/",
       "modularGridUrl": "https://www.modulargrid.net/e/synthesis-technology-e340-cloud-generator",
       "tags": [
         "VCO",
