@@ -1,16 +1,15 @@
 {
   "slug": "VCV-Scalar",
-  "name": "Scalar",
-  "version": "1.0.0",
-  "license": "proprietary",
+  "name": "VCV Scalar",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
   "brand": "VCV",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
-  "pluginUrl": "https://vcvrack.com/Scalar.html",
-  "manualUrl": "https://vcvrack.com/Scalar.html#manual",
-  "sourceUrl": "",
-  "donateUrl": "",
+  "pluginUrl": "https://vcvrack.com/Scalar",
+  "manualUrl": "https://vcvrack.com/Scalar#manual",
+  "changelogUrl": "https://vcvrack.com/Scalar#changelog",
   "modules": [
     {
       "slug": "Scalar",

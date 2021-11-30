@@ -1,21 +1,21 @@
 {
   "slug": "VCV-Router",
-  "name": "Router",
-  "version": "1.0.1",
-  "license": "proprietary",
+  "name": "VCV Router",
+  "version": "2.0.1",
+  "license": "https://vcvrack.com/eula",
   "brand": "VCV",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
-  "pluginUrl": "https://vcvrack.com/Router.html",
-  "manualUrl": "https://vcvrack.com/Router.html#manual",
-  "sourceUrl": "",
-  "donateUrl": "",
+  "pluginUrl": "https://vcvrack.com/Router",
+  "manualUrl": "https://vcvrack.com/Router#manual",
+  "changelogUrl": "https://vcvrack.com/Router#changelog",
   "modules": [
     {
       "slug": "OctalRouter",
       "name": "Octal Router",
       "description": "Sequential switch matrix",
+      "changelogUrl": "https://vcvrack.com/Router#manual",
       "tags": [
         "Sequencer",
         "Switch"
@@ -25,6 +25,7 @@
       "slug": "Router1_4",
       "name": "Router 1:4",
       "description": "Sequential switch",
+      "changelogUrl": "https://vcvrack.com/Router#manual-14-41",
       "tags": [
         "Sequencer",
         "Switch"
@@ -34,6 +35,7 @@
       "slug": "Router4_1",
       "name": "Router 4:1",
       "description": "Sequential switch",
+      "changelogUrl": "https://vcvrack.com/Router#manual-14-41",
       "tags": [
         "Sequencer",
         "Switch"
