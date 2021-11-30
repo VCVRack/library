@@ -1,7 +1,7 @@
 {
   "slug": "ExpertSleepers-SilentWay",
   "name": "Silent Way",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "proprietary",
   "brand": "Expert Sleepers",
   "author": "Andrew Ostler",
@@ -16,25 +16,33 @@
       "slug": "ExpertSleepers-SilentWay-VoiceController",
       "name": "Voice Controller",
       "description": "",
-      "tags": []
+      "tags": [
+        "External"
+      ]
     },
     {
       "slug": "ExpertSleepers-SilentWay-ACEncoder",
       "name": "AC Encoder",
       "description": "",
-      "tags": []
+      "tags": [
+        "External"
+      ]
     },
     {
       "slug": "ExpertSleepers-SilentWay-CVInput",
       "name": "CV Input",
       "description": "",
-      "tags": []
+      "tags": [
+        "External"
+      ]
     },
     {
       "slug": "ExpertSleepers-SilentWay-CVToMIDI",
       "name": "CV To MIDI",
       "description": "",
-      "tags": []
+      "tags": [
+        "External"
+      ]
     }
   ]
 }

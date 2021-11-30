@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "1.19.1",
+  "version": "2.0.0",
   "modules": [
     {
       "slug": "Basal",
@@ -154,6 +154,15 @@
       "description": "Voltage Processor"
     },
     {
+      "slug": "Nitrous",
+      "name": "Nitrous",
+      "tags": [
+        "VCF",
+        "Polyphonic"
+      ],
+      "description": "Acid Filter"
+    },
+    {
       "slug": "Nopskate",
       "name": "Nopskate",
       "tags": [
@@ -193,15 +202,6 @@
         "Polyphonic"
       ],
       "description": "Dual Low Pass Gate/Filter"
-    },
-    {
-      "slug": "Nitrous",
-      "name": "Nitrous",
-      "tags": [
-        "VCF",
-        "Polyphonic"
-      ],
-      "description": "Acid Filter"
     },
     {
       "slug": "Punch",
