@@ -3,8 +3,8 @@ import os
 import glob
 import json
 import time
-import zipfile
 import re
+import tempfile
 
 import common
 import update_modulargrid
@@ -47,22 +47,26 @@ for plugin_path in plugin_paths:
 			continue
 		slug = manifest['slug']
 		version = manifest['version']
-	# TODO Extract manifest from .vcvplugin
-	elif plugin_ext == ".zip":
+	# Extract manifest from .vcvplugin
+	elif plugin_ext == ".vcvplugin":
 		m = re.match(r'^(.*)-(.*?)-(.*?)$', plugin_basename)
+		if not m:
+			raise Exception(f"Filename {plugin_path} invalid format")
 		slug = m[1]
 		version = m[2]
 		arch = m[3]
 		# Open ZIP
-		z = zipfile.ZipFile(plugin_path)
+		tempdir = tempfile.mkdtemp()
+		common.system(f'zstd -d < "{plugin_path}" | tar -x -C "{tempdir}"')
 		# Unzip manifest
-		manifest_filename = f"{slug}/plugin.json"
-		with z.open(manifest_filename) as f:
+		manifest_filename = os.path.join(tempdir, slug, "plugin.json")
+		with open(manifest_filename) as f:
 			manifest = json.load(f)
 		if manifest['slug'] != slug:
 			raise Exception(f"Manifest slug does not match filename slug {slug}")
 		if manifest['version'] != version:
-			raise Exception(f"Manifest slug does not match filename slug {slug}")
+			raise Exception(f"Manifest version does not match filename version {version}")
+		common.system(f'rm -rf "{tempdir}"')
 	else:
 		raise Exception(f"Plugin {plugin_path} is not a valid format")
 
@@ -98,7 +102,7 @@ for plugin_path in plugin_paths:
 		# Open plugin issue thread
 		os.system(f"xdg-open 'https://github.com/VCVRack/library/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+in%3Atitle+{slug}' &")
 
-	elif plugin_ext == ".zip":
+	elif plugin_ext == ".vcvplugin":
 		# Review manifest for errors
 		print(json.dumps(manifest, indent="  "))
 		print("Press enter to approve manifest")
