@@ -1,17 +1,15 @@
 {
   "slug": "VCV-Host",
-  "version": "1.3.1",
-  "license": "proprietary",
-  "name": "Host",
+  "name": "VCV Host",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
   "brand": "VCV",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
   "pluginUrl": "https://vcvrack.com/Host",
   "manualUrl": "https://vcvrack.com/Host#manual",
   "changelogUrl": "https://vcvrack.com/Host#changelog",
-  "sourceUrl": "",
-  "donateUrl": "",
   "modules": [
     {
       "slug": "Host",
