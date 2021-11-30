@@ -1,6 +1,6 @@
 {
   "slug": "cf",
-  "version": "1.1.1",
+  "version": "2.0.2",
   "license": "BSD-3-Clause",
   "name": "cf",
   "brand": "cf",
@@ -10,230 +10,241 @@
   "authorUrl": "https://github.com/cfoulc",
   "manualUrl": "https://github.com/cfoulc/cf",
   "sourceUrl": "https://github.com/cfoulc/cf",
+  "changelogUrl": "https://github.com/cfoulc/cf",
   "donateUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3CSNFE349G99Q",
   "modules": [
     {
       "slug": "METRO",
       "name": "Metro",
       "description": "Clock",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "CLOCK"
+        "Clock generator"
       ]
     },
     {
       "slug": "EACH",
       "name": "Each",
       "description": "Clock divider",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "UTILITY"
+        "Clock modulator"
       ]
     },
     {
       "slug": "trSEQ",
       "name": "trSeq",
       "description": "sequencer with per step inputs",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "SEQUENCER"
+        "Sequencer"
       ]
     },
     {
       "slug": "LEDSEQ",
       "name": "ledSeq",
       "description": "5x16 triggers sequencer",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "SEQUENCER"
+        "Sequencer"
       ]
     },
     {
       "slug": "L3DS3Q",
       "name": "l3dS3q",
       "description": "5x16 triggers sequencer",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "SEQUENCER"
-      ]
-    },
-    {
-      "slug": "L3DS3Q",
-      "name": "l3dS3q",
-      "description": "5x16 triggers sequencer",
-      "tags": [
-        "SEQUENCER"
+        "Sequencer"
       ]
     },
     {
       "slug": "SLIDERSEQ",
       "name": "SliderSeq",
       "description": "16 CVs sequencer",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "SEQUENCER"
+        "Sequencer"
       ]
     },
     {
       "slug": "PLAYER",
       "name": "Player",
       "description": "Sample player",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "SAMPLER"
+        "Sampler"
       ]
     },
     {
       "slug": "PLAY",
       "name": "Play",
       "description": "Mini sample player",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "SAMPLER"
+        "Sampler"
       ]
     },
     {
       "slug": "MONO",
       "name": "Mono",
       "description": "Modular mixer Mono Channel",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "MIXER"
+        "Mixer"
       ]
     },
     {
       "slug": "STEREO",
       "name": "Stereo",
       "description": "Modular mixer Stereo Channel",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "MIXER"
+        "Mixer"
       ]
     },
     {
       "slug": "SUB",
       "name": "Sub",
       "description": "Modular mixer Sends",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "MIXER"
+        "Mixer"
       ]
     },
     {
       "slug": "MASTER",
       "name": "Master",
       "description": "Modular mixer Master",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "MIXER"
+        "Mixer"
       ]
     },
     {
       "slug": "VARIABLE",
       "name": "Variable",
       "description": "Sample & Hold",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "UTILITY"
+        "Utility"
       ]
     },
     {
       "slug": "ALGEBRA",
       "name": "Algebra",
       "description": "2 signals math",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "UTILITY"
+        "Utility"
       ]
     },
     {
       "slug": "FUNKTION",
       "name": "Funktion",
       "description": "1 signal math",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "UTILITY"
+        "Utility"
       ]
     },
     {
       "slug": "CHOKE",
       "name": "Choke",
       "description": "hi hat style choker",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "UTILITY"
+        "Utility"
       ]
     },
     {
       "slug": "FOUR",
       "name": "Four",
       "description": "4 x solo/mute",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "UTILITY"
+        "Utility"
       ]
     },
     {
       "slug": "STEPS",
       "name": "Steps",
       "description": "quantiser",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "UTILITY"
+        "Utility"
       ]
     },
     {
       "slug": "PEAK",
       "name": "Peak",
       "description": "limiter",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "LIMITER"
+        "Limiter"
       ]
     },
     {
       "slug": "CUTS",
       "name": "Cuts",
       "description": "dirty HP & LP filters",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "FILTER"
+        "Filter"
       ]
     },
     {
       "slug": "BUFFER",
       "name": "Buffer",
       "description": "dirty delay buffer/filter",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "DELAY"
+        "Delay"
       ]
     },
     {
       "slug": "DISTO",
       "name": "Disto",
       "description": "dirty distortion",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "DISTORTION"
+        "Distortion"
       ]
     },
     {
       "slug": "CUBE",
       "name": "Cube",
       "description": "weird lfo",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "LFO"
+        "Low-frequency oscillator"
       ]
     },
     {
       "slug": "PATCH",
       "name": "Patch",
       "description": "patch bay",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "UTILITY"
+        "Utility"
       ]
     },
     {
       "slug": "LABEL",
       "name": "LABEL",
       "description": "label",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "VISUAL"
-      ]
-    },
-    {
-      "slug": "LEDS",
-      "name": "Leds",
-      "description": "leds",
-      "tags": [
-        "VISUAL"
+        "Visual"
       ]
     },
     {
       "slug": "DAVE",
       "name": "Dave",
       "description": "blank panel",
+      "manualUrl": "https://github.com/cfoulc/cf",
       "tags": [
-        "BLANK"
+        "Blank"
       ]
     }
   ]
