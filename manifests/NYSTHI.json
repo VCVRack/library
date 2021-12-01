@@ -1,7 +1,7 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "1.0.17",
+  "version": "2.0.6",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
@@ -107,6 +107,7 @@
       ]
     },
     {
+      "deprecated": true,
       "slug": "MasterRecorder",
       "name": "Stereo Recorder",
       "description": "Stereo wave recorder",
@@ -115,6 +116,7 @@
       ]
     },
     {
+      "deprecated": true,
       "slug": "MultiTrack",
       "name": "4/8 MultiTrack Recorder",
       "description": "Multichannel recorder",
@@ -140,6 +142,16 @@
       ]
     },
     {
+      "slug": "PolyRecorder64",
+      "name": "PolyRecorder64 64 tracks",
+      "description": "64 tracks recorder",
+      "tags": [
+        "Recording",
+        "Polyphonic"
+      ]
+    },
+    {
+      "deprecated": true,
       "slug": "MonoRecorder",
       "name": "1 channel Recorder",
       "description": "mono wave recorder",
@@ -214,6 +226,25 @@
         "Envelope generator",
         "Function generator",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SimplerFileControlExpander",
+      "name": "SimplerFileControlExpander",
+      "description": "Controller for files imported in complex Simpler and slim Simpler",
+      "tags": [
+        "Utility",
+        "Controller",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "slimSimpler",
+      "name": "slimSimpler Sample Player",
+      "description": "Sample player VCO",
+      "tags": [
+        "Sample player",
+        "VCO"
       ]
     },
     {
@@ -580,13 +611,6 @@
       ]
     },
     {
-      "slug": "SYNTHIKAT",
-      "name": "SYNTHIKAT",
-      "tags": [
-        "Visual"
-      ]
-    },
-    {
       "slug": "Phasor",
       "name": "Phasor",
       "description": "Graphic Harmonic VCO",
@@ -934,16 +958,6 @@
       ]
     },
     {
-      "disabled": true,
-      "slug": "b208_complex",
-      "name": "208 complex VCO",
-      "description": "Imitation of the Buchla 208 complex VCO from the Buchla Easel",
-      "tags": [
-        "Dual",
-        "VCO"
-      ]
-    },
-    {
       "slug": "b208_dualLPG",
       "name": "208 LPG",
       "description": "Imitation of the Buchla 208 dual LPG from the Buchla Easel",
@@ -1075,16 +1089,6 @@
       ]
     },
     {
-      "disabled": true,
-      "slug": "RoundAround",
-      "name": "RoundAround ",
-      "description": "Sampler Looper wanna be",
-      "tags": [
-        "Sampler",
-        "Granular"
-      ]
-    },
-    {
       "disabled": false,
       "slug": "MicrotonalHostHelper",
       "name": "MicrotonalHostHelper",
@@ -1142,7 +1146,6 @@
       ]
     },
     {
-      "disabled": false,
       "slug": "Sussudio",
       "name": "Sussudio",
       "description": "Multi head sample based oscillator",
@@ -1162,7 +1165,6 @@
       ]
     },
     {
-      "disabled": false,
       "slug": "MusicalBox",
       "name": "MusicalBox",
       "description": "Multi sampler with 8 oscillators",
@@ -1173,18 +1175,6 @@
       ]
     },
     {
-      "disabled": false,
-      "slug": "MusicalBox2",
-      "name": "MusicalBox2",
-      "description": "Multi sampler 16 stereo channels (max 2Mb samples)",
-      "tags": [
-        "Sampler",
-        "Quad",
-        "VCO"
-      ]
-    },
-    {
-      "disabled": false,
       "slug": "GateTrigMerger",
       "name": "GateTrigMerger",
       "description": "GATE or TRIG mixer/merger",
@@ -1197,7 +1187,6 @@
       ]
     },
     {
-      "disabled": false,
       "slug": "XYdisplay",
       "name": "ETCHASKETCHOSCOPE",
       "description": "XY visualizer",
@@ -1207,7 +1196,6 @@
       ]
     },
     {
-      "disabled": false,
       "slug": "ScaleOffset",
       "name": "Scale and Offset",
       "description": "Scale and offset voltages",
@@ -1218,7 +1206,6 @@
       ]
     },
     {
-      "disabled": false,
       "slug": "Interleaver",
       "name": "Interleaver",
       "description": "Poly channels (de)interleaver",
@@ -1228,7 +1215,6 @@
       ]
     },
     {
-      "disabled": false,
       "slug": "YYdisplay",
       "name": "YYdisplay",
       "description": "YY visualizer",
@@ -1238,17 +1224,6 @@
       ]
     },
     {
-      "disabled": false,
-      "slug": "PolyRecorder64",
-      "name": "PolyRecorder64 64 tracks",
-      "description": "64 tracks recorder",
-      "tags": [
-        "Recording",
-        "Polyphonic"
-      ]
-    },
-    {
-      "disabled": false,
       "slug": "BZ-MAPPER",
       "name": "BZ-MAPPER",
       "description": "function mapper",
@@ -1259,7 +1234,6 @@
       ]
     },
     {
-      "disabled": false,
       "slug": "BZ-XPAND",
       "name": "BZ-XPAND",
       "description": "function mapper expander",
@@ -1269,7 +1243,6 @@
       ]
     },
     {
-      "disabled": false,
       "slug": "BZ-XPANDXPAND",
       "name": "BZ-XPANDXPAND",
       "description": "function mapper expander expander",
@@ -1279,7 +1252,6 @@
       ]
     },
     {
-      "disabled": false,
       "slug": "BZENVELOPE",
       "name": "BZ-ENVELOPE",
       "description": "bezier envelope",
@@ -1292,7 +1264,6 @@
       ]
     },
     {
-      "disabled": false,
       "slug": "TZOP",
       "name": "TZOP",
       "description": "FM Operator dx7 style, Sinusoid VCO",
@@ -1362,6 +1333,85 @@
         "Utility",
         "Controller",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "ModuloMagic",
+      "name": "Modulo Magic",
+      "description": "CGS Modulo Magic",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "InfiniteMelody",
+      "name": "Infinite Melody",
+      "description": "CGS Infinite Melody",
+      "tags": [
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SlopeDetector",
+      "name": "Slope Detector",
+      "description": "CGS Slope Detector",
+      "tags": [
+        "Dynamic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DualProcessor",
+      "name": "Dual Processor",
+      "description": "CGS Dual Processor",
+      "tags": [
+        "Polyphonic",
+        "Vca",
+        "CV Mixer",
+        "Audio Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "CVSpread",
+      "name": "CV Spread",
+      "description": "CGS CV Spread",
+      "tags": [
+        "Polyphonic",
+        "Vca",
+        "Spreader",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MusicalBox2",
+      "name": "MusicalBox2",
+      "description": "Multi sampler 16 stereo channels (max 2Mb samples)",
+      "tags": [
+        "Sampler",
+        "Quad",
+        "VCO"
+      ]
+    },
+    {
+      "slug": "RAEL",
+      "name": "RAEL",
+      "description": "Multi TRIG/GATE with delay and settable lenght, clockable, with trigs and probabilities",
+      "tags": [
+        "Utility",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "PolyVoltageMeter",
+      "name": "PolyVoltageMeter",
+      "description": "Voltage Visualizer-Voltmeter",
+      "tags": [
+        "Utility",
+        "Polyphonic"
       ]
     }
   ]
