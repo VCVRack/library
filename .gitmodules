@@ -628,3 +628,6 @@
 [submodule "repos/Kilpatrick-Toolbox"]
 	path = repos/Kilpatrick-Toolbox
 	url = https://github.com/kilpatrickaudio/Kilpatrick-Toolbox.git
+[submodule "repos/Autinn"]
+	path = repos/Autinn
+	url = https://github.com/NikolaiVChr/Autinn.git
