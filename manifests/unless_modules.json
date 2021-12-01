@@ -1,21 +1,22 @@
 {
   "slug": "unless_modules",
   "name": "unless modules",
-  "author": "unless games",
-  "version": "1.1.1",
-  "license": "GPL-3.0-only",
+  "author": "\u00c1kos Plesznivy",
+  "brand": "unless games",
+  "version": "2.2.3",
+  "license": "GPL-3.0-or-later",
   "authorEmail": "unlessgames@gmail.com",
   "pluginUrl": "https://gitlab.com/unlessgames/unless_modules",
   "authorUrl": "https://unlessgames.com/",
   "sourceUrl": "https://gitlab.com/unlessgames/unless_modules",
-  "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v1/README.md",
-  "changelogUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v1/CHANGELOG.md",
+  "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v2/manual/manual.md",
+  "changelogUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v2/CHANGELOG.md",
   "modules": [
     {
       "slug": "piong",
       "name": "piong",
       "description": "arcade modulator",
-      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#piong",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v2/manual/manual.md#piong",
       "tags": [
         "Sequencer",
         "Random"
@@ -23,9 +24,9 @@
     },
     {
       "slug": "markov",
-      "name": "Mr. Chainkov",
+      "name": "mr. chainkov",
       "description": "a markov-chain melody generator",
-      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#mr-chainkov",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v2/manual/manual.md#mr-chainkov",
       "tags": [
         "Sequencer",
         "Random"
@@ -33,9 +34,9 @@
     },
     {
       "slug": "atoms",
-      "name": "atoms",
+      "name": "ATOMS",
       "description": "adjustable rotating octa-multi-switch",
-      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#atoms",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v2/manual/manual.md#atoms",
       "tags": [
         "Switch",
         "Mixer",
@@ -46,7 +47,7 @@
       "slug": "cantor",
       "name": "tancor",
       "description": "swinging gate machine based around a parametric binary tree, inspired by the cantor set",
-      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#t%C3%A1ncor",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v2/manual/manual.md#t%C3%A1ncor",
       "tags": [
         "Sequencer",
         "Clock generator"
@@ -56,7 +57,7 @@
       "slug": "room",
       "name": "room",
       "description": "a rack row arranger that can move complete rows of modules and add empty rows between existing ones for a faster workflow",
-      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#room",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v2/manual/manual.md#room",
       "tags": [
         "Utility"
       ]
@@ -65,7 +66,7 @@
       "slug": "snake",
       "name": "SNAKIA",
       "description": "emulative snake game modulator",
-      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#snakia",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v2/manual/manual.md#snakia",
       "tags": [
         "Random",
         "Sequencer"
@@ -75,11 +76,41 @@
       "slug": "towers",
       "name": "towers",
       "description": "dual fader bank, constant CV source with polyphonic io and mods. up to 16 faders each",
-      "manualUrl": "https://gitlab.com/unlessgames/unless_modules#towers",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v2/manual/manual.md#towers",
       "tags": [
         "Attenuator",
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "pianoid",
+      "name": "pianoid",
+      "description": "a compact piano for monitoring polyphonic v/oct signals from midi or other sources. includes sustain mode and manual note/chord inputting.",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v2/manual/manual.md#pianoid",
+      "tags": [
+        "Visual",
+        "Polyphonic",
+        "Controller",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "premuter",
+      "name": "pre-muter",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v1/manual/manual.md#pre-muter",
+      "description": "mute signals for 1 second on Rack launch to avoid noise bursts",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "avoider",
+      "name": "avoider",
+      "manualUrl": "https://gitlab.com/unlessgames/unless_modules/-/blob/v2/manual/manual.md#avoider",
+      "description": "correct v/oct signals to avoid certain intervals in relation to a chord, inspired by the 'avoid note' concept from music theory",
+      "tags": [
+        "Quantizer"
       ]
     }
   ]

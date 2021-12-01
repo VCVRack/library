@@ -1,7 +1,7 @@
 {
   "slug": "ML_modules",
   "name": "ML Modules",
-  "version": "1.1.4",
+  "version": "2.0.0",
   "license": "BSD-3-Clause",
   "author": "Martin Lueders",
   "brand": "ML Modules",
@@ -184,6 +184,16 @@
       "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Mixer#sum"
     },
     {
+      "slug": "Sum8mk3",
+      "name": "Sum8 MkIII",
+      "description": "Summer with selectable sign",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/Mixer#sum"
+    },
+    {
       "slug": "Sum8",
       "name": "Sum8",
       "description": "simple summer",
@@ -290,7 +300,8 @@
       "description": "multi-channel arpeggiator",
       "tags": [
         "Sequencer",
-        "Polyphonic"
+        "Polyphonic",
+        "Arpeggiator"
       ],
       "manualUrl": "https://github.com/martin-lueders/ML_modules/wiki/PolyArp"
     }

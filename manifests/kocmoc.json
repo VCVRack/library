@@ -1,7 +1,7 @@
 {
   "slug": "kocmoc",
   "name": "kocmoc",
-  "version": "1.3.3",
+  "version": "2.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "kocmoc",
   "author": "janne808",
@@ -18,7 +18,8 @@
       "name": "SVF",
       "description": "State Variable Filter",
       "tags": [
-        "Filter"
+        "Filter",
+        "Polyphonic"
       ]
     },
     {
@@ -34,7 +35,8 @@
       "name": "LADR",
       "description": "4-pole Ladder Filter",
       "tags": [
-        "Filter"
+        "Filter",
+        "Polyphonic"
       ]
     },
     {
@@ -67,7 +69,16 @@
       "name": "SKF",
       "description": "Sallen-Key filter",
       "tags": [
-        "Filter"
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "DDLY",
+      "name": "DDLY",
+      "description": "Digital Delay",
+      "tags": [
+        "Delay"
       ]
     }
   ]
