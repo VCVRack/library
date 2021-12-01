@@ -1,21 +1,30 @@
 {
   "slug": "OhmerPrems",
-  "name": "OhmerPrems Free",
-  "version": "1.0.2",
+  "name": "OhmerPrems",
+  "version": "2.0.1",
   "license": "proprietary",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
   "authorEmail": "docam@free.fr",
   "authorUrl": "https://github.com/DomiKamu",
   "pluginUrl": "https://github.com/DomiKamu/OhmerPrems",
-  "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v1/README.md",
+  "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/README.md",
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
     {
+      "slug": "KordZ",
+      "name": "KordZ",
+      "description": "Note/interval/chord display (CV-based)",
+      "tags": [
+        "Visual",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "QuadPercs",
       "name": "QuadPercs",
-      "description": "Quad-channel drum machine",
+      "description": "Quad-channel drums/percussions",
       "tags": [
         "Drum",
         "Quad"
