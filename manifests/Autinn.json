@@ -1,16 +1,17 @@
 {
   "slug": "Autinn",
   "name": "Autinn",
-  "version": "1.0.0",
-  "license": "proprietary",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
   "brand": "Autinn",
   "author": "Nikolai V. Chr.",
   "authorEmail": "",
   "authorUrl": "",
   "pluginUrl": "",
   "manualUrl": "https://github.com/NikolaiVChr/Autinn/wiki",
-  "sourceUrl": "",
+  "sourceUrl": "https://github.com/NikolaiVChr/Autinn",
   "donateUrl": "https://www.paypal.me/autinn",
+  "changelogUrl": "https://github.com/NikolaiVChr/Autinn/wiki/Changelog",
   "modules": [
     {
       "slug": "Amp",
@@ -139,6 +140,7 @@
       "slug": "Vector",
       "name": "Vxy",
       "description": "Random x-y generator",
+      "deprecated": true,
       "tags": [
         "Controller",
         "Utility",
