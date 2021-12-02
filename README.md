@@ -1,6 +1,6 @@
 # VCV Library database
 
-This repo contains the database of all known VCV Rack plugins, for [VCV Library](https://library.vcvrack.com/).
+This repo contains the database for VCV Rack plugins, for [VCV Library](https://library.vcvrack.com/).
 
 All plugins submitted here must
 - follow the [VCV Plugin Ethics Guidelines](https://vcvrack.com/manual/PluginLicensing.html#vcv-plugin-ethics-guidelines).
