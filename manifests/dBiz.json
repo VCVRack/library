@@ -1,6 +1,6 @@
 {
   "slug": "dBiz",
-  "version": "1.1.2",
+  "version": "2.0.1",
   "license": "BSD-3-Clause",
   "name": "dBiz",
   "brand": "dBiz",
@@ -13,8 +13,15 @@
   "donateUrl": "https://www.paypal.me/GiovanniGhisleni",
   "modules": [
     {
-      "slug": "Multiple",
-      "name": "Multiple",
+      "slug": "NavControl",
+      "name": "NavControl",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Bench",
+      "name": "Bench",
       "tags": [
         "Utility"
       ]
@@ -22,13 +29,6 @@
     {
       "slug": "Contorno",
       "name": "Contorno",
-      "tags": [
-        "Envelope Generator"
-      ]
-    },
-    {
-      "slug": "ContornoMK2",
-      "name": "ContornoMK2",
       "tags": [
         "Envelope Generator"
       ]
@@ -71,6 +71,22 @@
     {
       "slug": "PerfMixer",
       "name": "PerfMixer",
+      "tags": [
+        "Mixer",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "PerfMixer4",
+      "name": "PerfMixer4",
+      "tags": [
+        "Mixer",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "DrMix",
+      "name": "DrMix",
       "tags": [
         "Mixer",
         "VCA"
@@ -137,8 +153,22 @@
       ]
     },
     {
+      "slug": "TROSCMK2",
+      "name": "TROSCMK2",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
       "slug": "SuHa",
       "name": "SuHa",
+      "tags": [
+        "VCO"
+      ]
+    },
+    {
+      "slug": "SuHaMK2",
+      "name": "SuHaMK2",
       "tags": [
         "VCO"
       ]
@@ -172,10 +202,38 @@
       ]
     },
     {
+      "slug": "BigSmorph",
+      "name": "BigSmorph",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
       "slug": "QuePasa",
       "name": "QuePasa",
       "tags": [
-        "Blank"
+        "Filter"
+      ]
+    },
+    {
+      "slug": "DualFilter",
+      "name": "DualFilter",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Order",
+      "name": "Order",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DualMatrix",
+      "name": "DualMatrix",
+      "tags": [
+        "Mixer"
       ]
     },
     {
