@@ -1,6 +1,6 @@
 {
   "slug": "Bark",
-  "version": "1.2.5",
+  "version": "2.3.0",
   "license": "BSD-4-Clause",
   "name": "Coirt / Bark",
   "brand": "Bark",
@@ -17,6 +17,7 @@
       "slug": "LMH",
       "name": "Low Mid High EQ",
       "description": "Attenuating EQ with mid boost.",
+      "manualUrl": "https://github.com/Coirt/Bark/wiki",
       "tags": [
         "EQ",
         "Attenuator"
@@ -26,6 +27,7 @@
       "slug": "SHTH",
       "name": "S&H / T&H",
       "description": "Sample & Hold | Track & Hold",
+      "manualUrl": "https://github.com/Coirt/Bark/wiki",
       "tags": [
         "Polyphonic",
         "Sample and hold"
@@ -35,6 +37,7 @@
       "slug": "EOsum",
       "name": "EO Sum",
       "description": "Sums polyphonic channels and\ndistributes them to outputs\nbased on odd / even channel\nnumbers.",
+      "manualUrl": "https://github.com/Coirt/Bark/wiki#eo-sum",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -44,6 +47,7 @@
       "slug": "TrimLFO",
       "name": "Trim LFO Hz",
       "description": "Trims top/bottom values on the selected\nLFO output, without attenuating. Quick\naccess buttons on labels\n",
+      "manualUrl": "https://github.com/Coirt/Bark/wiki#trim-lfo",
       "tags": [
         "LFO",
         "Utility",
@@ -56,6 +60,7 @@
       "slug": "OneBand",
       "name": "One Band",
       "description": "Dual-Mono parametric EQ\n",
+      "manualUrl": "https://github.com/Coirt/Bark/wiki",
       "tags": [
         "EQ",
         "Attenuator"
@@ -65,6 +70,7 @@
       "slug": "bpmTrimLFO",
       "name": "Trim LFO BPM",
       "description": "Trims top/bottom values on the selected\nLFO output, without attenuating. Quick\naccess buttons on labels\n",
+      "manualUrl": "https://github.com/Coirt/Bark/wiki#trim-lfo",
       "tags": [
         "LFO",
         "Utility",
@@ -77,6 +83,7 @@
       "slug": "PolyMix",
       "name": "Polyphonic Mixer",
       "description": "One Cable(s),\n4x4 channel Mixer with send/return. Constant\npower pan law Aux pre solo/master\npost fader\n",
+      "manualUrl": "https://github.com/Coirt/Bark/wiki#poly-mix",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -86,6 +93,7 @@
       "slug": "QuadLogic",
       "name": "Quad Logic",
       "description": "Min/Max value based on inputs\n",
+      "manualUrl": "https://github.com/Coirt/Bark/wiki#logic",
       "tags": [
         "Utility",
         "Logic"
@@ -103,6 +111,7 @@
       "slug": "Clamp",
       "name": "Clamp",
       "description": "Feed signal, gained output won't\ngo over voltages set. Can also\nattenuvert signals, Invert\napplied to input.\n",
+      "manualUrl": "https://github.com/Coirt/Bark/wiki#clamp",
       "tags": [
         "Utility",
         "Attenuator",
@@ -114,6 +123,7 @@
       "slug": "PolyX",
       "name": "Poly X",
       "description": "Merge to polyphonic with mute buttons.\n\nWhen no input channels are connected\nthe mute buttons send 1v or 0v, for\nuse with Level/Pan inputs on Poly Mix.\n",
+      "manualUrl": "https://github.com/Coirt/Bark/wiki#poly-x",
       "tags": [
         "Polyphonic",
         "Switch"
