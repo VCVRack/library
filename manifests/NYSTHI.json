@@ -1,14 +1,13 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "2.0.6",
+  "version": "2.0.8",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
   "authorEmail": "antoniotuzzi+nysthi@gmail.com",
   "pluginUrl": "https://github.com/nysthi/nysthi/releases",
   "authorUrl": "https://github.com/nysthi/nysthi/",
-  "manualUrl": "https://github.com/patman023/nysthimanual",
   "changelogUrl": "https://github.com/nysthi/nysthi/blob/master/CHANGELOG.md",
   "sourceUrl": "",
   "modules": [
