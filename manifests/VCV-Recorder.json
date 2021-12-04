@@ -1,21 +1,22 @@
 {
   "slug": "VCV-Recorder",
+  "name": "VCV Recorder",
+  "version": "2.0.0",
   "license": "GPL-3.0-or-later",
-  "version": "1.1.0",
-  "name": "Recorder",
   "brand": "VCV",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
   "sourceUrl": "https://github.com/VCVRack/VCV-Recorder",
-  "changelogUrl": "https://github.com/VCVRack/VCV-Recorder/blob/v1/CHANGELOG.md",
+  "changelogUrl": "https://github.com/VCVRack/VCV-Recorder/blob/v2/CHANGELOG.md",
   "modules": [
     {
       "slug": "Recorder",
       "name": "Recorder",
-      "description": "Records audio and screen-captured video to a file",
+      "description": "Records stereo audio and video to a file",
       "tags": [
-        "Recording"
+        "Recording",
+        "Visual"
       ]
     }
   ]
