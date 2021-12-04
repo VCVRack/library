@@ -11,7 +11,7 @@
   "donateUrl": "https://www.paypal.me/SubmarineFree",
   "pluginUrl": "https://vcvrack.submarine.org.uk",
   "changelogUrl": "https://github.com/david-c14/SubmarineFree/blob/main/changelog.md",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "modules": [
     {
       "slug": "AG-104",
@@ -363,6 +363,19 @@
       ]
     },
     {
+      "slug": "LA-216",
+      "name": "LA-216",
+      "description": "LA-216 Logic Analyser",
+      "keywords": "Digital Logic Analyser Dual Polyphonic Oscilloscope Scope",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/LA.md",
+      "tags": [
+        "LOGIC",
+        "VISUAL",
+        "DUAL",
+        "POLYPHONIC"
+      ]
+    },
+    {
       "slug": "LD-103",
       "name": "LD-103",
       "description": "LD-103 Schmitt Trigger Line Drivers",
@@ -617,6 +630,7 @@
     {
       "slug": "TD-116",
       "name": "TD-116",
+      "hidden": true,
       "deprecated": true,
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/TD.md",
       "tags": [
@@ -686,6 +700,7 @@
     {
       "slug": "TM-105",
       "name": "Obsolete",
+      "hidden": true,
       "deprecated": true,
       "description": "This was Torpedo Merge TM-105",
       "tags": [
@@ -918,6 +933,7 @@
     {
       "slug": "XX-219",
       "name": "Obsolete",
+      "hidden": true,
       "deprecated": true,
       "description": "This was Secret Santa 2019",
       "tags": [

@@ -1,15 +1,14 @@
 {
   "slug": "Prism",
   "name": "Prism",
-  "author": "John Hoar / Pyer",
+  "author": "John Hoar / Pyer / Steve Russell",
   "license": "BSD-3-Clause",
   "authorEmail": "amalgamatedharmonics@outlook.com",
-  "manualUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
-  "pluginUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
-  "authorUrl": "https://github.com/AmalgamatedHarmonics/Prism/wiki",
-  "sourceUrl": "https://github.com/AmalgamatedHarmonics/Prism",
-  "changelogUrl": "https://github.com/AmalgamatedHarmonics/Prism/blob/master/CHANGELOG.md",
-  "version": "2.3.1",
+  "manualUrl": "https://github.com/SteveRussell33/Prism/blob/master/doc/PrismUM.pdf",
+  "pluginUrl": "https://github.com/SteveRussell33/Prism",
+  "sourceUrl": "https://github.com/SteveRussell33/Prism",
+  "changelogUrl": "https://github.com/SteveRussell33/Prism/blob/Rack2/CHANGELOG.md",
+  "version": "2.3.2",
   "modules": [
     {
       "slug": "Rainbow",

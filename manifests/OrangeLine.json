@@ -1,14 +1,14 @@
 {
   "slug": "OrangeLine",
   "name": "OrangeLine",
-  "version": "2.3.9",
+  "version": "2.3.10",
   "license": "GPL-3.0-only",
   "brand": "",
   "author": "Dieter Stubler",
   "authorEmail": "dieter.stubler@googlemail.com",
   "authorUrl": "https://github.com/Stubs42/OrangeLine",
   "pluginUrl": "https://github.com/Stubs42/OrangeLine",
-  "manualUrl": "https://github.com/Stubs42/OrangeLine/blob/master/README.md",
+  "manualUrl": "https://github.com/Stubs42/OrangeLine/blob/2.0/README.md",
   "sourceUrl": "https://github.com/Stubs42/OrangeLine",
   "donateUrl": "https://paypal.me/DieterStubler?locale.x=de_DE",
   "modules": [
