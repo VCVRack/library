@@ -6,7 +6,7 @@
   "authorEmail": "support@prok.co.uk",
   "authorUrl": "https://prok.co.uk/",
   "manualUrl": "https://prok.co.uk/pages/vcv_modules",
-  "version": "1.0.5",
+  "version": "2.0.1",
   "modules": [
     {
       "slug": "ProkBD",
