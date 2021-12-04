@@ -1,15 +1,13 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "1.2.3",
+  "version": "2.3.0",
   "license": "proprietary",
   "brand": "DanT",
   "author": "dtilley",
-  "authorEmail": "",
   "authorUrl": "https://dtilley.co.uk",
   "pluginUrl": "https://library.vcvrack.com/DanTModules",
   "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual",
-  "sourceUrl": "",
   "donateUrl": "https://monzo.me/danieltilley2",
   "changelogUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/CHANGELOG.md",
   "modules": [
@@ -20,23 +18,61 @@
       "tags": [
         "Oscillator",
         "Low-frequency oscillator"
-      ]
+      ],
+      "keywords": "wave waveshape waveform six points generator",
+      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/wavulike.md"
     },
     {
       "slug": "TMNT",
       "name": "TMNT",
       "description": "[34hp] Timed Mutating Non-Linear Triggers",
       "tags": [
+        "Clock generator",
         "Sequencer"
-      ]
+      ],
+      "keywords": "time mutate triggers linear",
+      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/tmnt.md"
     },
     {
       "slug": "5Splice",
       "name": "5Splice",
       "description": "[4hp] Window mixer for up to 5 inputs",
       "tags": [
-        "Mixer"
-      ]
+        "Mixer",
+        "Switch"
+      ],
+      "keywords": "splice five switch sequential random window",
+      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/5splice.md"
+    },
+    {
+      "slug": "PKorre",
+      "name": "PKorre",
+      "description": "[6hp] CV source based on correlation between two signals",
+      "tags": [
+        "Utility"
+      ],
+      "keywords": "correlation meter core phase",
+      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/pkorre.md"
+    },
+    {
+      "slug": "Kanal",
+      "name": "Kanal",
+      "description": "[6hp] Waveshaper",
+      "tags": [
+        "Utility"
+      ],
+      "keywords": "canal shaper waveshaper",
+      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/kanal.md"
+    },
+    {
+      "slug": "BillyG8s",
+      "name": "Billy G8s",
+      "description": "[10hp] Gates Generator",
+      "tags": [
+        "Utility"
+      ],
+      "keywords": "billy gates generator envelope slope",
+      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/billyg8s.md"
     }
   ]
 }
