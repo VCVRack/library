@@ -1,17 +1,17 @@
 {
   "slug": "Stoev-Symmetry",
   "name": "Symmetry",
-  "version": "1.1.0",
+  "version": "2.1.1",
   "license": "proprietary",
   "brand": "Stoev",
   "author": "Stoev",
   "authorEmail": "support@stoevlab.com",
-  "authorUrl": "https://www.stoevlab.com",
-  "pluginUrl": "https://www.stoevlab.com/software/stoev-modules#symmetry",
-  "manualUrl": "https://www.stoevlab.com/software/stoev-modules#symmetry",
+  "authorUrl": "https://www.stoevlab.com/",
+  "pluginUrl": "https://www.stoevlab.com/software/stoev-modules/#symmetry",
+  "manualUrl": "https://www.stoevlab.com/software/stoev-modules/#symmetry",
   "sourceUrl": "",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://www.stoevlab.com/software/stoev-modules/version-history/#symmetry",
   "modules": [
     {
       "slug": "Symmetry",
