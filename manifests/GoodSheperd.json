@@ -1,8 +1,8 @@
 {
   "slug": "GoodSheperd",
   "name": "GoodSheperd",
-  "version": "1.1.0",
-  "license": "CC0-1.0",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
   "brand": "GoodSheperd",
   "author": "Jens Schulze",
   "authorEmail": "",
@@ -15,7 +15,7 @@
     {
       "slug": "Hurdle",
       "name": "Hurdle",
-      "description": "",
+      "description": "github.com/jensschulze3000/GoodSheperd",
       "tags": [
         "Switch",
         "Random"
@@ -24,7 +24,7 @@
     {
       "slug": "Stable16",
       "name": "Stable16",
-      "description": "",
+      "description": "github.com/jensschulze3000/GoodSheperd",
       "tags": [
         "Sequencer"
       ]
@@ -32,7 +32,7 @@
     {
       "slug": "SEQ3st",
       "name": "SEQ3st",
-      "description": "",
+      "description": "github.com/jensschulze3000/GoodSheperd",
       "tags": [
         "Sequencer",
         "Random"
@@ -41,9 +41,28 @@
     {
       "slug": "Stall",
       "name": "Stall",
-      "description": "",
+      "description": "github.com/jensschulze3000/GoodSheperd",
       "tags": [
         "Polyphonic",
+        "Switch",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Switch1",
+      "name": "Switch1",
+      "description": "github.com/jensschulze3000/GoodSheperd",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Seqtrol",
+      "name": "Seqtrol",
+      "description": "github.com/jensschulze3000/GoodSheperd",
+      "tags": [
+        "Clock modulator",
+        "Sample and hold",
         "Switch",
         "Utility"
       ]

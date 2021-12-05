@@ -697,6 +697,12 @@
       },
       "Stall": {
         "creationTimestamp": 1581596278.0
+      },
+      "Switch1": {
+        "creationTimestamp": 1638728379.506569
+      },
+      "Seqtrol": {
+        "creationTimestamp": 1638728379.635339
       }
     }
   },
