@@ -1,7 +1,7 @@
 {
   "slug": "Hora-VCO_VCF_VCA_Free",
   "name": "VCO-VCF-VCA Free",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
@@ -22,7 +22,7 @@
     },
     {
       "slug": "Vector-Synth",
-      "name": "Detour",
+      "name": "Detour Free",
       "description": "Vector Phaseshaping Synthesis",
       "tags": [
         "VCO",

@@ -1,7 +1,7 @@
 {
   "slug": "Hora-AnalogDrums",
   "name": "Analog Drums",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "license": "proprietary",
   "brand": "Hora",
   "author": "Hora",
@@ -15,7 +15,7 @@
     {
       "slug": "BassDrumVult",
       "name": "Bass Drum Vult",
-      "description": "Analog Bass Drum using vult made filter model (use less CPU)",
+      "description": "Analog Bass Drum using vult made filter model",
       "tags": [
         "DRUM"
       ]
@@ -47,7 +47,7 @@
     {
       "slug": "CymbalVult",
       "name": "Cymbal Vult",
-      "description": "Analog Cymbal  using vult made filter model (use less CPU)",
+      "description": "Analog Cymbal  using vult made filter model",
       "tags": [
         "DRUM"
       ]
@@ -55,7 +55,7 @@
     {
       "slug": "HandClapVult",
       "name": "HandClap/Maracas Vult",
-      "description": "Analog HandClap using vult made filter model (use less CPU)",
+      "description": "Analog HandClap using vult made filter model",
       "tags": [
         "DRUM"
       ]
@@ -71,7 +71,7 @@
     {
       "slug": "HiHatVult",
       "name": "Hi-Hat Vult",
-      "description": "Analog HiHat using vult made filter model (use less CPU)",
+      "description": "Analog HiHat using vult made filter model (use the other clap module for better CPU load and more realisitic claps)",
       "tags": [
         "DRUM"
       ]
@@ -87,7 +87,7 @@
     {
       "slug": "SoftBellVult",
       "name": "SoftBell/Clave  Vult",
-      "description": "Analog Bell using vult made filter model (use less CPU)",
+      "description": "Analog Bell using vult made filter model",
       "tags": [
         "DRUM"
       ]
@@ -103,7 +103,7 @@
     {
       "slug": "SnareDrumVult",
       "name": "Snare Drum Vult",
-      "description": "Analog Snare Drum using vult made filter model (use less CPU)",
+      "description": "Analog Snare Drum using vult made filter model",
       "tags": [
         "DRUM"
       ]
@@ -119,7 +119,7 @@
     {
       "slug": "TomsVult",
       "name": "Toms/Congas Vult",
-      "description": "Analog Toms using vult made filter model (use less CPU)",
+      "description": "Analog Toms using vult made filter model",
       "tags": [
         "DRUM"
       ]

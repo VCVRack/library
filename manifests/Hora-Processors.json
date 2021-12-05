@@ -1,7 +1,7 @@
 {
   "slug": "Hora-Processors",
   "name": "Processors",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "license": "proprietary",
   "brand": "Hora",
   "author": "Hora",
@@ -30,10 +30,12 @@
     },
     {
       "slug": "Delay",
-      "name": "Delay",
-      "description": "Multimode Delay",
+      "name": "Millenial",
+      "description": "Multimode tap delay and resonator",
       "tags": [
-        "Effect"
+        "Effect",
+        "Physical modeling",
+        "Delay"
       ]
     },
     {
@@ -56,7 +58,7 @@
     },
     {
       "slug": "Brigade",
-      "name": "Brigade",
+      "name": "Flux",
       "description": "Bucket Brigade Delay",
       "tags": [
         "Effect",

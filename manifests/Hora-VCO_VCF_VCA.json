@@ -1,7 +1,7 @@
 {
   "slug": "Hora-VCO_VCF_VCA",
   "name": "VCO VCF VCA",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
@@ -15,10 +15,11 @@
     {
       "slug": "Amplitude-VCMixer",
       "name": "Amplitude",
-      "description": "Voltage control mixer/inverter/amp",
+      "description": "Linear voltage controlled mixer/inverter/amp",
       "tags": [
         "VCA",
-        "POLYPHONIC"
+        "POLYPHONIC",
+        "MIXER"
       ]
     },
     {
@@ -47,7 +48,8 @@
       "tags": [
         "VCO",
         "POLYPHONIC",
-        "WAVEFOLDER"
+        "WAVEFOLDER",
+        "EFFECT"
       ]
     }
   ]
