@@ -1,7 +1,7 @@
 {
   "slug": "Hora-ProcessorsFree",
   "name": "Processors Free",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
@@ -14,7 +14,7 @@
   "modules": [
     {
       "slug": "EnvelopeFollower",
-      "name": "Envelope Follower",
+      "name": "Envelope Follower Free",
       "description": "Envelope follower",
       "tags": [
         "Envelope follower"
@@ -22,7 +22,7 @@
     },
     {
       "slug": "Delay",
-      "name": "Delay",
+      "name": "Delay Free",
       "description": "multimode delay",
       "tags": [
         "Effect"
@@ -30,7 +30,7 @@
     },
     {
       "slug": "Vacuum",
-      "name": "Vacuumba",
+      "name": "Vacuumba Free",
       "description": "Tube Distortion",
       "tags": [
         "Effect",
@@ -39,7 +39,7 @@
     },
     {
       "slug": "Brigade",
-      "name": "Brigade",
+      "name": "Brigade Free",
       "description": "Bucket Brigade Delay",
       "tags": [
         "Effect",
