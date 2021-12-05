@@ -1,7 +1,7 @@
 {
   "slug": "ChordSuite",
   "name": "Chord Suite",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "https://vcvrack.com/eula",
   "brand": "maglav modular",
   "author": "Jiahao Huang",
@@ -16,7 +16,7 @@
     {
       "slug": "ChordPlayer",
       "name": "Chord Player",
-      "description": "5-voice Chord Quantizer with bass output",
+      "description": "5-voice chord/pitch cv generator with independent bass output",
       "tags": [
         "Polyphonic",
         "Quantizer",
@@ -26,7 +26,7 @@
     {
       "slug": "ArpPlayer",
       "name": "Arp Player",
-      "description": "Chain-able Arpeggiator Expander for Chord Player",
+      "description": "Chain-able arpeggiator/quantizer expander for Chord Player",
       "tags": [
         "Arpeggiator",
         "Quantizer",
