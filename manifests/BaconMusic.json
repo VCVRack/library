@@ -1,13 +1,13 @@
 {
   "slug": "BaconMusic",
   "name": "Bacon Music",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "license": "GPL-3.0-or-later",
   "author": "@baconpaul",
   "authorEmail": "",
-  "authorUrl": "https://www.baconpaul.org/",
+  "authorUrl": "https://baconpaul.org/",
   "pluginUrl": "https://github.com/baconpaul/BaconPlugs/",
-  "manualUrl": "https://github.com/baconpaul/BaconPlugs/README.md",
+  "manualUrl": "https://github.com/baconpaul/BaconPlugs#readme",
   "sourceUrl": "https://github.com/baconpaul/BaconPlugs/",
   "donateUrl": "",
   "modules": [
@@ -76,6 +76,15 @@
       "slug": "ChipYourWave",
       "name": "ChipYourWave",
       "description": "An 8 bit oscillator where you draw the waveform",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Open303",
+      "name": "Open303",
+      "description": "A rack wrapper around Robin Schmidt's open-303 codebase",
       "tags": [
         "Oscillator",
         "Polyphonic"

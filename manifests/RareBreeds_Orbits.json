@@ -1,13 +1,14 @@
 {
   "slug": "RareBreeds_Orbits",
   "name": "Orbits",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "license": "GPL-3.0-or-later",
   "brand": "RareBreeds",
   "author": "Rare Breeds",
   "authorEmail": "rare.breeds@protonmail.com",
   "manualUrl": "https://rarebreeds.github.io/Orbits",
   "sourceUrl": "https://github.com/RareBreeds/Orbits",
+  "donateUrl": "https://ko-fi.com/RareBreeds",
   "modules": [
     {
       "slug": "RareBreeds_Orbits_Eugene",

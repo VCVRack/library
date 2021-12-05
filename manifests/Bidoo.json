@@ -1,7 +1,7 @@
 {
   "slug": "Bidoo",
-  "version": "2.0.0",
-  "license": "GPL-3.0-only",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
   "name": "Bidoo",
   "brand": "Bidoo",
   "author": "Bidoo",
@@ -304,6 +304,15 @@
       "name": "HCTIP",
       "description": "Pitch shifter",
       "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#hctip",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "SPORE",
+      "name": "SPORE",
+      "description": "Pitch shifter",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#spore",
       "tags": [
         "Effect"
       ]
