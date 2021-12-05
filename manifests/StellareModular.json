@@ -1,25 +1,30 @@
 {
-	"slug": "StellareModular",
-	"version": "1.0.0",
-	"license": "Proprietary",
-	"name": "Turing Machine + Blank",
-	"author": "Stellare Modular",
-	"brand": "Stellare Modular",
-	"authorEmail": "stellaremodular@gmail.com",
-	"pluginUrl": "https://github.com/stellare-modular/vcv-rack",
-	"authorUrl": "https://www.facebook.com/stellaremodular",
-	"manualUrl": "https://github.com/stellare-modular/vcv-rack/blob/master/README.md",
-	"donateUrl": "https://paypal.me/stellaremodular",
-	"modules": [
-		{
-			"slug": "TuringMachine",
-			"name": "Turing Machine",
-			"tags": ["Sequencer", "Random"]
-		},
-		{
-			"slug": "BlankPanel",
-			"name": "Blank Panel",
-			"tags": ["Blank"]
-		}
-	]
+  "slug": "StellareModular",
+  "version": "2.0.0",
+  "license": "Proprietary",
+  "name": "Turing Machine + Blank",
+  "author": "Stellare Modular",
+  "brand": "Stellare Modular",
+  "authorEmail": "stellaremodular@gmail.com",
+  "pluginUrl": "https://github.com/stellare-modular/vcv-rack",
+  "authorUrl": "https://www.facebook.com/stellaremodular",
+  "manualUrl": "https://github.com/stellare-modular/vcv-rack/blob/master/README.md",
+  "donateUrl": "https://paypal.me/stellaremodular",
+  "modules": [
+    {
+      "slug": "TuringMachine",
+      "name": "Turing Machine",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "BlankPanel",
+      "name": "Blank Panel",
+      "tags": [
+        "Blank"
+      ]
+    }
+  ]
 }
