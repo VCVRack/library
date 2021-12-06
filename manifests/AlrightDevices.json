@@ -1,7 +1,7 @@
 {
   "slug": "AlrightDevices",
   "name": "Alright Devices",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "license": "proprietary",
   "author": "Alright Devices",
   "authorEmail": "tyler@alrightdevices.com",
@@ -15,6 +15,7 @@
       "slug": "Chronoblob2",
       "name": "Chronoblob2",
       "description": "Dual clock-syncable delay",
+      "manualUrl": "http://docs.alrightdevices.com/chronoblob2-manual.pdf",
       "tags": [
         "Delay",
         "Digital",
@@ -28,6 +29,7 @@
       "slug": "T-Wrex",
       "name": "T-Wrex",
       "description": "Analog bitcrusher and decimator",
+      "manualUrl": "http://docs.alrightdevices.com/t-wrex-manual-1.0.pdf",
       "tags": [
         "Distortion",
         "Effect",
