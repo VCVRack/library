@@ -30,7 +30,7 @@ plugin_paths = sys.argv[1:]
 if not plugin_paths:
 	plugin_paths = glob.glob("repos/*")
 
-updated_slugs = set()
+manifest_versions = {}
 
 for plugin_path in plugin_paths:
 	plugin_path = os.path.abspath(plugin_path)
@@ -72,6 +72,10 @@ for plugin_path in plugin_paths:
 
 	# Get library manifest
 	library_manifest_filename = os.path.join(MANIFESTS_DIR, f"{slug}.json")
+	# Warn if manifest is new
+	if not os.path.exists(library_manifest_filename):
+		print(f"Manifest {slug} if new, press enter to approve.")
+		input()
 
 	if os.path.isdir(plugin_path):
 		# Check if the library manifest is up to date
@@ -89,8 +93,8 @@ for plugin_path in plugin_paths:
 		try:
 			common.system(f'cd "{TOOLCHAIN_DIR}" && make plugin-build-clean')
 			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j$(nproc) plugin-build PLUGIN_DIR={plugin_path}')
-			common.system(f'cp -vi "{TOOLCHAIN_DIR}"/plugin-build/* "{PACKAGES_DIR}"/')
-			common.system(f'cp -vi "{TOOLCHAIN_DIR}"/plugin-build/*-lin.vcvplugin "{RACK_USER_PLUGIN_DIR}"')
+			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/* "{PACKAGES_DIR}"/')
+			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/*-lin.vcvplugin "{RACK_USER_PLUGIN_DIR}"')
 		except Exception as e:
 			print(e)
 			print(f"{slug} build failed")
@@ -123,10 +127,10 @@ for plugin_path in plugin_paths:
 	screenshots_dir = os.path.join(SCREENSHOTS_DIR, slug)
 	common.system(f'rm -rf "{screenshots_dir}"')
 
-	updated_slugs.add(slug)
+	manifest_versions[slug] = version
 
 
-if not updated_slugs:
+if not manifest_versions:
 	print("Nothing to build")
 	exit(0)
 
@@ -135,10 +139,10 @@ update_modulargrid.update()
 
 # Upload data
 
-built_slugs_str = ", ".join(updated_slugs)
+manifest_versions_str = ", ".join(map(lambda pair: pair[0] + " to " + pair[1], manifest_versions.items()))
 
 print()
-print(f"Press enter to launch Rack and test the following packages: {built_slugs_str}")
+print(f"Press enter to launch Rack and test the following packages: {manifest_versions_str}")
 input()
 common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack")
 common.system(f"cd {RACK_USER_DIR} && grep 'warn' log.txt || true")
@@ -157,8 +161,8 @@ common.system("cd ../screenshots && make -j$(nproc) upload")
 # Commit repository
 common.system("git add manifests")
 common.system("git add manifests-cache.json ModularGrid-VCVLibrary.json")
-common.system(f"git commit -m 'Update manifest for {built_slugs_str}'")
+common.system(f"git commit -m 'Update manifest {manifest_versions_str}'")
 common.system("git push")
 
 print()
-print(f"Updated {built_slugs_str}")
+print(f"Updated {manifest_versions_str}")
