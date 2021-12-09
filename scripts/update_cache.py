@@ -15,8 +15,8 @@ def get_plugin_build(plugin):
 	slug = plugin['slug']
 	version = plugin['version']
 	arch = 'lin'
-	package_filename = f"{slug}-{version}-{arch}.zip"
-	package_path = PACKAGES_DIR + "/" + package_filename
+	package_filename = f"{slug}-{version}-{arch}.vcvplugin"
+	package_path = os.path.join(PACKAGES_DIR, package_filename)
 	return os.path.getmtime(package_path)
 
 
