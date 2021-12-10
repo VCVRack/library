@@ -631,3 +631,6 @@
 [submodule "repos/Autinn"]
 	path = repos/Autinn
 	url = https://github.com/NikolaiVChr/Autinn.git
+[submodule "repos/SequelSequencers"]
+	path = repos/SequelSequencers
+	url = https://github.com/danieldavies99/sequel.git
