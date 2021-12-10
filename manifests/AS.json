@@ -1,6 +1,6 @@
 {
   "slug": "AS",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "name": "AS",
   "brand": "AS",
@@ -10,6 +10,7 @@
   "authorUrl": "https://github.com/AScustomWorks/AS",
   "manualUrl": "https://github.com/AScustomWorks/AS/blob/master/README.md",
   "sourceUrl": "https://github.com/AScustomWorks/AS",
+  "donateUrl": "https://www.paypal.me/frederius/",
   "changelogUrl": "https://github.com/AScustomWorks/AS/blob/master/README.md",
   "modules": [
     {
@@ -18,7 +19,7 @@
       "name": "TinySine",
       "description": "Simple Voltage-controlled sine oscillator",
       "tags": [
-        "VCO"
+        "Oscillator"
       ]
     },
     {
@@ -27,7 +28,7 @@
       "name": "TinySawish",
       "description": "Simple Voltage-controlled saw oscillator",
       "tags": [
-        "VCO"
+        "Oscillator"
       ]
     },
     {
@@ -45,7 +46,7 @@
       "name": "VCA",
       "description": "Voltage-controlled amplifier",
       "tags": [
-        "VCA",
+        "Voltage-controlled amplifier",
         "Dual"
       ]
     },
@@ -55,7 +56,7 @@
       "name": "QuadVCA/Mixer",
       "description": "VCA module x 4, plus mixer functionality",
       "tags": [
-        "VCA",
+        "Voltage-controlled amplifier",
         "Mixer"
       ]
     },
@@ -230,7 +231,8 @@
       "name": "Zero CV 2 Trigger",
       "description": "Zero Crossing CV to Trigger generator",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {

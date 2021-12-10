@@ -1,7 +1,7 @@
 {
   "slug": "Sha-Bang-Modules",
   "name": "Sha#Bang! Modules",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "GPL-3.0-only",
   "author": "Jeremy Muller",
   "authorEmail": "jeremy@jeremymuller.com",
@@ -29,7 +29,8 @@
         "Granular",
         "Physical modeling",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#collider"
     },
     {
       "slug": "Cosmosis",
@@ -39,7 +40,8 @@
         "Visual",
         "Sequencer",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#cosmosis"
     },
     {
       "slug": "JeremyBlankPanel",
@@ -57,7 +59,8 @@
         "Visual",
         "Sequencer",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#neutrinode"
     },
     {
       "slug": "Orbitones",
@@ -67,7 +70,8 @@
         "Visual",
         "Low-frequency oscillator",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#orbitones"
     },
     {
       "slug": "Photron",
@@ -75,7 +79,8 @@
       "description": "Animation with inputs",
       "tags": [
         "Visual"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#photron"
     },
     {
       "slug": "PhotronPanel",
@@ -83,7 +88,8 @@
       "description": "Animated panel",
       "tags": [
         "Visual"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#photron-panel"
     },
     {
       "slug": "PolyrhythmClock",
@@ -93,27 +99,8 @@
         "Clock generator",
         "Clock modulator",
         "Random"
-      ]
-    },
-    {
-      "slug": "RandGates",
-      "name": "Random Gate Switch",
-      "description": "Randomly routes one of 4 inputs to the output",
-      "tags": [
-        "Utility",
-        "Switch",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "RandRoute",
-      "name": "Random Route Switch",
-      "description": "Randomly routes one input to 4 possible outputs",
-      "tags": [
-        "Utility",
-        "Switch",
-        "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#polyrhythm-clock"
     },
     {
       "slug": "QubitCrusher",
@@ -124,7 +111,30 @@
         "Distortion",
         "Effect",
         "Sample and hold"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#qubit-crusher"
+    },
+    {
+      "slug": "RandGates",
+      "name": "Random Gate Switch",
+      "description": "Randomly routes one of 4 inputs to the output",
+      "tags": [
+        "Utility",
+        "Switch",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#randgates"
+    },
+    {
+      "slug": "RandRoute",
+      "name": "Random Route Switch",
+      "description": "Randomly routes one input to 4 possible outputs",
+      "tags": [
+        "Utility",
+        "Switch",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#randroute"
     },
     {
       "slug": "StochSeq",
@@ -134,7 +144,8 @@
         "Sequencer",
         "Visual",
         "Logic"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#stochseq"
     },
     {
       "slug": "StochSeq4",
@@ -144,7 +155,8 @@
         "Sequencer",
         "Visual",
         "Logic"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#stochseq4"
     },
     {
       "slug": "StochSeq4X",
@@ -153,7 +165,8 @@
       "tags": [
         "Expander",
         "Sequencer"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#stochseq4x"
     },
     {
       "slug": "Talea",
@@ -161,7 +174,8 @@
       "description": "A unique arpeggiator with polyrhythmic capabilities",
       "tags": [
         "Arpeggiator"
-      ]
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#talea"
     }
   ]
 }

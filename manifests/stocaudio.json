@@ -1,11 +1,10 @@
 {
   "slug": "stocaudio",
   "name": "stocaudio",
-  "version": "1.0.1",
-  "license": "BSD-3-Clause",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
   "author": "Alessandro Petrone",
   "authorEmail": "contact@stocaudio.com",
-  "authorUrl": "https://stocaudio.com",
   "pluginUrl": "https://github.com/aptrn/stocaudio-modules",
   "manualUrl": "https://github.com/aptrn/stocaudio-modules",
   "sourceUrl": "https://github.com/aptrn/stocaudio-modules",
@@ -40,45 +39,6 @@
       "description": "Polyphonic stereo spreader and summer",
       "tags": [
         "VCA",
-        "Utility",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "Clock",
-      "name": "Clock",
-      "description": "Clock multiplier/divider with swing",
-      "tags": [
-        "Utility",
-        "Sequencer",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "Manseq",
-      "name": "Manseq",
-      "description": "Polyphonic button driven sequencer",
-      "tags": [
-        "Sequencer",
-        "Utility",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "Btnseq",
-      "name": "Btnseq",
-      "description": "Polyphonic gate sequencer",
-      "tags": [
-        "Sequencer",
-        "Utility",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "Polyslew",
-      "name": "Polyslew",
-      "description": "Polyphonic Slew Limiter",
-      "tags": [
         "Utility",
         "Polyphonic"
       ]

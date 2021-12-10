@@ -1147,7 +1147,7 @@
     "modules": {}
   },
   "stocaudio": {
-    "buildTimestamp": 1570919128.04277,
+    "buildTimestamp": 1639112690.2316594,
     "creationTimestamp": 1569702009.0,
     "modules": {
       "Polyturing": {
@@ -2665,7 +2665,7 @@
     }
   },
   "squinkylabs-plug1": {
-    "buildTimestamp": 1638461711.415189,
+    "buildTimestamp": 1639112368.6761634,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {
@@ -3508,7 +3508,7 @@
     }
   },
   "kocmoc": {
-    "buildTimestamp": 1638319676.4929862,
+    "buildTimestamp": 1639113348.286395,
     "creationTimestamp": 1572165273.0,
     "modules": {
       "SVF-1": {
@@ -3750,7 +3750,7 @@
     }
   },
   "Valley": {
-    "buildTimestamp": 1638389405.6747484,
+    "buildTimestamp": 1639112618.783031,
     "creationTimestamp": 1521979525.0,
     "modules": {
       "Topograph": {
@@ -4003,7 +4003,7 @@
     }
   },
   "AS": {
-    "buildTimestamp": 1638461927.6698587,
+    "buildTimestamp": 1639112919.217947,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "SineOSC": {
@@ -6334,7 +6334,7 @@
     }
   },
   "Prism": {
-    "buildTimestamp": 1638578243.9372365,
+    "buildTimestamp": 1639113089.0592773,
     "creationTimestamp": 1562952023.0,
     "modules": {
       "Rainbow": {
@@ -9300,7 +9300,7 @@
     }
   },
   "Sha-Bang-Modules": {
-    "buildTimestamp": 1638138172.650101,
+    "buildTimestamp": 1639113291.3381648,
     "creationTimestamp": 1602486511.7177973,
     "modules": {
       "StochSeq": {
@@ -9525,7 +9525,7 @@
     }
   },
   "AlgoritmArte": {
-    "buildTimestamp": 1621685182.7035403,
+    "buildTimestamp": 1639112973.2360969,
     "creationTimestamp": 1605854039.7624297,
     "modules": {
       "Clockkky": {
@@ -10375,5 +10375,14 @@
       }
     },
     "buildTimestamp": 1638135908.8031194
+  },
+  "SequelSequencers": {
+    "buildTimestamp": 1639113155.4511003,
+    "creationTimestamp": 1639113349.024814,
+    "modules": {
+      "Sequel8": {
+        "creationTimestamp": 1639113349.127879
+      }
+    }
   }
 }
