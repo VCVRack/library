@@ -671,7 +671,7 @@
     }
   },
   "VCV-PulseMatrix": {
-    "buildTimestamp": 1638851957.8786635,
+    "buildTimestamp": 1639102313.5144398,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "PulseMatrix16": {
@@ -2199,7 +2199,7 @@
     }
   },
   "VCV-Scalar": {
-    "buildTimestamp": 1638852015.9568725,
+    "buildTimestamp": 1639102226.0487049,
     "creationTimestamp": 1536272165.0,
     "modules": {
       "Scalar": {
@@ -2559,7 +2559,7 @@
     }
   },
   "VCV-Router": {
-    "buildTimestamp": 1638851990.5895317,
+    "buildTimestamp": 1639102201.444696,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "OctalRouter": {
@@ -2574,7 +2574,7 @@
     }
   },
   "VCV-Chords": {
-    "buildTimestamp": 1638851796.457738,
+    "buildTimestamp": 1639102038.8768988,
     "creationTimestamp": 1567952550.0,
     "modules": {
       "Chords": {
@@ -5550,7 +5550,7 @@
     }
   },
   "VCV-Console": {
-    "buildTimestamp": 1638517208.7456493,
+    "buildTimestamp": 1639101874.239045,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Console8_3": {
@@ -5624,7 +5624,7 @@
     }
   },
   "VCV-Parametra": {
-    "buildTimestamp": 1638851929.314573,
+    "buildTimestamp": 1639102172.3805647,
     "creationTimestamp": 1527457581.0,
     "modules": {
       "Parametra": {
@@ -6973,7 +6973,7 @@
     }
   },
   "VCV-Spectra": {
-    "buildTimestamp": 1638852086.9187622,
+    "buildTimestamp": 1639102284.1369665,
     "creationTimestamp": 1532541338.0,
     "modules": {
       "Spectra": {
@@ -8919,7 +8919,7 @@
     }
   },
   "VCV-SoundStage": {
-    "buildTimestamp": 1638852049.441097,
+    "buildTimestamp": 1639102255.2061722,
     "creationTimestamp": 1594281849.53524,
     "modules": {
       "SoundStage": {
@@ -10191,7 +10191,7 @@
     }
   },
   "VCV-Drums": {
-    "buildTimestamp": 1638851901.2971652,
+    "buildTimestamp": 1639102144.5798013,
     "creationTimestamp": 1631372574.4663014,
     "modules": {
       "DrumMachine": {
