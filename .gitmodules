@@ -634,3 +634,6 @@
 [submodule "repos/SequelSequencers"]
 	path = repos/SequelSequencers
 	url = https://github.com/danieldavies99/sequel.git
+[submodule "repos/htLocal"]
+	path = repos/htLocal
+	url = https://github.com/HTlocal/VCV-Modules-HTLocal.git
