@@ -1,7 +1,7 @@
 {
   "slug": "LyraeModules",
   "name": "LyraeModules",
-  "version": "1.0.2",
+  "version": "2.0.2",
   "license": "GPL-3.0-or-later",
   "brand": "LyraeModules",
   "author": "Vega Deftwing",
@@ -25,6 +25,30 @@
       "description": "",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "Delta",
+      "name": "Delta",
+      "description": "So I heard you like ringmod",
+      "tags": [
+        "Ring modulator"
+      ]
+    },
+    {
+      "slug": "Vega",
+      "name": "Vega",
+      "description": "ADSR with per stage outputs and ringmod",
+      "tags": [
+        "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "BD383238",
+      "name": "BD383238",
+      "description": "Expander for Vega ADSR",
+      "tags": [
+        "Expander"
       ]
     }
   ]

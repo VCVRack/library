@@ -1,0 +1,42 @@
+{
+  "slug": "htLocal",
+  "name": "htLocal",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "htLocal",
+  "author": "htLocal",
+  "authorEmail": "local@hack-talk.info",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/HTlocal/VCV-Modules-HTLocal",
+  "manualUrl": "https://github.com/HTlocal/VCV-Modules-HTLocal",
+  "sourceUrl": "https://github.com/HTlocal/VCV-Modules-HTLocal",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "htFader",
+      "name": "htFader",
+      "description": "Fades signals in and out",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "htFader16",
+      "name": "htFader16",
+      "description": "Fades signals in and out",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "htAdder",
+      "name": "htAdder",
+      "description": "functions largely like the A-185-2 Precision CV Adder",
+      "tags": [
+        "Hardware clone",
+        "Utility"
+      ]
+    }
+  ]
+}

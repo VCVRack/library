@@ -1,6 +1,6 @@
 {
   "slug": "Ahornberg",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-only",
   "name": "Ahornberg",
   "brand": "Ahornberg",
@@ -128,6 +128,19 @@
         "Multiple",
         "Polyphonic",
         "Tuner"
+      ]
+    },
+    {
+      "slug": "MIDIPolyExpression",
+      "name": "MIDI Poly Expression",
+      "description": "MIDI MPE to CV",
+      "disabled": false,
+      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#midi-poly-expression",
+      "tags": [
+        "External",
+        "MIDI",
+        "Polyphonic",
+        "Utility"
       ]
     },
     {

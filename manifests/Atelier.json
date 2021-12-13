@@ -1,8 +1,8 @@
 {
   "slug": "Atelier",
   "name": "Atelier",
-  "version": "2.0.0",
-  "license": "GPL-3.0-only",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
   "brand": "Atelier",
   "author": "Xenakios (Panel Design by Pyer)",
   "authorEmail": "xenakios@gmail.com",
@@ -11,7 +11,7 @@
   "manualUrl": "",
   "sourceUrl": "https://github.com/Xenakios/Atelier",
   "donateUrl": "",
-  "changelogUrl": "https://github.com/Xenakios/Atelier/blob/master/CHANGELOG.md",
+  "changelogUrl": "https://github.com/Xenakios/Atelier/blob/v2/CHANGELOG.md",
   "modules": [
     {
       "slug": "AtelierPalette",
