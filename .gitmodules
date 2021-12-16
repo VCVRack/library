@@ -637,3 +637,6 @@
 [submodule "repos/htLocal"]
 	path = repos/htLocal
 	url = https://github.com/HTlocal/VCV-Modules-HTLocal.git
+[submodule "repos/Bastl"]
+	path = repos/Bastl
+	url = https://github.com/hemmer/bastl-vcv.git
