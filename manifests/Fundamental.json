@@ -1,11 +1,11 @@
 {
   "slug": "Fundamental",
-  "version": "1.4.0",
-  "license": "GPL-3.0-only",
   "name": "Fundamental",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
   "brand": "VCV",
   "author": "VCV",
-  "authorEmail": "contact@vcvrack.com",
+  "authorEmail": "support@vcvrack.com",
   "pluginUrl": "https://vcvrack.com/Fundamental.html",
   "authorUrl": "https://vcvrack.com/",
   "manualUrl": "https://vcvrack.com/Fundamental.html#manual",
@@ -14,8 +14,9 @@
   "modules": [
     {
       "slug": "VCO",
-      "name": "VCO-1",
+      "name": "VCO",
       "description": "Voltage-controlled oscillator",
+      "manualUrl": "https://vcvrack.com/Fundamental#VCO",
       "tags": [
         "VCO",
         "Polyphonic"
@@ -23,8 +24,9 @@
     },
     {
       "slug": "VCO2",
-      "name": "VCO-2",
-      "description": "Voltage-controlled oscillator",
+      "name": "Wavetable VCO",
+      "description": "Voltage-controlled wavetable oscillator",
+      "manualUrl": "https://vcvrack.com/Fundamental#VCO",
       "tags": [
         "VCO",
         "Polyphonic"
@@ -34,6 +36,7 @@
       "slug": "VCF",
       "name": "VCF",
       "description": "Voltage-controlled filter",
+      "manualUrl": "https://vcvrack.com/Fundamental#VCF",
       "tags": [
         "VCF",
         "Polyphonic"
@@ -41,8 +44,9 @@
     },
     {
       "slug": "VCA-1",
-      "name": "VCA-1",
+      "name": "VCA",
       "description": "Voltage-controlled amplifier",
+      "manualUrl": "https://vcvrack.com/Fundamental#VCA",
       "tags": [
         "VCA",
         "Polyphonic"
@@ -51,17 +55,20 @@
     {
       "slug": "VCA",
       "name": "VCA-2",
-      "description": "Voltage-controlled amplifier",
+      "description": "2-channel voltage-controlled amplifier",
+      "manualUrl": "https://vcvrack.com/Fundamental#VCA",
       "tags": [
         "VCA",
         "Dual",
         "Polyphonic"
-      ]
+      ],
+      "hidden": true
     },
     {
       "slug": "LFO",
-      "name": "LFO-1",
+      "name": "LFO",
       "description": "Low-frequency oscillator",
+      "manualUrl": "https://vcvrack.com/Fundamental#LFO",
       "tags": [
         "LFO",
         "Polyphonic"
@@ -69,8 +76,9 @@
     },
     {
       "slug": "LFO2",
-      "name": "LFO-2",
-      "description": "Low-frequency oscillator",
+      "name": "Wavetable LFO",
+      "description": "Low-frequency wavetable oscillator",
+      "manualUrl": "https://vcvrack.com/Fundamental#LFO",
       "tags": [
         "LFO",
         "Polyphonic"
@@ -80,6 +88,7 @@
       "slug": "Delay",
       "name": "Delay",
       "description": "",
+      "manualUrl": "https://vcvrack.com/Fundamental#Delay",
       "tags": [
         "Delay"
       ]
@@ -88,15 +97,26 @@
       "slug": "ADSR",
       "name": "ADSR",
       "description": "Generates an envelope with Attack/Decay/Sustain/Release",
+      "manualUrl": "https://vcvrack.com/Fundamental#ADSR",
       "tags": [
         "Envelope Generator",
         "Polyphonic"
       ]
     },
     {
+      "slug": "Mixer",
+      "name": "Mix",
+      "description": "Mixes 6 signals",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "VCMixer",
-      "name": "Mixer",
+      "name": "VCA Mix",
       "description": "Mixes 4 signals with built-in VCAs",
+      "manualUrl": "https://vcvrack.com/Fundamental#VCMixer",
       "tags": [
         "Mixer",
         "VCA",
@@ -107,6 +127,7 @@
       "slug": "8vert",
       "name": "8vert",
       "description": "Attenuverts 8 signals or creates constant voltages",
+      "manualUrl": "https://vcvrack.com/Fundamental#8vert",
       "tags": [
         "Attenuator",
         "Polyphonic"
@@ -116,16 +137,19 @@
       "slug": "Unity",
       "name": "Unity",
       "description": "Mixes or averages signals with unity gain",
+      "manualUrl": "https://vcvrack.com/Fundamental#Unity",
       "tags": [
         "Mixer",
         "Utility",
         "Dual"
-      ]
+      ],
+      "hidden": true
     },
     {
       "slug": "Mutes",
       "name": "Mutes",
       "description": "Toggles up to 10 signals",
+      "manualUrl": "https://vcvrack.com/Fundamental#Mutes",
       "tags": [
         "Switch",
         "Polyphonic"
@@ -135,6 +159,7 @@
       "slug": "Pulses",
       "name": "Pulses",
       "description": "Generates up to 10 trigger and gate signals",
+      "manualUrl": "https://vcvrack.com/Fundamental#Pulses",
       "tags": [
         "Switch"
       ]
@@ -143,6 +168,7 @@
       "slug": "Scope",
       "name": "Scope",
       "description": "Inspect waveforms with an oscilloscope",
+      "manualUrl": "https://vcvrack.com/Fundamental#Scope",
       "tags": [
         "Visual",
         "Polyphonic"
@@ -150,16 +176,18 @@
     },
     {
       "slug": "SEQ3",
-      "name": "SEQ-3",
+      "name": "SEQ 3",
       "description": "3-channel 8-step sequencer also with gate outputs",
+      "manualUrl": "https://vcvrack.com/Fundamental#SEQ-3",
       "tags": [
         "Sequencer"
       ]
     },
     {
       "slug": "SequentialSwitch1",
-      "name": "Sequential Switch 1",
-      "description": "Routes an input to one of to 4 outputs",
+      "name": "Sequential Switch 1 to 4",
+      "description": "Routes 1 input to one of 4 outputs",
+      "manualUrl": "https://vcvrack.com/Fundamental#SequentialSwitch",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -167,8 +195,9 @@
     },
     {
       "slug": "SequentialSwitch2",
-      "name": "Sequential Switch 2",
-      "description": "Routes one of to 4 inputs to an output",
+      "name": "Sequential Switch 4 to 1",
+      "description": "Routes one of 4 inputs to 1 output",
+      "manualUrl": "https://vcvrack.com/Fundamental#SequentialSwitch",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -177,7 +206,8 @@
     {
       "slug": "Octave",
       "name": "Octave",
-      "description": "Shifts 1V/oct CV by octaves",
+      "description": "Shifts 1V/oct pitch CV by octaves",
+      "manualUrl": "https://vcvrack.com/Fundamental#Octave",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -187,6 +217,7 @@
       "slug": "Quantizer",
       "name": "Quantizer",
       "description": "12-note quantizer and scale selector",
+      "manualUrl": "https://vcvrack.com/Fundamental#Quantizer",
       "tags": [
         "Quantizer",
         "Polyphonic"
@@ -196,6 +227,7 @@
       "slug": "Split",
       "name": "Split",
       "description": "Splits a polyphonic cable into multiple monophonic cables",
+      "manualUrl": "https://vcvrack.com/Fundamental#Split",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -205,6 +237,7 @@
       "slug": "Merge",
       "name": "Merge",
       "description": "Combines multiple monophonic cables into a polyphonic cable",
+      "manualUrl": "https://vcvrack.com/Fundamental#Split",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -213,7 +246,8 @@
     {
       "slug": "Sum",
       "name": "Sum",
-      "description": "Sums all channels in a polyphonic cable",
+      "description": "Sums all channels of a polyphonic cable",
+      "manualUrl": "https://vcvrack.com/Fundamental#Sum",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -223,6 +257,7 @@
       "slug": "Viz",
       "name": "Viz",
       "description": "Visualizes all channels of a polyphonic cable",
+      "manualUrl": "https://vcvrack.com/Fundamental#Viz",
       "tags": [
         "Polyphonic",
         "Visual"
@@ -231,7 +266,8 @@
     {
       "slug": "MidSide",
       "name": "Mid/Side",
-      "description": "Mid/side stereo encoder/decoder",
+      "description": "Encodes/decodes between mid/side and left/right stereo signals",
+      "manualUrl": "https://vcvrack.com/Fundamental#MidSide",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -241,6 +277,7 @@
       "slug": "Noise",
       "name": "Noise",
       "description": "Multicolored noise generator",
+      "manualUrl": "https://vcvrack.com/Fundamental#Noise",
       "tags": [
         "Noise"
       ]
@@ -249,6 +286,7 @@
       "slug": "Random",
       "name": "Random",
       "description": "Random CV generator",
+      "manualUrl": "https://vcvrack.com/Fundamental#Random",
       "tags": [
         "Random",
         "Sample and hold"
