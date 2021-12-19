@@ -1,9 +1,9 @@
 {
   "slug": "scanner-darkly-collection-one",
   "name": "Collection One",
-  "version": "1.0.1",
+  "version": "2.0.3",
   "license": "GPL-3.0-only",
-  "brand": "Scanner Darkly",
+  "brand": "scanner darkly",
   "author": "scanner-darkly",
   "authorEmail": "",
   "authorUrl": "https://github.com/scanner-darkly",

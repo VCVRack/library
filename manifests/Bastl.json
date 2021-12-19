@@ -1,0 +1,30 @@
+{
+  "slug": "Bastl",
+  "name": "Bastl",
+  "version": "2.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "Bastl",
+  "author": "Stefano Manconi, Ewan Hemingway, Bastl collaborators",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/hemmer/bastl-vcv",
+  "manualUrl": "https://bastl-instruments.com/eurorack#modules",
+  "sourceUrl": "https://github.com/hemmer/bastl-vcv",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/hemmer/bastl-vcv/blob/v2/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Kompas",
+      "name": "Kompas",
+      "description": "Kompas is a three-coordinate probabilistic pattern navigator.",
+      "manualUrl": "https://bastl-instruments.com/eurorack/modules/kompas",
+      "modularGridUrl": "https://www.modulargrid.net/e/bastl-instruments-kompas",
+      "tags": [
+        "Clock modulator",
+        "Hardware clone",
+        "Random",
+        "Sequencer"
+      ]
+    }
+  ]
+}

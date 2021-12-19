@@ -1,8 +1,8 @@
 {
   "slug": "Interrobang",
   "name": "Interrobang",
-  "version": "1.0.2",
-  "license": "MIT",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
   "brand": "Interrobang",
   "author": "Jim Allman",
   "authorEmail": "jim@ibang.com",

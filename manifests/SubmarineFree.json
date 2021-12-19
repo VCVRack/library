@@ -11,7 +11,7 @@
   "donateUrl": "https://www.paypal.me/SubmarineFree",
   "pluginUrl": "https://vcvrack.submarine.org.uk",
   "changelogUrl": "https://github.com/david-c14/SubmarineFree/blob/main/changelog.md",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "modules": [
     {
       "slug": "AG-104",

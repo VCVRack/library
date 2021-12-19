@@ -1410,5 +1410,12 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/Muxlicer",
     "mgUrl": "https://www.modulargrid.net/e/befaco-muxlicer",
     "mgModuleId": 12804
+  },
+  {
+    "pluginSlug": "Bastl",
+    "moduleSlug": "Kompas",
+    "vcvUrl": "https://library.vcvrack.com/Bastl/Kompas",
+    "mgUrl": "https://www.modulargrid.net/e/bastl-instruments-kompas",
+    "mgModuleId": 24566
   }
 ]

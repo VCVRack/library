@@ -1,14 +1,14 @@
 {
   "slug": "AnimatedCircuits",
   "name": "Animated Circuits",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "brand": "Animated Circuits",
   "author": "Animated Circuits",
   "license": "BSD-3-Clause",
   "authorEmail": "animatedcircuits@gmail.com",
-  "pluginUrl": "https://github.com/AnimatedCircuits/RackModules/releases",
-  "authorUrl": "https://www.animated-circuits.com",
-  "manualUrl": "",
+  "pluginUrl": "https://github.com/AnimatedCircuits/RackModules",
+  "authorUrl": "",
+  "manualUrl": "https://github.com/AnimatedCircuits/RackModules/wiki",
   "sourceUrl": "https://github.com/AnimatedCircuits/RackModules",
   "changelogUrl": "",
   "modules": [

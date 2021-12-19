@@ -1,7 +1,7 @@
 {
   "slug": "Autinn",
   "name": "Autinn",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Autinn",
   "author": "Nikolai V. Chr.",
@@ -97,7 +97,7 @@
     {
       "slug": "Oxcart",
       "name": "Oxcart",
-      "description": "Aggresive oscillator",
+      "description": "Aggresive oscillator. Best for low/mid frequencies.",
       "tags": [
         "VCO"
       ]
@@ -167,6 +167,69 @@
         "Dynamics",
         "Expander",
         "Dual"
+      ]
+    },
+    {
+      "slug": "TriBand",
+      "name": "Imp",
+      "description": "Simple Triple Band Equalizer",
+      "tags": [
+        "Equalizer"
+      ]
+    },
+    {
+      "slug": "Mixer6",
+      "name": "6 Channel Mixer",
+      "description": "6 channel mixer with no CV",
+      "tags": [
+        "Mixer",
+        "Equalizer"
+      ]
+    },
+    {
+      "slug": "Non",
+      "name": "Non",
+      "description": "Limiter",
+      "tags": [
+        "Limiter",
+        "Dynamics",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Overdrive",
+      "name": "Fil",
+      "description": "Filing away at audio (Overdrive)",
+      "tags": [
+        "Effect",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Distortion",
+      "name": "Nap",
+      "description": "Taking a nap (Distortion)",
+      "tags": [
+        "Effect",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Melody",
+      "name": "Fluencerator",
+      "description": "Random melody sequencer with special constraints that make it sound more pleasant for the ear",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Chord",
+      "name": "Rebel",
+      "description": "Plays a random selected chord from a root note (does not have to be in tune). Polyphonic outputs.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
       ]
     }
   ]

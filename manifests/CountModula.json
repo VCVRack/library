@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -1092,7 +1092,7 @@
     {
       "slug": "SampleAndHold2",
       "name": "Super Sample & Hold",
-      "description": "Sample and Hold/Track and hold with probability and offset",
+      "description": "Sample and Hold/Track and hold with probability, offset and inbuilt noise source",
       "tags": [
         "Sample and hold",
         "Polyphonic"
