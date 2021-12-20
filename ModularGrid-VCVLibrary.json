@@ -1417,5 +1417,26 @@
     "vcvUrl": "https://library.vcvrack.com/Bastl/Kompas",
     "mgUrl": "https://www.modulargrid.net/e/bastl-instruments-kompas",
     "mgModuleId": 24566
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "1f",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/1f",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-1-f",
+    "mgModuleId": 35348
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "eas",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/eas",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-eas",
+    "mgModuleId": 35347
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "neoni",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/neoni",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-neoni",
+    "mgModuleId": 35346
   }
 ]

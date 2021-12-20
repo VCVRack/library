@@ -1,7 +1,7 @@
 {
   "slug": "Instruo",
   "name": "Instruo",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "license": "proprietary",
   "brand": "Instru\u014d",
   "author": "Instru\u014d",
@@ -27,7 +27,7 @@
     {
       "slug": "traigh",
       "name": "tr\u00e0igh",
-      "description": "Discrete Transistor Ladder Lowpass Filter",
+      "description": "Discrete Transistor Ladder Lowpass Filter (traigh)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2020/07/Traigh-Manual-A5.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-traigh",
       "tags": [
@@ -35,12 +35,13 @@
         "Filter",
         "Mixer",
         "Oscillator"
-      ]
+      ],
+      "keywords": "traigh"
     },
     {
       "slug": "harmonaig",
       "name": "harmon\u00e0ig",
-      "description": "Diatonic Harmonic Quantiser",
+      "description": "Diatonic Harmonic Quantiser (harmonaig)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2019/09/Harmoniag-Manual-A5.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-harmonaig",
       "tags": [
@@ -48,35 +49,38 @@
         "Controller",
         "Quad",
         "Quantizer"
-      ]
+      ],
+      "keywords": "harmonaig"
     },
     {
       "slug": "tona",
       "name": "t\u00f2na",
-      "description": "Oscillator",
+      "description": "Oscillator (tona)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2019/09/Tona-Manual-A5.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-tona-",
       "tags": [
         "Hardware clone",
         "Oscillator"
-      ]
+      ],
+      "keywords": "tona"
     },
     {
       "slug": "ceis",
       "name": "c\u00e8is",
-      "description": "ADSR",
+      "description": "ADSR (ceis)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2019/09/Ceis-Manual-A5-v.2.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-ceis",
       "tags": [
         "Hardware clone",
         "Envelope generator",
         "Dynamics"
-      ]
+      ],
+      "keywords": "ceis"
     },
     {
       "slug": "vinca",
       "name": "vinc\u00e2",
-      "description": "Dual VCA",
+      "description": "Dual VCA (vinca)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2019/09/vinca-Manual-A5.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-vinca--",
       "tags": [
@@ -84,7 +88,8 @@
         "Dual",
         "Voltage-controlled amplifier",
         "Attenuator"
-      ]
+      ],
+      "keywords": "vinca"
     },
     {
       "slug": "tanh",
@@ -99,51 +104,55 @@
         "Limiter",
         "Multiple",
         "Waveshaper"
-      ]
+      ],
+      "keywords": "tanh"
     },
     {
       "slug": "tsl",
       "name": "T\u0161-L",
-      "description": "Oscillator",
+      "description": "Oscillator (Ts-L, TsL)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2020/10/Ts%CC%8C-L-V2-Manual.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-ts-l-v2",
       "tags": [
         "Hardware clone",
-        "Low-frequency oscillator",
-        "Oscillator"
-      ]
+        "Oscillator",
+        "Low-frequency oscillator"
+      ],
+      "keywords": "Ts-L TsL tsl ts-l"
     },
     {
       "slug": "CsL",
       "name": "C\u0161-L",
-      "description": "Complex Oscillator",
+      "description": "Complex Oscillator (Cs-L, CsL)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2019/09/Cs-L-Manual-A5.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-cs-l",
       "tags": [
         "Hardware clone",
         "Dual",
-        "Low-frequency oscillator",
         "Oscillator",
+        "Low-frequency oscillator",
         "Ring modulator",
         "Waveshaper"
-      ]
+      ],
+      "keywords": "Cs-L CsL csl cs-l"
     },
     {
       "slug": "io47",
       "name": "I-\u014d47",
-      "description": "Multimode Resonator / Filter",
+      "description": "Multimode Resonator / Filter (I-o47, Io47, 1047)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2020/05/I-047-Manual-A5.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-i-o47",
       "tags": [
         "Hardware clone",
         "Filter",
         "Oscillator"
-      ]
+      ],
+      "keywords": "I-o47 i-o47 Io47 io47 1047"
     },
     {
       "slug": "athru",
       "name": "athr\u00fa",
-      "description": "Wavefolder",
+      "description": "Wavefolder (athru)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2020/05/Athru-Manual-A5.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-athru",
       "tags": [
@@ -151,36 +160,39 @@
         "Distortion",
         "Effect",
         "Waveshaper"
-      ]
+      ],
+      "keywords": "athru"
     },
     {
       "slug": "2f",
       "name": "[2]f",
-      "description": "Dual Fader Module",
+      "description": "Dual Fader Module (2f)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2019/09/2f-Manual.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-2-f",
       "tags": [
         "Hardware clone",
         "Dual",
         "Utility"
-      ]
+      ],
+      "keywords": "2f"
     },
     {
       "slug": "tagh",
       "name": "t\u00e1gh",
-      "description": "Sample and Hold",
+      "description": "Sample and Hold (tagh)",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-tagh-",
       "tags": [
         "Hardware clone",
         "Noise",
         "Random",
         "Sample and hold"
-      ]
+      ],
+      "keywords": "tagh"
     },
     {
       "slug": "ochd",
       "name": "\u00f8chd",
-      "description": "LFO",
+      "description": "LFO (ochd)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2020/05/Ochd-Manual-A5.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/divkid-ochd",
       "tags": [
@@ -189,12 +201,13 @@
         "Low-frequency oscillator",
         "Multiple",
         "Oscillator"
-      ]
+      ],
+      "keywords": "ochd"
     },
     {
       "slug": "tain",
       "name": "t\u00e0in",
-      "description": "Switch Utility Module",
+      "description": "Switch Utility Module (tain)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2020/09/tain-Manual-A5.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-tain",
       "tags": [
@@ -203,31 +216,74 @@
         "Dual",
         "Switch",
         "Utility"
-      ]
+      ],
+      "keywords": "tain"
     },
     {
       "slug": "lion",
       "name": "l\u00econ",
-      "description": "Matrix Mixer",
+      "description": "Matrix Mixer (lion)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2020/09/Lion-Manual.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-lion",
       "tags": [
         "Hardware clone",
         "Mixer",
         "Utility"
-      ]
+      ],
+      "keywords": "lion"
     },
     {
       "slug": "saich",
       "name": "sa\u00efch",
-      "description": "Quad Oscillator",
+      "description": "Quad Oscillator (saich)",
       "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2020/10/sai%CC%88ch-Manual.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-saich",
       "tags": [
         "Hardware clone",
         "Oscillator",
         "Quad"
-      ]
+      ],
+      "keywords": "saich"
+    },
+    {
+      "slug": "1f",
+      "name": "[1]f",
+      "description": "Fader Module (1f)",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2021/10/1f-Manual-1.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/instruo-1-f",
+      "tags": [
+        "Hardware clone",
+        "Attenuator",
+        "Mixer",
+        "Utility"
+      ],
+      "keywords": "1f"
+    },
+    {
+      "slug": "eas",
+      "name": "e\u00e3s",
+      "description": "Logic Module (eas)",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2021/10/Eas-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/instruo-eas",
+      "tags": [
+        "Hardware clone",
+        "Logic",
+        "Utility"
+      ],
+      "keywords": "eas"
+    },
+    {
+      "slug": "neoni",
+      "name": "ne\u00f3ni",
+      "description": "Through-Zero Oscillator (neoni)",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2021/11/neoni-manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/instruo-neoni",
+      "tags": [
+        "Hardware clone",
+        "Oscillator",
+        "Low-frequency oscillator"
+      ],
+      "keywords": "neoni"
     }
   ]
 }
