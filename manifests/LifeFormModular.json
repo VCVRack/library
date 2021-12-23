@@ -1,7 +1,7 @@
 {
   "slug": "LifeFormModular",
   "name": "LifeFormModular",
-  "version": "1.1",
+  "version": "2.0",
   "license": "MIT",
   "brand": "LifeFormModular",
   "author": "Marc Dacunha",
@@ -121,6 +121,22 @@
       "slug": "Driftgen",
       "name": "Driftgen",
       "description": "CV modifier, will add subtle drift to V/Oct signals",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "TimeExpansion",
+      "name": "TimeExpansion",
+      "description": "Clock extension",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "TornArtery",
+      "name": "TornArtery",
+      "description": "Dual envelope + vca",
       "tags": [
         "Utility"
       ]

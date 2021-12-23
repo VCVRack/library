@@ -1,7 +1,7 @@
 {
   "slug": "SequelSequencers",
   "name": "Sequel Sequencers",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Daniel Davies",
   "author": "Daniel Davies",
@@ -17,6 +17,15 @@
       "slug": "Sequel8",
       "name": "Sequel 8",
       "description": "3 row / 8 step sequencer with built-in clock divider",
+      "tags": [
+        "Clock modulator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Sequel16",
+      "name": "Sequel 16",
+      "description": "3 row / 16 step sequencer with built-in clock divider",
       "tags": [
         "Clock modulator",
         "Sequencer"

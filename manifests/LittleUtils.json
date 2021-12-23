@@ -1,8 +1,8 @@
 {
   "slug": "LittleUtils",
   "name": "Little Utils",
-  "version": "1.0.3",
-  "license": "MIT",
+  "version": "2.0.0",
+  "license": "EUPL-1.2",
   "brand": "",
   "author": "M\u00e1rton Gunyh\u00f3",
   "authorEmail": "",
@@ -10,6 +10,7 @@
   "pluginUrl": "https://github.com/mgunyho/Little-Utils",
   "manualUrl": "https://github.com/mgunyho/Little-Utils",
   "sourceUrl": "https://github.com/mgunyho/Little-Utils",
+  "changelogUrl": "https://github.com/mgunyho/Little-Utils/blob/master/CHANGELOG.md",
   "donateUrl": "",
   "modules": [
     {

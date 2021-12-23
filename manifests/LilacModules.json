@@ -1,0 +1,34 @@
+{
+  "slug": "LilacModules",
+  "name": "Lilac Modules",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Lilac",
+  "author": "Gavin Rough",
+  "authorEmail": "lilacloop@grough.com",
+  "manualUrl": "https://github.com/grough/lilac-modules-vcv#readme",
+  "sourceUrl": "https://github.com/grough/lilac-modules-vcv",
+  "changelogUrl": "https://github.com/grough/lilac-modules-vcv/releases",
+  "modules": [
+    {
+      "slug": "Accumulator",
+      "name": "Accumulator",
+      "description": "Dual polyphonic voltage accumulator or integrator",
+      "tags": [
+        "Dual",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Comparator",
+      "name": "Comparator",
+      "description": "Polyphonic voltage comparator with adjustable tolerance",
+      "tags": [
+        "Logic",
+        "Polyphonic",
+        "Utility"
+      ]
+    }
+  ]
+}
