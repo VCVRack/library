@@ -1,7 +1,8 @@
 {
   "slug": "Autodafe",
+  "brand": "Autodafe",
   "name": "Autodafe",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "license": "proprietary",
   "author": "Autodafe",
   "authorEmail": "info@autodafe.net",
