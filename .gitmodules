@@ -640,3 +640,6 @@
 [submodule "repos/Bastl"]
 	path = repos/Bastl
 	url = https://github.com/hemmer/bastl-vcv.git
+[submodule "repos/LilacModules"]
+	path = repos/LilacModules
+	url = https://github.com/grough/lilac-modules-vcv.git
