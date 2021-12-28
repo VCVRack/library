@@ -1,10 +1,10 @@
 {
   "slug": "AnimatedCircuits",
   "name": "Animated Circuits",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "brand": "Animated Circuits",
   "author": "Animated Circuits",
-  "license": "BSD-3-Clause",
+  "license": "GPL-3.0-or-later",
   "authorEmail": "animatedcircuits@gmail.com",
   "pluginUrl": "https://github.com/AnimatedCircuits/RackModules",
   "authorUrl": "",
@@ -17,7 +17,8 @@
       "name": "Folding",
       "description": "Wavefolder",
       "tags": [
-        "Waveshaper"
+        "Waveshaper",
+        "Polyphonic"
       ]
     }
   ]

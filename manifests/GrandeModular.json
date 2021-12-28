@@ -1,7 +1,7 @@
 {
   "slug": "GrandeModular",
   "name": "Grande",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "author": "David Grande",
   "authorEmail": "dbgrande246@gmail.com",
@@ -24,6 +24,16 @@
       ]
     },
     {
+      "slug": "Merge8",
+      "name": "Merge8",
+      "description": "8-channel polyphonic merge.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#merge8",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "MergeSplit4",
       "name": "MergeSplit4",
       "description": "4-channel polyphonic merge and split.",
@@ -37,6 +47,7 @@
       "slug": "MicrotonalChords",
       "name": "Microtonal Chords",
       "description": "Microtonal quad chord generator.",
+      "keywords": "microtonal",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#microtonalchords",
       "tags": [
         "Utility",
@@ -47,6 +58,7 @@
       "slug": "MicrotonalNotes",
       "name": "Microtonal Notes",
       "description": "Microtonal octal note generator.",
+      "keywords": "microtonal",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#microtonalnotes",
       "tags": [
         "Utility",
@@ -57,6 +69,7 @@
       "slug": "NoteMT",
       "name": "NoteMT",
       "description": "Microtonal note utility.",
+      "keywords": "microtonal",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#notemt",
       "tags": [
         "Utility",
@@ -87,6 +100,7 @@
       "slug": "QuantIntervals",
       "name": "Quant Intervals",
       "description": "Microtonal quantizer based on pitch intervals.",
+      "keywords": "microtonal",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#quantintervals",
       "tags": [
         "Quantizer",
@@ -97,6 +111,7 @@
       "slug": "QuantMT",
       "name": "QuantMT",
       "description": "Microtonal quantizer.",
+      "keywords": "microtonal",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#quantmt",
       "tags": [
         "Quantizer",
@@ -118,6 +133,16 @@
       "name": "Scale",
       "description": "Additional scales for Quant.",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#scale",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Split8",
+      "name": "Split8",
+      "description": "8-channel polyphonic split.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#split8",
       "tags": [
         "Utility",
         "Polyphonic"

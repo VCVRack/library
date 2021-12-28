@@ -1274,7 +1274,7 @@
     }
   },
   "OrangeLine": {
-    "buildTimestamp": 1640298651.6288877,
+    "buildTimestamp": 1640708867.003637,
     "creationTimestamp": 1571530639.0,
     "modules": {
       "Fence": {
@@ -1914,7 +1914,7 @@
     "modules": {}
   },
   "ImpromptuModular": {
-    "buildTimestamp": 1638135617.4357855,
+    "buildTimestamp": 1640709234.4765856,
     "creationTimestamp": 1521979525.0,
     "modules": {
       "Tact": {
@@ -2130,7 +2130,7 @@
     }
   },
   "scanner-darkly-collection-one": {
-    "buildTimestamp": 1639931187.4228892,
+    "buildTimestamp": 1640708958.9960418,
     "creationTimestamp": 1572480488.0,
     "modules": {
       "SDOrcasHeart": {
@@ -2620,7 +2620,7 @@
     }
   },
   "Geodesics": {
-    "buildTimestamp": 1638134814.7022474,
+    "buildTimestamp": 1640709407.2044466,
     "creationTimestamp": 1534547467.0,
     "modules": {
       "BlackHoles": {
@@ -3025,7 +3025,7 @@
     }
   },
   "SynthKit": {
-    "buildTimestamp": 1564126344.2732818,
+    "buildTimestamp": 1640709504.793831,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "1x8Splitter": {
@@ -3508,7 +3508,7 @@
     }
   },
   "AnimatedCircuits": {
-    "buildTimestamp": 1639931022.2852778,
+    "buildTimestamp": 1640708931.8253314,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ACFolding": {
@@ -3882,7 +3882,7 @@
     }
   },
   "dBiz": {
-    "buildTimestamp": 1638462592.2675433,
+    "buildTimestamp": 1640709722.1599154,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Multiple": {
@@ -9228,7 +9228,7 @@
     }
   },
   "GrandeModular": {
-    "buildTimestamp": 1638134907.687921,
+    "buildTimestamp": 1640709318.3887846,
     "creationTimestamp": 1598123367.069531,
     "modules": {
       "NoteMT": {
@@ -9269,6 +9269,12 @@
       },
       "VarSampleDelays": {
         "creationTimestamp": 1623003499.1974034
+      },
+      "Merge8": {
+        "creationTimestamp": 1640709723.1046271
+      },
+      "Split8": {
+        "creationTimestamp": 1640709723.2321835
       }
     }
   },
@@ -10278,7 +10284,7 @@
     }
   },
   "LyraeModules": {
-    "buildTimestamp": 1639401900.3856878,
+    "buildTimestamp": 1640708913.834861,
     "creationTimestamp": 1632097261.2901666,
     "modules": {
       "Sulafat": {
