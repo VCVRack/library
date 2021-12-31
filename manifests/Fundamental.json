@@ -1,16 +1,16 @@
 {
   "slug": "Fundamental",
   "name": "Fundamental",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "GPL-3.0-or-later",
   "brand": "VCV",
   "author": "VCV",
   "authorEmail": "support@vcvrack.com",
-  "pluginUrl": "https://vcvrack.com/Fundamental.html",
+  "pluginUrl": "https://vcvrack.com/Fundamental",
   "authorUrl": "https://vcvrack.com/",
-  "manualUrl": "https://vcvrack.com/Fundamental.html#manual",
+  "manualUrl": "https://vcvrack.com/Fundamental#manual",
   "sourceUrl": "https://github.com/VCVRack/Fundamental",
-  "changelogUrl": "https://github.com/VCVRack/Fundamental/blob/v1/CHANGELOG.md",
+  "changelogUrl": "https://github.com/VCVRack/Fundamental/blob/v2/CHANGELOG.md",
   "modules": [
     {
       "slug": "VCO",
