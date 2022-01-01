@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/mysteries/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "modules": [
     {
       "slug": "Lapsus",
