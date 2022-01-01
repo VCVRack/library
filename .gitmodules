@@ -643,3 +643,6 @@
 [submodule "repos/LilacModules"]
 	path = repos/LilacModules
 	url = https://github.com/grough/lilac-modules-vcv.git
+[submodule "repos/dbRackModules"]
+	path = repos/dbRackModules
+	url = https://github.com/docb/dbRackModules.git
