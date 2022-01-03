@@ -1,13 +1,13 @@
 {
   "slug": "SyntheticFX",
   "name": "Synthetic FX",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "license": "PROPRIETARY",
   "author": "SV Modular",
-  "authorEmail": "svmodular@legitimatesounding.com",
-  "authorUrl": "https://legitimatesounding.com/sv-modular/",
-  "pluginUrl": "https://legitimatesounding.com/sv-modular/synthetic-fx/index.html",
-  "manualUrl": "https://legitimatesounding.com/sv-modular/synthetic-fx/index.html",
+  "authorEmail": "contact@svmodular.com",
+  "authorUrl": "https://svmodular.com/",
+  "pluginUrl": "https://svmodular.com/plugin/vcv/synthetic-fx.html",
+  "manualUrl": "https://svmodular.com/plugin/vcv/synthetic-fx.html",
   "brand": "SV Modular",
   "modules": [
     {
@@ -19,7 +19,7 @@
         "Effect",
         "Polyphonic"
       ],
-      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/FourPole.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/FourPole.pdf"
     },
     {
       "slug": "Curds",
@@ -31,7 +31,7 @@
         "Digital",
         "Polyphonic"
       ],
-      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Curds.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/Curds.pdf"
     },
     {
       "slug": "State",
@@ -42,7 +42,7 @@
         "Effect",
         "Polyphonic"
       ],
-      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/State.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/State.pdf"
     },
     {
       "slug": "Rez",
@@ -53,7 +53,7 @@
         "Effect",
         "Polyphonic"
       ],
-      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Rez.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/Rez.pdf"
     },
     {
       "slug": "Comb",
@@ -64,7 +64,7 @@
         "Effect",
         "Polyphonic"
       ],
-      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Comb.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/Comb.pdf"
     },
     {
       "slug": "Chorus",
@@ -76,7 +76,7 @@
         "Effect",
         "Polyphonic"
       ],
-      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Chorus.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/Chorus.pdf"
     },
     {
       "slug": "Whey",
@@ -88,7 +88,7 @@
         "Digital",
         "Polyphonic"
       ],
-      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Whey.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/Whey.pdf"
     },
     {
       "slug": "Tuffet",
@@ -100,7 +100,7 @@
         "Digital",
         "Polyphonic"
       ],
-      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Tuffet.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/Tuffet.pdf"
     },
     {
       "slug": "Delay",
@@ -111,7 +111,7 @@
         "Effect",
         "Polyphonic"
       ],
-      "manualUrl": "https://legitimatesounding.com/sv-modular/downloads/Delay.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/Delay.pdf"
     },
     {
       "slug": "Mix",
