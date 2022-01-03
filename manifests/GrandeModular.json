@@ -1,7 +1,7 @@
 {
   "slug": "GrandeModular",
   "name": "Grande",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "license": "GPL-3.0-or-later",
   "author": "David Grande",
   "authorEmail": "dbgrande246@gmail.com",
@@ -81,6 +81,16 @@
       "name": "PolyMergeResplit",
       "description": "Poly-to-poly Merge and Resplit back to the same channel widths.",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#polymergeresplit-pmr",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolySplit",
+      "name": "PolySplit",
+      "description": "Poly-to-poly splitter with visual selection of channel split points.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#polysplit",
       "tags": [
         "Utility",
         "Polyphonic"

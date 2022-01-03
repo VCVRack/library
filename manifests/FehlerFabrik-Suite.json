@@ -1,7 +1,7 @@
 {
   "slug": "FehlerFabrik-Suite",
   "name": "Fehler Fabrik",
-  "version": "1.1.2",
+  "version": "2.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "Fehler Fabrik",
   "author": "Ross Cameron",
@@ -113,6 +113,22 @@
         "Sampler",
         "Sequencer",
         "Random"
+      ]
+    },
+    {
+      "slug": "Lilt",
+      "name": "Lilt",
+      "description": "Phase-Shifted Shuffling Clock Pair",
+      "tags": [
+        "Clock"
+      ]
+    },
+    {
+      "slug": "Botzinger",
+      "name": "Botzinger",
+      "description": "Arbitrary Rhythm Generator",
+      "tags": [
+        "Sequencer"
       ]
     }
   ]

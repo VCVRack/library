@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.2.0",
+  "version": "2.3.1",
   "license": "BSD-3-Clause",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -149,6 +149,14 @@
       "slug": "wavbank",
       "name": "Wav Bank",
       "description": "Sample player that can load and switch between all .wav files in a folder.",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "wavbankmc",
+      "name": "Wav Bank MC",
+      "description": "Extended version of Wav Bank that supports multi-channel WAV files",
       "tags": [
         "Sampler"
       ]

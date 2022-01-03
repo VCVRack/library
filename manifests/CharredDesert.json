@@ -1,7 +1,7 @@
 {
   "slug": "CharredDesert",
   "name": "CharredDesert",
-  "version": "1.3.1",
+  "version": "2.0.0",
   "license": "CC0-1.0",
   "author": "Jerry Sievert",
   "authorEmail": "contact@svmodular.com",
@@ -18,7 +18,7 @@
       "tags": [
         "Envelope generator"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/DTMF.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/DTMF.pdf"
     },
     {
       "slug": "Noise",
@@ -28,7 +28,7 @@
         "Envelope generator",
         "Noise"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/Noise.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/Noise.pdf"
     },
     {
       "slug": "CVSequencer",
@@ -38,7 +38,7 @@
         "Logic",
         "Sequencer"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/CVSeq.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/CVSeq.pdf"
     },
     {
       "slug": "Not",
@@ -47,7 +47,7 @@
       "tags": [
         "Logic"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/Not.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/Not.pdf"
     },
     {
       "slug": "Pan",
@@ -56,7 +56,7 @@
       "tags": [
         "Panning"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/Pan.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/Pan.pdf"
     },
     {
       "slug": "Shift",
@@ -66,7 +66,7 @@
         "Logic",
         "Attenuator"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/Shift.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/Shift.pdf"
     },
     {
       "slug": "Oscar2",
@@ -76,7 +76,7 @@
         "VCO",
         "Waveshaper"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/Oscar2.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/Oscar2.pdf"
     },
     {
       "slug": "Eq",
@@ -85,7 +85,7 @@
       "tags": [
         "Equalizer"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/Eq.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/Eq.pdf"
     },
     {
       "slug": "Carbon",
@@ -94,7 +94,7 @@
       "tags": [
         "VCF"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/Carbon.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/Carbon.pdf"
     },
     {
       "slug": "Mixer",
@@ -103,7 +103,7 @@
       "tags": [
         "Mixer"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/Mixer.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/Mixer.pdf"
     },
     {
       "slug": "MixerCV",
@@ -112,7 +112,7 @@
       "tags": [
         "Mixer"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/MixerCV.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/MixerCV.pdf"
     },
     {
       "slug": "CV",
@@ -121,7 +121,7 @@
       "tags": [
         "Logic"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/CV.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/CV.pdf"
     },
     {
       "slug": "M",
@@ -130,7 +130,7 @@
       "tags": [
         "Mixer"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/M.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/M.pdf"
     },
     {
       "slug": "Tine",
@@ -140,7 +140,7 @@
         "Attenuator",
         "Mixer"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/Tine.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/Tine.pdf"
     },
     {
       "slug": "K",
@@ -150,7 +150,7 @@
         "Attenuator",
         "Compressor"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/K.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/K.pdf"
     },
     {
       "slug": "X",
@@ -159,7 +159,7 @@
       "tags": [
         "Effect"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/X.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/X.pdf"
     },
     {
       "slug": "Tsunami",
@@ -170,7 +170,7 @@
         "Delay",
         "Waveshaper"
       ],
-      "manualUrl": "https://svmodular.s3-us-west-2.amazonaws.com/manual/charred-desert/Tsunami.pdf"
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/charred-desert/Tsunami.pdf"
     }
   ]
 }

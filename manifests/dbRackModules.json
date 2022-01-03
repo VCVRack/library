@@ -1,0 +1,246 @@
+{
+  "slug": "dbRackModules",
+  "name": "dbRackModules",
+  "version": "2.0.3",
+  "license": "GPL-3.0-or-later",
+  "brand": "docB",
+  "author": "docB",
+  "authorEmail": "",
+  "authorUrl": "https://docb.io",
+  "pluginUrl": "https://github.com/docb/dbRackModules",
+  "manualUrl": "https://github.com/docb/dbRackModules",
+  "sourceUrl": "https://github.com/docb/dbRackModules",
+  "donateUrl": "https://www.paypal.com/paypalme/docb222",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "GeneticTerrain",
+      "name": "GeneticTerrain",
+      "description": "Genetic Waveterrain Sysnthesis",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "GeneticSuperTerrain",
+      "name": "GeneticSuperTerrain",
+      "description": "Genetic Waveterrain Sysnthesis with Superformula Curves",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "DCBlock",
+      "name": "DCBlock",
+      "description": "A stereo polyphonic dc blocker",
+      "tags": [
+        "Filter",
+        "Polyphonic",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "RndHvs3",
+      "name": "RND-HVS3",
+      "description": "A Random Value Cube",
+      "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "JTScaler",
+      "name": "JTScaler",
+      "description": "Tunes standard V/OCT pitches to Just Intonation Scales",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "AddSynth",
+      "name": "AddSynth",
+      "description": "A two dimensional additive synth voice",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "RndH",
+      "name": "RndH",
+      "description": "Polyphonic Random Hold",
+      "tags": [
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "RndC",
+      "name": "RndC",
+      "description": "Polyphonic RandomLFO with cubic interpolation",
+      "tags": [
+        "Polyphonic",
+        "Random"
+      ]
+    },
+    {
+      "slug": "GenScale",
+      "name": "GenScale",
+      "description": "Generates a polyphonic Scale",
+      "tags": [
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "JTKeys",
+      "name": "JTKeys",
+      "description": "Just Intonation Keyboard",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Hopa",
+      "name": "Hopa",
+      "description": "Hopalong Attractor",
+      "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "Frac",
+      "name": "Frac",
+      "description": "Outputs expansions of integer fractions",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "HexSeq",
+      "name": "HexSeq",
+      "description": "A Sequencer using compact hexadecimal strings for trigger sequencing",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Interface",
+      "name": "Interface",
+      "description": "Create an interface for a selection of connected modules",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "HexSeqP",
+      "name": "HexSeqP",
+      "description": "A 16x16x64 Trigger Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "MVerb",
+      "name": "MVerb",
+      "description": "5x5 Waveguide Mesh Reverb",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "PShift",
+      "name": "PShift",
+      "description": "Pitch Shifter",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "FLA",
+      "name": "FLA",
+      "description": "applies integer arithmetic to a CV signal",
+      "tags": [
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "FLL",
+      "name": "FLL",
+      "description": "applies integer bit operations to a CV signal",
+      "tags": [
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Gendy",
+      "name": "Gendy",
+      "description": "Iannis Xenakis GENDYN Simulation",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "RTrig",
+      "name": "RTrig",
+      "description": "Random Deviation Trigger",
+      "tags": [
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "STrig",
+      "name": "STrig",
+      "description": "Polyphonic Schmitt-Trigger",
+      "tags": [
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "RSC",
+      "name": "RSC",
+      "description": "Reverb",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Pad",
+      "name": "Pad",
+      "description": "PadSynth",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "RndG",
+      "name": "RndG",
+      "description": "Random Gates",
+      "tags": [
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Plotter",
+      "name": "Plotter",
+      "description": "Plots a 2D signal",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "SuperLFO",
+      "name": "SuperLFO",
+      "description": "2D LFO for superformula curves",
+      "tags": [
+        "Oscillator",
+        "Low-frequency Oscillator"
+      ]
+    }
+  ]
+}
