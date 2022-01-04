@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.3.0",
+  "version": "2.3.2",
   "license": "proprietary",
   "brand": "DanT",
   "author": "dtilley",
@@ -73,6 +73,26 @@
       ],
       "keywords": "billy gates generator envelope slope",
       "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/billyg8s.md"
+    },
+    {
+      "slug": "BrightIdea",
+      "name": "Bright Idea",
+      "description": "[4hp] CV control over cable opacity & tension, room brightness & light bloom",
+      "tags": [
+        "Utility"
+      ],
+      "keywords": "cable opacity tension room brightness light bloom control",
+      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/brightidea.md"
+    },
+    {
+      "slug": "Nonaquant",
+      "name": "Nonaquant",
+      "description": "[40hp] Quantizer across 9 octaves",
+      "tags": [
+        "Quantizer"
+      ],
+      "keywords": "nine octaves nona quant",
+      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/nonaquant.md"
     }
   ]
 }
