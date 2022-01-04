@@ -1,7 +1,7 @@
 {
   "slug": "Hora-PCMDrumFree",
   "name": "PCM Drums free",
-  "version": "1.0.2",
+  "version": "2.0.1",
   "license": "proprietary",
   "brand": "Hora",
   "author": "Hora",
@@ -14,7 +14,7 @@
   "modules": [
     {
       "slug": "Hora-PCMDrumLDrum",
-      "name": "PCM Drum",
+      "name": "PCM Drum Free",
       "description": "LinnDrum samples based drums",
       "tags": [
         "DRUM"

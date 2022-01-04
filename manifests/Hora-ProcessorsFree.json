@@ -1,7 +1,7 @@
 {
   "slug": "Hora-ProcessorsFree",
   "name": "Processors Free",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
@@ -22,7 +22,7 @@
     },
     {
       "slug": "Delay",
-      "name": "Delay Free",
+      "name": "Millenial Free",
       "description": "multimode delay",
       "tags": [
         "Effect"
