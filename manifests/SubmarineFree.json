@@ -11,7 +11,7 @@
   "donateUrl": "https://www.paypal.me/SubmarineFree",
   "pluginUrl": "https://vcvrack.submarine.org.uk",
   "changelogUrl": "https://github.com/david-c14/SubmarineFree/blob/main/changelog.md",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "modules": [
     {
       "slug": "AG-104",
@@ -48,10 +48,20 @@
       ]
     },
     {
+      "slug": "A0-101",
+      "name": "AO-101",
+      "description": "AO-101 Arithmetic Operators",
+      "keywords": "Maths Algoritmm Arithmetic Operators",
+      "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AO.md",
+      "tags": [
+        "UTILITY"
+      ]
+    },
+    {
       "slug": "A0-106",
       "name": "AO-106",
       "description": "AO-106 Arithmetic Operators",
-      "keywords": "Hex Six Maths Algoritmm Arthimetic Operators",
+      "keywords": "Hex Six Maths Algoritmm Arithmetic Operators",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AO.md",
       "tags": [
         "UTILITY",
@@ -62,7 +72,7 @@
       "slug": "A0-112",
       "name": "AO-112",
       "description": "AO-112 Arithmetic Operators",
-      "keywords": "Twelve Maths Algoritmm Arthimetic Operators",
+      "keywords": "Twelve Maths Algoritmm Arithmetic Operators",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AO.md",
       "tags": [
         "UTILITY",
@@ -73,7 +83,7 @@
       "slug": "A0-118",
       "name": "AO-118",
       "description": "AO-118 Arithmetic Operators",
-      "keywords": "Eighteen Maths Algoritmm Arthimetic Operators",
+      "keywords": "Eighteen Maths Algoritmm Arithmetic Operators",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AO.md",
       "tags": [
         "UTILITY",
@@ -84,7 +94,7 @@
       "slug": "A0-124",
       "name": "AO-124",
       "description": "AO-124 Arithmetic Operators",
-      "keywords": "Twenty Four Maths Algoritmm Arthimetic Operators",
+      "keywords": "Twenty Four Maths Algoritmm Arithmetic Operators",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AO.md",
       "tags": [
         "UTILITY",
@@ -95,7 +105,7 @@
       "slug": "A0-136",
       "name": "AO-136",
       "description": "AO-136 Arithmetic Operators",
-      "keywords": "Thirty Six Maths Algoritmm Arthimetic Operators",
+      "keywords": "Thirty Six Maths Algoritmm Arithmetic Operators",
       "manualUrl": "https://github.com/david-c14/SubmarineFree/blob/main/manual/AO.md",
       "tags": [
         "UTILITY",
