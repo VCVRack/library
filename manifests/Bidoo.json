@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "2.0.3",
+  "version": "2.0.7",
   "license": "GPL-3.0-or-later",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -74,6 +74,15 @@
       "slug": "ZOUMAI",
       "name": "zO\u00f9 MA\u00ef",
       "description": "Sequencer",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#zo\u00f9-ma\u00ef",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ZOUMAI-Expander",
+      "name": "zO\u00f9 MA\u00ef Expander",
+      "description": "Expander for zO\u00f9 MA\u00ef",
       "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#zo\u00f9-ma\u00ef",
       "tags": [
         "Sequencer"
