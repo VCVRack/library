@@ -8961,7 +8961,7 @@
     }
   },
   "VCV-SoundStage": {
-    "buildTimestamp": 1639102255.2061722,
+    "buildTimestamp": 1641942032.518909,
     "creationTimestamp": 1594281849.53524,
     "modules": {
       "SoundStage": {
@@ -10263,7 +10263,7 @@
     }
   },
   "VCV-Drums": {
-    "buildTimestamp": 1641687215.7471974,
+    "buildTimestamp": 1641941981.1474516,
     "creationTimestamp": 1631372574.4663014,
     "modules": {
       "DrumMachine": {
