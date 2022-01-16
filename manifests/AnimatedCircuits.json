@@ -1,7 +1,7 @@
 {
   "slug": "AnimatedCircuits",
   "name": "Animated Circuits",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "brand": "Animated Circuits",
   "author": "Animated Circuits",
   "license": "GPL-3.0-or-later",
@@ -17,6 +17,16 @@
       "name": "Folding",
       "description": "Wavefolder",
       "tags": [
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "ACLFold",
+      "name": "LFold",
+      "description": "Folded LFO",
+      "tags": [
+        "Low-frequency oscillator",
         "Waveshaper",
         "Polyphonic"
       ]

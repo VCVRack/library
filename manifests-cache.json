@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1641683900.2131214,
+    "buildTimestamp": 1642326503.2713492,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -437,6 +437,9 @@
       },
       "wavbankmc": {
         "creationTimestamp": 1641209268.5142982
+      },
+      "digitalprogrammer": {
+        "creationTimestamp": 1642327812.9051208
       }
     }
   },
@@ -3511,11 +3514,14 @@
     }
   },
   "AnimatedCircuits": {
-    "buildTimestamp": 1640708931.8253314,
+    "buildTimestamp": 1642326530.2287302,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ACFolding": {
         "creationTimestamp": 1562696243.0
+      },
+      "ACLFold": {
+        "creationTimestamp": 1642327813.092963
       }
     }
   },
@@ -5086,7 +5092,7 @@
     }
   },
   "CountModula": {
-    "buildTimestamp": 1639932199.7891166,
+    "buildTimestamp": 1642327794.4087212,
     "creationTimestamp": 1560722026.0,
     "modules": {
       "AnalogueShiftRegister": {
@@ -8445,7 +8451,7 @@
     "modules": {}
   },
   "Ahornberg": {
-    "buildTimestamp": 1640298965.4072936,
+    "buildTimestamp": 1642326707.6500943,
     "creationTimestamp": 1562952023.0,
     "modules": {
       "EqualDivision": {
@@ -10302,7 +10308,7 @@
     }
   },
   "AlliewayAudio_Freebies": {
-    "buildTimestamp": 1632097169.2988586,
+    "buildTimestamp": 1642327812.2158551,
     "creationTimestamp": 1632097260.8113873,
     "modules": {
       "chilly_cheese": {
@@ -10509,7 +10515,7 @@
     }
   },
   "dbRackModules": {
-    "buildTimestamp": 1641208624.838811,
+    "buildTimestamp": 1642326885.1481192,
     "creationTimestamp": 1641209269.2091281,
     "modules": {
       "GeneticTerrain": {
@@ -10592,6 +10598,9 @@
       },
       "SuperLFO": {
         "creationTimestamp": 1641209272.7491941
+      },
+      "HexSeqExp": {
+        "creationTimestamp": 1642327813.333794
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "slug": "dbRackModules",
   "name": "dbRackModules",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -54,7 +54,8 @@
       "name": "JTScaler",
       "description": "Tunes standard V/OCT pitches to Just Intonation Scales",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -96,7 +97,8 @@
       "name": "JTKeys",
       "description": "Just Intonation Keyboard",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -136,7 +138,8 @@
       "name": "HexSeqP",
       "description": "A 16x16x64 Trigger Sequencer",
       "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Polyphonic"
       ]
     },
     {
@@ -239,7 +242,16 @@
       "description": "2D LFO for superformula curves",
       "tags": [
         "Oscillator",
-        "Low-frequency Oscillator"
+        "Low-frequency Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "HexSeqExp",
+      "name": "HexSeqExp",
+      "description": "Gate, clock and inverted outputs for HexSeq",
+      "tags": [
+        "Expander"
       ]
     }
   ]
