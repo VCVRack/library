@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "license": "proprietary",
   "brand": "DanT",
   "author": "dtilley",
@@ -93,6 +93,27 @@
       ],
       "keywords": "nine octaves nona quant",
       "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/nonaquant.md"
+    },
+    {
+      "slug": "Chromagica",
+      "name": "Chromagica",
+      "description": "[2hp] ARGB CV controller for Magical CV plugin theme",
+      "tags": [
+        "Utility",
+        "Visual"
+      ],
+      "keywords": "chroma magica cv rgb red green blue theme",
+      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/chromagica.md"
+    },
+    {
+      "slug": "Chromakey",
+      "name": "Chromakey",
+      "description": "[vari-hp] Blank that can change panel size & colour",
+      "tags": [
+        "Visual"
+      ],
+      "keywords": "chroma magical cv blank theme green cyan magenta greenscreen",
+      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/chromakey.md"
     }
   ]
 }

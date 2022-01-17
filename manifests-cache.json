@@ -9618,7 +9618,7 @@
     }
   },
   "DanTModules": {
-    "buildTimestamp": 1641292646.209615,
+    "buildTimestamp": 1642449844.9563177,
     "creationTimestamp": 1607124947.802597,
     "modules": {
       "Wavulike": {
@@ -9644,6 +9644,12 @@
       },
       "Nonaquant": {
         "creationTimestamp": 1641292646.9036949
+      },
+      "Chromagica": {
+        "creationTimestamp": 1642449845.6639073
+      },
+      "Chromakey": {
+        "creationTimestamp": 1642449845.8059819
       }
     }
   },
