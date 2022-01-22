@@ -646,3 +646,6 @@
 [submodule "repos/dbRackModules"]
 	path = repos/dbRackModules
 	url = https://github.com/docb/dbRackModules.git
+[submodule "repos/3HR"]
+	path = repos/3HR
+	url = https://github.com/Geekachuqt/3HR.git
