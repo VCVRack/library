@@ -649,3 +649,6 @@
 [submodule "repos/3HR"]
 	path = repos/3HR
 	url = https://github.com/Geekachuqt/3HR.git
+[submodule "repos/PathSet"]
+	path = repos/PathSet
+	url = https://github.com/patheros/PathSetModules.git
