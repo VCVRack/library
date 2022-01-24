@@ -1,0 +1,43 @@
+{
+  "slug": "3HR",
+  "name": "3HR",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "3HR",
+  "author": "Robin Hammar",
+  "authorEmail": "jobbin.hammar@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/Geekachuqt/3HR",
+  "manualUrl": "https://github.com/Geekachuqt/3HR",
+  "sourceUrl": "https://github.com/Geekachuqt/3HR",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Repeat3hr",
+      "name": "Repeat3hr",
+      "description": "Creative mono delay with a decimated feedback line.",
+      "tags": [
+        "delay",
+        "distortion"
+      ]
+    },
+    {
+      "slug": "Xtenuat3hr",
+      "name": "Xtenuat3hr",
+      "description": "CV-controlled crossfader and attenuverter.",
+      "tags": [
+        "attenuator",
+        "utility"
+      ]
+    },
+    {
+      "slug": "FM3HR",
+      "name": "FM3HR",
+      "description": "Sequential Self-FMing Oscillator",
+      "tags": [
+        "oscillator"
+      ]
+    }
+  ]
+}

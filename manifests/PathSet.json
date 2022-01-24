@@ -1,0 +1,45 @@
+{
+  "slug": "PathSet",
+  "name": "Path Set",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Patheros",
+  "author": "Andrew Hanson",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/patheros",
+  "pluginUrl": "https://github.com/patheros/PathSetModules",
+  "manualUrl": "https://github.com/patheros/PathSetModules",
+  "sourceUrl": "https://github.com/patheros/PathSetModules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ShiftyMod",
+      "name": "Shifty",
+      "description": "Gate shift register with controllable delays. Create generative gate sequences from a single clock.",
+      "tags": [
+        "Clock modulator",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "IceTray",
+      "name": "IceTray",
+      "description": "Speed shifter and tape delay with selective memory. Perform into this and it will never forget your mistakes.",
+      "tags": [
+        "Delay",
+        "Recording"
+      ]
+    },
+    {
+      "slug": "AstroVibe",
+      "name": "AstroVibe",
+      "description": "Three stereo oscillators or LFOs with random waveforms. Explore a universe of unique waveforms.",
+      "tags": [
+        "VCO",
+        "LFO",
+        "Physical modeling"
+      ]
+    }
+  ]
+}
