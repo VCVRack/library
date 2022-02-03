@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1642835031.572958,
+    "buildTimestamp": 1643909455.0639532,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -440,6 +440,9 @@
       },
       "digitalprogrammer": {
         "creationTimestamp": 1642327812.9051208
+      },
+      "digitalsequencerxp": {
+        "creationTimestamp": 1643909900.7177145
       }
     }
   },
@@ -3693,7 +3696,7 @@
     "modules": {}
   },
   "PS-PurrSoftware": {
-    "buildTimestamp": 1638139852.90906,
+    "buildTimestamp": 1643909735.1694515,
     "creationTimestamp": 1579232908.0,
     "modules": {
       "Meander": {
@@ -4591,7 +4594,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1641942908.8271477,
+    "buildTimestamp": 1643909305.7192476,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -6511,7 +6514,7 @@
     "modules": {}
   },
   "Mental": {
-    "buildTimestamp": 1586323962.3873985,
+    "buildTimestamp": 1643909649.5734208,
     "creationTimestamp": 1569943058.0,
     "modules": {
       "MentalMults": {
@@ -7907,7 +7910,7 @@
     }
   },
   "ExpertSleepers-Encoders": {
-    "buildTimestamp": 1638134175.646162,
+    "buildTimestamp": 1643909900.0746186,
     "creationTimestamp": 1553682505.0,
     "modules": {
       "ExpertSleepers-Encoders-8CV": {
@@ -9252,7 +9255,7 @@
     }
   },
   "GrandeModular": {
-    "buildTimestamp": 1641208201.9835095,
+    "buildTimestamp": 1643909547.6702065,
     "creationTimestamp": 1598123367.069531,
     "modules": {
       "NoteMT": {
@@ -9302,6 +9305,12 @@
       },
       "PolySplit": {
         "creationTimestamp": 1641209268.964447
+      },
+      "LFO3": {
+        "creationTimestamp": 1643909900.9468846
+      },
+      "VCA3": {
+        "creationTimestamp": 1643909901.1278918
       }
     }
   },
@@ -9366,7 +9375,7 @@
     }
   },
   "Sha-Bang-Modules": {
-    "buildTimestamp": 1639932647.6312594,
+    "buildTimestamp": 1643909865.1435237,
     "creationTimestamp": 1602486511.7177973,
     "modules": {
       "StochSeq": {
@@ -9416,6 +9425,9 @@
       },
       "StochSeq4X": {
         "creationTimestamp": 1638139500.2578998
+      },
+      "StochSeqGrid": {
+        "creationTimestamp": 1643909901.635519
       }
     }
   },
@@ -10128,7 +10140,7 @@
     }
   },
   "KRTPluginA": {
-    "buildTimestamp": 1641683725.2649744,
+    "buildTimestamp": 1643908970.648836,
     "creationTimestamp": 1627193159.9948137,
     "modules": {
       "A": {
@@ -10635,7 +10647,7 @@
     }
   },
   "3HR": {
-    "buildTimestamp": 1643066586.0519874,
+    "buildTimestamp": 1643909686.6312566,
     "creationTimestamp": 1643066844.4075267,
     "modules": {
       "Repeat3hr": {
@@ -10646,6 +10658,12 @@
       },
       "FM3HR": {
         "creationTimestamp": 1643066844.8709173
+      },
+      "ENVELOOP3HR": {
+        "creationTimestamp": 1643909901.2888367
+      },
+      "FMFILT3HR": {
+        "creationTimestamp": 1643909901.4576619
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.8.0",
+  "version": "2.9.1",
   "license": "BSD-3-Clause",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -45,6 +45,15 @@
       "description": "Six-in-one cv/gate sequencers with independent control over clock division and sequence length.",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "digitalsequencerxp",
+      "name": "Digital Sequencer XP",
+      "description": "Polyphonic version of the Digital Sequencer.  Sixteen-in-one cv/gate sequencers with independent control over clock division and sequence length.",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
       ]
     },
     {

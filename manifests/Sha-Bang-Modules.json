@@ -1,7 +1,7 @@
 {
   "slug": "Sha-Bang-Modules",
   "name": "Sha#Bang! Modules",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "license": "GPL-3.0-only",
   "author": "Jeremy Muller",
   "authorEmail": "jeremy@jeremymuller.com",
@@ -167,6 +167,17 @@
         "Sequencer"
       ],
       "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#stochseq4x"
+    },
+    {
+      "slug": "StochSeqGrid",
+      "name": "Stochastic Sequencer Grid",
+      "description": "Probabilistic grid sequencer with subdivisions",
+      "tags": [
+        "Sequencer",
+        "Visual",
+        "Logic"
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#stochseqgrid"
     },
     {
       "slug": "Talea",

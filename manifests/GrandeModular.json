@@ -1,7 +1,7 @@
 {
   "slug": "GrandeModular",
   "name": "Grande",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "author": "David Grande",
   "authorEmail": "dbgrande246@gmail.com",
@@ -20,6 +20,16 @@
       "tags": [
         "Limiter",
         "Visual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "LFO3",
+      "name": "LFO3",
+      "description": "Triple low-frequency bipolar sine oscillator with FM.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#lfo3",
+      "tags": [
+        "Low-frequency oscillator",
         "Polyphonic"
       ]
     },
@@ -166,7 +176,6 @@
       "tags": [
         "Utility",
         "Polyphonic",
-        "Attenuator",
         "Voltage-controlled amplifier"
       ]
     },
@@ -179,6 +188,16 @@
         "Delay",
         "Polyphonic",
         "Quad"
+      ]
+    },
+    {
+      "slug": "VCA3",
+      "name": "VCA3",
+      "description": "Triple voltage-controlled amplifier.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#vca3",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Polyphonic"
       ]
     }
   ]

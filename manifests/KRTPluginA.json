@@ -1,9 +1,10 @@
 {
   "slug": "KRTPluginA",
   "name": "KRTPluginA",
-  "version": "2.25.25",
+  "version": "2.25.27",
   "license": "MIT",
   "brand": "KRT",
+  "description": "The free plugin set from KRT.",
   "author": "Jacko",
   "authorEmail": "jackokring@gmail.com",
   "authorUrl": "https://kring.co.uk",
@@ -11,12 +12,12 @@
   "manualUrl": "https://github.com/jackokring/KRTPluginA/blob/master/README.md",
   "sourceUrl": "https://github.com/jackokring/KRTPluginA",
   "donateUrl": "https://github.com/jackokring",
-  "changelogUrl": "https://github.com/jackokring/KRTPluginA/blob/master/README.md",
+  "changelogUrl": "https://github.com/jackokring/KRTPluginA/blob/master/changes.md",
   "modules": [
     {
       "slug": "A",
       "name": "A",
-      "description": "Plate 18 dB filter. (Band pass phased ring mod).",
+      "description": "Plate 18 dB filter. Band pass phased ring mod. Other ins\nand outs with different order are available. The ring\nmodulation is between a low and high pass for a band pass\nwith harmonics effect.",
       "tags": [
         "Effect",
         "Filter",
@@ -26,7 +27,7 @@
     {
       "slug": "Mu",
       "name": "\u03bc",
-      "description": "Time dependant caclulus on a summing junction. (Precise Distortion)",
+      "description": "Time dependant caclulus on a summing junction with series\ntruncation distortion. This is complex to explain. Much\nbetter to listen and fiddle.",
       "tags": [
         "Effect",
         "Waveshaper",
@@ -36,7 +37,7 @@
     {
       "slug": "T",
       "name": "T",
-      "description": "Pitched time stretch and matched trigger sync delay.",
+      "description": "Pitched time stretch and matched trigger sync delay. Spools\nand then plays back faster such that the overall waveform\nis produced at two different frequencies.",
       "tags": [
         "Effect",
         "Tuner",
@@ -47,7 +48,7 @@
     {
       "slug": "L",
       "name": "L",
-      "description": "Synchronized delay with shortening.",
+      "description": "Synchronized delay with shortening. To synchronize with a\nbuffer but delayed by a bar or some other timed quantity.",
       "tags": [
         "Utility",
         "Clock modulator",
@@ -58,7 +59,7 @@
     {
       "slug": "D",
       "name": ";D",
-      "description": "VCA/future estimator with error?",
+      "description": "Exponential VCA and future estimator with error? A very\nsimple utility.",
       "tags": [
         "Utility",
         "Attenuator",
@@ -70,7 +71,7 @@
     {
       "slug": "R",
       "name": "R",
-      "description": "Simple mixer split.",
+      "description": "Simple mixer split. Put a signal on another as an insert.",
       "tags": [
         "Attenuator",
         "Mixer",
@@ -81,7 +82,7 @@
     {
       "slug": "Om",
       "name": "\u03a9",
-      "description": "Clock distribution randomizer.",
+      "description": "Clock distribution randomizer. Generates a randomish\nsequence of length 64 and depending on the left-most\ndisplayed letter outputs a trigger when the clock is high\nor low.",
       "tags": [
         "Clock modulator",
         "Polyphonic",
@@ -92,7 +93,7 @@
     {
       "slug": "V",
       "name": "V",
-      "description": "Envelope VCA and CV producer.",
+      "description": "Envelope VCA and CV producer. A bit wierd. An experiment in\nmodule design.",
       "tags": [
         "Envelope generator",
         "Voltage-controlled amplifier",
@@ -102,7 +103,7 @@
     {
       "slug": "F",
       "name": "F",
-      "description": "24 dB morph filter.",
+      "description": "24 dB morph filter. A 2D interpolation and extrapolation\nbetween 4 classic analytic filter responses of Bessel,\nButterworth, Linkwitz and Legendre. Includes an interpole\ndistortion effect and morphing to the inverse filter.",
       "tags": [
         "Filter",
         "Polyphonic"
@@ -111,7 +112,7 @@
     {
       "slug": "W",
       "name": "W",
-      "description": "Gate transposer.",
+      "description": "Gate transposer. Kind of a tuning plug-board for gate\ntriggers.",
       "tags": [
         "Attenuator",
         "Mixer",
@@ -122,7 +123,7 @@
     {
       "slug": "Y",
       "name": "Y",
-      "description": "Triple sequencer.",
+      "description": "Triple sequencer. Nice but complex to operate. Try the\nonline help.",
       "tags": [
         "Clock generator",
         "Sequencer"
@@ -131,7 +132,7 @@
     {
       "slug": "O",
       "name": "O",
-      "description": "Triple parabolic skew feedback oscillator.",
+      "description": "Triple parabolic skew feedback oscillator. An experimental\nmodule.",
       "tags": [
         "Polyphonic",
         "Oscillator"
@@ -140,7 +141,7 @@
     {
       "slug": "S",
       "name": "S",
-      "description": "Clock to CV generator. (Needs MIDI clk, cont, stop, start).",
+      "description": "Clock to CV generator. Needs MIDI clk, cont, stop and\nstart. Produces a time based CV.",
       "tags": [
         "MIDI",
         "Clock modulator",
@@ -150,7 +151,7 @@
     {
       "slug": "E",
       "name": "E",
-      "description": "Simple AR envelope with VCA.",
+      "description": "Simple AR envelope with VCA. Nice. Gained modulation out.",
       "tags": [
         "Envelope generator",
         "Voltage-controlled amplifier",
@@ -160,7 +161,7 @@
     {
       "slug": "X",
       "name": "X",
-      "description": "Oversampled wave-folder.",
+      "description": "Oversampled wave-folder. A lot of fizz in such a little\nmodule.",
       "tags": [
         "Waveshaper",
         "Polyphonic"
@@ -169,7 +170,7 @@
     {
       "slug": "M",
       "name": "M",
-      "description": "Emphisis and de-emphisis filter. (Default RIAA and inverse).",
+      "description": "Emphisis and de-emphisis filter. Default is RIAA and\ninverse. This module has large gain. WARNING!",
       "tags": [
         "Polyphonic",
         "Filter",
@@ -180,7 +181,7 @@
     {
       "slug": "Q",
       "name": "Q",
-      "description": "Quantum gravimitator. Imitates a coupled gravity quantum idea.",
+      "description": "Quantum gravimitator. Imitates a coupled gravity quantum\nidea. I really shouldn't explain. Just play.",
       "tags": [
         "Polyphonic",
         "Effect",
@@ -191,7 +192,7 @@
     {
       "slug": "C",
       "name": "C",
-      "description": "A set of three attenuverters with mixing.",
+      "description": "A set of three attenuverters with mixing. Kind of useful\nchainable mixer. Includes LPF per channel.",
       "tags": [
         "Attenuator",
         "Mixer",
@@ -202,7 +203,7 @@
     {
       "slug": "U",
       "name": "U",
-      "description": "Sample and hold quantizer.",
+      "description": "Sample and hold quantizer. Simple.",
       "tags": [
         "Quantizer",
         "Polyphonic",
@@ -213,7 +214,7 @@
     {
       "slug": "B",
       "name": "B",
-      "description": "Crossbar performance switch.",
+      "description": "Crossbar performance switch. Remembers internal routing for\nperformance switching.",
       "tags": [
         "Switch",
         "Controller",
@@ -223,7 +224,7 @@
     {
       "slug": "J",
       "name": "J",
-      "description": "All-pass filter. (Phaser).",
+      "description": "All-pass filter and phaser. Has an LFO built-in.",
       "tags": [
         "Filter",
         "Polyphonic",
@@ -244,7 +245,7 @@
     {
       "slug": "H",
       "name": "H",
-      "description": "Base gimpathizer. (Organ with phase modulation).",
+      "description": "Base gimpathizer. An organ with phase modulation. Bass how\nlow can you go?",
       "tags": [
         "Polyphonic",
         "Oscillator"
@@ -262,7 +263,7 @@
     {
       "slug": "G",
       "name": "G",
-      "description": "Compressor with control outs.",
+      "description": "Compressor with control outs. Has a low pass peaking filter.",
       "tags": [
         "Polyphonic",
         "Compressor",
