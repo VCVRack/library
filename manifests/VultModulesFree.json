@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "modules": [
     {
       "slug": "Basal",
@@ -91,6 +91,15 @@
         "Polyphonic"
       ],
       "description": "Quad Voltage Processor"
+    },
+    {
+      "slug": "Jorus",
+      "name": "Jorus",
+      "tags": [
+        "Effect",
+        "Polyphonic"
+      ],
+      "description": "Analog Chorus"
     },
     {
       "slug": "Julste",

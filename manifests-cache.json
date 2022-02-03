@@ -6098,7 +6098,7 @@
     }
   },
   "VultModulesFree": {
-    "buildTimestamp": 1641021755.8789046,
+    "buildTimestamp": 1643870777.7366898,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Basal": {
@@ -6199,6 +6199,9 @@
       },
       "Nitrous": {
         "creationTimestamp": 1627417759.7163026
+      },
+      "Jorus": {
+        "creationTimestamp": 1643870780.050417
       }
     }
   },
@@ -7189,7 +7192,7 @@
     }
   },
   "VultCompacts": {
-    "buildTimestamp": 1641021747.9385614,
+    "buildTimestamp": 1643870776.0299683,
     "creationTimestamp": 1527117794.0,
     "modules": {
       "Freak": {
@@ -7886,7 +7889,7 @@
     }
   },
   "VultMysteries": {
-    "buildTimestamp": 1641021758.752362,
+    "buildTimestamp": 1643870778.7433887,
     "creationTimestamp": 1563301966.0,
     "modules": {
       "Lapsus": {
@@ -8305,7 +8308,7 @@
     "modules": {}
   },
   "VultModules": {
-    "buildTimestamp": 1641021754.5188458,
+    "buildTimestamp": 1643870776.8966627,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Basal": {
@@ -8430,6 +8433,9 @@
       },
       "Nitrous": {
         "creationTimestamp": 1627417759.8202884
+      },
+      "Jorus": {
+        "creationTimestamp": 1643870780.206573
       }
     }
   },
