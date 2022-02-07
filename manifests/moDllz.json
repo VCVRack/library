@@ -1,7 +1,7 @@
 {
   "slug": "moDllz",
   "name": "moDllz",
-  "version": "1.1.7",
+  "version": "2.0.3",
   "license": "GPL-3.0-or-later",
   "brand": "moDllz",
   "author": "Pablo DeLaLoza",
@@ -19,61 +19,9 @@
       "tags": [
         "MIDI",
         "External",
+        "Utility",
         "Multiple",
         "Polyphonic"
-      ]
-    },
-    {
-      "slug": "MIDIdualCV",
-      "name": "MIDIdualCV",
-      "description": "MIDI to Duophonic CV (Lower - Upper notes)",
-      "tags": [
-        "MIDI",
-        "External",
-        "Dual"
-      ]
-    },
-    {
-      "slug": "MIDI8MPE",
-      "name": "MIDI8MPE",
-      "description": "8ch MIDI with MPE mode",
-      "tags": [
-        "MIDI",
-        "External",
-        "Multiple"
-      ]
-    },
-    {
-      "slug": "MIDIpoly16",
-      "name": "MIDIpoly16",
-      "description": "16ch MIDI with Sequencer and Arpeggiator",
-      "tags": [
-        "MIDI",
-        "External",
-        "Multiple",
-        "Sequencer",
-        "Arpeggiator",
-        "Clock generator",
-        "Clock modulator"
-      ]
-    },
-    {
-      "slug": "XBender",
-      "name": "Xbender",
-      "description": "",
-      "tags": [
-        "Effect",
-        "Multiple"
-      ]
-    },
-    {
-      "slug": "TwinGlider",
-      "name": "TwinGlider",
-      "description": "Slew limiter / Glide / Portamento",
-      "tags": [
-        "Dual",
-        "Slew limiter",
-        "Envelope Follower"
       ]
     }
   ]
