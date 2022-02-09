@@ -92,7 +92,7 @@ for plugin_path in plugin_paths:
 		print(f"Building {slug}")
 		try:
 			common.system(f'cd "{TOOLCHAIN_DIR}" && make plugin-build-clean')
-			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j$(nproc) plugin-build PLUGIN_DIR={plugin_path}')
+			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j$(nproc) plugin-build PLUGIN_DIR="{plugin_path}"')
 			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/* "{PACKAGES_DIR}"/')
 			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/*-lin.vcvplugin "{RACK_USER_PLUGIN_DIR}"')
 		except Exception as e:
@@ -144,8 +144,12 @@ manifest_versions_str = ", ".join(map(lambda pair: pair[0] + " to " + pair[1], m
 print()
 print(f"Press enter to launch Rack and test the following packages: {manifest_versions_str}")
 input()
-common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack")
-common.system(f"cd {RACK_USER_DIR} && grep 'warn' log.txt || true")
+try:
+	common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack")
+	common.system(f"cd {RACK_USER_DIR} && grep 'warn' log.txt || true")
+except:
+	print(f"Rack failed! Enter to continue if desired")
+
 print(f"Press enter to generate screenshots, upload packages, upload screenshots, and commit/push the library repo.")
 input()
 
