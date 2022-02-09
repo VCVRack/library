@@ -1,9 +1,9 @@
 {
   "slug": "PathSet",
   "name": "Path Set",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
-  "brand": "Patheros",
+  "brand": "Path Set",
   "author": "Andrew Hanson",
   "authorEmail": "",
   "authorUrl": "https://github.com/patheros",
@@ -11,13 +11,14 @@
   "manualUrl": "https://github.com/patheros/PathSetModules",
   "sourceUrl": "https://github.com/patheros/PathSetModules",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/patheros/PathSetModules/blob/main/CHANGELOG.md",
   "modules": [
     {
       "slug": "ShiftyMod",
       "name": "Shifty",
       "description": "Gate shift register with controllable delays. Create generative gate sequences from a single clock.",
       "tags": [
+        "Clock",
         "Clock modulator",
         "Sample and hold"
       ]
