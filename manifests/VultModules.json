@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "modules": [
     {
       "slug": "Basal",
@@ -125,6 +125,7 @@
       "name": "Jorus",
       "tags": [
         "Effect",
+        "Chorus",
         "Polyphonic"
       ],
       "description": "Analog Chorus"

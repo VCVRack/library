@@ -8,8 +8,17 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/mysteries/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "modules": [
+    {
+      "slug": "Anima",
+      "name": "Anima",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "description": "Psychic Sequence Generator"
+    },
     {
       "slug": "Lapsus",
       "name": "Lapsus",
