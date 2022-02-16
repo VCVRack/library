@@ -1307,7 +1307,7 @@
     }
   },
   "HamptonHarmonics": {
-    "buildTimestamp": 1638135139.3137512,
+    "buildTimestamp": 1645028009.4101574,
     "creationTimestamp": 1582941680.0,
     "modules": {
       "Progress": {
@@ -2226,7 +2226,7 @@
     }
   },
   "MindMeldModular": {
-    "buildTimestamp": 1638136667.8755589,
+    "buildTimestamp": 1645027771.234337,
     "creationTimestamp": 1572165273.0,
     "modules": {
       "MixMasterJr": {
@@ -2261,6 +2261,9 @@
       },
       "ShapeMaster": {
         "creationTimestamp": 1619206093.5638
+      },
+      "MSMelder": {
+        "creationTimestamp": 1645028036.5735707
       }
     }
   },
@@ -3307,7 +3310,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1638578135.5682297,
+    "buildTimestamp": 1645027981.5461435,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -4543,7 +4546,7 @@
     }
   },
   "moDllz": {
-    "buildTimestamp": 1644253542.3819597,
+    "buildTimestamp": 1645027804.068473,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "MIDIpolyMPE": {
@@ -6453,7 +6456,7 @@
     "modules": {}
   },
   "MicMusic": {
-    "buildTimestamp": 1562517069.0837412,
+    "buildTimestamp": 1645028035.4441268,
     "creationTimestamp": 1550716028.0,
     "modules": {
       "Seven": {

@@ -1,8 +1,8 @@
 {
   "slug": "MindMeldModular",
   "name": "MindMeld",
-  "version": "2.0.8",
-  "license": "GPL-3.0-only",
+  "version": "2.0.9",
+  "license": "GPL-3.0-or-later",
   "author": "S.Baker and M.Boul\u00e9 ",
   "brand": "MindMeld",
   "authorEmail": "steve@spirit-level.co.uk",
@@ -85,6 +85,16 @@
       "name": "Unmeld",
       "description": "8-track stereo splitter for MixMaster",
       "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-MixMaster-Manual-V1_1_4.pdf",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MSMelder",
+      "name": "M/S Melder",
+      "description": "Mid-side splitting and merging for MixMaster, VCV Mid/Side and EqMaster",
+      "manualUrl": "https://marcboule.github.io/MindMeldModular/#melder",
       "tags": [
         "Polyphonic",
         "Utility"
