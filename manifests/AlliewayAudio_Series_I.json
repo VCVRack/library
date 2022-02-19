@@ -1,0 +1,70 @@
+{
+  "slug": "AlliewayAudio_Series_I",
+  "name": "AlliewayAudio Series I",
+  "version": "2.0.5.8caa173",
+  "license": "proprietary",
+  "brand": "AlliewayAudio",
+  "author": "Allie Way",
+  "authorEmail": "alliewayaudio@gmail.com",
+  "authorUrl": "https://github.com/AlliewayAudio",
+  "pluginUrl": "https://github.com/AlliewayAudio/AlliewayAudio_Series_I",
+  "manualUrl": "https://github.com/AlliewayAudio/AlliewayAudio_Series_I/tree/main/manuals",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Koan",
+      "name": "Koan",
+      "description": "Transforms audio or CVs from subtle warming to annihilation. Telecommunications signal compander (Variable MU-law Encoder/Decoder) with built-in noise, analog clipping, mixer, and thru-zero VCA. Try plugging your favorite filter or effect between encoder and decoder!",
+      "tags": [
+        "Compressor",
+        "Distortion",
+        "Digital",
+        "Effect",
+        "Limiter",
+        "Mixer",
+        "Noise",
+        "Ring modulator",
+        "Speech",
+        "Utility",
+        "Voltage-controlled amplifier",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Bumper",
+      "name": "Bumper",
+      "description": "Quad Stepped Digital Accumulator. Based on the programming concept of incrementally 'bumping' variables up and down. Send it some gates, and it creates many stepped CVs and sub-rhythms as output - send it some oscillators, and it will explode your Atari.",
+      "tags": [
+        "Clock Modulator",
+        "Digital",
+        "Function Generator",
+        "Logic",
+        "Low-frequency Oscillator",
+        "Oscillator",
+        "Quad",
+        "Sample and hold",
+        "Sequencer",
+        "Utility",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "CartoonRunning",
+      "name": "CartoonRunning",
+      "description": "Circuit-Bent Newtonian Physics! Can be used a signal woggler, unstable Oscillator / Envelope / Chaos generator, or as a rather crazy audio effect! Warning: This module has a mind of it's own - use caution (and a limiter if you're using it for audio)!",
+      "tags": [
+        "Digital",
+        "Distortion",
+        "Drum",
+        "Filter",
+        "Function Generator",
+        "Low-frequency Oscillator",
+        "Oscillator",
+        "Physical Modeling",
+        "Waveshaper"
+      ]
+    }
+  ]
+}
