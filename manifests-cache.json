@@ -9948,7 +9948,7 @@
     }
   },
   "MindMeld-ShapeMasterPro": {
-    "buildTimestamp": 1639144886.2323735,
+    "buildTimestamp": 1645393824.8111627,
     "creationTimestamp": 1619013403.5611546,
     "modules": {
       "UMeld": {
@@ -9962,6 +9962,9 @@
       },
       "ShapeMasterTrigExpander": {
         "creationTimestamp": 1619013403.7674463
+      },
+      "ShapeTracker": {
+        "creationTimestamp": 1645393826.5942373
       }
     }
   },
