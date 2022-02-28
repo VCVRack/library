@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1644253502.4708188,
+    "buildTimestamp": 1646088316.1190436,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -8535,7 +8535,7 @@
     }
   },
   "AuraAudio": {
-    "buildTimestamp": 1586748553.8809187,
+    "buildTimestamp": 1646088513.6690507,
     "creationTimestamp": 1586748554.6386294,
     "modules": {
       "ModularForecast": {
@@ -8877,11 +8877,14 @@
     }
   },
   "KautenjaDSP-RackNES": {
-    "buildTimestamp": 1594796303.4529197,
+    "buildTimestamp": 1646088499.0518906,
     "creationTimestamp": 1592705960.088049,
     "modules": {
       "RackNES": {
         "creationTimestamp": 1592705960.2859664
+      },
+      "InputGenie": {
+        "creationTimestamp": 1646088616.5658815
       }
     }
   },
@@ -8994,7 +8997,7 @@
     }
   },
   "KautenjaDSP-PotatoChips": {
-    "buildTimestamp": 1628937444.574855,
+    "buildTimestamp": 1646088442.7333226,
     "creationTimestamp": 1594395479.9564288,
     "modules": {
       "2A03": {
@@ -9261,7 +9264,7 @@
     }
   },
   "GrandeModular": {
-    "buildTimestamp": 1643909547.6702065,
+    "buildTimestamp": 1646088615.9258325,
     "creationTimestamp": 1598123367.069531,
     "modules": {
       "NoteMT": {
@@ -9317,6 +9320,12 @@
       },
       "VCA3": {
         "creationTimestamp": 1643909901.1278918
+      },
+      "Logic": {
+        "creationTimestamp": 1646088616.698938
+      },
+      "Peak": {
+        "creationTimestamp": 1646088616.9480145
       }
     }
   },

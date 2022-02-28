@@ -1,12 +1,11 @@
 {
   "slug": "KautenjaDSP-PotatoChips",
-  "version": "1.11.0",
+  "version": "2.0.0",
   "license": "GPL-3.0-or-later",
   "name": "KautenjaDSP Potato Chips",
   "brand": "KautenjaDSP",
   "author": "Christian Kauten",
   "authorEmail": "KautenjaDSP@gmail.com",
-  "authorUrl": "https://kautenja.github.io/",
   "sourceUrl": "https://github.com/Kautenja/PotatoChips",
   "changelogUrl": "https://github.com/Kautenja/PotatoChips/blob/master/CHANGELOG.md",
   "modules": [
@@ -160,7 +159,7 @@
     },
     {
       "slug": "Sony_S_SMP_Blank1",
-      "name": "Sony S-SMP Blank",
+      "name": "S-SMP Blank",
       "description": "A blank panel with an illustration of the Sony S-SMP chip on the Super Nintendo Entertainment System (SNES).",
       "tags": [
         "Blank"

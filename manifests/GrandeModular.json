@@ -1,7 +1,7 @@
 {
   "slug": "GrandeModular",
   "name": "Grande",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "author": "David Grande",
   "authorEmail": "dbgrande246@gmail.com",
@@ -30,6 +30,16 @@
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#lfo3",
       "tags": [
         "Low-frequency oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Logic",
+      "name": "Logic",
+      "description": "Polyphonic logic gates. Includes two single-input modes: apply across all A channels, and invert all B channels.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#logic",
+      "tags": [
+        "Logic",
         "Polyphonic"
       ]
     },
@@ -81,6 +91,16 @@
       "description": "Microtonal note utility.",
       "keywords": "microtonal",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#notemt",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Peak",
+      "name": "Peak",
+      "description": "Captures polyphonic min/max peaks.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#peak",
       "tags": [
         "Utility",
         "Polyphonic"

@@ -1,12 +1,11 @@
 {
   "slug": "KautenjaDSP-RackNES",
-  "version": "1.4.2",
+  "version": "2.0.0",
   "license": "GPL-3.0-or-later",
   "name": "KautenjaDSP RackNES",
   "brand": "KautenjaDSP",
   "author": "Christian Kauten",
   "authorEmail": "KautenjaDSP@gmail.com",
-  "authorUrl": "https://kautenja.github.io/",
   "manualUrl": "https://github.com/Kautenja/RackNES/releases/latest/download/RackNES.pdf",
   "sourceUrl": "https://github.com/Kautenja/RackNES",
   "changelogUrl": "https://github.com/Kautenja/RackNES/blob/master/CHANGELOG.md",
@@ -19,6 +18,14 @@
         "Clock generator",
         "Sampler",
         "Visual"
+      ]
+    },
+    {
+      "slug": "InputGenie",
+      "name": "CV Genie (Input)",
+      "description": "Expander for RackNES",
+      "tags": [
+        "Expander"
       ]
     }
   ]
