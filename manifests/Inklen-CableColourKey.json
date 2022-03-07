@@ -1,0 +1,25 @@
+{
+  "slug": "Inklen-CableColourKey",
+  "name": "Inklen Cable Colour Key",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Inklen",
+  "author": "Nick Feisst",
+  "authorEmail": "support@inklen.com",
+  "authorUrl": "https://inklen.com",
+  "pluginUrl": "",
+  "manualUrl": "https://inklen.com/rackmodules/manual/cablecolourkeymodules",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "CableColourKey",
+      "name": "Cable Colour Key",
+      "description": "Change the colour of the currently selected cable using your keyboard",
+      "tags": [
+        "Utility"
+      ]
+    }
+  ]
+}
