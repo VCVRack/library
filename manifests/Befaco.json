@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -9,7 +9,7 @@
   "pluginUrl": "https://vcvrack.com/Befaco",
   "authorUrl": "https://vcvrack.com/",
   "sourceUrl": "https://github.com/VCVRack/Befaco",
-  "changelogUrl": "https://github.com/VCVRack/Befaco/blob/v1/CHANGELOG.md",
+  "changelogUrl": "https://github.com/VCVRack/Befaco/blob/v2/CHANGELOG.md",
   "modules": [
     {
       "slug": "EvenVCO",
@@ -225,6 +225,17 @@
       "tags": [
         "Expander",
         "Hardware clone"
+      ]
+    },
+    {
+      "slug": "NoisePlethora",
+      "name": "Noise Plethora",
+      "description": "Multitimbral noise monster",
+      "tags": [
+        "Dual",
+        "Filter",
+        "Hardware clone",
+        "Noise"
       ]
     }
   ]

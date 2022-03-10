@@ -1,16 +1,16 @@
 {
   "slug": "aridacity",
   "name": "aridacity",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "license": "BSD-3-Clause",
-  "brand": "aridacity",
-  "author": "aridacity",
+  "brand": "",
+  "author": "cubeleco",
   "authorEmail": "",
   "authorUrl": "https://cubeleco.blogspot.com",
-  "pluginUrl": "https://github.com/aridacity/aridacityVCV",
+  "pluginUrl": "",
   "manualUrl": "",
-  "sourceUrl": "https://github.com/aridacity/aridacityVCV",
-  "donateUrl": "",
+  "sourceUrl": "https://github.com/cubeleco/aridacityVCV",
+  "changelogUrl": "https://github.com/cubeleco/aridacityVCV/releases",
   "modules": [
     {
       "slug": "ClockDiv",

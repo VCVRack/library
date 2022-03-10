@@ -1,10 +1,10 @@
 {
   "slug": "alto777_LFSR",
   "name": "LFSR",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "BSD-3-Clause",
-  "brand": "alto777_LFSR",
-  "author": "alto777_LFSR",
+  "brand": "p.s.F/X",
+  "author": "alto777",
   "authorEmail": "",
   "authorUrl": "",
   "pluginUrl": "https://github.com/alto777/LFSR",
