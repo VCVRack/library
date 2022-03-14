@@ -1,14 +1,14 @@
 {
   "slug": "SequelSequencers",
-  "name": "Sequel Sequencers",
-  "version": "2.1.0",
+  "name": "Daniel Davies",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "Daniel Davies",
   "author": "Daniel Davies",
   "authorEmail": "danieldavies99@gmail.com",
   "authorUrl": "https://github.com/danieldavies99",
   "pluginUrl": "https://github.com/danieldavies99/sequel",
-  "manualUrl": "",
+  "manualUrl": "https://github.com/danieldavies99/sequel/blob/master/manual/daniel_davies_modular_manual.pdf",
   "sourceUrl": "https://github.com/danieldavies99/sequel",
   "donateUrl": "",
   "changelogUrl": "",
@@ -29,6 +29,38 @@
       "tags": [
         "Clock modulator",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Quantify",
+      "name": "Quantify",
+      "description": "3x Quantizer with attenuverted inputs + nudge and transpose controls",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "Samuel",
+      "name": "Samuel",
+      "description": "Morse code based rhythm generator",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Blank3",
+      "name": "Blank3",
+      "description": "3HP wide blank panel",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Blank5",
+      "name": "Blank5",
+      "description": "5HP wide blank panel",
+      "tags": [
+        "Blank"
       ]
     }
   ]

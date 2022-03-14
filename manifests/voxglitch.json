@@ -1,8 +1,8 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.11.0",
-  "license": "BSD-3-Clause",
+  "version": "2.11.1",
+  "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
   "authorEmail": "clone45@gmail.com",

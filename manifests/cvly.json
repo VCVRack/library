@@ -1,18 +1,30 @@
 {
   "slug": "cvly",
   "name": "cvly",
-  "version": "1.0.4",
+  "version": "2.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "cvly",
   "author": "Benja Appel",
   "authorEmail": "beno.appel@gmail.com",
   "authorUrl": "",
   "pluginUrl": "",
-  "manualUrl": "https://github.com/Lyqst/cvly-modules#modules",
+  "manualUrl": "https://github.com/Lyqst/cvly-modules/tree/v2/docs",
   "sourceUrl": "https://github.com/Lyqst/cvly-modules",
-  "donateUrl": "https://www.buymeacoffee.com/cvly",
-  "changelogUrl": "https://github.com/Lyqst/cvly-modules/releases",
+  "donateUrl": "https://ko-fi.com/cvlymodules",
+  "changelogUrl": "https://github.com/Lyqst/cvly-modules/blob/v2/CHANGELOG.md",
   "modules": [
+    {
+      "slug": "brst",
+      "name": "brst",
+      "description": "Burst generator with up to 8 outputs",
+      "tags": [
+        "poly",
+        "sample and hold",
+        "sequencer",
+        "switch"
+      ],
+      "manualUrl": "https://github.com/Lyqst/cvly-modules/blob/v2/docs/brst.md#brst"
+    },
     {
       "slug": "bss",
       "name": "bss",
@@ -22,7 +34,8 @@
         "quantizer",
         "sample and hold",
         "utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/Lyqst/cvly-modules/blob/v2/docs/bss.md#bss"
     },
     {
       "slug": "crcl",
@@ -33,7 +46,8 @@
         "poly",
         "sample and hold",
         "sequencer"
-      ]
+      ],
+      "manualUrl": "https://github.com/Lyqst/cvly-modules/blob/v2/docs/crcl.md#crcl"
     },
     {
       "slug": "ntrvlc",
@@ -43,7 +57,8 @@
         "quantizer",
         "poly",
         "sequencer"
-      ]
+      ],
+      "manualUrl": "https://github.com/Lyqst/cvly-modules/blob/v2/docs/ntrvlc.md#ntrvlc"
     },
     {
       "slug": "ntrvlx",
@@ -51,7 +66,8 @@
       "description": "ntrvlc expander with output triggers and stacking configuration",
       "tags": [
         "expander"
-      ]
+      ],
+      "manualUrl": "https://github.com/Lyqst/cvly-modules/blob/v2/docs/ntrvlc.md#ntrvlx-expander"
     },
     {
       "slug": "spc",
@@ -61,7 +77,8 @@
         "quantizer",
         "poly",
         "utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/Lyqst/cvly-modules/blob/v2/docs/spc.md#spc"
     },
     {
       "slug": "stpr",
@@ -70,7 +87,8 @@
       "tags": [
         "sequencer",
         "switch"
-      ]
+      ],
+      "manualUrl": "https://github.com/Lyqst/cvly-modules/blob/v2/docs/stpr.md#stpr"
     },
     {
       "slug": "txt",
@@ -80,6 +98,17 @@
         "expander",
         "utility"
       ]
+    },
+    {
+      "slug": "vbrt",
+      "name": "vbrt",
+      "description": "Multiple pitch voltage detuner with incorporated per-channel LFO",
+      "tags": [
+        "multiple",
+        "lfo",
+        "poly"
+      ],
+      "manualUrl": "https://github.com/Lyqst/cvly-modules/blob/v2/docs/vbrt.md#vbrt"
     },
     {
       "slug": "whl",

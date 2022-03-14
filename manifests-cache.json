@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1646918972.1886938,
+    "buildTimestamp": 1647285810.6791806,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -719,7 +719,7 @@
     }
   },
   "AmalgamatedHarmonics": {
-    "buildTimestamp": 1577173066.110999,
+    "buildTimestamp": 1647285663.8222241,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Arp31": {
@@ -10254,7 +10254,7 @@
     }
   },
   "cvly": {
-    "buildTimestamp": 1630329506.7512999,
+    "buildTimestamp": 1647285869.9306562,
     "creationTimestamp": 1628185145.562309,
     "modules": {
       "ntrvlc": {
@@ -10280,6 +10280,12 @@
       },
       "whl": {
         "creationTimestamp": 1630329893.8515399
+      },
+      "brst": {
+        "creationTimestamp": 1647285943.933387
+      },
+      "vbrt": {
+        "creationTimestamp": 1647285944.1348789
       }
     }
   },
@@ -10515,7 +10521,7 @@
     "buildTimestamp": 1638135908.8031194
   },
   "SequelSequencers": {
-    "buildTimestamp": 1640299012.368548,
+    "buildTimestamp": 1647285943.2491586,
     "creationTimestamp": 1639113349.024814,
     "modules": {
       "Sequel8": {
@@ -10523,6 +10529,18 @@
       },
       "Sequel16": {
         "creationTimestamp": 1640299119.0541544
+      },
+      "Quantify": {
+        "creationTimestamp": 1647285944.3333242
+      },
+      "Samuel": {
+        "creationTimestamp": 1647285944.530566
+      },
+      "Blank3": {
+        "creationTimestamp": 1647285944.7390532
+      },
+      "Blank5": {
+        "creationTimestamp": 1647285944.9161818
       }
     }
   },
