@@ -1,7 +1,7 @@
 {
   "slug": "NYSTHI",
   "license": "proprietary",
-  "version": "2.0.10",
+  "version": "2.0.15",
   "name": "NYSTHI",
   "brand": "NYSTHI",
   "author": "NYSTHI",
@@ -21,33 +21,6 @@
         "XOR",
         "NOT",
         "LOGIC"
-      ]
-    },
-    {
-      "slug": "MVerb",
-      "name": "MVerb Reverb",
-      "description": "Reverb based on the MVerb code",
-      "tags": [
-        "REVERB",
-        "EFFECT"
-      ]
-    },
-    {
-      "slug": "HiVerb",
-      "name": "HiVerb Reverb",
-      "description": "Reverb based on the MVerb code with inverted equalization",
-      "tags": [
-        "REVERB",
-        "EFFECT"
-      ]
-    },
-    {
-      "slug": "TwistedMVerb",
-      "name": "TwistedMVerb Reverb",
-      "description": "Reverb based on the MVerb with twisted buffers lenght + CVs",
-      "tags": [
-        "REVERB",
-        "EFFECT"
       ]
     },
     {
@@ -106,24 +79,6 @@
       ]
     },
     {
-      "deprecated": true,
-      "slug": "MasterRecorder",
-      "name": "Stereo Recorder",
-      "description": "Stereo wave recorder",
-      "tags": [
-        "Recording"
-      ]
-    },
-    {
-      "deprecated": true,
-      "slug": "MultiTrack",
-      "name": "4/8 MultiTrack Recorder",
-      "description": "Multichannel recorder",
-      "tags": [
-        "Recording"
-      ]
-    },
-    {
       "slug": "MasterRecorder2",
       "name": "Stereo Recorder vers 2",
       "description": "Stereo wave recorder",
@@ -147,15 +102,6 @@
       "tags": [
         "Recording",
         "Polyphonic"
-      ]
-    },
-    {
-      "deprecated": true,
-      "slug": "MonoRecorder",
-      "name": "1 channel Recorder",
-      "description": "mono wave recorder",
-      "tags": [
-        "Recording"
       ]
     },
     {
@@ -545,15 +491,6 @@
       ]
     },
     {
-      "slug": "STKPitchShifter",
-      "name": "STKPitchShifter",
-      "description": "pitch shifter from STK library",
-      "tags": [
-        "Effect",
-        "filter"
-      ]
-    },
-    {
       "slug": "4Hands",
       "name": "4Hands",
       "description": "multi value sequencer",
@@ -828,6 +765,7 @@
       ]
     },
     {
+      "deprecated": true,
       "slug": "PolySevenSeas",
       "name": "PolySevenSeas",
       "description": "Polyphonic Wavetable VCO, with bidimensional navigator",
@@ -837,6 +775,16 @@
       ]
     },
     {
+      "slug": "PolySevenSeas2",
+      "name": "PolySevenSeas2",
+      "description": "Polyphonic Wavetable VCO, with bidimensional navigator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "deprecated": true,
       "slug": "SevenSeas",
       "name": "SevenSeas",
       "description": "Wavetable VCO, with bidimensional navigator",
@@ -1025,6 +973,38 @@
       ]
     },
     {
+      "slug": "SlimFixedVoltageSource",
+      "name": "SlimFixedVoltageSource",
+      "description": "Single Fixed Voltage Source with GATE",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SlimDualFixedVoltageSource",
+      "name": "SlimDualFixedVoltageSource",
+      "description": "Dual Fixed Voltage Source with GATE",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Label",
+      "name": "Label",
+      "description": "Vertical Label Utility",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "LabelSlim",
+      "name": "LabelSlim",
+      "description": "Vertical Label Utility 1 unit",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
       "slug": "TUNATHOR",
       "name": "TUNATHOR",
       "description": "hardware calibration tool for external CV devices",
@@ -1115,6 +1095,17 @@
       "slug": "Simpliciter",
       "name": "Simpliciter",
       "description": "Sample oscillator also known as confusingSimpler",
+      "tags": [
+        "Recording",
+        "Sampler",
+        "VCO"
+      ]
+    },
+    {
+      "disabled": false,
+      "slug": "Simpliciter2",
+      "name": "Simpliciter Multi",
+      "description": "the Simpliciter MultiTrack version, from 1 to 16 tracks",
       "tags": [
         "Recording",
         "Sampler",
@@ -1331,6 +1322,17 @@
       "tags": [
         "Utility",
         "Controller",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Nudger",
+      "name": "Nudger",
+      "description": "Serge Programmer expander",
+      "tags": [
+        "Utility",
+        "Controller",
+        "Expander",
         "Sequencer"
       ]
     },
