@@ -652,3 +652,6 @@
 [submodule "repos/PathSet"]
 	path = repos/PathSet
 	url = https://github.com/patheros/PathSetModules.git
+[submodule "repos/DivergentWaves"]
+	path = repos/DivergentWaves
+	url = https://github.com/tpcarlson/DivergentWavesVCVRack.git
