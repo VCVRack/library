@@ -1,7 +1,7 @@
 {
   "slug": "GrandeModular",
   "name": "Grande",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "author": "David Grande",
   "authorEmail": "dbgrande246@gmail.com",
@@ -26,8 +26,18 @@
     {
       "slug": "LFO3",
       "name": "LFO3",
-      "description": "Triple low-frequency bipolar sine oscillator with FM.",
+      "description": "Three individual bipolar sine LFOs with separate frequency inputs.",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#lfo3",
+      "tags": [
+        "Low-frequency oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "LFO4",
+      "name": "LFO4",
+      "description": "Four ratioed bipolar sine LFOs with common primary frequency input.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#lfo4",
       "tags": [
         "Low-frequency oscillator",
         "Polyphonic"
@@ -36,7 +46,7 @@
     {
       "slug": "Logic",
       "name": "Logic",
-      "description": "Polyphonic logic gates. Includes two single-input modes: apply across all A channels, and invert all B channels.",
+      "description": "Polyphonic logic gates. (Gates also include two single-input modes: apply across all A channels, and invert all B channels.)",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#logic",
       "tags": [
         "Logic",
@@ -121,6 +131,17 @@
       "name": "PolySplit",
       "description": "Poly-to-poly splitter with visual selection of channel split points.",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#polysplit",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Push",
+      "name": "Push",
+      "description": "Polyphonic push-button switches.",
+      "keywords": "button switch",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#push",
       "tags": [
         "Utility",
         "Polyphonic"

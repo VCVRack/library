@@ -1438,5 +1438,19 @@
     "vcvUrl": "https://library.vcvrack.com/Instruo/neoni",
     "mgUrl": "https://www.modulargrid.net/e/instruo-neoni",
     "mgModuleId": 35346
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Mex",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Mex",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-mex",
+    "mgModuleId": 34864
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "NoisePlethora",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/NoisePlethora",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-noise-plethora",
+    "mgModuleId": 34863
   }
 ]

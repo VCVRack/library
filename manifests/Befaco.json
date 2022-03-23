@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -222,6 +222,8 @@
       "slug": "Mex",
       "name": "Mex",
       "description": "Gate Expander for Befaco Muxlicer",
+      "manualUrl": "https://www.befaco.org/mex/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-mex",
       "tags": [
         "Expander",
         "Hardware clone"
@@ -231,6 +233,8 @@
       "slug": "NoisePlethora",
       "name": "Noise Plethora",
       "description": "Multitimbral noise monster",
+      "manualUrl": "https://www.befaco.org/noise-plethora/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-noise-plethora",
       "tags": [
         "Dual",
         "Filter",

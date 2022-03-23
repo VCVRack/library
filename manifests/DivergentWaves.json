@@ -1,0 +1,27 @@
+{
+  "slug": "DivergentWaves",
+  "name": "Divergent Waves",
+  "version": "2.0.0",
+  "license": "Apache-2.0",
+  "brand": "Divergent Waves",
+  "author": "Tom Carlson",
+  "authorEmail": "twigathy+divergent@gmail.com",
+  "authorUrl": "https://www.divergentwaves.co.uk",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Logic",
+      "name": "Logic",
+      "description": "Fixed-function Logic Processor",
+      "tags": [
+        "Logic",
+        "Hardware",
+        "Hardware clone"
+      ]
+    }
+  ]
+}
