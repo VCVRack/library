@@ -1,7 +1,7 @@
 {
   "slug": "ImpromptuModular",
   "name": "Impromptu",
-  "version": "2.0.7",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "author": "Marc Boul\u00e9",
   "brand": "Impromptu",
@@ -215,6 +215,15 @@
       ]
     },
     {
+      "slug": "Sygen",
+      "name": "Sygen",
+      "description": "Synchronous gate enable",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#sygen",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
       "slug": "Tact",
       "name": "Tact",
       "description": "Dual-channel tactile-inspired controller",
@@ -266,6 +275,18 @@
       "manualUrl": "https://marcboule.github.io/ImpromptuModular/#write-seq",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Variations",
+      "name": "Variations",
+      "description": "Sample and hold a CV with addition of a random noise value",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#variations",
+      "tags": [
+        "Sample and hold",
+        "Random",
+        "Noise",
+        "Polyphonic"
       ]
     },
     {

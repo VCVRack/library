@@ -1,7 +1,7 @@
 {
   "slug": "Valley",
   "name": "Valley",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "license": "GPL-3.0-or-later",
   "author": "Valley",
   "authorEmail": "valley.audio.soft@gmail.com",
@@ -14,7 +14,7 @@
     {
       "slug": "Topograph",
       "name": "Topograph",
-      "description": "",
+      "description": "Topographic drum machine. This module is based on the original\nMutable Instruments (TM) Grids sequencer module. The Map and Density\ncontrols explore and control the denisty of many pre-baked drum patterns.",
       "tags": [
         "Sequencer"
       ]
@@ -22,7 +22,7 @@
     {
       "slug": "uGraph",
       "name": "uGraph",
-      "description": "",
+      "description": "Topographic drum machine. This module is based on the original\nMutable Instruments (TM) Grids sequencer module. The Map and Density\ncontrols explore and control the denisty of many pre-baked drum patterns.",
       "tags": [
         "Sequencer"
       ]
@@ -30,7 +30,7 @@
     {
       "slug": "Dexter",
       "name": "Dexter",
-      "description": "",
+      "description": "A multi-timbral, 4-operator FM oscillator with wavetable and\nwaveshaping capabilities.",
       "tags": [
         "Oscillator"
       ]
@@ -38,16 +38,17 @@
     {
       "slug": "Plateau",
       "name": "Plateau",
-      "description": "",
+      "description": "Lush and bendable plate reverb based on the Dattorro 1997 algorithm.",
       "tags": [
         "Reverb",
-        "Effect"
+        "Effect",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Interzone",
       "name": "Interzone",
-      "description": "",
+      "description": "Polyphonic, virtual analogue synthesiser voice complete with\na VCO, mixer, filter, LFO, and envelope generator.",
       "tags": [
         "Synth Voice",
         "Polyphonic"
@@ -56,7 +57,7 @@
     {
       "slug": "Amalgam",
       "name": "Amalgam",
-      "description": "",
+      "description": "Multi-mode stereo signal combiner. Amalgam lets you combine and\nsmash together signals in many different ways.",
       "tags": [
         "Ring Modulator",
         "Effect",
@@ -66,7 +67,7 @@
     {
       "slug": "Feline",
       "name": "Feline",
-      "description": "",
+      "description": "A stereo, state variable, virtual analogue filter.",
       "tags": [
         "Filter"
       ]
@@ -74,7 +75,7 @@
     {
       "slug": "Terrorform",
       "name": "Terrorform",
-      "description": "",
+      "description": "An extensive wavetable oscillator that lets you explore\nand rip apart wavetables in many different ways.",
       "tags": [
         "Oscillator",
         "Polyphonic",
