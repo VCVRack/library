@@ -1,0 +1,40 @@
+{
+  "slug": "FLAG-Oppressor-Pro",
+  "name": "FLAG Oppressor Pro",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "FLAG",
+  "author": "Flag Audio",
+  "authorEmail": "",
+  "authorUrl": "https://flagaudio.com/",
+  "pluginUrl": "https://flagaudio.com/",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Oppressor-Pro",
+      "name": "Oppressor Pro",
+      "manualUrl": "https://flagaudio.com/vcv/oppressor-pro.html",
+      "description": "Multiband Ducker/Gate/Compressor",
+      "tags": [
+        "Dynamics",
+        "Compressor",
+        "Effect",
+        "Filter",
+        "Vocoder"
+      ]
+    },
+    {
+      "slug": "Oppressor-Pro-Env",
+      "name": "Oppressor Pro Env",
+      "manualUrl": "https://flagaudio.com/vcv/oppressor-pro-env.html",
+      "description": "Multiband Envelope Follower",
+      "tags": [
+        "Envelope follower",
+        "Envelope generator"
+      ]
+    }
+  ]
+}
