@@ -1,0 +1,50 @@
+{
+  "slug": "PathSet-Infinity",
+  "name": "Path Set: Infinity",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Path Set",
+  "author": "Andrew Hanson",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/patheros",
+  "pluginUrl": "https://github.com/patheros/PathSetManuals",
+  "manualUrl": "https://github.com/patheros/PathSetManuals",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "QuantumCompass",
+      "name": "QuantumCompass",
+      "description": "Both/Neither Sequencer/Quantizer. Create a melodic sequence by selecting notes and letting QuantumCompass guide you.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/QuantumCompass.md",
+      "tags": [
+        "Quantizer",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "WarpDrive",
+      "name": "WarpDrive",
+      "description": "Dual-drive systems. Two sound sources with built in, clocks, lfos, and envelops.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/WarpDrive.md",
+      "tags": [
+        "VCO",
+        "LFO",
+        "Clock",
+        "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "Orchestrator",
+      "name": "Orchestrator",
+      "description": "A conniving octopus that creates modulation and gate outputs to conduct a 10 minute long song.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Orchestrator.md",
+      "tags": [
+        "Random",
+        "LFO",
+        "Clock"
+      ]
+    }
+  ]
+}
