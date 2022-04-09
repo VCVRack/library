@@ -655,3 +655,6 @@
 [submodule "repos/DivergentWaves"]
 	path = repos/DivergentWaves
 	url = https://github.com/tpcarlson/DivergentWavesVCVRack.git
+[submodule "repos/StochasticTelegraph"]
+	path = repos/StochasticTelegraph
+	url = https://github.com/mahlenmorris/VCVRack.git
