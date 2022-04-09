@@ -658,3 +658,6 @@
 [submodule "repos/StochasticTelegraph"]
 	path = repos/StochasticTelegraph
 	url = https://github.com/mahlenmorris/VCVRack.git
+[submodule "repos/dbRackFormulaOne"]
+	path = repos/dbRackFormulaOne
+	url = https://github.com/docb/dbRackFormulaOne.git
