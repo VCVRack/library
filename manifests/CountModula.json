@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -560,7 +560,8 @@
       "name": "Fade-in/Fade-out and Record Controller",
       "description": "Automated fade in/out with integrated start/stop control for the VCV Record module",
       "tags": [
-        "Controller"
+        "Controller",
+        "Polyphonic"
       ]
     },
     {
@@ -1112,6 +1113,30 @@
       "description": "Binary addressed encoder for sequencer expanders",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "NibbleTriggerSequencer",
+      "name": "Nibble Trigger Sequencer",
+      "description": "Binary nibble based trigger sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "RandomAccessSwitch18",
+      "name": "Random Access Switch 1-8",
+      "description": "Random access switch 1 input to 8 output",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "RandomAccessSwitch81",
+      "name": "Random Access Switch 8-1",
+      "description": "Random access switch 8 inputs to 1 output",
+      "tags": [
+        "Switch"
       ]
     }
   ]

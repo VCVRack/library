@@ -1,7 +1,7 @@
 {
   "slug": "OrangeLine",
   "name": "OrangeLine",
-  "version": "2.3.15",
+  "version": "2.4.1",
   "license": "GPL-3.0-only",
   "brand": "",
   "author": "Dieter Stubler",
@@ -75,6 +75,15 @@
         "Utility",
         "Polyphonic",
         "Clock Modulator"
+      ]
+    },
+    {
+      "slug": "Resc",
+      "name": "Resc",
+      "description": "Harmonicaly Rescale Pitch from one Scale to another Scale",
+      "tags": [
+        "Utility",
+        "Polyphonic"
       ]
     }
   ]
