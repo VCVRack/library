@@ -1,0 +1,33 @@
+{
+  "slug": "dbRackFormulaOne",
+  "name": "dbRackFormulaOne",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "docB",
+  "author": "docB",
+  "authorEmail": "",
+  "authorUrl": "https://docb.io",
+  "pluginUrl": "https://github.com/docb/dbRackFormulaOne",
+  "manualUrl": "https://github.com/docb/dbRackFormulaOne",
+  "sourceUrl": "https://github.com/docb/dbRackFormulaOne",
+  "donateUrl": "https://www.paypal.com/paypalme/docb222",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "FormulaOne",
+      "name": "Formula One",
+      "description": "A fast script evaluator",
+      "tags": [
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "FormulaOneEdit",
+      "name": "FormulaOneEdit",
+      "description": "Expander for editing scripts",
+      "tags": [
+        "Expander"
+      ]
+    }
+  ]
+}
