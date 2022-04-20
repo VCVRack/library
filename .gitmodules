@@ -661,3 +661,6 @@
 [submodule "repos/dbRackFormulaOne"]
 	path = repos/dbRackFormulaOne
 	url = https://github.com/docb/dbRackFormulaOne.git
+[submodule "repos/alefsbits"]
+	path = repos/alefsbits
+	url = https://github.com/alefnull/alefsbits.git
