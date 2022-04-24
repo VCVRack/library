@@ -1,0 +1,51 @@
+{
+  "slug": "alefsbits",
+  "name": "alef's bits",
+  "version": "2.1.3",
+  "license": "GPL-3.0-or-later",
+  "brand": "alef's bits",
+  "author": "alefnull",
+  "authorEmail": "",
+  "authorUrl": "https://twitter.com/alefnull",
+  "pluginUrl": "https://github.com/alefnull/alefsbits",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/alefnull/alefsbits",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "simplexandhold",
+      "name": "simplex & hold",
+      "description": "sample & hold module using internal simplex noise source",
+      "tags": [
+        "S&H"
+      ]
+    },
+    {
+      "slug": "blank6hp",
+      "name": "blank 6hp",
+      "description": "a simple blank",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "simplexvco",
+      "name": "simplex vco",
+      "description": "a voltage-controlled oscillator based on simplex noise",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "polyrand",
+      "name": "polyrand",
+      "description": "output a random channel of a poly input with a trigger",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

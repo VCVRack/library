@@ -1,7 +1,7 @@
 {
   "slug": "OrangeLine",
   "name": "OrangeLine",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "license": "GPL-3.0-only",
   "brand": "",
   "author": "Dieter Stubler",
@@ -80,9 +80,20 @@
     {
       "slug": "Resc",
       "name": "Resc",
-      "description": "Harmonicaly Rescale Pitch from one Scale to another Scale",
+      "description": "Utility to harmonicaly rescales pitch from one scale to another scale",
       "tags": [
         "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Morph",
+      "name": "Morph",
+      "description": "Morphing of given or random sequences with turing machine functionality",
+      "tags": [
+        "Utility",
+        "Sequencer",
+        "Random",
         "Polyphonic"
       ]
     }
