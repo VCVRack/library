@@ -664,3 +664,6 @@
 [submodule "repos/alefsbits"]
 	path = repos/alefsbits
 	url = https://github.com/alefnull/alefsbits.git
+[submodule "repos/PinkTrombone"]
+	path = repos/PinkTrombone
+	url = https://github.com/VegaDeftwing/PinkTromboneVCV.git
