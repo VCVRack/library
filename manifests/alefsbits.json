@@ -1,7 +1,7 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.1.3",
+  "version": "2.1.5",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
@@ -18,7 +18,8 @@
       "name": "simplex & hold",
       "description": "sample & hold module using internal simplex noise source",
       "tags": [
-        "S&H"
+        "S&H",
+        "Polyphonic"
       ]
     },
     {

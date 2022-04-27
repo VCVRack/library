@@ -1,0 +1,25 @@
+{
+  "slug": "PinkTrombone",
+  "name": "PinkTrombone",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "PinkTrombone",
+  "author": "Vega Deftwing",
+  "authorEmail": "vegac@protonmail.com",
+  "authorUrl": "https://www.opguides.info",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/VegaDeftwing/PinkTromboneVCV",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "PinkTrombone",
+      "name": "PinkTrombone",
+      "description": "Voice Simulation",
+      "tags": [
+        "Physical modeling"
+      ]
+    }
+  ]
+}
