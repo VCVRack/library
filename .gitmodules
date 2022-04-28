@@ -667,3 +667,6 @@
 [submodule "repos/PinkTrombone"]
 	path = repos/PinkTrombone
 	url = https://github.com/VegaDeftwing/PinkTromboneVCV.git
+[submodule "repos/RebelTech"]
+	path = repos/RebelTech
+	url = https://github.com/hemmer/rebel-tech-vcv.git
