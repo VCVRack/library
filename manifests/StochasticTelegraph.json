@@ -1,7 +1,7 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
   "author": "Mahlen Morris",
@@ -16,11 +16,22 @@
     {
       "slug": "Drifter",
       "name": "Drifter",
-      "description": "Varying linear function generator",
+      "description": "Varying linear function generator. Makes sequences that change in small (or large) ways. A line defined by X/Y points, each doing a random walk.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#drifter",
       "tags": [
         "Random",
         "Sample and hold"
+      ]
+    },
+    {
+      "slug": "Fuse",
+      "name": "Fuse",
+      "description": "Counts triggers and blocks/allows a signal after hitting a limit. Useful for timed composition changes, simulating components that break with overuse, or scaling a value based on the number of triggers.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#fuse",
+      "tags": [
+        "Clock modulator",
+        "Utility",
+        "Voltage-controlled amplifier"
       ]
     }
   ]

@@ -1452,5 +1452,47 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/NoisePlethora",
     "mgUrl": "https://www.modulargrid.net/e/befaco-noise-plethora",
     "mgModuleId": 34863
+  },
+  {
+    "pluginSlug": "RebelTech",
+    "moduleSlug": "Stoicheia",
+    "vcvUrl": "https://library.vcvrack.com/RebelTech/Stoicheia",
+    "mgUrl": "https://www.modulargrid.net/e/rebel-technology-stoicheia",
+    "mgModuleId": 295
+  },
+  {
+    "pluginSlug": "RebelTech",
+    "moduleSlug": "Tonic",
+    "vcvUrl": "https://library.vcvrack.com/RebelTech/Tonic",
+    "mgUrl": "https://www.modulargrid.net/e/rebel-technology-tonic",
+    "mgModuleId": 13308
+  },
+  {
+    "pluginSlug": "RebelTech",
+    "moduleSlug": "Klasmata",
+    "vcvUrl": "https://library.vcvrack.com/RebelTech/Klasmata",
+    "mgUrl": "https://www.modulargrid.net/e/rebel-technology-klasmata",
+    "mgModuleId": 1508
+  },
+  {
+    "pluginSlug": "RebelTech",
+    "moduleSlug": "CLK",
+    "vcvUrl": "https://library.vcvrack.com/RebelTech/CLK",
+    "mgUrl": "https://www.modulargrid.net/e/rebel-technology-clk",
+    "mgModuleId": 16925
+  },
+  {
+    "pluginSlug": "RebelTech",
+    "moduleSlug": "Logoi",
+    "vcvUrl": "https://library.vcvrack.com/RebelTech/Logoi",
+    "mgUrl": "https://www.modulargrid.net/e/rebel-technology-logoi",
+    "mgModuleId": 416
+  },
+  {
+    "pluginSlug": "RebelTech",
+    "moduleSlug": "Phoreo",
+    "vcvUrl": "https://library.vcvrack.com/RebelTech/Phoreo",
+    "mgUrl": "https://www.modulargrid.net/e/rebel-technology-phoreo",
+    "mgModuleId": 8198
   }
 ]

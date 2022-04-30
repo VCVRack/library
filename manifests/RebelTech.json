@@ -1,0 +1,89 @@
+{
+  "slug": "RebelTech",
+  "name": "RebelTech",
+  "version": "2.0.0",
+  "license": "GPL-2.0-or-later",
+  "brand": "RebelTech",
+  "author": "Ewan Hemingway",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://www.rebeltech.org/",
+  "sourceUrl": "https://github.com/hemmer/rebel-tech-vcv",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/hemmer/rebel-tech-vcv/blob/v2/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Stoicheia",
+      "name": "Stoicheia",
+      "description": "Dual Euclidean Sequencer",
+      "modularGridUrl": "https://www.modulargrid.net/e/rebel-technology-stoicheia",
+      "manualUrl": "https://www.rebeltech.org/product/stoicheia/",
+      "tags": [
+        "Clock modulator",
+        "Dual",
+        "Hardware clone",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Tonic",
+      "name": "Tonic",
+      "description": "Additive Interval Sequencer",
+      "modularGridUrl": "https://www.modulargrid.net/e/rebel-technology-tonic",
+      "manualUrl": "https://www.rebeltech.org/product/tonic/",
+      "tags": [
+        "Sequencer",
+        "Hardware clone",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Klasmata",
+      "name": "Klasmata",
+      "description": "Voltage controlled Euclidean sequencer",
+      "modularGridUrl": "https://www.modulargrid.net/e/rebel-technology-klasmata",
+      "manualUrl": "https://www.rebeltech.org/product/klasmata/",
+      "tags": [
+        "Clock modulator",
+        "Sequencer",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "CLK",
+      "name": "CLK",
+      "description": "Triple clock generator that produces synchronised clock signals",
+      "modularGridUrl": "https://www.modulargrid.net/e/rebel-technology-clk",
+      "manualUrl": "https://www.rebeltech.org/product/clk/",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Logoi",
+      "name": "Logoi",
+      "description": "Voltage controlled clock divider, counter, and delay",
+      "modularGridUrl": "https://www.modulargrid.net/e/rebel-technology-logoi",
+      "manualUrl": "https://www.rebeltech.org/product/logoi/",
+      "tags": [
+        "Clock modulator",
+        "Delay",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Phoreo",
+      "name": "Phoreo",
+      "description": "Trigger modulator, multiplier and repeater",
+      "modularGridUrl": "https://www.modulargrid.net/e/rebel-technology-phoreo",
+      "manualUrl": "https://www.rebeltech.org/product/phoreo/",
+      "tags": [
+        "Clock modulator",
+        "Hardware clone"
+      ]
+    }
+  ]
+}

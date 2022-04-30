@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -240,6 +240,19 @@
         "Filter",
         "Hardware clone",
         "Noise"
+      ]
+    },
+    {
+      "slug": "StereoStrip",
+      "name": "Stereo Strip",
+      "description": "Stereo VCA, panning, and EQ",
+      "tags": [
+        "Equalizer",
+        "Hardware clone",
+        "Mixer",
+        "Limiter",
+        "Panning",
+        "Polyphonic"
       ]
     }
   ]

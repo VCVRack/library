@@ -1,7 +1,7 @@
 {
   "slug": "moDllz",
   "name": "moDllz",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "moDllz",
   "author": "Pablo DeLaLoza",
@@ -41,6 +41,17 @@
         "Polyphonic",
         "Attenuator",
         "VCA"
+      ]
+    },
+    {
+      "slug": "Xpand",
+      "name": "Xpand",
+      "description": "Voice & Outputs expander for MIDIpolyMPE",
+      "tags": [
+        "MIDI",
+        "Utility",
+        "External",
+        "Polyphonic"
       ]
     }
   ]
