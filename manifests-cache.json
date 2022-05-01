@@ -10906,5 +10906,14 @@
         "creationTimestamp": 1651361122.677232
       }
     }
+  },
+  "Doepfer": {
+    "buildTimestamp": 1651394349.1839285,
+    "creationTimestamp": 1651394350.1940038,
+    "modules": {
+      "A124": {
+        "creationTimestamp": 1651394350.3873904
+      }
+    }
   }
 }

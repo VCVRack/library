@@ -1,0 +1,27 @@
+{
+  "slug": "Doepfer",
+  "name": "Doepfer",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Doepfer",
+  "author": "VCV",
+  "authorEmail": "support@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/Doepfer",
+  "manualUrl": "https://vcvrack.com/Doepfer#manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "A124",
+      "name": "A-124 VCF5 Wasp Filter",
+      "description": "2-pole CMOS SVF filter",
+      "manualUrl": "https://vcvrack.com/Doepfer#A124",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
