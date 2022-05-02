@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "modules": [
     {
       "slug": "Basal",
@@ -212,6 +212,24 @@
         "Polyphonic"
       ],
       "description": "Dual Low Pass Gate/Filter"
+    },
+    {
+      "slug": "Opulus",
+      "name": "Opulus",
+      "tags": [
+        "Synth voice",
+        "Polyphonic"
+      ],
+      "description": "Retro FM Operator"
+    },
+    {
+      "slug": "OpulusMicro",
+      "name": "OpulusMicro",
+      "tags": [
+        "Synth voice",
+        "Polyphonic"
+      ],
+      "description": "Accidental FM Operator"
     },
     {
       "slug": "Punch",

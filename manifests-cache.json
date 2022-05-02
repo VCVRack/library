@@ -6143,7 +6143,7 @@
     }
   },
   "VultModulesFree": {
-    "buildTimestamp": 1644403523.943767,
+    "buildTimestamp": 1651470860.3893206,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Basal": {
@@ -6247,6 +6247,12 @@
       },
       "Jorus": {
         "creationTimestamp": 1643870780.050417
+      },
+      "Opulus": {
+        "creationTimestamp": 1651470865.481659
+      },
+      "OpulusMicro": {
+        "creationTimestamp": 1651470865.6618743
       }
     }
   },
@@ -7237,7 +7243,7 @@
     }
   },
   "VultCompacts": {
-    "buildTimestamp": 1644403522.4137259,
+    "buildTimestamp": 1651470857.8759308,
     "creationTimestamp": 1527117794.0,
     "modules": {
       "Freak": {
@@ -7955,7 +7961,7 @@
     }
   },
   "VultMysteries": {
-    "buildTimestamp": 1644403525.6304793,
+    "buildTimestamp": 1651470861.886021,
     "creationTimestamp": 1563301966.0,
     "modules": {
       "Lapsus": {
@@ -8377,7 +8383,7 @@
     "modules": {}
   },
   "VultModules": {
-    "buildTimestamp": 1644403523.250415,
+    "buildTimestamp": 1651470859.182627,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Basal": {
@@ -8505,6 +8511,12 @@
       },
       "Jorus": {
         "creationTimestamp": 1643870780.206573
+      },
+      "Opulus": {
+        "creationTimestamp": 1651470865.9612703
+      },
+      "OpulusMicro": {
+        "creationTimestamp": 1651470866.1431687
       }
     }
   },
@@ -9594,7 +9606,7 @@
     }
   },
   "Geodesics-Vultiverse": {
-    "buildTimestamp": 1639203564.43992,
+    "buildTimestamp": 1651470856.1558921,
     "creationTimestamp": 1605226581.6694007,
     "modules": {
       "Hexaquark": {
