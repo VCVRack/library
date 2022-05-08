@@ -670,3 +670,6 @@
 [submodule "repos/RebelTech"]
 	path = repos/RebelTech
 	url = https://github.com/hemmer/rebel-tech-vcv.git
+[submodule "repos/LoudNumbers"]
+	path = repos/LoudNumbers
+	url = https://github.com/loudnumbers/loudnumbers_vcv.git
