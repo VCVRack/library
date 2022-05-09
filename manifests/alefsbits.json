@@ -1,7 +1,7 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.1.5",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
@@ -46,6 +46,14 @@
       "tags": [
         "Utility",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "noize",
+      "name": "noize",
+      "description": "random noise generator with duration parameter and 0-10V cv input",
+      "tags": [
+        "Noise"
       ]
     }
   ]

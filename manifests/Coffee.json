@@ -1,0 +1,53 @@
+{
+  "slug": "Coffee",
+  "name": "Coffee",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Coffee",
+  "author": "CoffeeVCV",
+  "authorEmail": "CoffeeVCV@protonmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/CoffeeVCV/CoffeeVCV/",
+  "manualUrl": "https://github.com/CoffeeVCV/CoffeeVCV/blob/master/README.md",
+  "sourceUrl": "https://github.com/CoffeeVCV/CoffeeVCV/blob/master/README.md",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/CoffeeVCV/CoffeeVCV/blob/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Between",
+      "name": "Between",
+      "description": "On trigger, out puts a random CV value between two values.",
+      "tags": [
+        "Random",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "Travel",
+      "name": "Travel",
+      "description": "On trigger, take two samples and interpolate an output",
+      "tags": [
+        "Utility",
+        "Slew Limiter",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "HiLo",
+      "name": "HiLo",
+      "description": "Given one or two inputs, output the maximum and minimum voltage.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Some",
+      "name": "Some",
+      "description": "From a group of active inputs, when triggered, mute a number of the inputs, based on a probability",
+      "tags": [
+        "Utility",
+        "Random"
+      ]
+    }
+  ]
+}

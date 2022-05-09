@@ -1,7 +1,7 @@
 {
   "slug": "3HR",
   "name": "3HR",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "3HR",
   "author": "Robin Hammar",
@@ -28,8 +28,7 @@
       "description": "CV-controlled crossfader and attenuverter.",
       "tags": [
         "attenuator",
-        "utility",
-        "polyphonic"
+        "utility"
       ]
     },
     {
@@ -57,6 +56,15 @@
       "tags": [
         "filter",
         "polyphonic"
+      ]
+    },
+    {
+      "slug": "GLTCH3HR",
+      "name": "GLTCH3HR",
+      "description": "Threshold-controlled glitch loop generator",
+      "tags": [
+        "sampler",
+        "effect"
       ]
     }
   ]

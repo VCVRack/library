@@ -1,0 +1,26 @@
+{
+  "slug": "LoudNumbers",
+  "name": "Loud Numbers",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "",
+  "author": "Duncan Geere",
+  "authorEmail": "numbersloud@gmail.com",
+  "authorUrl": "http://www.loudnumbers.net",
+  "pluginUrl": "http://www.loudnumbers.net",
+  "manualUrl": "https://github.com/loudnumbers/loudnumbers_vcv",
+  "sourceUrl": "https://github.com/loudnumbers/loudnumbers_vcv",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/loudnumbers/loudnumbers_vcv",
+  "modules": [
+    {
+      "slug": "LoudNumbers",
+      "name": "Loud Numbers",
+      "description": "Data sonification",
+      "tags": [
+        "Sequencer",
+        "Utility"
+      ]
+    }
+  ]
+}
