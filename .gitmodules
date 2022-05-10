@@ -676,3 +676,6 @@
 [submodule "repos/Coffee"]
 	path = repos/Coffee
 	url = https://github.com/CoffeeVCV/CoffeeVCV.git
+[submodule "repos/fruitsofkarma"]
+	path = repos/fruitsofkarma
+	url = https://github.com/alexey-komarov/fruitsofkarma-vcvrack.git
