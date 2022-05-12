@@ -682,3 +682,6 @@
 [submodule "repos/Skylander"]
 	path = repos/Skylander
 	url = https://github.com/theskylander/Skylander-plugins.git
+[submodule "repos/h4n4-modules"]
+	path = repos/h4n4-modules
+	url = https://github.com/hannakoppelaar/h4n4-modules.git
