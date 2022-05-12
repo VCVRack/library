@@ -679,3 +679,6 @@
 [submodule "repos/fruitsofkarma"]
 	path = repos/fruitsofkarma
 	url = https://github.com/alexey-komarov/fruitsofkarma-vcvrack.git
+[submodule "repos/Skylander"]
+	path = repos/Skylander
+	url = https://github.com/theskylander/Skylander-plugins.git
