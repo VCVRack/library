@@ -1,0 +1,53 @@
+{
+  "slug": "fruitsofkarma",
+  "name": "fruitsofkarma",
+  "version": "2.0.2",
+  "license": "MIT",
+  "brand": "fruitsofkarma",
+  "author": "Alexey Komarov",
+  "authorEmail": "akomarov.mobile@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/alexey-komarov/fruitsofkarma-vcvrack",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/alexey-komarov/fruitsofkarma-vcvrack",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Quadro360",
+      "name": "Quadro360",
+      "description": "Quadro mixer with 8 inputs/4 outputs with rotation control",
+      "tags": [
+        "Mixer",
+        "Quad",
+        "Panning"
+      ]
+    },
+    {
+      "slug": "PowVCO",
+      "name": "PowVCO",
+      "description": "Generates signal using x=y^n",
+      "tags": [
+        "Oscillator",
+        "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "ColoredGlass",
+      "name": "Colored Glass",
+      "description": "Simple particles effect",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Math",
+      "name": "Math",
+      "description": "Basic math operations",
+      "tags": [
+        "Envelope generator",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

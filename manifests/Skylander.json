@@ -1,0 +1,25 @@
+{
+  "slug": "Skylander",
+  "name": "Skylander",
+  "version": "2.1.0",
+  "license": "CC0-1.0",
+  "brand": "Skylander",
+  "author": "Skylander",
+  "authorEmail": "theofficialskylander@gmail.com",
+  "authorUrl": "https://skylander.ch",
+  "pluginUrl": "https://skylander.ch",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/theskylander/Skylander-plugins",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "NymphesControl",
+      "name": "NymphesControl",
+      "description": "CC viewer and controller for Dreadbox NYMPHES v2 Firmware",
+      "tags": [
+        "Controller"
+      ]
+    }
+  ]
+}

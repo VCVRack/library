@@ -1,7 +1,7 @@
 {
   "slug": "GrandeModular",
   "name": "Grande",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "author": "David Grande",
   "authorEmail": "dbgrande246@gmail.com",
@@ -110,6 +110,7 @@
       "slug": "Peak",
       "name": "Peak",
       "description": "Captures polyphonic min/max peaks.",
+      "keywords": "min max",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#peak",
       "tags": [
         "Utility",
@@ -236,6 +237,16 @@
       "name": "VCA3",
       "description": "Triple voltage-controlled amplifier.",
       "manualUrl": "https://github.com/dbgrande/GrandeModular/#vca3",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "VCA4",
+      "name": "VCA4",
+      "description": "Quad voltage-controlled amplifier.",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#vca4",
       "tags": [
         "Voltage-controlled amplifier",
         "Polyphonic"
