@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.12.0",
+  "version": "2.13.0",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -10,7 +10,7 @@
   "pluginUrl": "https://github.com/clone45/voxglitch",
   "manualUrl": "https://github.com/clone45/voxglitch",
   "sourceUrl": "https://github.com/clone45/voxglitch",
-  "donateUrl": "",
+  "donateUrl": "https://www.patreon.com/voxglitch",
   "changelogUrl": "",
   "modules": [
     {

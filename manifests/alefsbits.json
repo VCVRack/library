@@ -1,16 +1,16 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
   "authorEmail": "",
   "authorUrl": "https://twitter.com/alefnull",
   "pluginUrl": "https://github.com/alefnull/alefsbits",
-  "manualUrl": "",
+  "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md",
   "sourceUrl": "https://github.com/alefnull/alefsbits",
-  "donateUrl": "",
+  "donateUrl": "https://paypal.me/alefnull",
   "changelogUrl": "",
   "modules": [
     {
@@ -19,7 +19,8 @@
       "description": "sample & hold module using internal simplex noise source",
       "tags": [
         "S&H",
-        "Polyphonic"
+        "Polyphonic",
+        "Random"
       ]
     },
     {
@@ -45,7 +46,8 @@
       "description": "output a random channel of a poly input with a trigger",
       "tags": [
         "Utility",
-        "Polyphonic"
+        "Polyphonic",
+        "Random"
       ]
     },
     {
@@ -53,7 +55,24 @@
       "name": "noize",
       "description": "random noise generator with duration parameter and 0-10V cv input",
       "tags": [
-        "Noise"
+        "Noise",
+        "Random"
+      ]
+    },
+    {
+      "slug": "steps",
+      "name": "steps",
+      "description": "a simple 8 step sequencer with randomize trigger and eoc output",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "fibb",
+      "name": "fibb",
+      "description": "a clock divider based on the fibbonacci sequence",
+      "tags": [
+        "Clock modulator"
       ]
     }
   ]

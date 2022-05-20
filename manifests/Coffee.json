@@ -1,7 +1,7 @@
 {
   "slug": "Coffee",
   "name": "Coffee",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Coffee",
   "author": "CoffeeVCV",
@@ -18,6 +18,7 @@
       "name": "Between",
       "description": "On trigger, out puts a random CV value between two values.",
       "tags": [
+        "Utility",
         "Random",
         "Sample and hold"
       ]
@@ -47,6 +48,18 @@
       "tags": [
         "Utility",
         "Random"
+      ]
+    },
+    {
+      "slug": "Together",
+      "name": "Together",
+      "description": "An 8 channel, 4 group Euclidian sequencer, with triggered randomized movement.",
+      "tags": [
+        "utility",
+        "Clock modulator",
+        "Logic",
+        "Random",
+        "Sequencer"
       ]
     }
   ]
