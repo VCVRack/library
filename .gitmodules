@@ -685,3 +685,6 @@
 [submodule "repos/h4n4-modules"]
 	path = repos/h4n4-modules
 	url = https://github.com/hannakoppelaar/h4n4-modules.git
+[submodule "repos/Myth"]
+	path = repos/Myth
+	url = https://github.com/Ahineya/vcv-myth-plugin.git
