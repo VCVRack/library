@@ -1,17 +1,17 @@
 {
   "slug": "AS",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "license": "MIT",
   "name": "AS",
   "brand": "AS",
   "author": "Alfredo Santamaria",
   "authorEmail": "ascustomworks@gmail.com",
-  "pluginUrl": "https://github.com/AScustomWorks/AS/blob/master/README.md",
+  "pluginUrl": "https://github.com/AScustomWorks/AS/blob/V2/README.md",
   "authorUrl": "https://github.com/AScustomWorks/AS",
-  "manualUrl": "https://github.com/AScustomWorks/AS/blob/master/README.md",
+  "manualUrl": "https://github.com/AScustomWorks/AS/blob/V2/README.md",
   "sourceUrl": "https://github.com/AScustomWorks/AS",
   "donateUrl": "https://www.paypal.me/frederius/",
-  "changelogUrl": "https://github.com/AScustomWorks/AS/blob/master/README.md",
+  "changelogUrl": "https://github.com/AScustomWorks/AS/blob/V2/README.md",
   "modules": [
     {
       "slug": "SineOSC",

@@ -1,0 +1,33 @@
+{
+  "slug": "Myth",
+  "name": "Myth",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Myth",
+  "author": "Pavlo Yevsehnieiev",
+  "authorEmail": "p.yevsehnieiev@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/Ahineya/vcv-myth-plugin/blob/master/README.md",
+  "sourceUrl": "https://github.com/Ahineya/vcv-myth-plugin",
+  "donateUrl": "https://www.buymeacoffee.com/pavlodev",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Mavka",
+      "name": "Mavka",
+      "description": "Oscillator with VCA per waveform",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Molphar",
+      "name": "Molphar",
+      "description": "Sequencer with probabilities",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}
