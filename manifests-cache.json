@@ -596,7 +596,7 @@
     }
   },
   "Fundamental": {
-    "buildTimestamp": 1644495761.5395339,
+    "buildTimestamp": 1653361430.1240246,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "VCO": {
@@ -682,6 +682,12 @@
       },
       "Mixer": {
         "creationTimestamp": 1639850439.5225868
+      },
+      "CVMix": {
+        "creationTimestamp": 1653361431.4450376
+      },
+      "Fade": {
+        "creationTimestamp": 1653361431.5703387
       }
     }
   },

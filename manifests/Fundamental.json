@@ -1,7 +1,7 @@
 {
   "slug": "Fundamental",
   "name": "Fundamental",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "VCV",
   "author": "VCV",
@@ -289,6 +289,27 @@
       "tags": [
         "Random",
         "Sample and hold"
+      ]
+    },
+    {
+      "slug": "CVMix",
+      "name": "CV Mix",
+      "description": "Mixes 3 CV signals with attenuverters",
+      "tags": [
+        "Mixer",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Fade",
+      "name": "Fade",
+      "description": "Crossfades audio or CV",
+      "tags": [
+        "Panning",
+        "Voltage-controlled amplifier",
+        "Utility",
+        "Polyphonic"
       ]
     }
   ]
