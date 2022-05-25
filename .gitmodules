@@ -688,3 +688,6 @@
 [submodule "repos/Myth"]
 	path = repos/Myth
 	url = https://github.com/Ahineya/vcv-myth-plugin.git
+[submodule "repos/dbRackSequencer"]
+	path = repos/dbRackSequencer
+	url = https://github.com/docb/dbRackSequencer.git
