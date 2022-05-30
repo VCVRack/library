@@ -1,0 +1,76 @@
+{
+  "slug": "PathSet-Grains",
+  "name": "Path Set: Grains",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Path Set",
+  "author": "Andrew Hanson",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/patheros",
+  "pluginUrl": "https://github.com/patheros/PathSetManuals",
+  "manualUrl": "https://github.com/patheros/PathSetManuals",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "CheeseGrater",
+      "name": "CheeseGrater",
+      "description": "A granular sample and loop. Craft the exact right slice of sound for your music.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/CheeseGrater.md",
+      "tags": [
+        "Granular"
+      ]
+    },
+    {
+      "slug": "Blender",
+      "name": "Blender",
+      "description": "A Distortion Looper. Play with 4 main knobs to snapshot dynamic effects.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Blender.md",
+      "tags": [
+        "Granular"
+      ]
+    },
+    {
+      "slug": "Spork",
+      "name": "Spork",
+      "description": "A granular FX module. Modulate 6 different granular effects.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Spork.md",
+      "tags": [
+        "Granular",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Sifter",
+      "name": "Sifter",
+      "description": "A granular mixer. Sample 4 sound sources and recombine them endlessly through modulation.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Sifter.md",
+      "tags": [
+        "Granular",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "SporkExpander",
+      "name": "SporkExpander",
+      "description": "",
+      "hidden": true,
+      "tags": []
+    },
+    {
+      "slug": "SifterExpander",
+      "name": "SifterExpander",
+      "description": "",
+      "hidden": true,
+      "tags": []
+    },
+    {
+      "slug": "BlenderExpander",
+      "name": "BlenderExpander",
+      "description": "",
+      "hidden": true,
+      "tags": []
+    }
+  ]
+}
