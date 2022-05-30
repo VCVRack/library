@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.13.0",
+  "version": "2.14.1",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -124,6 +124,22 @@
       ]
     },
     {
+      "slug": "groovebox",
+      "name": "Groove Box",
+      "description": "8-track sample based groovebox with parameter locks",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "GrooveBoxExpander",
+      "name": "Groove Box Expander",
+      "description": "Expander module for the Voxglitch Groovebox that provides Mutes, Solos, Gate Outputs, and track-level control over volume, pan, and pitch.",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
       "slug": "hazumi",
       "name": "Hazumi",
       "description": "Bouncing ball sequencer",
@@ -159,14 +175,6 @@
       "slug": "samplerx8",
       "name": "SamplerX8",
       "description": "Eight stereo sample playback devices in one compact module.",
-      "tags": [
-        "Sampler"
-      ]
-    },
-    {
-      "slug": "groovebox",
-      "name": "Groove Box",
-      "description": "8-track sample based groovebox with parameter locks",
       "tags": [
         "Sampler"
       ]

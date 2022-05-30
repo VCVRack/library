@@ -1,0 +1,189 @@
+{
+  "slug": "dbRackSequencer",
+  "name": "dbRackSequencer",
+  "version": "2.0.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "docB",
+  "author": "docB",
+  "authorEmail": "",
+  "authorUrl": "https://docb.io",
+  "pluginUrl": "https://github.com/docb/dbRackSequencer",
+  "manualUrl": "https://github.com/docb/dbRackSequencer",
+  "sourceUrl": "https://github.com/docb/dbRackSequencer",
+  "donateUrl": "https://www.paypal.com/paypalme/docb222",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "JTChords",
+      "name": "JTChords",
+      "description": "Just Intonation Chords",
+      "tags": [
+        "Utility",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Chords",
+      "name": "Chords",
+      "description": "Chord Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "AG",
+      "name": "AG",
+      "description": "Voltage addressable Gate Patterns",
+      "tags": [
+        "Polyphonic",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ACC",
+      "name": "ACC",
+      "description": "Accumulator",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "CV",
+      "name": "CV",
+      "description": "CV Source for Sequencing",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Klee",
+      "name": "Klee",
+      "description": "A Klee like sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "M851",
+      "name": "M851",
+      "description": "M851 Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "CYC",
+      "name": "CYC",
+      "description": "A cyclic sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "PwmClock",
+      "name": "PwmClock",
+      "description": "Clock generator with nine configurable clocks with adjustable pwm",
+      "tags": [
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "TD4",
+      "name": "TD4",
+      "description": "A building block for 4x4 sequencers",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "P16",
+      "name": "P16",
+      "description": "One hundred permutations of 16 steps",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "P4",
+      "name": "P4",
+      "description": "Permutations of 4 steps",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "PXY",
+      "name": "PXY",
+      "description": "2D Cartesian Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "C42",
+      "name": "C42",
+      "description": "An universal Sequencer with up to 16 play heads and cellular automation",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "C42E",
+      "name": "C42E",
+      "description": "C42 Expander",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Sum",
+      "name": "Sum",
+      "description": "Expandable Polyphonic Adder, Mixer ",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SE",
+      "name": "SE",
+      "description": "Expander for Sum",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Uno",
+      "name": "Uno",
+      "description": "A step sequencer with random skip function",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "UnoE",
+      "name": "UnoE",
+      "description": "Expander for Uno",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "TheMatrix",
+      "name": "TheMatrix",
+      "description": "A 32x32 Grid ASCII Sequencer with up to 16 play heads",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "N3",
+      "name": "N3",
+      "description": "A trigger sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}

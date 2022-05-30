@@ -1,7 +1,7 @@
 {
   "slug": "GrandeModular",
   "name": "Grande",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "license": "GPL-3.0-or-later",
   "author": "David Grande",
   "authorEmail": "dbgrande246@gmail.com",
@@ -20,6 +20,17 @@
       "tags": [
         "Limiter",
         "Visual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Compare3",
+      "name": "Compare3",
+      "description": "Three windowed comparators with common input.",
+      "keywords": "window",
+      "manualUrl": "https://github.com/dbgrande/GrandeModular/#compare3",
+      "tags": [
+        "Logic",
         "Polyphonic"
       ]
     },
