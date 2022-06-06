@@ -1,27 +1,27 @@
 {
   "slug": "h4n4-modules",
   "name": "H4N4 Modules",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "license": "GPL-3.0-or-later",
   "brand": "H4N4",
   "author": "Hanna Koppelaar",
   "authorEmail": "",
   "authorUrl": "",
   "pluginUrl": "",
-  "manualUrl": "",
+  "manualUrl": "https://github.com/hannakoppelaar/h4n4-modules",
   "sourceUrl": "https://github.com/hannakoppelaar/h4n4-modules",
   "donateUrl": "https://paypal.me/hannakoppelaar",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/hannakoppelaar/h4n4-modules/blob/main/CHANGELOG.md",
   "modules": [
     {
       "slug": "xen-qnt",
       "name": "Xen Quantizer",
-      "description": "Polyphonic Scala Quantizer",
+      "description": "Polyphonic CV-controllable Scala Quantizer",
       "tags": [
         "quantizer",
         "polyphonic"
       ],
-      "manualUrl": "https://github.com/hannakoppelaar/h4n4-modules#xen-qnt",
+      "manualUrl": "https://github.com/hannakoppelaar/h4n4-modules#xen-quantizer",
       "keywords": "xenharmonic microtonal"
     }
   ]
