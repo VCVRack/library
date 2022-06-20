@@ -1,7 +1,7 @@
 {
   "slug": "PathSet-Grains",
   "name": "Path Set: Grains",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "proprietary",
   "brand": "Path Set",
   "author": "Andrew Hanson",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/patheros/PathSetManuals",
   "sourceUrl": "",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/patheros/PathSetManuals/blob/main/changelogs/GrainsChangelog.md",
   "modules": [
     {
       "slug": "CheeseGrater",
