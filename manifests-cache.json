@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1654475263.9276118,
+    "buildTimestamp": 1655698403.5668192,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -1139,7 +1139,7 @@
     }
   },
   "Starling_Via": {
-    "buildTimestamp": 1584322495.275343,
+    "buildTimestamp": 1655699307.4351676,
     "creationTimestamp": 1554510935.0,
     "modules": {
       "META": {
@@ -1162,6 +1162,12 @@
       },
       "SYNC3": {
         "creationTimestamp": 1584322614.0
+      },
+      "SYNC3XL": {
+        "creationTimestamp": 1655699308.1546383
+      },
+      "SYNC3XLLEVELS": {
+        "creationTimestamp": 1655699308.3967652
       }
     }
   },
@@ -3729,7 +3735,7 @@
     "modules": {}
   },
   "PS-PurrSoftware": {
-    "buildTimestamp": 1653085232.7020772,
+    "buildTimestamp": 1655699118.0377288,
     "creationTimestamp": 1579232908.0,
     "modules": {
       "Meander": {
@@ -8550,7 +8556,7 @@
     "modules": {}
   },
   "Ahornberg": {
-    "buildTimestamp": 1651360643.380955,
+    "buildTimestamp": 1655698759.4035733,
     "creationTimestamp": 1562952023.0,
     "modules": {
       "EqualDivision": {
@@ -9243,7 +9249,7 @@
     }
   },
   "Dintree-Virtual": {
-    "buildTimestamp": 1638134140.7552838,
+    "buildTimestamp": 1655699185.1225073,
     "creationTimestamp": 1594665475.9179342,
     "modules": {
       "V100-Scanner": {
@@ -9348,7 +9354,7 @@
     }
   },
   "GrandeModular": {
-    "buildTimestamp": 1653920289.5379493,
+    "buildTimestamp": 1655698985.8449156,
     "creationTimestamp": 1598123367.069531,
     "modules": {
       "NoteMT": {
@@ -10614,7 +10620,7 @@
         "creationTimestamp": 1638135912.5021343
       }
     },
-    "buildTimestamp": 1638135908.8031194
+    "buildTimestamp": 1655698520.048924
   },
   "SequelSequencers": {
     "buildTimestamp": 1647285943.2491586,
@@ -10665,7 +10671,7 @@
     }
   },
   "LilacModules": {
-    "buildTimestamp": 1640298811.133166,
+    "buildTimestamp": 1655698539.145947,
     "creationTimestamp": 1640299119.2661583,
     "modules": {
       "Accumulator": {
@@ -10767,7 +10773,7 @@
     }
   },
   "PathSet": {
-    "buildTimestamp": 1654476251.6796424,
+    "buildTimestamp": 1655699061.8965278,
     "creationTimestamp": 1643066843.6193788,
     "modules": {
       "ShiftyMod": {
@@ -10968,7 +10974,7 @@
     }
   },
   "LoudNumbers": {
-    "buildTimestamp": 1652103673.026953,
+    "buildTimestamp": 1655698564.2964206,
     "creationTimestamp": 1652104144.7608788,
     "modules": {
       "LoudNumbers": {

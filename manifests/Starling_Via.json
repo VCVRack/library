@@ -3,14 +3,14 @@
   "name": "Starling Via",
   "author": "Starling",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "pluginUrl": "https://starling.space/via",
   "authorUrl": "https://starling.space",
   "authorEmail": "admin@starling.space",
   "manualUrl": "https://starling.space/via/platform-info#rack",
   "sourceUrl": "https://github.com/starlingcode/Via-for-Rack.git",
   "donateUrl": "https://paypal.me/ssttaarrlliinngg",
-  "changelogUrl": "https://github.com/starlingcode/Via-for-Rack/blob/v1/CHANGELOG.md",
+  "changelogUrl": "https://github.com/starlingcode/Via-for-Rack/blob/v2/CHANGELOG.md",
   "modules": [
     {
       "slug": "META",
@@ -86,6 +86,24 @@
         "Oscillator",
         "Clock Modulator",
         "Hardware"
+      ]
+    },
+    {
+      "slug": "SYNC3XL",
+      "name": "SYNC3XL",
+      "description": "3 voice frequency synthesizer",
+      "tags": [
+        "Oscillator",
+        "Clock Modulator",
+        "Hardware"
+      ]
+    },
+    {
+      "slug": "SYNC3XLLEVELS",
+      "name": "Sync3XL Levels",
+      "description": "SYNC3XL VCA expander",
+      "tags": [
+        "Expander"
       ]
     }
   ]

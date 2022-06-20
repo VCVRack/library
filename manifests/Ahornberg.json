@@ -1,6 +1,6 @@
 {
   "slug": "Ahornberg",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "license": "GPL-3.0-only",
   "name": "Ahornberg",
   "brand": "Ahornberg",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/README.md",
   "sourceUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules",
   "changelogUrl": "",
-  "donateUrl": "",
+  "donateUrl": "https://liberapay.com/Ahornberg/donate",
   "modules": [
     {
       "slug": "Tracker",

@@ -1,14 +1,14 @@
 {
   "slug": "PathSet",
   "name": "Path Set: Free",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "license": "GPL-3.0-or-later",
   "brand": "Path Set",
   "author": "Andrew Hanson",
   "authorEmail": "",
   "authorUrl": "https://github.com/patheros",
   "pluginUrl": "https://github.com/patheros/PathSetModules",
-  "manualUrl": "https://github.com/patheros/PathSetModules",
+  "manualUrl": "https://github.com/patheros/PathSetManuals",
   "sourceUrl": "https://github.com/patheros/PathSetModules",
   "donateUrl": "",
   "changelogUrl": "https://github.com/patheros/PathSetModules/blob/main/CHANGELOG.md",
@@ -68,6 +68,7 @@
       "slug": "Nudge",
       "name": "Nudge",
       "description": "Modulation generator that lets you randomly nudge the modulations whenever you want.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Nudge.md",
       "tags": [
         "Random"
       ]
