@@ -1,7 +1,7 @@
 {
   "slug": "FLAG-Free",
   "name": "FLAG Free",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "license": "proprietary",
   "brand": "FLAG",
   "author": "Flag Audio",
@@ -66,7 +66,7 @@
       "slug": "Stems",
       "name": "Stems",
       "manualUrl": "https://flagaudio.com/vcv/stems.html",
-      "description": "Stereo Stem Player",
+      "description": "Multi Channel Stem Player",
       "tags": [
         "Sampler"
       ]
