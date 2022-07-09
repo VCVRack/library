@@ -1,7 +1,7 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.3.0",
+  "version": "2.3.2",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
@@ -70,7 +70,7 @@
     {
       "slug": "fibb",
       "name": "fibb",
-      "description": "a clock divider based on the fibbonacci sequence",
+      "description": "a clock divider based on the fibonacci sequence",
       "tags": [
         "Clock modulator"
       ]

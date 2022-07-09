@@ -1,6 +1,6 @@
 {
   "slug": "Ahornberg",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "license": "GPL-3.0-only",
   "name": "Ahornberg",
   "brand": "Ahornberg",
@@ -153,6 +153,16 @@
         "External",
         "MIDI",
         "Multiple",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "CopyPastePreset",
+      "name": "Copy Paste Preset",
+      "description": "copy-paste a preset from the module on the left side to the modules on the right side",
+      "disabled": false,
+      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#copy-paste-preset",
+      "tags": [
         "Utility"
       ]
     }

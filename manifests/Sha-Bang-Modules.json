@@ -1,7 +1,7 @@
 {
   "slug": "Sha-Bang-Modules",
   "name": "Sha#Bang! Modules",
-  "version": "2.1.1",
+  "version": "2.2.1",
   "license": "GPL-3.0-only",
   "author": "Jeremy Muller",
   "authorEmail": "jeremy@jeremymuller.com",
@@ -87,9 +87,20 @@
       "name": "Photron Panel",
       "description": "Animated panel",
       "tags": [
-        "Visual"
+        "Visual",
+        "Expander"
       ],
       "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#photron-panel"
+    },
+    {
+      "slug": "PhotronStrip",
+      "name": "Photron Strip",
+      "description": "Animated panel",
+      "tags": [
+        "Visual",
+        "Expander"
+      ],
+      "manualUrl": "https://github.com/jeremymuller/Sha-Bang-Modules#photron-strip"
     },
     {
       "slug": "PolyrhythmClock",

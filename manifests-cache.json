@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1655698403.5668192,
+    "buildTimestamp": 1657333500.876773,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -4642,7 +4642,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1653084948.7849908,
+    "buildTimestamp": 1657333290.3984265,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -8556,7 +8556,7 @@
     "modules": {}
   },
   "Ahornberg": {
-    "buildTimestamp": 1655698759.4035733,
+    "buildTimestamp": 1657333778.9833972,
     "creationTimestamp": 1562952023.0,
     "modules": {
       "EqualDivision": {
@@ -8591,6 +8591,9 @@
       },
       "MIDIPolyExpression": {
         "creationTimestamp": 1639402260.0874789
+      },
+      "CopyPastePreset": {
+        "creationTimestamp": 1657334361.4613907
       }
     }
   },
@@ -9492,7 +9495,7 @@
     }
   },
   "Sha-Bang-Modules": {
-    "buildTimestamp": 1645570508.3181822,
+    "buildTimestamp": 1657334324.8033793,
     "creationTimestamp": 1602486511.7177973,
     "modules": {
       "StochSeq": {
@@ -9545,6 +9548,9 @@
       },
       "StochSeqGrid": {
         "creationTimestamp": 1643909901.635519
+      },
+      "PhotronStrip": {
+        "creationTimestamp": 1657334360.6907086
       }
     }
   },
@@ -10683,7 +10689,7 @@
     }
   },
   "dbRackModules": {
-    "buildTimestamp": 1643065455.6016936,
+    "buildTimestamp": 1657334063.9901857,
     "creationTimestamp": 1641209269.2091281,
     "modules": {
       "GeneticTerrain": {
@@ -10769,6 +10775,33 @@
       },
       "HexSeqExp": {
         "creationTimestamp": 1642327813.333794
+      },
+      "Pad2": {
+        "creationTimestamp": 1657334358.9781966
+      },
+      "PHSR": {
+        "creationTimestamp": 1657334359.2188187
+      },
+      "PhS": {
+        "creationTimestamp": 1657334359.430969
+      },
+      "SPL": {
+        "creationTimestamp": 1657334359.668806
+      },
+      "PhO": {
+        "creationTimestamp": 1657334359.8269541
+      },
+      "Faders": {
+        "creationTimestamp": 1657334360.0177503
+      },
+      "YAC": {
+        "creationTimestamp": 1657334360.1828833
+      },
+      "PLC": {
+        "creationTimestamp": 1657334360.3592708
+      },
+      "MPad2": {
+        "creationTimestamp": 1657334360.528405
       }
     }
   },
@@ -10905,7 +10938,7 @@
     }
   },
   "alefsbits": {
-    "buildTimestamp": 1653085173.100447,
+    "buildTimestamp": 1657333548.9912527,
     "creationTimestamp": 1650829410.386362,
     "modules": {
       "simplexandhold": {
@@ -10983,7 +11016,7 @@
     }
   },
   "Coffee": {
-    "buildTimestamp": 1654476318.1844678,
+    "buildTimestamp": 1657334166.1759531,
     "creationTimestamp": 1652104145.2936816,
     "modules": {
       "Between": {
@@ -11015,6 +11048,18 @@
       },
       "Tap": {
         "creationTimestamp": 1654476375.5891972
+      },
+      "Fork2": {
+        "creationTimestamp": 1657334360.8595145
+      },
+      "Some3": {
+        "creationTimestamp": 1657334361.0166903
+      },
+      "Juice": {
+        "creationTimestamp": 1657334361.16825
+      },
+      "Twinned2": {
+        "creationTimestamp": 1657334361.315665
       }
     }
   },
@@ -11037,7 +11082,7 @@
     }
   },
   "fruitsofkarma": {
-    "buildTimestamp": 1653085305.6407392,
+    "buildTimestamp": 1657334357.7041628,
     "creationTimestamp": 1652376852.6430357,
     "modules": {
       "Quadro360": {

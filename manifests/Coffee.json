@@ -1,7 +1,7 @@
 {
   "slug": "Coffee",
   "name": "Coffee",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "Coffee",
   "author": "CoffeeVCV",
@@ -109,6 +109,44 @@
       "description": "Three push buttons to control tree triggers and gates.",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "Fork2",
+      "name": "Fork2",
+      "description": "Compare an input with a threshold and output one of two other inputs.",
+      "tags": [
+        "Logic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Some3",
+      "name": "Some3",
+      "description": "From a polyphonic input, when triggered, mute a number of the inputs, based on a probability",
+      "tags": [
+        "Polyphonic",
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Juice",
+      "name": "Juice",
+      "description": "Select one of 16 sets of 8 fixed voltages, based on a CV input.",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Twinned2",
+      "name": "Twinned2",
+      "description": "A sequencer with pair of 8 step notes, gates, randomisation and polyphonic input.",
+      "tags": [
+        "Sequencer",
+        "Polyphonic",
+        "Random"
       ]
     }
   ]

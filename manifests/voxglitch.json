@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.16.1",
+  "version": "2.17.0",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/clone45/voxglitch",
   "sourceUrl": "https://github.com/clone45/voxglitch",
   "donateUrl": "https://www.patreon.com/voxglitch",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/clone45/voxglitch/blob/master/docs/changelog.md",
   "modules": [
     {
       "slug": "autobreak",

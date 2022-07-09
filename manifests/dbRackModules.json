@@ -1,7 +1,7 @@
 {
   "slug": "dbRackModules",
   "name": "dbRackModules",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -220,6 +220,15 @@
       ]
     },
     {
+      "slug": "Pad2",
+      "name": "Pad2",
+      "description": "PadSynth with smooth control",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "RndG",
       "name": "RndG",
       "description": "Random Gates",
@@ -252,6 +261,75 @@
       "description": "Gate, clock and inverted outputs for HexSeq",
       "tags": [
         "Expander"
+      ]
+    },
+    {
+      "slug": "PHSR",
+      "name": "PHSR",
+      "description": "Phasor",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhS",
+      "name": "PhS",
+      "description": "Phase Shaper",
+      "tags": [
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SPL",
+      "name": "SPL",
+      "description": "Spline wave oscillator with phase input",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhO",
+      "name": "PhO",
+      "description": "Phase driven additive oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Faders",
+      "name": "Faders",
+      "description": "Three polyphonic slider banks with modulation and value grids",
+      "tags": [
+        "Controller",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "YAC",
+      "name": "YAC",
+      "description": "Yet another chorus, this one can be modulated",
+      "tags": [
+        "Chorus"
+      ]
+    },
+    {
+      "slug": "PLC",
+      "name": "PLC",
+      "description": "Poly Controller",
+      "tags": [
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MPad2",
+      "name": "\u00b5Pad2",
+      "description": "Micro Pad2",
+      "tags": [
+        "Oscillator"
       ]
     }
   ]
