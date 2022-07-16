@@ -1,7 +1,7 @@
 {
   "slug": "Fundamental",
-  "name": "Fundamental",
-  "version": "2.2.1",
+  "name": "VCV Fundamental",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "VCV",
   "author": "VCV",
@@ -309,6 +309,40 @@
         "Panning",
         "Voltage-controlled amplifier",
         "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Logic",
+      "name": "Logic",
+      "description": "Gate logic processor",
+      "tags": [
+        "Logic",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Compare",
+      "name": "Compare",
+      "description": "Compares two voltages",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Gates",
+      "name": "Gates",
+      "description": "Gate processor",
+      "tags": [
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Process",
+      "name": "Process",
+      "description": "CV processor",
+      "tags": [
         "Polyphonic"
       ]
     }

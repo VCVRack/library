@@ -599,7 +599,7 @@
     }
   },
   "Fundamental": {
-    "buildTimestamp": 1653387650.6516123,
+    "buildTimestamp": 1657939250.7140658,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "VCO": {
@@ -691,6 +691,18 @@
       },
       "Fade": {
         "creationTimestamp": 1653361431.5703387
+      },
+      "Logic": {
+        "creationTimestamp": 1657939252.0139658
+      },
+      "Compare": {
+        "creationTimestamp": 1657939252.222999
+      },
+      "Gates": {
+        "creationTimestamp": 1657939252.5027719
+      },
+      "Process": {
+        "creationTimestamp": 1657939252.724961
       }
     }
   },
