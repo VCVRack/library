@@ -691,3 +691,6 @@
 [submodule "repos/dbRackSequencer"]
 	path = repos/dbRackSequencer
 	url = https://github.com/docb/dbRackSequencer.git
+[submodule "repos/ASK"]
+	path = repos/ASK
+	url = https://github.com/pawal/ask-vcv-modules.git
