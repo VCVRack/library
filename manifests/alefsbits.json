@@ -1,7 +1,7 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.3.2",
+  "version": "2.3.6",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
@@ -29,15 +29,6 @@
       "description": "a simple blank",
       "tags": [
         "Blank"
-      ]
-    },
-    {
-      "slug": "simplexvco",
-      "name": "simplex vco",
-      "description": "a voltage-controlled oscillator based on simplex noise",
-      "tags": [
-        "Oscillator",
-        "Polyphonic"
       ]
     },
     {
@@ -73,6 +64,14 @@
       "description": "a clock divider based on the fibonacci sequence",
       "tags": [
         "Clock modulator"
+      ]
+    },
+    {
+      "slug": "octsclr",
+      "name": "oct sclr",
+      "description": "scales voltage to specified octave range",
+      "tags": [
+        "Utility"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "2.0.17",
+  "version": "2.0.18",
   "license": "GPL-3.0-or-later",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -84,6 +84,24 @@
       "name": "zO\u00f9 MA\u00ef Expander",
       "description": "Expander for zO\u00f9 MA\u00ef",
       "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#zo\u00f9-ma\u00ef",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ENCORE",
+      "name": "enCORE",
+      "description": "Sequencer",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#encore",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ENCORE-Expander",
+      "name": "enCORE Expander",
+      "description": "Expander for enCORE",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#encore",
       "tags": [
         "Sequencer"
       ]

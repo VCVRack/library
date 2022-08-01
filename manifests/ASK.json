@@ -1,0 +1,29 @@
+{
+  "slug": "ASK",
+  "name": "ASK",
+  "version": "2.0.1",
+  "license": "BSD-2-Clause",
+  "brand": "\u00c4SK",
+  "author": "Patrik Wallstr\u00f6m",
+  "authorEmail": "pawal@amplitut.de",
+  "authorUrl": "https://pawal.amplitut.de/",
+  "pluginUrl": "https://github.com/pawal/ask-vcv-modules",
+  "manualUrl": "https://github.com/pawal/ask-vcv-modules",
+  "sourceUrl": "https://github.com/pawal/ask-vcv-modules",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/pawal/ask-vcv-modules/commits/main",
+  "modules": [
+    {
+      "slug": "rnsh",
+      "name": "rnsh",
+      "description": "8 channel noise generator with sample and hold, with a global spread attenuator",
+      "tags": [
+        "Random",
+        "Noise",
+        "S&H",
+        "Sample and Hold",
+        "Sample & Hold"
+      ]
+    }
+  ]
+}
