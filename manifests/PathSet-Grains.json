@@ -1,7 +1,7 @@
 {
   "slug": "PathSet-Grains",
   "name": "Path Set: Grains",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "proprietary",
   "brand": "Path Set",
   "author": "Andrew Hanson",
@@ -54,22 +54,29 @@
     {
       "slug": "SporkExpander",
       "name": "SporkExpander",
-      "description": "",
-      "hidden": true,
+      "description": "Expander for Spork. Adds mixing different modes at the same time.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Spork.md",
       "tags": []
     },
     {
       "slug": "SifterExpander",
       "name": "SifterExpander",
-      "description": "",
-      "hidden": true,
+      "description": "Expander for Sifter. Adds panning and volume controls per channel.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Sifter.md",
       "tags": []
     },
     {
       "slug": "BlenderExpander",
       "name": "BlenderExpander",
-      "description": "",
-      "hidden": true,
+      "description": "Expander for Blender. Adds more control over how the loop plays.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Blender.md",
+      "tags": []
+    },
+    {
+      "slug": "CheeseGraterExpander",
+      "name": "CheeseGraterExpander",
+      "description": "Expander for CheeseGrater. Adds control over which part of the sample plays and more ways to modify how it plays.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/CheeseGrater.md",
       "tags": []
     }
   ]

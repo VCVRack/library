@@ -1,0 +1,81 @@
+{
+  "slug": "PathSet-Rainbows",
+  "name": "Path Set: Rainbows",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Path Set",
+  "author": "Andrew Hanson",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/patheros",
+  "pluginUrl": "https://github.com/patheros/PathSetManuals",
+  "manualUrl": "https://github.com/patheros/PathSetManuals",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "4Expander",
+      "name": "Playhead Expander",
+      "description": "Adds 3 more play-heads to any Rainbow Sequencer",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "RndExpander",
+      "name": "Randomizer Expander",
+      "description": "Adds Randomizing Triggers to any Rainbow Sequencer",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "Grid",
+      "name": "Rainbow Grid",
+      "description": "Generate a panoply of sequences using a small grid of nine notes.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Grid.md",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "Bridge",
+      "name": "Bridge",
+      "description": "Start with four linear sequences and build bridges to connect and jump around.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Bridge.md",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "Ring",
+      "name": "Ring",
+      "description": "Concentric rings of notes create an ever shifting sequence.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Ring.md",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "Crossing",
+      "name": "Crossing",
+      "description": "Create paths and circuits and loops in this field of notes.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Crossing.md",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Quad"
+      ]
+    }
+  ]
+}

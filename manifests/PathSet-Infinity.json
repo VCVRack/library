@@ -1,7 +1,7 @@
 {
   "slug": "PathSet-Infinity",
   "name": "Path Set: Infinity",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "proprietary",
   "brand": "Path Set",
   "author": "Andrew Hanson",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/patheros/PathSetManuals",
   "sourceUrl": "",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/patheros/PathSetManuals/blob/main/changelogs/InfinityChangelog.md",
   "modules": [
     {
       "slug": "QuantumCompass",
@@ -44,6 +44,16 @@
         "Random",
         "LFO",
         "Clock"
+      ]
+    },
+    {
+      "slug": "Shuttle",
+      "name": "Shuttle",
+      "description": "Travel the universe of harmonic sine waves.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Shuttle.md",
+      "tags": [
+        "VCO",
+        "Random"
       ]
     }
   ]
