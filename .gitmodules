@@ -700,3 +700,6 @@
 [submodule "repos/CosineKitty-Sapphire"]
 	path = repos/CosineKitty-Sapphire
 	url = https://github.com/cosinekitty/sapphire.git
+[submodule "repos/Chinenual-VCV"]
+	path = repos/Chinenual-VCV
+	url = https://github.com/chinenual/Chinenual-VCV.git
