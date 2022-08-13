@@ -694,3 +694,6 @@
 [submodule "repos/ASK"]
 	path = repos/ASK
 	url = https://github.com/pawal/ask-vcv-modules.git
+[submodule "repos/EucQuant"]
+	path = repos/EucQuant
+	url = https://github.com/sindarknave/EucQuant.git
