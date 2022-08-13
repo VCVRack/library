@@ -697,3 +697,6 @@
 [submodule "repos/EucQuant"]
 	path = repos/EucQuant
 	url = https://github.com/sindarknave/EucQuant.git
+[submodule "repos/CosineKitty-Sapphire"]
+	path = repos/CosineKitty-Sapphire
+	url = https://github.com/cosinekitty/sapphire.git
