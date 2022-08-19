@@ -1,7 +1,7 @@
 {
   "slug": "PathSet",
   "name": "Path Set: Free",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Path Set",
   "author": "Andrew Hanson",
@@ -59,8 +59,7 @@
     {
       "slug": "ShiftyExpander",
       "name": "ShiftyExpander",
-      "hidden": true,
-      "description": "",
+      "description": "Expander for Shifty. Adds CV and Atenuverters for all the knobs on Shifty.",
       "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Shifty.md",
       "tags": []
     },
@@ -70,6 +69,16 @@
       "description": "Modulation generator that lets you randomly nudge the modulations whenever you want.",
       "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/Nudge.md",
       "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "OneShot",
+      "name": "OneShot",
+      "description": "One-shot Sequencer that can be daisy-chained with other sequencers or more OneShots.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/OneShot.md",
+      "tags": [
+        "Sequencer",
         "Random"
       ]
     }

@@ -1,0 +1,25 @@
+{
+  "slug": "EucQuant",
+  "name": "EucQuant",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "EucQuant",
+  "author": "brian",
+  "authorEmail": "ngwingkui@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/sindarknave/EucQuant",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/sindarknave/EucQuant",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "EdoQuant",
+      "name": "EdoQuant",
+      "description": "n-EDO quantizer for generating xenharmonic melodies with CV",
+      "tags": [
+        "quantizer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "Chinenual-VCV",
+  "name": "Chinenual",
+  "version": "2.1.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Chinenual",
+  "author": "Steve Tynor",
+  "authorEmail": "support@chinenual.com",
+  "authorUrl": "https://chinenual.com",
+  "pluginUrl": "https://github.com/chinenual/Chinenual-VCV",
+  "manualUrl": "https://github.com/chinenual/Chinenual-VCV/blob/main/README.md",
+  "sourceUrl": "https://github.com/chinenual/Chinenual-VCV",
+  "donateUrl": "https://paypal.me/chinenual",
+  "changelogUrl": "https://github.com/chinenual/Chinenual-VCV/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "MIDIRecorder",
+      "name": "MIDIRecorder",
+      "description": "Multi-track MIDI Recorder",
+      "tags": [
+        "midi",
+        "recording"
+      ]
+    },
+    {
+      "slug": "MIDIRecorderCC",
+      "name": "MIDIRecorderCC",
+      "description": "CC expander for the MIDI Recorder",
+      "tags": [
+        "midi",
+        "recording",
+        "expander"
+      ]
+    }
+  ]
+}

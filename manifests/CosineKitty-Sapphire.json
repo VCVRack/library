@@ -1,0 +1,27 @@
+{
+  "slug": "CosineKitty-Sapphire",
+  "name": "Sapphire",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Sapphire",
+  "author": "Don Cross",
+  "authorEmail": "cosinekitty@gmail.com",
+  "authorUrl": "https://github.com/cosinekitty/sapphire",
+  "pluginUrl": "https://github.com/cosinekitty/sapphire",
+  "manualUrl": "https://github.com/cosinekitty/sapphire",
+  "sourceUrl": "https://github.com/cosinekitty/sapphire",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Moots",
+      "name": "Moots",
+      "description": "Plugs/unplugs polyphonic cables.",
+      "tags": [
+        "Controller",
+        "Switch",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

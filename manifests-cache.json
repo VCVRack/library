@@ -9375,7 +9375,7 @@
     }
   },
   "GrandeModular": {
-    "buildTimestamp": 1655698985.8449156,
+    "buildTimestamp": 1660868906.5477884,
     "creationTimestamp": 1598123367.069531,
     "modules": {
       "NoteMT": {
@@ -10245,7 +10245,7 @@
     }
   },
   "mmmodules": {
-    "buildTimestamp": 1625444074.6318297,
+    "buildTimestamp": 1660869606.801558,
     "creationTimestamp": 1625444088.734949,
     "modules": {
       "3mountains": {
@@ -10824,7 +10824,7 @@
     }
   },
   "PathSet": {
-    "buildTimestamp": 1655699061.8965278,
+    "buildTimestamp": 1660868974.4494789,
     "creationTimestamp": 1643066843.6193788,
     "modules": {
       "ShiftyMod": {
@@ -10844,6 +10844,9 @@
       },
       "Nudge": {
         "creationTimestamp": 1654476374.7184265
+      },
+      "OneShot": {
+        "creationTimestamp": 1660869608.5157502
       }
     }
   },
@@ -10959,7 +10962,7 @@
     }
   },
   "alefsbits": {
-    "buildTimestamp": 1659355554.9078043,
+    "buildTimestamp": 1660868755.7138436,
     "creationTimestamp": 1650829410.386362,
     "modules": {
       "simplexandhold": {
@@ -11264,6 +11267,36 @@
       },
       "Crossing": {
         "creationTimestamp": 1659700408.0496297
+      }
+    }
+  },
+  "EucQuant": {
+    "buildTimestamp": 1660869588.7343204,
+    "creationTimestamp": 1660869607.767765,
+    "modules": {
+      "EdoQuant": {
+        "creationTimestamp": 1660869607.8962204
+      }
+    }
+  },
+  "CosineKitty-Sapphire": {
+    "buildTimestamp": 1660868534.5788658,
+    "creationTimestamp": 1660869608.068208,
+    "modules": {
+      "Moots": {
+        "creationTimestamp": 1660869608.2744987
+      }
+    }
+  },
+  "Chinenual-VCV": {
+    "buildTimestamp": 1660869571.7804434,
+    "creationTimestamp": 1660869608.7876675,
+    "modules": {
+      "MIDIRecorder": {
+        "creationTimestamp": 1660869608.9248955
+      },
+      "MIDIRecorderCC": {
+        "creationTimestamp": 1660869609.0652492
       }
     }
   }
