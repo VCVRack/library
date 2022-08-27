@@ -703,3 +703,6 @@
 [submodule "repos/Chinenual-VCV"]
 	path = repos/Chinenual-VCV
 	url = https://github.com/chinenual/Chinenual-VCV.git
+[submodule "repos/AetrionModular"]
+	path = repos/AetrionModular
+	url = https://github.com/aetrion-music/aetrion-modular.git
