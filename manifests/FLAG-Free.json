@@ -1,7 +1,7 @@
 {
   "slug": "FLAG-Free",
   "name": "FLAG Free",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "license": "proprietary",
   "brand": "FLAG",
   "author": "Flag Audio",
@@ -54,7 +54,7 @@
       "slug": "Oppressor",
       "name": "Oppressor",
       "manualUrl": "https://flagaudio.com/vcv/oppressor.html",
-      "description": "Multiband Ducker",
+      "description": "Multiband Ducker and Compressor",
       "tags": [
         "Dynamics",
         "Compressor",
@@ -68,7 +68,18 @@
       "manualUrl": "https://flagaudio.com/vcv/stems.html",
       "description": "Multi Channel Stem Player",
       "tags": [
-        "Sampler"
+        "Sampler",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Prodigal-Son",
+      "name": "Prodigal Son",
+      "manualUrl": "https://flagaudio.com/vcv/prodigal_son.html",
+      "description": "Band Limited Super-Saw Oscillator with Amplitude Envelope",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
       ]
     }
   ]
