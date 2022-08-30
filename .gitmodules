@@ -706,3 +706,6 @@
 [submodule "repos/AetrionModular"]
 	path = repos/AetrionModular
 	url = https://github.com/aetrion-music/aetrion-modular.git
+[submodule "repos/SickoCV"]
+	path = repos/SickoCV
+	url = https://github.com/sickozell/SickoCV.git
