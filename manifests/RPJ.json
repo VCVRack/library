@@ -1,7 +1,7 @@
 {
   "slug": "RPJ",
   "name": "RPJ",
-  "version": "2.1.1",
+  "version": "2.2.1",
   "license": "GPL-3.0-or-later",
   "brand": "RPJ",
   "author": "Robert Kock",
@@ -191,6 +191,24 @@
         "VCO",
         "Polyphonic",
         "Synth voice"
+      ]
+    },
+    {
+      "slug": "Genie",
+      "name": "Genie",
+      "description": "Chaos generator",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/genie.md",
+      "tags": [
+        "S&H"
+      ]
+    },
+    {
+      "slug": "GenieExpander",
+      "name": "GenieExpander",
+      "description": "Display for Genie Chaos generator",
+      "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/genie.md",
+      "tags": [
+        "S&H"
       ]
     }
   ]

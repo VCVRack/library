@@ -1,7 +1,7 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.4.2",
+  "version": "2.4.6",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
@@ -71,6 +71,41 @@
       "name": "oct sclr",
       "description": "scales voltage to specified octave range",
       "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "shift",
+      "name": "shift",
+      "description": "an 8-step shift register with probability params for each step",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "mlt",
+      "name": "mlt",
+      "description": "two 1:3 polyphonic multiples",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "math",
+      "name": "math",
+      "description": "applies various math operations on two inputs, clamped to +/-10V",
+      "tags": [
+        "Logic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "logic",
+      "name": "logic",
+      "description": "perform logical operations on two inputs",
+      "tags": [
+        "Logic",
         "Utility"
       ]
     }

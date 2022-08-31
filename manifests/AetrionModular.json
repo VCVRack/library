@@ -1,0 +1,25 @@
+{
+  "slug": "AetrionModular",
+  "name": "AetrionModular",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "aetrion",
+  "author": "Mirko Melcher & Andrew Hanson",
+  "authorEmail": "m@aetrion-music.com",
+  "authorUrl": "https://aetrion-music.com/",
+  "pluginUrl": "https://github.com/aetrion-music/aetrion-modular",
+  "manualUrl": "https://github.com/aetrion-music/aetrion-modular",
+  "sourceUrl": "https://github.com/aetrion-music/aetrion-modular",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ChordVault",
+      "name": "ChordVault",
+      "description": "Record polyphonic cv/gate pairs into up to 16 steps and choose from a one of 8 sequencing modes.",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}
