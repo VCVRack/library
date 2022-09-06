@@ -1,7 +1,7 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.4.6",
+  "version": "2.4.9",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
@@ -106,6 +106,14 @@
       "description": "perform logical operations on two inputs",
       "tags": [
         "Logic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "probablynot",
+      "name": "probably not",
+      "description": "mute a signal on trigger, based on probability",
+      "tags": [
         "Utility"
       ]
     }
