@@ -145,7 +145,7 @@ print()
 print(f"Press enter to launch Rack and test the following packages: {manifest_versions_str}")
 input()
 try:
-	common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack")
+	common.system(f"cd {RACK_SYSTEM_DIR} && ./build/Rack")
 	common.system(f"cd {RACK_USER_DIR} && grep 'warn' log.txt || true")
 except:
 	print(f"Rack failed! Enter to continue if desired")
@@ -154,7 +154,7 @@ print(f"Press enter to generate screenshots, upload packages, upload screenshots
 input()
 
 # Generate screenshots
-common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack -t 2")
+common.system(f"cd {RACK_SYSTEM_DIR} && ./build/Rack -t 4")
 
 # Upload packages
 common.system("cd ../packages && make upload")
