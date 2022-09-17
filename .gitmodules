@@ -709,3 +709,6 @@
 [submodule "repos/SickoCV"]
 	path = repos/SickoCV
 	url = https://github.com/sickozell/SickoCV.git
+[submodule "repos/SeasideModular"]
+	path = repos/SeasideModular
+	url = https://github.com/abluenautilus/SeasideModularVCV.git
