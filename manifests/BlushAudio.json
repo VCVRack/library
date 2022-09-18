@@ -1,0 +1,43 @@
+{
+  "slug": "BlushAudio",
+  "name": "Blush Audio",
+  "version": "2.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Blush Audio",
+  "author": "Blush Audio",
+  "authorEmail": "info@blushaudio.co.uk",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/BlushAudioLab/BlushAudioVCVFreeModules",
+  "donateUrl": "https://paypal.me/blushaudio",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "BuffMult",
+      "name": "Buff Mult",
+      "description": "A Mult",
+      "tags": [
+        "Multiple",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "BuffMix",
+      "name": "Buff Mix",
+      "description": "A Mixer",
+      "tags": [
+        "Mixer",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Logician",
+      "name": "Logician",
+      "description": "A logic module",
+      "tags": [
+        "Logic"
+      ]
+    }
+  ]
+}

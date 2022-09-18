@@ -1,7 +1,7 @@
 {
   "slug": "Coffee",
   "name": "Coffee",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Coffee",
   "author": "CoffeeVCV",
@@ -147,6 +147,32 @@
         "Sequencer",
         "Polyphonic",
         "Random"
+      ]
+    },
+    {
+      "slug": "Set2",
+      "name": "Set2",
+      "description": "A single large knob with up to 4 presets and smooth interploation over a specified time.",
+      "tags": [
+        "Utility",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "Any",
+      "name": "Any",
+      "description": "A simple AND/OR logic utility with 8 inputs, 1 output.",
+      "tags": [
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Quant",
+      "name": "Quant",
+      "description": "A small quantizer.",
+      "tags": [
+        "Quantizer"
       ]
     }
   ]

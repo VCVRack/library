@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.21.0",
+  "version": "2.21.3",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -25,7 +25,7 @@
     {
       "slug": "bytebeat",
       "name": "Byte Beat",
-      "description": "Module that will get converted to something more interesting.",
+      "description": "Bytebeat player with built-in presets.",
       "tags": [
         "Oscillator"
       ]
