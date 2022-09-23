@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -15,7 +15,7 @@
   "modules": [
     {
       "slug": "Btoggler",
-      "name": "bToggler",
+      "name": "bToggler8",
       "description": "8 buffered toggle switch signal router",
       "tags": [
         "Logic"
@@ -23,7 +23,7 @@
     },
     {
       "slug": "BtogglerPlus",
-      "name": "bTogglerPlus",
+      "name": "bToggler8Plus",
       "description": "8 buffered toggle switch router, plus warnings to use with led midi controllers",
       "tags": [
         "Logic",
@@ -51,7 +51,7 @@
     {
       "slug": "TogglerCompact",
       "name": "Toggler Compact",
-      "description": "Stereo signal toggle switch router, with VCA and ASR envelope generator, in compact form factor",
+      "description": "Stereo signal toggle switch router, with VCA and ASR envelope generator, in a compact form factor",
       "tags": [
         "Logic",
         "Envelope generator",
@@ -60,7 +60,7 @@
     },
     {
       "slug": "BtogglerSt",
-      "name": "bTogglerSt",
+      "name": "bToggler",
       "description": "Buffered stereo signal toggle switch router, with VCA and ASR envelope generator",
       "tags": [
         "Logic",
@@ -70,12 +70,28 @@
     },
     {
       "slug": "BtogglerStCompact",
-      "name": "bTogglerSt Compact",
-      "description": "Buffered stereo signal toggle switch router, with VCA and ASR envelope generator, in compact form factor",
+      "name": "bToggler Compact",
+      "description": "Buffered stereo signal toggle switch router, with VCA and ASR envelope generator, in a compact form factor",
       "tags": [
         "Logic",
         "Envelope generator",
         "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "Blender",
+      "name": "Blender",
+      "description": "Stereo crossfade mixer with double modulation",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Blender8",
+      "name": "Blender8",
+      "description": "8 single crossfade mixers",
+      "tags": [
+        "Mixer"
       ]
     }
   ]
