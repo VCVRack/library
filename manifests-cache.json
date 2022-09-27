@@ -6182,7 +6182,7 @@
     }
   },
   "VultModulesFree": {
-    "buildTimestamp": 1654032683.5660505,
+    "buildTimestamp": 1664299461.041918,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Basal": {
@@ -7282,7 +7282,7 @@
     }
   },
   "VultCompacts": {
-    "buildTimestamp": 1654032681.5526702,
+    "buildTimestamp": 1664299459.568551,
     "creationTimestamp": 1527117794.0,
     "modules": {
       "Freak": {
@@ -8000,7 +8000,7 @@
     }
   },
   "VultMysteries": {
-    "buildTimestamp": 1654032684.5327396,
+    "buildTimestamp": 1664299462.0519412,
     "creationTimestamp": 1563301966.0,
     "modules": {
       "Lapsus": {
@@ -8422,7 +8422,7 @@
     "modules": {}
   },
   "VultModules": {
-    "buildTimestamp": 1654032682.4860253,
+    "buildTimestamp": 1664299460.218566,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Basal": {
@@ -8556,6 +8556,9 @@
       },
       "OpulusMicro": {
         "creationTimestamp": 1651470866.1431687
+      },
+      "Fuser": {
+        "creationTimestamp": 1664299464.8832307
       }
     }
   },
