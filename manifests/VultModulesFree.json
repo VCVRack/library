@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "modules": [
     {
       "slug": "Basal",
@@ -77,6 +77,15 @@
         "Polyphonic"
       ],
       "description": "DJ Style Filter"
+    },
+    {
+      "slug": "Fuser",
+      "name": "Fuser",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ],
+      "description": "Voltage Mixer"
     },
     {
       "slug": "Flux",
