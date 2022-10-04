@@ -1,0 +1,33 @@
+{
+  "slug": "RPJVisualizer",
+  "name": "RPJ Visualizer",
+  "version": "2.0.22",
+  "license": "GPL-3.0-or-later",
+  "brand": "RPJ",
+  "author": "Robert Kock",
+  "authorEmail": "robert.kock@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/kockie69/RPJ/blob/v2/docs/lowfatmilk.md",
+  "sourceUrl": "https://github.com/kockie69/Visualizer",
+  "donateUrl": "https://paypal.me/RPJVCV",
+  "changelogUrl": "https://github.com/kockie69/RPJ/blob/v2/CHANGELOG2.md",
+  "modules": [
+    {
+      "slug": "LFMFull",
+      "name": "LFMFull",
+      "description": "Psycho visualizer",
+      "tags": [
+        "Utilities"
+      ]
+    },
+    {
+      "slug": "LFMEmbedded",
+      "name": "LFMEmbedded",
+      "description": "Psycho visualizer",
+      "tags": [
+        "Utilities"
+      ]
+    }
+  ]
+}
