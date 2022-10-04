@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -92,6 +92,22 @@
       "description": "8 single crossfade mixers",
       "tags": [
         "Mixer"
+      ]
+    },
+    {
+      "slug": "Switcher",
+      "name": "Switcher",
+      "description": "2>1 or 1<2 signal switch with crossfade, flip flop",
+      "tags": [
+        "Switch"
+      ]
+    },
+    {
+      "slug": "SwitcherSt",
+      "name": "SwitcherSt",
+      "description": "2>1 or 1<2 stereo signal switch with crossfade, flip flop",
+      "tags": [
+        "Switch"
       ]
     }
   ]

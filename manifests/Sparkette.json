@@ -1,0 +1,43 @@
+{
+  "slug": "Sparkette",
+  "name": "Sparkette's Stuff",
+  "version": "2.1.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Sparkette's Stuff",
+  "author": "Sara Sparks",
+  "authorEmail": "flarn2006@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/flarn2006/SparketteVCV",
+  "donateUrl": "https://venmo.com/flarn2006",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Ellie",
+      "name": "Ellie",
+      "description": "Ellie is hiding on your rack as a blank panel!",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "NoteClassifier",
+      "name": "Note Classifier",
+      "description": "Classifies the pitch of an incoming note (C, D, etc.) and turns on a different output for each pitch.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyRepeater",
+      "name": "Polyphonic Repeater",
+      "description": "Converts a monophonic signal to a polyphonic signal where all channels have the same value. Outputs up to four copies of the polyphonic signal, because I had room for extra ports so why not?",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    }
+  ]
+}

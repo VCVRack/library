@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1663458043.4442377,
+    "buildTimestamp": 1664896403.2493072,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -2268,7 +2268,7 @@
     }
   },
   "MindMeldModular": {
-    "buildTimestamp": 1649108787.7594223,
+    "buildTimestamp": 1664896620.5016873,
     "creationTimestamp": 1572165273.0,
     "modules": {
       "MixMasterJr": {
@@ -3747,7 +3747,7 @@
     "modules": {}
   },
   "PS-PurrSoftware": {
-    "buildTimestamp": 1661902229.7633526,
+    "buildTimestamp": 1664898771.1060076,
     "creationTimestamp": 1579232908.0,
     "modules": {
       "Meander": {
@@ -4654,7 +4654,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1663457821.2126296,
+    "buildTimestamp": 1664896219.41442,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -9384,7 +9384,7 @@
     }
   },
   "GrandeModular": {
-    "buildTimestamp": 1660868906.5477884,
+    "buildTimestamp": 1664898708.1943398,
     "creationTimestamp": 1598123367.069531,
     "modules": {
       "NoteMT": {
@@ -9458,6 +9458,9 @@
       },
       "Compare3": {
         "creationTimestamp": 1653920290.0462499
+      },
+      "Tails4": {
+        "creationTimestamp": 1664898772.8252757
       }
     }
   },
@@ -10980,7 +10983,7 @@
     }
   },
   "alefsbits": {
-    "buildTimestamp": 1662500578.175678,
+    "buildTimestamp": 1664896699.2138007,
     "creationTimestamp": 1650829410.386362,
     "modules": {
       "simplexandhold": {
@@ -11021,6 +11024,9 @@
       },
       "probablynot": {
         "creationTimestamp": 1662500853.0251908
+      },
+      "polyplay": {
+        "creationTimestamp": 1664898771.9832747
       }
     }
   },
@@ -11067,7 +11073,7 @@
     }
   },
   "LoudNumbers": {
-    "buildTimestamp": 1656245055.2964888,
+    "buildTimestamp": 1664896747.1884649,
     "creationTimestamp": 1652104144.7608788,
     "modules": {
       "LoudNumbers": {
@@ -11352,7 +11358,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1663956282.7060685,
+    "buildTimestamp": 1664898555.7703004,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -11381,11 +11387,17 @@
       },
       "Blender8": {
         "creationTimestamp": 1663956283.8898232
+      },
+      "Switcher": {
+        "creationTimestamp": 1664898772.3140578
+      },
+      "SwitcherSt": {
+        "creationTimestamp": 1664898772.5800624
       }
     }
   },
   "SeasideModular": {
-    "buildTimestamp": 1663458287.959834,
+    "buildTimestamp": 1664896774.0925436,
     "creationTimestamp": 1663459028.233182,
     "modules": {
       "Proteus": {
@@ -11394,7 +11406,7 @@
     }
   },
   "BlushAudio": {
-    "buildTimestamp": 1663458131.0395584,
+    "buildTimestamp": 1664896721.1244087,
     "creationTimestamp": 1663459028.9480162,
     "modules": {
       "BuffMult": {
@@ -11417,6 +11429,21 @@
       },
       "LFMEmbedded": {
         "creationTimestamp": 1664892729.5258296
+      }
+    }
+  },
+  "Sparkette": {
+    "buildTimestamp": 1664898474.361477,
+    "creationTimestamp": 1664898773.0755346,
+    "modules": {
+      "Ellie": {
+        "creationTimestamp": 1664898773.2290442
+      },
+      "NoteClassifier": {
+        "creationTimestamp": 1664898773.3832617
+      },
+      "PolyRepeater": {
+        "creationTimestamp": 1664898773.5325632
       }
     }
   }
