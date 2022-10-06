@@ -1,0 +1,35 @@
+{
+  "slug": "ALM032",
+  "name": "ALM Busy Circuits MFX",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "ALM Busy Circuits",
+  "author": "ALM",
+  "authorEmail": "help@busycircuits.com",
+  "authorUrl": "https://busycircuits.com",
+  "pluginUrl": "https://busycircuits.com/alm032/",
+  "manualUrl": "https://busycircuits.com/docs/alm032-manual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "MFX",
+      "name": "MFX",
+      "description": "ALM032 MFX: Stereo Multi Effects Processor",
+      "tags": [
+        "Effect",
+        "Digital",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "AXON",
+      "name": "AXON-1",
+      "description": "AXON-1 Expander for ALM032 MFX",
+      "tags": [
+        "Expander"
+      ]
+    }
+  ]
+}
