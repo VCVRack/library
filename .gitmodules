@@ -718,3 +718,6 @@
 [submodule "repos/Sparkette"]
 	path = repos/Sparkette
 	url = https://github.com/flarn2006/SparketteVCV.git
+[submodule "repos/InfrasonicAudio"]
+	path = repos/InfrasonicAudio
+	url = https://github.com/infrasonicaudio/Infrasonic-VCV.git
