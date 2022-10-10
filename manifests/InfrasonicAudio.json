@@ -1,0 +1,26 @@
+{
+  "slug": "InfrasonicAudio",
+  "name": "Infrasonic Audio",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Infrasonic Audio",
+  "author": "Infrasonic Audio LLC (Nick Donaldson)",
+  "authorEmail": "nick@infrasonicaudio.com",
+  "authorUrl": "https://www.infrasonicaudio.com",
+  "pluginUrl": "https://www.infrasonicaudio.com/vcv-rack-modules",
+  "manualUrl": "https://github.com/infrasonicaudio/Infrasonic-VCV/blob/main/doc/README.md",
+  "sourceUrl": "https://github.com/infrasonicaudio/Infrasonic-VCV",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/infrasonicaudio/Infrasonic-VCV/releases",
+  "modules": [
+    {
+      "slug": "WarpCore",
+      "name": "Warp Core",
+      "description": "Dual-algorithm phase distortion and phase modulation oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

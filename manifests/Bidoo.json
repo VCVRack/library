@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "2.0.23",
+  "version": "2.0.25",
   "license": "GPL-3.0-or-later",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -48,6 +48,17 @@
       "description": "Synced pulse generator",
       "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#mu",
       "tags": [
+        "Logic",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "RATEAU",
+      "name": "ratEaU",
+      "description": "Gate generator",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#rateau",
+      "tags": [
+        "Clock modulator",
         "Logic",
         "Sequencer"
       ]

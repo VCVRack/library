@@ -9,7 +9,7 @@
   "authorUrl": "https://github.com/jhoar/AmalgamatedHarmonics/wiki",
   "sourceUrl": "https://github.com/jhoar/AmalgamatedHarmonics",
   "changelogUrl": "https://github.com/jhoar/AmalgamatedHarmonics/releases",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "modules": [
     {
       "slug": "Arp31",
