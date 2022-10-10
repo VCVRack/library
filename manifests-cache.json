@@ -11458,5 +11458,20 @@
         "creationTimestamp": 1665089658.213899
       }
     }
+  },
+  "VCV-Pro": {
+    "buildTimestamp": 1665388300.4683323,
+    "creationTimestamp": 1665388302.4371305,
+    "modules": {
+      "Chorus": {
+        "creationTimestamp": 1665388302.9131236
+      },
+      "Flanger": {
+        "creationTimestamp": 1665388303.4740016
+      },
+      "Phaser": {
+        "creationTimestamp": 1665388303.8026252
+      }
+    }
   }
 }
