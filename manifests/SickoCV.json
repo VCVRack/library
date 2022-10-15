@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -13,6 +13,42 @@
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
+    {
+      "slug": "Blender",
+      "name": "Blender",
+      "description": "Stereo crossfade mixer with double modulation",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Blender8",
+      "name": "Blender8",
+      "description": "8 single crossfade mixers",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "BtogglerSt",
+      "name": "bToggler",
+      "description": "Buffered stereo signal toggle switch router, with VCA and ASR envelope generator",
+      "tags": [
+        "Logic",
+        "Envelope generator",
+        "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "BtogglerStCompact",
+      "name": "bToggler Compact",
+      "description": "Buffered stereo signal toggle switch router, with VCA and ASR envelope generator, in a compact form factor",
+      "tags": [
+        "Logic",
+        "Envelope generator",
+        "Voltage-controlled amplifier"
+      ]
+    },
     {
       "slug": "Btoggler",
       "name": "bToggler8",
@@ -39,6 +75,24 @@
       ]
     },
     {
+      "slug": "Switcher",
+      "name": "Switcher",
+      "description": "2>1 switch, 1>2 router, 2 signal swapper, mute, flip flop, toggle gate",
+      "tags": [
+        "Switch",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SwitcherSt",
+      "name": "SwitcherSt",
+      "description": "Stereo 2>1 switch, 1>2 router, 2 signal swapper, mute, flip flop, toggle gate",
+      "tags": [
+        "Switch",
+        "Utility"
+      ]
+    },
+    {
       "slug": "Toggler",
       "name": "Toggler",
       "description": "Stereo signal toggle switch router, with VCA and ASR envelope generator",
@@ -56,60 +110,6 @@
         "Logic",
         "Envelope generator",
         "Voltage-controlled amplifier"
-      ]
-    },
-    {
-      "slug": "BtogglerSt",
-      "name": "bToggler",
-      "description": "Buffered stereo signal toggle switch router, with VCA and ASR envelope generator",
-      "tags": [
-        "Logic",
-        "Envelope generator",
-        "Voltage-controlled amplifier"
-      ]
-    },
-    {
-      "slug": "BtogglerStCompact",
-      "name": "bToggler Compact",
-      "description": "Buffered stereo signal toggle switch router, with VCA and ASR envelope generator, in a compact form factor",
-      "tags": [
-        "Logic",
-        "Envelope generator",
-        "Voltage-controlled amplifier"
-      ]
-    },
-    {
-      "slug": "Blender",
-      "name": "Blender",
-      "description": "Stereo crossfade mixer with double modulation",
-      "tags": [
-        "Mixer"
-      ]
-    },
-    {
-      "slug": "Blender8",
-      "name": "Blender8",
-      "description": "8 single crossfade mixers",
-      "tags": [
-        "Mixer"
-      ]
-    },
-    {
-      "slug": "Switcher",
-      "name": "Switcher",
-      "description": "2>1 switch, 1>2 router, 2 signal swapper, mute, flip flop, toggle gate",
-      "tags": [
-        "Switch",
-        "Utility"
-      ]
-    },
-    {
-      "slug": "SwitcherSt",
-      "name": "SwitcherSt",
-      "description": "Stereo 2>1 switch, 1>2 router, 2 signal swapper, mute, flip flop, toggle gate",
-      "tags": [
-        "Switch",
-        "Utility"
       ]
     }
   ]

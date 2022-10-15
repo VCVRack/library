@@ -1,11 +1,12 @@
 {
   "slug": "trowaSoft",
   "name": "trowaSoft",
-  "version": "1.0.3",
+  "brand": "trowaSoft",
+  "version": "2.0.5",
   "license": "BSD-3-Clause",
   "author": "j4s0n-c",
-  "authorEmail": "",
-  "authorUrl": "http://www.geekasaurusrex.net/",
+  "authorEmail": "trowasoft.vcv@gmail.com",
+  "authorUrl": "https://github.com/j4s0n-c/",
   "pluginUrl": "https://github.com/j4s0n-c/trowaSoft-VCV",
   "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV/blob/master/README.md",
   "sourceUrl": "https://github.com/j4s0n-c/trowaSoft-VCV",
@@ -39,6 +40,15 @@
       ]
     },
     {
+      "slug": "multiSeq64",
+      "name": "multiSeq64",
+      "description": "64-step trigger/variable voltage/note sequencer with a built-in Open Sound Control (OSC) interface. Basically, trigSeq and voltSeq combined into one.",
+      "tags": [
+        "Sequencer",
+        "External"
+      ]
+    },
+    {
       "slug": "multiWave",
       "name": "multiWave",
       "description": "Digital oscillator module with three (3) oscillators/clocks, each with two (2) configurable wave channel outputs.",
@@ -61,7 +71,7 @@
       "description": "Generic Open Sound Control (OSC) module for outputting Rack CVs to OSC and reading in simple OSC messages into Rack CVs.",
       "tags": [
         "External",
-        "Poly"
+        "Polyphonic"
       ]
     },
     {
@@ -70,7 +80,7 @@
       "description": "Expansion module for cvOSCcv. Allows more input CV channels to be sent to OSC.",
       "tags": [
         "External",
-        "Poly",
+        "Polyphonic",
         "Expander"
       ]
     },
@@ -80,7 +90,7 @@
       "description": "Expansion module for cvOSCcv. Allows more output CV channels to be received from OSC.",
       "tags": [
         "External",
-        "Poly",
+        "Polyphonic",
         "Expander"
       ]
     },

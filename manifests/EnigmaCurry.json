@@ -1,0 +1,39 @@
+{
+  "slug": "EnigmaCurry",
+  "name": "EnigmaCurry",
+  "version": "2.0.7",
+  "license": "GPL-3.0-or-later",
+  "brand": "EnigmaCurry",
+  "author": "EnigmaCurry",
+  "authorEmail": "ryan@rymcg.tech",
+  "authorUrl": "https://www.enigmacurry.com",
+  "pluginUrl": "https://github.com/EnigmaCurry/EnigmaCurry-vcv-pack",
+  "manualUrl": "https://github.com/EnigmaCurry/EnigmaCurry-vcv-pack/tree/v2#readme",
+  "sourceUrl": "https://github.com/EnigmaCurry/EnigmaCurry-vcv-pack",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/EnigmaCurry/EnigmaCurry-vcv-pack/blob/v2/CHANGELOG.txt",
+  "modules": [
+    {
+      "slug": "Transport",
+      "name": "Transport",
+      "description": "A DAW-like transport for play/stop/record",
+      "manualUrl": "https://github.com/EnigmaCurry/EnigmaCurry-vcv-pack/blob/v2/README.md#transport",
+      "tags": [
+        "Utility",
+        "Recording"
+      ]
+    },
+    {
+      "slug": "Latch",
+      "name": "Latch",
+      "description": "Latches with discrete triggers and resets",
+      "manualUrl": "https://github.com/EnigmaCurry/EnigmaCurry-vcv-pack/blob/v2/README.md#latch",
+      "tags": [
+        "Utility",
+        "Polyphonic",
+        "Dual",
+        "Switch"
+      ]
+    }
+  ]
+}
