@@ -721,3 +721,6 @@
 [submodule "repos/InfrasonicAudio"]
 	path = repos/InfrasonicAudio
 	url = https://github.com/infrasonicaudio/Infrasonic-VCV.git
+[submodule "repos/EnigmaCurry"]
+	path = repos/EnigmaCurry
+	url = https://github.com/EnigmaCurry/EnigmaCurry-vcv-pack.git
