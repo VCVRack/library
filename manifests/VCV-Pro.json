@@ -1,7 +1,7 @@
 {
   "slug": "VCV-Pro",
-  "name": "Pro",
-  "version": "2.0.0",
+  "name": "VCV Pro",
+  "version": "2.0.2",
   "license": "proprietary",
   "brand": "VCV",
   "author": "VCV",
@@ -11,7 +11,7 @@
   "manualUrl": "https://vcvrack.com/Pro#manual",
   "sourceUrl": "",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://vcvrack.com/Pro#changelog",
   "modules": [
     {
       "slug": "Chorus",
