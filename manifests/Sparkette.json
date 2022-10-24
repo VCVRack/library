@@ -1,7 +1,7 @@
 {
   "slug": "Sparkette",
   "name": "Sparkette's Stuff",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sparkette's Stuff",
   "author": "Sara Sparks",
@@ -37,6 +37,25 @@
       "tags": [
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "RGBMatrix",
+      "name": "RGB Matrix",
+      "description": "An array of RGB lights with built-in oscillators for generating and displaying patterns.",
+      "tags": [
+        "Visual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "HSV2RGB",
+      "name": "Color Wheel",
+      "description": "Converts a color from HSV format to RGB values.",
+      "tags": [
+        "Utility",
+        "Visual",
+        "Polyphonic"
       ]
     }
   ]

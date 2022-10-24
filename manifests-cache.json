@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1665870386.2040212,
+    "buildTimestamp": 1666641733.1224904,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -1465,7 +1465,7 @@
     "modules": {}
   },
   "LittleUtils": {
-    "buildTimestamp": 1640298594.5540204,
+    "buildTimestamp": 1666642610.2293108,
     "creationTimestamp": 1571530639.0,
     "modules": {
       "Button": {
@@ -2731,7 +2731,7 @@
     }
   },
   "squinkylabs-plug1": {
-    "buildTimestamp": 1653919973.3362465,
+    "buildTimestamp": 1666642557.1237948,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {
@@ -9393,7 +9393,7 @@
     }
   },
   "GrandeModular": {
-    "buildTimestamp": 1664898708.1943398,
+    "buildTimestamp": 1666642877.993565,
     "creationTimestamp": 1598123367.069531,
     "modules": {
       "NoteMT": {
@@ -11097,7 +11097,7 @@
     }
   },
   "LoudNumbers": {
-    "buildTimestamp": 1664896747.1884649,
+    "buildTimestamp": 1666642641.8972762,
     "creationTimestamp": 1652104144.7608788,
     "modules": {
       "LoudNumbers": {
@@ -11421,7 +11421,7 @@
     }
   },
   "SeasideModular": {
-    "buildTimestamp": 1664896774.0925436,
+    "buildTimestamp": 1666642674.2352672,
     "creationTimestamp": 1663459028.233182,
     "modules": {
       "Proteus": {
@@ -11460,7 +11460,7 @@
     }
   },
   "Sparkette": {
-    "buildTimestamp": 1664898474.361477,
+    "buildTimestamp": 1666642716.0403094,
     "creationTimestamp": 1664898773.0755346,
     "modules": {
       "Ellie": {
@@ -11471,6 +11471,12 @@
       },
       "PolyRepeater": {
         "creationTimestamp": 1664898773.5325632
+      },
+      "RGBMatrix": {
+        "creationTimestamp": 1666642879.6877346
+      },
+      "HSV2RGB": {
+        "creationTimestamp": 1666642879.976476
       }
     }
   },
