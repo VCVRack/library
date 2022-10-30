@@ -1,0 +1,44 @@
+{
+  "slug": "ALMFree",
+  "name": "ALM Busy Circuits Free",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "ALM Busy Circuits",
+  "author": "ALM",
+  "authorEmail": "help@busycircuits.com",
+  "authorUrl": "https://busycircuits.com",
+  "pluginUrl": "https://busycircuits.com",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Beast",
+      "name": "Beast's Chalkboard",
+      "description": "ALM002 Beast's Chalkboard",
+      "tags": [
+        "Utility",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "OAx2",
+      "name": "O/A/x2",
+      "description": "ALM010 O/A/x2",
+      "tags": [
+        "Utility",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "Tangle",
+      "name": "Tangle Quartet",
+      "description": "ALM009 Tangle Quartet",
+      "tags": [
+        "Mixer",
+        "Hardware Clone"
+      ]
+    }
+  ]
+}

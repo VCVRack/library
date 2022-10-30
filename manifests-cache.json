@@ -11527,5 +11527,20 @@
         "creationTimestamp": 1665871106.101055
       }
     }
+  },
+  "ALMFree": {
+    "buildTimestamp": 1667171988.8233376,
+    "creationTimestamp": 1667171990.4397569,
+    "modules": {
+      "Beast": {
+        "creationTimestamp": 1667171990.5610557
+      },
+      "OAx2": {
+        "creationTimestamp": 1667171990.7135928
+      },
+      "Tangle": {
+        "creationTimestamp": 1667171990.8360054
+      }
+    }
   }
 }
