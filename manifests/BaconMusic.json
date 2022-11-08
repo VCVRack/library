@@ -1,7 +1,7 @@
 {
   "slug": "BaconMusic",
   "name": "Bacon Music",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "author": "@baconpaul",
   "authorEmail": "",
@@ -79,7 +79,8 @@
       "tags": [
         "Oscillator",
         "Polyphonic"
-      ]
+      ],
+      "hidden": true
     },
     {
       "slug": "Open303",
@@ -88,7 +89,8 @@
       "tags": [
         "Oscillator",
         "Polyphonic"
-      ]
+      ],
+      "hidden": true
     },
     {
       "slug": "KarplusStrongPoly",
@@ -97,7 +99,8 @@
       "tags": [
         "Oscillator",
         "Polyphonic"
-      ]
+      ],
+      "hidden": true
     },
     {
       "slug": "ALingADing",
@@ -106,7 +109,8 @@
       "tags": [
         "Ring modulator",
         "Polyphonic"
-      ]
+      ],
+      "hidden": true
     },
     {
       "slug": "Bitulator",

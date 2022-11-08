@@ -1,7 +1,7 @@
 {
   "slug": "Plurm",
   "name": "Plurm",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "Plurm",
   "author": "David Cherepov",
@@ -36,6 +36,24 @@
       "description": "an expander for randomchordrecorder",
       "tags": [
         "Expander"
+      ]
+    },
+    {
+      "slug": "chordscalequantizer",
+      "name": "chordscalequantizer",
+      "description": "quantizes notes to a diatonic scale based on a chord",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "simplerouter",
+      "name": "simplerouter",
+      "description": "a rpre/post-processing switch",
+      "tags": [
+        "Switch",
+        "Utility",
+        "Polyphonic"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "dbRackSequencer",
   "name": "dbRackSequencer",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -181,6 +181,111 @@
       "slug": "N3",
       "name": "N3",
       "description": "A trigger sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "MouseSeq",
+      "name": "MouseSeq",
+      "description": "Mouse Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TME",
+      "name": "TME",
+      "description": "Triadex Muse emulator",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "CSR",
+      "name": "CSR",
+      "description": "16 value shift register",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "P16B",
+      "name": "P16B",
+      "description": "Address CV generator",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "SigMod",
+      "name": "SigMod",
+      "description": "Signal Scrambler",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Preset",
+      "name": "Preset",
+      "description": "Preset Selector/Sequencer",
+      "tags": [
+        "Utility",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "CCA",
+      "name": "CCA",
+      "description": "Continuous Cellular Automaton Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "CCA2",
+      "name": "CCA2",
+      "description": "2D Continuous Cellular Automaton Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Ant",
+      "name": "Ant",
+      "description": "Laurent's-Ant Cellular Automaton",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "P16A",
+      "name": "P16A",
+      "description": "Address Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "CDiv",
+      "name": "CDiv",
+      "description": "Clock divider",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "P16S",
+      "name": "P16S",
+      "description": "Poly switch for CV addressing or sequencing",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "UnoA",
+      "name": "UnoA",
+      "description": "Uno for address sequencing",
       "tags": [
         "Sequencer"
       ]
