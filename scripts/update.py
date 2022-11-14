@@ -14,10 +14,10 @@ import update_cache
 TOOLCHAIN_DIR = "../toolchain-v2"
 PACKAGES_DIR = "../packages"
 MANIFESTS_DIR = "manifests"
-RACK_SYSTEM_DIR = "../Rack-v2"
+RACK_SYSTEM_DIR = "../Rack2"
 RACK_USER_DIR = "$HOME/.Rack2"
-SCREENSHOTS_DIR = "f{RACK_USER_DIR}/screenshots"
-RACK_USER_PLUGIN_DIR = os.path.join(RACK_USER_DIR, "plugins")
+SCREENSHOTS_DIR = os.path.join(RACK_USER_DIR, "screenshots")
+PLUGIN_DIR = os.path.join(RACK_USER_DIR, "plugins")
 
 # Update git before continuing
 common.system("git pull")
@@ -94,7 +94,8 @@ for plugin_path in plugin_paths:
 			common.system(f'cd "{TOOLCHAIN_DIR}" && make plugin-build-clean')
 			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j$(nproc) plugin-build PLUGIN_DIR="{plugin_path}"')
 			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/* "{PACKAGES_DIR}"/')
-			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/*-lin.vcvplugin "{RACK_USER_PLUGIN_DIR}"')
+			# Install Linux package for testing
+			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/*-lin.vcvplugin "{PLUGIN_DIR}"/')
 		except Exception as e:
 			print(e)
 			print(f"{slug} build failed")
@@ -113,11 +114,13 @@ for plugin_path in plugin_paths:
 		input()
 
 		# Copy package
-		package_dest = os.path.join(PACKAGES_DIR, os.path.basename(plugin_path))
-		common.system(f'cp "{plugin_path}" "{package_dest}"')
-		common.system(f'touch "{package_dest}"')
+		package_filename = os.path.basename(plugin_path)
+		common.system(f'cp "{plugin_path}" "{PACKAGES_DIR}/{package_filename}"')
+		# Update file timestamp
+		common.system(f'touch "{PACKAGES_DIR}/{package_filename}"')
+		# Install Linux package for testing
 		if arch == 'lin':
-			common.system(f'cp "{plugin_path}" "{RACK_USER_PLUGIN_DIR}"')
+			common.system(f'cp "{plugin_path}" "{PLUGIN_DIR}/{package_filename}"')
 
 	# Copy manifest
 	with open(library_manifest_filename, "w") as f:
