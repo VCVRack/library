@@ -1,7 +1,7 @@
 {
   "slug": "Ahornberg",
-  "version": "2.1.6",
-  "license": "GPL-3.0-only",
+  "version": "2.1.7",
+  "license": "GPL-3.0-or-later",
   "name": "Ahornberg",
   "brand": "Ahornberg",
   "author": "Ahornberg",
@@ -128,6 +128,18 @@
         "Multiple",
         "Polyphonic",
         "Tuner"
+      ]
+    },
+    {
+      "slug": "MIDIController",
+      "name": "MIDI Controller",
+      "description": "MIDI Controller",
+      "disabled": true,
+      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#midi-controller",
+      "tags": [
+        "External",
+        "MIDI",
+        "Utility"
       ]
     },
     {

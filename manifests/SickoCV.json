@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.3.2",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -70,6 +70,33 @@
       "slug": "Calcs",
       "name": "Calcs",
       "description": "Calculates sums, differences, multiplications, divisions and averages of 3 CV inputs",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Drummer",
+      "name": "Drummer",
+      "description": "Accent and choke utility for drum modules lacking these features",
+      "tags": [
+        "Utility",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Drummer4",
+      "name": "Drummer4",
+      "description": "4 channel accent utility for drum modules lacking this feature",
+      "tags": [
+        "Utility",
+        "Drum",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "Parking",
+      "name": "Parking",
+      "description": "Set of unconnected inputs and outputs just to park unused cables",
       "tags": [
         "Utility"
       ]
