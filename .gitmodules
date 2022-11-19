@@ -724,3 +724,6 @@
 [submodule "repos/EnigmaCurry"]
 	path = repos/EnigmaCurry
 	url = https://github.com/EnigmaCurry/EnigmaCurry-vcv-pack.git
+[submodule "repos/SurgeXTRack"]
+	path = repos/SurgeXTRack
+	url = https://github.com/surge-synthesizer/surge-rack.git
