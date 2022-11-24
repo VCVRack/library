@@ -1,0 +1,28 @@
+{
+  "slug": "Stoev-Projection",
+  "name": "Projection",
+  "version": "2.1.0",
+  "license": "proprietary",
+  "brand": "Stoev",
+  "author": "Stoev",
+  "authorEmail": "support@stoevlab.com",
+  "authorUrl": "https://www.stoevlab.com/",
+  "pluginUrl": "https://www.stoevlab.com/software/stoev-modules/#projection",
+  "manualUrl": "https://www.stoevlab.com/software/stoev-modules/#projection",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "https://www.stoevlab.com/software/stoev-modules/version-history/#projection",
+  "modules": [
+    {
+      "slug": "Projection",
+      "name": "Projection",
+      "description": "Dual geometrical sequencer / CV recorder",
+      "tags": [
+        "Sequencer",
+        "Recording",
+        "Sample and hold",
+        "Dual"
+      ]
+    }
+  ]
+}
