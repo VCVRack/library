@@ -1,7 +1,7 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "1.10.0",
-  "license": "GPL-3.0-only",
+  "version": "2.0.beta1",
+  "license": "GPL-3.0-or-later",
   "author": "Benjamin Dill",
   "name": "PackOne",
   "brand": "stoermelder",
@@ -9,8 +9,8 @@
   "pluginUrl": "https://github.com/stoermelder/vcvrack-packone",
   "authorUrl": "https://github.com/stoermelder",
   "sourceUrl": "https://github.com/stoermelder/vcvrack-packone.git",
-  "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/README.md",
-  "changelogUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/CHANGELOG.md",
+  "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/README.md",
+  "changelogUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/CHANGELOG.md",
   "donateUrl": "https://paypal.me/stoermelder",
   "modules": [
     {
@@ -22,7 +22,7 @@
         "Polyphonic",
         "Controller"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/CVMap.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/CVMap.md"
     },
     {
       "slug": "CVMapCtx",
@@ -31,7 +31,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/CVMap.md#ctx-expander"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/CVMap.md#ctx-expander"
     },
     {
       "slug": "CVMapMicro",
@@ -41,7 +41,7 @@
         "Utility",
         "Controller"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/CVMapMicro.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/CVMapMicro.md"
     },
     {
       "slug": "CVPam",
@@ -52,7 +52,7 @@
         "Polyphonic",
         "Controller"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/CVPam.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/CVPam.md"
     },
     {
       "slug": "RotorA",
@@ -62,7 +62,7 @@
         "Utility",
         "Polyphonic"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/RotorA.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/RotorA.md"
     },
     {
       "slug": "ReMoveLite",
@@ -73,7 +73,7 @@
         "Recording",
         "Controller"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/ReMove.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/ReMove.md"
     },
     {
       "slug": "Bolt",
@@ -85,7 +85,7 @@
         "Polyphonic",
         "Sample and hold"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Bolt.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Bolt.md"
     },
     {
       "slug": "Infix",
@@ -95,7 +95,7 @@
         "Utility",
         "Polyphonic"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Infix.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Infix.md"
     },
     {
       "slug": "InfixMicro",
@@ -105,7 +105,7 @@
         "Utility",
         "Polyphonic"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Infix.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Infix.md"
     },
     {
       "slug": "Strip",
@@ -116,7 +116,7 @@
         "Controller",
         "Random"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Strip.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Strip.md"
     },
     {
       "slug": "StripBay4",
@@ -125,7 +125,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Strip.md#stoermelder-strip-bay"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Strip.md#stoermelder-strip-bay"
     },
     {
       "slug": "EightFace",
@@ -135,7 +135,7 @@
         "Utility",
         "Sequencer"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/EightFace.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFace.md"
     },
     {
       "slug": "EightFaceX2",
@@ -145,7 +145,7 @@
         "Utility",
         "Sequencer"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/EightFace.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFace.md"
     },
     {
       "slug": "MidiCat",
@@ -155,7 +155,7 @@
         "Utility",
         "MIDI"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiCat.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/MidiCat.md"
     },
     {
       "slug": "MidiCatEx",
@@ -165,7 +165,7 @@
         "Utility",
         "MIDI"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiCat.md#mem-expander"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/MidiCat.md#mem-expander"
     },
     {
       "slug": "MidiCatCtx",
@@ -175,7 +175,7 @@
         "Utility",
         "MIDI"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiCat.md#ctx-expander"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/MidiCat.md#ctx-expander"
     },
     {
       "slug": "Sipo",
@@ -187,7 +187,7 @@
         "Digital",
         "Polyphonic"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Sipo.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Sipo.md"
     },
     {
       "slug": "FourRounds",
@@ -199,7 +199,7 @@
         "Random",
         "Switch"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/FourRounds.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/FourRounds.md"
     },
     {
       "slug": "Arena",
@@ -210,7 +210,7 @@
         "Controller",
         "Mixer"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Arena.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Arena.md"
     },
     {
       "slug": "Maze",
@@ -220,7 +220,7 @@
         "Sequencer",
         "Random"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Maze.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Maze.md"
     },
     {
       "slug": "Hive",
@@ -230,7 +230,7 @@
         "Sequencer",
         "Random"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Hive.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Hive.md"
     },
     {
       "slug": "Intermix",
@@ -240,7 +240,7 @@
         "Mixer",
         "Polyphonic"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Intermix.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Intermix.md"
     },
     {
       "slug": "IntermixGate",
@@ -249,7 +249,7 @@
       "tags": [
         "Expander"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Intermix.md#gate-expander"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Intermix.md#gate-expander"
     },
     {
       "slug": "IntermixEnv",
@@ -258,7 +258,7 @@
       "tags": [
         "Expander"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Intermix.md#env-expander"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Intermix.md#env-expander"
     },
     {
       "slug": "IntermixFade",
@@ -267,7 +267,7 @@
       "tags": [
         "Expander"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Intermix.md#fade-expander"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Intermix.md#fade-expander"
     },
     {
       "slug": "Sail",
@@ -276,7 +276,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Sail.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Sail.md"
     },
     {
       "slug": "Pile",
@@ -285,7 +285,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Pile.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Pile.md"
     },
     {
       "slug": "PilePoly",
@@ -295,7 +295,7 @@
         "Utility",
         "Polyphonic"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Pile.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Pile.md"
     },
     {
       "slug": "MidiStep",
@@ -306,7 +306,7 @@
         "MIDI",
         "Polyphonic"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiStep.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/MidiStep.md"
     },
     {
       "slug": "Mirror",
@@ -315,7 +315,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Mirror.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Mirror.md"
     },
     {
       "slug": "Affix",
@@ -326,7 +326,7 @@
         "Utility",
         "Attenuator"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Affix.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Affix.md"
     },
     {
       "slug": "AffixMicro",
@@ -337,7 +337,7 @@
         "Utility",
         "Attenuator"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Affix.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Affix.md"
     },
     {
       "slug": "Grip",
@@ -346,7 +346,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Grip.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Grip.md"
     },
     {
       "slug": "Glue",
@@ -355,7 +355,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Glue.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Glue.md"
     },
     {
       "slug": "Goto",
@@ -364,7 +364,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Goto.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Goto.md"
     },
     {
       "slug": "Stroke",
@@ -374,7 +374,7 @@
         "Utility",
         "Polyphonic"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Stroke.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Stroke.md"
     },
     {
       "slug": "Spin",
@@ -383,7 +383,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Spin.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Spin.md"
     },
     {
       "slug": "Transit",
@@ -393,7 +393,7 @@
         "Utility",
         "Sequencer"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Transit.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Transit.md"
     },
     {
       "slug": "TransitEx",
@@ -402,7 +402,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Transit.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Transit.md"
     },
     {
       "slug": "X4",
@@ -411,7 +411,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/X4.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/X4.md"
     },
     {
       "slug": "Macro",
@@ -420,7 +420,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Macro.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Macro.md"
     },
     {
       "slug": "Raw",
@@ -430,7 +430,7 @@
         "Distortion",
         "Digital"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Raw.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Raw.md"
     },
     {
       "slug": "MidiMon",
@@ -440,7 +440,7 @@
         "MIDI",
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiMon.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/MidiMon.md"
     },
     {
       "slug": "Orbit",
@@ -451,7 +451,7 @@
         "Effect",
         "Polyphonic"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Orbit.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Orbit.md"
     },
     {
       "slug": "EightFaceMk2",
@@ -461,7 +461,7 @@
         "Utility",
         "Sequencer"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/EightFaceMk2.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFaceMk2.md"
     },
     {
       "slug": "EightFaceMk2Ex",
@@ -470,7 +470,7 @@
       "tags": [
         "Expander"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/EightFaceMk2.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFaceMk2.md"
     },
     {
       "slug": "MidiPlug",
@@ -480,7 +480,7 @@
         "MIDI",
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/MidiPlug.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/MidiPlug.md"
     },
     {
       "slug": "AudioInterface64",
@@ -488,7 +488,8 @@
       "description": "Sends CV and audio to/from an audio device",
       "tags": [
         "External"
-      ]
+      ],
+      "disabled": true
     },
     {
       "slug": "Mb",
@@ -497,7 +498,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Mb.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Mb.md"
     },
     {
       "slug": "Me",
@@ -506,7 +507,7 @@
       "tags": [
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v1/docs/Me.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Me.md"
     }
   ]
 }
