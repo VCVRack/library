@@ -11620,5 +11620,118 @@
         "creationTimestamp": 1669262541.5297139
       }
     }
+  },
+  "SurgeXTRack": {
+    "creationTimestamp": 1669676336.0174751,
+    "modules": {
+      "SurgeXTVCF": {
+        "creationTimestamp": 1669676336.178917
+      },
+      "SurgeXTWaveshaper": {
+        "creationTimestamp": 1669676336.3381402
+      },
+      "SurgeXTOSCModern": {
+        "creationTimestamp": 1669676336.498195
+      },
+      "SurgeXTOSCClassic": {
+        "creationTimestamp": 1669676336.6584806
+      },
+      "SurgeXTOSCWavetable": {
+        "creationTimestamp": 1669676336.8186634
+      },
+      "SurgeXTOSCWindow": {
+        "creationTimestamp": 1669676336.9782917
+      },
+      "SurgeXTOSCSine": {
+        "creationTimestamp": 1669676337.1294239
+      },
+      "SurgeXTOSCFM2": {
+        "creationTimestamp": 1669676337.276918
+      },
+      "SurgeXTOSCFM3": {
+        "creationTimestamp": 1669676337.428658
+      },
+      "SurgeXTOSCSHNoise": {
+        "creationTimestamp": 1669676337.5784218
+      },
+      "SurgeXTOSCAlias": {
+        "creationTimestamp": 1669676337.729343
+      },
+      "SurgeXTOSCString": {
+        "creationTimestamp": 1669676337.8818147
+      },
+      "SurgeXTOSCTwist": {
+        "creationTimestamp": 1669676338.038456
+      },
+      "SurgeXTFXReverb": {
+        "creationTimestamp": 1669676338.188705
+      },
+      "SurgeXTFXPhaser": {
+        "creationTimestamp": 1669676338.3401966
+      },
+      "SurgeXTFXRotarySpeaker": {
+        "creationTimestamp": 1669676338.4882915
+      },
+      "SurgeXTFXDistortion": {
+        "creationTimestamp": 1669676338.6369023
+      },
+      "SurgeXTFXFrequencyShifter": {
+        "creationTimestamp": 1669676338.7886956
+      },
+      "SurgeXTFXChorus": {
+        "creationTimestamp": 1669676338.942054
+      },
+      "SurgeXTFXVocoder": {
+        "creationTimestamp": 1669676339.0934446
+      },
+      "SurgeXTFXReverb2": {
+        "creationTimestamp": 1669676339.2413821
+      },
+      "SurgeXTFXFlanger": {
+        "creationTimestamp": 1669676339.394513
+      },
+      "SurgeXTFXRingMod": {
+        "creationTimestamp": 1669676339.5437796
+      },
+      "SurgeXTFXNeuron": {
+        "creationTimestamp": 1669676339.70435
+      },
+      "SurgeXTFXResonator": {
+        "creationTimestamp": 1669676339.8642478
+      },
+      "SurgeXTFXChow": {
+        "creationTimestamp": 1669676340.0204842
+      },
+      "SurgeXTFXExciter": {
+        "creationTimestamp": 1669676340.169164
+      },
+      "SurgeXTFXEnsemble": {
+        "creationTimestamp": 1669676340.3242714
+      },
+      "SurgeXTFXCombulator": {
+        "creationTimestamp": 1669676340.4726517
+      },
+      "SurgeXTFXSpringReverb": {
+        "creationTimestamp": 1669676340.6219172
+      },
+      "SurgeXTFXTreeMonster": {
+        "creationTimestamp": 1669676340.773187
+      },
+      "SurgeXTLFO": {
+        "creationTimestamp": 1669676340.9311588
+      },
+      "SurgeXTDelay": {
+        "creationTimestamp": 1669676341.0847456
+      },
+      "SurgeXTDelayLineByFreq": {
+        "creationTimestamp": 1669676341.2340784
+      },
+      "SurgeXTMixer": {
+        "creationTimestamp": 1669676341.3828027
+      },
+      "SurgeXTModMatrix": {
+        "creationTimestamp": 1669676341.5312526
+      }
+    }
   }
 }

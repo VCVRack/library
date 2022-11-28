@@ -1,0 +1,354 @@
+{
+  "slug": "SurgeXTRack",
+  "name": "Surge XT",
+  "version": "2.0.3.0",
+  "license": "GPL-3.0-or-later",
+  "author": "Surge Synth Team",
+  "authorEmail": "",
+  "authorUrl": "https://surge-synth-team.org/",
+  "pluginUrl": "https://surge-synthesizer.github.io/",
+  "manualUrl": "https://surge-synthesizer.github.io/rack_xt_manual/",
+  "sourceUrl": "https://github.com/surge-synthesizer/surge-rack/",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/surge-synthesizer/surge-rack/blob/main/docs/changelog.md",
+  "modules": [
+    {
+      "slug": "SurgeXTVCF",
+      "name": "VCF",
+      "description": "The Surge Filter VCFs",
+      "tags": [
+        "VCF",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTWaveshaper",
+      "name": "Waveshaper",
+      "description": "The Surge Waveshapers",
+      "tags": [
+        "Distortion",
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTOSCModern",
+      "name": "Modern VCO",
+      "description": "The Surge Modern Oscillator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTOSCClassic",
+      "name": "Classic VCO",
+      "description": "The Surge Classic Oscillator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTOSCWavetable",
+      "name": "Wavetable VCO",
+      "description": "The Surge Wavetable Oscillator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTOSCWindow",
+      "name": "Window VCO",
+      "description": "The Surge Window Oscillator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTOSCSine",
+      "name": "Sine VCO",
+      "description": "The Surge Sine Oscillator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTOSCFM2",
+      "name": "FM2 VCO",
+      "description": "The Surge FM2 Oscillator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTOSCFM3",
+      "name": "FM3 VCO",
+      "description": "The Surge FM3 Oscillator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTOSCSHNoise",
+      "name": "S&H Noise VCO",
+      "description": "The Surge S&H Noise Oscillator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTOSCAlias",
+      "name": "Alias VCO",
+      "description": "The Surge Alias Oscillator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTOSCString",
+      "name": "String VCO",
+      "description": "The Surge String Oscillator",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTOSCTwist",
+      "name": "Twist VCO",
+      "description": "The Surge Twist Oscillator, based on a famous EuroRack module",
+      "tags": [
+        "VCO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXReverb",
+      "name": "Reverb",
+      "description": "The Surge XT Reverb",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXPhaser",
+      "name": "Phaser",
+      "description": "The Surge XT Phaser",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Phaser"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXRotarySpeaker",
+      "name": "RotarySpeaker",
+      "description": "The Surge XT RotarySpeaker",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXDistortion",
+      "name": "Distortion",
+      "description": "The Surge XT Distortion",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXFrequencyShifter",
+      "name": "FrequencyShifter",
+      "description": "The Surge XT FrequencyShifter",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXChorus",
+      "name": "Chorus",
+      "description": "The Surge XT Chorus",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Chorus"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXVocoder",
+      "name": "Vocoder",
+      "description": "The Surge XT Vocoder",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Vocoder"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXReverb2",
+      "name": "Reverb2",
+      "description": "The Surge XT Reverb2",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXFlanger",
+      "name": "Flanger",
+      "description": "The Surge XT Flanger",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Flanger"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXRingMod",
+      "name": "RingMod",
+      "description": "The Surge XT RingMod",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Ring modulator"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXNeuron",
+      "name": "Neuron",
+      "description": "The Surge XT Neuron",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXResonator",
+      "name": "Resonator",
+      "description": "The Surge XT Resonator",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXChow",
+      "name": "Chow",
+      "description": "The Surge XT Chow",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXExciter",
+      "name": "Exciter",
+      "description": "The Surge XT Exciter",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXEnsemble",
+      "name": "Ensemble",
+      "description": "The Surge XT Ensemble",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Chorus"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXCombulator",
+      "name": "Combulator",
+      "description": "The Surge XT Combulator",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXSpringReverb",
+      "name": "SpringReverb",
+      "description": "The Surge XT SpringReverb",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXTreeMonster",
+      "name": "TreeMonster",
+      "description": "You'll love it. Its a way of life",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Ring modulator"
+      ]
+    },
+    {
+      "slug": "SurgeXTLFO",
+      "name": "LFO",
+      "description": "The Surge XT LFO",
+      "tags": [
+        "LFO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTDelay",
+      "name": "Delay",
+      "description": "The Surge XT Delay",
+      "tags": [
+        "Effect",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "SurgeXTDelayLineByFreq",
+      "name": "Tuned Delay Line by Frequency",
+      "description": "The Surge XT Delay Line, tuned by v/oct with sample offset for KS and so on",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTMixer",
+      "name": "Mixer",
+      "description": "The Surge XT Mixer",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTModMatrix",
+      "name": "ModMatrix",
+      "description": "The Surge XT ModMatrix",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
