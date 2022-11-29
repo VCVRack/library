@@ -74,7 +74,7 @@ for plugin_path in plugin_paths:
 	library_manifest_filename = os.path.join(MANIFESTS_DIR, f"{slug}.json")
 	# Warn if manifest is new
 	if not os.path.exists(library_manifest_filename):
-		print(f"Manifest {slug} if new, press enter to approve.")
+		print(f"Manifest {slug} is new, press enter to approve.")
 		input()
 
 	if os.path.isdir(plugin_path):
@@ -95,7 +95,7 @@ for plugin_path in plugin_paths:
 			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j$(nproc) plugin-build PLUGIN_DIR="{plugin_path}"')
 			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/* "{PACKAGES_DIR}"/')
 			# Install Linux package for testing
-			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/*-lin.vcvplugin "{PLUGIN_DIR}"/')
+			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/*-lin-x64.vcvplugin "{PLUGIN_DIR}"/')
 		except Exception as e:
 			print(e)
 			print(f"{slug} build failed")
