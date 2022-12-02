@@ -1494,5 +1494,12 @@
     "vcvUrl": "https://library.vcvrack.com/RebelTech/Phoreo",
     "mgUrl": "https://www.modulargrid.net/e/rebel-technology-phoreo",
     "mgModuleId": 8198
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "SERRA",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/SERRA",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-serra",
+    "mgModuleId": 41837
   }
 ]
