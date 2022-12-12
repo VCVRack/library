@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "modules": [
     {
       "slug": "Basal",
@@ -80,7 +80,7 @@
     },
     {
       "slug": "Fuser",
-      "name": "Fuser",
+      "name": "Fuser (Free)",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -103,7 +103,7 @@
     },
     {
       "slug": "Jorus",
-      "name": "Jorus",
+      "name": "Jorus (Free)",
       "tags": [
         "Effect",
         "Chorus",
@@ -165,7 +165,7 @@
     },
     {
       "slug": "Opulus",
-      "name": "Opulus",
+      "name": "Opulus (Free)",
       "tags": [
         "Synth voice",
         "Polyphonic"
@@ -174,7 +174,7 @@
     },
     {
       "slug": "OpulusMicro",
-      "name": "OpulusMicro",
+      "name": "OpulusMicro (Free)",
       "tags": [
         "Synth voice",
         "Polyphonic"
@@ -183,7 +183,7 @@
     },
     {
       "slug": "Punch",
-      "name": "Punch",
+      "name": "Punch (Free)",
       "tags": [
         "VCA",
         "Polyphonic"
@@ -281,6 +281,16 @@
       "description": "Percussion Synthesizer"
     },
     {
+      "slug": "TrummorFM",
+      "name": "Trummor FM (Free)",
+      "tags": [
+        "Drum",
+        "Synth Voice",
+        "Polyphonic"
+      ],
+      "description": "Percussion Synthesizer"
+    },
+    {
       "slug": "Unstabile",
       "name": "Unstabile (Free)",
       "tags": [
@@ -309,7 +319,7 @@
     },
     {
       "slug": "Wolv",
-      "name": "Wolv",
+      "name": "Wolv (Free)",
       "tags": [
         "Waveshaper",
         "Polyphonic"

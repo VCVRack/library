@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "modules": [
     {
       "slug": "Basal",
@@ -346,6 +346,16 @@
         "Drum",
         "Envelope generator",
         "Noise",
+        "Polyphonic"
+      ],
+      "description": "Percussion Synthesizer"
+    },
+    {
+      "slug": "TrummorFM",
+      "name": "Trummor FM",
+      "tags": [
+        "Drum",
+        "Synth Voice",
         "Polyphonic"
       ],
       "description": "Percussion Synthesizer"
