@@ -49,7 +49,7 @@ for plugin_path in plugin_paths:
 		version = manifest['version']
 	# Extract manifest from .vcvplugin
 	elif plugin_ext == ".vcvplugin":
-		m = re.match(r'^(.*)-(.*?)-(.*?)$', plugin_basename)
+		m = re.match(r'^(.*)-(2\..*?)-(.*)$', plugin_basename)
 		if not m:
 			raise Exception(f"Filename {plugin_path} invalid format")
 		slug = m[1]
@@ -119,7 +119,7 @@ for plugin_path in plugin_paths:
 		# Update file timestamp
 		common.system(f'touch "{PACKAGES_DIR}/{package_filename}"')
 		# Install Linux package for testing
-		if arch == 'lin':
+		if arch == 'lin' or arch == 'lin-x64':
 			common.system(f'cp "{plugin_path}" "{PLUGIN_DIR}/{package_filename}"')
 
 	# Copy manifest
