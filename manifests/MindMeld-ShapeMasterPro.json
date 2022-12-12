@@ -1,7 +1,7 @@
 {
   "slug": "MindMeld-ShapeMasterPro",
   "name": "ShapeMaster Pro",
-  "version": "2.0.6",
+  "version": "2.2.0",
   "license": "proprietary",
   "author": "S.Baker and M.Boul\u00e9 ",
   "brand": "MindMeld",
@@ -25,7 +25,7 @@
     },
     {
       "slug": "ShapeMasterCvExpander",
-      "name": "ShapeMasterPro Cv Expander",
+      "name": "SM-CV",
       "description": "CV expander for ShapeMaster Pro",
       "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-ShapeMaster-Manual-V1_0.pdf",
       "tags": [
@@ -48,7 +48,7 @@
     },
     {
       "slug": "ShapeMasterTrigExpander",
-      "name": "ShapeMasterPro Trigger Expander",
+      "name": "SM-Triggers",
       "description": "Trigger expander for ShapeMaster Pro",
       "manualUrl": "https://github.com/MarcBoule/MindMeldModular/tree/master/doc/MindMeld-ShapeMaster-Manual-V1_0.pdf",
       "tags": [
