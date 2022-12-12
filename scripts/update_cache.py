@@ -14,10 +14,19 @@ PACKAGES_DIR = "../packages"
 def get_plugin_build(plugin):
 	slug = plugin['slug']
 	version = plugin['version']
-	arch = 'lin'
-	package_filename = f"{slug}-{version}-{arch}.vcvplugin"
+	# Get package mtime
+	package_filename = f"{slug}-{version}-lin-x64.vcvplugin"
 	package_path = os.path.join(PACKAGES_DIR, package_filename)
-	return os.path.getmtime(package_path)
+	mtime = os.path.getmtime(package_path)
+	if mtime:
+		return mtime
+	# Alternative package filename
+	package_filename = f"{slug}-{version}-lin.vcvplugin"
+	package_path = os.path.join(PACKAGES_DIR, package_filename)
+	mtime = os.path.getmtime(package_path)
+	if mtime:
+		return mtime
+	return None
 
 
 # Get the timestamp of the earliest commit touching the manifest file
