@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "2.0.beta1",
+  "version": "2.0.beta2",
   "license": "GPL-3.0-or-later",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -126,6 +126,15 @@
         "Utility"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Strip.md#stoermelder-strip-bay"
+    },
+    {
+      "slug": "StripPp",
+      "name": "S++",
+      "description": "Adds hotkeys for pasting and importing selections while preserving parameter mappings",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/StripPp.md"
     },
     {
       "slug": "EightFace",
@@ -481,6 +490,25 @@
         "Utility"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/MidiPlug.md"
+    },
+    {
+      "slug": "Dirt",
+      "name": "DIRT",
+      "description": "Crosstalk and noise for polyphonic cables (preview)",
+      "tags": [
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Dirt.md"
+    },
+    {
+      "slug": "MidiKey",
+      "name": "MIDI-KEY",
+      "description": "Converts MIDI CC or note messages into keyboard events (preview)",
+      "tags": [
+        "MIDI",
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/MidiKey.md"
     },
     {
       "slug": "AudioInterface64",

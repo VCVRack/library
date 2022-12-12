@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -80,7 +80,8 @@
       "description": "Accent and choke utility for drum modules lacking these features",
       "tags": [
         "Utility",
-        "Drum"
+        "Drum",
+        "Dual"
       ]
     },
     {
@@ -98,6 +99,15 @@
       "name": "Parking",
       "description": "Set of unconnected inputs and outputs just to park unused cables",
       "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Shifter",
+      "name": "Shifter",
+      "description": "64 selectable stages shift register",
+      "tags": [
+        "Sample and hold",
         "Utility"
       ]
     },

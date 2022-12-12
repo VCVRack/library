@@ -1,18 +1,31 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
   "author": "Mahlen Morris",
   "authorEmail": "vcv@stochastictelegraph.com",
-  "authorUrl": "https://www.youtube.com/channel/UCLKkhFpFxOwCz9aLor06cew",
+  "authorUrl": "https://www.youtube.com/@stochastictelegraph",
   "pluginUrl": "https://github.com/mahlenmorris/VCVRack",
   "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md",
   "sourceUrl": "https://github.com/mahlenmorris/VCVRack",
-  "donateUrl": "",
+  "donateUrl": "https://ko-fi.com/stochastictelegraph",
   "changelogUrl": "",
   "modules": [
+    {
+      "slug": "BASICally",
+      "name": "BASICally",
+      "description": "Generate sequences or perform math on inputs with a simple BASIC-like language.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#basically",
+      "tags": [
+        "Attenuator",
+        "Function Generator",
+        "Sequencer",
+        "Sample and hold",
+        "Utility"
+      ]
+    },
     {
       "slug": "Drifter",
       "name": "Drifter",

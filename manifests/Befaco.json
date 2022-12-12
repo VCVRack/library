@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -246,6 +246,8 @@
       "slug": "StereoStrip",
       "name": "Stereo Strip",
       "description": "Stereo VCA, panning, and EQ",
+      "manualUrl": "https://www.befaco.org/stereo-strip/",
+      "modularGridUrl": "https://www.modulargrid.net/e/divkid-stereo-strip",
       "tags": [
         "Equalizer",
         "Hardware clone",
@@ -253,6 +255,19 @@
         "Limiter",
         "Panning",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PonyVCO",
+      "name": "PonyVCO",
+      "description": "Compact Thru-Zero (TZFM) oscillator with wavefolder and VCA",
+      "manualUrl": "https://www.befaco.org/pony-vco/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-pony-vco",
+      "tags": [
+        "Hardware clone",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Waveshaper"
       ]
     }
   ]

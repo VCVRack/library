@@ -524,6 +524,9 @@
       },
       "SurgeRingMod": {
         "creationTimestamp": 1596178135.135228
+      },
+      "SurgeUpgradeToXT": {
+        "creationTimestamp": 1670840967.5422938
       }
     }
   },
@@ -2315,6 +2318,27 @@
       },
       "MSMelder": {
         "creationTimestamp": 1645028036.5735707
+      },
+      "PatchMaster": {
+        "creationTimestamp": 1670840967.886053
+      },
+      "PatchMasterBlank": {
+        "creationTimestamp": 1670840968.100495
+      },
+      "RouteMasterMono5to1": {
+        "creationTimestamp": 1670840968.267197
+      },
+      "RouteMasterStereo5to1": {
+        "creationTimestamp": 1670840968.442801
+      },
+      "RouteMasterMono1to5": {
+        "creationTimestamp": 1670840968.6053615
+      },
+      "RouteMasterStereo1to5": {
+        "creationTimestamp": 1670840968.7945464
+      },
+      "MasterChannel": {
+        "creationTimestamp": 1670840968.959736
       }
     }
   },
@@ -2477,6 +2501,15 @@
       },
       "IntermixFade": {
         "creationTimestamp": 1625444088.6556268
+      },
+      "StripPp": {
+        "creationTimestamp": 1670840969.130125
+      },
+      "Dirt": {
+        "creationTimestamp": 1670840969.2970617
+      },
+      "MidiKey": {
+        "creationTimestamp": 1670840969.464367
       }
     }
   },
@@ -3240,6 +3273,9 @@
       },
       "StereoStrip": {
         "creationTimestamp": 1651361120.9547243
+      },
+      "PonyVCO": {
+        "creationTimestamp": 1670840969.6266124
       }
     }
   },
@@ -11012,6 +11048,9 @@
       },
       "Fuse": {
         "creationTimestamp": 1651361121.5160816
+      },
+      "BASICally": {
+        "creationTimestamp": 1670840970.0146835
       }
     }
   },
@@ -11489,6 +11528,9 @@
       },
       "Parking": {
         "creationTimestamp": 1668414722.285291
+      },
+      "Shifter": {
+        "creationTimestamp": 1670840969.7963154
       }
     }
   },

@@ -1501,5 +1501,19 @@
     "vcvUrl": "https://library.vcvrack.com/NANOModules/SERRA",
     "mgUrl": "https://www.modulargrid.net/e/nano-modules-serra",
     "mgModuleId": 41837
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "StereoStrip",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/StereoStrip",
+    "mgUrl": "https://www.modulargrid.net/e/divkid-stereo-strip",
+    "mgModuleId": 38528
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "PonyVCO",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/PonyVCO",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-pony-vco",
+    "mgModuleId": 40795
   }
 ]
