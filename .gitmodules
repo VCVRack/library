@@ -727,3 +727,6 @@
 [submodule "repos/SurgeXTRack"]
 	path = repos/SurgeXTRack
 	url = https://github.com/surge-synthesizer/surge-rack.git
+[submodule "repos/questionablemodules"]
+	path = repos/questionablemodules
+	url = https://github.com/isivisi/questionablemodules.git
