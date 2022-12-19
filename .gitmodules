@@ -730,3 +730,6 @@
 [submodule "repos/questionablemodules"]
 	path = repos/questionablemodules
 	url = https://github.com/isivisi/questionablemodules.git
+[submodule "repos/AaronKarp-EarthTones"]
+	path = repos/AaronKarp-EarthTones
+	url = https://github.com/aaronkarp123/EarthTones.git
