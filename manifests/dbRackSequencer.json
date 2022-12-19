@@ -1,7 +1,7 @@
 {
   "slug": "dbRackSequencer",
   "name": "dbRackSequencer",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -253,7 +253,7 @@
     {
       "slug": "Ant",
       "name": "Ant",
-      "description": "Laurent's-Ant Cellular Automaton",
+      "description": "Langton's-Ant Cellular Automaton",
       "tags": [
         "Sequencer"
       ]
@@ -286,6 +286,24 @@
       "slug": "UnoA",
       "name": "UnoA",
       "description": "Uno for address sequencing",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Carambol",
+      "name": "Carambol",
+      "description": "Carambolage Simulation",
+      "tags": [
+        "Sequencer",
+        "Low-frequency Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PMod",
+      "name": "PMod",
+      "description": "Address sequencing via multiply and modulo",
       "tags": [
         "Sequencer"
       ]

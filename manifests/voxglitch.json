@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.24.1",
+  "version": "2.25.0",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -130,6 +130,14 @@
       "slug": "hazumi",
       "name": "Hazumi",
       "description": "Bouncing ball sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "onezero",
+      "name": "One Zero",
+      "description": "Gate sequencer that uses external file as sequence data",
       "tags": [
         "Sequencer"
       ]

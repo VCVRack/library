@@ -1,0 +1,43 @@
+{
+  "slug": "questionablemodules",
+  "name": "Questionable Modules",
+  "version": "2.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "isiaudio",
+  "author": "John Iannandrea",
+  "authorEmail": "jiannandrea@gmail.com",
+  "authorUrl": "https://github.com/isivisi/",
+  "manualUrl": "https://github.com/isivisi/questionablemodules/wiki",
+  "sourceUrl": "https://github.com/isivisi/questionablemodules",
+  "donateUrl": "https://www.paypal.com/donate/?business=9KQFMHR3LT9CG&no_recurring=0&item_name=Funding+my+ongoing+vcv+rack+plugin+development+%3A%29&currency_code=CAD",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "discombobulator",
+      "name": "Discombobulator",
+      "description": "Randomly switches inputs and outputs",
+      "tags": [
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "nandomizer",
+      "name": "Nandomizer",
+      "description": "Randomly switches inputs",
+      "tags": [
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "treequencer",
+      "name": "Treequencer",
+      "description": "Sequences using a binary tree algorithm",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    }
+  ]
+}

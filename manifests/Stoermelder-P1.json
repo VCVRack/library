@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "2.0.beta2",
+  "version": "2.0.beta3",
   "license": "GPL-3.0-or-later",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -129,7 +129,7 @@
     },
     {
       "slug": "StripPp",
-      "name": "S++",
+      "name": "STRIP++",
       "description": "Adds hotkeys for pasting and importing selections while preserving parameter mappings",
       "tags": [
         "Utility"
@@ -185,6 +185,16 @@
         "MIDI"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/MidiCat.md#ctx-expander"
+    },
+    {
+      "slug": "MidiCatClk",
+      "name": "CLK for MIDI-CAT",
+      "description": "Expander for clock-synchronization of MIDI-CAT",
+      "tags": [
+        "Utility",
+        "MIDI"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/MidiCat.md#clk-expander"
     },
     {
       "slug": "Sipo",

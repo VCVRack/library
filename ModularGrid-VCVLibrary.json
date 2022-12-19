@@ -1515,5 +1515,12 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/PonyVCO",
     "mgUrl": "https://www.modulargrid.net/e/befaco-pony-vco",
     "mgModuleId": 40795
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "MotionMTR",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/MotionMTR",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-motion-mtr",
+    "mgModuleId": 41545
   }
 ]

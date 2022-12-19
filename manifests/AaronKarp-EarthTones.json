@@ -1,0 +1,28 @@
+{
+  "slug": "AaronKarp-EarthTones",
+  "name": "EarthTones",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "EarthTones",
+  "author": "Aaron Karp",
+  "authorEmail": "aaronkarp123@gmail.com",
+  "authorUrl": "https://aaronmkarp.com",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/aaronkarp123/EarthTones",
+  "sourceUrl": "https://github.com/aaronkarp123/EarthTones",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "PolarCV",
+      "name": "PolarCV",
+      "description": "CV Generator for polar equations",
+      "tags": [
+        "Function generator",
+        "Low-frequency oscillator",
+        "Utility",
+        "Visual"
+      ]
+    }
+  ]
+}

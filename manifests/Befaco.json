@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -208,7 +208,7 @@
       "slug": "Muxlicer",
       "name": "Muxlicer",
       "description": "VC adressable sequential switch and sequencer",
-      "manualUrl": "https://www.befaco.org/muxlicer-2/",
+      "manualUrl": "https://github.com/VCVRack/Befaco/blob/v2/docs/Muxlicer.md",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-muxlicer",
       "tags": [
         "Clock generator",
@@ -268,6 +268,19 @@
         "Low-frequency oscillator",
         "Oscillator",
         "Waveshaper"
+      ]
+    },
+    {
+      "slug": "MotionMTR",
+      "name": "Motion MTR",
+      "description": "CV and audio utility / realtime visualizer",
+      "manualUrl": "https://www.befaco.org/motion_mtr/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-motion-mtr",
+      "tags": [
+        "Attenuator",
+        "Hardware clone",
+        "Mixer",
+        "Visual"
       ]
     }
   ]
