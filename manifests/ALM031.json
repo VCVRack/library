@@ -1,0 +1,27 @@
+{
+  "slug": "ALM031",
+  "name": "ALM Busy Circuits Tyso Daiko",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "ALM Busy Circuits",
+  "author": "ALM",
+  "authorEmail": "help@busycircuits.com",
+  "authorUrl": "https://busycircuits.com",
+  "pluginUrl": "https://busycircuits.com/alm031/",
+  "manualUrl": "https://busycircuits.com/docs/alm031-manual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "TysoDaiko",
+      "name": "TYSO DAIKO",
+      "description": "ALM031 Tyso Daiko: Dual Digital Drum Voice",
+      "tags": [
+        "Drums",
+        "Digital",
+        "Hardware Clone"
+      ]
+    }
+  ]
+}
