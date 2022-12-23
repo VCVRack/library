@@ -1522,5 +1522,47 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/MotionMTR",
     "mgUrl": "https://www.modulargrid.net/e/befaco-motion-mtr",
     "mgModuleId": 41545
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "cuir",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/cuir",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-cuir",
+    "mgModuleId": 38824
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "larachd",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/larachd",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-larachd",
+    "mgModuleId": 38822
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "cnoc",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/cnoc",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-cnoc",
+    "mgModuleId": 40457
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "cruinn",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/cruinn",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-cruinn",
+    "mgModuleId": 40458
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "cruinn_exp",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/cruinn_exp",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-%CF%86",
+    "mgModuleId": 40464
+  },
+  {
+    "pluginSlug": "Instruo",
+    "moduleSlug": "carn",
+    "vcvUrl": "https://library.vcvrack.com/Instruo/carn",
+    "mgUrl": "https://www.modulargrid.net/e/instruo-carn",
+    "mgModuleId": 41701
   }
 ]

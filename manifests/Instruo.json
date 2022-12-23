@@ -1,7 +1,7 @@
 {
   "slug": "Instruo",
   "name": "Instruo",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "proprietary",
   "brand": "Instru\u014d",
   "author": "Instru\u014d",
@@ -111,7 +111,7 @@
       "slug": "tsl",
       "name": "T\u0161-L",
       "description": "Oscillator (Ts-L, TsL)",
-      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2020/10/Ts%CC%8C-L-V2-Manual.pdf",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2022/02/Ts-L-V2-Manual.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/instruo-ts-l-v2",
       "tags": [
         "Hardware clone",
@@ -284,6 +284,85 @@
         "Low-frequency oscillator"
       ],
       "keywords": "neoni"
+    },
+    {
+      "slug": "cuir",
+      "name": "cu\u00efr",
+      "description": "Output Module",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2022/05/cuir-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/instruo-cuir",
+      "tags": [
+        "Hardware clone",
+        "Utility"
+      ],
+      "keywords": "cuir"
+    },
+    {
+      "slug": "larachd",
+      "name": "l\u00e0rachd",
+      "description": "Input Utility",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2022/05/larachd-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/instruo-larachd",
+      "tags": [
+        "Hardware clone",
+        "Utility",
+        "Waveshaper",
+        "Envelope follower",
+        "Limiter"
+      ],
+      "keywords": "larachd"
+    },
+    {
+      "slug": "cnoc",
+      "name": "cn\u014dc",
+      "description": "Function Generator",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2022/08/cno%CC%84c-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/instruo-cnoc",
+      "tags": [
+        "Hardware clone",
+        "Envelope generator",
+        "Dynamics"
+      ],
+      "keywords": "cnoc"
+    },
+    {
+      "slug": "cruinn",
+      "name": "cru\u00efnn",
+      "description": "Analogue Stereo Oscillator",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2022/08/crui%CC%88nn-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/instruo-cruinn",
+      "tags": [
+        "Hardware clone",
+        "Oscillator",
+        "Low-frequency oscillator"
+      ],
+      "keywords": "cruinn"
+    },
+    {
+      "slug": "cruinn_exp",
+      "name": "cru\u00efnn Expander",
+      "description": "Expander for cru\u00efnn",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2022/08/crui%CC%88nn-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/instruo-%CF%86",
+      "tags": [
+        "Hardware clone",
+        "Expander"
+      ],
+      "keywords": "cruinn"
+    },
+    {
+      "slug": "carn",
+      "name": "c\u00e0rn",
+      "description": "Utility Mixer",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2022/11/carn-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/instruo-carn",
+      "tags": [
+        "Hardware clone",
+        "Utility",
+        "Mixer",
+        "Panning"
+      ],
+      "keywords": "carn"
     }
   ]
 }
