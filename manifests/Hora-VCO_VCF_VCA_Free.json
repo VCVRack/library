@@ -1,7 +1,7 @@
 {
   "slug": "Hora-VCO_VCF_VCA_Free",
   "name": "VCO-VCF-VCA Free",
-  "version": "2.0.3",
+  "version": "2.2.0",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
@@ -18,6 +18,15 @@
       "description": "voltage controlled mixer/inverter/amp",
       "tags": [
         "VCA"
+      ]
+    },
+    {
+      "slug": "Juicy-VCF",
+      "name": "Juicy VCF free",
+      "description": "Virtual OTA VCF",
+      "tags": [
+        "VCF",
+        "POLYPHONIC"
       ]
     },
     {

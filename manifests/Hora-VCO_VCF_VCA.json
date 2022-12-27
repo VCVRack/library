@@ -1,7 +1,7 @@
 {
   "slug": "Hora-VCO_VCF_VCA",
   "name": "VCO VCF VCA",
-  "version": "2.0.2",
+  "version": "2.2.0",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
@@ -26,6 +26,15 @@
       "slug": "Timbre-VCF",
       "name": "Timbre VCF",
       "description": "Multimode VCF",
+      "tags": [
+        "VCF",
+        "POLYPHONIC"
+      ]
+    },
+    {
+      "slug": "Juicy-VCF",
+      "name": "Juicy VCF",
+      "description": "Multimodel VCF",
       "tags": [
         "VCF",
         "POLYPHONIC"
