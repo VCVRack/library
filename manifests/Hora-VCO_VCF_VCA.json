@@ -1,7 +1,7 @@
 {
   "slug": "Hora-VCO_VCF_VCA",
   "name": "VCO VCF VCA",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
@@ -34,7 +34,7 @@
     {
       "slug": "Juicy-VCF",
       "name": "Juicy VCF",
-      "description": "Multimodel VCF",
+      "description": "Virtual OTA VCF",
       "tags": [
         "VCF",
         "POLYPHONIC"
