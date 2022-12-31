@@ -1,7 +1,7 @@
 {
   "slug": "VCV-Pro",
   "name": "VCV Pro",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "license": "proprietary",
   "brand": "VCV",
   "author": "VCV",
@@ -44,6 +44,26 @@
         "Phaser",
         "Effect",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Reverb",
+      "name": "Reverb",
+      "description": "Stereo morphing reverb processor with a waterfall plot",
+      "manualUrl": "https://vcvrack.com/Pro#Reverb",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Convolver",
+      "name": "Convolver",
+      "description": "Convolves mono/stereo audio with an impulse response (IR) in real-time",
+      "manualUrl": "https://vcvrack.com/Pro#Convolver",
+      "tags": [
+        "Reverb",
+        "Effect"
       ]
     }
   ]

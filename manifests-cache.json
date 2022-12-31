@@ -11652,7 +11652,7 @@
     }
   },
   "VCV-Pro": {
-    "buildTimestamp": 1666321067.5307863,
+    "buildTimestamp": 1672487562.8951643,
     "creationTimestamp": 1665388302.4371305,
     "modules": {
       "Chorus": {
@@ -11663,6 +11663,12 @@
       },
       "Phaser": {
         "creationTimestamp": 1665388303.8026252
+      },
+      "Reverb": {
+        "creationTimestamp": 1672487567.0829706
+      },
+      "Convolver": {
+        "creationTimestamp": 1672487567.364354
       }
     }
   },
