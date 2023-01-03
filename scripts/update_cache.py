@@ -17,15 +17,17 @@ def get_plugin_build(plugin):
 	# Get package mtime
 	package_filename = f"{slug}-{version}-lin-x64.vcvplugin"
 	package_path = os.path.join(PACKAGES_DIR, package_filename)
-	mtime = os.path.getmtime(package_path)
-	if mtime:
-		return mtime
+	try:
+		return os.path.getmtime(package_path)
+	except OSError:
+		pass
 	# Alternative package filename
 	package_filename = f"{slug}-{version}-lin.vcvplugin"
 	package_path = os.path.join(PACKAGES_DIR, package_filename)
-	mtime = os.path.getmtime(package_path)
-	if mtime:
-		return mtime
+	try:
+		return os.path.getmtime(package_path)
+	except OSError:
+		pass
 	return None
 
 
@@ -81,10 +83,9 @@ def update():
 
 		# Get plugin build
 		print(f"Getting buildTimestamp for plugin {plugin_slug}")
-		try:
-			cache_plugin['buildTimestamp'] = get_plugin_build(plugin)
-		except:
-			pass
+		buildTimestamp = get_plugin_build(plugin)
+		if buildTimestamp:
+			cache_plugin['buildTimestamp'] = buildTimestamp
 
 		# Get plugin creation
 		if 'creationTimestamp' not in cache_plugin:
