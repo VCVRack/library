@@ -1,11 +1,11 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.3.4",
+  "version": "2.3.6",
   "license": "proprietary",
   "brand": "DanT",
   "author": "dtilley",
-  "authorUrl": "https://dtilley.co.uk",
+  "authorUrl": "https://techhub.social/@miffreal",
   "pluginUrl": "https://library.vcvrack.com/DanTModules",
   "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual",
   "donateUrl": "https://monzo.me/danieltilley2",
