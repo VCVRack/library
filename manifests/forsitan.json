@@ -1,7 +1,7 @@
 {
   "slug": "forsitan",
   "name": "forsitan modulare",
-  "version": "1.4.1",
+  "version": "2.0.2",
   "license": "GPL-3.0-or-later",
   "brand": "forsitan modulare",
   "author": "Giampaolo Guiducci",
@@ -11,15 +11,15 @@
   "manualUrl": "https://github.com/gosub/forsitan-modulare#forsitan-modulare",
   "sourceUrl": "https://github.com/gosub/forsitan-modulare",
   "donateUrl": "",
-  "changelogUrl": "https://github.com/gosub/forsitan-modulare/CHANGELOG.md",
+  "changelogUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.0.2/CHANGELOG.md",
   "modules": [
     {
       "slug": "alea",
       "name": "alea",
-      "description": "Add a random module to your rack",
+      "description": "Add a random module to your rack.",
       "tags": [
-        "utility",
-        "random"
+        "Random",
+        "Utility"
       ]
     },
     {
@@ -27,7 +27,8 @@
       "name": "interea",
       "description": "Make a chord from a V/Oct input, with quality, voicing and inversion. Harmonize option.",
       "tags": [
-        "utility"
+        "Quad",
+        "Utility"
       ]
     },
     {

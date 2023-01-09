@@ -1,9 +1,9 @@
 {
   "slug": "questionablemodules",
   "name": "Questionable Modules",
-  "version": "2.1.0",
+  "version": "2.1.4",
   "license": "GPL-3.0-or-later",
-  "brand": "isiaudio",
+  "brand": "Questionable Modules",
   "author": "John Iannandrea",
   "authorEmail": "jiannandrea@gmail.com",
   "authorUrl": "https://github.com/isivisi/",
@@ -37,6 +37,16 @@
       "tags": [
         "Sequencer",
         "Random"
+      ]
+    },
+    {
+      "slug": "quatosc",
+      "name": "SLURP",
+      "description": "Oscillator that uses quaternion rotation to oscillate",
+      "tags": [
+        "Synth voice",
+        "Oscillator",
+        "Low-frequency oscillator"
       ]
     }
   ]

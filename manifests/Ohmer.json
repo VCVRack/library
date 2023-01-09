@@ -1,7 +1,7 @@
 {
   "slug": "Ohmer",
   "name": "Ohmer",
-  "version": "2.1.0",
+  "version": "2.2.2",
   "license": "BSD-3-Clause",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
@@ -25,7 +25,7 @@
       "slug": "RKD",
       "name": "RKD (Rotate Klok Divider)",
       "description": "Rotate Klok Divider (RKD) module (inspired from 4ms RCD hardware)",
-      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/res/Manuals/RKD%20%26%20BRK%20User's%20Manual.pdf",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/res/Manuals/RKD_BRK_Manual.pdf",
       "tags": [
         "Clock modulator"
       ]
@@ -34,7 +34,7 @@
       "slug": "BRK",
       "name": "BRK (\"Break\") expander for RKD",
       "description": "BRK (\"Break\") expander to setup RKD jumpers (inspired from 4ms BO hardware)",
-      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/res/Manuals/RKD%20%26%20BRK%20User's%20Manual.pdf",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/res/Manuals/RKD_BRK_Manual.pdf",
       "tags": [
         "Clock modulator",
         "Expander"
@@ -51,7 +51,7 @@
     {
       "slug": "SplitterModule",
       "name": "Splitter 1x9",
-      "description": "Spread incoming mono-/polyphonic signal upto 9 outputs",
+      "description": "Spread incoming monophonic or polyphonic signal upto 9 outputs",
       "tags": [
         "Multiple",
         "Utility",

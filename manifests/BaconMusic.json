@@ -1,7 +1,7 @@
 {
   "slug": "BaconMusic",
   "name": "Bacon Music",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "author": "@baconpaul",
   "authorEmail": "",
@@ -56,6 +56,12 @@
       "slug": "LuckyHold",
       "name": "LuckyHold",
       "description": "A polymult + chances + sample&hold + noise",
+      "tags": []
+    },
+    {
+      "slug": "ContrastBNDEditor",
+      "name": "Contrast and Other BND Editor",
+      "description": "Lets you change contrast on your tooltips",
       "tags": []
     },
     {

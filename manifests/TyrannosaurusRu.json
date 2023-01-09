@@ -1,0 +1,52 @@
+{
+  "slug": "TyrannosaurusRu",
+  "name": "TyrannosaurusRu VCV Rack Plugins",
+  "version": "2.0.0",
+  "license": "WTFPL",
+  "brand": "TyrannosaurusRu",
+  "author": "Ivan Metalnikov",
+  "authorEmail": "fairplay@gmail.com",
+  "authorUrl": "https://tyrannosaurus.ru/",
+  "pluginUrl": "https://github.com/fairplay/vcv-rack-plugins",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/fairplay/vcv-rack-plugins",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "MicroLooper",
+      "name": "MicroLooper",
+      "description": "Recording sampler for the very short (16384 samples max) loops",
+      "tags": [
+        "Sampler",
+        "Recording"
+      ]
+    },
+    {
+      "slug": "LogisticScratch",
+      "name": "LogisticScratch",
+      "description": "Scratching chaotic oscillator based on https://www.mathematica-journal.com/2013/05/27/using-the-logistic-map-to-generate-scratching-sounds/",
+      "tags": [
+        "Oscillator",
+        "Noise",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "LFSR8",
+      "name": "LFSR8",
+      "description": "Fully deterministic sequencer based on 8-bit LFSR capable to produce pseudo-random results",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "LFSR16",
+      "name": "LFSR16",
+      "description": "16-bit LFSR sequencer with ability to split for two independent registers",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}

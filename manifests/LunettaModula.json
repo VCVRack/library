@@ -1,7 +1,7 @@
 {
   "slug": "LunettaModula",
   "name": "Lunetta Modula by Count Modula",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-only",
   "brand": "Lunetta Modula",
   "author": "Adam Verspaget",
@@ -367,6 +367,48 @@
       "slug": "CD4515",
       "name": "CD4515 4-Bit Latched/4-to-16 Line Decoder (Active Low Outputs)",
       "description": "4-Bit Latched/4-to-16 Line Decoder with Active Low Outputs",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "CD4516",
+      "name": "CD4516 Presettable Binary Up/Down Counter",
+      "description": "Presettable Binary Up/Down Counter",
+      "tags": [
+        "Logic",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Binary8",
+      "name": "8-bit manual binary values",
+      "description": "Manually generates 8-bit binary values",
+      "tags": [
+        "Utility",
+        "Control"
+      ]
+    },
+    {
+      "slug": "CD4539",
+      "name": "CD4539 Dual 4-Input Multiplexer",
+      "description": "Dual 4-Input Multiplexer",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Truth2",
+      "name": "2-Bit Truth Table",
+      "description": "2-Bit Truth Table",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Truth3",
+      "name": "3-Bit Truth Table",
+      "description": "3-Bit Truth Table",
       "tags": [
         "Logic"
       ]

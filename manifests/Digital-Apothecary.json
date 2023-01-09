@@ -1,0 +1,45 @@
+{
+  "slug": "Digital-Apothecary",
+  "name": "Digital Apothecary",
+  "version": "2.0.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "Digital Apothecary",
+  "author": "Evan JJ Edwards",
+  "authorEmail": "eedwards5@wisc.edu",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/evanedwardsgit/Digital-Apothecary",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Sage",
+      "name": "Sage",
+      "description": "An additive harmonic oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Linden",
+      "name": "Linden",
+      "description": "A module containing some unconventional analog and digital logic gates.",
+      "tags": [
+        "Logic",
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Rue",
+      "name": "Rue",
+      "description": "A voltage controlled amplifier cv offset a variable response curve.",
+      "tags": [
+        "Polyphonic",
+        "Voltage-controlled amplifier"
+      ]
+    }
+  ]
+}
