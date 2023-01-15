@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.25.0",
+  "version": "2.25.1",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -135,6 +135,14 @@
       ]
     },
     {
+      "slug": "onepoint",
+      "name": "One Point",
+      "description": "CV sequencer that uses external file as sequence data",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
       "slug": "onezero",
       "name": "One Zero",
       "description": "Gate sequencer that uses external file as sequence data",
@@ -164,6 +172,14 @@
       "description": "Based on the new comic Galacto Pitfighter: An alien entity hell-bent on mutilating your audio.",
       "tags": [
         "Effect"
+      ]
+    },
+    {
+      "slug": "sampler16p",
+      "name": "Sampler16P",
+      "description": "Sixteen stereo sample playback devices in one compact module.",
+      "tags": [
+        "Sampler"
       ]
     },
     {
