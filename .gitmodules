@@ -739,3 +739,6 @@
 [submodule "repos/TyrannosaurusRu"]
 	path = repos/TyrannosaurusRu
 	url = https://github.com/fairplay/vcv-rack-plugins.git
+[submodule "repos/NOI"]
+	path = repos/NOI
+	url = https://github.com/LeNomDesFleurs/NOI-VCVRACK.git
