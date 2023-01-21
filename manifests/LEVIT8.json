@@ -1,0 +1,28 @@
+{
+  "slug": "LEVIT8",
+  "name": "LEVIT8",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "EROGENOUS TONES",
+  "author": "Rick Burnett",
+  "authorEmail": "sales@erogenous-tones.com",
+  "authorUrl": "www.erogenous-tones.com",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "LEVIT8",
+      "name": "LEVIT8",
+      "description": "Utility Module",
+      "tags": [
+        "attenuator",
+        "hardware clone",
+        "mixer",
+        "utility"
+      ]
+    }
+  ]
+}
