@@ -1,7 +1,7 @@
 {
   "slug": "questionablemodules",
   "name": "Questionable Modules",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "license": "GPL-3.0-or-later",
   "brand": "Questionable Modules",
   "author": "John Iannandrea",
@@ -16,6 +16,7 @@
       "slug": "discombobulator",
       "name": "Discombobulator",
       "description": "Randomly switches inputs and outputs",
+      "manualUrl": "https://isivisi.github.io/questionablemodules/discombobulator",
       "tags": [
         "Random",
         "Utility"
@@ -25,6 +26,7 @@
       "slug": "nandomizer",
       "name": "Nandomizer",
       "description": "Randomly switches inputs",
+      "manualUrl": "https://isivisi.github.io/questionablemodules/nandomizer",
       "tags": [
         "Random",
         "Utility"
@@ -34,6 +36,7 @@
       "slug": "treequencer",
       "name": "Treequencer",
       "description": "Sequences using a binary tree algorithm",
+      "manualUrl": "https://isivisi.github.io/questionablemodules/treequencer",
       "tags": [
         "Sequencer",
         "Random"
@@ -43,6 +46,7 @@
       "slug": "quatosc",
       "name": "SLURP",
       "description": "Oscillator that uses quaternion rotation to oscillate",
+      "manualUrl": "https://isivisi.github.io/questionablemodules/slurp",
       "tags": [
         "Synth voice",
         "Oscillator",

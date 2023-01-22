@@ -1,24 +1,25 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.4.1",
+  "version": "2.5.1",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
   "authorEmail": "sickozell@sickozell.org",
   "authorUrl": "http://www.sickozell.org",
   "pluginUrl": "https://github.com/sickozell/SickoCV",
-  "manualUrl": "https://github.com/sickozell/SickoCV",
+  "manualUrl": "https://github.com/sickozell/SickoCV/blob/main/README.md",
   "sourceUrl": "https://github.com/sickozell/SickoCV",
-  "donateUrl": "",
-  "changelogUrl": "",
+  "donateUrl": "https://paypal.me/sickozell",
+  "changelogUrl": "https://github.com/sickozell/SickoCV/blob/main/changelog.md",
   "modules": [
     {
       "slug": "Blender",
       "name": "Blender",
       "description": "Stereo crossfade mixer with double modulation",
       "tags": [
-        "Mixer"
+        "Mixer",
+        "Polyphonic"
       ]
     },
     {
@@ -59,7 +60,7 @@
     },
     {
       "slug": "BtogglerPlus",
-      "name": "bToggler8Plus",
+      "name": "bToggler8+",
       "description": "8 buffered toggle switch router, plus warnings to use with led midi controllers",
       "tags": [
         "Logic",
@@ -87,9 +88,39 @@
     {
       "slug": "Drummer4",
       "name": "Drummer4",
-      "description": "4 channel accent utility for drum modules lacking this feature",
+      "description": "4 channel accent and choke utility for drum modules lacking this feature",
       "tags": [
         "Utility",
+        "Drum",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "Drummer4Plus",
+      "name": "Drummer4+",
+      "description": "4 channel accent and choke utility for drum modules lacking this feature",
+      "tags": [
+        "Utility",
+        "Drum",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "DrumPlayer",
+      "name": "Drum Player",
+      "description": "Drum Sample Player",
+      "tags": [
+        "Sampler",
+        "Drum",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "DrumPlayerPlus",
+      "name": "Drum Player+",
+      "description": "Drum Sample Player",
+      "tags": [
+        "Sampler",
         "Drum",
         "Quad"
       ]
@@ -109,6 +140,15 @@
       "tags": [
         "Sample and hold",
         "Utility"
+      ]
+    },
+    {
+      "slug": "SickoPlayer",
+      "name": "SickoPlayer",
+      "description": "Sample Player",
+      "tags": [
+        "Sampler",
+        "Polyphonic"
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
   "slug": "SurgeXTRack",
   "name": "Surge XT",
-  "version": "2.0.3.0",
+  "version": "2.1.0.0",
   "license": "GPL-3.0-or-later",
   "author": "Surge Synth Team",
   "authorEmail": "",
@@ -329,6 +329,46 @@
       "tags": [
         "Effect",
         "Delay",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTDelayLineByFreqExpanded",
+      "name": "Tuned Delay +",
+      "description": "An expanded version of the Tuned Delay, perfect for many physical modelling and flanging style patches",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTEGxVCA",
+      "name": "EG x VCA",
+      "description": "The Surge XT Envelope Generator VCA Combo",
+      "tags": [
+        "VCA",
+        "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTQuadAD",
+      "name": "Quad AD",
+      "description": "Four Attack-Decay or Attack-Hold-Release Envelope Generators",
+      "tags": [
+        "Envelope generator",
+        "Quad",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTQuadLFO",
+      "name": "Quad LFO",
+      "description": "Four LFOs",
+      "tags": [
+        "LFO",
+        "Quad",
         "Polyphonic"
       ]
     },

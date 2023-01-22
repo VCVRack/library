@@ -2731,7 +2731,7 @@
     }
   },
   "Geodesics": {
-    "buildTimestamp": 1640709407.2044466,
+    "buildTimestamp": 1674371172.9863153,
     "creationTimestamp": 1534547467.0,
     "modules": {
       "BlackHoles": {
@@ -2763,6 +2763,9 @@
       },
       "Blank-PanelLogo": {
         "creationTimestamp": 1560624470.0
+      },
+      "DarkEnergy": {
+        "creationTimestamp": 1674371175.5572934
       }
     }
   },
@@ -4663,7 +4666,7 @@
     }
   },
   "moDllz": {
-    "buildTimestamp": 1651360302.792788,
+    "buildTimestamp": 1674370859.3106682,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "MIDIpolyMPE": {
@@ -4723,7 +4726,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1673293070.5566406,
+    "buildTimestamp": 1674368513.3667786,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -8988,7 +8991,7 @@
     }
   },
   "StudioSixPlusOne": {
-    "buildTimestamp": 1619962404.545297,
+    "buildTimestamp": 1674371089.250586,
     "creationTimestamp": 1590117528.1900573,
     "modules": {
       "KSDelay": {
@@ -9023,6 +9026,12 @@
       },
       "Zilah": {
         "creationTimestamp": 1619962435.1676948
+      },
+      "Amburgh": {
+        "creationTimestamp": 1674371174.4278135
+      },
+      "Hula": {
+        "creationTimestamp": 1674371174.6125195
       }
     }
   },
@@ -11559,7 +11568,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1670840403.7058213,
+    "buildTimestamp": 1674370981.2574944,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -11606,6 +11615,18 @@
       },
       "Shifter": {
         "creationTimestamp": 1670840969.7963154
+      },
+      "Drummer4Plus": {
+        "creationTimestamp": 1674371175.7385902
+      },
+      "DrumPlayer": {
+        "creationTimestamp": 1674371175.9158764
+      },
+      "DrumPlayerPlus": {
+        "creationTimestamp": 1674371176.0910945
+      },
+      "SickoPlayer": {
+        "creationTimestamp": 1674371176.2662947
       }
     }
   },
@@ -11857,9 +11878,21 @@
       },
       "SurgeXTModMatrix": {
         "creationTimestamp": 1669676341.5312526
+      },
+      "SurgeXTDelayLineByFreqExpanded": {
+        "creationTimestamp": 1674371174.8076544
+      },
+      "SurgeXTEGxVCA": {
+        "creationTimestamp": 1674371174.9832568
+      },
+      "SurgeXTQuadAD": {
+        "creationTimestamp": 1674371175.1648934
+      },
+      "SurgeXTQuadLFO": {
+        "creationTimestamp": 1674371175.371694
       }
     },
-    "buildTimestamp": 1669751017.1149175
+    "buildTimestamp": 1674370800.0789778
   },
   "AaronKarp-EarthTones": {
     "buildTimestamp": 1673293386.5852942,
@@ -11871,7 +11904,7 @@
     }
   },
   "questionablemodules": {
-    "buildTimestamp": 1673293364.5846913,
+    "buildTimestamp": 1674368626.016696,
     "creationTimestamp": 1671488541.442978,
     "modules": {
       "discombobulator": {
@@ -11931,7 +11964,7 @@
     }
   },
   "NOI": {
-    "buildTimestamp": 1673758575.0842502,
+    "buildTimestamp": 1674368547.4144282,
     "creationTimestamp": 1673758885.1150217,
     "modules": {
       "Wilt": {
