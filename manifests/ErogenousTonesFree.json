@@ -1,0 +1,26 @@
+{
+  "slug": "ErogenousTonesFree",
+  "name": "Erogenous Tones Free",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Erogenous Tones",
+  "author": "Rick Burnett",
+  "authorEmail": "sales@erogenous-tones.com",
+  "authorUrl": "http://www.erogenous-tones.com",
+  "modules": [
+    {
+      "slug": "LEVIT8",
+      "name": "LEVIT8",
+      "description": "Utility Module",
+      "modularGridUrl": "http://www.modulargrid.net/e/erogenous-tones-levit8",
+      "pluginUrl": "http://erogenous-tones.com/modules/levit8/",
+      "manualUrl": "http://erogenous-tones.com/wp-content/uploads/2016/02/L8-Instructions.pdf",
+      "tags": [
+        "attenuator",
+        "hardware clone",
+        "mixer",
+        "utility"
+      ]
+    }
+  ]
+}

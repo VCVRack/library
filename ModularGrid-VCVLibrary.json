@@ -1564,5 +1564,12 @@
     "vcvUrl": "https://library.vcvrack.com/Instruo/carn",
     "mgUrl": "https://www.modulargrid.net/e/instruo-carn",
     "mgModuleId": 41701
+  },
+  {
+    "pluginSlug": "ErogenousTonesFree",
+    "moduleSlug": "LEVIT8",
+    "vcvUrl": "https://library.vcvrack.com/ErogenousTonesFree/LEVIT8",
+    "mgUrl": "http://www.modulargrid.net/e/erogenous-tones-levit8",
+    "mgModuleId": 8006
   }
 ]
