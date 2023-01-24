@@ -1,7 +1,7 @@
 {
   "slug": "OhmerPrems",
   "name": "OhmerPrems",
-  "version": "2.0.1",
+  "version": "2.2.3",
   "license": "proprietary",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
@@ -15,7 +15,7 @@
     {
       "slug": "KordZ",
       "name": "KordZ",
-      "description": "Note/interval/chord display (CV-based)",
+      "description": "Notes/intervals/chords display (based on 1V/octave)",
       "tags": [
         "Visual",
         "Polyphonic"
@@ -24,7 +24,7 @@
     {
       "slug": "QuadPercs",
       "name": "QuadPercs",
-      "description": "Quad-channel drums/percussions",
+      "description": "Quad-channel drum machines",
       "tags": [
         "Drum",
         "Quad"
