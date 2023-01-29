@@ -742,3 +742,6 @@
 [submodule "repos/NOI"]
 	path = repos/NOI
 	url = https://github.com/LeNomDesFleurs/NOI-VCVRACK.git
+[submodule "repos/Airwin2Rack"]
+	path = repos/Airwin2Rack
+	url = https://github.com/baconpaul/airwin2rack.git
