@@ -2,20 +2,22 @@
   "slug": "trowaSoft",
   "name": "trowaSoft",
   "brand": "trowaSoft",
-  "version": "2.0.5",
+  "version": "2.0.7",
   "license": "BSD-3-Clause",
   "author": "j4s0n-c",
   "authorEmail": "trowasoft.vcv@gmail.com",
   "authorUrl": "https://github.com/j4s0n-c/",
   "pluginUrl": "https://github.com/j4s0n-c/trowaSoft-VCV",
-  "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV/blob/master/README.md",
+  "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#trowasoft-vcv",
   "sourceUrl": "https://github.com/j4s0n-c/trowaSoft-VCV",
+  "changelogUrl": "https://github.com/j4s0n-c/trowaSoft-VCV/blob/v2/CHANGELOG.md",
   "donateUrl": "https://paypal.me/j4s0n",
   "modules": [
     {
       "slug": "trigSeq",
       "name": "trigSeq",
       "description": "16-step pad sequencer with a built-in Open Sound Control (OSC) interface.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#trigseq--trigseq64",
       "tags": [
         "Sequencer",
         "External"
@@ -25,6 +27,7 @@
       "slug": "trigSeq64",
       "name": "trigSeq64",
       "description": "64-step pad sequencer with a built-in Open Sound Control (OSC) interface.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#trigseq--trigseq64",
       "tags": [
         "Sequencer",
         "External"
@@ -34,6 +37,7 @@
       "slug": "voltSeq",
       "name": "voltSeq",
       "description": "16-step variable voltage/note sequencer with a built-in Open Sound Control (OSC) interface.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#voltseq",
       "tags": [
         "Sequencer",
         "External"
@@ -41,8 +45,9 @@
     },
     {
       "slug": "multiSeq64",
-      "name": "multiSeq64",
+      "name": "multiSeq",
       "description": "64-step trigger/variable voltage/note sequencer with a built-in Open Sound Control (OSC) interface. Basically, trigSeq and voltSeq combined into one.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#multiseq",
       "tags": [
         "Sequencer",
         "External"
@@ -51,16 +56,39 @@
     {
       "slug": "multiWave",
       "name": "multiWave",
-      "description": "Digital oscillator module with three (3) oscillators/clocks, each with two (2) configurable wave channel outputs.",
+      "description": "Digital oscillator module with three (3) oscillators/clocks, each with two (2) configurable wave channel outputs. Same as multiWaveMini but with a display.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#multiwave",
       "tags": [
         "Oscillator",
         "Ring modulator"
       ]
     },
     {
+      "slug": "multiWaveMini",
+      "name": "multiWaveMini",
+      "description": "Digital oscillator module with three (3) oscillators/clocks, each with two (2) configurable wave channel outputs. Same as multiWave but smaller without display.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#multiwave",
+      "tags": [
+        "Oscillator",
+        "Ring modulator"
+      ]
+    },
+    {
+      "slug": "polyGen",
+      "name": "polyGen",
+      "description": "Polygon generator/oscillator. Generates output CVs for x and y coordinates of shapes for drawing.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#polygen",
+      "tags": [
+        "Oscillator",
+        "Visual"
+      ],
+      "keywords": "polygon draw shape"
+    },
+    {
       "slug": "multiScope",
       "name": "multiScope",
       "description": "Visual effects scope, with lissajous mode, that allows three (3) waveforms to be drawn on the same screen/canvas.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#multiscope",
       "tags": [
         "Visual"
       ]
@@ -69,30 +97,84 @@
       "slug": "cvOSCcv",
       "name": "cvOSCcv",
       "description": "Generic Open Sound Control (OSC) module for outputting Rack CVs to OSC and reading in simple OSC messages into Rack CVs.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#cvosccv",
       "tags": [
         "External",
         "Polyphonic"
-      ]
+      ],
+      "keywords": "OSC Open Sound Control"
     },
     {
       "slug": "cvOSCcv-InputExpander",
       "name": "cvOSC Input Expander",
-      "description": "Expansion module for cvOSCcv. Allows more input CV channels to be sent to OSC.",
+      "description": "Expansion module for cvOSCcv. Allows eight (8) more input CV channels to be sent to OSC.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#cvosccv-expansion-modules",
       "tags": [
         "External",
         "Polyphonic",
         "Expander"
-      ]
+      ],
+      "keywords": "OSC Open Sound Control"
+    },
+    {
+      "slug": "cvOSCcv-InputExpander-16",
+      "name": "cvOSC16 Input Expander",
+      "description": "Expansion module for cvOSCcv. Allows 16 more input CV channels to be sent to OSC.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#cvosccv-expansion-modules",
+      "tags": [
+        "External",
+        "Polyphonic",
+        "Expander"
+      ],
+      "keywords": "OSC Open Sound Control"
+    },
+    {
+      "slug": "cvOSCcv-InputExpander-32",
+      "name": "cvOSC32 Input Expander",
+      "description": "Expansion module for cvOSCcv. Allows 32 more input CV channels to be sent to OSC.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#cvosccv-expansion-modules",
+      "tags": [
+        "External",
+        "Polyphonic",
+        "Expander"
+      ],
+      "keywords": "OSC Open Sound Control"
     },
     {
       "slug": "cvOSCcv-OutputExpander",
       "name": "OSCcv Output Expander",
-      "description": "Expansion module for cvOSCcv. Allows more output CV channels to be received from OSC.",
+      "description": "Expansion module for cvOSCcv. Allows eight (8) more output CV channels to be received from OSC.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#cvosccv-expansion-modules",
       "tags": [
         "External",
         "Polyphonic",
         "Expander"
-      ]
+      ],
+      "keywords": "OSC Open Sound Control"
+    },
+    {
+      "slug": "cvOSCcv-OutputExpander-16",
+      "name": "OSCcv16 Output Expander",
+      "description": "Expansion module for cvOSCcv. Allows 16 more output CV channels to be received from OSC.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#cvosccv-expansion-modules",
+      "tags": [
+        "External",
+        "Polyphonic",
+        "Expander"
+      ],
+      "keywords": "OSC Open Sound Control"
+    },
+    {
+      "slug": "cvOSCcv-OutputExpander-32",
+      "name": "OSCcv32 Output Expander",
+      "description": "Expansion module for cvOSCcv. Allows 32 more output CV channels to be received from OSC.",
+      "manualUrl": "https://github.com/j4s0n-c/trowaSoft-VCV#cvosccv-expansion-modules",
+      "tags": [
+        "External",
+        "Polyphonic",
+        "Expander"
+      ],
+      "keywords": "OSC Open Sound Control"
     },
     {
       "slug": "tsBlank",

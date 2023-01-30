@@ -1,0 +1,24 @@
+{
+  "slug": "Airwin2Rack",
+  "name": "Airwindows",
+  "version": "2.0.1",
+  "license": "MIT",
+  "author": "@baconpaul, @airwindows",
+  "authorEmail": "",
+  "authorUrl": "https://www.airwindows.com/",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/baconpaul/airwin2rack/blob/main/doc/manual.md",
+  "sourceUrl": "https://github.com/baconpaul/airwin2rack",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Airwin2Rack",
+      "name": "Airwindows Suite for Rack",
+      "description": "Airwindows is a collection of effects; this module contains all of them",
+      "tags": [
+        "Effect",
+        "Multiple"
+      ]
+    }
+  ]
+}

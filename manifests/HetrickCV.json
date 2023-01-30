@@ -1,7 +1,7 @@
 {
   "slug": "HetrickCV",
   "name": "HetrickCV",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -10,6 +10,7 @@
   "manualUrl": "https://github.com/mhetrick/hetrickcv/blob/master/README.md",
   "sourceUrl": "https://github.com/mhetrick/hetrickcv",
   "donateUrl": "https://paypal.me/MHetrick",
+  "changelogUrl": "https://github.com/mhetrick/hetrickcv/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "Chaos1Op",
@@ -51,7 +52,8 @@
       "name": "Analog to Digital",
       "description": "Converts a continuous signal into eight gates representing bit values.",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
@@ -167,7 +169,8 @@
       "name": "Digital to Analog",
       "description": "Converts eight gates to a smooth signal.",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
@@ -227,6 +230,16 @@
       ]
     },
     {
+      "slug": "GateJunctionExp",
+      "name": "Gate Junction Expanded",
+      "description": "Eight channel gate processor, expanded with more jacks and polyphony.",
+      "tags": [
+        "Switch",
+        "Logic",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Gingerbread",
       "name": "Gingerbread Chaos",
       "description": "Self-modulating audio and modulation chaos generator.",
@@ -240,7 +253,8 @@
       "name": "OR Logic (Gate Combiner)",
       "description": "Combines multiple gates into one gate.",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
@@ -302,6 +316,14 @@
       "tags": [
         "Mixer",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "VectorMix",
+      "name": "4-Way Cartesian Mixer",
+      "description": "Two-dimensional crossfading between four signals.",
+      "tags": [
+        "Mixer"
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -1161,6 +1161,23 @@
       "description": "64 Step CV/gate sequencer",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "GateSequencer16b",
+      "name": "12 x 16 Gate Sequencer",
+      "description": "A 12 Channel 16 Step Gate/Trigger Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Stack",
+      "name": "CV Stack",
+      "description": "Sequential voltage storage stack with First In First Out or Last In First Out operation",
+      "tags": [
+        "Sequencer",
+        "Sample and hold"
       ]
     }
   ]

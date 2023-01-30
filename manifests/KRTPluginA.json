@@ -1,7 +1,7 @@
 {
   "slug": "KRTPluginA",
   "name": "KRTPluginA",
-  "version": "2.25.27",
+  "version": "2.26.28",
   "license": "MIT",
   "brand": "KRT",
   "description": "The free plugin set from KRT.",
@@ -11,7 +11,7 @@
   "pluginUrl": "https://jackokring.github.io/KRTPluginADemo/",
   "manualUrl": "https://github.com/jackokring/KRTPluginA/blob/master/README.md",
   "sourceUrl": "https://github.com/jackokring/KRTPluginA",
-  "donateUrl": "https://github.com/jackokring",
+  "donateUrl": "https://www.paypal.com/donate/?hosted_button_id=Y94P8UE7PYCJY",
   "changelogUrl": "https://github.com/jackokring/KRTPluginA/blob/master/changes.md",
   "modules": [
     {
@@ -98,7 +98,8 @@
         "Envelope generator",
         "Voltage-controlled amplifier",
         "Polyphonic"
-      ]
+      ],
+      "deprecated": true
     },
     {
       "slug": "F",
@@ -269,6 +270,16 @@
         "Compressor",
         "Limiter",
         "Dynamics"
+      ]
+    },
+    {
+      "slug": "Z",
+      "name": "Z",
+      "description": "",
+      "tags": [
+        "Polyphonic",
+        "Filter",
+        "Waveshaper"
       ]
     }
   ]
