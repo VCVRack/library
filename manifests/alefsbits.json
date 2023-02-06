@@ -1,7 +1,7 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
@@ -124,6 +124,15 @@
       "tags": [
         "Sampler",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "lights",
+      "name": "lights",
+      "description": "lights turn on when gate is high. 'latch' mode toggles lights on trigger",
+      "tags": [
+        "Utility",
+        "Visual"
       ]
     }
   ]
