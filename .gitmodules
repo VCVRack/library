@@ -745,3 +745,6 @@
 [submodule "repos/Airwin2Rack"]
 	path = repos/Airwin2Rack
 	url = https://github.com/baconpaul/airwin2rack.git
+[submodule "repos/SillySounds"]
+	path = repos/SillySounds
+	url = https://github.com/loparcog/SillySounds.git
