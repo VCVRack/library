@@ -751,3 +751,6 @@
 [submodule "repos/Venom"]
 	path = repos/Venom
 	url = https://github.com/DaveBenham/VenomModules.git
+[submodule "repos/Noise86"]
+	path = repos/Noise86
+	url = https://github.com/spacejoey86/Noise86.git
