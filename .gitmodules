@@ -748,3 +748,6 @@
 [submodule "repos/SillySounds"]
 	path = repos/SillySounds
 	url = https://github.com/loparcog/SillySounds.git
+[submodule "repos/Venom"]
+	path = repos/Venom
+	url = https://github.com/DaveBenham/VenomModules.git
