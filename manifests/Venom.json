@@ -1,0 +1,121 @@
+{
+  "slug": "Venom",
+  "name": "Venom",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "",
+  "author": "David Benham",
+  "authorEmail": "david.benham42@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/DaveBenham/VenomModules",
+  "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md",
+  "sourceUrl": "https://github.com/DaveBenham/VenomModules",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/DaveBenham/VenomModules/blob/main/changelog.md",
+  "modules": [
+    {
+      "slug": "BernoulliSwitch",
+      "name": "Bernoulli Switch",
+      "description": "Randomly route two inputs to two outputs, with built in scaling and offset capabilities",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bernoulli-switch",
+      "tags": [
+        "Attenuator",
+        "Controller",
+        "Logic",
+        "Polyphonic",
+        "Random",
+        "Switch",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "CloneMerge",
+      "name": "Clone Merge",
+      "description": "Clone up to 8 monophonic inputs and merge all channels into 1 polyphonic output",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#clone-merge",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "HQ",
+      "name": "HQ - Harmonic Quantizer",
+      "description": "Computes a selected harmonic or subharmonic partial relative to a root V/Oct, or quantizes input V/Oct to the nearest partial relative to the root",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#harmonic-quantizer",
+      "tags": [
+        "Polyphonic",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "PolyClone",
+      "name": "Poly Clone",
+      "description": "Clone each channel of a polyphonic input and merge the results into a single polyphonic output",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-clone",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Recurse",
+      "name": "Recurse",
+      "description": "Recursively process an input via Send/Return, with built in scaling and offset cababilities",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#recurse",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Ring modulator",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "RecurseStereo",
+      "name": "Recurse Stereo",
+      "description": "Recursively process mono or stereo input via Send/Return, with built in scaling and offset cababilities",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#recurse-stereo",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Ring modulator",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "RhythmExplorer",
+      "name": "Rhythm Explorer",
+      "description": "Random rhythm generator, trigger sequencer and clock divider",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#rhythm-explorer",
+      "tags": [
+        "Clock modulator",
+        "Random",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "VenomVCO",
+      "name": "VCO",
+      "description": "Voltage controlled oscillator with true through-zero FM and 0Hz carrier mode",
+      "manualURL": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#vco",
+      "hidden": true,
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "WinComp",
+      "name": "WinComp",
+      "description": "Windowed comparator and rectifier",
+      "manualURL": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#wincomp",
+      "tags": [
+        "Distortion",
+        "Limiter",
+        "Logic",
+        "Polyphonic",
+        "Utility",
+        "Waveshaper"
+      ]
+    }
+  ]
+}

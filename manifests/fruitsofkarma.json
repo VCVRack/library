@@ -1,7 +1,7 @@
 {
   "slug": "fruitsofkarma",
   "name": "fruitsofkarma",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "license": "MIT",
   "brand": "fruitsofkarma",
   "author": "Alexey Komarov",
@@ -38,6 +38,15 @@
       "description": "Simple particles effect",
       "tags": [
         "Visual"
+      ]
+    },
+    {
+      "slug": "ScaleMerger",
+      "name": "Transit from one scale or mode to another",
+      "description": "Scale Merger",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
       ]
     },
     {

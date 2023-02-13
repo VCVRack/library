@@ -8264,7 +8264,7 @@
     }
   },
   "LOGinstruments": {
-    "buildTimestamp": 1638728340.1729379,
+    "buildTimestamp": 1676258296.681981,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Speck": {
@@ -11151,7 +11151,7 @@
     }
   },
   "StochasticTelegraph": {
-    "buildTimestamp": 1675713249.088015,
+    "buildTimestamp": 1676258263.9978034,
     "creationTimestamp": 1649868370.1906905,
     "modules": {
       "Drifter": {
@@ -11355,7 +11355,7 @@
     }
   },
   "fruitsofkarma": {
-    "buildTimestamp": 1657334357.7041628,
+    "buildTimestamp": 1676260952.7604706,
     "creationTimestamp": 1652376852.6430357,
     "modules": {
       "Quadro360": {
@@ -11369,6 +11369,9 @@
       },
       "Math": {
         "creationTimestamp": 1652376853.439033
+      },
+      "ScaleMerger": {
+        "creationTimestamp": 1676260958.40201
       }
     }
   },
@@ -11967,7 +11970,7 @@
     "buildTimestamp": 1671575492.0433524
   },
   "TyrannosaurusRu": {
-    "buildTimestamp": 1673295699.8313007,
+    "buildTimestamp": 1676258366.2371204,
     "creationTimestamp": 1673295701.4557712,
     "modules": {
       "MicroLooper": {
@@ -11981,6 +11984,24 @@
       },
       "LFSR16": {
         "creationTimestamp": 1673295702.570348
+      },
+      "muLooper": {
+        "creationTimestamp": 1676260957.2268243
+      },
+      "LFSR8Poly": {
+        "creationTimestamp": 1676260957.4179277
+      },
+      "LFSR16Poly": {
+        "creationTimestamp": 1676260957.6104488
+      },
+      "Droplets": {
+        "creationTimestamp": 1676260957.792951
+      },
+      "ChaosMaps": {
+        "creationTimestamp": 1676260957.982781
+      },
+      "Pluck": {
+        "creationTimestamp": 1676260958.1673157
       }
     }
   },
@@ -12030,7 +12051,7 @@
     }
   },
   "Airwin2Rack": {
-    "buildTimestamp": 1675100424.7529113,
+    "buildTimestamp": 1676260915.0994434,
     "creationTimestamp": 1675100686.7833567,
     "modules": {
       "Airwin2Rack": {
@@ -12050,6 +12071,57 @@
       },
       "Kyle": {
         "creationTimestamp": 1675713352.312701
+      }
+    }
+  },
+  "Noise86": {
+    "buildTimestamp": 1676258182.4257097,
+    "creationTimestamp": 1676260953.8603756,
+    "modules": {
+      "MarkovDrummer": {
+        "creationTimestamp": 1676260954.1598332
+      },
+      "MultiLogic": {
+        "creationTimestamp": 1676260954.4369333
+      },
+      "EyeSeq": {
+        "creationTimestamp": 1676260954.7012594
+      },
+      "TransQuant": {
+        "creationTimestamp": 1676260954.9359088
+      }
+    }
+  },
+  "Venom": {
+    "buildTimestamp": 1676258589.772993,
+    "creationTimestamp": 1676260955.1683722,
+    "modules": {
+      "BernoulliSwitch": {
+        "creationTimestamp": 1676260955.3903232
+      },
+      "CloneMerge": {
+        "creationTimestamp": 1676260955.5811446
+      },
+      "HQ": {
+        "creationTimestamp": 1676260955.775722
+      },
+      "PolyClone": {
+        "creationTimestamp": 1676260955.9685895
+      },
+      "Recurse": {
+        "creationTimestamp": 1676260956.2153907
+      },
+      "RecurseStereo": {
+        "creationTimestamp": 1676260956.4119117
+      },
+      "RhythmExplorer": {
+        "creationTimestamp": 1676260956.6105356
+      },
+      "VenomVCO": {
+        "creationTimestamp": 1676260956.81366
+      },
+      "WinComp": {
+        "creationTimestamp": 1676260957.0090017
       }
     }
   }
