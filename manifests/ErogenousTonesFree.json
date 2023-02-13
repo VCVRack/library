@@ -1,7 +1,7 @@
 {
   "slug": "ErogenousTonesFree",
   "name": "Erogenous Tones Free",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "proprietary",
   "brand": "Erogenous Tones",
   "author": "Rick Burnett",
@@ -20,6 +20,20 @@
         "hardware clone",
         "mixer",
         "utility"
+      ]
+    },
+    {
+      "slug": "VC8",
+      "name": "VC8",
+      "description": "8x VCA Module",
+      "modularGridUrl": "http://www.modulargrid.net/e/erogenous-tones-vc8",
+      "pluginUrl": "http://erogenous-tones.com/modules/vc8/",
+      "manualUrl": "https://erogenous-tones.com/wp-content/uploads/2023/02/VC8-Instructions.pdf",
+      "tags": [
+        "Utility",
+        "Hardware Clone",
+        "Mixer",
+        "Voltage-controlled amplifier"
       ]
     }
   ]

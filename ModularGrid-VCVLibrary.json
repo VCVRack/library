@@ -1571,5 +1571,12 @@
     "vcvUrl": "https://library.vcvrack.com/ErogenousTonesFree/LEVIT8",
     "mgUrl": "http://www.modulargrid.net/e/erogenous-tones-levit8",
     "mgModuleId": 8006
+  },
+  {
+    "pluginSlug": "ErogenousTonesFree",
+    "moduleSlug": "VC8",
+    "vcvUrl": "https://library.vcvrack.com/ErogenousTonesFree/VC8",
+    "mgUrl": "http://www.modulargrid.net/e/erogenous-tones-vc8",
+    "mgModuleId": 9811
   }
 ]
