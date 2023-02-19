@@ -1,7 +1,7 @@
 {
   "slug": "Chinenual-VCV",
   "name": "Chinenual",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "Chinenual",
   "author": "Steve Tynor",
@@ -32,6 +32,17 @@
         "midi",
         "recording",
         "expander"
+      ]
+    },
+    {
+      "slug": "DrumMap",
+      "name": "DrumMap",
+      "description": "Merge GATEs to General MIDI drum pitches",
+      "manualUrl": "https://github.com/chinenual/Chinenual-VCV/blob/main/README.md#drummap",
+      "tags": [
+        "midi",
+        "recording",
+        "drum"
       ]
     }
   ]
