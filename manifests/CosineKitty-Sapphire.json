@@ -1,7 +1,7 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.1.3",
+  "version": "2.2.1",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
@@ -31,6 +31,18 @@
         "Physical modeling",
         "Effect",
         "Filter",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "TubeUnit",
+      "name": "Tube Unit",
+      "description": "Tubular waveguide synth.",
+      "tags": [
+        "Physical modeling",
+        "Effect",
+        "Filter",
+        "Polyphonic",
         "Reverb"
       ]
     }

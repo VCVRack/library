@@ -1,9 +1,10 @@
 {
   "slug": "NocturnalEncoder",
   "name": "Nocturnal Encoder",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "BSD-3-Clause",
   "brand": "Nocturnal Encoder",
+  "description": "This plugin exists to provide a low-cost connection between hardware Eurorack synthesizers and VCV Rack.",
   "author": "David Peterson",
   "authorEmail": "djp23662@gmail.com",
   "authorUrl": "https://github.com/djpeterso23662",
@@ -11,7 +12,7 @@
   "manualUrl": "https://github.com/djpeterso23662/NocturnalEncoder/blob/master/README.md",
   "sourceUrl": "https://github.com/djpeterso23662/NocturnalEncoder",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/djpeterso23662/NocturnalEncoder#changes",
   "modules": [
     {
       "slug": "AMDecoder",
@@ -30,7 +31,7 @@
       "description": "Dual Amplitude Modulation Encoder",
       "tags": [
         "Oscillator",
-        "Amplifier",
+        "Voltage-controlled amplifier",
         "Dual"
       ]
     }

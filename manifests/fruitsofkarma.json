@@ -1,7 +1,7 @@
 {
   "slug": "fruitsofkarma",
   "name": "fruitsofkarma",
-  "version": "2.0.5",
+  "version": "2.0.7",
   "license": "MIT",
   "brand": "fruitsofkarma",
   "author": "Alexey Komarov",
@@ -42,8 +42,8 @@
     },
     {
       "slug": "ScaleMerger",
-      "name": "Transit from one scale or mode to another",
-      "description": "Scale Merger",
+      "name": "Scale Merger",
+      "description": "Transit from one scale or mode to another",
       "tags": [
         "Quantizer",
         "Polyphonic"

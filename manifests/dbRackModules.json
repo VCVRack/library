@@ -1,7 +1,7 @@
 {
   "slug": "dbRackModules",
   "name": "dbRackModules",
-  "version": "2.1.4",
+  "version": "2.2.2",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -99,7 +99,8 @@
       "tags": [
         "Utility",
         "Polyphonic"
-      ]
+      ],
+      "hidden": true
     },
     {
       "slug": "Hopa",
@@ -242,7 +243,8 @@
       "name": "Plotter",
       "description": "Plots a 2D signal",
       "tags": [
-        "Visual"
+        "Visual",
+        "Polyphonic"
       ]
     },
     {
@@ -329,7 +331,8 @@
       "name": "\u00b5Pad2",
       "description": "Micro Pad2",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
@@ -376,6 +379,214 @@
       "tags": [
         "Effect",
         "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PRB",
+      "name": "PRB",
+      "description": "Parabolic Oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Osc2",
+      "name": "Osc2",
+      "description": "Double Sinus Oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "RndH2",
+      "name": "RndH2",
+      "description": "Random and Hold mk2",
+      "tags": [
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "OFS",
+      "name": "OFS",
+      "description": "CPU friendly polyphonic offset/scaler with polyphonic cv inputs and cv attenuators",
+      "tags": [
+        "Polyphonic",
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "OFS3",
+      "name": "OFS3",
+      "description": "3x OFS",
+      "tags": [
+        "Polyphonic",
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "Osc1",
+      "name": "Osc1",
+      "description": "Line segement oscillator with alias suppressing ",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Osc3",
+      "name": "Osc3",
+      "description": "Step/Line segment oscillator with alias suppressing",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Osc4",
+      "name": "Osc4",
+      "description": "Classic oscillator with alias suppressing",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Osc5",
+      "name": "Osc5",
+      "description": "Pulse oscillator with alias suppressing",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SKF",
+      "name": "SKF",
+      "description": "CPU friendly polyphonic stereo sallen key filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SPF",
+      "name": "SPF",
+      "description": "CPU friendly polyphonic steiner parker filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "L4P",
+      "name": "L4P",
+      "description": "CPU friendly polyphonic stereo 4 pole filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "USVF",
+      "name": "USVF",
+      "description": "CPU friendly polyphonic unstable state variable filter with overdrive",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "AP",
+      "name": "AP",
+      "description": "A Polyphonic Allpass Filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "AUX",
+      "name": "AUX",
+      "description": "Polyphonic stereo signal mixer",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "JWS",
+      "name": "JWS",
+      "description": "Polyphonic stereo waveshaper using JONG attractor",
+      "tags": [
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CHBY",
+      "name": "CHBY",
+      "description": "4 pole Chebyshev type 1 filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CLP",
+      "name": "CLP",
+      "description": "Clipper/Waveshaper",
+      "tags": [
+        "Waveshaper",
+        "Distortion",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "LWF",
+      "name": "LWF",
+      "description": "Lockhard Wavefolder",
+      "tags": [
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "DRM",
+      "name": "DRM",
+      "description": "Diode Ring Modulator",
+      "tags": [
+        "Ring modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CWS",
+      "name": "CWS",
+      "description": "Chebyshev Waveshaper",
+      "tags": [
+        "Polyphonic",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "SWF",
+      "name": "SWF",
+      "description": "Sharp Wavefolder",
+      "tags": [
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Osc6",
+      "name": "Osc6",
+      "description": "Komplex Oscillaor using bit logic",
+      "tags": [
+        "Oscillator",
         "Polyphonic"
       ]
     }
