@@ -1,7 +1,7 @@
 {
   "slug": "QuantalAudio",
   "name": "QuantalAudio",
-  "version": "2.0.1",
+  "version": "2.1.2",
   "license": "GPL-3.0-or-later",
   "brand": "QuantalAudio",
   "author": "Jansen Price",
@@ -47,19 +47,62 @@
     },
     {
       "slug": "DaisyChannel",
-      "name": "Daisy Mix Channel | 2HP",
-      "description": "Modular mixer channel - daisy chainable",
+      "name": "Daisy Mix Channel MONO | 2HP",
+      "description": "Modular mixer channel - legacy daisy chainable",
       "tags": [
-        "Mixer"
+        "Mixer",
+        "Polyphonic"
       ]
     },
     {
       "slug": "DaisyMaster",
-      "name": "Daisy Mix Master | 3HP",
-      "description": "Modular mixer master",
+      "name": "Daisy Mix Master MONO | 3HP",
+      "description": "Modular mixer master - legacy",
       "tags": [
         "Mixer",
-        "VCA"
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "DaisyChannel2",
+      "name": "Daisy Mix Channel STEREO | 2HP",
+      "description": "Modular mixer channel - proximity daisy chainable",
+      "tags": [
+        "Mixer",
+        "VCA",
+        "Polyphonic",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "DaisyChannelVu",
+      "name": "Daisy Mix Channel VU | 2HP",
+      "description": "Modular mixer VU - proximity daisy chainable",
+      "tags": [
+        "Mixer",
+        "Polyphonic",
+        "Visual",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "DaisyChannelSends2",
+      "name": "Daisy Mix Channel Aux Sends STEREO | 2HP",
+      "description": "Modular mixer channel aux sends - proximity daisy chainable",
+      "tags": [
+        "Mixer",
+        "Polyphonic",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "DaisyMaster2",
+      "name": "Daisy Mix Master STEREO | 3HP",
+      "description": "Modular mixer master - proximity daisy chain",
+      "tags": [
+        "Mixer",
+        "Polyphonic",
+        "Expander"
       ]
     },
     {

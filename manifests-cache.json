@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1675096217.8553033,
+    "buildTimestamp": 1677946895.426774,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -461,6 +461,9 @@
       },
       "sampler16p": {
         "creationTimestamp": 1673764072.2803237
+      },
+      "drumrandomizer": {
+        "creationTimestamp": 1677947088.3678346
       }
     }
   },
@@ -5011,7 +5014,7 @@
     }
   },
   "QuantalAudio": {
-    "buildTimestamp": 1638137484.0494354,
+    "buildTimestamp": 1677947087.2684097,
     "creationTimestamp": 1543672744.0,
     "modules": {
       "Blank1": {
@@ -5040,6 +5043,18 @@
       },
       "UnityMix": {
         "creationTimestamp": 1561831383.0
+      },
+      "DaisyChannel2": {
+        "creationTimestamp": 1677947089.485866
+      },
+      "DaisyChannelVu": {
+        "creationTimestamp": 1677947089.6963165
+      },
+      "DaisyChannelSends2": {
+        "creationTimestamp": 1677947089.8883066
+      },
+      "DaisyMaster2": {
+        "creationTimestamp": 1677947090.0822475
       }
     }
   },
@@ -11661,7 +11676,7 @@
     }
   },
   "Chinenual-VCV": {
-    "buildTimestamp": 1677810253.9521742,
+    "buildTimestamp": 1677947011.1731052,
     "creationTimestamp": 1660869608.7876675,
     "modules": {
       "MIDIRecorder": {
@@ -11672,6 +11687,12 @@
       },
       "DrumMap": {
         "creationTimestamp": 1676812930.7872043
+      },
+      "Tint": {
+        "creationTimestamp": 1677947089.0792968
+      },
+      "NoteMeter": {
+        "creationTimestamp": 1677947089.2784731
       }
     }
   },
@@ -12099,7 +12120,7 @@
     }
   },
   "NOI": {
-    "buildTimestamp": 1674368547.4144282,
+    "buildTimestamp": 1677946934.9244637,
     "creationTimestamp": 1673758885.1150217,
     "modules": {
       "Wilt": {
@@ -12113,6 +12134,9 @@
       },
       "Sinensis": {
         "creationTimestamp": 1673758886.0595458
+      },
+      "Hellebore": {
+        "creationTimestamp": 1677947088.757226
       }
     }
   },

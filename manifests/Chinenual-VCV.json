@@ -1,7 +1,7 @@
 {
   "slug": "Chinenual-VCV",
   "name": "Chinenual",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Chinenual",
   "author": "Steve Tynor",
@@ -43,6 +43,26 @@
         "midi",
         "recording",
         "drum"
+      ]
+    },
+    {
+      "slug": "Tint",
+      "name": "Tintinnabulator",
+      "description": "Harmonizes via Arvo P\u00e4rt style Tintinnabulation",
+      "manualUrl": "https://github.com/chinenual/Chinenual-VCV/blob/main/README.md#tintinnabulator",
+      "tags": [
+        "quantizer",
+        "utility"
+      ]
+    },
+    {
+      "slug": "NoteMeter",
+      "name": "NoteMeter",
+      "description": "Display note names for inbound V/Oct voltages",
+      "manualUrl": "https://github.com/chinenual/Chinenual-VCV/blob/main/README.md#notemeter",
+      "tags": [
+        "visual",
+        "utility"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "NOI",
   "name": "NOI",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "GPL-3.0-or-later",
   "brand": "NOI",
   "author": "Thomas Guillory",
@@ -13,6 +13,15 @@
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
+    {
+      "slug": "Hellebore",
+      "name": "Hellebore",
+      "description": "granular reverb",
+      "tags": [
+        "Digital",
+        "Effect"
+      ]
+    },
     {
       "slug": "Wilt",
       "name": "Wilt",
