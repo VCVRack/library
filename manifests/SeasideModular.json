@@ -1,7 +1,7 @@
 {
   "slug": "SeasideModular",
   "name": "Seaside Modular",
-  "version": "2.2.1",
+  "version": "2.4",
   "license": "MIT",
   "brand": "Seaside Modular",
   "author": "Blue Nautilus",
@@ -10,18 +10,42 @@
   "pluginUrl": "https://github.com/abluenautilus/SeasideModularVCV",
   "manualUrl": "https://github.com/abluenautilus/SeasideModularVCV/blob/master/README.md",
   "sourceUrl": "https://github.com/abluenautilus/SeasideModularVCV",
-  "donateUrl": "",
+  "donateUrl": "https://paypal.me/seasidemodular",
   "changelogUrl": "https://github.com/abluenautilus/SeasideModularVCV/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "Proteus",
       "name": "Proteus",
-      "description": "Proteus generative sequencer",
+      "description": "Proteus is a generative sequencer that makes looping melodies which evolve and renew.",
       "tags": [
         "Sequencer"
       ],
       "keywords": [
         "generative"
+      ]
+    },
+    {
+      "slug": "Jawari",
+      "name": "Jawari",
+      "description": "Jawari is a synthesized version of the tanpura, the Indian drone instrument",
+      "tags": [
+        "Physical modeling",
+        "Synth voice"
+      ],
+      "keywords": [
+        "Drone",
+        "Tanpura"
+      ]
+    },
+    {
+      "slug": "ProteusX",
+      "name": "ProteusX",
+      "description": "Proteus expander module, adds functionality to the Proteus sequencer",
+      "tags": [
+        "sequencer"
+      ],
+      "keywords": [
+        "sequencer"
       ]
     }
   ]
