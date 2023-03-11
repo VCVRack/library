@@ -754,3 +754,6 @@
 [submodule "repos/Noise86"]
 	path = repos/Noise86
 	url = https://github.com/spacejoey86/Noise86.git
+[submodule "repos/SIM"]
+	path = repos/SIM
+	url = https://github.com/imDanSable/SIM.git
