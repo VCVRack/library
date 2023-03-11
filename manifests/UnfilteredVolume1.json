@@ -1,7 +1,7 @@
 {
   "slug": "UnfilteredVolume1",
   "name": "Unfiltered Volume 1",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "license": "proprietary",
   "author": "Unfiltered Audio",
   "authorEmail": "contact@unfilteredaudio.com",
@@ -28,7 +28,8 @@
       "tags": [
         "Effect",
         "Digital",
-        "Mixer"
+        "Mixer",
+        "Polyphonic"
       ]
     },
     {
@@ -39,7 +40,8 @@
         "Effect",
         "Digital",
         "Granular",
-        "Clock Generator"
+        "Clock Generator",
+        "Polyphonic"
       ]
     },
     {
@@ -60,7 +62,8 @@
         "Effect",
         "Delay",
         "Granular",
-        "Clock Generator"
+        "Clock Generator",
+        "Polyphonic"
       ]
     },
     {
@@ -71,7 +74,8 @@
         "Effect",
         "Delay",
         "Granular",
-        "Clock Generator"
+        "Clock Generator",
+        "Polyphonic"
       ]
     }
   ]
