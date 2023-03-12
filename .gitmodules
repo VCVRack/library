@@ -757,3 +757,6 @@
 [submodule "repos/SIM"]
 	path = repos/SIM
 	url = https://github.com/imDanSable/SIM.git
+[submodule "repos/PhoturiElectronics"]
+	path = repos/PhoturiElectronics
+	url = https://github.com/BooleanMuse/Photuri-Electronics.git
