@@ -1,0 +1,40 @@
+{
+  "slug": "SIM",
+  "name": "SIM",
+  "version": "2.0.0",
+  "license": "BSD-2-Clause",
+  "brand": "SIM",
+  "author": "Dan Sable",
+  "authorEmail": "imdansable@gmail.com",
+  "pluginUrl": "https://github.com/imDanSable/SIM",
+  "manualUrl": "https://github.com/imDanSable/SIM/blob/master/README.md",
+  "sourceUrl": "https://github.com/imDanSable/SIM",
+  "modules": [
+    {
+      "slug": "Blank",
+      "name": "Blank",
+      "description": "Blank",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Coerce",
+      "name": "Coerce",
+      "description": "Quantize an incoming polyphonic signal to voltages of another polyphonic signal.",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Coerce6",
+      "name": "Coerce6",
+      "description": "Quantize incoming polyphonic signals to voltages of another polyphonic signal.",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

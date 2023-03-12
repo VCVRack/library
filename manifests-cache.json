@@ -5014,7 +5014,7 @@
     }
   },
   "QuantalAudio": {
-    "buildTimestamp": 1677947087.2684097,
+    "buildTimestamp": 1678648371.8521464,
     "creationTimestamp": 1543672744.0,
     "modules": {
       "Blank1": {
@@ -6072,7 +6072,7 @@
     }
   },
   "MrLumps": {
-    "buildTimestamp": 1585040068.5352645,
+    "buildTimestamp": 1678648406.123008,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "SEQE": {
@@ -9039,7 +9039,7 @@
     }
   },
   "StudioSixPlusOne": {
-    "buildTimestamp": 1674371089.250586,
+    "buildTimestamp": 1678648296.6436014,
     "creationTimestamp": 1590117528.1900573,
     "modules": {
       "KSDelay": {
@@ -9080,6 +9080,33 @@
       },
       "Hula": {
         "creationTimestamp": 1674371174.6125195
+      },
+      "Bascom": {
+        "creationTimestamp": 1678648527.5414035
+      },
+      "BascomExpander": {
+        "creationTimestamp": 1678648527.8175523
+      },
+      "Mix": {
+        "creationTimestamp": 1678648528.2192173
+      },
+      "Bose": {
+        "creationTimestamp": 1678648528.518795
+      },
+      "Duffy": {
+        "creationTimestamp": 1678648528.7967553
+      },
+      "Farini": {
+        "creationTimestamp": 1678648529.0816498
+      },
+      "LalaStereo": {
+        "creationTimestamp": 1678648529.3241692
+      },
+      "Thru": {
+        "creationTimestamp": 1678648529.5187473
+      },
+      "PatchNotes": {
+        "creationTimestamp": 1678648529.7126856
       }
     }
   },
@@ -10500,7 +10527,7 @@
     }
   },
   "KRTPluginA": {
-    "buildTimestamp": 1675095996.4756007,
+    "buildTimestamp": 1678645847.4877758,
     "creationTimestamp": 1627193159.9948137,
     "modules": {
       "A": {
@@ -11667,7 +11694,7 @@
     }
   },
   "CosineKitty-Sapphire": {
-    "buildTimestamp": 1677810199.6140754,
+    "buildTimestamp": 1678645685.1339588,
     "creationTimestamp": 1660869608.068208,
     "modules": {
       "Moots": {
@@ -11712,7 +11739,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1674370981.2574944,
+    "buildTimestamp": 1678648075.7815065,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -11771,6 +11798,12 @@
       },
       "SickoPlayer": {
         "creationTimestamp": 1674371176.2662947
+      },
+      "DrumPlayerXtra": {
+        "creationTimestamp": 1678648530.8751287
+      },
+      "Wavetabler": {
+        "creationTimestamp": 1678648531.0776048
       }
     }
   },
@@ -12042,7 +12075,7 @@
         "creationTimestamp": 1674371175.371694
       }
     },
-    "buildTimestamp": 1676812746.8701835
+    "buildTimestamp": 1678647830.32881
   },
   "AaronKarp-EarthTones": {
     "buildTimestamp": 1673293386.5852942,
@@ -12132,7 +12165,7 @@
     }
   },
   "NOI": {
-    "buildTimestamp": 1677946934.9244637,
+    "buildTimestamp": 1678645899.2489944,
     "creationTimestamp": 1673758885.1150217,
     "modules": {
       "Wilt": {
@@ -12236,6 +12269,36 @@
       },
       "WinComp": {
         "creationTimestamp": 1676260957.0090017
+      }
+    }
+  },
+  "PhoturiElectronics": {
+    "buildTimestamp": 1678645632.7960634,
+    "creationTimestamp": 1678648530.0171146,
+    "modules": {
+      "Cricketter": {
+        "creationTimestamp": 1678648530.2225354
+      },
+      "Fairyfly": {
+        "creationTimestamp": 1678648530.4487076
+      },
+      "Mo-Th": {
+        "creationTimestamp": 1678648530.6346583
+      }
+    }
+  },
+  "SIM": {
+    "buildTimestamp": 1678648526.6127133,
+    "creationTimestamp": 1678648531.296907,
+    "modules": {
+      "Blank": {
+        "creationTimestamp": 1678648531.4717278
+      },
+      "Coerce": {
+        "creationTimestamp": 1678648531.6479166
+      },
+      "Coerce6": {
+        "creationTimestamp": 1678648531.8371716
       }
     }
   }

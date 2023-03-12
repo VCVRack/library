@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -126,6 +126,16 @@
       ]
     },
     {
+      "slug": "DrumPlayerXtra",
+      "name": "Drum Player Xtra",
+      "description": "Drum Sample Player",
+      "tags": [
+        "Sampler",
+        "Drum",
+        "Quad"
+      ]
+    },
+    {
       "slug": "Parking",
       "name": "Parking",
       "description": "Set of unconnected inputs and outputs just to park unused cables",
@@ -187,6 +197,15 @@
         "Logic",
         "Envelope generator",
         "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "Wavetabler",
+      "name": "Wavetabler",
+      "description": "Wavetable Sample Player",
+      "tags": [
+        "Sampler",
+        "Polyphonic"
       ]
     }
   ]

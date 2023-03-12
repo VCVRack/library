@@ -1,0 +1,41 @@
+{
+  "slug": "PhoturiElectronics",
+  "name": "Photuri Electronics",
+  "version": "2.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Photuri Electronics",
+  "author": "Skarmuse",
+  "authorEmail": "skarmuse@protonmail.com",
+  "authorUrl": "https://skarmuse.net/",
+  "pluginUrl": "https://photuricomix.com/",
+  "manualUrl": "https://github.com/BooleanMuse/Photuri-Electronics",
+  "sourceUrl": "https://github.com/BooleanMuse/Photuri-Electronics",
+  "donateUrl": "https://ko-fi.com/skarmuse",
+  "modules": [
+    {
+      "slug": "Cricketter",
+      "name": "Cricketter",
+      "description": "Cricket Sound Oscillator",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Fairyfly",
+      "name": "Fairyfly",
+      "description": "Clock divider inspired on the Fireflies flashing behavior and Fairyfly size wings",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Mo-Th",
+      "name": "Mo-Th",
+      "description": "Moth Light Attraction Sequencer",
+      "tags": [
+        "Sequencer",
+        "Logic"
+      ]
+    }
+  ]
+}

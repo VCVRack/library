@@ -1,7 +1,7 @@
 {
   "slug": "KRTPluginA",
   "name": "KRTPluginA",
-  "version": "2.26.28",
+  "version": "2.26.30",
   "license": "MIT",
   "brand": "KRT",
   "description": "The free plugin set from KRT.",
@@ -27,7 +27,7 @@
     {
       "slug": "Mu",
       "name": "\u03bc",
-      "description": "Time dependant caclulus on a summing junction with series\ntruncation distortion. This is complex to explain. Much\nbetter to listen and fiddle.",
+      "description": "Time dependant calculus on a summing junction with series\ntruncation distortion. This is complex to explain. Much\nbetter to listen and fiddle.",
       "tags": [
         "Effect",
         "Waveshaper",
@@ -82,7 +82,7 @@
     {
       "slug": "Om",
       "name": "\u03a9",
-      "description": "Clock distribution randomizer. Generates a randomish\nsequence of length 64 and depending on the left-most\ndisplayed letter outputs a trigger when the clock is high\nor low.",
+      "description": "Clock distribution randomizer. Generates a random like\nsequence of length 64 and depending on the left-most\ndisplayed letter outputs a trigger when the clock is high\nor low.",
       "tags": [
         "Clock modulator",
         "Polyphonic",
@@ -93,7 +93,7 @@
     {
       "slug": "V",
       "name": "V",
-      "description": "Envelope VCA and CV producer. A bit wierd. An experiment in\nmodule design.",
+      "description": "Envelope VCA and CV producer. A bit weird. An experiment in\nmodule design.",
       "tags": [
         "Envelope generator",
         "Voltage-controlled amplifier",
@@ -104,7 +104,7 @@
     {
       "slug": "F",
       "name": "F",
-      "description": "24 dB morph filter. A 2D interpolation and extrapolation\nbetween 4 classic analytic filter responses of Bessel,\nButterworth, Linkwitz and Legendre. Includes an interpole\ndistortion effect and morphing to the inverse filter.",
+      "description": "24 dB morph filter. A 2D interpolation and extrapolation\nbetween 4 classic analytic filter responses of Bessel,\nButterworth, Linkwitz and Legendre. Includes an inter-pole\ndistortion effect and morphing to the inverse filter.",
       "tags": [
         "Filter",
         "Polyphonic"
@@ -162,7 +162,7 @@
     {
       "slug": "X",
       "name": "X",
-      "description": "Oversampled wave-folder. A lot of fizz in such a little\nmodule.",
+      "description": "Over-sampled wave-folder. A lot of fizz in such a little\nmodule.",
       "tags": [
         "Waveshaper",
         "Polyphonic"
@@ -171,7 +171,7 @@
     {
       "slug": "M",
       "name": "M",
-      "description": "Emphisis and de-emphisis filter. Default is RIAA and\ninverse. This module has large gain. WARNING!",
+      "description": "Emphasis and de-emphasis filter. Default is RIAA and\ninverse. This module has large gain. WARNING!",
       "tags": [
         "Polyphonic",
         "Filter",

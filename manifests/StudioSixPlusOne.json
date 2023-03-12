@@ -1,7 +1,7 @@
 {
   "slug": "StudioSixPlusOne",
   "name": "Studio Six Plus One",
-  "version": "2.0.2",
+  "version": "2.1.00",
   "license": "GPL-3.0-or-later",
   "brand": "Studio Six Plus One",
   "author": "Studio Six Plus One",
@@ -148,8 +148,101 @@
       "description": "fm VCO unique per instance",
       "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#hula",
       "tags": [
-        "VCO",
+        "Low-frequency oscillator",
+        "Oscillator",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bascom",
+      "name": "Bascom",
+      "description": "Multi form Non Linear Filter self oscillating vcf",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#Bascom",
+      "tags": [
+        "Polyphonic",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "BascomExpander",
+      "name": "BascomExpander",
+      "description": "Multi form Non Linear Filter self oscillating vcf",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#Bascom",
+      "tags": [
+        "Polyphonic",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Mix",
+      "name": "Mix",
+      "description": "A simple 5 channel mixer with non linear characters",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#Mix",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bose",
+      "name": "Bose",
+      "description": "Multi output random voltage generator, sample and hold with no input, steady or analog style drooping outputs",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#Bose",
+      "tags": [
+        "Polyphonic",
+        "sample and hold",
+        "noise",
+        "random"
+      ]
+    },
+    {
+      "slug": "Duffy",
+      "name": "Duffy",
+      "description": "Transposes incoming voct, the amount increased by a set number of semitones, can be used to traverse the circle of fifths",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#Duffy",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Farini",
+      "name": "Farini",
+      "description": "Multimode envelope generator and stereo vca, based on CEM3310 AND CEM3360 diy circuits.",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#Farini",
+      "tags": [
+        "Envelope generator",
+        "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "LalaStereo",
+      "name": "LalaStereo",
+      "description": "Stereo two way crossover",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#Lala",
+      "tags": [
+        "Filter",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Thru",
+      "name": "Thru",
+      "description": "Thru module with assignable labels",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#Thru",
+      "tags": [
+        "Multiple",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PatchNotes",
+      "name": "PatchNotes",
+      "description": "Slimline text area for making patch notes",
+      "manualUrl": "https://github.com/StudioSixPlusOne/rack-modules/blob/master/README.md#PatchNotes",
+      "tags": [
+        "Utility"
       ]
     }
   ]
