@@ -1,17 +1,17 @@
 {
   "slug": "CrystalPalace",
   "name": "Crystal Palace",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "proprietary",
   "brand": "Crystal Palace",
   "author": "David Peterson",
-  "authorEmail": "",
+  "authorEmail": "djp23662@gmail.com",
   "authorUrl": "https://github.com/djpeterso23662",
   "pluginUrl": "https://github.com/djpeterso23662/CrystalPalace",
   "manualUrl": "https://github.com/djpeterso23662/CrystalPalace/blob/master/README.md",
   "sourceUrl": "",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/djpeterso23662/CrystalPalace#changes",
   "modules": [
     {
       "slug": "Perspex",
