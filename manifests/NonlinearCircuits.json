@@ -1,7 +1,7 @@
 {
   "slug": "NonlinearCircuits",
   "name": "Nonlinear Circuits",
-  "version": "2.0.1",
+  "version": "2.1.1",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -125,6 +125,17 @@
       "description": "Four gates make sixteen. That's Numberwang! Panel by jk.",
       "tags": [
         "Logic",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "Router",
+      "name": "Router",
+      "description": "Simple switch. If the CV input is below the knob voltage setting, the output is active. Panel by jk.",
+      "tags": [
+        "Switch",
+        "Mixer",
+        "Quad",
         "Hardware Clone"
       ]
     },

@@ -1,7 +1,7 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
@@ -79,6 +79,7 @@
       "name": "shift",
       "description": "an 8-step shift register with probability params for each step",
       "tags": [
+        "Sample and hold",
         "Utility"
       ]
     },
@@ -97,7 +98,8 @@
       "description": "applies various math operations on two inputs, clamped to +/-10V",
       "tags": [
         "Logic",
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -106,7 +108,8 @@
       "description": "perform logical operations on two inputs",
       "tags": [
         "Logic",
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -114,7 +117,9 @@
       "name": "probably not",
       "description": "mute a signal on trigger, based on probability",
       "tags": [
-        "Utility"
+        "Random",
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -151,6 +156,34 @@
       "description": "generate triggers when a CV signal changes direction, crosses zero, or both",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "slipspander",
+      "name": "slipspander",
+      "description": "expander for slips to enter custom scale",
+      "tags": [
+        "Expander",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "nos",
+      "name": "nos",
+      "description": "a weird noise-based oscillator thing",
+      "tags": [
+        "Oscillator",
+        "Random",
+        "Polyphonic"
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "lucc",
+      "name": "lucc",
+      "description": "a clock divider based on the lucas sequence",
+      "tags": [
+        "Clock modulator"
       ]
     }
   ]
