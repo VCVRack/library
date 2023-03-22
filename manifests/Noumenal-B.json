@@ -1,0 +1,27 @@
+{
+  "slug": "Noumenal-B",
+  "name": "Noumenal-B",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Noumenal",
+  "author": "Jozsef Venczeli",
+  "authorEmail": "venczeli.jozsef@gmail.com",
+  "authorUrl": "https://github.com/partvishegy",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/partvishegy/Noumenal",
+  "sourceUrl": "",
+  "donateUrl": "https://paypal.me/jvenczeli",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "HUB",
+      "name": "HUB",
+      "description": "Stereo effect mixer and chain manipulator featuring parallel-sequential switching, feedback generation, and smooth bypass with fades",
+      "tags": [
+        "Effect",
+        "Mixer",
+        "Utility"
+      ]
+    }
+  ]
+}
