@@ -760,3 +760,6 @@
 [submodule "repos/PhoturiElectronics"]
 	path = repos/PhoturiElectronics
 	url = https://github.com/BooleanMuse/Photuri-Electronics.git
+[submodule "repos/Yokai_Holiday"]
+	path = repos/Yokai_Holiday
+	url = https://github.com/demcanulty/Yokai_Holiday.git
