@@ -1,7 +1,7 @@
 {
   "slug": "fruitsofkarma",
   "name": "fruitsofkarma",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "license": "MIT",
   "brand": "fruitsofkarma",
   "author": "Alexey Komarov",
@@ -55,6 +55,15 @@
       "description": "Basic math operations",
       "tags": [
         "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CellularAuto",
+      "name": "CellularAuto",
+      "description": "64x256 sequencer with configurable zoomed active zone. Uses polyphony to split active zone to separate sequencer rows",
+      "tags": [
+        "Sequencer",
         "Polyphonic"
       ]
     }

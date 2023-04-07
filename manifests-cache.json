@@ -1989,7 +1989,7 @@
     "modules": {}
   },
   "ImpromptuModular": {
-    "buildTimestamp": 1663458608.8206122,
+    "buildTimestamp": 1680831138.3983412,
     "creationTimestamp": 1521979525.0,
     "modules": {
       "Tact": {
@@ -2298,7 +2298,7 @@
     }
   },
   "MindMeldModular": {
-    "buildTimestamp": 1673758858.2457864,
+    "buildTimestamp": 1680830207.6157942,
     "creationTimestamp": 1572165273.0,
     "modules": {
       "MixMasterJr": {
@@ -11490,7 +11490,7 @@
     }
   },
   "fruitsofkarma": {
-    "buildTimestamp": 1678157572.6438348,
+    "buildTimestamp": 1680833185.4207609,
     "creationTimestamp": 1652376852.6430357,
     "modules": {
       "Quadro360": {
@@ -11507,6 +11507,9 @@
       },
       "ScaleMerger": {
         "creationTimestamp": 1676260958.40201
+      },
+      "CellularAuto": {
+        "creationTimestamp": 1680833188.3473737
       }
     }
   },
@@ -11553,7 +11556,7 @@
     }
   },
   "dbRackSequencer": {
-    "buildTimestamp": 1671488393.0420504,
+    "buildTimestamp": 1680830741.5144572,
     "creationTimestamp": 1653920290.2170763,
     "modules": {
       "JTChords": {
@@ -11663,6 +11666,21 @@
       },
       "PMod": {
         "creationTimestamp": 1671488541.251687
+      },
+      "ASEQ": {
+        "creationTimestamp": 1680833187.3283033
+      },
+      "TXVI": {
+        "creationTimestamp": 1680833187.5300236
+      },
+      "M16": {
+        "creationTimestamp": 1680833187.7545328
+      },
+      "S16": {
+        "creationTimestamp": 1680833187.9469872
+      },
+      "M16S": {
+        "creationTimestamp": 1680833188.143005
       }
     }
   },
@@ -11724,7 +11742,7 @@
     }
   },
   "Chinenual-VCV": {
-    "buildTimestamp": 1679285673.872586,
+    "buildTimestamp": 1680833128.5187192,
     "creationTimestamp": 1660869608.7876675,
     "modules": {
       "MIDIRecorder": {
@@ -11741,6 +11759,9 @@
       },
       "NoteMeter": {
         "creationTimestamp": 1677947089.2784731
+      },
+      "Inv": {
+        "creationTimestamp": 1680833186.3947508
       }
     }
   },
@@ -11823,7 +11844,7 @@
     }
   },
   "SeasideModular": {
-    "buildTimestamp": 1678157534.402817,
+    "buildTimestamp": 1680830339.2303884,
     "creationTimestamp": 1663459028.233182,
     "modules": {
       "Proteus": {
@@ -12323,6 +12344,18 @@
     "modules": {
       "HUB": {
         "creationTimestamp": 1679519135.1281981
+      }
+    }
+  },
+  "Yokai_Holiday": {
+    "buildTimestamp": 1680833028.7684724,
+    "creationTimestamp": 1680833186.685807,
+    "modules": {
+      "Taps_Proto": {
+        "creationTimestamp": 1680833186.912374
+      },
+      "Taps": {
+        "creationTimestamp": 1680833187.1102598
       }
     }
   }

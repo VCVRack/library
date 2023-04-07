@@ -1,7 +1,7 @@
 {
   "slug": "Chinenual-VCV",
   "name": "Chinenual",
-  "version": "2.4.2",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "brand": "Chinenual",
   "author": "Steve Tynor",
@@ -62,6 +62,16 @@
       "manualUrl": "https://github.com/chinenual/Chinenual-VCV/blob/main/README.md#notemeter",
       "tags": [
         "visual",
+        "utility"
+      ]
+    },
+    {
+      "slug": "Inv",
+      "name": "Melody Inverter",
+      "description": "Produce inverted melodies",
+      "manualUrl": "https://github.com/chinenual/Chinenual-VCV/blob/main/README.md#inv",
+      "tags": [
+        "quantizer",
         "utility"
       ]
     }
