@@ -1,7 +1,7 @@
 {
   "slug": "OhmerPrems",
   "name": "OhmerPrems",
-  "version": "2.2.4",
+  "version": "2.2.7",
   "license": "proprietary",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
@@ -12,6 +12,23 @@
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
+    {
+      "slug": "FroeZe",
+      "name": "FroeZe",
+      "description": "16-track 64-step drum sequencer (1ms trigger / QuadPercs Audio Engine outputs)",
+      "tags": [
+        "Drum",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "FroeZeX",
+      "name": "FroeZe-X",
+      "description": "Expander for FroeZe sequencer, additional outputs for AC'd notes, plus edit features",
+      "tags": [
+        "Expander"
+      ]
+    },
     {
       "slug": "KordZ",
       "name": "KordZ",
