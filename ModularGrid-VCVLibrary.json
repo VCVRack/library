@@ -1578,5 +1578,11 @@
     "vcvUrl": "https://library.vcvrack.com/ErogenousTonesFree/VC8",
     "mgUrl": "http://www.modulargrid.net/e/erogenous-tones-vc8",
     "mgModuleId": 9811
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "CEQ",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/CEQ",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-ceq"
   }
 ]

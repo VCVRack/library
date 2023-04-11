@@ -1,7 +1,7 @@
 {
   "slug": "NANOModules",
   "name": "NANO Modules",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "Proprietary",
   "brand": "NANO Modules",
   "author": "Jorge Gutierrez",
@@ -86,6 +86,20 @@
         "Envelope generator",
         "Function generator",
         "Attenuator",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "CEQ",
+      "name": "CEQ",
+      "description": "DJ Equalizer & Compressor",
+      "manualUrl": "https://nano-modules.com/wp-content/uploads/2023/03/CEQ-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-ceq",
+      "tags": [
+        "Effect",
+        "Dynamics",
+        "Equalizer",
+        "Filter",
         "Hardware clone"
       ]
     },
