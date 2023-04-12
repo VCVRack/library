@@ -1583,6 +1583,7 @@
     "pluginSlug": "NANOModules",
     "moduleSlug": "CEQ",
     "vcvUrl": "https://library.vcvrack.com/NANOModules/CEQ",
-    "mgUrl": "https://www.modulargrid.net/e/nano-modules-ceq"
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-ceq",
+    "mgModuleId": 43562
   }
 ]
