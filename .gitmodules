@@ -763,3 +763,6 @@
 [submodule "repos/Yokai_Holiday"]
 	path = repos/Yokai_Holiday
 	url = https://github.com/demcanulty/Yokai_Holiday.git
+[submodule "repos/vanTies"]
+	path = repos/vanTies
+	url = https://github.com/matthiassars/vanTies.git
