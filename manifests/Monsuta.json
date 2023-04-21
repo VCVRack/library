@@ -1,0 +1,27 @@
+{
+  "slug": "Monsuta",
+  "name": "Monsuta",
+  "version": "2.0.2",
+  "license": "https://vcvrack.com/eula",
+  "brand": "Monsuta",
+  "author": "Vega Deftwing",
+  "authorEmail": "vegac@protonmail.com",
+  "authorUrl": "https://opguides.info",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Monsuta",
+      "name": "Monsuta",
+      "description": "Filter with attitude",
+      "tags": [
+        "Effect",
+        "Waveshaper",
+        "Filter"
+      ]
+    }
+  ]
+}
