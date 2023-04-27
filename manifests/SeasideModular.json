@@ -1,7 +1,7 @@
 {
   "slug": "SeasideModular",
   "name": "Seaside Modular",
-  "version": "2.4.2",
+  "version": "2.5.1",
   "license": "MIT",
   "brand": "Seaside Modular",
   "author": "Blue Nautilus",
@@ -42,10 +42,24 @@
       "name": "ProteusX",
       "description": "Proteus expander module, adds functionality to the Proteus sequencer",
       "tags": [
-        "sequencer"
+        "Sequencer",
+        "Expander"
       ],
       "keywords": [
-        "sequencer"
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Tala",
+      "name": "Tala",
+      "description": "Tala is a sample-based tabla machine, simulating the Indian drums.",
+      "tags": [
+        "Drum",
+        "Drums",
+        "Percussion"
+      ],
+      "keywords": [
+        "Tabla"
       ]
     }
   ]
