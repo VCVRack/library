@@ -766,3 +766,6 @@
 [submodule "repos/vanTies"]
 	path = repos/vanTies
 	url = https://github.com/matthiassars/vanTies.git
+[submodule "repos/TMT"]
+	path = repos/TMT
+	url = https://github.com/Jadael/TMT.git
