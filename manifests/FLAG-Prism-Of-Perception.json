@@ -1,0 +1,27 @@
+{
+  "slug": "FLAG-Prism-Of-Perception",
+  "name": "FLAG Prism of Perception",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "FLAG",
+  "author": "Flag Audio + Omri Cohen",
+  "authorEmail": "",
+  "authorUrl": "https://flagaudio.com/",
+  "pluginUrl": "https://flagaudio.com/",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Prism-Of-Perception",
+      "name": "Prism of Perception",
+      "manualUrl": "https://flagaudio.com/vcv/prism-of-perception.html",
+      "description": "Delay / Looper",
+      "tags": [
+        "Delay",
+        "Sampler"
+      ]
+    }
+  ]
+}
