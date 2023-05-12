@@ -1,7 +1,7 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
   "author": "Mahlen Morris",
@@ -34,6 +34,16 @@
       "tags": [
         "Random",
         "Sample and hold"
+      ]
+    },
+    {
+      "slug": "Fermata",
+      "name": "Fermata",
+      "description": "Write much longer text notes. Resizable, scrolls, font choices, and more.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#fermata",
+      "tags": [
+        "Blank",
+        "Utility"
       ]
     },
     {

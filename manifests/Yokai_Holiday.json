@@ -1,7 +1,7 @@
 {
   "slug": "Yokai_Holiday",
   "name": "Yokai_Holiday",
-  "version": "2.0.0.7",
+  "version": "2.0.0.8",
   "license": "MIT",
   "brand": "Yokai_Holiday",
   "author": "d.e.mcanulty",
@@ -16,7 +16,7 @@
     {
       "slug": "Taps_Proto",
       "name": "Taps_Proto",
-      "description": "Two adjustable taps on a record buffer",
+      "description": "Reverse Delay - Two adjustable taps on a record buffer",
       "hidden": true,
       "tags": [
         "Delay",
@@ -26,7 +26,7 @@
     {
       "slug": "Taps",
       "name": "Taps",
-      "description": "Two adjustable taps on a record buffer",
+      "description": "Reverse Delay - Two adjustable taps on a record buffer",
       "tags": [
         "Delay",
         "Effect"

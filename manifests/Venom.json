@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.1.4",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -46,6 +46,30 @@
       "tags": [
         "Polyphonic",
         "Quantizer"
+      ]
+    },
+    {
+      "slug": "Mix4",
+      "name": "Mix 4",
+      "description": "Compact audio or CV mixer, attenuator, inverter, amplifier, and/or offset",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-4",
+      "tags": [
+        "Attenuator",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Mix4Stereo",
+      "name": "Mix 4 Stereo",
+      "description": "Stereo compact audio or CV mixer, attenuator, inverter, amplifier, and/or offset",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-4-stereo",
+      "tags": [
+        "Attenuator",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
       ]
     },
     {
@@ -94,13 +118,31 @@
       ]
     },
     {
-      "slug": "VenomVCO",
-      "name": "VCO",
-      "description": "Voltage controlled oscillator with true through-zero FM and 0Hz carrier mode",
-      "manualURL": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#vco",
-      "hidden": true,
+      "slug": "VCAMix4",
+      "name": "VCA Mix 4",
+      "description": "Compact audio or CV VCA, mixer, attenuator, inverter, amplifier, and/or offset",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#vca-mix-4",
       "tags": [
-        "Oscillator"
+        "Attenuator",
+        "Mixer",
+        "Polyphonic",
+        "Ring modulator",
+        "Utility",
+        "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "VCAMix4Stereo",
+      "name": "VCA Mix 4 Stereo",
+      "description": "Stereo compact audio or CV VCA, mixer, attenuator, inverter, amplifier, and/or offset",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#vca-mix-4-stereo",
+      "tags": [
+        "Attenuator",
+        "Mixer",
+        "Polyphonic",
+        "Ring modulator",
+        "Utility",
+        "Voltage-controlled amplifier"
       ]
     },
     {
