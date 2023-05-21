@@ -1,0 +1,71 @@
+{
+  "slug": "TMT",
+  "name": "T's Musical Tools",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "T",
+  "author": "T",
+  "authorEmail": "hillhand@gmail.com",
+  "authorUrl": "https://github.com/Jadael/",
+  "pluginUrl": "https://github.com/Jadael/TMT",
+  "manualUrl": "https://github.com/Jadael/TMT",
+  "sourceUrl": "https://github.com/Jadael/TMT",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Shuffle",
+      "name": "Shuffle",
+      "description": "Randomly re-order the channels of a polyphonic signal. CV controls for seed and number of output channels.",
+      "tags": [
+        "Polyphonic",
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Calendar",
+      "name": "Calendar",
+      "description": "A variety of LFO-like CVs, Triggers, and Gates related to time and date.",
+      "tags": [
+        "Utility",
+        "LFO"
+      ]
+    },
+    {
+      "slug": "Seed",
+      "name": "Seed",
+      "description": "Given a seed voltage, generates 16 random voltages, as 16 mono outputs and 1 polyphonic output.",
+      "tags": [
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Ouroboros",
+      "name": "Ouroboros",
+      "description": "Sequentially step through the channels of a polyphonic input.",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Append",
+      "name": "Append",
+      "description": "Append up to 16 mono or polyphonic signals together into a single list, and output a CV controlled (length, start point) subset of that list as a polyphonic signal.",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Sight",
+      "name": "Sight",
+      "description": "Simple scope wih a non-linear falloff.",
+      "tags": [
+        "Visual"
+      ]
+    }
+  ]
+}
