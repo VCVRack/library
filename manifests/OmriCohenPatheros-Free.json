@@ -1,0 +1,33 @@
+{
+  "slug": "OmriCohenPatheros-Free",
+  "name": "Path Set x Omri Cohen - Free",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "Path Set x Omri Cohen",
+  "author": "Andrew Hanson and Omri Cohen",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/patheros/PathSetXOmriCohen",
+  "manualUrl": "https://github.com/patheros/PathSetXOmriCohen/blob/main/Path%20Set%20x%20Omri%20Cohen%20Free%20Manual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "MiniTruffles",
+      "name": "Truffle",
+      "description": "Split your samples into four slices, each with their own send/return channels and playback controls.",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "MiniHyphae",
+      "name": "Hypha",
+      "description": "Record audio into two different loopers. Then mix and modulate to your heart's content.",
+      "tags": [
+        "Sampler"
+      ]
+    }
+  ]
+}
