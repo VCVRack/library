@@ -1,15 +1,13 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.3.6",
+  "version": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
   "author": "dtilley",
-  "authorUrl": "https://techhub.social/@miffreal",
   "pluginUrl": "https://library.vcvrack.com/DanTModules",
   "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual",
   "donateUrl": "https://monzo.me/danieltilley2",
-  "changelogUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "Wavulike",
@@ -39,9 +37,10 @@
       "description": "[4hp] Window mixer for up to 5 inputs",
       "tags": [
         "Mixer",
+        "Random",
         "Switch"
       ],
-      "keywords": "splice five switch sequential random window",
+      "keywords": "splice five switch sequential window",
       "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/5splice.md"
     },
     {
@@ -114,6 +113,18 @@
       ],
       "keywords": "chroma magical cv blank theme green cyan magenta greenscreen",
       "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/chromakey.md"
+    },
+    {
+      "slug": "PolySplice",
+      "name": "Nu-PolySplice",
+      "description": "[7hp] Polyphonic switch with up to 5 seconds slew.",
+      "tags": [
+        "Mixer",
+        "Polyphonic",
+        "Random",
+        "Switch"
+      ],
+      "keywords": "splice sequential window slew"
     }
   ]
 }

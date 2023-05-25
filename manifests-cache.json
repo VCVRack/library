@@ -10005,7 +10005,7 @@
     }
   },
   "DanTModules": {
-    "buildTimestamp": 1673298924.070205,
+    "buildTimestamp": 1685023017.0105493,
     "creationTimestamp": 1607124947.802597,
     "modules": {
       "Wavulike": {
@@ -10037,6 +10037,9 @@
       },
       "Chromakey": {
         "creationTimestamp": 1642449845.8059819
+      },
+      "PolySplice": {
+        "creationTimestamp": 1685023017.9584641
       }
     }
   },
