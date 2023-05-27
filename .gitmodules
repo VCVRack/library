@@ -733,9 +733,6 @@
 [submodule "repos/AaronKarp-EarthTones"]
 	path = repos/AaronKarp-EarthTones
 	url = https://github.com/aaronkarp123/EarthTones.git
-[submodule "repos/Digital-Apothecary"]
-	path = repos/Digital-Apothecary
-	url = https://github.com/evanedwardsgit/Digital-Apothecary.git
 [submodule "repos/TyrannosaurusRu"]
 	path = repos/TyrannosaurusRu
 	url = https://github.com/fairplay/vcv-rack-plugins.git
