@@ -766,3 +766,6 @@
 [submodule "repos/TMT"]
 	path = repos/TMT
 	url = https://github.com/Jadael/TMT.git
+[submodule "repos/nullpath"]
+	path = repos/nullpath
+	url = https://github.com/alefnull/NullPath.git
