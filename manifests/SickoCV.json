@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.5.2",
+  "version": "2.5.3",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -37,7 +37,8 @@
       "tags": [
         "Logic",
         "Envelope generator",
-        "Voltage-controlled amplifier"
+        "Voltage-controlled amplifier",
+        "Polyphonic"
       ]
     },
     {
@@ -47,7 +48,8 @@
       "tags": [
         "Logic",
         "Envelope generator",
-        "Voltage-controlled amplifier"
+        "Voltage-controlled amplifier",
+        "Polyphonic"
       ]
     },
     {
@@ -162,12 +164,22 @@
       ]
     },
     {
+      "slug": "SickoSampler",
+      "name": "SickoSampler",
+      "description": "Sample Player and recorder",
+      "tags": [
+        "Sampler",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Switcher",
       "name": "Switcher",
       "description": "2>1 switch, 1>2 router, 2 signal swapper, mute, flip flop, toggle gate",
       "tags": [
         "Switch",
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -176,7 +188,8 @@
       "description": "Stereo 2>1 switch, 1>2 router, 2 signal swapper, mute, flip flop, toggle gate",
       "tags": [
         "Switch",
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -186,7 +199,8 @@
       "tags": [
         "Logic",
         "Envelope generator",
-        "Voltage-controlled amplifier"
+        "Voltage-controlled amplifier",
+        "Polyphonic"
       ]
     },
     {
@@ -196,7 +210,8 @@
       "tags": [
         "Logic",
         "Envelope generator",
-        "Voltage-controlled amplifier"
+        "Voltage-controlled amplifier",
+        "Polyphonic"
       ]
     },
     {

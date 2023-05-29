@@ -1,0 +1,64 @@
+{
+  "slug": "nullpath",
+  "name": "NullPath",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "NullPath",
+  "author": "Andrew Hanson & Eric Socia",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/alefnull/NullPath",
+  "manualUrl": "https://github.com/alefnull/NullPath",
+  "sourceUrl": "https://github.com/alefnull/NullPath",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "switch18",
+      "name": "Expand",
+      "description": "A 1-9 not-so-sequential switch",
+      "tags": [
+        "Switch",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "switch81",
+      "name": "Collapse",
+      "description": "A 9-1 not-so-sequential switch",
+      "tags": [
+        "Switch",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "funcgen",
+      "name": "Cascade",
+      "description": "A 4 channel envelope/function generator",
+      "tags": [
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "supersaw",
+      "name": "Turbulence",
+      "description": "A supersaw oscillator/synth voice, with noise and a built-in ADSR envelope",
+      "tags": [
+        "Oscillator",
+        "Polyphonic",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "randrouter",
+      "name": "Entangle",
+      "description": "9-9 random router",
+      "tags": [
+        "Switch",
+        "Utility"
+      ]
+    }
+  ]
+}

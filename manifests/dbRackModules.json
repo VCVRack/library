@@ -1,7 +1,7 @@
 {
   "slug": "dbRackModules",
   "name": "dbRackModules",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -588,6 +588,49 @@
       "tags": [
         "Oscillator",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Osc7",
+      "name": "Osc7",
+      "description": "Komplex Oscillaor providing phase distorted waves",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Osc8",
+      "name": "Osc8",
+      "description": "Two additive oscillators with linear FM through zero and cross FM",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Osc9",
+      "name": "Osc9",
+      "description": "Waveshaping Oscillaor",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Drums",
+      "name": "Drums",
+      "description": "Sampled drums",
+      "tags": [
+        "Drums"
+      ]
+    },
+    {
+      "slug": "PPD",
+      "name": "PPD",
+      "description": "Ping Pong Delay",
+      "tags": [
+        "Delay"
       ]
     }
   ]

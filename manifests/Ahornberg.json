@@ -1,6 +1,6 @@
 {
   "slug": "Ahornberg",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "license": "GPL-3.0-or-later",
   "name": "Ahornberg",
   "brand": "Ahornberg",
@@ -17,7 +17,7 @@
       "slug": "Tracker",
       "name": "Tracker",
       "description": "sequencer with tracker interface",
-      "disabled": true,
+      "hidden": true,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#tracker",
       "tags": [
         "Arpeggiator",
@@ -32,7 +32,7 @@
       "slug": "TapeRecorder",
       "name": "Tape Recorder",
       "description": "micro cassette recorder",
-      "disabled": false,
+      "hidden": false,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#tape-recorder",
       "tags": [
         "Clock generator",
@@ -46,7 +46,7 @@
       "slug": "TapeRecorderMixer",
       "name": "Tape Recorder Mixer",
       "description": "mixer for micro cassette recorder",
-      "disabled": true,
+      "hidden": true,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#tape-recorder-mixer",
       "tags": [
         "Attenuator",
@@ -62,7 +62,7 @@
       "slug": "FlyingFader",
       "name": "Flying Fader",
       "description": "cv-controlled fader",
-      "disabled": false,
+      "hidden": false,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#flying-fader",
       "tags": [
         "Attenuator",
@@ -77,7 +77,7 @@
       "slug": "EqualDivision",
       "name": "Equal Division",
       "description": "microtonal re-tuner and attenuverter",
-      "disabled": false,
+      "hidden": false,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#equal-division",
       "tags": [
         "Attenuator",
@@ -89,7 +89,7 @@
       "slug": "CVFreqShift",
       "name": "CV-Frequency Shift",
       "description": "linear frequency shifter and modulator for note-cv",
-      "disabled": false,
+      "hidden": false,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#cv-frequency-shift",
       "tags": [
         "Tuner",
@@ -100,7 +100,7 @@
       "slug": "FunWithFrames",
       "name": "Fun with Frames",
       "description": "utility to enhance Regen Modular Frames",
-      "disabled": false,
+      "hidden": false,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#fun-with-frames",
       "tags": [
         "Utility",
@@ -110,7 +110,7 @@
     {
       "slug": "Metronome",
       "name": "Metronome",
-      "disabled": false,
+      "hidden": false,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#metronome",
       "description": "classic rehearsal metronome",
       "tags": [
@@ -121,7 +121,7 @@
       "slug": "Harmonizer",
       "name": "Harmonizer",
       "description": "harmonic and subharmonic CV generator",
-      "disabled": false,
+      "hidden": false,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#harmonizer",
       "tags": [
         "Envelope follower",
@@ -134,7 +134,7 @@
       "slug": "MIDIController",
       "name": "MIDI Controller",
       "description": "MIDI Controller",
-      "disabled": true,
+      "hidden": true,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#midi-controller",
       "tags": [
         "External",
@@ -146,7 +146,7 @@
       "slug": "MIDIPolyExpression",
       "name": "MIDI Poly Expression",
       "description": "MIDI MPE to CV",
-      "disabled": false,
+      "hidden": false,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#midi-poly-expression",
       "tags": [
         "External",
@@ -159,7 +159,7 @@
       "slug": "MIDIOverAudio",
       "name": "MIDI over Audio",
       "description": "complement to the MIDI over Audio VST",
-      "disabled": false,
+      "hidden": false,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#midi-over-audio",
       "tags": [
         "External",
@@ -172,7 +172,7 @@
       "slug": "CopyPastePreset",
       "name": "Copy Paste Preset",
       "description": "copy-paste a preset from the module on the left side to the modules on the right side",
-      "disabled": false,
+      "hidden": false,
       "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#copy-paste-preset",
       "tags": [
         "Utility"
