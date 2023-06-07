@@ -1,0 +1,51 @@
+{
+  "slug": "dawnbree",
+  "name": "dawn bree",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "dawn bree",
+  "author": "dawn bree",
+  "authorEmail": "jones25519@gmail.com",
+  "authorUrl": "https://www.youtube.com/@dawnbree",
+  "pluginUrl": "https://github.com/jonesnxt/dawnbree",
+  "manualUrl": "https://github.com/jonesnxt/dawnbree",
+  "sourceUrl": "https://github.com/jonesnxt/dawnbree",
+  "donateUrl": "https://www.paypal.com/donate/?hosted_button_id=QKW2M5T69CL64",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "seesaw",
+      "name": "seesaw",
+      "description": "Switch between two inputs after a variable amount of clock pulses.",
+      "tags": [
+        "utility",
+        "switch"
+      ]
+    },
+    {
+      "slug": "nudge",
+      "name": "nudge",
+      "description": "A simple way to scale and offset an input.",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "notepad",
+      "name": "notepad",
+      "description": "utility for building chords and melodies around major and minor key signatures.",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "prismo",
+      "name": "prismo",
+      "description": "an eight step direct input sequencer for cv or signal with four independent channels.",
+      "tags": [
+        "sequencer",
+        "polyphonic"
+      ]
+    }
+  ]
+}
