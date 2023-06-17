@@ -772,3 +772,6 @@
 [submodule "repos/dawnbree"]
 	path = repos/dawnbree
 	url = https://github.com/jonesnxt/dawnbree.git
+[submodule "repos/monome"]
+	path = repos/monome
+	url = https://github.com/Dewb/monome-rack.git
