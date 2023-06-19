@@ -1585,5 +1585,26 @@
     "vcvUrl": "https://library.vcvrack.com/NANOModules/CEQ",
     "mgUrl": "https://www.modulargrid.net/e/nano-modules-ceq",
     "mgModuleId": 43562
+  },
+  {
+    "pluginSlug": "SynthesisTechnology",
+    "moduleSlug": "E350",
+    "vcvUrl": "https://library.vcvrack.com/SynthesisTechnology/E350",
+    "mgUrl": "https://www.modulargrid.net/e/synthesis-technology-e350-morphing-terrarium",
+    "mgModuleId": 2
+  },
+  {
+    "pluginSlug": "SynthesisTechnology",
+    "moduleSlug": "E355",
+    "vcvUrl": "https://library.vcvrack.com/SynthesisTechnology/E355",
+    "mgUrl": "https://www.modulargrid.net/e/synthesis-technology-e355-morphing-dual-lfo",
+    "mgModuleId": 307
+  },
+  {
+    "pluginSlug": "SynthesisTechnology",
+    "moduleSlug": "E440",
+    "vcvUrl": "https://library.vcvrack.com/SynthesisTechnology/E440",
+    "mgUrl": "https://www.modulargrid.net/e/synthesis-technology-e440-discrete-ota-vcf",
+    "mgModuleId": 252
   }
 ]
