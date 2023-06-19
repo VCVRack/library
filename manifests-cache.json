@@ -12526,5 +12526,23 @@
         "creationTimestamp": 1686104120.0955274
       }
     }
+  },
+  "SynthesisTechnology": {
+    "buildTimestamp": 1687157102.631884,
+    "creationTimestamp": 1687157103.1926794,
+    "modules": {
+      "E340": {
+        "creationTimestamp": 1687157103.3070056
+      },
+      "E350": {
+        "creationTimestamp": 1687157103.4201124
+      },
+      "E355": {
+        "creationTimestamp": 1687157103.5450747
+      },
+      "E440": {
+        "creationTimestamp": 1687157103.655633
+      }
+    }
   }
 }

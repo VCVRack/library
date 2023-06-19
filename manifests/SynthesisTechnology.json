@@ -1,0 +1,63 @@
+{
+  "slug": "SynthesisTechnology",
+  "name": "Synthesis Technology",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Synthesis Technology",
+  "author": "VCV",
+  "authorEmail": "support@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/SynthesisTechnology",
+  "manualUrl": "https://vcvrack.com/SynthesisTechnology#manual",
+  "changelogUrl": "https://vcvrack.com/SynthesisTechnology#changelog",
+  "modules": [
+    {
+      "slug": "E340",
+      "name": "E340 Cloud Generator",
+      "description": "",
+      "manualUrl": "https://vcvrack.com/SynthesisTechnology#E340",
+      "modularGridUrl": "https://www.modulargrid.net/e/synthesis-technology-e340-cloud-generator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "E350",
+      "name": "E350 Morphing Terrarium",
+      "description": "",
+      "manualUrl": "https://vcvrack.com/SynthesisTechnology#E350",
+      "modularGridUrl": "https://www.modulargrid.net/e/synthesis-technology-e350-morphing-terrarium",
+      "tags": [
+        "Oscillator",
+        "Polyphonic",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "E355",
+      "name": "E355 Morphing Dual LFO",
+      "description": "",
+      "manualUrl": "https://vcvrack.com/SynthesisTechnology#E355",
+      "modularGridUrl": "https://www.modulargrid.net/e/synthesis-technology-e355-morphing-dual-lfo",
+      "tags": [
+        "LFO",
+        "Polyphonic",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "E440",
+      "name": "E440 Discrete OTA VCF",
+      "description": "",
+      "manualUrl": "https://vcvrack.com/SynthesisTechnology#E440",
+      "modularGridUrl": "https://www.modulargrid.net/e/synthesis-technology-e440-discrete-ota-vcf",
+      "tags": [
+        "VCF",
+        "Polyphonic",
+        "Hardware clone"
+      ]
+    }
+  ]
+}
