@@ -1,7 +1,7 @@
 {
   "slug": "dbRackSequencer",
   "name": "dbRackSequencer",
-  "version": "2.2.2",
+  "version": "2.3.1",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -172,6 +172,15 @@
       "slug": "TheMatrix",
       "name": "TheMatrix",
       "description": "A 32x32 Grid ASCII Sequencer with up to 16 play heads",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MMatrix",
+      "name": "\u00b5Matrix",
+      "description": "A 32x4 Grid ASCII Sequencer with up to 16 play heads",
       "tags": [
         "Sequencer",
         "Polyphonic"
@@ -349,6 +358,15 @@
       "tags": [
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "HexSeqP2",
+      "name": "HexSeqP2",
+      "description": "A 100x16x64 Trigger Sequencer with probability",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
       ]
     }
   ]

@@ -1606,5 +1606,40 @@
     "vcvUrl": "https://library.vcvrack.com/SynthesisTechnology/E440",
     "mgUrl": "https://www.modulargrid.net/e/synthesis-technology-e440-discrete-ota-vcf",
     "mgModuleId": 252
+  },
+  {
+    "pluginSlug": "monome",
+    "moduleSlug": "whitewhale",
+    "vcvUrl": "https://library.vcvrack.com/monome/whitewhale",
+    "mgUrl": "https://www.modulargrid.net/e/monome-white-whale",
+    "mgModuleId": 4454
+  },
+  {
+    "pluginSlug": "monome",
+    "moduleSlug": "earthsea",
+    "vcvUrl": "https://library.vcvrack.com/monome/earthsea",
+    "mgUrl": "https://www.modulargrid.net/e/monome-earthsea",
+    "mgModuleId": 5165
+  },
+  {
+    "pluginSlug": "monome",
+    "moduleSlug": "meadowphysics",
+    "vcvUrl": "https://library.vcvrack.com/monome/meadowphysics",
+    "mgUrl": "https://www.modulargrid.net/e/monome-meadowphysics",
+    "mgModuleId": 4774
+  },
+  {
+    "pluginSlug": "monome",
+    "moduleSlug": "teletype",
+    "vcvUrl": "https://library.vcvrack.com/monome/teletype",
+    "mgUrl": "https://www.modulargrid.net/e/monome-teletype",
+    "mgModuleId": 6163
+  },
+  {
+    "pluginSlug": "monome",
+    "moduleSlug": "ansible",
+    "vcvUrl": "https://library.vcvrack.com/monome/ansible",
+    "mgUrl": "https://www.modulargrid.net/e/monome-ansible",
+    "mgModuleId": 9452
   }
 ]
