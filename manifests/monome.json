@@ -1,0 +1,131 @@
+{
+  "slug": "monome",
+  "name": "monome",
+  "version": "2.1.3",
+  "license": "GPL-2.0-only",
+  "author": "Michael Dewberry",
+  "authorEmail": "",
+  "authorUrl": "https://dewb.github.io/monome-rack/general/credits/",
+  "pluginUrl": "https://dewb.github.io/monome-rack",
+  "manualUrl": "https://dewb.github.io/monome-rack",
+  "sourceUrl": "https://github.com/Dewb/monome-rack",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/Dewb/monome-rack/releases",
+  "modules": [
+    {
+      "slug": "whitewhale",
+      "name": "white whale",
+      "description": "grid-enabled probabilistic step sequencer",
+      "modularGridUrl": "https://www.modulargrid.net/e/monome-white-whale",
+      "manualUrl": "https://dewb.github.io/monome-rack/modules/whitewhale",
+      "tags": [
+        "sequencer",
+        "clock generator",
+        "digital",
+        "hardware clone",
+        "external"
+      ]
+    },
+    {
+      "slug": "earthsea",
+      "name": "earthsea",
+      "description": "grid-enabled shape-memory pattern instrument",
+      "modularGridUrl": "https://www.modulargrid.net/e/monome-earthsea",
+      "manualUrl": "https://dewb.github.io/monome-rack/modules/earthsea",
+      "tags": [
+        "sequencer",
+        "digital",
+        "hardware clone",
+        "external"
+      ]
+    },
+    {
+      "slug": "meadowphysics",
+      "name": "meadowphysics",
+      "description": "grid-enabled rhizomatic cascading counter",
+      "modularGridUrl": "https://www.modulargrid.net/e/monome-meadowphysics",
+      "manualUrl": "https://dewb.github.io/monome-rack/modules/meadowphysics",
+      "tags": [
+        "sequencer",
+        "clock generator",
+        "digital",
+        "hardware clone",
+        "external"
+      ]
+    },
+    {
+      "slug": "teletype",
+      "name": "teletype",
+      "description": "algorithmic ecosystem: a dynamic, musical event triggering platform",
+      "modularGridUrl": "https://www.modulargrid.net/e/monome-teletype",
+      "manualUrl": "https://dewb.github.io/monome-rack/modules/teletype",
+      "tags": [
+        "arpeggiator",
+        "clock generator",
+        "clock modulator",
+        "envelope follower",
+        "envelope generator",
+        "function generator",
+        "logic",
+        "quantizer",
+        "random",
+        "sequencer",
+        "slew limiter",
+        "sample and hold",
+        "utility",
+        "digital",
+        "hardware clone",
+        "external"
+      ]
+    },
+    {
+      "slug": "ansible",
+      "name": "ansible",
+      "description": "multi-mode sequencer and control voltage generator, for grid and arc controllers",
+      "modularGridUrl": "https://www.modulargrid.net/e/monome-ansible",
+      "manualUrl": "https://dewb.github.io/monome-rack/modules/ansible",
+      "tags": [
+        "sequencer",
+        "clock generator",
+        "logic",
+        "function generator",
+        "digital",
+        "hardware clone",
+        "external"
+      ]
+    },
+    {
+      "slug": "grid128",
+      "name": "grid 128",
+      "description": "",
+      "manualUrl": "https://dewb.github.io/monome-rack/modules/grids",
+      "tags": [
+        "digital",
+        "hardware clone",
+        "controller"
+      ]
+    },
+    {
+      "slug": "grid64",
+      "name": "grid 64",
+      "description": "",
+      "manualUrl": "https://dewb.github.io/monome-rack/modules/grids",
+      "tags": [
+        "digital",
+        "hardware clone",
+        "controller"
+      ]
+    },
+    {
+      "slug": "grid256",
+      "name": "grid 256",
+      "description": "",
+      "manualUrl": "https://dewb.github.io/monome-rack/modules/grids",
+      "tags": [
+        "digital",
+        "hardware clone",
+        "controller"
+      ]
+    }
+  ]
+}
