@@ -775,3 +775,6 @@
 [submodule "repos/monome"]
 	path = repos/monome
 	url = https://github.com/Dewb/monome-rack.git
+[submodule "repos/Biset"]
+	path = repos/Biset
+	url = https://github.com/gibbonjoyeux/VCV-Biset.git
