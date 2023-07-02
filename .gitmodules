@@ -778,3 +778,6 @@
 [submodule "repos/Biset"]
 	path = repos/Biset
 	url = https://github.com/gibbonjoyeux/VCV-Biset.git
+[submodule "repos/matrix-sequencer"]
+	path = repos/matrix-sequencer
+	url = https://github.com/Retr0-code/Matrix-Sequencer.git
