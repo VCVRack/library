@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -13,6 +13,15 @@
   "donateUrl": "https://paypal.me/sickozell",
   "changelogUrl": "https://github.com/sickozell/SickoCV/blob/main/changelog.md",
   "modules": [
+    {
+      "slug": "Adder8",
+      "name": "Adder8",
+      "description": "8 adder and subtractor",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    },
     {
       "slug": "Blender",
       "name": "Blender",
@@ -75,6 +84,33 @@
       "description": "Calculates sums, differences, multiplications, divisions and averages of 3 CV inputs",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "Clocker",
+      "name": "clocker",
+      "description": "Clock generator with 4 dividers/multipliers and audio metronome",
+      "tags": [
+        "Clock generator",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "CVrouter",
+      "name": "cvRouter",
+      "description": "1>2 voltage controlled switch",
+      "tags": [
+        "Switch",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CVswitcher",
+      "name": "cvSwitcher",
+      "description": "2>1 voltage controlled switch",
+      "tags": [
+        "Switch",
+        "Polyphonic"
       ]
     },
     {

@@ -2719,7 +2719,7 @@
     "modules": {}
   },
   "TriggerFish-Elements": {
-    "buildTimestamp": 1584060037.4262915,
+    "buildTimestamp": 1688525754.361087,
     "creationTimestamp": 1537114678.0,
     "modules": {
       "TfSlop": {
@@ -5065,7 +5065,7 @@
     }
   },
   "HetrickCV": {
-    "buildTimestamp": 1675097682.5601652,
+    "buildTimestamp": 1688525918.4842908,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ASR": {
@@ -5178,6 +5178,9 @@
       },
       "VectorMix": {
         "creationTimestamp": 1675100689.4325426
+      },
+      "Probability": {
+        "creationTimestamp": 1688525920.383178
       }
     }
   },
@@ -8739,7 +8742,7 @@
     "modules": {}
   },
   "Ahornberg": {
-    "buildTimestamp": 1687709757.9275615,
+    "buildTimestamp": 1688525732.290656,
     "creationTimestamp": 1562952023.0,
     "modules": {
       "EqualDivision": {
@@ -11814,7 +11817,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1685376856.1610143,
+    "buildTimestamp": 1688525657.9125376,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -11882,11 +11885,23 @@
       },
       "SickoSampler": {
         "creationTimestamp": 1685377625.331382
+      },
+      "Adder8": {
+        "creationTimestamp": 1688525919.5470803
+      },
+      "Clocker": {
+        "creationTimestamp": 1688525919.6769307
+      },
+      "CVrouter": {
+        "creationTimestamp": 1688525919.79282
+      },
+      "CVswitcher": {
+        "creationTimestamp": 1688525919.9076946
       }
     }
   },
   "SeasideModular": {
-    "buildTimestamp": 1682583022.5889006,
+    "buildTimestamp": 1688525531.2633986,
     "creationTimestamp": 1663459028.233182,
     "modules": {
       "Proteus": {
@@ -11900,6 +11915,12 @@
       },
       "Tala": {
         "creationTimestamp": 1682583023.5890944
+      },
+      "Raga": {
+        "creationTimestamp": 1688525919.2935896
+      },
+      "Blank_20HP": {
+        "creationTimestamp": 1688525919.4285364
       }
     }
   },
@@ -12321,7 +12342,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1683853747.0371423,
+    "buildTimestamp": 1688525828.2025285,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
@@ -12362,6 +12383,15 @@
       },
       "VCAMix4Stereo": {
         "creationTimestamp": 1683854064.6286194
+      },
+      "PolyUnison": {
+        "creationTimestamp": 1688525920.02354
+      },
+      "Reformation": {
+        "creationTimestamp": 1688525920.1484616
+      },
+      "ShapedVCA": {
+        "creationTimestamp": 1688525920.2637389
       }
     }
   },
@@ -12578,6 +12608,27 @@
       },
       "grid256": {
         "creationTimestamp": 1687317424.791068
+      }
+    }
+  },
+  "Biset": {
+    "buildTimestamp": 1688525481.4957604,
+    "creationTimestamp": 1688525918.95731,
+    "modules": {
+      "Biset-Regex": {
+        "creationTimestamp": 1688525919.0585506
+      },
+      "Biset-Regex-Condensed": {
+        "creationTimestamp": 1688525919.171219
+      }
+    }
+  },
+  "matrix-sequencer": {
+    "buildTimestamp": 1688525456.3946664,
+    "creationTimestamp": 1688525920.5276651,
+    "modules": {
+      "matrix-sequencer": {
+        "creationTimestamp": 1688525920.6447093
       }
     }
   }

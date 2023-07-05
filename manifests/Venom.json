@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -83,6 +83,17 @@
       ]
     },
     {
+      "slug": "PolyUnison",
+      "name": "Poly Unison",
+      "description": "Replicate each channel of a polyphonic input with a variable detune spread, and merge the results into a single polyphonic output",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-unison",
+      "tags": [
+        "Polyphonic",
+        "Tuner",
+        "Utility"
+      ]
+    },
+    {
       "slug": "Recurse",
       "name": "Recurse",
       "description": "Recursively process an input via Send/Return, with built in scaling and offset cababilities",
@@ -107,6 +118,20 @@
       ]
     },
     {
+      "slug": "Reformation",
+      "name": "Reformation",
+      "description": "Transform CV or audio by mapping way point voltages to new values",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#reformation",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Polyphonic",
+        "Utility",
+        "Voltage-controlled amplifier",
+        "Waveshaper"
+      ]
+    },
+    {
       "slug": "RhythmExplorer",
       "name": "Rhythm Explorer",
       "description": "Random rhythm generator, trigger sequencer and clock divider",
@@ -115,6 +140,20 @@
         "Clock modulator",
         "Random",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "ShapedVCA",
+      "name": "Shaped VCA",
+      "description": "Stereo VCA with a variable response curve, hard/soft clipping, ring modulation, and oversampling",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#shaped-vca",
+      "tags": [
+        "Attenuator",
+        "Polyphonic",
+        "Ring modulator",
+        "Utility",
+        "Voltage-controlled amplifier",
+        "Waveshaper"
       ]
     },
     {

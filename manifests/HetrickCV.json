@@ -1,7 +1,7 @@
 {
   "slug": "HetrickCV",
   "name": "HetrickCV",
-  "version": "2.1.0",
+  "version": "2.2.1",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -276,6 +276,15 @@
       ]
     },
     {
+      "slug": "Probability",
+      "name": "Probability",
+      "description": "Sends one gate to two places randomly",
+      "tags": [
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "RandomGates",
       "name": "Random Gates",
       "description": "Generates up to eight random gates.",
@@ -320,10 +329,11 @@
     },
     {
       "slug": "VectorMix",
-      "name": "4-Way Cartesian Mixer",
+      "name": "Vector Mix",
       "description": "Two-dimensional crossfading between four signals.",
       "tags": [
-        "Mixer"
+        "Mixer",
+        "Polyphonic"
       ]
     },
     {

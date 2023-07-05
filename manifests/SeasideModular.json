@@ -1,7 +1,7 @@
 {
   "slug": "SeasideModular",
   "name": "Seaside Modular",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "license": "MIT",
   "brand": "Seaside Modular",
   "author": "Blue Nautilus",
@@ -34,7 +34,8 @@
       ],
       "keywords": [
         "Drone",
-        "Tanpura"
+        "Tanpura",
+        "Indian"
       ]
     },
     {
@@ -54,12 +55,36 @@
       "name": "Tala",
       "description": "Tala is a sample-based tabla machine, simulating the Indian drums.",
       "tags": [
-        "Drum",
-        "Drums",
-        "Percussion"
+        "Drum"
       ],
       "keywords": [
-        "Tabla"
+        "Tabla",
+        "Indian"
+      ]
+    },
+    {
+      "slug": "Raga",
+      "name": "Raga",
+      "description": "Raga is a 19-string sitar simulator. ",
+      "tags": [
+        "Physical modeling",
+        "Synth voice"
+      ],
+      "keywords": [
+        "Indian",
+        "sitar",
+        "strings"
+      ]
+    },
+    {
+      "slug": "Blank_20HP",
+      "name": "Blank_20HP",
+      "description": "Seaside Modular Blank Panel",
+      "tags": [
+        "Blank"
+      ],
+      "keywords": [
+        "starfish"
       ]
     }
   ]
