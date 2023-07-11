@@ -1,7 +1,7 @@
 {
   "slug": "Cytomic",
   "name": "Cytomic",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "proprietary",
   "brand": "Cytomic",
   "author": "Cytomic",
@@ -15,7 +15,7 @@
       "slug": "CF100",
       "name": "CF100 VCF",
       "description": "Discrete OTA JH VCF",
-      "keywords": "CEM2040 Prophet Cascade Multimode Discrete OTA JH VCF",
+      "keywords": "SSM2040 SSI2140 Prophet Cascade Multimode Discrete OTA JH VCF",
       "manualUrl": "https://cytomic.com/vcv-rack-modules#cf100",
       "modularGridUrl": "",
       "tags": [
