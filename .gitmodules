@@ -781,3 +781,6 @@
 [submodule "repos/matrix-sequencer"]
 	path = repos/matrix-sequencer
 	url = https://github.com/Retr0-code/Matrix-Sequencer.git
+[submodule "repos/pachde-one"]
+	path = repos/pachde-one
+	url = https://github.com/Paul-Dempsey/pachde1.git
