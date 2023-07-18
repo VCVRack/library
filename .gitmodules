@@ -784,3 +784,6 @@
 [submodule "repos/pachde-one"]
 	path = repos/pachde-one
 	url = https://github.com/Paul-Dempsey/pachde1.git
+[submodule "repos/TheAllElectricSmartGrid"]
+	path = repos/TheAllElectricSmartGrid
+	url = https://github.com/jvictor0/theallelectricsmartgrid.git
