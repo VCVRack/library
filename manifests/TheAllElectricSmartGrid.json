@@ -1,0 +1,46 @@
+{
+  "slug": "TheAllElectricSmartGrid",
+  "name": "TheAllElectricSmartGrid",
+  "version": "2.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "SmartGridMusic",
+  "author": "Joyo Victor",
+  "authorEmail": "joyofresh@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://jvictor0.github.io/theallelectricsmartgrid/lamejuis",
+  "sourceUrl": "https://github.com/jvictor0/theallelectricsmartgrid",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "LameJuis",
+      "name": "LameJuis",
+      "description": "Logic Matrix and Just Intonation Sequencer.",
+      "tags": [
+        "Logic",
+        "Polyphonic",
+        "Quantizer",
+        "Sequencer"
+      ],
+      "keywords": [
+        "matrix",
+        "counterpoint",
+        "just",
+        "intonation",
+        "microtonal",
+        "xen",
+        "xenharmonic"
+      ]
+    },
+    {
+      "slug": "LatticeExpander",
+      "name": "LatticeExpander",
+      "description": "Blinkin Lights for Lattice Orientation",
+      "tags": [
+        "expander",
+        "visual"
+      ]
+    }
+  ]
+}

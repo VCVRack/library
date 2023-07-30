@@ -9,7 +9,7 @@
   "pluginUrl": "https://github.com/The-Great-Assyr/Chiptuner",
   "sourceUrl": "https://github.com/The-Great-Assyr/Chiptuner",
   "manualUrl": "https://github.com/The-Great-Assyr/Chiptuner/blob/master/README.md",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "modules": [
     {
       "slug": "Blank1HP",

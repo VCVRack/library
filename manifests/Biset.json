@@ -1,7 +1,7 @@
 {
   "slug": "Biset",
   "name": "Biset",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "MIT",
   "brand": "Biset",
   "author": "Biset",
@@ -16,7 +16,6 @@
     {
       "slug": "Biset-Regex",
       "name": "Regex",
-      "hidden": false,
       "description": "A text based pattern sequencer for rythm and pitch",
       "tags": [
         "Sequencer",
@@ -33,7 +32,6 @@
     {
       "slug": "Biset-Regex-Condensed",
       "name": "Regex Condensed",
-      "hidden": false,
       "description": "A text based pattern sequencer for rythm and pitch",
       "tags": [
         "Sequencer",

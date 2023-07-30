@@ -1,7 +1,7 @@
 {
   "slug": "Ohmer",
   "name": "Ohmer",
-  "version": "2.2.7",
+  "version": "2.3.0",
   "license": "BSD-3-Clause",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
@@ -51,11 +51,12 @@
     {
       "slug": "PolaritySwitch",
       "name": "Polarity Switch",
-      "description": "Signal is routed to \"P\" if its voltage is positive. Otherwise, it's routed to \"N\"",
+      "description": "Signal is routed to \"P\" if its voltage is positive. Otherwise, it's routed to \"N\" but as positive (absolute value)",
       "tags": [
         "Dual",
         "Switch",
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {

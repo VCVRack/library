@@ -1,6 +1,6 @@
 {
   "slug": "Ahornberg",
-  "version": "2.1.12",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "name": "Ahornberg",
   "brand": "Ahornberg",
@@ -56,6 +56,18 @@
         "Utility",
         "Visual",
         "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "TapeInspector",
+      "name": "Tape Inspector",
+      "description": "visualizes audio on tape",
+      "hidden": false,
+      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#tape-inspector",
+      "tags": [
+        "Expander",
+        "Utility",
+        "Visual"
       ]
     },
     {

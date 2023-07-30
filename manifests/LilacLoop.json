@@ -1,7 +1,7 @@
 {
   "slug": "LilacLoop",
   "name": "Lilac Loop",
-  "version": "2.0.0",
+  "version": "2.1.4",
   "license": "GPL-3.0-or-later",
   "brand": "Lilac",
   "author": "Gavin Rough",
@@ -20,6 +20,34 @@
         "Recording",
         "Sampler"
       ]
+    },
+    {
+      "slug": "LooperFeedbackExpander",
+      "name": "Looper Feedback Expander",
+      "description": "Place this expander on the right-hand side of Looper to process the feedback loop",
+      "manualUrl": "https://grough.github.io/lilac-loop-vcv/#feedback-expander",
+      "tags": [
+        "Expander",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "LooperTwo",
+      "name": "Looper Two",
+      "description": "Work in progress",
+      "tags": [
+        "Polyphonic",
+        "Recording",
+        "Sampler"
+      ],
+      "hidden": true
+    },
+    {
+      "slug": "Lopper",
+      "name": "Lopper",
+      "description": "Work in progress",
+      "tags": [],
+      "hidden": true
     }
   ]
 }

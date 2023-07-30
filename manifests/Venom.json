@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.3.0",
+  "version": "2.3.2",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -25,7 +25,17 @@
         "Polyphonic",
         "Random",
         "Switch",
-        "Utility"
+        "Utility",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "BernoulliSwitchExpander",
+      "name": "Bernoulli Switch Expander",
+      "description": "Additional CV inputs and attenuators for Bernoulli Switch",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bernoulli-switch-expander",
+      "tags": [
+        "Expander"
       ]
     },
     {

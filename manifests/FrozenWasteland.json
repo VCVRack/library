@@ -1,7 +1,7 @@
 {
   "slug": "FrozenWasteland",
   "name": "Frozen Wasteland",
-  "version": "2.0.7",
+  "version": "2.1.0",
   "author": "almostEric",
   "license": "GPL-3.0-only",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
@@ -66,6 +66,14 @@
       ]
     },
     {
+      "slug": "EverlastingGlottalStopper",
+      "name": "Everlasting Glottal Stopper",
+      "description": "Vocal Tract simulating VCO",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
       "slug": "FillingStation",
       "name": "Filling Station",
       "description": "Multi-Output Sequencer",
@@ -74,9 +82,9 @@
       ]
     },
     {
-      "slug": "EverlastingGlottalStopper",
-      "name": "Everlasting Glottal Stopper",
-      "description": "Vocal Tract simulating VCO",
+      "slug": "FormalDinner",
+      "name": "Formal Dinner",
+      "description": "Formant Wave VCO",
       "tags": [
         "Oscillator"
       ]
@@ -251,7 +259,7 @@
     {
       "slug": "PWGridControlExpander",
       "name": "Portland Weather - Grid Control Expander",
-      "description": "Allows Portland Weather be modulated in a grid fashion",
+      "description": "Allows Portland Weather to be modulated in a grid fashion",
       "tags": [
         "Expander"
       ]
@@ -279,6 +287,14 @@
       "tags": [
         "Expander",
         "Random"
+      ]
+    },
+    {
+      "slug": "QARGridControlExpander",
+      "name": "QAR - Grid Control Expander",
+      "description": "Allows some QAR expanders to be modulated in a grid fashion",
+      "tags": [
+        "Expander"
       ]
     },
     {

@@ -1,0 +1,63 @@
+{
+  "slug": "pachde-one",
+  "name": "pachde One",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "pachde",
+  "author": "pachde",
+  "authorEmail": "pcdempsey@live.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/Paul-Dempsey/pachde1/blob/main/docs/index.md",
+  "sourceUrl": "https://github.com/Paul-Dempsey/pachde1",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "pachde-null",
+      "name": "Null",
+      "manualUrl": "https://github.com/Paul-Dempsey/pachde1/blob/main/docs/Null.md",
+      "description": "A discreet resizable blank panel with themes, colors, and animation",
+      "tags": [
+        "Visual",
+        "Blank",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "pachde-info",
+      "name": "Info",
+      "manualUrl": "https://github.com/Paul-Dempsey/pachde1/blob/main/docs/Info.md",
+      "description": "Resizable text notes with themes, colors, and animation",
+      "tags": [
+        "Visual",
+        "Blank",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "pachde-imagine",
+      "name": "Imagine",
+      "manualUrl": "https://github.com/Paul-Dempsey/pachde1/blob/main/docs/Imagine.md",
+      "description": "An eccentric source of voltage, gates, and triggers from an image",
+      "tags": [
+        "Visual",
+        "Sampler",
+        "Sequencer",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "pachde-copper",
+      "name": "Copper",
+      "manualUrl": "https://github.com/Paul-Dempsey/pachde1/blob/main/docs/Copper.md",
+      "description": "A color picker with modulation and outputs",
+      "tags": [
+        "Visual",
+        "Controller",
+        "Polyphonic",
+        "Utility"
+      ]
+    }
+  ]
+}
