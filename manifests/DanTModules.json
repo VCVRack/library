@@ -1,12 +1,14 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "license": "proprietary",
   "brand": "DanT",
   "author": "dtilley",
+  "authorUrl": "https://www.youtube.com/@MiffReal",
   "pluginUrl": "https://library.vcvrack.com/DanTModules",
-  "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual",
+  "manualUrl": "https://miff-real.github.io/DanTModules-Manual/",
+  "changelogUrl": "https://github.com/Miff-Real/DanTModules-Manual/discussions",
   "donateUrl": "https://monzo.me/danieltilley2",
   "modules": [
     {
@@ -18,7 +20,7 @@
         "Low-frequency oscillator"
       ],
       "keywords": "wave waveshape waveform six points generator",
-      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/wavulike.md"
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/wavulike/"
     },
     {
       "slug": "TMNT",
@@ -29,7 +31,7 @@
         "Sequencer"
       ],
       "keywords": "time mutate triggers linear",
-      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/tmnt.md"
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/tmnt/"
     },
     {
       "slug": "5Splice",
@@ -41,7 +43,7 @@
         "Switch"
       ],
       "keywords": "splice five switch sequential window",
-      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/5splice.md"
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/5splice/"
     },
     {
       "slug": "PKorre",
@@ -51,7 +53,7 @@
         "Utility"
       ],
       "keywords": "correlation meter core phase",
-      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/pkorre.md"
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/pkorre/"
     },
     {
       "slug": "Kanal",
@@ -61,7 +63,7 @@
         "Utility"
       ],
       "keywords": "canal shaper waveshaper",
-      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/kanal.md"
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/kanal/"
     },
     {
       "slug": "BillyG8s",
@@ -71,7 +73,7 @@
         "Utility"
       ],
       "keywords": "billy gates generator envelope slope",
-      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/billyg8s.md"
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/billyg8s/"
     },
     {
       "slug": "BrightIdea",
@@ -81,7 +83,7 @@
         "Utility"
       ],
       "keywords": "cable opacity tension room brightness light bloom control",
-      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/brightidea.md"
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/brightidea/"
     },
     {
       "slug": "Nonaquant",
@@ -91,7 +93,7 @@
         "Quantizer"
       ],
       "keywords": "nine octaves nona quant",
-      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/nonaquant.md"
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/nonaquant/"
     },
     {
       "slug": "Chromagica",
@@ -102,7 +104,7 @@
         "Visual"
       ],
       "keywords": "chroma magica cv rgb red green blue theme",
-      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/chromagica.md"
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/chromagica/"
     },
     {
       "slug": "Chromakey",
@@ -112,7 +114,7 @@
         "Visual"
       ],
       "keywords": "chroma magical cv blank theme green cyan magenta greenscreen",
-      "manualUrl": "https://github.com/Miff-Real/DanTModules-Manual/blob/master/chromakey.md"
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/chromakey/"
     },
     {
       "slug": "PolySplice",
@@ -124,7 +126,18 @@
         "Random",
         "Switch"
       ],
-      "keywords": "splice sequential window slew"
+      "keywords": "splice sequential window slew",
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/polysplice/"
+    },
+    {
+      "slug": "Kalkatron",
+      "name": "Kalkatron",
+      "description": "[26hp] Utility module that can track a signal and perform basic maths operations upon it.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ],
+      "keywords": "calculator maths add plus minus times multiply subtract divide count"
     }
   ]
 }
