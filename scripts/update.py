@@ -17,7 +17,7 @@ MANIFESTS_DIR = "manifests"
 RACK_SYSTEM_DIR = "../Rack2"
 RACK_USER_DIR = "$HOME/.Rack2"
 SCREENSHOTS_DIR = os.path.join(RACK_USER_DIR, "screenshots")
-PLUGIN_DIR = os.path.join(RACK_USER_DIR, "plugins")
+PLUGIN_DIR = os.path.join(RACK_USER_DIR, "plugins-lin-x64")
 
 # Update git before continuing
 common.system("git pull")
@@ -73,9 +73,9 @@ for plugin_path in plugin_paths:
 	# Get library manifest
 	library_manifest_filename = os.path.join(MANIFESTS_DIR, f"{slug}.json")
 	# Warn if manifest is new
-	if not os.path.exists(library_manifest_filename):
-		print(f"Manifest {slug} is new, press enter to approve.")
-		input()
+	# if not os.path.exists(library_manifest_filename):
+	# 	print(f"Manifest {slug} is new, press enter to approve.")
+	# 	input()
 
 	if os.path.isdir(plugin_path):
 		# Check if the library manifest is up to date
@@ -92,7 +92,10 @@ for plugin_path in plugin_paths:
 		print(f"Building {slug}")
 		try:
 			common.system(f'cd "{TOOLCHAIN_DIR}" && make plugin-build-clean')
-			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j$(nproc) plugin-build PLUGIN_DIR="{plugin_path}"')
+			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j2 plugin-build-mac-arm64 PLUGIN_DIR="{plugin_path}"')
+			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j2 plugin-build-mac-x64 PLUGIN_DIR="{plugin_path}"')
+			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j2 plugin-build-win-x64 PLUGIN_DIR="{plugin_path}"')
+			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j2 plugin-build-lin-x64 PLUGIN_DIR="{plugin_path}"')
 			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/* "{PACKAGES_DIR}"/')
 			# Install Linux package for testing
 			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/*-lin-x64.vcvplugin "{PLUGIN_DIR}"/')
@@ -157,13 +160,17 @@ print(f"Press enter to generate screenshots, upload packages, upload screenshots
 input()
 
 # Generate screenshots
-common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack -t 4")
+try:
+	common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack -t 4")
+except:
+	print(f"Rack failed! Enter to continue if desired")
+common.system("cd ../screenshots && make -j$(nproc)")
 
 # Upload packages
 common.system("cd ../packages && make upload")
 
 # Upload screenshots
-common.system("cd ../screenshots && make -j$(nproc) upload")
+common.system("cd ../screenshots && make upload")
 
 # Commit repository
 common.system("git add manifests")
