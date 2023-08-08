@@ -1,7 +1,7 @@
 {
   "slug": "TheAllElectricSmartGrid",
   "name": "TheAllElectricSmartGrid",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "license": "GPL-3.0-only",
   "brand": "SmartGridMusic",
   "author": "Joyo Victor",
@@ -11,7 +11,7 @@
   "manualUrl": "https://jvictor0.github.io/theallelectricsmartgrid/lamejuis",
   "sourceUrl": "https://github.com/jvictor0/theallelectricsmartgrid",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/jvictor0/theallelectricsmartgrid/blob/main/CHANGELOG.txt",
   "modules": [
     {
       "slug": "LameJuis",

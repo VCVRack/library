@@ -1,7 +1,7 @@
 {
   "slug": "HetrickCV",
   "name": "HetrickCV",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -198,6 +198,7 @@
       "tags": [
         "Noise",
         "Oscillator",
+        "Low-frequency Oscillator",
         "Random"
       ]
     },
@@ -217,6 +218,16 @@
         "Panning",
         "VCA",
         "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "GateDelay",
+      "name": "Gate Delay",
+      "description": "Trigger input to delayed Gate output",
+      "tags": [
+        "Utility",
+        "Clock Modulator",
         "Polyphonic"
       ]
     },
@@ -276,9 +287,248 @@
       ]
     },
     {
+      "slug": "PhaseDrivenSequencer",
+      "name": "Phase Driven Sequencer",
+      "description": "A 16-step gate and voltage sequencer driven by a phasor.",
+      "tags": [
+        "Clock Modulator",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhaseDrivenSequencer32",
+      "name": "Phase Driven Sequencer 32",
+      "description": "A 32-step gate and voltage sequencer driven by a phasor.",
+      "tags": [
+        "Clock Modulator",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorAnalyzer",
+      "name": "Phasor Analyzer",
+      "description": "Detects multiple movement parameters from an incoming phasor signal.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorDivMult",
+      "name": "Phasor Divide & Multiply",
+      "description": "Processes a phasor signal and outputs a phasor at a precise, variable time multiple or division.",
+      "tags": [
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorEuclidean",
+      "name": "Phasor to Euclidean",
+      "description": "Generates a Euclidean rhythm via a 0-5V Phasor input",
+      "tags": [
+        "Clock Generator",
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorGates",
+      "name": "Phasor to Gates",
+      "description": "An 8-step gate sequencer driven by a phasor.",
+      "tags": [
+        "Clock Modulator",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorGates32",
+      "name": "Phasor to Gates 32",
+      "description": "A 32-step gate sequencer driven by a phasor.",
+      "tags": [
+        "Clock Modulator",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorGates64",
+      "name": "Phasor to Gates 64",
+      "description": "A 64-step gate sequencer driven by a phasor.",
+      "tags": [
+        "Clock Modulator",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorGen",
+      "name": "Phasor Generator",
+      "description": "Generates a phasor along with time-synced gates.",
+      "tags": [
+        "Oscillator",
+        "Clock Generator",
+        "Clock Modulator",
+        "Low-frequency Oscillator",
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorGeometry",
+      "name": "Phasor Geometry",
+      "description": "Processes phasor signals with useful waveshapers.",
+      "tags": [
+        "Waveshaper",
+        "Distortion",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorOctature",
+      "name": "Phasor Octature",
+      "description": "Takes a phasor and rotates it at 45 degree intervals.",
+      "tags": [
+        "Waveshaper",
+        "Low-frequency Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorQuadrature",
+      "name": "Phasor Quadrature",
+      "description": "Shapes a phasor into a sine, and outputs both phasors and sines at 90 degree intervals.",
+      "tags": [
+        "Waveshaper",
+        "Low-frequency Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorRandom",
+      "name": "Phasor Randomizer",
+      "description": "Randomizes phasor signals to create different offset patterns for sequencers.",
+      "tags": [
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorRanger",
+      "name": "Phasor Ranger",
+      "description": "Converts HetrickCV phasor signals (and any other unipolar signal) to other useful voltage ranges.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorReset",
+      "name": "Phasor Reset",
+      "description": "Duplicates an incoming phasor, but allows you to reset it independently of the input.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorRhythmGroup",
+      "name": "Phasor Rhythm Group",
+      "description": "Generates a clock by dividing a phasor into a series of triggers, and then groups the clock into two subrhythms.",
+      "tags": [
+        "Clock Generator",
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorShape",
+      "name": "Phasor Shaper",
+      "description": "Processes phasor signals in interesting ways for sequence modification or phase distortion synthesis.",
+      "tags": [
+        "Waveshaper",
+        "Distortion",
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorShift",
+      "name": "Phasor Shift",
+      "description": "Processes phasor signals and provides a phase shifted output, optionally quantized to step distances.",
+      "tags": [
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorStutter",
+      "name": "Phasor Stutter",
+      "description": "Processes phasor signals and adds stutters/ratchets/repeats within substeps.",
+      "tags": [
+        "Waveshaper",
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorSubstepShape",
+      "name": "Phasor Sub-Step Shaper",
+      "description": "Processes individual steps of phasor signals in interesting ways for sequence modification or phase distortion synthesis.",
+      "tags": [
+        "Waveshaper",
+        "Distortion",
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorTimetable",
+      "name": "Phasor Timetables",
+      "description": "Processes a phasor signal and outputs phasors and standard timing ratios.",
+      "tags": [
+        "Waveshaper",
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorToClock",
+      "name": "Phasor To Clock",
+      "description": "Generates a clock by dividing a phasor into a series of gates.",
+      "tags": [
+        "Clock Generator",
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorToLFO",
+      "name": "Phasor to LFO",
+      "description": "Shapes incoming phasor signals to useful, morphing LFO waveshapes. These waveforms are not anti-aliased, hence the LFO designation.",
+      "tags": [
+        "Waveshaper",
+        "Low-frequency Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorToWaveforms",
+      "name": "Phasor to Waveforms",
+      "description": "Shapes incoming phasor signals to useful, static LFO waveshapes. These waveforms are not anti-aliased, hence the LFO designation.",
+      "tags": [
+        "Waveshaper",
+        "Low-frequency Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Probability",
       "name": "Probability",
-      "description": "Sends one gate to two places randomly",
+      "description": "Sends one gate to two places randomly.",
       "tags": [
         "Random",
         "Polyphonic"

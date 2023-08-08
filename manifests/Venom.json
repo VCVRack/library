@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.3.2",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -192,6 +192,15 @@
         "Ring modulator",
         "Utility",
         "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "VenomBlank",
+      "name": "Venom Blank",
+      "description": "A 3hp blank with standard Venom themes",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#venom-blank",
+      "tags": [
+        "Blank"
       ]
     },
     {

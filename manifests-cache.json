@@ -5065,7 +5065,7 @@
     }
   },
   "HetrickCV": {
-    "buildTimestamp": 1688525918.4842908,
+    "buildTimestamp": 1691452799.018081,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ASR": {
@@ -5181,6 +5181,81 @@
       },
       "Probability": {
         "creationTimestamp": 1688525920.383178
+      },
+      "GateDelay": {
+        "creationTimestamp": 1691452799.6301367
+      },
+      "PhaseDrivenSequencer": {
+        "creationTimestamp": 1691452799.7440398
+      },
+      "PhaseDrivenSequencer32": {
+        "creationTimestamp": 1691452799.8648095
+      },
+      "PhasorAnalyzer": {
+        "creationTimestamp": 1691452799.975006
+      },
+      "PhasorDivMult": {
+        "creationTimestamp": 1691452800.0900118
+      },
+      "PhasorEuclidean": {
+        "creationTimestamp": 1691452800.2044291
+      },
+      "PhasorGates": {
+        "creationTimestamp": 1691452800.319144
+      },
+      "PhasorGates32": {
+        "creationTimestamp": 1691452800.430511
+      },
+      "PhasorGates64": {
+        "creationTimestamp": 1691452800.542241
+      },
+      "PhasorGen": {
+        "creationTimestamp": 1691452800.6517842
+      },
+      "PhasorGeometry": {
+        "creationTimestamp": 1691452800.7622898
+      },
+      "PhasorOctature": {
+        "creationTimestamp": 1691452800.8734694
+      },
+      "PhasorQuadrature": {
+        "creationTimestamp": 1691452800.9833891
+      },
+      "PhasorRandom": {
+        "creationTimestamp": 1691452801.0932493
+      },
+      "PhasorRanger": {
+        "creationTimestamp": 1691452801.2088795
+      },
+      "PhasorReset": {
+        "creationTimestamp": 1691452801.321709
+      },
+      "PhasorRhythmGroup": {
+        "creationTimestamp": 1691452801.4308927
+      },
+      "PhasorShape": {
+        "creationTimestamp": 1691452801.5392225
+      },
+      "PhasorShift": {
+        "creationTimestamp": 1691452801.6474965
+      },
+      "PhasorStutter": {
+        "creationTimestamp": 1691452801.7604885
+      },
+      "PhasorSubstepShape": {
+        "creationTimestamp": 1691452801.8726249
+      },
+      "PhasorTimetable": {
+        "creationTimestamp": 1691452801.9890573
+      },
+      "PhasorToClock": {
+        "creationTimestamp": 1691452802.1024036
+      },
+      "PhasorToLFO": {
+        "creationTimestamp": 1691452802.2211752
+      },
+      "PhasorToWaveforms": {
+        "creationTimestamp": 1691452802.331147
       }
     }
   },
@@ -12378,7 +12453,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1690733254.6258519,
+    "buildTimestamp": 1691452602.6596484,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
@@ -12431,6 +12506,9 @@
       },
       "BernoulliSwitchExpander": {
         "creationTimestamp": 1690733275.9431455
+      },
+      "VenomBlank": {
+        "creationTimestamp": 1691452799.5085075
       }
     }
   },
@@ -12699,7 +12777,7 @@
     }
   },
   "TheAllElectricSmartGrid": {
-    "buildTimestamp": 1690731117.8214862,
+    "buildTimestamp": 1691452435.8043077,
     "creationTimestamp": 1690733275.6031704,
     "modules": {
       "LameJuis": {
