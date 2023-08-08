@@ -1641,5 +1641,12 @@
     "vcvUrl": "https://library.vcvrack.com/monome/ansible",
     "mgUrl": "https://www.modulargrid.net/e/monome-ansible",
     "mgModuleId": 9452
+  },
+  {
+    "pluginSlug": "Doepfer",
+    "moduleSlug": "A124",
+    "vcvUrl": "https://library.vcvrack.com/Doepfer/A124",
+    "mgUrl": "https://www.modulargrid.net/e/doepfer-a-124",
+    "mgModuleId": 36
   }
 ]

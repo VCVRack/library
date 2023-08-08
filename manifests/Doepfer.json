@@ -1,7 +1,7 @@
 {
   "slug": "Doepfer",
   "name": "Doepfer",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "proprietary",
   "brand": "Doepfer",
   "author": "VCV",
@@ -15,11 +15,13 @@
       "slug": "A124",
       "name": "A-124 VCF5 Wasp Filter",
       "description": "2-pole CMOS-based state-variable filter",
-      "manualUrl": "https://vcvrack.com/Doepfer#A124",
       "keywords": "CMOS SVF",
+      "manualUrl": "https://vcvrack.com/Doepfer#A124",
+      "modularGridUrl": "https://www.modulargrid.net/e/doepfer-a-124",
       "tags": [
         "Filter",
-        "Polyphonic"
+        "Polyphonic",
+        "Hardware clone"
       ]
     }
   ]
