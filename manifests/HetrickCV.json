@@ -1,7 +1,7 @@
 {
   "slug": "HetrickCV",
   "name": "HetrickCV",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -312,6 +312,18 @@
       "description": "Detects multiple movement parameters from an incoming phasor signal.",
       "tags": [
         "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorBurstGen",
+      "name": "Phasor Burst Generator",
+      "description": "Generates a phasor repeatedly for a given number of times.",
+      "tags": [
+        "Oscillator",
+        "Clock Generator",
+        "Clock Modulator",
+        "Low-frequency Oscillator",
         "Polyphonic"
       ]
     },

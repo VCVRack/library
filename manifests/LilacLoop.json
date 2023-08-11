@@ -1,7 +1,7 @@
 {
   "slug": "LilacLoop",
   "name": "Lilac Loop",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "license": "GPL-3.0-or-later",
   "brand": "Lilac",
   "author": "Gavin Rough",
@@ -32,6 +32,16 @@
       ]
     },
     {
+      "slug": "LoopMutator",
+      "name": "Loop Mutator",
+      "description": "Work in progress",
+      "tags": [
+        "Recording",
+        "Sampler"
+      ],
+      "hidden": false
+    },
+    {
       "slug": "LooperTwo",
       "name": "Looper Two",
       "description": "Work in progress",
@@ -40,7 +50,7 @@
         "Recording",
         "Sampler"
       ],
-      "hidden": true
+      "hidden": false
     },
     {
       "slug": "Lopper",

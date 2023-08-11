@@ -1732,7 +1732,7 @@
     }
   },
   "BaconMusic": {
-    "buildTimestamp": 1673293606.7646642,
+    "buildTimestamp": 1691740727.6885324,
     "creationTimestamp": 1521929448.0,
     "modules": {
       "HarMoNee": {
@@ -5065,7 +5065,7 @@
     }
   },
   "HetrickCV": {
-    "buildTimestamp": 1691452799.018081,
+    "buildTimestamp": 1691740113.5362856,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ASR": {
@@ -5256,6 +5256,9 @@
       },
       "PhasorToWaveforms": {
         "creationTimestamp": 1691452802.331147
+      },
+      "PhasorBurstGen": {
+        "creationTimestamp": 1691740728.1658375
       }
     }
   },
@@ -9879,7 +9882,7 @@
     }
   },
   "LilacLoop": {
-    "buildTimestamp": 1690733274.542375,
+    "buildTimestamp": 1691739597.6706858,
     "creationTimestamp": 1603081447.3990774,
     "modules": {
       "Looper": {
@@ -9893,6 +9896,9 @@
       },
       "Lopper": {
         "creationTimestamp": 1690733276.6356752
+      },
+      "LoopMutator": {
+        "creationTimestamp": 1691740728.2846987
       }
     }
   },
@@ -12411,7 +12417,7 @@
     }
   },
   "Airwin2Rack": {
-    "buildTimestamp": 1687710123.4108846,
+    "buildTimestamp": 1691740678.9655335,
     "creationTimestamp": 1675100686.7833567,
     "modules": {
       "Airwin2Rack": {
@@ -12699,7 +12705,7 @@
     }
   },
   "monome": {
-    "buildTimestamp": 1687709684.6115656,
+    "buildTimestamp": 1691739892.638168,
     "creationTimestamp": 1687317423.8644073,
     "modules": {
       "whitewhale": {
@@ -12777,7 +12783,7 @@
     }
   },
   "TheAllElectricSmartGrid": {
-    "buildTimestamp": 1691452435.8043077,
+    "buildTimestamp": 1691739906.2347188,
     "creationTimestamp": 1690733275.6031704,
     "modules": {
       "LameJuis": {
