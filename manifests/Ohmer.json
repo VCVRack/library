@@ -1,7 +1,7 @@
 {
   "slug": "Ohmer",
   "name": "Ohmer",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "BSD-3-Clause",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
@@ -27,7 +27,8 @@
       "description": "Rotate Klok Divider (RKD) module (inspired from 4ms RCD hardware)",
       "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/res/Manuals/RKD_BRK_Manual.pdf",
       "tags": [
-        "Clock modulator"
+        "Clock modulator",
+        "Sequencer"
       ]
     },
     {
@@ -37,6 +38,7 @@
       "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/res/Manuals/RKD_BRK_Manual.pdf",
       "tags": [
         "Clock modulator",
+        "Sequencer",
         "Expander"
       ]
     },
@@ -51,11 +53,10 @@
     {
       "slug": "PolaritySwitch",
       "name": "Polarity Switch",
-      "description": "Signal is routed to \"P\" if its voltage is positive. Otherwise, it's routed to \"N\" but as positive (absolute value)",
+      "description": "Signal is routed to \"P\" if its voltage is positive. Otherwise, it's routed to \"N\" (but as positive equivalent / absolute value)",
       "tags": [
         "Dual",
         "Switch",
-        "Utility",
         "Polyphonic"
       ]
     },
