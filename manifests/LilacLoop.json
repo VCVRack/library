@@ -1,7 +1,7 @@
 {
   "slug": "LilacLoop",
   "name": "Lilac Loop",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "license": "GPL-3.0-or-later",
   "brand": "Lilac",
   "author": "Gavin Rough",
@@ -39,7 +39,7 @@
         "Recording",
         "Sampler"
       ],
-      "hidden": false
+      "hidden": true
     },
     {
       "slug": "LooperTwo",
@@ -50,7 +50,7 @@
         "Recording",
         "Sampler"
       ],
-      "hidden": false
+      "hidden": true
     },
     {
       "slug": "Lopper",
