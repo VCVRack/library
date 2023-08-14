@@ -1,7 +1,7 @@
 {
   "slug": "VCV-Drums",
   "name": "VCV Drums",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "license": "https://vcvrack.com/eula",
   "brand": "VCV",
   "author": "VCV",
@@ -15,6 +15,7 @@
       "slug": "DrumMachine",
       "name": "Drum Machine",
       "description": "",
+      "manualUrl": "https://vcvrack.com/Drums#DrumMachine",
       "tags": [
         "Drum",
         "Mixer"
@@ -24,6 +25,7 @@
       "slug": "Kick",
       "name": "Kick",
       "description": "",
+      "manualUrl": "https://vcvrack.com/Drums#Kick",
       "tags": [
         "Drum"
       ]
@@ -32,6 +34,7 @@
       "slug": "Snare",
       "name": "Snare",
       "description": "",
+      "manualUrl": "https://vcvrack.com/Drums#Snare",
       "tags": [
         "Drum"
       ]
@@ -40,6 +43,7 @@
       "slug": "Tom",
       "name": "Tom",
       "description": "",
+      "manualUrl": "https://vcvrack.com/Drums#Tom",
       "tags": [
         "Drum"
       ]
@@ -48,6 +52,7 @@
       "slug": "Rim",
       "name": "Rim",
       "description": "",
+      "manualUrl": "https://vcvrack.com/Drums#Rim",
       "tags": [
         "Drum"
       ]
@@ -56,6 +61,7 @@
       "slug": "Clap",
       "name": "Clap",
       "description": "",
+      "manualUrl": "https://vcvrack.com/Drums#Clap",
       "tags": [
         "Drum"
       ]
@@ -64,6 +70,7 @@
       "slug": "ClosedHat",
       "name": "Closed Hat",
       "description": "",
+      "manualUrl": "https://vcvrack.com/Drums#ClosedHat",
       "tags": [
         "Drum"
       ]
@@ -72,6 +79,7 @@
       "slug": "OpenHat",
       "name": "Open Hat",
       "description": "",
+      "manualUrl": "https://vcvrack.com/Drums#OpenHat",
       "tags": [
         "Drum"
       ]
@@ -80,6 +88,7 @@
       "slug": "Crash",
       "name": "Crash",
       "description": "",
+      "manualUrl": "https://vcvrack.com/Drums#Crash",
       "tags": [
         "Drum"
       ]
@@ -88,6 +97,7 @@
       "slug": "Ride",
       "name": "Ride",
       "description": "",
+      "manualUrl": "https://vcvrack.com/Drums#Ride",
       "tags": [
         "Drum"
       ]
