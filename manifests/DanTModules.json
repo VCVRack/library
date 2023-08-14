@@ -1,7 +1,8 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.2",
+  "version": "2.4.24",
+  "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
   "author": "dtilley",
@@ -137,7 +138,8 @@
         "Utility",
         "Polyphonic"
       ],
-      "keywords": "calculator maths add plus minus times multiply subtract divide count"
+      "keywords": "calculator maths add plus minus times multiply subtract divide count",
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/kalkatron/"
     }
   ]
 }
