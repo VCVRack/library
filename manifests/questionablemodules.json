@@ -1,7 +1,8 @@
 {
   "slug": "questionablemodules",
   "name": "Questionable Modules",
-  "version": "2.1.7",
+  "version": "2.1.8",
+  "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Questionable Modules",
   "author": "John Iannandrea",
