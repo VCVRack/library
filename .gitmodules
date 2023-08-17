@@ -53,17 +53,9 @@
 	path = repos/RJModules
 	url = https://github.com/Miserlou/RJModules
 	branch = master
-[submodule "repos/TheXOR"]
-	path = repos/TheXOR
-	url = https://github.com/The-XOR/RackPlugins
-	branch = master
 [submodule "repos/dBiz"]
 	path = repos/dBiz
 	url = https://github.com/dBiz/dBiz
-	branch = master
-[submodule "repos/luckyxxl"]
-	path = repos/luckyxxl
-	url = https://github.com/luckyxxl/vcv_luckyxxl
 	branch = master
 [submodule "repos/moDllz"]
 	path = repos/moDllz
@@ -415,9 +407,6 @@
 [submodule "repos/MindMeldModular"]
 	path = repos/MindMeldModular
 	url = https://github.com/MarcBoule/MindMeldModular.git
-[submodule "repos/RacketScience"]
-	path = repos/RacketScience
-	url = https://github.com/ContemporaryInsanity/RacketScience.git
 [submodule "repos/SA-Seasons"]
 	path = repos/SA-Seasons
 	url = https://github.com/SpektroAudio/Seasons.git
