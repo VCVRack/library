@@ -1,7 +1,7 @@
 {
   "slug": "questionablemodules",
   "name": "Questionable Modules",
-  "version": "2.1.8",
+  "version": "2.1.8a",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Questionable Modules",
@@ -51,7 +51,8 @@
       "tags": [
         "Synth voice",
         "Oscillator",
-        "Low-frequency oscillator"
+        "Low-frequency oscillator",
+        "Polyphonic"
       ]
     }
   ]
