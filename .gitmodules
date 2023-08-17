@@ -631,9 +631,6 @@
 [submodule "repos/Autinn"]
 	path = repos/Autinn
 	url = https://github.com/NikolaiVChr/Autinn.git
-[submodule "repos/SequelSequencers"]
-	path = repos/SequelSequencers
-	url = https://github.com/danieldavies99/sequel.git
 [submodule "repos/htLocal"]
 	path = repos/htLocal
 	url = https://github.com/HTlocal/VCV-Modules-HTLocal.git
@@ -787,3 +784,6 @@
 [submodule "repos/TheAllElectricSmartGrid"]
 	path = repos/TheAllElectricSmartGrid
 	url = https://github.com/jvictor0/theallelectricsmartgrid.git
+[submodule "repos/DanielDavies"]
+	path = repos/DanielDavies
+	url = https://github.com/danieldavies99/DanielDaviesVCV.git
