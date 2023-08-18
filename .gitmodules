@@ -774,5 +774,5 @@
 	path = repos/TheAllElectricSmartGrid
 	url = https://github.com/jvictor0/theallelectricsmartgrid.git
 [submodule "repos/DanielDavies"]
-	path = repos/DanielDavies
+	path = repos/SequelSequencers
 	url = https://github.com/danieldavies99/DanielDaviesVCV.git
