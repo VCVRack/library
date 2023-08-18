@@ -5065,7 +5065,7 @@
     }
   },
   "HetrickCV": {
-    "buildTimestamp": 1692128190.8923185,
+    "buildTimestamp": 1692335063.5948071,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ASR": {
@@ -5259,6 +5259,15 @@
       },
       "PhasorBurstGen": {
         "creationTimestamp": 1691740728.1658375
+      },
+      "PhasorHumanizer": {
+        "creationTimestamp": 1692335063.8242426
+      },
+      "PhasorMixer": {
+        "creationTimestamp": 1692335063.9436266
+      },
+      "PhasorSwing": {
+        "creationTimestamp": 1692335064.0590408
       }
     }
   },

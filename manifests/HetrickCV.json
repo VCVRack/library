@@ -1,7 +1,7 @@
 {
   "slug": "HetrickCV",
   "name": "HetrickCV",
-  "version": "2.3.2",
+  "version": "2.4.0",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -400,6 +400,25 @@
       ]
     },
     {
+      "slug": "PhasorHumanizer",
+      "name": "Phasor Humanizer",
+      "description": "Repeatedly modifies the slope of an incoming phasor to make the timing less robotic.",
+      "tags": [
+        "Waveshaper",
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorMixer",
+      "name": "Phasor Mixer",
+      "description": "Adds together multiple signals and forces them into a unipolar range via folding or wrapping.",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "PhasorOctature",
       "name": "Phasor Octature",
       "description": "Takes a phasor and rotates it at 45 degree intervals.",
@@ -493,6 +512,16 @@
       "tags": [
         "Waveshaper",
         "Distortion",
+        "Clock Modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorSwing",
+      "name": "Phasor Swing",
+      "description": "Bends a phasor input to provide swing timing on the outputs.",
+      "tags": [
+        "Waveshaper",
         "Clock Modulator",
         "Polyphonic"
       ]
