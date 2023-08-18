@@ -1,7 +1,7 @@
 {
   "slug": "SequelSequencers",
   "name": "Daniel Davies",
-  "version": "2.2.0",
+  "version": "2.2.2",
   "license": "GPL-3.0-or-later",
   "brand": "Daniel Davies",
   "author": "Daniel Davies",
@@ -62,6 +62,30 @@
       "tags": [
         "Blank"
       ]
+    },
+    {
+      "slug": "SequelSave",
+      "name": "Sequel Save",
+      "description": "Save state expander module for Sequel 8 & Sequel 16",
+      "tags": [
+        "expander"
+      ]
+    },
+    {
+      "slug": "Bend",
+      "name": "Bend",
+      "description": "Phaae modulation oscillator",
+      "tags": [
+        "Oscillator"
+      ],
+      "hidden": true
+    },
+    {
+      "slug": "James",
+      "name": "James",
+      "description": "",
+      "tags": [],
+      "hidden": true
     }
   ]
 }
