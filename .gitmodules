@@ -49,10 +49,6 @@
 	path = repos/PvC
 	url = https://github.com/phdsg/PvC.git
 	branch = release
-[submodule "repos/RJModules"]
-	path = repos/RJModules
-	url = https://github.com/Miserlou/RJModules
-	branch = master
 [submodule "repos/dBiz"]
 	path = repos/dBiz
 	url = https://github.com/dBiz/dBiz
@@ -254,9 +250,6 @@
 [submodule "repos/QuantalAudio"]
 	path = repos/QuantalAudio
 	url = https://github.com/sumpygump/quantal-audio.git
-[submodule "repos/EH_modules"]
-	path = repos/EH_modules
-	url = https://github.com/eh2k/fv1-emu
 [submodule "repos/Bark"]
 	path = repos/Bark
 	url = https://github.com/Coirt/Bark.git
