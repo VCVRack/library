@@ -769,3 +769,6 @@
 [submodule "repos/DanielDavies"]
 	path = repos/SequelSequencers
 	url = https://github.com/danieldavies99/DanielDaviesVCV.git
+[submodule "repos/EH_modules"]
+	path = repos/EH_modules
+	url = https://github.com/eh2k/vcvrack-fv1-emu.git
