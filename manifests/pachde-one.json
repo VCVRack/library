@@ -1,7 +1,7 @@
 {
   "slug": "pachde-one",
   "name": "pachde One",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "pachde",
   "author": "pachde",
@@ -10,8 +10,9 @@
   "pluginUrl": "",
   "manualUrl": "https://github.com/Paul-Dempsey/pachde1/blob/main/docs/index.md",
   "sourceUrl": "https://github.com/Paul-Dempsey/pachde1",
-  "donateUrl": "",
-  "changelogUrl": "",
+  "donateUrl": "https://venmo.com/u/pcdempsey",
+  "changelogUrl": "https://github.com/Paul-Dempsey/pachde1/blob/main/CHANGELOG.md",
+  "minRackVersion": "2.4.0",
   "modules": [
     {
       "slug": "pachde-null",
