@@ -1,15 +1,17 @@
 {
   "slug": "UnfilteredVolume1",
   "name": "Unfiltered Volume 1",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "license": "proprietary",
   "author": "Unfiltered Audio",
+  "brand": "Unfiltered Audio",
   "authorEmail": "contact@unfilteredaudio.com",
   "authorUrl": "unfilteredaudio.com",
   "pluginUrl": "https://www.unfilteredaudio.com/pages/vcv-manuals",
   "manualUrl": "https://www.unfilteredaudio.com/pages/vcv-manuals",
   "sourceUrl": "",
   "donateUrl": "",
+  "minRackVersion": "2.4.0",
   "modules": [
     {
       "slug": "DentCrusher",
