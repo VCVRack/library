@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.24",
+  "version": "2.4.30",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -120,26 +120,37 @@
     {
       "slug": "PolySplice",
       "name": "Nu-PolySplice",
-      "description": "[7hp] Polyphonic switch with up to 5 seconds slew.",
+      "description": "[7hp][Nu-Metal] Polyphonic switch with up to 5 seconds slew.",
       "tags": [
         "Mixer",
         "Polyphonic",
         "Random",
         "Switch"
       ],
-      "keywords": "splice sequential window slew",
+      "keywords": "numetal splice sequential window slew",
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/polysplice/"
     },
     {
       "slug": "Kalkatron",
       "name": "Kalkatron",
-      "description": "[26hp] Utility module that can track a signal and perform basic maths operations upon it.",
+      "description": "[26hp][Nu-Metal] Utility module that can track a signal and perform basic maths operations upon it.",
       "tags": [
         "Utility",
         "Polyphonic"
       ],
-      "keywords": "calculator maths add plus minus times multiply subtract divide count",
+      "keywords": "numetal calculator maths add plus minus times multiply subtract divide count",
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/kalkatron/"
+    },
+    {
+      "slug": "MoarCowbell",
+      "name": "MOAR COWBELL!",
+      "description": "[17hp][Neon-Oblique] Experimental cowbell.",
+      "tags": [
+        "Drum",
+        "Physical modeling"
+      ],
+      "keywords": "neonoblique moar cowbell experimental",
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/neon-oblique/"
     }
   ]
 }
