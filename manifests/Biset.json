@@ -1,7 +1,7 @@
 {
   "slug": "Biset",
   "name": "Biset",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "license": "MIT",
   "brand": "Biset",
   "author": "Biset",
@@ -43,6 +43,19 @@
         "live",
         "code",
         "coding"
+      ]
+    },
+    {
+      "slug": "Biset-Segfault",
+      "name": "Segfault",
+      "description": "Rethink your midi / qwerty keyboard layout",
+      "tags": [
+        "Controller",
+        "Polyphonic"
+      ],
+      "keywords": [
+        "piano",
+        "keys"
       ]
     }
   ]

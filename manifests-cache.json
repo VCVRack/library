@@ -9690,7 +9690,7 @@
     }
   },
   "GrandeModular": {
-    "buildTimestamp": 1673294170.313475,
+    "buildTimestamp": 1693252334.0753202,
     "creationTimestamp": 1598123367.069531,
     "modules": {
       "NoteMT": {
@@ -9831,7 +9831,7 @@
     }
   },
   "Sha-Bang-Modules": {
-    "buildTimestamp": 1657334324.8033793,
+    "buildTimestamp": 1693252412.8780172,
     "creationTimestamp": 1602486511.7177973,
     "modules": {
       "StochSeq": {
@@ -12327,7 +12327,7 @@
     }
   },
   "questionablemodules": {
-    "buildTimestamp": 1692243162.8532245,
+    "buildTimestamp": 1693252457.5643306,
     "creationTimestamp": 1671488541.442978,
     "modules": {
       "discombobulator": {
@@ -12756,7 +12756,7 @@
     }
   },
   "Biset": {
-    "buildTimestamp": 1690731141.8546581,
+    "buildTimestamp": 1693252249.789354,
     "creationTimestamp": 1688525918.95731,
     "modules": {
       "Biset-Regex": {
@@ -12764,6 +12764,9 @@
       },
       "Biset-Regex-Condensed": {
         "creationTimestamp": 1688525919.171219
+      },
+      "Biset-Segfault": {
+        "creationTimestamp": 1693252458.0564694
       }
     }
   },
@@ -12804,7 +12807,7 @@
     }
   },
   "TheAllElectricSmartGrid": {
-    "buildTimestamp": 1691739906.2347188,
+    "buildTimestamp": 1693252212.8330016,
     "creationTimestamp": 1690733275.6031704,
     "modules": {
       "LameJuis": {
