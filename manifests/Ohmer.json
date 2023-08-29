@@ -1,7 +1,7 @@
 {
   "slug": "Ohmer",
   "name": "Ohmer",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "license": "BSD-3-Clause",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
@@ -73,7 +73,7 @@
     {
       "slug": "OhmerBlank1",
       "name": "Blank 1 HP",
-      "description": "1 HP blank (themed) plate (uses 2 screws)",
+      "description": "1 HP blank panel (uses 2 screws)",
       "tags": [
         "Blank"
       ]
@@ -81,7 +81,7 @@
     {
       "slug": "OhmerBlank2",
       "name": "Blank 2 HP",
-      "description": "2 HP blank (themed) plate (customizable screws disposal)",
+      "description": "2 HP blank panel (customizable screws disposal)",
       "tags": [
         "Blank"
       ]
@@ -89,7 +89,7 @@
     {
       "slug": "OhmerBlank4",
       "name": "Blank 4 HP",
-      "description": "4 HP blank (themed) plate",
+      "description": "4 HP blank panel",
       "tags": [
         "Blank"
       ]
@@ -97,7 +97,7 @@
     {
       "slug": "OhmerBlank8",
       "name": "Blank 8 HP",
-      "description": "8 HP blank (themed) plate",
+      "description": "8 HP blank panel",
       "tags": [
         "Blank"
       ]
@@ -105,7 +105,7 @@
     {
       "slug": "OhmerBlank16",
       "name": "Blank 16 HP",
-      "description": "16 HP blank (themed) plate",
+      "description": "16 HP blank panel",
       "tags": [
         "Blank"
       ]
@@ -113,7 +113,7 @@
     {
       "slug": "OhmerBlank32",
       "name": "Blank 32 HP",
-      "description": "32 HP blank (themed) plate",
+      "description": "32 HP blank panel",
       "tags": [
         "Blank"
       ]
