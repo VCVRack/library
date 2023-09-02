@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -1178,6 +1178,31 @@
       "tags": [
         "Sequencer",
         "Sample and hold"
+      ]
+    },
+    {
+      "slug": "ShiftRegister16",
+      "name": "16 Step Shift Register",
+      "description": "16 step bi-directional shift register for CV or gates",
+      "tags": [
+        "Sample and Hold"
+      ]
+    },
+    {
+      "slug": "ShiftRegister32",
+      "name": "32 Step Shift Register",
+      "description": "32 step bi-directional shift register for CV or gates",
+      "tags": [
+        "Sample and Hold"
+      ]
+    },
+    {
+      "slug": "BurstGenerator64",
+      "name": "Burst Generator 64",
+      "description": "Generates bursts of 1-64 pulses whenever a trigger is received at the trigger input",
+      "tags": [
+        "Clock modulator",
+        "Sequencer"
       ]
     }
   ]

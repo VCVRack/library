@@ -3784,7 +3784,7 @@
     }
   },
   "AlrightDevices": {
-    "buildTimestamp": 1693255212.6986163,
+    "buildTimestamp": 1693435740.0422702,
     "creationTimestamp": 1554966626.0,
     "modules": {
       "Chronoblob2": {
@@ -3921,7 +3921,7 @@
     }
   },
   "Valley": {
-    "buildTimestamp": 1649108989.7346709,
+    "buildTimestamp": 1693679821.2225945,
     "creationTimestamp": 1521979525.0,
     "modules": {
       "Topograph": {
@@ -5374,7 +5374,7 @@
     }
   },
   "CountModula": {
-    "buildTimestamp": 1675097471.4909058,
+    "buildTimestamp": 1693680345.5417464,
     "creationTimestamp": 1560722026.0,
     "modules": {
       "AnalogueShiftRegister": {
@@ -5775,6 +5775,15 @@
       },
       "Stack": {
         "creationTimestamp": 1675100689.7891617
+      },
+      "ShiftRegister16": {
+        "creationTimestamp": 1693680345.713405
+      },
+      "ShiftRegister32": {
+        "creationTimestamp": 1693680345.8343647
+      },
+      "BurstGenerator64": {
+        "creationTimestamp": 1693680345.9486697
       }
     }
   },
@@ -12480,7 +12489,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1691452602.6596484,
+    "buildTimestamp": 1693679701.9735415,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
