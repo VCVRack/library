@@ -1,7 +1,8 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.11",
+  "version": "2.0.12",
+  "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
   "author": "Mahlen Morris",
@@ -16,7 +17,7 @@
     {
       "slug": "BASICally",
       "name": "BASICally",
-      "description": "Generate sequences or perform math on inputs with a simple BASIC-like language.",
+      "description": "Generate sequences, perform math on inputs, and even multitask with a simple BASIC-like language. Can also send Tipsy text messages to modules that support them.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#basically",
       "tags": [
         "Attenuator",
@@ -56,6 +57,17 @@
         "Clock modulator",
         "Utility",
         "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "TTY",
+      "name": "TTY",
+      "description": "Logs values from cables or text messages from Tipsy text sources. Makes monitoring of values or logging far easier. TTY is resizable, scrolls, has font and color choices, and more.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#tty",
+      "tags": [
+        "Recording",
+        "Utility",
+        "Visual"
       ]
     }
   ]
