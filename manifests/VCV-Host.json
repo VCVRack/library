@@ -1,7 +1,7 @@
 {
   "slug": "VCV-Host",
   "name": "VCV Host",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "license": "https://vcvrack.com/eula",
   "brand": "VCV",
   "author": "VCV",
@@ -15,6 +15,7 @@
       "slug": "Host",
       "name": "Host",
       "description": "VST instrument plugin host",
+      "manualUrl": "https://vcvrack.com/Host#Host",
       "tags": [
         "External",
         "Polyphonic"
@@ -24,6 +25,7 @@
       "slug": "Host-FX",
       "name": "Host-FX",
       "description": "VST effect plugin host",
+      "manualUrl": "https://vcvrack.com/Host#Host-FX",
       "tags": [
         "External",
         "Polyphonic"
@@ -33,6 +35,7 @@
       "slug": "Host-XL",
       "name": "Host-XL",
       "description": "Expanded VST instrument/effect plugin host",
+      "manualUrl": "https://vcvrack.com/Host#Host-XL",
       "tags": [
         "External",
         "Polyphonic"
@@ -42,6 +45,7 @@
       "slug": "Host-CV",
       "name": "Host-CV",
       "description": "MIDI output expander for all Host modules",
+      "manualUrl": "https://vcvrack.com/Host#Host-CV",
       "tags": [
         "External",
         "MIDI"
@@ -51,6 +55,7 @@
       "slug": "Host-CC",
       "name": "Host-CC",
       "description": "MIDI CC output expander for all Host modules",
+      "manualUrl": "https://vcvrack.com/Host#Host-CC",
       "tags": [
         "External",
         "MIDI"
@@ -60,6 +65,7 @@
       "slug": "Host-Gate",
       "name": "Host-Gate",
       "description": "MIDI note gate output expander for all Host modules",
+      "manualUrl": "https://vcvrack.com/Host#Host-Gate",
       "tags": [
         "External",
         "MIDI"
