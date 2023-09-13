@@ -1,7 +1,7 @@
 {
   "slug": "NANOModules",
   "name": "NANO Modules",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "Proprietary",
   "brand": "NANO Modules",
   "author": "Jorge Gutierrez",
@@ -100,6 +100,19 @@
         "Dynamics",
         "Equalizer",
         "Filter",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "STMAR",
+      "name": "ST MAR",
+      "description": "Stereo Mixer",
+      "manualUrl": "https://nano-modules.com/wp-content/uploads/2023/09/STMAR-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-st-mar",
+      "tags": [
+        "Attenuator",
+        "Mixer",
+        "VCA",
         "Hardware clone"
       ]
     },

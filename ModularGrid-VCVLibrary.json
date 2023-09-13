@@ -1648,5 +1648,12 @@
     "vcvUrl": "https://library.vcvrack.com/Doepfer/A124",
     "mgUrl": "https://www.modulargrid.net/e/doepfer-a-124",
     "mgModuleId": 36
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "STMAR",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/STMAR",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-st-mar",
+    "mgModuleId": 45562
   }
 ]
