@@ -1,7 +1,7 @@
 {
   "slug": "pachde-one",
   "name": "pachde One",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "pachde",
   "author": "pachde",
@@ -52,11 +52,22 @@
       "slug": "pachde-copper",
       "name": "Copper",
       "manualUrl": "https://github.com/Paul-Dempsey/pachde1/blob/main/docs/Copper.md",
-      "description": "A color picker with modulation and outputs",
+      "description": "A color picker and extender with modulation and outputs",
       "tags": [
         "Visual",
         "Controller",
         "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "pachde-copper-mini",
+      "name": "Copper-mini",
+      "manualUrl": "https://github.com/Paul-Dempsey/pachde1/blob/main/docs/Copper-mini.md",
+      "description": "A mini version of the Copper color picker and extender with modulation and outputs",
+      "tags": [
+        "Visual",
+        "Controller",
         "Utility"
       ]
     }
