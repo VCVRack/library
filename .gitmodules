@@ -772,3 +772,6 @@
 [submodule "repos/EH_modules"]
 	path = repos/EH_modules
 	url = https://github.com/eh2k/vcvrack-fv1-emu.git
+[submodule "repos/CuteFoxModules"]
+	path = repos/CuteFoxModules
+	url = https://github.com/CuteFoxModules/CuteFoxModules.git
