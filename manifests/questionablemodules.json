@@ -1,7 +1,7 @@
 {
   "slug": "questionablemodules",
   "name": "Questionable Modules",
-  "version": "2.1.9",
+  "version": "2.1.10",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Questionable Modules",
@@ -53,6 +53,24 @@
         "Oscillator",
         "Low-frequency oscillator",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "nightbin",
+      "name": "Night-bin",
+      "description": "Grab nightly builds of your favorite plugins",
+      "manualUrl": "https://isivisi.github.io/questionablemodules/nightbin",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "greenscreen",
+      "name": "Greenscreen",
+      "description": "Changes the rack background color",
+      "manualUrl": "https://isivisi.github.io/questionablemodules/greenscreen",
+      "tags": [
+        "Utility"
       ]
     }
   ]

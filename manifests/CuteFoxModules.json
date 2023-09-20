@@ -1,0 +1,23 @@
+{
+  "slug": "CuteFoxModules",
+  "name": "CuteFox Modules",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "CuteFox Modules",
+  "author": "Hristo Goleminov",
+  "authorEmail": "hristosax1@gmail.com",
+  "authorUrl": "www.hristogoleminov.com",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "IPQ",
+      "name": "Intervallic Pair Quantizer",
+      "description": "Quantizer based on a pair of intervals from 0 to 11 (semitones)",
+      "tags": []
+    }
+  ]
+}
