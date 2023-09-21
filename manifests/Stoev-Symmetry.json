@@ -1,7 +1,7 @@
 {
   "slug": "Stoev-Symmetry",
   "name": "Symmetry",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "license": "proprietary",
   "brand": "Stoev",
   "author": "Stoev",
@@ -16,7 +16,7 @@
     {
       "slug": "Symmetry",
       "name": "Symmetry",
-      "description": "Dual quantizer / scale arpeggiator",
+      "description": "Dual quantizer / arpeggiator",
       "tags": [
         "Quantizer",
         "Arpeggiator",
