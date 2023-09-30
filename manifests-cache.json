@@ -3924,7 +3924,7 @@
     }
   },
   "Valley": {
-    "buildTimestamp": 1693899833.8250353,
+    "buildTimestamp": 1696090310.2963884,
     "creationTimestamp": 1521979525.0,
     "modules": {
       "Topograph": {
@@ -5918,7 +5918,7 @@
     "modules": {}
   },
   "NonlinearCircuits": {
-    "buildTimestamp": 1679285760.1782327,
+    "buildTimestamp": 1696090432.8045933,
     "creationTimestamp": 1582350675.0,
     "modules": {
       "BOOLs": {
@@ -5962,6 +5962,18 @@
       },
       "Router": {
         "creationTimestamp": 1679285788.883769
+      },
+      "SlothTorpor": {
+        "creationTimestamp": 1696090977.5783923
+      },
+      "SlothApathy": {
+        "creationTimestamp": 1696090977.7166412
+      },
+      "SlothInertia": {
+        "creationTimestamp": 1696090977.8425481
+      },
+      "TripleSloth": {
+        "creationTimestamp": 1696090977.9671283
       }
     }
   },
@@ -11970,7 +11982,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1690731437.422676,
+    "buildTimestamp": 1696090976.8878207,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12050,6 +12062,9 @@
       },
       "CVswitcher": {
         "creationTimestamp": 1688525919.9076946
+      },
+      "SickoSampler2": {
+        "creationTimestamp": 1696090977.4226398
       }
     }
   },
@@ -12342,7 +12357,7 @@
     }
   },
   "questionablemodules": {
-    "buildTimestamp": 1695170514.7031357,
+    "buildTimestamp": 1696090389.084047,
     "creationTimestamp": 1671488541.442978,
     "modules": {
       "discombobulator": {
@@ -12747,7 +12762,7 @@
     }
   },
   "monome": {
-    "buildTimestamp": 1691739892.638168,
+    "buildTimestamp": 1696090811.7125404,
     "creationTimestamp": 1687317423.8644073,
     "modules": {
       "whitewhale": {
@@ -12773,6 +12788,9 @@
       },
       "grid256": {
         "creationTimestamp": 1687317424.791068
+      },
+      "faderbank": {
+        "creationTimestamp": 1696090978.1123016
       }
     }
   },
@@ -12843,7 +12861,7 @@
     }
   },
   "CuteFoxModules": {
-    "buildTimestamp": 1695173680.3470063,
+    "buildTimestamp": 1696090318.2598224,
     "creationTimestamp": 1695173680.8436437,
     "modules": {
       "IPQ": {

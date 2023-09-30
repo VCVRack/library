@@ -1,7 +1,7 @@
 {
   "slug": "monome",
   "name": "monome",
-  "version": "2.1.5",
+  "version": "2.2.2",
   "minRackVersion": "2.4.0",
   "license": "GPL-2.0-only",
   "author": "Michael Dewberry",
@@ -98,7 +98,7 @@
     {
       "slug": "grid128",
       "name": "grid 128",
-      "description": "",
+      "description": "16x8 grid controller",
       "manualUrl": "https://dewb.github.io/monome-rack/modules/grids",
       "tags": [
         "digital",
@@ -109,7 +109,7 @@
     {
       "slug": "grid64",
       "name": "grid 64",
-      "description": "",
+      "description": "8x8 grid controller",
       "manualUrl": "https://dewb.github.io/monome-rack/modules/grids",
       "tags": [
         "digital",
@@ -120,12 +120,25 @@
     {
       "slug": "grid256",
       "name": "grid 256",
-      "description": "",
+      "description": "16x16 grid controller",
       "manualUrl": "https://dewb.github.io/monome-rack/modules/grids",
       "tags": [
         "digital",
         "hardware clone",
         "controller"
+      ]
+    },
+    {
+      "slug": "faderbank",
+      "name": "faderbank",
+      "description": "virtual control surface and teletype parameter expander",
+      "manualUrl": "https://dewb.github.io/monome-rack/modules/faderbank",
+      "tags": [
+        "digital",
+        "hardware clone",
+        "controller",
+        "expander",
+        "polyphonic"
       ]
     }
   ]

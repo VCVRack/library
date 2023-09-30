@@ -29,10 +29,6 @@
 	path = repos/Gratrix
 	url = https://github.com/gratrix/vcv-gratrix
 	branch = master
-[submodule "repos/HetrickCV"]
-	path = repos/HetrickCV
-	url = https://github.com/mhetrick/hetrickcv
-	branch = master
 [submodule "repos/ML_modules"]
 	path = repos/ML_modules
 	url = https://github.com/martin-lueders/ML_modules

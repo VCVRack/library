@@ -1,7 +1,7 @@
 {
   "slug": "NonlinearCircuits",
   "name": "Nonlinear Circuits",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -150,6 +150,36 @@
       ]
     },
     {
+      "slug": "SlothTorpor",
+      "name": "Sloth Torpor",
+      "description": "Slow chaotic oscillator. DSP engine by Don Cross.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
+      "tags": [
+        "Hardware Clone",
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "SlothApathy",
+      "name": "Sloth Apathy",
+      "description": "Very slow chaotic oscillator. DSP engine by Don Cross.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
+      "tags": [
+        "Hardware Clone",
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "SlothInertia",
+      "name": "Sloth Inertia",
+      "description": "Extremely slow chaotic oscillator. DSP engine by Don Cross.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
+      "tags": [
+        "Hardware Clone",
+        "Low-frequency oscillator"
+      ]
+    },
+    {
       "slug": "SquidAxon",
       "name": "Squid Axon",
       "description": "Mixer, Shift Register, and Feedback. Panel by Jason Wehmhoener.",
@@ -167,6 +197,16 @@
       "tags": [
         "Logic",
         "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "TripleSloth",
+      "name": "Triple Sloth",
+      "description": "Three combined slow chaotic oscillators. DSP engine by Don Cross.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
+      "tags": [
+        "Hardware Clone",
+        "Low-frequency oscillator"
       ]
     }
   ]

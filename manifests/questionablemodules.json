@@ -1,7 +1,7 @@
 {
   "slug": "questionablemodules",
   "name": "Questionable Modules",
-  "version": "2.1.10",
+  "version": "2.1.11",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Questionable Modules",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/isivisi/questionablemodules/wiki",
   "sourceUrl": "https://github.com/isivisi/questionablemodules",
   "donateUrl": "https://www.paypal.com/donate/?business=9KQFMHR3LT9CG&no_recurring=0&item_name=Funding+my+ongoing+vcv+rack+plugin+development+%3A%29&currency_code=CAD",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/isivisi/questionablemodules/releases",
   "modules": [
     {
       "slug": "discombobulator",

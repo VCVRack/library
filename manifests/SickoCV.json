@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.5.5",
+  "version": "2.5.6",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -202,7 +202,16 @@
     {
       "slug": "SickoSampler",
       "name": "SickoSampler",
-      "description": "Sample Player and recorder",
+      "description": "Sample Player and Recorder",
+      "tags": [
+        "Sampler",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SickoSampler2",
+      "name": "SickoSampler2",
+      "description": "Sample Player and Recorder",
       "tags": [
         "Sampler",
         "Polyphonic"
