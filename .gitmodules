@@ -771,3 +771,6 @@
 [submodule "repos/CuteFoxModules"]
 	path = repos/CuteFoxModules
 	url = https://github.com/CuteFoxModules/CuteFoxModules.git
+[submodule "repos/Rigatoni"]
+	path = repos/Rigatoni
+	url = https://github.com/ianjhoffman/RigatoniModular.git
