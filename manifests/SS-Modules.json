@@ -1,0 +1,26 @@
+{
+  "slug": "SS-Modules",
+  "name": "SS-Modules",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "SS-Modules",
+  "author": "Samuel Strong",
+  "authorEmail": "samuelstrong@ucla.edu",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/strongs20/SS-modules",
+  "sourceUrl": "https://github.com/strongs20/SS-modules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "melodygen",
+      "name": "melodygen",
+      "description": "Generative melodies with useful parameters",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    }
+  ]
+}
