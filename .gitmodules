@@ -774,3 +774,6 @@
 [submodule "repos/Rigatoni"]
 	path = repos/Rigatoni
 	url = https://github.com/ianjhoffman/RigatoniModular.git
+[submodule "repos/SS-Modules"]
+	path = repos/SS-Modules
+	url = https://github.com/strongs20/SS-modules.git
