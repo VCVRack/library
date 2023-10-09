@@ -324,7 +324,7 @@
     }
   },
   "Hora-Mixers": {
-    "buildTimestamp": 1641292226.8132157,
+    "buildTimestamp": 1696887617.0832584,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "StereoMixer-8": {
@@ -1304,7 +1304,7 @@
     }
   },
   "EricaCopies": {
-    "buildTimestamp": 1641292225.6865234,
+    "buildTimestamp": 1696887633.6969745,
     "creationTimestamp": 1560887654.0,
     "modules": {
       "BlackWaveTableVCO": {
@@ -1512,7 +1512,7 @@
     "modules": {}
   },
   "Hora-Modulation": {
-    "buildTimestamp": 1641292227.3532279,
+    "buildTimestamp": 1696887623.970084,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Relief-Envelopegeneretor": {
@@ -1544,7 +1544,7 @@
     "modules": {}
   },
   "Hora-Sequencers": {
-    "buildTimestamp": 1641292233.423365,
+    "buildTimestamp": 1696887626.920152,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Frequencydivider": {
@@ -1559,7 +1559,7 @@
     }
   },
   "Hora-Processors": {
-    "buildTimestamp": 1672181318.7864811,
+    "buildTimestamp": 1696887619.0099695,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "SpectralProcessor": {
@@ -4971,7 +4971,7 @@
     "modules": {}
   },
   "Hora-ModulationFree": {
-    "buildTimestamp": 1641292227.8865733,
+    "buildTimestamp": 1696887621.8467019,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "TwinQuartet-LFO": {
@@ -5329,7 +5329,7 @@
     }
   },
   "Hora-ProcessorsFree": {
-    "buildTimestamp": 1672181319.7765076,
+    "buildTimestamp": 1696887629.8602197,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "EnvelopeFollower": {
@@ -6247,7 +6247,7 @@
     }
   },
   "Hora-AnalogDrums": {
-    "buildTimestamp": 1672294794.3209808,
+    "buildTimestamp": 1696887619.419979,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "BassDrumVult": {
@@ -6640,7 +6640,7 @@
     }
   },
   "Hora-VCO_VCF_VCA": {
-    "buildTimestamp": 1672294795.2843423,
+    "buildTimestamp": 1696887618.1499498,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Amplitude-VCMixer": {
@@ -8098,7 +8098,7 @@
     }
   },
   "Hora-treasureFree": {
-    "buildTimestamp": 1672181320.7598672,
+    "buildTimestamp": 1696887630.5935698,
     "creationTimestamp": 1526939247.0,
     "modules": {
       "SnareDrum-VCV": {
@@ -8234,7 +8234,7 @@
     }
   },
   "Hora-PCMDrum": {
-    "buildTimestamp": 1641292228.619923,
+    "buildTimestamp": 1696887631.286919,
     "creationTimestamp": 1550098392.0,
     "modules": {
       "Hora-PCMDDD1": {
@@ -8312,7 +8312,7 @@
     }
   },
   "Hora-PCMDrumFree": {
-    "buildTimestamp": 1641292229.5499442,
+    "buildTimestamp": 1696887622.9000595,
     "creationTimestamp": 1550098392.0,
     "modules": {
       "Hora-PCMDrumLDrum": {
@@ -8839,7 +8839,7 @@
     }
   },
   "Hora-VCO_VCF_VCA_Free": {
-    "buildTimestamp": 1672294799.1111202,
+    "buildTimestamp": 1696887625.4967859,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Amplitude-VCMixer": {
