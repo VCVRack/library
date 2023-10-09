@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.5.7",
+  "version": "2.5.8",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -15,7 +15,7 @@
   "modules": [
     {
       "slug": "Adder8",
-      "name": "Adder8",
+      "name": "adder8",
       "description": "8 adder and subtractor",
       "tags": [
         "Mixer",
@@ -24,7 +24,7 @@
     },
     {
       "slug": "Blender",
-      "name": "Blender",
+      "name": "blender",
       "description": "Stereo crossfade mixer with double modulation",
       "tags": [
         "Mixer",
@@ -33,7 +33,7 @@
     },
     {
       "slug": "Blender8",
-      "name": "Blender8",
+      "name": "blender8",
       "description": "8 single crossfade mixers",
       "tags": [
         "Mixer"
@@ -80,7 +80,7 @@
     },
     {
       "slug": "Calcs",
-      "name": "Calcs",
+      "name": "calcs",
       "description": "Calculates sums, differences, multiplications, divisions and averages of 3 CV inputs",
       "tags": [
         "Utility"
@@ -115,7 +115,7 @@
     },
     {
       "slug": "Drummer",
-      "name": "Drummer",
+      "name": "drummer",
       "description": "Accent and choke utility for drum modules lacking these features",
       "tags": [
         "Utility",
@@ -125,7 +125,7 @@
     },
     {
       "slug": "Drummer4",
-      "name": "Drummer4",
+      "name": "drummer4",
       "description": "4 channel accent and choke utility for drum modules lacking this feature",
       "tags": [
         "Utility",
@@ -135,7 +135,7 @@
     },
     {
       "slug": "Drummer4Plus",
-      "name": "Drummer4+",
+      "name": "drummer4+",
       "description": "4 channel accent and choke utility for drum modules lacking this feature",
       "tags": [
         "Utility",
@@ -145,7 +145,7 @@
     },
     {
       "slug": "DrumPlayer",
-      "name": "Drum Player",
+      "name": "drumPlayer",
       "description": "Drum Sample Player",
       "tags": [
         "Sampler",
@@ -155,7 +155,7 @@
     },
     {
       "slug": "DrumPlayerPlus",
-      "name": "Drum Player+",
+      "name": "drumPlayer+",
       "description": "Drum Sample Player",
       "tags": [
         "Sampler",
@@ -165,7 +165,7 @@
     },
     {
       "slug": "DrumPlayerXtra",
-      "name": "Drum Player Xtra",
+      "name": "drumPlayerXtra",
       "description": "Drum Sample Player",
       "tags": [
         "Sampler",
@@ -175,7 +175,7 @@
     },
     {
       "slug": "Parking",
-      "name": "Parking",
+      "name": "parking",
       "description": "Set of unconnected inputs and outputs just to park unused cables",
       "tags": [
         "Utility"
@@ -183,7 +183,7 @@
     },
     {
       "slug": "Shifter",
-      "name": "Shifter",
+      "name": "shifter",
       "description": "64 selectable stages shift register",
       "tags": [
         "Sample and hold",
@@ -191,8 +191,17 @@
       ]
     },
     {
+      "slug": "SickoAmp",
+      "name": "sickoAmp",
+      "description": "Stereo VCA up to 200% with limiter",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "SickoPlayer",
-      "name": "SickoPlayer",
+      "name": "sickoPlayer",
       "description": "Sample Player",
       "tags": [
         "Sampler",
@@ -201,7 +210,7 @@
     },
     {
       "slug": "SickoSampler",
-      "name": "SickoSampler",
+      "name": "sickoSampler",
       "description": "Sample Player and Recorder",
       "tags": [
         "Sampler",
@@ -210,7 +219,7 @@
     },
     {
       "slug": "SickoSampler2",
-      "name": "SickoSampler2",
+      "name": "sickoSampler2",
       "description": "Sample Player and Recorder",
       "tags": [
         "Sampler",
@@ -219,7 +228,7 @@
     },
     {
       "slug": "Switcher",
-      "name": "Switcher",
+      "name": "switcher",
       "description": "2>1 switch, 1>2 router, 2 signal swapper, mute, flip flop, toggle gate",
       "tags": [
         "Switch",
@@ -229,7 +238,7 @@
     },
     {
       "slug": "SwitcherSt",
-      "name": "SwitcherSt",
+      "name": "switcherSt",
       "description": "Stereo 2>1 switch, 1>2 router, 2 signal swapper, mute, flip flop, toggle gate",
       "tags": [
         "Switch",
@@ -239,7 +248,7 @@
     },
     {
       "slug": "Toggler",
-      "name": "Toggler",
+      "name": "toggler",
       "description": "Stereo signal toggle switch router, with VCA and ASR envelope generator",
       "tags": [
         "Logic",
@@ -250,7 +259,7 @@
     },
     {
       "slug": "TogglerCompact",
-      "name": "Toggler Compact",
+      "name": "toggler Compact",
       "description": "Stereo signal toggle switch router, with VCA and ASR envelope generator, in a compact form factor",
       "tags": [
         "Logic",
@@ -261,7 +270,7 @@
     },
     {
       "slug": "Wavetabler",
-      "name": "Wavetabler",
+      "name": "wavetabler",
       "description": "Wavetable Sample Player",
       "tags": [
         "Sampler",
