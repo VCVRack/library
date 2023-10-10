@@ -1,7 +1,7 @@
 {
   "slug": "Fundamental",
   "name": "VCV Free",
-  "version": "2.5.1",
+  "version": "2.6.0",
   "license": "GPL-3.0-or-later",
   "brand": "VCV",
   "author": "VCV",
@@ -27,6 +27,7 @@
       "slug": "VCO2",
       "name": "Wavetable VCO",
       "description": "Voltage-controlled wavetable oscillator",
+      "keywords": "WT",
       "manualUrl": "https://vcvrack.com/Free#WavetableVCO",
       "tags": [
         "VCO",
@@ -78,6 +79,7 @@
       "slug": "LFO2",
       "name": "Wavetable LFO",
       "description": "Low-frequency wavetable oscillator",
+      "keywords": "WT",
       "manualUrl": "https://vcvrack.com/Free#LFO2",
       "tags": [
         "LFO",
@@ -209,6 +211,7 @@
       "slug": "Octave",
       "name": "Octave",
       "description": "Shifts 1V/oct pitch CV by octaves",
+      "keywords": "OCT",
       "manualUrl": "https://vcvrack.com/Free#Octave",
       "tags": [
         "Utility",
@@ -219,6 +222,7 @@
       "slug": "Quantizer",
       "name": "Quantizer",
       "description": "12-note quantizer and scale selector",
+      "keywords": "QNT",
       "manualUrl": "https://vcvrack.com/Free#Quantizer",
       "tags": [
         "Quantizer",
@@ -269,6 +273,7 @@
       "slug": "MidSide",
       "name": "Mid/Side",
       "description": "Encodes/decodes between mid/side and left/right stereo signals",
+      "keywords": "M/S",
       "manualUrl": "https://vcvrack.com/Free#MidSide",
       "tags": [
         "Utility",
@@ -279,6 +284,7 @@
       "slug": "Noise",
       "name": "Noise",
       "description": "Multicolored noise generator",
+      "keywords": "NOIS",
       "manualUrl": "https://vcvrack.com/Free#Noise",
       "tags": [
         "Noise"
@@ -298,6 +304,7 @@
       "slug": "CVMix",
       "name": "CV Mix",
       "description": "Mixes 3 CV signals with attenuverters",
+      "keywords": "CVMIX",
       "manualUrl": "https://vcvrack.com/Free#CVMix",
       "tags": [
         "Mixer",
@@ -359,9 +366,54 @@
       "slug": "Mult",
       "name": "Mult",
       "description": "Copies a signal to 8 outputs",
+      "manualUrl": "https://vcvrack.com/Free#Mult",
       "tags": [
+        "Multiple",
         "Utility",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Rescale",
+      "name": "Rescale",
+      "description": "Rescales voltages with gain, offset, and range limiting",
+      "keywords": "RSCL",
+      "manualUrl": "https://vcvrack.com/Free#Rescale",
+      "tags": [
+        "Attenuator",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "RandomValues",
+      "name": "Random Values",
+      "description": "Generates 7 random fixed voltages",
+      "keywords": "RND",
+      "manualUrl": "https://vcvrack.com/Free#RandomValues",
+      "tags": [
+        "Random",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Push",
+      "name": "Push",
+      "description": "Button with gate/trigger outputs and hold switch",
+      "manualUrl": "https://vcvrack.com/Free#Push",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SHASR",
+      "name": "Sample & Hold Analog Shift Register",
+      "description": "8 channel sample & hold combined with a shift register",
+      "keywords": "S&H ASR",
+      "manualUrl": "https://vcvrack.com/Free#SHASR",
+      "tags": [
+        "Sample and hold"
       ]
     }
   ]
