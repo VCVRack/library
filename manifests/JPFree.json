@@ -1,0 +1,69 @@
+{
+  "slug": "JPFree",
+  "name": "JP Free",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "JP",
+  "author": "Andrew Hanson (Path Set) & Joop van der Linden",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/patheros/JPManuals",
+  "manualUrl": "https://github.com/patheros/JPManuals/blob/main/JPFree.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ThreeTrack",
+      "name": "Three Track",
+      "description": "Program 3-voice melodies or chords.",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Polyphonic"
+      ],
+      "keywords": "melody 1v/oct v/oct volt per ocatve three tracks chords"
+    },
+    {
+      "slug": "StarMatrixJr",
+      "name": "Star Matrix Jr",
+      "description": "Fully control transition chance between any note block.",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "melody 1v/oct v/oct volt per ocatve note pool matrix transition weights"
+    },
+    {
+      "slug": "ImprovJr",
+      "name": "Improv Jr",
+      "description": "Jazz inspired live performance sequencer. Responds instantly to changes in notes add through the keyboard.",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "melody 1v/oct v/oct volt per ocatve keyboard note pool instrument"
+    },
+    {
+      "slug": "ShiftAndShuffle",
+      "name": "Shift & Shuffle Expander",
+      "description": "Expander for any main JP sequencer. CV controllable sequence modifications.",
+      "tags": [
+        "Expander",
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "shift shuffle transpose notes cv trigger"
+    },
+    {
+      "slug": "WindowedSwitch",
+      "name": "Navi",
+      "description": "Clock divder with a random variation each cycle.",
+      "tags": [
+        "Clock modulator",
+        "Random"
+      ],
+      "keywords": "counter"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "JPLab",
+  "name": "JP Lab",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "JP",
+  "author": "Andrew Hanson (Path Set) & Joop van der Linden",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/patheros/JPManuals",
+  "manualUrl": "https://github.com/patheros/JPManuals/blob/main/JPLab.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "FourTrack",
+      "name": "Four Track",
+      "description": "Program 4-voice melodies or chords. Add endless expanders for endless length.",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Polyphonic"
+      ],
+      "keywords": "melody 1v/oct v/oct volt per ocatve note pool four tracks chords"
+    },
+    {
+      "slug": "FourTrackExpander",
+      "name": "Four Track Expander",
+      "description": "Add 64 more note blocks to Four Track. Try using more than one.",
+      "tags": [
+        "Expander",
+        "Sequencer",
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Improv",
+      "name": "Improv",
+      "description": "Jazz inspired live performance sequencer. Responds instantly to changes in notes add through the keyboard.",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "melody 1v/oct v/oct volt per ocatve keyboard note pool instrument"
+    },
+    {
+      "slug": "StarMatrix",
+      "name": "Star Matrix",
+      "description": "Fully control transition chance between any note block.",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "melody 1v/oct v/oct volt per ocatve note pool matrix transition weights"
+    },
+    {
+      "slug": "CounterPoint",
+      "name": "Counter Point Expander",
+      "description": "Expander for any main JP sequencer. Creates an extra voice using delay, regression and inversion.",
+      "tags": [
+        "Expander",
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "delay inversion regression retrograde"
+    },
+    {
+      "slug": "Navigator",
+      "name": "Navigator",
+      "description": "An event sequencer of 16 steps, each with two gates and two CVs. Precisely control the length of each event or add randomness.",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "counter"
+    }
+  ]
+}
