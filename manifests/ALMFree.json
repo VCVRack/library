@@ -1,7 +1,7 @@
 {
   "slug": "ALMFree",
   "name": "ALM Busy Circuits Free",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "proprietary",
   "brand": "ALM Busy Circuits",
   "author": "ALM",
@@ -37,6 +37,26 @@
       "description": "ALM009 Tangle Quartet",
       "tags": [
         "Mixer",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "MCO",
+      "name": "MCO",
+      "description": "ALM021 MCO",
+      "tags": [
+        "VCO",
+        "Digital",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "PipSlope",
+      "name": "Pip Slope Mk2",
+      "description": "ALM028 Pip Slope Mk2",
+      "tags": [
+        "Envelope generator",
+        "Digital",
         "Hardware Clone"
       ]
     }

@@ -1,0 +1,42 @@
+{
+  "slug": "ALM034",
+  "name": "Pamela's Pro Workout",
+  "version": "2.123.0",
+  "license": "proprietary",
+  "brand": "ALM Busy Circuits",
+  "author": "ALM",
+  "authorEmail": "help@busycircuits.com",
+  "authorUrl": "https://busycircuits.com",
+  "pluginUrl": "https://busycircuits.com/alm034/",
+  "manualUrl": "https://busycircuits.com/docs/alm034-manual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ALM034",
+      "name": "Pamela's Pro Workout",
+      "description": "ALM034 PPW: Clocked modulation source",
+      "keywords": [
+        "pam",
+        "ppw",
+        "clock",
+        "modulator",
+        "sync"
+      ],
+      "tags": [
+        "Digital",
+        "Hardware Clone",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "AXON2",
+      "name": "AXON-2",
+      "description": "AXON-2 Expander for ALM034 PPW",
+      "tags": [
+        "Expander"
+      ]
+    }
+  ]
+}
