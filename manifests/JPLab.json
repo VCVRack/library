@@ -1,7 +1,7 @@
 {
   "slug": "JPLab",
   "name": "JP Lab",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "https://vcvrack.com/eula",
   "brand": "JP",
   "author": "Andrew Hanson (Path Set) & Joop van der Linden",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/patheros/JPManuals/blob/main/JPLab.pdf",
   "sourceUrl": "",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/patheros/JPManuals/blob/main/Changelog-JPLab.md",
   "modules": [
     {
       "slug": "FourTrack",
