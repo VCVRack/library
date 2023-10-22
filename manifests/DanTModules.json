@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.31",
+  "version": "2.4.32",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -104,7 +104,7 @@
         "Utility",
         "Visual"
       ],
-      "keywords": "chroma magica cv rgb red green blue theme",
+      "keywords": "chroma magica cv rgb red green blue theme colours",
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/chromagica/"
     },
     {
@@ -114,7 +114,7 @@
       "tags": [
         "Visual"
       ],
-      "keywords": "chroma magical cv blank theme green cyan magenta greenscreen",
+      "keywords": "chroma magical cv blank theme green cyan magenta greenscreen colours",
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/chromakey/"
     },
     {
