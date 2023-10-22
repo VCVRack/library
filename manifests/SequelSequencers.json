@@ -1,7 +1,7 @@
 {
   "slug": "SequelSequencers",
   "name": "Daniel Davies",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "Daniel Davies",
   "author": "Daniel Davies",
@@ -74,18 +74,22 @@
     {
       "slug": "Bend",
       "name": "Bend",
-      "description": "Phaae modulation oscillator",
+      "description": "Phase modulation oscillator",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Low-frequency oscillator"
       ],
-      "hidden": true
+      "hidden": false
     },
     {
       "slug": "James",
       "name": "James",
-      "description": "",
-      "tags": [],
-      "hidden": true
+      "description": "6 row drum sequencer with per-row rush/drag controls",
+      "tags": [
+        "Clock modulator",
+        "Sequencer"
+      ],
+      "hidden": false
     }
   ]
 }

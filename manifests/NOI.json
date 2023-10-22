@@ -1,7 +1,7 @@
 {
   "slug": "NOI",
   "name": "NOI",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "license": "GPL-3.0-or-later",
   "brand": "NOI",
   "author": "Thomas Guillory",
@@ -53,6 +53,14 @@
       "description": "Multiband Resonating Filter",
       "tags": [
         "VCF"
+      ]
+    },
+    {
+      "slug": "Pruners",
+      "name": "Pruners",
+      "description": "Sampler",
+      "tags": [
+        "Sampler"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "BaconMusic",
   "name": "Bacon Music",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "author": "@baconpaul",
   "authorEmail": "",
@@ -10,6 +10,7 @@
   "manualUrl": "https://github.com/baconpaul/BaconPlugs#readme",
   "sourceUrl": "https://github.com/baconpaul/BaconPlugs/",
   "donateUrl": "",
+  "minRackVersion": "2.4.0",
   "modules": [
     {
       "slug": "HarMoNee",

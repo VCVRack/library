@@ -1,14 +1,14 @@
 {
   "slug": "questionablemodules",
   "name": "Questionable Modules",
-  "version": "2.1.11",
+  "version": "2.1.12",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Questionable Modules",
   "author": "John Iannandrea",
   "authorEmail": "jiannandrea@gmail.com",
   "authorUrl": "https://github.com/isivisi/",
-  "manualUrl": "https://github.com/isivisi/questionablemodules/wiki",
+  "manualUrl": "https://isivisi.github.io/questionablemodules/index",
   "sourceUrl": "https://github.com/isivisi/questionablemodules",
   "donateUrl": "https://www.paypal.com/donate/?business=9KQFMHR3LT9CG&no_recurring=0&item_name=Funding+my+ongoing+vcv+rack+plugin+development+%3A%29&currency_code=CAD",
   "changelogUrl": "https://github.com/isivisi/questionablemodules/releases",
@@ -20,7 +20,9 @@
       "manualUrl": "https://isivisi.github.io/questionablemodules/discombobulator",
       "tags": [
         "Random",
-        "Utility"
+        "Utility",
+        "Switch",
+        "Polyphonic"
       ]
     },
     {
@@ -30,7 +32,9 @@
       "manualUrl": "https://isivisi.github.io/questionablemodules/nandomizer",
       "tags": [
         "Random",
-        "Utility"
+        "Utility",
+        "Switch",
+        "Polyphonic"
       ]
     },
     {
@@ -71,6 +75,18 @@
       "manualUrl": "https://isivisi.github.io/questionablemodules/greenscreen",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "smute",
+      "name": "Smute",
+      "description": "Mute buttons synced to the clock",
+      "manualUrl": "https://isivisi.github.io/questionablemodules/smute",
+      "tags": [
+        "Utility",
+        "Switch",
+        "Polyphonic",
+        "Expander"
       ]
     }
   ]
