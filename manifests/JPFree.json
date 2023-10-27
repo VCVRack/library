@@ -1,7 +1,7 @@
 {
   "slug": "JPFree",
   "name": "JP Free",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "license": "https://vcvrack.com/eula",
   "brand": "JP",
   "author": "Andrew Hanson (Path Set) & Joop van der Linden",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/patheros/JPManuals/blob/main/JPFree.pdf",
   "sourceUrl": "",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/patheros/JPManuals/blob/main/Changelog-JPFree.md",
   "modules": [
     {
       "slug": "ThreeTrack",
