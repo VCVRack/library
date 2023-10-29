@@ -777,3 +777,6 @@
 [submodule "repos/SS-Modules"]
 	path = repos/SS-Modules
 	url = https://github.com/strongs20/SS-modules.git
+[submodule "repos/patina"]
+	path = repos/patina
+	url = https://github.com/epadilla/patina.git
