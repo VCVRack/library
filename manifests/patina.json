@@ -1,0 +1,26 @@
+{
+  "slug": "patina",
+  "name": "Patina",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Patina",
+  "author": "Eugenio Padilla",
+  "authorEmail": "epadilla@gmail.com",
+  "authorUrl": "https://github.com/epadilla",
+  "pluginUrl": "https://github.com/epadilla/patina",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/epadilla/patina",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "MemoryPad",
+      "name": "Memory Pad",
+      "description": "Interactive X-Y pad that records and repeats path drawn on touchpad. Can be used to modulate any parameter as a custom-drawn LFO with 2 outputs. Outputs can be set to bipolar or unipolar values and attenuated. Drag with the mouse on the touchpad to record a path.",
+      "tags": [
+        "Low-frequency oscillator",
+        "Controller"
+      ]
+    }
+  ]
+}

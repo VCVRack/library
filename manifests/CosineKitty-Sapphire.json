@@ -1,7 +1,7 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
@@ -44,6 +44,34 @@
         "Filter",
         "Polyphonic",
         "Reverb"
+      ]
+    },
+    {
+      "slug": "Frolic",
+      "name": "Frolic",
+      "description": "Chaotic oscillator based on the Rucklidge Attractor.",
+      "tags": [
+        "Physical modeling",
+        "Effect",
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "Tricorder",
+      "name": "Tricorder",
+      "description": "3D plotter expander module for Frolic and Tin.",
+      "tags": [
+        "Expander",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Tin",
+      "name": "Tin",
+      "description": "Feeds arbitrary input signals into Tricorder.",
+      "tags": [
+        "Expander",
+        "Utility"
       ]
     }
   ]
