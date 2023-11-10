@@ -1,0 +1,31 @@
+{
+  "slug": "Jasmine-and-Olive-Trees",
+  "name": "Jasmine & Olive Trees",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Jasmine & Olive Trees",
+  "author": "Domingo Martin",
+  "authorEmail": "",
+  "authorUrl": "https://jasmineandolivetrees.com/",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Traffic",
+      "name": "Traffic",
+      "description": "Trigger-based CV controller with random modes",
+      "tags": [
+        "Sequencer",
+        "Utility",
+        "Hardware clone",
+        "Drum"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/jasmine-olive-trees-traffic",
+      "manual": "https://jasmineandolivetrees.com/pages/traffic-manual",
+      "keywords": "Controll macro oscillator plaits basimilus taiko preset"
+    }
+  ]
+}

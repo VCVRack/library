@@ -1655,5 +1655,12 @@
     "vcvUrl": "https://library.vcvrack.com/NANOModules/STMAR",
     "mgUrl": "https://www.modulargrid.net/e/nano-modules-st-mar",
     "mgModuleId": 45562
+  },
+  {
+    "pluginSlug": "Jasmine-and-Olive-Trees",
+    "moduleSlug": "Traffic",
+    "vcvUrl": "https://library.vcvrack.com/Jasmine-and-Olive-Trees/Traffic",
+    "mgUrl": "https://www.modulargrid.net/e/jasmine-olive-trees-traffic",
+    "mgModuleId": 44075
   }
 ]
