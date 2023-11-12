@@ -845,7 +845,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1679285611.220906,
+    "buildTimestamp": 1699747059.4496238,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -2565,7 +2565,7 @@
     }
   },
   "unless_modules": {
-    "buildTimestamp": 1693899710.2956753,
+    "buildTimestamp": 1699748149.4833136,
     "creationTimestamp": 1524653643.0,
     "modules": {
       "markov": {
@@ -2806,7 +2806,7 @@
     }
   },
   "squinkylabs-plug1": {
-    "buildTimestamp": 1666642557.1237948,
+    "buildTimestamp": 1699747977.6233513,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "squinkylabs-ev3": {
@@ -3840,11 +3840,14 @@
     "modules": {}
   },
   "PS-PurrSoftware": {
-    "buildTimestamp": 1676812929.3713956,
+    "buildTimestamp": 1699748182.5599728,
     "creationTimestamp": 1579232908.0,
     "modules": {
       "Meander": {
         "creationTimestamp": 1579232908.0
+      },
+      "ModeScaleQuant": {
+        "creationTimestamp": 1699748183.0097864
       }
     }
   },
@@ -3936,7 +3939,7 @@
     }
   },
   "Valley": {
-    "buildTimestamp": 1698774546.053722,
+    "buildTimestamp": 1699748096.3566585,
     "creationTimestamp": 1521979525.0,
     "modules": {
       "Topograph": {
@@ -11502,7 +11505,7 @@
     }
   },
   "alefsbits": {
-    "buildTimestamp": 1679284611.3197708,
+    "buildTimestamp": 1699746587.6297276,
     "creationTimestamp": 1650829410.386362,
     "modules": {
       "simplexandhold": {
@@ -11564,6 +11567,12 @@
       },
       "lucc": {
         "creationTimestamp": 1679285788.628547
+      },
+      "polyshuffle": {
+        "creationTimestamp": 1699748182.7210395
+      },
+      "polycounter": {
+        "creationTimestamp": 1699748182.869292
       }
     }
   },
@@ -11694,7 +11703,7 @@
     }
   },
   "fruitsofkarma": {
-    "buildTimestamp": 1680833185.4207609,
+    "buildTimestamp": 1699747591.6201026,
     "creationTimestamp": 1652376852.6430357,
     "modules": {
       "Quadro360": {
@@ -12510,7 +12519,7 @@
     }
   },
   "Airwin2Rack": {
-    "buildTimestamp": 1692243664.249576,
+    "buildTimestamp": 1699747570.6761782,
     "creationTimestamp": 1675100686.7833567,
     "modules": {
       "Airwin2Rack": {

@@ -1,12 +1,12 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.5.4",
+  "version": "2.5.52",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
   "authorEmail": "",
-  "authorUrl": "https://twitter.com/alefnull",
+  "authorUrl": "https://github.com/alefnull",
   "pluginUrl": "https://github.com/alefnull/alefsbits",
   "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md",
   "sourceUrl": "https://github.com/alefnull/alefsbits",
@@ -175,8 +175,7 @@
         "Oscillator",
         "Random",
         "Polyphonic"
-      ],
-      "hidden": false
+      ]
     },
     {
       "slug": "lucc",
@@ -184,6 +183,25 @@
       "description": "a clock divider based on the lucas sequence",
       "tags": [
         "Clock modulator"
+      ]
+    },
+    {
+      "slug": "polyshuffle",
+      "name": "polyshuffle",
+      "description": "shuffle the channels of a polyphonic signal, with various modes",
+      "tags": [
+        "polyphonic",
+        "random",
+        "utility"
+      ]
+    },
+    {
+      "slug": "polycounter",
+      "name": "polycounter",
+      "description": "count up or down on trigger with custom start/end/increment values",
+      "tags": [
+        "polyphonic",
+        "utility"
       ]
     }
   ]
