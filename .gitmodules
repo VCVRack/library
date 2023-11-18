@@ -783,3 +783,6 @@
 [submodule "repos/RPJVisualizer"]
 	path = repos/RPJVisualizer
 	url = https://github.com/kockie69/Visualizer.git
+[submodule "repos/PatchableDevices"]
+	path = repos/PatchableDevices
+	url = https://github.com/nullJaX/vcvrack-patchable-devices.git
