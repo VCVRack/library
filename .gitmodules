@@ -780,3 +780,6 @@
 [submodule "repos/patina"]
 	path = repos/patina
 	url = https://github.com/epadilla/patina.git
+[submodule "repos/RPJVisualizer"]
+	path = repos/RPJVisualizer
+	url = https://github.com/kockie69/Visualizer.git
