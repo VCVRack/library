@@ -786,3 +786,6 @@
 [submodule "repos/PatchableDevices"]
 	path = repos/PatchableDevices
 	url = https://github.com/nullJaX/vcvrack-patchable-devices.git
+[submodule "repos/NLS"]
+	path = repos/NLS
+	url = https://github.com/michelezaccagnini/NLS.git
