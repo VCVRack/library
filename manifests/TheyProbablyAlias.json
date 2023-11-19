@@ -1,0 +1,44 @@
+{
+  "slug": "TheyProbablyAlias",
+  "name": "TheyProbablyAlias",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "TheyProbablyAlias",
+  "author": "Vega Deftwing",
+  "authorEmail": "vegac@protonmail.com",
+  "authorUrl": "https://opguides.info",
+  "donateUrl": "https://github.com/sponsors/VegaDeftwing",
+  "modules": [
+    {
+      "slug": "Octoformer",
+      "name": "Octoformer",
+      "description": "Transformer Model Distortion",
+      "tags": [
+        "Dual",
+        "Effect",
+        "Waveshaper",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "WolfUp",
+      "name": "WollfUp",
+      "description": "Ring-Mod Octave Up",
+      "tags": [
+        "Dual",
+        "Effect",
+        "Waveshaper",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "GhostRaccoon",
+      "name": "Ghost Raccoon",
+      "description": "Widden + Gate",
+      "tags": [
+        "Dual",
+        "Effect"
+      ]
+    }
+  ]
+}
