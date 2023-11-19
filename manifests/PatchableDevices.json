@@ -1,0 +1,114 @@
+{
+  "slug": "PatchableDevices",
+  "name": "Patchable Devices",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Patchable Devices",
+  "author": "Jacek Lewa\u0144ski",
+  "pluginUrl": "https://github.com/nullJaX/vcvrack-patchable-devices",
+  "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/MANUAL.md",
+  "sourceUrl": "https://github.com/nullJaX/vcvrack-patchable-devices",
+  "changelogUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/commits/master",
+  "modules": [
+    {
+      "slug": "ComparingCounter",
+      "name": "Comparing Counter",
+      "description": "Pulse counter / frequency divider with advanced comparator input",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/ComparingCounter/ComparingCounter.md",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Oscillator",
+        "Utility",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "DigitalChaoticSystem",
+      "name": "Digital Chaotic System",
+      "description": "Digital 8-bit Shift Register driven by two independent VCOs",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/DigitalChaoticSystem/DigitalChaoticSystem.md",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Function generator",
+        "Logic",
+        "Low-frequency oscillator",
+        "Noise",
+        "Oscillator",
+        "Random",
+        "Sequencer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DualIntegrator",
+      "name": "Dual Integrator",
+      "description": "Dual, multi-purpose slew limiter",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/DualIntegrator/DualIntegrator.md",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Dual",
+        "Envelope generator",
+        "Filter",
+        "Function generator",
+        "Low-frequency oscillator",
+        "Low-pass gate",
+        "Oscillator",
+        "Sample and hold",
+        "Slew limiter",
+        "Utility",
+        "Voltage-controlled amplifier",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "NonlinearIntegrator",
+      "name": "Nonlinear Integrator",
+      "description": "State Variable Filter",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/NonlinearIntegrator/NonlinearIntegrator.md",
+      "tags": [
+        "Envelope generator",
+        "Filter",
+        "Function generator",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Slew limiter"
+      ]
+    },
+    {
+      "slug": "VoltageSequencer",
+      "name": "Voltage Sequencer",
+      "description": "Programmable sequencer",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/VoltageSequencer/VoltageSequencer.md",
+      "tags": [
+        "Clock modulator",
+        "Envelope generator",
+        "Function generator",
+        "Logic",
+        "Sequencer",
+        "Utility",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "WindowGenerators",
+      "name": "Window Generators",
+      "description": "Multi-shape Envelope Generator",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/WindowGenerators/WindowGenerators.md",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Envelope generator",
+        "Envelope follower",
+        "Filter",
+        "Function generator",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Slew limiter",
+        "Waveshaper"
+      ]
+    }
+  ]
+}

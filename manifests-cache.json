@@ -3451,7 +3451,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1645027981.5461435,
+    "buildTimestamp": 1700393338.8999672,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -3840,7 +3840,7 @@
     "modules": {}
   },
   "PS-PurrSoftware": {
-    "buildTimestamp": 1699748182.5599728,
+    "buildTimestamp": 1700393245.6157787,
     "creationTimestamp": 1579232908.0,
     "modules": {
       "Meander": {
@@ -11946,7 +11946,7 @@
     }
   },
   "CosineKitty-Sapphire": {
-    "buildTimestamp": 1698773710.910923,
+    "buildTimestamp": 1700393212.4122565,
     "creationTimestamp": 1660869608.068208,
     "modules": {
       "Moots": {
@@ -11966,6 +11966,9 @@
       },
       "Tin": {
         "creationTimestamp": 1698774547.128557
+      },
+      "Glee": {
+        "creationTimestamp": 1700393971.941677
       }
     }
   },
@@ -12144,7 +12147,7 @@
     }
   },
   "RPJVisualizer": {
-    "buildTimestamp": 1674192311.8061874,
+    "buildTimestamp": 1700393970.7028127,
     "creationTimestamp": 1664892729.2148025,
     "modules": {
       "LFMFull": {
@@ -12396,7 +12399,7 @@
     }
   },
   "questionablemodules": {
-    "buildTimestamp": 1697986869.8331494,
+    "buildTimestamp": 1700393768.3541489,
     "creationTimestamp": 1671488541.442978,
     "modules": {
       "discombobulator": {
@@ -12840,7 +12843,7 @@
     }
   },
   "Biset": {
-    "buildTimestamp": 1693252249.789354,
+    "buildTimestamp": 1700393490.3655424,
     "creationTimestamp": 1688525918.95731,
     "modules": {
       "Biset-Regex": {
@@ -12851,6 +12854,27 @@
       },
       "Biset-Segfault": {
         "creationTimestamp": 1693252458.0564694
+      },
+      "Biset-Tracker": {
+        "creationTimestamp": 1700393970.9295897
+      },
+      "Biset-Tracker-Synth": {
+        "creationTimestamp": 1700393971.0893269
+      },
+      "Biset-Tracker-Drum": {
+        "creationTimestamp": 1700393971.229898
+      },
+      "Biset-Tracker-Clock": {
+        "creationTimestamp": 1700393971.3670433
+      },
+      "Biset-Tracker-Phase": {
+        "creationTimestamp": 1700393971.4990442
+      },
+      "Biset-Tracker-Quant": {
+        "creationTimestamp": 1700393971.6517048
+      },
+      "Biset-Tracker-State": {
+        "creationTimestamp": 1700393971.7899678
       }
     }
   },
@@ -13019,6 +13043,48 @@
       },
       "GhostRaccoon": {
         "creationTimestamp": 1700391817.4759429
+      }
+    }
+  },
+  "NLS": {
+    "buildTimestamp": 1700393668.9068651,
+    "creationTimestamp": 1700393972.1384935,
+    "modules": {
+      "CrossSeq2": {
+        "creationTimestamp": 1700393972.2893035
+      },
+      "TrigGate": {
+        "creationTimestamp": 1700393972.4476266
+      },
+      "CrossSeq3": {
+        "creationTimestamp": 1700393972.6163023
+      },
+      "TrigLogic": {
+        "creationTimestamp": 1700393972.769338
+      }
+    }
+  },
+  "PatchableDevices": {
+    "buildTimestamp": 1700393534.236355,
+    "creationTimestamp": 1700393972.934779,
+    "modules": {
+      "ComparingCounter": {
+        "creationTimestamp": 1700393973.0821958
+      },
+      "DigitalChaoticSystem": {
+        "creationTimestamp": 1700393973.2539136
+      },
+      "DualIntegrator": {
+        "creationTimestamp": 1700393973.4434178
+      },
+      "NonlinearIntegrator": {
+        "creationTimestamp": 1700393973.5875866
+      },
+      "VoltageSequencer": {
+        "creationTimestamp": 1700393973.7232335
+      },
+      "WindowGenerators": {
+        "creationTimestamp": 1700393973.8617542
       }
     }
   }

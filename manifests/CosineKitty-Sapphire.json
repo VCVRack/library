@@ -1,7 +1,7 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
@@ -50,6 +50,16 @@
       "slug": "Frolic",
       "name": "Frolic",
       "description": "Chaotic oscillator based on the Rucklidge Attractor.",
+      "tags": [
+        "Physical modeling",
+        "Effect",
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "Glee",
+      "name": "Glee",
+      "description": "Chaotic oscillator based on the Aizawa Attractor.",
       "tags": [
         "Physical modeling",
         "Effect",

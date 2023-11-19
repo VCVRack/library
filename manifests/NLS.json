@@ -1,0 +1,50 @@
+{
+  "slug": "NLS",
+  "name": "NLS",
+  "version": "2.1.6.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "NLS",
+  "author": "Michele Zaccagnini",
+  "authorEmail": "michelezaccagnini88@gmail.com",
+  "authorUrl": "https://linktr.ee/michelezac",
+  "pluginUrl": "https://github.com/michelezaccagnini/NLS/tree/main",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/michelezaccagnini/NLS/tree/main",
+  "donateUrl": "https://www.patreon.com/michelez",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "CrossSeq2",
+      "name": "XSeq2",
+      "description": "detect intersections between LFOs to generate triggers",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TrigGate",
+      "name": "TrigGate",
+      "description": "converts triggers to gates of variable length",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "CrossSeq3",
+      "name": "XSeq3",
+      "description": "detect intersections between LFOs to generate triggers",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TrigLogic",
+      "name": "TrigLogic",
+      "description": "let triggers through based on signal logic",
+      "tags": [
+        "Logic",
+        "Utility"
+      ]
+    }
+  ]
+}

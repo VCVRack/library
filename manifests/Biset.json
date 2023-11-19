@@ -1,7 +1,7 @@
 {
   "slug": "Biset",
   "name": "Biset",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "license": "MIT",
   "brand": "Biset",
   "author": "Biset",
@@ -10,9 +10,85 @@
   "pluginUrl": "https://github.com/gibbonjoyeux/VCV-Biset",
   "manualUrl": "https://github.com/gibbonjoyeux/VCV-Biset",
   "sourceUrl": "https://github.com/gibbonjoyeux/VCV-Biset",
-  "donateUrl": "",
+  "donateUrl": "https://www.paypal.com/paypalme/bisousbiset",
   "changelogUrl": "",
   "modules": [
+    {
+      "slug": "Biset-Tracker",
+      "name": "Tracker",
+      "description": "An advanced sequencer based on a tracker and a timeline",
+      "tags": [
+        "Sequencer",
+        "Controller",
+        "Polyphonic",
+        "Function generator",
+        "Quantizer",
+        "Tuner",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "Biset-Tracker-Synth",
+      "name": "Tracker Synth",
+      "description": "Tracker synth output",
+      "tags": [
+        "Sequencer",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "Biset-Tracker-Drum",
+      "name": "Tracker Drum",
+      "description": "Tracker drum output",
+      "tags": [
+        "Sequencer",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "Biset-Tracker-Clock",
+      "name": "Tracker Clock",
+      "description": "Tracker clock divider / multiplier",
+      "tags": [
+        "Sequencer",
+        "Clock",
+        "Quad",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "Biset-Tracker-Phase",
+      "name": "Tracker Phase",
+      "description": "Tracker phase / synced LFO output",
+      "tags": [
+        "Sequencer",
+        "Low-frequency oscillator",
+        "Quad",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "Biset-Tracker-Quant",
+      "name": "Tracker Quant",
+      "description": "Tracker quantizer / tuner",
+      "tags": [
+        "Sequencer",
+        "Quantizer",
+        "Tuner",
+        "Quad",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "Biset-Tracker-State",
+      "name": "Tracker State",
+      "description": "Tracker state output & track visualizer",
+      "tags": [
+        "Sequencer",
+        "Visual",
+        "Digital"
+      ]
+    },
     {
       "slug": "Biset-Regex",
       "name": "Regex",
