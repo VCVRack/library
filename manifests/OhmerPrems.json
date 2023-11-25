@@ -1,7 +1,7 @@
 {
   "slug": "OhmerPrems",
   "name": "OhmerPrems",
-  "version": "2.2.7",
+  "version": "2.4.1",
   "license": "proprietary",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
@@ -15,7 +15,7 @@
     {
       "slug": "FroeZe",
       "name": "FroeZe",
-      "description": "16-track 64-step drum sequencer (1ms trigger / QuadPercs Audio Engine outputs)",
+      "description": "16-track 64-step 128-pattern drum-based sequencer (trigger or audio outputs)",
       "tags": [
         "Drum",
         "Sequencer"
@@ -24,8 +24,43 @@
     {
       "slug": "FroeZeX",
       "name": "FroeZe-X",
-      "description": "Expander for FroeZe sequencer, additional outputs for AC'd notes, plus edit features",
+      "description": "12HP \"right-side\" expander for FroeZe: additional outputs (AC'd notes) / edit features",
       "tags": [
+        "Expander",
+        "Drum",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "FroeZeSX",
+      "name": "FroeZe-SX",
+      "description": "14HP \"left-side\" expander for FroeZe: per-track %SWING CV inputs",
+      "tags": [
+        "Expander",
+        "Drum",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "KlokSpidMkII",
+      "name": "KlokSpid MkII",
+      "description": "16HP CPU-based programmable clocked modulation source",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Low-frequency oscillator",
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "KX",
+      "name": "KX",
+      "description": "3HP \"left-side\" expander for KlokSpid MkII: discrete CLK, RUN, and RESET inputs, plus two pre-offsets CV (assignable to quantizers)",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Low-frequency oscillator",
+        "Envelope generator",
         "Expander"
       ]
     },
