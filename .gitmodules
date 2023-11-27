@@ -789,3 +789,6 @@
 [submodule "repos/NLS"]
 	path = repos/NLS
 	url = https://github.com/michelezaccagnini/NLS.git
+[submodule "repos/HetrickCV"]
+	path = repos/HetrickCV
+	url = https://github.com/mhetrick/hetrickcv.git
