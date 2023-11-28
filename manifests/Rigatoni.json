@@ -1,28 +1,42 @@
 {
   "slug": "Rigatoni",
   "name": "Rigatoni",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "MIT",
   "brand": "Rigatoni Modular",
   "author": "Ian Hoffman",
   "authorEmail": "ijh6@cornell.edu",
   "authorUrl": "https://github.com/ianjhoffman",
   "pluginUrl": "https://github.com/ianjhoffman/RigatoniModular",
-  "manualUrl": "",
-  "sourceUrl": "",
-  "donateUrl": "",
+  "manualUrl": "https://github.com/ianjhoffman/RigatoniModular/tree/master/manuals",
+  "sourceUrl": "https://github.com/ianjhoffman/RigatoniModular",
+  "donateUrl": "https://www.buymeacoffee.com/rigatonimodular",
   "changelogUrl": "",
   "modules": [
     {
       "slug": "RigatoniModular-ThruZero",
       "name": "Thru Zero",
       "description": "A small waveshaping utility that mimics soft oscillator sync for input ramp waves and acts as a through zero FM helper",
+      "manualUrl": "https://github.com/ianjhoffman/RigatoniModular/blob/master/manuals/ThruZero.md",
       "tags": [
         "Distortion",
         "Utility",
         "Waveshaper"
       ],
       "keywords": "soft sync comparator fm tzfm through zero"
+    },
+    {
+      "slug": "RigatoniModular-Loom",
+      "name": "Loom",
+      "description": "An additive oscillator based loosely on the structure of Euclidean pattern sequencing",
+      "manualUrl": "https://github.com/ianjhoffman/RigatoniModular/blob/master/manuals/Loom.md",
+      "tags": [
+        "Digital",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Synth voice"
+      ],
+      "keywords": "additive euclidean vco lfo"
     }
   ]
 }

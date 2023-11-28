@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.4.1",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -59,6 +59,27 @@
       ]
     },
     {
+      "slug": "LinearBeats",
+      "name": "Linear Beats",
+      "description": "Convert multiple trigger/gate channels into a linear drumming pattern",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#linear-beats",
+      "tags": [
+        "Logic",
+        "Polyphonic",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "LinearBeatsExpander",
+      "name": "Linear Beats Expander",
+      "description": "Add bypass and input/output mutes to the Linear Beats module",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#linear-beats-expander",
+      "tags": [
+        "Logic",
+        "Expander"
+      ]
+    },
+    {
       "slug": "Mix4",
       "name": "Mix 4",
       "description": "Compact audio or CV mixer, attenuator, inverter, amplifier, and/or offset",
@@ -80,6 +101,107 @@
         "Mixer",
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "MixFade",
+      "name": "Mix Fade Expander",
+      "description": "Add symmetric mute/solo fades to any of the Mix modules",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-fade-expander",
+      "tags": [
+        "Attenuator",
+        "Expander",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MixFade2",
+      "name": "Mix Fade 2 Expander",
+      "description": "Add independent rise/fall fades for mute/solo to any of the Mix modules",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-fade-2-expander",
+      "tags": [
+        "Attenuator",
+        "Expander",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MixMute",
+      "name": "Mix Mute Expander",
+      "description": "Add mutes to any of the Mix modules",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-mute-expander",
+      "tags": [
+        "Attenuator",
+        "Expander",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MixOffset",
+      "name": "Mix Offset Expander",
+      "description": "Add offset control to any of the Mix modules",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-offset-expander",
+      "tags": [
+        "Attenuator",
+        "Expander",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MixPan",
+      "name": "Mix Pan Expander",
+      "description": "Add pan control to either of the stereo Mix modules",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-pan-expander",
+      "tags": [
+        "Attenuator",
+        "Expander",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MixSend",
+      "name": "Mix Aux Send Expander",
+      "description": "Add aux send/return to any of the Mix modules",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-aux-send-expander",
+      "tags": [
+        "Attenuator",
+        "Expander",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MixSolo",
+      "name": "Mix Solo Expander",
+      "description": "Add solo to any of the Mix modules",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-solo-expander",
+      "tags": [
+        "Attenuator",
+        "Expander",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "NORS_IQ",
+      "name": "Non-Octave-Repeating Scale Intervallic Quantizer",
+      "description": "Quantizer for any scale defined by up to 13 intervals between notes",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#non-octave-repeating-scale-intervallic-quantizer",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
       ]
     },
     {

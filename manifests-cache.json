@@ -3840,7 +3840,7 @@
     "modules": {}
   },
   "PS-PurrSoftware": {
-    "buildTimestamp": 1700393245.6157787,
+    "buildTimestamp": 1701131946.82185,
     "creationTimestamp": 1579232908.0,
     "modules": {
       "Meander": {
@@ -5083,7 +5083,7 @@
     }
   },
   "HetrickCV": {
-    "buildTimestamp": 1692335063.5948071,
+    "buildTimestamp": 1701132171.2233891,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ASR": {
@@ -12024,7 +12024,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1696888414.8317857,
+    "buildTimestamp": 1701131740.836827,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12110,6 +12110,9 @@
       },
       "SickoAmp": {
         "creationTimestamp": 1696888415.348573
+      },
+      "Bgates": {
+        "creationTimestamp": 1701132367.065008
       }
     }
   },
@@ -12156,7 +12159,7 @@
     }
   },
   "RPJVisualizer": {
-    "buildTimestamp": 1700393970.7028127,
+    "buildTimestamp": 1701132366.431826,
     "creationTimestamp": 1664892729.2148025,
     "modules": {
       "LFMFull": {
@@ -12573,7 +12576,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1693679701.9735415,
+    "buildTimestamp": 1701131913.372117,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
@@ -12629,6 +12632,36 @@
       },
       "VenomBlank": {
         "creationTimestamp": 1691452799.5085075
+      },
+      "LinearBeats": {
+        "creationTimestamp": 1701132367.2177165
+      },
+      "LinearBeatsExpander": {
+        "creationTimestamp": 1701132367.3565977
+      },
+      "MixFade": {
+        "creationTimestamp": 1701132367.4888444
+      },
+      "MixFade2": {
+        "creationTimestamp": 1701132367.6226091
+      },
+      "MixMute": {
+        "creationTimestamp": 1701132367.759115
+      },
+      "MixOffset": {
+        "creationTimestamp": 1701132367.8906434
+      },
+      "MixPan": {
+        "creationTimestamp": 1701132368.0241165
+      },
+      "MixSend": {
+        "creationTimestamp": 1701132368.1561801
+      },
+      "MixSolo": {
+        "creationTimestamp": 1701132368.2948267
+      },
+      "NORS_IQ": {
+        "creationTimestamp": 1701132368.437473
       }
     }
   },
@@ -12852,7 +12885,7 @@
     }
   },
   "Biset": {
-    "buildTimestamp": 1700393490.3655424,
+    "buildTimestamp": 1701131563.3449075,
     "creationTimestamp": 1688525918.95731,
     "modules": {
       "Biset-Regex": {
@@ -12948,11 +12981,14 @@
     }
   },
   "Rigatoni": {
-    "buildTimestamp": 1696468804.944986,
+    "buildTimestamp": 1701132182.829963,
     "creationTimestamp": 1696468821.1322734,
     "modules": {
       "RigatoniModular-ThruZero": {
         "creationTimestamp": 1696468821.2655623
+      },
+      "RigatoniModular-Loom": {
+        "creationTimestamp": 1701132366.91481
       }
     }
   },
