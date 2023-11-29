@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.32",
+  "version": "2.4.33",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -93,7 +93,7 @@
       "tags": [
         "Quantizer"
       ],
-      "keywords": "nine octaves nona quant",
+      "keywords": "nine octaves nona quant generative",
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/nonaquant/"
     },
     {
