@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.33",
+  "version": "2.4.34",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -140,6 +140,17 @@
       ],
       "keywords": "numetal calculator maths add plus minus times multiply subtract divide count",
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/kalkatron/"
+    },
+    {
+      "slug": "Purfenator",
+      "name": "Purfenator",
+      "description": "[4hp][Nu-Metal] Utility module to create visual backdrops for nice video visuals, a la Purf.",
+      "tags": [
+        "Utility",
+        "Visual"
+      ],
+      "keywords": "purfenator purf urs basteck background backdrop image skiff video",
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/purfenator/"
     },
     {
       "slug": "MoarCowbell",
