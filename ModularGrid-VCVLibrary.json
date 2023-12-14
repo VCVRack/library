@@ -1662,5 +1662,19 @@
     "vcvUrl": "https://library.vcvrack.com/Jasmine-and-Olive-Trees/Traffic",
     "mgUrl": "https://www.modulargrid.net/e/jasmine-olive-trees-traffic",
     "mgModuleId": 44075
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "PerformanceMixer",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/PerformanceMixer",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-performance-mixer",
+    "mgModuleId": 46645
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "EXP4",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/EXP4",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-exp4",
+    "mgModuleId": 46646
   }
 ]

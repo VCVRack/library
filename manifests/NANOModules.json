@@ -1,7 +1,7 @@
 {
   "slug": "NANOModules",
   "name": "NANO Modules",
-  "version": "2.3.0",
+  "version": "2.3.3",
   "license": "Proprietary",
   "brand": "NANO Modules",
   "author": "Jorge Gutierrez",
@@ -61,6 +61,7 @@
         "LFO",
         "Oscillator",
         "Function generator",
+        "Quad",
         "Hardware clone"
       ]
     },
@@ -113,6 +114,31 @@
         "Attenuator",
         "Mixer",
         "VCA",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "PerformanceMixer",
+      "name": "Performance Mixer",
+      "description": "Advanced Mixing. Effortless Automation",
+      "manualUrl": "https://nano-modules.com/wp-content/uploads/2023/11/Performance-Mixer-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-performance-mixer",
+      "tags": [
+        "Attenuator",
+        "Mixer",
+        "Panning",
+        "Quad",
+        "VCA",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "EXP4",
+      "name": "EXP4",
+      "description": "Performance Mixer Expander",
+      "manualUrl": "https://nano-modules.com/wp-content/uploads/2023/11/Performance-Mixer-Manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-exp4",
+      "tags": [
         "Hardware clone"
       ]
     },
