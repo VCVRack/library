@@ -143,7 +143,7 @@
 	branch = master
 [submodule "repos/mscHack"]
 	path = repos/mscHack
-	url = https://github.com/mschack/VCV-Rack-Plugins.git
+	url = https://github.com/baconpaul/mschack-VCV-Rack-Plugins.git
 	branch = master
 [submodule "repos/Koralfx-Modules"]
 	path = repos/Koralfx-Modules
