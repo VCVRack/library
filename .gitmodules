@@ -792,3 +792,6 @@
 [submodule "repos/HetrickCV"]
 	path = repos/HetrickCV
 	url = https://github.com/mhetrick/hetrickcv.git
+[submodule "repos/SqHarmony"]
+	path = repos/SqHarmony
+	url = https://github.com/squinkylabs/SqHarmony.git
