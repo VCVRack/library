@@ -795,3 +795,6 @@
 [submodule "repos/SqHarmony"]
 	path = repos/SqHarmony
 	url = https://github.com/squinkylabs/SqHarmony.git
+[submodule "repos/minimal-friction"]
+	path = repos/minimal-friction
+	url = https://github.com/ab9st8/minimal-friction.git
