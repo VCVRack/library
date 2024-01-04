@@ -1,7 +1,7 @@
 {
   "slug": "SurgeXTRack",
   "name": "Surge XT",
-  "version": "2.1.8.0",
+  "version": "2.2.1.0",
   "license": "GPL-3.0-or-later",
   "author": "Surge Synth Team",
   "authorEmail": "",
@@ -305,6 +305,25 @@
       ]
     },
     {
+      "slug": "SurgeXTFXBonsai",
+      "name": "Bonsai",
+      "description": "A Tape Distortion Model",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "SurgeXTFXNimbus",
+      "name": "Nimbus",
+      "description": "A popular granular eurorack module",
+      "tags": [
+        "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "SurgeXTLFO",
       "name": "LFO",
       "description": "The Surge XT LFO",
@@ -382,9 +401,45 @@
       ]
     },
     {
+      "slug": "SurgeXTMixerSlider",
+      "name": "Mixer with Sliders",
+      "description": "The Surge XT Mixer, just with Sliders!",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTDigitalRingMod",
+      "name": "Digital RingModulators and Combinators",
+      "description": "The Surge XT Digital Ring Modulation and Combinator Models",
+      "tags": [
+        "Ring modulator",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "SurgeXTModMatrix",
       "name": "ModMatrix",
       "description": "The Surge XT ModMatrix",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTUnisonHelper",
+      "name": "UnisonHelper",
+      "description": "The Surge XT Unison features for your favorite Poly VCO",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SurgeXTUnisonHelperCVExpander",
+      "name": "UnisonHelper CV Expander",
+      "description": "Expander for the Unison Helper which allows you to co-route CV",
       "tags": [
         "Utility",
         "Polyphonic"

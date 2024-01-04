@@ -1,16 +1,16 @@
 {
   "slug": "mscHack",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "license": "BSD-3-Clause",
   "name": "mscHack",
   "brand": "mscHack",
-  "author": "mscHack",
+  "author": "mscHack (Rack2 port @pgatt / @baconpaul)",
   "authorEmail": "",
-  "pluginUrl": "https://github.com/mschack/VCV-Rack-Plugins/blob/master/README.md",
+  "pluginUrl": "https://github.com/baconpaul/mschack-VCV-Rack-Plugins/blob/master/README.md",
   "authorUrl": "",
   "manualUrl": "",
-  "sourceUrl": "https://github.com/mschack/VCV-Rack-Plugins",
-  "changelogUrl": "https://github.com/mschack/VCV-Rack-Plugins",
+  "sourceUrl": "https://github.com/baconpaul/mschack-VCV-Rack-Plugins",
+  "changelogUrl": "https://github.com/baconpaul/mschack-VCV-Rack-Plugins",
   "modules": [
     {
       "slug": "Compressor1",
@@ -22,7 +22,7 @@
     },
     {
       "slug": "MasterClockx4",
-      "name": "Master Clock x4",
+      "name": "MSC Clock x4",
       "description": "4 Channel Clock",
       "tags": [
         "Clock"

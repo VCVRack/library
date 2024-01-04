@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1677946895.426774,
+    "buildTimestamp": 1704328004.344655,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -464,6 +464,12 @@
       },
       "drumrandomizer": {
         "creationTimestamp": 1677947088.3678346
+      },
+      "arpseq": {
+        "creationTimestamp": 1704333637.905426
+      },
+      "noteDetector": {
+        "creationTimestamp": 1704333638.0587897
       }
     }
   },
@@ -3262,7 +3268,7 @@
     }
   },
   "Befaco": {
-    "buildTimestamp": 1671487531.0451121,
+    "buildTimestamp": 1704328270.3825035,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "EvenVCO": {
@@ -3846,7 +3852,7 @@
     "modules": {}
   },
   "PS-PurrSoftware": {
-    "buildTimestamp": 1701131946.82185,
+    "buildTimestamp": 1704332965.8801703,
     "creationTimestamp": 1579232908.0,
     "modules": {
       "Meander": {
@@ -3854,6 +3860,9 @@
       },
       "ModeScaleQuant": {
         "creationTimestamp": 1699748183.0097864
+      },
+      "ModeScaleProgressions": {
+        "creationTimestamp": 1704333639.791186
       }
     }
   },
@@ -8175,7 +8184,7 @@
     }
   },
   "mscHack": {
-    "buildTimestamp": 1562951951.2198663,
+    "buildTimestamp": 1704333047.412906,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Compressor1": {
@@ -10347,7 +10356,7 @@
     }
   },
   "RareBreeds_Orbits": {
-    "buildTimestamp": 1690731321.0934556,
+    "buildTimestamp": 1704328452.7109277,
     "creationTimestamp": 1609177120.2552218,
     "modules": {
       "RareBreeds_Orbits_Eugene": {
@@ -11490,7 +11499,7 @@
     }
   },
   "StochasticTelegraph": {
-    "buildTimestamp": 1693899654.5792968,
+    "buildTimestamp": 1704329261.5406046,
     "creationTimestamp": 1649868370.1906905,
     "modules": {
       "Drifter": {
@@ -11511,7 +11520,7 @@
     }
   },
   "dbRackFormulaOne": {
-    "buildTimestamp": 1649874862.5687711,
+    "buildTimestamp": 1704332871.7541912,
     "creationTimestamp": 1649874862.785771,
     "modules": {
       "FormulaOne": {
@@ -11523,7 +11532,7 @@
     }
   },
   "alefsbits": {
-    "buildTimestamp": 1699746587.6297276,
+    "buildTimestamp": 1704327849.329328,
     "creationTimestamp": 1650829410.386362,
     "modules": {
       "simplexandhold": {
@@ -11703,7 +11712,7 @@
     }
   },
   "h4n4-modules": {
-    "buildTimestamp": 1679285786.678943,
+    "buildTimestamp": 1704333628.1852593,
     "creationTimestamp": 1652376851.9066048,
     "modules": {
       "xen-qnt": {
@@ -12033,7 +12042,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1701131740.836827,
+    "buildTimestamp": 1704328669.572387,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12122,6 +12131,21 @@
       },
       "Bgates": {
         "creationTimestamp": 1701132367.065008
+      },
+      "Holder": {
+        "creationTimestamp": 1704333639.080302
+      },
+      "HolderCompact": {
+        "creationTimestamp": 1704333639.231247
+      },
+      "Holder8": {
+        "creationTimestamp": 1704333639.3705268
+      },
+      "SickoLooper3": {
+        "creationTimestamp": 1704333639.5037725
+      },
+      "SickoLooper5": {
+        "creationTimestamp": 1704333639.642802
       }
     }
   },
@@ -12406,9 +12430,27 @@
       },
       "SurgeXTQuadLFO": {
         "creationTimestamp": 1674371175.371694
+      },
+      "SurgeXTFXBonsai": {
+        "creationTimestamp": 1704333638.2129061
+      },
+      "SurgeXTFXNimbus": {
+        "creationTimestamp": 1704333638.3583136
+      },
+      "SurgeXTMixerSlider": {
+        "creationTimestamp": 1704333638.496132
+      },
+      "SurgeXTDigitalRingMod": {
+        "creationTimestamp": 1704333638.6360438
+      },
+      "SurgeXTUnisonHelper": {
+        "creationTimestamp": 1704333638.7727191
+      },
+      "SurgeXTUnisonHelperCVExpander": {
+        "creationTimestamp": 1704333638.920281
       }
     },
-    "buildTimestamp": 1691735800.4549572
+    "buildTimestamp": 1704333612.418711
   },
   "AaronKarp-EarthTones": {
     "buildTimestamp": 1673293386.5852942,
@@ -12543,7 +12585,7 @@
     }
   },
   "Airwin2Rack": {
-    "buildTimestamp": 1699747570.6761782,
+    "buildTimestamp": 1704329204.1811004,
     "creationTimestamp": 1675100686.7833567,
     "modules": {
       "Airwin2Rack": {
@@ -12726,7 +12768,7 @@
     }
   },
   "vanTies": {
-    "buildTimestamp": 1684718594.04791,
+    "buildTimestamp": 1704333636.808528,
     "creationTimestamp": 1681691911.9831073,
     "modules": {
       "Ad": {
@@ -12894,7 +12936,7 @@
     }
   },
   "Biset": {
-    "buildTimestamp": 1701131563.3449075,
+    "buildTimestamp": 1704328425.2844982,
     "creationTimestamp": 1688525918.95731,
     "modules": {
       "Biset-Regex": {
@@ -12926,6 +12968,18 @@
       },
       "Biset-Tracker-State": {
         "creationTimestamp": 1700393971.7899678
+      },
+      "Biset-Tree": {
+        "creationTimestamp": 1704333637.3295436
+      },
+      "Biset-Gbu": {
+        "creationTimestamp": 1704333637.4572258
+      },
+      "Biset-Pkm": {
+        "creationTimestamp": 1704333637.5891104
+      },
+      "Biset-Tracker-Control": {
+        "creationTimestamp": 1704333637.7337747
       }
     }
   },
@@ -13139,6 +13193,30 @@
       },
       "WindowGenerators": {
         "creationTimestamp": 1700393973.8617542
+      }
+    }
+  },
+  "squinktronix-plug1": {
+    "buildTimestamp": 1704328168.5567167,
+    "creationTimestamp": 1704333639.9465997,
+    "modules": {
+      "sqh-harmony1": {
+        "creationTimestamp": 1704333640.0830467
+      },
+      "sqh-arpeggiator1": {
+        "creationTimestamp": 1704333640.2236285
+      },
+      "sqh-phasepatterns": {
+        "creationTimestamp": 1704333640.356754
+      }
+    }
+  },
+  "minimal-friction": {
+    "buildTimestamp": 1704332926.4404588,
+    "creationTimestamp": 1704333640.5153956,
+    "modules": {
+      "kanon": {
+        "creationTimestamp": 1704333640.654599
       }
     }
   }

@@ -1,0 +1,26 @@
+{
+  "slug": "minimal-friction",
+  "name": "Minimal Friction",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Minimal Friction",
+  "author": "Antoni Chmiela",
+  "authorEmail": "a_a_c_h_h@protonmail.com",
+  "authorUrl": "https://github.com/ab9st8/minimal-friction",
+  "pluginUrl": "https://github.com/ab9st8/minimal-friction",
+  "manualUrl": "https://github.com/ab9st8/minimal-friction/blob/master/README.md",
+  "sourceUrl": "https://github.com/ab9st8/minimal-friction",
+  "donateUrl": "https://ab9st8.bandcamp.com",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "kanon",
+      "name": "Kanon",
+      "description": "Single-pitch input polyphonic oscillator",
+      "tags": [
+        "Polyphonic",
+        "Oscillator"
+      ]
+    }
+  ]
+}

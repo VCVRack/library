@@ -1,7 +1,7 @@
 {
   "slug": "Biset",
   "name": "Biset",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "license": "MIT",
   "brand": "Biset",
   "author": "Biset",
@@ -14,16 +14,40 @@
   "changelogUrl": "",
   "modules": [
     {
+      "slug": "Biset-Tree",
+      "name": "Tree",
+      "description": "Tree growth sequencer",
+      "tags": [
+        "Sequencer",
+        "Visual",
+        "Random",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "Biset-Gbu",
+      "name": "The Good, the Bad and the Ugly",
+      "description": "PM AM RM VCO with pitch turbulence and attraction",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Biset-Pkm",
+      "name": "Please Kill Me",
+      "description": "Bouncy stereo VCO",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Biset-Tracker",
       "name": "Tracker",
       "description": "An advanced sequencer based on a tracker and a timeline",
       "tags": [
         "Sequencer",
-        "Controller",
-        "Polyphonic",
-        "Function generator",
-        "Quantizer",
-        "Tuner",
         "Digital"
       ]
     },
@@ -86,6 +110,15 @@
       "tags": [
         "Sequencer",
         "Visual",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "Biset-Tracker-Control",
+      "name": "Tracker Control",
+      "description": "Tracker playing controller",
+      "tags": [
+        "Sequencer",
         "Digital"
       ]
     },

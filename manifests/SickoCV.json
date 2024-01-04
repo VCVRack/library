@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.5.10",
+  "version": "2.6.2",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -182,6 +182,37 @@
       ]
     },
     {
+      "slug": "Holder",
+      "name": "holder",
+      "description": "Sample & Hold or Track & Hold with noise generator, probability and range",
+      "tags": [
+        "Sample and hold",
+        "Noise",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "HolderCompact",
+      "name": "holder Compact",
+      "description": "Sample & Hold or Track & Hold with noise generator, probability and range in a compact form factor",
+      "tags": [
+        "Sample and hold",
+        "Noise",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Holder8",
+      "name": "holder8",
+      "description": "8 Sample & Hold or Track & Hold with with noise generator, probability and range",
+      "tags": [
+        "Sample and hold",
+        "Noise",
+        "Quad",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Parking",
       "name": "parking",
       "description": "Set of unconnected inputs and outputs just to park unused cables",
@@ -205,6 +236,22 @@
       "tags": [
         "Voltage-controlled amplifier",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SickoLooper3",
+      "name": "sickoLooper3",
+      "description": "3 track looper with builtin clock generator, click and meter",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "SickoLooper5",
+      "name": "sickoLooper5",
+      "description": "5 track looper with builtin clock generator, click and meter",
+      "tags": [
+        "Sampler"
       ]
     },
     {

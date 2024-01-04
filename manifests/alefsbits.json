@@ -1,7 +1,7 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.5.52",
+  "version": "2.5.54",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
@@ -147,7 +147,8 @@
       "tags": [
         "Sequencer",
         "Random",
-        "Quantizer"
+        "Quantizer",
+        "Polyphonic"
       ]
     },
     {
@@ -155,7 +156,8 @@
       "name": "turnt",
       "description": "generate triggers when a CV signal changes direction, crosses zero, or both",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -190,9 +192,9 @@
       "name": "polyshuffle",
       "description": "shuffle the channels of a polyphonic signal, with various modes",
       "tags": [
-        "polyphonic",
-        "random",
-        "utility"
+        "Polyphonic",
+        "Random",
+        "Utility"
       ]
     },
     {
@@ -200,8 +202,8 @@
       "name": "polycounter",
       "description": "count up or down on trigger with custom start/end/increment values",
       "tags": [
-        "polyphonic",
-        "utility"
+        "Polyphonic",
+        "Utility"
       ]
     }
   ]

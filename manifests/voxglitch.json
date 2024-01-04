@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.27.0",
+  "version": "2.28.0",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -13,6 +13,16 @@
   "donateUrl": "https://www.patreon.com/voxglitch",
   "changelogUrl": "https://github.com/clone45/voxglitch/blob/master/docs/changelog.md",
   "modules": [
+    {
+      "slug": "arpseq",
+      "name": "ArpSeq",
+      "description": "Arpeggiator and Sequencer Hybrid",
+      "tags": [
+        "Utility",
+        "Sequencer"
+      ],
+      "manualUrl": "https://docs.google.com/document/d/1eZ3NOTOMBoTuiFCpqTsKA6RBkN2Fk8rBIJbEp-pRykA/edit?usp=sharing"
+    },
     {
       "slug": "autobreak",
       "name": "Autobreak",
@@ -165,6 +175,15 @@
       "description": "Bare minimum sample looper",
       "tags": [
         "Sampler"
+      ]
+    },
+    {
+      "slug": "noteDetector",
+      "name": "Note Detector",
+      "description": "Produces a gate or trigger output when a specified note is detected at the CV input",
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/note-detector.md",
+      "tags": [
+        "Utility"
       ]
     },
     {
