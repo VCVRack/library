@@ -1676,5 +1676,12 @@
     "vcvUrl": "https://library.vcvrack.com/NANOModules/EXP4",
     "mgUrl": "https://www.modulargrid.net/e/nano-modules-exp4",
     "mgModuleId": 46646
+  },
+  {
+    "pluginSlug": "gregsbrain",
+    "moduleSlug": "xVox",
+    "vcvUrl": "https://library.vcvrack.com/gregsbrain/xVox",
+    "mgUrl": "https://www.modulargrid.net/e/other-unknown-xvox-harmonic-pitch-shifter",
+    "mgModuleId": 46023
   }
 ]

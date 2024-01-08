@@ -1,0 +1,35 @@
+{
+  "slug": "gregsbrain",
+  "name": "gregsbrain Eurorack Modular",
+  "version": "2.1.6",
+  "license": "proprietary",
+  "brand": "gregsbrain",
+  "author": "Greg Burns",
+  "authorEmail": "greg@gregsbrain.co",
+  "authorUrl": "https://gregsbrain.co",
+  "pluginUrl": "https://gregsbrain.co",
+  "manualUrl": "https://www.gregsbrain.co/uploads/1/4/6/1/146121474/xvox_user_manual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "https://paypal.me/gregsbrain?country.x=US&locale.x=en_US",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "xVox",
+      "name": "xVox Harmonic Pitch Shifter",
+      "description": "A 4 Voice Quantizing Pitch Shifter",
+      "manualUrl": "https://www.gregsbrain.co/uploads/1/4/6/1/146121474/xvox_user_manual.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/other-unknown-xvox-harmonic-pitch-shifter",
+      "tags": [
+        "Hardware clone",
+        "Digital",
+        "Quantizer",
+        "Tuner",
+        "Filter",
+        "Envelope generator",
+        "Sample and hold",
+        "Vocoder",
+        "Visual"
+      ]
+    }
+  ]
+}
