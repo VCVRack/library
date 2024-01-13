@@ -1,7 +1,7 @@
 {
   "slug": "OrangeLine",
   "name": "OrangeLine",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "license": "GPL-3.0-only",
   "brand": "",
   "author": "Dieter Stubler",
@@ -90,6 +90,17 @@
       "slug": "Morph",
       "name": "Morph",
       "description": "Morphing of given or random sequences with turing machine functionality",
+      "tags": [
+        "Utility",
+        "Sequencer",
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Morpheus",
+      "name": "Morpheus",
+      "description": "Morphing of given or random sequences with turing machine functionality and 16 Internal Memory Slots.",
       "tags": [
         "Utility",
         "Sequencer",
