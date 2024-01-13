@@ -801,3 +801,6 @@
 [submodule "repos/HarmonicAnomalies"]
 	path = repos/HarmonicAnomalies
 	url = https://github.com/thestrangeagency/HarmonicAnomalies.git
+[submodule "repos/MUS-X"]
+	path = repos/MUS-X
+	url = https://github.com/Jojosito/MUS-X.git
