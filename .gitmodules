@@ -804,3 +804,6 @@
 [submodule "repos/MUS-X"]
 	path = repos/MUS-X
 	url = https://github.com/Jojosito/MUS-X.git
+[submodule "repos/sn"]
+	path = repos/sn
+	url = https://github.com/transcriptaze/sn-vcv.git
