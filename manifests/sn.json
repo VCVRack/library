@@ -1,0 +1,52 @@
+{
+  "slug": "sn",
+  "name": "sn",
+  "version": "2.0.0",
+  "license": "GPL-3.0-only",
+  "author": "transcriptaze",
+  "authorEmail": "transcriptaze.development@gmail.com",
+  "authorUrl": "https://github.com/transcriptaze",
+  "pluginUrl": "https://github.com/transcriptaze/sn-vcv",
+  "manualUrl": "https://github.com/transcriptaze/sn-vcv/blob/main/documentation/MANUAL.md",
+  "sourceUrl": "https://github.com/transcriptaze/sn-vcv",
+  "changelogUrl": "https://github.com/transcriptaze/sn-vcv/blob/main/CHANGELOG.md",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "sn-vco",
+      "name": "sn-vco",
+      "description": "sn experimental additive synthesizer VCO",
+      "tags": [
+        "VCO",
+        "Function generator",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "sn-vcox",
+      "name": "sn-vcox",
+      "description": "sn experimental additive synthesizer VCO expander",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "sn-lfo",
+      "name": "sn-lfo",
+      "description": "sn experimental additive synthesizer LFO",
+      "tags": [
+        "Function generator",
+        "Low-frequency oscillator",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "sn-lfox",
+      "name": "sn-lfox",
+      "description": "sn experimental additive synthesizer LFO expander",
+      "tags": [
+        "Expander"
+      ]
+    }
+  ]
+}

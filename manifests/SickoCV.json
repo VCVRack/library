@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -204,7 +204,7 @@
     {
       "slug": "Holder8",
       "name": "holder8",
-      "description": "8 Sample & Hold or Track & Hold with with noise generator, probability and range",
+      "description": "8 Sample & Hold or Track & Hold with noise generator, probability and range",
       "tags": [
         "Sample and hold",
         "Noise",

@@ -1753,7 +1753,7 @@
     }
   },
   "BaconMusic": {
-    "buildTimestamp": 1697986980.6789439,
+    "buildTimestamp": 1705387022.4150307,
     "creationTimestamp": 1521929448.0,
     "modules": {
       "HarMoNee": {
@@ -1803,6 +1803,9 @@
       },
       "ContrastBNDEditor": {
         "creationTimestamp": 1673295701.1999586
+      },
+      "BaconTest": {
+        "creationTimestamp": 1705388983.671734
       }
     }
   },
@@ -12045,7 +12048,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1704328669.572387,
+    "buildTimestamp": 1705387247.8352435,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12207,7 +12210,7 @@
     }
   },
   "Sparkette": {
-    "buildTimestamp": 1666642716.0403094,
+    "buildTimestamp": 1705387927.6858852,
     "creationTimestamp": 1664898773.0755346,
     "modules": {
       "Ellie": {
@@ -12224,6 +12227,15 @@
       },
       "HSV2RGB": {
         "creationTimestamp": 1666642879.976476
+      },
+      "RGBMatrix16": {
+        "creationTimestamp": 1705388985.475422
+      },
+      "RGBMatrix64": {
+        "creationTimestamp": 1705388985.6254709
+      },
+      "PolySelector": {
+        "creationTimestamp": 1705388985.7755423
       }
     }
   },
@@ -12453,7 +12465,7 @@
         "creationTimestamp": 1704333638.920281
       }
     },
-    "buildTimestamp": 1704333612.418711
+    "buildTimestamp": 1705387902.8058617
   },
   "AaronKarp-EarthTones": {
     "buildTimestamp": 1673293386.5852942,
@@ -12588,7 +12600,7 @@
     }
   },
   "Airwin2Rack": {
-    "buildTimestamp": 1704329204.1811004,
+    "buildTimestamp": 1705388556.549812,
     "creationTimestamp": 1675100686.7833567,
     "modules": {
       "Airwin2Rack": {
@@ -13244,6 +13256,48 @@
       },
       "HexaGrain": {
         "creationTimestamp": 1705103961.902441
+      }
+    }
+  },
+  "sn": {
+    "buildTimestamp": 1705386960.9816394,
+    "creationTimestamp": 1705388983.8341458,
+    "modules": {
+      "sn-vco": {
+        "creationTimestamp": 1705388983.9665723
+      },
+      "sn-vcox": {
+        "creationTimestamp": 1705388984.100647
+      },
+      "sn-lfo": {
+        "creationTimestamp": 1705388984.2406497
+      },
+      "sn-lfox": {
+        "creationTimestamp": 1705388984.3949497
+      }
+    }
+  },
+  "MUS-X": {
+    "buildTimestamp": 1705388983.4836621,
+    "creationTimestamp": 1705388984.538214,
+    "modules": {
+      "ADSR": {
+        "creationTimestamp": 1705388984.6740367
+      },
+      "Tuner": {
+        "creationTimestamp": 1705388984.806067
+      },
+      "Oscillators": {
+        "creationTimestamp": 1705388984.9522166
+      },
+      "Delay": {
+        "creationTimestamp": 1705388985.090045
+      },
+      "OnePole": {
+        "creationTimestamp": 1705388985.214553
+      },
+      "Drift": {
+        "creationTimestamp": 1705388985.3403862
       }
     }
   }

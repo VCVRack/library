@@ -1,0 +1,78 @@
+{
+  "slug": "MUS-X",
+  "name": "MUS-X",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "MUS-X",
+  "author": "Dr. Johannes Rauch",
+  "authorEmail": "vcv@mus-x.de",
+  "authorUrl": "http://mus-x.de",
+  "pluginUrl": "https://github.com/Jojosito/MUS-X",
+  "manualUrl": "https://github.com/Jojosito/MUS-X",
+  "sourceUrl": "https://github.com/Jojosito/MUS-X",
+  "donateUrl": "https://www.paypal.com/donate/?hosted_button_id=U5Y8KAXCCMH6N",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ADSR",
+      "name": "ADSR",
+      "description": "ADSR envelope generator.",
+      "tags": [
+        "Envelope generator",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#adsr"
+    },
+    {
+      "slug": "Tuner",
+      "name": "Tuner",
+      "description": "Tune a V/Oct signal by octaves, semitones and cents.",
+      "tags": [
+        "Tuner",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#tune"
+    },
+    {
+      "slug": "Oscillators",
+      "name": "Oscillators",
+      "description": "Massively oversampled analog oscillator pair with sync, FM and ringmod.",
+      "tags": [
+        "Oscillator",
+        "Low-frequency oscillator",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#oscillators"
+    },
+    {
+      "slug": "Delay",
+      "name": "Delay",
+      "description": "Bucket-brigade ping-pong delay.",
+      "tags": [
+        "Delay",
+        "Effect"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#delay"
+    },
+    {
+      "slug": "OnePole",
+      "name": "OnePole",
+      "description": "Simple one-pole highpass and lowpass filters.",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#onepole"
+    },
+    {
+      "slug": "Drift",
+      "name": "Drift",
+      "description": "Random constant offset and drift.",
+      "tags": [
+        "Random",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#drift"
+    }
+  ]
+}

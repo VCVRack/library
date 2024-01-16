@@ -1,7 +1,7 @@
 {
   "slug": "BaconMusic",
   "name": "Bacon Music",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "author": "@baconpaul",
   "authorEmail": "",
@@ -149,6 +149,13 @@
         "Utility",
         "Polyphonic"
       ]
+    },
+    {
+      "slug": "BaconTest",
+      "name": "BaconTest",
+      "description": "BaconPaul's Test Widgets",
+      "tags": [],
+      "hidden": true
     }
   ]
 }
