@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/",
   "authorUrl": "https://vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "modules": [
     {
       "slug": "Basal",
@@ -379,6 +379,14 @@
         "Polyphonic"
       ],
       "description": "Stereo Channel Send/Return"
+    },
+    {
+      "slug": "Stress",
+      "name": "Stress",
+      "tags": [
+        "Utility"
+      ],
+      "description": "Test signal generator"
     }
   ]
 }
