@@ -1,7 +1,7 @@
 {
   "slug": "Biset",
   "name": "Biset",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "license": "MIT",
   "brand": "Biset",
   "author": "Biset",
@@ -14,23 +14,21 @@
   "changelogUrl": "",
   "modules": [
     {
-      "slug": "Biset-Tree",
-      "name": "Tree",
-      "description": "Tree growth sequencer",
-      "tags": [
-        "Sequencer",
-        "Visual",
-        "Random",
-        "Physical modeling"
-      ]
-    },
-    {
       "slug": "Biset-Gbu",
       "name": "The Good, the Bad and the Ugly",
       "description": "PM AM RM VCO with pitch turbulence and attraction",
       "tags": [
         "Oscillator",
         "Polyphonic"
+      ],
+      "keywords": [
+        "gbu",
+        "fm",
+        "pm",
+        "am",
+        "rm",
+        "ring",
+        "phase"
       ]
     },
     {
@@ -40,6 +38,12 @@
       "tags": [
         "Oscillator",
         "Polyphonic"
+      ],
+      "keywords": [
+        "pkm",
+        "fm",
+        "pm",
+        "phase"
       ]
     },
     {
@@ -155,6 +159,34 @@
       ]
     },
     {
+      "slug": "Biset-Regex-Exp",
+      "name": "Regex Exp",
+      "description": "Regex expander outputing gate",
+      "tags": [
+        "Expander",
+        "Clock modulator",
+        "Controller",
+        "Digital"
+      ],
+      "keywords": [
+        "live",
+        "code",
+        "coding",
+        "gate"
+      ]
+    },
+    {
+      "slug": "Biset-Tree",
+      "name": "Tree",
+      "description": "Tree growth sequencer",
+      "tags": [
+        "Sequencer",
+        "Visual",
+        "Random",
+        "Physical modeling"
+      ]
+    },
+    {
       "slug": "Biset-Segfault",
       "name": "Segfault",
       "description": "Rethink your midi / qwerty keyboard layout",
@@ -165,6 +197,19 @@
       "keywords": [
         "piano",
         "keys"
+      ]
+    },
+    {
+      "slug": "Biset-Blank",
+      "name": "Blank",
+      "description": "Animated cables & scope on hovered cables",
+      "tags": [
+        "Visual",
+        "Utility"
+      ],
+      "keywords": [
+        "cable",
+        "scope"
       ]
     }
   ]
