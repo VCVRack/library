@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.36",
+  "version": "2.4.37",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -10,7 +10,7 @@
   "pluginUrl": "https://library.vcvrack.com/DanTModules",
   "manualUrl": "https://miff-real.github.io/DanTModules-Manual/",
   "changelogUrl": "https://github.com/Miff-Real/DanTModules-Manual/discussions",
-  "donateUrl": "https://monzo.me/danieltilley2",
+  "donateUrl": "https://ko-fi.com/dantsynth",
   "modules": [
     {
       "slug": "Wavulike",
@@ -119,7 +119,7 @@
     },
     {
       "slug": "PolySplice",
-      "name": "Nu-PolySplice",
+      "name": "PolySplice",
       "description": "[7hp][Nu-Metal] Polyphonic switch with up to 5 seconds slew.",
       "tags": [
         "Mixer",
@@ -150,6 +150,15 @@
         "Visual"
       ],
       "keywords": "purfenator purf urs basteck background backdrop image skiff video",
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/purfenator/"
+    },
+    {
+      "slug": "SeizureTrigger",
+      "name": "Seizure Trigger [Purfenator Expander]",
+      "description": "[3hp][Nu-Metal] Enables CV control of the Purfenator parameters. Excessive modulation is highly discouraged.",
+      "tags": [
+        "Expander"
+      ],
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/purfenator/"
     },
     {

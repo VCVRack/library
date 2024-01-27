@@ -10194,7 +10194,7 @@
     }
   },
   "DanTModules": {
-    "buildTimestamp": 1703107564.0241613,
+    "buildTimestamp": 1706352422.3066185,
     "creationTimestamp": 1607124947.802597,
     "modules": {
       "Wavulike": {
@@ -10238,6 +10238,9 @@
       },
       "Purfenator": {
         "creationTimestamp": 1702408196.2949665
+      },
+      "SeizureTrigger": {
+        "creationTimestamp": 1706352422.4926348
       }
     }
   },
