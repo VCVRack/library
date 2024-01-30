@@ -3861,7 +3861,7 @@
     "modules": {}
   },
   "PS-PurrSoftware": {
-    "buildTimestamp": 1704332965.8801703,
+    "buildTimestamp": 1706656796.6829398,
     "creationTimestamp": 1579232908.0,
     "modules": {
       "Meander": {
@@ -12060,7 +12060,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1705387247.8352435,
+    "buildTimestamp": 1706656759.8699584,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12164,6 +12164,12 @@
       },
       "SickoLooper5": {
         "creationTimestamp": 1704333639.642802
+      },
+      "SickoLooper1": {
+        "creationTimestamp": 1706657178.7733836
+      },
+      "SickoLooper1Exp": {
+        "creationTimestamp": 1706657178.9223604
       }
     }
   },
@@ -12930,7 +12936,7 @@
     }
   },
   "monome": {
-    "buildTimestamp": 1705177738.738896,
+    "buildTimestamp": 1706657178.5959556,
     "creationTimestamp": 1687317423.8644073,
     "modules": {
       "whitewhale": {

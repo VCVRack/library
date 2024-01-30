@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.6.3",
+  "version": "2.6.5",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -236,6 +236,23 @@
       "tags": [
         "Voltage-controlled amplifier",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SickoLooper1",
+      "name": "sickoLooper1",
+      "description": "1 track looper with builtin clock generator, click and meter",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "SickoLooper1Exp",
+      "name": "sickoLooperX",
+      "description": "1 track Looper / Expander for sickoLooper1",
+      "tags": [
+        "Sampler",
+        "Expander"
       ]
     },
     {
