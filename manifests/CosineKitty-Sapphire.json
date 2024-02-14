@@ -1,7 +1,7 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
@@ -82,6 +82,17 @@
       "tags": [
         "Expander",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Nucleus",
+      "name": "Nucleus",
+      "description": "Simulation of a cloud of particles with mutually attractive, repulsive, and orthogonal forces.",
+      "tags": [
+        "Physical modeling",
+        "Effect",
+        "Filter",
+        "Reverb"
       ]
     }
   ]

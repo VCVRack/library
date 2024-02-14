@@ -1,7 +1,7 @@
 {
   "slug": "BaconMusic",
   "name": "Bacon Music",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "license": "GPL-3.0-or-later",
   "author": "@baconpaul",
   "authorEmail": "",
@@ -63,7 +63,15 @@
       "slug": "ContrastBNDEditor",
       "name": "Contrast and Other BND Editor",
       "description": "Lets you change contrast on your tooltips",
-      "tags": []
+      "tags": [],
+      "hidden": true
+    },
+    {
+      "slug": "PatchNameDisplay",
+      "name": "Patch Name Display",
+      "description": "Shows you your patch name",
+      "tags": [],
+      "hidden": false
     },
     {
       "slug": "SampleDelay",

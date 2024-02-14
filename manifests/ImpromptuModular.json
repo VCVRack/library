@@ -1,13 +1,13 @@
 {
   "slug": "ImpromptuModular",
   "name": "Impromptu",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "license": "GPL-3.0-or-later",
   "author": "Marc Boul\u00e9",
   "brand": "Impromptu",
   "authorEmail": "m_boule@hotmail.com",
-  "authorUrl": "",
-  "pluginUrl": "",
+  "authorUrl": "https://github.com/MarcBoule/",
+  "pluginUrl": "https://github.com/MarcBoule/ImpromptuModular/",
   "manualUrl": "https://marcboule.github.io/ImpromptuModular/",
   "sourceUrl": "https://github.com/MarcBoule/ImpromptuModular/",
   "donateUrl": "https://www.paypal.me/marcboule",
@@ -157,6 +157,16 @@
       ]
     },
     {
+      "slug": "NoteEcho",
+      "name": "NoteEcho",
+      "description": "CV/Gate-based delay",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#note-echo",
+      "tags": [
+        "Sample and hold",
+        "Delay"
+      ]
+    },
+    {
       "slug": "Part-Gate-Split",
       "name": "Part",
       "description": "Polyphonic gate splitter",
@@ -213,7 +223,8 @@
       "tags": [
         "Synth voice",
         "Sequencer"
-      ]
+      ],
+      "hidden": true
     },
     {
       "slug": "Sygen",

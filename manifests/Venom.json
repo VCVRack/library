@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -13,6 +13,18 @@
   "donateUrl": "",
   "changelogUrl": "https://github.com/DaveBenham/VenomModules/blob/main/changelog.md",
   "modules": [
+    {
+      "slug": "BenjolinOsc",
+      "name": "Benjolin Oscillator",
+      "description": "Complex chaotic oscillator emulating the oscillator and rungler components of a Benjolin",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#benjolin-oscillator",
+      "tags": [
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Random",
+        "Sequencer"
+      ]
+    },
     {
       "slug": "BernoulliSwitch",
       "name": "Bernoulli Switch",
@@ -59,6 +71,17 @@
       ]
     },
     {
+      "slug": "Knob5",
+      "name": "Knob 5",
+      "description": "5 configurable constant voltage knobs",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#knob-5",
+      "tags": [
+        "Controller",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
       "slug": "LinearBeats",
       "name": "Linear Beats",
       "description": "Convert multiple trigger/gate channels into a linear drumming pattern",
@@ -77,6 +100,17 @@
       "tags": [
         "Logic",
         "Expander"
+      ]
+    },
+    {
+      "slug": "Logic",
+      "name": "Logic",
+      "description": "Flexible logic gate processor suitable for both CV and audio applications",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#logic",
+      "tags": [
+        "Logic",
+        "Polyphonic",
+        "Utility"
       ]
     },
     {
@@ -205,6 +239,16 @@
       ]
     },
     {
+      "slug": "NORSIQChord2Scale",
+      "name": "NORSIQ Chord To Scale",
+      "description": "Convert a polyphonic chord into CV to generate a scale for the Non-Octave_Repeating Scale Intervallic Quantizer",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#nors_iq_interval_generator",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "PolyClone",
       "name": "Poly Clone",
       "description": "Clone each channel of a polyphonic input and merge the results into a single polyphonic output",
@@ -215,6 +259,17 @@
       ]
     },
     {
+      "slug": "PolySHASR",
+      "name": "Poly Sample & Hold Analog Shift Register",
+      "description": "Ten channel polyphonic sample and hold combined with a shift register",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-unison",
+      "tags": [
+        "Polyphonic",
+        "Random",
+        "Sample and hold"
+      ]
+    },
+    {
       "slug": "PolyUnison",
       "name": "Poly Unison",
       "description": "Replicate each channel of a polyphonic input with a variable detune spread, and merge the results into a single polyphonic output",
@@ -222,6 +277,17 @@
       "tags": [
         "Polyphonic",
         "Tuner",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Push5",
+      "name": "Push 5",
+      "description": "5 configurable push buttons",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#push-5",
+      "tags": [
+        "Controller",
+        "Polyphonic",
         "Utility"
       ]
     },
@@ -321,6 +387,15 @@
       "name": "Venom Blank",
       "description": "A 3hp blank with standard Venom themes",
       "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#venom-blank",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "WidgetMenuExtender",
+      "name": "Widget Menu Extender",
+      "description": "Extend context menus to support parameter/port renaming and parameter custom defaults",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#widget-menu-expander",
       "tags": [
         "Blank"
       ]

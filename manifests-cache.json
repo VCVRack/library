@@ -851,7 +851,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1699747059.4496238,
+    "buildTimestamp": 1707939446.3898773,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -1352,7 +1352,7 @@
     }
   },
   "OrangeLine": {
-    "buildTimestamp": 1705177301.2353644,
+    "buildTimestamp": 1707940169.236745,
     "creationTimestamp": 1571530639.0,
     "modules": {
       "Fence": {
@@ -1753,7 +1753,7 @@
     }
   },
   "BaconMusic": {
-    "buildTimestamp": 1705387022.4150307,
+    "buildTimestamp": 1707940126.050338,
     "creationTimestamp": 1521929448.0,
     "modules": {
       "HarMoNee": {
@@ -1806,6 +1806,9 @@
       },
       "BaconTest": {
         "creationTimestamp": 1705388983.671734
+      },
+      "PatchNameDisplay": {
+        "creationTimestamp": 1707940210.5771499
       }
     }
   },
@@ -2013,7 +2016,7 @@
     "modules": {}
   },
   "ImpromptuModular": {
-    "buildTimestamp": 1698774423.3014472,
+    "buildTimestamp": 1707939610.7892914,
     "creationTimestamp": 1521979525.0,
     "modules": {
       "Tact": {
@@ -2108,6 +2111,9 @@
       },
       "Variations": {
         "creationTimestamp": 1649109366.5575182
+      },
+      "NoteEcho": {
+        "creationTimestamp": 1707940210.731342
       }
     }
   },
@@ -6253,7 +6259,7 @@
     "modules": {}
   },
   "GlueTheGiant": {
-    "buildTimestamp": 1638512409.28201,
+    "buildTimestamp": 1707940209.8165004,
     "creationTimestamp": 1567863407.0,
     "modules": {
       "GigBus": {
@@ -11991,7 +11997,7 @@
     }
   },
   "CosineKitty-Sapphire": {
-    "buildTimestamp": 1700393212.4122565,
+    "buildTimestamp": 1707940069.207312,
     "creationTimestamp": 1660869608.068208,
     "modules": {
       "Moots": {
@@ -12014,6 +12020,9 @@
       },
       "Glee": {
         "creationTimestamp": 1700393971.941677
+      },
+      "Nucleus": {
+        "creationTimestamp": 1707940210.4441044
       }
     }
   },
@@ -12660,7 +12669,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1701131913.372117,
+    "buildTimestamp": 1707939857.421615,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
@@ -12746,6 +12755,27 @@
       },
       "NORS_IQ": {
         "creationTimestamp": 1701132368.437473
+      },
+      "BenjolinOsc": {
+        "creationTimestamp": 1707940210.8820493
+      },
+      "Knob5": {
+        "creationTimestamp": 1707940211.033988
+      },
+      "Logic": {
+        "creationTimestamp": 1707940211.1961365
+      },
+      "NORSIQChord2Scale": {
+        "creationTimestamp": 1707940211.3415618
+      },
+      "PolySHASR": {
+        "creationTimestamp": 1707940211.4858263
+      },
+      "Push5": {
+        "creationTimestamp": 1707940211.629385
+      },
+      "WidgetMenuExtender": {
+        "creationTimestamp": 1707940211.7732315
       }
     }
   },
@@ -12969,7 +12999,7 @@
     }
   },
   "Biset": {
-    "buildTimestamp": 1706365277.5215855,
+    "buildTimestamp": 1707940031.1874921,
     "creationTimestamp": 1688525918.95731,
     "modules": {
       "Biset-Regex": {

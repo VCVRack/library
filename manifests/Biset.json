@@ -1,7 +1,7 @@
 {
   "slug": "Biset",
   "name": "Biset",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "license": "MIT",
   "brand": "Biset",
   "author": "Biset",
@@ -10,7 +10,7 @@
   "pluginUrl": "https://github.com/gibbonjoyeux/VCV-Biset",
   "manualUrl": "https://github.com/gibbonjoyeux/VCV-Biset",
   "sourceUrl": "https://github.com/gibbonjoyeux/VCV-Biset",
-  "donateUrl": "https://www.paypal.com/paypalme/bisousbiset",
+  "donateUrl": "https://ko-fi.com/biset",
   "changelogUrl": "",
   "modules": [
     {
