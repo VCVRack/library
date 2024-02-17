@@ -1,7 +1,7 @@
 {
   "slug": "SIM",
   "name": "SIM",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "BSD-2-Clause",
   "brand": "SIM",
   "author": "Dan Sable",
@@ -9,6 +9,7 @@
   "pluginUrl": "https://github.com/imDanSable/SIM",
   "manualUrl": "https://github.com/imDanSable/SIM/blob/master/README.md",
   "sourceUrl": "https://github.com/imDanSable/SIM",
+  "changelogUrl": "https://raw.githubusercontent.com/imDanSable/SIM/v2.0.1/CHANGELOG",
   "modules": [
     {
       "slug": "Blank",
