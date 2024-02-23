@@ -1683,5 +1683,12 @@
     "vcvUrl": "https://library.vcvrack.com/gregsbrain/xVox",
     "mgUrl": "https://www.modulargrid.net/e/other-unknown-xvox-harmonic-pitch-shifter",
     "mgModuleId": 46023
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "VCVRANDOM",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/VCVRANDOM",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-vcv-random",
+    "mgModuleId": 47608
   }
 ]
