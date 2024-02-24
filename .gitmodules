@@ -807,3 +807,6 @@
 [submodule "repos/sn"]
 	path = repos/sn
 	url = https://github.com/transcriptaze/sn-vcv.git
+[submodule "repos/SSE"]
+	path = repos/SSE
+	url = https://github.com/herbert-50/SSE-One.git
