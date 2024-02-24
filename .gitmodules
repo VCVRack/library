@@ -813,3 +813,6 @@
 [submodule "repos/SmarTAZZStudio-Free"]
 	path = repos/SmarTAZZStudio-Free
 	url = https://github.com/mlaban64/STS-Free.git
+[submodule "repos/MML"]
+	path = repos/MML
+	url = https://github.com/CHLOzzz/MML.git
