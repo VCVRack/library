@@ -1,7 +1,7 @@
 {
   "slug": "Sparkette",
   "name": "Sparkette's Stuff",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sparkette's Stuff",
   "author": "Sara Sparks",
@@ -84,6 +84,25 @@
         "Polyphonic",
         "Utility",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Functions",
+      "name": "Functions",
+      "description": "A selection of 1-in-1-out functions for various purposes.",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "PolyCat",
+      "name": "PolyCat",
+      "description": "Concatenates up to five polyphonic inputs into a single output.",
+      "tags": [
+        "Polyphonic",
+        "Utility"
       ]
     }
   ]

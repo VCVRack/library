@@ -1,0 +1,29 @@
+{
+  "slug": "MML",
+  "name": "MML",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "MML",
+  "author": "Chloe McCarthy & Robert Schneider",
+  "authorEmail": "cmccarth@mtu.edu,robertsc@mtu.edu",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "LogQnt",
+      "name": "LOG QNT",
+      "description": "Quantize voltage on a base 2 logarithmic scale.",
+      "tags": []
+    },
+    {
+      "slug": "SqtQnt",
+      "name": "SQT QNT",
+      "description": "Quantize voltage on a square root scale.",
+      "tags": []
+    }
+  ]
+}

@@ -11997,7 +11997,7 @@
     }
   },
   "CosineKitty-Sapphire": {
-    "buildTimestamp": 1707940069.207312,
+    "buildTimestamp": 1708909890.035738,
     "creationTimestamp": 1660869608.068208,
     "modules": {
       "Moots": {
@@ -12023,6 +12023,15 @@
       },
       "Nucleus": {
         "creationTimestamp": 1707940210.4441044
+      },
+      "Hiss": {
+        "creationTimestamp": 1708910204.1053038
+      },
+      "Polynucleus": {
+        "creationTimestamp": 1708910204.240491
+      },
+      "Tout": {
+        "creationTimestamp": 1708910204.3758533
       }
     }
   },
@@ -12069,7 +12078,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1706656759.8699584,
+    "buildTimestamp": 1708910182.9436262,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12179,6 +12188,15 @@
       },
       "SickoLooper1Exp": {
         "creationTimestamp": 1706657178.9223604
+      },
+      "Modulator": {
+        "creationTimestamp": 1708910205.2189426
+      },
+      "Modulator7": {
+        "creationTimestamp": 1708910205.3692107
+      },
+      "Switcher8": {
+        "creationTimestamp": 1708910205.506082
       }
     }
   },
@@ -12237,7 +12255,7 @@
     }
   },
   "Sparkette": {
-    "buildTimestamp": 1706365096.4795687,
+    "buildTimestamp": 1708909838.5561082,
     "creationTimestamp": 1664898773.0755346,
     "modules": {
       "Ellie": {
@@ -12263,6 +12281,12 @@
       },
       "PolySelector": {
         "creationTimestamp": 1705388985.7755423
+      },
+      "Functions": {
+        "creationTimestamp": 1708910206.784898
+      },
+      "PolyCat": {
+        "creationTimestamp": 1708910206.9396966
       }
     }
   },
@@ -12999,7 +13023,7 @@
     }
   },
   "Biset": {
-    "buildTimestamp": 1707940031.1874921,
+    "buildTimestamp": 1708909813.126291,
     "creationTimestamp": 1688525918.95731,
     "modules": {
       "Biset-Regex": {
@@ -13332,7 +13356,7 @@
     }
   },
   "MUS-X": {
-    "buildTimestamp": 1705388983.4836621,
+    "buildTimestamp": 1708909922.6488366,
     "creationTimestamp": 1705388984.538214,
     "modules": {
       "ADSR": {
@@ -13352,6 +13376,54 @@
       },
       "Drift": {
         "creationTimestamp": 1705388985.3403862
+      },
+      "OnePoleLP": {
+        "creationTimestamp": 1708910205.6686268
+      },
+      "ModMatrix": {
+        "creationTimestamp": 1708910205.8130934
+      }
+    }
+  },
+  "MML": {
+    "buildTimestamp": 1708910203.5101442,
+    "creationTimestamp": 1708910204.5405536,
+    "modules": {
+      "LogQnt": {
+        "creationTimestamp": 1708910204.6687698
+      },
+      "SqtQnt": {
+        "creationTimestamp": 1708910204.797808
+      }
+    }
+  },
+  "SSE": {
+    "buildTimestamp": 1708910194.4068768,
+    "creationTimestamp": 1708910204.9416661,
+    "modules": {
+      "KeySeq": {
+        "creationTimestamp": 1708910205.07186
+      }
+    }
+  },
+  "SmarTAZZStudio-Free": {
+    "buildTimestamp": 1708909939.9953783,
+    "creationTimestamp": 1708910205.9740877,
+    "modules": {
+      "Multiplier": {
+        "creationTimestamp": 1708910206.1059334
+      },
+      "Splitter": {
+        "creationTimestamp": 1708910206.2378569
+      },
+      "Saw-VCO": {
+        "creationTimestamp": 1708910206.3705437
+      },
+      "Sine-VCO": {
+        "creationTimestamp": 1708910206.5076103
+      },
+      "Triangle-VCO": {
+        "creationTimestamp": 1708910206.6397388
       }
     }
   }

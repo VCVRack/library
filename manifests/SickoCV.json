@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.6.5",
+  "version": "2.6.6",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -213,6 +213,23 @@
       ]
     },
     {
+      "slug": "Modulator",
+      "name": "modulator",
+      "description": "triangle/ramp LFOs with sync feature",
+      "tags": [
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "Modulator7",
+      "name": "modulator7",
+      "description": "7 triangle/ramp LFOs with sync feature",
+      "tags": [
+        "Low-frequency oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Parking",
       "name": "parking",
       "description": "Set of unconnected inputs and outputs just to park unused cables",
@@ -316,6 +333,17 @@
         "Switch",
         "Utility",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Switcher8",
+      "name": "switcher8",
+      "description": "Eight 2>1 switch, 1>2 router, 2 signal swapper, mute, flip flop, toggle gate",
+      "tags": [
+        "Switch",
+        "Utility",
+        "Polyphonic",
+        "Quad"
       ]
     },
     {

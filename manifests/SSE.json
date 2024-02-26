@@ -1,0 +1,25 @@
+{
+  "slug": "SSE",
+  "name": "SSE-One",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "SSE",
+  "author": "Herbert Zenz",
+  "authorEmail": "info@sse.zenz-home.de",
+  "authorUrl": "https://github.com/herbert-50",
+  "pluginUrl": "https://github.com/herbert-50/SSE-One",
+  "manualUrl": "https://github.com/herbert-50/SSE-One/blob/main/doc/manual.md",
+  "sourceUrl": "https://github.com/herbert-50/SSE-One/tree/main/src",
+  "changelogUrl": "https://github.com/herbert-50/SSE-One/blob/main/doc/changes.md",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "KeySeq",
+      "name": "Keyboard-Sequencer",
+      "description": "Create and control sequences with a MIDI keyboard",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
@@ -14,16 +14,6 @@
   "changelogUrl": "https://github.com/cosinekitty/sapphire/blob/main/CHANGELOG.md",
   "modules": [
     {
-      "slug": "Moots",
-      "name": "Moots",
-      "description": "Plugs/unplugs polyphonic cables.",
-      "tags": [
-        "Controller",
-        "Switch",
-        "Polyphonic"
-      ]
-    },
-    {
       "slug": "Elastika",
       "name": "Elastika",
       "description": "Filters audio through a simulated network of balls and springs.",
@@ -31,18 +21,6 @@
         "Physical modeling",
         "Effect",
         "Filter",
-        "Reverb"
-      ]
-    },
-    {
-      "slug": "TubeUnit",
-      "name": "Tube Unit",
-      "description": "Tubular waveguide synth.",
-      "tags": [
-        "Physical modeling",
-        "Effect",
-        "Filter",
-        "Polyphonic",
         "Reverb"
       ]
     },
@@ -67,12 +45,44 @@
       ]
     },
     {
-      "slug": "Tricorder",
-      "name": "Tricorder",
-      "description": "3D plotter expander module for Frolic and Tin.",
+      "slug": "Hiss",
+      "name": "Hiss",
+      "description": "Generates directionally unbiased N-dimensional vector noise.",
       "tags": [
-        "Expander",
-        "Visual"
+        "Noise",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Moots",
+      "name": "Moots",
+      "description": "Plugs/unplugs polyphonic cables.",
+      "tags": [
+        "Controller",
+        "Switch",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Nucleus",
+      "name": "Nucleus",
+      "description": "Simulation of a cloud of particles with mutually attractive, repulsive, and orthogonal forces.",
+      "tags": [
+        "Physical modeling",
+        "Effect",
+        "Filter",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "Polynucleus",
+      "name": "Polynucleus",
+      "description": "Simulation of a cloud of particles with mutually attractive, repulsive, and orthogonal forces.",
+      "tags": [
+        "Physical modeling",
+        "Effect",
+        "Filter",
+        "Reverb"
       ]
     },
     {
@@ -85,13 +95,32 @@
       ]
     },
     {
-      "slug": "Nucleus",
-      "name": "Nucleus",
-      "description": "Simulation of a cloud of particles with mutually attractive, repulsive, and orthogonal forces.",
+      "slug": "Tout",
+      "name": "Tout",
+      "description": "Receives vectors from the left just like Tricorder does, then outputs them to ports.",
+      "tags": [
+        "Expander",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Tricorder",
+      "name": "Tricorder",
+      "description": "3D plotter expander module for Frolic and Tin.",
+      "tags": [
+        "Expander",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "TubeUnit",
+      "name": "Tube Unit",
+      "description": "Tubular waveguide synth.",
       "tags": [
         "Physical modeling",
         "Effect",
         "Filter",
+        "Polyphonic",
         "Reverb"
       ]
     }

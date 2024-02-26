@@ -1,7 +1,7 @@
 {
   "slug": "MUS-X",
   "name": "MUS-X",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "MUS-X",
   "author": "Dr. Johannes Rauch",
@@ -65,6 +65,16 @@
       "manualUrl": "https://github.com/Jojosito/MUS-X#onepole"
     },
     {
+      "slug": "OnePoleLP",
+      "name": "OnePoleLP",
+      "description": "Simple one-pole lowpass filter.",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#onepoleLP"
+    },
+    {
       "slug": "Drift",
       "name": "Drift",
       "description": "Random constant offset and drift.",
@@ -73,6 +83,17 @@
         "Polyphonic"
       ],
       "manualUrl": "https://github.com/Jojosito/MUS-X#drift"
+    },
+    {
+      "slug": "ModMatrix",
+      "name": "Mod Matrix",
+      "description": "MIDI controllable 13x16 Modulation Matrix",
+      "tags": [
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#mod-matrix"
     }
   ]
 }
