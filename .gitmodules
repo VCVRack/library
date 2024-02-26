@@ -816,3 +816,6 @@
 [submodule "repos/MML"]
 	path = repos/MML
 	url = https://github.com/CHLOzzz/MML.git
+[submodule "repos/pachde-hc-one"]
+	path = repos/pachde-hc-one
+	url = https://github.com/Paul-Dempsey/pachde-hc-one.git
