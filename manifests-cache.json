@@ -13426,5 +13426,35 @@
         "creationTimestamp": 1708910206.6397388
       }
     }
+  },
+  "pachde-hc-one": {
+    "buildTimestamp": 1709087624.1798103,
+    "creationTimestamp": 1709087624.25196,
+    "modules": {
+      "pachde-hc-1": {
+        "creationTimestamp": 1709087624.2912862
+      },
+      "pachde-hc-2": {
+        "creationTimestamp": 1709087624.3316655
+      },
+      "pachde-hc-favorites": {
+        "creationTimestamp": 1709087624.3926034
+      },
+      "pachde-hc-round": {
+        "creationTimestamp": 1709087624.455739
+      },
+      "pachde-hc-pedal-1": {
+        "creationTimestamp": 1709087624.5131464
+      },
+      "pachde-hc-pedal-2": {
+        "creationTimestamp": 1709087624.5588984
+      },
+      "pachde-hc-compressor": {
+        "creationTimestamp": 1709087624.599128
+      },
+      "pachde-hc-tilteq": {
+        "creationTimestamp": 1709087624.6369748
+      }
+    }
   }
 }

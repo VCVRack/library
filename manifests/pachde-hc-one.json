@@ -1,0 +1,86 @@
+{
+  "slug": "pachde-hc-one",
+  "name": "HC One",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "pachde",
+  "author": "pachde",
+  "authorEmail": "pcdempsey@live.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/Paul-Dempsey/pachde-hc-one/blob/main/doc/index.md",
+  "sourceUrl": "https://github.com/Paul-Dempsey/pachde-hc-one",
+  "donateUrl": "https://venmo.com/u/pcdempsey",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "pachde-hc-1",
+      "name": "HC-1",
+      "description": "Fast access to favorite presets on the Eagan Matrix, with knobs and CV for essential controls.",
+      "tags": [
+        "Controller",
+        "MIDI"
+      ]
+    },
+    {
+      "slug": "pachde-hc-2",
+      "name": "HC-2",
+      "description": "Experimental controls (HC-1 companion)",
+      "hidden": true
+    },
+    {
+      "slug": "pachde-hc-favorites",
+      "name": "Favorites",
+      "description": "Eagan Matrix favorites files (a.k.a. set lists) (HC-1 companion)",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "pachde-hc-round",
+      "name": "Round",
+      "description": "Controller for EaganMatrix Rounding (HC-1 companion)",
+      "tags": [
+        "Controller",
+        "MIDI",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "pachde-hc-pedal-1",
+      "name": "Pedal-1",
+      "description": "Controller for EaganMatrix Pedal 1 (HC-1 companion)",
+      "tags": [
+        "Controller",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "pachde-hc-pedal-2",
+      "name": "Pedal-2",
+      "description": "Controller for EaganMatrix Pedal 2 (HC-1 companion)",
+      "tags": [
+        "Controller",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "pachde-hc-compressor",
+      "name": "Compressor",
+      "description": "Controller for EaganMatrix Compressor (HC-1 companion)",
+      "tags": [
+        "Controller",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "pachde-hc-tilteq",
+      "name": "TiltEQ",
+      "description": "Controller for EaganMatrix Tilt EQ (HC-1 companion)",
+      "tags": [
+        "Controller",
+        "Expander"
+      ]
+    }
+  ]
+}
