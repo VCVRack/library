@@ -21,7 +21,7 @@ PLUGIN_DIR = os.path.join(RACK_USER_DIR, "plugins-lin-x64")
 
 # Update git before continuing
 common.system("git pull")
-common.system("git submodule sync --quiet")
+common.system("git submodule sync --quiet --recursive")
 common.system("git submodule update --init --recursive")
 
 plugin_paths = sys.argv[1:]
