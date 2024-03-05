@@ -1,7 +1,7 @@
 {
   "slug": "NANOModules",
   "name": "NANO Modules",
-  "version": "2.3.5.1",
+  "version": "2.3.5.2",
   "license": "Proprietary",
   "brand": "NANO Modules",
   "author": "Jorge Gutierrez",
@@ -147,7 +147,7 @@
       "slug": "VCVRANDOM",
       "name": "VCV Random",
       "description": "Random CV Generator",
-      "manualUrl": "https://nano-modules.com/wp-content/uploads/2024/02/VCV-Random-Manual.pdf",
+      "manualUrl": "https://nano-modules.com/wp-content/uploads/2024/03/VCV-Random-Manual.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-vcv-random",
       "tags": [
         "Clock generator",
