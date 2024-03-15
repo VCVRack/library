@@ -1,0 +1,27 @@
+{
+  "slug": "ALM042",
+  "name": "ALM Busy Circuits CIZZLE",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "ALM Busy Circuits",
+  "author": "ALM",
+  "authorEmail": "help@busycircuits.com",
+  "authorUrl": "https://busycircuits.com",
+  "pluginUrl": "https://busycircuits.com/alm042/",
+  "manualUrl": "https://busycircuits.com/docs/alm042-manual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "CIZZLE",
+      "name": "CIZZLE",
+      "description": "ALM042 CIZZLE: Dual Oscillator inspired by Casio CZ",
+      "tags": [
+        "CZ",
+        "Digital",
+        "Hardware Clone"
+      ]
+    }
+  ]
+}
