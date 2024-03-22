@@ -1,7 +1,7 @@
 {
   "slug": "Jasmine-and-Olive-Trees",
   "name": "Jasmine & Olive Trees",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "proprietary",
   "brand": "Jasmine & Olive Trees",
   "author": "Domingo Martin",
@@ -26,6 +26,30 @@
       "modularGridUrl": "https://www.modulargrid.net/e/jasmine-olive-trees-traffic",
       "manual": "https://jasmineandolivetrees.com/pages/traffic-manual",
       "keywords": "Controll macro oscillator plaits basimilus taiko preset"
+    },
+    {
+      "slug": "Water",
+      "name": "Water",
+      "description": "Three-phase 8-step CV generator",
+      "tags": [
+        "Sequencer",
+        "Utility",
+        "Hardware clone"
+      ],
+      "modularGridUrl": "https://www.modulargrid.net/e/jasmine-olive-trees-water",
+      "manual": "https://jasmineandolivetrees.com/pages/water-manual",
+      "keywords": "8-step sequencer"
+    },
+    {
+      "slug": "Hotel",
+      "name": "Hotel",
+      "description": "Source of loopable random gates with preset frequencies.",
+      "tags": [
+        "Random",
+        "Sequencer",
+        "Clock modulator"
+      ],
+      "keywords": "random gates"
     }
   ]
 }

@@ -1690,5 +1690,12 @@
     "vcvUrl": "https://library.vcvrack.com/NANOModules/VCVRANDOM",
     "mgUrl": "https://www.modulargrid.net/e/nano-modules-vcv-random",
     "mgModuleId": 47608
+  },
+  {
+    "pluginSlug": "Jasmine-and-Olive-Trees",
+    "moduleSlug": "Water",
+    "vcvUrl": "https://library.vcvrack.com/Jasmine-and-Olive-Trees/Water",
+    "mgUrl": "https://www.modulargrid.net/e/jasmine-olive-trees-water",
+    "mgModuleId": 45009
   }
 ]
