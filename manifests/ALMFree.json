@@ -1,13 +1,13 @@
 {
   "slug": "ALMFree",
   "name": "ALM Busy Circuits Free",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "proprietary",
   "brand": "ALM Busy Circuits",
   "author": "ALM",
   "authorEmail": "help@busycircuits.com",
   "authorUrl": "https://busycircuits.com",
-  "pluginUrl": "https://busycircuits.com",
+  "pluginUrl": "https://busycircuits.com/vcv/",
   "manualUrl": "",
   "sourceUrl": "",
   "donateUrl": "",
@@ -57,6 +57,33 @@
       "tags": [
         "Envelope generator",
         "Digital",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "MegaTang",
+      "name": "MEGA-TANG",
+      "description": "ALM033: MEGA-TANG",
+      "tags": [
+        "Mixer",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "MFD",
+      "name": "MFD",
+      "description": "ALM044: MFD",
+      "tags": [
+        "Utility",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "StereoSum",
+      "name": "Stereo Sum",
+      "description": "ALM038: Stereo Sum",
+      "tags": [
+        "Utility",
         "Hardware Clone"
       ]
     }
