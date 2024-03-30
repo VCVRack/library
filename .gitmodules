@@ -822,3 +822,6 @@
 [submodule "repos/CVfunk"]
 	path = repos/CVfunk
 	url = https://github.com/codygeary/CVfunk-Modules.git
+[submodule "repos/eightfold"]
+	path = repos/eightfold
+	url = https://github.com/scanner-darkly/eightfold.git
