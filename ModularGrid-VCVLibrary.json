@@ -1697,5 +1697,19 @@
     "vcvUrl": "https://library.vcvrack.com/Jasmine-and-Olive-Trees/Water",
     "mgUrl": "https://www.modulargrid.net/e/jasmine-olive-trees-water",
     "mgModuleId": 45009
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Burst",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Burst",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-burst-",
+    "mgModuleId": 12495
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Voltio",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Voltio",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-voltio",
+    "mgModuleId": 46258
   }
 ]

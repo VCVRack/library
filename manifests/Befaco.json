@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.4.1",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -267,6 +267,7 @@
         "Hardware clone",
         "Low-frequency oscillator",
         "Oscillator",
+        "Polyphonic",
         "Waveshaper"
       ]
     },
@@ -281,6 +282,30 @@
         "Hardware clone",
         "Mixer",
         "Visual"
+      ]
+    },
+    {
+      "slug": "Burst",
+      "name": "Burst",
+      "description": "Trigger processor and generator, designed to add an organic chain of events",
+      "manualUrl": "https://www.befaco.org/burst-2/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-burst-",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Voltio",
+      "name": "Voltio",
+      "description": "An accurate voltage source and precision adder.",
+      "manualUrl": "https://www.befaco.org/voltio/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-voltio",
+      "tags": [
+        "Hardware clone",
+        "Polyphonic",
+        "Utility"
       ]
     }
   ]

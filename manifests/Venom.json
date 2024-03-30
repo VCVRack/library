@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.6.1",
+  "version": "2.7.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -13,6 +13,17 @@
   "donateUrl": "",
   "changelogUrl": "https://github.com/DaveBenham/VenomModules/blob/main/changelog.md",
   "modules": [
+    {
+      "slug": "AuxClone",
+      "name": "Auxilliary Clone Expander",
+      "description": "Adds additional cloned poly input/output pairs to Clone Merge, Poly Merge, or Poly Unison",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#auxilliary-clone-expander",
+      "tags": [
+        "Expander",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
     {
       "slug": "BenjolinOsc",
       "name": "Benjolin Oscillator",
@@ -229,6 +240,26 @@
       ]
     },
     {
+      "slug": "MultiMerge",
+      "name": "Multi Merge",
+      "description": "Merge one or more sets of mono and/or poly inputs into polyphonic outputs",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multi-merge",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MultiSplit",
+      "name": "Multi Split",
+      "description": "Split one or more poly inputs into multiple mono or poly outputs",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multi-merge",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
       "slug": "NORS_IQ",
       "name": "Non-Octave-Repeating Scale Intervallic Quantizer",
       "description": "Quantizer for any scale defined by up to 13 intervals between notes",
@@ -259,6 +290,16 @@
       ]
     },
     {
+      "slug": "PolyOffset",
+      "name": "Poly Offset",
+      "description": "Provides an offset control for each channel of a polyphonic signal",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-offset",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
       "slug": "PolySHASR",
       "name": "Poly Sample & Hold Analog Shift Register",
       "description": "Ten channel polyphonic sample and hold combined with a shift register",
@@ -267,6 +308,17 @@
         "Polyphonic",
         "Random",
         "Sample and hold"
+      ]
+    },
+    {
+      "slug": "PolyScale",
+      "name": "Poly Scale",
+      "description": "Provides a level control for each channel of a polyphonic signal",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-offset",
+      "tags": [
+        "Attenuator",
+        "Polyphonic",
+        "Utility"
       ]
     },
     {

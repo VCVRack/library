@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.6.7",
+  "version": "2.6.8",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -230,9 +230,49 @@
       ]
     },
     {
+      "slug": "Modulator7Compact",
+      "name": "modulator7 Compact",
+      "description": "7 unipolar triangle LFOs",
+      "tags": [
+        "Low-frequency oscillator"
+      ]
+    },
+    {
       "slug": "Parking",
       "name": "parking",
       "description": "Set of unconnected inputs and outputs just to park unused cables",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PolyMuter8",
+      "name": "polyMuter8",
+      "description": "Mutes up to 8 single channels of a poly-cable",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PolyMuter8Plus",
+      "name": "polyMuter8+",
+      "description": "Mutes or Soloes up to 8 single channels of a poly-cable",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PolyMuter16",
+      "name": "polyMuter16",
+      "description": "Mutes single channels of a poly-cable",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PolyMuter16Plus",
+      "name": "polyMuter16+",
+      "description": "Mutes or Soloes single channels of a poly-cable",
       "tags": [
         "Utility"
       ]

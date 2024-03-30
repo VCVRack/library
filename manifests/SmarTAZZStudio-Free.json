@@ -1,7 +1,7 @@
 {
   "slug": "SmarTAZZStudio-Free",
   "name": "Sm@rTAZZ Studio Free",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sm@rTAZZ Studio",
   "author": "Marinko Laban",
@@ -17,7 +17,7 @@
       "slug": "Multiplier",
       "name": "Multiplier",
       "description": "Multiplies a polyphonic signal to 4 outputs",
-      "manualUrl": "https://mlaban.home.xs4all.nl/music/STS-Multiplier.html",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Multiplier.html",
       "tags": [
         "Multiple",
         "Polyphonic",
@@ -28,7 +28,7 @@
       "slug": "Splitter",
       "name": "Splitter",
       "description": "Splits a polyphonic signal to max 4 channels",
-      "manualUrl": "https://mlaban.home.xs4all.nl/music/STS-Splitter.html",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Splitter.html",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -38,7 +38,7 @@
       "slug": "Saw-VCO",
       "name": "Saw-VCO",
       "description": "A sawtooth wave VCO with phase, volume and frequency modulation",
-      "manualUrl": "https://mlaban.home.xs4all.nl/music/STS-Saw-VCO.html",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Saw-VCO.html",
       "tags": [
         "Polyphonic",
         "Oscillator"
@@ -48,7 +48,7 @@
       "slug": "Sine-VCO",
       "name": "Sine-VCO",
       "description": "A sine wave VCO with phase, volume and frequency modulation",
-      "manualUrl": "https://mlaban.home.xs4all.nl/music/STS-Sine-VCO.html",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Sine-VCO.html",
       "tags": [
         "Polyphonic",
         "Oscillator"
@@ -58,10 +58,30 @@
       "slug": "Triangle-VCO",
       "name": "Triangle-VCO",
       "description": "A triangle wave VCO with phase, volume and frequency modulation",
-      "manualUrl": "https://mlaban.home.xs4all.nl/music/STS-Triangle-VCO.html",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Triangle-VCO.html",
       "tags": [
         "Polyphonic",
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "Clipper",
+      "name": "Clipper",
+      "description": "Clips or folds an audio signal, causing distortion & harmonics being added",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Clipper.html",
+      "tags": [
+        "Polyphonic",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "D-Octer",
+      "name": "D-Octer",
+      "description": "Transposed the input voltage by 2 and 1 octave, up and down, each result is sent to a separate output.",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/D-Octer.html",
+      "tags": [
+        "Polyphonic",
+        "Utility"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "Sparkette",
   "name": "Sparkette's Stuff",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sparkette's Stuff",
   "author": "Sara Sparks",
@@ -103,6 +103,35 @@
       "tags": [
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Integrator",
+      "name": "Dual Integrator",
+      "description": "Modulates up to two values over time at variable speed.",
+      "tags": [
+        "Dual",
+        "Dynamics",
+        "Function generator"
+      ]
+    },
+    {
+      "slug": "ColorMixer",
+      "name": "Color Mixer",
+      "description": "Provides layers for compositing images, e.g. for RGB Matrix modules.",
+      "tags": [
+        "Visual",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Busybox",
+      "name": "Busybox",
+      "description": "Multipurpose module containing four LFO's, two ADSR+VCA envelopes, and a noise generator.",
+      "tags": [
+        "Envelope generator",
+        "Low-frequency oscillator",
+        "Noise"
       ]
     }
   ]

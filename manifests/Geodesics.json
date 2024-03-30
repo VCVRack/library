@@ -1,17 +1,18 @@
 {
   "slug": "Geodesics",
   "name": "Geodesics",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "license": "GPL-3.0-only",
   "author": "Pyer & Marc Boul\u00e9",
   "brand": "Geodesics",
   "authorEmail": "geodesics.modular@outlook.com",
-  "authorUrl": "",
+  "authorUrl": "https://www.pyer.be",
   "pluginUrl": "https://www.pyer.be/geodesics.html",
   "manualUrl": "https://marcboule.github.io/Geodesics/",
   "sourceUrl": "https://github.com/MarcBoule/Geodesics/",
   "donateUrl": "https://paypal.me/pyercollard",
   "changelogUrl": "https://github.com/MarcBoule/Geodesics/tree/master/CHANGELOG.md",
+  "minRackVersion": "2.4.0",
   "modules": [
     {
       "slug": "BlackHoles",

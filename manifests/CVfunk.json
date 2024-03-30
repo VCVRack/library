@@ -1,0 +1,106 @@
+{
+  "slug": "CVfunk",
+  "name": "CV funk Modules",
+  "version": "2.0.1",
+  "license": "MIT",
+  "brand": "CV funk",
+  "author": "Cody Geary",
+  "authorEmail": "codyge@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/codygeary/CVfunk-Modules",
+  "manualUrl": "https://github.com/codygeary/CVfunk-Modules/blob/main/img/CV_funk_Manual.pdf",
+  "sourceUrl": "https://github.com/codygeary/CVfunk-Modules",
+  "donateUrl": "https://www.paypal.com/donate/?hosted_button_id=P69BU6HMBTYYY",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Steps",
+      "name": "Steps",
+      "description": "Fusion of a comparator and a step generator",
+      "tags": [
+        "Function generator",
+        "Sample and hold",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "EnvelopeArray",
+      "name": "Envelope Array",
+      "description": "Six related envelopes and gates",
+      "tags": [
+        "Envelope generator",
+        "Function generator"
+      ]
+    },
+    {
+      "slug": "PentaSequencer",
+      "name": "Penta Sequencer",
+      "description": "A five step sequencer with five simultaneous outputs and tempo-synced slew",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ImpulseController",
+      "name": "Impulse Controller",
+      "description": "Decay envelopes propagate across a network of 24 nodes",
+      "tags": [
+        "Envelope generator",
+        "Function generator",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Signals",
+      "name": "Signals",
+      "description": "A small 6-channel oscilloscope for visualizing rack signals.",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Ranges",
+      "name": "Ranges",
+      "description": "Convert two input voltages into up to 12 equal intervals.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "HexMod",
+      "name": "HexMod",
+      "description": "Six phase related LFOs with rate sync.",
+      "tags": [
+        "Low-frequency oscillator",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Collatz",
+      "name": "Collatz",
+      "description": "Clock synchronized trigger burst generator, based on sequences of the Collatz conjecture.",
+      "tags": [
+        "Sequencer",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Strings",
+      "name": "Strings",
+      "description": "Generates guitar chords with a button interface, implements bending per string, whammy bar and capo.",
+      "tags": [
+        "Sequencer",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "Magnets",
+      "name": "Magnets",
+      "description": "Simulates Ising glass on a toroidal network of nodes.",
+      "tags": [
+        "Random",
+        "Low-frequency oscillator"
+      ]
+    }
+  ]
+}

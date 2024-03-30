@@ -2767,7 +2767,7 @@
     }
   },
   "Geodesics": {
-    "buildTimestamp": 1681691911.0890133,
+    "buildTimestamp": 1711821948.484168,
     "creationTimestamp": 1534547467.0,
     "modules": {
       "BlackHoles": {
@@ -3061,7 +3061,7 @@
     }
   },
   "MockbaModular": {
-    "buildTimestamp": 1638462173.1218257,
+    "buildTimestamp": 1711822061.003623,
     "creationTimestamp": 1572711703.0,
     "modules": {
       "Blank": {
@@ -3283,7 +3283,7 @@
     }
   },
   "Befaco": {
-    "buildTimestamp": 1704328270.3825035,
+    "buildTimestamp": 1711821452.693204,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "EvenVCO": {
@@ -3348,6 +3348,12 @@
       },
       "MotionMTR": {
         "creationTimestamp": 1671488540.8573442
+      },
+      "Burst": {
+        "creationTimestamp": 1711827244.3444314
+      },
+      "Voltio": {
+        "creationTimestamp": 1711827244.3865263
       }
     }
   },
@@ -11820,7 +11826,7 @@
     }
   },
   "dbRackSequencer": {
-    "buildTimestamp": 1687317166.863823,
+    "buildTimestamp": 1711821298.110596,
     "creationTimestamp": 1653920290.2170763,
     "modules": {
       "JTChords": {
@@ -11951,6 +11957,15 @@
       },
       "HexSeqP2": {
         "creationTimestamp": 1687317425.0407774
+      },
+      "SEQ22": {
+        "creationTimestamp": 1711827244.9777138
+      },
+      "Swen": {
+        "creationTimestamp": 1711827245.0270555
+      },
+      "Map": {
+        "creationTimestamp": 1711827245.079649
       }
     }
   },
@@ -11997,7 +12012,7 @@
     }
   },
   "CosineKitty-Sapphire": {
-    "buildTimestamp": 1709628329.9989018,
+    "buildTimestamp": 1711821351.5203462,
     "creationTimestamp": 1660869608.068208,
     "modules": {
       "Moots": {
@@ -12078,7 +12093,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1709628577.346905,
+    "buildTimestamp": 1711821127.2480543,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12197,6 +12212,21 @@
       },
       "Switcher8": {
         "creationTimestamp": 1708910205.506082
+      },
+      "Modulator7Compact": {
+        "creationTimestamp": 1711827244.4388647
+      },
+      "PolyMuter8": {
+        "creationTimestamp": 1711827244.508791
+      },
+      "PolyMuter8Plus": {
+        "creationTimestamp": 1711827244.5701618
+      },
+      "PolyMuter16": {
+        "creationTimestamp": 1711827244.610991
+      },
+      "PolyMuter16Plus": {
+        "creationTimestamp": 1711827244.6631832
       }
     }
   },
@@ -12255,7 +12285,7 @@
     }
   },
   "Sparkette": {
-    "buildTimestamp": 1708909838.5561082,
+    "buildTimestamp": 1711827243.8356369,
     "creationTimestamp": 1664898773.0755346,
     "modules": {
       "Ellie": {
@@ -12287,6 +12317,15 @@
       },
       "PolyCat": {
         "creationTimestamp": 1708910206.9396966
+      },
+      "Integrator": {
+        "creationTimestamp": 1711827245.430843
+      },
+      "ColorMixer": {
+        "creationTimestamp": 1711827245.478326
+      },
+      "Busybox": {
+        "creationTimestamp": 1711827245.5225003
       }
     }
   },
@@ -12702,7 +12741,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1709628275.9793372,
+    "buildTimestamp": 1711821901.274396,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
@@ -12809,6 +12848,21 @@
       },
       "WidgetMenuExtender": {
         "creationTimestamp": 1707940211.7732315
+      },
+      "AuxClone": {
+        "creationTimestamp": 1711827244.7126257
+      },
+      "MultiMerge": {
+        "creationTimestamp": 1711827244.756261
+      },
+      "MultiSplit": {
+        "creationTimestamp": 1711827244.8055153
+      },
+      "PolyOffset": {
+        "creationTimestamp": 1711827244.8547122
+      },
+      "PolyScale": {
+        "creationTimestamp": 1711827244.898001
       }
     }
   },
@@ -13032,7 +13086,7 @@
     }
   },
   "Biset": {
-    "buildTimestamp": 1708909813.126291,
+    "buildTimestamp": 1711821631.4490232,
     "creationTimestamp": 1688525918.95731,
     "modules": {
       "Biset-Regex": {
@@ -13082,6 +13136,9 @@
       },
       "Biset-Blank": {
         "creationTimestamp": 1706365277.8232028
+      },
+      "Biset-Tree-Seed": {
+        "creationTimestamp": 1711827243.9245737
       }
     }
   },
@@ -13422,7 +13479,7 @@
     }
   },
   "SmarTAZZStudio-Free": {
-    "buildTimestamp": 1708909939.9953783,
+    "buildTimestamp": 1711820794.8095582,
     "creationTimestamp": 1708910205.9740877,
     "modules": {
       "Multiplier": {
@@ -13439,6 +13496,12 @@
       },
       "Triangle-VCO": {
         "creationTimestamp": 1708910206.6397388
+      },
+      "Clipper": {
+        "creationTimestamp": 1711827245.1367564
+      },
+      "D-Octer": {
+        "creationTimestamp": 1711827245.1908975
       }
     }
   },
@@ -13478,6 +13541,57 @@
     "modules": {
       "CIZZLE": {
         "creationTimestamp": 1710510748.5531518
+      }
+    }
+  },
+  "CVfunk": {
+    "buildTimestamp": 1711820870.805886,
+    "creationTimestamp": 1711827243.9642084,
+    "modules": {
+      "Steps": {
+        "creationTimestamp": 1711827243.9921646
+      },
+      "EnvelopeArray": {
+        "creationTimestamp": 1711827244.0197318
+      },
+      "PentaSequencer": {
+        "creationTimestamp": 1711827244.0483875
+      },
+      "ImpulseController": {
+        "creationTimestamp": 1711827244.0816476
+      },
+      "Signals": {
+        "creationTimestamp": 1711827244.113169
+      },
+      "Ranges": {
+        "creationTimestamp": 1711827244.141576
+      },
+      "HexMod": {
+        "creationTimestamp": 1711827244.1754415
+      },
+      "Collatz": {
+        "creationTimestamp": 1711827244.2038045
+      },
+      "Strings": {
+        "creationTimestamp": 1711827244.236964
+      },
+      "Magnets": {
+        "creationTimestamp": 1711827244.2789197
+      }
+    }
+  },
+  "eightfold": {
+    "buildTimestamp": 1711827208.2659883,
+    "creationTimestamp": 1711827245.2401564,
+    "modules": {
+      "SDOrcasHeartV2": {
+        "creationTimestamp": 1711827245.288497
+      },
+      "SDLines": {
+        "creationTimestamp": 1711827245.3353453
+      },
+      "SDFormation": {
+        "creationTimestamp": 1711827245.3808393
       }
     }
   }

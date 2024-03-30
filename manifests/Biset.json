@@ -1,7 +1,7 @@
 {
   "slug": "Biset",
   "name": "Biset",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "license": "MIT",
   "brand": "Biset",
   "author": "Biset",
@@ -178,8 +178,20 @@
     {
       "slug": "Biset-Tree",
       "name": "Tree",
-      "description": "Tree growth sequencer",
+      "description": "Evolving Tree sequencer impacted by wind force",
       "tags": [
+        "Sequencer",
+        "Visual",
+        "Random",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "Biset-Tree-Seed",
+      "name": "Tree Seed",
+      "description": "Tree sequencer expander to create evolving melodies",
+      "tags": [
+        "Expander",
         "Sequencer",
         "Visual",
         "Random",

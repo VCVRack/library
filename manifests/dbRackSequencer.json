@@ -1,7 +1,7 @@
 {
   "slug": "dbRackSequencer",
   "name": "dbRackSequencer",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -366,6 +366,34 @@
       "description": "A 100x16x64 Trigger Sequencer with probability",
       "tags": [
         "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SEQ22",
+      "name": "SEQ22",
+      "description": "Stochastic Sequencer",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Swen",
+      "name": "Swen",
+      "description": "A Chaos Module",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Map",
+      "name": "Map",
+      "description": "Polyphonic Chaos Maps",
+      "tags": [
+        "Sequencer",
+        "Random",
         "Polyphonic"
       ]
     }
