@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.38",
+  "version": "2.4.39",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -170,6 +170,17 @@
         "Physical modeling"
       ],
       "keywords": "neonoblique moar cowbell experimental",
+      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/neon-oblique/"
+    },
+    {
+      "slug": "LittlePig",
+      "name": "Little Pig",
+      "description": "[21hp][Neon-Oblique] Experimental feedback distortion.",
+      "tags": [
+        "Distortion",
+        "Effect"
+      ],
+      "keywords": "neonoblique little pig distortion gain feedback experimental Pig Power Snuffle Grunt Snort Snout Squeal Oink Trotters",
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/neon-oblique/"
     }
   ]

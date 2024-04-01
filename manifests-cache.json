@@ -10206,7 +10206,7 @@
     }
   },
   "DanTModules": {
-    "buildTimestamp": 1709081571.357032,
+    "buildTimestamp": 1711989266.7914946,
     "creationTimestamp": 1607124947.802597,
     "modules": {
       "Wavulike": {
@@ -10253,6 +10253,9 @@
       },
       "SeizureTrigger": {
         "creationTimestamp": 1706352422.4926348
+      },
+      "LittlePig": {
+        "creationTimestamp": 1711989266.9369056
       }
     }
   },
