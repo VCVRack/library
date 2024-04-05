@@ -46,6 +46,9 @@ def update():
 		mg_url = mg_data['mgUrl']
 		r = requests.get(mg_url)
 		m = re.search(r'data-module-id\w*=\w*"(\d+)"', r.text)
+		if not m:
+			print(f"No ModularGrid ID found for {plugin_slug} {module_slug}")
+			continue
 		mg_id = m.group(1)
 		if not mg_id:
 			print(f"No ModularGrid ID found for {plugin_slug} {module_slug}")

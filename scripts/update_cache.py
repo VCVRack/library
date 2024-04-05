@@ -82,7 +82,7 @@ def update():
 		cache_plugin = cache.get(plugin_slug, {})
 
 		# Get plugin build
-		print(f"Getting buildTimestamp for plugin {plugin_slug}")
+		# print(f"Getting buildTimestamp for plugin {plugin_slug}")
 		buildTimestamp = get_plugin_build(plugin)
 		if buildTimestamp:
 			cache_plugin['buildTimestamp'] = buildTimestamp
