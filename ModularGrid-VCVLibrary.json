@@ -1711,5 +1711,12 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/Voltio",
     "mgUrl": "https://www.modulargrid.net/e/befaco-voltio",
     "mgModuleId": 46258
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Octaves",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Octaves",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-octaves-vco",
+    "mgModuleId": 48193
   }
 ]

@@ -1,7 +1,7 @@
 {
   "slug": "Biset",
   "name": "Biset",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "license": "MIT",
   "brand": "Biset",
   "author": "Biset",
@@ -13,6 +13,50 @@
   "donateUrl": "https://ko-fi.com/biset",
   "changelogUrl": "",
   "modules": [
+    {
+      "slug": "Biset-Igc",
+      "name": "It's good cholesterol",
+      "description": "Recorder / buffer playground with polyphonic playhead",
+      "tags": [
+        "Delay",
+        "Chorus",
+        "Digital",
+        "Effect",
+        "Granular",
+        "VCO",
+        "Polyphonic"
+      ],
+      "keywords": [
+        "igc",
+        "buffer"
+      ]
+    },
+    {
+      "slug": "Biset-Omega3",
+      "name": "Omega3",
+      "description": "Polyphonic CV spread",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ],
+      "keywords": [
+        "igc",
+        "cholesterol"
+      ]
+    },
+    {
+      "slug": "Biset-Omega6",
+      "name": "Omega6",
+      "description": "Polyphonic CV spread between 2 inputs",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ],
+      "keywords": [
+        "igc",
+        "cholesterol"
+      ]
+    },
     {
       "slug": "Biset-Gbu",
       "name": "The Good, the Bad and the Ugly",

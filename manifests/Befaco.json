@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -306,6 +306,17 @@
         "Hardware clone",
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Octaves",
+      "name": "Octaves",
+      "description": "A harsh and funky take of an additive Oscillator.",
+      "manualUrl": "https://www.befaco.org/octaves-vco/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-octaves-vco",
+      "tags": [
+        "Hardware clone",
+        "Oscillator"
       ]
     }
   ]

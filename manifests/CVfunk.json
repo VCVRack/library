@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -53,7 +53,7 @@
     {
       "slug": "Signals",
       "name": "Signals",
-      "description": "A small 6-channel oscilloscope for visualizing rack signals.",
+      "description": "A small Six-channel oscilloscope for visualizing rack signals.",
       "tags": [
         "Visual"
       ]
@@ -69,7 +69,7 @@
     {
       "slug": "HexMod",
       "name": "HexMod",
-      "description": "Six phase related LFOs with rate sync.",
+      "description": "Six phase related LFOs with rate sync and individual phase reset triggers.",
       "tags": [
         "Low-frequency oscillator",
         "Visual"
@@ -78,7 +78,7 @@
     {
       "slug": "Collatz",
       "name": "Collatz",
-      "description": "Clock synchronized trigger burst generator, based on sequences of the Collatz conjecture.",
+      "description": "Clock-synchronized trigger burst generator, based on sequences of the Collatz conjecture.",
       "tags": [
         "Sequencer",
         "Clock modulator"
@@ -87,7 +87,7 @@
     {
       "slug": "Strings",
       "name": "Strings",
-      "description": "Generates guitar chords with a button interface, implements bending per string, whammy bar and capo.",
+      "description": "Generates guitar chords from a button interface or CV. Implements bending, whammy bar and capo.",
       "tags": [
         "Sequencer",
         "Quantizer"
@@ -96,7 +96,7 @@
     {
       "slug": "Magnets",
       "name": "Magnets",
-      "description": "Simulates Ising glass on a toroidal network of nodes.",
+      "description": "Simulate and interact with a small magnetic spin-lattice.",
       "tags": [
         "Random",
         "Low-frequency oscillator"

@@ -3283,7 +3283,7 @@
     }
   },
   "Befaco": {
-    "buildTimestamp": 1711821452.693204,
+    "buildTimestamp": 1712607115.4254403,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "EvenVCO": {
@@ -3354,6 +3354,9 @@
       },
       "Voltio": {
         "creationTimestamp": 1711827244.3865263
+      },
+      "Octaves": {
+        "creationTimestamp": 1712607167.1196158
       }
     }
   },
@@ -12288,7 +12291,7 @@
     }
   },
   "Sparkette": {
-    "buildTimestamp": 1711827243.8356369,
+    "buildTimestamp": 1712607166.8917265,
     "creationTimestamp": 1664898773.0755346,
     "modules": {
       "Ellie": {
@@ -12329,6 +12332,18 @@
       },
       "Busybox": {
         "creationTimestamp": 1711827245.5225003
+      },
+      "RAM40964": {
+        "creationTimestamp": 1712607167.2863145
+      },
+      "Quadrants": {
+        "creationTimestamp": 1712607167.3334768
+      },
+      "VoltageRange": {
+        "creationTimestamp": 1712607167.3795252
+      },
+      "Microcosm": {
+        "creationTimestamp": 1712607167.4316914
       }
     }
   },
@@ -13089,7 +13104,7 @@
     }
   },
   "Biset": {
-    "buildTimestamp": 1711821631.4490232,
+    "buildTimestamp": 1712606892.7570844,
     "creationTimestamp": 1688525918.95731,
     "modules": {
       "Biset-Regex": {
@@ -13142,6 +13157,15 @@
       },
       "Biset-Tree-Seed": {
         "creationTimestamp": 1711827243.9245737
+      },
+      "Biset-Igc": {
+        "creationTimestamp": 1712607166.9732993
+      },
+      "Biset-Omega3": {
+        "creationTimestamp": 1712607167.0073261
+      },
+      "Biset-Omega6": {
+        "creationTimestamp": 1712607167.0429907
       }
     }
   },
@@ -13431,7 +13455,7 @@
     }
   },
   "MUS-X": {
-    "buildTimestamp": 1708909922.6488366,
+    "buildTimestamp": 1712606942.3767183,
     "creationTimestamp": 1705388984.538214,
     "modules": {
       "ADSR": {
@@ -13457,6 +13481,12 @@
       },
       "ModMatrix": {
         "creationTimestamp": 1708910205.8130934
+      },
+      "LFO": {
+        "creationTimestamp": 1712607167.1816752
+      },
+      "Last": {
+        "creationTimestamp": 1712607167.2224782
       }
     }
   },
@@ -13548,7 +13578,7 @@
     }
   },
   "CVfunk": {
-    "buildTimestamp": 1711820870.805886,
+    "buildTimestamp": 1712606991.0230258,
     "creationTimestamp": 1711827243.9642084,
     "modules": {
       "Steps": {

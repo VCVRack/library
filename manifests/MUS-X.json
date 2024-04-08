@@ -1,7 +1,7 @@
 {
   "slug": "MUS-X",
   "name": "MUS-X",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "GPL-3.0-or-later",
   "brand": "MUS-X",
   "author": "Dr. Johannes Rauch",
@@ -72,7 +72,7 @@
         "Filter",
         "Polyphonic"
       ],
-      "manualUrl": "https://github.com/Jojosito/MUS-X#onepoleLP"
+      "manualUrl": "https://github.com/Jojosito/MUS-X#onepolelp"
     },
     {
       "slug": "Drift",
@@ -94,6 +94,25 @@
         "Utility"
       ],
       "manualUrl": "https://github.com/Jojosito/MUS-X#mod-matrix"
+    },
+    {
+      "slug": "LFO",
+      "name": "LFO",
+      "description": "Low frequency oscillator",
+      "tags": [
+        "Low-frequency oscillator",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#lfo"
+    },
+    {
+      "slug": "Last",
+      "name": "Last",
+      "description": "Output the value of the last moved knob",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#last"
     }
   ]
 }

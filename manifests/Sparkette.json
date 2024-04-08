@@ -1,7 +1,7 @@
 {
   "slug": "Sparkette",
   "name": "Sparkette's Stuff",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sparkette's Stuff",
   "author": "Sara Sparks",
@@ -132,6 +132,45 @@
         "Envelope generator",
         "Low-frequency oscillator",
         "Noise"
+      ]
+    },
+    {
+      "slug": "RAM40964",
+      "name": "RAM-40964",
+      "description": "64\u00d764\u00d74 planar random access memory, designed with RGB Matrix in mind",
+      "tags": [
+        "Digital",
+        "Sample and hold",
+        "Sequencer",
+        "Polyphonic",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Quadrants",
+      "name": "Quadrants",
+      "description": "Splits an XY coordinate plane into four segments, switching inputs based on the active segment. Useful with RGB Matrix and RAM-40964.",
+      "tags": [
+        "Clock modulator",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "VoltageRange",
+      "name": "Voltage Range",
+      "description": "Generates a smooth range of values between and including two specified voltages on a polyphonic output.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Microcosm",
+      "name": "Microcosm",
+      "description": "5x5 Conway's Game of Life where each cell is individually controllable.",
+      "tags": [
+        "Digital",
+        "Sequencer"
       ]
     }
   ]
