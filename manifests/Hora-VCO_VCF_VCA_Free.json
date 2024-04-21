@@ -1,14 +1,14 @@
 {
   "slug": "Hora-VCO_VCF_VCA_Free",
   "name": "VCO-VCF-VCA Free",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "license": "proprietary",
   "author": "Hora",
   "brand": "Hora",
   "authorEmail": "Hora.music.contact@gmail.com",
-  "authorUrl": "http://hora-music.be",
-  "pluginUrl": "http://www.hora-music.be/vco-vcf-vca.php",
-  "manualUrl": "http://www.hora-music.be/manuals.php",
+  "authorUrl": "http://hora-music.wifeo.com",
+  "pluginUrl": "http://hora-music.wifeo.com/vco-vcf-vca.php",
+  "manualUrl": "http://hora-music.wifeo.com/manuals.php",
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
