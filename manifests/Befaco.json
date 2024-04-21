@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -297,6 +297,18 @@
       ]
     },
     {
+      "slug": "MidiThingV2",
+      "name": "MIDI Thing V2",
+      "description": "Hardware MIDI Thing v2 is a flexible MIDI to CV converter, this module acts as a bridge from VCV",
+      "manualUrl": "https://github.com/VCVRack/Befaco/blob/v2/docs/MIDIThingV2.md",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-midi-thing-v2",
+      "tags": [
+        "External",
+        "MIDI",
+        "Hardware clone"
+      ]
+    },
+    {
       "slug": "Voltio",
       "name": "Voltio",
       "description": "An accurate voltage source and precision adder.",
@@ -316,7 +328,8 @@
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-octaves-vco",
       "tags": [
         "Hardware clone",
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     }
   ]

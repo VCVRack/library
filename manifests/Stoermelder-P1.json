@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "2.0.beta3",
+  "version": "2.0.beta4",
   "license": "GPL-3.0-or-later",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -504,7 +504,7 @@
     {
       "slug": "Dirt",
       "name": "DIRT",
-      "description": "Crosstalk and noise for polyphonic cables (preview)",
+      "description": "Crosstalk and noise for polyphonic cables",
       "tags": [
         "Polyphonic"
       ],

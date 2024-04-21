@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.6.8",
+  "version": "2.6.9",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -334,6 +334,24 @@
       "description": "Sample Player",
       "tags": [
         "Sampler",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SickoQuant",
+      "name": "sickoQuant",
+      "description": "Polyphonic quantizer with scales and presets",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SickoQuant4",
+      "name": "sickoQuant4",
+      "description": "Four channels polyphonic quantizer with scales and presets",
+      "tags": [
+        "Quantizer",
         "Polyphonic"
       ]
     },

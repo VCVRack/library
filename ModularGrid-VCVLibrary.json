@@ -1718,5 +1718,12 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/Octaves",
     "mgUrl": "https://www.modulargrid.net/e/befaco-octaves-vco",
     "mgModuleId": 48193
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "MidiThingV2",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/MidiThingV2",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-midi-thing-v2",
+    "mgModuleId": 44096
   }
 ]
