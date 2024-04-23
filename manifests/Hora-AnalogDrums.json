@@ -1,14 +1,14 @@
 {
   "slug": "Hora-AnalogDrums",
   "name": "Analog Drums",
-  "version": "2.2.2",
+  "version": "2.2.4",
   "license": "proprietary",
   "brand": "Hora",
   "author": "Hora",
   "authorEmail": "Hora.music.contact@gmail.com",
-  "authorUrl": "http://hora-music.be",
+  "authorUrl": "http://hora-music.wifeo.com/",
   "pluginUrl": "http://hora-music.wifeo.com/analog-drums.php",
-  "manualUrl": "http://www.hora-music.be/manuals.php",
+  "manualUrl": "http://hora-music.wifeo.com/manuals.php",
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
