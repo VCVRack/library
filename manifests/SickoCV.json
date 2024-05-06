@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.6.9",
+  "version": "2.6.10",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -293,6 +293,23 @@
       "tags": [
         "Voltage-controlled amplifier",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SickoCrosser",
+      "name": "sickoCrosser",
+      "description": "multi stereo input crossfader",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SickoCrosser4",
+      "name": "sickoCrosser4",
+      "description": "4 multi input crossfader",
+      "tags": [
+        "Mixer"
       ]
     },
     {

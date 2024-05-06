@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -53,7 +53,7 @@
     {
       "slug": "Signals",
       "name": "Signals",
-      "description": "A small Six-channel oscilloscope for visualizing rack signals.",
+      "description": "A small six-channel oscilloscope for visualizing rack signals.",
       "tags": [
         "Visual"
       ]
@@ -63,7 +63,8 @@
       "name": "Ranges",
       "description": "Convert two input voltages into up to 12 equal intervals.",
       "tags": [
-        "Utility"
+        "Utility",
+        "Attenuator"
       ]
     },
     {
@@ -96,9 +97,22 @@
     {
       "slug": "Ouros",
       "name": "Ouros",
-      "description": "A stereo phased injection oscillator, with polar waveform display.",
+      "description": "A stereo phase injection oscillator, with polar waveform display.",
       "tags": [
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "PressedDuck",
+      "name": "Pressed Duck",
+      "description": "A stereo six-channel dynamic compressing mixer with side-chain ducking, tanh saturation and antiderivative antialiasing.",
+      "tags": [
+        "Mixer",
+        "Compressor",
+        "Dynamics",
+        "Distortion",
+        "Panning",
+        "Voltage-controlled Amplifier"
       ]
     },
     {

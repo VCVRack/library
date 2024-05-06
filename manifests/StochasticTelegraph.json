@@ -1,7 +1,7 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
@@ -34,7 +34,8 @@
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#drifter",
       "tags": [
         "Random",
-        "Sample and hold"
+        "Sample and hold",
+        "Sequencer"
       ]
     },
     {
@@ -67,6 +68,43 @@
       "tags": [
         "Recording",
         "Utility",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Memory",
+      "name": "Memory",
+      "description": "The root part of a Memory system. This is what Ruminate reads and Embellish writes to.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#memory",
+      "tags": []
+    },
+    {
+      "slug": "Ruminate",
+      "name": "Ruminate",
+      "description": "A playback head within a Memory system of modules.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#ruminate",
+      "tags": [
+        "Delay",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Embellish",
+      "name": "Embellish",
+      "description": "A recording and playback head for a Memory system of modules.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#embellish",
+      "tags": [
+        "Expander",
+        "Recording"
+      ]
+    },
+    {
+      "slug": "Depict",
+      "name": "Depict",
+      "description": "Visualizes activity of other modules within a Memory system.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#depict",
+      "tags": [
+        "Expander",
         "Visual"
       ]
     }

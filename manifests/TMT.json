@@ -1,7 +1,7 @@
 {
   "slug": "TMT",
   "name": "T's Musical Tools",
-  "version": "2.0.0",
+  "version": "2.1.8",
   "license": "MIT",
   "brand": "T",
   "author": "T",
@@ -62,10 +62,40 @@
     {
       "slug": "Sight",
       "name": "Sight",
-      "description": "Simple scope wih a non-linear falloff.",
+      "description": "Simple scope wih a non-linear time scale.",
       "tags": [
         "Visual"
       ]
+    },
+    {
+      "slug": "Spellbook",
+      "name": "Spellbook",
+      "description": "Play RhythML formatted text sequences.",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Stats",
+      "name": "Stats",
+      "description": "Perform statistical functions on a polyphonic cable.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Blankt",
+      "name": "Blankt",
+      "description": "A blank T's Musical Tools panel.",
+      "tags": []
+    },
+    {
+      "slug": "Sort",
+      "name": "Sort",
+      "description": "A tool to arbitrarily sort and select channels from a polyphonic cable using polyphonic CVs.",
+      "tags": []
     }
   ]
 }

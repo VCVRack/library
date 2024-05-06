@@ -1,7 +1,7 @@
 {
   "slug": "Chinenual-VCV",
   "name": "Chinenual",
-  "version": "2.6.1",
+  "version": "2.7.0",
   "license": "GPL-3.0-or-later",
   "brand": "Chinenual",
   "author": "Steve Tynor",
@@ -43,6 +43,16 @@
         "midi",
         "recording",
         "drum"
+      ]
+    },
+    {
+      "slug": "Harp",
+      "name": "Harp",
+      "description": "A reimagining of Iasos's GoldenHarp for VCV. A quantizer that generates gates as notes change.",
+      "manualUrl": "https://github.com/chinenual/Chinenual-VCV/blob/main/README.md#harp",
+      "tags": [
+        "quantizer",
+        "utility"
       ]
     },
     {

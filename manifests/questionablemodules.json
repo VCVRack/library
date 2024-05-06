@@ -1,7 +1,7 @@
 {
   "slug": "questionablemodules",
   "name": "Questionable Modules",
-  "version": "2.1.13",
+  "version": "2.1.14",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Questionable Modules",

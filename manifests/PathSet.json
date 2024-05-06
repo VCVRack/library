@@ -1,12 +1,12 @@
 {
   "slug": "PathSet",
   "name": "Path Set: Free",
-  "version": "2.4.1",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "brand": "Path Set",
   "author": "Andrew Hanson",
   "authorEmail": "",
-  "authorUrl": "https://github.com/patheros",
+  "authorUrl": "https://www.patheros.com/",
   "pluginUrl": "https://github.com/patheros/PathSetModules",
   "manualUrl": "https://github.com/patheros/PathSetManuals",
   "sourceUrl": "https://github.com/patheros/PathSetModules",
@@ -50,6 +50,16 @@
       "slug": "GlassPane",
       "name": "GlassPane",
       "description": "Patchable, branchable, network sequencer. Create a cascading intricate self modulating sequence.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/GlassPane.md",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "PlusPane",
+      "name": "+Pane",
+      "description": "Bi-directional, chainable, expander for GlassPane.",
       "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/GlassPane.md",
       "tags": [
         "Sequencer",
