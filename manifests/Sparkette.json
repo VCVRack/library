@@ -1,7 +1,7 @@
 {
   "slug": "Sparkette",
   "name": "Sparkette's Stuff",
-  "version": "2.6.0",
+  "version": "2.7.1",
   "license": "GPL-3.0-or-later",
   "brand": "Sparkette's Stuff",
   "author": "Sara Sparks",
@@ -137,7 +137,7 @@
     {
       "slug": "RAM40964",
       "name": "RAM-40964",
-      "description": "64\u00d764\u00d74 planar random access memory, designed with RGB Matrix in mind",
+      "description": "64\u00d764\u00d74 planar random access memory, designed with RGB Matrix in mind. DMA compatible.",
       "tags": [
         "Digital",
         "Sample and hold",
@@ -167,10 +167,27 @@
     {
       "slug": "Microcosm",
       "name": "Microcosm",
-      "description": "5x5 Conway's Game of Life where each cell is individually controllable.",
+      "description": "5x5 Conway's Game of Life where each cell is individually controllable. DMA compatible.",
       "tags": [
         "Digital",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "DMAFX",
+      "name": "DMA-FX",
+      "description": "An expander that connects to an adjacent DMA-compatible module, providing a selection of miscellaneous effect triggers.",
+      "tags": [
+        "Visual",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Accessor",
+      "name": "Accessor",
+      "description": "Connects to an adjacent DMA-compatible module to allow for reading and writing of memory.",
+      "tags": [
+        "Expander"
       ]
     }
   ]
