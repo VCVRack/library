@@ -1,7 +1,7 @@
 {
   "slug": "minimal-friction",
   "name": "Minimal Friction",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Minimal Friction",
   "author": "Antoni Chmiela",
@@ -20,6 +20,16 @@
       "tags": [
         "Polyphonic",
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "terminal",
+      "name": "Terminal",
+      "description": "Feedback loop mixer",
+      "tags": [
+        "Mixer",
+        "Effect",
+        "Delay"
       ]
     }
   ]

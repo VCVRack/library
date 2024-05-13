@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -61,7 +61,7 @@
     {
       "slug": "Ranges",
       "name": "Ranges",
-      "description": "Convert two input voltages into up to 12 equal intervals.",
+      "description": "Convert two input voltages into equal intervals.",
       "tags": [
         "Utility",
         "Attenuator"
@@ -70,7 +70,7 @@
     {
       "slug": "HexMod",
       "name": "HexMod",
-      "description": "Six phase related LFOs with rate sync and individual phase reset triggers.",
+      "description": "Six phase-related LFOs with rate sync and individual phase reset triggers.",
       "tags": [
         "Low-frequency oscillator",
         "Visual"
@@ -105,7 +105,7 @@
     {
       "slug": "PressedDuck",
       "name": "Pressed Duck",
-      "description": "A stereo six-channel dynamic compressing mixer with side-chain ducking, tanh saturation and antiderivative antialiasing.",
+      "description": "A stereo six-channel dynamic compressing mixer with side-chain ducking, tanh saturation and ADAA.",
       "tags": [
         "Mixer",
         "Compressor",
@@ -113,6 +113,14 @@
         "Distortion",
         "Panning",
         "Voltage-controlled Amplifier"
+      ]
+    },
+    {
+      "slug": "FlowerPatch",
+      "name": "Flower Patch",
+      "description": "A 12-tone scale polar visualizer with FFT analysis.",
+      "tags": [
+        "Visual"
       ]
     },
     {
