@@ -1,0 +1,25 @@
+{
+  "slug": "PathSet-GlassShard",
+  "name": "Path Set: Glass Shard",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "Path Set",
+  "author": "Andrew Hanson",
+  "authorEmail": "",
+  "authorUrl": "https://patheros.com/",
+  "pluginUrl": "https://github.com/patheros/PathSetManuals",
+  "manualUrl": "https://github.com/patheros/PathSetManuals",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "GlassShard",
+      "name": "Glass Shard",
+      "description": "This node-based sequencer gives you a new configuration each week, begging to be your creative muse for melody.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/GlassShard.md",
+      "tags": [
+        "sequencer"
+      ]
+    }
+  ]
+}

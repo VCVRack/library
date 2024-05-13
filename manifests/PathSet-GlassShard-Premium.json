@@ -1,0 +1,30 @@
+{
+  "slug": "PathSet-GlassShard-Premium",
+  "name": "Path Set: Glass Shard Premium",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "Path Set",
+  "author": "Andrew Hanson",
+  "authorEmail": "",
+  "authorUrl": "https://patheros.com/",
+  "pluginUrl": "https://github.com/patheros/PathSetManuals",
+  "manualUrl": "https://github.com/patheros/PathSetManuals",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "GlassSmith",
+      "name": "Glass Smith",
+      "description": "This utility module allows you to craft new configurations for Glass Shard.",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/GlassSmith.md",
+      "tags": []
+    },
+    {
+      "slug": "GlassShim",
+      "name": "Glass Shim",
+      "description": "Premium Expander for Glass Shard",
+      "manualUrl": "https://github.com/patheros/PathSetManuals/blob/main/modules/GlassShim.md",
+      "tags": []
+    }
+  ]
+}
