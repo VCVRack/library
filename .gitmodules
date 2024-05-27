@@ -822,3 +822,6 @@
 [submodule "repos/eightfold"]
 	path = repos/eightfold
 	url = https://github.com/scanner-darkly/eightfold.git
+[submodule "repos/SanguineMutants"]
+	path = repos/SanguineMutants
+	url = https://github.com/Bloodbat/SanguineMutants.git
