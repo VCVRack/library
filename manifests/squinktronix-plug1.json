@@ -2,7 +2,7 @@
   "slug": "squinktronix-plug1",
   "name": "Squinktronix",
   "author": "Squinktronix",
-  "version": "2.2.2",
+  "version": "2.2.4",
   "license": "GPL-3.0-or-later",
   "manualUrl": "https://github.com/squinkylabs/SqHarmony/blob/main/README.md",
   "sourceUrl": "https://github.com/squinkylabs/SqHarmony",
@@ -13,7 +13,9 @@
       "name": "Harmony",
       "description": "Harmony Generator",
       "manualUrl": "https://github.com/squinkylabs/SqHarmony/blob/main/docs/harmony.md",
-      "tags": []
+      "tags": [
+        "Utility"
+      ]
     },
     {
       "slug": "sqh-arpeggiator1",
@@ -26,10 +28,13 @@
       ]
     },
     {
-      "slug": "sqh-phasepatterns",
-      "name": "Phase Patterns",
-      "disabled": true,
-      "manualUrl": "https://github.com/squinkylabs/SqHarmony/blob/main/docs/phasepatterns.md"
+      "slug": "sqh-harmony2",
+      "name": "Harmony II",
+      "disabled": false,
+      "manualUrl": "https://github.com/squinkylabs/SqHarmony/blob/main/docs/harmonyII.md",
+      "tags": [
+        "Utility"
+      ]
     }
   ]
 }

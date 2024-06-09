@@ -1,7 +1,7 @@
 {
   "slug": "eightfold",
   "name": "eightfold",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "GPL-3.0-only",
   "brand": "scanner darkly",
   "author": "scanner darkly",
@@ -36,6 +36,26 @@
       "name": "formation",
       "description": "mono to polyphonic voltage converter",
       "manualUrl": "https://github.com/scanner-darkly/eightfold#formation",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SDTransgate",
+      "name": "transgate",
+      "description": "gate controlled precision adder",
+      "manualUrl": "https://github.com/scanner-darkly/eightfold#transgate",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SDComparator",
+      "name": "comparator",
+      "description": "polyphonic comparator",
+      "manualUrl": "https://github.com/scanner-darkly/eightfold#comparator",
       "tags": [
         "Polyphonic",
         "Utility"

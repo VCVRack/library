@@ -12120,7 +12120,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1714987306.3181489,
+    "buildTimestamp": 1717918930.5780387,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12266,6 +12266,18 @@
       },
       "SickoCrosser4": {
         "creationTimestamp": 1714987384.2059793
+      },
+      "Clocker2": {
+        "creationTimestamp": 1717919523.8021455
+      },
+      "Enver": {
+        "creationTimestamp": 1717919523.858985
+      },
+      "MultiSwitcher": {
+        "creationTimestamp": 1717919523.9114764
+      },
+      "MultiRouter": {
+        "creationTimestamp": 1717919523.9602826
       }
     }
   },
@@ -12324,7 +12336,7 @@
     }
   },
   "Sparkette": {
-    "buildTimestamp": 1715074546.6250215,
+    "buildTimestamp": 1717919504.0480893,
     "creationTimestamp": 1664898773.0755346,
     "modules": {
       "Ellie": {
@@ -12383,6 +12395,9 @@
       },
       "Accessor": {
         "creationTimestamp": 1715074546.7599034
+      },
+      "Trixie": {
+        "creationTimestamp": 1717919524.6371577
       }
     }
   },
@@ -12720,7 +12735,7 @@
     }
   },
   "NOI": {
-    "buildTimestamp": 1705103960.941939,
+    "buildTimestamp": 1717918955.244076,
     "creationTimestamp": 1673758885.1150217,
     "modules": {
       "Wilt": {
@@ -13482,7 +13497,7 @@
     }
   },
   "squinktronix-plug1": {
-    "buildTimestamp": 1704328168.5567167,
+    "buildTimestamp": 1717919441.6227424,
     "creationTimestamp": 1704333639.9465997,
     "modules": {
       "sqh-harmony1": {
@@ -13493,6 +13508,9 @@
       },
       "sqh-phasepatterns": {
         "creationTimestamp": 1704333640.356754
+      },
+      "sqh-harmony2": {
+        "creationTimestamp": 1717919524.0286038
       }
     }
   },
@@ -13611,7 +13629,7 @@
     }
   },
   "SmarTAZZStudio-Free": {
-    "buildTimestamp": 1711820794.8095582,
+    "buildTimestamp": 1717919036.785369,
     "creationTimestamp": 1708910205.9740877,
     "modules": {
       "Multiplier": {
@@ -13634,6 +13652,12 @@
       },
       "D-Octer": {
         "creationTimestamp": 1711827245.1908975
+      },
+      "Pulse-VCO": {
+        "creationTimestamp": 1717919524.403027
+      },
+      "Ticker": {
+        "creationTimestamp": 1717919524.4684393
       }
     }
   },
@@ -13677,7 +13701,7 @@
     }
   },
   "CVfunk": {
-    "buildTimestamp": 1715613472.3733082,
+    "buildTimestamp": 1717919007.976083,
     "creationTimestamp": 1711827243.9642084,
     "modules": {
       "Steps": {
@@ -13718,11 +13742,14 @@
       },
       "FlowerPatch": {
         "creationTimestamp": 1715613596.9172003
+      },
+      "Syncro": {
+        "creationTimestamp": 1717919523.728657
       }
     }
   },
   "eightfold": {
-    "buildTimestamp": 1711827208.2659883,
+    "buildTimestamp": 1717919523.624348,
     "creationTimestamp": 1711827245.2401564,
     "modules": {
       "SDOrcasHeartV2": {
@@ -13733,6 +13760,12 @@
       },
       "SDFormation": {
         "creationTimestamp": 1711827245.3808393
+      },
+      "SDTransgate": {
+        "creationTimestamp": 1717919524.5257635
+      },
+      "SDComparator": {
+        "creationTimestamp": 1717919524.5856388
       }
     }
   },
@@ -13754,6 +13787,27 @@
     "modules": {
       "GlassShard": {
         "creationTimestamp": 1715635532.1401358
+      }
+    }
+  },
+  "SanguineMutants": {
+    "buildTimestamp": 1717919390.247183,
+    "creationTimestamp": 1717919524.088269,
+    "modules": {
+      "Funes": {
+        "creationTimestamp": 1717919524.1325157
+      },
+      "Sanguine-Mutants-Blank": {
+        "creationTimestamp": 1717919524.1804914
+      },
+      "Sanguine-Apices": {
+        "creationTimestamp": 1717919524.224169
+      },
+      "Sanguine-Aleae": {
+        "creationTimestamp": 1717919524.2678552
+      },
+      "Sanguine-Nodi": {
+        "creationTimestamp": 1717919524.3291078
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "slug": "SmarTAZZStudio-Free",
   "name": "Sm@rTAZZ Studio Free",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sm@rTAZZ Studio",
   "author": "Marinko Laban",
@@ -65,6 +65,16 @@
       ]
     },
     {
+      "slug": "Pulse-VCO",
+      "name": "Pulse-VCO",
+      "description": "A pulse wave VCO with pulse-width, phase, volume and frequency modulation",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Pulse-VCO.html",
+      "tags": [
+        "Polyphonic",
+        "Oscillator"
+      ]
+    },
+    {
       "slug": "Clipper",
       "name": "Clipper",
       "description": "Clips or folds an audio signal, causing distortion & harmonics being added",
@@ -82,6 +92,15 @@
       "tags": [
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Ticker",
+      "name": "Ticker",
+      "description": "Clock with lots of options",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Ticker.html",
+      "tags": [
+        "Clock"
       ]
     }
   ]

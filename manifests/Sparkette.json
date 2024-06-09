@@ -1,7 +1,7 @@
 {
   "slug": "Sparkette",
   "name": "Sparkette's Stuff",
-  "version": "2.7.1",
+  "version": "2.8.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sparkette's Stuff",
   "author": "Sara Sparks",
@@ -108,7 +108,7 @@
     {
       "slug": "Integrator",
       "name": "Dual Integrator",
-      "description": "Modulates up to two values over time at variable speed.",
+      "description": "Modulates up to two values over time at variable speed. DMA compatible; try stacking multiple horizontally.",
       "tags": [
         "Dual",
         "Dynamics",
@@ -188,6 +188,14 @@
       "description": "Connects to an adjacent DMA-compatible module to allow for reading and writing of memory.",
       "tags": [
         "Expander"
+      ]
+    },
+    {
+      "slug": "Trixie",
+      "name": "Trixie",
+      "description": "Trixie joins Ellie as a blank panel",
+      "tags": [
+        "Blank"
       ]
     }
   ]

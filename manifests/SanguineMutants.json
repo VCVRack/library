@@ -1,0 +1,68 @@
+{
+  "slug": "SanguineMutants",
+  "name": "Sanguine Modules",
+  "version": "2.2.0",
+  "license": "GPL-3.0-or-later",
+  "author": "Bloodbat",
+  "pluginUrl": "https://github.com/Bloodbat/SanguineMutants",
+  "sourceUrl": "https://github.com/Bloodbat/SanguineMutants",
+  "description": "A collection of modules based on Mutable Instruments Eurorack devices and their variants.",
+  "changelogUrl": "https://github.com/Bloodbat/SanguineMutants/blob/main/CHANGELOG.md",
+  "manualUrl": "https://raw.githubusercontent.com/Bloodbat/SanguineModulesManuals/main/mutants_manual.pdf",
+  "modules": [
+    {
+      "slug": "Funes",
+      "name": "Funes",
+      "description": "Based on Mutable Instruments Plaits 1.2",
+      "tags": [
+        "Oscillator",
+        "Hardware clone",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sanguine-Mutants-Blank",
+      "name": "Sanguine Mutants Blank",
+      "description": "Put a goblin and the Mutants logo on your rack!",
+      "tags": [
+        "Blank",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Sanguine-Apices",
+      "name": "Sanguine Apices",
+      "description": "Based on Mutable Instruments Peaks",
+      "tags": [
+        "Drum",
+        "Envelope generator",
+        "Oscillator",
+        "LFO",
+        "Sequencer",
+        "Hardware clone",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Sanguine-Aleae",
+      "name": "Sanguine Aleae",
+      "description": "Based on Mutable Instruments Branches",
+      "tags": [
+        "Random",
+        "Dual",
+        "Hardware clone",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sanguine-Nodi",
+      "name": "Sanguine Nodi",
+      "description": "A macro oscillator based on Mutable Instruments Braids",
+      "tags": [
+        "VCO",
+        "Waveshaper",
+        "Hardware clone"
+      ]
+    }
+  ]
+}

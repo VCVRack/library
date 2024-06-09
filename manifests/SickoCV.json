@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.6.10",
+  "version": "2.6.13",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -104,6 +104,15 @@
       ]
     },
     {
+      "slug": "Clocker2",
+      "name": "clocker2",
+      "description": "Clock generator with 6 dividers/multipliers",
+      "tags": [
+        "Clock generator",
+        "Clock modulator"
+      ]
+    },
+    {
       "slug": "CVrouter",
       "name": "cvRouter",
       "description": "1>2 voltage controlled switch",
@@ -182,6 +191,16 @@
       ]
     },
     {
+      "slug": "Enver",
+      "name": "enver",
+      "description": "Envelope generator with stereo VCA",
+      "tags": [
+        "Envelope generator",
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Holder",
       "name": "holder",
       "description": "Sample & Hold or Track & Hold with noise generator, probability and range",
@@ -235,6 +254,24 @@
       "description": "7 unipolar triangle LFOs",
       "tags": [
         "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "MultiSwitcher",
+      "name": "multiSwitcher",
+      "description": "Stereo 8>1 switch",
+      "tags": [
+        "Switch",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MultiRouter",
+      "name": "multiRouter",
+      "description": "Stereo 1>8 router",
+      "tags": [
+        "Switch",
+        "Polyphonic"
       ]
     },
     {
