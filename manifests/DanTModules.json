@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.39",
+  "version": "2.4.40",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -182,6 +182,18 @@
       ],
       "keywords": "neonoblique little pig distortion gain feedback experimental Pig Power Snuffle Grunt Snort Snout Squeal Oink Trotters",
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/neon-oblique/"
+    },
+    {
+      "slug": "TimeLord",
+      "name": "Time Lord",
+      "description": "[24hp][Nu-Metal] Time-based event triggers and gates.",
+      "tags": [
+        "Clock generator",
+        "Sequencer",
+        "Utility"
+      ],
+      "keywords": "time lord timer event triggers gates flip flop toggle clock watch stopwatch",
+      "manualUrl": "https://community.vcvrack.com/t/dant-time-lord/22204"
     }
   ]
 }
