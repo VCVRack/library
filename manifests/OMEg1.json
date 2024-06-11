@@ -1,0 +1,28 @@
+{
+  "slug": "OMEg1",
+  "name": "OME",
+  "version": "2.1.0",
+  "minRackVersion": "2.5.2",
+  "license": "proprietary",
+  "brand": "OME",
+  "author": "Pablo H. Estrada",
+  "authorEmail": "phorestro@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/phestrada/OME/releases/download/2.1.0/OME-Damonitu-2.1.0-Module.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Damonitu",
+      "name": "Damonitu",
+      "description": "Generates arpeggios/melodies/(your noun here) based on euclidean rhythmic patterns and randomizable, or fixed, melodic patterns.",
+      "tags": [
+        "Random",
+        "Sequencer",
+        "Arpeggiator"
+      ]
+    }
+  ]
+}
