@@ -825,3 +825,6 @@
 [submodule "repos/SanguineMutants"]
 	path = repos/SanguineMutants
 	url = https://github.com/Bloodbat/SanguineMutants.git
+[submodule "repos/WavsynModular"]
+	path = repos/WavsynModular
+	url = https://github.com/mogrifier/WavsynModular.git
