@@ -1,6 +1,6 @@
 {
   "slug": "Ahornberg",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "name": "Ahornberg",
   "brand": "Ahornberg",
@@ -120,6 +120,16 @@
       ]
     },
     {
+      "slug": "MoreFunWithFrames",
+      "name": "More Fun with Frames",
+      "description": "advanced utility to enhance Regen Modular Frames",
+      "hidden": true,
+      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#more-fun-with-frames",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
       "slug": "Metronome",
       "name": "Metronome",
       "hidden": false,
@@ -163,6 +173,17 @@
       "tags": [
         "External",
         "MIDI",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "XGlide",
+      "name": "X-Glide",
+      "description": "cross-glide between 2 notes",
+      "hidden": false,
+      "manualUrl": "https://github.com/Ahornberg/Ahornberg-VCV-Modules/blob/master/manuals/README.md#x-glide",
+      "tags": [
         "Polyphonic",
         "Utility"
       ]

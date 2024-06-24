@@ -1,7 +1,7 @@
 {
   "slug": "TMT",
   "name": "T's Musical Tools",
-  "version": "2.1.9",
+  "version": "2.1.10",
   "license": "MIT",
   "brand": "T",
   "author": "T",
@@ -88,7 +88,7 @@
     {
       "slug": "Blankt",
       "name": "Blankt",
-      "description": "A blank T's Musical Tools panel.",
+      "description": "A resizeable blank panel.",
       "tags": []
     },
     {
@@ -96,6 +96,15 @@
       "name": "Sort",
       "description": "A tool to arbitrarily sort and select channels from a polyphonic cable using polyphonic CVs.",
       "tags": []
+    },
+    {
+      "slug": "Spine",
+      "name": "Spine",
+      "description": "A few constant CV offsets I use often.",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
     }
   ]
 }

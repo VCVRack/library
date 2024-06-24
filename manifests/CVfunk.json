@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -69,7 +69,7 @@
     },
     {
       "slug": "HexMod",
-      "name": "HexMod",
+      "name": "Hex Mod",
       "description": "Six phase-related LFOs with rate sync and individual phase reset triggers.",
       "tags": [
         "Low-frequency oscillator",
@@ -139,6 +139,33 @@
       "tags": [
         "Clock generator",
         "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Nona",
+      "name": "Nona",
+      "description": "Nine-channel CV gain/offset utility mixer.",
+      "tags": [
+        "Attenuator",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Decima",
+      "name": "Decima",
+      "description": "Ten-channel gate sequencer with per-step probability.",
+      "tags": [
+        "Sequencer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Morta",
+      "name": "Morta",
+      "description": "Single-knob macro-controller utility with 16 simultaneous outputs in different ranges.",
+      "tags": [
+        "Controller",
+        "Utility"
       ]
     }
   ]

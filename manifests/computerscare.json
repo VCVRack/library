@@ -1,6 +1,6 @@
 {
   "slug": "computerscare",
-  "version": "2.0.1",
+  "version": "2.1.11",
   "name": "computerscare",
   "brand": "computerscare",
   "author": "computerscare",
@@ -103,6 +103,18 @@
     {
       "slug": "computerscare-toly-pools",
       "name": "Toly Pools",
+      "description": "Polyphonic toolset including rotator, number-of-channels selector.  Deprecated: Replaced by Toly Pools v2.",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Attenuator"
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/poly-utilities.md#toly-pools",
+      "hidden": true
+    },
+    {
+      "slug": "computerscare-toly-pools-v2",
+      "name": "Toly Pools v2",
       "description": "Polyphonic toolset including rotator, number-of-channels selector",
       "tags": [
         "Polyphonic",

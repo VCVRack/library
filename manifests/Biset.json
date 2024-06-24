@@ -1,8 +1,8 @@
 {
   "slug": "Biset",
   "name": "Biset",
-  "version": "2.0.12",
-  "license": "MIT",
+  "version": "2.0.13",
+  "license": "GPL-3.0-or-later",
   "brand": "Biset",
   "author": "Biset",
   "authorEmail": "sebastien.huertas@protonmail.com",

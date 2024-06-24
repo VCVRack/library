@@ -1,0 +1,27 @@
+{
+  "slug": "vanTies-dev",
+  "name": "van Ties - dev",
+  "version": "2.4.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "",
+  "author": "Matthias Sars",
+  "authorEmail": "",
+  "authorUrl": "http://www.matthiassars.eu",
+  "pluginUrl": "",
+  "manualUrl": "https://raw.githubusercontent.com/matthiassars/vanTies/main/manual.pdf",
+  "sourceUrl": "https://github.com/matthiassars/vanTies",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Ad",
+      "name": "Ad",
+      "description": "additive oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ],
+      "keywords": "additive"
+    }
+  ]
+}

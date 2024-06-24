@@ -1,7 +1,7 @@
 {
   "slug": "SanguineMutants",
   "name": "Sanguine Modules",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "author": "Bloodbat",
   "pluginUrl": "https://github.com/Bloodbat/SanguineMutants",
@@ -13,7 +13,7 @@
     {
       "slug": "Funes",
       "name": "Funes",
-      "description": "Based on Mutable Instruments Plaits 1.2",
+      "description": "Based on Mutable Instruments' Plaits 1.2",
       "tags": [
         "Oscillator",
         "Hardware clone",
@@ -32,7 +32,7 @@
     {
       "slug": "Sanguine-Apices",
       "name": "Sanguine Apices",
-      "description": "Based on Mutable Instruments Peaks",
+      "description": "Based on Mutable Instruments' Peaks",
       "tags": [
         "Drum",
         "Envelope generator",
@@ -46,7 +46,7 @@
     {
       "slug": "Sanguine-Aleae",
       "name": "Sanguine Aleae",
-      "description": "Based on Mutable Instruments Branches",
+      "description": "Based on Mutable Instruments' Branches",
       "tags": [
         "Random",
         "Dual",
@@ -57,11 +57,55 @@
     {
       "slug": "Sanguine-Nodi",
       "name": "Sanguine Nodi",
-      "description": "A macro oscillator based on Mutable Instruments Braids",
+      "description": "A macro oscillator based on Mutable Instruments' Braids",
       "tags": [
         "VCO",
         "Waveshaper",
         "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Sanguine-Contextus",
+      "name": "Sanguine Contextus",
+      "description": "A macro oscillator based on the Reinassance alternative firmware for Braids",
+      "tags": [
+        "VCO",
+        "Waveshaper",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Sanguine-Nebulae",
+      "name": "Sanguine Nebulae",
+      "description": "A texture synthesizer based on Audible Instruments' Clouds'",
+      "tags": [
+        "Granular",
+        "Reverb",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Sanguine-Etesia",
+      "name": "Sanguine Etesia",
+      "description": "A texture synthesizer based on the Clouds Parasite",
+      "tags": [
+        "Granular",
+        "Reverb",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Sanguine-Mortuus",
+      "name": "Sanguine Mortuus",
+      "description": "Based on the Dead Man's Catch alternative firmware for Peaks'",
+      "tags": [
+        "Drum",
+        "Envelope generator",
+        "Oscillator",
+        "LFO",
+        "Sequencer",
+        "Hardware clone",
+        "Dual"
       ]
     }
   ]

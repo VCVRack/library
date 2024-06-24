@@ -1,0 +1,36 @@
+{
+  "slug": "WavsynModular",
+  "name": "WavsynModular",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "WavsynModular",
+  "author": "Erich Izdepski",
+  "authorEmail": "wavsyn@gmail.com",
+  "authorUrl": "https://erichizdepski.wordpress.com",
+  "pluginUrl": "https://library.vcvrack.com/?brand=WavsynModular",
+  "manualUrl": "https://erichizdepski.wordpress.com/wavsynmodular",
+  "sourceUrl": "https://github.com/mogrifier/wavsynmodular",
+  "donateUrl": "https://patreon.com/WavsynModular",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Pleats",
+      "name": "Pleats",
+      "description": "Wavefolder with CV controls",
+      "manualUrl": "https://erichizdepski.wordpress.com/wavsynmodular-manual",
+      "tags": [
+        "Waveshaper",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Strange",
+      "name": "Strange",
+      "description": "Chaotic dual-channel CV and Sample & Hold generator",
+      "manualUrl": "https://erichizdepski.wordpress.com/wavsynmodular-manual",
+      "tags": [
+        "sample and hold"
+      ]
+    }
+  ]
+}
