@@ -828,3 +828,6 @@
 [submodule "repos/WavsynModular"]
 	path = repos/WavsynModular
 	url = https://github.com/mogrifier/WavsynModular.git
+[submodule "repos/Hutara"]
+	path = repos/Hutara
+	url = https://github.com/hutara/Hutara-modules.git
