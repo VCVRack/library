@@ -1,0 +1,36 @@
+{
+  "slug": "Hutara",
+  "name": "Hutara",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Hutara",
+  "author": "Hutara",
+  "authorEmail": "hutaraa@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/hutara/Hutara-modules",
+  "manualUrl": "https://github.com/hutara/Hutara-modules",
+  "sourceUrl": "https://github.com/hutara/Hutara-modules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "FmOperator",
+      "name": "Hutara PsyOperator",
+      "description": "Psychedelic Synthesizer,VCO with FM Synthesis, Resample and Waveshaper ",
+      "manualUrl": "https://github.com/hutara/Hutara-modules",
+      "tags": [
+        "vco",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Hutara_Random_CV",
+      "name": "Hutara Random",
+      "description": "Sample&Hold and Random Gate",
+      "tags": [
+        "Random",
+        "Sample and hold"
+      ]
+    }
+  ]
+}

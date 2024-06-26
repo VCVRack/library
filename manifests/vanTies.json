@@ -1,7 +1,7 @@
 {
   "slug": "vanTies",
   "name": "van Ties",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "Matthias Sars",
@@ -9,7 +9,7 @@
   "authorUrl": "http://www.matthiassars.eu",
   "pluginUrl": "",
   "manualUrl": "https://raw.githubusercontent.com/matthiassars/vanTies/main/manual.pdf",
-  "sourceUrl": "",
+  "sourceUrl": "https://github.com/matthiassars/vanTies",
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
