@@ -1,7 +1,7 @@
 {
   "slug": "OMEg1",
   "name": "OME",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "minRackVersion": "2.5.2",
   "license": "proprietary",
   "brand": "OME",
@@ -9,7 +9,7 @@
   "authorEmail": "phorestro@gmail.com",
   "authorUrl": "",
   "pluginUrl": "",
-  "manualUrl": "https://github.com/phestrada/OME/releases/download/2.1.0/OME-Damonitu-2.1.0-Module.pdf",
+  "manualUrl": "https://github.com/phestrada/OME",
   "sourceUrl": "",
   "donateUrl": "",
   "changelogUrl": "",
@@ -22,6 +22,15 @@
         "Random",
         "Sequencer",
         "Arpeggiator"
+      ]
+    },
+    {
+      "slug": "Tezca",
+      "name": "Tezca",
+      "description": "Generates chord progressions using a simplistic approach of the Bart\u00f3k axis system.",
+      "tags": [
+        "Random",
+        "Sequencer"
       ]
     }
   ]
