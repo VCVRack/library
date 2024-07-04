@@ -1,7 +1,7 @@
 {
   "slug": "PathSet-GlassShard",
   "name": "Path Set: Glass Shard",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "https://vcvrack.com/eula",
   "brand": "Path Set",
   "author": "Andrew Hanson",
@@ -11,6 +11,7 @@
   "manualUrl": "https://github.com/patheros/PathSetManuals",
   "sourceUrl": "",
   "donateUrl": "",
+  "changelogUrl": "https://github.com/patheros/PathSetManuals/blob/main/changelogs/GlassShardChangelog.md",
   "modules": [
     {
       "slug": "GlassShard",
