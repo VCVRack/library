@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.40",
+  "version": "2.4.41",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -193,7 +193,23 @@
         "Utility"
       ],
       "keywords": "time lord timer event triggers gates flip flop toggle clock watch stopwatch",
-      "manualUrl": "https://community.vcvrack.com/t/dant-time-lord/22204"
+      "manualUrl": "https://community.vcvrack.com/t/dant-time-lord/"
+    },
+    {
+      "slug": "CharlieFoxtrot",
+      "name": "Charlie Foxtrot",
+      "description": "[28hp][Nu-Metal] An 8-channel polyphonic VCA + slew + envelope + clock counter & pass-through mess of a module!",
+      "tags": [
+        "Clock modulator",
+        "Envelope generator",
+        "Polyphonic",
+        "Sequencer",
+        "Slew limiter",
+        "Utility",
+        "Voltage-controlled amplifier"
+      ],
+      "keywords": "charlie foxtrot cluster funk VCA slew counter rise fall",
+      "manualUrl": "https://community.vcvrack.com/t/dant-charlie-foxtrot/"
     }
   ]
 }
