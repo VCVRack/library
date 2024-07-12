@@ -1,18 +1,18 @@
 {
   "slug": "OMEg1",
   "name": "OME",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "minRackVersion": "2.5.2",
   "license": "proprietary",
   "brand": "OME",
   "author": "Pablo H. Estrada",
   "authorEmail": "phorestro@gmail.com",
-  "authorUrl": "",
+  "authorUrl": "https://www.youtube.com/@phorestro",
   "pluginUrl": "",
   "manualUrl": "https://github.com/phestrada/OME",
   "sourceUrl": "",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/phestrada/OME",
   "modules": [
     {
       "slug": "Damonitu",
@@ -31,6 +31,15 @@
       "tags": [
         "Random",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Masino",
+      "name": "Masino",
+      "description": "Yet another arpeggiator with useful features.",
+      "tags": [
+        "Arpeggiator",
+        "Random"
       ]
     }
   ]
