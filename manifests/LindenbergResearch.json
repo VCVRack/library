@@ -1,7 +1,7 @@
 {
   "slug": "LindenbergResearch",
   "name": "LindenbergResearch",
-  "version": "1.3.3",
+  "version": "2.1.0",
   "license": "proprietary",
   "author": "Lindenberg Research",
   "authorEmail": "heapdump@icloud.com",
@@ -11,8 +11,8 @@
   "modules": [
     {
       "slug": "VCO",
-      "name": "Woldemar analog VCO",
-      "description": "Analog oscillator",
+      "name": "Woldemar Analog VCO",
+      "description": "Classic Analog Oscillator",
       "tags": [
         "OSCILLATOR",
         "Polyphonic"
@@ -21,15 +21,33 @@
     {
       "slug": "Noiser",
       "name": "NO!ZER Probability Emitter",
-      "description": "Variable noise and random generator",
+      "description": "Dynamic Noise and Random Generator",
       "tags": [
-        "OSCILLATOR"
+        "OSCILLATOR",
+        "FILTER"
+      ]
+    },
+    {
+      "slug": "VCLowPassUnit",
+      "name": "24dB/oct Ladder LP Filter",
+      "description": "Classic 24dB/oct Ladder-Filter.",
+      "tags": [
+        "TOOL"
+      ]
+    },
+    {
+      "slug": "TubePreamp",
+      "name": "Vacuum Tube Preamp",
+      "description": "Vacuum Tube Preamp",
+      "tags": [
+        "Amp",
+        "Tube"
       ]
     },
     {
       "slug": "MicroWolde",
-      "name": "Compact Woldemar analog VCO",
-      "description": "Analog oscillator",
+      "name": "Compact Woldemar",
+      "description": "Classic Analog Oscillator as Compact Format",
       "tags": [
         "OSCILLATOR",
         "Polyphonic"
@@ -37,8 +55,8 @@
     },
     {
       "slug": "TYPE35_VCF",
-      "name": "Vampyr type35 VCF",
-      "description": "Sallen-Key type dual filter: Lowpass: 12dB/oct Highpass: 6dB/oct",
+      "name": "Sally Type35/MS10 VCF",
+      "description": "Sallen-Key Dual Filter: Lowpass: 12dB/oct Highpass: 6dB/oct",
       "tags": [
         "FILTER"
       ]
@@ -46,7 +64,7 @@
     {
       "slug": "Neo",
       "name": "Neo Filter",
-      "description": "Neo distortion filter",
+      "description": "New Filter-Model based on the Design of the Classic Ladder-Filter",
       "tags": [
         "FILTER",
         "Polyphonic"
@@ -55,7 +73,7 @@
     {
       "slug": "DIODE_VCF",
       "name": "Laika Diode-Ladder Filter",
-      "description": "Classic diode driven ladder filter with 12/dB/oct",
+      "description": "Classic Diode-Ladder Filter with 12dB/oct",
       "tags": [
         "FILTER"
       ]
@@ -63,7 +81,7 @@
     {
       "slug": "BlankPanel_01",
       "name": "Blank: Logo",
-      "description": "Blank panel with Logo and Information",
+      "description": "Blank About Panel",
       "tags": [
         "BLANK"
       ]
@@ -71,39 +89,47 @@
     {
       "slug": "BlankPanel_Wood",
       "name": "Blank: Wood-Panel",
-      "description": "Wooden side panel",
+      "description": "Wooden Side Panel",
+      "tags": [
+        "BLANK"
+      ]
+    },
+    {
+      "slug": "BlankPanel_Wood2",
+      "name": "Blank: Bright Wood-Panel",
+      "description": "Wooden Side Panel with Bright Wood",
       "tags": [
         "BLANK"
       ]
     },
     {
       "slug": "LPFilter24dB",
-      "name": "Simple lowpass filter",
-      "description": "Simple ladder style filter with 24dB7oct",
+      "name": "Simple Lowpass Filter",
+      "description": "Simple Ladder-Filter with 24dB/oct",
       "tags": [
         "FILTER"
       ]
     },
     {
       "slug": "ReShaper",
-      "name": "ReShaper wavefolder",
-      "description": "Simple wavefolder module",
+      "name": "ReShaper Wave-Shaper",
+      "description": "Simple but interesting Wave-Shaper",
       "tags": [
         "WAVESHAPER"
       ]
     },
     {
       "slug": "BlankPanel_02",
-      "name": "Big Blankpanel",
-      "description": "Big Blankpanel",
+      "name": "Big Blank-Panel",
+      "description": "Big Sized Blank",
       "tags": [
         "BLANK"
       ]
     },
     {
       "slug": "BlankPanel_Small",
-      "name": "Blankpanel | Multiple",
-      "description": "Small blankpanel extendable to a 2x4 multiple",
+      "name": "Blank-Panel | Multiple",
+      "description": "Small sized Blank - Extendable to a 2x4 Multiple",
       "tags": [
         "BLANK",
         "MULTIPLE"
@@ -111,8 +137,8 @@
     },
     {
       "slug": "PolyStereo",
-      "name": "Stereo via polyphonic tool",
-      "description": "Converts a stereo signal to poly and vice versa",
+      "name": "Stereo via Polyphonic Tool",
+      "description": "Converts a Stereo Signal to Poly and Vice Versa",
       "tags": [
         "TOOL",
         "Polyphonic"
@@ -120,24 +146,24 @@
     },
     {
       "slug": "VCSpread",
-      "name": "Voltage Controlled Signal Spread",
-      "description": "Takes and input signal and generates n- shifted output signals via poly out",
+      "name": "Voltage Controlled Signal Spreader",
+      "description": "Spread an Input Signal to N-Poly Signals",
       "tags": [
         "TOOL"
       ]
     },
     {
       "slug": "VCF",
-      "name": "Alma 24dB/oct ladder filter",
-      "description": "Alma 24dB/oct lowpass ladder filter",
+      "name": "Alma 24dB/oct Ladder-Filter",
+      "description": "Classic 24dB/oct Ladder-Filter with Saturation",
       "tags": [
         "FILTER"
       ]
     },
     {
       "slug": "MS20_VCF",
-      "name": "Valerie MS20 filter",
-      "description": "Valerie MS20 type 12dB/oct lowpass filter",
+      "name": "Valerie MS20 Filter",
+      "description": "Valerie MS20 Style 12dB/oct Sallen-Key Lowpass-Filter",
       "tags": [
         "FILTER"
       ]
@@ -145,24 +171,33 @@
     {
       "slug": "Westcoast_VCS",
       "name": "Westcoast Complex Shaper",
-      "description": "Westcoast waveshaper with different modes",
+      "description": "A Waveshaper with a lot of Models",
       "tags": [
         "WAVESHAPER"
       ]
     },
     {
       "slug": "QuickMixer",
-      "name": "5 Channel Mixing Amp",
-      "description": "Voltage controlled 5 channel mixer amp with dynamic amp curve",
+      "name": "Simple Mixer/VCA",
+      "description": "A Voltage Controlled 5-Channel Mixer/VCA with Dynamic Amp-Shape",
       "tags": [
         "MIXER",
         "VCA"
       ]
     },
     {
+      "slug": "Voltages",
+      "name": "Test Voltage Source",
+      "description": "A Precise Voltage-Source with Display.",
+      "tags": [
+        "STATIC",
+        "GENERATOR"
+      ]
+    },
+    {
       "slug": "Sangster",
       "name": "Sangster BBD Analog Delay",
-      "description": "Voltage controlled BBD Analog time repeater",
+      "description": "Voltage Controlled BBD-Style Analog Delay with Distortion",
       "tags": [
         "DELAY",
         "EFFECT",
