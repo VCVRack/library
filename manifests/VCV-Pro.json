@@ -1,7 +1,7 @@
 {
   "slug": "VCV-Pro",
   "name": "VCV Pro",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "license": "proprietary",
   "brand": "VCV",
   "author": "VCV",
@@ -63,6 +63,17 @@
       "manualUrl": "https://vcvrack.com/Pro#Convolver",
       "tags": [
         "Reverb",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Compressor",
+      "name": "Compressor",
+      "description": "Stereo dynamic range compressor with 6 DSP models and sidechain",
+      "manualUrl": "https://vcvrack.com/Pro#Compressor",
+      "tags": [
+        "Compressor",
+        "Dynamics",
         "Effect"
       ]
     }

@@ -12447,7 +12447,7 @@
     }
   },
   "VCV-Pro": {
-    "buildTimestamp": 1691974038.2598798,
+    "buildTimestamp": 1721278178.1114337,
     "creationTimestamp": 1665388302.4371305,
     "modules": {
       "Chorus": {
@@ -12464,6 +12464,9 @@
       },
       "Convolver": {
         "creationTimestamp": 1672487567.364354
+      },
+      "Compressor": {
+        "creationTimestamp": 1721278178.3451834
       }
     }
   },
