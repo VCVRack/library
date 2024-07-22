@@ -1,7 +1,7 @@
 {
   "slug": "BaconMusic",
   "name": "Bacon Music",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "license": "GPL-3.0-or-later",
   "author": "@baconpaul",
   "authorEmail": "",
@@ -164,6 +164,14 @@
       "description": "BaconPaul's Test Widgets",
       "tags": [],
       "hidden": true
+    },
+    {
+      "slug": "PleaseQuit",
+      "name": "PleaseQuit",
+      "description": "Send me a trigger to quit rack",
+      "tags": [
+        "Utility"
+      ]
     }
   ]
 }
