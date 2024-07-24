@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.41",
+  "version": "2.4.42",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -120,7 +120,7 @@
     {
       "slug": "PolySplice",
       "name": "PolySplice",
-      "description": "[7hp][Nu-Metal] Polyphonic switch with up to 5 seconds slew.",
+      "description": "[7hp] Polyphonic switch with up to 5 seconds slew.",
       "tags": [
         "Mixer",
         "Polyphonic",
@@ -133,7 +133,7 @@
     {
       "slug": "Kalkatron",
       "name": "Kalkatron",
-      "description": "[26hp][Nu-Metal] Utility module that can track a signal and perform basic maths operations upon it.",
+      "description": "[26hp] Utility module that can track a signal and perform basic maths operations upon it.",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -144,7 +144,7 @@
     {
       "slug": "Purfenator",
       "name": "Purfenator",
-      "description": "[4hp][Nu-Metal] Utility module to create visual backdrops for nice video visuals, a la Purf.",
+      "description": "[4hp] Utility module to create visual backdrops for nice video visuals, a la Purf.",
       "tags": [
         "Utility",
         "Visual"
@@ -155,7 +155,7 @@
     {
       "slug": "SeizureTrigger",
       "name": "Seizure Trigger [Purfenator Expander]",
-      "description": "[3hp][Nu-Metal] Enables CV control of the Purfenator parameters. Excessive modulation is highly discouraged.",
+      "description": "[3hp] Enables CV control of the Purfenator parameters. Excessive modulation is highly discouraged.",
       "tags": [
         "Expander"
       ],
@@ -164,7 +164,7 @@
     {
       "slug": "MoarCowbell",
       "name": "MOAR COWBELL!",
-      "description": "[17hp][Neon-Oblique] Experimental cowbell.",
+      "description": "[17hp] Experimental cowbell.",
       "tags": [
         "Drum",
         "Physical modeling"
@@ -175,7 +175,7 @@
     {
       "slug": "LittlePig",
       "name": "Little Pig",
-      "description": "[21hp][Neon-Oblique] Experimental feedback distortion.",
+      "description": "[21hp] Experimental feedback distortion.",
       "tags": [
         "Distortion",
         "Effect"
@@ -186,7 +186,7 @@
     {
       "slug": "TimeLord",
       "name": "Time Lord",
-      "description": "[24hp][Nu-Metal] Time-based event triggers and gates.",
+      "description": "[24hp] Time-based event triggers and gates.",
       "tags": [
         "Clock generator",
         "Sequencer",
@@ -198,7 +198,7 @@
     {
       "slug": "CharlieFoxtrot",
       "name": "Charlie Foxtrot",
-      "description": "[28hp][Nu-Metal] An 8-channel polyphonic VCA + slew + envelope + clock counter & pass-through mess of a module!",
+      "description": "[28hp] An 8-channel polyphonic VCA + slew + envelope + clock counter & pass-through mess of a module!",
       "tags": [
         "Clock modulator",
         "Envelope generator",
