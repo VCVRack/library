@@ -1,7 +1,7 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
@@ -74,34 +74,50 @@
     {
       "slug": "Memory",
       "name": "Memory",
-      "description": "The root part of a Memory system. This is what Ruminate reads and Embellish writes to.",
+      "description": "The root part of a Memory Ensemble. What Fixation and Ruminate reads, Embellish writes to and Depict displays.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#memory",
-      "tags": []
+      "tags": [
+        "Recording",
+        "Sampler"
+      ]
     },
     {
       "slug": "Ruminate",
       "name": "Ruminate",
-      "description": "A playback head within a Memory system of modules.",
+      "description": "A playback head within a Memory Ensemble that plays the entire Memory.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#ruminate",
       "tags": [
         "Delay",
-        "Expander"
+        "Expander",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "Fixation",
+      "name": "Fixation",
+      "description": "Playback head with a Memory Ensemble that repeatedly plays a short part of the Memory.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#fixation",
+      "tags": [
+        "Delay",
+        "Expander",
+        "Sampler"
       ]
     },
     {
       "slug": "Embellish",
       "name": "Embellish",
-      "description": "A recording and playback head for a Memory system of modules.",
+      "description": "A recording and playback head for a Memory Ensemble.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#embellish",
       "tags": [
         "Expander",
-        "Recording"
+        "Recording",
+        "Sampler"
       ]
     },
     {
       "slug": "Depict",
       "name": "Depict",
-      "description": "Visualizes activity of other modules within a Memory system.",
+      "description": "Visualizes activity of other modules within a Memory Ensemble.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#depict",
       "tags": [
         "Expander",

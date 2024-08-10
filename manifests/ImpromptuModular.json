@@ -1,7 +1,7 @@
 {
   "slug": "ImpromptuModular",
   "name": "Impromptu",
-  "version": "2.4.3",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "author": "Marc Boul\u00e9",
   "brand": "Impromptu",
@@ -160,10 +160,31 @@
       "slug": "NoteEcho",
       "name": "NoteEcho",
       "description": "CV/Gate-based delay",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#note-echo",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#note-echo-loop-filter",
       "tags": [
         "Sample and hold",
-        "Delay"
+        "Delay",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "NoteFilter",
+      "name": "NoteFilter",
+      "description": "Eliminates polyphony of identical overlapping notes",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#note-echo-loop-filter",
+      "tags": [
+        "Sample and hold",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "NoteLoop",
+      "name": "NoteLoop",
+      "description": "CV/Gate-based looper",
+      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#note-echo-loop-filter",
+      "tags": [
+        "Sample and hold",
+        "Polyphonic"
       ]
     },
     {
@@ -214,17 +235,6 @@
         "Random",
         "Polyphonic"
       ]
-    },
-    {
-      "slug": "Semi-ModularSynth",
-      "name": "SMS16",
-      "description": "Semi-modular monophonic synthesizer, with 16-step sequencer",
-      "manualUrl": "https://marcboule.github.io/ImpromptuModular/#sms-16",
-      "tags": [
-        "Synth voice",
-        "Sequencer"
-      ],
-      "hidden": true
     },
     {
       "slug": "Sygen",

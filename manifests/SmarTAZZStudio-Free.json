@@ -1,7 +1,7 @@
 {
   "slug": "SmarTAZZStudio-Free",
   "name": "Sm@rTAZZ Studio Free",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sm@rTAZZ Studio",
   "author": "Marinko Laban",
@@ -101,6 +101,15 @@
       "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Ticker.html",
       "tags": [
         "Clock"
+      ]
+    },
+    {
+      "slug": "Spiquencer",
+      "name": "Spiquencer",
+      "description": "Sequencer based on a triangular spike board where you drop a marble in",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Spiquencer.html",
+      "tags": [
+        "Sequencer"
       ]
     }
   ]
