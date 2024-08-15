@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.42",
+  "version": "2.4.43",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -9,7 +9,7 @@
   "authorUrl": "https://www.youtube.com/@MiffReal",
   "pluginUrl": "https://library.vcvrack.com/DanTModules",
   "manualUrl": "https://miff-real.github.io/DanTModules-Manual/",
-  "changelogUrl": "https://github.com/Miff-Real/DanTModules-Manual/discussions",
+  "changelogUrl": "https://community.vcvrack.com/t/dantmodules-new-releases-thread/",
   "donateUrl": "https://ko-fi.com/dantsynth",
   "modules": [
     {
@@ -44,7 +44,7 @@
         "Switch"
       ],
       "keywords": "splice five switch sequential window",
-      "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/5splice/"
+      "manualUrl": "https://community.vcvrack.com/t/dant-5splice/"
     },
     {
       "slug": "PKorre",
