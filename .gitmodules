@@ -831,3 +831,6 @@
 [submodule "repos/Hutara"]
 	path = repos/Hutara
 	url = https://github.com/hutara/Hutara-modules.git
+[submodule "repos/gwrthiant"]
+	path = repos/gwrthiant
+	url = https://github.com/dustractor/gwrthiant.git
