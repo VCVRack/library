@@ -834,3 +834,6 @@
 [submodule "repos/gwrthiant"]
 	path = repos/gwrthiant
 	url = https://github.com/dustractor/gwrthiant.git
+[submodule "repos/Cella"]
+	path = repos/Cella
+	url = https://github.com/victorkashirin/CellaVCV.git
