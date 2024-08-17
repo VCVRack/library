@@ -1,0 +1,36 @@
+{
+  "slug": "Cella",
+  "name": "Cella",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Cella",
+  "author": "Victor Kashirin",
+  "authorEmail": "kashirin.victor@gmail.com",
+  "authorUrl": "https://victorkashirin.com/",
+  "pluginUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/README.md",
+  "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.pdf",
+  "sourceUrl": "https://github.com/victorkashirin/CellaVCV",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Euler",
+      "name": "Euler",
+      "description": "Calculates slope of the incoming signal",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Bezier",
+      "name": "Bezier",
+      "description": "Smooth random voltage generator using Bezier curves",
+      "tags": [
+        "Utility",
+        "LFO",
+        "Random",
+        "Slew limiter"
+      ]
+    }
+  ]
+}

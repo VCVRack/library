@@ -1,0 +1,65 @@
+{
+  "slug": "gwrthiant",
+  "name": "Gwrthiant",
+  "version": "2.0.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "Gwrthiant",
+  "author": "dustractor",
+  "authorEmail": "dustractor@gmail.com",
+  "authorUrl": "https://randomalt.pythonanywhere.com/",
+  "pluginUrl": "https://github.com/dustractor/gwrthiant",
+  "manualUrl": "https://github.com/dustractor/gwrthiant",
+  "sourceUrl": "https://github.com/dustractor/gwrthiant",
+  "donateUrl": "https://www.paypal.com/ncp/payment/G779FYE3A2JLG",
+  "changelogUrl": "https://github.com/dustractor/gwrthiant",
+  "modules": [
+    {
+      "slug": "pysgota",
+      "name": "Pysgota",
+      "description": "Generates a range of polyphonic values based on sin() function.",
+      "tags": [
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "gwreiddyn",
+      "name": "Gwreiddyn",
+      "description": "Convert v/oct to quantizer root input.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "clwyd",
+      "name": "Clwyd",
+      "description": "16 polyphonic shiftable gates based on binary representation of a value.",
+      "tags": [
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "patrwm",
+      "name": "Patrwm",
+      "description": "Translate v/oct signals into HexSeqP2 pattern-selection cv.",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "nilyniant",
+      "name": "Nilyniant",
+      "description": "Transform note voltages to control sequence number input for various impromptu sequencers.",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "graddfa",
+      "name": "Graddfa",
+      "description": "Convert notes into values for selecting modes of Bidoo Dikt@t.",
+      "tags": [
+        "utility"
+      ]
+    }
+  ]
+}

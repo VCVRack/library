@@ -1,12 +1,12 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.4.7",
+  "version": "2.4.8",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
   "authorEmail": "cosinekitty@gmail.com",
-  "authorUrl": "https://github.com/cosinekitty/sapphire",
+  "authorUrl": "https://www.youtube.com/@CosineKitty",
   "pluginUrl": "https://github.com/cosinekitty/sapphire",
   "manualUrl": "https://github.com/cosinekitty/sapphire",
   "sourceUrl": "https://github.com/cosinekitty/sapphire",
@@ -83,6 +83,14 @@
         "Effect",
         "Filter",
         "Reverb"
+      ]
+    },
+    {
+      "slug": "Pivot",
+      "name": "Pivot",
+      "description": "Rotates a 3D vector around axis-cycling vector (1,1,1).",
+      "tags": [
+        "Utility"
       ]
     },
     {
