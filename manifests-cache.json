@@ -14008,5 +14008,14 @@
         "creationTimestamp": 1723919612.6448503
       }
     }
+  },
+  "VCV-Pluck": {
+    "buildTimestamp": 1724231959.4576209,
+    "creationTimestamp": 1724231959.5673838,
+    "modules": {
+      "Pluck": {
+        "creationTimestamp": 1724231959.6220906
+      }
+    }
   }
 }

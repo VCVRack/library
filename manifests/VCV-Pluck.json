@@ -1,0 +1,25 @@
+{
+  "slug": "VCV-Pluck",
+  "name": "VCV Pluck",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "VCV",
+  "author": "VCV",
+  "authorEmail": "support@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://vcvrack.com/Pluck",
+  "manualUrl": "https://vcvrack.com/Pluck#manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "https://vcvrack.com/Drums#changelog",
+  "modules": [
+    {
+      "slug": "Pluck",
+      "name": "Pluck",
+      "description": "",
+      "tags": [
+        "Physical modeling"
+      ]
+    }
+  ]
+}
