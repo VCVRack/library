@@ -1,7 +1,7 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.4.8",
+  "version": "2.4.9",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
@@ -105,9 +105,27 @@
       ]
     },
     {
+      "slug": "Pop",
+      "name": "Pop",
+      "description": "A trigger generator based on the statistics of radioactive decay.",
+      "tags": [
+        "Noise",
+        "Polyphonic",
+        "Random"
+      ]
+    },
+    {
       "slug": "Rotini",
       "name": "Rotini",
       "description": "Takes the 3D vector cross product of a pair of 3D vectors.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SplitAddMerge",
+      "name": "Split/Add/Merge",
+      "description": "Splits, adds, and/or merges stereo or 3D vector signals.",
       "tags": [
         "Utility"
       ]

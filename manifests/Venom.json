@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.8.0",
+  "version": "2.9.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -10,7 +10,7 @@
   "pluginUrl": "https://github.com/DaveBenham/VenomModules",
   "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md",
   "sourceUrl": "https://github.com/DaveBenham/VenomModules",
-  "donateUrl": "",
+  "donateUrl": "https://paypal.me/DaveBenhamMusic",
   "changelogUrl": "https://github.com/DaveBenham/VenomModules/blob/main/changelog.md",
   "modules": [
     {
@@ -64,6 +64,24 @@
         "Oscillator",
         "Random",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "BenjolinGatesExpander",
+      "name": "Benjolin Gates Expander",
+      "description": "Adds additional Rungler gate outputs to the Benjolin Oscillator",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#benjolin-gates-expander",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "BenjolinVoltsExpander",
+      "name": "Benjolin Volts Expander",
+      "description": "Adds additional Rungler CV outputs to the Benjolin Oscillator",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#benjolin-volts-expander",
+      "tags": [
+        "Expander"
       ]
     },
     {
@@ -457,6 +475,18 @@
       ]
     },
     {
+      "slug": "Thru",
+      "name": "Thru",
+      "description": "5 polyphonic input/output pairs suitable for stacked input unity mixes and/or introduction of sample delays",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#thru",
+      "tags": [
+        "Delay",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
       "slug": "VCAMix4",
       "name": "VCA Mix 4",
       "description": "Compact audio or CV VCA, mixer, attenuator, inverter, amplifier, and/or offset",
@@ -488,7 +518,7 @@
       "slug": "Oscillator",
       "name": "VCO Lab",
       "description": "Audio or low frequency oscillator with 4 simultaneous waveforms, mixing, linear/exponential FM, phase modulation, hard/soft sync, PWM, and more",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#oscillator",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#vco-lab",
       "tags": [
         "Function generator",
         "Low-frequency oscillator",
