@@ -567,7 +567,7 @@
     }
   },
   "Synthetic": {
-    "buildTimestamp": 1641207509.4708278,
+    "buildTimestamp": 1725052933.848709,
     "creationTimestamp": 1565726934.0,
     "modules": {
       "Eastside": {
@@ -7477,7 +7477,7 @@
     }
   },
   "DrumKitPro": {
-    "buildTimestamp": 1641207507.3774369,
+    "buildTimestamp": 1725052934.5787039,
     "creationTimestamp": 1571891042.0,
     "modules": {
       "Kick": {
@@ -8468,7 +8468,7 @@
     }
   },
   "SyntheticFX": {
-    "buildTimestamp": 1641245877.2945688,
+    "buildTimestamp": 1725052932.3487196,
     "creationTimestamp": 1573352765.0,
     "modules": {
       "FourPoleLadder": {

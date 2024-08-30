@@ -1,7 +1,7 @@
 {
   "slug": "DrumKitPro",
   "name": "DrumKit Pro",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "proprietary",
   "author": "Jerry Sievert",
   "brand": "SV Modular",
@@ -16,7 +16,8 @@
       "description": "DrumKit Pro Kick+",
       "tags": [
         "Drum"
-      ]
+      ],
+      "manual": "https://svmodular.com/downloads/vcv-rack//drumkit-pro/Kick.pdf"
     },
     {
       "slug": "Snare",
@@ -24,7 +25,8 @@
       "description": "DrumKit Pro Snare+",
       "tags": [
         "Drum"
-      ]
+      ],
+      "manual": "https://svmodular.com/downloads/vcv-rack//drumkit-pro/Snare.pdf"
     },
     {
       "slug": "HiHat",
@@ -32,7 +34,8 @@
       "description": "DrumKit Pro HiHat+",
       "tags": [
         "Drum"
-      ]
+      ],
+      "manual": "https://svmodular.com/downloads/vcv-rack//drumkit-pro/HiHat.pdf"
     },
     {
       "slug": "Tom",
@@ -40,7 +43,8 @@
       "description": "DrumKit Pro Tom+",
       "tags": [
         "Drum"
-      ]
+      ],
+      "manual": "https://svmodular.com/downloads/vcv-rack//drumkit-pro/Tom.pdf"
     },
     {
       "slug": "EDrum",
@@ -48,7 +52,8 @@
       "description": "DrumKit Pro E-Drum",
       "tags": [
         "Drum"
-      ]
+      ],
+      "manual": "https://svmodular.com/downloads/vcv-rack//drumkit-pro/EDrum.pdf"
     },
     {
       "slug": "Tek",
@@ -56,7 +61,8 @@
       "description": "DrumKit Pro Tek",
       "tags": [
         "Drum"
-      ]
+      ],
+      "manual": "https://svmodular.com/downloads/vcv-rack//drumkit-pro/Tek.pdf"
     },
     {
       "slug": "MarionetteBass",
@@ -64,15 +70,17 @@
       "description": "DrumKit Pro Marionette Bass+",
       "tags": [
         "Drum"
-      ]
+      ],
+      "manual": "https://svmodular.com/downloads/vcv-rack//drumkit-pro/MarionetteBass.pdf"
     },
     {
       "slug": "Bomb",
-      "name": "Marionette Boom",
-      "description": "DrumKit Pro Boom Drum Synthesizer",
+      "name": "Marionette Bomb",
+      "description": "DrumKit Pro Bomb Drum Synthesizer",
       "tags": [
         "Drum"
-      ]
+      ],
+      "manual": "https://svmodular.com/downloads/vcv-rack//drumkit-pro/Bomb.pdf"
     },
     {
       "slug": "Shp",
@@ -80,7 +88,8 @@
       "description": "Envelope Shaper",
       "tags": [
         "Envelope"
-      ]
+      ],
+      "manual": "https://svmodular.com/downloads/vcv-rack//drumkit-pro/Shp.pdf"
     },
     {
       "slug": "Baronial",
@@ -88,7 +97,8 @@
       "description": "DrumKit Pro Baronial+ Envelope Generator",
       "tags": [
         "Envelope"
-      ]
+      ],
+      "manual": "https://svmodular.com/downloads/vcv-rack//drumkit-pro/Baronial.pdf"
     }
   ]
 }
