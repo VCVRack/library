@@ -840,3 +840,6 @@
 [submodule "repos/SanguineMonsters"]
 	path = repos/SanguineMonsters
 	url = https://github.com/Bloodbat/SanguineMonsters.git
+[submodule "repos/PitchGrid"]
+	path = repos/PitchGrid
+	url = https://github.com/peterjungx/PitchGridRack.git
