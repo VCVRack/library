@@ -837,3 +837,6 @@
 [submodule "repos/Cella"]
 	path = repos/Cella
 	url = https://github.com/victorkashirin/CellaVCV.git
+[submodule "repos/SanguineMonsters"]
+	path = repos/SanguineMonsters
+	url = https://github.com/Bloodbat/SanguineMonsters.git
