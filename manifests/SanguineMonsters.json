@@ -1,0 +1,173 @@
+{
+  "slug": "SanguineMonsters",
+  "name": "Sanguine Modules",
+  "version": "2.3.0",
+  "license": "GPL-3.0-or-later",
+  "author": "Bloodbat",
+  "pluginUrl": "https://github.com/Bloodbat/SanguineMonsters",
+  "sourceUrl": "https://github.com/Bloodbat/SanguineMonsters",
+  "description": "Monster modules for your everyday needs.",
+  "changelogUrl": "https://github.com/Bloodbat/SanguineMonsters/blob/main/CHANGELOG.md",
+  "manualUrl": "https://raw.githubusercontent.com/Bloodbat/SanguineModulesManuals/main/monsters_manual.pdf",
+  "modules": [
+    {
+      "slug": "Sanguine-SuperSwitch81",
+      "name": "Hydra",
+      "description": "An 8 to 1 switch/sequencer that can avoid consecutive random repeated values; can be one shot, and can be reset to either no step value or the first step.",
+      "tags": [
+        "Switch",
+        "Random",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sanguine-SuperSwitch18",
+      "name": "Gegenees",
+      "description": "A 1 to 8 switch/sequencer that can avoid consecutive random repeated values; can be one shot, and can be reset to either no step value or the first step.",
+      "tags": [
+        "Switch",
+        "Random",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sanguine-Monsters-Blank",
+      "name": "Sanguine Monsters Blank",
+      "description": "Put a vampire and the Monsters logo on your rack!",
+      "tags": [
+        "Blank",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Sanguine-Monsters-Dolly-X",
+      "name": "Dolly-X",
+      "description": "Dual monophonic to polyphonic channel cloner.",
+      "tags": [
+        "Utility",
+        "Polyphonic",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Sanguine-Monsters-Oraculus",
+      "name": "Oraculus",
+      "description": "n to 1 switch/sequencer that takes a polyphonic cable input.",
+      "tags": [
+        "Utility",
+        "Polyphonic",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Sanguine-Monsters-Raiju",
+      "name": "Raiju",
+      "description": "A flexible, fixed voltage source that can clone its output up to 16 channels and has one channel with a single copy of every selected voltage.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sanguine-Monsters-Sphinx",
+      "name": "Sphinx",
+      "description": "An euclidean sequencer with different modes.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Sanguine-Monsters-Brainz",
+      "name": "Brainz",
+      "description": "A master control center intended to make synchronizing audio and video files from different recorders easier.",
+      "tags": [
+        "Sequencer",
+        "Utility",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Sanguine-Monsters-Bukavac",
+      "name": "Bukavac",
+      "description": "A noise generator with a plethora of colors... and Perlin",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "Sanguine-Monsters-Dungeon",
+      "name": "Dungeon",
+      "description": "A sample and hold, track and hold, hold and track and white noise source.",
+      "tags": [
+        "Noise",
+        "Sample and hold",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Sanguine-Kitsune",
+      "name": "Kitsune",
+      "description": "Attenuate; invert, and offset up to 4 voltages",
+      "tags": [
+        "Attenuator",
+        "Quad",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sanguine-Oubliette",
+      "name": "Oubliette",
+      "description": "A null sink and cable holder for your input and output wires. Also works as a null voltage source.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Sanguine-Medusa",
+      "name": "Medusa",
+      "description": "A normalled, polyphonic mega multiple with 32 inputs and outputs",
+      "tags": [
+        "Multiple",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sanguine-Aion",
+      "name": "Aion",
+      "description": "Four counters that can be advanced by triggers or their internal clock",
+      "tags": [
+        "Quad",
+        "Utility",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Sanguine-Werewolf",
+      "name": "Werewolf",
+      "description": "Dirty stereo distortion",
+      "tags": [
+        "Distortion",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sanguine-Alchemist",
+      "name": "Alchemist",
+      "description": "Mix up to 16 channels from a polyphonic cable to a single monophonic output or a mixed polyphonic cable",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sanguine-Alembic",
+      "name": "Alembic",
+      "description": "An expander for Alchemist providing gain CV control for every channel and individual post-fader channel outputs",
+      "tags": [
+        "Expander"
+      ]
+    }
+  ]
+}
