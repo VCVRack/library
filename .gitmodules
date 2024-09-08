@@ -843,3 +843,6 @@
 [submodule "repos/PitchGrid"]
 	path = repos/PitchGrid
 	url = https://github.com/peterjungx/PitchGridRack.git
+[submodule "repos/NullSet"]
+	path = repos/NullSet
+	url = https://github.com/nicholas-j-denning/NullSet.git
