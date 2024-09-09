@@ -1,7 +1,7 @@
 {
   "slug": "SmarTAZZStudio-Free",
   "name": "Sm@rTAZZ Studio Free",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sm@rTAZZ Studio",
   "author": "Marinko Laban",
@@ -110,6 +110,16 @@
       "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Spiquencer.html",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Harmoblender",
+      "name": "Harmoblender",
+      "description": "VCO that works based on mixing harmonic sine waves",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Harmoblender.html",
+      "tags": [
+        "Polyphonic",
+        "Oscillator"
       ]
     }
   ]

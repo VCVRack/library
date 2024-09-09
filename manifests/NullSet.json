@@ -1,0 +1,81 @@
+{
+  "slug": "NullSet",
+  "name": "Null Set",
+  "version": "2.0.0",
+  "license": "GPL-3.0",
+  "brand": "Null Set",
+  "author": "Nicholas Denning",
+  "authorEmail": "nicholas.j.denning@gmail.com",
+  "authorUrl": "nickdenningcode.com",
+  "pluginUrl": "https://github.com/nicholas-j-denning/NullSet",
+  "manualUrl": "https://github.com/nicholas-j-denning/NullSet",
+  "sourceUrl": "https://github.com/nicholas-j-denning/NullSet",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "QuickMelody",
+      "name": "Quick Melody",
+      "description": "Generate melodies using an aliasing algorithm",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyAutoPan",
+      "name": "Poly Auto Pan",
+      "description": "Pan a polyphonic signal using LFOs with equally spaced phases",
+      "tags": [
+        "Polyphonic",
+        "Panning"
+      ]
+    },
+    {
+      "slug": "WeightedQuantizer",
+      "name": "Weighted Quantizer",
+      "description": "Quantizer with note weights",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolyLFT",
+      "name": "Poly LFT",
+      "description": "Polyphonic triangle LFO with equally spaced phases",
+      "tags": [
+        "LFO",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "16Squared",
+      "name": "16 Squared",
+      "description": "Compact 16 step 16 channel sequencer",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "LabeledPatchbay",
+      "name": "Labeled Patchbay",
+      "description": "Patchbay with labels and attenuverters",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "RomanQuantizer",
+      "name": "Roman Quantizer",
+      "description": "Quantizer based on Roman numeral chord notation",
+      "tags": [
+        "Quantizer",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

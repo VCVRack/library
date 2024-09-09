@@ -1,7 +1,7 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.4.9",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
@@ -17,6 +17,7 @@
       "slug": "Elastika",
       "name": "Elastika",
       "description": "Filters audio through a simulated network of balls and springs.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Elastika.md",
       "tags": [
         "Physical modeling",
         "Effect",
@@ -28,6 +29,7 @@
       "slug": "Frolic",
       "name": "Frolic",
       "description": "Chaotic oscillator based on the Rucklidge Attractor.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Frolic.md",
       "tags": [
         "Physical modeling",
         "Effect",
@@ -38,6 +40,7 @@
       "slug": "Galaxy",
       "name": "Galaxy",
       "description": "An adaptation of the Airwindows Galactic algorithm by Chris Johnson (https://github.com/airwindows).",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Galaxy.md",
       "tags": [
         "Reverb",
         "Effect",
@@ -49,6 +52,7 @@
       "slug": "Glee",
       "name": "Glee",
       "description": "Chaotic oscillator based on the Aizawa Attractor.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Glee.md",
       "tags": [
         "Physical modeling",
         "Effect",
@@ -59,6 +63,7 @@
       "slug": "Hiss",
       "name": "Hiss",
       "description": "Generates directionally unbiased N-dimensional vector noise.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Hiss.md",
       "tags": [
         "Noise",
         "Polyphonic"
@@ -68,6 +73,7 @@
       "slug": "Moots",
       "name": "Moots",
       "description": "Plugs/unplugs polyphonic cables.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Moots.md",
       "tags": [
         "Controller",
         "Switch",
@@ -78,6 +84,7 @@
       "slug": "Nucleus",
       "name": "Nucleus",
       "description": "Simulation of a cloud of particles with mutually attractive, repulsive, and orthogonal forces.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Nucleus.md",
       "tags": [
         "Physical modeling",
         "Effect",
@@ -88,6 +95,7 @@
     {
       "slug": "Pivot",
       "name": "Pivot",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Pivot.md",
       "description": "Rotates a 3D vector around axis-cycling vector (1,1,1).",
       "tags": [
         "Utility"
@@ -97,6 +105,7 @@
       "slug": "Polynucleus",
       "name": "Polynucleus",
       "description": "Simulation of a cloud of particles with mutually attractive, repulsive, and orthogonal forces.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Polynucleus.md",
       "tags": [
         "Physical modeling",
         "Effect",
@@ -108,6 +117,7 @@
       "slug": "Pop",
       "name": "Pop",
       "description": "A trigger generator based on the statistics of radioactive decay.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Pop.md",
       "tags": [
         "Noise",
         "Polyphonic",
@@ -118,6 +128,7 @@
       "slug": "Rotini",
       "name": "Rotini",
       "description": "Takes the 3D vector cross product of a pair of 3D vectors.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Rotini.md",
       "tags": [
         "Utility"
       ]
@@ -126,6 +137,7 @@
       "slug": "SplitAddMerge",
       "name": "Split/Add/Merge",
       "description": "Splits, adds, and/or merges stereo or 3D vector signals.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/SplitAddMerge.md",
       "tags": [
         "Utility"
       ]
@@ -134,6 +146,7 @@
       "slug": "Tin",
       "name": "Tin",
       "description": "Feeds arbitrary input signals into Tricorder.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Tin.md",
       "tags": [
         "Expander",
         "Utility"
@@ -143,6 +156,7 @@
       "slug": "Tout",
       "name": "Tout",
       "description": "Receives vectors from the left just like Tricorder does, then outputs them to ports.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Tout.md",
       "tags": [
         "Expander",
         "Utility"
@@ -152,6 +166,7 @@
       "slug": "Tricorder",
       "name": "Tricorder",
       "description": "3D plotter expander module for Frolic and Tin.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Tricorder.md",
       "tags": [
         "Expander",
         "Visual"
@@ -161,6 +176,7 @@
       "slug": "TubeUnit",
       "name": "Tube Unit",
       "description": "Tubular waveguide synth.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/TubeUnit.md",
       "tags": [
         "Physical modeling",
         "Effect",
