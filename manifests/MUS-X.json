@@ -1,7 +1,7 @@
 {
   "slug": "MUS-X",
   "name": "MUS-X",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "MUS-X",
   "author": "Dr. Johannes Rauch",
@@ -113,6 +113,35 @@
         "Utility"
       ],
       "manualUrl": "https://github.com/Jojosito/MUS-X#last"
+    },
+    {
+      "slug": "Filter",
+      "name": "Filter",
+      "description": "Collection of virtual analog filters",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#filter"
+    },
+    {
+      "slug": "Synth",
+      "name": "Synth",
+      "description": "A virtual-analogue polyphonic synthesizer with 2 oscillators, dual filters and intuitive modulation system",
+      "tags": [
+        "Synth voice",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#synth"
+    },
+    {
+      "slug": "SplitStack",
+      "name": "Split/Stack",
+      "description": "Utility for splitting or layering two synthesizer parts",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/Jojosito/MUS-X#spitstack"
     }
   ]
 }

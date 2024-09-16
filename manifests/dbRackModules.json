@@ -1,7 +1,7 @@
 {
   "slug": "dbRackModules",
   "name": "dbRackModules",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -677,6 +677,61 @@
       "description": "An alias free pulsewave oscillator",
       "tags": [
         "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "X16",
+      "name": "X16",
+      "description": "Matrix Mixer 16x16 with modulation",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "X8",
+      "name": "X8",
+      "description": "8x8 Matrix Mixer with modulation",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "X6",
+      "name": "X6",
+      "description": "6x6 Matrix Mixer with modulation",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "X4",
+      "name": "X4",
+      "description": "4x4 Matrix Mixer with modulation",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CVS",
+      "name": "CVS",
+      "description": "CV controlled polyphonic switch, sequencer, crossfader, scanner",
+      "tags": [
+        "Switch",
+        "Mixer",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "DTrig",
+      "name": "DTrig",
+      "description": "CV change detector",
+      "tags": [
+        "Utility",
         "Polyphonic"
       ]
     }

@@ -1,7 +1,7 @@
 {
   "slug": "WavsynModular",
   "name": "WavsynModular",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "WavsynModular",
   "author": "Erich Izdepski",
@@ -30,6 +30,16 @@
       "manualUrl": "https://erichizdepski.wordpress.com/wavsynmodular-manual",
       "tags": [
         "sample and hold"
+      ]
+    },
+    {
+      "slug": "Trip",
+      "name": "Trip",
+      "description": "8-step sequencer with controls for randomization",
+      "manualUrl": "https://erichizdepski.wordpress.com/wavsynmodular-manual",
+      "tags": [
+        "sequencer",
+        "random"
       ]
     }
   ]

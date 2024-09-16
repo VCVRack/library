@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1704328004.344655,
+    "buildTimestamp": 1726454769.3204064,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -3511,7 +3511,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1725011492.8716714,
+    "buildTimestamp": 1726454253.1341572,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -3603,6 +3603,9 @@
       },
       "AbcdSeq": {
         "creationTimestamp": 1725011492.9796405
+      },
+      "Timer": {
+        "creationTimestamp": 1726454792.6314766
       }
     }
   },
@@ -11097,7 +11100,7 @@
     }
   },
   "FreeSurface": {
-    "buildTimestamp": 1638233773.882063,
+    "buildTimestamp": 1726454792.5169044,
     "creationTimestamp": 1636820542.584936,
     "modules": {
       "FreeSurface-WaterTable": {
@@ -11247,7 +11250,7 @@
     }
   },
   "dbRackModules": {
-    "buildTimestamp": 1721627361.913851,
+    "buildTimestamp": 1726454608.0415783,
     "creationTimestamp": 1641209269.2091281,
     "modules": {
       "GeneticTerrain": {
@@ -11474,6 +11477,24 @@
       },
       "OscP": {
         "creationTimestamp": 1721627409.8618238
+      },
+      "X16": {
+        "creationTimestamp": 1726454793.0489497
+      },
+      "X8": {
+        "creationTimestamp": 1726454793.1138687
+      },
+      "X6": {
+        "creationTimestamp": 1726454793.2411215
+      },
+      "X4": {
+        "creationTimestamp": 1726454793.304575
+      },
+      "CVS": {
+        "creationTimestamp": 1726454793.3778856
+      },
+      "DTrig": {
+        "creationTimestamp": 1726454793.451714
       }
     }
   },
@@ -12891,7 +12912,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1724754239.3293092,
+    "buildTimestamp": 1726454163.454809,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
@@ -13614,7 +13635,7 @@
     }
   },
   "squinktronix-plug1": {
-    "buildTimestamp": 1717919441.6227424,
+    "buildTimestamp": 1726454333.7969043,
     "creationTimestamp": 1704333639.9465997,
     "modules": {
       "sqh-harmony1": {
@@ -13628,6 +13649,9 @@
       },
       "sqh-harmony2": {
         "creationTimestamp": 1717919524.0286038
+      },
+      "sqh-visualizer": {
+        "creationTimestamp": 1726454792.7980306
       }
     }
   },
@@ -13686,7 +13710,7 @@
     }
   },
   "MUS-X": {
-    "buildTimestamp": 1712606942.3767183,
+    "buildTimestamp": 1726453821.723959,
     "creationTimestamp": 1705388984.538214,
     "modules": {
       "ADSR": {
@@ -13718,6 +13742,15 @@
       },
       "Last": {
         "creationTimestamp": 1712607167.2224782
+      },
+      "Filter": {
+        "creationTimestamp": 1726454792.8624876
+      },
+      "Synth": {
+        "creationTimestamp": 1726454792.917275
+      },
+      "SplitStack": {
+        "creationTimestamp": 1726454792.9754593
       }
     }
   },
@@ -13995,7 +14028,7 @@
     }
   },
   "WavsynModular": {
-    "buildTimestamp": 1719229119.2604964,
+    "buildTimestamp": 1726454266.8073912,
     "creationTimestamp": 1719229858.8750262,
     "modules": {
       "Pleats": {
@@ -14003,6 +14036,9 @@
       },
       "Strange": {
         "creationTimestamp": 1719229858.9803524
+      },
+      "Trip": {
+        "creationTimestamp": 1726454792.7074556
       }
     }
   },
