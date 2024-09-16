@@ -1725,5 +1725,124 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/MidiThingV2",
     "mgUrl": "https://www.modulargrid.net/e/befaco-midi-thing-v2",
     "mgModuleId": 44096
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "HubMedium",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/HubMedium",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-metamodule",
+    "mgModuleId": 45655
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "EnOsc",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/EnOsc",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-ensemble-oscillator",
+    "mgModuleId": 25712
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "DLD",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/DLD",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-dual-looping-delay",
+    "mgModuleId": 5913
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "Tapo",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/Tapo",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-tapographic-delay",
+    "mgModuleId": 10146
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "SHEV",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/SHEV",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-shaped-dual-envvca-shev",
+    "mgModuleId": 38841
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "DEV",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/DEV",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-dual-envvca-dev",
+    "mgModuleId": 38840
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "ENVVCA",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/ENVVCA",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-envvca-env",
+    "mgModuleId": 38842
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "PEG",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/PEG",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-pingable-envelope-generator",
+    "mgModuleId": 174
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "MPEG",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/MPEG",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-mini-peg",
+    "mgModuleId": 38843
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "QCD",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/QCD",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-qcd-quad-clock-distributor",
+    "mgModuleId": 1784
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "SCM",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/SCM",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-scm-shuffling-clock-multiplier-v2",
+    "mgModuleId": 333
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "RCD",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/RCD",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-rotating-clock-divider-v2",
+    "mgModuleId": 332
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "QPLFO",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/QPLFO",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-quad-pingable-lfo",
+    "mgModuleId": 2064
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "PI",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/PI",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-percussion-interface",
+    "mgModuleId": 29889
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "VCAM",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/VCAM",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-vca-matrix",
+    "mgModuleId": 335
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "SISM",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/SISM",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-shifting-inverting-signal-mingler",
+    "mgModuleId": 1785
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "L4",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/L4",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-listen-four",
+    "mgModuleId": 15792
   }
 ]

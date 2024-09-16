@@ -1,0 +1,479 @@
+{
+  "slug": "4msCompany",
+  "name": "4ms",
+  "version": "2.0.7",
+  "license": "GPL-3.0-or-later",
+  "brand": "4ms",
+  "author": "4ms Company",
+  "authorEmail": "4ms@4mscompany.com",
+  "authorUrl": "https://4mscompany.com",
+  "pluginUrl": "https://github.com/4ms/4ms-vcv/",
+  "manualUrl": "https://metamodule.info/docs",
+  "sourceUrl": "https://github.com/4ms/4ms-vcv/",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/4ms/4ms-vcv/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "HubMedium",
+      "name": "MetaModule",
+      "description": "MetaModule Hub is used to create patches that run on MetaModule hardware. Use the hub to create mappings between physical and virtual controls and jacks.",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-metamodule",
+      "manualUrl": "https://4mscompany.com/metamodule",
+      "tags": [
+        "Utility",
+        "External"
+      ]
+    },
+    {
+      "slug": "EnOsc",
+      "name": "Ensemble Oscillator",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-ensemble-oscillator",
+      "manualUrl": "https://4mscompany.com/media/ENOSC/manual/Ensemble-Osc-manual.pdf",
+      "description": "The Ensemble Oscillator (EnOsc) is a unified polyphonic voice of sixteen complex oscillators combining additive, FM, phase-distortion and wavefolding synthesis techniques in new unorthodox ways.",
+      "tags": [
+        "Oscillator",
+        "Digital",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "DLD",
+      "name": "Dual Looping Delay",
+      "description": "DLD",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-dual-looping-delay",
+      "manualUrl": "https://4mscompany.com/media/DLD/manual/DLD-manual.pdf",
+      "tags": [
+        "Dual",
+        "Digital",
+        "Delay",
+        "Effect",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Tapo",
+      "name": "Tapographic Delay",
+      "description": "Tapographic delay",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-tapographic-delay",
+      "manualUrl": "https://4mscompany.com/media/TAPO/manual/Tapographic-Delay-User-Manual.pdf",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Digital",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "SHEV",
+      "name": "Shaped Dual EnvVCA",
+      "description": "SHEV",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-shaped-dual-envvca-shev",
+      "manualUrl": "https://4mscompany.com/media/ENVVCA/manual/Shaped-EnvVCA-manual-v1.0.pdf",
+      "tags": [
+        "Envelope Generator",
+        "Voltage-controlled amplifier",
+        "LFO",
+        "Hardware clone",
+        "Dual",
+        "Slew limiter"
+      ]
+    },
+    {
+      "slug": "DEV",
+      "name": "Dual EnvVCA",
+      "description": "DEV",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-dual-envvca-dev",
+      "manualUrl": "https://4mscompany.com/media/ENVVCA/manual/Dual-EnvVCA-manual-1.0.pdf",
+      "tags": [
+        "Envelope Generator",
+        "Voltage-controlled amplifier",
+        "LFO",
+        "Hardware clone",
+        "Dual",
+        "Slew limiter"
+      ]
+    },
+    {
+      "slug": "ENVVCA",
+      "name": "EnvVCA",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-envvca-env",
+      "description": "A compact envelope generator with a built-in exponential VCA.",
+      "manualUrl": "https://4mscompany.com/media/ENVVCA/manual/EnvVCA-manual-v1.0.pdf",
+      "tags": [
+        "Envelope Generator",
+        "Voltage-controlled amplifier",
+        "LFO",
+        "Hardware clone",
+        "Slew limiter"
+      ]
+    },
+    {
+      "slug": "PEG",
+      "name": "Pingable Envelope Generator PEG",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-pingable-envelope-generator",
+      "manualUrl": "https://4mscompany.com/media/peg/manual/PEG_manual.pdf",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Envelope Generator",
+        "Dual",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "MPEG",
+      "name": "Mini Pingable Envelope Generator",
+      "description": "MiniPEG",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-mini-peg",
+      "manualUrl": "https://4mscompany.com/media/MPEG/manual/MiniPEG-manual-v1.0a.pdf",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Envelope Generator",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "QCD",
+      "name": "Quad Clock Distributor [QCD]",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-qcd-quad-clock-distributor",
+      "manualUrl": "https://4mspedals.com/QCD/QCD-manual-v2.pdf",
+      "description": "QCD",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Quad",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "SCM",
+      "name": "Shuffling Clock Multiplier [SCM]",
+      "description": "SCM",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-scm-shuffling-clock-multiplier-v2",
+      "manualUrl": "https://4mscompany.com/media/SCMPLUS/manual/SCM-plus-manual-1.0.pdf",
+      "tags": [
+        "Clock modulator",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "RCD",
+      "name": "Rotating Clock Divider [RCD]",
+      "description": "RCD",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-rotating-clock-divider-v2",
+      "manualUrl": "https://4mscompany.com/media/RCD/manual/RCD-manual.pdf",
+      "tags": [
+        "Clock modulator",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "QPLFO",
+      "name": "Quad Pingable LFO [QPLFO]",
+      "description": "QPLFO",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-quad-pingable-lfo",
+      "manualUrl": "https://4mspedals.com/media/QPLFO/manual/QPLFO-manual.pdf",
+      "tags": [
+        "LFO",
+        "Hardware clone",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "PI",
+      "name": "Percussion Interface + Expander",
+      "description": "Audio to gates, triggers and envelopes",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-percussion-interface",
+      "manualUrl": "https://4mscompany.com/media/PI/manual/PI-User-Manual.pdf",
+      "tags": [
+        "Envelope follower",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "VCAM",
+      "name": "VCA Matrix [VCAM]",
+      "description": "VCAM",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-vca-matrix",
+      "manualUrl": "https://4mscompany.com/media/vcam/manual/vcam-manual.pdf",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Hardware clone",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "SISM",
+      "name": "Shifting Inverting Signal Mingler [SISM]",
+      "description": "SISM",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-shifting-inverting-signal-mingler",
+      "manualUrl": "https://4mscompany.com/media/SISM/manual/sism-manual.pdf",
+      "tags": [
+        "Utility",
+        "Mixer",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "L4",
+      "name": "Listen Four",
+      "description": "Four channel stereo mixer",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-listen-four",
+      "manualUrl": "https://4mscompany.com/media/LISTEN/manual/Listen-Four-manual.pdf",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Freeverb",
+      "name": "Freeverb",
+      "description": "Freeverb",
+      "tags": [
+        "Effect",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "CLKM",
+      "name": "Clock Multiplier",
+      "description": "Outputs a clock signal at a multiple of an incoming clock signal's tempo.",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "CLKD",
+      "name": "Clock Divider",
+      "description": "Outputs a clock signal as a division of an incoming clock signal's tempo.",
+      "tags": [
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Seq8",
+      "name": "Seq8",
+      "description": "An 8-step unipolar voltage sequencer.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Verb",
+      "name": "Verb",
+      "description": "Experimental reverb using comb filters and all-pass filters",
+      "tags": [
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "StMix",
+      "name": "Stereo Mixer",
+      "description": "A mixer with four stereo channels and variable panning per-channel.",
+      "tags": [
+        "Mixer",
+        "Panning"
+      ]
+    },
+    {
+      "slug": "PitchShift",
+      "name": "PitchShift",
+      "description": "PitchShift",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "MultiLFO",
+      "name": "MultiLFO",
+      "description": "MultiLFO",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "KPLS",
+      "name": "Karplus",
+      "description": "Karplus-Strong string sound oscillator",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Drum",
+      "name": "Drum",
+      "description": "Drum",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Djembe",
+      "name": "Djembe",
+      "description": "Physically modeled Djembe based on FAUST models by Romain Michon, Pierre-Amaury Grumiaux, and Yann Orlarey",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Detune",
+      "name": "Detune",
+      "description": "Detune",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "SH",
+      "name": "Sample and Hold",
+      "description": "SH",
+      "tags": [
+        "Random",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "Switch41",
+      "name": "Switch41",
+      "description": "Switch 4:1",
+      "tags": [
+        "Switch",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "Switch14",
+      "name": "Switch14",
+      "description": "Switch 1:4",
+      "tags": [
+        "Switch",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "Prob8",
+      "name": "Prob8",
+      "description": "Prob8",
+      "tags": [
+        "Clock modulator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Octave",
+      "name": "Octave",
+      "description": "Octave",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MNMX",
+      "name": "Min-Max",
+      "description": "Takes in two signals and outputs the minimum and maximum voltages.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Source",
+      "name": "Source",
+      "description": "Generates two outputs voltages based on knob positions.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Slew",
+      "name": "Slew",
+      "description": "Slew",
+      "tags": [
+        "Slew limiter"
+      ]
+    },
+    {
+      "slug": "Pan",
+      "name": "Pan",
+      "description": "Mono-to-stereo panner.",
+      "tags": [
+        "Panning"
+      ]
+    },
+    {
+      "slug": "Noise",
+      "name": "Noise",
+      "description": "Noise",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "HPF",
+      "name": "HPF",
+      "description": "HPF",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Gate",
+      "name": "Gate",
+      "description": "Gate/trigger delay with pulse width control",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Follow",
+      "name": "Follow",
+      "description": "Envelope follower with gate output",
+      "tags": [
+        "Envelope follower"
+      ]
+    },
+    {
+      "slug": "FM",
+      "name": "FM",
+      "description": "FM Oscillator",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "ComplexEG",
+      "name": "ComplexEG",
+      "description": "ComplexEG",
+      "tags": [
+        "Envelope Generator"
+      ]
+    },
+    {
+      "slug": "LPG",
+      "name": "LPG",
+      "description": "Low-pass Gate",
+      "tags": [
+        "Filter",
+        "VCA",
+        "LPG"
+      ]
+    },
+    {
+      "slug": "BPF",
+      "name": "BPF",
+      "description": "Band-pass filter",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Atvert2",
+      "name": "Atvert2",
+      "description": "Two-channel attenuverter",
+      "tags": [
+        "Attenuator",
+        "Dual",
+        "Utility"
+      ]
+    }
+  ]
+}
