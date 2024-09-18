@@ -1,0 +1,28 @@
+{
+  "slug": "Calvario",
+  "name": "Calvario",
+  "version": "2.3.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "HydrangeaSystems",
+  "author": "merumerutho",
+  "authorEmail": "merutochan@gmail.com",
+  "authorUrl": "https://github.com/HydrangeaSystems/",
+  "pluginUrl": "https://github.com/HydrangeaSystems/Calvario",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/HydrangeaSystems/Calvario",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Calvario",
+      "name": "Calvario",
+      "description": "Small and brutal signal cross-modulator.",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Ring modulator",
+        "Waveshaper"
+      ]
+    }
+  ]
+}

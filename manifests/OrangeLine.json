@@ -1,7 +1,7 @@
 {
   "slug": "OrangeLine",
   "name": "OrangeLine",
-  "version": "2.4.5",
+  "version": "2.4.6",
   "license": "GPL-3.0-only",
   "brand": "",
   "author": "Dieter Stubler",
@@ -106,6 +106,24 @@
         "Sequencer",
         "Random",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Buckets",
+      "name": "Buckets",
+      "description": "Splits up polyphonic pitch and gate input into up to 12 polyphic pitch and gate outputs, depending on pitch value, chainable",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Cron",
+      "name": "Cron",
+      "description": "Interface Module for MIDI>CV deriving BPM from MIDI CLK and 24 pmm CLK/N, handling Transport and calculating CMP cv for GATOR for latency compensation of up to 16 channels",
+      "tags": [
+        "MIDI",
+        "Utility"
       ]
     }
   ]
