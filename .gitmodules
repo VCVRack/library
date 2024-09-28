@@ -849,3 +849,6 @@
 [submodule "repos/Calvario"]
 	path = repos/Calvario
 	url = https://github.com/HydrangeaSystems/Calvario
+[submodule "repos/Wygonium"]
+	path = repos/Wygonium
+	url = https://github.com/gwygonik/ORBsqVi.git
