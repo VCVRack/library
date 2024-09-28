@@ -1,7 +1,7 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
@@ -22,6 +22,7 @@
       "tags": [
         "Attenuator",
         "Function Generator",
+        "Logic",
         "Sequencer",
         "Sample and hold",
         "Utility"
@@ -63,7 +64,7 @@
     {
       "slug": "TTY",
       "name": "TTY",
-      "description": "Logs values from cables and/or text messages from Tipsy text sources (e.g., BASICally). Makes monitoring of values or logging far easier. TTY is resizable, scrolls, has font and color choices, and more.",
+      "description": "Logs values from cables and/or text messages from Tipsy text sources (e.g., BASICally, Memory). Makes monitoring of values or logging far easier. TTY is resizable, scrolls, has font and color choices, and more.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#tty",
       "tags": [
         "Recording",
@@ -121,6 +122,17 @@
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#depict",
       "tags": [
         "Expander",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Venn",
+      "name": "Venn",
+      "description": "2D graphical approach to control signal generation. A single moving or mouse-driven point causes up to 16 circles to output signals based on the point's position within them.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#venn",
+      "tags": [
+        "Controller",
+        "Polyphonic",
         "Visual"
       ]
     }
