@@ -1,0 +1,26 @@
+{
+  "slug": "Wygonium",
+  "name": "Wygonium",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Wygonium",
+  "author": "g.wygonik",
+  "authorEmail": "gw@artificialcolors.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/gwygonik/ORBsqVi",
+  "manualUrl": "https://github.com/gwygonik/ORBsqVi",
+  "sourceUrl": "https://github.com/gwygonik/ORBsqVi",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ORBsqVi",
+      "name": "ORBsq Vi",
+      "description": "An algorithmic sequencer based on the Wygonium ORBsq Mi.",
+      "tags": [
+        "Sequencer",
+        "Hardware clone"
+      ]
+    }
+  ]
+}

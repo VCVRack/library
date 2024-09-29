@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -99,7 +99,8 @@
       "name": "Ouros",
       "description": "A stereo phase injection oscillator, with polar waveform display.",
       "tags": [
-        "Oscillator"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
@@ -116,11 +117,25 @@
       ]
     },
     {
+      "slug": "PreeeeeeeeeeessedDuck",
+      "name": "Preeeeeeeeeeessed Duck",
+      "description": "A stereo sixteen-channel dynamic compressing mixer with side-chain ducking, tanh saturation and ADAA.",
+      "tags": [
+        "Mixer",
+        "Compressor",
+        "Dynamics",
+        "Distortion",
+        "Panning",
+        "Voltage-controlled Amplifier"
+      ]
+    },
+    {
       "slug": "FlowerPatch",
       "name": "Flower Patch",
       "description": "A 12-tone scale polar visualizer with FFT analysis.",
       "tags": [
-        "Visual"
+        "Visual",
+        "Utility"
       ]
     },
     {
@@ -165,7 +180,24 @@
       "description": "Single-knob macro-controller utility with 16 simultaneous outputs in different ranges.",
       "tags": [
         "Controller",
-        "Utility"
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "StepWave",
+      "name": "Step Wave",
+      "description": "8-step programmable sequencer/envelope generator with rhythmic displacement and variable shape.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Arrange",
+      "name": "Arrange",
+      "description": "A seven channel sequencer with quantize/volt option per channel, and adjustable length.",
+      "tags": [
+        "Sequencer"
       ]
     }
   ]
