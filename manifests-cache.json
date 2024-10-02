@@ -3010,7 +3010,7 @@
     }
   },
   "NANOModules": {
-    "buildTimestamp": 1719063261.7192662,
+    "buildTimestamp": 1727870929.9024353,
     "creationTimestamp": 1581971790.0,
     "modules": {
       "MAR": {
@@ -3060,6 +3060,9 @@
       },
       "VCVRANDOM": {
         "creationTimestamp": 1706227195.3901641
+      },
+      "ARC": {
+        "creationTimestamp": 1727870930.1175964
       }
     }
   },

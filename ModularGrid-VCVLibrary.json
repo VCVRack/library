@@ -1844,5 +1844,11 @@
     "vcvUrl": "https://library.vcvrack.com/4msCompany/L4",
     "mgUrl": "https://modulargrid.net/e/4ms-company-listen-four",
     "mgModuleId": 15792
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "ARC",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/ARC",
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-arc"
   }
 ]

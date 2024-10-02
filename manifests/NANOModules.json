@@ -1,7 +1,7 @@
 {
   "slug": "NANOModules",
   "name": "NANO Modules",
-  "version": "2.3.6",
+  "version": "2.3.7",
   "license": "Proprietary",
   "brand": "NANO Modules",
   "author": "Jorge Gutierrez",
@@ -156,6 +156,22 @@
         "Sample and hold",
         "Slew limiter",
         "Quad",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "ARC",
+      "name": "ARC",
+      "description": "Dual Function Generator",
+      "manualUrl": "",
+      "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-arc",
+      "tags": [
+        "Envelope generator",
+        "Oscillator",
+        "LFO",
+        "Slew limiter",
+        "VCA",
+        "Logic",
         "Hardware clone"
       ]
     },
