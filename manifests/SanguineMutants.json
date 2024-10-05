@@ -1,7 +1,7 @@
 {
   "slug": "SanguineMutants",
   "name": "Sanguine Modules",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "license": "GPL-3.0-or-later",
   "author": "Bloodbat",
   "pluginUrl": "https://github.com/Bloodbat/SanguineMutants",
@@ -15,9 +15,14 @@
       "name": "Funes",
       "description": "Based on Mutable Instruments' Plaits 1.2",
       "tags": [
-        "Oscillator",
+        "Digital",
+        "Drum",
         "Hardware clone",
-        "Polyphonic"
+        "Noise",
+        "Oscillator",
+        "Polyphonic",
+        "Speech",
+        "Synth voice"
       ]
     },
     {
@@ -34,13 +39,15 @@
       "name": "Apices",
       "description": "Based on Mutable Instruments' Peaks",
       "tags": [
+        "Delay",
         "Drum",
+        "Dual",
         "Envelope generator",
-        "Oscillator",
-        "Low-frequency oscillator",
-        "Sequencer",
         "Hardware clone",
-        "Dual"
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Sequencer",
+        "Speech"
       ]
     },
     {
@@ -59,10 +66,14 @@
       "name": "Nodi",
       "description": "A macro oscillator based on Mutable Instruments' Braids",
       "tags": [
+        "Digital",
+        "Hardware clone",
+        "Noise",
         "Oscillator",
-        "Waveshaper",
         "Polyphonic",
-        "Hardware clone"
+        "Speech",
+        "Synth voice",
+        "Waveshaper"
       ]
     },
     {
@@ -70,10 +81,14 @@
       "name": "Contextus",
       "description": "A macro oscillator based on the Renaissance alternative firmware for Braids",
       "tags": [
+        "Digital",
+        "Hardware clone",
+        "Noise",
         "Oscillator",
-        "Waveshaper",
         "Polyphonic",
-        "Hardware clone"
+        "Speech",
+        "Synth voice",
+        "Waveshaper"
       ]
     },
     {
@@ -81,9 +96,12 @@
       "name": "Nebulae",
       "description": "A texture synthesizer based on Audible Instruments' Clouds",
       "tags": [
+        "Delay",
+        "Digital",
+        "Effect",
         "Granular",
-        "Reverb",
-        "Hardware clone"
+        "Hardware clone",
+        "Reverb"
       ]
     },
     {
@@ -91,9 +109,12 @@
       "name": "Etesia",
       "description": "A texture synthesizer based on the Clouds Parasite",
       "tags": [
+        "Delay",
+        "Digital",
+        "Effect",
         "Granular",
-        "Reverb",
-        "Hardware clone"
+        "Hardware clone",
+        "Reverb"
       ]
     },
     {
@@ -101,13 +122,15 @@
       "name": "Mortuus",
       "description": "Based on the Dead Man's Catch alternative firmware for Peaks",
       "tags": [
+        "Delay",
         "Drum",
+        "Dual",
         "Envelope generator",
-        "Oscillator",
-        "Low-frequency oscillator",
-        "Sequencer",
         "Hardware clone",
-        "Dual"
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Sequencer",
+        "Speech"
       ]
     },
     {
@@ -115,8 +138,10 @@
       "name": "Fluctus",
       "description": "A texture synthesizer based on the Kammerl Beat-Repeat firmware",
       "tags": [
+        "Delay",
+        "Digital",
+        "Effect",
         "Granular",
-        "Reverb",
         "Hardware clone"
       ]
     },
@@ -125,9 +150,13 @@
       "name": "Incurvationes",
       "description": "A meta modulator based on Mutable Instruments Warps",
       "tags": [
+        "Digital",
+        "Effect",
+        "Hardware clone",
+        "Oscillator",
         "Ring modulator",
-        "Waveshaper",
-        "Hardware clone"
+        "Vocoder",
+        "Waveshaper"
       ]
     },
     {
@@ -135,10 +164,14 @@
       "name": "Distortiones",
       "description": "A doctored meta modulator based on the Parasite alternative firmware for Warps",
       "tags": [
-        "Ring modulator",
-        "Waveshaper",
+        "Delay",
+        "Digital",
         "Effect",
-        "Hardware clone"
+        "Hardware clone",
+        "Oscillator",
+        "Ring modulator",
+        "Vocoder",
+        "Waveshaper"
       ]
     },
     {
@@ -146,11 +179,16 @@
       "name": "Mutuus",
       "description": "An experimental meta modulator based on the Symbiote alternative firmware for Warps",
       "tags": [
-        "Ring modulator",
-        "Waveshaper",
+        "Delay",
+        "Digital",
         "Effect",
+        "Filter",
+        "Hardware clone",
+        "Oscillator",
         "Reverb",
-        "Hardware clone"
+        "Ring modulator",
+        "Vocoder",
+        "Waveshaper"
       ]
     },
     {
@@ -158,13 +196,15 @@
       "name": "Explorator",
       "description": "A fully polyphonic multiple, mixer, noise source, sample and hold, inverter, rectifier and logic unit, based on Mutable Instruments Links and Kinks",
       "tags": [
-        "Multiple",
-        "Mixer",
         "Hardware clone",
+        "Logic",
+        "Mixer",
+        "Multiple",
+        "Noise",
         "Polyphonic",
-        "Utility",
         "Sample and hold",
-        "Noise"
+        "Utility",
+        "Waveshaper"
       ]
     },
     {
@@ -172,8 +212,13 @@
       "name": "Marmora",
       "description": "Based on Mutable Instruments Marbles",
       "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Digital",
+        "Hardware clone",
+        "Quantizer",
         "Random",
-        "Hardware clone"
+        "Sequencer"
       ]
     },
     {
@@ -181,9 +226,12 @@
       "name": "Anuli",
       "description": "Anuli is a polyphonic resonator based on Mutable Instruments Rings",
       "tags": [
+        "Effect",
+        "Filter",
+        "Hardware clone",
+        "Oscillator",
         "Physical modeling",
-        "Polyphonic",
-        "Hardware clone"
+        "Polyphonic"
       ]
     },
     {
@@ -193,6 +241,7 @@
       "tags": [
         "Mixer",
         "Polyphonic",
+        "Quad",
         "Voltage-controlled amplifier"
       ]
     }

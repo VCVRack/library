@@ -1849,6 +1849,7 @@
     "pluginSlug": "NANOModules",
     "moduleSlug": "ARC",
     "vcvUrl": "https://library.vcvrack.com/NANOModules/ARC",
-    "mgUrl": "https://www.modulargrid.net/e/nano-modules-arc"
+    "mgUrl": "https://www.modulargrid.net/e/nano-modules-arc",
+    "mgModuleId": 50826
   }
 ]

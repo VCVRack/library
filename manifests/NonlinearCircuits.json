@@ -1,7 +1,7 @@
 {
   "slug": "NonlinearCircuits",
   "name": "Nonlinear Circuits",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -123,6 +123,7 @@
       "slug": "Numberwang",
       "name": "Numberwang",
       "description": "Four gates make sixteen. That's Numberwang! Panel by jk.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
       "tags": [
         "Logic",
         "Hardware Clone"
@@ -132,6 +133,7 @@
       "slug": "Router",
       "name": "Router",
       "description": "Simple switch. If the CV input is below the knob voltage setting, the output is active. Panel by jk.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
       "tags": [
         "Switch",
         "Mixer",
@@ -180,6 +182,20 @@
       ]
     },
     {
+      "slug": "Splish",
+      "name": "Splish",
+      "description": "Three input variation of Let's Splosh.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits#splish",
+      "tags": [
+        "Mixer",
+        "Noise",
+        "Utility",
+        "Random",
+        "Hardware Clone",
+        "Quad"
+      ]
+    },
+    {
       "slug": "SquidAxon",
       "name": "Squid Axon",
       "description": "Mixer, Shift Register, and Feedback. Panel by Jason Wehmhoener.",
@@ -194,6 +210,7 @@
       "slug": "Statues",
       "name": "Statues",
       "description": "1->8 Signal switch using binary inputs. Panel by jk.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
       "tags": [
         "Logic",
         "Hardware Clone"

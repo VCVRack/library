@@ -1,0 +1,61 @@
+{
+  "slug": "Tyche",
+  "name": "Tyche",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Tyche",
+  "author": "denolehov",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/denolehov",
+  "pluginUrl": "https://github.com/denolehov/VCVTyche",
+  "manualUrl": "https://github.com/denolehov/VCVTyche",
+  "sourceUrl": "https://github.com/denolehov/VCVTyche",
+  "donateUrl": "https://www.buymeacoffee.com/evrwhr",
+  "changelogUrl": "https://github.com/denolehov/VCVTyche/releases",
+  "modules": [
+    {
+      "slug": "Omen",
+      "name": "Omen",
+      "description": "Controls the seed of the other Tyche modules",
+      "tags": [
+        "Random",
+        "Sample and hold",
+        "Noise",
+        "Low-frequency oscillator",
+        "Function Generator",
+        "Clock Modulator"
+      ]
+    },
+    {
+      "slug": "Kron",
+      "name": "Kron",
+      "description": "Random pulse generator",
+      "tags": [
+        "Clock Modulator",
+        "Random",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Tale",
+      "name": "Tale",
+      "description": "Random-walk CV source",
+      "tags": [
+        "Random",
+        "Sample and hold",
+        "Noise",
+        "Low-frequency oscillator",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Blank",
+      "name": "Blank",
+      "description": "A blank separator from Tyche collection",
+      "tags": [
+        "Blank",
+        "Expander"
+      ]
+    }
+  ]
+}
