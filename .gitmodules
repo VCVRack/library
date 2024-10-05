@@ -852,3 +852,6 @@
 [submodule "repos/Wygonium"]
 	path = repos/Wygonium
 	url = https://github.com/gwygonik/ORBsqVi.git
+[submodule "repos/Tyche"]
+	path = repos/Tyche
+	url = https://github.com/denolehov/VCVTyche.git
