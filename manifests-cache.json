@@ -14400,7 +14400,7 @@
     }
   },
   "Tyche": {
-    "buildTimestamp": 1728140968.7608473,
+    "buildTimestamp": 1728360333.9093049,
     "creationTimestamp": 1728141036.6399722,
     "modules": {
       "Omen": {
@@ -14414,6 +14414,12 @@
       },
       "Blank": {
         "creationTimestamp": 1728141036.8757322
+      },
+      "Fate": {
+        "creationTimestamp": 1728360334.1447437
+      },
+      "Moira": {
+        "creationTimestamp": 1728360334.224164
       }
     }
   }

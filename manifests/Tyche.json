@@ -1,14 +1,14 @@
 {
   "slug": "Tyche",
   "name": "Tyche",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Tyche",
   "author": "denolehov",
   "authorEmail": "",
   "authorUrl": "https://github.com/denolehov",
   "pluginUrl": "https://github.com/denolehov/VCVTyche",
-  "manualUrl": "https://github.com/denolehov/VCVTyche",
+  "manualUrl": "https://github.com/denolehov/VCVTyche/blob/main/README.md",
   "sourceUrl": "https://github.com/denolehov/VCVTyche",
   "donateUrl": "https://www.buymeacoffee.com/evrwhr",
   "changelogUrl": "https://github.com/denolehov/VCVTyche/releases",
@@ -17,19 +17,24 @@
       "slug": "Omen",
       "name": "Omen",
       "description": "Controls the seed of the other Tyche modules",
+      "manualUrl": "https://github.com/denolehov/VCVTyche/blob/main/README.md#omen",
       "tags": [
         "Random",
         "Sample and hold",
         "Noise",
         "Low-frequency oscillator",
         "Function Generator",
-        "Clock Modulator"
+        "Clock Modulator",
+        "Logic",
+        "Mixer",
+        "Slew Limiter"
       ]
     },
     {
       "slug": "Kron",
       "name": "Kron",
-      "description": "Random pulse generator",
+      "description": "A probabilistic trigger generator, outputting triggers at clock divisions based on the density parameter",
+      "manualUrl": "https://github.com/denolehov/VCVTyche/blob/main/README.md#kron",
       "tags": [
         "Clock Modulator",
         "Random",
@@ -39,7 +44,8 @@
     {
       "slug": "Tale",
       "name": "Tale",
-      "description": "Random-walk CV source",
+      "description": "A random-walk CV source",
+      "manualUrl": "https://github.com/denolehov/VCVTyche/blob/main/README.md#tale",
       "tags": [
         "Random",
         "Sample and hold",
@@ -49,9 +55,35 @@
       ]
     },
     {
+      "slug": "Fate",
+      "name": "Fate",
+      "description": "A trigger routing module (aka Bernoulli gate)",
+      "manualUrl": "https://github.com/denolehov/VCVTyche/blob/main/README.md#fate",
+      "tags": [
+        "Random",
+        "Logic",
+        "Clock Modulator",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Moira",
+      "name": "Moira",
+      "description": "A probabilistic voltage selector, which outputs one of the three user-defined voltages based on relative probabilities.",
+      "manualUrl": "https://github.com/denolehov/VCVTyche/blob/main/README.md#moira",
+      "tags": [
+        "Logic",
+        "Mixer",
+        "Random",
+        "Slew Limiter",
+        "Expander"
+      ]
+    },
+    {
       "slug": "Blank",
       "name": "Blank",
       "description": "A blank separator from Tyche collection",
+      "manualUrl": "https://github.com/denolehov/VCVTyche/blob/main/README.md#blank",
       "tags": [
         "Blank",
         "Expander"
