@@ -1,0 +1,77 @@
+{
+  "slug": "24conditions",
+  "name": "24conditions",
+  "version": "2.0.0b",
+  "license": "proprietary",
+  "brand": "24conditions",
+  "author": "jhe",
+  "authorEmail": "24conditions@gmail.com",
+  "authorUrl": "http://j-he.net",
+  "pluginUrl": "http://j-he.net/24conditions",
+  "manualUrl": "http://j-he.net/24condmain",
+  "sourceUrl": "",
+  "donateUrl": "https://ko-fi.com/24conditions",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Realities",
+      "name": "Realities",
+      "description": "selecting realities",
+      "manualUrl": "http://j-he.net/24cond#Realities",
+      "tags": [
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "Ebb",
+      "name": "Ebb",
+      "description": "harmonic undulations",
+      "manualUrl": "http://j-he.net/24cond#Ebb",
+      "tags": [
+        "Phaser"
+      ]
+    },
+    {
+      "slug": "Mist",
+      "name": "Mist",
+      "description": "bits and bytes",
+      "manualUrl": "http://j-he.net/24cond#Mist",
+      "tags": [
+        "Noise",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Lucid",
+      "name": "Lucid",
+      "description": "unwavering radiance",
+      "manualUrl": "http://j-he.net/24cond#Lucid",
+      "tags": [
+        "Oscillator",
+        "Multiple",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Adrift",
+      "name": "Adrift",
+      "description": "stone skipping across the pond",
+      "manualUrl": "http://j-he.net/24cond#Adrift",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Wander",
+      "name": "Wander",
+      "manualUrl": "http://j-he.net/24cond#Wander",
+      "description": "enjoyment in untroubled ease",
+      "tags": [
+        "Random",
+        "Low-frequency Oscillator",
+        "Multiple",
+        "Function generator"
+      ]
+    }
+  ]
+}
