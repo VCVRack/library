@@ -1,7 +1,7 @@
 {
   "slug": "24conditions",
   "name": "24conditions",
-  "version": "2.0.0b",
+  "version": "2.0.0c",
   "license": "proprietary",
   "brand": "24conditions",
   "author": "jhe",
@@ -55,7 +55,7 @@
     {
       "slug": "Adrift",
       "name": "Adrift",
-      "description": "stone skipping across the pond",
+      "description": "across the surface of a tranquil lake",
       "manualUrl": "http://j-he.net/24cond#Adrift",
       "tags": [
         "Sequencer"
