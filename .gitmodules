@@ -855,3 +855,6 @@
 [submodule "repos/Tyche"]
 	path = repos/Tyche
 	url = https://github.com/denolehov/VCVTyche.git
+[submodule "repos/FrequencyDomain"]
+	path = repos/FrequencyDomain
+	url = https://github.com/almostEric/Frequency-Domain.git
