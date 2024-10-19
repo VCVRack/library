@@ -858,3 +858,6 @@
 [submodule "repos/FrequencyDomain"]
 	path = repos/FrequencyDomain
 	url = https://github.com/almostEric/Frequency-Domain.git
+[submodule "repos/BlackNoiseModular"]
+	path = repos/BlackNoiseModular
+	url = https://github.com/BlackNoiseModular/VCV.git
