@@ -1,7 +1,7 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
@@ -57,6 +57,15 @@
         "Physical modeling",
         "Effect",
         "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "Gravy",
+      "name": "Gravy",
+      "description": "Low/high/band-pass filter with resonance control.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Gravy.md",
+      "tags": [
+        "Filter"
       ]
     },
     {

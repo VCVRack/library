@@ -1,7 +1,7 @@
 {
   "slug": "monome",
   "name": "monome",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "minRackVersion": "2.4.0",
   "license": "GPL-2.0-only",
   "author": "Michael Dewberry",

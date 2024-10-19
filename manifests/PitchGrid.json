@@ -1,18 +1,31 @@
 {
   "slug": "PitchGrid",
   "name": "PitchGrid Rack",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "PitchGrid",
   "author": "Peter Jung",
   "authorEmail": "peterjungx@gmail.com",
   "pluginUrl": "https://github.com/peterjungx/PitchGridRack",
   "authorUrl": "https://pitchgrid.io",
-  "manualUrl": "https://github.com/peterjungx/PitchGridRack",
+  "manualUrl": "https://pitchgrid.io/info/MicroExquis",
   "sourceUrl": "https://github.com/peterjungx/PitchGridRack",
   "changelogUrl": "",
   "minRackVersion": "2.4.0",
   "modules": [
+    {
+      "slug": "MicroExquis",
+      "name": "Microtonal Exquis Interface",
+      "description": "Microtonal interface to the Exquis by Intuitive Instruments",
+      "manualUrl": "https://pitchgrid.io/info/MicroExquis",
+      "tags": [
+        "External",
+        "MIDI",
+        "Controller",
+        "Tuner",
+        "Polyphonic"
+      ]
+    },
     {
       "slug": "MicroHammond",
       "name": "Microtonal Hammond",

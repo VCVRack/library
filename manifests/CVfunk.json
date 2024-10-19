@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -198,6 +198,14 @@
       "description": "A seven channel sequencer with quantize/volt option per channel, and adjustable length.",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "TriDelay",
+      "name": "Tri Delay",
+      "description": "A three tap delay line.",
+      "tags": [
+        "Delay"
       ]
     }
   ]

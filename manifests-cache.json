@@ -2355,7 +2355,7 @@
     }
   },
   "MindMeldModular": {
-    "buildTimestamp": 1681691176.918196,
+    "buildTimestamp": 1729362906.4002259,
     "creationTimestamp": 1572165273.0,
     "modules": {
       "MixMasterJr": {
@@ -6014,7 +6014,7 @@
     "modules": {}
   },
   "NonlinearCircuits": {
-    "buildTimestamp": 1728141018.2802548,
+    "buildTimestamp": 1729363772.9006455,
     "creationTimestamp": 1582350675.0,
     "modules": {
       "BOOLs": {
@@ -8973,7 +8973,7 @@
     "modules": {}
   },
   "Ahornberg": {
-    "buildTimestamp": 1723919530.9665217,
+    "buildTimestamp": 1729363520.5791314,
     "creationTimestamp": 1562952023.0,
     "modules": {
       "EqualDivision": {
@@ -11112,7 +11112,7 @@
     }
   },
   "FreeSurface": {
-    "buildTimestamp": 1726454792.5169044,
+    "buildTimestamp": 1729363360.7302837,
     "creationTimestamp": 1636820542.584936,
     "modules": {
       "FreeSurface-WaterTable": {
@@ -12129,7 +12129,7 @@
     }
   },
   "CosineKitty-Sapphire": {
-    "buildTimestamp": 1725898107.788948,
+    "buildTimestamp": 1729362682.385174,
     "creationTimestamp": 1660869608.068208,
     "modules": {
       "Moots": {
@@ -12179,6 +12179,9 @@
       },
       "SplitAddMerge": {
         "creationTimestamp": 1724754239.5332575
+      },
+      "Gravy": {
+        "creationTimestamp": 1729364151.879189
       }
     }
   },
@@ -12228,7 +12231,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1724753822.5290213,
+    "buildTimestamp": 1729363245.1577835,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12389,6 +12392,9 @@
       },
       "Slewer": {
         "creationTimestamp": 1719229858.8167343
+      },
+      "KeySampler": {
+        "creationTimestamp": 1729364151.9699965
       }
     }
   },
@@ -13332,7 +13338,7 @@
     }
   },
   "monome": {
-    "buildTimestamp": 1706657178.5959556,
+    "buildTimestamp": 1729364151.6379151,
     "creationTimestamp": 1687317423.8644073,
     "modules": {
       "whitewhale": {
@@ -13650,7 +13656,7 @@
     }
   },
   "squinktronix-plug1": {
-    "buildTimestamp": 1726454333.7969043,
+    "buildTimestamp": 1729363337.0971208,
     "creationTimestamp": 1704333639.9465997,
     "modules": {
       "sqh-harmony1": {
@@ -13872,7 +13878,7 @@
     }
   },
   "CVfunk": {
-    "buildTimestamp": 1727604788.3816893,
+    "buildTimestamp": 1729362759.0912879,
     "creationTimestamp": 1711827243.9642084,
     "modules": {
       "Steps": {
@@ -13934,6 +13940,9 @@
       },
       "Arrange": {
         "creationTimestamp": 1727604799.5611758
+      },
+      "TriDelay": {
+        "creationTimestamp": 1729364151.8073041
       }
     }
   },
@@ -13980,7 +13989,7 @@
     }
   },
   "SanguineMutants": {
-    "buildTimestamp": 1728140883.9585345,
+    "buildTimestamp": 1729363698.997845,
     "creationTimestamp": 1717919524.088269,
     "modules": {
       "Funes": {
@@ -14033,6 +14042,15 @@
       },
       "Sanguine-Velamina": {
         "creationTimestamp": 1725898145.8974252
+      },
+      "Sanguine-Aestus": {
+        "creationTimestamp": 1729364152.1069415
+      },
+      "Sanguine-Temulenti": {
+        "creationTimestamp": 1729364152.1731765
+      },
+      "Sanguine-Vimina": {
+        "creationTimestamp": 1729364152.2350888
       }
     }
   },
@@ -14196,7 +14214,7 @@
     }
   },
   "PitchGrid": {
-    "buildTimestamp": 1725268999.8706052,
+    "buildTimestamp": 1729363268.1542845,
     "creationTimestamp": 1725269089.5256734,
     "modules": {
       "MicroHammond": {
@@ -14204,6 +14222,9 @@
       },
       "MicroVOctMapper": {
         "creationTimestamp": 1725269089.622874
+      },
+      "MicroExquis": {
+        "creationTimestamp": 1729364152.0425706
       }
     }
   },
@@ -14400,7 +14421,7 @@
     }
   },
   "Tyche": {
-    "buildTimestamp": 1728360333.9093049,
+    "buildTimestamp": 1729362926.3567486,
     "creationTimestamp": 1728141036.6399722,
     "modules": {
       "Omen": {

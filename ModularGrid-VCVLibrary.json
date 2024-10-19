@@ -1851,5 +1851,26 @@
     "vcvUrl": "https://library.vcvrack.com/NANOModules/ARC",
     "mgUrl": "https://www.modulargrid.net/e/nano-modules-arc",
     "mgModuleId": 50826
+  },
+  {
+    "pluginSlug": "BlackNoiseModular",
+    "moduleSlug": "Cosmos",
+    "vcvUrl": "https://library.vcvrack.com/BlackNoiseModular/Cosmos",
+    "mgUrl": "https://modulargrid.net/e/black-noise-cosmos",
+    "mgModuleId": 44486
+  },
+  {
+    "pluginSlug": "BlackNoiseModular",
+    "moduleSlug": "GomaII",
+    "vcvUrl": "https://library.vcvrack.com/BlackNoiseModular/GomaII",
+    "mgUrl": "https://modulargrid.net/e/black-noise-goma-ii",
+    "mgModuleId": 48884
+  },
+  {
+    "pluginSlug": "BlackNoiseModular",
+    "moduleSlug": "SlewLFO",
+    "vcvUrl": "https://library.vcvrack.com/BlackNoiseModular/SlewLFO",
+    "mgUrl": "https://modulargrid.net/e/black-noise-slew-lfo-",
+    "mgModuleId": 38712
   }
 ]
