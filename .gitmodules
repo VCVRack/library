@@ -861,3 +861,6 @@
 [submodule "repos/BlackNoiseModular"]
 	path = repos/BlackNoiseModular
 	url = https://github.com/BlackNoiseModular/VCV.git
+[submodule "repos/DigitalAtavism"]
+	path = repos/DigitalAtavism
+	url = https://github.com/lazerfalcon/DigitalAtavism.git
