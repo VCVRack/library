@@ -1,0 +1,54 @@
+{
+  "slug": "BlackNoiseModular",
+  "name": "BlackNoiseModular",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "BlackNoiseModular",
+  "author": "Alexandre Simon, Ewan Hemingway",
+  "authorEmail": "",
+  "authorUrl": "https://blacknoisemodular.com/",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/BlackNoiseModular/VCV",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/BlackNoiseModular/VCV/blob/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Cosmos",
+      "name": "Cosmos",
+      "description": "Cosmos is a new kind of module that will help you to creating complex modulation, sounds, patterns with ease and will lead you to new sounds territories.",
+      "manualUrl": "https://blacknoisemodular.com/products/cosmos",
+      "modularGridUrl": "https://modulargrid.net/e/black-noise-cosmos",
+      "tags": [
+        "Hardware clone",
+        "Logic",
+        "Multiple"
+      ]
+    },
+    {
+      "slug": "GomaII",
+      "name": "GomaII",
+      "description": "GOMA II is a new take on the classic attenuverter/mixer concept. It stands for Generator, Offset, Mixer, Attenuverter.",
+      "manualUrl": "https://blacknoisemodular.com/products/goma-ii",
+      "modularGridUrl": "https://modulargrid.net/e/black-noise-goma-ii",
+      "tags": [
+        "Attenuator",
+        "Hardware clone",
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SlewLFO",
+      "name": "SlewLFO",
+      "description": "Slew, LFO, and much more",
+      "manualUrl": "https://blacknoisemodular.com/products/slew-lfo",
+      "modularGridUrl": "https://modulargrid.net/e/black-noise-slew-lfo-",
+      "tags": [
+        "Hardware clone",
+        "Low-frequency oscillator",
+        "Slew limiter"
+      ]
+    }
+  ]
+}

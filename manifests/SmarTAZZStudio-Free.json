@@ -1,7 +1,7 @@
 {
   "slug": "SmarTAZZStudio-Free",
   "name": "Sm@rTAZZ Studio Free",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "license": "GPL-3.0-or-later",
   "brand": "Sm@rTAZZ Studio",
   "author": "Marinko Laban",
@@ -117,6 +117,16 @@
       "name": "Harmoblender",
       "description": "VCO that works based on mixing harmonic sine waves",
       "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/Harmoblender.html",
+      "tags": [
+        "Polyphonic",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "SuperZzzaw",
+      "name": "SuperZzzaw",
+      "description": "VCO that combines multiple sawtooth waves",
+      "manualUrl": "https://mlaban.home.xs4all.nl/music/VCV/SuperZzzaw.html",
       "tags": [
         "Polyphonic",
         "Oscillator"

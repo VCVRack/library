@@ -1,0 +1,130 @@
+{
+  "slug": "DigitalAtavism",
+  "name": "DigitalAtavism",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "Digital Atavism",
+  "author": "Shawn Laptiste",
+  "authorEmail": "shawnlaptiste@gmail.com",
+  "authorUrl": "https://linktr.ee/lazerfalcon",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Blip",
+      "name": "Blip",
+      "description": "Generates digital blip sounds",
+      "tags": [
+        "digital",
+        "envelope generator",
+        "oscillator",
+        "synth voice"
+      ],
+      "keywords": [
+        "blip",
+        "bleep",
+        "sfxr",
+        "sfx",
+        "8-bit",
+        "nintendo",
+        "pixel",
+        "games",
+        "videogames"
+      ]
+    },
+    {
+      "slug": "Coin",
+      "name": "Coin",
+      "description": "Generates digital coin-up sounds",
+      "tags": [
+        "digital",
+        "envelope generator",
+        "oscillator",
+        "synth voice"
+      ],
+      "keywords": [
+        "coin",
+        "coins",
+        "sfxr",
+        "sfx",
+        "8-bit",
+        "nintendo",
+        "pixel",
+        "games",
+        "videogames"
+      ]
+    },
+    {
+      "slug": "DTrig",
+      "name": "DTrig",
+      "description": "Delayed trigger",
+      "tags": [
+        "clock generator",
+        "digital",
+        "delay",
+        "utility"
+      ],
+      "keywords": [
+        "sfxr",
+        "sfx",
+        "8-bit",
+        "nintendo",
+        "pixel",
+        "games",
+        "videogames"
+      ]
+    },
+    {
+      "slug": "Hit",
+      "name": "Hit",
+      "description": "Generates digital hit sounds",
+      "tags": [
+        "digital",
+        "envelope generator",
+        "oscillator",
+        "noise",
+        "synth voice"
+      ],
+      "keywords": [
+        "hit",
+        "hurt",
+        "sfxr",
+        "sfx",
+        "8-bit",
+        "nintendo",
+        "pixel",
+        "games",
+        "videogames"
+      ]
+    },
+    {
+      "slug": "UT-P",
+      "name": "UT-P",
+      "description": "Voltage-Controlled Switch",
+      "tags": [
+        "polyphonic",
+        "switch",
+        "utility"
+      ],
+      "keywords": [
+        "voltage-controlled"
+      ]
+    },
+    {
+      "slug": "UT-OX",
+      "name": "UT-OX",
+      "description": "Voltage-Controlled Switch Output Expander",
+      "tags": [
+        "expander",
+        "switch",
+        "utility"
+      ],
+      "keywords": [
+        "voltage-controlled"
+      ]
+    }
+  ]
+}

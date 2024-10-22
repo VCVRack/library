@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1726454769.3204064,
+    "buildTimestamp": 1729567310.891924,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -2794,7 +2794,7 @@
     }
   },
   "Geodesics": {
-    "buildTimestamp": 1711821948.484168,
+    "buildTimestamp": 1729567727.322632,
     "creationTimestamp": 1534547467.0,
     "modules": {
       "BlackHoles": {
@@ -8648,7 +8648,7 @@
     }
   },
   "FrozenWasteland": {
-    "buildTimestamp": 1719229800.215274,
+    "buildTimestamp": 1729567510.9273252,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BPMLFO": {
@@ -13800,7 +13800,7 @@
     }
   },
   "SmarTAZZStudio-Free": {
-    "buildTimestamp": 1725897877.3005283,
+    "buildTimestamp": 1729567132.273069,
     "creationTimestamp": 1708910205.9740877,
     "modules": {
       "Multiplier": {
@@ -13835,6 +13835,9 @@
       },
       "Harmoblender": {
         "creationTimestamp": 1725898145.9807203
+      },
+      "SuperZzzaw": {
+        "creationTimestamp": 1729567728.1565893
       }
     }
   },
@@ -14412,7 +14415,7 @@
     }
   },
   "Wygonium": {
-    "buildTimestamp": 1727604799.2316477,
+    "buildTimestamp": 1729567070.9401343,
     "creationTimestamp": 1727604799.6599896,
     "modules": {
       "ORBsqVi": {
@@ -14465,6 +14468,45 @@
       },
       "Wander": {
         "creationTimestamp": 1728585152.399476
+      }
+    }
+  },
+  "DigitalAtavism": {
+    "buildTimestamp": 1729567088.856684,
+    "creationTimestamp": 1729567727.5294762,
+    "modules": {
+      "Blip": {
+        "creationTimestamp": 1729567727.595593
+      },
+      "Coin": {
+        "creationTimestamp": 1729567727.6443903
+      },
+      "DTrig": {
+        "creationTimestamp": 1729567727.7093923
+      },
+      "Hit": {
+        "creationTimestamp": 1729567727.7593596
+      },
+      "UT-P": {
+        "creationTimestamp": 1729567727.8075736
+      },
+      "UT-OX": {
+        "creationTimestamp": 1729567727.8583992
+      }
+    }
+  },
+  "BlackNoiseModular": {
+    "buildTimestamp": 1729567155.4429193,
+    "creationTimestamp": 1729567727.9417233,
+    "modules": {
+      "Cosmos": {
+        "creationTimestamp": 1729567727.992664
+      },
+      "GomaII": {
+        "creationTimestamp": 1729567728.0383458
+      },
+      "SlewLFO": {
+        "creationTimestamp": 1729567728.084491
       }
     }
   }
