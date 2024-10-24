@@ -867,3 +867,6 @@
 [submodule "repos/VectorModular"]
 	path = repos/VectorModular
 	url = https://github.com/vectormodular/VectorModular.git
+[submodule "repos/acModules"]
+	path = repos/acModules
+	url = https://github.com/gwygonik/acModules.git
