@@ -864,3 +864,6 @@
 [submodule "repos/DigitalAtavism"]
 	path = repos/DigitalAtavism
 	url = https://github.com/lazerfalcon/DigitalAtavism.git
+[submodule "repos/VectorModular"]
+	path = repos/VectorModular
+	url = https://github.com/vectormodular/VectorModular.git
