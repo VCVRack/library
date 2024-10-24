@@ -1,0 +1,63 @@
+{
+  "slug": "VectorModular",
+  "name": "Vector Modular",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Vector Modular",
+  "author": "Steve Brenner",
+  "authorEmail": "steve@vectormodular.com",
+  "authorUrl": "https://vectormodular.com/about/",
+  "pluginUrl": "https://vectormodular.com/",
+  "manualUrl": "https://vectormodular.com/",
+  "sourceUrl": "https://github.com/vectormodular/VectorModular",
+  "donateUrl": "https://vectormodular.com/contribute/",
+  "changelogUrl": "https://github.com/vectormodular/VectorModular/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "baseTrigs",
+      "name": "baseTrigs",
+      "description": "Clock-signal generator with tempo control, reset, and rhythmic divisions.",
+      "manualUrl": "https://vectormodular.com/modules/baseTrig",
+      "donateUrl": "https://vectormodular.com/contribute/",
+      "tags": [
+        "Clock Generator",
+        "Clock Modulator"
+      ]
+    },
+    {
+      "slug": "ThreeIx9o",
+      "name": "3i/9o",
+      "description": "Flexible multiple that uses normalled connections to connect outputs.",
+      "manualUrl": "https://vectormodular.com/modules/3i9o",
+      "donateUrl": "https://vectormodular.com/contribute/",
+      "tags": [
+        "Multiple"
+      ]
+    },
+    {
+      "slug": "SoloMixer",
+      "name": "soloMixer",
+      "description": "Color-coded 3-channel mixer with solo performance control, cascading outputs, and CV offset.",
+      "manualUrl": "https://vectormodular.com/modules/soloMixer",
+      "donateUrl": "https://vectormodular.com/contribute/",
+      "tags": [
+        "Mixer",
+        "Controller",
+        "Attenuator"
+      ]
+    },
+    {
+      "slug": "BaseOsc",
+      "name": "baseOsc",
+      "description": "Versatile oscillator with analog waveforms, FM, PWM, wavetable synthesis, regular and digital noise, quantization, and bit reduction.",
+      "manualUrl": "https://vectormodular.com/modules/baseOsc",
+      "donateUrl": "https://vectormodular.com/contribute/",
+      "tags": [
+        "Oscillator",
+        "Noise",
+        "Quantizer",
+        "Digital"
+      ]
+    }
+  ]
+}

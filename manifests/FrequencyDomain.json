@@ -1,14 +1,14 @@
 {
   "slug": "FrequencyDomain",
   "name": "Frequency Domain",
-  "version": "2.0.0",
-  "license": "Proprietary",
+  "version": "2.0.3",
+  "license": "GPL-3.0-only",
   "brand": "Frequency Domain",
   "author": "almostEric with JerrySV, Jatin Chowdhury",
   "authorEmail": "almostEric@frozenwastelandmodules.com",
-  "manualUrl": "https://github.com/almostEric/Frequency-Domain-Manual/blob/master/README.md",
+  "manualUrl": "https://github.com/almostEric/Frequency-Domain/blob/master/README.md",
   "donateUrl": "https://paypal.me/FrozenWasteland",
-  "changelogUrl": "https://github.com/almostEric/Frequency-Domain-Manual/blob/master/CHANGELOG.md",
+  "changelogUrl": "https://github.com/almostEric/Frequency-Domain/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "BallOfConfusion",
@@ -43,7 +43,7 @@
     {
       "slug": "DelayedReaction",
       "name": "Delayed Reaction",
-      "description": "Spectrum based delay",
+      "description": "Spectral Delay",
       "tags": [
         "Delay",
         "Effect"

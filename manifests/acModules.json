@@ -1,0 +1,54 @@
+{
+  "slug": "acModules",
+  "name": "acModules",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "artificialcolors",
+  "author": "g.wygonik",
+  "authorEmail": "gw@artificialcolors.com",
+  "authorUrl": "https://github.com/gwygonik/",
+  "pluginUrl": "https://github.com/gwygonik/acModules",
+  "manualUrl": "https://github.com/gwygonik/acModules",
+  "sourceUrl": "https://github.com/gwygonik/acModules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Pick6",
+      "name": "Pick6",
+      "description": "8-step finger-pickin' trigger sequencer (1:6 patterned switch), with optional 'Smart Riff' functionality.",
+      "tags": [
+        "Sequencer",
+        "Switch",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Ov3rCross",
+      "name": "Ov3rCross",
+      "description": "3-Band CV and Trigger Crossover.",
+      "tags": [
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Pick6p",
+      "name": "Pick6p",
+      "description": "Custom pattern programmer for Pick6 (as a right-side expander).",
+      "tags": [
+        "Utility",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Chord4Roy",
+      "name": "Chord4Roy",
+      "description": "Guitar-style polyphonic chord CV generator.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
