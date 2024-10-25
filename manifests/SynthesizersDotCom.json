@@ -1,0 +1,250 @@
+{
+  "slug": "SynthesizersDotCom",
+  "name": "Synthesizers.com",
+  "version": "2.0.0",
+  "license": "Proprietary",
+  "brand": "Synthesizers.com",
+  "author": "Vult-DSP",
+  "authorEmail": "leonardo@vult-dsp.com",
+  "authorUrl": "www.vult-dsp.com",
+  "pluginUrl": "",
+  "manualUrl": "https://shop.synthesizers.com/collections/all-modules",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Q105",
+      "name": "Q105",
+      "description": "Slew Limiter",
+      "tags": [
+        "Slew limiter",
+        "Poly"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q105"
+    },
+    {
+      "slug": "Q106",
+      "name": "Q106",
+      "description": "Oscillator",
+      "tags": [
+        "Oscillator",
+        "Low-frequency oscillator",
+        "Poly"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q106-oscillator"
+    },
+    {
+      "slug": "Q107",
+      "name": "Q107",
+      "description": "State Variable Filter",
+      "tags": [
+        "Filter",
+        "Poly"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q107"
+    },
+    {
+      "slug": "Q108",
+      "name": "Q108",
+      "description": "Amplifier",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Poly"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q108"
+    },
+    {
+      "slug": "Q109",
+      "name": "Q109",
+      "description": "Envelope Generator",
+      "tags": [
+        "Envelope generator",
+        "Poly"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q109"
+    },
+    {
+      "slug": "Q110",
+      "name": "Q110",
+      "description": "Noise",
+      "tags": [
+        "Noise"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q110"
+    },
+    {
+      "slug": "Q111",
+      "name": "Q111",
+      "description": "Pan / Fade",
+      "tags": [
+        "Panning",
+        "Utility"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q111"
+    },
+    {
+      "slug": "Q112",
+      "name": "Q112",
+      "description": "4 Channel Mixer",
+      "tags": [
+        "Mixer",
+        "Quad",
+        "Poly"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q112"
+    },
+    {
+      "slug": "Q115",
+      "name": "Q115",
+      "description": "Reverb",
+      "tags": [
+        "Reverb"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q115"
+    },
+    {
+      "slug": "Q117",
+      "name": "Q117",
+      "description": "Sample & Hold",
+      "tags": [
+        "Sample and hold",
+        "Poly"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q117"
+    },
+    {
+      "slug": "Q119A",
+      "name": "Q119A",
+      "description": "Sequential Controller",
+      "tags": [
+        "Sequencer"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q119a-sequential-controller"
+    },
+    {
+      "slug": "Q123",
+      "name": "Q123",
+      "description": "Standards (Voltage and Frequency)",
+      "tags": [
+        "Utility",
+        "Tuner"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q123"
+    },
+    {
+      "slug": "Q125",
+      "name": "Q125",
+      "description": "Signal Processor",
+      "tags": [
+        "Utility",
+        "Attenuator"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q125"
+    },
+    {
+      "slug": "Q127",
+      "name": "Q127",
+      "description": "Fixed Filter Bank",
+      "tags": [
+        "Filter"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q127"
+    },
+    {
+      "slug": "Q128",
+      "name": "Q128",
+      "description": "Switch",
+      "tags": [
+        "Utility",
+        "Switch"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q128"
+    },
+    {
+      "slug": "Q130",
+      "name": "Q130",
+      "description": "Clipper",
+      "tags": [
+        "Distortion",
+        "Effect"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q130"
+    },
+    {
+      "slug": "Q147",
+      "name": "Q147",
+      "description": "Distribuitor",
+      "tags": [
+        "Multiple",
+        "Attenuator"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q147"
+    },
+    {
+      "slug": "Q167",
+      "name": "Q167",
+      "description": "Low Frequency Oscillator",
+      "tags": [
+        "Low-frequency oscillator"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q167"
+    },
+    {
+      "slug": "Q171",
+      "name": "Q171",
+      "description": "Quantizer Bank",
+      "tags": [
+        "Quantizer",
+        "Poly"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q171"
+    },
+    {
+      "slug": "Q174",
+      "name": "Q174",
+      "description": "MIDI Interface",
+      "tags": [
+        "External"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q174"
+    },
+    {
+      "slug": "Q173",
+      "name": "Q173",
+      "description": "Gate Math",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Sequencer"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q174"
+    },
+    {
+      "slug": "Q962",
+      "name": "Q962",
+      "description": "Sequential Switch",
+      "tags": [
+        "Switch"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q962"
+    },
+    {
+      "slug": "Q138",
+      "name": "Q138",
+      "description": "Logo Panel",
+      "tags": [
+        "Blank"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q138"
+    },
+    {
+      "slug": "Q139",
+      "name": "Q139",
+      "description": "Patcher Jack Panel",
+      "tags": [
+        "Blank"
+      ],
+      "manualUrl": "https://shop.synthesizers.com/products/q139"
+    }
+  ]
+}
