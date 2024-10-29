@@ -1,7 +1,7 @@
 {
   "slug": "acModules",
   "name": "acModules",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "license": "GPL-3.0-or-later",
   "brand": "artificialcolors",
   "author": "g.wygonik",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/gwygonik/acModules",
   "sourceUrl": "https://github.com/gwygonik/acModules",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/gwygonik/acModules",
   "modules": [
     {
       "slug": "Pick6",
@@ -48,6 +48,15 @@
       "tags": [
         "Utility",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Rhythm1101",
+      "name": "Rhythm1101",
+      "description": "16-step drum-oriented trigger sequencer (1:4 patterned switch), with preset grooves.",
+      "tags": [
+        "Sequencer",
+        "Switch"
       ]
     }
   ]

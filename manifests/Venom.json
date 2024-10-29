@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.9.1",
+  "version": "2.10.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -28,7 +28,7 @@
       "slug": "BayInput",
       "name": "Bay Input",
       "description": "Teleporting input utility with custom labels for patch bays",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bay-input",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bay-modules",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -38,7 +38,7 @@
       "slug": "BayNorm",
       "name": "Bay Normal",
       "description": "Teleporting output utility with normal inputs and custom labels for patch bays",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bay-normal",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bay-modules",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -48,7 +48,7 @@
       "slug": "BayOutput",
       "name": "Bay Output",
       "description": "Teleporting output utility with custom labels for patch bays",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bay-output",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bay-modules",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -308,6 +308,16 @@
       ]
     },
     {
+      "slug": "MousePad",
+      "name": "Mouse Pad",
+      "description": "Use your mouse as a controller",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mouse-pad",
+      "tags": [
+        "Controller",
+        "Utility"
+      ]
+    },
+    {
       "slug": "MultiMerge",
       "name": "Multi Merge",
       "description": "Merge one or more sets of mono and/or poly inputs into polyphonic outputs",
@@ -355,6 +365,18 @@
       "tags": [
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "PolyFade",
+      "name": "Poly Fade",
+      "description": "Cross fade between channels of a polyphonic signal",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-fade",
+      "tags": [
+        "Envelope Generator",
+        "Polyphonic",
+        "Sequencer",
+        "Switch"
       ]
     },
     {
@@ -409,6 +431,20 @@
         "Controller",
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "QuadVCPolarizer",
+      "name": "Quad VC Polarizer",
+      "description": "Compact polyphonic bipolar VCA and mixer inspired by Mutable Instruments Blinds",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#quad-vc-polarizer",
+      "tags": [
+        "Attenuator",
+        "Mixer",
+        "Polyphonic",
+        "Ring modulator",
+        "Utility",
+        "Voltage-controlled amplifier"
       ]
     },
     {
@@ -518,6 +554,18 @@
       "slug": "Oscillator",
       "name": "VCO Lab",
       "description": "Audio or low frequency oscillator with 4 simultaneous waveforms, mixing, linear/exponential FM, phase modulation, hard/soft sync, PWM, and more",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#vco-lab",
+      "tags": [
+        "Function generator",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "VCOUnit",
+      "name": "VCO Unit",
+      "description": "A smaller version of VCO Lab with only one selectable waveform at a time, and no mixing capabilities",
       "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#vco-lab",
       "tags": [
         "Function generator",
