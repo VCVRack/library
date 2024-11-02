@@ -1,0 +1,28 @@
+{
+  "slug": "BastlPizza",
+  "name": "Bastl Pizza",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Bastl",
+  "author": "Bastl, Ewan Hemingway",
+  "authorEmail": "",
+  "authorUrl": "https://aforestfullofsines.com",
+  "manualUrl": "https://bastl-instruments.com/eurorack#modules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Crust",
+      "name": "Crust",
+      "description": "Bastl Crust is a hard-hitting drum voice that goes way beyond drum territory.",
+      "manualUrl": "https://bastl-instruments.com/eurorack/modules/crust",
+      "modularGridUrl": "https://modulargrid.net/e/bastl-instruments-crust",
+      "tags": [
+        "Drum",
+        "Hardware Clone",
+        "Oscillator",
+        "Noise"
+      ]
+    }
+  ]
+}

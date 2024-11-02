@@ -1872,5 +1872,12 @@
     "vcvUrl": "https://library.vcvrack.com/BlackNoiseModular/SlewLFO",
     "mgUrl": "https://modulargrid.net/e/black-noise-slew-lfo-",
     "mgModuleId": 38712
+  },
+  {
+    "pluginSlug": "BastlPizza",
+    "moduleSlug": "Crust",
+    "vcvUrl": "https://library.vcvrack.com/BastlPizza/Crust",
+    "mgUrl": "https://modulargrid.net/e/bastl-instruments-crust",
+    "mgModuleId": 48851
   }
 ]
