@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1729567310.891924,
+    "buildTimestamp": 1730755453.1180902,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -470,6 +470,9 @@
       },
       "noteDetector": {
         "creationTimestamp": 1704333638.0587897
+      },
+      "cue_research": {
+        "creationTimestamp": 1730755512.9604619
       }
     }
   },
@@ -6014,7 +6017,7 @@
     "modules": {}
   },
   "NonlinearCircuits": {
-    "buildTimestamp": 1729363772.9006455,
+    "buildTimestamp": 1730755206.982187,
     "creationTimestamp": 1582350675.0,
     "modules": {
       "BOOLs": {
@@ -13896,7 +13899,7 @@
     }
   },
   "CVfunk": {
-    "buildTimestamp": 1729362759.0912879,
+    "buildTimestamp": 1730755284.6287775,
     "creationTimestamp": 1711827243.9642084,
     "modules": {
       "Steps": {
@@ -14430,7 +14433,7 @@
     }
   },
   "Wygonium": {
-    "buildTimestamp": 1729567070.9401343,
+    "buildTimestamp": 1730755158.822234,
     "creationTimestamp": 1727604799.6599896,
     "modules": {
       "ORBsqVi": {
@@ -14511,7 +14514,7 @@
     }
   },
   "BlackNoiseModular": {
-    "buildTimestamp": 1729567155.4429193,
+    "buildTimestamp": 1730755512.871338,
     "creationTimestamp": 1729567727.9417233,
     "modules": {
       "Cosmos": {
@@ -14526,7 +14529,7 @@
     }
   },
   "acModules": {
-    "buildTimestamp": 1730227604.2685342,
+    "buildTimestamp": 1730755489.7847044,
     "creationTimestamp": 1729793469.3900518,
     "modules": {
       "Pick6": {
@@ -14543,6 +14546,12 @@
       },
       "Rhythm1101": {
         "creationTimestamp": 1730227604.5116591
+      },
+      "Merc8or": {
+        "creationTimestamp": 1730755513.041858
+      },
+      "Pul5es": {
+        "creationTimestamp": 1730755513.1124332
       }
     }
   },

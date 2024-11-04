@@ -1,7 +1,7 @@
 {
   "slug": "acModules",
   "name": "acModules",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "license": "GPL-3.0-or-later",
   "brand": "artificialcolors",
   "author": "g.wygonik",
@@ -53,10 +53,28 @@
     {
       "slug": "Rhythm1101",
       "name": "Rhythm1101",
-      "description": "16-step drum-oriented trigger sequencer (1:4 patterned switch), with preset grooves.",
+      "description": "16-step drum-oriented trigger sequencer with preset grooves.",
       "tags": [
         "Sequencer",
         "Switch"
+      ]
+    },
+    {
+      "slug": "Merc8or",
+      "name": "Merc8or",
+      "description": "Quickly remap, scale, and/or invert one range of polyphonic CV values to another.",
+      "tags": [
+        "Attenuator",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Pul5es",
+      "name": "Pul5es",
+      "description": "Outputs a trigger pulse upon receiving a specified number of incoming pulses.",
+      "tags": [
+        "Utility"
       ]
     }
   ]

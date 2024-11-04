@@ -1,14 +1,14 @@
 {
   "slug": "BlackNoiseModular",
   "name": "BlackNoiseModular",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "GPL-3.0-or-later",
   "brand": "BlackNoiseModular",
   "author": "Alexandre Simon, Ewan Hemingway",
   "authorEmail": "",
   "authorUrl": "https://blacknoisemodular.com/",
   "pluginUrl": "",
-  "manualUrl": "",
+  "manualUrl": "https://github.com/BlackNoiseModular/VCV/blob/master/README.md",
   "sourceUrl": "https://github.com/BlackNoiseModular/VCV",
   "donateUrl": "",
   "changelogUrl": "https://github.com/BlackNoiseModular/VCV/blob/master/CHANGELOG.md",
@@ -22,7 +22,8 @@
       "tags": [
         "Hardware clone",
         "Logic",
-        "Multiple"
+        "Multiple",
+        "Polyphonic"
       ]
     },
     {
@@ -47,7 +48,8 @@
       "tags": [
         "Hardware clone",
         "Low-frequency oscillator",
-        "Slew limiter"
+        "Slew limiter",
+        "Polyphonic"
       ]
     }
   ]
