@@ -1879,5 +1879,173 @@
     "vcvUrl": "https://library.vcvrack.com/BastlPizza/Crust",
     "mgUrl": "https://modulargrid.net/e/bastl-instruments-crust",
     "mgModuleId": 48851
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q105",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q105",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q105-slew-limiter",
+    "mgModuleId": 635
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q106",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q106",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q106-oscillator-vco",
+    "mgModuleId": 636
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q107",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q107",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q107-state-variable-filter-vcf",
+    "mgModuleId": 638
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q108",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q108",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q108-amplifier-vca",
+    "mgModuleId": 639
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q109",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q109",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q109-envelope-generator",
+    "mgModuleId": 640
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q110",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q110",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q110-noise-source",
+    "mgModuleId": 641
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q111",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q111",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q111-pan-fade",
+    "mgModuleId": 642
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q112",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q112",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q112-4-channel-mixer",
+    "mgModuleId": 643
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q115",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q115",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q115-spring-reverb",
+    "mgModuleId": 645
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q117",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q117",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q117-sample-and-hold",
+    "mgModuleId": 647
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q119A",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q119A",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q119a",
+    "mgModuleId": 34383
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q123",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q123",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q123-standards",
+    "mgModuleId": 653
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q125",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q125",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q125-signal-processor",
+    "mgModuleId": 655
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q127",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q127",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q127-fixed-filter-bank",
+    "mgModuleId": 656
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q128",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q128",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q128-switch",
+    "mgModuleId": 657
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q130",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q130",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q130-clipper-rectifier",
+    "mgModuleId": 658
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q147",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q147",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q147-distributor",
+    "mgModuleId": 670
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q167",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q167",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q167-lfo-low-frequency-oscillator",
+    "mgModuleId": 6678
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q171",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q171",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q171-quantizer-bank-",
+    "mgModuleId": 675
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q174",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q174",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q174-midi-interface",
+    "mgModuleId": 2559
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q173",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q173",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q173-gate-math",
+    "mgModuleId": 8265
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q962",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q962",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q962-sequential-switch",
+    "mgModuleId": 680
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q138",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q138",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q138-logo-panel",
+    "mgModuleId": 664
+  },
+  {
+    "pluginSlug": "SynthesizersDotCom",
+    "moduleSlug": "Q139",
+    "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q139",
+    "mgUrl": "https://modulargrid.net/d/synthesizers-com-q139-patcher-jack-panel",
+    "mgModuleId": 9681
   }
 ]

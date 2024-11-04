@@ -1,12 +1,12 @@
 {
   "slug": "SynthesizersDotCom",
   "name": "Synthesizers.com",
-  "version": "2.0.0",
-  "license": "Proprietary",
+  "version": "2.0.2",
+  "license": "proprietary",
   "brand": "Synthesizers.com",
   "author": "Vult-DSP",
   "authorEmail": "leonardo@vult-dsp.com",
-  "authorUrl": "www.vult-dsp.com",
+  "authorUrl": "https://www.vult-dsp.com",
   "pluginUrl": "",
   "manualUrl": "https://shop.synthesizers.com/collections/all-modules",
   "sourceUrl": "",
@@ -14,237 +14,285 @@
   "modules": [
     {
       "slug": "Q105",
-      "name": "Q105",
+      "name": "Q105 Slew Limiter",
       "description": "Slew Limiter",
       "tags": [
+        "Hardware clone",
         "Slew limiter",
         "Poly"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q105"
+      "manualUrl": "https://shop.synthesizers.com/products/q105",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q105-slew-limiter"
     },
     {
       "slug": "Q106",
-      "name": "Q106",
+      "name": "Q106 Oscillator",
       "description": "Oscillator",
       "tags": [
+        "Hardware clone",
         "Oscillator",
         "Low-frequency oscillator",
         "Poly"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q106-oscillator"
+      "manualUrl": "https://shop.synthesizers.com/products/q106-oscillator",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q106-oscillator-vco"
     },
     {
       "slug": "Q107",
-      "name": "Q107",
+      "name": "Q107 State Variable Filter",
       "description": "State Variable Filter",
       "tags": [
+        "Hardware clone",
         "Filter",
         "Poly"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q107"
+      "manualUrl": "https://shop.synthesizers.com/products/q107",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q107-state-variable-filter-vcf"
     },
     {
       "slug": "Q108",
-      "name": "Q108",
+      "name": "Q108 Amplifier",
       "description": "Amplifier",
       "tags": [
+        "Hardware clone",
         "Voltage-controlled amplifier",
         "Poly"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q108"
+      "manualUrl": "https://shop.synthesizers.com/products/q108",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q108-amplifier-vca"
     },
     {
       "slug": "Q109",
-      "name": "Q109",
+      "name": "Q109 Envelope Generator",
       "description": "Envelope Generator",
       "tags": [
+        "Hardware clone",
         "Envelope generator",
         "Poly"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q109"
+      "manualUrl": "https://shop.synthesizers.com/products/q109",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q109-envelope-generator"
     },
     {
       "slug": "Q110",
-      "name": "Q110",
+      "name": "Q110 Noise",
       "description": "Noise",
       "tags": [
+        "Hardware clone",
         "Noise"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q110"
+      "manualUrl": "https://shop.synthesizers.com/products/q110",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q110-noise-source"
     },
     {
       "slug": "Q111",
-      "name": "Q111",
+      "name": "Q111 Pan / Fade",
       "description": "Pan / Fade",
       "tags": [
+        "Hardware clone",
         "Panning",
         "Utility"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q111"
+      "manualUrl": "https://shop.synthesizers.com/products/q111",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q111-pan-fade"
     },
     {
       "slug": "Q112",
-      "name": "Q112",
+      "name": "Q112 4 Channel Mixer",
       "description": "4 Channel Mixer",
       "tags": [
+        "Hardware clone",
         "Mixer",
         "Quad",
         "Poly"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q112"
+      "manualUrl": "https://shop.synthesizers.com/products/q112",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q112-4-channel-mixer"
     },
     {
       "slug": "Q115",
-      "name": "Q115",
+      "name": "Q115 Reverb",
       "description": "Reverb",
       "tags": [
+        "Hardware clone",
         "Reverb"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q115"
+      "manualUrl": "https://shop.synthesizers.com/products/q115",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q115-spring-reverb"
     },
     {
       "slug": "Q117",
-      "name": "Q117",
+      "name": "Q117 Sample & Hold",
       "description": "Sample & Hold",
       "tags": [
+        "Hardware clone",
         "Sample and hold",
         "Poly"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q117"
+      "manualUrl": "https://shop.synthesizers.com/products/q117",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q117-sample-and-hold"
     },
     {
       "slug": "Q119A",
-      "name": "Q119A",
+      "name": "Q119A Sequential Controller",
       "description": "Sequential Controller",
       "tags": [
+        "Hardware clone",
         "Sequencer"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q119a-sequential-controller"
+      "manualUrl": "https://shop.synthesizers.com/products/q119a-sequential-controller",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q119a"
     },
     {
       "slug": "Q123",
-      "name": "Q123",
+      "name": "Q123 Standards (Voltage and Frequency)",
       "description": "Standards (Voltage and Frequency)",
       "tags": [
+        "Hardware clone",
         "Utility",
         "Tuner"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q123"
+      "manualUrl": "https://shop.synthesizers.com/products/q123",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q123-standards"
     },
     {
       "slug": "Q125",
-      "name": "Q125",
+      "name": "Q125 Signal Processor",
       "description": "Signal Processor",
       "tags": [
+        "Hardware clone",
         "Utility",
         "Attenuator"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q125"
+      "manualUrl": "https://shop.synthesizers.com/products/q125",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q125-signal-processor"
     },
     {
       "slug": "Q127",
-      "name": "Q127",
+      "name": "Q127 Fixed Filter Bank",
       "description": "Fixed Filter Bank",
       "tags": [
+        "Hardware clone",
         "Filter"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q127"
+      "manualUrl": "https://shop.synthesizers.com/products/q127",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q127-fixed-filter-bank"
     },
     {
       "slug": "Q128",
-      "name": "Q128",
+      "name": "Q128 Switch",
       "description": "Switch",
       "tags": [
+        "Hardware clone",
         "Utility",
         "Switch"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q128"
+      "manualUrl": "https://shop.synthesizers.com/products/q128",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q128-switch"
     },
     {
       "slug": "Q130",
-      "name": "Q130",
+      "name": "Q130 Clipper",
       "description": "Clipper",
       "tags": [
+        "Hardware clone",
         "Distortion",
         "Effect"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q130"
+      "manualUrl": "https://shop.synthesizers.com/products/q130",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q130-clipper-rectifier"
     },
     {
       "slug": "Q147",
-      "name": "Q147",
+      "name": "Q147 Distribuitor",
       "description": "Distribuitor",
       "tags": [
+        "Hardware clone",
         "Multiple",
         "Attenuator"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q147"
+      "manualUrl": "https://shop.synthesizers.com/products/q147",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q147-distributor"
     },
     {
       "slug": "Q167",
-      "name": "Q167",
+      "name": "Q167 Low Frequency Oscillator",
       "description": "Low Frequency Oscillator",
       "tags": [
+        "Hardware clone",
         "Low-frequency oscillator"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q167"
+      "manualUrl": "https://shop.synthesizers.com/products/q167",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q167-lfo-low-frequency-oscillator"
     },
     {
       "slug": "Q171",
-      "name": "Q171",
+      "name": "Q171 Quantizer Bank",
       "description": "Quantizer Bank",
       "tags": [
+        "Hardware clone",
         "Quantizer",
         "Poly"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q171"
+      "manualUrl": "https://shop.synthesizers.com/products/q171",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q171-quantizer-bank-"
     },
     {
       "slug": "Q174",
-      "name": "Q174",
+      "name": "Q174 MIDI Interface",
       "description": "MIDI Interface",
       "tags": [
+        "Hardware clone",
         "External"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q174"
+      "manualUrl": "https://shop.synthesizers.com/products/q174",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q174-midi-interface"
     },
     {
       "slug": "Q173",
-      "name": "Q173",
+      "name": "Q173 Gate Math",
       "description": "Gate Math",
       "tags": [
+        "Hardware clone",
         "Clock generator",
         "Clock modulator",
         "Sequencer"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q174"
+      "manualUrl": "https://shop.synthesizers.com/products/q173",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q173-gate-math"
     },
     {
       "slug": "Q962",
-      "name": "Q962",
+      "name": "Q962 Sequential Switch",
       "description": "Sequential Switch",
       "tags": [
+        "Hardware clone",
         "Switch"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q962"
+      "manualUrl": "https://shop.synthesizers.com/products/q962",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q962-sequential-switch"
     },
     {
       "slug": "Q138",
-      "name": "Q138",
+      "name": "Q138 Logo Panel",
       "description": "Logo Panel",
       "tags": [
+        "Hardware clone",
         "Blank"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q138"
+      "manualUrl": "https://shop.synthesizers.com/products/q138",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q138-logo-panel"
     },
     {
       "slug": "Q139",
-      "name": "Q139",
+      "name": "Q139 Patcher Jack Panel",
       "description": "Patcher Jack Panel",
       "tags": [
+        "Hardware clone",
         "Blank"
       ],
-      "manualUrl": "https://shop.synthesizers.com/products/q139"
+      "manualUrl": "https://shop.synthesizers.com/products/q139",
+      "modularGridUrl": "https://modulargrid.net/d/synthesizers-com-q139-patcher-jack-panel"
     }
   ]
 }
