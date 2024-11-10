@@ -1,7 +1,7 @@
 {
   "slug": "acModules",
   "name": "acModules",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "license": "GPL-3.0-or-later",
   "brand": "artificialcolors",
   "author": "g.wygonik",
@@ -74,6 +74,15 @@
       "name": "Pul5es",
       "description": "Outputs a trigger pulse upon receiving a specified number of incoming pulses.",
       "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "CFor2N2ForC",
+      "name": "CFor2N2ForC",
+      "description": "Output a configurable CV and/or trigger across a 1V/Oct semitone CV input.",
+      "tags": [
+        "Polyphonic",
         "Utility"
       ]
     }

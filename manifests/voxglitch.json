@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.30.0",
+  "version": "2.31.0",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -206,6 +206,14 @@
       "slug": "satanonaut",
       "name": "Satanonaut",
       "description": "Based on the new comic Galacto Pitfighter: An alien entity hell-bent on mutilating your audio.",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "satanonaut_unearthed",
+      "name": "Satanonaut Unearthed",
+      "description": "Satanonaut blank panel",
       "tags": [
         "Effect"
       ]
