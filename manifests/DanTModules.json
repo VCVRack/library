@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.43",
+  "version": "2.4.44",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -210,6 +210,17 @@
       ],
       "keywords": "charlie foxtrot cluster funk VCA slew counter rise fall",
       "manualUrl": "https://community.vcvrack.com/t/dant-charlie-foxtrot/"
+    },
+    {
+      "slug": "TNM",
+      "name": "That's No Moon",
+      "description": "[8hp] It's a space station... erm, no, actually it's a generative sequencer that gives you something new every day.",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "thats no moon generative sequencer star wars death star space station pet rock random flavour rhythm",
+      "manualUrl": "https://community.vcvrack.com/t/dant-that-s-no-moon/"
     }
   ]
 }
