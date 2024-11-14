@@ -1,14 +1,14 @@
 {
   "slug": "24conditions",
   "name": "24conditions",
-  "version": "2.0.0c",
+  "version": "2.0.0d",
   "license": "proprietary",
   "brand": "24conditions",
   "author": "jhe",
   "authorEmail": "24conditions@gmail.com",
   "authorUrl": "http://j-he.net",
   "pluginUrl": "http://j-he.net/24conditions",
-  "manualUrl": "http://j-he.net/24condmain",
+  "manualUrl": "http://j-he.net/24cond",
   "sourceUrl": "",
   "donateUrl": "https://ko-fi.com/24conditions",
   "changelogUrl": "",
@@ -71,6 +71,22 @@
         "Low-frequency Oscillator",
         "Multiple",
         "Function generator"
+      ]
+    },
+    {
+      "slug": "Emptiness10",
+      "name": "Emptiness10",
+      "description": "the most astounding sound is silence",
+      "tags": [
+        "blank"
+      ]
+    },
+    {
+      "slug": "Emptiness4",
+      "name": "Emptiness4",
+      "description": "the most astounding sound is silence",
+      "tags": [
+        "blank"
       ]
     }
   ]
