@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -87,7 +87,7 @@
     {
       "slug": "BernoulliSwitch",
       "name": "Bernoulli Switch",
-      "description": "Randomly route two inputs to two outputs, with built in scaling and offset capabilities",
+      "description": "Stochastically route two inputs to two outputs, with built in scaling and offset capabilities",
       "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bernoulli-switch",
       "tags": [
         "Attenuator",
@@ -374,6 +374,7 @@
       "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-fade",
       "tags": [
         "Envelope Generator",
+        "Low-frequency oscillator",
         "Polyphonic",
         "Sequencer",
         "Switch"
@@ -488,7 +489,7 @@
     {
       "slug": "RhythmExplorer",
       "name": "Rhythm Explorer",
-      "description": "Random rhythm generator, trigger sequencer and clock divider",
+      "description": "Stochastic rhythm generator, trigger sequencer and clock divider",
       "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#rhythm-explorer",
       "tags": [
         "Clock modulator",
@@ -584,12 +585,24 @@
       ]
     },
     {
+      "slug": "WaveFolder",
+      "name": "Wave Folder",
+      "description": "A polyphonic configurable wave folder",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#widget-menu-extender",
+      "tags": [
+        "Polyphonic",
+        "Ring modulator",
+        "Voltage-controlled amplifier",
+        "Waveshaper"
+      ]
+    },
+    {
       "slug": "WidgetMenuExtender",
       "name": "Widget Menu Extender",
       "description": "Extend context menus to support parameter/port renaming and parameter custom defaults",
       "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#widget-menu-extender",
       "tags": [
-        "Blank"
+        "Utility"
       ]
     },
     {

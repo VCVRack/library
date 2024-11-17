@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.7.1",
+  "version": "2.8.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -330,6 +330,32 @@
         "Hardware clone",
         "Oscillator",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Bypass",
+      "name": "Bypass",
+      "description": "A Stereo bypass module to gate control the send of your signals to your favorite effect!",
+      "manualUrl": "https://www.befaco.org/molten-bypass/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-molten-bypass",
+      "tags": [
+        "Hardware clone",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Bandit",
+      "name": "Bandit",
+      "description": "A spectral processing playground.",
+      "tags": [
+        "Equalizer",
+        "Filter",
+        "Hardware clone",
+        "Mixer",
+        "Polyphonic",
+        "Utility"
       ]
     }
   ]

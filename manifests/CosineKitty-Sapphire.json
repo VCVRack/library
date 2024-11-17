@@ -1,14 +1,14 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
   "authorEmail": "cosinekitty@gmail.com",
   "authorUrl": "https://www.youtube.com/@CosineKitty",
   "pluginUrl": "https://github.com/cosinekitty/sapphire",
-  "manualUrl": "https://github.com/cosinekitty/sapphire",
+  "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/README.md",
   "sourceUrl": "https://github.com/cosinekitty/sapphire",
   "donateUrl": "",
   "changelogUrl": "https://github.com/cosinekitty/sapphire/blob/main/CHANGELOG.md",
@@ -76,6 +76,17 @@
       "tags": [
         "Noise",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Lark",
+      "name": "Lark",
+      "description": "Chaotic oscillator based on the Dequan Li Attractor.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Lark.md",
+      "tags": [
+        "Physical modeling",
+        "Effect",
+        "Low-frequency oscillator"
       ]
     },
     {

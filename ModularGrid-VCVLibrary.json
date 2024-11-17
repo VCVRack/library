@@ -2047,5 +2047,12 @@
     "vcvUrl": "https://library.vcvrack.com/SynthesizersDotCom/Q139",
     "mgUrl": "https://modulargrid.net/d/synthesizers-com-q139-patcher-jack-panel",
     "mgModuleId": 9681
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Bypass",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Bypass",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-molten-bypass",
+    "mgModuleId": 50611
   }
 ]
