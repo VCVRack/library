@@ -1,7 +1,7 @@
 {
   "slug": "NANOModules",
   "name": "NANO Modules",
-  "version": "2.3.7",
+  "version": "2.3.8",
   "license": "Proprietary",
   "brand": "NANO Modules",
   "author": "Jorge Gutierrez",
@@ -163,7 +163,7 @@
       "slug": "ARC",
       "name": "ARC",
       "description": "Dual Function Generator",
-      "manualUrl": "",
+      "manualUrl": "https://nano-modules.com/wp-content/uploads/2024/08/ARC-Manual.pdf",
       "modularGridUrl": "https://www.modulargrid.net/e/nano-modules-arc",
       "tags": [
         "Envelope generator",
@@ -172,6 +172,20 @@
         "Slew limiter",
         "VCA",
         "Logic",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "STFONT",
+      "name": "ST FONT",
+      "description": "Stereo Liquid Filter",
+      "manualUrl": "",
+      "modularGridUrl": "",
+      "tags": [
+        "Filter",
+        "Oscillator",
+        "VCA",
+        "Distortion",
         "Hardware clone"
       ]
     },
