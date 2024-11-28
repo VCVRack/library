@@ -2054,5 +2054,12 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/Bypass",
     "mgUrl": "https://www.modulargrid.net/e/befaco-molten-bypass",
     "mgModuleId": 50611
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "STFONT",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/STFONT",
+    "mgUrl": "https://modulargrid.net/e/nano-modules-st-font",
+    "mgModuleId": 51641
   }
 ]

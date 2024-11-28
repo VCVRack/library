@@ -1,7 +1,7 @@
 {
   "slug": "NANOModules",
   "name": "NANO Modules",
-  "version": "2.3.8.1",
+  "version": "2.3.8.2",
   "license": "Proprietary",
   "brand": "NANO Modules",
   "author": "Jorge Gutierrez",
@@ -179,8 +179,8 @@
       "slug": "STFONT",
       "name": "ST FONT",
       "description": "Stereo Liquid Filter",
-      "manualUrl": "",
-      "modularGridUrl": "",
+      "manualUrl": "https://nano-modules.com/wp-content/uploads/2024/11/STFONT-Manual.pdf",
+      "modularGridUrl": "https://modulargrid.net/e/nano-modules-st-font",
       "tags": [
         "Filter",
         "Oscillator",
