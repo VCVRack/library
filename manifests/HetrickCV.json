@@ -2,7 +2,7 @@
   "slug": "HetrickCV",
   "name": "HetrickCV",
   "brand": "HetrickCV",
-  "version": "2.4.1",
+  "version": "2.5.0",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -348,6 +348,15 @@
       ]
     },
     {
+      "slug": "PhasorFreezer",
+      "name": "Phasor Freezer",
+      "description": "Duplicates an incoming phasor, but allows you to reset it or freeze it independently of the input.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "PhasorGates",
       "name": "Phasor to Gates",
       "description": "An 8-step gate sequencer driven by a phasor.",
@@ -430,6 +439,15 @@
       ]
     },
     {
+      "slug": "PhasorProbability",
+      "name": "Phasor Probability",
+      "description": "Sends one phasor to two places randomly.",
+      "tags": [
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "PhasorQuadrature",
       "name": "Phasor Quadrature",
       "description": "Shapes a phasor into a sine, and outputs both phasors and sines at 90 degree intervals.",
@@ -493,6 +511,16 @@
       "description": "Processes phasor signals and provides a phase shifted output, optionally quantized to step distances.",
       "tags": [
         "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PhasorSplitter",
+      "name": "Phasor Splitter",
+      "description": "Splits a phasor into 64 sub-phasors.",
+      "tags": [
+        "Clock Modulator",
+        "Sequencer",
         "Polyphonic"
       ]
     },
@@ -608,6 +636,17 @@
       "tags": [
         "Mixer",
         "Switch"
+      ]
+    },
+    {
+      "slug": "TrigShaper",
+      "name": "Trigonometric Shaper",
+      "description": "Modulatable trigonometric waveshaper",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Waveshaper",
+        "Polyphonic"
       ]
     },
     {

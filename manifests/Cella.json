@@ -1,22 +1,35 @@
 {
   "slug": "Cella",
   "name": "Cella",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "license": "GPL-3.0-or-later",
   "brand": "Cella",
   "author": "Victor Kashirin",
   "authorEmail": "",
   "authorUrl": "https://victorkashirin.com/",
   "pluginUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/README.md",
-  "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.pdf",
+  "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md",
   "sourceUrl": "https://github.com/victorkashirin/CellaVCV",
   "donateUrl": "",
   "changelogUrl": "https://github.com/victorkashirin/CellaVCV/blob/master/CHANGELOG.md",
   "modules": [
     {
+      "slug": "Resonators",
+      "name": "Resonators",
+      "description": "Four pitched resonators based on Karplus-Strong algorithm",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#resonators",
+      "keywords": "resonator karplus",
+      "tags": [
+        "Effect",
+        "Filter",
+        "Physical modeling"
+      ]
+    },
+    {
       "slug": "TwinPeaks",
       "name": "Twin Peaks",
       "description": "Dual resonant filter inspired by the design of Rob Hordijk's TwinPeak filter. Made to be pinged.",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#twin-peaks",
       "keywords": "hordijk resonator ping",
       "tags": [
         "Filter",
@@ -27,6 +40,7 @@
       "slug": "Euler",
       "name": "Euler",
       "description": "Calculates rate of change of the incoming signal",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#euler",
       "keywords": "diff math rate",
       "tags": [
         "Utility",
@@ -37,6 +51,7 @@
       "slug": "Rich",
       "name": "Rich",
       "description": "Expressive AD envelope generator with controllable and breathing accent dynamics",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#rich",
       "keywords": "AD",
       "tags": [
         "Envelope generator"
@@ -46,6 +61,7 @@
       "slug": "Bezier",
       "name": "Bezier",
       "description": "Smooth random voltage generator that uses Bezier curves",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#bezier",
       "keywords": "rnd curve smooth",
       "tags": [
         "Utility",

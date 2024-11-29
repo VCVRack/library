@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.8.0",
+  "version": "2.8.2",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -14,7 +14,7 @@
     {
       "slug": "EvenVCO",
       "name": "Even VCO",
-      "description": "Oscillator including even-harmonic waveform",
+      "description": "Even VCO is an oscillator including even-harmonic waveform",
       "manualUrl": "https://www.befaco.org/even-vco/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-even-vco-",
       "tags": [
@@ -207,7 +207,7 @@
     {
       "slug": "Muxlicer",
       "name": "Muxlicer",
-      "description": "VC adressable sequential switch and sequencer",
+      "description": "Muxlicer is a VC adressable sequential switch and sequencer",
       "manualUrl": "https://github.com/VCVRack/Befaco/blob/v2/docs/Muxlicer.md",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-muxlicer",
       "tags": [
@@ -232,7 +232,7 @@
     {
       "slug": "NoisePlethora",
       "name": "Noise Plethora",
-      "description": "Multitimbral noise monster",
+      "description": "Noise Plethora is a multitimbral noise monster",
       "manualUrl": "https://www.befaco.org/noise-plethora/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-noise-plethora",
       "tags": [
@@ -260,7 +260,7 @@
     {
       "slug": "PonyVCO",
       "name": "PonyVCO",
-      "description": "Compact Thru-Zero (TZFM) oscillator with wavefolder and VCA",
+      "description": "Pony VCO is a compact Thru-Zero (TZFM) oscillator with wavefolder and VCA",
       "manualUrl": "https://www.befaco.org/pony-vco/",
       "modularGridUrl": "https://www.modulargrid.net/e/befaco-pony-vco",
       "tags": [
@@ -348,7 +348,9 @@
     {
       "slug": "Bandit",
       "name": "Bandit",
-      "description": "A spectral processing playground.",
+      "description": "Bandit is a spectral processing playground.",
+      "manualUrl": "https://www.befaco.org/bandit/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-bandit",
       "tags": [
         "Equalizer",
         "Filter",

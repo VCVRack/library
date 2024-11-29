@@ -1,7 +1,7 @@
 {
   "slug": "kocmoc",
   "name": "kocmoc",
-  "version": "2.0.3",
+  "version": "2.0.6",
   "license": "GPL-3.0-or-later",
   "brand": "kocmoc",
   "author": "janne808",
@@ -23,6 +23,15 @@
       ]
     },
     {
+      "slug": "uSVF",
+      "name": "uSVF",
+      "description": "State Variable Filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "TRG",
       "name": "TRG",
       "description": "Trigger Sequencer",
@@ -33,6 +42,15 @@
     {
       "slug": "LADR",
       "name": "LADR",
+      "description": "4-pole Ladder Filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "uLADR",
+      "name": "uLADR",
       "description": "4-pole Ladder Filter",
       "tags": [
         "Filter",

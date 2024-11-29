@@ -1,7 +1,7 @@
 {
   "slug": "acModules",
   "name": "acModules",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "license": "GPL-3.0-or-later",
   "brand": "artificialcolors",
   "author": "g.wygonik",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/gwygonik/acModules",
   "sourceUrl": "https://github.com/gwygonik/acModules",
   "donateUrl": "",
-  "changelogUrl": "https://github.com/gwygonik/acModules",
+  "changelogUrl": "https://github.com/gwygonik/acModules/blob/main/CHANGELOG.md",
   "modules": [
     {
       "slug": "Pick6",
@@ -83,6 +83,23 @@
       "description": "Output a configurable CV and/or trigger across a 1V/Oct semitone CV input.",
       "tags": [
         "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MOREc8or",
+      "name": "MOREc8or",
+      "description": "Expands Merc8or's abilities with creative tools and CV control of output range.",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "CRBVi",
+      "name": "CRBVi",
+      "description": "Two-Dimensional performance instrument with on-screen note guides, selectable octave range, optional note snapping, and Y-axis curve shapes. Can also function as a playable VCA. Virtual re-interpretation of Wygonium C|RB hardware ribbon controller.",
+      "tags": [
+        "Controller",
         "Utility"
       ]
     }

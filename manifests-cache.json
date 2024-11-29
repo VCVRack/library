@@ -3322,7 +3322,7 @@
     }
   },
   "Befaco": {
-    "buildTimestamp": 1731801510.153033,
+    "buildTimestamp": 1732875143.6116178,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "EvenVCO": {
@@ -3763,7 +3763,7 @@
     }
   },
   "kocmoc": {
-    "buildTimestamp": 1668414720.3801916,
+    "buildTimestamp": 1732875006.599298,
     "creationTimestamp": 1572165273.0,
     "modules": {
       "SVF-1": {
@@ -3789,6 +3789,12 @@
       },
       "DDLY": {
         "creationTimestamp": 1638319677.8506181
+      },
+      "uSVF": {
+        "creationTimestamp": 1732875387.439935
+      },
+      "uLADR": {
+        "creationTimestamp": 1732875387.5122108
       }
     }
   },
@@ -5179,7 +5185,7 @@
     }
   },
   "HetrickCV": {
-    "buildTimestamp": 1701132171.2233891,
+    "buildTimestamp": 1732875386.9631486,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ASR": {
@@ -5382,6 +5388,18 @@
       },
       "PhasorSwing": {
         "creationTimestamp": 1692335064.0590408
+      },
+      "PhasorFreezer": {
+        "creationTimestamp": 1732875387.5821369
+      },
+      "PhasorProbability": {
+        "creationTimestamp": 1732875387.6412783
+      },
+      "PhasorSplitter": {
+        "creationTimestamp": 1732875387.6993544
+      },
+      "TrigShaper": {
+        "creationTimestamp": 1732875387.7668626
       }
     }
   },
@@ -14148,7 +14166,7 @@
     }
   },
   "Cella": {
-    "buildTimestamp": 1728141036.390039,
+    "buildTimestamp": 1732874975.1528637,
     "creationTimestamp": 1723919612.1472793,
     "modules": {
       "Euler": {
@@ -14162,6 +14180,9 @@
       },
       "TwinPeaks": {
         "creationTimestamp": 1727177354.6120608
+      },
+      "Resonators": {
+        "creationTimestamp": 1732875387.2001064
       }
     }
   },
@@ -14256,7 +14277,7 @@
     }
   },
   "PitchGrid": {
-    "buildTimestamp": 1729363268.1542845,
+    "buildTimestamp": 1732874951.76637,
     "creationTimestamp": 1725269089.5256734,
     "modules": {
       "MicroHammond": {
@@ -14556,7 +14577,7 @@
     }
   },
   "acModules": {
-    "buildTimestamp": 1731274293.7314591,
+    "buildTimestamp": 1732874927.7398808,
     "creationTimestamp": 1729793469.3900518,
     "modules": {
       "Pick6": {
@@ -14582,6 +14603,12 @@
       },
       "CFor2N2ForC": {
         "creationTimestamp": 1731274561.374777
+      },
+      "MOREc8or": {
+        "creationTimestamp": 1732875387.2830374
+      },
+      "CRBVi": {
+        "creationTimestamp": 1732875387.358382
       }
     }
   },
