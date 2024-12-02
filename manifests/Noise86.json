@@ -1,7 +1,7 @@
 {
   "slug": "Noise86",
   "name": "Noise86",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Noise86",
   "author": "Dylan Gardham",
@@ -27,7 +27,8 @@
       "name": "MultiLogic",
       "description": "Three multi-function logic gates that can each be AND,OR,XOR,NOT with inverted outputs",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
@@ -47,6 +48,23 @@
         "Clock modulator",
         "Digital",
         "Quantizer"
+      ]
+    },
+    {
+      "slug": "SeqOfChanges",
+      "name": "SeqOfChanges",
+      "description": "Markov sequencer where the probability of the next trigger is based on the previous three triggers",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "RepeatBuddy",
+      "name": "RepeatBuddy",
+      "description": "Counter and comparator utility module capable of adding step repeat to a sequencer",
+      "tags": [
+        "Sequencer",
+        "Clock modulator"
       ]
     }
   ]
