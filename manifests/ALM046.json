@@ -1,0 +1,33 @@
+{
+  "slug": "ALM046",
+  "name": "MCO Mk2",
+  "version": "2.100.0",
+  "license": "proprietary",
+  "brand": "ALM Busy Circuits",
+  "author": "ALM",
+  "authorEmail": "help@busycircuits.com",
+  "authorUrl": "https://busycircuits.com",
+  "pluginUrl": "https://busycircuits.com/vcv/",
+  "manualUrl": "https://busycircuits.com/docs/alm046-manual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ALM046",
+      "name": "MCO Mk2",
+      "description": "ALM046 MCO Mk2",
+      "keywords": [
+        "osc",
+        "mco",
+        "ttt",
+        "multi"
+      ],
+      "tags": [
+        "Digital",
+        "Hardware Clone",
+        "Oscillator"
+      ]
+    }
+  ]
+}
