@@ -1,7 +1,7 @@
 {
   "slug": "acModules",
   "name": "acModules",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "license": "GPL-3.0-or-later",
   "brand": "artificialcolors",
   "author": "g.wygonik",
@@ -98,6 +98,15 @@
       "slug": "CRBVi",
       "name": "CRBVi",
       "description": "Two-Dimensional performance instrument with on-screen note guides, selectable octave range, optional note snapping, and Y-axis curve shapes. Can also function as a playable VCA. Virtual re-interpretation of Wygonium C|RB hardware ribbon controller.",
+      "tags": [
+        "Controller",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "CRBViXL",
+      "name": "C|RB Vi XL",
+      "description": "eXtra-Large Two-Dimensional performance instrument with on-screen note guides, selectable octave range, optional note snapping, Y-axis curve shapes, with modulation input. Can also function as a playable VCA.",
       "tags": [
         "Controller",
         "Utility"

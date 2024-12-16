@@ -1,7 +1,7 @@
 {
   "slug": "LyraeModules",
   "name": "LyraeModules",
-  "version": "2.0.3",
+  "version": "2.0.5",
   "license": "GPL-3.0-or-later",
   "brand": "LyraeModules",
   "author": "Vega Deftwing",
@@ -48,6 +48,34 @@
       "name": "BD383238",
       "description": "Expander for Vega ADSR",
       "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Zeta",
+      "name": "Zeta",
+      "description": "Fancy Blank",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Sheliak",
+      "name": "Sheliak",
+      "description": "LFSR",
+      "tags": [
+        "Clock modulator",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Beta",
+      "name": "Beta",
+      "description": "Sheliak Output Expander",
+      "tags": [
+        "Clock modulator",
+        "logic",
+        "Sequencer",
         "Expander"
       ]
     }

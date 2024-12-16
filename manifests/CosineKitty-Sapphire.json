@@ -1,7 +1,7 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.5.4",
+  "version": "2.5.5",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
@@ -13,6 +13,15 @@
   "donateUrl": "",
   "changelogUrl": "https://github.com/cosinekitty/sapphire/blob/main/CHANGELOG.md",
   "modules": [
+    {
+      "slug": "Chaops",
+      "name": "Chaops",
+      "description": "Left-expander to add extra controls to chaos modules Frolic, Glee, Lark.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/Chaops.md",
+      "tags": [
+        "Expander"
+      ]
+    },
     {
       "slug": "Elastika",
       "name": "Elastika",
