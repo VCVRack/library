@@ -1,0 +1,30 @@
+{
+  "slug": "BefacoOneiroi",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "name": "Befaco Oneiroi",
+  "brand": "Befaco",
+  "author": "Ewan Hemingway, Roberto Noris, Befaco",
+  "authorEmail": "support@befaco.org",
+  "pluginUrl": "https://www.befaco.org/oneiroi",
+  "authorUrl": "https://www.befaco.org",
+  "changelogUrl": "https://github.com/VCVRack/Befaco/blob/v2/docs/Oneiroi.md#changelog",
+  "modules": [
+    {
+      "slug": "Oneiroi",
+      "name": "Oneiroi",
+      "description": "Experimental synth voice focused on ambient pads and drone-like soundscapes.",
+      "modularGridUrl": "https://modulargrid.net/e/befaco-oneiroi",
+      "manualUrl": "https://github.com/VCVRack/Befaco/blob/v2/docs/Oneiroi.md",
+      "tags": [
+        "Delay",
+        "Effect",
+        "Filter",
+        "Hardware clone",
+        "Oscillator",
+        "Reverb",
+        "Sampler"
+      ]
+    }
+  ]
+}

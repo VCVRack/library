@@ -2068,5 +2068,12 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/Bandit",
     "mgUrl": "https://www.modulargrid.net/e/befaco-bandit",
     "mgModuleId": 51212
+  },
+  {
+    "pluginSlug": "BefacoOneiroi",
+    "moduleSlug": "Oneiroi",
+    "vcvUrl": "https://library.vcvrack.com/BefacoOneiroi/Oneiroi",
+    "mgUrl": "https://modulargrid.net/e/befaco-oneiroi",
+    "mgModuleId": 48906
   }
 ]
