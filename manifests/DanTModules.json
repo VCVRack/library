@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.44",
+  "version": "2.4.45",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -220,7 +220,7 @@
         "Random"
       ],
       "keywords": "thats no moon generative sequencer star wars death star space station pet rock random flavour rhythm",
-      "manualUrl": "https://community.vcvrack.com/t/dant-that-s-no-moon/"
+      "manualUrl": "https://community.vcvrack.com/t/dant-thats-no-moon/"
     }
   ]
 }
