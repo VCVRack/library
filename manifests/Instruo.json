@@ -1,7 +1,7 @@
 {
   "slug": "Instruo",
   "name": "Instruo",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "proprietary",
   "brand": "Instru\u014d",
   "author": "Instru\u014d",
@@ -205,6 +205,22 @@
       "keywords": "ochd"
     },
     {
+      "slug": "ochd_exp",
+      "name": "[\u00f8]4^2 - \u00f8chd Expander",
+      "description": "Modulation Source",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2023/10/ochd-expander-Manual-web.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/divkid-ochd-expander",
+      "tags": [
+        "Hardware clone",
+        "Function generator",
+        "Low-frequency oscillator",
+        "Multiple",
+        "Oscillator",
+        "Expander"
+      ],
+      "keywords": "ochd"
+    },
+    {
       "slug": "tain",
       "name": "t\u00e0in",
       "description": "Switch Utility Module (tain)",
@@ -363,6 +379,19 @@
         "Panning"
       ],
       "keywords": "carn"
+    },
+    {
+      "slug": "ceis2",
+      "name": "c\u00e8is[2]",
+      "description": "ADSR (ceis)",
+      "manualUrl": "https://www.instruomodular.com/wp-content/uploads/2024/09/ceis-2-Manual-A5.pdf",
+      "modularGridUrl": "https://www.modulargrid.net/e/instruo-ceis-2",
+      "tags": [
+        "Hardware clone",
+        "Envelope generator",
+        "Dynamics"
+      ],
+      "keywords": "ceis 2"
     }
   ]
 }
