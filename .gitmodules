@@ -870,3 +870,6 @@
 [submodule "repos/acModules"]
 	path = repos/acModules
 	url = https://github.com/gwygonik/acModules.git
+[submodule "repos/silver-Visions"]
+	path = repos/silver-Visions
+	url = https://github.com/silver-ag/visions.git
