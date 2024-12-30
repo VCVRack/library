@@ -873,3 +873,6 @@
 [submodule "repos/silver-Visions"]
 	path = repos/silver-Visions
 	url = https://github.com/silver-ag/visions.git
+[submodule "repos/Minilab3"]
+	path = repos/Minilab3
+	url = https://github.com/dustinlacewell/vcv-minilab3.git
