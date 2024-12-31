@@ -1,0 +1,67 @@
+{
+  "slug": "silver-Visions",
+  "name": "Visions",
+  "description": "VideoSynth modules",
+  "version": "2.0.0",
+  "license": "CC-PDDC",
+  "brand": "Visions",
+  "author": "silver",
+  "authorEmail": "",
+  "authorUrl": "https://silverygrey.itch.io",
+  "pluginUrl": "https://github.com/silver-ag/visions",
+  "manualUrl": "https://github.com/silver-ag/visions/tree/main?tab=readme-ov-file#visions",
+  "sourceUrl": "https://github.com/silver-ag/visions",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "VideoOut",
+      "name": "VideoOut",
+      "description": "video synth output",
+      "manualUrl": "https://github.com/silver-ag/visions/tree/main?tab=readme-ov-file#videoout",
+      "tags": [
+        "visual",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "ImageIn",
+      "name": "ImageIn",
+      "description": "read from an image file as sound data",
+      "manualUrl": "https://github.com/silver-ag/visions/tree/main?tab=readme-ov-file#imagein",
+      "tags": [
+        "visual",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "PathGenerator",
+      "name": "PathGenerator",
+      "description": "oscillator for generating position inputs for videosynth modules",
+      "manualUrl": "https://github.com/silver-ag/visions/tree/main?tab=readme-ov-file#pathgenerator",
+      "tags": [
+        "visual",
+        "polyphonic",
+        "oscillator"
+      ]
+    },
+    {
+      "slug": "CoordinateFolder",
+      "name": "CoordinateFolder",
+      "description": "fold a 2d vector onto a subset of the plane",
+      "manualUrl": "https://github.com/silver-ag/visions/tree/main?tab=readme-ov-file#coordinatefolder",
+      "tags": [
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "AffineTransform",
+      "name": "AffineTransform",
+      "description": "apply cv-controllable affine transforms to 2d vectors",
+      "manualUrl": "https://github.com/silver-ag/visions/tree/main?tab=readme-ov-file#affinetransform",
+      "tags": [
+        "polyphonic"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "slug": "WavsynModular",
   "name": "WavsynModular",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "WavsynModular",
   "author": "Erich Izdepski",
@@ -40,6 +40,15 @@
       "tags": [
         "sequencer",
         "random"
+      ]
+    },
+    {
+      "slug": "Smitty",
+      "name": "Smitty",
+      "description": "VCO with dual sine-like outputs plus a shape control for adding harmonics and aliasing",
+      "tags": [
+        "oscillator",
+        "noise"
       ]
     }
   ]

@@ -1,0 +1,61 @@
+{
+  "slug": "Minilab3",
+  "name": "Minilab3",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "ldlework",
+  "author": "ldlework",
+  "authorEmail": "dlacewell@gmail.com",
+  "authorUrl": "https://ldlework.com/",
+  "pluginUrl": "http://minilab3.ldlework.com/",
+  "manualUrl": "http://minilab3.ldlework.com/",
+  "sourceUrl": "https://github.com/dustinlacewell/vcv-minilab3",
+  "donateUrl": "https://buymeacoffee.com/idle",
+  "modules": [
+    {
+      "slug": "MiniLab",
+      "name": "MiniLab",
+      "description": "Multiplex MIDI signals through expander modules.",
+      "tags": [
+        "MIDI",
+        "Multiple",
+        "Utility"
+      ],
+      "keywords": [
+        "minilab",
+        "routing",
+        "multiplex"
+      ]
+    },
+    {
+      "slug": "MiniPad",
+      "name": "MiniPad",
+      "description": "Expander module for MiniLab module.",
+      "tags": [
+        "MIDI",
+        "Multiple",
+        "Utility",
+        "Expander"
+      ],
+      "keywords": [
+        "minilab",
+        "routing",
+        "multiplex"
+      ]
+    },
+    {
+      "slug": "MiniLog",
+      "name": "MiniLog",
+      "description": "Diagnostic MIDI logger for MiniLab module.",
+      "tags": [
+        "Expander",
+        "MIDI",
+        "Multiple",
+        "Utility"
+      ],
+      "keywords": [
+        "log"
+      ]
+    }
+  ]
+}
