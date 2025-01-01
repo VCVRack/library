@@ -876,3 +876,6 @@
 [submodule "repos/Minilab3"]
 	path = repos/Minilab3
 	url = https://github.com/dustinlacewell/vcv-minilab3.git
+[submodule "repos/camouflage"]
+	path = repos/camouflage
+	url = https://github.com/thement/camouflage.git
