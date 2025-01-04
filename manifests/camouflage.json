@@ -1,0 +1,23 @@
+{
+  "slug": "camouflage",
+  "name": "camouflage",
+  "version": "2.4.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "camouflage",
+  "author": "Jakub Horak",
+  "authorEmail": "thement@ibawizard.net",
+  "authorUrl": "http://ibawizard.net/",
+  "pluginUrl": "https://github.com/thement/camouflage",
+  "manualUrl": "https://github.com/thement/camouflage",
+  "sourceUrl": "https://github.com/thement/camouflage",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "FakeTapeDelay",
+      "name": "FakeTapeDelay",
+      "description": "",
+      "tags": []
+    }
+  ]
+}
