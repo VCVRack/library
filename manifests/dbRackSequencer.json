@@ -1,7 +1,7 @@
 {
   "slug": "dbRackSequencer",
   "name": "dbRackSequencer",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -394,6 +394,58 @@
       "tags": [
         "Sequencer",
         "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "BC",
+      "name": "BC",
+      "description": "Binary Counter",
+      "tags": [
+        "Sequencer",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "MP8",
+      "name": "MP8",
+      "description": "8 bit mapper",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TT",
+      "name": "TT",
+      "description": "A modulated truth table",
+      "tags": [
+        "Sequencer",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Mix8",
+      "name": "Mix8",
+      "description": "CV Mixer with 8 channels",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "AD",
+      "name": "AD",
+      "description": "Analog to 8 Bit Converter",
+      "tags": [
+        "Sequencer",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "VCM8",
+      "name": "VCM8",
+      "description": "8 channel voltage controlled CV mixer",
+      "tags": [
+        "Mixer",
         "Polyphonic"
       ]
     }
