@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.45",
+  "version": "2.4.46",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -69,7 +69,7 @@
     {
       "slug": "BillyG8s",
       "name": "Billy G8s",
-      "description": "[10hp] Gates Generator",
+      "description": "[10hp] Gates Generator / Convertor",
       "tags": [
         "Utility"
       ],
@@ -79,7 +79,7 @@
     {
       "slug": "BrightIdea",
       "name": "Bright Idea",
-      "description": "[4hp] CV control over cable opacity & tension, room brightness & light bloom",
+      "description": "[4hp] CV control over cable opacity & tension, room brightness & light bloom, dark panels, smart rearrangement & module lock hotkeys",
       "tags": [
         "Utility"
       ],
@@ -91,7 +91,8 @@
       "name": "Nonaquant",
       "description": "[40hp] Quantizer across 9 octaves",
       "tags": [
-        "Quantizer"
+        "Quantizer",
+        "Polyphonic"
       ],
       "keywords": "nine octaves nona quant generative",
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/nonaquant/"
