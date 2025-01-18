@@ -2,7 +2,7 @@
   "slug": "HetrickCV",
   "name": "HetrickCV",
   "brand": "HetrickCV",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -55,6 +55,15 @@
       "tags": [
         "Logic",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "BinaryCounter",
+      "name": "Binary Counter",
+      "description": "Increment or decrement an 8-Bit counter.",
+      "tags": [
+        "Logic",
+        "Clock Modulator"
       ]
     },
     {

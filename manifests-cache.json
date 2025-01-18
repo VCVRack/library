@@ -5188,7 +5188,7 @@
     }
   },
   "HetrickCV": {
-    "buildTimestamp": 1732875386.9631486,
+    "buildTimestamp": 1737236728.5306537,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ASR": {
@@ -5403,6 +5403,9 @@
       },
       "TrigShaper": {
         "creationTimestamp": 1732875387.7668626
+      },
+      "BinaryCounter": {
+        "creationTimestamp": 1737236728.7280376
       }
     }
   },
