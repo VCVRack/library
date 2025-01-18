@@ -1,7 +1,7 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.17",
+  "version": "2.0.18",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
@@ -128,12 +128,23 @@
     {
       "slug": "Venn",
       "name": "Venn",
-      "description": "2D graphical approach to control signal generation. A single moving or mouse-driven point causes up to 16 circles to output signals based on the point's position within them.",
+      "description": "2D graphical control signals. A single moving or mouse-driven point causes up to 16 circles to output signals based on the point's position within them.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#venn",
       "tags": [
         "Controller",
         "Polyphonic",
         "Visual"
+      ]
+    },
+    {
+      "slug": "Brainwash",
+      "name": "Brainwash",
+      "description": "Records input and then replaces the contents of a Memory.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#brainwash",
+      "tags": [
+        "Expander",
+        "Recording",
+        "Sampler"
       ]
     }
   ]
