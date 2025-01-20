@@ -1,0 +1,22 @@
+{
+  "slug": "Hugelton",
+  "name": "Hugelton Instruments",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "hugelton instruments",
+  "author": "Leo Kuroshita",
+  "authorUrl": "https://hugelton.com/",
+  "donateUrl": "https://buymeacoffee.com/kurogek",
+  "modules": [
+    {
+      "slug": "K102",
+      "name": "K102 Digital Complex Oscillator",
+      "description": "Complex Oscillator with Compound Unit",
+      "tags": [
+        "Oscillator",
+        "Digital",
+        "Hardware clone"
+      ]
+    }
+  ]
+}
