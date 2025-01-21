@@ -1,7 +1,7 @@
 {
   "slug": "ALM032",
   "name": "ALM Busy Circuits MFX",
-  "version": "2.114.0",
+  "version": "2.114.2",
   "license": "proprietary",
   "brand": "ALM Busy Circuits",
   "author": "ALM",
@@ -17,6 +17,7 @@
       "slug": "MFX",
       "name": "MFX",
       "description": "ALM032 MFX: Stereo Multi Effects Processor",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-mfx--",
       "tags": [
         "Effect",
         "Digital",
@@ -27,6 +28,7 @@
       "slug": "AXON",
       "name": "AXON-1",
       "description": "AXON-1 Expander for ALM032 MFX",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-axon-1",
       "tags": [
         "Expander"
       ]

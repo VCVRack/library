@@ -2089,5 +2089,47 @@
     "vcvUrl": "https://library.vcvrack.com/Instruo/ceis2",
     "mgUrl": "https://www.modulargrid.net/e/instruo-ceis-2",
     "mgModuleId": 50634
+  },
+  {
+    "pluginSlug": "ALM032",
+    "moduleSlug": "MFX",
+    "vcvUrl": "https://library.vcvrack.com/ALM032/MFX",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-mfx--",
+    "mgModuleId": 37623
+  },
+  {
+    "pluginSlug": "ALM032",
+    "moduleSlug": "AXON",
+    "vcvUrl": "https://library.vcvrack.com/ALM032/AXON",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-axon-1",
+    "mgModuleId": 33258
+  },
+  {
+    "pluginSlug": "ALM042",
+    "moduleSlug": "CIZZLE",
+    "vcvUrl": "https://library.vcvrack.com/ALM042/CIZZLE",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-cizzle",
+    "mgModuleId": 48101
+  },
+  {
+    "pluginSlug": "ALM034",
+    "moduleSlug": "ALM034",
+    "vcvUrl": "https://library.vcvrack.com/ALM034/ALM034",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-pamela-s-pro-workout",
+    "mgModuleId": 41596
+  },
+  {
+    "pluginSlug": "ALM034",
+    "moduleSlug": "AXON2",
+    "vcvUrl": "https://library.vcvrack.com/ALM034/AXON2",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-axon-2",
+    "mgModuleId": 43739
+  },
+  {
+    "pluginSlug": "ALM046",
+    "moduleSlug": "ALM046",
+    "vcvUrl": "https://library.vcvrack.com/ALM046/ALM046",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-mco-mkii",
+    "mgModuleId": 51726
   }
 ]
