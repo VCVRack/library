@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.31.1",
+  "version": "2.32.1",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -232,6 +232,15 @@
       "description": "Eight stereo sample playback devices in one compact module.",
       "tags": [
         "Sampler"
+      ]
+    },
+    {
+      "slug": "vector_rotation",
+      "name": "Vector Rotation",
+      "description": "Utility module for laser enthusiasts.",
+      "tags": [
+        "Envelope Generator",
+        "Oscillator"
       ]
     },
     {
