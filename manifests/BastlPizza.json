@@ -1,15 +1,13 @@
 {
   "slug": "BastlPizza",
   "name": "Bastl Pizza",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "proprietary",
   "brand": "Bastl",
   "author": "Bastl, Ewan Hemingway",
-  "authorEmail": "",
+  "authorEmail": "info@bastl-instruments.com",
   "authorUrl": "https://aforestfullofsines.com",
   "manualUrl": "https://bastl-instruments.com/eurorack#modules",
-  "donateUrl": "",
-  "changelogUrl": "",
   "modules": [
     {
       "slug": "Crust",
@@ -22,6 +20,17 @@
         "Hardware Clone",
         "Oscillator",
         "Noise"
+      ]
+    },
+    {
+      "slug": "Pizza",
+      "name": "Pizza",
+      "description": "Pizza is a compact digital oscillator with powerful wave shaping applied to FM synthesis.",
+      "manualUrl": "https://bastl-instruments.com/eurorack/modules/pizza",
+      "modularGridUrl": "https://modulargrid.net/e/bastl-instruments-pizza",
+      "tags": [
+        "Hardware Clone",
+        "Oscillator"
       ]
     }
   ]

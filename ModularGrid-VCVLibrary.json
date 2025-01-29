@@ -2131,5 +2131,12 @@
     "vcvUrl": "https://library.vcvrack.com/ALM046/ALM046",
     "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-mco-mkii",
     "mgModuleId": 51726
+  },
+  {
+    "pluginSlug": "BastlPizza",
+    "moduleSlug": "Pizza",
+    "vcvUrl": "https://library.vcvrack.com/BastlPizza/Pizza",
+    "mgUrl": "https://modulargrid.net/e/bastl-instruments-pizza",
+    "mgModuleId": 37520
   }
 ]
