@@ -879,3 +879,6 @@
 [submodule "repos/camouflage"]
 	path = repos/camouflage
 	url = https://github.com/thement/camouflage.git
+[submodule "repos/wildergarden"]
+	path = repos/wildergarden
+	url = https://github.com/ArdenButterfield/wildergarden-vcv/
