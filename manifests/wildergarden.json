@@ -1,0 +1,37 @@
+{
+  "slug": "wildergarden",
+  "name": "wildergarden",
+  "version": "2.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "wildergarden",
+  "author": "wildergarden",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/ArdenButterfield/",
+  "pluginUrl": "https://github.com/ArdenButterfield/wildergarden-vcv",
+  "manualUrl": "https://github.com/ArdenButterfield/wildergarden-vcv/blob/main/docs/Manual.md",
+  "sourceUrl": "https://github.com/ArdenButterfield/wildergarden-vcv",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Dimit",
+      "name": "Dimit",
+      "description": "Dimit is a combined compressor and waveshaper, designed to tame peaks in an audio signal.",
+      "tags": [
+        "Compressor",
+        "Limiter",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Pascal",
+      "name": "Pascal",
+      "description": "This plugin uses Pascal's triangle, a mathematical pattern independently invented throughout the world during the Middle Ages, to create evolving melodies and drum sequences.",
+      "tags": [
+        "Logic",
+        "Sequencer",
+        "Clock modulator"
+      ]
+    }
+  ]
+}
