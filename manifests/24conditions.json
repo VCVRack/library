@@ -1,14 +1,14 @@
 {
   "slug": "24conditions",
   "name": "24conditions",
-  "version": "2.0.0d",
+  "version": "2.1.0",
   "license": "proprietary",
   "brand": "24conditions",
   "author": "jhe",
   "authorEmail": "24conditions@gmail.com",
   "authorUrl": "http://j-he.net",
   "pluginUrl": "http://j-he.net/24conditions",
-  "manualUrl": "http://j-he.net/24cond",
+  "manualUrl": "http://j-he.net/24condmain",
   "sourceUrl": "",
   "donateUrl": "https://ko-fi.com/24conditions",
   "changelogUrl": "",
@@ -19,7 +19,8 @@
       "description": "selecting realities",
       "manualUrl": "http://j-he.net/24cond#Realities",
       "tags": [
-        "Reverb"
+        "Reverb",
+        "Effect"
       ]
     },
     {
@@ -28,7 +29,8 @@
       "description": "harmonic undulations",
       "manualUrl": "http://j-he.net/24cond#Ebb",
       "tags": [
-        "Phaser"
+        "Phaser",
+        "Effect"
       ]
     },
     {
@@ -78,7 +80,8 @@
       "name": "Emptiness10",
       "description": "the most astounding sound is silence",
       "tags": [
-        "blank"
+        "blank",
+        "Random"
       ]
     },
     {
@@ -86,7 +89,29 @@
       "name": "Emptiness4",
       "description": "the most astounding sound is silence",
       "tags": [
-        "blank"
+        "blank",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Moment",
+      "name": "Moment",
+      "manualUrl": "http://j-he.net/24cond#Moment",
+      "description": "akashic records",
+      "tags": [
+        "Delay",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Loom",
+      "name": "Loom",
+      "manualUrl": "http://j-he.net/24cond#Loom",
+      "description": "weaving waveforms",
+      "tags": [
+        "Ring modulator",
+        "Effect",
+        "Logic"
       ]
     }
   ]
