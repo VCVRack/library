@@ -1,7 +1,7 @@
 {
   "slug": "ALMFree",
   "name": "ALM Busy Circuits Free",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "license": "proprietary",
   "brand": "ALM Busy Circuits",
   "author": "ALM",
@@ -17,6 +17,7 @@
       "slug": "Beast",
       "name": "Beast's Chalkboard",
       "description": "ALM002 Beast's Chalkboard",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-beast-s-chalkboard",
       "tags": [
         "Utility",
         "Hardware Clone"
@@ -26,6 +27,7 @@
       "slug": "OAx2",
       "name": "O/A/x2",
       "description": "ALM010 O/A/x2",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-o-a-x2",
       "tags": [
         "Utility",
         "Hardware Clone"
@@ -35,6 +37,7 @@
       "slug": "Tangle",
       "name": "Tangle Quartet",
       "description": "ALM009 Tangle Quartet",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-tangle-quartet-",
       "tags": [
         "Mixer",
         "Hardware Clone"
@@ -44,6 +47,7 @@
       "slug": "MCO",
       "name": "MCO",
       "description": "ALM021 MCO",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-mco--",
       "tags": [
         "VCO",
         "Digital",
@@ -54,6 +58,7 @@
       "slug": "PipSlope",
       "name": "Pip Slope Mk2",
       "description": "ALM028 Pip Slope Mk2",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-pip-slope-mk-ii",
       "tags": [
         "Envelope generator",
         "Digital",
@@ -64,15 +69,37 @@
       "slug": "MegaTang",
       "name": "MEGA-TANG",
       "description": "ALM033: MEGA-TANG",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-mega-tang",
       "tags": [
         "Mixer",
         "Hardware Clone"
       ]
     },
     {
+      "slug": "MTEX1",
+      "name": "MT-EX1",
+      "description": "MT-EX1 Expander for ALM033 MEGA-TANG",
+      "tags": [
+        "Mixer",
+        "Hardware Clone",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "MTEX2",
+      "name": "MT-EX2",
+      "description": "MT-EX2 Expander for ALM033 MEGA-TANG",
+      "tags": [
+        "Mixer",
+        "Hardware Clone",
+        "Expander"
+      ]
+    },
+    {
       "slug": "MFD",
       "name": "MFD",
       "description": "ALM044: MFD",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-mfd",
       "tags": [
         "Utility",
         "Hardware Clone"
@@ -82,6 +109,7 @@
       "slug": "StereoSum",
       "name": "Stereo Sum",
       "description": "ALM038: Stereo Sum",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-stereo-sum",
       "tags": [
         "Utility",
         "Hardware Clone"

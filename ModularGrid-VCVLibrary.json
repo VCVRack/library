@@ -2138,5 +2138,61 @@
     "vcvUrl": "https://library.vcvrack.com/BastlPizza/Pizza",
     "mgUrl": "https://modulargrid.net/e/bastl-instruments-pizza",
     "mgModuleId": 37520
+  },
+  {
+    "pluginSlug": "ALMFree",
+    "moduleSlug": "Beast",
+    "vcvUrl": "https://library.vcvrack.com/ALMFree/Beast",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-beast-s-chalkboard",
+    "mgModuleId": 2453
+  },
+  {
+    "pluginSlug": "ALMFree",
+    "moduleSlug": "OAx2",
+    "vcvUrl": "https://library.vcvrack.com/ALMFree/OAx2",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-o-a-x2",
+    "mgModuleId": 5839
+  },
+  {
+    "pluginSlug": "ALMFree",
+    "moduleSlug": "Tangle",
+    "vcvUrl": "https://library.vcvrack.com/ALMFree/Tangle",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-tangle-quartet-",
+    "mgModuleId": 5837
+  },
+  {
+    "pluginSlug": "ALMFree",
+    "moduleSlug": "MCO",
+    "vcvUrl": "https://library.vcvrack.com/ALMFree/MCO",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-mco--",
+    "mgModuleId": 19619
+  },
+  {
+    "pluginSlug": "ALMFree",
+    "moduleSlug": "PipSlope",
+    "vcvUrl": "https://library.vcvrack.com/ALMFree/PipSlope",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-pip-slope-mk-ii",
+    "mgModuleId": 29674
+  },
+  {
+    "pluginSlug": "ALMFree",
+    "moduleSlug": "MegaTang",
+    "vcvUrl": "https://library.vcvrack.com/ALMFree/MegaTang",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-mega-tang",
+    "mgModuleId": 41824
+  },
+  {
+    "pluginSlug": "ALMFree",
+    "moduleSlug": "MFD",
+    "vcvUrl": "https://library.vcvrack.com/ALMFree/MFD",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-mfd",
+    "mgModuleId": 46590
+  },
+  {
+    "pluginSlug": "ALMFree",
+    "moduleSlug": "StereoSum",
+    "vcvUrl": "https://library.vcvrack.com/ALMFree/StereoSum",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-stereo-sum",
+    "mgModuleId": 44839
   }
 ]
