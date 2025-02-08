@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.6.18",
+  "version": "2.7.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -462,6 +462,14 @@
       ]
     },
     {
+      "slug": "StepSeqPlus",
+      "name": "stepSeq+",
+      "description": "16 step sequencer with direction and presets(ss16+)",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
       "slug": "Switcher",
       "name": "switcher",
       "description": "2>1 switch, 1>2 router, 2 signal swapper, mute, flip flop, toggle gate",
@@ -517,7 +525,15 @@
     {
       "slug": "TrigSeq",
       "name": "trigSeq",
-      "description": "16 step trig sequencer with direction (ts)",
+      "description": "16 step trig sequencer with direction (ts16)",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TrigSeqPlus",
+      "name": "trigSeq+",
+      "description": "16 step trig sequencer with direction and presets (ts16+)",
       "tags": [
         "Sequencer"
       ]

@@ -1,7 +1,7 @@
 {
   "slug": "QuantalAudio",
   "name": "QuantalAudio",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "QuantalAudio",
   "author": "Jansen Price",
@@ -43,25 +43,8 @@
       "tags": [
         "Multiple",
         "Polyphonic"
-      ]
-    },
-    {
-      "slug": "DaisyChannel",
-      "name": "Daisy Mix Channel MONO | 2HP",
-      "description": "Modular mixer channel - legacy daisy chainable",
-      "tags": [
-        "Mixer",
-        "Polyphonic"
-      ]
-    },
-    {
-      "slug": "DaisyMaster",
-      "name": "Daisy Mix Master MONO | 3HP",
-      "description": "Modular mixer master - legacy",
-      "tags": [
-        "Mixer",
-        "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/sumpygump/quantal-audio/tree/master?tab=readme-ov-file#mult--buffered-multiple--2hp"
     },
     {
       "slug": "DaisyChannel2",
@@ -72,18 +55,20 @@
         "VCA",
         "Polyphonic",
         "Expander"
-      ]
+      ],
+      "manualUrl": "https://github.com/sumpygump/quantal-audio/tree/master?tab=readme-ov-file#dc2--daisy-mix-channel-stereo--2hp"
     },
     {
       "slug": "DaisyChannelVu",
-      "name": "Daisy Mix Channel VU | 2HP",
+      "name": "Daisy Mix Channel VU | 1HP",
       "description": "Modular mixer VU - proximity daisy chainable",
       "tags": [
         "Mixer",
         "Polyphonic",
         "Visual",
         "Expander"
-      ]
+      ],
+      "manualUrl": "https://github.com/sumpygump/quantal-audio/tree/master?tab=readme-ov-file#vu--daisy-mix-channel-vu-meter--1hp"
     },
     {
       "slug": "DaisyChannelSends2",
@@ -93,7 +78,18 @@
         "Mixer",
         "Polyphonic",
         "Expander"
-      ]
+      ],
+      "manualUrl": "https://github.com/sumpygump/quantal-audio/tree/master?tab=readme-ov-file#aux--daisy-mix-channel-aux-sends--2hp"
+    },
+    {
+      "slug": "DaisyBlank",
+      "name": "Daisy Mix Blank Separator | 2HP",
+      "description": "Modular mixer blank separator - proximity daisy chainable",
+      "tags": [
+        "Blank",
+        "Expander"
+      ],
+      "manualUrl": "https://github.com/sumpygump/quantal-audio/tree/master?tab=readme-ov-file#daisy-mix-blank-separator--2hp"
     },
     {
       "slug": "DaisyMaster2",
@@ -103,15 +99,18 @@
         "Mixer",
         "Polyphonic",
         "Expander"
-      ]
+      ],
+      "manualUrl": "https://github.com/sumpygump/quantal-audio/tree/master?tab=readme-ov-file#d-mx2--daisy-mix-master-stereo--3hp"
     },
     {
       "slug": "Horsehair",
       "name": "Horsehair VCO | 7HP",
       "description": "2x VCO saw to pulsewave",
       "tags": [
-        "VCO"
-      ]
+        "Oscillator",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/sumpygump/quantal-audio?tab=readme-ov-file#horsehair-vco--7hp"
     },
     {
       "slug": "Mixer2",
@@ -120,7 +119,8 @@
       "tags": [
         "Mixer",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/sumpygump/quantal-audio?tab=readme-ov-file#mixer-2--master-mixer--5hp"
     },
     {
       "slug": "UnityMix",
@@ -129,7 +129,28 @@
       "tags": [
         "Multiple",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/sumpygump/quantal-audio?tab=readme-ov-file#mix--unity-mix--2hp"
+    },
+    {
+      "slug": "DaisyChannel",
+      "name": "Daisy Mix Channel MONO | 2HP",
+      "description": "Modular mixer channel - legacy daisy chainable",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ],
+      "hidden": true
+    },
+    {
+      "slug": "DaisyMaster",
+      "name": "Daisy Mix Master MONO | 3HP",
+      "description": "Modular mixer master - legacy",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ],
+      "hidden": true
     }
   ]
 }

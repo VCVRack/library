@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1737569944.0201054,
+    "buildTimestamp": 1738992391.0767155,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -5143,7 +5143,7 @@
     }
   },
   "QuantalAudio": {
-    "buildTimestamp": 1678648371.8521464,
+    "buildTimestamp": 1738991893.394538,
     "creationTimestamp": 1543672744.0,
     "modules": {
       "Blank1": {
@@ -5184,6 +5184,9 @@
       },
       "DaisyMaster2": {
         "creationTimestamp": 1677947090.0822475
+      },
+      "DaisyBlank": {
+        "creationTimestamp": 1738992391.3572075
       }
     }
   },
@@ -12318,7 +12321,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1738441884.9076614,
+    "buildTimestamp": 1738992220.917285,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12491,6 +12494,12 @@
       },
       "TrigSeq": {
         "creationTimestamp": 1738441992.7976158
+      },
+      "StepSeqPlus": {
+        "creationTimestamp": 1738992391.1863194
+      },
+      "TrigSeqPlus": {
+        "creationTimestamp": 1738992391.263322
       }
     }
   },
