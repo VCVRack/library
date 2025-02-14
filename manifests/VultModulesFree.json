@@ -1,14 +1,14 @@
 {
   "slug": "VultModulesFree",
   "name": "Vult Modules Free",
-  "author": "Leonardo Laguna Ruiz",
+  "author": "Vult-DSP",
   "brand": "Vult",
   "license": "proprietary",
   "authorEmail": "leonardo@vult-dsp.com",
   "pluginUrl": "https://modlfo.github.io/VultModules/",
-  "authorUrl": "https://vult-dsp.com",
+  "authorUrl": "https://www.vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "modules": [
     {
       "slug": "Basal",
@@ -85,7 +85,8 @@
         "Mixer",
         "Polyphonic"
       ],
-      "description": "Voltage Mixer"
+      "description": "Voltage Mixer",
+      "modularGridUrl": "https://modulargrid.net/e/vult-fuser"
     },
     {
       "slug": "Flux",
@@ -324,7 +325,8 @@
         "Waveshaper",
         "Polyphonic"
       ],
-      "description": "Waveshaper"
+      "description": "Waveshaper",
+      "modularGridUrl": "https://modulargrid.net/e/vult-wolv"
     },
     {
       "slug": "BlackPanelSmall",
@@ -382,7 +384,7 @@
     },
     {
       "slug": "Stress",
-      "name": "Stress",
+      "name": "Stress (Free)",
       "tags": [
         "Utility"
       ],

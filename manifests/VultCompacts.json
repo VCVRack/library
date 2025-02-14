@@ -1,14 +1,14 @@
 {
   "slug": "VultCompacts",
   "name": "Vult Compacts",
-  "author": "Leonardo Laguna Ruiz",
+  "author": "Vult-DSP",
   "brand": "Vult",
   "license": "proprietary",
   "authorEmail": "leonardo@vult-dsp.com",
   "pluginUrl": "https://modlfo.github.io/VultModules/compacts/",
-  "authorUrl": "https://vult-dsp.com",
+  "authorUrl": "https://www.vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "modules": [
     {
       "slug": "Freak",
@@ -68,7 +68,7 @@
         "Hardware clone"
       ],
       "description": "Macro Oscillator",
-      "modularGridUrl": "https://www.modulargrid.net/e/vult-freak"
+      "modularGridUrl": "https://modulargrid.net/e/vult-vraids"
     }
   ]
 }

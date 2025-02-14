@@ -2194,5 +2194,40 @@
     "vcvUrl": "https://library.vcvrack.com/ALMFree/StereoSum",
     "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-stereo-sum",
     "mgModuleId": 44839
+  },
+  {
+    "pluginSlug": "VultModulesFree",
+    "moduleSlug": "Fuser",
+    "vcvUrl": "https://library.vcvrack.com/VultModulesFree/Fuser",
+    "mgUrl": "https://modulargrid.net/e/vult-fuser",
+    "mgModuleId": 38711
+  },
+  {
+    "pluginSlug": "VultModulesFree",
+    "moduleSlug": "Wolv",
+    "vcvUrl": "https://library.vcvrack.com/VultModulesFree/Wolv",
+    "mgUrl": "https://modulargrid.net/e/vult-wolv",
+    "mgModuleId": 33645
+  },
+  {
+    "pluginSlug": "VultCompacts",
+    "moduleSlug": "Vraids",
+    "vcvUrl": "https://library.vcvrack.com/VultCompacts/Vraids",
+    "mgUrl": "https://modulargrid.net/e/vult-vraids",
+    "mgModuleId": 34408
+  },
+  {
+    "pluginSlug": "VultMysteries",
+    "moduleSlug": "Anima",
+    "vcvUrl": "https://library.vcvrack.com/VultMysteries/Anima",
+    "mgUrl": "https://modulargrid.net/e/vult-anima",
+    "mgModuleId": 39438
+  },
+  {
+    "pluginSlug": "VultMysteries",
+    "moduleSlug": "Feigen",
+    "vcvUrl": "https://library.vcvrack.com/VultMysteries/Feigen",
+    "mgUrl": "https://modulargrid.net/e/vult-feigen",
+    "mgModuleId": 39442
   }
 ]

@@ -1,14 +1,14 @@
 {
   "slug": "VultMysteries",
   "name": "Vult Mysteries",
-  "author": "Leonardo Laguna Ruiz",
+  "author": "Vult-DSP",
   "brand": "Vult",
   "license": "proprietary",
   "authorEmail": "leonardo@vult-dsp.com",
   "pluginUrl": "https://modlfo.github.io/VultModules/mysteries/",
-  "authorUrl": "https://vult-dsp.com",
+  "authorUrl": "https://www.vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "modules": [
     {
       "slug": "Anima",
@@ -17,7 +17,8 @@
         "Sequencer",
         "Random"
       ],
-      "description": "Psychic Sequence Generator"
+      "description": "Psychic Sequence Generator",
+      "modularGridUrl": "https://modulargrid.net/e/vult-anima"
     },
     {
       "slug": "Lapsus",
@@ -50,7 +51,8 @@
       "tags": [
         "Random"
       ],
-      "description": "Bifurcations Generator"
+      "description": "Bifurcations Generator",
+      "modularGridUrl": "https://modulargrid.net/e/vult-feigen"
     }
   ]
 }

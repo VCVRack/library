@@ -1,15 +1,94 @@
 {
   "slug": "VultModules",
   "name": "Vult Modules",
-  "author": "Leonardo Laguna Ruiz",
+  "author": "Vult-DSP",
   "brand": "Vult",
   "license": "proprietary",
   "authorEmail": "leonardo@vult-dsp.com",
   "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
-  "authorUrl": "https://vult-dsp.com",
+  "authorUrl": "https://www.vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "modules": [
+    {
+      "slug": "Flame",
+      "name": "Flame",
+      "tags": [
+        "Distortion",
+        "Waveshaper",
+        "Effect",
+        "Polyphonic"
+      ],
+      "description": "Analog Distortion"
+    },
+    {
+      "slug": "Ferox",
+      "name": "Ferox",
+      "tags": [
+        "VCF",
+        "Polyphonic"
+      ],
+      "description": "CMOS Filter"
+    },
+    {
+      "slug": "HyperPower",
+      "name": "HyperPower",
+      "tags": [
+        "Utility"
+      ],
+      "description": "Infinite Power Supply"
+    },
+    {
+      "slug": "Noxious",
+      "name": "Noxious",
+      "tags": [
+        "VCO",
+        "LFO",
+        "Polyphonic"
+      ],
+      "description": "Pure Distortion Oscillator"
+    },
+    {
+      "slug": "Noxious-Poly",
+      "name": "Noxious-Poly",
+      "tags": [
+        "VCO",
+        "LFO",
+        "Polyphonic"
+      ],
+      "description": "Polyphonic Noxious"
+    },
+    {
+      "slug": "Nurage",
+      "name": "Nurage",
+      "tags": [
+        "Low pass gate",
+        "VCF",
+        "VCA",
+        "Polyphonic"
+      ],
+      "description": "Dual Low Pass Gate/Filter"
+    },
+    {
+      "slug": "Rescomb2",
+      "name": "Rescomb 2",
+      "tags": [
+        "VCF",
+        "Effect",
+        "Physical modeling",
+        "Polyphonic"
+      ],
+      "description": "Resonant Comb Filter"
+    },
+    {
+      "slug": "Vortex",
+      "name": "Vortex",
+      "tags": [
+        "VCF",
+        "Polyphonic"
+      ],
+      "description": "Russian Filter"
+    },
     {
       "slug": "Basal",
       "name": "Basal",
@@ -79,24 +158,14 @@
       "description": "DJ Style Filter"
     },
     {
-      "slug": "Flame",
-      "name": "Flame",
+      "slug": "Fuser",
+      "name": "Fuser",
       "tags": [
-        "Distortion",
-        "Waveshaper",
-        "Effect",
+        "Mixer",
         "Polyphonic"
       ],
-      "description": "Analog Distortion"
-    },
-    {
-      "slug": "Ferox",
-      "name": "Ferox",
-      "tags": [
-        "VCF",
-        "Polyphonic"
-      ],
-      "description": "CMOS Filter"
+      "description": "Voltage Mixer",
+      "modularGridUrl": "https://modulargrid.net/e/vult-fuser"
     },
     {
       "slug": "Flux",
@@ -111,23 +180,6 @@
         "Polyphonic"
       ],
       "description": "Quad Voltage Processor"
-    },
-    {
-      "slug": "Fuser",
-      "name": "Fuser",
-      "tags": [
-        "Mixer",
-        "Polyphonic"
-      ],
-      "description": "Voltage Mixer"
-    },
-    {
-      "slug": "HyperPower",
-      "name": "HyperPower",
-      "tags": [
-        "Utility"
-      ],
-      "description": "Infinite Power Supply"
     },
     {
       "slug": "Jorus",
@@ -173,15 +225,6 @@
       "description": "Voltage Processor"
     },
     {
-      "slug": "Nitrous",
-      "name": "Nitrous",
-      "tags": [
-        "VCF",
-        "Polyphonic"
-      ],
-      "description": "Acid Filter"
-    },
-    {
       "slug": "Nopskate",
       "name": "Nopskate",
       "tags": [
@@ -192,35 +235,13 @@
       "description": "Flip-Flop Octaver"
     },
     {
-      "slug": "Noxious",
-      "name": "Noxious",
+      "slug": "Nitrous",
+      "name": "Nitrous",
       "tags": [
-        "VCO",
-        "LFO",
-        "Polyphonic"
-      ],
-      "description": "Pure Distortion Oscillator"
-    },
-    {
-      "slug": "Noxious-Poly",
-      "name": "Noxious-Poly",
-      "tags": [
-        "VCO",
-        "LFO",
-        "Polyphonic"
-      ],
-      "description": "Polyphonic Noxious"
-    },
-    {
-      "slug": "Nurage",
-      "name": "Nurage",
-      "tags": [
-        "Low pass gate",
         "VCF",
-        "VCA",
         "Polyphonic"
       ],
-      "description": "Dual Low Pass Gate/Filter"
+      "description": "Acid Filter"
     },
     {
       "slug": "Opulus",
@@ -255,17 +276,6 @@
       "tags": [
         "VCF",
         "Effect",
-        "Polyphonic"
-      ],
-      "description": "Resonant Comb Filter"
-    },
-    {
-      "slug": "Rescomb2",
-      "name": "Rescomb 2",
-      "tags": [
-        "VCF",
-        "Effect",
-        "Physical modeling",
         "Polyphonic"
       ],
       "description": "Resonant Comb Filter"
@@ -379,15 +389,6 @@
       "description": "Complex Analog Oscillator"
     },
     {
-      "slug": "Vortex",
-      "name": "Vortex",
-      "tags": [
-        "VCF",
-        "Polyphonic"
-      ],
-      "description": "Russian Filter"
-    },
-    {
       "slug": "Vultari",
       "name": "Vultari",
       "tags": [
@@ -403,7 +404,8 @@
         "Waveshaper",
         "Polyphonic"
       ],
-      "description": "Waveshaper"
+      "description": "Waveshaper",
+      "modularGridUrl": "https://modulargrid.net/e/vult-wolv"
     },
     {
       "slug": "BlackPanelSmall",
