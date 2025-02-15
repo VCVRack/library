@@ -882,3 +882,6 @@
 [submodule "repos/wildergarden"]
 	path = repos/wildergarden
 	url = https://github.com/ArdenButterfield/wildergarden-vcv/
+[submodule "repos/ChemicalElements"]
+	path = repos/ChemicalElements
+	url = https://gitlab.com/pythongirl/chemical-elements.git
