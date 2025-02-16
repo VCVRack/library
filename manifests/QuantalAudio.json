@@ -1,7 +1,7 @@
 {
   "slug": "QuantalAudio",
   "name": "QuantalAudio",
-  "version": "2.2.0",
+  "version": "2.2.2",
   "license": "GPL-3.0-or-later",
   "brand": "QuantalAudio",
   "author": "Jansen Price",
@@ -10,6 +10,7 @@
   "pluginUrl": "https://github.com/sumpygump/quantal-audio",
   "manualUrl": "https://github.com/sumpygump/quantal-audio/blob/master/README.md",
   "sourceUrl": "https://github.com/sumpygump/quantal-audio",
+  "changelogUrl": "https://github.com/sumpygump/quantal-audio/blob/master/changelog.md",
   "donateUrl": "",
   "modules": [
     {
