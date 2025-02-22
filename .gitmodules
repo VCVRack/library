@@ -885,3 +885,6 @@
 [submodule "repos/ChemicalElements"]
 	path = repos/ChemicalElements
 	url = https://gitlab.com/pythongirl/chemical-elements.git
+[submodule "repos/not-things"]
+	path = repos/not-things
+	url = https://github.com/not-things-modular/not-things-vcv.git
