@@ -888,3 +888,6 @@
 [submodule "repos/not-things"]
 	path = repos/not-things
 	url = https://github.com/not-things-modular/not-things-vcv.git
+[submodule "repos/HoyerHoppes"]
+	path = repos/HoyerHoppes
+	url = https://github.com/jakulley/HoyerHoppes.git
