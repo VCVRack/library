@@ -14941,5 +14941,53 @@
         "creationTimestamp": 1739693808.7680147
       }
     }
+  },
+  "not-things": {
+    "buildTimestamp": 1740595407.2966106,
+    "creationTimestamp": 1740595407.6005092,
+    "modules": {
+      "solim": {
+        "creationTimestamp": 1740595407.6796136
+      },
+      "solim-input-expander": {
+        "creationTimestamp": 1740595407.7598047
+      },
+      "solim-input-octaver-expander": {
+        "creationTimestamp": 1740595407.83737
+      },
+      "solim-output-expander": {
+        "creationTimestamp": 1740595407.9156718
+      },
+      "solim-output-octaver-expander": {
+        "creationTimestamp": 1740595407.9957087
+      },
+      "solim-random-expander": {
+        "creationTimestamp": 1740595408.0770626
+      },
+      "pipo-output": {
+        "creationTimestamp": 1740595408.1575654
+      },
+      "pipo-input": {
+        "creationTimestamp": 1740595408.2419684
+      }
+    }
+  },
+  "HoyerHoppes": {
+    "buildTimestamp": 1740595369.6161802,
+    "creationTimestamp": 1740595408.3717122,
+    "modules": {
+      "scanning_clock_multiplier_v2": {
+        "creationTimestamp": 1740595408.4429865
+      },
+      "phase_driven_multihit_envelope": {
+        "creationTimestamp": 1740595408.5153942
+      },
+      "scanning_frequency_division_osc_poly": {
+        "creationTimestamp": 1740595408.587032
+      },
+      "melody_transformer": {
+        "creationTimestamp": 1740595408.6592586
+      }
+    }
   }
 }

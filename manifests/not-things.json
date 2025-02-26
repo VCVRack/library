@@ -1,0 +1,97 @@
+{
+  "slug": "not-things",
+  "name": "not-things",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "not-things",
+  "author": "Johan Vanbockryck",
+  "authorEmail": "vcv@not-things.com",
+  "authorUrl": "https://not-things.com",
+  "pluginUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/README.md",
+  "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/README.md",
+  "sourceUrl": "https://github.com/not-things-modular/not-things-vcv",
+  "donateUrl": "https://paypal.me/notthingsmodular",
+  "changelogUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "solim",
+      "name": "Solim",
+      "description": "Limiter and sorter of (note) voltages",
+      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "solim-input-expander",
+      "name": "SL-I",
+      "description": "Input expander for Solim",
+      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "tags": [
+        "Utility",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "solim-input-octaver-expander",
+      "name": "SL-IO",
+      "description": "Input Octaver expander for Solim",
+      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "tags": [
+        "Utility",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "solim-output-expander",
+      "name": "SL-O",
+      "description": "Output expander for Solim",
+      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "tags": [
+        "Utility",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "solim-output-octaver-expander",
+      "name": "SL-OO",
+      "description": "Output Octaver expander for Solim",
+      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "tags": [
+        "Utility",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "solim-random-expander",
+      "name": "SL-R",
+      "description": "Random expander for Solim",
+      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "tags": [
+        "Utility",
+        "Expander",
+        "Random"
+      ]
+    },
+    {
+      "slug": "pipo-output",
+      "name": "P-O",
+      "description": "Polyphonic Output",
+      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/PIPO.md",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "pipo-input",
+      "name": "P-I",
+      "description": "Polyphonic Input",
+      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/PIPO.md",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

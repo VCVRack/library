@@ -1,0 +1,56 @@
+{
+  "slug": "HoyerHoppes",
+  "name": "Hoyer.Hoppes(modules)",
+  "version": "2.0.0",
+  "license": "CC-BY-NC-1.0",
+  "brand": "HoyerHoppes",
+  "author": "Jake McCulley",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "scanning_clock_multiplier_v2",
+      "name": "Scanning Clock Multiplier",
+      "description": "Create a list of clock ratios, then scan through the list.",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "phase_driven_multihit_envelope",
+      "name": "Phase-Driven Multihit Envelope",
+      "description": "A clocked function generator that derives up to 16 envelopes from a clock cycle, with facilities to warp and skew the position of the envelopes.",
+      "tags": [
+        "Envelope generator",
+        "Function generator",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "scanning_frequency_division_osc_poly",
+      "name": "Scanning Frequency Division Oscillator",
+      "description": "Polyphonic oscillator with thru-zero FM, windowed sync, and a unique scannable frequency-division parameter.",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "melody_transformer",
+      "name": "Melody Transformer",
+      "description": "Quantizer with user-defined master scale and sub-scales. Pre-quantization processing utilities include gain, offset, and a 16-step polyphonic looper",
+      "tags": [
+        "Quantizer",
+        "Utility",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
