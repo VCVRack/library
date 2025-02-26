@@ -1,0 +1,67 @@
+{
+  "slug": "JPEvo",
+  "name": "JP Evo",
+  "version": "2.1.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "JP",
+  "author": "Andrew Hanson (Path Set) & Joop van der Linden",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/patheros/JPManuals",
+  "manualUrl": "https://github.com/patheros/JPManuals/blob/main/JPEvo.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "EvoCycle",
+      "name": "Evo Cycle",
+      "description": "Evolving melodies that cycle back to their starting point.",
+      "manualUrl": "",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "melody 1v/oct v/oct volt per ocatve note pool evolution mutation cycle"
+    },
+    {
+      "slug": "EvoMirror",
+      "name": "Evo Mirror",
+      "description": "Flip flip between two parallel eight-step sequences.",
+      "manualUrl": "",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "melody 1v/oct v/oct volt per ocatve note pool evolution mutation cycle"
+    },
+    {
+      "slug": "EvoEndless",
+      "name": "Evo Endless",
+      "description": "Bounce endlessely between eight different note pools in an always evolving sequence.",
+      "manualUrl": "",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "melody 1v/oct v/oct volt per ocatve note pool evolution mutation cycle"
+    },
+    {
+      "slug": "MemorySlots",
+      "name": "Memory Expander",
+      "description": "Expander for any main JPLab sequencer. Five CV controllable save slots for sequences.",
+      "tags": [
+        "Expander",
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "save load slots sequence cv trigger"
+    },
+    {
+      "slug": "SharedNotePool",
+      "name": "Helm",
+      "description": "Dedicated and extended note pool control that can be connected to multiple JP sequencers at once, including those without a keyboard on the panel.",
+      "tags": []
+    }
+  ]
+}

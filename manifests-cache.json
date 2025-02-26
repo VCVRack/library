@@ -13650,7 +13650,7 @@
     }
   },
   "JPFree": {
-    "buildTimestamp": 1698421093.3277118,
+    "buildTimestamp": 1740596376.8419847,
     "creationTimestamp": 1696926036.1207867,
     "modules": {
       "ThreeTrack": {
@@ -13667,11 +13667,17 @@
       },
       "WindowedSwitch": {
         "creationTimestamp": 1696926036.7606237
+      },
+      "EvoSeq": {
+        "creationTimestamp": 1740596377.3545132
+      },
+      "Octavator": {
+        "creationTimestamp": 1740596377.4372041
       }
     }
   },
   "JPLab": {
-    "buildTimestamp": 1698421164.7104318,
+    "buildTimestamp": 1740596315.4499507,
     "creationTimestamp": 1696926036.8842292,
     "modules": {
       "FourTrack": {
@@ -14987,6 +14993,27 @@
       },
       "melody_transformer": {
         "creationTimestamp": 1740595408.6592586
+      }
+    }
+  },
+  "JPEvo": {
+    "buildTimestamp": 1740596245.8387265,
+    "creationTimestamp": 1740596376.942895,
+    "modules": {
+      "EvoCycle": {
+        "creationTimestamp": 1740596377.0158467
+      },
+      "EvoMirror": {
+        "creationTimestamp": 1740596377.0816343
+      },
+      "EvoEndless": {
+        "creationTimestamp": 1740596377.1457055
+      },
+      "MemorySlots": {
+        "creationTimestamp": 1740596377.2109177
+      },
+      "SharedNotePool": {
+        "creationTimestamp": 1740596377.2776837
       }
     }
   }

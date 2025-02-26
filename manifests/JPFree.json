@@ -1,7 +1,7 @@
 {
   "slug": "JPFree",
   "name": "JP Free",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "license": "https://vcvrack.com/eula",
   "brand": "JP",
   "author": "Andrew Hanson (Path Set) & Joop van der Linden",
@@ -45,6 +45,16 @@
       "keywords": "melody 1v/oct v/oct volt per ocatve keyboard note pool instrument"
     },
     {
+      "slug": "EvoSeq",
+      "name": "EvoSeq",
+      "description": "Seven triggerable ways to evolve an eight step sequence over time.",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ],
+      "keywords": "melody 1v/oct v/oct volt per ocatve keyboard note pool instrument"
+    },
+    {
       "slug": "ShiftAndShuffle",
       "name": "Shift & Shuffle Expander",
       "description": "Expander for any main JP sequencer. CV controllable sequence modifications.",
@@ -64,6 +74,15 @@
         "Random"
       ],
       "keywords": "counter"
+    },
+    {
+      "slug": "Octavator",
+      "name": "Octavator",
+      "description": "Replace or offest the Octave of a V/Oct signal.",
+      "tags": [
+        "Random"
+      ],
+      "keywords": "octave"
     }
   ]
 }
