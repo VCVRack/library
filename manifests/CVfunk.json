@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -214,6 +214,15 @@
       "description": "A stereo polyphonic wave-shaper and wave-folder with display and ADAA antialising.",
       "tags": [
         "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Cartesia",
+      "name": "Cartesia",
+      "description": "A 4x4x4 sequencer for both quantized and non-quantized voltages, gates per step, and polyphonic outputs with stacked z-layer options.",
+      "tags": [
+        "Sequencer",
         "Polyphonic"
       ]
     }

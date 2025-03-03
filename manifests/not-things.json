@@ -1,7 +1,7 @@
 {
   "slug": "not-things",
   "name": "not-things",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "not-things",
   "author": "Johan Vanbockryck",
@@ -30,7 +30,8 @@
       "tags": [
         "Utility",
         "Expander"
-      ]
+      ],
+      "keywords": "sli"
     },
     {
       "slug": "solim-input-octaver-expander",
@@ -40,7 +41,8 @@
       "tags": [
         "Utility",
         "Expander"
-      ]
+      ],
+      "keywords": "slio"
     },
     {
       "slug": "solim-output-expander",
@@ -50,7 +52,8 @@
       "tags": [
         "Utility",
         "Expander"
-      ]
+      ],
+      "keywords": "slo"
     },
     {
       "slug": "solim-output-octaver-expander",
@@ -60,7 +63,8 @@
       "tags": [
         "Utility",
         "Expander"
-      ]
+      ],
+      "keywords": "sloo"
     },
     {
       "slug": "solim-random-expander",
@@ -71,7 +75,8 @@
         "Utility",
         "Expander",
         "Random"
-      ]
+      ],
+      "keywords": "slr"
     },
     {
       "slug": "pipo-output",
@@ -81,7 +86,8 @@
       "tags": [
         "Utility",
         "Polyphonic"
-      ]
+      ],
+      "keywords": "po pipo"
     },
     {
       "slug": "pipo-input",
@@ -91,7 +97,19 @@
       "tags": [
         "Utility",
         "Polyphonic"
-      ]
+      ],
+      "keywords": "pi pipo"
+    },
+    {
+      "slug": "poly-same-diff",
+      "name": "P-SD",
+      "description": "Polyphonic Same and Different",
+      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/PSD.md",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ],
+      "keywords": "psd compare"
     }
   ]
 }
