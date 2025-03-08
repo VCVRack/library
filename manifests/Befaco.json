@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.8.2",
+  "version": "2.9.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -358,6 +358,65 @@
         "Mixer",
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Mixer2",
+      "name": "Mixer",
+      "description": "Utilitarian audio and CV mixer",
+      "manualUrl": "https://www.befaco.org/mixer-v2/",
+      "tags": [
+        "Hardware clone",
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Atte",
+      "name": "Atte",
+      "description": "Quad Attenuator/Inverter, Splitter, and Offset Generator",
+      "manualUrl": "https://www.befaco.org/atte/",
+      "tags": [
+        "Attenuator",
+        "Hardware clone",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "AxBC",
+      "name": "AxBC",
+      "description": "Voltage-Controlled Voltage Processor",
+      "manualUrl": "https://www.befaco.org/axbc/",
+      "tags": [
+        "Ring Modulator",
+        "Attenuator",
+        "Dual",
+        "Hardware clone",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Slew",
+      "name": "Slew",
+      "description": "Voltage-controlled lag processor and slope detector",
+      "manualUrl": "https://www.befaco.org/slew/",
+      "tags": [
+        "Slew Limiter",
+        "Envelope Follower",
+        "Hardware clone",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MuDi",
+      "name": "MuDi",
+      "description": "Clock Multiple, Conditioner, and Divider in a compact 2HP format",
+      "manualUrl": "https://www.befaco.org/mudi/",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Hardware clone",
+        "Polyphonic"
       ]
     }
   ]

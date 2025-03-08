@@ -1,0 +1,69 @@
+{
+  "slug": "OuroborosModules",
+  "name": "OuroborosModules",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Ouroboros Industries",
+  "author": "Chronos \"phantombeta\" Ouroboros",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/Doom2fan",
+  "pluginUrl": "https://github.com/Doom2fan/OuroborosModules",
+  "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki",
+  "sourceUrl": "https://github.com/Doom2fan/OuroborosModules",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/Doom2fan/OuroborosModules/blob/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "MetaModule",
+      "name": "Meta",
+      "description": "Adds features to VCV Rack",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Meta"
+    },
+    {
+      "slug": "CableColorModule",
+      "name": "Chroma",
+      "description": "A cable colour manager with labels and support for multiple colour collections",
+      "tags": [
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Chroma"
+    },
+    {
+      "slug": "StereoVCAModule",
+      "name": "ST-VCA",
+      "description": "A stereo version of the Fundamental VCA",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/ST\u2010VCA"
+    },
+    {
+      "slug": "BernoulliGates",
+      "name": "Bernoulli",
+      "description": "A bank of 8 bernoulli gates",
+      "tags": [
+        "Random",
+        "Logic",
+        "Switch",
+        "Clock modulator"
+      ],
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Bernoulli"
+    },
+    {
+      "slug": "Median",
+      "name": "Median",
+      "description": "A 3-element voltage sorter, sorts 3 voltages into min, mid and max",
+      "tags": [
+        "Logic",
+        "Waveshaper",
+        "Polyphonic"
+      ],
+      "keywords": "sort sorting sorter min mid max",
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Median"
+    }
+  ]
+}
