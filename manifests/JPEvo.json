@@ -1,7 +1,7 @@
 {
   "slug": "JPEvo",
   "name": "JP Evo",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "license": "https://vcvrack.com/eula",
   "brand": "JP",
   "author": "Andrew Hanson (Path Set) & Joop van der Linden",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/patheros/JPManuals/blob/main/JPEvo.pdf",
   "sourceUrl": "",
   "donateUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/patheros/JPManuals/blob/main/Changelog-JPEvo.md",
   "modules": [
     {
       "slug": "EvoCycle",
