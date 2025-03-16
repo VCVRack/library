@@ -1,7 +1,7 @@
 {
   "slug": "CVfunkChordCaster",
   "name": "CV funk Chord Caster",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "license": "https://vcvrack.com/eula",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -29,6 +29,14 @@
       "tags": [
         "Utility",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Chordy",
+      "name": "Chordy",
+      "description": "Just the 6-note chord sequencer from Chord Caster.",
+      "tags": [
+        "Sequencer"
       ]
     }
   ]
