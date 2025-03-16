@@ -2229,5 +2229,103 @@
     "vcvUrl": "https://library.vcvrack.com/VultMysteries/Feigen",
     "mgUrl": "https://modulargrid.net/e/vult-feigen",
     "mgModuleId": 39442
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "BadIdea9",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/BadIdea9",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-bad-idea-9",
+    "mgModuleId": 24371
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "BadIdea1800",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/BadIdea1800",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-bad-idea-1800-call-yer-mum",
+    "mgModuleId": 25238
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "Bobcat",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/Bobcat",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-bobcat",
+    "mgModuleId": 8440
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "BusMult",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/BusMult",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-bus-mult",
+    "mgModuleId": 13559
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "Count",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/Count",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-count",
+    "mgModuleId": 11320
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "Deviant",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/Deviant",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-deviant",
+    "mgModuleId": 9764
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "DialUp",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/DialUp",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-dial-up",
+    "mgModuleId": 13558
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "GMO",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/GMO",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-gmO",
+    "mgModuleId": 8438
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "Kriket",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/Kriket",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-kriket",
+    "mgModuleId": 11137
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "Mito",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/Mito",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-mitO",
+    "mgModuleId": 11321
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "Moffenmix",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/Moffenmix",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-moffenmix",
+    "mgModuleId": 11322
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "Mongrel",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/Mongrel",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-mongrel",
+    "mgModuleId": 8439
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "Muskrat",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/Muskrat",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-muskrat",
+    "mgModuleId": 10655
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "Simplify",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/Simplify",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-simplify",
+    "mgModuleId": 50381
   }
 ]

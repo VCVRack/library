@@ -1,0 +1,31 @@
+{
+  "slug": "ArhythmeticUnits-Fourier",
+  "version": "2.1.1",
+  "license": "GPL-3.0-or-later",
+  "name": "Fourier",
+  "brand": "ArhythmeticUnits",
+  "author": "Christian Kauten",
+  "authorEmail": "arhythmetic.units@gmail.com",
+  "sourceUrl": "https://github.com/Kautenja/ArhythmeticUnits-Fourier",
+  "changelogUrl": "https://github.com/Kautenja/ArhythmeticUnits-Fourier/blob/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "SpectrumAnalyzer",
+      "name": "Fourier (Spectrum Analyzer)",
+      "description": "Tune-able spectrum analyzer",
+      "manualUrl": "https://github.com/Kautenja/ArhythmeticUnits-Fourier/releases/latest/download/Fourier.pdf",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Spectrogram",
+      "name": "Spectre (Spectrogram Visualizer)",
+      "description": "Tune-able spectrogram visualizer",
+      "manualUrl": "https://github.com/Kautenja/ArhythmeticUnits-Fourier/releases/latest/download/Spectre.pdf",
+      "tags": [
+        "Visual"
+      ]
+    }
+  ]
+}

@@ -3553,7 +3553,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1735623969.6743667,
+    "buildTimestamp": 1742146149.7725067,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -14037,7 +14037,7 @@
     }
   },
   "CVfunk": {
-    "buildTimestamp": 1741630693.2155087,
+    "buildTimestamp": 1742146059.4767537,
     "creationTimestamp": 1711827243.9642084,
     "modules": {
       "Steps": {
@@ -15074,6 +15074,66 @@
       },
       "Median": {
         "creationTimestamp": 1741467308.9396498
+      }
+    }
+  },
+  "Moffenzeef": {
+    "buildTimestamp": 1742146425.625985,
+    "creationTimestamp": 1742146425.774556,
+    "modules": {
+      "BadIdea9": {
+        "creationTimestamp": 1742146425.849123
+      },
+      "BadIdea1800": {
+        "creationTimestamp": 1742146425.924117
+      },
+      "Bobcat": {
+        "creationTimestamp": 1742146425.999058
+      },
+      "BusMult": {
+        "creationTimestamp": 1742146426.0698233
+      },
+      "Count": {
+        "creationTimestamp": 1742146426.1439013
+      },
+      "Deviant": {
+        "creationTimestamp": 1742146426.214297
+      },
+      "DialUp": {
+        "creationTimestamp": 1742146426.287829
+      },
+      "GMO": {
+        "creationTimestamp": 1742146426.3580356
+      },
+      "Kriket": {
+        "creationTimestamp": 1742146426.4277868
+      },
+      "Mito": {
+        "creationTimestamp": 1742146426.4969764
+      },
+      "Moffenmix": {
+        "creationTimestamp": 1742146426.5772703
+      },
+      "Mongrel": {
+        "creationTimestamp": 1742146426.6577077
+      },
+      "Muskrat": {
+        "creationTimestamp": 1742146426.728117
+      },
+      "Simplify": {
+        "creationTimestamp": 1742146426.8076556
+      }
+    }
+  },
+  "ArhythmeticUnits-Fourier": {
+    "buildTimestamp": 1742145971.339468,
+    "creationTimestamp": 1742146426.8862805,
+    "modules": {
+      "SpectrumAnalyzer": {
+        "creationTimestamp": 1742146426.9489985
+      },
+      "Spectrogram": {
+        "creationTimestamp": 1742146427.0231636
       }
     }
   }

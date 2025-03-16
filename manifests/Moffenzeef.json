@@ -1,0 +1,190 @@
+{
+  "slug": "Moffenzeef",
+  "name": "Moffenzeef",
+  "version": "2.0.0",
+  "license": "GPL-3.0+",
+  "brand": "Moffenzeef",
+  "author": "Ross Fish",
+  "authorEmail": "moffenzeefmodular@gmail.com",
+  "authorUrl": "https://moffenzeefmodular.com",
+  "pluginUrl": "https://moffenzeefmodular.com",
+  "manualUrl": "https://moffenzeefmodular.com",
+  "sourceUrl": "",
+  "donateUrl": "https://www.paypal.com/ncp/payment/EABFTDFCHRLLS",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "BadIdea9",
+      "name": "Bad Idea #9",
+      "description": "Power starved glitch oscillator",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-bad-idea-9",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/MOF-BAD-IDEA-QS.pdf",
+      "tags": [
+        "oscillator",
+        "noise",
+        "drum",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "BadIdea1800",
+      "name": "Bad Idea #1800-Call-Yer-Mum",
+      "description": "DTMF tone generator",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-bad-idea-1800-call-yer-mum",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/MOF-BADIDEA-1800-QS.pdf",
+      "tags": [
+        "oscillator",
+        "noise",
+        "drum",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "Bobcat",
+      "name": "Bobcat",
+      "description": "Dual noise drum",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-bobcat",
+      "manualUrl": "https://raw.githubusercontent.com/moffenzeefmodular/GMO/master/IllustratorFiles/Renders/usermanual_bobcat.png",
+      "tags": [
+        "drum",
+        "noise",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "BusMult",
+      "name": "Bus Mult",
+      "description": "1x3 and 1x2 mult",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-bus-mult",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/bus-mult-quickstart-91417-B.pdf",
+      "tags": [
+        "multiple",
+        "utility",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "Count",
+      "name": "Count",
+      "description": "Master clock with divided outputs",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-count",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/count_quickstart-83117.pdf",
+      "tags": [
+        "clock generator",
+        "clock modulator",
+        "utility",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "Deviant",
+      "name": "Deviant",
+      "description": "Dual max/min stepped random with slew",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-deviant",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/deviant_quickstart-mh28.pdf",
+      "tags": [
+        "random",
+        "utility",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "DialUp",
+      "name": "Dial Up",
+      "description": "Dial up modem drum module",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-dial-up",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/DIALUP-QUICKSTART-91417.pdf",
+      "tags": [
+        "drum",
+        "noise",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "GMO",
+      "name": "GMO",
+      "description": "Lofi ROMPLER with only one bank of metal clangs",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-gmO",
+      "manualUrl": "https://github.com/moffenzeefmodular/GMO/blob/master/IllustratorFiles/Renders/usermanual_GMO_.png?raw=true",
+      "tags": [
+        "drum",
+        "noise",
+        "oscillator",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "Kriket",
+      "name": "Kriket",
+      "description": "Quad blip and beep generator",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-kriket",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/KRIKET_QS.pdf",
+      "tags": [
+        "drum",
+        "noise",
+        "oscillator",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "Mito",
+      "name": "MITO",
+      "description": "6 channel clock divider sequencer with swing and pulsewidth control",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-mitO",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/mito_quickstart.pdf",
+      "tags": [
+        "clock modulator",
+        "sequencer",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "Moffenmix",
+      "name": "Moffenmix",
+      "description": "Quad distortion mixer",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-moffenmix",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/MOF-MIX-QS.pdf",
+      "tags": [
+        "mixer",
+        "distortion",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "Mongrel",
+      "name": "Mongrel",
+      "description": "Ring mod drum",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-mongrel",
+      "manualUrl": "https://raw.githubusercontent.com/moffenzeefmodular/GMO/master/IllustratorFiles/Renders/usermanual_mongrel.png",
+      "tags": [
+        "drum",
+        "noise",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "Muskrat",
+      "name": "Muskrat",
+      "description": "Lofi wavetable drum with additional algorithms",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-muskrat",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/MUSKRAT_QS-s5bp.pdf",
+      "tags": [
+        "drum",
+        "noise",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "Simplify",
+      "name": "Simplify",
+      "description": "Dynamic mute module",
+      "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-simplify",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/MOF-SIMPLIFY-QUICKSTART-v10-892024.pdf",
+      "tags": [
+        "sequencer",
+        "clock modulator",
+        "hardware clone"
+      ]
+    }
+  ]
+}
