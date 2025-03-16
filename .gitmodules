@@ -897,3 +897,6 @@
 [submodule "repos/Moffenzeef"]
 	path = repos/Moffenzeef
 	url = https://github.com/moffenzeefmodular/VCVrack-submission.git
+[submodule "repos/ArhythmeticUnits-Fourier"]
+	path = repos/ArhythmeticUnits-Fourier
+	url = https://github.com/Kautenja/ArhythmeticUnits-Fourier.git
