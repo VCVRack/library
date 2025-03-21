@@ -8,11 +8,11 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/",
   "authorUrl": "https://www.vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.14",
+  "version": "2.0.15",
   "modules": [
     {
       "slug": "Basal",
-      "name": "Basal (Free)",
+      "name": "Basal",
       "tags": [
         "VCO",
         "Polyphonic"
@@ -21,7 +21,7 @@
     },
     {
       "slug": "Bleak",
-      "name": "Bleak (Free)",
+      "name": "Bleak",
       "tags": [
         "VCO",
         "Polyphonic"
@@ -30,7 +30,7 @@
     },
     {
       "slug": "Boomstick",
-      "name": "Boomstick (Free)",
+      "name": "Boomstick",
       "tags": [
         "VCF",
         "Polyphonic"
@@ -39,7 +39,7 @@
     },
     {
       "slug": "Caudal",
-      "name": "Caudal (Free)",
+      "name": "Caudal",
       "tags": [
         "Random",
         "LFO",
@@ -50,7 +50,7 @@
     },
     {
       "slug": "Debriatus",
-      "name": "Debriatus (Free)",
+      "name": "Debriatus",
       "tags": [
         "Distortion",
         "Waveshaper",
@@ -61,7 +61,7 @@
     },
     {
       "slug": "Decline",
-      "name": "Decline (Free)",
+      "name": "Decline",
       "tags": [
         "Equalizer",
         "Polyphonic"
@@ -70,7 +70,7 @@
     },
     {
       "slug": "Disjoint",
-      "name": "Disjoint (Free)",
+      "name": "Disjoint",
       "tags": [
         "Equalizer",
         "VCF",
@@ -80,7 +80,7 @@
     },
     {
       "slug": "Fuser",
-      "name": "Fuser (Free)",
+      "name": "Fuser",
       "tags": [
         "Mixer",
         "Polyphonic"
@@ -90,7 +90,7 @@
     },
     {
       "slug": "Flux",
-      "name": "Flux (Free)",
+      "name": "Flux",
       "tags": [
         "Attenuator",
         "Envelope follower",
@@ -104,7 +104,7 @@
     },
     {
       "slug": "Jorus",
-      "name": "Jorus (Free)",
+      "name": "Jorus",
       "tags": [
         "Effect",
         "Chorus",
@@ -114,7 +114,7 @@
     },
     {
       "slug": "Julste",
-      "name": "Julste (Free)",
+      "name": "Julste",
       "tags": [
         "Low pass gate",
         "Polyphonic"
@@ -123,7 +123,7 @@
     },
     {
       "slug": "Lateralus",
-      "name": "Lateralus (Free)",
+      "name": "Lateralus",
       "tags": [
         "VCF",
         "Polyphonic"
@@ -132,7 +132,7 @@
     },
     {
       "slug": "Leakage",
-      "name": "Leakage (Free)",
+      "name": "Leakage",
       "tags": [
         "Attenuator",
         "Envelope follower",
@@ -147,7 +147,7 @@
     },
     {
       "slug": "Nopskate",
-      "name": "Nopskate (Free)",
+      "name": "Nopskate",
       "tags": [
         "Waveshaper",
         "Effect",
@@ -157,7 +157,7 @@
     },
     {
       "slug": "Nitrous",
-      "name": "Nitrous (Free)",
+      "name": "Nitrous",
       "tags": [
         "VCF",
         "Polyphonic"
@@ -166,7 +166,7 @@
     },
     {
       "slug": "Opulus",
-      "name": "Opulus (Free)",
+      "name": "Opulus",
       "tags": [
         "Synth voice",
         "Polyphonic"
@@ -175,7 +175,7 @@
     },
     {
       "slug": "OpulusMicro",
-      "name": "OpulusMicro (Free)",
+      "name": "OpulusMicro",
       "tags": [
         "Synth voice",
         "Polyphonic"
@@ -184,7 +184,7 @@
     },
     {
       "slug": "Punch",
-      "name": "Punch (Free)",
+      "name": "Punch",
       "tags": [
         "VCA",
         "Polyphonic"
@@ -193,7 +193,7 @@
     },
     {
       "slug": "Rescomb",
-      "name": "Rescomb (Free)",
+      "name": "Rescomb",
       "tags": [
         "VCF",
         "Effect",
@@ -203,7 +203,7 @@
     },
     {
       "slug": "Slap",
-      "name": "Slap (Free)",
+      "name": "Slap",
       "tags": [
         "Envelope generator",
         "VCA",
@@ -213,7 +213,7 @@
     },
     {
       "slug": "Spank",
-      "name": "Spank (Free)",
+      "name": "Spank",
       "tags": [
         "Envelope generator",
         "VCA",
@@ -223,7 +223,7 @@
     },
     {
       "slug": "Splie",
-      "name": "Splie (Free)",
+      "name": "Splie",
       "tags": [
         "Multiple",
         "Utility",
@@ -233,7 +233,7 @@
     },
     {
       "slug": "Stabile",
-      "name": "Stabile (Free)",
+      "name": "Stabile",
       "tags": [
         "VCF",
         "Polyphonic"
@@ -242,7 +242,7 @@
     },
     {
       "slug": "Tangents",
-      "name": "Tangents (Free)",
+      "name": "Tangents",
       "tags": [
         "VCF",
         "Polyphonic"
@@ -251,7 +251,7 @@
     },
     {
       "slug": "Tohe",
-      "name": "Tohe (Free)",
+      "name": "Tohe",
       "tags": [
         "VCF",
         "Equalizer",
@@ -261,7 +261,7 @@
     },
     {
       "slug": "Trummor",
-      "name": "Trummor (Free)",
+      "name": "Trummor",
       "tags": [
         "Drum",
         "Envelope generator",
@@ -272,7 +272,7 @@
     },
     {
       "slug": "Trummor2",
-      "name": "Trummor 2 (Free)",
+      "name": "Trummor 2",
       "tags": [
         "Drum",
         "Envelope generator",
@@ -283,7 +283,7 @@
     },
     {
       "slug": "TrummorFM",
-      "name": "Trummor FM (Free)",
+      "name": "Trummor FM",
       "tags": [
         "Drum",
         "Synth Voice",
@@ -293,7 +293,7 @@
     },
     {
       "slug": "Unstabile",
-      "name": "Unstabile (Free)",
+      "name": "Unstabile",
       "tags": [
         "VCF",
         "Polyphonic"
@@ -302,7 +302,7 @@
     },
     {
       "slug": "Vessek",
-      "name": "Vessek (Free)",
+      "name": "Vessek",
       "tags": [
         "VCO",
         "Polyphonic"
@@ -311,7 +311,7 @@
     },
     {
       "slug": "Vultari",
-      "name": "Vultari (Free)",
+      "name": "Vultari",
       "tags": [
         "VCO",
         "Polyphonic"
@@ -320,7 +320,7 @@
     },
     {
       "slug": "Wolv",
-      "name": "Wolv (Free)",
+      "name": "Wolv",
       "tags": [
         "Waveshaper",
         "Polyphonic"
@@ -330,7 +330,7 @@
     },
     {
       "slug": "BlackPanelSmall",
-      "name": "Blank: 3 HP (Free)",
+      "name": "Blank: 3 HP",
       "tags": [
         "Blank"
       ],
@@ -338,7 +338,7 @@
     },
     {
       "slug": "BlackPanel",
-      "name": "Blank: 6 HP (Free)",
+      "name": "Blank: 6 HP",
       "tags": [
         "Blank"
       ],
@@ -346,7 +346,7 @@
     },
     {
       "slug": "BlackPanelBig",
-      "name": "Blank: 12 HP (Free)",
+      "name": "Blank: 12 HP",
       "tags": [
         "Blank"
       ],
@@ -354,7 +354,7 @@
     },
     {
       "slug": "UtilBypass",
-      "name": "Bypass (Free)",
+      "name": "Bypass",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -363,7 +363,7 @@
     },
     {
       "slug": "UtilKnobs",
-      "name": "Knobs (Free)",
+      "name": "Knobs",
       "tags": [
         "Utility",
         "Attenuator",
@@ -375,7 +375,7 @@
     },
     {
       "slug": "UtilSend",
-      "name": "Send (Free)",
+      "name": "Send",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -384,7 +384,7 @@
     },
     {
       "slug": "Stress",
-      "name": "Stress (Free)",
+      "name": "Stress",
       "tags": [
         "Utility"
       ],
