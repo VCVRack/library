@@ -1,7 +1,7 @@
 {
   "slug": "wildergarden",
   "name": "wildergarden",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "wildergarden",
   "author": "wildergarden",
@@ -26,11 +26,21 @@
     {
       "slug": "Pascal",
       "name": "Pascal",
-      "description": "This plugin uses Pascal's triangle, a mathematical pattern independently invented throughout the world during the Middle Ages, to create evolving melodies and drum sequences.",
+      "description": "This module uses Pascal's triangle, a mathematical pattern independently invented throughout the world during the Middle Ages, to create evolving melodies and drum sequences.",
       "tags": [
         "Logic",
         "Sequencer",
         "Clock modulator"
+      ]
+    },
+    {
+      "slug": "modmix",
+      "name": "Mod Mix",
+      "description": "Wavefolding mixer for audio and CV",
+      "tags": [
+        "Waveshaper",
+        "Utility",
+        "Mixer"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.7.0",
+  "version": "2.7.1",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -323,6 +323,23 @@
       ]
     },
     {
+      "slug": "RandLoops",
+      "name": "randLoops",
+      "description": "random voltage/trigger sequencer inspired by Turing Machine",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "RandLoops8",
+      "name": "randLoops8",
+      "description": "8 looped random voltage/trigger sequencer inspired by Turing Machine",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Shifter",
       "name": "shifter",
       "description": "64 selectable stages shift register",
@@ -464,7 +481,7 @@
     {
       "slug": "StepSeqPlus",
       "name": "stepSeq+",
-      "description": "16 step sequencer with direction and presets(ss16+)",
+      "description": "16 step sequencer with direction and presets (ss16+)",
       "tags": [
         "Sequencer"
       ]
@@ -534,6 +551,14 @@
       "slug": "TrigSeqPlus",
       "name": "trigSeq+",
       "description": "16 step trig sequencer with direction and presets (ts16+)",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TrigSeq8x",
+      "name": "trigSeq8x",
+      "description": "8 track / 16 step trig sequencer with direction and presets (ts8x)",
       "tags": [
         "Sequencer"
       ]
