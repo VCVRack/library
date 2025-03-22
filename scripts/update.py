@@ -255,7 +255,7 @@ print(f"Press enter to launch Rack and test the following packages: {manifest_ve
 input()
 try:
 	common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack")
-	common.system(f"cd {RACK_USER_DIR} && grep '\\bwarn|debug\\b' log.txt || true")
+	common.system(f"cd {RACK_USER_DIR} && grep -P '\\bwarn|debug\\b' log.txt || true")
 except:
 	print(f"Rack failed! Enter to continue if desired")
 
