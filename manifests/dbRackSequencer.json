@@ -1,7 +1,7 @@
 {
   "slug": "dbRackSequencer",
   "name": "dbRackSequencer",
-  "version": "2.5.0",
+  "version": "2.6.1",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -447,6 +447,14 @@
       "tags": [
         "Mixer",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "G32",
+      "name": "G32",
+      "description": "Deterministic Gate Provider",
+      "tags": [
+        "Sequencer"
       ]
     }
   ]

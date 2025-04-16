@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1739046953.493678,
+    "buildTimestamp": 1744777039.508623,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -4002,7 +4002,7 @@
     }
   },
   "trowaSoft": {
-    "buildTimestamp": 1692655073.4154177,
+    "buildTimestamp": 1744776864.228962,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "trigSeq": {
@@ -12021,7 +12021,7 @@
     }
   },
   "dbRackSequencer": {
-    "buildTimestamp": 1736672732.9623563,
+    "buildTimestamp": 1744776680.686229,
     "creationTimestamp": 1653920290.2170763,
     "modules": {
       "JTChords": {
@@ -12179,6 +12179,9 @@
       },
       "VCM8": {
         "creationTimestamp": 1736672984.0673437
+      },
+      "G32": {
+        "creationTimestamp": 1744777040.5025427
       }
     }
   },
@@ -12294,7 +12297,7 @@
     }
   },
   "Chinenual-VCV": {
-    "buildTimestamp": 1714987383.6742194,
+    "buildTimestamp": 1744775286.519996,
     "creationTimestamp": 1660869608.7876675,
     "modules": {
       "MIDIRecorder": {
@@ -12339,7 +12342,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1742661712.7778184,
+    "buildTimestamp": 1744776243.3597376,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12527,6 +12530,30 @@
       },
       "TrigSeq8x": {
         "creationTimestamp": 1742661726.7764795
+      },
+      "AdMini": {
+        "creationTimestamp": 1744777039.8249917
+      },
+      "DrumPlayerMk2": {
+        "creationTimestamp": 1744777039.9081879
+      },
+      "DrumPlayerMini": {
+        "creationTimestamp": 1744777039.9886203
+      },
+      "EnverMini": {
+        "creationTimestamp": 1744777040.069899
+      },
+      "EnverMiniX": {
+        "creationTimestamp": 1744777040.1505933
+      },
+      "RandLoopsMini": {
+        "creationTimestamp": 1744777040.2299669
+      },
+      "SlewerMini": {
+        "creationTimestamp": 1744777040.3183033
+      },
+      "StepSeq8x": {
+        "creationTimestamp": 1744777040.405525
       }
     }
   },
@@ -13821,7 +13848,7 @@
     }
   },
   "squinktronix-plug1": {
-    "buildTimestamp": 1729363337.0971208,
+    "buildTimestamp": 1744776749.1398473,
     "creationTimestamp": 1704333639.9465997,
     "modules": {
       "sqh-harmony1": {
@@ -14163,7 +14190,7 @@
     }
   },
   "SanguineMutants": {
-    "buildTimestamp": 1742661296.4636025,
+    "buildTimestamp": 1744775822.396488,
     "creationTimestamp": 1717919524.088269,
     "modules": {
       "Funes": {
@@ -14292,7 +14319,7 @@
     }
   },
   "Cella": {
-    "buildTimestamp": 1738441557.616975,
+    "buildTimestamp": 1744775240.499844,
     "creationTimestamp": 1723919612.1472793,
     "modules": {
       "Euler": {
@@ -14312,6 +14339,9 @@
       },
       "Bytebeat": {
         "creationTimestamp": 1738441992.351659
+      },
+      "CognitiveShift": {
+        "creationTimestamp": 1744777039.7401865
       }
     }
   },
@@ -14349,7 +14379,7 @@
     }
   },
   "SanguineMonsters": {
-    "buildTimestamp": 1728140952.7677057,
+    "buildTimestamp": 1744775617.2692077,
     "creationTimestamp": 1725269088.3066404,
     "modules": {
       "Sanguine-SuperSwitch81": {
@@ -15090,7 +15120,7 @@
     }
   },
   "Moffenzeef": {
-    "buildTimestamp": 1742661025.0916348,
+    "buildTimestamp": 1744775547.1139686,
     "creationTimestamp": 1742146425.774556,
     "modules": {
       "BadIdea9": {

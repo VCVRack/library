@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -13,6 +13,16 @@
   "donateUrl": "https://paypal.me/sickozell",
   "changelogUrl": "https://github.com/sickozell/SickoCV/blob/main/changelog.md",
   "modules": [
+    {
+      "slug": "AdMini",
+      "name": "ad mini",
+      "description": "Ad function generator with VCA",
+      "tags": [
+        "Function generator",
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
     {
       "slug": "Adder8",
       "name": "adder8",
@@ -133,7 +143,7 @@
     {
       "slug": "Drummer",
       "name": "drummer",
-      "description": "Accent and choke utility for drum modules lacking these features",
+      "description": "Accent and choke utility for drum modules lacking these features (dr)",
       "tags": [
         "Utility",
         "Drum",
@@ -143,7 +153,7 @@
     {
       "slug": "Drummer4",
       "name": "drummer4",
-      "description": "4 channel accent and choke utility for drum modules lacking this feature",
+      "description": "4 channel accent and choke utility for drum modules lacking this feature (d4)",
       "tags": [
         "Utility",
         "Drum",
@@ -153,7 +163,7 @@
     {
       "slug": "Drummer4Plus",
       "name": "drummer4+",
-      "description": "4 channel accent and choke utility for drum modules lacking this feature",
+      "description": "4 channel accent and choke utility for drum modules lacking this feature (d4p)",
       "tags": [
         "Utility",
         "Drum",
@@ -163,7 +173,17 @@
     {
       "slug": "DrumPlayer",
       "name": "drumPlayer",
-      "description": "Drum Sample Player",
+      "description": "Drum Sample Player (dp)",
+      "tags": [
+        "Sampler",
+        "Drum",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "DrumPlayerMk2",
+      "name": "drumPlayer mk2",
+      "description": "Drum Sample Player (dp2)",
       "tags": [
         "Sampler",
         "Drum",
@@ -173,7 +193,7 @@
     {
       "slug": "DrumPlayerPlus",
       "name": "drumPlayer+",
-      "description": "Drum Sample Player",
+      "description": "Drum Sample Player (dpp)",
       "tags": [
         "Sampler",
         "Drum",
@@ -183,11 +203,19 @@
     {
       "slug": "DrumPlayerXtra",
       "name": "drumPlayerXtra",
-      "description": "Drum Sample Player",
+      "description": "Drum Sample Player (dpx)",
       "tags": [
         "Sampler",
         "Drum",
         "Quad"
+      ]
+    },
+    {
+      "slug": "DrumPlayerMini",
+      "name": "drumPlayer mini",
+      "description": "Drum Sample Player (dp)",
+      "tags": [
+        "Sampler"
       ]
     },
     {
@@ -198,6 +226,27 @@
         "Envelope generator",
         "Voltage-controlled amplifier",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "EnverMini",
+      "name": "enver mini",
+      "description": "Envelope generator with VCA",
+      "tags": [
+        "Envelope generator",
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "EnverMiniX",
+      "name": "enver mini expander",
+      "description": "Expander for enver mini and ad mini",
+      "tags": [
+        "Envelope generator",
+        "Voltage-controlled amplifier",
+        "Polyphonic",
+        "Expander"
       ]
     },
     {
@@ -242,7 +291,7 @@
     {
       "slug": "Modulator",
       "name": "modulator",
-      "description": "triangle/ramp LFOs with sync feature",
+      "description": "triangle/ramp LFOs with sync feature (mod)",
       "tags": [
         "Low-frequency oscillator"
       ]
@@ -250,7 +299,7 @@
     {
       "slug": "Modulator7",
       "name": "modulator7",
-      "description": "7 triangle/ramp LFOs with sync feature",
+      "description": "7 triangle/ramp LFOs with sync feature (mod7)",
       "tags": [
         "Low-frequency oscillator",
         "Polyphonic"
@@ -259,7 +308,7 @@
     {
       "slug": "Modulator7Compact",
       "name": "modulator7 Compact",
-      "description": "7 unipolar triangle LFOs",
+      "description": "7 unipolar triangle LFOs (mod7)",
       "tags": [
         "Low-frequency oscillator"
       ]
@@ -326,6 +375,14 @@
       "slug": "RandLoops",
       "name": "randLoops",
       "description": "random voltage/trigger sequencer inspired by Turing Machine",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "RandLoopsMini",
+      "name": "randLoops mini",
+      "description": "random voltage/trigger sequencer inspired by Turing Machine (rl)",
       "tags": [
         "Sequencer"
       ]
@@ -471,6 +528,16 @@
       ]
     },
     {
+      "slug": "SlewerMini",
+      "name": "slewer mini",
+      "description": "Slew Limiter",
+      "tags": [
+        "Slew limiter",
+        "Low-frequency oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "StepSeq",
       "name": "stepSeq",
       "description": "16 step sequencer with direction (ss16)",
@@ -482,6 +549,14 @@
       "slug": "StepSeqPlus",
       "name": "stepSeq+",
       "description": "16 step sequencer with direction and presets (ss16+)",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "StepSeq8x",
+      "name": "stepSeq8x",
+      "description": "8 track / 16 step sequencer with direction and presets (ss8x)",
       "tags": [
         "Sequencer"
       ]

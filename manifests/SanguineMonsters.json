@@ -1,14 +1,14 @@
 {
   "slug": "SanguineMonsters",
-  "name": "Sanguine Modules",
-  "version": "2.3.1",
+  "name": "Sanguine Monsters",
+  "version": "2.3.2",
   "license": "GPL-3.0-or-later",
   "author": "Bloodbat",
   "pluginUrl": "https://github.com/Bloodbat/SanguineMonsters",
   "sourceUrl": "https://github.com/Bloodbat/SanguineMonsters",
   "description": "Monster modules for your everyday needs.",
   "changelogUrl": "https://github.com/Bloodbat/SanguineMonsters/blob/main/CHANGELOG.md",
-  "manualUrl": "https://raw.githubusercontent.com/Bloodbat/SanguineModulesManuals/main/monsters_manual.pdf",
+  "manualUrl": "https://media.githubusercontent.com/media/Bloodbat/SanguineModulesManuals/refs/heads/main/monsters_manual.pdf",
   "modules": [
     {
       "slug": "Sanguine-SuperSwitch81",
