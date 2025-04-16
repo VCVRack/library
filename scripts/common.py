@@ -7,6 +7,16 @@ def system(cmd):
 	if result.returncode != 0:
 		raise Exception(f"Command failed with error {result.returncode}: {cmd}")
 
+def system_retry(cmd):
+	while True:
+		try:
+			system(cmd)
+			break
+		except Exception as error:
+			print(error)
+			print("Enter to retry")
+			input()
+
 
 def run(cmd):
 	print(cmd)

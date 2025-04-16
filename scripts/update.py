@@ -87,7 +87,7 @@ def print_missing_mac_arm64():
 
 
 # Update git before continuing
-common.system("git pull")
+common.system_retry("git pull")
 common.system("git submodule sync --recursive --quiet")
 common.system("git submodule update --init --recursive")
 
@@ -193,9 +193,8 @@ for plugin_path in plugin_paths:
 			common.system(f'cd "{TOOLCHAIN_DIR}" && make -j2 plugin-build-lin-x64 PLUGIN_DIR="{plugin_path}"')
 			# Copy package to packages dir
 			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/* "{PACKAGES_DIR}"/')
-			# Copy Mac packages to files dir for testing
-			# common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/*-mac-x64.vcvplugin "{FILES_DIR}"/')
-			# common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/*-mac-arm64.vcvplugin "{FILES_DIR}"/')
+			# Copy packages to files dir for testing
+			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/* "{FILES_DIR}"/')
 			# Install Linux package for testing
 			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/*-lin-x64.vcvplugin "{PLUGIN_DIR}"/')
 		except Exception as e:
@@ -253,33 +252,27 @@ update_modulargrid.update()
 print()
 print(f"Press enter to launch Rack and test the following packages: {manifest_versions_str}")
 input()
-try:
-	common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack")
-	common.system(f"cd {RACK_USER_DIR} && grep -P '\\bwarn|debug\\b' log.txt || true")
-except:
-	print(f"Rack failed! Enter to continue if desired")
+common.system_retry(f"cd {RACK_SYSTEM_DIR} && ./Rack")
+common.system(f"cd {RACK_USER_DIR} && grep -P '\\bwarn|debug\\b' log.txt || true")
 
 print(f"Press enter to generate screenshots, upload packages, upload screenshots, and commit/push the library repo.")
 input()
+common.system_retry(f"cd {RACK_SYSTEM_DIR} && ./Rack -t 4")
 
 # Generate screenshots
-try:
-	common.system(f"cd {RACK_SYSTEM_DIR} && ./Rack -t 4")
-except:
-	print(f"Rack failed! Enter to continue if desired")
-common.system("cd ../screenshots && make -j$(nproc)")
+common.system_retry("cd ../screenshots && make -j$(nproc)")
 
 # Upload packages
-common.system("cd ../packages && make upload")
+common.system_retry("cd ../packages && make upload")
 
 # Upload screenshots
-common.system("cd ../screenshots && make upload")
+common.system_retry("cd ../screenshots && make upload")
 
 # Commit git repo
 common.system("git add manifests")
 common.system("git add manifests-cache.json ModularGrid-VCVLibrary.json")
-common.system(f"git commit -m 'Update manifest {manifest_versions_str}'")
-common.system("git push")
+common.system_retry(f"git commit -m 'Update manifest {manifest_versions_str}'")
+common.system_retry("git push")
 
 print()
 print(f"Updated {manifest_versions_str}")
