@@ -1,7 +1,7 @@
 {
   "slug": "Cella",
   "name": "Cella",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "license": "GPL-3.0-or-later",
   "brand": "Cella",
   "author": "Victor Kashirin",
@@ -79,6 +79,19 @@
         "LFO",
         "Random",
         "Slew limiter"
+      ]
+    },
+    {
+      "slug": "CognitiveShift",
+      "name": "Cognitive Shift",
+      "description": "Advanced 8-bit digital shift register with clock, gates or trigger outputs, 4 DAC-based CV generators and various self-patching capabilities",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#cognitive-shift",
+      "keywords": "lfsr nlfsr feedback r2r dac",
+      "tags": [
+        "Sequencer",
+        "Sample and hold",
+        "Clock modulator",
+        "Logic"
       ]
     }
   ]
