@@ -900,3 +900,6 @@
 [submodule "repos/ArhythmeticUnits-Fourier"]
 	path = repos/ArhythmeticUnits-Fourier
 	url = https://github.com/Kautenja/ArhythmeticUnits-Fourier.git
+[submodule "repos/HawthornLabs"]
+	path = repos/HawthornLabs
+	url = https://github.com/AFHawthorn/HawthornLabs.git
