@@ -903,3 +903,6 @@
 [submodule "repos/HawthornLabs"]
 	path = repos/HawthornLabs
 	url = https://github.com/AFHawthorn/HawthornLabs.git
+[submodule "repos/Ondas"]
+	path = repos/Ondas
+	url = https://github.com/srsergiorodriguez/ondas.git
