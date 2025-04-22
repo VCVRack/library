@@ -1,7 +1,7 @@
 {
   "slug": "SonusModular",
   "name": "Sonus Modular",
-  "version": "2.0.0",
+  "version": "2.1.1",
   "license": "GPL-3.0-or-later",
   "author": "Sonus Dept.",
   "brand": "Sonus Dept.",
@@ -77,6 +77,16 @@
       "tags": [
         "Distortion",
         "Effect"
+      ]
+    },
+    {
+      "slug": "Fluidmix",
+      "name": "Fluidmix",
+      "moduleUrl": "https://gitlab.com/sonusdept/sonusmodular#fluidmix",
+      "description": "Continuous Input Selector",
+      "tags": [
+        "Mixer",
+        "Utility"
       ]
     },
     {

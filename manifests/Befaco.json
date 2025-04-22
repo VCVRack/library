@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.9.0",
+  "version": "2.9.1",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -365,6 +365,7 @@
       "name": "Mixer",
       "description": "Utilitarian audio and CV mixer",
       "manualUrl": "https://www.befaco.org/mixer-v2/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-befaco-mixer",
       "tags": [
         "Hardware clone",
         "Mixer",
@@ -376,6 +377,7 @@
       "name": "Atte",
       "description": "Quad Attenuator/Inverter, Splitter, and Offset Generator",
       "manualUrl": "https://www.befaco.org/atte/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-atte",
       "tags": [
         "Attenuator",
         "Hardware clone",
@@ -387,6 +389,7 @@
       "name": "AxBC",
       "description": "Voltage-Controlled Voltage Processor",
       "manualUrl": "https://www.befaco.org/axbc/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-a-b-c-v4",
       "tags": [
         "Ring Modulator",
         "Attenuator",
@@ -400,6 +403,7 @@
       "name": "Slew",
       "description": "Voltage-controlled lag processor and slope detector",
       "manualUrl": "https://www.befaco.org/slew/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-slew",
       "tags": [
         "Slew Limiter",
         "Envelope Follower",
@@ -412,6 +416,7 @@
       "name": "MuDi",
       "description": "Clock Multiple, Conditioner, and Divider in a compact 2HP format",
       "manualUrl": "https://www.befaco.org/mudi/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-mudi",
       "tags": [
         "Clock generator",
         "Clock modulator",

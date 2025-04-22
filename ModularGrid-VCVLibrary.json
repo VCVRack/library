@@ -2327,5 +2327,40 @@
     "vcvUrl": "https://library.vcvrack.com/Moffenzeef/Simplify",
     "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-simplify",
     "mgModuleId": 50381
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Mixer2",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Mixer2",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-befaco-mixer",
+    "mgModuleId": 53276
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Atte",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Atte",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-atte",
+    "mgModuleId": 53275
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "AxBC",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/AxBC",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-a-b-c-v4",
+    "mgModuleId": 53277
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Slew",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Slew",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-slew",
+    "mgModuleId": 53278
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "MuDi",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/MuDi",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-mudi",
+    "mgModuleId": 53279
   }
 ]

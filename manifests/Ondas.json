@@ -1,0 +1,62 @@
+{
+  "slug": "Ondas",
+  "name": "Ondas",
+  "version": "2.0.4",
+  "license": "GPL-3.0-or-later",
+  "brand": "Ondas",
+  "author": "Sergio Rodriguez Gomez",
+  "authorEmail": "ssergiorodriguez[at]hotmail.com",
+  "authorUrl": "https://srsergiorodriguez.github.io",
+  "pluginUrl": "https://github.com/srsergiorodriguez/ondas",
+  "manualUrl": "https://github.com/srsergiorodriguez/ondas/blob/main/README.md",
+  "sourceUrl": "https://github.com/srsergiorodriguez/ondas",
+  "donateUrl": "https://buymeacoffee.com/srsergior",
+  "changelogUrl": "https://github.com/srsergiorodriguez/ondas/blob/main/changelog.md",
+  "modules": [
+    {
+      "slug": "Klok",
+      "name": "Klok",
+      "description": "Clock generator with modulo outputs",
+      "tags": [
+        "Clock generator",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Secu",
+      "name": "Secu",
+      "description": "Step sequencer with probability & randomization",
+      "tags": [
+        "Sequencer",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "BaBum",
+      "name": "BaBum",
+      "description": "Drum synthesizer",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Scener",
+      "name": "Scener",
+      "description": "Scene-based channel mixer",
+      "tags": [
+        "Sequencer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Distroi",
+      "name": "Distroi",
+      "description": "Signal corruption effects",
+      "tags": [
+        "Effect",
+        "Distortion",
+        "Digital"
+      ]
+    }
+  ]
+}

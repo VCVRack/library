@@ -1,0 +1,25 @@
+{
+  "slug": "HawthornLabs",
+  "name": "Hawthorn Labs",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Hawthorn Labs",
+  "author": "Alex Hawthorn",
+  "authorEmail": "alexhawthornstudio@gmail.com",
+  "authorUrl": "https://github.com/AFHawthorn",
+  "pluginUrl": "https://github.com/AFHawthorn/HawthornLabs",
+  "manualUrl": "https://github.com/AFHawthorn/HawthornLabs/tree/master/README.md",
+  "sourceUrl": "https://github.com/AFHawthorn/HawthornLabs",
+  "donateUrl": "https://paypal.me/afhawthorn",
+  "changelogUrl": "https://github.com/AFHawthorn/HawthornLabs/tree/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "PlanetaryLFOs",
+      "name": "Planetary LFOs",
+      "description": "LFOs from the movement of the solar system",
+      "tags": [
+        "Low-Frequency Oscillator"
+      ]
+    }
+  ]
+}

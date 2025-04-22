@@ -1,7 +1,7 @@
 {
   "slug": "not-things",
   "name": "not-things",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "GPL-3.0-or-later",
   "brand": "not-things",
   "author": "Johan Vanbockryck",
@@ -19,7 +19,8 @@
       "description": "Limiter and sorter of (note) voltages",
       "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -29,7 +30,8 @@
       "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
       "tags": [
         "Utility",
-        "Expander"
+        "Expander",
+        "Polyphonic"
       ],
       "keywords": "sli"
     },
@@ -40,7 +42,8 @@
       "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
       "tags": [
         "Utility",
-        "Expander"
+        "Expander",
+        "Polyphonic"
       ],
       "keywords": "slio"
     },
@@ -51,7 +54,8 @@
       "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
       "tags": [
         "Utility",
-        "Expander"
+        "Expander",
+        "Polyphonic"
       ],
       "keywords": "slo"
     },
@@ -62,7 +66,8 @@
       "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
       "tags": [
         "Utility",
-        "Expander"
+        "Expander",
+        "Polyphonic"
       ],
       "keywords": "sloo"
     },
@@ -74,7 +79,8 @@
       "tags": [
         "Utility",
         "Expander",
-        "Random"
+        "Random",
+        "Polyphonic"
       ],
       "keywords": "slr"
     },
