@@ -906,3 +906,6 @@
 [submodule "repos/Ondas"]
 	path = repos/Ondas
 	url = https://github.com/srsergiorodriguez/ondas.git
+[submodule "repos/Sulamith"]
+	path = repos/Sulamith
+	url = https://github.com/JohannAsbjoernson/Sulamith.git
