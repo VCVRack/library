@@ -2,7 +2,7 @@
   "slug": "HetrickCV",
   "name": "HetrickCV",
   "brand": "HetrickCV",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -126,6 +126,17 @@
       "tags": [
         "Noise",
         "Random"
+      ]
+    },
+    {
+      "slug": "ClockToPhasor",
+      "name": "Clock to Phasor",
+      "description": "Generates a phasor from a series of gates.",
+      "tags": [
+        "Oscillator",
+        "Clock Modulator",
+        "Low-frequency Oscillator",
+        "Polyphonic"
       ]
     },
     {
@@ -291,6 +302,15 @@
       "slug": "MinMax",
       "name": "Min-Max",
       "description": "Outputs the greatest and least voltages from up to 4 inputs.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Normals",
+      "name": "Normals",
+      "description": "Connects an input to an output, unless a plug is inserted into the middle jack.",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -595,12 +615,30 @@
       ]
     },
     {
+      "slug": "PhasorToRandom",
+      "name": "Phasor to Random",
+      "description": "Generates random values for each step of a phasor input.",
+      "tags": [
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "PhasorToWaveforms",
       "name": "Phasor to Waveforms",
       "description": "Shapes incoming phasor signals to useful, static LFO waveshapes. These waveforms are not anti-aliased, hence the LFO designation.",
       "tags": [
         "Waveshaper",
         "Low-frequency Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PolymetricPhasors",
+      "name": "Polymetric Phasors",
+      "description": "Processes a phasor signal with a known number of steps, then produces output phasors at polymetric multiples.",
+      "tags": [
+        "Clock Modulator",
         "Polyphonic"
       ]
     },

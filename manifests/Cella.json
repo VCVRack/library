@@ -1,7 +1,7 @@
 {
   "slug": "Cella",
   "name": "Cella",
-  "version": "2.0.7",
+  "version": "2.8.0",
   "license": "GPL-3.0-or-later",
   "brand": "Cella",
   "author": "Victor Kashirin",
@@ -92,6 +92,28 @@
         "Sample and hold",
         "Clock modulator",
         "Logic"
+      ]
+    },
+    {
+      "slug": "LoudnessMeter",
+      "name": "Loudness Meter",
+      "description": "Loudness meter based on EBU R128 standard",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#loudness-meter",
+      "keywords": "ebu loudness lufs",
+      "tags": [
+        "Utility",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Loud",
+      "name": "Loud",
+      "description": "Loudness meter based on EBU R128 standard, narrow version",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#loudness-meter",
+      "keywords": "ebu loudness lufs",
+      "tags": [
+        "Utility",
+        "Visual"
       ]
     }
   ]
