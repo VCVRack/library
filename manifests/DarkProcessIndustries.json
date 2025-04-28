@@ -1,12 +1,12 @@
 {
   "slug": "DarkProcessIndustries",
   "name": "Dark Process Industries",
-  "version": "2.1.666",
+  "version": "2.2.666",
   "license": "proprietary",
   "brand": "Dark Process Industries",
   "author": "Sarah Rex",
   "authorEmail": "darkprocessindustries@gmail.com",
-  "authorUrl": "https://darkprocessindustries.com/",
+  "authorUrl": "https://darkprocessindustries.com/vcv-rack/",
   "pluginUrl": "https://darkprocessindustries.com/vcv-rack/",
   "manualUrl": "https://darkprocessindustries.com/vcv-rack/",
   "sourceUrl": "",
@@ -52,6 +52,46 @@
       "description": "MAELSTROM is a random voltage generator.",
       "tags": [
         "Random"
+      ]
+    },
+    {
+      "slug": "Taurus",
+      "name": "Taurus",
+      "description": "An 8 step CV sequencer.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Libra",
+      "name": "Libra",
+      "description": "A state variable filter.",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Scorpio",
+      "name": "Scorpio",
+      "description": "A complex oscillator.",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Leo",
+      "name": "Leo",
+      "description": "A trigger sequencer.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Lyra",
+      "name": "Lyra",
+      "description": "A low-pass gate.",
+      "tags": [
+        "Filter"
       ]
     }
   ]
