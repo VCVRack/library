@@ -1,0 +1,48 @@
+{
+  "slug": "VsWorld",
+  "name": "V's World",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "V's World",
+  "author": "Viktor Schiff",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/Synismusist/VsWorld",
+  "manualUrl": "https://github.com/Synismusist/VsWorld/blob/main/README.md",
+  "sourceUrl": "https://github.com/Synismusist/VsWorld",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "XLimitJIVCO",
+      "name": "X-Limit JI VCO",
+      "description": "VCO forcing just intonation",
+      "tags": [
+        "Polyphonic",
+        "Tuner",
+        "Quantizer",
+        "VCO"
+      ]
+    },
+    {
+      "slug": "XLimitJIAutotuner",
+      "name": "X-Limit JI Autotuner",
+      "description": "Dynamic just intonation tuner",
+      "tags": [
+        "Polyphonic",
+        "Tuner",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "XLimitJIAutotuner2",
+      "name": "X-Limit JI Autotuner II",
+      "description": "Complex dynamic just intonation tuner",
+      "tags": [
+        "Polyphonic",
+        "Quantizer",
+        "Tuner"
+      ]
+    }
+  ]
+}
