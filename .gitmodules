@@ -912,3 +912,6 @@
 [submodule "repos/VsWorld"]
 	path = repos/VsWorld
 	url = https://github.com/Synismusist/VsWorld.git
+[submodule "repos/HardSeqs"]
+	path = repos/HardSeqs
+	url = https://github.com/regular-dev/hardseqs.git
