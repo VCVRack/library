@@ -1,14 +1,14 @@
 {
   "slug": "vanTies",
   "name": "van Ties",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "Matthias Sars",
   "authorEmail": "",
   "authorUrl": "http://www.matthiassars.eu",
   "pluginUrl": "",
-  "manualUrl": "https://html-preview.github.io/?url=https://raw.githubusercontent.com/matthiassars/vanTies/main/manual/index.html",
+  "manualUrl": "https://html-preview.github.io/?url=https://github.com/matthiassars/vanTies/blob/main/manual/index.html",
   "sourceUrl": "https://github.com/matthiassars/vanTies",
   "donateUrl": "",
   "changelogUrl": "https://html-preview.github.io/?url=https://raw.githubusercontent.com/matthiassars/vanTies/main/manual/whatsnew.html",
@@ -48,6 +48,16 @@
         "Polyphonic"
       ],
       "keywords": ""
+    },
+    {
+      "slug": "Sjoegele",
+      "name": "Sjoegele",
+      "description": "double pendulum simulator",
+      "tags": [
+        "Random",
+        "Polyphonic"
+      ],
+      "keywords": "double pendulum"
     }
   ]
 }

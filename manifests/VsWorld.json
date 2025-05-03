@@ -1,7 +1,7 @@
 {
   "slug": "VsWorld",
   "name": "V's World",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "license": "GPL-3.0-or-later",
   "brand": "V's World",
   "author": "Viktor Schiff",
@@ -13,17 +13,6 @@
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
-    {
-      "slug": "XLimitJIVCO",
-      "name": "X-Limit JI VCO",
-      "description": "VCO forcing just intonation",
-      "tags": [
-        "Polyphonic",
-        "Tuner",
-        "Quantizer",
-        "VCO"
-      ]
-    },
     {
       "slug": "XLimitJIAutotuner",
       "name": "X-Limit JI Autotuner",
@@ -42,6 +31,15 @@
         "Polyphonic",
         "Quantizer",
         "Tuner"
+      ]
+    },
+    {
+      "slug": "XLimitJIVCO",
+      "name": "X-Limit JI VCO",
+      "description": "Wavetable VCO for Autotuner modules",
+      "tags": [
+        "Polyphonic",
+        "VCO"
       ]
     }
   ]
