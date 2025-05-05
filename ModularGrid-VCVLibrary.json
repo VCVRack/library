@@ -2362,5 +2362,12 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/MuDi",
     "mgUrl": "https://www.modulargrid.net/e/befaco-mudi",
     "mgModuleId": 53279
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "OCTA",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/OCTA",
+    "mgUrl": "https://modulargrid.net/e/nano-modules-octa",
+    "mgModuleId": 53954
   }
 ]

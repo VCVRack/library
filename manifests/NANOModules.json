@@ -1,7 +1,7 @@
 {
   "slug": "NANOModules",
   "name": "NANO Modules",
-  "version": "2.3.8.2",
+  "version": "2.3.9",
   "license": "Proprietary",
   "brand": "NANO Modules",
   "author": "Jorge Gutierrez",
@@ -186,6 +186,18 @@
         "Oscillator",
         "VCA",
         "Distortion",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "OCTA",
+      "name": "OCTA",
+      "description": "Analog drums",
+      "manualUrl": "",
+      "modularGridUrl": "https://modulargrid.net/e/nano-modules-octa",
+      "tags": [
+        "Drum",
+        "Quad",
         "Hardware clone"
       ]
     },
