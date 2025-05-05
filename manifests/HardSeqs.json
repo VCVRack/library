@@ -1,0 +1,25 @@
+{
+  "slug": "HardSeqs",
+  "name": "HardSeqs",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Regular-dev",
+  "author": "Regular-dev",
+  "authorEmail": "regular.dev.org@gmail.com",
+  "authorUrl": "https://regular-dev.org",
+  "pluginUrl": "https://github.com/regular-dev/hardseqs",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/regular-dev/hardseqs",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "HardSeqs",
+      "name": "HardSeqs",
+      "description": "Hard Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}
