@@ -1,7 +1,7 @@
 {
   "slug": "DarkProcessIndustries",
   "name": "Dark Process Industries",
-  "version": "2.2.666",
+  "version": "2.3.666",
   "license": "proprietary",
   "brand": "Dark Process Industries",
   "author": "Sarah Rex",
@@ -16,7 +16,7 @@
     {
       "slug": "Wave",
       "name": "WAVE",
-      "description": "WAVE is a simple voltage-controlled oscillator with triangle, sawtooth, and sine wave outputs.",
+      "description": "WAVE is a voltage-controlled oscillator.",
       "tags": [
         "Oscillator"
       ]
@@ -24,7 +24,7 @@
     {
       "slug": "Orbit",
       "name": "ORBIT",
-      "description": "ORBIT is a humble LFO that can be clocked to an external clock.",
+      "description": "ORBIT is six low freqency oscillators.",
       "tags": [
         "Low-frequency oscillator"
       ]
@@ -32,7 +32,7 @@
     {
       "slug": "Stones",
       "name": "STONES",
-      "description": "STONES is an envelope generator with a few fun tricks.",
+      "description": "STONES is an envelope and function generator",
       "tags": [
         "Envelope generator"
       ]
@@ -57,7 +57,7 @@
     {
       "slug": "Taurus",
       "name": "Taurus",
-      "description": "An 8 step CV sequencer.",
+      "description": "TAURUS is an 8 step CV sequencer.",
       "tags": [
         "Sequencer"
       ]
@@ -65,7 +65,7 @@
     {
       "slug": "Libra",
       "name": "Libra",
-      "description": "A state variable filter.",
+      "description": "LIBRA is a state variable filter.",
       "tags": [
         "Filter"
       ]
@@ -73,7 +73,7 @@
     {
       "slug": "Scorpio",
       "name": "Scorpio",
-      "description": "A complex oscillator.",
+      "description": "SCORPIO is a complex oscillator.",
       "tags": [
         "Oscillator"
       ]
@@ -81,7 +81,7 @@
     {
       "slug": "Leo",
       "name": "Leo",
-      "description": "A trigger sequencer.",
+      "description": "LEO is a trigger sequencer.",
       "tags": [
         "Sequencer"
       ]
@@ -89,9 +89,9 @@
     {
       "slug": "Lyra",
       "name": "Lyra",
-      "description": "A low-pass gate.",
+      "description": "LYRA is a low-pass gate.",
       "tags": [
-        "Filter"
+        "Low-pass gate"
       ]
     }
   ]
