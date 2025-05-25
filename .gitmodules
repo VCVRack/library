@@ -924,3 +924,6 @@
 [submodule "repos/WordGenerator"]
 	path = repos/WordGenerator
 	url = https://github.com/sindarknave/word-generator.git
+[submodule "repos/LogicalAudio"]
+	path = repos/LogicalAudio
+	url = https://github.com/AgostoSound/LogicalAudio.git
