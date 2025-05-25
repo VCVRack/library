@@ -915,3 +915,6 @@
 [submodule "repos/HardSeqs"]
 	path = repos/HardSeqs
 	url = https://github.com/regular-dev/hardseqs.git
+[submodule "repos/RSBATechModules"]
+	path = repos/RSBATechModules
+	url = https://github.com/rjsmith/rsbatech-modules.git
