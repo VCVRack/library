@@ -921,3 +921,6 @@
 [submodule "repos/JulioChaos"]
 	path = repos/JulioChaos
 	url = https://github.com/JulioArgudo/JulioChaos-modules.git
+[submodule "repos/WordGenerator"]
+	path = repos/WordGenerator
+	url = https://github.com/sindarknave/word-generator.git
