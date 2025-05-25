@@ -1,0 +1,28 @@
+{
+  "slug": "JulioChaos",
+  "name": "Julio's Chaotic Oscillators",
+  "version": "2.0.0",
+  "license": "BSD-3-Clause",
+  "brand": "Julio Argudo",
+  "author": "Julio Argudo",
+  "authorEmail": "argudomielgo@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/JulioArgudo/JulioChaos-modules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "JulioChua",
+      "name": "Chua's Oscillator",
+      "description": "Chaotic oscillator based on Chua's circuit",
+      "tags": [
+        "Function generator",
+        "Low-frequency oscillator",
+        "Noise",
+        "Oscillator"
+      ]
+    }
+  ]
+}

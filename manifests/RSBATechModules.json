@@ -1,0 +1,38 @@
+{
+  "slug": "RSBATechModules",
+  "name": "RSBATech Modules",
+  "version": "2.1.7",
+  "license": "GPL-3.0-or-later",
+  "brand": "RSBATech",
+  "author": "Richard Smith",
+  "authorEmail": "rsmith@rbatechnology.co.uk",
+  "authorUrl": "https://github.com/rjsmith",
+  "pluginUrl": "https://github.com/rjsmith/rsbatech-modules",
+  "manualUrl": "https://github.com/rjsmith/rsbatech-modules/wiki",
+  "sourceUrl": "https://github.com/rjsmith/rsbatech-modules.git",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/rjsmith/rsbatech-modules/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "OrestesOne",
+      "name": "Orestes One",
+      "description": "Module control from Electra One Controller",
+      "tags": [
+        "External",
+        "Utility",
+        "MIDI",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "Pylades",
+      "name": "Pylades",
+      "description": "Module control from TouchOSC",
+      "tags": [
+        "External",
+        "Utility",
+        "Controller"
+      ]
+    }
+  ]
+}
