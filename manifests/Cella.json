@@ -1,7 +1,7 @@
 {
   "slug": "Cella",
   "name": "Cella",
-  "version": "2.8.1",
+  "version": "2.9.0",
   "license": "GPL-3.0-or-later",
   "brand": "Cella",
   "author": "Victor Kashirin",
@@ -114,6 +114,29 @@
       "tags": [
         "Utility",
         "Visual"
+      ]
+    },
+    {
+      "slug": "Integral",
+      "name": "Integral",
+      "description": "Signal integrator, essential for feedback, chaotic and cybernetic patches",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#integral",
+      "keywords": "cybernetic chaos feedback analog computing",
+      "tags": [
+        "Utility",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "2State",
+      "name": "2State",
+      "description": "Combination of dual constant CV generator and a voltage-controlled switch",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#2state",
+      "keywords": "cv sequencer triple latch",
+      "tags": [
+        "Utility",
+        "Switch",
+        "Sequencer"
       ]
     }
   ]

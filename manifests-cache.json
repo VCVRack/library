@@ -14343,7 +14343,7 @@
     }
   },
   "Cella": {
-    "buildTimestamp": 1746270610.4286768,
+    "buildTimestamp": 1748240571.8160746,
     "creationTimestamp": 1723919612.1472793,
     "modules": {
       "Euler": {
@@ -14372,6 +14372,12 @@
       },
       "Loud": {
         "creationTimestamp": 1745727881.3919678
+      },
+      "Integral": {
+        "creationTimestamp": 1748240595.84931
+      },
+      "2State": {
+        "creationTimestamp": 1748240595.9381962
       }
     }
   },
@@ -15314,6 +15320,27 @@
       },
       "Pylades": {
         "creationTimestamp": 1748198615.830255
+      }
+    }
+  },
+  "LogicalAudio": {
+    "buildTimestamp": 1748240595.2663987,
+    "creationTimestamp": 1748240595.3776605,
+    "modules": {
+      "L-Carrier": {
+        "creationTimestamp": 1748240595.4586542
+      },
+      "L-Random": {
+        "creationTimestamp": 1748240595.5514743
+      },
+      "L-Panel": {
+        "creationTimestamp": 1748240595.630061
+      },
+      "L-Rantics": {
+        "creationTimestamp": 1748240595.70666
+      },
+      "L-Noises": {
+        "creationTimestamp": 1748240595.78016
       }
     }
   }
