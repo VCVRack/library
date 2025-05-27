@@ -860,7 +860,7 @@
     }
   },
   "Bogaudio": {
-    "buildTimestamp": 1707939446.3898773,
+    "buildTimestamp": 1748319135.2032654,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Bogaudio-VCO": {
@@ -13125,7 +13125,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1735624434.533028,
+    "buildTimestamp": 1748319577.4257216,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
@@ -13289,6 +13289,18 @@
       },
       "WaveFolder": {
         "creationTimestamp": 1731801510.4575863
+      },
+      "CrossFade3D": {
+        "creationTimestamp": 1748319577.5501099
+      },
+      "Pan3D": {
+        "creationTimestamp": 1748319577.6518052
+      },
+      "SphereToXYZ": {
+        "creationTimestamp": 1748319577.7426677
+      },
+      "WaveMultiplier": {
+        "creationTimestamp": 1748319577.834552
       }
     }
   },
@@ -15231,7 +15243,7 @@
     }
   },
   "HawthornLabs": {
-    "buildTimestamp": 1745289804.1342525,
+    "buildTimestamp": 1748319142.1770182,
     "creationTimestamp": 1745290568.2602649,
     "modules": {
       "PlanetaryLFOs": {

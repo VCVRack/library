@@ -1,9 +1,9 @@
 {
   "slug": "HawthornLabs",
-  "name": "Hawthorn Labs",
-  "version": "2.0.1",
+  "name": "HawthornLabs",
+  "version": "2.0.2",
   "license": "GPL-3.0-or-later",
-  "brand": "Hawthorn Labs",
+  "brand": "HawthornLabs",
   "author": "Alex Hawthorn",
   "authorEmail": "alexhawthornstudio@gmail.com",
   "authorUrl": "https://github.com/AFHawthorn",

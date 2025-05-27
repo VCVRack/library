@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.11.1",
+  "version": "2.12.1",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -137,6 +137,16 @@
       "tags": [
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "CrossFade3D",
+      "name": "Cross Fade 3D",
+      "description": "Cross fade 8 inputs to 1 output using X, Y, and Z axes",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#cross-fade-3d",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
       ]
     },
     {
@@ -277,6 +287,7 @@
         "Attenuator",
         "Expander",
         "Mixer",
+        "Panning",
         "Polyphonic",
         "Utility"
       ]
@@ -350,10 +361,20 @@
     {
       "slug": "NORSIQChord2Scale",
       "name": "NORSIQ Chord To Scale",
-      "description": "Convert a polyphonic chord into CV to generate a scale for the Non-Octave_Repeating Scale Intervallic Quantizer",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#norsiq_chord_to_scale",
+      "description": "Convert a polyphonic chord into CV to generate a scale for the Non-Octave-Repeating Scale Intervallic Quantizer",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#norsiq-chord-to-scale",
       "tags": [
         "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Pan3D",
+      "name": "Pan 3D",
+      "description": "Pan 1 input to 8 outputs using X, Y, and Z axes",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#pan-3d",
+      "tags": [
+        "Panning",
         "Polyphonic"
       ]
     },
@@ -375,6 +396,7 @@
       "tags": [
         "Envelope Generator",
         "Low-frequency oscillator",
+        "Mixer",
         "Polyphonic",
         "Sequencer",
         "Switch"
@@ -512,6 +534,16 @@
       ]
     },
     {
+      "slug": "SphereToXYZ",
+      "name": "Sphere To XYZ",
+      "description": "Convert spherical coordinates r,theta, phi to cartesian coordinates x, y, z",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#sphere-to-xyz",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
       "slug": "Thru",
       "name": "Thru",
       "description": "5 polyphonic input/output pairs suitable for stacked input unity mixes and/or introduction of sample delays",
@@ -588,8 +620,21 @@
       "slug": "WaveFolder",
       "name": "Wave Folder",
       "description": "A polyphonic configurable wave folder",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#widget-menu-extender",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#wave-folder",
       "tags": [
+        "Polyphonic",
+        "Ring modulator",
+        "Voltage-controlled amplifier",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "WaveMultiplier",
+      "name": "Wave Multiplier",
+      "description": "A polyphonic wave shaper inspired by the Doepfer Wave Multiplier 2 with built in LFO modulation",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#wave-multiplier",
+      "tags": [
+        "Low-frequency oscillator",
         "Polyphonic",
         "Ring modulator",
         "Voltage-controlled amplifier",
