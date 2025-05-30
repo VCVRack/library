@@ -10,7 +10,7 @@
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
   "changelogUrl": "https://github.com/jeremywen/JW-Modules/blob/master/CHANGELOG.md",
-  "version": "2.0.11",
+  "version": "2.0.13",
   "modules": [
     {
       "slug": "BlankPanel_1HP",
@@ -72,6 +72,16 @@
     {
       "slug": "Arrange",
       "name": "Arrange",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Sequencer",
+        "Utility",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Arrange16",
+      "name": "Arrange16",
       "manualUrl": "https://github.com/jeremywen/JW-Modules",
       "tags": [
         "Sequencer",

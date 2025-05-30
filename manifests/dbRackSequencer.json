@@ -1,7 +1,7 @@
 {
   "slug": "dbRackSequencer",
   "name": "dbRackSequencer",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -453,6 +453,14 @@
       "slug": "G32",
       "name": "G32",
       "description": "Deterministic Gate Provider",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "MTD4",
+      "name": "\u00b5TD4",
+      "description": "Mini TD4",
       "tags": [
         "Sequencer"
       ]
