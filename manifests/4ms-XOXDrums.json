@@ -1,0 +1,113 @@
+{
+  "slug": "4ms-XOXDrums",
+  "name": "xOx Drums",
+  "version": "2.0.6",
+  "license": "GPL-3.0-or-later",
+  "brand": "4ms",
+  "author": "4ms Company",
+  "authorEmail": "4ms@4mscompany.com",
+  "authorUrl": "https://4mscompany.com",
+  "pluginUrl": "https://github.com/4ms/XOXDrums/",
+  "manualUrl": "https://github.com/4ms/XOXDrums/blob/main/doc/XOX%20Drums%20User%20Manual.md",
+  "sourceUrl": "https://github.com/4ms/XOXDrums/",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/4ms/XOXDrums/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Clave",
+      "name": "Clave",
+      "description": "Clave inspired by XOX style.",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Cowbell",
+      "name": "Cowbell",
+      "description": "Cowbell inspired by XOX style.",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Accent",
+      "name": "Accent",
+      "description": "A drum utility for adding dynamics to drums.",
+      "tags": [
+        "Dynamics"
+      ]
+    },
+    {
+      "slug": "Clap",
+      "name": "Clap",
+      "description": "Clap inspired by XOX style.",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Congabongo",
+      "name": "Congabongo",
+      "description": "Conga/Bongo inspired by XOX style with added slap inputs",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "HiHat",
+      "name": "HiHat",
+      "description": "Hi-hat inspired by XOX style",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Maraca",
+      "name": "Maraca",
+      "description": "Maraca inspired by XOX style",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Rimshot",
+      "name": "Rimshot",
+      "description": "Rimshot inspired by XOX style",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Kick",
+      "name": "Kick",
+      "description": "Kick inspired by XOX style",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Snare",
+      "name": "Snare",
+      "description": "Snare inspired by XOX style",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Tom",
+      "name": "Tom",
+      "description": "Tom inspired by XOX style",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Duck",
+      "name": "Duck",
+      "description": "A ducking module for sidechain effect",
+      "tags": [
+        "Dynamics"
+      ]
+    }
+  ]
+}
