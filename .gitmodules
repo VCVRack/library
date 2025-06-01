@@ -927,3 +927,6 @@
 [submodule "repos/LogicalAudio"]
 	path = repos/LogicalAudio
 	url = https://github.com/AgostoSound/LogicalAudio.git
+[submodule "repos/OkaySynthesizer"]
+	path = repos/OkaySynthesizer
+	url = https://github.com/okaysynthesizer/okay-synthesizer-vcvrack.git
