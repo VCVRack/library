@@ -1,0 +1,28 @@
+{
+  "slug": "OkaySynthesizer",
+  "name": "Okay Synthesizer",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Okay Synthesizer",
+  "author": "Okay Synthesizer",
+  "authorEmail": "rafael@okaysynthesizer.com",
+  "authorUrl": "https://okaysynthesizer.com/",
+  "pluginUrl": "https://okaysynthesizer.com/",
+  "manualUrl": "https://okaysynthesizer.com/",
+  "sourceUrl": "https://github.com/rafkhan/okay-synthesizer-vcvrack",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "lowstepper",
+      "name": "lowstepper",
+      "description": "Dual phase maniuplation LFO",
+      "tags": [
+        "Low-frequency Oscillator",
+        "dual",
+        "multiple",
+        "clock generator"
+      ]
+    }
+  ]
+}
