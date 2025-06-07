@@ -2369,5 +2369,12 @@
     "vcvUrl": "https://library.vcvrack.com/NANOModules/OCTA",
     "mgUrl": "https://modulargrid.net/e/nano-modules-octa",
     "mgModuleId": 53954
+  },
+  {
+    "pluginSlug": "Grayscale",
+    "moduleSlug": "Nexus",
+    "vcvUrl": "https://library.vcvrack.com/Grayscale/Nexus",
+    "mgUrl": "https://modulargrid.net/e/grayscale-nexus",
+    "mgModuleId": 49192
   }
 ]
