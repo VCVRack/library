@@ -10,7 +10,7 @@
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
   "changelogUrl": "https://github.com/jeremywen/JW-Modules/blob/master/CHANGELOG.md",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "modules": [
     {
       "slug": "BlankPanel_1HP",
@@ -76,7 +76,8 @@
       "tags": [
         "Sequencer",
         "Utility",
-        "Switch"
+        "Switch",
+        "Poly"
       ]
     },
     {
@@ -86,7 +87,8 @@
       "tags": [
         "Sequencer",
         "Utility",
-        "Switch"
+        "Switch",
+        "Poly"
       ]
     },
     {

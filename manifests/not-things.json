@@ -1,7 +1,7 @@
 {
   "slug": "not-things",
   "name": "not-things",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "GPL-3.0-or-later",
   "brand": "not-things",
   "author": "Johan Vanbockryck",
@@ -116,6 +116,17 @@
         "Polyphonic"
       ],
       "keywords": "psd compare"
+    },
+    {
+      "slug": "timeseq",
+      "name": "TimeSeq",
+      "description": "Time Based Sequencer",
+      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/TIMESEQ.md",
+      "tags": [
+        "Utility",
+        "Sequencer",
+        "Polyphonic"
+      ]
     }
   ]
 }
