@@ -1,7 +1,7 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.5.8",
+  "version": "2.5.9",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
@@ -19,6 +19,40 @@
       "description": "Left-expander to add extra controls to chaos modules Frolic, Glee, Lark.",
       "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/doc/Chaops.md",
       "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Echo",
+      "name": "Echo",
+      "description": "A multi-layer stereo/polyphonic delay looper.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/doc/Echo.md",
+      "tags": [
+        "Delay",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "EchoOut",
+      "name": "Echo Out",
+      "hidden": true,
+      "description": "Expander that mixes output from a chain of Echo modules.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/doc/Echo.md",
+      "tags": [
+        "Delay",
+        "Polyphonic",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "EchoTap",
+      "name": "Echo Tap",
+      "hidden": true,
+      "description": "Expander that adds another link in a chain of Echo modules.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/doc/Echo.md",
+      "tags": [
+        "Delay",
+        "Polyphonic",
         "Expander"
       ]
     },
