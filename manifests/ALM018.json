@@ -1,0 +1,27 @@
+{
+  "slug": "ALM018",
+  "name": "MUM M8",
+  "version": "2.0.1",
+  "license": "proprietary",
+  "brand": "ALM Busy Circuits",
+  "author": "ALM",
+  "authorEmail": "help@busycircuits.com",
+  "authorUrl": "https://busycircuits.com",
+  "pluginUrl": "https://busycircuits.com/vcv/",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ALM018",
+      "name": "MUM M8",
+      "Description": "ALM018 MUM M8",
+      "tags": [
+        "Filter",
+        "Utility",
+        "Hardware Clone"
+      ]
+    }
+  ]
+}
