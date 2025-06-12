@@ -2376,5 +2376,12 @@
     "vcvUrl": "https://library.vcvrack.com/Grayscale/Nexus",
     "mgUrl": "https://modulargrid.net/e/grayscale-nexus",
     "mgModuleId": 49192
+  },
+  {
+    "pluginSlug": "4msCompany",
+    "moduleSlug": "MMAudioExpander",
+    "vcvUrl": "https://library.vcvrack.com/4msCompany/MMAudioExpander",
+    "mgUrl": "https://modulargrid.net/e/4ms-company-metaaio",
+    "mgModuleId": 50268
   }
 ]

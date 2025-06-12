@@ -1,14 +1,14 @@
 {
   "slug": "4msCompany",
   "name": "4ms",
-  "version": "2.0.14",
+  "version": "2.0.15",
   "license": "GPL-3.0-or-later",
   "brand": "4ms",
   "author": "4ms Company",
   "authorEmail": "4ms@4mscompany.com",
   "authorUrl": "https://4mscompany.com",
   "pluginUrl": "https://github.com/4ms/4ms-vcv/",
-  "manualUrl": "https://metamodule.info/docs",
+  "manualUrl": "https://metamodule.info/docs/using_rack.html",
   "sourceUrl": "https://github.com/4ms/4ms-vcv/",
   "donateUrl": "",
   "changelogUrl": "https://github.com/4ms/4ms-vcv/blob/main/CHANGELOG.md",
@@ -18,7 +18,7 @@
       "name": "MetaModule",
       "description": "MetaModule Hub is used to create patches that run on MetaModule hardware. Use the hub to create mappings between physical and virtual controls and jacks.",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-metamodule",
-      "manualUrl": "https://4mscompany.com/metamodule",
+      "manualUrl": "https://metamodule.info/docs/using_rack.html",
       "tags": [
         "Utility",
         "External"
@@ -479,8 +479,8 @@
       "slug": "MMAudioExpander",
       "name": "MetaModule Audio Expander (MM AIO)",
       "description": "Expander that adds 6 audio/cv inputs and 8 audio/cv outputs to the MetaModule",
-      "modularGridUrl": "https://modulargrid.net/e/4ms-company-metamodule",
-      "manualUrl": "https://metamodule.4ms.info",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-metaaio",
+      "manualUrl": "https://4mscompany.com/media/MetaModule/MetaAIO-Quick-Start.pdf",
       "tags": [
         "Expander",
         "External"
