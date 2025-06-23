@@ -933,3 +933,6 @@
 [submodule "repos/GP"]
 	path = repos/GP
 	url = https://github.com/GPrackmodules/GPrackmodules.git
+[submodule "repos/TeknoLogical"]
+	path = repos/TeknoLogical
+	url = https://github.com/AgostoSound/TeknoLogical.git
