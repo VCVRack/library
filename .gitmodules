@@ -930,3 +930,6 @@
 [submodule "repos/OkaySynthesizer"]
 	path = repos/OkaySynthesizer
 	url = https://github.com/okaysynthesizer/okay-synthesizer-vcvrack.git
+[submodule "repos/GP"]
+	path = repos/GP
+	url = https://github.com/GPrackmodules/GPrackmodules.git
