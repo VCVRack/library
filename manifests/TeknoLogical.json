@@ -1,0 +1,33 @@
+{
+  "slug": "TeknoLogical",
+  "name": "TeknoLogical",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "TeknoLogical",
+  "author": "AgostoSound",
+  "authorEmail": "agostosound@gmail.com",
+  "authorUrl": "https://github.com/AgostoSound",
+  "pluginUrl": "https://github.com/AgostoSound/TeknoLogical",
+  "manualUrl": "https://github.com/AgostoSound/TeknoLogical",
+  "sourceUrl": "https://github.com/AgostoSound/TeknoLogical",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "TL-Drum5",
+      "name": "TL-Drum5",
+      "description": "Compact 5-voice rhythm engine.",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "TL_Seq4",
+      "name": "TL_Seq4",
+      "description": "Double even-step sequencer.",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}

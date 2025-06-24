@@ -1,7 +1,7 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.20",
+  "version": "2.0.21",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
@@ -23,6 +23,7 @@
         "Attenuator",
         "Function Generator",
         "Logic",
+        "Polyphonic",
         "Sequencer",
         "Sample and hold",
         "Utility"
@@ -42,7 +43,7 @@
     {
       "slug": "Fermata",
       "name": "Fermata",
-      "description": "Write much longer text notes, and various sizes of labels. Fermata is resizable, scrolls, has font and color choices, and more.",
+      "description": "Write much longer text notes, and various sizes of labels. Fermata is resizable, scrolls, has font, font size, and color choices, and more.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#fermata",
       "tags": [
         "Blank",
@@ -64,7 +65,7 @@
     {
       "slug": "TTY",
       "name": "TTY",
-      "description": "Logs values from cables and/or text messages from Tipsy text sources (e.g., BASICally, Memory). Makes monitoring of values or logging far easier. TTY is resizable, scrolls, has font and color choices, and more.",
+      "description": "Logs values from cables and/or text messages from Tipsy text sources (e.g., BASICally, Memory). Makes monitoring of values or logging far easier. TTY is resizable, scrolls, has font, font size, and color choices, and more.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#tty",
       "tags": [
         "Recording",

@@ -1,12 +1,12 @@
 {
   "slug": "Sulamith",
   "name": "Sulamith",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Sulamith",
   "author": "Pascal Breitenbach",
   "authorEmail": "johann@raisedasapackofwolves.de",
-  "pluginUrl": "https://github.com/JohannAsbjoernson/Sulamith",
+  "pluginUrl": "https://library.vcvrack.com/?brand=Sulamith",
   "authorUrl": "https://www.youtube.com/@johannasbjoernson918/featured",
   "manualUrl": "https://github.com/JohannAsbjoernson/Sulamith/blob/main/README.md",
   "sourceUrl": "https://github.com/JohannAsbjoernson/Sulamith",
@@ -14,9 +14,9 @@
   "modules": [
     {
       "slug": "ButtonA",
-      "name": "Button - Complex Trigger Utility",
-      "description": "Swiss Army Knife: Button, Bernoulli Gate, Trigger, Gate with Length, Toggle, Const. Volt., Random CV, Slew, Retrig",
-      "manualUrl": "https://github.com/JohannAsbjoernson/Sulamith/blob/main/README.md",
+      "name": "Button - Trigger/CV Utility",
+      "description": "Trigger and Gate utility with two OR-logic inputs. Features probability and custom gate length (0.2-10s). A/B section works as Toggle, Constant Voltage (1-10v), Bi- and Unipolar CV generation with range options. Context menu: Re-Trig can be disabled (i.e. to sync CV generation with custom length gates), Slew can be enabled for custom gates & cv gen.",
+      "manualUrl": "https://github.com/JohannAsbjoernson/Sulamith#button",
       "tags": [
         "Utility",
         "Random",
@@ -24,6 +24,57 @@
         "Clock modulator",
         "Logic",
         "Controller"
+      ]
+    },
+    {
+      "slug": "KnobX",
+      "name": "Knobs - Const Voltage Source Sequencer",
+      "description": "8 channels/steps polyphonic voltage source, with range, step/ch control. Clock, button, reset in & 3 playmodes (FWD, BWD, RND) add sequencing options. Plugging a poly cable into reset 'steals' the incoming signal (synced to clock or button input). ",
+      "manualUrl": "https://github.com/JohannAsbjoernson/Sulamith/tree/main#knobs",
+      "tags": [
+        "Utility",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "VoltM",
+      "name": "Volt Meter",
+      "description": "Simple Polyphonic Volt Meter with 3 inputs that displays and merges up to 16 channels. Output works pitch perfect at audio rates - may be used as a poly merger.",
+      "manualUrl": "https://github.com/JohannAsbjoernson/Sulamith/tree/main#volt",
+      "tags": [
+        "Visual",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Merge",
+      "name": "Polyphonic Merge",
+      "description": "16 mono inputs can be merged into a polyphonic output.",
+      "manualUrl": "https://github.com/JohannAsbjoernson/Sulamith/tree/main#merge--split",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Split",
+      "name": "Polyphonic Split",
+      "description": "Splits a polyphonic input into monophonic outputs.",
+      "manualUrl": "https://github.com/JohannAsbjoernson/Sulamith/tree/main#merge--split",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "AntifaQ",
+      "name": "Modular Antifa",
+      "description": "Alerta! Alerta! Check out the Antifacist Logo Archive on insta. Hardware Panel is sold by Tangible Waves.",
+      "manualUrl": "https://github.com/JohannAsbjoernson/Sulamith/tree/main#blank",
+      "tags": [
+        "Blank"
       ]
     }
   ]

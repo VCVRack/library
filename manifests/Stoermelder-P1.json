@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "2.0.beta4",
+  "version": "2.0.0",
   "license": "GPL-3.0-or-later",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -137,28 +137,18 @@
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/StripPp.md"
     },
     {
-      "slug": "EightFace",
-      "name": "8FACE",
-      "description": "Universal expander for sequencing up to eight presets of any module",
-      "tags": [
-        "Utility",
-        "Sequencer"
-      ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFace.md"
-    },
-    {
-      "slug": "EightFaceX2",
-      "name": "8FACEx2",
-      "description": "Universal expander for sequencing up to sixteen presets of any module",
-      "tags": [
-        "Utility",
-        "Sequencer"
-      ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFace.md"
-    },
-    {
       "slug": "MidiCat",
       "name": "MIDI-CAT",
+      "description": "Mapping module for MIDI CCs and notes to parameters of any module, similar to VCV MIDI-MAP",
+      "tags": [
+        "Utility",
+        "MIDI"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/MidiCat.md"
+    },
+    {
+      "slug": "MidiCatXl",
+      "name": "MIDI-CAT XL",
       "description": "Mapping module for MIDI CCs and notes to parameters of any module, similar to VCV MIDI-MAP",
       "tags": [
         "Utility",
@@ -473,25 +463,6 @@
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/Orbit.md"
     },
     {
-      "slug": "EightFaceMk2",
-      "name": "8FACE mk2",
-      "description": "Universal expander for sequencing up to eight presets of multiple modules",
-      "tags": [
-        "Utility",
-        "Sequencer"
-      ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFaceMk2.md"
-    },
-    {
-      "slug": "EightFaceMk2Ex",
-      "name": "+8",
-      "description": "Expander for 8FACE mk2",
-      "tags": [
-        "Expander"
-      ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFaceMk2.md"
-    },
-    {
       "slug": "MidiPlug",
       "name": "MIDI-PLUG",
       "description": "Virtual MIDI merger and splitter",
@@ -528,6 +499,45 @@
         "External"
       ],
       "disabled": true
+    },
+    {
+      "slug": "EightFace",
+      "name": "8FACE",
+      "description": "Universal expander for sequencing up to eight presets of any module (experimental)",
+      "tags": [
+        "Utility",
+        "Sequencer"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFace.md"
+    },
+    {
+      "slug": "EightFaceX2",
+      "name": "8FACEx2",
+      "description": "Universal expander for sequencing up to sixteen presets of any module (experimental)",
+      "tags": [
+        "Utility",
+        "Sequencer"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFace.md"
+    },
+    {
+      "slug": "EightFaceMk2",
+      "name": "8FACE mk2",
+      "description": "Universal expander for sequencing up to eight presets of multiple modules (experimental)",
+      "tags": [
+        "Utility",
+        "Sequencer"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFaceMk2.md"
+    },
+    {
+      "slug": "EightFaceMk2Ex",
+      "name": "+8",
+      "description": "Expander for 8FACE mk2 (experimental)",
+      "tags": [
+        "Expander"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/EightFaceMk2.md"
     },
     {
       "slug": "Mb",

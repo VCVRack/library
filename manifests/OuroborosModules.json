@@ -1,7 +1,7 @@
 {
   "slug": "OuroborosModules",
   "name": "OuroborosModules",
-  "version": "2.0.1",
+  "version": "2.1.1",
   "license": "GPL-3.0-or-later",
   "brand": "Ouroboros Industries",
   "author": "Chronos \"phantombeta\" Ouroboros",
@@ -11,15 +11,16 @@
   "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki",
   "sourceUrl": "https://github.com/Doom2fan/OuroborosModules",
   "donateUrl": "",
-  "changelogUrl": "https://github.com/Doom2fan/OuroborosModules/blob/master/CHANGELOG.md",
+  "changelogUrl": "https://github.com/Doom2fan/OuroborosModules/blob/develop/CHANGELOG.md",
   "modules": [
     {
       "slug": "MetaModule",
       "name": "Meta",
-      "description": "Adds features to VCV Rack",
+      "description": "Adds meta features to VCV Rack (Cable sounds, startup pre-muter; Full list in the manual)",
       "tags": [
         "Utility"
       ],
+      "keywords": "sounds cable_sounds cablesounds premute premuter",
       "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Meta"
     },
     {
@@ -29,6 +30,7 @@
       "tags": [
         "Utility"
       ],
+      "keywords": "cable cables color manager",
       "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Chroma"
     },
     {
@@ -39,6 +41,7 @@
         "Voltage-controlled amplifier",
         "Polyphonic"
       ],
+      "keywords": "stereo vca",
       "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/ST\u2010VCA"
     },
     {
@@ -51,6 +54,7 @@
         "Switch",
         "Clock modulator"
       ],
+      "keywords": "gate gates",
       "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Bernoulli"
     },
     {
@@ -64,6 +68,33 @@
       ],
       "keywords": "sort sorting sorter min mid max",
       "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Median"
+    },
+    {
+      "slug": "Junction",
+      "name": "Junction",
+      "description": "A switched mult with 8 inputs and 2 outputs. Counterpart to Branch",
+      "tags": [
+        "Switch",
+        "Multiple",
+        "Utility",
+        "Mixer",
+        "Polyphonic"
+      ],
+      "keywords": "switched mult switchedmult mults switchedmults",
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Junction"
+    },
+    {
+      "slug": "Branch",
+      "name": "Branch",
+      "description": "A switched mult/router with 2 inputs and 8 outputs. Counterpart to Junction",
+      "tags": [
+        "Switch",
+        "Multiple",
+        "Utility",
+        "Polyphonic"
+      ],
+      "keywords": "switched mult switchedmult mults switchedmults",
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Branch"
     }
   ]
 }
