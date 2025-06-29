@@ -936,3 +936,6 @@
 [submodule "repos/TeknoLogical"]
 	path = repos/TeknoLogical
 	url = https://github.com/AgostoSound/TeknoLogical.git
+[submodule "repos/AmbushedCat"]
+	path = repos/AmbushedCat
+	url = https://github.com/LegitCodeRed/AmbushedCat.git
