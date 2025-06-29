@@ -2,7 +2,7 @@
   "slug": "HetrickCV",
   "name": "HetrickCV",
   "brand": "HetrickCV",
-  "version": "2.5.2",
+  "version": "2.5.4",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -19,7 +19,8 @@
       "description": "Multimode audio and modulation chaos generator.",
       "tags": [
         "Noise",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -28,7 +29,8 @@
       "description": "Multimode audio and modulation chaos generator.",
       "tags": [
         "Noise",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -37,7 +39,20 @@
       "description": "Multimode audio and modulation chaos generator.",
       "tags": [
         "Noise",
-        "Random"
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "AmplitudeShaper",
+      "name": "Amplitude Shaper",
+      "description": "Bipolar amplitude shaper.",
+      "tags": [
+        "Waveshaper",
+        "Distortion",
+        "Effect",
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -45,7 +60,8 @@
       "name": "ASR",
       "description": "Analog shift register. Multi-stage sample and hold",
       "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Polyphonic"
       ]
     },
     {
@@ -71,7 +87,8 @@
       "name": "Binary Gate",
       "description": "Manually turn a gate on or off, or toggle its current state.",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
@@ -80,7 +97,8 @@
       "description": "Generates a random gate or square wave signal.",
       "tags": [
         "Noise",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -107,7 +125,8 @@
       "name": "Boolean Logic",
       "description": "Six way boolean logic processor",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
@@ -116,7 +135,8 @@
       "description": "Multimode audio and modulation chaos generator.",
       "tags": [
         "Noise",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -125,7 +145,8 @@
       "description": "Multimode audio and modulation noise generator.",
       "tags": [
         "Noise",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -145,7 +166,8 @@
       "description": "Determine whether a signal is above or below a threshold.",
       "tags": [
         "Logic",
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -163,7 +185,8 @@
       "name": "Crackle",
       "description": "Vinyl-like noise generator ported from SuperCollider.",
       "tags": [
-        "Noise"
+        "Noise",
+        "Polyphonic"
       ]
     },
     {
@@ -182,7 +205,8 @@
       "description": "Determine which direction a signal is heading.",
       "tags": [
         "Logic",
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -200,7 +224,8 @@
       "description": "Random impulse and noise generator ported from SuperCollider",
       "tags": [
         "Noise",
-        "Granular"
+        "Granular",
+        "Polyphonic"
       ]
     },
     {
@@ -220,7 +245,8 @@
         "Noise",
         "Oscillator",
         "Low-frequency Oscillator",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -228,7 +254,8 @@
       "name": "Flip-Flop",
       "description": "A flexible toggle switch",
       "tags": [
-        "Logic"
+        "Logic",
+        "Polyphonic"
       ]
     },
     {
@@ -277,7 +304,8 @@
       "description": "Self-modulating audio and modulation chaos generator.",
       "tags": [
         "Noise",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -656,7 +684,8 @@
       "name": "Random Gates",
       "description": "Generates up to eight random gates.",
       "tags": [
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -664,7 +693,8 @@
       "name": "Rotator",
       "description": "Eight-way channel rotation.",
       "tags": [
-        "Switch"
+        "Switch",
+        "Polyphonic"
       ]
     },
     {
@@ -673,7 +703,8 @@
       "description": "8-Bit Shift Register and Comparator with stepped signal output via bits 6, 7, and 8.",
       "tags": [
         "Sequencer",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -682,7 +713,8 @@
       "description": "8-channel signal crossfader, mixer, scanner, and router.",
       "tags": [
         "Mixer",
-        "Switch"
+        "Switch",
+        "Polyphonic"
       ]
     },
     {

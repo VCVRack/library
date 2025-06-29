@@ -1,7 +1,7 @@
 {
   "slug": "NonlinearCircuits",
   "name": "Nonlinear Circuits",
-  "version": "2.3.2",
+  "version": "2.4.0",
   "license": "CC0-1.0",
   "author": "Michael Hetrick",
   "authorEmail": "",
@@ -34,6 +34,17 @@
       ]
     },
     {
+      "slug": "BeatFreqs",
+      "name": "Beat Freqs",
+      "description": "Four beat frequency indicators, used to generate 16 gates.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
+      "tags": [
+        "Logic",
+        "Hardware Clone",
+        "Quad"
+      ]
+    },
+    {
       "slug": "BOOLs",
       "name": "BOOLs",
       "description": "Four binary logic jumblers. Panel by Papernoise.",
@@ -42,6 +53,16 @@
         "Logic",
         "Hardware Clone",
         "Quad"
+      ]
+    },
+    {
+      "slug": "DeEscalate",
+      "name": "De-Escalate",
+      "description": "Seven simple attenuators.",
+      "manualUrl": "https://github.com/mhetrick/nonlinearcircuits",
+      "tags": [
+        "Attenuator",
+        "Hardware Clone"
       ]
     },
     {
