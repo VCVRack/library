@@ -1,7 +1,7 @@
 {
   "slug": "dbRackSequencer",
   "name": "dbRackSequencer",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -463,6 +463,23 @@
       "description": "Mini TD4",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "PMKV",
+      "name": "PMKV",
+      "description": "Markov Chain for address CV",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "MC1",
+      "name": "MC1",
+      "description": "Recordable Mouse Controller",
+      "tags": [
+        "Controller",
+        "Envelope Generator"
       ]
     }
   ]

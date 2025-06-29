@@ -1,14 +1,14 @@
 {
   "slug": "not-things",
   "name": "not-things",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "license": "GPL-3.0-or-later",
   "brand": "not-things",
   "author": "Johan Vanbockryck",
   "authorEmail": "vcv@not-things.com",
   "authorUrl": "https://not-things.com",
   "pluginUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/README.md",
-  "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/README.md",
+  "manualUrl": "https://not-things-modular.github.io/not-things-vcv/",
   "sourceUrl": "https://github.com/not-things-modular/not-things-vcv",
   "donateUrl": "https://paypal.me/notthingsmodular",
   "changelogUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/CHANGELOG.md",
@@ -17,7 +17,7 @@
       "slug": "solim",
       "name": "Solim",
       "description": "Limiter and sorter of (note) voltages",
-      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "manualUrl": "https://not-things-modular.github.io/not-things-vcv/doc/SOLIM.html",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -27,7 +27,7 @@
       "slug": "solim-input-expander",
       "name": "SL-I",
       "description": "Input expander for Solim",
-      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "manualUrl": "https://not-things-modular.github.io/not-things-vcv/doc/SOLIM.html",
       "tags": [
         "Utility",
         "Expander",
@@ -39,7 +39,7 @@
       "slug": "solim-input-octaver-expander",
       "name": "SL-IO",
       "description": "Input Octaver expander for Solim",
-      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "manualUrl": "https://not-things-modular.github.io/not-things-vcv/doc/SOLIM.html",
       "tags": [
         "Utility",
         "Expander",
@@ -51,7 +51,7 @@
       "slug": "solim-output-expander",
       "name": "SL-O",
       "description": "Output expander for Solim",
-      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "manualUrl": "https://not-things-modular.github.io/not-things-vcv/doc/SOLIM.html",
       "tags": [
         "Utility",
         "Expander",
@@ -63,7 +63,7 @@
       "slug": "solim-output-octaver-expander",
       "name": "SL-OO",
       "description": "Output Octaver expander for Solim",
-      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "manualUrl": "https://not-things-modular.github.io/not-things-vcv/doc/SOLIM.html",
       "tags": [
         "Utility",
         "Expander",
@@ -75,7 +75,7 @@
       "slug": "solim-random-expander",
       "name": "SL-R",
       "description": "Random expander for Solim",
-      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/SOLIM.md",
+      "manualUrl": "https://not-things-modular.github.io/not-things-vcv/doc/SOLIM.html",
       "tags": [
         "Utility",
         "Expander",
@@ -88,7 +88,7 @@
       "slug": "pipo-output",
       "name": "P-O",
       "description": "Polyphonic Output",
-      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/PIPO.md",
+      "manualUrl": "https://not-things-modular.github.io/not-things-vcv/doc/PIPO.html",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -99,7 +99,7 @@
       "slug": "pipo-input",
       "name": "P-I",
       "description": "Polyphonic Input",
-      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/PIPO.md",
+      "manualUrl": "https://not-things-modular.github.io/not-things-vcv/doc/PIPO.html",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -110,7 +110,7 @@
       "slug": "poly-same-diff",
       "name": "P-SD",
       "description": "Polyphonic Same and Different",
-      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/PSD.md",
+      "manualUrl": "https://not-things-modular.github.io/not-things-vcv/doc/PSD.html",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -121,7 +121,7 @@
       "slug": "timeseq",
       "name": "TimeSeq",
       "description": "Time Based Sequencer",
-      "manualUrl": "https://github.com/not-things-modular/not-things-vcv/blob/main/doc/TIMESEQ.md",
+      "manualUrl": "https://not-things-modular.github.io/not-things-vcv/doc/TIMESEQ.html",
       "tags": [
         "Utility",
         "Sequencer",

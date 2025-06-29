@@ -1,0 +1,52 @@
+{
+  "slug": "AmbushedCat",
+  "name": "AmbushedCat",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "AmbushedCat",
+  "author": "Daniel Emberger",
+  "authorEmail": "e.daniel3464@gmail.com",
+  "authorUrl": "https://soundcloud.com/layzx-r",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/LegitCodeRed/AmbushedCat",
+  "donateUrl": "https://www.paypal.com/donate/?hosted_button_id=YR6KDVL2W7PCN",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "TuringMaschine",
+      "name": "TuringMaschineRythm",
+      "description": "A probabilistic CV sequencer inspired by the original Music Thing Turing Machine. Generates semi-random looping sequences with adjustable probability and loop length.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TuringGateExpander",
+      "name": "TuringGates",
+      "description": "An expander for the TuringMaschine module that outputs rhythmic gate patterns derived from the current sequence state. Useful for triggering drums, envelopes, or other events.",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "TuringVoltsExpander",
+      "name": "TuringFlow",
+      "description": "An expander for the TuringMaschine that provides additional CV outputs based on bits of the sequence. Allows complex modulation and control signals derived from the main sequence.",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Tape",
+      "name": "Tape Machine",
+      "description": "A detailed tape emulation module offering saturation, wow & flutter, bias shaping, and vintage tape coloration. Perfect for adding analog warmth and character to your sound.",
+      "tags": [
+        "Effect",
+        "Dynamics",
+        "Physical modeling",
+        "Distortion"
+      ]
+    }
+  ]
+}

@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1745003914.2215893,
+    "buildTimestamp": 1751218427.2290552,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -3562,7 +3562,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1749496339.827272,
+    "buildTimestamp": 1751181464.01912,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -3972,7 +3972,7 @@
     "modules": {}
   },
   "PS-PurrSoftware": {
-    "buildTimestamp": 1713721851.2235804,
+    "buildTimestamp": 1751181557.955839,
     "creationTimestamp": 1579232908.0,
     "modules": {
       "Meander": {
@@ -5227,7 +5227,7 @@
     }
   },
   "HetrickCV": {
-    "buildTimestamp": 1745727872.3079844,
+    "buildTimestamp": 1751181361.6468492,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "ASR": {
@@ -5457,6 +5457,9 @@
       },
       "PolymetricPhasors": {
         "creationTimestamp": 1745727881.7199178
+      },
+      "AmplitudeShaper": {
+        "creationTimestamp": 1751217170.0
       }
     }
   },
@@ -6104,7 +6107,7 @@
     "modules": {}
   },
   "NonlinearCircuits": {
-    "buildTimestamp": 1730755206.982187,
+    "buildTimestamp": 1751181520.944841,
     "creationTimestamp": 1582350675.0,
     "modules": {
       "BOOLs": {
@@ -6163,6 +6166,12 @@
       },
       "Splish": {
         "creationTimestamp": 1728141036.5685852
+      },
+      "BeatFreqs": {
+        "creationTimestamp": 1751217170.0
+      },
+      "DeEscalate": {
+        "creationTimestamp": 1751217170.0
       }
     }
   },
@@ -12054,7 +12063,7 @@
     }
   },
   "dbRackSequencer": {
-    "buildTimestamp": 1748648533.990749,
+    "buildTimestamp": 1751218079.7572434,
     "creationTimestamp": 1653920290.2170763,
     "modules": {
       "JTChords": {
@@ -12218,6 +12227,12 @@
       },
       "MTD4": {
         "creationTimestamp": 1748648534.3766303
+      },
+      "PMKV": {
+        "creationTimestamp": 1751218428.0735373
+      },
+      "MC1": {
+        "creationTimestamp": 1751218428.1556816
       }
     }
   },
@@ -13101,7 +13116,7 @@
     }
   },
   "Airwin2Rack": {
-    "buildTimestamp": 1721627105.2981756,
+    "buildTimestamp": 1751217680.7549486,
     "creationTimestamp": 1675100686.7833567,
     "modules": {
       "Airwin2Rack": {
@@ -13422,7 +13437,7 @@
     }
   },
   "vanTies": {
-    "buildTimestamp": 1746270868.457515,
+    "buildTimestamp": 1751218235.245301,
     "creationTimestamp": 1681691911.9831073,
     "modules": {
       "Ad": {
@@ -15129,7 +15144,7 @@
     }
   },
   "not-things": {
-    "buildTimestamp": 1750788215.6754537,
+    "buildTimestamp": 1751218198.5105402,
     "creationTimestamp": 1740595407.6005092,
     "modules": {
       "solim": {
@@ -15515,6 +15530,24 @@
       },
       "TL_Seq4": {
         "creationTimestamp": 1750788217.691772
+      }
+    }
+  },
+  "AmbushedCat": {
+    "buildTimestamp": 1751217702.094944,
+    "creationTimestamp": 1751218427.7402864,
+    "modules": {
+      "TuringMaschine": {
+        "creationTimestamp": 1751218427.7975614
+      },
+      "TuringGateExpander": {
+        "creationTimestamp": 1751218427.858316
+      },
+      "TuringVoltsExpander": {
+        "creationTimestamp": 1751218427.9173758
+      },
+      "Tape": {
+        "creationTimestamp": 1751218427.9727273
       }
     }
   }
