@@ -171,14 +171,19 @@ for plugin_path in plugin_paths:
 		modules = set(module['slug'] for module in manifest['modules'])
 		removed_modules = library_modules - modules
 		if removed_modules:
-			raise Exception(f"Plugin {slug} removes modules {", ".join(removed_modules)}")
+			print(f"Plugin {slug} removes modules {", ".join(removed_modules)}, skipping")
+			input()
+			continue
 
 	# Source dir
 	if os.path.isdir(plugin_path):
 		# Ensure that version is higher than library version
 		if library_manifest:
-			# if not version_less(library_manifest['version'], version):
 			if library_manifest['version'] == version:
+				continue
+			if not version_less(library_manifest['version'], version):
+				print(f"Plugin {slug} version {version} is less than {library_manifest['version']}, skipping")
+				input()
 				continue
 
 		print()
@@ -194,7 +199,7 @@ for plugin_path in plugin_paths:
 			# Copy package to packages dir
 			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/* "{PACKAGES_DIR}"/')
 			# Copy packages to files dir for testing
-			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/* "{FILES_DIR}"/')
+			# common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/* "{FILES_DIR}"/')
 			# Install Linux package for testing
 			common.system(f'cp -v "{TOOLCHAIN_DIR}"/plugin-build/*-lin-x64.vcvplugin "{PLUGIN_DIR}"/')
 		except Exception as e:
