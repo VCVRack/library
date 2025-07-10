@@ -1,7 +1,7 @@
 {
   "slug": "GP",
   "name": "GPrackmodules",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "GPaudio",
   "author": "GP",
@@ -20,7 +20,6 @@
       "manualUrl": "https://gprackmodules.github.io/GPrackmodules/AB4.html",
       "tags": [
         "Switch",
-        "Switch",
         "Utility",
         "Polyphonic"
       ]
@@ -31,7 +30,8 @@
       "description": "Channel Strip for Chained Mixer",
       "manualUrl": "https://gprackmodules.github.io/GPrackmodules/ChainedMixer.html",
       "tags": [
-        "Mixer"
+        "Mixer",
+        "Expander"
       ]
     },
     {
@@ -49,7 +49,8 @@
       "description": "Aux section for Chained Mixer",
       "manualUrl": "https://gprackmodules.github.io/GPrackmodules/ChainedMixer.html",
       "tags": [
-        "Mixer"
+        "Mixer",
+        "Expander"
       ]
     },
     {
