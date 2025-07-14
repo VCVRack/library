@@ -1,0 +1,29 @@
+{
+  "slug": "VenomOscillations",
+  "name": "Venom Oscillations",
+  "description": "A collection of complex oscillators",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Venom",
+  "author": "David Benham",
+  "authorEmail": "david.benham42@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/README.md",
+  "sourceUrl": "",
+  "donateUrl": "https://paypal.me/DaveBenhamMusic",
+  "changelogUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/VenomOscillationsChangeLog.md",
+  "modules": [
+    {
+      "slug": "SofiasDaughter",
+      "name": "Sofia's Daughter",
+      "description": "Complex formant oscillator inspired by the XAOC Sofia hardware module",
+      "manualUrl": "",
+      "tags": [
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
