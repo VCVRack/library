@@ -1,7 +1,7 @@
 {
   "slug": "alefsbits",
   "name": "alef's bits",
-  "version": "2.5.54",
+  "version": "2.5.60",
   "license": "GPL-3.0-or-later",
   "brand": "alef's bits",
   "author": "alefnull",
@@ -10,7 +10,7 @@
   "pluginUrl": "https://github.com/alefnull/alefsbits",
   "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md",
   "sourceUrl": "https://github.com/alefnull/alefsbits",
-  "donateUrl": "https://paypal.me/alefnull",
+  "donateUrl": "https://ko-fi.com/E1E11F8P04",
   "changelogUrl": "",
   "modules": [
     {
@@ -21,7 +21,8 @@
         "S&H",
         "Polyphonic",
         "Random"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#simplex-&-hold"
     },
     {
       "slug": "blank6hp",
@@ -29,7 +30,8 @@
       "description": "a simple blank",
       "tags": [
         "Blank"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#blank-6hp"
     },
     {
       "slug": "polyrand",
@@ -39,7 +41,8 @@
         "Utility",
         "Polyphonic",
         "Random"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#poly-rand"
     },
     {
       "slug": "noize",
@@ -48,7 +51,8 @@
       "tags": [
         "Noise",
         "Random"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#noize"
     },
     {
       "slug": "steps",
@@ -56,7 +60,8 @@
       "description": "a simple 8 step sequencer with randomize trigger and eoc output",
       "tags": [
         "Sequencer"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#steps"
     },
     {
       "slug": "fibb",
@@ -64,7 +69,8 @@
       "description": "a clock divider based on the fibonacci sequence",
       "tags": [
         "Clock modulator"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#fibb"
     },
     {
       "slug": "octsclr",
@@ -72,7 +78,8 @@
       "description": "scales voltage to specified octave range",
       "tags": [
         "Utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#oct-sclr"
     },
     {
       "slug": "shift",
@@ -81,7 +88,8 @@
       "tags": [
         "Sample and hold",
         "Utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#shift"
     },
     {
       "slug": "mlt",
@@ -90,7 +98,8 @@
       "tags": [
         "Polyphonic",
         "Utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#mlt"
     },
     {
       "slug": "math",
@@ -100,7 +109,8 @@
         "Logic",
         "Utility",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#math"
     },
     {
       "slug": "logic",
@@ -110,7 +120,8 @@
         "Logic",
         "Utility",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#logic"
     },
     {
       "slug": "probablynot",
@@ -120,7 +131,8 @@
         "Random",
         "Utility",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#probably-not"
     },
     {
       "slug": "polyplay",
@@ -129,7 +141,8 @@
       "tags": [
         "Sampler",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#poly-play"
     },
     {
       "slug": "lights",
@@ -138,7 +151,8 @@
       "tags": [
         "Utility",
         "Visual"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#lights"
     },
     {
       "slug": "slips",
@@ -149,7 +163,8 @@
         "Random",
         "Quantizer",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#slips"
     },
     {
       "slug": "turnt",
@@ -158,7 +173,8 @@
       "tags": [
         "Utility",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#turnt"
     },
     {
       "slug": "slipspander",
@@ -167,7 +183,8 @@
       "tags": [
         "Expander",
         "Quantizer"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#slips"
     },
     {
       "slug": "nos",
@@ -177,7 +194,8 @@
         "Oscillator",
         "Random",
         "Polyphonic"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#nos"
     },
     {
       "slug": "lucc",
@@ -185,7 +203,8 @@
       "description": "a clock divider based on the lucas sequence",
       "tags": [
         "Clock modulator"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#lucc"
     },
     {
       "slug": "polyshuffle",
@@ -195,7 +214,8 @@
         "Polyphonic",
         "Random",
         "Utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#poly-shuffle"
     },
     {
       "slug": "polycounter",
@@ -204,7 +224,8 @@
       "tags": [
         "Polyphonic",
         "Utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/alefnull/alefsbits/blob/master/README.md#poly-counter"
     }
   ]
 }

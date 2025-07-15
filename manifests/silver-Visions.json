@@ -2,7 +2,7 @@
   "slug": "silver-Visions",
   "name": "Visions",
   "description": "VideoSynth modules",
-  "version": "2.0.0",
+  "version": "2.1.1",
   "license": "CC-PDDC",
   "brand": "Visions",
   "author": "silver",
@@ -60,6 +60,16 @@
       "description": "apply cv-controllable affine transforms to 2d vectors",
       "manualUrl": "https://github.com/silver-ag/visions/tree/main?tab=readme-ov-file#affinetransform",
       "tags": [
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "PreciseDelay",
+      "name": "PreciseDelay",
+      "description": "frame-level delay, it doesn't get more precise than that",
+      "manualUrl": "https://github.com/silver-ag/visions/tree/main?tab=readme-ov-file#precisedelay",
+      "tags": [
+        "delay",
         "polyphonic"
       ]
     }
