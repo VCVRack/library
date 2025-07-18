@@ -1,0 +1,27 @@
+{
+  "slug": "voxglitch-devices",
+  "name": "Voxglitch Devices",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Voxglitch",
+  "author": "Bret Truchan",
+  "authorEmail": "clone45@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/clone45/voxglitch-devices",
+  "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/spores/user_manual.md",
+  "sourceUrl": "https://github.com/clone45/voxglitch-devices",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "spores",
+      "name": "Spores",
+      "description": "Granular effects processor with CV inputs for all parameters.",
+      "tags": [
+        "Granular",
+        "Effect",
+        "Digital"
+      ]
+    }
+  ]
+}

@@ -15562,5 +15562,14 @@
         "creationTimestamp": 1752510881.067791
       }
     }
+  },
+  "voxglitch-devices": {
+    "buildTimestamp": 1752849878.210643,
+    "creationTimestamp": 1752849878.5160182,
+    "modules": {
+      "spores": {
+        "creationTimestamp": 1752849878.6021922
+      }
+    }
   }
 }
