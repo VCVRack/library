@@ -939,3 +939,6 @@
 [submodule "repos/AmbushedCat"]
 	path = repos/AmbushedCat
 	url = https://github.com/LegitCodeRed/AmbushedCat.git
+[submodule "repos/Clonotribe"]
+	path = repos/Clonotribe
+	url = https://github.com/Cumbiambero/clonotribe.git
