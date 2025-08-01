@@ -1,0 +1,82 @@
+{
+  "slug": "Klavis",
+  "name": "Klavis",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Klavis",
+  "author": "VCV",
+  "authorEmail": "support@vcvrack.com",
+  "authorUrl": "https://vcvrack.com/",
+  "pluginUrl": "https://www.klavis.com/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "https://vcvrack.com/Klavis#changelog",
+  "modules": [
+    {
+      "slug": "Flexshaper",
+      "name": "Flexshaper",
+      "description": "CV-controlled voltage mapper and waveshaper",
+      "manualUrl": "https://www.klavis.com/all-products/flexshaper",
+      "modularGridUrl": "https://modulargrid.net/e/klavis-flexshaper",
+      "tags": [
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "ComPair",
+      "name": "ComPair",
+      "description": "Dual/window voltage comparator",
+      "manualUrl": "https://www.klavis.com/all-products/compair",
+      "modularGridUrl": "https://modulargrid.net/e/klavis-compair",
+      "tags": [
+        "Logic",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TwoBits",
+      "name": "Two Bits",
+      "description": "Dual logic processor with chaining and CV functions",
+      "manualUrl": "https://www.klavis.com/all-products/two-bits",
+      "modularGridUrl": "https://modulargrid.net/e/klavis-two-bits",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "LogicaXT",
+      "name": "Logica XT",
+      "description": "3-input CV-controlled logic/gate processor",
+      "manualUrl": "https://www.klavis.com/all-products/logica-xt",
+      "modularGridUrl": "https://modulargrid.net/e/klavis-logica-xt",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "Tweakers",
+      "name": "Tweakers",
+      "description": "Dual gain, offset, polarity, and mute",
+      "manualUrl": "https://www.klavis.com/all-products/tweakers",
+      "modularGridUrl": "https://modulargrid.net/e/klavis-tweakers",
+      "tags": [
+        "Mixer",
+        "Attenuator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Mixwitch",
+      "name": "Mixwitch",
+      "description": "Mixer & CV/clock-controlled switcher",
+      "manualUrl": "https://www.klavis.com/all-products/mixwitch",
+      "modularGridUrl": "https://modulargrid.net/e/klavis-mixwitch",
+      "tags": [
+        "Mixer",
+        "Switch",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

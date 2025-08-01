@@ -2383,5 +2383,47 @@
     "vcvUrl": "https://library.vcvrack.com/4msCompany/MMAudioExpander",
     "mgUrl": "https://modulargrid.net/e/4ms-company-metaaio",
     "mgModuleId": 50268
+  },
+  {
+    "pluginSlug": "Klavis",
+    "moduleSlug": "Flexshaper",
+    "vcvUrl": "https://library.vcvrack.com/Klavis/Flexshaper",
+    "mgUrl": "https://modulargrid.net/e/klavis-flexshaper",
+    "mgModuleId": 25292
+  },
+  {
+    "pluginSlug": "Klavis",
+    "moduleSlug": "ComPair",
+    "vcvUrl": "https://library.vcvrack.com/Klavis/ComPair",
+    "mgUrl": "https://modulargrid.net/e/klavis-compair",
+    "mgModuleId": 51303
+  },
+  {
+    "pluginSlug": "Klavis",
+    "moduleSlug": "TwoBits",
+    "vcvUrl": "https://library.vcvrack.com/Klavis/TwoBits",
+    "mgUrl": "https://modulargrid.net/e/klavis-two-bits",
+    "mgModuleId": 39871
+  },
+  {
+    "pluginSlug": "Klavis",
+    "moduleSlug": "LogicaXT",
+    "vcvUrl": "https://library.vcvrack.com/Klavis/LogicaXT",
+    "mgUrl": "https://modulargrid.net/e/klavis-logica-xt",
+    "mgModuleId": 18553
+  },
+  {
+    "pluginSlug": "Klavis",
+    "moduleSlug": "Tweakers",
+    "vcvUrl": "https://library.vcvrack.com/Klavis/Tweakers",
+    "mgUrl": "https://modulargrid.net/e/klavis-tweakers",
+    "mgModuleId": 42269
+  },
+  {
+    "pluginSlug": "Klavis",
+    "moduleSlug": "Mixwitch",
+    "vcvUrl": "https://library.vcvrack.com/Klavis/Mixwitch",
+    "mgUrl": "https://modulargrid.net/e/klavis-mixwitch",
+    "mgModuleId": 16225
   }
 ]
