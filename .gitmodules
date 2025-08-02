@@ -942,3 +942,6 @@
 [submodule "repos/Clonotribe"]
 	path = repos/Clonotribe
 	url = https://github.com/Cumbiambero/clonotribe.git
+[submodule "repos/MADZINE"]
+	path = repos/MADZINE
+	url = https://github.com/mmmmmmmadman/MADZINE-VCV.git
