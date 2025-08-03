@@ -945,3 +945,6 @@
 [submodule "repos/MADZINE"]
 	path = repos/MADZINE
 	url = https://github.com/mmmmmmmadman/MADZINE-VCV.git
+[submodule "repos/SchlappiEngineering"]
+	path = repos/SchlappiEngineering
+	url = https://github.com/SchlappiEngineering/Schlappi-vcv.git
