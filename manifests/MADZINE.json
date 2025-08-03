@@ -1,0 +1,182 @@
+{
+  "slug": "MADZINE",
+  "name": "MADZINE",
+  "version": "2.1.9",
+  "license": "GPL-3.0-or-later",
+  "brand": "MADZINE",
+  "author": "MAD",
+  "authorEmail": "madzinetw@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/mmmmmmmadman/MADZINE-VCV",
+  "donateUrl": "https://www.patreon.com/c/madzinetw",
+  "modules": [
+    {
+      "slug": "SwingLFO",
+      "name": "SwingLFO",
+      "description": "A dual-waveform LFO with swing and shape control",
+      "tags": [
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "EuclideanRhythm",
+      "name": "Euclidean Rhythm",
+      "description": "A three-track Euclidean Rhythm Generator with CV control and Slew",
+      "tags": [
+        "Sequencer",
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "ADGenerator",
+      "name": "AD Generator",
+      "description": "Attack Decay envelope generator",
+      "tags": [
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "Pinpple",
+      "name": "Pinpple",
+      "description": "A ping filter hihat synthesizer with dynamic FM modulation",
+      "tags": [
+        "Drum",
+        "Filter",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "PPaTTTerning",
+      "name": "PPaTTTerning",
+      "description": "Pattern-based CV sequencer with style and density control",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "MADDY",
+      "name": "MADDY",
+      "description": "Integrated sequencer with swing clock and 3-track Euclidean rhythm generator",
+      "tags": [
+        "Sequencer",
+        "Clock generator",
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "TWNC",
+      "name": "TWNC",
+      "description": "Dual-track Euclidean rhythm generator with drum and hi-hats synthesis",
+      "tags": [
+        "Sequencer",
+        "Clock generator",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "TWNCLight",
+      "name": "TWNC Light",
+      "description": "Simplified dual-track Euclidean rhythm generator with envelope control",
+      "tags": [
+        "Sequencer",
+        "Clock generator",
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "TWNC2",
+      "name": "TWNC 2",
+      "description": "Three-track Euclidean drum machine with drum synthesis",
+      "tags": [
+        "Sequencer",
+        "Clock generator",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "QQ",
+      "name": "QQ",
+      "description": "3-track S-Curve Decay Trigger envelope generator with CV control and waveform scope",
+      "tags": [
+        "Envelope generator",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Observer",
+      "name": "Observer",
+      "description": "8-track color scope module for waveform visualization",
+      "tags": [
+        "Visual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "U8",
+      "name": "U8",
+      "description": "4HP channel processor with gain/saturation, duck control and mute",
+      "tags": [
+        "Mixer",
+        "Utility",
+        "Compressor"
+      ]
+    },
+    {
+      "slug": "YAMANOTE",
+      "name": "YAMANOTE",
+      "description": "8HP channel processor with chain, send/return function",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "KIMO",
+      "name": "KIMO",
+      "description": "Single-track Euclidean drum machine with bass drum synthesis",
+      "tags": [
+        "Sequencer",
+        "Envelope generator",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Obserfour",
+      "name": "Obserfour",
+      "description": "4-track color scope module for waveform visualization",
+      "tags": [
+        "Visual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Pyramid",
+      "name": "Pyramid",
+      "description": "3D panning router",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DECAPyramid",
+      "name": "DECAPyramid",
+      "description": "8-track 3D panning router with send/return",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "KEN",
+      "name": "KEN",
+      "description": "8-to-2 binaural processor for 3D spatial audio rendering",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    }
+  ]
+}

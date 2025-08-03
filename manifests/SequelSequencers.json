@@ -1,7 +1,7 @@
 {
   "slug": "SequelSequencers",
   "name": "Daniel Davies",
-  "version": "2.3.1",
+  "version": "2.4.1",
   "license": "GPL-3.0-or-later",
   "brand": "Daniel Davies",
   "author": "Daniel Davies",
@@ -90,6 +90,16 @@
         "Sequencer"
       ],
       "hidden": false
+    },
+    {
+      "slug": "Knot",
+      "name": "Knot",
+      "description": "4x4 sequential switch",
+      "tags": [
+        "Switch",
+        "Logic",
+        "Visual"
+      ]
     }
   ]
 }

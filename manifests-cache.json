@@ -2809,7 +2809,7 @@
     }
   },
   "Geodesics": {
-    "buildTimestamp": 1729567727.322632,
+    "buildTimestamp": 1754213579.680085,
     "creationTimestamp": 1534547467.0,
     "modules": {
       "BlackHoles": {
@@ -2844,6 +2844,9 @@
       },
       "DarkEnergy": {
         "creationTimestamp": 1674371175.5572934
+      },
+      "Twin-Paradox": {
+        "creationTimestamp": 1754214221.4505603
       }
     }
   },
@@ -11304,7 +11307,7 @@
     "buildTimestamp": 1655698520.048924
   },
   "SequelSequencers": {
-    "buildTimestamp": 1698774260.426185,
+    "buildTimestamp": 1754213706.969828,
     "creationTimestamp": 1639113349.024814,
     "modules": {
       "Sequel8": {
@@ -11333,6 +11336,9 @@
       },
       "James": {
         "creationTimestamp": 1692319926.3702142
+      },
+      "Knot": {
+        "creationTimestamp": 1754214223.4252808
       }
     }
   },
@@ -12402,7 +12408,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1745016028.755559,
+    "buildTimestamp": 1754214220.9822423,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -12614,6 +12620,24 @@
       },
       "StepSeq8x": {
         "creationTimestamp": 1744777040.405525
+      },
+      "CVmeter": {
+        "creationTimestamp": 1754214221.5310504
+      },
+      "RandMod7": {
+        "creationTimestamp": 1754214221.6106968
+      },
+      "RandMod7Compact": {
+        "creationTimestamp": 1754214221.690735
+      },
+      "SampleDelay": {
+        "creationTimestamp": 1754214221.7694895
+      },
+      "StepStation": {
+        "creationTimestamp": 1754214221.8499055
+      },
+      "TrigStation": {
+        "creationTimestamp": 1754214221.9318335
       }
     }
   },
@@ -15593,6 +15617,75 @@
       },
       "Mixwitch": {
         "creationTimestamp": 1754062490.1608202
+      }
+    }
+  },
+  "Clonotribe": {
+    "buildTimestamp": 1754213519.3085914,
+    "creationTimestamp": 1754214221.2961566,
+    "modules": {
+      "Clonotribe": {
+        "creationTimestamp": 1754214221.3566322
+      }
+    }
+  },
+  "MADZINE": {
+    "buildTimestamp": 1754213644.4120088,
+    "creationTimestamp": 1754214222.0569358,
+    "modules": {
+      "SwingLFO": {
+        "creationTimestamp": 1754214222.1285
+      },
+      "EuclideanRhythm": {
+        "creationTimestamp": 1754214222.219951
+      },
+      "ADGenerator": {
+        "creationTimestamp": 1754214222.2973008
+      },
+      "Pinpple": {
+        "creationTimestamp": 1754214222.3734653
+      },
+      "PPaTTTerning": {
+        "creationTimestamp": 1754214222.4426417
+      },
+      "MADDY": {
+        "creationTimestamp": 1754214222.5221553
+      },
+      "TWNC": {
+        "creationTimestamp": 1754214222.5966976
+      },
+      "TWNCLight": {
+        "creationTimestamp": 1754214222.6663013
+      },
+      "TWNC2": {
+        "creationTimestamp": 1754214222.7376912
+      },
+      "QQ": {
+        "creationTimestamp": 1754214222.8050327
+      },
+      "Observer": {
+        "creationTimestamp": 1754214222.8705719
+      },
+      "U8": {
+        "creationTimestamp": 1754214222.9380498
+      },
+      "YAMANOTE": {
+        "creationTimestamp": 1754214223.0059705
+      },
+      "KIMO": {
+        "creationTimestamp": 1754214223.0748785
+      },
+      "Obserfour": {
+        "creationTimestamp": 1754214223.140371
+      },
+      "Pyramid": {
+        "creationTimestamp": 1754214223.207186
+      },
+      "DECAPyramid": {
+        "creationTimestamp": 1754214223.2752917
+      },
+      "KEN": {
+        "creationTimestamp": 1754214223.3409364
       }
     }
   }

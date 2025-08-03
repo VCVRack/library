@@ -1,7 +1,7 @@
 {
   "slug": "SickoCV",
   "name": "SickoCV",
-  "version": "2.7.3",
+  "version": "2.7.5",
   "license": "GPL-3.0-or-later",
   "brand": "Sickozell",
   "author": "Sickozell",
@@ -120,6 +120,14 @@
       "tags": [
         "Clock generator",
         "Clock modulator"
+      ]
+    },
+    {
+      "slug": "CVmeter",
+      "name": "cvMeter",
+      "description": "Shows input voltage, v/oct note, midi values, bpm and sample distance between two triggers or cv change from two different inputs",
+      "tags": [
+        "Utility"
       ]
     },
     {
@@ -397,6 +405,30 @@
       ]
     },
     {
+      "slug": "RandMod7",
+      "name": "randMod7",
+      "description": "7 random smooth cv generators (rmod7)",
+      "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "RandMod7Compact",
+      "name": "randMod7 Compact",
+      "description": "7 random smooth cv generators in a compact form (rmod7)",
+      "tags": [
+        "Random"
+      ]
+    },
+    {
+      "slug": "SampleDelay",
+      "name": "sampleDelay",
+      "description": "a simple signal delay up to 5 samples",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
       "slug": "Shifter",
       "name": "shifter",
       "description": "64 selectable stages shift register",
@@ -562,6 +594,14 @@
       ]
     },
     {
+      "slug": "StepStation",
+      "name": "stepStation",
+      "description": "8 independent track / 16 step sequencer with configurable user inputs/knobs and presets (stst)",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
       "slug": "Switcher",
       "name": "switcher",
       "description": "2>1 switch, 1>2 router, 2 signal swapper, mute, flip flop, toggle gate",
@@ -634,6 +674,14 @@
       "slug": "TrigSeq8x",
       "name": "trigSeq8x",
       "description": "8 track / 16 step trig sequencer with direction and presets (ts8x)",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TrigStation",
+      "name": "trigStation",
+      "description": "8 independent track / 16 step trig sequencer with configurable user inputs/knobs and presets (trst)",
       "tags": [
         "Sequencer"
       ]

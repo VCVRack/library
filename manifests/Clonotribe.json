@@ -1,0 +1,31 @@
+{
+  "slug": "Clonotribe",
+  "name": "Clonotribe",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Instrumentalist",
+  "author": "Eduardo Hahn Paredes",
+  "authorEmail": "cumbiamberos@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/Cumbiambero/clonotribe",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Clonotribe",
+      "name": "Clonotribe",
+      "description": "A module inspired by KORG monotribe",
+      "manualUrl": "",
+      "tags": [
+        "Synth voice",
+        "Oscillator",
+        "Filter",
+        "Envelope generator",
+        "LFO",
+        "Sequencer"
+      ]
+    }
+  ]
+}
