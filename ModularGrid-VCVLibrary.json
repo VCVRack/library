@@ -2425,5 +2425,26 @@
     "vcvUrl": "https://library.vcvrack.com/Klavis/Mixwitch",
     "mgUrl": "https://modulargrid.net/e/klavis-mixwitch",
     "mgModuleId": 16225
+  },
+  {
+    "pluginSlug": "SchlappiEngineering",
+    "moduleSlug": "BTFLD",
+    "vcvUrl": "https://library.vcvrack.com/SchlappiEngineering/BTFLD",
+    "mgUrl": "https://modulargrid.net/e/schlappi-engineering-btfld",
+    "mgModuleId": 51134
+  },
+  {
+    "pluginSlug": "SchlappiEngineering",
+    "moduleSlug": "BTMX",
+    "vcvUrl": "https://library.vcvrack.com/SchlappiEngineering/BTMX",
+    "mgUrl": "https://modulargrid.net/e/schlappi-engineering-btmx",
+    "mgModuleId": 49630
+  },
+  {
+    "pluginSlug": "SchlappiEngineering",
+    "moduleSlug": "Nibbler",
+    "vcvUrl": "https://library.vcvrack.com/SchlappiEngineering/Nibbler",
+    "mgUrl": "https://modulargrid.net/e/schlappi-engineering-nibbler",
+    "mgModuleId": 46785
   }
 ]

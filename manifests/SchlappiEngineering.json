@@ -1,0 +1,52 @@
+{
+  "slug": "SchlappiEngineering",
+  "name": "Schlappi Engineering",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Schlappi Engineering",
+  "author": "Eric Schlappi, Arden Butterfield",
+  "authorEmail": "",
+  "authorUrl": "https://schlappiengineering.com/",
+  "pluginUrl": "",
+  "sourceUrl": "https://github.com/SchlappiEngineering/Schlappi-vcv",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "BTFLD",
+      "name": "BTFLD",
+      "modularGridUrl": "https://modulargrid.net/e/schlappi-engineering-btfld",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0549/4538/2479/files/btfld_manual_-_rough_draft_-_101624a.pdf",
+      "description": "BTFLD (Bit Fold) is a distortion, wavefolder, and four bit asynchronous analog to digital converter.",
+      "tags": [
+        "Distortion",
+        "Waveshaper",
+        "Logic",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "BTMX",
+      "name": "BTMX",
+      "modularGridUrl": "https://modulargrid.net/e/schlappi-engineering-btmx",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0549/4538/2479/files/btmx_manual_070924b.pdf",
+      "description": "BTMX (BitMix) gives hands on control over logic and rhythmic gate signals with a switch for every input and 4 different logic functions.",
+      "tags": [
+        "Logic",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Nibbler",
+      "name": "Nibbler",
+      "modularGridUrl": "https://modulargrid.net/e/schlappi-engineering-nibbler",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0549/4538/2479/files/nibbler_manual_122123.pdf",
+      "description": "The Nibbler is a four bit digital accumulator based on CMOS logic. This means that it counts in binary from zero to fifteen, with inputs and outputs for individual bits as well as stepped voltage outputs (digital to analog converters).",
+      "tags": [
+        "Clock modulator",
+        "Logic",
+        "Hardware clone"
+      ]
+    }
+  ]
+}
