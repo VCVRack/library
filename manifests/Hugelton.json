@@ -1,19 +1,40 @@
 {
   "slug": "Hugelton",
-  "name": "Hugelton Instruments",
-  "version": "2.0.0",
+  "name": "H\u00fcgelton Instruments",
+  "version": "2.0.1",
   "license": "proprietary",
-  "brand": "hugelton instruments",
+  "brand": "H\u00fcgelton Instruments",
   "author": "Leo Kuroshita",
   "authorUrl": "https://hugelton.com/",
   "donateUrl": "https://buymeacoffee.com/kurogek",
   "modules": [
     {
       "slug": "K102",
-      "name": "K102 Digital Complex Oscillator",
-      "description": "Complex Oscillator with Compound Unit",
+      "name": "K102V Digital Compound Oscillator",
+      "description": "Digital Compound Oscillator",
       "tags": [
         "Oscillator",
+        "Digital",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "K104",
+      "name": "K104V Dual Envelope Generator",
+      "description": "Dual ADSR Envelope Generator ",
+      "tags": [
+        "Envelope generator",
+        "Dual",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "K108",
+      "name": "K108V Digital Dual Traveler",
+      "description": "Dual Filters with CV Control",
+      "tags": [
+        "Filter",
+        "Dual",
         "Digital",
         "Hardware clone"
       ]
