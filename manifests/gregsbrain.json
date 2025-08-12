@@ -1,16 +1,16 @@
 {
   "slug": "gregsbrain",
   "name": "gregsbrain Eurorack Modular",
-  "version": "2.1.9",
+  "version": "2.2.0",
   "license": "proprietary",
   "brand": "gregsbrain",
   "author": "Greg Burns",
   "authorEmail": "greg@gregsbrain.co",
   "authorUrl": "https://gregsbrain.co",
   "pluginUrl": "https://gregsbrain.co",
-  "manualUrl": "https://www.gregsbrain.co/uploads/1/4/6/1/146121474/xvox_user_manual.pdf",
+  "manualUrl": "",
   "sourceUrl": "",
-  "donateUrl": "https://paypal.me/gregsbrain?country.x=US&locale.x=en_US",
+  "donateUrl": "",
   "changelogUrl": "",
   "modules": [
     {
@@ -28,6 +28,22 @@
         "Envelope generator",
         "Sample and hold",
         "Vocoder",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "dSpec",
+      "name": "dSpec VCO",
+      "description": "Dual Direct Spectral Generation VCO",
+      "manualUrl": "",
+      "modularGridUrl": "",
+      "tags": [
+        "Hardware clone",
+        "Digital",
+        "Quantizer",
+        "Filter",
+        "Noise",
+        "Waveshaper",
         "Visual"
       ]
     }
