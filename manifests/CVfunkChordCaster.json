@@ -1,7 +1,7 @@
 {
   "slug": "CVfunkChordCaster",
   "name": "CV funk Chord Caster",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "license": "https://vcvrack.com/eula",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -19,7 +19,8 @@
       "description": "A 6-note stereo phase-distortion synth voice with chord sequencer, parameter automation, modulation bus, tanh saturation and fractional three-tap delay.",
       "tags": [
         "Synth voice",
-        "Sequencer"
+        "Sequencer",
+        "Polyphonic"
       ]
     },
     {
@@ -34,9 +35,10 @@
     {
       "slug": "Chordy",
       "name": "Chordy",
-      "description": "Just the 6-note chord sequencer from Chord Caster.",
+      "description": "The 6-note chord sequencer from Chord Caster in a compact form.",
       "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Polyphonic"
       ]
     }
   ]
