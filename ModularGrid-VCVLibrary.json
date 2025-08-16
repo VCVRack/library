@@ -2446,5 +2446,19 @@
     "vcvUrl": "https://library.vcvrack.com/SchlappiEngineering/Nibbler",
     "mgUrl": "https://modulargrid.net/e/schlappi-engineering-nibbler",
     "mgModuleId": 46785
+  },
+  {
+    "pluginSlug": "SynthesisTechnology",
+    "moduleSlug": "E352",
+    "vcvUrl": "https://library.vcvrack.com/SynthesisTechnology/E352",
+    "mgUrl": "https://modulargrid.net/e/synthesis-technology-e352-cloud-terrarium",
+    "mgModuleId": 11004
+  },
+  {
+    "pluginSlug": "SynthesisTechnology",
+    "moduleSlug": "E370",
+    "vcvUrl": "https://library.vcvrack.com/SynthesisTechnology/E370",
+    "mgUrl": "https://modulargrid.net/e/synthesis-technology-e370-quad-morphing-vco",
+    "mgModuleId": 1537
   }
 ]

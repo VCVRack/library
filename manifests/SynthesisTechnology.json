@@ -1,7 +1,7 @@
 {
   "slug": "SynthesisTechnology",
   "name": "Synthesis Technology",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "license": "proprietary",
   "brand": "Synthesis Technology",
   "author": "VCV",
@@ -55,6 +55,30 @@
       "modularGridUrl": "https://www.modulargrid.net/e/synthesis-technology-e440-discrete-ota-vcf",
       "tags": [
         "VCF",
+        "Polyphonic",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "E352",
+      "name": "E352 Cloud Terrarium",
+      "description": "",
+      "manualUrl": "https://vcvrack.com/SynthesisTechnology#E352",
+      "modularGridUrl": "https://modulargrid.net/e/synthesis-technology-e352-cloud-terrarium",
+      "tags": [
+        "Oscillator",
+        "Polyphonic",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "E370",
+      "name": "E370 Quad Morphing VCO",
+      "description": "",
+      "manualUrl": "https://vcvrack.com/SynthesisTechnology#E370",
+      "modularGridUrl": "https://modulargrid.net/e/synthesis-technology-e370-quad-morphing-vco",
+      "tags": [
+        "Oscillator",
         "Polyphonic",
         "Hardware clone"
       ]
