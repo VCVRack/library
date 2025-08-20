@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.15",
+  "version": "2.0.24",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -197,7 +197,8 @@
       "name": "Arrange",
       "description": "A seven channel sequencer with quantize/volt option per channel, and adjustable length.",
       "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Polyphonic"
       ]
     },
     {
@@ -223,6 +224,71 @@
       "description": "A 4x4x4 sequencer for both quantized and non-quantized voltages, gates per step, and polyphonic outputs with stacked z-layer options.",
       "tags": [
         "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "JunkDNA",
+      "name": "Junk DNA",
+      "description": "Input DNA codes to generate repetative genes, convert DNA sequence to numerous simultaneous gate signals.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Picus",
+      "name": "Picus",
+      "description": "Compose sequences of trigger bursts. Program a sequence of up to seven clock multiplier stages. Customizable trigger patterns.",
+      "tags": [
+        "Sequencer",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Node",
+      "name": "Node",
+      "description": "A two-channel stereo crossfading mixer.",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Weave",
+      "name": "Weave",
+      "description": "A six note chord quantizer, with the abilty to weave the outputs into different permutations.",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Wonk",
+      "name": "Wonk",
+      "description": "Generate clock-synced and wonky modulationss in six phase-locked channels.",
+      "tags": [
+        "Low-frequency Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Hammer",
+      "name": "Hammer",
+      "description": "A compact version of the Syncro eight channel clock ratio generator.",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Hub",
+      "name": "Hub",
+      "description": "Two animated knob macro controllers with gain, offset, and knob range CV control.",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Utility",
         "Polyphonic"
       ]
     }

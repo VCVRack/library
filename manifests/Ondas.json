@@ -1,7 +1,7 @@
 {
   "slug": "Ondas",
   "name": "Ondas",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Ondas",
   "author": "Sergio Rodriguez Gomez",
@@ -56,6 +56,70 @@
         "Effect",
         "Distortion",
         "Digital"
+      ]
+    },
+    {
+      "slug": "Logistic",
+      "name": "Logistic",
+      "description": "Logistic map equation function generator",
+      "tags": [
+        "Function generator",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Bap",
+      "name": "Bap",
+      "description": "Expander module for BaBum drum synth",
+      "tags": [
+        "Expander",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Bittorio",
+      "name": "Bittorio",
+      "description": "Cellular-automaton-based gate generator",
+      "tags": [
+        "Function generator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Ktick",
+      "name": "Ktick",
+      "description": "Clock divider expander for Klok",
+      "tags": [
+        "Expander",
+        "Clock generator",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Hiller",
+      "name": "Hiller",
+      "description": "Input swapper based on comparator",
+      "tags": [
+        "Utility",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "ScenerProMax",
+      "name": "ScenerProMax",
+      "description": "Large scene-based channel mixer",
+      "tags": [
+        "Sequencer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Norbert",
+      "name": "Norbert",
+      "description": "Spring and damper feedback envelope",
+      "tags": [
+        "Envelope generator",
+        "Function generator"
       ]
     }
   ]

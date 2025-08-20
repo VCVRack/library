@@ -1,14 +1,14 @@
 {
   "slug": "MADZINE",
   "name": "MADZINE",
-  "version": "2.1.9",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "MADZINE",
   "author": "MAD",
   "authorEmail": "madzinetw@gmail.com",
   "authorUrl": "",
   "pluginUrl": "",
-  "manualUrl": "",
+  "manualUrl": "https://github.com/mmmmmmmadman/MADZINE-VCV/tree/main/Manual",
   "sourceUrl": "https://github.com/mmmmmmmadman/MADZINE-VCV",
   "donateUrl": "https://www.patreon.com/c/madzinetw",
   "modules": [
@@ -176,6 +176,37 @@
       "tags": [
         "Mixer",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Quantizer",
+      "name": "Quantizer",
+      "description": "8HP chromatic quantizer with 12-note microtuning and cultural scale presets",
+      "tags": [
+        "Quantizer",
+        "Tuner"
+      ]
+    },
+    {
+      "slug": "EllenRipley",
+      "name": "Ellen Ripley",
+      "description": "Multi-effect processor with delay, granular synthesis, reverb, and chaos modulation",
+      "tags": [
+        "Delay",
+        "Reverb",
+        "Granular",
+        "Effect",
+        "Random"
+      ]
+    },
+    {
+      "slug": "MADDYPlus",
+      "name": "MADDYPlus",
+      "description": "3-track pattern based sequencer with swing clock and 3-track Euclidean rhythm generator",
+      "tags": [
+        "Sequencer",
+        "Clock generator",
+        "Envelope generator"
       ]
     }
   ]

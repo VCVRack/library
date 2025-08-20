@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1751218427.2290552,
+    "buildTimestamp": 1755718376.2759209,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -1361,7 +1361,7 @@
     }
   },
   "OrangeLine": {
-    "buildTimestamp": 1750787475.0002337,
+    "buildTimestamp": 1755717530.4829829,
     "creationTimestamp": 1571530639.0,
     "modules": {
       "Fence": {
@@ -1619,7 +1619,7 @@
     }
   },
   "aridacity": {
-    "buildTimestamp": 1646919175.1473665,
+    "buildTimestamp": 1755718187.381431,
     "creationTimestamp": 1567535427.0,
     "modules": {
       "ClockDiv": {
@@ -1630,6 +1630,9 @@
       },
       "Clip": {
         "creationTimestamp": 1567535427.0
+      },
+      "Remainder": {
+        "creationTimestamp": 1755718377.027887
       }
     }
   },
@@ -11805,7 +11808,7 @@
     }
   },
   "alefsbits": {
-    "buildTimestamp": 1752559274.2094357,
+    "buildTimestamp": 1755718171.580577,
     "creationTimestamp": 1650829410.386362,
     "modules": {
       "simplexandhold": {
@@ -12408,7 +12411,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1754214220.9822423,
+    "buildTimestamp": 1755718079.1790922,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -14181,7 +14184,7 @@
     }
   },
   "CVfunk": {
-    "buildTimestamp": 1742146059.4767537,
+    "buildTimestamp": 1755717312.195632,
     "creationTimestamp": 1711827243.9642084,
     "modules": {
       "Steps": {
@@ -14252,6 +14255,27 @@
       },
       "Cartesia": {
         "creationTimestamp": 1741018378.0135396
+      },
+      "JunkDNA": {
+        "creationTimestamp": 1755718376.4871502
+      },
+      "Picus": {
+        "creationTimestamp": 1755718376.5631342
+      },
+      "Node": {
+        "creationTimestamp": 1755718376.6393614
+      },
+      "Weave": {
+        "creationTimestamp": 1755718376.7063053
+      },
+      "Wonk": {
+        "creationTimestamp": 1755718376.7791982
+      },
+      "Hammer": {
+        "creationTimestamp": 1755718376.848012
+      },
+      "Hub": {
+        "creationTimestamp": 1755718376.9210377
       }
     }
   },
@@ -15357,7 +15381,7 @@
     }
   },
   "Ondas": {
-    "buildTimestamp": 1745289823.7385523,
+    "buildTimestamp": 1755717476.7734108,
     "creationTimestamp": 1745290568.5213926,
     "modules": {
       "Klok": {
@@ -15374,6 +15398,27 @@
       },
       "Distroi": {
         "creationTimestamp": 1745290568.8963022
+      },
+      "Logistic": {
+        "creationTimestamp": 1755718377.1173205
+      },
+      "Bap": {
+        "creationTimestamp": 1755718377.2021146
+      },
+      "Bittorio": {
+        "creationTimestamp": 1755718377.2805333
+      },
+      "Ktick": {
+        "creationTimestamp": 1755718377.3656514
+      },
+      "Hiller": {
+        "creationTimestamp": 1755718377.475294
+      },
+      "ScenerProMax": {
+        "creationTimestamp": 1755718377.5658185
+      },
+      "Norbert": {
+        "creationTimestamp": 1755718377.6685655
       }
     }
   },
@@ -15636,7 +15681,7 @@
     }
   },
   "Clonotribe": {
-    "buildTimestamp": 1754213519.3085914,
+    "buildTimestamp": 1755717342.5923388,
     "creationTimestamp": 1754214221.2961566,
     "modules": {
       "Clonotribe": {
@@ -15645,7 +15690,7 @@
     }
   },
   "MADZINE": {
-    "buildTimestamp": 1754213644.4120088,
+    "buildTimestamp": 1755717435.547845,
     "creationTimestamp": 1754214222.0569358,
     "modules": {
       "SwingLFO": {
@@ -15701,6 +15746,15 @@
       },
       "KEN": {
         "creationTimestamp": 1754214223.3409364
+      },
+      "Quantizer": {
+        "creationTimestamp": 1755718377.79624
+      },
+      "EllenRipley": {
+        "creationTimestamp": 1755718377.884803
+      },
+      "MADDYPlus": {
+        "creationTimestamp": 1755718377.9717965
       }
     }
   },
