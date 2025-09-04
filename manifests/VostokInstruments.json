@@ -1,0 +1,111 @@
+{
+  "slug": "VostokInstruments",
+  "name": "VostokInstruments",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Vostok Instruments",
+  "author": "Vostok Instruments, Ewan Hemingway",
+  "authorUrl": "https://aforestfullofsines.com/",
+  "pluginUrl": "https://www.vostokinstruments.com/",
+  "manualUrl": "https://www.vostokinstruments.com/",
+  "sourceUrl": "https://github.com/Vostok-Instruments/Vostok_VCVRack",
+  "changelogUrl": "https://github.com/Vostok-Instruments/Vostok_VCVRack/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Path",
+      "name": "Path",
+      "description": "Analog Morphing Router",
+      "manualUrl": "https://www.vostokinstruments.com/path-user-manual",
+      "modularGridUrl": "https://modulargrid.net/e/divkid-path",
+      "tags": [
+        "Hardware clone",
+        "Voltage-controlled amplifier",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Trace",
+      "name": "Trace",
+      "description": "Analog Morphing Scanner",
+      "manualUrl": "https://www.vostokinstruments.com/trace-user-manual",
+      "modularGridUrl": "https://modulargrid.net/e/divkid-trace",
+      "tags": [
+        "Hardware clone",
+        "Voltage-controlled amplifier",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Asset",
+      "name": "Asset",
+      "description": "Bipolar Attenuator & DC Source",
+      "manualUrl": "https://www.vostokinstruments.com/asset-user-manual",
+      "modularGridUrl": "https://modulargrid.net/e/vostok-instruments-asset",
+      "tags": [
+        "Attenuator",
+        "Hardware clone",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Atlas",
+      "name": "Atlas",
+      "description": "Quad Core Multimode Filter",
+      "manualUrl": "https://www.vostokinstruments.com/atlas-user-manual",
+      "modularGridUrl": "https://modulargrid.net/e/vostok-instruments-atlas",
+      "tags": [
+        "Hardware clone",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Ceres",
+      "name": "Ceres",
+      "description": "High-Class Linear VCA & Mixer",
+      "manualUrl": "https://www.vostokinstruments.com/ceres-user-manual",
+      "modularGridUrl": "https://modulargrid.net/e/vostok-instruments-ceres",
+      "tags": [
+        "Hardware clone",
+        "Mixer",
+        "Voltage-controlled amplifier",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Fuji",
+      "name": "Fuji",
+      "description": "Hexa Core Slope Generator",
+      "manualUrl": "https://www.vostokinstruments.com/fuji-user-manual",
+      "modularGridUrl": "https://modulargrid.net/e/vostok-instruments-fuji",
+      "tags": [
+        "Hardware clone",
+        "Envelope generator",
+        "LFO"
+      ]
+    },
+    {
+      "slug": "Sena",
+      "name": "Sena",
+      "description": "Multi Channel Sound Source",
+      "manualUrl": "https://www.vostokinstruments.com/sena-user-manual",
+      "modularGridUrl": "https://modulargrid.net/e/vostok-instruments-sena",
+      "tags": [
+        "Hardware clone",
+        "Oscillator",
+        "Noise"
+      ]
+    },
+    {
+      "slug": "Hive",
+      "name": "Hive",
+      "description": "Quad Stereo Automated Mixer",
+      "manualUrl": "https://www.vostokinstruments.com/hive-user-manual",
+      "modularGridUrl": "https://modulargrid.net/e/vostok-instruments-hive",
+      "tags": [
+        "Hardware clone",
+        "Mixer",
+        "Panning"
+      ]
+    }
+  ]
+}

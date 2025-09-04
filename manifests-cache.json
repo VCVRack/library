@@ -15775,5 +15775,35 @@
         "creationTimestamp": 1754279134.364343
       }
     }
+  },
+  "VostokInstruments": {
+    "buildTimestamp": 1756984128.2791302,
+    "creationTimestamp": 1756984128.632253,
+    "modules": {
+      "Path": {
+        "creationTimestamp": 1756984128.7124877
+      },
+      "Trace": {
+        "creationTimestamp": 1756984128.7887933
+      },
+      "Asset": {
+        "creationTimestamp": 1756984128.8673227
+      },
+      "Atlas": {
+        "creationTimestamp": 1756984128.9414072
+      },
+      "Ceres": {
+        "creationTimestamp": 1756984129.022429
+      },
+      "Fuji": {
+        "creationTimestamp": 1756984129.1013873
+      },
+      "Sena": {
+        "creationTimestamp": 1756984129.1778302
+      },
+      "Hive": {
+        "creationTimestamp": 1756984129.264673
+      }
+    }
   }
 }
