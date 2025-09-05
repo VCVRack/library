@@ -2514,6 +2514,7 @@
     "pluginSlug": "VostokInstruments",
     "moduleSlug": "Hive",
     "vcvUrl": "https://library.vcvrack.com/VostokInstruments/Hive",
-    "mgUrl": "https://modulargrid.net/e/vostok-instruments-hive"
+    "mgUrl": "https://modulargrid.net/e/vostok-instruments-hive",
+    "mgModuleId": 55479
   }
 ]

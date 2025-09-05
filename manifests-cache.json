@@ -14640,7 +14640,7 @@
     }
   },
   "4msCompany": {
-    "buildTimestamp": 1749755647.3350556,
+    "buildTimestamp": 1757116670.2760925,
     "creationTimestamp": 1726510806.3560686,
     "modules": {
       "HubMedium": {
@@ -14786,6 +14786,9 @@
       },
       "MMAudioExpander": {
         "creationTimestamp": 1740691204.2441485
+      },
+      "BWAVP": {
+        "creationTimestamp": 1757116671.2205486
       }
     }
   },

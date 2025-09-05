@@ -1,7 +1,7 @@
 {
   "slug": "4msCompany",
   "name": "4ms",
-  "version": "2.0.15",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "4ms",
   "author": "4ms Company",
@@ -26,7 +26,7 @@
     },
     {
       "slug": "EnOsc",
-      "name": "Ensemble Oscillator",
+      "name": "Ensemble Oscillator [EnOsc]",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-ensemble-oscillator",
       "manualUrl": "https://4mscompany.com/media/ENOSC/manual/Ensemble-Osc-manual.pdf",
       "description": "The Ensemble Oscillator (EnOsc) is a unified polyphonic voice of sixteen complex oscillators combining additive, FM, phase-distortion and wavefolding synthesis techniques in new unorthodox ways.",
@@ -38,8 +38,7 @@
     },
     {
       "slug": "DLD",
-      "name": "Dual Looping Delay",
-      "description": "DLD",
+      "name": "Dual Looping Delay [DLD]",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-dual-looping-delay",
       "manualUrl": "https://4mscompany.com/media/DLD/manual/DLD-manual.pdf",
       "tags": [
@@ -52,8 +51,7 @@
     },
     {
       "slug": "Tapo",
-      "name": "Tapographic Delay",
-      "description": "Tapographic delay",
+      "name": "Tapographic Delay [Tapo]",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-tapographic-delay",
       "manualUrl": "https://4mscompany.com/media/TAPO/manual/Tapographic-Delay-User-Manual.pdf",
       "tags": [
@@ -65,8 +63,8 @@
     },
     {
       "slug": "SHEV",
-      "name": "Shaped Dual EnvVCA",
-      "description": "SHEV",
+      "name": "Shaped Dual EnvVCA [SHEV]",
+      "description": "Variable waveshape dual AD envelope + VCA",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-shaped-dual-envvca-shev",
       "manualUrl": "https://4mscompany.com/media/ENVVCA/manual/Shaped-EnvVCA-manual-v1.0.pdf",
       "tags": [
@@ -80,8 +78,8 @@
     },
     {
       "slug": "DEV",
-      "name": "Dual EnvVCA",
-      "description": "DEV",
+      "name": "Dual EnvVCA [DEV]",
+      "description": "Dual AD Envelope + VCA",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-dual-envvca-dev",
       "manualUrl": "https://4mscompany.com/media/ENVVCA/manual/Dual-EnvVCA-manual-1.0.pdf",
       "tags": [
@@ -96,8 +94,8 @@
     {
       "slug": "ENVVCA",
       "name": "EnvVCA",
-      "modularGridUrl": "https://modulargrid.net/e/4ms-company-envvca-env",
       "description": "A compact envelope generator with a built-in exponential VCA.",
+      "modularGridUrl": "https://modulargrid.net/e/4ms-company-envvca-env",
       "manualUrl": "https://4mscompany.com/media/ENVVCA/manual/EnvVCA-manual-v1.0.pdf",
       "tags": [
         "Envelope Generator",
@@ -109,7 +107,8 @@
     },
     {
       "slug": "PEG",
-      "name": "Pingable Envelope Generator PEG",
+      "name": "Pingable Envelope Generator [PEG]",
+      "description": "Clock-synced envelopes and LFOs",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-pingable-envelope-generator",
       "manualUrl": "https://4mscompany.com/media/peg/manual/PEG_manual.pdf",
       "tags": [
@@ -122,8 +121,7 @@
     },
     {
       "slug": "MPEG",
-      "name": "Mini Pingable Envelope Generator",
-      "description": "MiniPEG",
+      "name": "Mini Pingable Envelope Generator [MPEG]",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-mini-peg",
       "manualUrl": "https://4mscompany.com/media/MPEG/manual/MiniPEG-manual-v1.0a.pdf",
       "tags": [
@@ -138,7 +136,6 @@
       "name": "Quad Clock Distributor [QCD]",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-qcd-quad-clock-distributor",
       "manualUrl": "https://4mspedals.com/QCD/QCD-manual-v2.pdf",
-      "description": "QCD",
       "tags": [
         "Clock generator",
         "Clock modulator",
@@ -149,7 +146,6 @@
     {
       "slug": "SCM",
       "name": "Shuffling Clock Multiplier [SCM]",
-      "description": "SCM",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-scm-shuffling-clock-multiplier-v2",
       "manualUrl": "https://4mscompany.com/media/SCMPLUS/manual/SCM-plus-manual-1.0.pdf",
       "tags": [
@@ -160,7 +156,6 @@
     {
       "slug": "RCD",
       "name": "Rotating Clock Divider [RCD]",
-      "description": "RCD",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-rotating-clock-divider-v2",
       "manualUrl": "https://4mscompany.com/media/RCD/manual/RCD-manual.pdf",
       "tags": [
@@ -171,7 +166,6 @@
     {
       "slug": "QPLFO",
       "name": "Quad Pingable LFO [QPLFO]",
-      "description": "QPLFO",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-quad-pingable-lfo",
       "manualUrl": "https://4mspedals.com/media/QPLFO/manual/QPLFO-manual.pdf",
       "tags": [
@@ -182,7 +176,7 @@
     },
     {
       "slug": "PI",
-      "name": "Percussion Interface + Expander",
+      "name": "Percussion Interface + Expander [PI]",
       "description": "Audio to gates, triggers and envelopes",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-percussion-interface",
       "manualUrl": "https://4mscompany.com/media/PI/manual/PI-User-Manual.pdf",
@@ -194,7 +188,6 @@
     {
       "slug": "VCAM",
       "name": "VCA Matrix [VCAM]",
-      "description": "VCAM",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-vca-matrix",
       "manualUrl": "https://4mscompany.com/media/vcam/manual/vcam-manual.pdf",
       "tags": [
@@ -206,7 +199,6 @@
     {
       "slug": "SISM",
       "name": "Shifting Inverting Signal Mingler [SISM]",
-      "description": "SISM",
       "modularGridUrl": "https://modulargrid.net/e/4ms-company-shifting-inverting-signal-mingler",
       "manualUrl": "https://4mscompany.com/media/SISM/manual/sism-manual.pdf",
       "tags": [
@@ -228,10 +220,17 @@
     {
       "slug": "Freeverb",
       "name": "Freeverb",
-      "description": "Freeverb",
       "tags": [
         "Effect",
         "Reverb"
+      ]
+    },
+    {
+      "slug": "BWAVP",
+      "name": "Basic WAV Player",
+      "description": "Simple streaming .wav player optimized for microSD cards and USB drives",
+      "tags": [
+        "Sampler"
       ]
     },
     {
