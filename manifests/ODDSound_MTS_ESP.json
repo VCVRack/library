@@ -1,7 +1,7 @@
 {
   "slug": "ODDSound_MTS_ESP",
   "name": "ODDSound MTS-ESP",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "0BSD",
   "brand": "ODDSound",
   "author": "ODDSound",
@@ -36,7 +36,7 @@
     {
       "slug": "Quantizer_MTS_ESP",
       "name": "MTS-ESP Quantizer",
-      "description": "Quantize pitch CV to the global MTS-ESP tuning table",
+      "description": "Quantize or retune pitch CV to the global MTS-ESP tuning table",
       "tags": [
         "Quantizer",
         "Polyphonic"

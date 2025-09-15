@@ -1,0 +1,26 @@
+{
+  "slug": "FartSynthson",
+  "name": "FartSynthson",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Instrumentalist",
+  "author": "Eduardo Hahn Paredes",
+  "authorEmail": "cumbiamberos@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/Cumbiambero/fart-synthson",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "FartSynthson",
+      "name": "FartSynthson",
+      "description": "You don't have to spend a fortune on hardware modules if you just want to produce that kind of sound.",
+      "manualUrl": "",
+      "tags": [
+        "Drum"
+      ]
+    }
+  ]
+}

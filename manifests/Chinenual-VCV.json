@@ -1,7 +1,7 @@
 {
   "slug": "Chinenual-VCV",
   "name": "Chinenual",
-  "version": "2.7.4",
+  "version": "2.7.5",
   "license": "GPL-3.0-or-later",
   "brand": "Chinenual",
   "author": "Steve Tynor",
@@ -69,7 +69,7 @@
     {
       "slug": "NoteMeter",
       "name": "NoteMeter",
-      "description": "Display note names for inbound V/Oct voltages",
+      "description": "Display note names, voltage or frequency for inbound V/Oct voltages",
       "manualUrl": "https://github.com/chinenual/Chinenual-VCV/blob/main/README.md#notemeter",
       "tags": [
         "polyphonic",

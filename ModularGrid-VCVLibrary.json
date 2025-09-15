@@ -2516,5 +2516,26 @@
     "vcvUrl": "https://library.vcvrack.com/VostokInstruments/Hive",
     "mgUrl": "https://modulargrid.net/e/vostok-instruments-hive",
     "mgModuleId": 55479
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "2hpBlank",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/2hpBlank",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-blank-panel",
+    "mgModuleId": 48544
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "14hpBlank",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/14hpBlank",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-14hp-blank",
+    "mgModuleId": 48545
+  },
+  {
+    "pluginSlug": "Moffenzeef",
+    "moduleSlug": "Swarm",
+    "vcvUrl": "https://library.vcvrack.com/Moffenzeef/Swarm",
+    "mgUrl": "https://modulargrid.net/e/moffenzeef-modular-swarm",
+    "mgModuleId": 27310
   }
 ]
