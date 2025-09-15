@@ -951,3 +951,6 @@
 [submodule "repos/DanTSynth"]
 	path = repos/DanTSynth
 	url = https://github.com/Miff-Real/DanT.Synth.git
+[submodule "repos/FartSynthson"]
+	path = repos/FartSynthson
+	url = https://github.com/Cumbiambero/fart-synthson.git
