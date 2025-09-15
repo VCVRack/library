@@ -948,3 +948,6 @@
 [submodule "repos/SchlappiEngineering"]
 	path = repos/SchlappiEngineering
 	url = https://github.com/SchlappiEngineering/Schlappi-vcv.git
+[submodule "repos/DanTSynth"]
+	path = repos/DanTSynth
+	url = https://github.com/Miff-Real/DanT.Synth.git
