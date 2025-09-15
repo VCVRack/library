@@ -954,3 +954,6 @@
 [submodule "repos/FartSynthson"]
 	path = repos/FartSynthson
 	url = https://github.com/Cumbiambero/fart-synthson.git
+[submodule "repos/Gemini"]
+	path = repos/Gemini
+	url = https://github.com/JoBoCl/Gemini.git
