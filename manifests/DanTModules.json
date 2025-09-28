@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.4.47",
+  "version": "2.5.1",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "brand": "DanT",
@@ -111,11 +111,11 @@
     {
       "slug": "Chromakey",
       "name": "Chromakey",
-      "description": "[vari-hp] Blank that can change panel size & colour",
+      "description": "[vari-hp] Blank that can change panel size & colour, and display text.",
       "tags": [
         "Visual"
       ],
-      "keywords": "chroma magical cv blank theme green cyan magenta greenscreen colours",
+      "keywords": "chroma magical cv blank theme green cyan magenta greenscreen colours text notes font",
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/chromakey/"
     },
     {
@@ -145,12 +145,12 @@
     {
       "slug": "Purfenator",
       "name": "Purfenator",
-      "description": "[4hp] Utility module to create visual backdrops for nice video visuals, a la Purf.",
+      "description": "[4hp] Utility module to create visual backdrops in Rack.",
       "tags": [
         "Utility",
         "Visual"
       ],
-      "keywords": "purfenator purf urs basteck background backdrop image skiff video",
+      "keywords": "purfenator purf urs basteck background backdrop image skiff video gradient",
       "manualUrl": "https://miff-real.github.io/DanTModules-Manual/manual/purfenator/"
     },
     {
