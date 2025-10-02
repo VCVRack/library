@@ -1,7 +1,7 @@
 {
   "slug": "Klavis",
   "name": "Klavis",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "proprietary",
   "brand": "Klavis",
   "author": "VCV",
@@ -20,7 +20,8 @@
       "modularGridUrl": "https://modulargrid.net/e/klavis-flexshaper",
       "tags": [
         "Waveshaper",
-        "Polyphonic"
+        "Polyphonic",
+        "Hardware clone"
       ]
     },
     {
@@ -31,7 +32,8 @@
       "modularGridUrl": "https://modulargrid.net/e/klavis-compair",
       "tags": [
         "Logic",
-        "Polyphonic"
+        "Polyphonic",
+        "Hardware clone"
       ]
     },
     {
@@ -41,7 +43,8 @@
       "manualUrl": "https://www.klavis.com/all-products/two-bits",
       "modularGridUrl": "https://modulargrid.net/e/klavis-two-bits",
       "tags": [
-        "Logic"
+        "Logic",
+        "Hardware clone"
       ]
     },
     {
@@ -51,7 +54,8 @@
       "manualUrl": "https://www.klavis.com/all-products/logica-xt",
       "modularGridUrl": "https://modulargrid.net/e/klavis-logica-xt",
       "tags": [
-        "Logic"
+        "Logic",
+        "Hardware clone"
       ]
     },
     {
@@ -63,7 +67,8 @@
       "tags": [
         "Mixer",
         "Attenuator",
-        "Polyphonic"
+        "Polyphonic",
+        "Hardware clone"
       ]
     },
     {
@@ -75,7 +80,8 @@
       "tags": [
         "Mixer",
         "Switch",
-        "Polyphonic"
+        "Polyphonic",
+        "Hardware clone"
       ]
     }
   ]
