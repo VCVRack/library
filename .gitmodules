@@ -957,3 +957,6 @@
 [submodule "repos/Gemini"]
 	path = repos/Gemini
 	url = https://github.com/JoBoCl/Gemini.git
+[submodule "repos/AlteredStateMachines"]
+	path = repos/AlteredStateMachines
+	url = https://codeberg.org/alteredstatemachines/alteredstatemachines-vcv
