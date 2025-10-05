@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.24",
+  "version": "2.0.30",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -289,6 +289,48 @@
       "tags": [
         "Voltage-controlled amplifier",
         "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CVfunkBlank",
+      "name": "CV funk Blank 8HP",
+      "description": "Blank panel for CV funk.",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "CVfunkBlank4HP",
+      "name": "CV funk Blank 4HP",
+      "description": "Blank panel for CV funk.",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Rat",
+      "name": "Rat",
+      "description": "Polyphonic ratio CV generator for exploring FMop ratios. Knob scales non-linearly around ratios, or optionally locks onto exact ratios. ",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Count",
+      "name": "Count",
+      "description": "Counts up. Counts Down.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Clpy",
+      "name": "Clpy",
+      "description": "Stereo polyphonic waveshaper folds your waves and clips them to a target CV value or audio input.",
+      "tags": [
+        "Waveshaper",
         "Polyphonic"
       ]
     }

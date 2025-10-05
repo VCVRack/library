@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.12.3",
+  "version": "2.13.2",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -13,6 +13,18 @@
   "donateUrl": "https://paypal.me/DaveBenhamMusic",
   "changelogUrl": "https://github.com/DaveBenham/VenomModules/blob/main/changelog.md",
   "modules": [
+    {
+      "slug": "AD_ASR",
+      "name": "AD/ASR Envelope Generator",
+      "description": "Hybrid polyphonic Attack,Decay and Attack,Sustain,Release envelope generator with looping capabilities",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#adasr-envelope-generator",
+      "tags": [
+        "Envelope generator",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
     {
       "slug": "AuxClone",
       "name": "Auxilliary Clone Expander",
@@ -534,6 +546,18 @@
       ]
     },
     {
+      "slug": "Slew",
+      "name": "Slew",
+      "description": "Slew limiter and slope detector for both CV and audio processing",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#slew",
+      "tags": [
+        "Polyphonic",
+        "Slew limiter",
+        "Utility",
+        "Waveshaper"
+      ]
+    },
+    {
       "slug": "SphereToXYZ",
       "name": "Sphere To XYZ",
       "description": "Convert spherical coordinates r,theta, phi to cartesian coordinates x, y, z",
@@ -629,9 +653,20 @@
       ]
     },
     {
+      "slug": "WaveMangler",
+      "name": "Wave Mangler",
+      "description": "A polyphonic distortion / waveshaper inspired by the Doepfer A-136 module",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#wave-mangler",
+      "tags": [
+        "Distortion",
+        "Polyphonic",
+        "Waveshaper"
+      ]
+    },
+    {
       "slug": "WaveMultiplier",
       "name": "Wave Multiplier",
-      "description": "A polyphonic wave shaper inspired by the Doepfer Wave Multiplier 2 with built in LFO modulation",
+      "description": "A polyphonic waveshaper inspired by the Doepfer A-137-2 coupled with integrated LFO modulation",
       "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#wave-multiplier",
       "tags": [
         "Low-frequency oscillator",
@@ -662,6 +697,29 @@
         "Polyphonic",
         "Utility",
         "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Compare2",
+      "name": "WinComp2 + Logic",
+      "description": "Dual windowed comparator with logic outputs inspired by the Joranalogue Compare 2",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#wincomp-2--logic",
+      "tags": [
+        "Logic",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "XM_OP",
+      "name": "XM-OP",
+      "description": "Polyphonic synth voice with selectable waveform, modulation and feedback types (FM, PM, RM, AM), and integer ratios.",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#xm-op",
+      "tags": [
+        "Envelope generator",
+        "Oscillator",
+        "Polyphonic",
+        "Synth voice"
       ]
     }
   ]

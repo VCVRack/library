@@ -1,14 +1,14 @@
 {
   "slug": "MADZINE",
   "name": "MADZINE",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "MADZINE",
   "author": "MAD",
   "authorEmail": "madzinetw@gmail.com",
   "authorUrl": "",
   "pluginUrl": "",
-  "manualUrl": "https://github.com/mmmmmmmadman/MADZINE-VCV/tree/main/Manual",
+  "manualUrl": "",
   "sourceUrl": "https://github.com/mmmmmmmadman/MADZINE-VCV",
   "donateUrl": "https://www.patreon.com/c/madzinetw",
   "modules": [
@@ -181,32 +181,53 @@
     {
       "slug": "Quantizer",
       "name": "Quantizer",
-      "description": "8HP chromatic quantizer with 12-note microtuning and cultural scale presets",
+      "description": "Quantizer module",
       "tags": [
-        "Quantizer",
-        "Tuner"
+        "Utility"
       ]
     },
     {
       "slug": "EllenRipley",
       "name": "Ellen Ripley",
-      "description": "Multi-effect processor with delay, granular synthesis, reverb, and chaos modulation",
+      "description": "Ellen Ripley module",
       "tags": [
-        "Delay",
-        "Reverb",
-        "Granular",
-        "Effect",
-        "Random"
+        "Utility"
       ]
     },
     {
       "slug": "MADDYPlus",
-      "name": "MADDYPlus",
-      "description": "3-track pattern based sequencer with swing clock and 3-track Euclidean rhythm generator",
+      "name": "MADDY Plus",
+      "description": "Extended MADDY sequencer",
       "tags": [
-        "Sequencer",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "NIGOQ",
+      "name": "NIGOQ",
+      "description": "Complex oscillator module",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Runshow",
+      "name": "Runshow",
+      "description": "Timer with bar counting and visual feedback",
+      "tags": [
+        "Visual",
         "Clock generator",
-        "Envelope generator"
+        "Utility"
+      ]
+    },
+    {
+      "slug": "EnvVCA6",
+      "name": "Env VCA 6",
+      "description": "6-channel envelope VCA processor with AD generators",
+      "tags": [
+        "Envelope generator",
+        "VCA",
+        "Mixer"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "Moffenzeef",
   "name": "Moffenzeef",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0+",
   "brand": "Moffenzeef",
   "author": "Ross Fish",
@@ -239,6 +239,7 @@
       "slug": "TheRunner",
       "name": "The Runner",
       "description": "A Eurorack fantasy version of a previously released drone synth: The Runner was made in collaboration with Boy Harsher as part of promo for their film with the same name",
+      "manualUrl": "https://www.moffenzeefmodular.com/s/MOF-BOYHARSHER-THERUNNER-QUICKSTART-v20-942023.pdf",
       "tags": [
         "hardware clone",
         "oscillator",

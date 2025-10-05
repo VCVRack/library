@@ -1,7 +1,7 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.21",
+  "version": "2.0.22",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
@@ -76,8 +76,18 @@
     {
       "slug": "Memory",
       "name": "Memory",
-      "description": "The root part of a Memory Ensemble. What Fixation and Ruminate reads, Embellish writes to and Depict displays.",
+      "description": "The root part of a Memory Ensemble, optimized for audio. What Fixation and Ruminate reads, Embellish and Brainwash write to and Depict displays.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#memory",
+      "tags": [
+        "Recording",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "MemoryCV",
+      "name": "MemoryCV",
+      "description": "The root part of a MemoryCV Ensemble, optimized for control voltage. What Fixation and Ruminate reads, Embellish and Brainwash write to and Depict displays.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#memorycv",
       "tags": [
         "Recording",
         "Sampler"
@@ -86,7 +96,7 @@
     {
       "slug": "Ruminate",
       "name": "Ruminate",
-      "description": "A playback head within a Memory Ensemble that plays the entire Memory.",
+      "description": "A playback head within a Memory Ensemble that plays the entire Memory or MemoryCV.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#ruminate",
       "tags": [
         "Delay",
@@ -97,7 +107,7 @@
     {
       "slug": "Fixation",
       "name": "Fixation",
-      "description": "Playback head with a Memory Ensemble that repeatedly plays a short part of the Memory.",
+      "description": "Playback head with a Memory Ensemble that repeatedly plays a short part of the Memory or MemoryCV.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#fixation",
       "tags": [
         "Delay",
@@ -108,7 +118,7 @@
     {
       "slug": "Embellish",
       "name": "Embellish",
-      "description": "A recording and playback head for a Memory Ensemble.",
+      "description": "A recording and playback head for a Memory or MemoryCV Ensemble.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#embellish",
       "tags": [
         "Expander",
@@ -140,7 +150,7 @@
     {
       "slug": "Brainwash",
       "name": "Brainwash",
-      "description": "Records input and then replaces the contents of a Memory.",
+      "description": "Records input and then replaces the contents of a Memory or MemoryCV.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#brainwash",
       "tags": [
         "Expander",

@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1755718376.2759209,
+    "buildTimestamp": 1759690923.0940926,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -2430,7 +2430,7 @@
     }
   },
   "Stoermelder-P1": {
-    "buildTimestamp": 1750788059.198823,
+    "buildTimestamp": 1759690207.4259684,
     "creationTimestamp": 1559409342.0,
     "modules": {
       "CVMap": {
@@ -11754,7 +11754,7 @@
     }
   },
   "StochasticTelegraph": {
-    "buildTimestamp": 1750787779.1089303,
+    "buildTimestamp": 1759689931.1998448,
     "creationTimestamp": 1649868370.1906905,
     "modules": {
       "Drifter": {
@@ -11792,6 +11792,9 @@
       },
       "Brainwash": {
         "creationTimestamp": 1737225457.620569
+      },
+      "MemoryCV": {
+        "creationTimestamp": 1759690924.5591476
       }
     }
   },
@@ -13194,7 +13197,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1749351550.2253768,
+    "buildTimestamp": 1759690734.787405,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
@@ -13370,6 +13373,21 @@
       },
       "WaveMultiplier": {
         "creationTimestamp": 1748319577.834552
+      },
+      "AD_ASR": {
+        "creationTimestamp": 1759690923.819422
+      },
+      "Slew": {
+        "creationTimestamp": 1759690923.9029653
+      },
+      "WaveMangler": {
+        "creationTimestamp": 1759690923.9961157
+      },
+      "Compare2": {
+        "creationTimestamp": 1759690924.0830567
+      },
+      "XM_OP": {
+        "creationTimestamp": 1759690924.1675253
       }
     }
   },
@@ -14187,7 +14205,7 @@
     }
   },
   "CVfunk": {
-    "buildTimestamp": 1755717312.195632,
+    "buildTimestamp": 1759689476.300027,
     "creationTimestamp": 1711827243.9642084,
     "modules": {
       "Steps": {
@@ -14279,6 +14297,21 @@
       },
       "Hub": {
         "creationTimestamp": 1755718376.9210377
+      },
+      "CVfunkBlank": {
+        "creationTimestamp": 1759690923.3934746
+      },
+      "CVfunkBlank4HP": {
+        "creationTimestamp": 1759690923.4672344
+      },
+      "Rat": {
+        "creationTimestamp": 1759690923.543094
+      },
+      "Count": {
+        "creationTimestamp": 1759690923.6144264
+      },
+      "Clpy": {
+        "creationTimestamp": 1759690923.6851401
       }
     }
   },
@@ -15321,7 +15354,7 @@
     }
   },
   "Moffenzeef": {
-    "buildTimestamp": 1757920116.2655818,
+    "buildTimestamp": 1759689830.8895304,
     "creationTimestamp": 1742146425.774556,
     "modules": {
       "BadIdea9": {
@@ -15651,7 +15684,7 @@
     }
   },
   "TeknoLogical": {
-    "buildTimestamp": 1751219414.9159791,
+    "buildTimestamp": 1759690232.06028,
     "creationTimestamp": 1750788217.541657,
     "modules": {
       "TL-Drum5": {
@@ -15659,6 +15692,15 @@
       },
       "TL_Seq4": {
         "creationTimestamp": 1750788217.691772
+      },
+      "TL_Reseter": {
+        "creationTimestamp": 1759690924.2700434
+      },
+      "TL_Bass": {
+        "creationTimestamp": 1759690924.36302
+      },
+      "TL_Mixes": {
+        "creationTimestamp": 1759690924.4541163
       }
     }
   },
@@ -15732,7 +15774,7 @@
     }
   },
   "MADZINE": {
-    "buildTimestamp": 1755717435.547845,
+    "buildTimestamp": 1759689560.5214872,
     "creationTimestamp": 1754214222.0569358,
     "modules": {
       "SwingLFO": {
@@ -15797,6 +15839,15 @@
       },
       "MADDYPlus": {
         "creationTimestamp": 1755718377.9717965
+      },
+      "NIGOQ": {
+        "creationTimestamp": 1759690924.6602917
+      },
+      "Runshow": {
+        "creationTimestamp": 1759690924.751358
+      },
+      "EnvVCA6": {
+        "creationTimestamp": 1759690924.8300285
       }
     }
   },
