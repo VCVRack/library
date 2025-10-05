@@ -963,3 +963,6 @@
 [submodule "repos/LydD-Modules"]
 	path = repos/LydD-Modules
 	url = https://github.com/Lydian-Des/LydD_Modules.git
+[submodule "repos/Animatek"]
+	path = repos/Animatek
+	url = https://github.com/animatek/UZZ-VCV-RACK.git
