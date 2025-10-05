@@ -960,3 +960,6 @@
 [submodule "repos/AlteredStateMachines"]
 	path = repos/AlteredStateMachines
 	url = https://codeberg.org/alteredstatemachines/alteredstatemachines-vcv
+[submodule "repos/LydD-Modules"]
+	path = repos/LydD-Modules
+	url = https://github.com/Lydian-Des/LydD_Modules.git
