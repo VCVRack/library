@@ -2544,5 +2544,19 @@
     "vcvUrl": "https://library.vcvrack.com/4msCompany/MMButtonExpander",
     "mgUrl": "https://modulargrid.net/e/4ms-company-metabuttons",
     "mgModuleId": 50266
+  },
+  {
+    "pluginSlug": "AlteredStateMachines",
+    "moduleSlug": "Aristotle",
+    "vcvUrl": "https://library.vcvrack.com/AlteredStateMachines/Aristotle",
+    "mgUrl": "https://modulargrid.net/e/altered-state-machines-aristotle",
+    "mgModuleId": 23845
+  },
+  {
+    "pluginSlug": "AlteredStateMachines",
+    "moduleSlug": "Medusa",
+    "vcvUrl": "https://library.vcvrack.com/AlteredStateMachines/Medusa",
+    "mgUrl": "https://modulargrid.net/e/altered-state-machines-medusa",
+    "mgModuleId": 42178
   }
 ]

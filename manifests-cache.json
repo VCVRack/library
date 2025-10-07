@@ -15922,5 +15922,98 @@
         "creationTimestamp": 1757920773.0757954
       }
     }
+  },
+  "Animatek": {
+    "buildTimestamp": 1759801322.4109387,
+    "creationTimestamp": 1759801615.851557,
+    "modules": {
+      "UZZ": {
+        "creationTimestamp": 1759801615.9126134
+      }
+    }
+  },
+  "pachde-CHEM": {
+    "buildTimestamp": 1759801615.7657504,
+    "creationTimestamp": 1759801616.0104766,
+    "modules": {
+      "chem-core": {
+        "creationTimestamp": 1759801616.0970109
+      },
+      "chem-macro": {
+        "creationTimestamp": 1759801616.1834497
+      },
+      "chem-pre": {
+        "creationTimestamp": 1759801616.266525
+      },
+      "chem-fx": {
+        "creationTimestamp": 1759801616.3489285
+      },
+      "chem-post": {
+        "creationTimestamp": 1759801616.4356174
+      },
+      "chem-convo": {
+        "creationTimestamp": 1759801616.5204098
+      },
+      "chem-jack": {
+        "creationTimestamp": 1759801616.6076798
+      },
+      "chem-play": {
+        "creationTimestamp": 1759801616.713294
+      },
+      "chem-sus": {
+        "creationTimestamp": 1759801616.8109343
+      },
+      "chem-sos": {
+        "creationTimestamp": 1759801616.8950126
+      },
+      "chem-sos2": {
+        "creationTimestamp": 1759801616.9797244
+      },
+      "chem-settings": {
+        "creationTimestamp": 1759801617.0726886
+      },
+      "chem-preset": {
+        "creationTimestamp": 1759801617.1788504
+      },
+      "chem-overlay": {
+        "creationTimestamp": 1759801617.271136
+      },
+      "chem-xm": {
+        "creationTimestamp": 1759801617.3581371
+      },
+      "chem-midi-pad": {
+        "creationTimestamp": 1759801617.4485328
+      }
+    }
+  },
+  "LydD-Modules": {
+    "buildTimestamp": 1759801346.843762,
+    "creationTimestamp": 1759801617.523616,
+    "modules": {
+      "Poppy-fields": {
+        "creationTimestamp": 1759801617.5937355
+      },
+      "Dadras-Momeni-Chaos": {
+        "creationTimestamp": 1759801617.6668625
+      },
+      "Simone-Chaos": {
+        "creationTimestamp": 1759801617.737152
+      },
+      "Torus-Osc": {
+        "creationTimestamp": 1759801617.8118076
+      }
+    }
+  },
+  "AlteredStateMachines": {
+    "buildTimestamp": 1759801309.898324,
+    "creationTimestamp": 1759801617.8908634,
+    "modules": {
+      "Aristotle": {
+        "creationTimestamp": 1759801617.957252
+      },
+      "Medusa": {
+        "creationTimestamp": 1759801618.0282087
+      }
+    }
   }
 }

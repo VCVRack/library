@@ -1,0 +1,37 @@
+{
+  "slug": "AlteredStateMachines",
+  "name": "Altered State Machines",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Altered State Machines",
+  "description": "Cloned implementations of the AlteredStateMachines hardware modules",
+  "author": "Doug Clinton",
+  "authorEmail": "VCVRackComments@alteredstatemachines.net",
+  "authorUrl": "https://alteredstatemachines.net",
+  "pluginUrl": "https://codeberg.org/alteredstatemachines/alteredstatemachines-vcv/src/branch/main/README.md",
+  "sourceUrl": "https://codeberg.org/alteredstatemachines/alteredstatemachines-vcv",
+  "modules": [
+    {
+      "slug": "Aristotle",
+      "name": "Aristotle",
+      "description": "Nonlinear 2 Channel Counterpoint Voltage Sequencer (Aristotle hardware clone)",
+      "manualUrl": "https://alteredstatemachines.net/assets/Aristotle_Quickstart_March_2022.pdf",
+      "modularGridUrl": "https://modulargrid.net/e/altered-state-machines-aristotle",
+      "tags": [
+        "Hardware clone",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Medusa",
+      "name": "Medusa",
+      "description": "Weighted Signal Mingler (Medusa hardware clone)",
+      "manualUrl": "https://alteredstatemachines.net/medusa",
+      "modularGridUrl": "https://modulargrid.net/e/altered-state-machines-medusa",
+      "tags": [
+        "Hardware clone",
+        "Mixer"
+      ]
+    }
+  ]
+}

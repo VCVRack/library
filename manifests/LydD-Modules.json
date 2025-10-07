@@ -1,0 +1,41 @@
+{
+  "slug": "LydD-Modules",
+  "name": "LydD Modules",
+  "author": "Lydian",
+  "license": "GPL-3.0-or-later",
+  "version": "2.0.16",
+  "modules": [
+    {
+      "slug": "Poppy-fields",
+      "name": "Poppy-Fields",
+      "description": "Infinite Sequencer",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Dadras-Momeni-Chaos",
+      "name": "Mom-and-Dad",
+      "description": "Chaotic Attractors",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "Simone-Chaos",
+      "name": "Simone",
+      "description": "Chaotic Attractors",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "Torus-Osc",
+      "name": "Torus",
+      "description": "Toroidal Oscillator",
+      "tags": [
+        "VCO"
+      ]
+    }
+  ]
+}
