@@ -1,7 +1,7 @@
 {
   "slug": "gregsbrain",
   "name": "gregsbrain Eurorack Modular",
-  "version": "2.2.0",
+  "version": "2.6.5",
   "license": "proprietary",
   "brand": "gregsbrain",
   "author": "Greg Burns",
@@ -22,6 +22,7 @@
       "tags": [
         "Hardware clone",
         "Digital",
+        "Effect",
         "Quantizer",
         "Tuner",
         "Filter",
@@ -34,11 +35,12 @@
     {
       "slug": "dSpec",
       "name": "dSpec VCO",
-      "description": "Dual Direct Spectral Generation VCO",
-      "manualUrl": "",
+      "description": "Dual Direct Spectral Synthesis VCO",
+      "manualUrl": "https://www.gregsbrain.co/uploads/1/4/6/1/146121474/dspec_user_guide.pdf",
       "modularGridUrl": "",
       "tags": [
         "Hardware clone",
+        "Oscillator",
         "Digital",
         "Quantizer",
         "Filter",
