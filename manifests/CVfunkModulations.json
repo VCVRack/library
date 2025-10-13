@@ -1,0 +1,55 @@
+{
+  "slug": "CVfunkModulations",
+  "name": "CV funk Modulations",
+  "version": "2.2.9",
+  "license": "https://vcvrack.com/eula",
+  "brand": "CV funk",
+  "author": "Cody Geary",
+  "authorEmail": "codyge@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/codygeary/CVfunk-Modules",
+  "manualUrl": "https://github.com/codygeary/CVfunk-Modules/blob/main/img/CV_funk_PRO_Manual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Syzygy",
+      "name": "Syzygy",
+      "description": "A polyphonic stereo oscillator that merges two distinctive voices, allowing you to fade, crossmodulate, wavefold and mix in pink/white noise for unique additive synth sounds.",
+      "tags": [
+        "Synth voice",
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SuperWonk",
+      "name": "Super Wonk",
+      "description": "16-channel phase-linked low frequency oscillator with the abiltiy to get wonky or morph into alignment.",
+      "tags": [
+        "Low-frequency oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "EnvelopeCity",
+      "name": "Envelope City",
+      "description": "An ultra-precise AD function/envelope generator with shapes that morph smoothly over 16-channels.",
+      "tags": [
+        "Envelope generator",
+        "Function generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "ArrangeXL",
+      "name": "Arrange XL",
+      "description": "16-channel sequencer with ability to sample and record CV inputs. ",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
