@@ -969,3 +969,6 @@
 [submodule "repos/pachde-CHEM"]
 	path = repos/pachde-CHEM
 	url = https://github.com/Paul-Dempsey/pachde-CHEM.git
+[submodule "repos/BGal256"]
+	path = repos/BGal256
+	url = https://github.com/Shtrompel/BGal256.git
