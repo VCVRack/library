@@ -1,0 +1,58 @@
+{
+  "slug": "BGal256",
+  "name": "BGal256",
+  "version": "2.0.3",
+  "license": "GPL-3.0-or-later",
+  "brand": "BGAL256",
+  "author": "BGal",
+  "authorEmail": "blechigal@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/Shtrompel/BGal256",
+  "manualUrl": "https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/README.md",
+  "sourceUrl": "https://github.com/Shtrompel/BGal256",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "BufferSludger",
+      "name": "BufferSludger",
+      "description": "Real time audio playback manipulation",
+      "manualUrl": "https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/BufferSludger.md",
+      "tags": [
+        "Effect",
+        "Digital",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "BufferSludgerTransposer",
+      "name": "BufferSludgerTransposer",
+      "description": "Real time transposer for the BufferSludger module",
+      "manualUrl": "https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/BufferSludgerTransposer.md",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "DressMeUp",
+      "name": "DressMeUp",
+      "description": "4 step programmable sequencer",
+      "manualUrl": "https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/DressMeUp.md",
+      "tags": [
+        "Visual",
+        "Digital",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "SortStep",
+      "name": "SortStep",
+      "description": "Sorting Algorithms to CV",
+      "manualUrl": "https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/SortStep.md",
+      "tags": [
+        "Digital",
+        "Sequencer"
+      ]
+    }
+  ]
+}

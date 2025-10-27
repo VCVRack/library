@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.30",
+  "version": "2.0.35",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -204,7 +204,7 @@
     {
       "slug": "TriDelay",
       "name": "Tri Delay",
-      "description": "A three tap delay line.",
+      "description": "A three tap fractional-delay with ranges from ms to a few seconds.",
       "tags": [
         "Delay"
       ]
@@ -251,13 +251,14 @@
       "tags": [
         "Voltage-controlled amplifier",
         "Mixer",
+        "Dual",
         "Polyphonic"
       ]
     },
     {
       "slug": "Weave",
       "name": "Weave",
-      "description": "A six note chord quantizer, with the abilty to weave the outputs into different permutations.",
+      "description": "A six note chord quantizer, with the abilty to weave the outputs into different permutations. Individual outputs per channel allow you to split your chords to different voices.",
       "tags": [
         "Quantizer",
         "Polyphonic"
@@ -275,7 +276,7 @@
     {
       "slug": "Hammer",
       "name": "Hammer",
-      "description": "A compact version of the Syncro eight channel clock ratio generator.",
+      "description": "A compact and more-precise version of the Syncro eight-channel clock ratio generator.",
       "tags": [
         "Clock generator",
         "Clock modulator",
@@ -289,6 +290,7 @@
       "tags": [
         "Voltage-controlled amplifier",
         "Utility",
+        "Dual",
         "Polyphonic"
       ]
     },
@@ -320,7 +322,7 @@
     {
       "slug": "Count",
       "name": "Count",
-      "description": "Counts up. Counts Down.",
+      "description": "Counts up. Counts down. Auto-adapting display can handle very large numbers.",
       "tags": [
         "Utility"
       ]
@@ -332,6 +334,37 @@
       "tags": [
         "Waveshaper",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Tuner",
+      "name": "Tuner",
+      "description": "Dual autocorrelation tuner and zero-centered waveform display.",
+      "tags": [
+        "Tuner",
+        "Dual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Alloy",
+      "name": "Alloy",
+      "description": "A metallic sound generator that uses Karplus\u2013Strong fractional delay networks to produce shimmering, percussive tones.",
+      "tags": [
+        "Drum",
+        "Physical modeling",
+        "Polyphonic",
+        "Effect",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Onion",
+      "name": "Onion",
+      "description": "A polyphonic fader module with layers.",
+      "tags": [
+        "Polyphonic",
+        "Utility"
       ]
     }
   ]
