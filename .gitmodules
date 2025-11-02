@@ -978,3 +978,6 @@
 [submodule "repos/SignalFunctionSet"]
 	path = repos/SignalFunctionSet
 	url = https://github.com/stuart78/SignalFunctionSet.git
+[submodule "repos/QuestionableDinner"]
+	path = repos/QuestionableDinner
+	url = https://github.com/NullCodeMusic/Questionable-Dinner.git
