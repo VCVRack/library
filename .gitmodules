@@ -972,3 +972,6 @@
 [submodule "repos/BGal256"]
 	path = repos/BGal256
 	url = https://github.com/Shtrompel/BGal256.git
+[submodule "repos/CuteLab"]
+	path = repos/CuteLab
+	url = https://github.com/cutelabnyc/cute-vcv.git
