@@ -975,3 +975,6 @@
 [submodule "repos/CuteLab"]
 	path = repos/CuteLab
 	url = https://github.com/cutelabnyc/cute-vcv.git
+[submodule "repos/SignalFunctionSet"]
+	path = repos/SignalFunctionSet
+	url = https://github.com/stuart78/SignalFunctionSet.git
