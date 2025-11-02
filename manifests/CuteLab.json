@@ -1,0 +1,26 @@
+{
+  "slug": "CuteLab",
+  "name": "CuteLab",
+  "version": "2.1.0-rev.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "cutelab",
+  "author": "CuteLab",
+  "authorEmail": "cutelabnyc@gmail.com",
+  "authorUrl": "https://cutelab.nyc",
+  "pluginUrl": "https://shop.cutelab.nyc",
+  "manualUrl": "https://shop.cutelab.nyc",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "mom-jeans",
+      "name": "Mom Jeans",
+      "description": "Pulsar synthesis oscillator with a twist",
+      "tags": [
+        "oscillator",
+        "polyphonic"
+      ]
+    }
+  ]
+}
