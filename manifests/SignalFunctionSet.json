@@ -1,0 +1,28 @@
+{
+  "slug": "SignalFunctionSet",
+  "name": "Signal Function Set",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "SignalFunctionSet",
+  "author": "Stuart Frederich-Smith",
+  "authorEmail": "hello@signalfunctionset.com",
+  "authorUrl": "https://signalfunctionset.com/",
+  "pluginUrl": "https://signalfunctionset.com/",
+  "manualUrl": "https://signalfunctionset.com/drift",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Drift",
+      "name": "Drift",
+      "description": "Phase shifted LFO with offset, attenuation and stability controls",
+      "tags": [
+        "LFO",
+        "Quad",
+        "Random",
+        "Utility"
+      ]
+    }
+  ]
+}

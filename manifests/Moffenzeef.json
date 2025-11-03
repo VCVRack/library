@@ -1,7 +1,7 @@
 {
   "slug": "Moffenzeef",
   "name": "Moffenzeef",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0+",
   "brand": "Moffenzeef",
   "author": "Ross Fish",
@@ -244,6 +244,37 @@
         "hardware clone",
         "oscillator",
         "synth voice"
+      ]
+    },
+    {
+      "slug": "Stargazer",
+      "name": "Stargazer",
+      "description": "Eurorack fantasy version of a previously released drone synth.",
+      "manualUrl": "https://static1.squarespace.com/static/56d67baac6fc08e0509b99f4/t/5aa3144e24a694e8b808eb92/1520637008696/STARGAZERQUICKSTART.pdf",
+      "tags": [
+        "Synth voice",
+        "oscillator",
+        "hardware clone",
+        "LFO",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Kleztizer",
+      "name": "Kleztizer",
+      "description": "A quantizer that follows the harmonic structure of Klezmer modes",
+      "tags": [
+        "quantizer",
+        "sequencer"
+      ]
+    },
+    {
+      "slug": "Tantz",
+      "name": "Tantz!",
+      "description": "Klezmer preset drum sequencer",
+      "tags": [
+        "sequencer",
+        "clock modulator"
       ]
     }
   ]

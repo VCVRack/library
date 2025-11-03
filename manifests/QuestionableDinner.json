@@ -1,0 +1,38 @@
+{
+  "slug": "QuestionableDinner",
+  "name": "Questionable Dinner",
+  "version": "2.0.4",
+  "license": "Apache-2.0",
+  "brand": "Questionable Dinner",
+  "author": "Rox Wilson",
+  "authorEmail": "",
+  "authorUrl": "https://rox1000000.bandcamp.com/",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "https://ko-fi.com/rox1000000",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ASawB",
+      "name": "A Saw B",
+      "description": "Compare, split, subtract and mangle two inputs",
+      "tags": [
+        "Logic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Pilfer",
+      "name": "Pilfer",
+      "description": "A moving particle attempts to follow input audio.",
+      "tags": [
+        "Filter",
+        "Distortion",
+        "Envelope follower",
+        "Oscillator",
+        "Physical modeling"
+      ]
+    }
+  ]
+}
