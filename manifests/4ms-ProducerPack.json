@@ -1,0 +1,136 @@
+{
+  "slug": "4ms-ProducerPack",
+  "name": "ProducerPack",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "4ms",
+  "author": "4ms Company",
+  "authorEmail": "4ms@4mscompany.com",
+  "authorUrl": "https://4mscompany.com",
+  "pluginUrl": "https://github.com/4ms/ProducerPack/",
+  "manualUrl": "https://github.com/4ms/ProducerPack/blob/main/doc/Producer%20Pack%20User%20Manual.md",
+  "sourceUrl": "https://github.com/4ms/ProducerPack/",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/4ms/ProducerPack/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "DJFilter",
+      "name": "DJFilter",
+      "description": "A continous lowpass to highpass filter effect in the spirit of DJ mixers",
+      "tags": [
+        "Effect",
+        "Filter",
+        "Stereo",
+        "VCF"
+      ]
+    },
+    {
+      "slug": "Boost",
+      "name": "Boost",
+      "description": "Stereo gain + distortion module",
+      "tags": [
+        "Dynamics",
+        "Utility",
+        "Effect",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Spatializer",
+      "name": "Spatializer",
+      "description": "Exploitation of the Haas effect + mid/side processing techniques",
+      "tags": [
+        "Stereo",
+        "Utility",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "StereoWidth",
+      "name": "StereoWidth",
+      "description": "Shrink or expand the stereo image of a stereo track",
+      "tags": [
+        "Stereo",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "StereoCrossfader",
+      "name": "StereoCrossfader",
+      "description": "Crossfade between two stereo audio sources",
+      "tags": [
+        "Stereo",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SeventiesEQ",
+      "name": "70sEQ",
+      "description": "Neve 1073 inspired stereo EQ",
+      "tags": [
+        "Stereo",
+        "Utility",
+        "Equalizer",
+        "EQ",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "SeventiesComp",
+      "name": "70sComp",
+      "description": "LA2A inspired optical compressor",
+      "tags": [
+        "Stereo",
+        "Utility",
+        "Effect",
+        "Dynamics"
+      ]
+    },
+    {
+      "slug": "Decay",
+      "name": "Decay",
+      "description": "Decay envelope with built in VCA",
+      "tags": [
+        "Utility",
+        "Drum",
+        "Envelope generator",
+        "VCA",
+        "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "AuxSends",
+      "name": "AuxSends",
+      "description": "3 sets of stereo auxillary sends and returns with CV control",
+      "tags": [
+        "Stereo",
+        "Utility",
+        "Mixer",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Bitcrusher",
+      "name": "Bitcrusher",
+      "description": "Stereo bitcrusher, sample rate reducer, and selectable resonant filter",
+      "tags": [
+        "Stereo",
+        "Effect",
+        "Filter",
+        "VCF",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "DrumBus",
+      "name": "DrumBus",
+      "description": "8 channel mono to stereo mixer with mute per channel",
+      "tags": [
+        "Stereo",
+        "Mixer",
+        "Drum",
+        "Utility"
+      ]
+    }
+  ]
+}

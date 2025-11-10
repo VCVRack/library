@@ -16099,5 +16099,44 @@
         "creationTimestamp": 1762139014.5212402
       }
     }
+  },
+  "4ms-ProducerPack": {
+    "buildTimestamp": 1762739216.1608517,
+    "creationTimestamp": 1762739219.8369677,
+    "modules": {
+      "DJFilter": {
+        "creationTimestamp": 1762739219.8992958
+      },
+      "Boost": {
+        "creationTimestamp": 1762739219.9650073
+      },
+      "Spatializer": {
+        "creationTimestamp": 1762739220.0311394
+      },
+      "StereoWidth": {
+        "creationTimestamp": 1762739220.0943534
+      },
+      "StereoCrossfader": {
+        "creationTimestamp": 1762739220.1649284
+      },
+      "SeventiesEQ": {
+        "creationTimestamp": 1762739220.234417
+      },
+      "SeventiesComp": {
+        "creationTimestamp": 1762739220.2965655
+      },
+      "Decay": {
+        "creationTimestamp": 1762739220.3566587
+      },
+      "AuxSends": {
+        "creationTimestamp": 1762739220.42165
+      },
+      "Bitcrusher": {
+        "creationTimestamp": 1762739220.4880936
+      },
+      "DrumBus": {
+        "creationTimestamp": 1762739220.552019
+      }
+    }
   }
 }
