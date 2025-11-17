@@ -2,7 +2,7 @@
   "slug": "VenomOscillations",
   "name": "Venom Oscillations",
   "description": "A collection of complex oscillators",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "proprietary",
   "brand": "Venom",
   "author": "David Benham",
@@ -18,7 +18,18 @@
       "slug": "SofiasDaughter",
       "name": "Sofia's Daughter",
       "description": "Complex formant oscillator inspired by the XAOC Sofia hardware module",
-      "manualUrl": "",
+      "manualUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/README.md#sofias-daughter",
+      "tags": [
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SpiceFactory",
+      "name": "Spice Factory",
+      "description": "Complex splicing oscillator inspired by the Future Sound Systems OSC2 Recombination Engine hardware module",
+      "manualUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/README.md#spice-factory",
       "tags": [
         "Low-frequency oscillator",
         "Oscillator",
