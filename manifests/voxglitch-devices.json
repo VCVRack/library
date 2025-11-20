@@ -1,14 +1,14 @@
 {
   "slug": "voxglitch-devices",
   "name": "Voxglitch Devices",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "proprietary",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
   "authorEmail": "clone45@gmail.com",
   "authorUrl": "",
   "pluginUrl": "https://github.com/clone45/voxglitch-devices",
-  "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/spores/user_manual.md",
+  "manualUrl": "https://github.com/clone45/voxglitch/blob/master/README.md",
   "sourceUrl": "https://github.com/clone45/voxglitch-devices",
   "donateUrl": "",
   "changelogUrl": "",
@@ -21,7 +21,17 @@
         "Granular",
         "Effect",
         "Digital"
-      ]
+      ],
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/spores/user_manual.md"
+    },
+    {
+      "slug": "impulse",
+      "name": "Impulse",
+      "description": "Karplus-Strong string synthesizer with multiple excitation methods",
+      "tags": [
+        "Oscillator"
+      ],
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/impulse/user_manual.md"
     }
   ]
 }
