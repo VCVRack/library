@@ -1,8 +1,8 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.5.2",
-  "minRackVersion": "2.4.0",
+  "version": "2.5.3",
+  "minRackVersion": "2.6.6",
   "license": "proprietary",
   "brand": "DanT",
   "author": "dtilley",
