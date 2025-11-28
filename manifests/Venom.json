@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.13.2",
+  "version": "2.14.1",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -358,6 +358,16 @@
       "tags": [
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "SVF",
+      "name": "Multimode Filter",
+      "description": "Stereo state variable filter for audio and low frequency use with some extra goodies",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multimode-filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
       ]
     },
     {

@@ -1,14 +1,14 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
   "author": "Stuart Frederich-Smith",
   "authorEmail": "hello@signalfunctionset.com",
   "authorUrl": "https://signalfunctionset.com/",
   "pluginUrl": "https://signalfunctionset.com/",
-  "manualUrl": "https://signalfunctionset.com/drift",
+  "manualUrl": "https://signalfunctionset.com/tagged/vcv",
   "sourceUrl": "",
   "donateUrl": "",
   "changelogUrl": "",
@@ -22,6 +22,15 @@
         "Quad",
         "Random",
         "Utility"
+      ]
+    },
+    {
+      "slug": "gsx",
+      "name": "GSX",
+      "description": "Granular synthesis module based on Barry Truax's GSX system (1985-86), with real-time control over temporal, spectral, and spatial parameters",
+      "tags": [
+        "Granular",
+        "Oscillator"
       ]
     }
   ]

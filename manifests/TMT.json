@@ -1,16 +1,16 @@
 {
   "slug": "TMT",
   "name": "T's Musical Tools",
-  "version": "2.1.10",
-  "license": "MIT",
+  "version": "2.2.0",
+  "license": "GPL-3.0-or-later",
   "brand": "T",
   "author": "T",
   "authorEmail": "hillhand@gmail.com",
-  "authorUrl": "https://github.com/Jadael/",
+  "authorUrl": "http://hillhand.com",
   "pluginUrl": "https://github.com/Jadael/TMT",
   "manualUrl": "https://github.com/Jadael/TMT",
   "sourceUrl": "https://github.com/Jadael/TMT",
-  "donateUrl": "",
+  "donateUrl": "https://hillhand.itch.io/tmt",
   "changelogUrl": "",
   "modules": [
     {
@@ -74,6 +74,16 @@
       "tags": [
         "Sequencer",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Page",
+      "name": "Page",
+      "description": "Expander for Spellbook that outputs columns 17-32. Chain up to 31 Pages for 512 columns total.",
+      "tags": [
+        "Sequencer",
+        "Polyphonic",
+        "Expander"
       ]
     },
     {

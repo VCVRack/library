@@ -1,25 +1,26 @@
 {
   "slug": "QuestionableDinner",
   "name": "Questionable Dinner",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "license": "Apache-2.0",
   "brand": "Questionable Dinner",
   "author": "Rox Wilson",
   "authorEmail": "",
   "authorUrl": "https://rox1000000.bandcamp.com/",
   "pluginUrl": "",
-  "manualUrl": "",
-  "sourceUrl": "",
+  "manualUrl": "https://github.com/NullCodeMusic/Questionable-Dinner/",
+  "sourceUrl": "https://github.com/NullCodeMusic/Questionable-Dinner/",
   "donateUrl": "https://ko-fi.com/rox1000000",
   "changelogUrl": "",
   "modules": [
     {
       "slug": "ASawB",
       "name": "A Saw B",
-      "description": "Compare, split, subtract and mangle two inputs",
+      "description": "Compare, split, subtract and mangle two inputs. Now polyphonic!",
       "tags": [
         "Logic",
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -31,7 +32,35 @@
         "Distortion",
         "Envelope follower",
         "Oscillator",
-        "Physical modeling"
+        "Physical modeling",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Surgeon",
+      "name": "Surgeon",
+      "description": "A text-based additive oscillator.",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "ElasticTwins",
+      "name": "Elastic Twin",
+      "description": "Record and swap buffers to delay and garble audio.",
+      "tags": [
+        "Delay",
+        "Granular"
+      ]
+    },
+    {
+      "slug": "Loam",
+      "name": "Loam",
+      "description": "A dirty resonant filter.",
+      "tags": [
+        "Filter",
+        "Distortion",
+        "Polyphonic"
       ]
     }
   ]
