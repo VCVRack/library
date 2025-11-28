@@ -981,3 +981,6 @@
 [submodule "repos/QuestionableDinner"]
 	path = repos/QuestionableDinner
 	url = https://github.com/NullCodeMusic/Questionable-Dinner.git
+[submodule "repos/RestocK"]
+	path = repos/RestocK
+	url = https://github.com/shortwavlabs/vcv-restoch-plugins.git
