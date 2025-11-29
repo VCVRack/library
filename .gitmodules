@@ -984,3 +984,6 @@
 [submodule "repos/RestocK"]
 	path = repos/RestocK
 	url = https://github.com/shortwavlabs/vcv-restoch-plugins.git
+[submodule "repos/TextDisplay"]
+	path = repos/TextDisplay
+	url = https://github.com/detnoise/TextDisplay.git
