@@ -1,11 +1,11 @@
 {
   "slug": "Animatek",
   "name": "Animatek",
-  "version": "2.1.0",
+  "version": "2.3.1",
   "license": "GPL-3.0-or-later",
   "brand": "Animatek",
   "author": "Javier Melgar",
-  "manualUrl": "https://animatek.net/ultimate-ztep-zequencer/",
+  "manualUrl": "https://animatek.net/ultimate-ztep-zequencer-vcvrack/",
   "sourceUrl": "https://github.com/animatek/UZZ-VCV-RACK",
   "authorEmail": "animatek909@gmail.com",
   "pluginUrl": "https://animatek.net",

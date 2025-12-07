@@ -1,0 +1,34 @@
+{
+  "slug": "TextDisplay",
+  "name": "TextDisplay",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "DETNOISE",
+  "author": "DETNOISE",
+  "authorEmail": "detnoise@gmail.com",
+  "authorUrl": "https://github.com/detnoise",
+  "pluginUrl": "https://github.com/detnoise/TextDisplay",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "VerticalText",
+      "name": "Vertical Text Display",
+      "description": "Displays user-editable text vertically.",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "TextExpander",
+      "name": "Text Effects Expander",
+      "description": "Adds special effects to the Vertical Text Display module.",
+      "tags": [
+        "Expander",
+        "Utility"
+      ]
+    }
+  ]
+}

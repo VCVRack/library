@@ -3571,7 +3571,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1751181464.01912,
+    "buildTimestamp": 1765148170.4381824,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -12294,7 +12294,7 @@
     }
   },
   "CosineKitty-Sapphire": {
-    "buildTimestamp": 1764363686.6717207,
+    "buildTimestamp": 1765148062.815787,
     "creationTimestamp": 1660869608.068208,
     "modules": {
       "Moots": {
@@ -13200,7 +13200,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1764364346.511486,
+    "buildTimestamp": 1765148884.9132297,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
@@ -13779,7 +13779,7 @@
     }
   },
   "pachde-one": {
-    "buildTimestamp": 1694577625.471577,
+    "buildTimestamp": 1765149070.6497846,
     "creationTimestamp": 1690733275.0090213,
     "modules": {
       "pachde-null": {
@@ -13796,6 +13796,21 @@
       },
       "pachde-copper-mini": {
         "creationTimestamp": 1694577625.6355662
+      },
+      "pachde-skiff": {
+        "creationTimestamp": 1765149071.0421474
+      },
+      "pachde-fancybox": {
+        "creationTimestamp": 1765149071.14948
+      },
+      "pachde-rui": {
+        "creationTimestamp": 1765149071.2502944
+      },
+      "pachde-guide": {
+        "creationTimestamp": 1765149071.3468738
+      },
+      "pachde-paneltone": {
+        "creationTimestamp": 1765149071.4531708
       }
     }
   },
@@ -15810,7 +15825,7 @@
     }
   },
   "MADZINE": {
-    "buildTimestamp": 1759689560.5214872,
+    "buildTimestamp": 1765148313.5043569,
     "creationTimestamp": 1754214222.0569358,
     "modules": {
       "SwingLFO": {
@@ -15884,6 +15899,12 @@
       },
       "EnvVCA6": {
         "creationTimestamp": 1759690924.8300285
+      },
+      "WeiiiDocumenta": {
+        "creationTimestamp": 1765149071.5533183
+      },
+      "UniversalRhythm": {
+        "creationTimestamp": 1765149071.6366613
       }
     }
   },
@@ -15960,7 +15981,7 @@
     }
   },
   "Animatek": {
-    "buildTimestamp": 1759801322.4109387,
+    "buildTimestamp": 1765147891.3950737,
     "creationTimestamp": 1759801615.851557,
     "modules": {
       "UZZ": {
@@ -16175,6 +16196,18 @@
     "modules": {
       "ReGrandy": {
         "creationTimestamp": 1764364587.4473884
+      }
+    }
+  },
+  "TextDisplay": {
+    "buildTimestamp": 1765148326.7958333,
+    "creationTimestamp": 1765149071.7455845,
+    "modules": {
+      "VerticalText": {
+        "creationTimestamp": 1765149071.8519874
+      },
+      "TextExpander": {
+        "creationTimestamp": 1765149071.946956
       }
     }
   }

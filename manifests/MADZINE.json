@@ -1,7 +1,7 @@
 {
   "slug": "MADZINE",
   "name": "MADZINE",
-  "version": "2.3.0",
+  "version": "2.3.5",
   "license": "GPL-3.0-or-later",
   "brand": "MADZINE",
   "author": "MAD",
@@ -228,6 +228,26 @@
         "Envelope generator",
         "VCA",
         "Mixer"
+      ]
+    },
+    {
+      "slug": "WeiiiDocumenta",
+      "name": "weiii documenta",
+      "description": "8-layer recording sampler with chaotic parameter morphing, feedback matrix and slice engine",
+      "tags": [
+        "Sampler",
+        "Effect",
+        "Recording"
+      ]
+    },
+    {
+      "slug": "UniversalRhythm",
+      "name": "Universal Rhythm",
+      "description": "Cross-cultural rhythm generator based on ethnomusicological principles with 10 world music styles",
+      "tags": [
+        "Sequencer",
+        "Clock generator",
+        "Drum"
       ]
     }
   ]
