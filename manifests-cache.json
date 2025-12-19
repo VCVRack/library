@@ -15780,7 +15780,7 @@
     }
   },
   "voxglitch-devices": {
-    "buildTimestamp": 1763890006.0123734,
+    "buildTimestamp": 1766114249.9642851,
     "creationTimestamp": 1752849878.5160182,
     "modules": {
       "spores": {
@@ -15788,6 +15788,9 @@
       },
       "impulse": {
         "creationTimestamp": 1763626397.7969825
+      },
+      "circuit_bender": {
+        "creationTimestamp": 1766114250.3204424
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch-devices",
   "name": "Voxglitch Devices",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "proprietary",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -32,6 +32,14 @@
         "Oscillator"
       ],
       "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/impulse/user_manual.md"
+    },
+    {
+      "slug": "circuit_bender",
+      "name": "Circuit Bender",
+      "description": "TMS5220 style speech synthesizer with circuit bending",
+      "tags": [
+        "Oscillator"
+      ]
     }
   ]
 }
