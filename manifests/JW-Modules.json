@@ -10,11 +10,27 @@
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
   "changelogUrl": "https://github.com/jeremywen/JW-Modules/blob/master/CHANGELOG.md",
-  "version": "2.0.17",
+  "version": "2.0.20",
   "modules": [
     {
       "slug": "BlankPanel_1HP",
       "name": "Blank Panel (1HP)",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "BlankPanel_2HP",
+      "name": "Blank Panel (2HP)",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "BlankPanel_4HP",
+      "name": "Blank Panel (4HP)",
       "manualUrl": "https://github.com/jeremywen/JW-Modules",
       "tags": [
         "Visual"
@@ -67,6 +83,41 @@
       "tags": [
         "Utility",
         "Poly"
+      ]
+    },
+    {
+      "slug": "Buffer",
+      "name": "Buffer",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Effect",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "RandomSound",
+      "name": "Random Sound",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Oscillator",
+        "Random"
+      ]
+    },
+    {
+      "slug": "ShiftRegRnd",
+      "name": "Shift Register Random",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Utility",
+        "Poly"
+      ]
+    },
+    {
+      "slug": "StereoSwitch",
+      "name": "Stereo Switch",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Utility"
       ]
     },
     {
