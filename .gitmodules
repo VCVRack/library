@@ -987,3 +987,6 @@
 [submodule "repos/TextDisplay"]
 	path = repos/TextDisplay
 	url = https://github.com/detnoise/TextDisplay.git
+[submodule "repos/thereelpeet-seq"]
+	path = repos/thereelpeet-seq
+	url = https://github.com/boocup/MyModule.git
