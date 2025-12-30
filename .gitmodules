@@ -990,3 +990,6 @@
 [submodule "repos/thereelpeet-seq"]
 	path = repos/thereelpeet-seq
 	url = https://github.com/boocup/MyModule.git
+[submodule "repos/LempModules"]
+	path = repos/LempModules
+	url = https://github.com/lempface/VCV-LempModules.git
