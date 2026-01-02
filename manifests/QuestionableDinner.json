@@ -1,14 +1,14 @@
 {
   "slug": "QuestionableDinner",
   "name": "Questionable Dinner",
-  "version": "2.0.5",
+  "version": "2.0.7",
   "license": "Apache-2.0",
   "brand": "Questionable Dinner",
   "author": "Rox Wilson",
   "authorEmail": "",
   "authorUrl": "https://rox1000000.bandcamp.com/",
   "pluginUrl": "",
-  "manualUrl": "https://github.com/NullCodeMusic/Questionable-Dinner/",
+  "manualUrl": "https://github.com/NullCodeMusic/Questionable-Dinner/blob/master/manual.md",
   "sourceUrl": "https://github.com/NullCodeMusic/Questionable-Dinner/",
   "donateUrl": "https://ko-fi.com/rox1000000",
   "changelogUrl": "",
@@ -61,6 +61,68 @@
         "Filter",
         "Distortion",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Flick",
+      "name": "Flick",
+      "description": "Generate impulses for resonators. Twice!",
+      "tags": [
+        "Physical modeling",
+        "dual"
+      ]
+    },
+    {
+      "slug": "FlickX",
+      "name": "Flick-EXT",
+      "description": "Pitch and level inputs for Flick.",
+      "tags": [
+        "Physical modeling",
+        "dual"
+      ]
+    },
+    {
+      "slug": "Grit",
+      "name": "Graze",
+      "description": "",
+      "tags": [
+        "distortion",
+        "Envelope follower"
+      ]
+    },
+    {
+      "slug": "Moxie",
+      "name": "Moxie",
+      "description": "Power-hungry (un)dead oscillator.",
+      "tags": [
+        "oscillator",
+        "distortion",
+        "Filter",
+        "Low-frequency oscillator",
+        "envelope generator",
+        "physical modeling",
+        "function generator",
+        "clock generator",
+        "clock modulator"
+      ]
+    },
+    {
+      "slug": "Notable",
+      "name": "The Funnel",
+      "description": "A pitch & gate utility module.",
+      "tags": [
+        "utility",
+        "sample and hold"
+      ]
+    },
+    {
+      "slug": "Yare",
+      "name": "Yare",
+      "description": "Kill your dynamic range",
+      "tags": [
+        "compressor",
+        "Voltage-controlled amplifier",
+        "distortion"
       ]
     }
   ]

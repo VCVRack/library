@@ -1,0 +1,25 @@
+{
+  "slug": "LempModules",
+  "name": "Lemp Modules",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Lemp",
+  "author": "Stephen Lemp",
+  "authorEmail": "lempface@gmail.com",
+  "authorUrl": "https://github.com/lempface",
+  "pluginUrl": "https://github.com/lempface/VCV-LempModules",
+  "manualUrl": "https://github.com/lempface/VCV-LempModules",
+  "sourceUrl": "https://github.com/lempface/VCV-LempModules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "LempToggle",
+      "name": "Toggle",
+      "description": "Output a constant voltage between 0-10v with a latch button.",
+      "tags": [
+        "utility"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.36.2",
+  "version": "2.39.0",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -181,9 +181,17 @@
       ]
     },
     {
+      "slug": "maya",
+      "name": "Maya",
+      "description": "AI voice word player with CV-controlled word selection",
+      "tags": [
+        "Sampler"
+      ]
+    },
+    {
       "slug": "tempest-vs1",
       "name": "Tempest VS-1",
-      "description": "MIDI controller interface for Dave Smith Instruments Tempest",
+      "description": "MIDI controller interface for Tempest VS-1",
       "tags": [
         "MIDI",
         "Controller",

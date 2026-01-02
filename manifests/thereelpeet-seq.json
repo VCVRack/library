@@ -1,0 +1,27 @@
+{
+  "slug": "thereelpeet-seq",
+  "name": "TheReelPeet",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "Pete Buchhop",
+  "author": "Pete Buchhop",
+  "authorEmail": "buchhop@icloud.com",
+  "authorUrl": "https://github.com/boocup",
+  "pluginUrl": "https://github.com/boocup/MyModule",
+  "manualUrl": "https://github.com/boocup/MyModule#readme",
+  "sourceUrl": "https://github.com/boocup/MyModule",
+  "changelogUrl": "https://github.com/boocup/MyModule/releases",
+  "minRackVersion": "2.4.0",
+  "modules": [
+    {
+      "slug": "thereelpeet-seq",
+      "name": "TheReelPeet",
+      "description": "Dual generative sequencer with per-lane BPM, step length, randomized pitch and trigger outputs, trigger-based randomization, voltage-controlled run state, and hold freeze.",
+      "panel": "res/TheReelPeet.svg",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    }
+  ]
+}

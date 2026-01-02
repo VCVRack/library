@@ -1,7 +1,7 @@
 {
   "slug": "Gemini",
   "name": "Gemini",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "brand": "JoBoCl",
   "author": "JoBoCl",
@@ -16,7 +16,7 @@
     {
       "slug": "Gemini",
       "name": "Gemini",
-      "description": "Dual Juno-inspired oscillator",
+      "description": "Dual Juno-inspired oscillator, based on Winterbloom's Castor and Pollux",
       "tags": [
         "oscillator",
         "hardware clone",
