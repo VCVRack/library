@@ -1,14 +1,14 @@
 {
   "slug": "MADZINE",
   "name": "MADZINE",
-  "version": "2.3.5",
+  "version": "2.3.8",
   "license": "GPL-3.0-or-later",
   "brand": "MADZINE",
   "author": "MAD",
   "authorEmail": "madzinetw@gmail.com",
   "authorUrl": "",
   "pluginUrl": "",
-  "manualUrl": "",
+  "manualUrl": "https://linktr.ee/madzine",
   "sourceUrl": "https://github.com/mmmmmmmadman/MADZINE-VCV",
   "donateUrl": "https://www.patreon.com/c/madzinetw",
   "modules": [
@@ -181,17 +181,21 @@
     {
       "slug": "Quantizer",
       "name": "Quantizer",
-      "description": "Quantizer module",
+      "description": "Pitch quantizer with microtune control and scale presets",
       "tags": [
+        "Quantizer",
         "Utility"
       ]
     },
     {
       "slug": "EllenRipley",
       "name": "Ellen Ripley",
-      "description": "Ellen Ripley module",
+      "description": "Chaos-modulated multi-effects processor with delay, granular and reverb",
       "tags": [
-        "Utility"
+        "Effect",
+        "Delay",
+        "Granular",
+        "Reverb"
       ]
     },
     {
@@ -243,11 +247,32 @@
     {
       "slug": "UniversalRhythm",
       "name": "Universal Rhythm",
-      "description": "Cross-cultural rhythm generator based on ethnomusicological principles with 10 world music styles",
+      "description": "Cross-cultural rhythm generator with 10 world music styles and 8-voice drum synthesis",
       "tags": [
         "Sequencer",
         "Clock generator",
         "Drum"
+      ]
+    },
+    {
+      "slug": "SongMode",
+      "name": "SONG MODE",
+      "description": "8-input sequential switch with customizable playback order, per-input clock length, and learn mode",
+      "tags": [
+        "Switch",
+        "Sequencer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Launchpad",
+      "name": "Launchpad",
+      "description": "8x8 grid CV/audio looper with session mode, per-cell recording, and send/return mixer",
+      "tags": [
+        "Sampler",
+        "Sequencer",
+        "Recording",
+        "Mixer"
       ]
     }
   ]

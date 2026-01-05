@@ -15861,7 +15861,7 @@
     }
   },
   "MADZINE": {
-    "buildTimestamp": 1765148313.5043569,
+    "buildTimestamp": 1767584236.1569653,
     "creationTimestamp": 1754214222.0569358,
     "modules": {
       "SwingLFO": {
@@ -15941,6 +15941,12 @@
       },
       "UniversalRhythm": {
         "creationTimestamp": 1765149071.6366613
+      },
+      "SongMode": {
+        "creationTimestamp": 1767584236.5695152
+      },
+      "Launchpad": {
+        "creationTimestamp": 1767584236.6510952
       }
     }
   },
