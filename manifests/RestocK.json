@@ -1,13 +1,14 @@
 {
   "slug": "RestocK",
   "name": "RestocK",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Shortwav Labs",
   "author": "Stephane Pericat",
   "authorEmail": "contact@shortwavlabs.com",
   "manualUrl": "https://github.com/shortwavlabs/vcv-restoch-plugins/blob/main/docs/INDEX.md",
   "sourceUrl": "https://github.com/shortwavlabs/vcv-restoch-plugins/tree/main/src",
+  "donateUrl": "https://ko-fi.com/shortwavlabs",
   "modules": [
     {
       "slug": "ReGrandy",
