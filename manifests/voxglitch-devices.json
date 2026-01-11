@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch-devices",
   "name": "Voxglitch Devices",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "license": "proprietary",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -39,6 +39,14 @@
       "description": "TMS5220 style speech synthesizer with circuit bending",
       "tags": [
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "patch_seq",
+      "name": "PatchSeq",
+      "description": "Modular within a modular, allowing sequencing through different patches",
+      "tags": [
+        "Sequencer"
       ]
     }
   ]
