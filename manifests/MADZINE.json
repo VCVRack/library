@@ -1,7 +1,7 @@
 {
   "slug": "MADZINE",
   "name": "MADZINE",
-  "version": "2.3.8",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "MADZINE",
   "author": "MAD",
@@ -273,6 +273,33 @@
         "Sequencer",
         "Recording",
         "Mixer"
+      ]
+    },
+    {
+      "slug": "Runner",
+      "name": "Runner",
+      "description": "Chaos-modulated stereo delay with spread control, derived from Ellen Ripley",
+      "tags": [
+        "Effect",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "Facehugger",
+      "name": "Facehugger",
+      "description": "Chaos-modulated granular processor (Gratch), derived from Ellen Ripley",
+      "tags": [
+        "Effect",
+        "Granular"
+      ]
+    },
+    {
+      "slug": "Ovomorph",
+      "name": "Ovomorph",
+      "description": "Chaos-modulated stereo reverb with room and decay control, derived from Ellen Ripley",
+      "tags": [
+        "Effect",
+        "Reverb"
       ]
     }
   ]

@@ -3,12 +3,15 @@
   "name": "LydD Modules",
   "author": "Lydian",
   "license": "GPL-3.0-or-later",
-  "version": "2.0.18",
+  "manualUrl": "https://github.com/Lydian-Des/LydD_Modules/blob/main/README.md",
+  "sourceUrl": "https://github.com/Lydian-Des/LydD_Modules",
+  "version": "2.0.20",
   "modules": [
     {
       "slug": "Poppy-fields",
       "name": "Poppy-Fields",
       "description": "Infinite Sequencer",
+      "manualUrl": "https://github.com/Lydian-Des/LydD_Modules/blob/main/Manual-Poppy_Fields.md",
       "tags": [
         "Sequencer"
       ]
@@ -17,6 +20,7 @@
       "slug": "Dadras-Momeni-Chaos",
       "name": "Mom-and-Dad",
       "description": "Chaotic Attractors",
+      "manualUrl": "https://github.com/Lydian-Des/LydD_Modules/blob/main/Manual-Mom_and_Dad.md",
       "tags": [
         "LFO"
       ]
@@ -25,16 +29,65 @@
       "slug": "Simone-Chaos",
       "name": "Simone",
       "description": "Chaotic Attractors",
+      "manualUrl": "https://github.com/Lydian-Des/LydD_Modules/blob/main/Manual-Simone.md",
       "tags": [
-        "LFO"
+        "LFO",
+        "VCO"
       ]
     },
     {
       "slug": "Torus-Osc",
       "name": "Torus",
       "description": "Toroidal Oscillator",
+      "manualUrl": "https://github.com/Lydian-Des/LydD_Modules/blob/main/Manual-Torus.md",
       "tags": [
         "VCO"
+      ]
+    },
+    {
+      "slug": "Clock-Long",
+      "name": "Concierge",
+      "description": "Clock Generator",
+      "tags": [
+        "Utility",
+        "Clock"
+      ]
+    },
+    {
+      "slug": "Dobbs-Env",
+      "name": "Dobbs",
+      "description": "Envelope Generator",
+      "tags": [
+        "Utility",
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "Ledger-Logic",
+      "name": "Ledger",
+      "description": "Cascading Logic",
+      "tags": [
+        "Utility",
+        "Logic"
+      ]
+    },
+    {
+      "slug": "The-Onceler",
+      "name": "Onceler",
+      "description": "Wait for Gates",
+      "tags": [
+        "Utility",
+        "Clock modulator",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Shear-Comb",
+      "name": "Shear",
+      "description": "IIR Comb Filter",
+      "tags": [
+        "Filter",
+        "Effect"
       ]
     }
   ]

@@ -3580,7 +3580,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1767861577.333413,
+    "buildTimestamp": 1768316153.82535,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -12459,7 +12459,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1757920734.1469047,
+    "buildTimestamp": 1768316958.5618756,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -15873,7 +15873,7 @@
     }
   },
   "MADZINE": {
-    "buildTimestamp": 1767584236.1569653,
+    "buildTimestamp": 1768316384.0658083,
     "creationTimestamp": 1754214222.0569358,
     "modules": {
       "SwingLFO": {
@@ -15959,6 +15959,15 @@
       },
       "Launchpad": {
         "creationTimestamp": 1767584236.6510952
+      },
+      "Runner": {
+        "creationTimestamp": 1768316959.5024655
+      },
+      "Facehugger": {
+        "creationTimestamp": 1768316959.5928807
+      },
+      "Ovomorph": {
+        "creationTimestamp": 1768316959.7005327
       }
     }
   },
@@ -16098,7 +16107,7 @@
     }
   },
   "LydD-Modules": {
-    "buildTimestamp": 1761544396.9361672,
+    "buildTimestamp": 1768316206.670079,
     "creationTimestamp": 1759801617.523616,
     "modules": {
       "Poppy-fields": {
@@ -16112,6 +16121,21 @@
       },
       "Torus-Osc": {
         "creationTimestamp": 1759801617.8118076
+      },
+      "Clock-Long": {
+        "creationTimestamp": 1768316958.9979398
+      },
+      "Dobbs-Env": {
+        "creationTimestamp": 1768316959.0883765
+      },
+      "Ledger-Logic": {
+        "creationTimestamp": 1768316959.180981
+      },
+      "The-Onceler": {
+        "creationTimestamp": 1768316959.2741914
+      },
+      "Shear-Comb": {
+        "creationTimestamp": 1768316959.3676658
       }
     }
   },
