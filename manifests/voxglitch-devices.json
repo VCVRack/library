@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch-devices",
   "name": "Voxglitch Devices",
-  "version": "2.5.0",
+  "version": "2.6.1",
   "license": "proprietary",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -47,7 +47,8 @@
       "description": "Modular within a modular, allowing sequencing through different patches",
       "tags": [
         "Sequencer"
-      ]
+      ],
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/patch-seq/user_manual.md"
     }
   ]
 }
