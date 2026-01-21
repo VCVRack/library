@@ -1,0 +1,85 @@
+{
+  "slug": "Ambivalent-Instruments",
+  "name": "Ambivalent Instruments",
+  "version": "2.0.0",
+  "minRackVersion": "2.0.0",
+  "license": "proprietary",
+  "brand": "Ambivalent Instruments",
+  "author": "TsugumasaYutani",
+  "authorEmail": "tsugumasa320@gmail.com",
+  "authorUrl": "https://github.com/tsugumasa320",
+  "manualUrl": "https://tsugumasa320.github.io/Ambivalent-Instruments-Manual/",
+  "pluginUrl": "",
+  "sourceUrl": "",
+  "changelogUrl": "",
+  "donateUrl": "https://paypal.me/tsugumasa320",
+  "description": "Professional audio processing modules for VCV Rack",
+  "modules": [
+    {
+      "slug": "Grainer",
+      "name": "Grainer",
+      "description": "Real-time granular synthesis processor with advanced randomization",
+      "tags": [
+        "Granular",
+        "Effect",
+        "Digital",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "EQ8",
+      "name": "EQ8",
+      "description": "8-band stereo parametric equalizer with fixed frequency bands",
+      "tags": [
+        "Equalizer",
+        "Filter",
+        "Effect",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "XFMN01",
+      "name": "XFMN01",
+      "description": "Cross-FM noise synthesizer with several effects",
+      "tags": [
+        "Synth voice",
+        "Oscillator",
+        "Noise",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "Modulo",
+      "name": "Modulo",
+      "description": "Modulo operator effect/utility module",
+      "tags": [
+        "Utility",
+        "Effect",
+        "Waveshaper",
+        "Digital",
+        "Distortion",
+        "Noise"
+      ]
+    },
+    {
+      "slug": "Delay",
+      "name": "Delay",
+      "description": "Digital delay effect with 4 modes (Repitch/Fade/Reverse/Ping-pong), feedback, and modulation",
+      "tags": [
+        "Delay",
+        "Effect",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "GroupDelay",
+      "name": "GroupDelay",
+      "description": "Group delay effect using cascaded all-pass filters for transient shaping and phase dispersion",
+      "tags": [
+        "Effect",
+        "Digital",
+        "Delay"
+      ]
+    }
+  ]
+}
