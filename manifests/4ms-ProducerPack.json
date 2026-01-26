@@ -1,7 +1,7 @@
 {
   "slug": "4ms-ProducerPack",
   "name": "ProducerPack",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "4ms",
   "author": "4ms Company",
@@ -83,6 +83,7 @@
         "Stereo",
         "Utility",
         "Effect",
+        "Compressor",
         "Dynamics"
       ]
     },
