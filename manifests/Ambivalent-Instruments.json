@@ -1,7 +1,7 @@
 {
   "slug": "Ambivalent-Instruments",
   "name": "Ambivalent Instruments",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "minRackVersion": "2.0.0",
   "license": "proprietary",
   "brand": "Ambivalent Instruments",
@@ -13,7 +13,7 @@
   "sourceUrl": "",
   "changelogUrl": "",
   "donateUrl": "https://paypal.me/tsugumasa320",
-  "description": "Professional audio processing modules for VCV Rack",
+  "description": "",
   "modules": [
     {
       "slug": "Grainer",
@@ -33,8 +33,7 @@
       "tags": [
         "Equalizer",
         "Filter",
-        "Effect",
-        "Utility"
+        "Effect"
       ]
     },
     {
@@ -64,11 +63,21 @@
     {
       "slug": "Delay",
       "name": "Delay",
-      "description": "Digital delay effect with 4 modes (Repitch/Fade/Reverse/Ping-pong), feedback, and modulation",
+      "description": "Digital delay effect with 4 modes (Repitch/Octave/Reverse/Ping-pong), feedback, and modulation",
       "tags": [
         "Delay",
         "Effect",
         "Digital"
+      ]
+    },
+    {
+      "slug": "DelayExpander",
+      "name": "Delay Expander",
+      "description": "Tap tempo and sync expander for Ambivalent Instruments Delay modules",
+      "tags": [
+        "Delay",
+        "Utility",
+        "Clock"
       ]
     },
     {
