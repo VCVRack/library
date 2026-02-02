@@ -1,0 +1,37 @@
+{
+  "slug": "WiggleRoom",
+  "name": "Wiggle Room",
+  "version": "2.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Wiggle Room",
+  "author": "Tim Richardson",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/timini/WiggleRoom",
+  "manualUrl": "https://github.com/timini/WiggleRoom#documentation",
+  "sourceUrl": "https://github.com/timini/WiggleRoom",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/timini/WiggleRoom/releases",
+  "modules": [
+    {
+      "slug": "Matter",
+      "name": "Matter",
+      "description": "Physical model of a struck solid inside a resonant tube - morphs from strings to bells with acoustic chamber",
+      "tags": [
+        "Physical modeling",
+        "Instrument",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "ACID9Voice",
+      "name": "ACID9 Voice",
+      "description": "TB-303 inspired acid synthesizer voice with tri-core morphing oscillator, dual filters (ACID/LEAD), stereo delay with ghost mode, and accent/slide control",
+      "tags": [
+        "Synth voice",
+        "Oscillator",
+        "Filter"
+      ]
+    }
+  ]
+}
