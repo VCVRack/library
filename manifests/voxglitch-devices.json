@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch-devices",
   "name": "Voxglitch Devices",
-  "version": "2.6.1",
+  "version": "2.7.0",
   "license": "proprietary",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -49,6 +49,25 @@
         "Sequencer"
       ],
       "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/patch-seq/user_manual.md"
+    },
+    {
+      "hidden": true,
+      "slug": "groovebox_advanced",
+      "name": "Groovebox Advanced",
+      "description": "Advanced patch sequencer with reusable patch library and step layering",
+      "tags": [
+        "Sequencer",
+        "Synthesizer"
+      ]
+    },
+    {
+      "slug": "centralics",
+      "name": "Centralics",
+      "description": "303 style synth voice with complex pattern generator and built in clock synced delay effects",
+      "tags": [
+        "Synthesizer"
+      ],
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/centralics/user_manual.md"
     }
   ]
 }

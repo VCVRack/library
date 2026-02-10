@@ -15822,7 +15822,7 @@
     }
   },
   "voxglitch-devices": {
-    "buildTimestamp": 1768935098.6277947,
+    "buildTimestamp": 1770693869.8995554,
     "creationTimestamp": 1752849878.5160182,
     "modules": {
       "spores": {
@@ -15836,6 +15836,12 @@
       },
       "patch_seq": {
         "creationTimestamp": 1768119810.6845572
+      },
+      "groovebox_advanced": {
+        "creationTimestamp": 1770693870.327199
+      },
+      "centralics": {
+        "creationTimestamp": 1770693870.4400306
       }
     }
   },
