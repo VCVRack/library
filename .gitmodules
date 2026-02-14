@@ -996,3 +996,6 @@
 [submodule "repos/tapestry"]
 	path = repos/tapestry
 	url = https://github.com/shortwavlabs/vcv-tapestry.git
+[submodule "repos/ChordChemist"]
+	path = repos/ChordChemist
+	url = https://github.com/TheDrude/ChordChemist.git
