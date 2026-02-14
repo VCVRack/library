@@ -993,3 +993,6 @@
 [submodule "repos/LempModules"]
 	path = repos/LempModules
 	url = https://github.com/lempface/VCV-LempModules.git
+[submodule "repos/tapestry"]
+	path = repos/tapestry
+	url = https://github.com/shortwavlabs/vcv-tapestry.git
