@@ -999,3 +999,6 @@
 [submodule "repos/ChordChemist"]
 	path = repos/ChordChemist
 	url = https://github.com/TheDrude/ChordChemist.git
+[submodule "repos/CavianSequencer"]
+	path = repos/CavianSequencer
+	url = https://github.com/nikscave/Cavian-VCV.git
