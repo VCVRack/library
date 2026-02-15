@@ -1,7 +1,7 @@
 {
   "slug": "Sulamith",
   "name": "Sulamith",
-  "version": "2.2.0",
+  "version": "2.3.2",
   "license": "GPL-3.0-or-later",
   "brand": "Sulamith",
   "author": "Pascal Breitenbach",
@@ -12,6 +12,17 @@
   "sourceUrl": "https://github.com/JohannAsbjoernson/Sulamith",
   "changelogUrl": "https://github.com/JohannAsbjoernson/Sulamith/blob/main/CHANGELOG.md",
   "modules": [
+    {
+      "slug": "GenEcho",
+      "name": "GenEcho: Stochastic Looper",
+      "description": "Granular stereo recorder and stochastic effect. Stutter, Distortion, Glitches (port from Stochkit).",
+      "manualUrl": "https://github.com/JohannAsbjoernson/Sulamith?tab=readme-ov-file#genecho",
+      "tags": [
+        "Effect",
+        "Granular",
+        "Delay"
+      ]
+    },
     {
       "slug": "ButtonA",
       "name": "Button - Trigger/CV Utility",
@@ -29,7 +40,7 @@
     {
       "slug": "BPMClk",
       "name": "BPM Clock",
-      "description": "Lightweight BPM clock with run & reset. Master + 3 (/32 to x32) mult/div clock outputs. Meant for single row patches",
+      "description": "/48 to x48, Sync, 4 Clock outs in 3HP.",
       "manualUrl": "https://github.com/JohannAsbjoernson/Sulamith/tree/main?tab=readme-ov-file#clock",
       "tags": [
         "Clock generator"

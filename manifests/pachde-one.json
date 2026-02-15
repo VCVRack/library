@@ -1,7 +1,7 @@
 {
   "slug": "pachde-one",
   "name": "pachde One",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "brand": "pachde",
   "author": "pachde",
@@ -24,7 +24,7 @@
         "Blank",
         "Utility"
       ],
-      "keywords": "graphic compositing blue green screen greenscreen bluescreen resizable 1hp skiff"
+      "keywords": "1hp graphic light lightbar compositing blue green screen greenscreen bluescreen resizable skiff"
     },
     {
       "slug": "pachde-info",
@@ -36,7 +36,7 @@
         "Blank",
         "Utility"
       ],
-      "keywords": "text info notes resizable skiff"
+      "keywords": "2hp text info notes labels resizable skiff vertical"
     },
     {
       "slug": "pachde-imagine",
@@ -76,7 +76,7 @@
         "Utility",
         "Expander"
       ],
-      "keywords": "animate colors graphic RGB HSL"
+      "keywords": "2hp animate colors graphic RGB HSL"
     },
     {
       "slug": "pachde-skiff",
@@ -87,7 +87,7 @@
         "Visual",
         "Utility"
       ],
-      "keywords": "colors graphic RGB HSL skiff rails declutter screws ports jacks UI"
+      "keywords": "colors graphic UI RGB HSL skiff rails declutter screws ports jacks UI"
     },
     {
       "slug": "pachde-fancybox",
@@ -98,7 +98,18 @@
         "Visual",
         "Utility"
       ],
-      "keywords": "animate colors graphic RGB HSL skiff rails purfenator declutter greenscreen screen UI"
+      "keywords": "animate colors graphic RGB HSL UI skiff rails purfenator declutter greenscreen screen UI"
+    },
+    {
+      "slug": "pachde-mini-fancybox",
+      "name": "FancyBox Mini",
+      "manualUrl": "https://github.com/Paul-Dempsey/pachde1/blob/main/docs/FancyBox.md#fancybox",
+      "description": "Customize your skiff with a fancy background/green-screen (mini version)",
+      "tags": [
+        "Visual",
+        "Utility"
+      ],
+      "keywords": "2hp mini animate colors graphic UI RGB HSL skiff rails purfenator declutter greenscreen screen UI"
     },
     {
       "slug": "pachde-rui",
@@ -109,7 +120,7 @@
         "Visual",
         "Utility"
       ],
-      "keywords": "animate  UI skiff cables brightness bloom halo"
+      "keywords": "2hp animate UI skiff cables brightness bloom halo"
     },
     {
       "slug": "pachde-guide",
@@ -119,7 +130,7 @@
         "visual",
         "utility"
       ],
-      "keywords": "dev developer design guides grid"
+      "keywords": "dev developer UI design guides grid"
     },
     {
       "slug": "pachde-paneltone",
@@ -129,7 +140,7 @@
         "visual",
         "utility"
       ],
-      "keywords": "colors graphic RGB HSL skiff tint panel"
+      "keywords": "colors graphic UI RGB HSL skiff tint panel"
     }
   ]
 }

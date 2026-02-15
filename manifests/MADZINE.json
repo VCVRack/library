@@ -1,7 +1,7 @@
 {
   "slug": "MADZINE",
   "name": "MADZINE",
-  "version": "2.4.0",
+  "version": "2.4.3",
   "license": "GPL-3.0-or-later",
   "brand": "MADZINE",
   "author": "MAD",
@@ -255,6 +255,16 @@
       ]
     },
     {
+      "slug": "UniRhythm",
+      "name": "Uni Rhythm",
+      "description": "Compact 4-track rhythm generator with Primary-priority merged outputs, derived from Universal Rhythm",
+      "tags": [
+        "Sequencer",
+        "Clock generator",
+        "Drum"
+      ]
+    },
+    {
       "slug": "SongMode",
       "name": "SONG MODE",
       "description": "8-input sequential switch with customizable playback order, per-input clock length, and learn mode",
@@ -300,6 +310,44 @@
       "tags": [
         "Effect",
         "Reverb"
+      ]
+    },
+    {
+      "slug": "ALEXANDERPLATZ",
+      "name": "ALEXANDERPLATZ",
+      "description": "4-track mixer with 8-band master EQ, level, duck and mute controls, Berlin U8 themed",
+      "tags": [
+        "Mixer",
+        "Equalizer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SHINJUKU",
+      "name": "SHINJUKU",
+      "description": "8-track mixer with 12-band master EQ, level, duck and mute controls, Tokyo Marunouchi themed",
+      "tags": [
+        "Mixer",
+        "Equalizer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Portal",
+      "name": "Portal",
+      "description": "8HP poly crossfader for UniRhythm with 3-band isolator, drive, DJ-style cue monitoring and curve selection",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Drummmmmmer",
+      "name": "Drummmmmmer",
+      "description": "4-voice world drum synthesizer with style presets and spread control",
+      "tags": [
+        "Drum",
+        "Synth voice"
       ]
     }
   ]

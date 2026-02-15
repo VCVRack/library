@@ -1,7 +1,7 @@
 {
   "slug": "GP",
   "name": "GPrackmodules",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "GPaudio",
   "author": "GP",
@@ -16,8 +16,19 @@
     {
       "slug": "AB4",
       "name": "AB4",
-      "description": "4 Channel A/B Switcher",
+      "description": "4 Channel A/B Switcher for audio and CV",
       "manualUrl": "https://gprackmodules.github.io/GPrackmodules/AB4.html",
+      "tags": [
+        "Switch",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "AB8",
+      "name": "AB8",
+      "description": "8 Channel A/B Switcher for audio and CV",
+      "manualUrl": "https://gprackmodules.github.io/GPrackmodules/AB8.html",
       "tags": [
         "Switch",
         "Utility",
@@ -56,8 +67,18 @@
     {
       "slug": "StereoChorus",
       "name": "Stereo Chorus",
-      "description": "Stereo Chorus with up to four voices",
+      "description": "Stereo Chorus with up to four voices end external modulation through CV inputs",
       "manualUrl": "https://gprackmodules.github.io/GPrackmodules/StereoChorus.html",
+      "tags": [
+        "Chorus",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Rotary",
+      "name": "Rotary Speaker",
+      "description": "Rotating speaker effect with enhancements",
+      "manualUrl": "https://gprackmodules.github.io/GPrackmodules/Rotary.html",
       "tags": [
         "Chorus",
         "Effect"

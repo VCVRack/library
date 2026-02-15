@@ -6,12 +6,12 @@
   "authorEmail": "modular80@gmail.com",
   "authorUrl": "",
   "brand": "modular80",
-  "pluginUrl": "https://github.com/cschol/modular80/blob/master/README.md",
-  "manualUrl": "https://github.com/cschol/modular80/blob/master/README.md",
+  "pluginUrl": "https://github.com/cschol/modular80/blob/v2/README.md",
+  "manualUrl": "https://github.com/cschol/modular80/blob/v2/README.md",
   "sourceUrl": "https://github.com/cschol/modular80.git",
-  "changelogUrl": "https://github.com/cschol/modular80/blob/v1/CHANGELOG.md",
+  "changelogUrl": "https://github.com/cschol/modular80/blob/v2/CHANGELOG.md",
   "donateUrl": "",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "modules": [
     {
       "slug": "Logistiker",

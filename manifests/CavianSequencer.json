@@ -1,0 +1,25 @@
+{
+  "slug": "CavianSequencer",
+  "name": "Cavian Sequencer",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "YourModulesMayVary",
+  "author": "YourModulesMayVary",
+  "authorEmail": "cavian@nikscave.com",
+  "pluginUrl": "https://github.com/nikscave/Cavian-VCV",
+  "manualUrl": "https://github.com/nikscave/Cavian-VCV",
+  "sourceUrl": "https://github.com/nikscave/Cavian-VCV",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "CavianSequencer",
+      "name": "Cavian",
+      "description": "8-channel multi-step sequencer and a lot more, save locally, loop, copy paste, clear, randomise",
+      "tags": [
+        "Sequencer",
+        "Clock"
+      ]
+    }
+  ]
+}

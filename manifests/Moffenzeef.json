@@ -1,7 +1,7 @@
 {
   "slug": "Moffenzeef",
   "name": "Moffenzeef",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "license": "GPL-3.0+",
   "brand": "Moffenzeef",
   "author": "Ross Fish",
@@ -250,7 +250,7 @@
       "slug": "Stargazer",
       "name": "Stargazer",
       "description": "Eurorack fantasy version of a previously released drone synth.",
-      "manualUrl": "https://static1.squarespace.com/static/56d67baac6fc08e0509b99f4/t/5aa3144e24a694e8b808eb92/1520637008696/STARGAZERQUICKSTART.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/Stargazer%20User%20Manual.md",
       "tags": [
         "Synth voice",
         "oscillator",
@@ -263,6 +263,7 @@
       "slug": "Kleztizer",
       "name": "Kleztizer",
       "description": "A quantizer that follows the harmonic structure of Klezmer modes",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/Kleztizer%20User%20Manual.md",
       "tags": [
         "quantizer",
         "sequencer"
@@ -272,6 +273,7 @@
       "slug": "Tantz",
       "name": "Tantz!",
       "description": "Klezmer preset drum sequencer",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/Tantz%20User%20Manual.md",
       "tags": [
         "sequencer",
         "clock modulator"
@@ -281,6 +283,7 @@
       "slug": "QuadDeviant",
       "name": "Quad Deviant",
       "description": "Quad version of Deviant with range switches and CV bus",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/Quad%20Deviant%20User%20Manual.md",
       "tags": [
         "random",
         "utility"

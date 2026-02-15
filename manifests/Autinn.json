@@ -1,10 +1,12 @@
 {
   "slug": "Autinn",
   "name": "Autinn",
-  "version": "2.1.0",
+  "version": "2.6.18",
+  "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Autinn",
   "author": "Nikolai V. Chr.",
+  "description": "",
   "authorEmail": "",
   "authorUrl": "",
   "pluginUrl": "",
@@ -18,7 +20,7 @@
       "name": "Amp",
       "description": "Amplifier",
       "tags": [
-        "VCA",
+        "Voltage-controlled amplifier",
         "Polyphonic",
         "Attenuator"
       ]
@@ -27,8 +29,9 @@
       "slug": "Bass",
       "name": "Bass",
       "description": "Bass and Acid synth",
+      "keywords": "acid",
       "tags": [
-        "VCF",
+        "Filter",
         "Physical modeling"
       ]
     },
@@ -37,7 +40,7 @@
       "name": "Mera",
       "description": "Pre-post VCA",
       "tags": [
-        "VCA",
+        "Voltage-controlled amplifier",
         "Attenuator"
       ]
     },
@@ -45,8 +48,10 @@
       "slug": "CVConverter",
       "name": "Conv",
       "description": "Converts to and from uni/bi CV voltages",
+      "keywords": "convert",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -54,20 +59,23 @@
       "name": "Deadband",
       "description": "Constrain low voltages to zero",
       "tags": [
-        "VCA",
-        "Attenuator"
+        "Voltage-controlled amplifier",
+        "Attenuator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Digi",
       "name": "Digi",
       "description": "Quantizes a signal into discrete steps",
+      "keywords": "digital",
       "tags": [
         "Utility",
         "Digital",
         "Effect",
         "Quantizer",
-        "Waveshaper"
+        "Waveshaper",
+        "Polyphonic"
       ]
     },
     {
@@ -75,7 +83,8 @@
       "name": "DC",
       "description": "Outputs DC component of signal",
       "tags": [
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -91,23 +100,26 @@
       "name": "Jette",
       "description": "Oscillator with harmonics control",
       "tags": [
-        "VCO"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Oxcart",
       "name": "Oxcart",
-      "description": "Aggresive oscillator. Best for low/mid frequencies.",
+      "description": "Aggressive oscillator. Best for low/mid frequencies.",
       "tags": [
-        "VCO"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Retri",
       "name": "Flora",
       "description": "A 24dB low-pass filter emulating a 4-pole transistor ladder",
+      "keywords": "24db ladder",
       "tags": [
-        "VCF",
+        "Filter",
         "Physical modeling",
         "Dual"
       ]
@@ -117,7 +129,17 @@
       "name": "Saw",
       "description": "Oscillator with a sawish sound",
       "tags": [
-        "VCO"
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Saw2",
+      "name": "Axe",
+      "description": "Oscillator with an old analog sound",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
@@ -125,26 +147,29 @@
       "name": "Sjip",
       "description": "Oscillator with rounded waveform",
       "tags": [
-        "VCO"
+        "Oscillator"
       ]
     },
     {
       "slug": "Square",
       "name": "Square",
-      "description": "Oscillator with a squareish sound",
+      "description": "Oscillator with a squarish sound",
       "tags": [
-        "VCO"
+        "Oscillator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Vector",
       "name": "Vxy",
       "description": "Random x-y generator",
-      "deprecated": true,
+      "keywords": "walk walker xy",
+      "deprecated": false,
       "tags": [
         "Controller",
         "Utility",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -154,13 +179,15 @@
       "tags": [
         "Effect",
         "Delay",
-        "Flanger"
+        "Flanger",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Zod",
       "name": "Zod",
       "description": "Dynamic range manipulator with noisegate",
+      "keywords": "noisegate noise-gate noise gate",
       "tags": [
         "Compressor",
         "Limiter",
@@ -174,7 +201,8 @@
       "name": "Imp",
       "description": "Simple Triple Band Equalizer",
       "tags": [
-        "Equalizer"
+        "Equalizer",
+        "Polyphonic"
       ]
     },
     {
@@ -183,7 +211,9 @@
       "description": "6 channel mixer with no CV",
       "tags": [
         "Mixer",
-        "Equalizer"
+        "Equalizer",
+        "Polyphonic",
+        "Dual"
       ]
     },
     {
@@ -200,18 +230,22 @@
       "slug": "Overdrive",
       "name": "Fil",
       "description": "Filing away at audio (Overdrive)",
+      "keywords": "overdrive",
       "tags": [
         "Effect",
-        "Distortion"
+        "Distortion",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Distortion",
       "name": "Nap",
       "description": "Taking a nap (Distortion)",
+      "keywords": "distortion",
       "tags": [
         "Effect",
-        "Distortion"
+        "Distortion",
+        "Polyphonic"
       ]
     },
     {
@@ -220,7 +254,8 @@
       "description": "Random melody sequencer with special constraints that make it sound more pleasant for the ear",
       "tags": [
         "Sequencer",
-        "Random"
+        "Random",
+        "Polyphonic"
       ]
     },
     {
@@ -229,6 +264,45 @@
       "description": "Plays a random selected chord from a root note (does not have to be in tune). Polyphonic outputs.",
       "tags": [
         "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Kicker",
+      "name": "Stomp",
+      "description": "Kick drum",
+      "keywords": "bass drum",
+      "tags": [
+        "Drum",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Lurer",
+      "name": "Punch",
+      "description": "Snare drum",
+      "tags": [
+        "Drum",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Coil",
+      "name": "Coil",
+      "description": "Spring reverb",
+      "tags": [
+        "Reverb",
+        "Physical modeling",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Geiger",
+      "name": "Rad",
+      "description": "Geiger counter",
+      "keywords": "radiation radioactivity geiger",
+      "tags": [
+        "Physical modeling",
         "Polyphonic"
       ]
     }

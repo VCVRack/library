@@ -2,8 +2,8 @@
   "slug": "ZZC",
   "name": "ZZC",
   "brand": "ZZC",
-  "version": "2.0.2",
-  "license": "GPL-3.0-only",
+  "version": "2.1.2",
+  "license": "GPL-3.0-or-later",
   "author": "Sergey Ukolov",
   "authorEmail": "zezic51@yandex.ru",
   "authorUrl": "https://github.com/zezic",
@@ -92,6 +92,14 @@
         "Polyphonic",
         "Switch",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Phaseque",
+      "name": "Phaseque",
+      "description": "Phase-driven Sequencer",
+      "tags": [
+        "Sequencer"
       ]
     }
   ]

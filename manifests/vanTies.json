@@ -1,7 +1,7 @@
 {
   "slug": "vanTies",
   "name": "van Ties",
-  "version": "2.6.4",
+  "version": "2.7.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "Matthias Sars",
@@ -27,7 +27,9 @@
       "slug": "Adje",
       "name": "Adje",
       "description": "eratosthenean spectrum generator",
-      "tags": [],
+      "tags": [
+        "Polyphonic"
+      ],
       "keywords": "additive"
     },
     {
@@ -35,7 +37,8 @@
       "name": "Bufke",
       "description": "CV buffer expander for Adje",
       "tags": [
-        "Expander"
+        "Expander",
+        "Polyphonic"
       ],
       "keywords": ""
     },
@@ -58,6 +61,16 @@
         "Polyphonic"
       ],
       "keywords": "double pendulum"
+    },
+    {
+      "slug": "Sjang",
+      "name": "Sjang",
+      "description": "dynamic stochastic oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ],
+      "keywords": ""
     }
   ]
 }
