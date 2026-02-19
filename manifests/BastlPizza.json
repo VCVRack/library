@@ -1,7 +1,7 @@
 {
   "slug": "BastlPizza",
   "name": "Bastl Pizza",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "license": "proprietary",
   "brand": "Bastl",
   "author": "Bastl, Ewan Hemingway",
@@ -31,6 +31,17 @@
       "tags": [
         "Hardware Clone",
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "Basil",
+      "name": "Basil",
+      "description": "Basil is a compact, yet flexible, digital stereo delay module built on the Bastl Pizza platform.",
+      "manualUrl": "https://bastl-instruments.com/eurorack/modules/basil",
+      "modularGridUrl": "https://modulargrid.net/e/bastl-instruments-basil",
+      "tags": [
+        "Delay",
+        "Hardware Clone"
       ]
     }
   ]

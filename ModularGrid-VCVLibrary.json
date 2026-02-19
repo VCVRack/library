@@ -2558,5 +2558,12 @@
     "vcvUrl": "https://library.vcvrack.com/AlteredStateMachines/Medusa",
     "mgUrl": "https://modulargrid.net/e/altered-state-machines-medusa",
     "mgModuleId": 42178
+  },
+  {
+    "pluginSlug": "BastlPizza",
+    "moduleSlug": "Basil",
+    "vcvUrl": "https://library.vcvrack.com/BastlPizza/Basil",
+    "mgUrl": "https://modulargrid.net/e/bastl-instruments-basil",
+    "mgModuleId": 44097
   }
 ]
