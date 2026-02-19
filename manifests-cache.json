@@ -16414,5 +16414,17 @@
         "creationTimestamp": 1771177855.3825686
       }
     }
+  },
+  "tapestry": {
+    "buildTimestamp": 1771541758.5734015,
+    "creationTimestamp": 1771541758.7056906,
+    "modules": {
+      "Tapestry": {
+        "creationTimestamp": 1771541758.8021507
+      },
+      "TapestryExpander": {
+        "creationTimestamp": 1771541758.8979719
+      }
+    }
   }
 }
