@@ -1,7 +1,7 @@
 {
   "slug": "FehlerFabrik-Suite",
   "name": "Fehler Fabrik",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Fehler Fabrik",
   "author": "Ross Cameron",
@@ -129,6 +129,15 @@
       "description": "Arbitrary Rhythm Generator",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Shaney",
+      "name": "Shaney",
+      "description": "Markov Step Sequencer",
+      "tags": [
+        "Sequencer",
+        "Random"
       ]
     }
   ]

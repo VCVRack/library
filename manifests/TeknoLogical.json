@@ -1,15 +1,15 @@
 {
   "slug": "TeknoLogical",
   "name": "TeknoLogical",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "GPL-3.0-or-later",
   "brand": "TeknoLogical",
   "author": "AgostoSound",
   "authorEmail": "agostosound@gmail.com",
-  "authorUrl": "https://github.com/AgostoSound",
-  "pluginUrl": "https://github.com/AgostoSound/TeknoLogical",
-  "manualUrl": "https://github.com/AgostoSound/TeknoLogical",
-  "sourceUrl": "https://github.com/AgostoSound/TeknoLogical",
+  "authorUrl": "https://github.com/augustopampaluna",
+  "pluginUrl": "https://github.com/augustopampaluna/TeknoLogical",
+  "manualUrl": "https://github.com/augustopampaluna/TeknoLogical",
+  "sourceUrl": "https://github.com/augustopampaluna/TeknoLogical",
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
@@ -55,6 +55,32 @@
         "Filter",
         "Mixer",
         "Panning"
+      ]
+    },
+    {
+      "slug": "TL_Odd5",
+      "name": "TL_Odd5",
+      "description": "Odd sequencer.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TL_Bool",
+      "name": "TL_Bool",
+      "description": "Dual-input logic with probability-driven variation",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "TL_Pump",
+      "name": "TL_Pump",
+      "description": "Sidechain-style stereo ducker with selectable pump curves.",
+      "tags": [
+        "Waveshaper",
+        "Dynamics",
+        "Compressor"
       ]
     }
   ]

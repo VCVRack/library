@@ -1,7 +1,7 @@
 {
   "slug": "Autinn",
   "name": "Autinn",
-  "version": "2.6.18",
+  "version": "2.6.30",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Autinn",
@@ -304,6 +304,28 @@
       "tags": [
         "Physical modeling",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Scope40",
+      "name": "Scope",
+      "description": "Oscilloscope with auto-time",
+      "keywords": "measure monitor",
+      "tags": [
+        "Visual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Excavi",
+      "name": "Excavi",
+      "description": "A polyphonic complex oscillator featuring morphing waveforms, Through-Zero FM, screaming hard sync, and vintage analog degradation and drift",
+      "keywords": "complex oscillator, through-zero fm, TZFM, hard sync, ring mod, analog drift, morphing",
+      "tags": [
+        "Oscillator",
+        "Polyphonic",
+        "Dual",
+        "Ring modulator"
       ]
     }
   ]
