@@ -1,7 +1,7 @@
 {
   "slug": "AmbushedCat",
   "name": "AmbushedCat",
-  "version": "2.0.1",
+  "version": "2.0.0",
   "license": "GPL-3.0-or-later",
   "brand": "AmbushedCat",
   "author": "Daniel Emberger",
@@ -16,7 +16,7 @@
     {
       "slug": "TuringMaschine",
       "name": "TuringMaschineRythm",
-      "description": "Controlled chaos CV sequencer. Semi-random loops that evolve organically\u2014dial in the perfect balance between order and entropy.",
+      "description": "A probabilistic CV sequencer inspired by the original Music Thing Turing Machine. Generates semi-random looping sequences with adjustable probability and loop length.",
       "tags": [
         "Sequencer"
       ]
@@ -24,7 +24,7 @@
     {
       "slug": "TuringGateExpander",
       "name": "TuringGates",
-      "description": "Rhythmic gate patterns extracted from chaos. Transform your Turing sequences into polyrhythmic triggers.",
+      "description": "An expander for the TuringMaschine module that outputs rhythmic gate patterns derived from the current sequence state. Useful for triggering drums, envelopes, or other events.",
       "tags": [
         "Expander"
       ]
@@ -32,7 +32,7 @@
     {
       "slug": "TuringVoltsExpander",
       "name": "TuringFlow",
-      "description": "Deep-dive CV extraction from the bit stream. Unlock hidden modulation dimensions lurking inside your sequences.",
+      "description": "An expander for the TuringMaschine that provides additional CV outputs based on bits of the sequence. Allows complex modulation and control signals derived from the main sequence.",
       "tags": [
         "Expander"
       ]
@@ -40,115 +40,12 @@
     {
       "slug": "Tape",
       "name": "Tape Machine",
-      "description": "Authentic tape degradation engine. Saturate, wobble, and age your sound with mechanical imperfection.",
+      "description": "A detailed tape emulation module offering saturation, wow & flutter, bias shaping, and vintage tape coloration. Perfect for adding analog warmth and character to your sound.",
       "tags": [
         "Effect",
         "Dynamics",
         "Physical modeling",
         "Distortion"
-      ]
-    },
-    {
-      "slug": "Kabaddon",
-      "name": "Kabaddon",
-      "description": "Brutal percussive synth. Spectral waveshaping meets kick drum physics for earth-shaking low end.",
-      "tags": [
-        "Oscillator"
-      ]
-    },
-    {
-      "slug": "Andras",
-      "name": "Andras",
-      "description": "Hybrid beast oscillator. Fuse clean waveforms with chaotic bit textures and voltage-controlled combs for massive, evolving tones.",
-      "tags": [
-        "Oscillator",
-        "Noise"
-      ]
-    },
-    {
-      "slug": "Ahriman",
-      "name": "Ahriman",
-      "description": "Haunted stereo reverb. Dense, modulated spaces that range from ethereal shimmer to corrupted digital decay.",
-      "tags": [
-        "Effect",
-        "Reverb",
-        "Delay"
-      ]
-    },
-    {
-      "slug": "Leviathan",
-      "name": "Leviathan",
-      "description": "Techno destruction unit. Fold, crush, and octavize with DOOM subs and the legendary Smoosh algorithm.",
-      "tags": [
-        "Distortion",
-        "Effect"
-      ]
-    },
-    {
-      "slug": "Sitri",
-      "name": "Sitri",
-      "description": "Algorithmic brain sequencer. Multiple generative engines with swing, quantization, and velocity shaping\u2014expandable via Lilith modules.",
-      "tags": [
-        "Sequencer"
-      ]
-    },
-    {
-      "slug": "Lilith",
-      "name": "Lilith",
-      "description": "8-step companion to Sitri's brain. Per-step CV sculpting and gate logic, standalone or chained.",
-      "tags": [
-        "Sequencer",
-        "Expander"
-      ]
-    },
-    {
-      "slug": "LilithAdvance",
-      "name": "Lilith Advance",
-      "description": "16-step evolution of Lilith. Extended per-step control for deeper sequence manipulation.",
-      "tags": [
-        "Sequencer",
-        "Expander"
-      ]
-    },
-    {
-      "slug": "Buer",
-      "name": "Buer",
-      "description": "Per-step modulation control center. Attenuvert and remotely tweak every parameter of your Lilith sequences.",
-      "tags": [
-        "Expander",
-        "Utility",
-        "Sequencer"
-      ]
-    },
-    {
-      "slug": "NergalAmp",
-      "name": "Nergal Amp",
-      "description": "Neural amp modeling unleashed. Load NAM profiles, shape tone, and voltage-control every parameter for dynamic amp responses.",
-      "tags": [
-        "Effect",
-        "Dynamics",
-        "Physical modeling",
-        "Distortion"
-      ]
-    },
-    {
-      "slug": "SabnockOTT",
-      "name": "Sabnock OTT",
-      "description": "Surgical multiband domination. OTT-style compression with per-band upward/downward control and deep CV integration.",
-      "tags": [
-        "Dynamics",
-        "Effect",
-        "Utility"
-      ]
-    },
-    {
-      "slug": "Xezbeth4X",
-      "name": "Xezbeth:4X",
-      "description": "Boutique summing mixer. Choose pristine clarity or Neve-style harmonics with flexible pan laws and pro metering.",
-      "tags": [
-        "Mixer",
-        "Utility",
-        "Dynamics"
       ]
     }
   ]
