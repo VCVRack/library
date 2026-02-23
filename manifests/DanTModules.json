@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.5.3",
+  "version": "2.6.0",
   "minRackVersion": "2.6.6",
   "license": "proprietary",
   "brand": "DanT",
@@ -211,6 +211,18 @@
       ],
       "keywords": "charlie foxtrot cluster funk VCA slew counter rise fall",
       "manualUrl": "https://community.vcvrack.com/t/dant-charlie-foxtrot/"
+    },
+    {
+      "slug": "Pitchness",
+      "name": "Pitchness",
+      "description": "[24hp] Simple 16-Channel output of pitch fixed voltages.",
+      "tags": [
+        "Polyphonic",
+        "Tuner",
+        "Utility"
+      ],
+      "keywords": "pitch notes scales chords modes fixed volrtage output",
+      "manualUrl": "https://community.vcvrack.com/t/dant-pitchness/"
     },
     {
       "slug": "TNM",
