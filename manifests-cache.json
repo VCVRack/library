@@ -16429,5 +16429,17 @@
         "creationTimestamp": 1771541758.8979719
       }
     }
+  },
+  "sosci": {
+    "buildTimestamp": 1771830947.4137726,
+    "creationTimestamp": 1771830948.9929235,
+    "modules": {
+      "sosci": {
+        "creationTimestamp": 1771830949.0832582
+      },
+      "sosciwide": {
+        "creationTimestamp": 1771830949.1693769
+      }
+    }
   }
 }

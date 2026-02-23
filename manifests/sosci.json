@@ -1,0 +1,31 @@
+{
+  "slug": "sosci",
+  "name": "sosci",
+  "version": "2.6.27",
+  "license": "https://vcvrack.com/eula",
+  "brand": "jameshball",
+  "author": "jameshball",
+  "authorEmail": "james@ball.sh",
+  "authorUrl": "https://osci-render.com/",
+  "pluginUrl": "https://osci-render.com/sosci",
+  "manualUrl": "https://osci-render.com/sosci",
+  "changelogUrl": "https://osci-render.com/sosci",
+  "modules": [
+    {
+      "slug": "sosci",
+      "name": "sosci",
+      "description": "sosci realistic software oscilloscope",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "sosciwide",
+      "name": "sosci wide",
+      "description": "Double-width sosci scope with full-screen display",
+      "tags": [
+        "Visual"
+      ]
+    }
+  ]
+}
