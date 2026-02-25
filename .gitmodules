@@ -999,3 +999,6 @@
 [submodule "repos/CavianSequencer"]
 	path = repos/CavianSequencer
 	url = https://github.com/nikscave/Cavian-VCV.git
+[submodule "repos/C1-ChannelStrip"]
+	path = repos/C1-ChannelStrip
+	url = https://github.com/Eurikon/C1-ChannelStrip.git
