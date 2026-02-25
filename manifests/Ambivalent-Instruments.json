@@ -1,7 +1,7 @@
 {
   "slug": "Ambivalent-Instruments",
   "name": "Ambivalent Instruments",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "minRackVersion": "2.0.0",
   "license": "proprietary",
   "brand": "Ambivalent Instruments",
@@ -88,6 +88,36 @@
         "Effect",
         "Digital",
         "Delay"
+      ]
+    },
+    {
+      "slug": "Cheby",
+      "name": "Cheby",
+      "description": "Chebyshev harmonic generator with H1-H8 sliders",
+      "tags": [
+        "Effect",
+        "Distortion",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Seq8",
+      "name": "Seq8",
+      "description": "8-step CV/Gate sequencer",
+      "tags": [
+        "Sequencer",
+        "Clock"
+      ]
+    },
+    {
+      "slug": "AutoPanTremolo",
+      "name": "AutoPanTremolo",
+      "description": "Stereo auto-pan and tremolo effect with adjustable LFO curve and sync",
+      "tags": [
+        "Effect",
+        "Panning",
+        "Tremolo",
+        "LFO"
       ]
     }
   ]
