@@ -1005,3 +1005,6 @@
 [submodule "repos/kathode"]
 	path = repos/kathode
 	url = https://github.com/ketodin/kathode.git
+[submodule "repos/wintoid"]
+	path = repos/wintoid
+	url = https://github.com/wintocode/wintoid-vcv.git
