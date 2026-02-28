@@ -1002,3 +1002,6 @@
 [submodule "repos/C1-ChannelStrip"]
 	path = repos/C1-ChannelStrip
 	url = https://github.com/Eurikon/C1-ChannelStrip.git
+[submodule "repos/kathode"]
+	path = repos/kathode
+	url = https://github.com/ketodin/kathode.git
