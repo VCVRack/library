@@ -8,14 +8,15 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/mysteries/",
   "authorUrl": "https://www.vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "modules": [
     {
       "slug": "Anima",
       "name": "Anima",
       "tags": [
         "Sequencer",
-        "Random"
+        "Random",
+        "Hardware clone"
       ],
       "description": "Psychic Sequence Generator",
       "modularGridUrl": "https://modulargrid.net/e/vult-anima"
@@ -49,7 +50,8 @@
       "slug": "Feigen",
       "name": "Feigen",
       "tags": [
-        "Random"
+        "Random",
+        "Hardware clone"
       ],
       "description": "Bifurcations Generator",
       "modularGridUrl": "https://modulargrid.net/e/vult-feigen"

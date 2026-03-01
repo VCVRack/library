@@ -6698,7 +6698,7 @@
     }
   },
   "VultModulesFree": {
-    "buildTimestamp": 1742572878.086687,
+    "buildTimestamp": 1772349052.7978723,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Basal": {
@@ -7813,7 +7813,7 @@
     }
   },
   "VultCompacts": {
-    "buildTimestamp": 1742572850.2259204,
+    "buildTimestamp": 1772349050.696575,
     "creationTimestamp": 1527117794.0,
     "modules": {
       "Freak": {
@@ -7833,6 +7833,9 @@
       },
       "Vraids": {
         "creationTimestamp": 1617855559.0811613
+      },
+      "Caudal-HW": {
+        "creationTimestamp": 1772349054.9145646
       }
     }
   },
@@ -8531,7 +8534,7 @@
     }
   },
   "VultMysteries": {
-    "buildTimestamp": 1742572882.1516535,
+    "buildTimestamp": 1772349053.6869977,
     "creationTimestamp": 1563301966.0,
     "modules": {
       "Lapsus": {
@@ -8980,7 +8983,7 @@
     "modules": {}
   },
   "VultModules": {
-    "buildTimestamp": 1742572856.8158648,
+    "buildTimestamp": 1772349051.7937303,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Basal": {
@@ -15117,7 +15120,7 @@
     }
   },
   "SynthesizersDotCom": {
-    "buildTimestamp": 1739535826.7096033,
+    "buildTimestamp": 1772349049.570831,
     "creationTimestamp": 1729832412.7974162,
     "modules": {
       "Q105": {

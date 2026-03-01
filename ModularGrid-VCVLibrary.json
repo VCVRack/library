@@ -2565,5 +2565,12 @@
     "vcvUrl": "https://library.vcvrack.com/BastlPizza/Basil",
     "mgUrl": "https://modulargrid.net/e/bastl-instruments-basil",
     "mgModuleId": 44097
+  },
+  {
+    "pluginSlug": "VultCompacts",
+    "moduleSlug": "Caudal-HW",
+    "vcvUrl": "https://library.vcvrack.com/VultCompacts/Caudal-HW",
+    "mgUrl": "https://modulargrid.net/e/vult-caudal-",
+    "mgModuleId": 46429
   }
 ]

@@ -8,8 +8,18 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/compacts/",
   "authorUrl": "https://www.vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "modules": [
+    {
+      "slug": "Caudal-HW",
+      "name": "Caudal-HW",
+      "tags": [
+        "Random",
+        "Hardware clone"
+      ],
+      "description": "Mechanical Chaos Source",
+      "modularGridUrl": "https://modulargrid.net/e/vult-caudal-"
+    },
     {
       "slug": "Freak",
       "name": "Freak",
