@@ -1011,3 +1011,6 @@
 [submodule "repos/TwinSlide"]
 	path = repos/TwinSlide
 	url = https://github.com/Eurikon/Twin-Slide.git
+[submodule "repos/Leviathan"]
+	path = repos/Leviathan
+	url = https://github.com/PlasmaChroma/Leviathan-Rack2.git
