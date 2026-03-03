@@ -1008,3 +1008,6 @@
 [submodule "repos/wintoid"]
 	path = repos/wintoid
 	url = https://github.com/wintocode/wintoid-vcv.git
+[submodule "repos/TwinSlide"]
+	path = repos/TwinSlide
+	url = https://github.com/Eurikon/Twin-Slide.git
