@@ -1,0 +1,27 @@
+{
+  "slug": "kathode",
+  "name": "Kathode",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "ketodin",
+  "author": "ketodin",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/ketodin",
+  "pluginUrl": "https://github.com/ketodin/kathode",
+  "manualUrl": "https://github.com/ketodin/kathode",
+  "sourceUrl": "https://github.com/ketodin/kathode#readme",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "minRackVersion": "2.4.0",
+  "modules": [
+    {
+      "slug": "kathode",
+      "name": "Kathode",
+      "description": "XY Lissajous oscilloscope visualizer with CV-controlled hue, gain, afterglow and rotation.",
+      "manualUrl": "",
+      "tags": [
+        "Visual"
+      ]
+    }
+  ]
+}

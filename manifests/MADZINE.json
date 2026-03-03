@@ -1,7 +1,7 @@
 {
   "slug": "MADZINE",
   "name": "MADZINE",
-  "version": "2.4.3",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "brand": "MADZINE",
   "author": "MAD",
@@ -348,6 +348,24 @@
       "tags": [
         "Drum",
         "Synth voice"
+      ]
+    },
+    {
+      "slug": "theKICK",
+      "name": "theKICK",
+      "description": "Kick drum synthesizer with pitch sweep, bend curve and tanh waveshaper",
+      "tags": [
+        "Drum",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "Manual",
+      "name": "Manual",
+      "description": "Interactive help display showing module descriptions when hovering MADZINE modules",
+      "tags": [
+        "Utility",
+        "Visual"
       ]
     }
   ]

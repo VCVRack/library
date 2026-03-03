@@ -1,7 +1,8 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.1.0",
+  "version": "2.2.0",
+  "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
   "author": "Stuart Frederich-Smith",
@@ -9,7 +10,7 @@
   "authorUrl": "https://signalfunctionset.com/",
   "pluginUrl": "https://signalfunctionset.com/",
   "manualUrl": "https://signalfunctionset.com/tagged/vcv",
-  "sourceUrl": "",
+  "sourceUrl": "https://github.com/stuart78/SignalFunctionSet",
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
@@ -31,6 +32,16 @@
       "tags": [
         "Granular",
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "Fugue",
+      "name": "Fugue",
+      "description": "8-step harmonic deviation sequencer with three independent CV/gate voices",
+      "tags": [
+        "Sequencer",
+        "Polyphonic",
+        "Quantizer"
       ]
     }
   ]

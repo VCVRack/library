@@ -1,0 +1,102 @@
+{
+  "slug": "C1-ChannelStrip",
+  "name": "C1 Channel Strip",
+  "version": "2.1.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Twisted Cable",
+  "author": "Latif Karoumi",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/Eurikon/C1-ChannelStrip",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ChanIn",
+      "name": "CHAN-IN",
+      "description": "Input with VCA, high/low cuts, and phase invert",
+      "tags": [
+        "VCA",
+        "Filter",
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ChanInCV",
+      "name": "CHI-X",
+      "description": "CV expander for CHAN-IN",
+      "tags": [
+        "Expander",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Shape",
+      "name": "SHAPE",
+      "description": "Gate with metering and sidechain",
+      "tags": [
+        "Envelope follower",
+        "Utility",
+        "Dynamics"
+      ]
+    },
+    {
+      "slug": "ShapeCV",
+      "name": "SH-X",
+      "description": "CV expander for SHAPE",
+      "tags": [
+        "Expander",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "C1EQ",
+      "name": "C1-EQ",
+      "description": "4 band EQ with analog character",
+      "tags": [
+        "Equalizer",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "C1COMP",
+      "name": "C1-COMP",
+      "description": "Compressor with 4 modes",
+      "tags": [
+        "Dynamics",
+        "Compressor"
+      ]
+    },
+    {
+      "slug": "C1COMPCV",
+      "name": "COM-X",
+      "description": "CV expander for C1-COMP",
+      "tags": [
+        "Expander",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ChanOut",
+      "name": "CHAN-OUT",
+      "description": "Output with saturation and limiting",
+      "tags": [
+        "VCA",
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ChanOutCV",
+      "name": "CHO-X",
+      "description": "CV expander for CHAN-OUT",
+      "tags": [
+        "Expander",
+        "Utility"
+      ]
+    }
+  ]
+}

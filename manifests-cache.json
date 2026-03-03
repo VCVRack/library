@@ -381,7 +381,7 @@
     }
   },
   "voxglitch": {
-    "buildTimestamp": 1767389792.631489,
+    "buildTimestamp": 1772563195.1557236,
     "creationTimestamp": 1579792597.0,
     "modules": {
       "autobreak": {
@@ -8699,7 +8699,7 @@
     }
   },
   "Autinn": {
-    "buildTimestamp": 1771882076.2315106,
+    "buildTimestamp": 1772561756.8553324,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "Amp": {
@@ -8794,6 +8794,12 @@
       },
       "Excavi": {
         "creationTimestamp": 1771882405.063548
+      },
+      "Fauna": {
+        "creationTimestamp": 1772563211.9383876
+      },
+      "Alias": {
+        "creationTimestamp": 1772563212.0294187
       }
     }
   },
@@ -11835,7 +11841,7 @@
     }
   },
   "StochasticTelegraph": {
-    "buildTimestamp": 1767389313.5647697,
+    "buildTimestamp": 1772562855.0641248,
     "creationTimestamp": 1649868370.1906905,
     "modules": {
       "Drifter": {
@@ -15978,7 +15984,7 @@
     }
   },
   "MADZINE": {
-    "buildTimestamp": 1771177076.133649,
+    "buildTimestamp": 1772562597.8197463,
     "creationTimestamp": 1754214222.0569358,
     "modules": {
       "SwingLFO": {
@@ -16088,6 +16094,12 @@
       },
       "Drummmmmmer": {
         "creationTimestamp": 1771177855.9732537
+      },
+      "theKICK": {
+        "creationTimestamp": 1772563211.5308423
+      },
+      "Manual": {
+        "creationTimestamp": 1772563211.626052
       }
     }
   },
@@ -16356,7 +16368,7 @@
     }
   },
   "SignalFunctionSet": {
-    "buildTimestamp": 1764363774.9509416,
+    "buildTimestamp": 1772562717.8032687,
     "creationTimestamp": 1762139014.4446235,
     "modules": {
       "Drift": {
@@ -16364,6 +16376,9 @@
       },
       "gsx": {
         "creationTimestamp": 1764364587.7314084
+      },
+      "Fugue": {
+        "creationTimestamp": 1772563211.4080374
       }
     }
   },
@@ -16511,6 +16526,84 @@
       },
       "sosciwide": {
         "creationTimestamp": 1771830949.1693769
+      }
+    }
+  },
+  "kathode": {
+    "buildTimestamp": 1772562931.513452,
+    "creationTimestamp": 1772563209.1132112,
+    "modules": {
+      "kathode": {
+        "creationTimestamp": 1772563209.2286031
+      }
+    }
+  },
+  "C1-ChannelStrip": {
+    "buildTimestamp": 1772561818.0504851,
+    "creationTimestamp": 1772563209.3487666,
+    "modules": {
+      "ChanIn": {
+        "creationTimestamp": 1772563209.4350464
+      },
+      "ChanInCV": {
+        "creationTimestamp": 1772563209.5304115
+      },
+      "Shape": {
+        "creationTimestamp": 1772563209.6761677
+      },
+      "ShapeCV": {
+        "creationTimestamp": 1772563209.8237672
+      },
+      "C1EQ": {
+        "creationTimestamp": 1772563209.923494
+      },
+      "C1COMP": {
+        "creationTimestamp": 1772563210.0182004
+      },
+      "C1COMPCV": {
+        "creationTimestamp": 1772563210.1092098
+      },
+      "ChanOut": {
+        "creationTimestamp": 1772563210.2425578
+      },
+      "ChanOutCV": {
+        "creationTimestamp": 1772563210.3757803
+      }
+    }
+  },
+  "TwinSlide": {
+    "buildTimestamp": 1772562906.0528123,
+    "creationTimestamp": 1772563210.526219,
+    "modules": {
+      "TwinSlide": {
+        "creationTimestamp": 1772563210.665106
+      },
+      "TwinSlideExpander": {
+        "creationTimestamp": 1772563210.7831507
+      },
+      "MonoSlide": {
+        "creationTimestamp": 1772563210.901616
+      }
+    }
+  },
+  "wintoid": {
+    "buildTimestamp": 1772563208.5136154,
+    "creationTimestamp": 1772563211.0369837,
+    "modules": {
+      "FourMM": {
+        "creationTimestamp": 1772563211.1670485
+      },
+      "VortexMM": {
+        "creationTimestamp": 1772563211.2976546
+      }
+    }
+  },
+  "Leviathan": {
+    "buildTimestamp": 1772561831.671518,
+    "creationTimestamp": 1772563211.7422953,
+    "modules": {
+      "IntegralFlux": {
+        "creationTimestamp": 1772563211.8295484
       }
     }
   }

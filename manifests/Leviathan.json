@@ -1,0 +1,29 @@
+{
+  "slug": "Leviathan",
+  "name": "Leviathan",
+  "version": "2.1.3",
+  "license": "GPL-3.0-or-later",
+  "brand": "Leviathan",
+  "author": "Levi Kendall",
+  "authorEmail": "levi.kendall@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/PlasmaChroma/Leviathan-Rack2",
+  "donateUrl": "bitcoin:16hdj3P95whJqBiQqe6Aj4UewTQgxzuhTv",
+  "changelogUrl": "https://github.com/PlasmaChroma/Leviathan-Rack2/blob/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "IntegralFlux",
+      "name": "Integral Flux",
+      "description": "Dual slope generator, variable curve slew, attenuverters, signal mixing, full audio-rate fidelity.",
+      "tags": [
+        "Function Generator",
+        "Logic",
+        "Slew Limiter",
+        "Envelope Follower",
+        "Dual"
+      ]
+    }
+  ]
+}

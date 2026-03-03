@@ -1,0 +1,45 @@
+{
+  "slug": "TwinSlide",
+  "name": "Twin Slide",
+  "version": "2.1.6",
+  "license": "GPL-3.0-or-later",
+  "brand": "Twisted Cable",
+  "author": "Latif Karoumi",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/Eurikon/Twin-Slide/blob/master/docs/TwinSlide_manual.md",
+  "sourceUrl": "https://github.com/Eurikon/Twin-Slide",
+  "donateUrl": "https://buymeacoffee.com/twistedcable",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "TwinSlide",
+      "name": "TwinSlide",
+      "description": "Dual acid bass synthesizer",
+      "keywords": "303 bass",
+      "tags": [
+        "Synth voice",
+        "Sequencer",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "TwinSlideExpander",
+      "name": "TwinSlide Expander",
+      "description": "CV/Gate I/O expander for TwinSlide",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "MonoSlide",
+      "name": "MonoSlide",
+      "description": "Mono acid bass synthesizer",
+      "keywords": "303 bass",
+      "tags": [
+        "Synth voice"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "wintoid",
+  "name": "wintoid",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "wintoid",
+  "author": "wintoid",
+  "authorEmail": "135022276+wintocode@users.noreply.github.com",
+  "authorUrl": "https://github.com/wintocode",
+  "pluginUrl": "https://github.com/wintocode/wintoid-vcv",
+  "sourceUrl": "https://github.com/wintocode/wintoid-vcv",
+  "minRackVersion": "2.0.0",
+  "modules": [
+    {
+      "slug": "FourMM",
+      "name": "FourMM",
+      "description": "4-operator FM/PM synthesizer with waveshaping, wavefolding, and feedback",
+      "manualUrl": "https://github.com/wintocode/wintoid-vcv#fourmm",
+      "tags": [
+        "Oscillator",
+        "Digital",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "VortexMM",
+      "name": "VortexMM",
+      "description": "12-mode multi-mode filter with drive and CV control. Filter DSP by Yuriy Ivantsov (ivantsov-filters)",
+      "manualUrl": "https://github.com/wintocode/wintoid-vcv#vortexmm",
+      "tags": [
+        "Filter",
+        "Effect"
+      ]
+    }
+  ]
+}

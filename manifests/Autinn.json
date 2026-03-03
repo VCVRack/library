@@ -1,7 +1,7 @@
 {
   "slug": "Autinn",
   "name": "Autinn",
-  "version": "2.6.30",
+  "version": "2.6.31",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Autinn",
@@ -116,7 +116,18 @@
     {
       "slug": "Retri",
       "name": "Flora",
-      "description": "A 24dB low-pass filter emulating a 4-pole transistor ladder",
+      "description": "A 24dB low-pass filter emulating a 4-pole transistor ladder.",
+      "keywords": "24db ladder",
+      "tags": [
+        "Filter",
+        "Physical modeling",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Fauna",
+      "name": "Fauna",
+      "description": "A 24dB low-pass filter emulating a 4-pole transistor ladder (ZDF)",
       "keywords": "24db ladder",
       "tags": [
         "Filter",
@@ -127,7 +138,8 @@
     {
       "slug": "Saw",
       "name": "Saw",
-      "description": "Oscillator with a sawish sound",
+      "description": "Oscillator with a sawish sound. Deprecated in favor of Axe.",
+      "hidden": true,
       "tags": [
         "Oscillator",
         "Polyphonic"
@@ -153,7 +165,8 @@
     {
       "slug": "Square",
       "name": "Square",
-      "description": "Oscillator with a squarish sound",
+      "description": "Oscillator with a squarish sound. Deprecated in favor of Axe.",
+      "hidden": true,
       "tags": [
         "Oscillator",
         "Polyphonic"
@@ -313,7 +326,8 @@
       "keywords": "measure monitor",
       "tags": [
         "Visual",
-        "Utility"
+        "Utility",
+        "Polyphonic"
       ]
     },
     {
@@ -326,6 +340,17 @@
         "Polyphonic",
         "Dual",
         "Ring modulator"
+      ]
+    },
+    {
+      "slug": "Alias",
+      "name": "Aliasmeter",
+      "description": "Alias/noise to signal meter",
+      "keywords": "measure monitor analyse",
+      "hidden": false,
+      "tags": [
+        "Visual",
+        "Utility"
       ]
     }
   ]
