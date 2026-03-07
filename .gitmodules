@@ -1014,3 +1014,6 @@
 [submodule "repos/Leviathan"]
 	path = repos/Leviathan
 	url = https://github.com/PlasmaChroma/Leviathan-Rack2.git
+[submodule "repos/RexAudio"]
+	path = repos/RexAudio
+	url = https://github.com/RexAudio/VCV.git
