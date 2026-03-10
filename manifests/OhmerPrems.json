@@ -1,7 +1,7 @@
 {
   "slug": "OhmerPrems",
   "name": "OhmerPrems",
-  "version": "2.6.7",
+  "version": "2.6.8",
   "license": "proprietary",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
@@ -16,6 +16,7 @@
       "slug": "FroeZe",
       "name": "FroeZe",
       "description": "16-track 64-step 128-pattern drum-based sequencer (trigger or audio outputs)",
+      "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/FroeZe/Manual.md",
       "tags": [
         "Drum",
         "Sequencer"
@@ -25,6 +26,7 @@
       "slug": "FroeZeX",
       "name": "FroeZe-X",
       "description": "12HP \"right-side\" expander for FroeZe: additional outputs (AC'd notes) / edit features",
+      "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/FroeZe/Manual.md",
       "tags": [
         "Expander",
         "Drum",
@@ -35,6 +37,7 @@
       "slug": "FroeZeSX",
       "name": "FroeZe-SX",
       "description": "14HP \"left-side\" expander for FroeZe: per-track %SWING CV inputs",
+      "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/FroeZe/Manual.md",
       "tags": [
         "Expander",
         "Drum",
@@ -45,6 +48,7 @@
       "slug": "KlokSpidMkII",
       "name": "KlokSpid MkII",
       "description": "16HP CPU-based programmable clocked modulation source",
+      "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/KlokSpidMkII/Manual.md",
       "tags": [
         "Clock generator",
         "Clock modulator",
@@ -55,6 +59,7 @@
       "slug": "KX",
       "name": "KX",
       "description": "3HP \"left-side\" expander for KlokSpid MkII: discrete CLK, RUN, and RESET inputs, plus two pre-offsets CV (assignable to quantizers)",
+      "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/KlokSpidMkII/Manual.md",
       "tags": [
         "Clock generator",
         "Clock modulator",
@@ -66,6 +71,7 @@
       "slug": "KordZ",
       "name": "KordZ",
       "description": "Notes/intervals/chords display (based on 1V/octave)",
+      "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/KordZ/Manual.md",
       "tags": [
         "Visual",
         "Polyphonic"
@@ -75,6 +81,7 @@
       "slug": "QuadPercs",
       "name": "QuadPercs",
       "description": "Quad-channel drum machines",
+      "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/QuadPercs/Manual.md",
       "tags": [
         "Drum",
         "Quad"
@@ -84,7 +91,8 @@
       "hidden": true,
       "slug": "6OPDX",
       "name": "6OP-DX",
-      "description": "117HP 6-operator FM synthesizer",
+      "description": "117HP 6-operator algorithm-based PM (phase modulation) synthesizer",
+      "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/6OP-DX/Manual.md",
       "tags": [
         "Synth voice",
         "Polyphonic"
