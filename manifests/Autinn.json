@@ -1,7 +1,7 @@
 {
   "slug": "Autinn",
   "name": "Autinn",
-  "version": "2.6.31",
+  "version": "2.6.32",
   "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Autinn",
@@ -29,7 +29,7 @@
       "slug": "Bass",
       "name": "Bass",
       "description": "Bass and Acid synth",
-      "keywords": "acid",
+      "keywords": "acid 303",
       "tags": [
         "Filter",
         "Physical modeling"
@@ -351,6 +351,39 @@
       "tags": [
         "Visual",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Trace",
+      "name": "Lissajous",
+      "description": "Lissajous oscillator",
+      "keywords": "oscilloscope scope",
+      "tags": [
+        "Oscillator",
+        "Low-frequency oscillator",
+        "Visual",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Au",
+      "name": "Au",
+      "description": "Polyphonic chord converger",
+      "keywords": "",
+      "hidden": false,
+      "tags": [
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Big",
+      "name": "Myria",
+      "description": "16 voice polyphonic chord generator",
+      "keywords": "",
+      "hidden": false,
+      "tags": [
+        "Polyphonic"
       ]
     }
   ]

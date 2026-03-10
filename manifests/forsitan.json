@@ -1,7 +1,7 @@
 {
   "slug": "forsitan",
   "name": "forsitan modulare",
-  "version": "2.0.2",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "forsitan modulare",
   "author": "Giampaolo Guiducci",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/gosub/forsitan-modulare#forsitan-modulare",
   "sourceUrl": "https://github.com/gosub/forsitan-modulare",
   "donateUrl": "",
-  "changelogUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.0.2/CHANGELOG.md",
+  "changelogUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.2.0/CHANGELOG.md",
   "modules": [
     {
       "slug": "alea",
@@ -55,6 +55,14 @@
       "tags": [
         "Panning",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "limen",
+      "name": "limen",
+      "description": "TCP + JSON interface for controlling VCV Rack from external tools (e.g. Emacs).",
+      "tags": [
+        "Utility"
       ]
     }
   ]

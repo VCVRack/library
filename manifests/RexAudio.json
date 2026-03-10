@@ -1,0 +1,19 @@
+{
+  "slug": "RexAudio",
+  "name": "Rex Audio",
+  "brand": "Rex Audio",
+  "author": "Rex Audio",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "modules": [
+    {
+      "slug": "FMtool",
+      "name": "FM Tool",
+      "description": "DX-style FM/PM effect with audio input",
+      "tags": [
+        "Effect",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
