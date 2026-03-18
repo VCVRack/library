@@ -1,7 +1,7 @@
 {
   "slug": "Ambivalent-Instruments",
   "name": "Ambivalent Instruments",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "minRackVersion": "2.0.0",
   "license": "proprietary",
   "brand": "Ambivalent Instruments",
@@ -13,7 +13,7 @@
   "sourceUrl": "",
   "changelogUrl": "",
   "donateUrl": "https://paypal.me/tsugumasa320",
-  "description": "",
+  "description": "Ambivalent Instruments (abbreviated as \"ambv inst.\") is an independent modular synthesizer developer based in Japan.",
   "modules": [
     {
       "slug": "Grainer",
