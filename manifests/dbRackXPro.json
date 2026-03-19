@@ -1,0 +1,34 @@
+{
+  "slug": "dbRackXPro",
+  "name": "dbRackXPro",
+  "version": "2.0.2",
+  "license": "proprietary",
+  "brand": "docB",
+  "author": "docB",
+  "authorEmail": "docb22@googlemail.com",
+  "authorUrl": "https://docb.io",
+  "pluginUrl": "https://docb.io/speakerpro",
+  "manualUrl": "https://docb.io/speakerpro",
+  "sourceUrl": "",
+  "donateUrl": "https://www.paypal.com/paypalme/docb222",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "SpeakerPro",
+      "name": "SpeakerPro",
+      "description": "Speech Synthesizer",
+      "tags": [
+        "Speech"
+      ]
+    },
+    {
+      "slug": "LS",
+      "name": "LS",
+      "description": "Latentspace Expander for SpeakerPro",
+      "hidden": true,
+      "tags": [
+        "Expander"
+      ]
+    }
+  ]
+}

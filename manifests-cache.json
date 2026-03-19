@@ -16630,5 +16630,17 @@
         "creationTimestamp": 1773171822.4241476
       }
     }
+  },
+  "dbRackXPro": {
+    "buildTimestamp": 1773906474.6522224,
+    "creationTimestamp": 1773906477.9696543,
+    "modules": {
+      "SpeakerPro": {
+        "creationTimestamp": 1773906478.0624387
+      },
+      "LS": {
+        "creationTimestamp": 1773906478.1731122
+      }
+    }
   }
 }
