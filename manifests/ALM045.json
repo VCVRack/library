@@ -1,0 +1,28 @@
+{
+  "slug": "ALM045",
+  "name": "ALM Busy Circuits FMco",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "ALM Busy Circuits",
+  "author": "ALM",
+  "authorEmail": "help@busycircuits.com",
+  "authorUrl": "https://busycircuits.com",
+  "pluginUrl": "https://busycircuits.com/alm045/",
+  "manualUrl": "https://busycircuits.com/docs/alm045-manual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "FMco",
+      "name": "FMco",
+      "description": "ALM045 FMco: FM oscillator",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-fmco",
+      "tags": [
+        "Oscillator",
+        "Digital",
+        "FM"
+      ]
+    }
+  ]
+}

@@ -2572,5 +2572,12 @@
     "vcvUrl": "https://library.vcvrack.com/VultCompacts/Caudal-HW",
     "mgUrl": "https://modulargrid.net/e/vult-caudal-",
     "mgModuleId": 46429
+  },
+  {
+    "pluginSlug": "ALM045",
+    "moduleSlug": "FMco",
+    "vcvUrl": "https://library.vcvrack.com/ALM045/FMco",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-fmco",
+    "mgModuleId": 57529
   }
 ]
