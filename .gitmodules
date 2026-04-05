@@ -1017,3 +1017,6 @@
 [submodule "repos/RexAudio"]
 	path = repos/RexAudio
 	url = https://github.com/RexAudio/VCV.git
+[submodule "repos/Chrysalis"]
+	path = repos/Chrysalis
+	url = https://github.com/celestebetancur/Chrysalis.git
