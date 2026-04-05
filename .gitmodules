@@ -1020,3 +1020,6 @@
 [submodule "repos/Chrysalis"]
 	path = repos/Chrysalis
 	url = https://github.com/celestebetancur/Chrysalis.git
+[submodule "repos/hrubix"]
+	path = repos/hrubix
+	url = https://github.com/hrubix/Invaders.git
