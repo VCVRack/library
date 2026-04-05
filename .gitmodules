@@ -1023,3 +1023,6 @@
 [submodule "repos/hrubix"]
 	path = repos/hrubix
 	url = https://github.com/hrubix/Invaders.git
+[submodule "repos/ChordChemist"]
+	path = repos/ChordChemist
+	url = https://github.com/TheDrude/ChordChemist.git
