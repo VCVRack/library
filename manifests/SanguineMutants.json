@@ -1,7 +1,7 @@
 {
   "slug": "SanguineMutants",
   "name": "Sanguine Mutants",
-  "version": "2.6.8",
+  "version": "2.6.9",
   "license": "GPL-3.0-or-later",
   "author": "Bloodbat",
   "pluginUrl": "https://github.com/Bloodbat/SanguineMutants",
@@ -256,7 +256,7 @@
     {
       "slug": "Sanguine-Velamina",
       "name": "Velamina",
-      "description": "Tetrad of voltage controller amplifiers based on the revised Veils from Mutable Instruments",
+      "description": "Tetrad of polyphonic voltage controller amplifiers based on the revised Veils from Mutable Instruments",
       "keywords": "Veils 2020",
       "tags": [
         "Mixer",
@@ -331,7 +331,7 @@
     {
       "slug": "Sanguine-Scalaria",
       "name": "Scalaria",
-      "description": "A polyphonic Moog inspired low-pass ladder filter from the original Symbiote firmware for Mutable Instruments' Warps",
+      "description": "Polyphonic Moog inspired low-pass ladder filter from the original Symbiote firmware for Mutable Instruments' Warps",
       "keywords": "Warps Moog Symbiote Low-pass LP",
       "tags": [
         "Filter",

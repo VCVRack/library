@@ -1,0 +1,30 @@
+{
+  "slug": "ChordChemist",
+  "name": "ChordChemist",
+  "version": "2.0.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "Drude",
+  "author": "Drude",
+  "authorEmail": "drude@drude.net",
+  "authorUrl": "http://www.drude.net",
+  "pluginUrl": "https://github.com/TheDrude/ChordChemist",
+  "manualUrl": "https://github.com/TheDrude/ChordChemist/blob/main/ChordChemistManual.md",
+  "sourceUrl": "https://github.com/TheDrude/ChordChemist/tree/main/src",
+  "donateUrl": "https://paypal.me/dliwer",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ChordChemist",
+      "name": "ChordChemist",
+      "description": "Circular Chord Generative Sequencer",
+      "tags": [
+        "Sequencer",
+        "Visual",
+        "Polyphonic",
+        "Poly",
+        "Utility",
+        "Quantizer"
+      ]
+    }
+  ]
+}

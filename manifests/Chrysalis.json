@@ -1,0 +1,23 @@
+{
+  "slug": "Chrysalis",
+  "name": "Chrysalis",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "celestial sound",
+  "author": "Celeste Betancur Gutierrez",
+  "authorEmail": "celeste@ccrma.stanford.edu",
+  "authorUrl": "https://www.celestebetancur.com",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/celestebetancur/Chrysalis",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Chrysalis",
+      "name": "Chrysalis",
+      "description": "ChucK Programming Language Module",
+      "tags": []
+    }
+  ]
+}

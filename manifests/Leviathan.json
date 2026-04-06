@@ -1,7 +1,7 @@
 {
   "slug": "Leviathan",
   "name": "Leviathan",
-  "version": "2.1.3",
+  "version": "2.3.12",
   "license": "GPL-3.0-or-later",
   "brand": "Leviathan",
   "author": "Levi Kendall",
@@ -10,7 +10,7 @@
   "pluginUrl": "",
   "manualUrl": "",
   "sourceUrl": "https://github.com/PlasmaChroma/Leviathan-Rack2",
-  "donateUrl": "bitcoin:16hdj3P95whJqBiQqe6Aj4UewTQgxzuhTv",
+  "donateUrl": "https://buymeacoffee.com/dragonkingleviathan",
   "changelogUrl": "https://github.com/PlasmaChroma/Leviathan-Rack2/blob/master/CHANGELOG.md",
   "modules": [
     {
@@ -24,6 +24,36 @@
         "Envelope Follower",
         "Dual"
       ]
+    },
+    {
+      "slug": "Proc",
+      "name": "Proc",
+      "description": "Generator, slew limiter, and envelope follower.",
+      "tags": [
+        "Function Generator",
+        "Slew Limiter",
+        "Envelope Follower"
+      ]
+    },
+    {
+      "slug": "TemporalDeck",
+      "name": "Temporal Deck",
+      "description": "Virtual turntable with modern hybrid control.",
+      "tags": [
+        "Delay",
+        "Distortion",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "TDScope",
+      "name": "TD.Scope",
+      "description": "Expander display module for Temporal Deck timeline and waveform preview.",
+      "tags": [
+        "Visualizer",
+        "Expander"
+      ],
+      "hidden": true
     }
   ]
 }

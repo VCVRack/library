@@ -11,7 +11,7 @@
   "sourceUrl": "https://github.com/cschol/modular80.git",
   "changelogUrl": "https://github.com/cschol/modular80/blob/v2/CHANGELOG.md",
   "donateUrl": "",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "modules": [
     {
       "slug": "Logistiker",

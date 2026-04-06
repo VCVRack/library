@@ -1,7 +1,7 @@
 {
   "slug": "forsitan",
   "name": "forsitan modulare",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "license": "GPL-3.0-or-later",
   "brand": "forsitan modulare",
   "author": "Giampaolo Guiducci",
@@ -11,12 +11,13 @@
   "manualUrl": "https://github.com/gosub/forsitan-modulare#forsitan-modulare",
   "sourceUrl": "https://github.com/gosub/forsitan-modulare",
   "donateUrl": "",
-  "changelogUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.2.0/CHANGELOG.md",
+  "changelogUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.2.1/CHANGELOG.md",
   "modules": [
     {
       "slug": "alea",
       "name": "alea",
       "description": "Add a random module to your rack.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/alea.md",
       "tags": [
         "Random",
         "Utility"
@@ -26,6 +27,7 @@
       "slug": "interea",
       "name": "interea",
       "description": "Make a chord from a V/Oct input, with quality, voicing and inversion. Harmonize option.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/interea.md",
       "tags": [
         "Quad",
         "Utility"
@@ -35,6 +37,7 @@
       "slug": "cumuli",
       "name": "cumuli",
       "description": "Accumulator with up and down gates and rates.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/cumuli.md",
       "tags": [
         "Envelope generator"
       ]
@@ -43,6 +46,7 @@
       "slug": "deinde",
       "name": "deinde",
       "description": "Quad cascading addressable attack-hold envelope.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/deinde.md",
       "tags": [
         "Envelope generator",
         "Quad"
@@ -52,6 +56,7 @@
       "slug": "pavo",
       "name": "pavo",
       "description": "Spreader of polyphonic mono signals across the stereo field (Splay Ugen).",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/pavo.md",
       "tags": [
         "Panning",
         "Polyphonic"
@@ -61,6 +66,7 @@
       "slug": "limen",
       "name": "limen",
       "description": "TCP + JSON interface for controlling VCV Rack from external tools (e.g. Emacs).",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/limen.md",
       "tags": [
         "Utility"
       ]

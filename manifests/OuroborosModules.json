@@ -1,7 +1,7 @@
 {
   "slug": "OuroborosModules",
   "name": "OuroborosModules",
-  "version": "2.1.2",
+  "version": "2.2.2",
   "license": "GPL-3.0-or-later",
   "brand": "Ouroboros Industries",
   "author": "Chronos \"phantombeta\" Ouroboros",
@@ -95,6 +95,71 @@
       ],
       "keywords": "switched mult switchedmult mults switchedmults",
       "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Branch"
+    },
+    {
+      "slug": "Automata",
+      "name": "Automata",
+      "description": "Sequencer based on Conway's Game of Life, with support for other Life-like cellular automatons through By/Sx rules",
+      "tags": [
+        "Sequencer"
+      ],
+      "keywords": "conway gol life cellular automaton gameoflife",
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Automata"
+    },
+    {
+      "slug": "PhaseDistortion",
+      "name": "Warp",
+      "description": "Audio phase-distortion waveshaper",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Polyphonic",
+        "Waveshaper"
+      ],
+      "keywords": "drive phase distortion",
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Warp"
+    },
+    {
+      "slug": "ResetHelper",
+      "name": "Reset Helper",
+      "description": "An utility to make it easier to reset sequencers from multiple sources. Converts gates to triggers, with a configurable \"merge\" time for incoming triggers.",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ],
+      "keywords": "trigger-converter triggerconverter trigger-to-gate triggertogate reset helper",
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Reset-Helper"
+    },
+    {
+      "slug": "Conductor",
+      "name": "Conductor",
+      "description": "A performance controller for switching sequencer patterns automatically, on beat.",
+      "tags": [
+        "Controller"
+      ],
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Conductor"
+    },
+    {
+      "slug": "ConductorExternal",
+      "name": "Conductor - External",
+      "description": "External MIDI controller expander for Conductor.",
+      "tags": [
+        "Controller",
+        "Expander",
+        "External"
+      ],
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Conductor-\u2010-External"
+    },
+    {
+      "slug": "ConductorGrid",
+      "name": "Conductor - Grid",
+      "description": "Virtual pad grid expander for Conductor.",
+      "tags": [
+        "Controller",
+        "Expander",
+        "Visual"
+      ],
+      "manualUrl": "https://github.com/Doom2fan/OuroborosModules/wiki/Conductor-\u2010-Grid"
     }
   ]
 }

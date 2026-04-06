@@ -2439,7 +2439,7 @@
     }
   },
   "Stoermelder-P1": {
-    "buildTimestamp": 1773171538.5759768,
+    "buildTimestamp": 1775435609.2303689,
     "creationTimestamp": 1559409342.0,
     "modules": {
       "CVMap": {
@@ -3586,7 +3586,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1771274807.3847778,
+    "buildTimestamp": 1775433276.6161826,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -5146,7 +5146,7 @@
     }
   },
   "modular80": {
-    "buildTimestamp": 1773171585.6642401,
+    "buildTimestamp": 1775436101.2510388,
     "creationTimestamp": 1521868849.0,
     "modules": {
       "Logistiker": {
@@ -10908,7 +10908,7 @@
     }
   },
   "forsitan": {
-    "buildTimestamp": 1773171560.8499343,
+    "buildTimestamp": 1775436068.140427,
     "creationTimestamp": 1623003499.343083,
     "modules": {
       "alea": {
@@ -11490,7 +11490,7 @@
     }
   },
   "dbRackModules": {
-    "buildTimestamp": 1739055240.0568607,
+    "buildTimestamp": 1775436045.405119,
     "creationTimestamp": 1641209269.2091281,
     "modules": {
       "GeneticTerrain": {
@@ -11735,6 +11735,12 @@
       },
       "DTrig": {
         "creationTimestamp": 1726454793.451714
+      },
+      "Osc22": {
+        "creationTimestamp": 1775436212.4846156
+      },
+      "FadersOne": {
+        "creationTimestamp": 1775436212.5971382
       }
     }
   },
@@ -14499,7 +14505,7 @@
     }
   },
   "SanguineMutants": {
-    "buildTimestamp": 1748966851.7929988,
+    "buildTimestamp": 1775435237.7218075,
     "creationTimestamp": 1717919524.088269,
     "modules": {
       "Funes": {
@@ -15396,7 +15402,7 @@
     }
   },
   "not-things": {
-    "buildTimestamp": 1751218198.5105402,
+    "buildTimestamp": 1775436210.6276462,
     "creationTimestamp": 1740595407.6005092,
     "modules": {
       "solim": {
@@ -15471,7 +15477,7 @@
     }
   },
   "OuroborosModules": {
-    "buildTimestamp": 1752224170.812315,
+    "buildTimestamp": 1775434618.9691174,
     "creationTimestamp": 1741467308.5818284,
     "modules": {
       "MetaModule": {
@@ -15494,6 +15500,24 @@
       },
       "Branch": {
         "creationTimestamp": 1750788217.3156688
+      },
+      "Automata": {
+        "creationTimestamp": 1775436211.3988383
+      },
+      "PhaseDistortion": {
+        "creationTimestamp": 1775436211.5026562
+      },
+      "ResetHelper": {
+        "creationTimestamp": 1775436211.6168177
+      },
+      "Conductor": {
+        "creationTimestamp": 1775436211.7321239
+      },
+      "ConductorExternal": {
+        "creationTimestamp": 1775436211.8608763
+      },
+      "ConductorGrid": {
+        "creationTimestamp": 1775436211.98109
       }
     }
   },
@@ -16182,11 +16206,14 @@
     }
   },
   "DanTSynth": {
-    "buildTimestamp": 1757919827.7350688,
+    "buildTimestamp": 1775433128.439017,
     "creationTimestamp": 1757920773.0046637,
     "modules": {
       "AOCR": {
         "creationTimestamp": 1757920773.0757954
+      },
+      "Bend": {
+        "creationTimestamp": 1775436213.0704405
       }
     }
   },
@@ -16614,20 +16641,32 @@
     }
   },
   "Leviathan": {
-    "buildTimestamp": 1772561831.671518,
+    "buildTimestamp": 1775434342.3618793,
     "creationTimestamp": 1772563211.7422953,
     "modules": {
       "IntegralFlux": {
         "creationTimestamp": 1772563211.8295484
+      },
+      "Proc": {
+        "creationTimestamp": 1775436212.7224283
+      },
+      "TemporalDeck": {
+        "creationTimestamp": 1775436212.8352993
+      },
+      "TDScope": {
+        "creationTimestamp": 1775436212.978331
       }
     }
   },
   "RexAudio": {
-    "buildTimestamp": 1773171168.753194,
+    "buildTimestamp": 1775435018.615772,
     "creationTimestamp": 1773171822.330919,
     "modules": {
       "FMtool": {
         "creationTimestamp": 1773171822.4241476
+      },
+      "PWM": {
+        "creationTimestamp": 1775436212.3361375
       }
     }
   },
@@ -16649,6 +16688,33 @@
     "modules": {
       "FMco": {
         "creationTimestamp": 1775030647.724832
+      }
+    }
+  },
+  "ChordChemist": {
+    "buildTimestamp": 1775432823.630088,
+    "creationTimestamp": 1775436210.9560611,
+    "modules": {
+      "ChordChemist": {
+        "creationTimestamp": 1775436211.034819
+      }
+    }
+  },
+  "hrubix": {
+    "buildTimestamp": 1775436075.5779953,
+    "creationTimestamp": 1775436211.1375058,
+    "modules": {
+      "Invaders": {
+        "creationTimestamp": 1775436211.236957
+      }
+    }
+  },
+  "Chrysalis": {
+    "buildTimestamp": 1775433027.3203409,
+    "creationTimestamp": 1775436212.0898075,
+    "modules": {
+      "Chrysalis": {
+        "creationTimestamp": 1775436212.2051027
       }
     }
   }

@@ -1,0 +1,27 @@
+{
+  "slug": "hrubix",
+  "name": "Rubikon Amsterdam",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Rubikon",
+  "author": "Rubikon Amsterdam",
+  "authorEmail": "rubikonelektrik@outlook.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/hrubix/Invaders",
+  "manualUrl": "https://github.com/hrubix/Invaders/wiki",
+  "sourceUrl": "https://github.com/hrubix/Invaders",
+  "donateUrl": "paypal.me/hayorubingh",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Invaders",
+      "name": "Invaders",
+      "description": "Hardware-emulated RGB LED matrix featuring a classic arcade animation engine with dynamic phosphor decay and CV-controlled glitch FX. This is a VCVRack version of a hardware prototype. Get in touch if you're interested in the hardware version.",
+      "tags": [
+        "Visualizer",
+        "Space Invaders",
+        "8 bit"
+      ]
+    }
+  ]
+}

@@ -1,18 +1,40 @@
 {
   "slug": "DanTSynth",
   "name": "DanTSynth",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "GPL-3.0-or-later",
   "brand": "DanT",
   "author": "dtilley",
   "authorUrl": "https://www.youtube.com/@MiffReal",
+  "pluginUrl": "https://library.vcvrack.com/DanTSynth",
   "sourceUrl": "https://github.com/Miff-Real/DanT.Synth",
+  "changelogUrl": "https://github.com/Miff-Real/DanT.Synth/commits/main/",
   "donateUrl": "https://ko-fi.com/dantsynth",
   "modules": [
     {
       "slug": "AOCR",
       "name": "AOCR",
-      "description": "[5HP][Polyphonic] Attenuverter & Offset & Clip & Rectify. Reorderable."
+      "description": "[5HP][Polyphonic] Attenuverter & Offset & Clip & Rectify. Reorderable.",
+      "tags": [
+        "Attenuator",
+        "Polyphonic",
+        "Utility"
+      ],
+      "keywords": "attenuverter invert offset clip clipping rectify rectification order reorderable",
+      "manualUrl": "https://github.com/Miff-Real/DanT.Synth/blob/main/docs/aocr.md"
+    },
+    {
+      "slug": "Bend",
+      "name": "Bend",
+      "description": "[8HP][Polyphonic] CV processor that produces programmable portamento, glides, envelopes, and pitch bends.",
+      "tags": [
+        "Function generator",
+        "Polyphonic",
+        "Sample and hold",
+        "Utility"
+      ],
+      "keywords": "bend slide portamento glide",
+      "manualUrl": "https://github.com/Miff-Real/DanT.Synth/blob/main/docs/bend.md"
     }
   ]
 }

@@ -3,15 +3,30 @@
   "name": "Rex Audio",
   "brand": "Rex Audio",
   "author": "Rex Audio",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "GPL-3.0-or-later",
+  "manualUrl": "https://github.com/RexAudio/VCV/blob/main/README.md",
+  "sourceUrl": "https://github.com/RexAudio/VCV",
+  "donateUrl": "https://paypal.me/RexAudioDSP",
   "modules": [
     {
       "slug": "FMtool",
       "name": "FM Tool",
       "description": "DX-style FM/PM effect with audio input",
+      "manualUrl": "https://github.com/RexAudio/VCV/blob/main/README.md#fm-tool",
       "tags": [
         "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PWM",
+      "name": "PWM",
+      "description": "Pulse-Width modulation effect with audio input",
+      "manualUrl": "https://github.com/RexAudio/VCV/blob/main/README.md#pwm",
+      "tags": [
+        "Effect",
+        "Delay",
         "Polyphonic"
       ]
     }
