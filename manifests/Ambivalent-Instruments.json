@@ -1,7 +1,7 @@
 {
   "slug": "Ambivalent-Instruments",
   "name": "Ambivalent Instruments",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "minRackVersion": "2.0.0",
   "license": "proprietary",
   "brand": "Ambivalent Instruments",
@@ -116,8 +116,18 @@
       "tags": [
         "Effect",
         "Panning",
-        "Tremolo",
-        "LFO"
+        "Tremolo"
+      ]
+    },
+    {
+      "slug": "NOISE_ERR",
+      "name": "N\u00d8!SE//ERR",
+      "description": "A dual-output noise oscillator that travels seamlessly between calm and agitation, harmony and dissonance.",
+      "tags": [
+        "Synth voice",
+        "Oscillator",
+        "Noise",
+        "Digital"
       ]
     }
   ]
