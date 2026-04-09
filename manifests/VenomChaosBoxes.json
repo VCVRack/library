@@ -1,0 +1,108 @@
+{
+  "slug": "VenomChaosBoxes",
+  "name": "Venom Chaos Boxes",
+  "description": "A collection of complete synths based on chaos derived from simple circuits and feedback",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Venom",
+  "author": "David Benham",
+  "authorEmail": "david.benham42@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/VenomChaosBoxes.md",
+  "sourceUrl": "",
+  "donateUrl": "https://paypal.me/DaveBenhamMusic",
+  "changelogUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/VenomChaosBoxesChangeLog.md",
+  "modules": [
+    {
+      "slug": "ChaosGatesExpander",
+      "name": "Chaos Gates Expander",
+      "description": "Adds additional shift register gate outputs to Chaos Box modules. Included with any Chaos Boxes purchase",
+      "manualUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/VenomChaosBoxes.md#chaos-gates-expander",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "ChaosVoltsExpander",
+      "name": "Chaos Volts Expander",
+      "description": "Adds additional shift register CV outputs to Chaos Box modules. Included with any Chaos Boxes purchase",
+      "manualUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/VenomChaosBoxes.md#chaos-volts-expander",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
+      "slug": "HybridKnot",
+      "name": "Hybrid Knot",
+      "description": "Digitial emulation of the Lorre Mill Double Knot synthesizer incorporating elements of both versions 2 and 3",
+      "manualUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/VenomChaosBoxes.md#hybrid-knot",
+      "tags": [
+        "Envelope generator",
+        "Logic",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Random",
+        "Sequencer",
+        "Synth voice",
+        "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "Venjolin",
+      "name": "Venjolin",
+      "description": "Digitial emulation of the After Later Audio Benjolin V2 plus enhancements",
+      "manualUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/VenomChaosBoxes.md#venjolin",
+      "tags": [
+        "Filter",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Random",
+        "Sequencer",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "VenjolinPlus",
+      "name": "Venjolin +",
+      "description": "Digitial emulation of the After Later Audio Benjolin V2 plus twin peaks resonator and other enhancements. Included with purchase of Venjolin",
+      "manualUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/VenomChaosBoxes.md#venjolin-plus",
+      "tags": [
+        "Filter",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Random",
+        "Sequencer",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "VlippooBox",
+      "name": "Vlippoo Box",
+      "description": "Digitial emulation of Rob Hordijk's Blippoo Box 2018 version",
+      "manualUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/VenomChaosBoxes.md#vlippoo-box",
+      "tags": [
+        "Filter",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Random",
+        "Sequencer",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "VlippooBoxPlus",
+      "name": "Vlippoo Box +",
+      "description": "Digitial emulation of Rob Hordijk's Blippoo Box with additional controls, inputs, and outputs. Included with purchase of Vlippoo Box",
+      "manualUrl": "https://github.com/DaveBenham/VenomPremium/blob/main/VenomChaosBoxes.md#vlippoo-box-plus",
+      "tags": [
+        "Filter",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Random",
+        "Sequencer",
+        "Synth voice"
+      ]
+    }
+  ]
+}
