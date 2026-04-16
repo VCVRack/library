@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch-devices",
   "name": "Voxglitch Devices",
-  "version": "2.10.2",
+  "version": "2.12.0",
   "license": "proprietary",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -69,6 +69,15 @@
         "Synth voice"
       ],
       "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/centralics/user_manual.md"
+    },
+    {
+      "slug": "tracks",
+      "name": "Tracks",
+      "description": "6 track DAW style sample playback",
+      "tags": [
+        "Sampler"
+      ],
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/tracks/user_manual.md"
     }
   ]
 }
