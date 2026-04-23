@@ -1,7 +1,7 @@
 {
   "slug": "Ambivalent-Instruments",
   "name": "Ambivalent Instruments",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "minRackVersion": "2.0.0",
   "license": "proprietary",
   "brand": "Ambivalent Instruments",
@@ -30,6 +30,16 @@
       "slug": "EQ8",
       "name": "EQ8",
       "description": "8-band stereo parametric equalizer with fixed frequency bands",
+      "tags": [
+        "Equalizer",
+        "Filter",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "FeedbackEQ8",
+      "name": "Feedback EQ8",
+      "description": "Stereo 8-band parametric equalizer (fixed peaking and shelf bands) with one global feedback control (\u00b195%) for resonance and self-osc. In-loop limiter and DC block stabilize the loop; output is the dry EQ signal.",
       "tags": [
         "Equalizer",
         "Filter",
