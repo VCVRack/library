@@ -1032,3 +1032,6 @@
 [submodule "repos/NewtronAudio"]
 	path = repos/NewtronAudio
 	url = https://github.com/zebedeezac/NewtronAudio.git
+[submodule "repos/DogmanDevices"]
+	path = repos/DogmanDevices
+	url = https://github.com/lancemgiles/Dogman-Devices-Rack.git
