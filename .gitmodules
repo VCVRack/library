@@ -1029,3 +1029,6 @@
 [submodule "repos/HetrickCVGPL"]
 	path = repos/HetrickCVGPL
 	url = https://github.com/mhetrick/phasorbeatgen.git
+[submodule "repos/NewtronAudio"]
+	path = repos/NewtronAudio
+	url = https://github.com/zebedeezac/NewtronAudio.git
