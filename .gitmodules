@@ -1026,3 +1026,6 @@
 [submodule "repos/ChordChemist"]
 	path = repos/ChordChemist
 	url = https://github.com/TheDrude/ChordChemist.git
+[submodule "repos/HetrickCVGPL"]
+	path = repos/HetrickCVGPL
+	url = https://github.com/mhetrick/phasorbeatgen.git
