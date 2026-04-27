@@ -4594,7 +4594,7 @@
     }
   },
   "computerscare": {
-    "buildTimestamp": 1719229000.6913989,
+    "buildTimestamp": 1777272605.8913558,
     "creationTimestamp": 1533693056.0,
     "modules": {
       "computerscare-knolypobs": {
@@ -13305,7 +13305,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1766863517.143102,
+    "buildTimestamp": 1777272501.9377732,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
@@ -13499,6 +13499,30 @@
       },
       "SVF": {
         "creationTimestamp": 1764364587.6357057
+      },
+      "Merge4x2": {
+        "creationTimestamp": 1777272606.5757685
+      },
+      "MergeSplit": {
+        "creationTimestamp": 1777272606.6324775
+      },
+      "NullCable": {
+        "creationTimestamp": 1777272606.6928103
+      },
+      "Octaver": {
+        "creationTimestamp": 1777272606.7483637
+      },
+      "PolyMute": {
+        "creationTimestamp": 1777272606.8020267
+      },
+      "PolyPrune": {
+        "creationTimestamp": 1777272606.8587563
+      },
+      "REXCV": {
+        "creationTimestamp": 1777272606.9161005
+      },
+      "Split4x2": {
+        "creationTimestamp": 1777272606.971828
       }
     }
   },
@@ -14505,7 +14529,7 @@
     }
   },
   "SanguineMutants": {
-    "buildTimestamp": 1775435237.7218075,
+    "buildTimestamp": 1777271754.941257,
     "creationTimestamp": 1717919524.088269,
     "modules": {
       "Funes": {
@@ -15522,7 +15546,7 @@
     }
   },
   "Moffenzeef": {
-    "buildTimestamp": 1771177183.2268107,
+    "buildTimestamp": 1777271500.1940045,
     "creationTimestamp": 1742146425.774556,
     "modules": {
       "BadIdea9": {
@@ -15593,6 +15617,15 @@
       },
       "QuadDeviant": {
         "creationTimestamp": 1766863517.4653676
+      },
+      "Tehom": {
+        "creationTimestamp": 1777272606.2186306
+      },
+      "DitDit": {
+        "creationTimestamp": 1777272606.2685988
+      },
+      "Particles": {
+        "creationTimestamp": 1777272606.3205416
       }
     }
   },
@@ -16026,7 +16059,7 @@
     }
   },
   "MADZINE": {
-    "buildTimestamp": 1772562597.8197463,
+    "buildTimestamp": 1777271240.258152,
     "creationTimestamp": 1754214222.0569358,
     "modules": {
       "SwingLFO": {
@@ -16221,11 +16254,17 @@
     }
   },
   "Animatek": {
-    "buildTimestamp": 1765147891.3950737,
+    "buildTimestamp": 1777270471.9795904,
     "creationTimestamp": 1759801615.851557,
     "modules": {
       "UZZ": {
         "creationTimestamp": 1759801615.9126134
+      },
+      "OxiCv": {
+        "creationTimestamp": 1777272605.9956677
+      },
+      "OxiCvExp": {
+        "creationTimestamp": 1777272606.0326052
       }
     }
   },
@@ -16284,7 +16323,7 @@
     }
   },
   "LydD-Modules": {
-    "buildTimestamp": 1768316206.670079,
+    "buildTimestamp": 1777270801.7203798,
     "creationTimestamp": 1759801617.523616,
     "modules": {
       "Poppy-fields": {
@@ -16317,7 +16356,7 @@
     }
   },
   "AlteredStateMachines": {
-    "buildTimestamp": 1759801309.898324,
+    "buildTimestamp": 1777270309.447137,
     "creationTimestamp": 1759801617.8908634,
     "modules": {
       "Aristotle": {
@@ -16325,6 +16364,9 @@
       },
       "Medusa": {
         "creationTimestamp": 1759801618.0282087
+      },
+      "Eris": {
+        "creationTimestamp": 1777272608.018596
       }
     }
   },
@@ -16413,7 +16455,7 @@
     }
   },
   "SignalFunctionSet": {
-    "buildTimestamp": 1772562717.8032687,
+    "buildTimestamp": 1777271881.8834963,
     "creationTimestamp": 1762139014.4446235,
     "modules": {
       "Drift": {
@@ -16424,6 +16466,33 @@
       },
       "Fugue": {
         "creationTimestamp": 1772563211.4080374
+      },
+      "Phase": {
+        "creationTimestamp": 1777272607.0717683
+      },
+      "Overtone": {
+        "creationTimestamp": 1777272607.1267936
+      },
+      "Intone": {
+        "creationTimestamp": 1777272607.195516
+      },
+      "Tine": {
+        "creationTimestamp": 1777272607.2646031
+      },
+      "FugueX": {
+        "creationTimestamp": 1777272607.327838
+      },
+      "Meter": {
+        "creationTimestamp": 1777272607.3882973
+      },
+      "Beat": {
+        "creationTimestamp": 1777272607.4704392
+      },
+      "Note": {
+        "creationTimestamp": 1777272607.531257
+      },
+      "Swell": {
+        "creationTimestamp": 1777272607.5930386
       }
     }
   },
@@ -16719,7 +16788,7 @@
     }
   },
   "Chrysalis": {
-    "buildTimestamp": 1775433027.3203409,
+    "buildTimestamp": 1777270671.6907544,
     "creationTimestamp": 1775436212.0898075,
     "modules": {
       "Chrysalis": {
@@ -16751,6 +16820,57 @@
       },
       "VlippooBoxPlus": {
         "creationTimestamp": 1775759794.120699
+      }
+    }
+  },
+  "NewtronAudio": {
+    "buildTimestamp": 1777271510.1596782,
+    "creationTimestamp": 1777272606.1156163,
+    "modules": {
+      "sequence_enhancer": {
+        "creationTimestamp": 1777272606.157993
+      }
+    }
+  },
+  "HetrickCVGPL": {
+    "buildTimestamp": 1777270751.5637507,
+    "creationTimestamp": 1777272606.4158788,
+    "modules": {
+      "PhasorBeatMap": {
+        "creationTimestamp": 1777272606.453178
+      },
+      "PhasorWavetable": {
+        "creationTimestamp": 1777272606.489347
+      }
+    }
+  },
+  "DogmanDevices": {
+    "buildTimestamp": 1777270714.5559719,
+    "creationTimestamp": 1777272607.6585703,
+    "modules": {
+      "Water": {
+        "creationTimestamp": 1777272607.6980803
+      },
+      "TripLFO": {
+        "creationTimestamp": 1777272607.7377896
+      },
+      "LogProb": {
+        "creationTimestamp": 1777272607.7767844
+      },
+      "ThreeHold": {
+        "creationTimestamp": 1777272607.8222713
+      },
+      "Clause": {
+        "creationTimestamp": 1777272607.8646283
+      },
+      "Blank": {
+        "creationTimestamp": 1777272607.8990211
+      },
+      "TriParDel": {
+        "creationTimestamp": 1777272607.9313707
+      },
+      "Knife": {
+        "creationTimestamp": 1777272607.9698985
       }
     }
   }

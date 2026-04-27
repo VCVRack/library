@@ -1,7 +1,7 @@
 {
   "slug": "Animatek",
   "name": "Animatek",
-  "version": "2.3.1",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "brand": "Animatek",
   "author": "Javier Melgar",
@@ -17,6 +17,27 @@
       "tags": [
         "Sequencer",
         "Clock modulator"
+      ]
+    },
+    {
+      "slug": "OxiCv",
+      "name": "OXI-CV",
+      "description": "6HP MIDI-to-CV for Oxi One. V/Oct, Gate, Velocity, 8x CC, Clock, CLK/n (divisions), Run. Supports Mono, Poly, Chord, Multitrack and Matriceal modes.",
+      "tags": [
+        "MIDI",
+        "Polyphonic",
+        "Utility",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "OxiCvExp",
+      "name": "OXI-CV EXPANSOR",
+      "description": "10HP Expander for OXI-CV. Adds 8 configurable tracks with V/Oct, Gate, and Velocity outputs.",
+      "tags": [
+        "MIDI",
+        "Utility",
+        "Expander"
       ]
     }
   ]

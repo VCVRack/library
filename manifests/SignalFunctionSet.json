@@ -1,7 +1,7 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.2.0",
+  "version": "2.9.1",
   "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
@@ -19,7 +19,7 @@
       "name": "Drift",
       "description": "Phase shifted LFO with offset, attenuation and stability controls",
       "tags": [
-        "LFO",
+        "Low-frequency oscillator",
         "Quad",
         "Random",
         "Utility"
@@ -42,6 +42,97 @@
         "Sequencer",
         "Polyphonic",
         "Quantizer"
+      ]
+    },
+    {
+      "slug": "Phase",
+      "name": "Phase",
+      "description": "Dual sample looper with phase drift via sleep and rotate modes, transient detection, and waveform display",
+      "tags": [
+        "Sampler",
+        "Dual",
+        "Recording"
+      ]
+    },
+    {
+      "slug": "Overtone",
+      "name": "Overtone",
+      "description": "Additive synthesis VCO with 8 individually-toggled harmonics, even/odd filter, binary mask CV, and waveform display",
+      "tags": [
+        "Oscillator",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "Intone",
+      "name": "Intone",
+      "description": "CHANT/FOF formant synthesis voice with vowel morphing, 5 formant cells, and dual excitation modes",
+      "tags": [
+        "Oscillator",
+        "Synth voice",
+        "Filter",
+        "Speech"
+      ]
+    },
+    {
+      "slug": "Tine",
+      "name": "Tine",
+      "description": "Tunable 3rd-order pingable resonator based on the Gamelan Resonator circuit, with variable damping and VCA anti-click mode",
+      "tags": [
+        "Filter",
+        "Synth voice",
+        "Physical modeling",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "FugueX",
+      "name": "Fugue X",
+      "description": "Expander for Fugue \u2014 per-voice steps, range, sleep, probability, S&H mode, sorted CV outputs, and per-step trigger outputs",
+      "tags": [
+        "Sequencer",
+        "Expander",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Meter",
+      "name": "Meter",
+      "description": "Time-signature-aware musical clock with bar/quarter/eighth/sixteenth/triplet outputs, CV-controllable time signature, and external clock sync",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Beat",
+      "name": "Beat",
+      "description": "Single-voice pattern sequencer with 8 patterns x 16 steps, on-screen step/velocity/accent editing, per-pattern length, and active-pattern progression",
+      "tags": [
+        "Sequencer",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Note",
+      "name": "Note",
+      "description": "Monophonic CV/gate pattern sequencer with 12-note pitch matrix, scale and root selection (incl. just-intonation harmonic series), 8 patterns x 8 steps with velocity/accent/probability editing",
+      "tags": [
+        "Sequencer",
+        "Polyphonic",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "Swell",
+      "name": "Swell",
+      "description": "Ping-driven additive A/D envelope generator. Each ping adds voltage with a per-ping rise; pings stack additively. Continuous decay with selectable linear/exponential curve. Soft-saturated 0-10V output.",
+      "tags": [
+        "Envelope generator",
+        "Slew limiter",
+        "Function generator",
+        "Utility"
       ]
     }
   ]

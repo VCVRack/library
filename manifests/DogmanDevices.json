@@ -1,0 +1,90 @@
+{
+  "slug": "DogmanDevices",
+  "name": "Dogman Devices",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Dogman Devices",
+  "author": "Lance Giles",
+  "authorEmail": "dogmandevices@gmail.com",
+  "authorUrl": "https://www.dogmandevices.com/",
+  "pluginUrl": "https://github.com/lancemgiles/Dogman-Devices-Rack",
+  "manualUrl": "https://github.com/lancemgiles/Dogman-Devices-Rack",
+  "sourceUrl": "https://github.com/lancemgiles/Dogman-Devices-Rack",
+  "donateUrl": "https://www.paypal.com/paypalme/LanceGiles",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Water",
+      "name": "Water",
+      "description": "Tidally locked tremolo and chorus. Hardware emulation",
+      "tags": [
+        "hardware clone",
+        "effect"
+      ]
+    },
+    {
+      "slug": "TripLFO",
+      "name": "TripLFO",
+      "description": "Three equally phase shifted sine wave LFOs",
+      "tags": [
+        "Low-frequency oscillator",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "LogProb",
+      "name": "LogProbab",
+      "description": "Logic with probability on the inputs",
+      "tags": [
+        "logic",
+        "random"
+      ]
+    },
+    {
+      "slug": "ThreeHold",
+      "name": "ThreeHold",
+      "description": "Three polyphonic sample and hold units",
+      "tags": [
+        "sample and hold",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "Clause",
+      "name": "Clause",
+      "description": "A twelve-step sequencer.",
+      "tags": [
+        "sequencer",
+        "clock generator"
+      ]
+    },
+    {
+      "slug": "Blank",
+      "name": "Blank",
+      "description": "Decorate your rack.",
+      "tags": [
+        "blank"
+      ]
+    },
+    {
+      "slug": "TriParDel",
+      "name": "TriParDel",
+      "description": "Three parellel delays.",
+      "tags": [
+        "delay",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "Knife",
+      "name": "Knife",
+      "description": "A polyphonic noise source and triangulary-sawy LFO/Dirty Oscillator",
+      "tags": [
+        "Low-frequency oscillator",
+        "oscillator",
+        "polyphonic",
+        "noise"
+      ]
+    }
+  ]
+}

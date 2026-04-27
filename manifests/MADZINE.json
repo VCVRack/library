@@ -1,14 +1,14 @@
 {
   "slug": "MADZINE",
   "name": "MADZINE",
-  "version": "2.5.0",
+  "version": "2.5.2",
   "license": "GPL-3.0-or-later",
   "brand": "MADZINE",
   "author": "MAD",
   "authorEmail": "madzinetw@gmail.com",
-  "authorUrl": "",
-  "pluginUrl": "",
-  "manualUrl": "https://linktr.ee/madzine",
+  "authorUrl": "https://madzine.work",
+  "pluginUrl": "https://madzine.work",
+  "manualUrl": "https://madzine.work/modules.html",
   "sourceUrl": "https://github.com/mmmmmmmadman/MADZINE-VCV",
   "donateUrl": "https://www.patreon.com/c/madzinetw",
   "modules": [

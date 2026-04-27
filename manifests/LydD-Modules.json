@@ -5,12 +5,12 @@
   "license": "GPL-3.0-or-later",
   "manualUrl": "https://github.com/Lydian-Des/LydD_Modules/blob/main/README.md",
   "sourceUrl": "https://github.com/Lydian-Des/LydD_Modules",
-  "version": "2.0.20",
+  "version": "2.0.22",
   "modules": [
     {
       "slug": "Poppy-fields",
       "name": "Poppy-Fields",
-      "description": "Infinite Sequencer",
+      "description": "Infinite Sequencer Fractal Generator",
       "manualUrl": "https://github.com/Lydian-Des/LydD_Modules/blob/main/Manual-Poppy_Fields.md",
       "tags": [
         "Sequencer"

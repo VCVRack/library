@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.14.5",
+  "version": "2.15.0",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -215,6 +215,26 @@
       ]
     },
     {
+      "slug": "Merge4x2",
+      "name": "Merge 4x2",
+      "description": "Compact and versatile polyphonic merge utility",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multi-merge",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "MergeSplit",
+      "name": "Merge Split",
+      "description": "Compact and versatile polyphonic merge and split utility",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multi-merge",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
       "slug": "Mix4",
       "name": "Mix 4",
       "description": "Compact audio or CV mixer, attenuator, inverter, amplifier, and/or offset",
@@ -391,6 +411,28 @@
       ]
     },
     {
+      "slug": "NullCable",
+      "name": "Null Cable",
+      "description": "Nullify a cable by setting it to 0 channels via manual or CV control",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#null-cable",
+      "tags": [
+        "Controller",
+        "Switch",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Octaver",
+      "name": "Octaver",
+      "description": "An old school octave effect in the style of the Pearl OC-7 and Boss OC-2 analog pedals",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#octaver",
+      "tags": [
+        "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Pan3D",
       "name": "Pan 3D",
       "description": "Pan 1 input to 8 outputs using X, Y, and Z axes",
@@ -425,10 +467,31 @@
       ]
     },
     {
+      "slug": "PolyMute",
+      "name": "Poly Mute",
+      "description": "Mute individual channels of a polyphonic input via buttons or CV",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-mute",
+      "tags": [
+        "Polyphonic",
+        "Switch",
+        "Utility"
+      ]
+    },
+    {
       "slug": "PolyOffset",
       "name": "Poly Offset",
       "description": "Provides an offset control for each channel of a polyphonic signal",
       "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-offset",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PolyPrune",
+      "name": "Poly Prune",
+      "description": "Remove selected channels and/or sort channels from a polyphonic input",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-prune",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -542,6 +605,15 @@
       ]
     },
     {
+      "slug": "REXCV",
+      "name": "Rhythm Explorer CV Expander",
+      "description": "Add three channels of CV output for each division of the parent Rhythm Explorer",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#rhythm-explorer-cv-expander",
+      "tags": [
+        "Expander"
+      ]
+    },
+    {
       "slug": "ShapedVCA",
       "name": "Shaped VCA",
       "description": "Stereo VCA with a variable response curve, hard/soft clipping, ring modulation, and oversampling",
@@ -572,6 +644,16 @@
       "name": "Sphere To XYZ",
       "description": "Convert spherical coordinates r,theta, phi to cartesian coordinates x, y, z",
       "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#sphere-to-xyz",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Split4x2",
+      "name": "Split 4x2",
+      "description": "Compact and versatile polyphonic split utility",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multi-merge",
       "tags": [
         "Polyphonic",
         "Utility"

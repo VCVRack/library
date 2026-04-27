@@ -1,0 +1,32 @@
+{
+  "slug": "HetrickCVGPL",
+  "name": "HetrickCV GPL",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "author": "HetrickCV",
+  "brand": "HetrickCV",
+  "authorUrl": "https://github.com/mhetrick/phasorbeatgen",
+  "pluginUrl": "https://github.com/mhetrick/phasorbeatgen",
+  "manualUrl": "https://github.com/mhetrick/phasorbeatgen",
+  "sourceUrl": "https://github.com/mhetrick/phasorbeatgen",
+  "modules": [
+    {
+      "slug": "PhasorBeatMap",
+      "name": "Phasor Beat Map",
+      "description": "Phasor-driven topographic drum sequencer based on Mutable Instruments Grids. Uses phasor input (0-10V) for playback, enabling reverse, scrub, and non-linear pattern navigation.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "PhasorWavetable",
+      "name": "Phasor Wavetable",
+      "description": "Phasor-driven wavetable oscillator. Load custom wavetables from WAV files. LFO mode for non-antialiased output, VCO mode with mipmap antialiasing for audio-rate use.",
+      "tags": [
+        "Oscillator",
+        "LFO",
+        "Waveshaper"
+      ]
+    }
+  ]
+}

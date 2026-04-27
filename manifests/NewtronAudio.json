@@ -1,0 +1,26 @@
+{
+  "slug": "NewtronAudio",
+  "name": "Newtron Audio",
+  "version": "2.0.1",
+  "license": "GPL-3.0-only",
+  "brand": "Newtron Audio",
+  "author": "Isaac Newey",
+  "authorEmail": "isaac.s.m.newey@gmail.com",
+  "authorUrl": "https://isaacnewey.com/",
+  "pluginUrl": "https://github.com/zebedeezac/NewtronAudio",
+  "manualUrl": "https://github.com/zebedeezac/NewtronAudio",
+  "sourceUrl": "https://github.com/zebedeezac/NewtronAudio",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "sequence_enhancer",
+      "name": "NW-01 Sequence Enhancer",
+      "description": "Spices up a incoming signal by varying pitch and gate length in real time",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

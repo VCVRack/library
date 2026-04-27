@@ -1,7 +1,7 @@
 {
   "slug": "Moffenzeef",
   "name": "Moffenzeef",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "license": "GPL-3.0+",
   "brand": "Moffenzeef",
   "author": "Ross Fish",
@@ -18,7 +18,7 @@
       "name": "Bad Idea #9",
       "description": "Power starved glitch oscillator",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-bad-idea-9",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/MOF-BAD-IDEA-QS.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/BadIdea9%20User%20Manual.md",
       "tags": [
         "oscillator",
         "noise",
@@ -31,7 +31,7 @@
       "name": "Bad Idea #1800-Call-Yer-Mum",
       "description": "DTMF tone generator",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-bad-idea-1800-call-yer-mum",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/MOF-BADIDEA-1800-QS.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/BadIdea1800%20User%20Manual.md",
       "tags": [
         "oscillator",
         "noise",
@@ -44,7 +44,7 @@
       "name": "Bobcat",
       "description": "Dual noise drum",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-bobcat",
-      "manualUrl": "https://raw.githubusercontent.com/moffenzeefmodular/GMO/master/IllustratorFiles/Renders/usermanual_bobcat.png",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Bobcat%20User%20Manual.md",
       "tags": [
         "drum",
         "noise",
@@ -56,7 +56,7 @@
       "name": "Bus Mult",
       "description": "1x3 and 1x2 mult",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-bus-mult",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/bus-mult-quickstart-91417-B.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/BusMult%20User%20Manual.md",
       "tags": [
         "multiple",
         "utility",
@@ -68,7 +68,7 @@
       "name": "Count",
       "description": "Master clock with divided outputs",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-count",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/count_quickstart-83117.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Count%20User%20Manual.md",
       "tags": [
         "clock generator",
         "clock modulator",
@@ -81,7 +81,7 @@
       "name": "Deviant",
       "description": "Dual max/min stepped random with slew",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-deviant",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/deviant_quickstart-mh28.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Deviant%20User%20Manual.md",
       "tags": [
         "random",
         "utility",
@@ -93,7 +93,7 @@
       "name": "Dial Up",
       "description": "Dial up modem drum module",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-dial-up",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/DIALUP-QUICKSTART-91417.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/DialUp%20User%20Manual.md",
       "tags": [
         "drum",
         "noise",
@@ -105,7 +105,7 @@
       "name": "GMO",
       "description": "Lofi ROMPLER with only one bank of metal clangs",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-gmO",
-      "manualUrl": "https://github.com/moffenzeefmodular/GMO/blob/master/IllustratorFiles/Renders/usermanual_GMO_.png?raw=true",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/GMO%20User%20Manual.md",
       "tags": [
         "drum",
         "noise",
@@ -118,7 +118,7 @@
       "name": "Kriket",
       "description": "Quad blip and beep generator",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-kriket",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/KRIKET_QS.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Kriket%20User%20Manual.md",
       "tags": [
         "drum",
         "noise",
@@ -131,7 +131,7 @@
       "name": "MITO",
       "description": "6 channel clock divider sequencer with swing and pulsewidth control",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-mitO",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/mito_quickstart.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Mito%20User%20Manual.md",
       "tags": [
         "clock modulator",
         "sequencer",
@@ -143,7 +143,7 @@
       "name": "Moffenmix",
       "description": "Quad distortion mixer",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-moffenmix",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/MOF-MIX-QS.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Moffenmix%20User%20Manual.md",
       "tags": [
         "mixer",
         "distortion",
@@ -155,7 +155,7 @@
       "name": "Mongrel",
       "description": "Ring mod drum",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-mongrel",
-      "manualUrl": "https://raw.githubusercontent.com/moffenzeefmodular/GMO/master/IllustratorFiles/Renders/usermanual_mongrel.png",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Mongrel%20User%20Manual.md",
       "tags": [
         "drum",
         "noise",
@@ -167,7 +167,7 @@
       "name": "Muskrat",
       "description": "Lofi wavetable drum with additional algorithms",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-muskrat",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/MUSKRAT_QS-s5bp.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Muskrat%20User%20Manual.md",
       "tags": [
         "drum",
         "noise",
@@ -179,7 +179,7 @@
       "name": "Simplify",
       "description": "Dynamic mute module",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-simplify",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/MOF-SIMPLIFY-QUICKSTART-v10-892024.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Simplify%20User%20Manual.md",
       "tags": [
         "sequencer",
         "clock modulator",
@@ -213,7 +213,7 @@
       "name": "Swarm",
       "description": "Asynchronous gate generator",
       "modularGridUrl": "https://modulargrid.net/e/moffenzeef-modular-swarm",
-      "manualUrl": "https://static1.squarespace.com/static/56d67baac6fc08e0509b99f4/t/5e9e3dce8c6de2337ddc2eed/1587428814540/swarm_quickstart.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Swarm%20User%20Manual.md",
       "tags": [
         "hardware clone",
         "clock",
@@ -227,7 +227,7 @@
       "slug": "INTENSIFIES",
       "name": "INTENSIFIES",
       "description": "Eurorack fantasy version of a previously released effect pedal: Amplitude modulated sample rate reduction and distortion",
-      "manualUrl": "https://static1.squarespace.com/static/56d67baac6fc08e0509b99f4/t/5c0886abaa4a9970c811b2eb/1544062637182/MOF-INTENSIFIES-QSGUIDE-v1.0-12.5.18.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/INTENSIFIES%20User%20Manual.md",
       "tags": [
         "hardware clone",
         "Noise",
@@ -239,7 +239,7 @@
       "slug": "TheRunner",
       "name": "The Runner",
       "description": "A Eurorack fantasy version of a previously released drone synth: The Runner was made in collaboration with Boy Harsher as part of promo for their film with the same name",
-      "manualUrl": "https://www.moffenzeefmodular.com/s/MOF-BOYHARSHER-THERUNNER-QUICKSTART-v20-942023.pdf",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/TheRunner%20User%20Manual.md",
       "tags": [
         "hardware clone",
         "oscillator",
@@ -250,7 +250,7 @@
       "slug": "Stargazer",
       "name": "Stargazer",
       "description": "Eurorack fantasy version of a previously released drone synth.",
-      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/Stargazer%20User%20Manual.md",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Stargazer%20User%20Manual.md",
       "tags": [
         "Synth voice",
         "oscillator",
@@ -263,7 +263,7 @@
       "slug": "Kleztizer",
       "name": "Kleztizer",
       "description": "A quantizer that follows the harmonic structure of Klezmer modes",
-      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/Kleztizer%20User%20Manual.md",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Kleztizer%20User%20Manual.md",
       "tags": [
         "quantizer",
         "sequencer"
@@ -273,7 +273,7 @@
       "slug": "Tantz",
       "name": "Tantz!",
       "description": "Klezmer preset drum sequencer",
-      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/Tantz%20User%20Manual.md",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Tantz%20User%20Manual.md",
       "tags": [
         "sequencer",
         "clock modulator"
@@ -283,10 +283,45 @@
       "slug": "QuadDeviant",
       "name": "Quad Deviant",
       "description": "Quad version of Deviant with range switches and CV bus",
-      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/Quad%20Deviant%20User%20Manual.md",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Quad%20Deviant%20User%20Manual.md",
       "tags": [
         "random",
         "utility"
+      ]
+    },
+    {
+      "slug": "Tehom",
+      "name": "Tehom",
+      "description": "Collaboration with Omri Cohen. Quad sound on sound looper with wow & flutter + built in loops of noise sources.",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Tehom%20User%20Manual.md",
+      "tags": [
+        "effect",
+        "sampler",
+        "recording",
+        "noise",
+        "granular",
+        "controller",
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "DitDit",
+      "name": "DitDit",
+      "description": "Morse code gate sequencer",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/DitDit%20User%20Manual.md",
+      "tags": [
+        "Clock Modulator",
+        "Sequencer",
+        "hardware clone"
+      ]
+    },
+    {
+      "slug": "Particles",
+      "name": "Particles",
+      "description": "Particle animation generator",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Particles%20User%20Manual.md",
+      "tags": [
+        "Utility"
       ]
     }
   ]

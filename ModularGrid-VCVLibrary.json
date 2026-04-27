@@ -2579,5 +2579,12 @@
     "vcvUrl": "https://library.vcvrack.com/ALM045/FMco",
     "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-fmco",
     "mgModuleId": 57529
+  },
+  {
+    "pluginSlug": "AlteredStateMachines",
+    "moduleSlug": "Eris",
+    "vcvUrl": "https://library.vcvrack.com/AlteredStateMachines/Eris",
+    "mgUrl": "https://modulargrid.net/e/altered-state-machines-eris",
+    "mgModuleId": 51066
   }
 ]

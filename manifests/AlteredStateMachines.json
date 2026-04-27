@@ -1,7 +1,7 @@
 {
   "slug": "AlteredStateMachines",
   "name": "Altered State Machines",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "GPL-3.0-or-later",
   "brand": "Altered State Machines",
   "description": "Cloned implementations of the AlteredStateMachines hardware modules",
@@ -28,6 +28,17 @@
       "description": "Weighted Signal Mingler (Medusa hardware clone)",
       "manualUrl": "https://alteredstatemachines.net/medusa",
       "modularGridUrl": "https://modulargrid.net/e/altered-state-machines-medusa",
+      "tags": [
+        "Hardware clone",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "Eris",
+      "name": "Eris",
+      "description": "4 x 4 Matrix Mixer (Eris hardware clone)",
+      "manualUrl": "https://alteredstatemachines.net/eris",
+      "modularGridUrl": "https://modulargrid.net/e/altered-state-machines-eris",
       "tags": [
         "Hardware clone",
         "Mixer"
