@@ -1,0 +1,178 @@
+{
+  "slug": "4ms-ROMplers",
+  "name": "ROMplers",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "4ms",
+  "author": "4ms Company",
+  "authorEmail": "4ms@4mscompany.com",
+  "authorUrl": "https://4mscompany.com",
+  "pluginUrl": "https://github.com/4ms/ROMplers/",
+  "manualUrl": "https://github.com/4ms/ROMplers/blob/main/doc/ROMplersUserManual.md",
+  "sourceUrl": "https://github.com/4ms/ROMplers/",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/4ms/ROMplers/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "AyysKing",
+      "name": "AyysKing",
+      "description": "Ace Tone Rhythm King samples with playback speed, sample length, and looping",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Clap",
+      "name": "Clap",
+      "description": "'Real' acoustic clap samples with playback speed, velocity, and a decay envelope",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "ClosedHat",
+      "name": "ClosedHat",
+      "description": "'Real' acoustic closed hi-hat samples with playback speed, velocity, and a decay envelope",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Crash",
+      "name": "Crash",
+      "description": "'Real' acoustic crash samples with playback speed, velocity, and a decay envelope",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "DeeArr",
+      "name": "DeeArr",
+      "description": "DR-55 samples with playback speed, sample length, looping, and direct outs.",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "KayArr",
+      "name": "KayArr",
+      "description": "KR55 samples with playback speed, sample length, and looping.",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "KayOne",
+      "name": "KayOne",
+      "description": "Casio SK-1 samples with playback speed, sample length, and looping. Samples by Brian Hilmers, license: CC-BY-SA-4.0",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Kick",
+      "name": "Kick",
+      "description": "'Real' acoustic kick samples with playback speed, velocity, and a decay envelope",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "OpenHat",
+      "name": "OpenHat",
+      "description": "'Real' acoustic open hi-hat samples with playback speed, velocity, and a decay envelope",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Percussion",
+      "name": "Percussion",
+      "description": "'Real' acoustic auxillary percussion samples with playback speed, velocity, and a decay envelope",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Ride",
+      "name": "Ride",
+      "description": "'Real' acoustic ride samples with playback speed, velocity, and a decay envelope",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Rimshot",
+      "name": "Rimshot",
+      "description": "'Real' acoustic rimshot samples with playback speed, velocity, and a decay envelope",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "SeaArr",
+      "name": "SeaArr",
+      "description": "CR-78 samples with playback speed, sample length, looping, and direct outs. Samples provided by Oramics, license: Public Domain.",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "SehvenToo",
+      "name": "SehvenToo",
+      "description": "TR-727 samples with playback speed, sample length, looping, and direct outs.",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Slap",
+      "name": "Slap",
+      "description": "The best pitched slap bass sample in the whole wide world.",
+      "tags": [
+        "Synth Voice"
+      ]
+    },
+    {
+      "slug": "SicksOh",
+      "name": "SicksOh",
+      "description": "TR-606 samples with playback speed, sample length, and looping.",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "SinSahnix",
+      "name": "SinSahnix",
+      "description": "Synsonics samples with playback speed, sample length, and looping.",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Snare",
+      "name": "Snare",
+      "description": "'Real' acoustic snare samples with playback speed, velocity, and a decay envelope",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "Tom",
+      "name": "Tom",
+      "description": "'Real' acoustic tom samples with playback speed, velocity, and a decay envelope",
+      "tags": [
+        "Drum"
+      ]
+    },
+    {
+      "slug": "OrchHits",
+      "name": "OrchHits",
+      "description": "Pitched orchestra hits",
+      "tags": [
+        "Drum",
+        "synth voice"
+      ]
+    }
+  ]
+}

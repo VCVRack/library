@@ -16873,5 +16873,71 @@
         "creationTimestamp": 1777272607.9698985
       }
     }
+  },
+  "4ms-ROMplers": {
+    "buildTimestamp": 1777493118.3501623,
+    "creationTimestamp": 1777493119.291052,
+    "modules": {
+      "AyysKing": {
+        "creationTimestamp": 1777493119.3201852
+      },
+      "Clap": {
+        "creationTimestamp": 1777493119.34692
+      },
+      "ClosedHat": {
+        "creationTimestamp": 1777493119.37487
+      },
+      "Crash": {
+        "creationTimestamp": 1777493119.3997822
+      },
+      "DeeArr": {
+        "creationTimestamp": 1777493119.4327428
+      },
+      "KayArr": {
+        "creationTimestamp": 1777493119.4653635
+      },
+      "KayOne": {
+        "creationTimestamp": 1777493119.4967213
+      },
+      "Kick": {
+        "creationTimestamp": 1777493119.527259
+      },
+      "OpenHat": {
+        "creationTimestamp": 1777493119.5587661
+      },
+      "Percussion": {
+        "creationTimestamp": 1777493119.5908782
+      },
+      "Ride": {
+        "creationTimestamp": 1777493119.6171162
+      },
+      "Rimshot": {
+        "creationTimestamp": 1777493119.652693
+      },
+      "SeaArr": {
+        "creationTimestamp": 1777493119.6806436
+      },
+      "SehvenToo": {
+        "creationTimestamp": 1777493119.7124782
+      },
+      "Slap": {
+        "creationTimestamp": 1777493119.747948
+      },
+      "SicksOh": {
+        "creationTimestamp": 1777493119.7825954
+      },
+      "SinSahnix": {
+        "creationTimestamp": 1777493119.8143816
+      },
+      "Snare": {
+        "creationTimestamp": 1777493119.846219
+      },
+      "Tom": {
+        "creationTimestamp": 1777493119.878272
+      },
+      "OrchHits": {
+        "creationTimestamp": 1777493119.9096823
+      }
+    }
   }
 }
