@@ -16939,5 +16939,29 @@
         "creationTimestamp": 1777493119.9096823
       }
     }
+  },
+  "factionoptions": {
+    "buildTimestamp": 1778364058.0709891,
+    "creationTimestamp": 1778364059.8065505,
+    "modules": {
+      "ResonanceHub": {
+        "creationTimestamp": 1778364059.864026
+      },
+      "CVPeer": {
+        "creationTimestamp": 1778364059.9220855
+      },
+      "MIDIIO": {
+        "creationTimestamp": 1778364059.9717047
+      },
+      "ResonanceMonitor": {
+        "creationTimestamp": 1778364060.0255003
+      },
+      "NetCV": {
+        "creationTimestamp": 1778364060.0731797
+      },
+      "CVMix": {
+        "creationTimestamp": 1778364060.1300805
+      }
+    }
   }
 }

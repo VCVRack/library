@@ -1,0 +1,90 @@
+{
+  "slug": "factionoptions",
+  "name": "factionoptions",
+  "version": "2.0.16",
+  "license": "proprietary",
+  "brand": "factionoptions",
+  "description": "Real-time CV and MIDI collaboration over WebRTC P2P connections",
+  "author": "Jason Soares",
+  "authorEmail": "reson@theexperiment.org",
+  "authorUrl": "https://factionoptions.com",
+  "pluginUrl": "https://factionoptions.com",
+  "manualUrl": "https://factionoptions.com/manual",
+  "minRackVersion": "2.0.0",
+  "modules": [
+    {
+      "slug": "ResonanceHub",
+      "name": "Resonance Hub",
+      "description": "Control center for Resonance network - QR authentication, room selection, peer management",
+      "tags": [
+        "External",
+        "Controller"
+      ],
+      "keywords": "WebRTC P2P network collaboration room peer",
+      "manualUrl": "https://factionoptions.com/manual#resonance-hub"
+    },
+    {
+      "slug": "CVPeer",
+      "name": "CV Peer",
+      "description": "Bidirectional CV connection to a peer - 4 inputs (send), 4 outputs (receive), gate output",
+      "tags": [
+        "External",
+        "Expander",
+        "Quad"
+      ],
+      "keywords": "network CV voltage control remote collaboration send receive",
+      "manualUrl": "https://factionoptions.com/manual#cv-peer"
+    },
+    {
+      "slug": "MIDIIO",
+      "name": "MIDI I/O",
+      "description": "Hardware MIDI adapter for CV Peer - 4 ports with hardware device routing",
+      "tags": [
+        "External",
+        "Expander",
+        "MIDI",
+        "Quad"
+      ],
+      "keywords": "MIDI hardware routing adapter I/O send receive",
+      "manualUrl": "https://factionoptions.com/manual#midi-io"
+    },
+    {
+      "slug": "ResonanceMonitor",
+      "name": "Resonance Monitor",
+      "description": "Debug monitor for ResonanceHub - displays connection state, peer info, data flow, and diagnostics",
+      "tags": [
+        "External",
+        "Expander",
+        "Visual"
+      ],
+      "keywords": "debug diagnostics connection state peer info data flow",
+      "manualUrl": "https://factionoptions.com/manual#resonance-monitor"
+    },
+    {
+      "slug": "NetCV",
+      "name": "Net CV",
+      "description": "Network conditions as CV - latency, packet loss, peer count, connection state",
+      "tags": [
+        "External",
+        "Expander",
+        "Quad",
+        "Utility"
+      ],
+      "keywords": "network latency packet loss jitter metrics monitoring",
+      "manualUrl": "https://factionoptions.com/manual#net-cv"
+    },
+    {
+      "slug": "CVMix",
+      "name": "CV Mix",
+      "description": "Averaged mix bus for peer receive CV - sums and averages CV from all connected peers",
+      "tags": [
+        "External",
+        "Expander",
+        "Quad",
+        "Mixer"
+      ],
+      "keywords": "mix bus average sum CV peer receive aggregate",
+      "manualUrl": "https://factionoptions.com/manual#cv-mix"
+    }
+  ]
+}
