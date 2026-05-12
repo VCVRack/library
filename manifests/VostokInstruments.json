@@ -1,7 +1,7 @@
 {
   "slug": "VostokInstruments",
   "name": "VostokInstruments",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Vostok Instruments",
   "author": "Vostok Instruments, Ewan Hemingway",
@@ -55,7 +55,8 @@
       "modularGridUrl": "https://modulargrid.net/e/vostok-instruments-atlas",
       "tags": [
         "Hardware clone",
-        "Filter"
+        "Filter",
+        "Quad"
       ]
     },
     {
@@ -105,6 +106,19 @@
         "Hardware clone",
         "Mixer",
         "Panning"
+      ]
+    },
+    {
+      "slug": "Halo",
+      "name": "Halo",
+      "description": "Multi-Channel Complex Modulator",
+      "manualUrl": "https://www.vostokinstruments.com/halo-user-manual",
+      "modularGridUrl": "https://modulargrid.net/e/vostok-instruments-halo",
+      "tags": [
+        "Hardware clone",
+        "Logic",
+        "Low-frequency oscillator",
+        "Quad"
       ]
     }
   ]

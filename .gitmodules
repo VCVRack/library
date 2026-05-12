@@ -1035,3 +1035,6 @@
 [submodule "repos/DogmanDevices"]
 	path = repos/DogmanDevices
 	url = https://github.com/lancemgiles/Dogman-Devices-Rack.git
+[submodule "repos/VostokInstruments"]
+	path = repos/VostokInstruments
+	url = https://github.com/Vostok-Instruments/Vostok_VCVRack

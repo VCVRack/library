@@ -2586,5 +2586,12 @@
     "vcvUrl": "https://library.vcvrack.com/AlteredStateMachines/Eris",
     "mgUrl": "https://modulargrid.net/e/altered-state-machines-eris",
     "mgModuleId": 51066
+  },
+  {
+    "pluginSlug": "VostokInstruments",
+    "moduleSlug": "Halo",
+    "vcvUrl": "https://library.vcvrack.com/VostokInstruments/Halo",
+    "mgUrl": "https://modulargrid.net/e/vostok-instruments-halo",
+    "mgModuleId": 58103
   }
 ]
