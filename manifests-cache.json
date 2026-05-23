@@ -15999,7 +15999,7 @@
     }
   },
   "voxglitch-devices": {
-    "buildTimestamp": 1776600278.9071429,
+    "buildTimestamp": 1779557701.0105178,
     "creationTimestamp": 1752849878.5160182,
     "modules": {
       "spores": {
@@ -16022,6 +16022,9 @@
       },
       "tracks": {
         "creationTimestamp": 1776314883.9938939
+      },
+      "effects_bank": {
+        "creationTimestamp": 1779557701.1599433
       }
     }
   },

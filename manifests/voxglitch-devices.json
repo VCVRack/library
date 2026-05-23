@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch-devices",
   "name": "Voxglitch Devices",
-  "version": "2.12.1",
+  "version": "2.13.1",
   "license": "proprietary",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -39,7 +39,8 @@
       "description": "TMS5220 style speech synthesizer with circuit bending",
       "tags": [
         "Oscillator"
-      ]
+      ],
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/circuit-bender/user_manual.md"
     },
     {
       "slug": "patch_seq",
@@ -78,6 +79,16 @@
         "Sampler"
       ],
       "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/tracks/user_manual.md"
+    },
+    {
+      "slug": "effects_bank",
+      "name": "Effects Bank",
+      "description": "Glitchy multi-effects module inspired by The Finger",
+      "tags": [
+        "Effect",
+        "Digital"
+      ],
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/effects-bank/user_manual.md"
     }
   ]
 }
