@@ -1047,3 +1047,6 @@
 [submodule "repos/Astravox"]
 	path = repos/Astravox
 	url = https://github.com/jackarkydev/Astravox.git
+[submodule "repos/BCNmodular"]
+	path = repos/BCNmodular
+	url = https://github.com/santifort-commits/BCNmodular.git
