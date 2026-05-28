@@ -1038,3 +1038,6 @@
 [submodule "repos/VostokInstruments"]
 	path = repos/VostokInstruments
 	url = https://github.com/Vostok-Instruments/Vostok_VCVRack
+[submodule "repos/swv-guitar-tools"]
+	path = repos/swv-guitar-tools
+	url = https://github.com/shortwavlabs/vcv-guitar-collection.git
