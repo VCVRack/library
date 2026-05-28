@@ -1041,3 +1041,6 @@
 [submodule "repos/swv-guitar-tools"]
 	path = repos/swv-guitar-tools
 	url = https://github.com/shortwavlabs/vcv-guitar-collection.git
+[submodule "repos/SphericalSoundSocietyFree"]
+	path = repos/SphericalSoundSocietyFree
+	url = https://github.com/spherical-sound-society/VCV-Free.git
