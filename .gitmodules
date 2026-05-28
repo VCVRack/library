@@ -1044,3 +1044,6 @@
 [submodule "repos/SphericalSoundSocietyFree"]
 	path = repos/SphericalSoundSocietyFree
 	url = https://github.com/spherical-sound-society/VCV-Free.git
+[submodule "repos/Astravox"]
+	path = repos/Astravox
+	url = https://github.com/jackarkydev/Astravox.git
