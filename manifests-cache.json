@@ -17001,7 +17001,7 @@
     }
   },
   "factionoptions": {
-    "buildTimestamp": 1778364058.0709891,
+    "buildTimestamp": 1779997013.3369703,
     "creationTimestamp": 1778364059.8065505,
     "modules": {
       "ResonanceHub": {
@@ -17021,6 +17021,12 @@
       },
       "CVMix": {
         "creationTimestamp": 1778364060.1300805
+      },
+      "DmxHub": {
+        "creationTimestamp": 1779997014.5746279
+      },
+      "DmxFixture": {
+        "creationTimestamp": 1779997014.6358902
       }
     }
   },

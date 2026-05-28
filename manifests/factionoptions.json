@@ -1,10 +1,10 @@
 {
   "slug": "factionoptions",
   "name": "factionoptions",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "license": "proprietary",
   "brand": "factionoptions",
-  "description": "Real-time CV and MIDI collaboration over WebRTC P2P connections",
+  "description": "VCV Rack modules for Resonance - a peer-to-peer WebRTC network for sharing CV and MIDI with remote musicians in real time, plus sACN/E1.31 DMX lighting control. Part of the QUADRAs FRONTERAs art project.",
   "author": "Jason Soares",
   "authorEmail": "reson@theexperiment.org",
   "authorUrl": "https://factionoptions.com",
@@ -15,10 +15,9 @@
     {
       "slug": "ResonanceHub",
       "name": "Resonance Hub",
-      "description": "Control center for Resonance network - QR authentication, room selection, peer management",
+      "description": "Connect your patch to other VCV Rack users over the internet for real-time collaboration. Handles authentication, room joining, and peer-to-peer WebRTC connections. Pair with CV Peer expanders to send and receive CV/MIDI with collaborators anywhere in the world. When a remote peer joins, the Hub adds a CV Peer expander to the right automatically, so you don't have to add one per collaborator by hand. On first use, your OS may prompt to allow Rack through the firewall.",
       "tags": [
-        "External",
-        "Controller"
+        "External"
       ],
       "keywords": "WebRTC P2P network collaboration room peer",
       "manualUrl": "https://factionoptions.com/manual#resonance-hub"
@@ -26,7 +25,7 @@
     {
       "slug": "CVPeer",
       "name": "CV Peer",
-      "description": "Bidirectional CV connection to a peer - 4 inputs (send), 4 outputs (receive), gate output",
+      "description": "Bidirectional CV link to one remote collaborator over the internet. Place to the right of a Resonance Hub - or let the Hub add one automatically each time a peer connects. 4 inputs send your CV outward, 4 outputs receive theirs, and the gate output goes high while the peer is connected.",
       "tags": [
         "External",
         "Expander",
@@ -38,7 +37,7 @@
     {
       "slug": "MIDIIO",
       "name": "MIDI I/O",
-      "description": "Hardware MIDI adapter for CV Peer - 4 ports with hardware device routing",
+      "description": "Bridge a remote collaborator to local MIDI hardware. Attaches to a CV Peer and routes 4 incoming and 4 outgoing MIDI ports to physical devices on your machine (keyboards, drum machines, external synths). Lets a partner play your hardware over the network. The Hub can be set to add a MIDI I/O alongside each auto-added CV Peer.",
       "tags": [
         "External",
         "Expander",
@@ -46,12 +45,13 @@
         "Quad"
       ],
       "keywords": "MIDI hardware routing adapter I/O send receive",
-      "manualUrl": "https://factionoptions.com/manual#midi-io"
+      "manualUrl": "https://factionoptions.com/manual#midi-io",
+      "hidden": true
     },
     {
       "slug": "ResonanceMonitor",
       "name": "Resonance Monitor",
-      "description": "Debug monitor for ResonanceHub - displays connection state, peer info, data flow, and diagnostics",
+      "description": "Diagnostic display for a Resonance Hub. Place to the left of a Hub to see live connection state, connected peers, latency, signaling status, and CV/MIDI data flow rates. Useful for troubleshooting collaboration sessions.",
       "tags": [
         "External",
         "Expander",
@@ -63,12 +63,10 @@
     {
       "slug": "NetCV",
       "name": "Net CV",
-      "description": "Network conditions as CV - latency, packet loss, peer count, connection state",
+      "description": "Turn live network conditions into modulation sources. Outputs CV scaled to round-trip latency, packet loss, jitter, and connected peer count - patch into mixers or effects to react when the link gets unstable. Place next to a Resonance Hub.",
       "tags": [
         "External",
-        "Expander",
-        "Quad",
-        "Utility"
+        "Expander"
       ],
       "keywords": "network latency packet loss jitter metrics monitoring",
       "manualUrl": "https://factionoptions.com/manual#net-cv"
@@ -76,15 +74,36 @@
     {
       "slug": "CVMix",
       "name": "CV Mix",
-      "description": "Averaged mix bus for peer receive CV - sums and averages CV from all connected peers",
+      "description": "Mix bus that sums and averages incoming CV from every connected remote peer into 4 unified channels. Useful for group jams where multiple collaborators contribute to the same patch without needing one CV Peer per source. Place anywhere to the right of a Resonance Hub.",
       "tags": [
         "External",
         "Expander",
-        "Quad",
         "Mixer"
       ],
       "keywords": "mix bus average sum CV peer receive aggregate",
       "manualUrl": "https://factionoptions.com/manual#cv-mix"
+    },
+    {
+      "slug": "DmxHub",
+      "name": "DMX Hub",
+      "description": "Drive stage lighting from VCV Rack over Ethernet using sACN (E1.31) or Art-Net. Transmits one DMX universe (512 channels) to lighting consoles, LED fixtures, moving heads, or pixel controllers on your local network. Pairs well with Open Lighting Architecture (OLA) for bridging to USB DMX interfaces. Add DMX Fixture expanders to the right to patch CV inputs onto specific channels. On first use, your OS may prompt to allow Rack to find devices on your local network.",
+      "tags": [
+        "External"
+      ],
+      "keywords": "DMX sACN E1.31 lighting fixture universe",
+      "manualUrl": "https://factionoptions.com/manual#dmx-hub"
+    },
+    {
+      "slug": "DmxFixture",
+      "name": "DMX Fixture",
+      "description": "4-channel CV-to-DMX patch bay for a DMX Hub - typically used for one RGBA or RGBW lighting fixture like a PAR can, LED panel, or moving head. CV inputs drive consecutive DMX channels with per-channel level and mute. Chain multiple fixtures to the right of the Hub to address larger lighting rigs.",
+      "tags": [
+        "External",
+        "Expander",
+        "Quad"
+      ],
+      "keywords": "DMX fixture lighting PAR LED channel",
+      "manualUrl": "https://factionoptions.com/manual#dmx-fixture"
     }
   ]
 }
