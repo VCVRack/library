@@ -1050,3 +1050,6 @@
 [submodule "repos/BCNmodular"]
 	path = repos/BCNmodular
 	url = https://github.com/santifort-commits/BCNmodular.git
+[submodule "repos/WaveOfHormuz"]
+	path = repos/WaveOfHormuz
+	url = https://github.com/quaternionmedia/waveofhormuz.git
