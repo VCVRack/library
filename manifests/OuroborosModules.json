@@ -1,7 +1,7 @@
 {
   "slug": "OuroborosModules",
   "name": "OuroborosModules",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "license": "GPL-3.0-or-later",
   "brand": "Ouroboros Industries",
   "author": "Chronos \"phantombeta\" Ouroboros",
@@ -122,7 +122,7 @@
     {
       "slug": "ResetHelper",
       "name": "Reset Helper",
-      "description": "An utility to make it easier to reset sequencers from multiple sources. Converts gates to triggers, with a configurable \"merge\" time for incoming triggers.",
+      "description": "An utility to make it easier to reset sequencers from multiple sources. Converts gates to triggers, with a configurable \"merge\" time for incoming triggers",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -133,7 +133,7 @@
     {
       "slug": "Conductor",
       "name": "Conductor",
-      "description": "A performance controller for switching sequencer patterns automatically, on beat.",
+      "description": "A performance controller for switching sequencer patterns automatically, on beat",
       "tags": [
         "Controller"
       ],
@@ -142,7 +142,7 @@
     {
       "slug": "ConductorExternal",
       "name": "Conductor - External",
-      "description": "External MIDI controller expander for Conductor.",
+      "description": "External MIDI controller expander for Conductor",
       "tags": [
         "Controller",
         "Expander",
@@ -153,7 +153,7 @@
     {
       "slug": "ConductorGrid",
       "name": "Conductor - Grid",
-      "description": "Virtual pad grid expander for Conductor.",
+      "description": "Virtual pad grid expander for Conductor",
       "tags": [
         "Controller",
         "Expander",

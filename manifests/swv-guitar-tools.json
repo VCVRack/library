@@ -1,0 +1,34 @@
+{
+  "slug": "swv-guitar-tools",
+  "name": "Guitar Tools",
+  "version": "2.0.3",
+  "license": "GPL-3.0-or-later",
+  "brand": "Shortwav Labs",
+  "author": "Shortwav Labs",
+  "authorEmail": "contact@shortwavlabs.com",
+  "sourceUrl": "https://github.com/shortwavlabs/vcv-guitar-collection",
+  "manualUrl": "https://github.com/shortwavlabs/vcv-guitar-collection/blob/main/manual/README.md",
+  "donateUrl": "https://ko-fi.com/shortwavlabs",
+  "minRackVersion": "2.6.0",
+  "modules": [
+    {
+      "slug": "NamPlayer",
+      "name": "NAM Player",
+      "description": "Neural Amp Modeler player for guitar amp simulation with noise gate and 5-band EQ",
+      "tags": [
+        "Effect",
+        "Distortion",
+        "Equalizer"
+      ]
+    },
+    {
+      "slug": "CabSim",
+      "name": "Cabinet Simulator",
+      "description": "Convolution-based cabinet simulator with dual IR loading, blending, and tone shaping filters",
+      "tags": [
+        "Effect",
+        "Equalizer"
+      ]
+    }
+  ]
+}

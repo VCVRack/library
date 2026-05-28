@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.40",
+  "version": "2.0.43",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -20,6 +20,7 @@
       "tags": [
         "Function generator",
         "Sample and hold",
+        "Polyphonic",
         "Utility"
       ]
     },
@@ -55,6 +56,7 @@
       "name": "Signals",
       "description": "A small six-channel oscilloscope for visualizing rack signals.",
       "tags": [
+        "Polyphonic",
         "Visual"
       ]
     },
@@ -64,6 +66,7 @@
       "description": "Convert two input voltages into equal intervals.",
       "tags": [
         "Utility",
+        "Polyphonic",
         "Attenuator"
       ]
     },
@@ -162,6 +165,7 @@
       "description": "Nine-channel CV gain/offset utility mixer.",
       "tags": [
         "Attenuator",
+        "Polyphonic",
         "Utility"
       ]
     },
@@ -373,6 +377,16 @@
       "description": "A multi-layered step sequencer.",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Triton",
+      "name": "Triton",
+      "description": "A three-band filter with envelope followers.",
+      "tags": [
+        "Polyphonic",
+        "Envelope follower",
+        "Filter"
       ]
     }
   ]

@@ -1,0 +1,31 @@
+{
+  "slug": "SphericalSoundSocietyFree",
+  "name": "Spherical Sound Society Free",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "Spherical Sound Society",
+  "author": "J.C.Ure\u00f1a",
+  "authorEmail": "jc2046@gmail.com",
+  "authorUrl": "https://www.tindie.com/stores/jc2046/",
+  "pluginUrl": "https://github.com/spherical-sound-society/VCV-Free",
+  "manualUrl": "https://github.com/spherical-sound-society/VCV-Free/blob/main/README.md",
+  "sourceUrl": "https://github.com/spherical-sound-society/VCV-Free",
+  "donateUrl": "https://www.tindie.com/stores/jc2046/",
+  "changelogUrl": "https://github.com/spherical-sound-society/VCV-Free/blob/main/CHANGELOG.md",
+  "minRackVersion": "2.4.0",
+  "modules": [
+    {
+      "slug": "GlitchStorm",
+      "name": "GlitchStorm",
+      "description": "Bytebeat synthesizer, hardware clone",
+      "manualUrl": "https://github.com/spherical-sound-society/VCV-Free/blob/main/README.md",
+      "tags": [
+        "Digital",
+        "Function generator",
+        "Hardware clone",
+        "Noise",
+        "Oscillator"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "WaveOfHormuz",
+  "name": "Wave of Hormuz",
+  "version": "2.2.0",
+  "license": "MIT",
+  "brand": "Hormuz",
+  "author": "Peter Kagstrom",
+  "authorEmail": "peter.kagstrom@gmail.com",
+  "authorUrl": "https://github.com/quaternionmedia",
+  "pluginUrl": "https://github.com/quaternionmedia/waveofhormuz",
+  "manualUrl": "https://quaternionmedia.github.io/waveofhormuz",
+  "sourceUrl": "https://github.com/quaternionmedia/waveofhormuz",
+  "changelogUrl": "https://github.com/quaternionmedia/waveofhormuz/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "WaveOfHormuz",
+      "name": "The Wave of Hormuz",
+      "description": "Strait-shaping square wave oscillator \u2014 open the strait, tighten the jacket, ride the passage",
+      "tags": [
+        "Oscillator",
+        "Waveshaper"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "slug": "OrangeLine",
   "name": "OrangeLine",
-  "version": "2.4.12",
+  "version": "2.4.14",
   "license": "GPL-3.0-only",
   "brand": "",
   "author": "Dieter Stubler",
@@ -123,6 +123,16 @@
       "description": "Interface Module for MIDI>CV deriving BPM from MIDI CLK and 24 pmm CLK/N, handling Transport and calculating CMP cv for GATOR for latency compensation of up to 16 channels",
       "tags": [
         "MIDI",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Hold",
+      "name": "Hold",
+      "description": "A polyphinic s&h module which strores its state with the preset.",
+      "tags": [
+        "\u201cSample and hold",
+        "Polyphonic",
         "Utility"
       ]
     }

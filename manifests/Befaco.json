@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.9.1",
+  "version": "2.10.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -422,6 +422,20 @@
         "Clock modulator",
         "Hardware clone",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Iroi",
+      "name": "Iroi",
+      "description": "A Shortcut for Atmospheric Processing",
+      "manualUrl": "https://www.befaco.org/iroi/",
+      "modularGridUrl": "https://www.modulargrid.net/e/befaco-iroi",
+      "tags": [
+        "Delay",
+        "Effect",
+        "Filter",
+        "Hardware clone",
+        "Reverb"
       ]
     }
   ]

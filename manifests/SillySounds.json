@@ -1,11 +1,11 @@
 {
   "slug": "SillySounds",
   "name": "Silly Sounds",
-  "version": "2.0.0",
+  "version": "2.1.1",
   "license": "GPL-3.0-or-later",
   "brand": "Silly Sounds",
-  "author": "Giacomo Loparco",
-  "authorEmail": "gdloparco@gmail.com",
+  "author": "Gillian Loparco",
+  "authorEmail": "",
   "authorUrl": "https://loparcog.github.io",
   "pluginUrl": "",
   "manualUrl": "",
@@ -16,25 +16,28 @@
     {
       "slug": "Sesame",
       "name": "Sesame",
-      "description": "A clock modulator for adding repeat and swing to a regular clock signal",
+      "description": "A clock modulator for adding signal repeat and swing to a clock signal. Swing affects all channels while repetition triggering is polyphonic",
       "tags": [
-        "Clock modulator"
+        "Clock modulator",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Lola",
       "name": "Lola",
-      "description": "An in-line sampler, allowing for real-time recording and playback through manual and voltage-based controls",
+      "description": "A polyphonic in-line sampler, allowing for real-time recording and playback through manual and voltage-based controls",
       "tags": [
-        "Sampler"
+        "Sampler",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Kyle",
       "name": "Kyle",
-      "description": "A sidechain module utilizing an envelope follower to create an accurate level adjuster",
+      "description": "A polyphonic sidechain module utilizing an envelope follower to create an accurate level adjuster",
       "tags": [
-        "Envelope Follower"
+        "Envelope Follower",
+        "Polyphonic"
       ]
     }
   ]

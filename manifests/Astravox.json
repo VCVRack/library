@@ -1,0 +1,28 @@
+{
+  "slug": "Astravox",
+  "name": "Astravox",
+  "version": "2.0.3",
+  "license": "GPL-3.0-only",
+  "brand": "Astravox",
+  "author": "Jack Arky",
+  "authorEmail": "jackarky@earthlink.net",
+  "authorUrl": "https://github.com/JackArkyDev",
+  "pluginUrl": "https://github.com/JackArkyDev/Astravox",
+  "manualUrl": "https://github.com/JackArkyDev/Astravox/blob/main/docs/MANUAL.md",
+  "sourceUrl": "https://github.com/JackArkyDev/Astravox",
+  "donateUrl": "https://www.paypal.com/donate/?business=jackarky%40earthlink.net",
+  "changelogUrl": "https://github.com/JackArkyDev/Astravox/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Vocoder",
+      "name": "Vocoder",
+      "description": "16-band vocoder with per-band level faders, internal carrier oscillator, and spectral CV outputs",
+      "tags": [
+        "Vocoder",
+        "Filter",
+        "Effect",
+        "Oscillator"
+      ]
+    }
+  ]
+}

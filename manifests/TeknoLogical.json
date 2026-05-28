@@ -1,7 +1,7 @@
 {
   "slug": "TeknoLogical",
   "name": "TeknoLogical",
-  "version": "2.0.3",
+  "version": "2.0.6",
   "license": "GPL-3.0-or-later",
   "brand": "TeknoLogical",
   "author": "AgostoSound",
@@ -81,6 +81,36 @@
         "Waveshaper",
         "Dynamics",
         "Compressor"
+      ]
+    },
+    {
+      "slug": "TL_VULR",
+      "name": "TL_VULR",
+      "description": "Stereo VU Meter.",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "TL_LowF",
+      "name": "TL_LowF",
+      "description": "Quad-phase control LFO with waves and multipliers.",
+      "tags": [
+        "Controller",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Quad"
+      ]
+    },
+    {
+      "slug": "TL_Shape",
+      "name": "TL_Shape",
+      "description": "ADSR + VCA",
+      "tags": [
+        "Dual",
+        "Dynamics",
+        "Envelope generator",
+        "Voltage-controlled amplifier"
       ]
     }
   ]

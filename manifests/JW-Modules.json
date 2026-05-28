@@ -10,70 +10,39 @@
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
   "changelogUrl": "https://github.com/jeremywen/JW-Modules/blob/master/CHANGELOG.md",
-  "version": "2.0.33",
+  "version": "2.0.38",
   "modules": [
     {
-      "slug": "BlankPanel_1HP",
-      "name": "Blank Panel (1HP)",
+      "slug": "0Cat",
+      "name": "0Cat",
       "manualUrl": "https://github.com/jeremywen/JW-Modules",
       "tags": [
         "Visual"
       ]
     },
     {
-      "slug": "BlankPanel_2HP",
-      "name": "Blank Panel (2HP)",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "slug": "1Pattern",
+      "name": "1Pattern",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#1pattern",
       "tags": [
-        "Visual"
+        "Sequencer",
+        "Clock Modulator"
       ]
     },
     {
-      "slug": "BlankPanel_4HP",
-      "name": "Blank Panel (4HP)",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "slug": "8Seq",
+      "name": "8Seq",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#eightseq",
       "tags": [
-        "Visual"
+        "Sequencer"
       ]
     },
     {
-      "slug": "BlankPanel_SM",
-      "name": "Blank Panel (Small)",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "slug": "AbcdSeq",
+      "name": "AbcdSeq",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#abcdseq",
       "tags": [
-        "Visual"
-      ]
-    },
-    {
-      "slug": "BlankPanel_MD",
-      "name": "Blank Panel (Medium)",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Visual"
-      ]
-    },
-    {
-      "slug": "BlankPanel_LG",
-      "name": "Blank Panel (Large)",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Visual"
-      ]
-    },
-    {
-      "slug": "CoolBreeze",
-      "name": "Cool Breeze",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Visual"
-      ]
-    },
-    {
-      "slug": "Pete",
-      "name": "Pete",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Visual"
+        "Sequencer"
       ]
     },
     {
@@ -83,77 +52,6 @@
       "tags": [
         "Utility",
         "Poly"
-      ]
-    },
-    {
-      "slug": "Subtract5",
-      "name": "Subtract5",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Utility",
-        "Poly"
-      ]
-    },
-    {
-      "slug": "Grains",
-      "name": "Grains",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Sampler",
-        "Granular"
-      ]
-    },
-    {
-      "slug": "SampleGrid",
-      "name": "Sample Grid",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Sampler",
-        "Poly"
-      ]
-    },
-    {
-      "slug": "Buffer",
-      "name": "Buffer",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Effect",
-        "Delay"
-      ]
-    },
-    {
-      "slug": "RandomSound",
-      "name": "Random Sound",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Oscillator",
-        "Random",
-        "Poly"
-      ]
-    },
-    {
-      "slug": "ShiftRegRnd",
-      "name": "Shift Register Random",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Utility",
-        "Poly"
-      ]
-    },
-    {
-      "slug": "StereoSwitch",
-      "name": "Stereo Switch",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Utility"
-      ]
-    },
-    {
-      "slug": "StereoSwitchInv",
-      "name": "Stereo Switch Inverted",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules",
-      "tags": [
-        "Utility"
       ]
     },
     {
@@ -179,6 +77,54 @@
       ]
     },
     {
+      "slug": "BlankPanel_1HP",
+      "name": "Blank Panel (1HP)",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "BlankPanel_2HP",
+      "name": "Blank Panel (2HP)",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "BlankPanel_4HP",
+      "name": "Blank Panel (4HP)",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "BlankPanel_LG",
+      "name": "Blank Panel (Large)",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "BlankPanel_MD",
+      "name": "Blank Panel (Medium)",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "BlankPanel_SM",
+      "name": "Blank Panel (Small)",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
       "slug": "BouncyBalls",
       "name": "Bouncy Balls",
       "manualUrl": "https://github.com/jeremywen/JW-Modules#bouncy-balls",
@@ -188,11 +134,38 @@
       ]
     },
     {
-      "slug": "0Cat",
-      "name": "0Cat",
+      "slug": "Buffer",
+      "name": "Buffer",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Effect",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "CoolBreeze",
+      "name": "Cool Breeze",
       "manualUrl": "https://github.com/jeremywen/JW-Modules",
       "tags": [
         "Visual"
+      ]
+    },
+    {
+      "slug": "D1v1de",
+      "name": "D1v1de",
+      "description": "Clock Divider",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#d1v1de",
+      "tags": [
+        "Clock modulator",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "DivSeq",
+      "name": "DivSeq",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#divseq",
+      "tags": [
+        "Sequencer"
       ]
     },
     {
@@ -204,33 +177,27 @@
       ]
     },
     {
+      "slug": "Fract",
+      "name": "Fract",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Clock Modulator",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "Grains",
+      "name": "Grains",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Sampler",
+        "Granular"
+      ]
+    },
+    {
       "slug": "GridSeq",
       "name": "GridSeq",
       "manualUrl": "https://github.com/jeremywen/JW-Modules#gridseq",
-      "tags": [
-        "Sequencer"
-      ]
-    },
-    {
-      "slug": "8Seq",
-      "name": "8Seq",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#eightseq",
-      "tags": [
-        "Sequencer"
-      ]
-    },
-    {
-      "slug": "AbcdSeq",
-      "name": "AbcdSeq",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#abcdseq",
-      "tags": [
-        "Sequencer"
-      ]
-    },
-    {
-      "slug": "DivSeq",
-      "name": "DivSeq",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#divseq",
       "tags": [
         "Sequencer"
       ]
@@ -253,15 +220,6 @@
       ]
     },
     {
-      "slug": "NoteSeqFu",
-      "name": "NoteSeqFu",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#noteSeqFu",
-      "tags": [
-        "Sequencer",
-        "Poly"
-      ]
-    },
-    {
       "slug": "NoteSeq16",
       "name": "NoteSeq16",
       "manualUrl": "https://github.com/jeremywen/JW-Modules#noteSeq16",
@@ -271,11 +229,12 @@
       ]
     },
     {
-      "slug": "Trigs",
-      "name": "Trigs",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#trigs",
+      "slug": "NoteSeqFu",
+      "name": "NoteSeqFu",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#noteSeqFu",
       "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Poly"
       ]
     },
     {
@@ -288,56 +247,10 @@
       ]
     },
     {
-      "slug": "1Pattern",
-      "name": "1Pattern",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#1pattern",
+      "slug": "Pete",
+      "name": "Pete",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
       "tags": [
-        "Sequencer",
-        "Clock Modulator"
-      ]
-    },
-    {
-      "slug": "Quantizer",
-      "name": "Quantizer",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#quantizer",
-      "tags": [
-        "Quantizer",
-        "Poly"
-      ]
-    },
-    {
-      "slug": "SimpleClock",
-      "name": "Simple Clock",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#simpleclock",
-      "tags": [
-        "Clock",
-        "Random"
-      ]
-    },
-    {
-      "slug": "Timer",
-      "name": "Timer",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#timer",
-      "tags": [
-        "Clock",
-        "Utility"
-      ]
-    },
-    {
-      "slug": "Str1ker",
-      "name": "Str1ker",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#str1ker",
-      "tags": [
-        "Clock"
-      ]
-    },
-    {
-      "slug": "D1v1de",
-      "name": "D1v1de",
-      "description": "Clock Divider",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#d1v1de",
-      "tags": [
-        "Clock modulator",
         "Visual"
       ]
     },
@@ -351,11 +264,115 @@
       ]
     },
     {
+      "slug": "Quantizer",
+      "name": "Quantizer",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#quantizer",
+      "tags": [
+        "Quantizer",
+        "Poly"
+      ]
+    },
+    {
+      "slug": "RandomSound",
+      "name": "Random Sound",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Oscillator",
+        "Random",
+        "Poly"
+      ]
+    },
+    {
+      "slug": "SampleGrid",
+      "name": "Sample Grid",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Sampler",
+        "Poly"
+      ]
+    },
+    {
+      "slug": "ShiftRegRnd",
+      "name": "Shift Register Random",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Utility",
+        "Poly"
+      ]
+    },
+    {
+      "slug": "SimpleClock",
+      "name": "Simple Clock",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#simpleclock",
+      "tags": [
+        "Clock",
+        "Random"
+      ]
+    },
+    {
+      "slug": "StereoSwitch",
+      "name": "Stereo Switch",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "StereoSwitchInv",
+      "name": "Stereo Switch Inverted",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Str1ker",
+      "name": "Str1ker",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#str1ker",
+      "tags": [
+        "Clock"
+      ]
+    },
+    {
+      "slug": "Subtract5",
+      "name": "Subtract5",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Utility",
+        "Poly"
+      ]
+    },
+    {
       "slug": "ThingThing",
       "name": "Thing Thing",
       "manualUrl": "https://github.com/jeremywen/JW-Modules#thing-thing",
       "tags": [
         "Visual"
+      ]
+    },
+    {
+      "slug": "Timer",
+      "name": "Timer",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#timer",
+      "tags": [
+        "Clock",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Tree",
+      "name": "Tree",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#tree",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Trigs",
+      "name": "Trigs",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#trigs",
+      "tags": [
+        "Sequencer"
       ]
     },
     {
@@ -368,19 +385,30 @@
       ]
     },
     {
-      "slug": "Tree",
-      "name": "Tree",
-      "manualUrl": "https://github.com/jeremywen/JW-Modules#tree",
-      "tags": [
-        "Visual"
-      ]
-    },
-    {
       "slug": "XYPad",
       "name": "XY Pad",
       "manualUrl": "https://github.com/jeremywen/JW-Modules#xy-pad",
       "tags": [
         "LFO",
+        "Random"
+      ]
+    },
+    {
+      "slug": "FM16Seq",
+      "name": "FM16Seq",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Sequencer",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "FM4Dice",
+      "name": "FM4Dice",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Oscillator",
+        "Synth Voice",
         "Random"
       ]
     }

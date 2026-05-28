@@ -1,7 +1,7 @@
 {
   "slug": "QuestionableDinner",
   "name": "Questionable Dinner",
-  "version": "2.0.7",
+  "version": "2.1.7",
   "license": "Apache-2.0",
   "brand": "Questionable Dinner",
   "author": "Rox Wilson",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/NullCodeMusic/Questionable-Dinner/blob/master/manual.md",
   "sourceUrl": "https://github.com/NullCodeMusic/Questionable-Dinner/",
   "donateUrl": "https://ko-fi.com/rox1000000",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/NullCodeMusic/Questionable-Dinner/blob/master/readme.md",
   "modules": [
     {
       "slug": "ASawB",
@@ -50,7 +50,9 @@
       "description": "Record and swap buffers to delay and garble audio.",
       "tags": [
         "Delay",
-        "Granular"
+        "Granular",
+        "effect",
+        "Polyphonic"
       ]
     },
     {
@@ -87,7 +89,9 @@
       "description": "",
       "tags": [
         "distortion",
-        "Envelope follower"
+        "Envelope follower",
+        "effect",
+        "Polyphonic"
       ]
     },
     {
@@ -112,7 +116,8 @@
       "description": "A pitch & gate utility module.",
       "tags": [
         "utility",
-        "sample and hold"
+        "sample and hold",
+        "Polyphonic"
       ]
     },
     {
@@ -122,7 +127,66 @@
       "tags": [
         "compressor",
         "Voltage-controlled amplifier",
-        "distortion"
+        "distortion",
+        "effect",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Organism",
+      "name": "Organism",
+      "description": "Additive synthesis macro oscillator",
+      "tags": [
+        "Oscillator",
+        "synth voice",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "OTamer",
+      "name": "O-Tamer",
+      "description": "A filter/spectral shaping expander for Organism.",
+      "tags": [
+        "Oscillator",
+        "Filter",
+        "expander",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Simmer",
+      "name": "Simmer",
+      "description": "Trig-Based melody machine",
+      "tags": [
+        "Arpeggiator"
+      ]
+    },
+    {
+      "slug": "DialecticFilter",
+      "name": "Dead Meat",
+      "description": "Precision chaos",
+      "tags": [
+        "Filter",
+        "Distortion",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Weather",
+      "name": "WTHR",
+      "description": "Random oscillator",
+      "tags": [
+        "Oscillator",
+        "Noise"
+      ]
+    },
+    {
+      "slug": "Boxes",
+      "name": "Boxes",
+      "description": "Delay based on distance from 4 walls",
+      "tags": [
+        "Delay",
+        "Reverb"
       ]
     }
   ]

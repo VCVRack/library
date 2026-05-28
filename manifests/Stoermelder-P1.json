@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -13,6 +13,15 @@
   "changelogUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/CHANGELOG.md",
   "donateUrl": "https://paypal.me/stoermelder",
   "modules": [
+    {
+      "slug": "MidiEsx",
+      "name": "MIDI-ESX",
+      "description": "MIDI converter for your Expert Sleepers hardware setup (ES-5, ES-8, ES-9 etc.)",
+      "tags": [
+        "MIDI"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/midiesx/MidiEsx.md"
+    },
     {
       "slug": "Ahab",
       "name": "AHAB",

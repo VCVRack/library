@@ -1,0 +1,32 @@
+{
+  "slug": "BCNmodular",
+  "name": "BCNmodular",
+  "version": "2.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "BCNmodular",
+  "description": "Probabilistic Voice Router, Arranger, Mixer & Sequencer",
+  "author": "Santi Fort",
+  "authorEmail": "el_teu_email@exemple.com",
+  "authorUrl": "https://github.com/santifort-commits/BCNmodular",
+  "pluginUrl": "https://github.com/santifort-commits/BCNmodular",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/santifort-commits/BCNmodular",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Maestro",
+      "name": "Maestro",
+      "description": "Probabilistic Voice Router, Arranger, Mixer, Sequencer & Trigger Generator",
+      "tags": [
+        "Random",
+        "Switch",
+        "Mixer",
+        "Sequencer",
+        "Polyphonic",
+        "Clock modulator"
+      ],
+      "keywords": "arrangement arranger router gate probability density voice conductor performance trigger burst"
+    }
+  ]
+}

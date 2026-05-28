@@ -2593,5 +2593,12 @@
     "vcvUrl": "https://library.vcvrack.com/VostokInstruments/Halo",
     "mgUrl": "https://modulargrid.net/e/vostok-instruments-halo",
     "mgModuleId": 58103
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Iroi",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Iroi",
+    "mgUrl": "https://www.modulargrid.net/e/befaco-iroi",
+    "mgModuleId": 57795
   }
 ]
