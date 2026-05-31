@@ -16644,7 +16644,7 @@
     }
   },
   "Ambivalent-Instruments": {
-    "buildTimestamp": 1776985081.595565,
+    "buildTimestamp": 1780263171.9790022,
     "creationTimestamp": 1769016407.250645,
     "modules": {
       "Grainer": {
@@ -16682,6 +16682,15 @@
       },
       "FeedbackEQ8": {
         "creationTimestamp": 1776985082.8724794
+      },
+      "Crackl": {
+        "creationTimestamp": 1780263172.7493427
+      },
+      "Rain": {
+        "creationTimestamp": 1780263172.786327
+      },
+      "Gurgling": {
+        "creationTimestamp": 1780263172.8231187
       }
     }
   },

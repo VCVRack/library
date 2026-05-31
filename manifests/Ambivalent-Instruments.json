@@ -1,7 +1,7 @@
 {
   "slug": "Ambivalent-Instruments",
   "name": "Ambivalent Instruments",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "minRackVersion": "2.0.0",
   "license": "proprietary",
   "brand": "Ambivalent Instruments",
@@ -33,17 +33,19 @@
       "tags": [
         "Equalizer",
         "Filter",
-        "Effect"
+        "Effect",
+        "Digital"
       ]
     },
     {
       "slug": "FeedbackEQ8",
       "name": "Feedback EQ8",
-      "description": "Stereo 8-band parametric equalizer (fixed peaking and shelf bands) with one global feedback control (\u00b195%) for resonance and self-osc. In-loop limiter and DC block stabilize the loop; output is the dry EQ signal.",
+      "description": "Stereo 8-band parametric equalizer with one global feedback control for resonance and self-osc.",
       "tags": [
         "Equalizer",
         "Filter",
-        "Effect"
+        "Effect",
+        "Digital"
       ]
     },
     {
@@ -87,7 +89,8 @@
       "tags": [
         "Delay",
         "Utility",
-        "Clock"
+        "Clock generator",
+        "Digital"
       ]
     },
     {
@@ -107,7 +110,8 @@
       "tags": [
         "Effect",
         "Distortion",
-        "Waveshaper"
+        "Waveshaper",
+        "Digital"
       ]
     },
     {
@@ -116,7 +120,8 @@
       "description": "8-step CV/Gate sequencer",
       "tags": [
         "Sequencer",
-        "Clock"
+        "Clock generator",
+        "Digital"
       ]
     },
     {
@@ -126,7 +131,8 @@
       "tags": [
         "Effect",
         "Panning",
-        "Tremolo"
+        "Tremolo",
+        "Digital"
       ]
     },
     {
@@ -136,6 +142,36 @@
       "tags": [
         "Synth voice",
         "Oscillator",
+        "Noise",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "Crackl",
+      "name": "Crackl",
+      "description": "Inspired by \"Velvet Sunset\" by manual, this small noise generator adds a touch of warmth and melancholy behind beautiful harmonies.\n\nWith its delicate texture and understated presence, it blends a sense of transience seamlessly into your music and performances.",
+      "tags": [
+        "Oscillator",
+        "Noise",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "Rain",
+      "name": "Rain",
+      "description": "Synthesizes rain sound.\n\nYou can control the rain sound by controlling the density of the rain, the magnitude of the reverberation, and the filter type and coefficients, as well as stereo width.",
+      "tags": [
+        "Physical modeling",
+        "Noise",
+        "Digital"
+      ]
+    },
+    {
+      "slug": "Gurgling",
+      "name": "Gurgling",
+      "description": "The \"gurgling\" sound is a strange one, similar to the bubbling noise of water. The density, clarity, and frequency of this sound can be adjusted, along with stereo width.",
+      "tags": [
+        "Physical modeling",
         "Noise",
         "Digital"
       ]
