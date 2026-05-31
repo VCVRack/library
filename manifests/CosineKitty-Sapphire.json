@@ -1,7 +1,7 @@
 {
   "slug": "CosineKitty-Sapphire",
   "name": "Sapphire",
-  "version": "2.6.003",
+  "version": "2.6.004",
   "license": "GPL-3.0-or-later",
   "brand": "Sapphire",
   "author": "Don Cross",
@@ -66,6 +66,40 @@
         "Effect",
         "Filter",
         "Reverb"
+      ]
+    },
+    {
+      "slug": "Empath",
+      "name": "Empath",
+      "description": "A multi-stage filter based on a chain of expanders.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/doc/Empath.md",
+      "tags": [
+        "Polyphonic",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "EmpathFilter",
+      "name": "Empath Filter",
+      "hidden": true,
+      "description": "Expander that adds another filter in a chain of Empath modules.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/doc/Empath.md",
+      "tags": [
+        "Delay",
+        "Polyphonic",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "EmpathOutput",
+      "name": "Empath Output",
+      "hidden": true,
+      "description": "The final expander to get output from a chain of Empath filter modules.",
+      "manualUrl": "https://github.com/cosinekitty/sapphire/blob/main/doc/Empath.md",
+      "tags": [
+        "Delay",
+        "Polyphonic",
+        "Expander"
       ]
     },
     {
