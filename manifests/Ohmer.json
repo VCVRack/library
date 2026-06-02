@@ -1,0 +1,132 @@
+{
+  "slug": "Ohmer",
+  "name": "Ohmer",
+  "version": "2.6.12",
+  "license": "BSD-3-Clause",
+  "author": "Dominique Camus",
+  "brand": "Ohmer Modules",
+  "authorEmail": "docam@free.fr",
+  "authorUrl": "https://github.com/DomiKamu",
+  "pluginUrl": "https://github.com/DomiKamu/Ohmer",
+  "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/README.md",
+  "sourceUrl": "https://github.com/DomiKamu/Ohmer.git",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "RKD",
+      "name": "RKD (Rotate Klok Divider)",
+      "description": "Rotate Klok Divider (RKD) module (inspired from 4ms RCD hardware)",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/docs/modules/RKD/Manual.pdf",
+      "tags": [
+        "Clock modulator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "BRK",
+      "name": "BRK (\"Break\") expander for RKD",
+      "description": "BRK (\"Break\") expander to setup RKD jumpers (inspired from 4ms BO hardware)",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/docs/modules/RKD/Manual.pdf",
+      "tags": [
+        "Clock modulator",
+        "Sequencer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Metriks",
+      "name": "Metriks",
+      "description": "Voltmeter",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/docs/modules/Metriks/Manual.md",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "PolaritySwitch",
+      "name": "Polarity Switch",
+      "description": "Signal is routed to \"P\" if its input voltage is positive. Otherwise, it will be routed to \"N\" (but as positive equivalent, as absolute value)",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/docs/modules/Polarity_Switch/Manual.md",
+      "tags": [
+        "Dual",
+        "Switch",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SplitterModule",
+      "name": "Splitter 1x9",
+      "description": "Spread incoming monophonic/polyphonic signal upto 9 outputs",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/docs/modules/Splitter_1x9/Manual.md",
+      "tags": [
+        "Multiple",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "OhmerBlank1",
+      "name": "1HP blank panel",
+      "description": "1HP blank panel (using two screws)",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/docs/modules/Blank_Panels/Manual.md",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "OhmerBlank2",
+      "name": "2HP blank panel",
+      "description": "2HP blank panel (customizable screws disposal)",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/docs/modules/Blank_Panels/Manual.md",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "OhmerBlank4",
+      "name": "4HP blank panel",
+      "description": "4HP blank panel",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/docs/modules/Blank_Panels/Manual.md",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "OhmerBlank8",
+      "name": "8HP blank panel",
+      "description": "8HP blank panel",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/docs/modules/Blank_Panels/Manual.md",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "OhmerBlank16",
+      "name": "16HP blank panel",
+      "description": "16HP blank panel",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/docs/modules/Blank_Panels/Manual.md",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "OhmerBlank32",
+      "name": "32HP blank panel",
+      "description": "32HP blank panel",
+      "manualUrl": "https://github.com/DomiKamu/Ohmer/blob/v2/docs/modules/Blank_Panels/Manual.md",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "hidden": true,
+      "slug": "KlokSpid",
+      "name": "KlokSpid",
+      "description": "CPU-controlled clock generator or clock modulator",
+      "tags": [
+        "Clock generator",
+        "Clock modulator"
+      ]
+    }
+  ]
+}
