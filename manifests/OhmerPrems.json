@@ -1,7 +1,7 @@
 {
   "slug": "OhmerPrems",
   "name": "OhmerPrems",
-  "version": "2.6.8",
+  "version": "2.6.12",
   "license": "proprietary",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
@@ -12,6 +12,16 @@
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
+    {
+      "slug": "FranKe",
+      "name": "FranKe",
+      "description": "8-track 16-step 99-pattern quantized note-based analog sequencer, with optional Turing Machine",
+      "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/FranKe/Manual.md",
+      "keywords": "Turing",
+      "tags": [
+        "Sequencer"
+      ]
+    },
     {
       "slug": "FroeZe",
       "name": "FroeZe",
@@ -89,10 +99,23 @@
     },
     {
       "hidden": true,
+      "slug": "Vektor",
+      "name": "Vektor",
+      "description": "Digital vector synthesis oscillator",
+      "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/Vektor/Manual.md",
+      "tags": [
+        "Oscillator",
+        "Quad",
+        "Polyphonic"
+      ]
+    },
+    {
+      "hidden": true,
       "slug": "6OPDX",
       "name": "6OP-DX",
       "description": "117HP 6-operator algorithm-based PM (phase modulation) synthesizer",
       "manualUrl": "https://github.com/DomiKamu/OhmerPrems/blob/v2/docs/modules/6OP-DX/Manual.md",
+      "keywords": "DX7 clone PM FM operator",
       "tags": [
         "Synth voice",
         "Polyphonic"
