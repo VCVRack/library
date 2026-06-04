@@ -1,0 +1,71 @@
+{
+  "slug": "Battalion",
+  "name": "Unfiltered Audio Battalion",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "author": "Unfiltered Audio",
+  "brand": "Unfiltered Audio",
+  "authorEmail": "contact@unfilteredaudio.com",
+  "authorUrl": "unfilteredaudio.com",
+  "pluginUrl": "https://www.unfilteredaudio.com/pages/vcv-manuals",
+  "manualUrl": "https://www.unfilteredaudio.com/pages/vcv-manuals",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "minRackVersion": "2.4.0",
+  "modules": [
+    {
+      "slug": "BattalionSynth",
+      "name": "Battalion Drum Synth",
+      "description": "Multimode drum synthesizer",
+      "tags": [
+        "Drum",
+        "Digital",
+        "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "BattalionOutput",
+      "name": "Battalion Output",
+      "description": "Output section: maximizer, 3-band EQ, gain, multimode clipper",
+      "tags": [
+        "Effect",
+        "Equalizer",
+        "Compressor",
+        "Distortion",
+        "Limiter",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "BattalionDelay",
+      "name": "Battalion Shatter Delay",
+      "description": "Stereo glitch delay with ping-pong, ducking, tilt EQ, sample-rate reduction, and clock sync",
+      "tags": [
+        "Delay",
+        "Clock Generator",
+        "Granular",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "BattalionReverb",
+      "name": "Battalion Headspace Reverb",
+      "description": "Multi-mode reverb with predelay, tilt EQ in/out, and sample-rate reduction",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "BattalionTone",
+      "name": "Battalion Tone",
+      "description": "Multimode distortion + multimode filter with switchable internal routing order",
+      "tags": [
+        "Distortion",
+        "Filter",
+        "Effect"
+      ]
+    }
+  ]
+}
