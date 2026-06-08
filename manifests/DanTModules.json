@@ -1,7 +1,7 @@
 {
   "slug": "DanTModules",
   "name": "DanTModules",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "minRackVersion": "2.6.6",
   "license": "proprietary",
   "brand": "DanT",
@@ -234,6 +234,18 @@
       ],
       "keywords": "thats no moon generative sequencer star wars death star space station pet rock random flavour rhythm",
       "manualUrl": "https://community.vcvrack.com/t/dant-thats-no-moon/"
+    },
+    {
+      "slug": "Kapow",
+      "name": "Kapow",
+      "description": "[12hp] Additive spectral resynthesis voice based on offline audio analysis. Polyphonic.",
+      "tags": [
+        "Oscillator",
+        "Polyphonic",
+        "Synth voice"
+      ],
+      "keywords": "kapow additive spectral resynthesis analysis spectrogram sine oscillator noise partials stft mp3 wav flac",
+      "manualUrl": "https://community.vcvrack.com/t/dant-kapow/"
     }
   ]
 }
