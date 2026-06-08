@@ -1053,3 +1053,6 @@
 [submodule "repos/WaveOfHormuz"]
 	path = repos/WaveOfHormuz
 	url = https://github.com/quaternionmedia/waveofhormuz.git
+[submodule "repos/Submit"]
+	path = repos/Submit
+	url = https://github.com/submitaudio/submit-vcv-modules.git
