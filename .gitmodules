@@ -1059,3 +1059,6 @@
 [submodule "repos/Sticksy"]
 	path = repos/Sticksy
 	url = https://github.com/infamedavid/Sticksy-rack.git
+[submodule "repos/TC-Wurl"]
+	path = repos/TC-Wurl
+	url = https://github.com/Eurikon/TC-Wurl.git
