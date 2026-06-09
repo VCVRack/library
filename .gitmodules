@@ -1065,3 +1065,6 @@
 [submodule "repos/tnn1t1s-ghost"]
 	path = repos/tnn1t1s-ghost
 	url = https://github.com/tnn1t1s/tnn1t1s-ghost.git
+[submodule "repos/Zoxnoxious"]
+	path = repos/Zoxnoxious
+	url = https://github.com/brer-rabbit/zoxnoxious-virtual.git
