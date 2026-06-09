@@ -1,0 +1,53 @@
+{
+  "slug": "Zoxnoxious",
+  "name": "Zoxnoxious DSP",
+  "version": "2.0.8",
+  "license": "GPL-3.0-or-later",
+  "brand": "Zoxnoxious",
+  "author": "Zoxnoxious Engineering",
+  "authorEmail": "zoxnoxious@patentinvestor.com",
+  "authorUrl": "https://github.com/brer-rabbit/",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/brer-rabbit/zoxnoxious-virtual/",
+  "sourceUrl": "https://github.com/brer-rabbit/zoxnoxious-virtual/",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "PoleDancer",
+      "name": "Pole Dancer",
+      "description": "Morphing multimode filter",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "PoleDancerPersonality",
+      "name": "Pole Dancer Personality",
+      "description": "Filter topology for Pole Dancer",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "PoleDancerWorkbench-PoleDancer",
+      "name": "Pole Dancer Morphscope",
+      "description": "Expands Pole Dancer with a Morphscope",
+      "hidden": true,
+      "tags": [
+        "Filter",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "PoleDancerWorkbench-Personality",
+      "name": "Personality Architect",
+      "description": "View and create filters",
+      "hidden": true,
+      "tags": [
+        "Filter",
+        "Expander"
+      ]
+    }
+  ]
+}

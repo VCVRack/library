@@ -1,0 +1,26 @@
+{
+  "slug": "TC-Wurl",
+  "name": "TC Wurl",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Twisted Cable",
+  "author": "Latif Karoumi",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/Eurikon/TC-Wurl/blob/master/docs/TCWurl_manual.md",
+  "sourceUrl": "https://github.com/Eurikon/TC-Wurl",
+  "donateUrl": "https://buymeacoffee.com/twistedcable",
+  "changelogUrl": "https://github.com/Eurikon/TC-Wurl/blob/master/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "TC-Wurl",
+      "name": "TC Wurl",
+      "description": "Physically-modeled electric piano",
+      "tags": [
+        "Synth Voice",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

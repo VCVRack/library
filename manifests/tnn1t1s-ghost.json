@@ -1,0 +1,95 @@
+{
+  "slug": "tnn1t1s-ghost",
+  "name": "Ghost",
+  "version": "2.1.1",
+  "license": "MIT",
+  "brand": "TNN1T1S",
+  "author": "TNN1T1S",
+  "authorEmail": "tnn1t1s@abrilfields.com",
+  "authorUrl": "https://github.com/tnn1t1s/tnn1t1s-ghost",
+  "pluginUrl": "https://github.com/tnn1t1s/tnn1t1s-ghost",
+  "manualUrl": "https://github.com/tnn1t1s/tnn1t1s-ghost/blob/main/doc/GhostUserManual.md",
+  "sourceUrl": "https://github.com/tnn1t1s/tnn1t1s-ghost",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/tnn1t1s/tnn1t1s-ghost/blob/main/CHANGELOG.md",
+  "description": "Ghost is a Rack-native drum system inspired by classic 909 behavior: separate voices, shared accent, and a central controller that makes the kit behave like one instrument.",
+  "modules": [
+    {
+      "slug": "Kck",
+      "name": "GHOST KCK",
+      "description": "909-inspired kick voice. Struck bridged-T resonator model with damped sine body, pitch-envelope glide, bandpassed click transient, and tanh drive. Works standalone; comes alive with GHOST CTRL.",
+      "tags": [
+        "Drum",
+        "Synth voice",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "Snr",
+      "name": "GHOST SNR",
+      "description": "909-inspired snare voice. Tune/Tone/Snappy/Level surface over reset triangle VCOs, fixed binary noise, and split body/noise envelopes. Accent-aware via GHOST CTRL.",
+      "tags": [
+        "Drum",
+        "Synth voice",
+        "Noise"
+      ]
+    },
+    {
+      "slug": "ChhOhh",
+      "name": "GHOST OHCH",
+      "description": "Combined open/closed hi-hat voice. CH and OH share a coupled sound path: a CH hit instantly mutes any sounding OH, reproducing the canonical hi-hat choke behavior often mistaken for compression. Accent-aware via GHOST CTRL.",
+      "tags": [
+        "Drum",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "RimClap",
+      "name": "GHOST RIMCLAP",
+      "description": "Dual 909-style ROMpler voice: rim and clap in one module with independent triggers, controls, and outputs. Accent-aware via GHOST CTRL.",
+      "tags": [
+        "Drum",
+        "Sampler",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Toms",
+      "name": "GHOST TOMS",
+      "description": "909-inspired tom kit. Three voices -- low, mid, and high -- share one calibrated engine with per-voice tune, decay, level, trigger, and output. Accent-aware via GHOST CTRL.",
+      "tags": [
+        "Drum",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "CrashRide",
+      "name": "GHOST CRSHRIDE",
+      "description": "909-inspired cymbal pair. Crash and ride share a paired module with independent Tune, Decay, Level, trigger, and output controls. Accent-aware via GHOST CTRL.",
+      "tags": [
+        "Drum",
+        "Sampler",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "GhostCtrl",
+      "name": "GHOST CTRL",
+      "description": "Global state controller for the Ghost drum system. DEFAULT, ACCENT A, ACCENT B, and MASTER controls are broadcast to adjacent Ghost voices via the expander path. Hit-time events such as trigger and local/total accent gates are patched directly to each voice. Use GHOST CTRL to make the separate voices behave like one instrument.",
+      "tags": [
+        "Controller",
+        "Utility",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "GhostMix",
+      "name": "GHOST MIX",
+      "description": "Dedicated summing mixer for the Ghost drum kit. Twelve labeled inputs -- one per voice of the full kit (Kick, Snare, Rim, Clap, Tom Lo/Mid/Hi, Closed Hat, Open Hat, Crash, Ride) plus a MIXIN channel (the 909's external mix-in) -- each with a mute switch, summed to one MIX output. Per-voice level lives on the voices, so the mixer is a clean unity summer -- the whole kit on one master mix point, in the box.",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    }
+  ]
+}

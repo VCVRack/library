@@ -3595,7 +3595,7 @@
     }
   },
   "JW-Modules": {
-    "buildTimestamp": 1779980853.7481189,
+    "buildTimestamp": 1780970250.0270586,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "BlankPanel_SM": {
@@ -11520,7 +11520,7 @@
     }
   },
   "dbRackModules": {
-    "buildTimestamp": 1775436045.405119,
+    "buildTimestamp": 1780972603.397592,
     "creationTimestamp": 1641209269.2091281,
     "modules": {
       "GeneticTerrain": {
@@ -11771,6 +11771,12 @@
       },
       "FadersOne": {
         "creationTimestamp": 1775436212.5971382
+      },
+      "DB16": {
+        "creationTimestamp": 1780972652.0041366
+      },
+      "C7": {
+        "creationTimestamp": 1780972652.0729136
       }
     }
   },
@@ -12429,7 +12435,7 @@
     }
   },
   "CosineKitty-Sapphire": {
-    "buildTimestamp": 1780262974.7428539,
+    "buildTimestamp": 1780970065.499192,
     "creationTimestamp": 1660869608.068208,
     "modules": {
       "Moots": {
@@ -12564,7 +12570,7 @@
     }
   },
   "SickoCV": {
-    "buildTimestamp": 1768316958.5618756,
+    "buildTimestamp": 1780971749.2824798,
     "creationTimestamp": 1661903994.336356,
     "modules": {
       "Btoggler": {
@@ -16113,7 +16119,7 @@
     }
   },
   "MADZINE": {
-    "buildTimestamp": 1777271240.258152,
+    "buildTimestamp": 1780971010.9180312,
     "creationTimestamp": 1754214222.0569358,
     "modules": {
       "SwingLFO": {
@@ -16311,7 +16317,7 @@
     }
   },
   "Animatek": {
-    "buildTimestamp": 1777270471.9795904,
+    "buildTimestamp": 1780969629.8073316,
     "creationTimestamp": 1759801615.851557,
     "modules": {
       "UZZ": {
@@ -16322,6 +16328,15 @@
       },
       "OxiCvExp": {
         "creationTimestamp": 1777272606.0326052
+      },
+      "Apc40Ctrl": {
+        "creationTimestamp": 1780972649.8678303
+      },
+      "UnitDistanceSeq": {
+        "creationTimestamp": 1780972649.9102514
+      },
+      "Blank3": {
+        "creationTimestamp": 1780972649.949905
       }
     }
   },
@@ -16530,7 +16545,7 @@
     }
   },
   "SignalFunctionSet": {
-    "buildTimestamp": 1779981278.1812735,
+    "buildTimestamp": 1780971958.2017732,
     "creationTimestamp": 1762139014.4446235,
     "modules": {
       "Drift": {
@@ -16571,6 +16586,21 @@
       },
       "Shift": {
         "creationTimestamp": 1779983501.8722537
+      },
+      "Wave": {
+        "creationTimestamp": 1780972651.6751509
+      },
+      "Vac": {
+        "creationTimestamp": 1780972651.749338
+      },
+      "Muse": {
+        "creationTimestamp": 1780972651.8119323
+      },
+      "Gravity": {
+        "creationTimestamp": 1780972651.873281
+      },
+      "Band": {
+        "creationTimestamp": 1780972651.933534
       }
     }
   },
@@ -16875,7 +16905,7 @@
     }
   },
   "Chrysalis": {
-    "buildTimestamp": 1777270671.6907544,
+    "buildTimestamp": 1780969845.0593429,
     "creationTimestamp": 1775436212.0898075,
     "modules": {
       "Chrysalis": {
@@ -17123,6 +17153,120 @@
       },
       "BattalionTone": {
         "creationTimestamp": 1780606030.2697682
+      }
+    }
+  },
+  "Submit": {
+    "buildTimestamp": 1780972036.5195196,
+    "creationTimestamp": 1780972650.027545,
+    "modules": {
+      "Drift": {
+        "creationTimestamp": 1780972650.087326
+      },
+      "Chrono": {
+        "creationTimestamp": 1780972650.1362715
+      },
+      "Impact": {
+        "creationTimestamp": 1780972650.1899328
+      },
+      "Chain": {
+        "creationTimestamp": 1780972650.242885
+      },
+      "Squeeze": {
+        "creationTimestamp": 1780972650.2954288
+      },
+      "Shape": {
+        "creationTimestamp": 1780972650.3460155
+      },
+      "Master": {
+        "creationTimestamp": 1780972650.397633
+      },
+      "Gain": {
+        "creationTimestamp": 1780972650.452183
+      },
+      "Sweep": {
+        "creationTimestamp": 1780972650.5039232
+      },
+      "Loop": {
+        "creationTimestamp": 1780972650.553415
+      }
+    }
+  },
+  "tnn1t1s-ghost": {
+    "buildTimestamp": 1780972649.7881513,
+    "creationTimestamp": 1780972650.6291864,
+    "modules": {
+      "Kck": {
+        "creationTimestamp": 1780972650.713055
+      },
+      "Snr": {
+        "creationTimestamp": 1780972650.7809117
+      },
+      "ChhOhh": {
+        "creationTimestamp": 1780972650.8577569
+      },
+      "RimClap": {
+        "creationTimestamp": 1780972650.9367154
+      },
+      "Toms": {
+        "creationTimestamp": 1780972651.0256488
+      },
+      "CrashRide": {
+        "creationTimestamp": 1780972651.1013775
+      },
+      "GhostCtrl": {
+        "creationTimestamp": 1780972651.1682968
+      },
+      "GhostMix": {
+        "creationTimestamp": 1780972651.2575765
+      }
+    }
+  },
+  "Zoxnoxious": {
+    "buildTimestamp": 1780972081.5487823,
+    "creationTimestamp": 1780972651.3434925,
+    "modules": {
+      "PoleDancer": {
+        "creationTimestamp": 1780972651.4188237
+      },
+      "PoleDancerPersonality": {
+        "creationTimestamp": 1780972651.490783
+      },
+      "PoleDancerWorkbench-PoleDancer": {
+        "creationTimestamp": 1780972651.5572631
+      },
+      "PoleDancerWorkbench-Personality": {
+        "creationTimestamp": 1780972651.6160855
+      }
+    }
+  },
+  "TC-Wurl": {
+    "buildTimestamp": 1780972058.1764393,
+    "creationTimestamp": 1780972652.1335895,
+    "modules": {
+      "TC-Wurl": {
+        "creationTimestamp": 1780972652.1858535
+      }
+    }
+  },
+  "Sticksy": {
+    "buildTimestamp": 1780971979.8257267,
+    "creationTimestamp": 1780972652.2427907,
+    "modules": {
+      "SticksyBlank3": {
+        "creationTimestamp": 1780972652.2955837
+      },
+      "SticksyBlank5": {
+        "creationTimestamp": 1780972652.351003
+      },
+      "SticksyBlank9": {
+        "creationTimestamp": 1780972652.4144418
+      },
+      "SticksyBlank12": {
+        "creationTimestamp": 1780972652.4682374
+      },
+      "SticksyFlipbook": {
+        "creationTimestamp": 1780972652.5193477
       }
     }
   }

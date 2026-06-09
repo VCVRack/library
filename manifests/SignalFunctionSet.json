@@ -1,7 +1,7 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.10.1",
+  "version": "2.13.0",
   "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
@@ -144,6 +144,58 @@
         "Sequencer",
         "Random",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Wave",
+      "name": "Wave",
+      "description": "Parametric wavetable voice. Six macro shape controls (Peaks, Bias, Transition, Skew, Width, Fold) sculpt each waveform; eight bookmark slots form a wavetable that WT INDEX scans through with adjustable morph time.",
+      "tags": [
+        "Oscillator",
+        "Waveshaper",
+        "Synth voice"
+      ],
+      "hidden": true
+    },
+    {
+      "slug": "Vac",
+      "name": "Vac",
+      "description": "Semi-stable A/R envelope with vactrol-like drift. Rise and fall each have a bipolar STAB control: each trigger samples a fresh random factor scaled exponentially by STAB, so cycle-to-cycle timing wanders without ever collapsing. Linear\u2194exponential CURVE (with CV), latching LOOP, END trigger out.",
+      "tags": [
+        "Envelope generator",
+        "Function generator",
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Muse",
+      "name": "Muse",
+      "description": "Faithful Triadex Muse sequencer port. 4 Theme + 4 Interval sliders each select one of 40 taps (counters + 31-bit XNOR-feedback shift register); Theme bits drive the SR feedback, Interval bits address a diatonic scale. External clock, V/oct + gate out, randomize button/CV, selectable scale.",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Gravity",
+      "name": "Gravity",
+      "description": "Gravity-driven chaos engine with six modes \u2014 double pendulum, orbiting gravity well (a spring-bound rocket perturbed by planets), elastic billiards, a Pac-Man-style maze (Hungry Man), a LOGO Turtle that draws random generative artwork, and a Pattern generator that traces spirograph/Maurer-rose figures \u2014 all sharing bipolar X/Y position, radius and angle CVs, six morph-crossfaded sector distance CVs, and six boundary-ray gates. Speed, chaos, and a mode-dependent gravity control; drag on the display to throw/aim.",
+      "tags": [
+        "Low-frequency oscillator",
+        "Random",
+        "Utility",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Band",
+      "name": "Band",
+      "description": "Harmonic bandpass bank. Eight narrow bands each lock to an integer harmonic of a shared 1V/oct fundamental, so individual harmonics of a rich low wave isolate dead-on every time. Fraction-of-f0 width (constant absolute bandwidth), continuous global harmonic-shift CV, per-band level/enable, mix + polyphonic per-band outputs.",
+      "tags": [
+        "Filter",
+        "Polyphonic",
+        "Effect"
       ]
     }
   ]

@@ -1,0 +1,55 @@
+{
+  "slug": "Sticksy",
+  "name": "Sticksy",
+  "version": "2.0.0",
+  "author": "InfameDavid",
+  "brand": "InfameDavid",
+  "license": "GPL-3.0-or-later",
+  "authorUrl": "https://infamedavid.gumroad.com/",
+  "pluginUrl": "https://github.com/infamedavid/Sticksy-rack",
+  "manualUrl": "https://github.com/infamedavid/Sticksy-rack",
+  "sourceUrl": "https://github.com/infamedavid/Sticksy-rack",
+  "donateUrl": "https://paypal.me/Davidb3d",
+  "modules": [
+    {
+      "slug": "SticksyBlank3",
+      "name": "Sticksy Blank 3HP",
+      "description": "Decorative blank panel.",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "SticksyBlank5",
+      "name": "Sticksy Blank 5HP",
+      "description": "Decorative blank panel.",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "SticksyBlank9",
+      "name": "Sticksy Blank 9HP",
+      "description": "Decorative blank panel.",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "SticksyBlank12",
+      "name": "Sticksy Blank 12HP",
+      "description": "Decorative blank panel.",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "SticksyFlipbook",
+      "name": "Sticksy Flipbook",
+      "description": "SVG flipbook panel.",
+      "tags": [
+        "Visual"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "slug": "dbRackModules",
   "name": "dbRackModules",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -137,7 +137,8 @@
     {
       "slug": "HexSeqP",
       "name": "HexSeqP",
-      "description": "A 16x16x64 Trigger Sequencer",
+      "description": "A 16x16x64 Trigger Sequencer, deprecated - use HexSeqP2 instead",
+      "hidden": true,
       "tags": [
         "Sequencer",
         "Polyphonic"
@@ -417,7 +418,9 @@
       "description": "CPU friendly polyphonic offset/scaler with polyphonic cv inputs and cv attenuators",
       "tags": [
         "Polyphonic",
-        "Attenuator"
+        "Attenuator",
+        "Sample and hold",
+        "Quantizer"
       ]
     },
     {
@@ -750,6 +753,24 @@
       "description": "Programmable faders with modulation",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "DB16",
+      "name": "DB16",
+      "description": "16 band splitter",
+      "tags": [
+        "Filter",
+        "Equalizer"
+      ]
+    },
+    {
+      "slug": "C7",
+      "name": "C7",
+      "description": "Adaptive Limiter, Compressor",
+      "tags": [
+        "Compressor",
+        "Limiter"
       ]
     }
   ]

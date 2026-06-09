@@ -1,0 +1,107 @@
+{
+  "slug": "Submit",
+  "name": "Submit",
+  "version": "2.15.3",
+  "license": "GPL-3.0-only",
+  "brand": "Submit",
+  "author": "Juan Jos\u00e9",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/submitaudio/submit-vcv-modules/blob/master/MANUAL.md",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Drift",
+      "name": "Drift",
+      "description": "All-in-one voice module \u2014 oscillator, wavefolder, slope and contour",
+      "tags": [
+        "Oscillator",
+        "Envelope generator",
+        "Function generator"
+      ]
+    },
+    {
+      "slug": "Chrono",
+      "name": "Chrono",
+      "description": "Tape delay with 6 head combinations and tape character controls",
+      "tags": [
+        "Delay",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Impact",
+      "name": "Impact",
+      "description": "Kick drum synthesizer with Pure and Harsh synthesis modes",
+      "tags": [
+        "Drum",
+        "Noise"
+      ]
+    },
+    {
+      "slug": "Chain",
+      "name": "Chain",
+      "description": "Stereo channel mixer with FX sends and COMP/CV insert",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Squeeze",
+      "name": "Squeeze",
+      "description": "Sidechain envelope generator for Chain COMP/CV",
+      "tags": [
+        "Envelope follower",
+        "Dynamics"
+      ]
+    },
+    {
+      "slug": "Shape",
+      "name": "Shape",
+      "description": "6-band SSL-style stereo equalizer",
+      "tags": [
+        "Equalizer",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Master",
+      "name": "Master",
+      "description": "Master bus processor with level control and limiting",
+      "tags": [
+        "Dynamics",
+        "Limiter"
+      ]
+    },
+    {
+      "slug": "Gain",
+      "name": "Gain",
+      "description": "Line level booster for iPhone, laptop and external gear",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Sweep",
+      "name": "Sweep",
+      "description": "State variable filter with LP, BP and HP outputs",
+      "tags": [
+        "Filter",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Loop",
+      "name": "Loop",
+      "description": "Sample loop player with waveform display and BPM auto-detection",
+      "tags": [
+        "Sampler",
+        "Effect"
+      ]
+    }
+  ]
+}
