@@ -1056,3 +1056,6 @@
 [submodule "repos/Submit"]
 	path = repos/Submit
 	url = https://github.com/submitaudio/submit-vcv-modules.git
+[submodule "repos/Sticksy"]
+	path = repos/Sticksy
+	url = https://github.com/infamedavid/Sticksy-rack.git
