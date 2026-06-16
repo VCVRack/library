@@ -2600,5 +2600,12 @@
     "vcvUrl": "https://library.vcvrack.com/Befaco/Iroi",
     "mgUrl": "https://www.modulargrid.net/e/befaco-iroi",
     "mgModuleId": 57795
+  },
+  {
+    "pluginSlug": "Befaco",
+    "moduleSlug": "Random8",
+    "vcvUrl": "https://library.vcvrack.com/Befaco/Random8",
+    "mgUrl": "https://modulargrid.net/e/mylar-melodies-random8",
+    "mgModuleId": 58142
   }
 ]

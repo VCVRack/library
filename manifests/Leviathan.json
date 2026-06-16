@@ -1,7 +1,7 @@
 {
   "slug": "Leviathan",
   "name": "Leviathan",
-  "version": "2.3.12",
+  "version": "2.5.2",
   "license": "GPL-3.0-or-later",
   "brand": "Leviathan",
   "author": "Levi Kendall",
@@ -48,12 +48,21 @@
     {
       "slug": "TDScope",
       "name": "TD.Scope",
-      "description": "Expander display module for Temporal Deck timeline and waveform preview.",
+      "description": "Expander: Waveform display for Temporal Deck.",
       "tags": [
-        "Visualizer",
+        "Visual",
         "Expander"
       ],
-      "hidden": true
+      "hidden": false
+    },
+    {
+      "slug": "Undertow",
+      "name": "Undertow",
+      "description": "Compact sub-harmonic oscillator with sine, morph, and sub outputs.",
+      "tags": [
+        "Oscillator"
+      ],
+      "hidden": false
     }
   ]
 }

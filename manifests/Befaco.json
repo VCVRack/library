@@ -1,6 +1,6 @@
 {
   "slug": "Befaco",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "license": "GPL-3.0-or-later",
   "name": "Befaco",
   "brand": "Befaco",
@@ -436,6 +436,18 @@
         "Filter",
         "Hardware clone",
         "Reverb"
+      ]
+    },
+    {
+      "slug": "Random8",
+      "name": "Random8",
+      "description": "An eight channel random voltage generator, with dedicated per\u2013channel looping controls",
+      "manualUrl": "https://www.befaco.org/random8/",
+      "modularGridUrl": "https://modulargrid.net/e/mylar-melodies-random8",
+      "tags": [
+        "Random",
+        "Sample and hold",
+        "Hardware clone"
       ]
     }
   ]
