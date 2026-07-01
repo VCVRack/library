@@ -1086,3 +1086,6 @@
 [submodule "repos/BerserkAudio"]
 	path = repos/BerserkAudio
 	url = https://github.com/NicolasMurphy/BerserkAudio.git
+[submodule "repos/QualiaSense"]
+	path = repos/QualiaSense
+	url = https://github.com/qualiatouch/qualiasense-plugin.git
