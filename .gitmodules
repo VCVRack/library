@@ -1083,3 +1083,6 @@
 [submodule "repos/Corpus"]
 	path = repos/Corpus
 	url = https://github.com/dungbeetlesisyphus/JamPG.git
+[submodule "repos/BerserkAudio"]
+	path = repos/BerserkAudio
+	url = https://github.com/NicolasMurphy/BerserkAudio.git
