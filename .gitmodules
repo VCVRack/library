@@ -1071,3 +1071,6 @@
 [submodule "repos/Coalescent"]
 	path = repos/Coalescent
 	url = https://github.com/jeremycg/coalescent.git
+[submodule "repos/NoSuchDevice"]
+	path = repos/NoSuchDevice
+	url = https://github.com/thorinside/NoSuchDevice.git
