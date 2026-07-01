@@ -1080,3 +1080,6 @@
 [submodule "repos/phrasing-module"]
 	path = repos/phrasing-module
 	url = https://github.com/boocup/PhrasingModule.git
+[submodule "repos/Corpus"]
+	path = repos/Corpus
+	url = https://github.com/dungbeetlesisyphus/JamPG.git
