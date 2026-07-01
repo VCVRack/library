@@ -1068,3 +1068,6 @@
 [submodule "repos/Zoxnoxious"]
 	path = repos/Zoxnoxious
 	url = https://github.com/brer-rabbit/zoxnoxious-virtual.git
+[submodule "repos/Coalescent"]
+	path = repos/Coalescent
+	url = https://github.com/jeremycg/coalescent.git
