@@ -1077,3 +1077,6 @@
 [submodule "repos/AISynthesis"]
 	path = repos/AISynthesis
 	url = https://github.com/AIsynthesis/vcvrack.git
+[submodule "repos/phrasing-module"]
+	path = repos/phrasing-module
+	url = https://github.com/boocup/PhrasingModule.git
