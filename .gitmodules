@@ -1074,3 +1074,6 @@
 [submodule "repos/NoSuchDevice"]
 	path = repos/NoSuchDevice
 	url = https://github.com/thorinside/NoSuchDevice.git
+[submodule "repos/AISynthesis"]
+	path = repos/AISynthesis
+	url = https://github.com/AIsynthesis/vcvrack.git
