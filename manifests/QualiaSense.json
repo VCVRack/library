@@ -1,0 +1,28 @@
+{
+  "slug": "QualiaSense",
+  "name": "QualiaSense",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "QualiaTouch",
+  "description": "QualiaSense is a plugin allowing to get data from different sensors. QualiaSense is part of the QualiaTouch project. QualiaTouch is about giving the machine perception and action capabilities with the outside world.",
+  "author": "Qualia Touch",
+  "authorEmail": "qualiatouch@proton.me",
+  "pluginUrl": "https://github.com/qualiatouch/qualiasense-plugin/blob/master/Readme.md",
+  "authorUrl": "",
+  "manualUrl": "https://github.com/qualiatouch/qualiasense-plugin/blob/master/Readme.md",
+  "sourceUrl": "https://github.com/qualiatouch/qualiasense-plugin",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "PhoneSensor",
+      "name": "Phone Sensor",
+      "description": "Receives smartphone sensor data from PhyPhox app to command CV signals.",
+      "manualUrl": "https://github.com/qualiatouch/qualiasense-plugin/blob/master/doc/phonesensor.md",
+      "tags": [
+        "Controller",
+        "External"
+      ],
+      "keywords": "phyphox physics experiment phone smartphone sensor tilt gyro gyroscope accelerometer magnet magnetic light sound color"
+    }
+  ]
+}

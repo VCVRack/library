@@ -1,6 +1,6 @@
 {
   "slug": "computerscare",
-  "version": "2.2.5",
+  "version": "2.3.3",
   "name": "computerscare",
   "brand": "computerscare",
   "author": "computerscare",
@@ -9,7 +9,7 @@
   "pluginUrl": "https://github.com/freddyz/computerscare-vcv-modules",
   "authorUrl": "https://github.com/freddyz/computerscare-vcv-modules",
   "sourceUrl": "https://github.com/freddyz/computerscare-vcv-modules",
-  "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules",
+  "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/README.MD",
   "modules": [
     {
       "slug": "computerscare-knolypobs",
@@ -62,7 +62,8 @@
       "tags": [
         "Polyphonic",
         "Utility",
-        "Sequencer"
+        "Sequencer",
+        "Switch"
       ],
       "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/father-and-son.md"
     },
@@ -86,7 +87,8 @@
         "Sequencer",
         "Utility",
         "Random",
-        "Polyphonic"
+        "Polyphonic",
+        "Switch"
       ],
       "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/i-love-cookies.md"
     },
@@ -161,7 +163,7 @@
         "Blank",
         "Visual"
       ],
-      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/custom-blank.md##Expander"
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/custom-blank.md#expander"
     },
     {
       "slug": "computerscare-stoly-fick-pigure",
@@ -201,7 +203,8 @@
       "tags": [
         "Sequencer",
         "Clock Modulator",
-        "Polyphonic"
+        "Polyphonic",
+        "Random"
       ],
       "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/horse-a-doodle-do.md"
     },
@@ -211,7 +214,31 @@
       "description": "Visual experimentation.  A Kaleidoscopic mirror pointed back at your Rack, and yourself.",
       "tags": [
         "Visual"
-      ]
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/portaloof.md"
+    },
+    {
+      "slug": "computerscare-sloly-pit",
+      "name": "Sloly Pit",
+      "description": "Split a polyphonic input into 16 monophonic outputs",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/sloly-pit.md"
+    },
+    {
+      "slug": "computerscare-mely-porge",
+      "name": "Mely Porge",
+      "description": "Polyphonic input processor with 16 insert channels",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Mixer",
+        "Attenuator",
+        "VCA"
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/poly-utilities.md#mely-porge"
     }
   ]
 }

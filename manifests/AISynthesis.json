@@ -1,0 +1,26 @@
+{
+  "slug": "AISynthesis",
+  "name": "AI Synthesis",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "AI Synthesis",
+  "author": "AI Synthesis",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "AI001_Multiple",
+      "name": "AI001 Multiple",
+      "description": "2HP passive multiple \u2014 8 jacks in two switchable groups",
+      "tags": [
+        "Multiple",
+        "Utility"
+      ]
+    }
+  ]
+}

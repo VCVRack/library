@@ -1,0 +1,51 @@
+{
+  "slug": "NoSuchDevice",
+  "name": "No Such Device",
+  "version": "2.1.4",
+  "license": "MIT",
+  "brand": "No Such Device",
+  "author": "Thorinside",
+  "authorEmail": "thorinside@gmail.com",
+  "authorUrl": "https://github.com/thorinside",
+  "pluginUrl": "https://github.com/thorinside/NoSuchDevice",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/thorinside/NoSuchDevice",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "TrigGate",
+      "name": "TrigGate",
+      "description": "Create a gate from a start and stop trigger, such as the outputs on the MidiCV module.",
+      "keywords": "trigger gate start stop",
+      "tags": [
+        "Logic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "DivTrig",
+      "name": "DivTrig",
+      "description": "Trigger divider with probability",
+      "keywords": "trigger probability divider",
+      "tags": [
+        "Clock modulator",
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Corrupter",
+      "name": "Corrupter",
+      "description": "Data Bender-style circuit-bent stereo buffer effect",
+      "manualUrl": "",
+      "keywords": "glitch circuit bent buffer data bender",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Granular",
+        "Digital"
+      ]
+    }
+  ]
+}

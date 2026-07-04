@@ -1,0 +1,36 @@
+{
+  "slug": "BerserkAudio",
+  "name": "Berserk Audio",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Berserk Audio",
+  "author": "Nicolas Murphy",
+  "authorUrl": "https://github.com/NicolasMurphy",
+  "sourceUrl": "https://github.com/NicolasMurphy/BerserkAudio",
+  "modules": [
+    {
+      "slug": "Scrambler",
+      "name": "Scrambler",
+      "description": "Sample-reordering effect.",
+      "tags": [
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Xenizer",
+      "name": "Xenizer",
+      "description": "Microtonal Quantizer with 8 built-in scales.",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "XenScribe",
+      "name": "XenScribe",
+      "description": "Microtonal Quantizer with text input for creating scales.",
+      "tags": [
+        "Quantizer"
+      ]
+    }
+  ]
+}

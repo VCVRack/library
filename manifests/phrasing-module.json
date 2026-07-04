@@ -1,0 +1,28 @@
+{
+  "slug": "phrasing-module",
+  "name": "Phrasing Module",
+  "version": "2.0.0",
+  "rackVersion": "2.6.6",
+  "license": "MIT",
+  "brand": "THEREELPEET",
+  "author": "THEREELPEET",
+  "authorEmail": "buchhop@icloud.com",
+  "authorUrl": "https://github.com/boocup",
+  "pluginUrl": "https://github.com/boocup/PhrasingModule",
+  "manualUrl": "https://github.com/boocup/PhrasingModule#readme",
+  "sourceUrl": "https://github.com/boocup/PhrasingModule",
+  "changelogUrl": "https://github.com/boocup/PhrasingModule/releases",
+  "minRackVersion": "2.4.0",
+  "modules": [
+    {
+      "slug": "phrasing",
+      "name": "Phrasing",
+      "description": "Phrasing and presence controller. Shapes rests, repeats, changes, and level-focused dynamics; intended to drive VCAs or Morph 4-style level CV inputs.",
+      "panel": "res/Phrasing.svg",
+      "tags": [
+        "Utility",
+        "Random"
+      ]
+    }
+  ]
+}

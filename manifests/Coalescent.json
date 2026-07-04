@@ -1,0 +1,107 @@
+{
+  "slug": "Coalescent",
+  "name": "Coalescent",
+  "version": "2.0.3",
+  "license": "GPL-3.0-only",
+  "brand": "Coalescent",
+  "author": "Jeremy Gray",
+  "authorEmail": "jeremycgray@gmail.com",
+  "authorUrl": "https://github.com/jeremycg",
+  "pluginUrl": "https://github.com/jeremycg/coalescent",
+  "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/README.md",
+  "sourceUrl": "https://github.com/jeremycg/coalescent",
+  "changelogUrl": "https://github.com/jeremycg/coalescent/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "GENDYN",
+      "name": "GENDYN",
+      "description": "Dynamic stochastic synthesis oscillator based on Xenakis GENDY3",
+      "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/docs/gendyn.md",
+      "tags": [
+        "Oscillator",
+        "Random",
+        "Noise"
+      ],
+      "keywords": [
+        "Xenakis",
+        "GENDY",
+        "GENDY3",
+        "stochastic",
+        "random walk",
+        "dynamic stochastic synthesis",
+        "oscillator"
+      ]
+    },
+    {
+      "slug": "Haptik",
+      "name": "Haptik",
+      "description": "Scanned-synthesis oscillator: a mass-spring ring scanned at audio rate",
+      "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/docs/haptik.md",
+      "tags": [
+        "Oscillator",
+        "Physical Modeling"
+      ],
+      "keywords": [
+        "scanned synthesis",
+        "mass-spring",
+        "ring",
+        "physical modeling",
+        "string",
+        "oscillator"
+      ]
+    },
+    {
+      "slug": "Axon",
+      "name": "Neuron \u00b7 Axon",
+      "description": "Spiking-neuron oscillator on the FitzHugh-Nagumo system: relaxation oscillator + excitable (trigger-fired) voice",
+      "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/docs/axon.md",
+      "tags": [
+        "Oscillator",
+        "Physical Modeling",
+        "Polyphonic"
+      ],
+      "keywords": [
+        "FitzHugh",
+        "Nagumo",
+        "FHN",
+        "neuron",
+        "spike",
+        "excitable",
+        "relaxation",
+        "oscillator",
+        "phase portrait",
+        "polyphonic",
+        "sync",
+        "voice",
+        "percussion"
+      ]
+    },
+    {
+      "slug": "Soma",
+      "name": "Neuron \u00b7 Soma",
+      "description": "Bursting/chaotic neuron oscillator on the Hindmarsh-Rose system: spike trains, bursts, and chaos from one current control",
+      "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/docs/soma.md",
+      "tags": [
+        "Oscillator",
+        "Physical Modeling",
+        "Polyphonic"
+      ],
+      "keywords": [
+        "Hindmarsh",
+        "Rose",
+        "HR",
+        "neuron",
+        "burst",
+        "bursting",
+        "chaos",
+        "adaptation",
+        "oscillator",
+        "phase portrait",
+        "polyphonic",
+        "sync",
+        "voice",
+        "percussion"
+      ]
+    }
+  ]
+}

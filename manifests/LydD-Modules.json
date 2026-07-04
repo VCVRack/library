@@ -5,7 +5,7 @@
   "license": "GPL-3.0-or-later",
   "manualUrl": "https://github.com/Lydian-Des/LydD_Modules/blob/main/README.md",
   "sourceUrl": "https://github.com/Lydian-Des/LydD_Modules",
-  "version": "2.0.22",
+  "version": "2.0.30",
   "modules": [
     {
       "slug": "Poppy-fields",
@@ -88,6 +88,49 @@
       "tags": [
         "Filter",
         "Effect"
+      ]
+    },
+    {
+      "slug": "Master-Switch",
+      "name": "Domain",
+      "description": "Switch",
+      "tags": [
+        "Utility",
+        "Switch"
+      ]
+    },
+    {
+      "slug": "Hex-Quantizer",
+      "name": "Tonnet",
+      "description": "Quantizer",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "Reflector",
+      "name": "Reflection",
+      "description": "Window Folder",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Canyon-Echo",
+      "name": "Canyon",
+      "description": "Dual/Stereo Delay",
+      "tags": [
+        "Effect",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "Seethe-Distort",
+      "name": "Seethe",
+      "description": "Saturation",
+      "tags": [
+        "Effect",
+        "Distortion"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "swv-guitar-tools",
   "name": "Guitar Tools",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Shortwav Labs",
   "author": "Shortwav Labs",
@@ -22,12 +22,31 @@
       ]
     },
     {
+      "slug": "NamFxLoop",
+      "name": "NAM FX Loop",
+      "description": "4HP send/return effects loop expander for NAM Player with dry/wet blend",
+      "tags": [
+        "Expander",
+        "Effect"
+      ]
+    },
+    {
       "slug": "CabSim",
       "name": "Cabinet Simulator",
       "description": "Convolution-based cabinet simulator with dual IR loading, blending, and tone shaping filters",
       "tags": [
         "Effect",
         "Equalizer"
+      ]
+    },
+    {
+      "slug": "Mnemonix",
+      "name": "Mnemonix",
+      "description": "Analog-style BBD memory delay with chorus, vibrato, compander drive, and authentic clock artifacts",
+      "tags": [
+        "Delay",
+        "Effect",
+        "Chorus"
       ]
     }
   ]

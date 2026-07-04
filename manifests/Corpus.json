@@ -1,0 +1,28 @@
+{
+  "slug": "Corpus",
+  "name": "Corpus",
+  "version": "2.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "WeirdSynths",
+  "author": "Millie",
+  "authorEmail": "millieboebilliefeefifofillie@gmail.com",
+  "authorUrl": "https://github.com/dungbeetlesisyphus",
+  "pluginUrl": "https://github.com/dungbeetlesisyphus/JamPG",
+  "manualUrl": "https://github.com/dungbeetlesisyphus/JamPG#readme",
+  "sourceUrl": "https://github.com/dungbeetlesisyphus/JamPG",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/dungbeetlesisyphus/JamPG/blob/main/CHANGELOG.md",
+  "bugReportUrl": "https://github.com/dungbeetlesisyphus/JamPG/issues",
+  "description": "Image-driven sequencer for VCV Rack \u2014 scan pixels into RGB gates and CV",
+  "modules": [
+    {
+      "slug": "JamPG",
+      "name": "JAMPG",
+      "description": "Image-to-rhythm sequencer \u2014 load any image, scan pixels into RGB gates and CV",
+      "tags": [
+        "Sequencer",
+        "Visual"
+      ]
+    }
+  ]
+}

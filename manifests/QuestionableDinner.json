@@ -1,7 +1,7 @@
 {
   "slug": "QuestionableDinner",
   "name": "Questionable Dinner",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "license": "Apache-2.0",
   "brand": "Questionable Dinner",
   "author": "Rox Wilson",
@@ -188,6 +188,42 @@
         "Delay",
         "Reverb"
       ]
+    },
+    {
+      "slug": "CLatch",
+      "name": "C-Latch",
+      "description": "Latch incoming gates to a master clock.",
+      "tags": [
+        "clock modulator"
+      ]
+    },
+    {
+      "slug": "Convection",
+      "name": "Convection",
+      "description": "Curve sequencer/quad lfo/quad envelope/rhythm generator.",
+      "tags": [
+        "Low-frequency oscillator",
+        "envelope generator",
+        "sequencer",
+        "clock generator"
+      ]
+    },
+    {
+      "slug": "PlasticWrap",
+      "name": "Plastic Wrap",
+      "description": "Variable hardness clipper",
+      "tags": [
+        "distortion"
+      ]
+    },
+    {
+      "slug": "Spoon",
+      "name": "Spoon",
+      "description": "Variable hardness clipper",
+      "tags": [
+        "distortion"
+      ],
+      "hidden": true
     }
   ]
 }
