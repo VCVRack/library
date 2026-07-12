@@ -1092,3 +1092,6 @@
 [submodule "repos/ModularMooch"]
 	path = repos/ModularMooch
 	url = https://github.com/WesDaMooch/Modular-Mooch-VCV.git
+[submodule "repos/EternalEclipseModular"]
+	path = repos/EternalEclipseModular
+	url = https://github.com/7337Productions/eternaleclipsemodular.git
