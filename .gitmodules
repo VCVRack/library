@@ -1089,3 +1089,6 @@
 [submodule "repos/QualiaSense"]
 	path = repos/QualiaSense
 	url = https://github.com/qualiatouch/qualiasense-plugin.git
+[submodule "repos/ModularMooch"]
+	path = repos/ModularMooch
+	url = https://github.com/WesDaMooch/Modular-Mooch-VCV.git
