@@ -1095,3 +1095,6 @@
 [submodule "repos/EternalEclipseModular"]
 	path = repos/EternalEclipseModular
 	url = https://github.com/7337Productions/eternaleclipsemodular.git
+[submodule "repos/OPC-OctobIR"]
+	path = repos/OPC-OctobIR
+	url = https://github.com/gianni-cappelletti/vcv-octobir.git
