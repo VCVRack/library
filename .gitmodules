@@ -1098,3 +1098,6 @@
 [submodule "repos/OPC-OctobIR"]
 	path = repos/OPC-OctobIR
 	url = https://github.com/gianni-cappelletti/vcv-octobir.git
+[submodule "repos/Bruer"]
+	path = repos/Bruer
+	url = https://github.com/bruer80/bruer-vcv.git
