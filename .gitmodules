@@ -1104,3 +1104,6 @@
 [submodule "repos/ForgeAudio-AnalogSeries"]
 	path = repos/ForgeAudio-AnalogSeries
 	url = https://github.com/Photep/ForgeAudio-AnalogSeries.git
+[submodule "repos/NTRWabot"]
+	path = repos/NTRWabot
+	url = https://github.com/nevertrustrobots/NTRWabot.git
