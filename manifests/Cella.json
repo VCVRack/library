@@ -1,7 +1,7 @@
 {
   "slug": "Cella",
   "name": "Cella",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "license": "GPL-3.0-or-later",
   "brand": "Cella",
   "author": "Victor Kashirin",
@@ -117,6 +117,17 @@
       ]
     },
     {
+      "slug": "LoudnessCV",
+      "name": "Loudness CV",
+      "description": "Loud and Loudness Meter expander with scaled overshoot and signed-error output modes",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#loudness-cv",
+      "keywords": "loudness lufs overshoot error expander cv",
+      "tags": [
+        "Expander",
+        "Utility"
+      ]
+    },
+    {
       "slug": "Integral",
       "name": "Integral",
       "description": "Signal integrator, essential for feedback, chaotic and cybernetic patches",
@@ -137,6 +148,17 @@
         "Utility",
         "Switch",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "FrequencyAnalyzer",
+      "name": "Frequency Analyzer",
+      "description": "Vintage frequency analyzer",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#frequency-analyzer",
+      "keywords": "spectrum analyzer",
+      "tags": [
+        "Visual",
+        "Utility"
       ]
     }
   ]

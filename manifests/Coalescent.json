@@ -1,7 +1,7 @@
 {
   "slug": "Coalescent",
   "name": "Coalescent",
-  "version": "2.0.3",
+  "version": "2.2.1",
   "license": "GPL-3.0-only",
   "brand": "Coalescent",
   "author": "Jeremy Gray",
@@ -22,15 +22,7 @@
         "Random",
         "Noise"
       ],
-      "keywords": [
-        "Xenakis",
-        "GENDY",
-        "GENDY3",
-        "stochastic",
-        "random walk",
-        "dynamic stochastic synthesis",
-        "oscillator"
-      ]
+      "keywords": "Xenakis GENDY GENDY3 stochastic random walk dynamic synthesis oscillator"
     },
     {
       "slug": "Haptik",
@@ -41,14 +33,7 @@
         "Oscillator",
         "Physical Modeling"
       ],
-      "keywords": [
-        "scanned synthesis",
-        "mass-spring",
-        "ring",
-        "physical modeling",
-        "string",
-        "oscillator"
-      ]
+      "keywords": "scanned synthesis mass-spring ring physical modeling string oscillator"
     },
     {
       "slug": "Axon",
@@ -60,21 +45,7 @@
         "Physical Modeling",
         "Polyphonic"
       ],
-      "keywords": [
-        "FitzHugh",
-        "Nagumo",
-        "FHN",
-        "neuron",
-        "spike",
-        "excitable",
-        "relaxation",
-        "oscillator",
-        "phase portrait",
-        "polyphonic",
-        "sync",
-        "voice",
-        "percussion"
-      ]
+      "keywords": "FitzHugh Nagumo FHN neuron spike excitable relaxation oscillator phase portrait polyphonic sync voice percussion"
     },
     {
       "slug": "Soma",
@@ -86,22 +57,31 @@
         "Physical Modeling",
         "Polyphonic"
       ],
-      "keywords": [
-        "Hindmarsh",
-        "Rose",
-        "HR",
-        "neuron",
-        "burst",
-        "bursting",
-        "chaos",
-        "adaptation",
-        "oscillator",
-        "phase portrait",
-        "polyphonic",
-        "sync",
-        "voice",
-        "percussion"
-      ]
+      "keywords": "Hindmarsh Rose HR neuron burst bursting chaos adaptation oscillator phase portrait polyphonic sync voice percussion"
+    },
+    {
+      "slug": "Operon",
+      "name": "Operon",
+      "description": "Three-phase oscillator on the repressilator gene circuit: three genes repressing each other in a ring, ~120 degrees out of phase",
+      "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/docs/operon.md",
+      "tags": [
+        "Oscillator",
+        "Low-frequency oscillator",
+        "Clock generator"
+      ],
+      "keywords": "repressilator Elowitz Leibler gene genetic circuit three phase 3 phase clock biological synthetic biology"
+    },
+    {
+      "slug": "Bunnies",
+      "name": "Bunnies",
+      "description": "Predator-prey oscillator: prey and predator chase each other a quarter cycle apart. Lotka-Volterra and Rosenzweig-MacArthur modes.",
+      "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/docs/bunnies.md",
+      "tags": [
+        "Oscillator",
+        "Low-frequency oscillator",
+        "Clock generator"
+      ],
+      "keywords": "predator prey Lotka Volterra Rosenzweig MacArthur population ecology two phase limit cycle"
     }
   ]
 }

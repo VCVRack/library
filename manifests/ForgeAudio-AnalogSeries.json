@@ -1,0 +1,26 @@
+{
+  "slug": "ForgeAudio-AnalogSeries",
+  "name": "Forge Audio - Analog Series",
+  "version": "2.0.1",
+  "minRackVersion": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Forge Audio",
+  "author": "Forge Audio",
+  "authorUrl": "https://github.com/Photep/ForgeAudio-AnalogSeries",
+  "pluginUrl": "https://github.com/Photep/ForgeAudio-AnalogSeries",
+  "sourceUrl": "https://github.com/Photep/ForgeAudio-AnalogSeries",
+  "manualUrl": "https://github.com/Photep/ForgeAudio-AnalogSeries/blob/main/docs/index.md",
+  "changelogUrl": "https://github.com/Photep/ForgeAudio-AnalogSeries/blob/main/docs/changelog.md",
+  "description": "Analog-modeled oscillator modules with waveform morphing, classic synth character, and drift",
+  "modules": [
+    {
+      "slug": "ForgeAnalogLFO",
+      "name": "Analog LFO",
+      "description": "Sub-audio oscillator with waveform morphing, analog character, and drift modeling",
+      "tags": [
+        "Low-frequency oscillator",
+        "Waveshaper"
+      ]
+    }
+  ]
+}

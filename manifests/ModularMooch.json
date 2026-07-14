@@ -1,0 +1,28 @@
+{
+  "slug": "ModularMooch",
+  "name": "Modular Mooch",
+  "version": "2.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Modular Mooch",
+  "author": "Wesley Leggo-Morrell",
+  "authorEmail": "wes.mm@outlook.com",
+  "authorUrl": "https://github.com/WesDaMooch",
+  "pluginUrl": "https://github.com/WesDaMooch/Modular-Mooch-VCV",
+  "sourceUrl": "https://github.com/WesDaMooch/Modular-Mooch-VCV",
+  "donateUrl": "https://www.paypal.com/donate/?hosted_button_id=BWB3HKRKDTSFC",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Wolfram",
+      "name": "Wolfram",
+      "description": "Multi-algorithmic Generative Sequencer",
+      "manualUrl": "https://github.com/WesDaMooch/Modular-Mooch-VCV/blob/main/img/manuals/Wolfram_Manual.pdf",
+      "keywords": "cellular automata conway life led matrix generative algorithm",
+      "tags": [
+        "Sequencer",
+        "Function generator",
+        "Random"
+      ]
+    }
+  ]
+}

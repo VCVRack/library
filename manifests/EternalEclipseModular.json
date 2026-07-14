@@ -1,0 +1,73 @@
+{
+  "slug": "EternalEclipseModular",
+  "name": "Eternal Eclipse Modular",
+  "version": "2.7.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Eternal Eclipse",
+  "author": "Nicholas Bain",
+  "authorEmail": "themagicianreversedband@gmail.com",
+  "authorUrl": "https://churchoftheeternaleclipse.com",
+  "manualUrl": "https://github.com/7337Productions/eternaleclipsemodular#readme",
+  "sourceUrl": "https://github.com/7337Productions/eternaleclipsemodular",
+  "changelogUrl": "https://github.com/7337Productions/eternaleclipsemodular/blob/main/CHANGELOG.md",
+  "minRackVersion": "2.4.0",
+  "modules": [
+    {
+      "slug": "ElementalRevelator",
+      "name": "Elemental Revelator",
+      "description": "Four-element wavetable synth voice \u2014 a pentagram of AIR, WATER, EARTH, and FIRE oscillators with elemental-ring cross-modulation, opposing-pair ring mod, SPIRIT chord mode, 72 daemon algorithms, ladder lowpass filter, and stereo delay/diffusion.",
+      "tags": [
+        "Oscillator",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "MoonPhaseDistortion",
+      "name": "Moon Phase Distortion",
+      "description": "Stereo distortion whose depth and character follow the real phase of the moon, with manual override and CV.",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "LiminalVast",
+      "name": "Liminal Vast Reverb",
+      "description": "Lush stereo reverb with a modulated feedback delay network \u2014 from intimate rooms to the endless liminal vast.",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Saros",
+      "name": "Saros",
+      "description": "Envelope and modulation generator \u2014 morphing shape bank, mouse-drawable screen with playhead, time warp and flux, 5 ms to 30 minutes.",
+      "tags": [
+        "Envelope generator",
+        "LFO",
+        "Function generator"
+      ]
+    },
+    {
+      "slug": "SephirothicModulator",
+      "name": "Sephirothic Modulator",
+      "description": "Tree of Life planetary CV matrix \u2014 ten sephirah outputs computed from real Keplerian orbital positions (Venus pentagram X/Y, Mercury retrograde triggers, lunar phase, planetary clocks), time warp up to x100,000,000, and a Da'at matrix mixer.",
+      "tags": [
+        "LFO",
+        "Clock generator",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "CosmicClock",
+      "name": "Cosmic Clock",
+      "description": "Astrological waveform engine \u2014 nine planetary LFO voices shaped by the zodiac signs they transit and mixed by live aspects, with a chart-of-the-moment wheel, end-of-cycle triggers, and time warp up to x100,000,000.",
+      "tags": [
+        "LFO",
+        "Visual"
+      ]
+    }
+  ]
+}

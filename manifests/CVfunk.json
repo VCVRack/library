@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.43",
+  "version": "2.0.47",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -387,6 +387,35 @@
         "Polyphonic",
         "Envelope follower",
         "Filter"
+      ]
+    },
+    {
+      "slug": "Aulos",
+      "name": "Aulos",
+      "description": "A dual wind instrument physical model based on the Aulos dual flute.",
+      "tags": [
+        "Physical modeling",
+        "Polyphonic",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Glass",
+      "name": "Glass",
+      "description": "A glass armonica physical model.",
+      "tags": [
+        "Physical modeling",
+        "Polyphonic",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Haze",
+      "name": "Haze",
+      "description": "A three-tap stereo chorus and diffusion effect with switchable nodes.",
+      "tags": [
+        "Effect",
+        "Chorus"
       ]
     }
   ]

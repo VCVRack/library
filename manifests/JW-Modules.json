@@ -10,7 +10,7 @@
   "sourceUrl": "https://github.com/jeremywen/JW-Modules",
   "donateUrl": "https://www.paypal.me/jeremywen",
   "changelogUrl": "https://github.com/jeremywen/JW-Modules/blob/master/CHANGELOG.md",
-  "version": "2.0.41",
+  "version": "2.0.43",
   "modules": [
     {
       "slug": "0Cat",
@@ -376,6 +376,14 @@
       ]
     },
     {
+      "slug": "Trigs128",
+      "name": "Trigs128",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules#trigs",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
       "slug": "WavHead",
       "name": "Wav Head",
       "manualUrl": "https://github.com/jeremywen/JW-Modules#wavhead",
@@ -409,6 +417,16 @@
       "tags": [
         "Oscillator",
         "Synth Voice",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Crawl",
+      "name": "Crawl",
+      "manualUrl": "https://github.com/jeremywen/JW-Modules",
+      "tags": [
+        "Sequencer",
+        "Visual",
         "Random"
       ]
     }

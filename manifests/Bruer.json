@@ -1,0 +1,23 @@
+{
+  "slug": "Bruer",
+  "name": "Bruer",
+  "version": "2.0.3",
+  "license": "GPL-3.0-or-later",
+  "brand": "Bruer",
+  "author": "Bruer",
+  "pluginUrl": "https://github.com/bruer80/bruer-vcv",
+  "sourceUrl": "https://github.com/bruer80/bruer-vcv",
+  "donateUrl": "https://buymeacoffee.com/bruer",
+  "modules": [
+    {
+      "slug": "SEQ1",
+      "name": "SEQ1",
+      "description": "Probabilistic Turing sequencer with integrated quantizer and Euclidean triggers",
+      "tags": [
+        "Sequencer",
+        "Quantizer",
+        "Clock generator"
+      ]
+    }
+  ]
+}

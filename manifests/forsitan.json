@@ -1,7 +1,7 @@
 {
   "slug": "forsitan",
   "name": "forsitan modulare",
-  "version": "2.2.1",
+  "version": "2.7.0",
   "license": "GPL-3.0-or-later",
   "brand": "forsitan modulare",
   "author": "Giampaolo Guiducci",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/gosub/forsitan-modulare#forsitan-modulare",
   "sourceUrl": "https://github.com/gosub/forsitan-modulare",
   "donateUrl": "",
-  "changelogUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.2.1/CHANGELOG.md",
+  "changelogUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.7.0/CHANGELOG.md",
   "modules": [
     {
       "slug": "alea",
@@ -69,6 +69,103 @@
       "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/limen.md",
       "tags": [
         "Utility"
+      ]
+    },
+    {
+      "slug": "MMCCCXCIX",
+      "name": "MMCCCXCIX",
+      "description": "PT2399 delay chip emulation with feedback send/return loop.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/mmcccxcix.md",
+      "tags": [
+        "Delay",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "scando",
+      "name": "scando",
+      "description": "Scanned-synthesis oscillator: a vibrating mass-spring string scanned into an evolving wavetable.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/scando.md",
+      "tags": [
+        "Oscillator",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "pellicula",
+      "name": "pellicula",
+      "description": "Exploded 8-voice drum sampler: per-voice sample/pitch/decay/level with knob + CV, poly-normalled matrix, per-voice/poly/mix outs.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/pellicula.md",
+      "tags": [
+        "Drum",
+        "Sampler",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "draen",
+      "name": "dr\u00e6n",
+      "description": "Drone synthesizer: two banks of 37 drone engines (dronecaster ports + hyf originals) played from fundamental (hz) and level (amp), with fading engine selection.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/draen.md",
+      "tags": [
+        "Oscillator",
+        "Drone",
+        "Synth Voice"
+      ]
+    },
+    {
+      "slug": "rete",
+      "name": "rete",
+      "description": "Feedback integrator network: 8 nodes, random mixing matrix, self-oscillating chaos with per-node gain CVs.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/rete.md",
+      "tags": [
+        "Oscillator",
+        "Noise",
+        "Random"
+      ]
+    },
+    {
+      "slug": "ululo",
+      "name": "ululo",
+      "description": "Feedback guitar: six comb strings and a saturating amp in a howling loop, chord-tunable via poly V/oct.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/ululo.md",
+      "tags": [
+        "Effect",
+        "Distortion",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "tabes",
+      "name": "tabes",
+      "description": "Disintegration looper: the tape loop degrades a little more on every pass (HF loss, saturation, hiss, dropouts, wow).",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/tabes.md",
+      "tags": [
+        "Sampler",
+        "Effect",
+        "Tape"
+      ]
+    },
+    {
+      "slug": "lustro",
+      "name": "lustro",
+      "description": "Scanned filter: scando's mass-spring string drives the band gains of a 16-band resonant filterbank.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/lustro.md",
+      "tags": [
+        "Filter",
+        "Effect",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "bulla",
+      "name": "bulla",
+      "description": "Rob Hordijk's Blippoo Box: two cross-modulating oscillators, two runglers and a twin-peak filter, between pattern and chaos.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/bulla.md",
+      "tags": [
+        "Oscillator",
+        "Synth Voice",
+        "Random"
       ]
     }
   ]
