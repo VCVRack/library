@@ -1101,3 +1101,6 @@
 [submodule "repos/Bruer"]
 	path = repos/Bruer
 	url = https://github.com/bruer80/bruer-vcv.git
+[submodule "repos/ForgeAudio-AnalogSeries"]
+	path = repos/ForgeAudio-AnalogSeries
+	url = https://github.com/Photep/ForgeAudio-AnalogSeries.git
