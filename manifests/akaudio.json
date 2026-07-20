@@ -1,0 +1,33 @@
+{
+  "slug": "akaudio",
+  "name": "AK Audio",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "AK Audio",
+  "author": "Andrei Kozlov",
+  "authorEmail": "andrei@akaudio.dev",
+  "authorUrl": "https://akaudio.dev",
+  "pluginUrl": "https://akaudio.dev",
+  "manualUrl": "https://github.com/akaudio-dev/akaudio/blob/main/docs/MANUAL.md",
+  "sourceUrl": "https://github.com/akaudio-dev/akaudio",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/akaudio-dev/akaudio/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Ninjam",
+      "name": "Ninjam",
+      "description": "NINJAM jam client: listen to a room's public Icecast/HTTP stream, or join the protocol to decode the live multi-user mix and transmit your own audio.",
+      "tags": [
+        "External"
+      ]
+    },
+    {
+      "slug": "Radio",
+      "name": "Radio",
+      "description": "Streaming internet radio source (Icecast/HTTP) feeding audio into a patch.",
+      "tags": [
+        "External"
+      ]
+    }
+  ]
+}

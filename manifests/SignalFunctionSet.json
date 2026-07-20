@@ -1,7 +1,7 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.15.2",
+  "version": "2.16.3",
   "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
@@ -117,7 +117,7 @@
       "slug": "Meter",
       "name": "Meter",
       "description": "Time-signature-aware musical clock with bar/quarter/eighth/sixteenth/triplet outputs, CV-controllable time signature, and external clock sync",
-      "manualUrl": "https://signalfunctionset.com/projects/sfs-sequencer-system/",
+      "manualUrl": "https://signalfunctionset.com/projects/meter/",
       "tags": [
         "Clock generator",
         "Clock modulator",
@@ -125,10 +125,22 @@
       ]
     },
     {
+      "slug": "MeterX",
+      "name": "Meter X",
+      "description": "Expander for Meter. Adds a 24 PPQN clock, a Run gate, and Bar / 2 / 4 / 8 / 16 / 32 / 64 / 128-bar trigger outputs, each with an activity LED. Place directly to the right of a Meter.",
+      "manualUrl": "https://signalfunctionset.com/projects/meter-x/",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Expander",
+        "Utility"
+      ]
+    },
+    {
       "slug": "Beat",
       "name": "Beat",
       "description": "Single-voice pattern sequencer with 8 patterns x 16 steps, on-screen step/velocity/accent editing, per-pattern length, and active-pattern progression",
-      "manualUrl": "https://signalfunctionset.com/projects/sfs-sequencer-system/",
+      "manualUrl": "https://signalfunctionset.com/projects/beat/",
       "tags": [
         "Sequencer",
         "Drum"
@@ -138,7 +150,7 @@
       "slug": "Note",
       "name": "Note",
       "description": "Monophonic CV/gate pattern sequencer with 12-note pitch matrix, scale and root selection (incl. just-intonation harmonic series), 8 patterns x 8 steps with velocity/accent/probability editing",
-      "manualUrl": "https://signalfunctionset.com/projects/sfs-sequencer-system/",
+      "manualUrl": "https://signalfunctionset.com/projects/note/",
       "tags": [
         "Sequencer",
         "Polyphonic",
@@ -235,8 +247,7 @@
         "Clock modulator",
         "Quad",
         "Random"
-      ],
-      "hidden": true
+      ]
     },
     {
       "slug": "Operator",
@@ -263,12 +274,57 @@
       "slug": "Chance",
       "name": "Chance",
       "description": "5-stage probabilistic step sequencer. Per-stage voltage slider plus repeat, probability, and harmonic-drift amounts; selectable direction, active length, and gate length; internal or external clock; CV/Gate/EOC outs and a randomize trigger.",
+      "manualUrl": "https://signalfunctionset.com/projects/chance/",
       "tags": [
         "Sequencer",
         "Random",
         "Quantizer"
+      ]
+    },
+    {
+      "slug": "Record",
+      "name": "Record",
+      "description": "Multisample auto-sampler. Drives an external voice with V/oct, gate, and velocity and captures its stereo output across a chosen note range and velocity layers, then writes a folder of WAVs plus an .sfz manifest.",
+      "manualUrl": "https://signalfunctionset.com/projects/record/",
+      "tags": [
+        "Sampler",
+        "Recording",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Play",
+      "name": "Play",
+      "description": "Polyphonic multisample player. Loads SFZ instruments (including those written by Record) and plays them polyphonically via V/oct, gate, and velocity, with CV instrument selection and stereo output.",
+      "manualUrl": "https://signalfunctionset.com/projects/play/",
+      "tags": [
+        "Sampler",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Ratio",
+      "name": "Ratio",
+      "description": "Quad ratio VCA. One signal and one CV feed four outputs; each output scales the CV by its own bipolar ratio (-1..+1) to set a gain, with per-output slew and mute (button + gate). CV is normalled to +10V so the ratios act as a quad attenuverter when no CV is patched.",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Quad",
+        "Attenuator",
+        "Utility"
       ],
       "hidden": true
+    },
+    {
+      "slug": "Arrange",
+      "name": "Arrange",
+      "description": "Song-form / arrangement sequencer. A linear chain of 8 phrases (bar-length sections); each phrase has a bar length, root + scale, BPM (linkable \u2014 a linked phrase inherits BPM/root/scale from the previous one), a gate out that stays high while it plays, and 4 channel enables. The 4 channels are per-instrument clock buses with clock division and CLOCK / BAR / RESET / EOC outputs each, muted on phrases where the channel is off \u2014 instruments drop in and out per phrase. Driven by a bar-rate clock. Master outs: phrase index (1V/phrase), BPM CV (for Meter), root + scale CV. The arrangement brain above Beat / Note / Chance.",
+      "manualUrl": "https://signalfunctionset.com/projects/arrange/",
+      "tags": [
+        "Sequencer",
+        "Clock modulator",
+        "Random",
+        "Utility"
+      ]
     }
   ]
 }

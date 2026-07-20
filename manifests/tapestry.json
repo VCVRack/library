@@ -1,10 +1,10 @@
 {
   "slug": "tapestry",
   "name": "Tapestry",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Shortwav Labs",
-  "author": "Stephane Pericat",
+  "author": "Shortwav Labs",
   "authorEmail": "contact@shortwavlabs.com",
   "manualUrl": "https://github.com/shortwavlabs/vcv-tapestry/blob/main/docs/INDEX.md",
   "sourceUrl": "https://github.com/shortwavlabs/vcv-tapestry/tree/main/src",
@@ -30,6 +30,16 @@
         "Filter",
         "Distortion",
         "Expander"
+      ]
+    },
+    {
+      "slug": "Korupt",
+      "name": "Korupt",
+      "description": "PLL harmonizer and square-wave fuzz",
+      "tags": [
+        "Effect",
+        "Distortion",
+        "Oscillator"
       ]
     }
   ]

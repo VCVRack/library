@@ -1,7 +1,7 @@
 {
   "slug": "Leviathan",
   "name": "Leviathan",
-  "version": "2.5.4",
+  "version": "2.6.2",
   "license": "GPL-3.0-or-later",
   "brand": "Leviathan",
   "author": "Levi Kendall",
@@ -58,9 +58,18 @@
     {
       "slug": "Undertow",
       "name": "Undertow",
-      "description": "Compact sub-harmonic oscillator with sine, morph, and sub outputs.",
+      "description": "Compact analog-style oscillator with sine, morphing shape, and sub-octave outputs.",
       "tags": [
         "Oscillator"
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "Deepcache",
+      "name": "Deep Cache",
+      "description": "Preloads module-browser previews for faster browsing.",
+      "tags": [
+        "Utility"
       ],
       "hidden": false
     }
