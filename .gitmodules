@@ -1113,3 +1113,6 @@
 [submodule "repos/bikeshed"]
 	path = repos/bikeshed
 	url = https://github.com/marionm/bikeshed-vcv-rack.git
+[submodule "repos/piruetas-popusintes"]
+	path = repos/piruetas-popusintes
+	url = https://github.com/piruetasxyz/popusintes-rack.git
