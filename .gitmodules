@@ -1110,3 +1110,6 @@
 [submodule "repos/akaudio"]
 	path = repos/akaudio
 	url = https://github.com/akaudio-dev/akaudio.git
+[submodule "repos/bikeshed"]
+	path = repos/bikeshed
+	url = https://github.com/marionm/bikeshed-vcv-rack.git
