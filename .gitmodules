@@ -1116,3 +1116,6 @@
 [submodule "repos/piruetas-popusintes"]
 	path = repos/piruetas-popusintes
 	url = https://github.com/piruetasxyz/popusintes-rack.git
+[submodule "repos/Avalanche"]
+	path = repos/Avalanche
+	url = https://github.com/xorioz/Avalanche.git
