@@ -1125,3 +1125,6 @@
 [submodule "repos/ChaoticInstruments"]
 	path = repos/ChaoticInstruments
 	url = https://github.com/songdsp/chaotic-vcv.git
+[submodule "repos/Aerodyne"]
+	path = repos/Aerodyne
+	url = https://github.com/gfy20070704-stack/Aerodyne-IdmGlitchNode.git
