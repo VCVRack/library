@@ -1122,3 +1122,6 @@
 [submodule "repos/RoomiFields"]
 	path = repos/RoomiFields
 	url = https://github.com/roomi-fields/vcv-osc.git
+[submodule "repos/ChaoticInstruments"]
+	path = repos/ChaoticInstruments
+	url = https://github.com/songdsp/chaotic-vcv.git
