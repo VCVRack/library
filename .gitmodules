@@ -1119,3 +1119,6 @@
 [submodule "repos/Avalanche"]
 	path = repos/Avalanche
 	url = https://github.com/xorioz/Avalanche.git
+[submodule "repos/RoomiFields"]
+	path = repos/RoomiFields
+	url = https://github.com/roomi-fields/vcv-osc.git
