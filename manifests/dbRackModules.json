@@ -1,7 +1,7 @@
 {
   "slug": "dbRackModules",
   "name": "dbRackModules",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -771,6 +771,15 @@
       "tags": [
         "Compressor",
         "Limiter"
+      ]
+    },
+    {
+      "slug": "PRJ",
+      "name": "PRJ",
+      "description": "16 to 4 Channel Projector, Channel Switcher",
+      "tags": [
+        "Utility",
+        "Switch"
       ]
     }
   ]

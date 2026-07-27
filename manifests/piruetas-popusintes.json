@@ -1,0 +1,52 @@
+{
+  "slug": "piruetas-popusintes",
+  "name": "popusintes",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "piruetas",
+  "author": "piruetas",
+  "authorUrl": "https://piruetas.xyz",
+  "sourceUrl": "https://github.com/piruetasxyz/popusintes-rack",
+  "modules": [
+    {
+      "slug": "compa",
+      "name": "compa",
+      "description": "comparador",
+      "tags": [
+        "Logic"
+      ]
+    },
+    {
+      "slug": "panel",
+      "name": "panel",
+      "description": "panel",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "relo",
+      "name": "relo",
+      "description": "relojes",
+      "tags": [
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "rerelo",
+      "name": "rerelo",
+      "description": "m\u00e1s relojes",
+      "tags": [
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "secu",
+      "name": "secu",
+      "description": "secuenciador",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}

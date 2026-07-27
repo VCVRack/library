@@ -1,0 +1,27 @@
+{
+  "slug": "RoomiFields",
+  "name": "Roomi Fields",
+  "version": "2.1.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "Roomi Fields",
+  "author": "roomi-fields",
+  "authorEmail": "claude@liance.art",
+  "authorUrl": "https://github.com/roomi-fields",
+  "pluginUrl": "https://github.com/roomi-fields/vcv-osc",
+  "manualUrl": "https://github.com/roomi-fields/vcv-osc/blob/main/README.md",
+  "sourceUrl": "https://github.com/roomi-fields/vcv-osc",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "OscController",
+      "name": "OSC Controller",
+      "description": "Remote-controls the whole Rack patch over OSC: set/get any parameter (by id or name), add/remove cables and modules, load/save presets, dump patch state, and serve an OSCQuery namespace for TouchOSC/Open Stage Control. Passthrough-compatible with osc-bridge.",
+      "manualUrl": "https://github.com/roomi-fields/vcv-osc/blob/main/README.md",
+      "tags": [
+        "Controller",
+        "External",
+        "Utility"
+      ]
+    }
+  ]
+}

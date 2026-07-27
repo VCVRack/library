@@ -1,0 +1,37 @@
+{
+  "slug": "bikeshed",
+  "name": "Bikeshed",
+  "version": "2.1.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "Bikeshed",
+  "author": "Mike Marion",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/marionm",
+  "pluginUrl": "https://github.com/marionm/bikeshed-vcv-rack",
+  "manualUrl": "https://github.com/marionm/bikeshed-vcv-rack/blob/main/README.md",
+  "sourceUrl": "https://github.com/marionm/bikeshed-vcv-rack",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/marionm/bikeshed-vcv-rack/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "EntropyPool",
+      "name": "Entropy Pool",
+      "description": "Indexable randomness",
+      "manualUrl": "https://github.com/marionm/bikeshed-vcv-rack/blob/main/doc/EntropyPool.md",
+      "tags": [
+        "Random",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "EntropyPuddle",
+      "name": "Entropy Puddle",
+      "description": "Indexable randomness",
+      "manualUrl": "https://github.com/marionm/bikeshed-vcv-rack/blob/main/doc/EntropyPuddle.md",
+      "tags": [
+        "Random",
+        "Sequencer"
+      ]
+    }
+  ]
+}

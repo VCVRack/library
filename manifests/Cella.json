@@ -1,7 +1,7 @@
 {
   "slug": "Cella",
   "name": "Cella",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "license": "GPL-3.0-or-later",
   "brand": "Cella",
   "author": "Victor Kashirin",
@@ -153,9 +153,20 @@
     {
       "slug": "FrequencyAnalyzer",
       "name": "Frequency Analyzer",
-      "description": "Vintage frequency analyzer",
+      "description": "Vintage frequency analyzer with various visualisation modes",
       "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#frequency-analyzer",
       "keywords": "spectrum analyzer",
+      "tags": [
+        "Visual",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Spectrum",
+      "name": "Spectrum",
+      "description": "Advanced spectrogram visualizer supporting classic and time-frequency reassigned analysis",
+      "manualUrl": "https://github.com/victorkashirin/CellaVCV/blob/main/docs/Cella_Manual.md#spectrum",
+      "keywords": "spectrum spectrogram fft analyzer analyser history reassignment",
       "tags": [
         "Visual",
         "Utility"

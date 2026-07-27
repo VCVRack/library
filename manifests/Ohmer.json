@@ -1,7 +1,7 @@
 {
   "slug": "Ohmer",
   "name": "Ohmer",
-  "version": "2.6.12",
+  "version": "2.6.13",
   "license": "BSD-3-Clause",
   "author": "Dominique Camus",
   "brand": "Ohmer Modules",
@@ -119,7 +119,6 @@
       ]
     },
     {
-      "hidden": true,
       "slug": "KlokSpid",
       "name": "KlokSpid",
       "description": "CPU-controlled clock generator or clock modulator",

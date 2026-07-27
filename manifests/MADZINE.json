@@ -1,7 +1,7 @@
 {
   "slug": "MADZINE",
   "name": "MADZINE",
-  "version": "2.5.3",
+  "version": "2.6.0",
   "license": "GPL-3.0-or-later",
   "brand": "MADZINE",
   "author": "MAD",
@@ -366,6 +366,24 @@
       "tags": [
         "Utility",
         "Visual"
+      ]
+    },
+    {
+      "slug": "MADREPEATER",
+      "name": "MAD REPEATER",
+      "description": "6HP single-stage envelope generator with clock sync, chainable to the right with F expanders for multi-stage envelopes",
+      "tags": [
+        "Envelope generator",
+        "Function generator"
+      ]
+    },
+    {
+      "slug": "F",
+      "name": "F",
+      "description": "4HP single-stage expander for MAD REPEATER, adds one level/curve/duration segment to the envelope chain",
+      "tags": [
+        "Envelope generator",
+        "Expander"
       ]
     }
   ]

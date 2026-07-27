@@ -1,0 +1,24 @@
+{
+  "slug": "Avalanche",
+  "name": "Avalanche",
+  "version": "2.0.0",
+  "license": "GPL-3.0-only",
+  "brand": "Mooseman Modular",
+  "author": "Moose Man Media",
+  "authorEmail": "xorioz@gmail.com",
+  "description": "The Mooseman Modular collection: deep hardware controller integration (Akai MIDIMix, Novation Launchpad) and performance-focused CV tools",
+  "sourceUrl": "https://github.com/xorioz/Avalanche",
+  "manualUrl": "https://github.com/xorioz/Avalanche#readme",
+  "modules": [
+    {
+      "slug": "Powder",
+      "name": "Powder",
+      "description": "Akai MIDIMix fader/knob bank with bidirectional LED feedback",
+      "tags": [
+        "Controller",
+        "External",
+        "MIDI"
+      ]
+    }
+  ]
+}

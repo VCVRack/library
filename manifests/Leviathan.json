@@ -1,7 +1,7 @@
 {
   "slug": "Leviathan",
   "name": "Leviathan",
-  "version": "2.6.2",
+  "version": "2.8.0",
   "license": "GPL-3.0-or-later",
   "brand": "Leviathan",
   "author": "Levi Kendall",
@@ -72,6 +72,26 @@
         "Utility"
       ],
       "hidden": false
+    },
+    {
+      "slug": "Iris",
+      "name": "Iris",
+      "description": "Polyphonic image-to-wavetable oscillator with smooth table scanning.",
+      "tags": [
+        "Oscillator",
+        "Visual"
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "Nautiloid",
+      "name": "Nautiloid",
+      "description": "Fractal exploration display for image-source workflows.",
+      "tags": [
+        "Visual",
+        "Expander"
+      ],
+      "hidden": true
     }
   ]
 }

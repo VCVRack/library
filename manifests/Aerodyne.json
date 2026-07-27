@@ -1,0 +1,21 @@
+{
+  "slug": "Aerodyne",
+  "name": "Aerodyne",
+  "version": "2.0.0",
+  "rackVersion": "2.6.6",
+  "license": "GPL-3.0-or-later",
+  "author": "Feiyang",
+  "authorEmail": "gfy20070704@gmail.com",
+  "authorUrl": "https://github.com/gfy20070704-stack",
+  "pluginUrl": "https://github.com/gfy20070704-stack/Aerodyne-IdmGlitchNode",
+  "sourceUrl": "https://github.com/gfy20070704-stack/Aerodyne-IdmGlitchNode",
+  "brand": "Aerodyne",
+  "description": "IDM-inspired glitchy shift-register sequencer utilities.",
+  "modules": [
+    {
+      "slug": "IdmGlitchNode",
+      "name": "IdmGlitchNode",
+      "description": "Shift-register glitch node with mutation probability, CV and gate outputs."
+    }
+  ]
+}

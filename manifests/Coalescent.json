@@ -1,7 +1,7 @@
 {
   "slug": "Coalescent",
   "name": "Coalescent",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "license": "GPL-3.0-only",
   "brand": "Coalescent",
   "author": "Jeremy Gray",
@@ -82,6 +82,63 @@
         "Clock generator"
       ],
       "keywords": "predator prey Lotka Volterra Rosenzweig MacArthur population ecology two phase limit cycle"
+    },
+    {
+      "slug": "Foxes",
+      "name": "Foxes",
+      "description": "Three-species food chain (Hastings-Powell): grass, bunnies, and foxes move from a regular chase through period doubling into deterministic chaos.",
+      "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/docs/foxes.md",
+      "tags": [
+        "Oscillator",
+        "Low-frequency oscillator",
+        "Clock generator"
+      ],
+      "keywords": "Hastings Powell tritrophic three trophic food chain ecology deterministic chaos strange attractor period doubling grass bunnies foxes predator prey"
+    },
+    {
+      "slug": "Finches",
+      "name": "Finches",
+      "description": "Trait-density ecology: mutation and frequency-dependent competition turn one phenotype into two persistent clusters.",
+      "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/docs/finches.md",
+      "tags": [
+        "Function generator"
+      ],
+      "keywords": "evolution evolutionary branching adaptive dynamics phenotype trait density mutation diffusion competition disruptive selection diversity speciation finches"
+    },
+    {
+      "slug": "Islands",
+      "name": "Islands",
+      "description": "Four-island Wright-Fisher drift: bounded stochastic allele-frequency CV with selection, mutation, migration, and founder bottlenecks.",
+      "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/docs/islands.md",
+      "tags": [
+        "Random",
+        "Sample and hold",
+        "Function generator"
+      ],
+      "keywords": "Wright Fisher population genetics genetic drift allele frequency stochastic random modulation islands migration mutation selection fixation sweep founder bottleneck heterozygosity"
+    },
+    {
+      "slug": "Archipelago",
+      "name": "Archipelago",
+      "description": "Eight-habitat local adaptation: selection follows a spatial environmental gradient while mutation, nearest-neighbor migration, climate, and a barrier shape clines and range shifts.",
+      "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/docs/archipelago.md",
+      "tags": [
+        "Function generator",
+        "Polyphonic"
+      ],
+      "keywords": "local adaptation quantitative trait cline gene flow stepping stone migration selection mutation barrier climate range shift colonization extinction metapopulation spatial ecology"
+    },
+    {
+      "slug": "Lineages",
+      "name": "Lineages",
+      "description": "Generative ancestral-tree sequencer: sampled traits coalesce backward into a common ancestor or branch forward through neutral mutation.",
+      "manualUrl": "https://github.com/jeremycg/coalescent/blob/main/docs/lineages.md",
+      "tags": [
+        "Random",
+        "Sequencer",
+        "Polyphonic"
+      ],
+      "keywords": "Kingman coalescent genealogy ancestry lineage phylogeny MRCA mutation genetic drift tree generative polyphonic"
     }
   ]
 }
