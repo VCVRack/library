@@ -1,0 +1,81 @@
+{
+  "slug": "ChaoticInstruments",
+  "name": "Chaotic Instruments",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Chaotic Instruments",
+  "author": "Songyuan Shi",
+  "authorEmail": "s.sy.485@gmail.com",
+  "authorUrl": "https://www.songyuanshi.uk",
+  "pluginUrl": "https://www.songyuanshi.uk/vcv-plug-ins",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "FFTF",
+      "name": "FFTF",
+      "description": "FFT spectral freeze: captures the incoming spectrum and sustains it as a frozen pad.",
+      "tags": [
+        "Effect",
+        "Granular"
+      ],
+      "manualUrl": "https://www.songyuanshi.uk/vcv-plug-ins/fftf"
+    },
+    {
+      "slug": "ModalFilter",
+      "name": "Modal Filter",
+      "description": "Parallel state-variable filter + keytracked modal resonator bank.",
+      "tags": [
+        "Filter",
+        "Physical modeling"
+      ],
+      "manualUrl": "https://www.songyuanshi.uk/vcv-plug-ins/modal-filter"
+    },
+    {
+      "slug": "ModalFilterExpander",
+      "name": "Modal Filter Expander",
+      "description": "Expander for Modal Filter: adds 5 polyphonic resonator voices with individual offsets, mutes, and CV modulation.",
+      "tags": [
+        "Expander",
+        "Filter",
+        "Physical modeling"
+      ],
+      "manualUrl": "https://www.songyuanshi.uk/vcv-plug-ins/modal-filter"
+    },
+    {
+      "slug": "WaveguideDelay",
+      "name": "Waveguide Delay",
+      "description": "Grid-stepped, clock-synced Karplus-Strong feedback delay.",
+      "tags": [
+        "Delay",
+        "Effect",
+        "Physical modeling"
+      ],
+      "manualUrl": "https://www.songyuanshi.uk/vcv-plug-ins/waveguide-delay"
+    },
+    {
+      "slug": "GrainShiftDelay",
+      "name": "Grain Shift Delay",
+      "description": "Granular texturizer into a clock-synced crossfade delay with a single-sideband frequency shifter in the feedback.",
+      "tags": [
+        "Delay",
+        "Effect",
+        "Granular"
+      ],
+      "manualUrl": "https://www.songyuanshi.uk/vcv-plug-ins/grain-shift"
+    },
+    {
+      "slug": "Yao",
+      "name": "Yao",
+      "description": "Clock-synced generative complex LFO: two interfering sine phasors whose beat envelope is steered by an I-Ching trigram change engine.",
+      "tags": [
+        "Low-frequency oscillator",
+        "Clock modulator",
+        "Random"
+      ],
+      "manualUrl": "https://www.songyuanshi.uk/vcv-plug-ins/yao"
+    }
+  ]
+}
