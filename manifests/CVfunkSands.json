@@ -1,0 +1,104 @@
+{
+  "slug": "CVfunkSands",
+  "name": "CV funk Sands",
+  "version": "2.3.8",
+  "license": "https://vcvrack.com/eula",
+  "brand": "CV funk",
+  "author": "Cody Geary",
+  "authorEmail": "codyge@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/codygeary/CVfunk-Modules",
+  "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Mirage",
+      "name": "Mirage",
+      "description": "Chord-aware quantizer with a microtonal passing-note layer for expressive pitch lines.",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Crosswinds",
+      "name": "Crosswinds",
+      "description": "16-step gate sequencer with per-step time displacement, ratcheting, and animated display.",
+      "tags": [
+        "Sequencer",
+        "Clock Modulator",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Drifts",
+      "name": "Drifts",
+      "description": "Four clocked oscillator layers with independent ratios, pitch ranges, and morphable waveforms.",
+      "tags": [
+        "Oscillator",
+        "Low-frequency Oscillator"
+      ]
+    },
+    {
+      "slug": "Arcs",
+      "name": "Arcs",
+      "description": "Probabilistic 8x8 signal router with crossfade and crosstalk control.",
+      "tags": [
+        "Switch",
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Dunes",
+      "name": "Dunes",
+      "description": "Dual function generator with rise, fall, and a rhythmic wait stage.",
+      "tags": [
+        "Function Generator",
+        "Envelope Generator",
+        "Low-frequency Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Sirocco",
+      "name": "Sirocco",
+      "description": "Predator-prey chaos oscillator. Outputs evolving population, position, and weather CVs.",
+      "tags": [
+        "Random",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Zephyr",
+      "name": "Zephyr",
+      "description": "Polyphonic morphing oscillator with three waveset families, FM, hard and soft sync.",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Droplet",
+      "name": "Droplet",
+      "description": "A stereo resonator and plate reverb with a dynamic, living character. Strikeable, audio-injectable, with envelope-driven modulation routing and per-node tuning.",
+      "tags": [
+        "Effect",
+        "Envelope Follower",
+        "Dynamics",
+        "Reverb",
+        "Physical Modeling"
+      ]
+    },
+    {
+      "slug": "Strands",
+      "name": "Strands",
+      "description": "A physical model of a hurdy gurdy.",
+      "tags": [
+        "Physical Modeling"
+      ]
+    }
+  ]
+}
