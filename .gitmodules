@@ -1131,3 +1131,6 @@
 [submodule "repos/Volders"]
 	path = repos/Volders
 	url = https://github.com/Acked-1/LFO-01.git
+[submodule "repos/shapetaker"]
+	path = repos/shapetaker
+	url = https://github.com/joshpanzarella/shapetaker-vcv.git
