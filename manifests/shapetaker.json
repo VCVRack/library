@@ -1,0 +1,24 @@
+{
+  "slug": "shapetaker",
+  "name": "shapetaker",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "shapetaker",
+  "author": "Josh Panzarella",
+  "authorEmail": "joshpanzarella@gmail.com",
+  "sourceUrl": "https://github.com/joshpanzarella/shapetaker-vcv",
+  "pluginUrl": "https://shapetaker.com",
+  "modules": [
+    {
+      "slug": "Clairaudient",
+      "name": "Clairaudient",
+      "description": "Dual sigmoid oscillator with morphing waveforms and stereo crossfading",
+      "manualUrl": "https://github.com/joshpanzarella/shapetaker-vcv/blob/main/docs/manuals/Clairaudient.md",
+      "tags": [
+        "Oscillator",
+        "Dual",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

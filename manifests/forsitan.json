@@ -1,23 +1,23 @@
 {
   "slug": "forsitan",
   "name": "forsitan modulare",
-  "version": "2.7.0",
+  "version": "2.13.1",
   "license": "GPL-3.0-or-later",
   "brand": "forsitan modulare",
   "author": "Giampaolo Guiducci",
   "authorEmail": "giampaolo.guiducci@gmail.com",
   "authorUrl": "https://github.com/gosub",
   "pluginUrl": "https://github.com/gosub/forsitan-modulare",
-  "manualUrl": "https://github.com/gosub/forsitan-modulare#forsitan-modulare",
+  "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/readme.md",
   "sourceUrl": "https://github.com/gosub/forsitan-modulare",
   "donateUrl": "",
-  "changelogUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.7.0/CHANGELOG.md",
+  "changelogUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/CHANGELOG.md",
   "modules": [
     {
       "slug": "alea",
       "name": "alea",
       "description": "Add a random module to your rack.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/alea.md",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/alea.md",
       "tags": [
         "Random",
         "Utility"
@@ -26,8 +26,8 @@
     {
       "slug": "interea",
       "name": "interea",
-      "description": "Make a chord from a V/Oct input, with quality, voicing and inversion. Harmonize option.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/interea.md",
+      "description": "Turns one V/oct input into a chord, with selectable quality, voicing and inversion.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/interea.md",
       "tags": [
         "Quad",
         "Utility"
@@ -37,7 +37,7 @@
       "slug": "cumuli",
       "name": "cumuli",
       "description": "Accumulator with up and down gates and rates.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/cumuli.md",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/cumuli.md",
       "tags": [
         "Envelope generator"
       ]
@@ -46,7 +46,7 @@
       "slug": "deinde",
       "name": "deinde",
       "description": "Quad cascading addressable attack-hold envelope.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/deinde.md",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/deinde.md",
       "tags": [
         "Envelope generator",
         "Quad"
@@ -55,8 +55,8 @@
     {
       "slug": "pavo",
       "name": "pavo",
-      "description": "Spreader of polyphonic mono signals across the stereo field (Splay Ugen).",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/pavo.md",
+      "description": "Spreads a polyphonic mono signal across the stereo field (Splay UGen).",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/pavo.md",
       "tags": [
         "Panning",
         "Polyphonic"
@@ -65,8 +65,8 @@
     {
       "slug": "limen",
       "name": "limen",
-      "description": "TCP + JSON interface for controlling VCV Rack from external tools (e.g. Emacs).",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/limen.md",
+      "description": "TCP + JSON server for controlling Rack from external tools.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/limen.md",
       "tags": [
         "Utility"
       ]
@@ -75,7 +75,7 @@
       "slug": "MMCCCXCIX",
       "name": "MMCCCXCIX",
       "description": "PT2399 delay chip emulation with feedback send/return loop.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/mmcccxcix.md",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/mmcccxcix.md",
       "tags": [
         "Delay",
         "Effect"
@@ -85,7 +85,7 @@
       "slug": "scando",
       "name": "scando",
       "description": "Scanned-synthesis oscillator: a vibrating mass-spring string scanned into an evolving wavetable.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/scando.md",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/scando.md",
       "tags": [
         "Oscillator",
         "Physical modeling"
@@ -94,8 +94,8 @@
     {
       "slug": "pellicula",
       "name": "pellicula",
-      "description": "Exploded 8-voice drum sampler: per-voice sample/pitch/decay/level with knob + CV, poly-normalled matrix, per-voice/poly/mix outs.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/pellicula.md",
+      "description": "Exploded 8-voice drum sampler: every voice's sample, pitch, decay and level on its own knob and CV.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/pellicula.md",
       "tags": [
         "Drum",
         "Sampler",
@@ -105,8 +105,8 @@
     {
       "slug": "draen",
       "name": "dr\u00e6n",
-      "description": "Drone synthesizer: two banks of 37 drone engines (dronecaster ports + hyf originals) played from fundamental (hz) and level (amp), with fading engine selection.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/draen.md",
+      "description": "Drone synthesizer: two banks of 37 engines, each played from just a fundamental and a level.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/draen.md",
       "tags": [
         "Oscillator",
         "Drone",
@@ -116,8 +116,8 @@
     {
       "slug": "rete",
       "name": "rete",
-      "description": "Feedback integrator network: 8 nodes, random mixing matrix, self-oscillating chaos with per-node gain CVs.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/rete.md",
+      "description": "Feedback integrator network: eight leaky nodes in a random mixing matrix, self-oscillating chaos.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/rete.md",
       "tags": [
         "Oscillator",
         "Noise",
@@ -127,8 +127,8 @@
     {
       "slug": "ululo",
       "name": "ululo",
-      "description": "Feedback guitar: six comb strings and a saturating amp in a howling loop, chord-tunable via poly V/oct.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/ululo.md",
+      "description": "Feedback guitar: six comb strings and a saturating amp in a howling loop.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/ululo.md",
       "tags": [
         "Effect",
         "Distortion",
@@ -138,19 +138,20 @@
     {
       "slug": "tabes",
       "name": "tabes",
-      "description": "Disintegration looper: the tape loop degrades a little more on every pass (HF loss, saturation, hiss, dropouts, wow).",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/tabes.md",
+      "description": "Disintegration looper: a tape loop that degrades a little more on every pass, with overdub.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/tabes.md",
       "tags": [
         "Sampler",
         "Effect",
-        "Tape"
+        "Tape",
+        "Polyphonic"
       ]
     },
     {
       "slug": "lustro",
       "name": "lustro",
       "description": "Scanned filter: scando's mass-spring string drives the band gains of a 16-band resonant filterbank.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/lustro.md",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/lustro.md",
       "tags": [
         "Filter",
         "Effect",
@@ -160,12 +161,126 @@
     {
       "slug": "bulla",
       "name": "bulla",
-      "description": "Rob Hordijk's Blippoo Box: two cross-modulating oscillators, two runglers and a twin-peak filter, between pattern and chaos.",
-      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/master-v2/doc/bulla.md",
+      "description": "Inspired by Hordijk's Blippoo Box: cross-modulating oscillators and runglers, pattern and chaos.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/bulla.md",
       "tags": [
         "Oscillator",
         "Synth Voice",
         "Random"
+      ]
+    },
+    {
+      "slug": "perge",
+      "name": "perge",
+      "description": "Stereo dynamic sampler and multi-effect: gated repeats, freeze, glitch (AC noises CONTINUA homage).",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/perge.md",
+      "tags": [
+        "Sampler",
+        "Effect",
+        "Delay",
+        "Granular"
+      ]
+    },
+    {
+      "slug": "vorax",
+      "name": "vorax",
+      "description": "Feedback drone synthesizer: a self-exciting Karplus-Strong string (Audrey II port).",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/vorax.md",
+      "tags": [
+        "Drone",
+        "Synth Voice",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "textor",
+      "name": "textor",
+      "description": "One-knob loop weaver: two seconds of audio, rewoven at every turn (Fieldtone Weaver clone).",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/textor.md",
+      "tags": [
+        "Sampler",
+        "Granular",
+        "Random"
+      ]
+    },
+    {
+      "slug": "imber",
+      "name": "imber",
+      "description": "Generative rain: eight players on a 2D field where position is routing, over a self-generated bank.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/imber.md",
+      "tags": [
+        "Sampler",
+        "Random",
+        "Granular",
+        "Drone"
+      ]
+    },
+    {
+      "slug": "sylla",
+      "name": "sylla",
+      "description": "Random sample generator and player: ever-new procedural samples from 27 selectable engines, nothing from disk.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/sylla.md",
+      "tags": [
+        "Sampler",
+        "Random",
+        "Synth Voice"
+      ]
+    },
+    {
+      "slug": "guttur",
+      "name": "guttur",
+      "description": "Chaotic resonator drone: a Duffing oscillator through 48 resonant filters (Gutter Synthesis port).",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/guttur.md",
+      "tags": [
+        "Drone",
+        "Physical modeling",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "vespae",
+      "name": "vespae",
+      "description": "Wasp filter: the EDP Wasp / Doepfer A-124 CMOS state-variable filter, LP/BP/HP/notch at once.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/vespae.md",
+      "tags": [
+        "Filter",
+        "Distortion",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "quadrare",
+      "name": "quadrare",
+      "description": "Patchable Walsh-Hadamard codec: sliders and jacks reach inside the transform domain.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/quadrare.md",
+      "tags": [
+        "Effect",
+        "Polyphonic",
+        "Filter",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "vestigia",
+      "name": "vestigia",
+      "description": "Stereo memory effect: a tape loop that recalls, degrades and eventually forgets.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/vestigia.md",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Reverb",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "antrum",
+      "name": "antrum",
+      "description": "Erbe-Verb style feedback delay network reverb: coffin to heavens, all of it modulatable.",
+      "manualUrl": "https://github.com/gosub/forsitan-modulare/blob/v2.13.1/doc/antrum.md",
+      "tags": [
+        "Effect",
+        "Reverb",
+        "Delay"
       ]
     }
   ]

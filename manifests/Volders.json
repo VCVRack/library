@@ -1,0 +1,25 @@
+{
+  "slug": "Volders",
+  "name": "Volders",
+  "version": "2.0.3",
+  "license": "BSD-3-Clause",
+  "brand": "Volders",
+  "author": "Joris Volders",
+  "authorEmail": "joris@acked.be",
+  "authorUrl": "https://acked-1.github.io/volders/",
+  "pluginUrl": "https://github.com/Acked-1/LFO-01",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/Acked-1/LFO-01",
+  "donateUrl": "https://ko-fi.com/volders",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "LFO-01",
+      "name": "LFO-01",
+      "description": "Low frequency oscillator with 4 selectable waveforms",
+      "tags": [
+        "LFO"
+      ]
+    }
+  ]
+}
