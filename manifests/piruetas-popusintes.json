@@ -1,7 +1,7 @@
 {
   "slug": "piruetas-popusintes",
   "name": "popusintes",
-  "version": "2.0.0",
+  "version": "2.1.1",
   "license": "MIT",
   "brand": "piruetas",
   "author": "piruetas",
@@ -11,17 +11,33 @@
     {
       "slug": "compa",
       "name": "compa",
-      "description": "comparador",
+      "description": "comparadora",
       "tags": [
         "Logic"
       ]
     },
     {
+      "slug": "envo",
+      "name": "envo",
+      "description": "generadora de envolventes",
+      "tags": [
+        "Envelope generator"
+      ]
+    },
+    {
       "slug": "panel",
-      "name": "panel",
-      "description": "panel",
+      "name": "pane",
+      "description": "nada",
       "tags": [
         "Blank"
+      ]
+    },
+    {
+      "slug": "recta",
+      "name": "recta",
+      "description": "osciladores de ondas rectangulares",
+      "tags": [
+        "Oscillator"
       ]
     },
     {
@@ -43,9 +59,17 @@
     {
       "slug": "secu",
       "name": "secu",
-      "description": "secuenciador",
+      "description": "secuenciadora",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "suma",
+      "name": "suma",
+      "description": "sumadora",
+      "tags": [
+        "Mixer"
       ]
     }
   ]
