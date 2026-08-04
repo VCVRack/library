@@ -1134,3 +1134,6 @@
 [submodule "repos/shapetaker"]
 	path = repos/shapetaker
 	url = https://github.com/joshpanzarella/shapetaker-vcv.git
+[submodule "repos/InfiniteNoise"]
+	path = repos/InfiniteNoise
+	url = https://github.com/pellelil/InfNoiseRack.git
