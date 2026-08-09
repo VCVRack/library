@@ -17803,5 +17803,239 @@
         "creationTimestamp": 1785682512.0099416
       }
     }
+  },
+  "InfiniteNoise": {
+    "buildTimestamp": 1786296456.8930967,
+    "creationTimestamp": 1786296457.0471988,
+    "modules": {
+      "SLFO4ss": {
+        "creationTimestamp": 1786296457.083507
+      },
+      "SLFO4st": {
+        "creationTimestamp": 1786296457.125639
+      },
+      "TLFO": {
+        "creationTimestamp": 1786296457.17221
+      },
+      "LFO1": {
+        "creationTimestamp": 1786296457.2127662
+      },
+      "PhaseDrivenLFO": {
+        "creationTimestamp": 1786296457.253135
+      },
+      "Tweak2I": {
+        "creationTimestamp": 1786296457.2941737
+      },
+      "Tweak2II": {
+        "creationTimestamp": 1786296457.336041
+      },
+      "Tweak4I": {
+        "creationTimestamp": 1786296457.3719761
+      },
+      "Tweak4II": {
+        "creationTimestamp": 1786296457.41113
+      },
+      "Tweak8": {
+        "creationTimestamp": 1786296457.4496627
+      },
+      "VCA2": {
+        "creationTimestamp": 1786296457.485818
+      },
+      "VCA4I": {
+        "creationTimestamp": 1786296457.5228243
+      },
+      "VCA4II": {
+        "creationTimestamp": 1786296457.5589106
+      },
+      "Clamp4": {
+        "creationTimestamp": 1786296457.604601
+      },
+      "AutoScale4": {
+        "creationTimestamp": 1786296457.6419544
+      },
+      "ManTrGtCv": {
+        "creationTimestamp": 1786296457.6850517
+      },
+      "ManPush2": {
+        "creationTimestamp": 1786296457.7240276
+      },
+      "ManTrigger8": {
+        "creationTimestamp": 1786296457.7621744
+      },
+      "ManGate8": {
+        "creationTimestamp": 1786296457.800699
+      },
+      "ManCV8I": {
+        "creationTimestamp": 1786296457.8429515
+      },
+      "ManCV8II": {
+        "creationTimestamp": 1786296457.8889797
+      },
+      "ManMix4I": {
+        "creationTimestamp": 1786296457.9248166
+      },
+      "ManMix4II": {
+        "creationTimestamp": 1786296457.960933
+      },
+      "ManMix4st": {
+        "creationTimestamp": 1786296458.012558
+      },
+      "Mute2": {
+        "creationTimestamp": 1786296458.0564508
+      },
+      "ManMute8": {
+        "creationTimestamp": 1786296458.098705
+      },
+      "CvToggle8": {
+        "creationTimestamp": 1786296458.1458097
+      },
+      "CvToGt": {
+        "creationTimestamp": 1786296458.189346
+      },
+      "CvToGtTr8": {
+        "creationTimestamp": 1786296458.2477517
+      },
+      "Mult2x4": {
+        "creationTimestamp": 1786296458.303688
+      },
+      "MergeMult4": {
+        "creationTimestamp": 1786296458.3624241
+      },
+      "Merge2x4": {
+        "creationTimestamp": 1786296458.4112046
+      },
+      "TinyLCMP2": {
+        "creationTimestamp": 1786296458.4563975
+      },
+      "LCMP2": {
+        "creationTimestamp": 1786296458.5028224
+      },
+      "LCMP6x2": {
+        "creationTimestamp": 1786296458.5474243
+      },
+      "VCMP1": {
+        "creationTimestamp": 1786296458.5927668
+      },
+      "VCMP2I": {
+        "creationTimestamp": 1786296458.640131
+      },
+      "VCMP2II": {
+        "creationTimestamp": 1786296458.6866076
+      },
+      "SHTH2": {
+        "creationTimestamp": 1786296458.7291486
+      },
+      "SHTH2x4": {
+        "creationTimestamp": 1786296458.7717974
+      },
+      "SampleAndUpdate": {
+        "creationTimestamp": 1786296458.8133607
+      },
+      "PolyMerge": {
+        "creationTimestamp": 1786296458.8588228
+      },
+      "PolySplit": {
+        "creationTimestamp": 1786296458.8958185
+      },
+      "PolyStereo": {
+        "creationTimestamp": 1786296458.932891
+      },
+      "PolyQuad": {
+        "creationTimestamp": 1786296458.9727886
+      },
+      "PolyShuffle": {
+        "creationTimestamp": 1786296459.0148492
+      },
+      "PolyTweakI": {
+        "creationTimestamp": 1786296459.0560071
+      },
+      "PolyTweakII": {
+        "creationTimestamp": 1786296459.0993817
+      },
+      "PolyLCMP": {
+        "creationTimestamp": 1786296459.1365461
+      },
+      "PolyVCMP": {
+        "creationTimestamp": 1786296459.1833947
+      },
+      "PolyOffset": {
+        "creationTimestamp": 1786296459.2295747
+      },
+      "PolyScale": {
+        "creationTimestamp": 1786296459.2683954
+      },
+      "CrossFadeSwitch1to4": {
+        "creationTimestamp": 1786296459.3115664
+      },
+      "CrossFadeSwitch4to1": {
+        "creationTimestamp": 1786296459.347745
+      },
+      "CxFade1x2": {
+        "creationTimestamp": 1786296459.3840482
+      },
+      "CxFade4x1": {
+        "creationTimestamp": 1786296459.4205976
+      },
+      "BernoulliSwitch": {
+        "creationTimestamp": 1786296459.4611537
+      },
+      "OnOffSwitch": {
+        "creationTimestamp": 1786296459.4978034
+      },
+      "Combine": {
+        "creationTimestamp": 1786296459.5432544
+      },
+      "Sign": {
+        "creationTimestamp": 1786296459.584793
+      },
+      "Sign4I": {
+        "creationTimestamp": 1786296459.6225095
+      },
+      "Sign4II": {
+        "creationTimestamp": 1786296459.6667507
+      },
+      "Fold": {
+        "creationTimestamp": 1786296459.712935
+      },
+      "WaveShaper2": {
+        "creationTimestamp": 1786296459.7506945
+      },
+      "RingMod3": {
+        "creationTimestamp": 1786296459.7881403
+      },
+      "IncDecOffset": {
+        "creationTimestamp": 1786296459.8265207
+      },
+      "Delta4": {
+        "creationTimestamp": 1786296459.8709536
+      },
+      "FlipFlop": {
+        "creationTimestamp": 1786296459.909312
+      },
+      "SlopeDetector2": {
+        "creationTimestamp": 1786296459.9523778
+      },
+      "Patch": {
+        "creationTimestamp": 1786296459.990268
+      },
+      "Random4": {
+        "creationTimestamp": 1786296460.0370784
+      },
+      "RandomCurve": {
+        "creationTimestamp": 1786296460.073813
+      },
+      "Arm3XY": {
+        "creationTimestamp": 1786296460.119073
+      },
+      "TuringMachine": {
+        "creationTimestamp": 1786296460.162738
+      },
+      "BitsToValue": {
+        "creationTimestamp": 1786296460.2032504
+      },
+      "ValueToBits": {
+        "creationTimestamp": 1786296460.243311
+      }
+    }
   }
 }
