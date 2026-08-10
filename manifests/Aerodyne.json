@@ -1,7 +1,7 @@
 {
   "slug": "Aerodyne",
   "name": "Aerodyne",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "rackVersion": "2.6.6",
   "license": "GPL-3.0-or-later",
   "author": "Feiyang",
@@ -15,7 +15,12 @@
     {
       "slug": "IdmGlitchNode",
       "name": "IdmGlitchNode",
-      "description": "Shift-register glitch node with mutation probability, CV and gate outputs."
+      "description": "Shift-register glitch node with mutation probability, CV and gate outputs.",
+      "tags": [
+        "Random",
+        "Sequencer",
+        "Logic"
+      ]
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "slug": "ghostAudio",
+  "name": "ghostAudio",
+  "version": "2.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "ghostAudio",
+  "author": "Leonardo Alvarez",
+  "authorEmail": "leonardogalvarezm@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/goster-mp3/ghostAudio/blob/main/UserManual.md",
+  "sourceUrl": "https://github.com/goster-mp3/ghostAudio",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Wavemaker",
+      "name": "Wavemaker",
+      "description": "Multi-waveform oscillator with PWM, FM, AM, Sync, and white noise generator",
+      "tags": [
+        "Oscillator"
+      ]
+    }
+  ]
+}

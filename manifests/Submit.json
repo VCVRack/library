@@ -1,17 +1,17 @@
 {
   "slug": "Submit",
   "name": "Submit",
-  "version": "2.16.1",
+  "version": "2.17.0",
   "license": "GPL-3.0-only",
   "brand": "Submit",
   "author": "Juan Jos\u00e9",
   "authorEmail": "",
-  "authorUrl": "",
-  "pluginUrl": "",
+  "authorUrl": "https://www.submitaudio.nl",
+  "pluginUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/",
   "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/",
-  "sourceUrl": "",
-  "donateUrl": "",
-  "changelogUrl": "",
+  "sourceUrl": "https://github.com/submitaudio/submit-vcv-modules",
+  "donateUrl": "https://ko-fi.com/submitaudio",
+  "changelogUrl": "https://github.com/submitaudio/submit-vcv-modules/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "Drift",
@@ -132,6 +132,37 @@
         "Sequencer",
         "Clock modulator",
         "Drum"
+      ]
+    },
+    {
+      "slug": "Sync",
+      "name": "Sync",
+      "description": "Compact 1 PPQN internal and external clock with \u00d71, \u00d72, \u00f72 and reset outputs.",
+      "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/sync/",
+      "tags": [
+        "Clock generator",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Flip",
+      "name": "Flip",
+      "description": "Stereo clock-synchronised reverse effect with continuous background capture, instant Flip, Freeze and rhythmic length control.",
+      "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/flip/",
+      "tags": [
+        "Sampler",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Orbit",
+      "name": "Orbit",
+      "description": "Rhythmic relationship processor that derives Align, Between and Gap triggers plus Tension CV from two input rhythms, with clock-synchronised Hold.",
+      "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/orbit/",
+      "tags": [
+        "Clock modulator",
+        "Logic",
+        "Utility"
       ]
     }
   ]

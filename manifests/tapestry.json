@@ -1,7 +1,7 @@
 {
   "slug": "tapestry",
   "name": "Tapestry",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "Shortwav Labs",
   "author": "Shortwav Labs",
@@ -40,6 +40,29 @@
         "Effect",
         "Distortion",
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "Wyrd",
+      "name": "Wyrd",
+      "description": "Patchable tone source and external processor with activation, agitation, nonlinear time/filter feedback, and integrated ambient reverb.",
+      "tags": [
+        "Synth Voice",
+        "Delay",
+        "Effect",
+        "VCF",
+        "VCO",
+        "Waveshaper",
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "Drift",
+      "name": "Drift",
+      "description": "3HP fluctuating random LFO inspired by source-of-uncertainty circuits, with offset, speed, range, Signal B attenuverting, subtle interference, and occasional voltage slips.",
+      "tags": [
+        "LFO",
+        "Random"
       ]
     }
   ]
