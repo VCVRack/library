@@ -1137,3 +1137,6 @@
 [submodule "repos/InfiniteNoise"]
 	path = repos/InfiniteNoise
 	url = https://github.com/pellelil/InfNoiseRack.git
+[submodule "repos/ghostAudio"]
+	path = repos/ghostAudio
+	url = https://github.com/goster-mp3/ghostAudio
