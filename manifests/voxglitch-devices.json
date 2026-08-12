@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch-devices",
   "name": "Voxglitch Devices",
-  "version": "2.15.0",
+  "version": "2.16.0",
   "license": "proprietary",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -89,6 +89,17 @@
         "Digital"
       ],
       "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/effects-bank/user_manual.md"
+    },
+    {
+      "slug": "strata",
+      "name": "Strata",
+      "description": "Layer-based spectral synthesizer: build a sound from stacked spectral sources and transforms, played back polyphonically.",
+      "tags": [
+        "Synth voice",
+        "Polyphonic",
+        "Digital"
+      ],
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/strata/user_manual.md"
     }
   ]
 }
