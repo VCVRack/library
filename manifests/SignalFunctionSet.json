@@ -1,7 +1,7 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.16.3",
+  "version": "2.17.4",
   "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
@@ -29,7 +29,7 @@
     {
       "slug": "gsx",
       "name": "GSX",
-      "description": "Granular synthesis module based on Barry Truax's GSX system (1985-86), with real-time control over temporal, spectral, and spatial parameters",
+      "description": "Granular synthesis after Barry Truax's GSX system (1985-86).",
       "manualUrl": "https://signalfunctionset.com/projects/gsx/",
       "tags": [
         "Granular",
@@ -50,7 +50,7 @@
     {
       "slug": "Phase",
       "name": "Phase",
-      "description": "Dual sample looper with phase drift via sleep and rotate modes, transient detection, and waveform display",
+      "description": "Dual sample looper whose two loops gradually drift apart, with transient detection.",
       "manualUrl": "https://signalfunctionset.com/projects/phase/",
       "tags": [
         "Sampler",
@@ -61,7 +61,7 @@
     {
       "slug": "Overtone",
       "name": "Overtone",
-      "description": "Additive synthesis VCO with 8 individually-toggled harmonics, even/odd filter, binary mask CV, and waveform display",
+      "description": "Additive VCO with eight togglable harmonics, even/odd filter and binary-mask CV.",
       "manualUrl": "https://signalfunctionset.com/projects/overtone/",
       "tags": [
         "Oscillator",
@@ -71,7 +71,7 @@
     {
       "slug": "Intone",
       "name": "Intone",
-      "description": "CHANT/FOF formant synthesis voice with vowel morphing, 5 formant cells, and dual excitation modes",
+      "description": "CHANT/FOF formant voice with vowel morphing across five formant cells.",
       "manualUrl": "https://signalfunctionset.com/projects/intone/",
       "tags": [
         "Oscillator",
@@ -83,7 +83,7 @@
     {
       "slug": "Tine",
       "name": "Tine",
-      "description": "Tunable 3rd-order pingable resonator based on the Gamelan Resonator circuit, with variable damping and VCA anti-click mode",
+      "description": "Tunable pingable resonator after the Gamelan Resonator circuit.",
       "manualUrl": "https://signalfunctionset.com/projects/tine/",
       "tags": [
         "Filter",
@@ -95,7 +95,7 @@
     {
       "slug": "FugueX",
       "name": "Fugue X",
-      "description": "Expander for Fugue \u2014 per-voice steps, range, sleep, probability, S&H mode, sorted CV outputs, and per-step trigger outputs",
+      "description": "Expander for Fugue: per-voice steps, range, sleep and probability.",
       "manualUrl": "https://signalfunctionset.com/projects/fugue/",
       "tags": [
         "Sequencer",
@@ -106,7 +106,7 @@
     {
       "slug": "MetaFugue",
       "name": "MetaFugue",
-      "description": "Single-module merge of Fugue and Fugue X on one wider panel. Adds the per-voice steps/range/sleep/probability, S&H mode, sorted min/mid/max CV outputs, and per-step triggers. Ideal for hosts without expander support, such as MetaModule.",
+      "description": "Fugue and Fugue X on one panel, for hosts without expander support.",
       "manualUrl": "https://signalfunctionset.com/projects/fugue/",
       "tags": [
         "Sequencer",
@@ -116,7 +116,7 @@
     {
       "slug": "Meter",
       "name": "Meter",
-      "description": "Time-signature-aware musical clock with bar/quarter/eighth/sixteenth/triplet outputs, CV-controllable time signature, and external clock sync",
+      "description": "Time-signature-aware musical clock with per-output swing and external sync.",
       "manualUrl": "https://signalfunctionset.com/projects/meter/",
       "tags": [
         "Clock generator",
@@ -127,7 +127,7 @@
     {
       "slug": "MeterX",
       "name": "Meter X",
-      "description": "Expander for Meter. Adds a 24 PPQN clock, a Run gate, and Bar / 2 / 4 / 8 / 16 / 32 / 64 / 128-bar trigger outputs, each with an activity LED. Place directly to the right of a Meter.",
+      "description": "Expander for Meter: 24 PPQN clock, Run gate, and 1 to 128-bar triggers.",
       "manualUrl": "https://signalfunctionset.com/projects/meter-x/",
       "tags": [
         "Clock generator",
@@ -139,7 +139,7 @@
     {
       "slug": "Beat",
       "name": "Beat",
-      "description": "Single-voice pattern sequencer with 8 patterns x 16 steps, on-screen step/velocity/accent editing, per-pattern length, and active-pattern progression",
+      "description": "Per-voice drum sequencer, 8 patterns x 16 steps with velocity and accent.",
       "manualUrl": "https://signalfunctionset.com/projects/beat/",
       "tags": [
         "Sequencer",
@@ -149,7 +149,7 @@
     {
       "slug": "Note",
       "name": "Note",
-      "description": "Monophonic CV/gate pattern sequencer with 12-note pitch matrix, scale and root selection (incl. just-intonation harmonic series), 8 patterns x 8 steps with velocity/accent/probability editing",
+      "description": "Monophonic CV/gate sequencer with a 12-note pitch matrix and scale selection.",
       "manualUrl": "https://signalfunctionset.com/projects/note/",
       "tags": [
         "Sequencer",
@@ -160,7 +160,7 @@
     {
       "slug": "Swell",
       "name": "Swell",
-      "description": "Ping-driven additive A/D envelope generator. Each ping adds voltage with its own rise, and pings stack additively over a continuous linear or exponential decay. Soft-saturated 0-10V output.",
+      "description": "Ping-driven additive envelope: each ping stacks a rise over a shared decay.",
       "manualUrl": "https://signalfunctionset.com/projects/swell/",
       "tags": [
         "Envelope generator",
@@ -172,7 +172,7 @@
     {
       "slug": "Shift",
       "name": "Shift",
-      "description": "4-output CV shift register. Per-lane step count, clock divider, step CV, and parallel/cascade mode (parallel = N-step delay line; cascade = tape-loop FIFO fed by the previous lane). Per-lane CV + gate outs, plus a jumble pair (random pick across lanes + accompanying clock).",
+      "description": "Four-lane CV shift register with per-lane delay and cascade modes.",
       "manualUrl": "https://signalfunctionset.com/projects/shift/",
       "tags": [
         "Sample and hold",
@@ -184,7 +184,7 @@
     {
       "slug": "Wave",
       "name": "Wave",
-      "description": "Parametric wavetable voice. Six macro shape controls (Peaks, Bias, Transition, Skew, Width, Fold) sculpt each waveform; eight bookmark slots form a wavetable that WT INDEX scans through with adjustable morph time.",
+      "description": "Parametric wavetable voice: six macros shape it, eight snapshots form the table.",
       "tags": [
         "Oscillator",
         "Waveshaper",
@@ -195,7 +195,7 @@
     {
       "slug": "Vac",
       "name": "Vac",
-      "description": "Semi-stable A/R envelope with vactrol-like drift. Rise and fall each have a bipolar STAB control: each trigger samples a fresh random factor scaled exponentially by STAB, so cycle-to-cycle timing wanders without ever collapsing. Linear\u2194exponential CURVE (with CV), latching LOOP, END trigger out.",
+      "description": "Semi-stable A/R envelope with vactrol-like drift that wanders without collapsing.",
       "manualUrl": "https://signalfunctionset.com/projects/vac/",
       "tags": [
         "Envelope generator",
@@ -207,7 +207,7 @@
     {
       "slug": "Muse",
       "name": "Muse",
-      "description": "Faithful Triadex Muse port. Four Theme and four Interval sliders each tap one of 40 sources (counters plus a 31-bit XNOR shift register) \u2014 Theme bits feed the register, Interval bits address a diatonic scale. External clock, V/oct + gate out, randomize, and selectable scale.",
+      "description": "Faithful Triadex Muse recreation, with four theme and four interval sliders.",
       "manualUrl": "https://signalfunctionset.com/projects/muse/",
       "tags": [
         "Sequencer",
@@ -217,7 +217,7 @@
     {
       "slug": "Gravity",
       "name": "Gravity",
-      "description": "Gravity-driven chaos engine with six visual modes: double pendulum, orbiting gravity well, elastic billiards, a Pac-Man-style maze, a LOGO turtle, and a spirograph/rose pattern generator. All modes share bipolar X/Y, radius and angle CVs, six sector-distance CVs, and six boundary-ray gates. Speed, chaos, and a mode-dependent gravity control; drag the display to throw or aim.",
+      "description": "Chaos engine with six visual modes, from double pendulum to LOGO turtle.",
       "manualUrl": "https://signalfunctionset.com/projects/gravity/",
       "tags": [
         "Low-frequency oscillator",
@@ -229,7 +229,7 @@
     {
       "slug": "Band",
       "name": "Band",
-      "description": "Harmonic bandpass bank. Four narrow bands each lock to an integer harmonic of a shared 1V/oct fundamental, isolating individual harmonics of a rich low wave. Per-band level and enable with a global harmonic-shift CV, plus mix and polyphonic per-band outputs.",
+      "description": "Harmonic bandpass bank: four bands lock to integer harmonics of one fundamental.",
       "manualUrl": "https://signalfunctionset.com/projects/band/",
       "tags": [
         "Filter",
@@ -240,7 +240,7 @@
     {
       "slug": "Cycle",
       "name": "Cycle",
-      "description": "Bar-synced quad LFO. Four channels (A-D), each with its own morphable shape and depth, lock to a musical bar via clock + bar inputs (free-running in Hz when unpatched). Global phase spread and stability, per-channel unipolar and bipolar outputs, and full CV.",
+      "description": "Bar-synced quad LFO with morphable shapes, or free-running when unpatched.",
       "manualUrl": "https://signalfunctionset.com/projects/cycle/",
       "tags": [
         "Low-frequency oscillator",
@@ -252,7 +252,7 @@
     {
       "slug": "Operator",
       "name": "Operator",
-      "description": "DX7-style 6-operator FM voice. Loads Yamaha DX7 .syx cartridges (or your own banks exported from Dexed), selects a voice, and plays it polyphonically. Built on the msfa FM engine.",
+      "description": "DX7-style six-operator FM voice. Loads .syx cartridges and plays polyphonically.",
       "manualUrl": "https://signalfunctionset.com/projects/operator/",
       "tags": [
         "Oscillator",
@@ -263,7 +263,7 @@
     {
       "slug": "OpEnv",
       "name": "OP ENV",
-      "description": "Standalone DX7 operator envelope. Pick a voice from a DX7 .syx bank to load its carrier envelope, offset each of the eight EG attributes (rates and levels) via trimpot or CV, fire it with a gate, and get a 0-10V envelope.",
+      "description": "Standalone DX7 operator envelope, loaded from a .syx bank and fired by a gate.",
       "manualUrl": "https://signalfunctionset.com/projects/op-env/",
       "tags": [
         "Envelope generator",
@@ -273,7 +273,7 @@
     {
       "slug": "Chance",
       "name": "Chance",
-      "description": "5-stage probabilistic step sequencer. Per-stage voltage slider plus repeat, probability, and harmonic-drift amounts; selectable direction, active length, and gate length; internal or external clock; CV/Gate/EOC outs and a randomize trigger.",
+      "description": "Generative melodic walk: a seeded core melody that may stray to a neighbour.",
       "manualUrl": "https://signalfunctionset.com/projects/chance/",
       "tags": [
         "Sequencer",
@@ -284,7 +284,7 @@
     {
       "slug": "Record",
       "name": "Record",
-      "description": "Multisample auto-sampler. Drives an external voice with V/oct, gate, and velocity and captures its stereo output across a chosen note range and velocity layers, then writes a folder of WAVs plus an .sfz manifest.",
+      "description": "Auto-sampler: drives a voice across notes and velocities, then writes WAVs + .sfz.",
       "manualUrl": "https://signalfunctionset.com/projects/record/",
       "tags": [
         "Sampler",
@@ -295,7 +295,7 @@
     {
       "slug": "Play",
       "name": "Play",
-      "description": "Polyphonic multisample player. Loads SFZ instruments (including those written by Record) and plays them polyphonically via V/oct, gate, and velocity, with CV instrument selection and stereo output.",
+      "description": "Polyphonic multisample player for SFZ and DecentSampler instruments.",
       "manualUrl": "https://signalfunctionset.com/projects/play/",
       "tags": [
         "Sampler",
@@ -305,7 +305,7 @@
     {
       "slug": "Ratio",
       "name": "Ratio",
-      "description": "Quad ratio VCA. One signal and one CV feed four outputs; each output scales the CV by its own bipolar ratio (-1..+1) to set a gain, with per-output slew and mute (button + gate). CV is normalled to +10V so the ratios act as a quad attenuverter when no CV is patched.",
+      "description": "Quad ratio VCA: one signal and one CV to four outs, each with its own ratio.",
       "tags": [
         "Voltage-controlled amplifier",
         "Quad",
@@ -317,13 +317,97 @@
     {
       "slug": "Arrange",
       "name": "Arrange",
-      "description": "Song-form / arrangement sequencer. A linear chain of 8 phrases (bar-length sections); each phrase has a bar length, root + scale, BPM (linkable \u2014 a linked phrase inherits BPM/root/scale from the previous one), a gate out that stays high while it plays, and 4 channel enables. The 4 channels are per-instrument clock buses with clock division and CLOCK / BAR / RESET / EOC outputs each, muted on phrases where the channel is off \u2014 instruments drop in and out per phrase. Driven by a bar-rate clock. Master outs: phrase index (1V/phrase), BPM CV (for Meter), root + scale CV. The arrangement brain above Beat / Note / Chance.",
+      "description": "Song-form sequencer: a chain of 8 phrases, each with its own length, key and tempo.",
       "manualUrl": "https://signalfunctionset.com/projects/arrange/",
       "tags": [
         "Sequencer",
         "Clock modulator",
         "Random",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Fill",
+      "name": "Fill",
+      "description": "Auto-playing drum sequencer whose pressure builds each bar and vents as a fill.",
+      "tags": [
+        "Sequencer",
+        "Drum",
+        "Random",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Chime",
+      "name": "Chime",
+      "description": "Eight-note drone machine: each note blooms as its resonator tube passes centre.",
+      "tags": [
+        "Physical modeling",
+        "Oscillator",
+        "Low-frequency oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Crystal",
+      "name": "Crystal",
+      "description": "A 3D echo chamber shaped like a real crystal habit, with four listeners as quad outs.",
+      "tags": [
+        "Reverb",
+        "Delay",
+        "Effect",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "Loom",
+      "name": "Loom",
+      "description": "Eight-string resonator sharing one bridge, so a struck string rings its neighbours.",
+      "tags": [
+        "Physical modeling",
+        "Synth voice",
+        "Polyphonic",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Key",
+      "name": "Key",
+      "description": "Quantizer that takes its key from the patch, so one key change reaches every module.",
+      "tags": [
+        "Quantizer",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Slide",
+      "name": "Slide",
+      "description": "Electric lap steel: eight strings stopped by a steel bar, with slant and rate glide.",
+      "tags": [
+        "Physical modeling",
+        "Synth voice",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "OpMorph",
+      "name": "OP MORPH",
+      "description": "Expander for Operator: the DX7 routing as a matrix you navigate as a wrapping field.",
+      "tags": [
+        "Expander",
+        "Oscillator",
+        "Polyphonic"
+      ],
+      "hidden": true
+    },
+    {
+      "slug": "SlideX",
+      "name": "SLIDE XP",
+      "description": "Expander for Slide: the eight strings on eight jacks, gate and velocity each.",
+      "tags": [
+        "Expander",
+        "Polyphonic"
       ]
     }
   ]

@@ -1,15 +1,15 @@
 {
   "slug": "Volders",
   "name": "Volders",
-  "version": "2.0.3",
+  "version": "2.1.2",
   "license": "BSD-3-Clause",
   "brand": "Volders",
   "author": "Joris Volders",
   "authorEmail": "joris@acked.be",
-  "authorUrl": "https://acked-1.github.io/volders/",
-  "pluginUrl": "https://github.com/Acked-1/LFO-01",
+  "authorUrl": "https://acked-1.github.io/volders_site/",
+  "pluginUrl": "https://github.com/Acked-1/Volders",
   "manualUrl": "",
-  "sourceUrl": "https://github.com/Acked-1/LFO-01",
+  "sourceUrl": "https://github.com/Acked-1/Volders",
   "donateUrl": "https://ko-fi.com/volders",
   "changelogUrl": "",
   "modules": [
@@ -18,7 +18,62 @@
       "name": "LFO-01",
       "description": "Low frequency oscillator with 4 selectable waveforms",
       "tags": [
-        "LFO"
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "VCA-01",
+      "name": "VCA-01",
+      "description": "Voltage controlled amplifier with linear and exponential response",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "ENV-01",
+      "name": "ENV-01",
+      "description": "ADSR envelope generator",
+      "tags": [
+        "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "MIX-01",
+      "name": "MIX-01",
+      "description": "Four channel mixer with per-channel level and clip indication",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "CLK-01",
+      "name": "CLK-01",
+      "description": "Clock generator with division and reset",
+      "tags": [
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "NSE-01",
+      "name": "NSE-01",
+      "description": "White and pink noise source with sample and hold",
+      "tags": [
+        "Noise",
+        "Sample and hold",
+        "Random"
+      ]
+    },
+    {
+      "slug": "ATT-01",
+      "name": "ATT-01",
+      "description": "Attenuverter with voltage offset",
+      "tags": [
+        "Attenuator",
+        "Utility",
+        "Polyphonic"
       ]
     }
   ]
