@@ -1143,3 +1143,6 @@
 [submodule "repos/Kalliste"]
 	path = repos/Kalliste
 	url = https://github.com/GabTiorbi/Kalliste
+[submodule "repos/VocalLamma"]
+	path = repos/VocalLamma
+	url = https://github.com/SantiJay7/VocalLamma
