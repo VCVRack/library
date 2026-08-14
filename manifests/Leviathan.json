@@ -1,7 +1,7 @@
 {
   "slug": "Leviathan",
   "name": "Leviathan",
-  "version": "2.8.0",
+  "version": "2.9.1",
   "license": "GPL-3.0-or-later",
   "brand": "Leviathan",
   "author": "Levi Kendall",
@@ -92,6 +92,17 @@
         "Expander"
       ],
       "hidden": true
+    },
+    {
+      "slug": "Puffy",
+      "name": "Puffy",
+      "description": "Wave-shaper stereo saturator with animated peak control.",
+      "tags": [
+        "Distortion",
+        "Dynamics",
+        "Visual"
+      ],
+      "hidden": false
     }
   ]
 }

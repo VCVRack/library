@@ -1,0 +1,26 @@
+{
+  "slug": "VocalLamma",
+  "name": "Vocal Lamma",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "STJ Modules",
+  "author": "Santi Jay",
+  "authorUrl": "https://github.com/SantiJay7",
+  "sourceUrl": "https://github.com/SantiJay7/VocalLamma",
+  "pluginUrl": "https://github.com/SantiJay7/VocalLamma",
+  "manualUrl": "https://github.com/SantiJay7/VocalLamma",
+  "description": "Tibetan monk formant vocal synthesizer with stereo delay",
+  "modules": [
+    {
+      "slug": "VocalLamma",
+      "name": "Vocal Lamma",
+      "description": "Formant vocal synthesizer (OO-OH-AH-AY-EE) with stereo ping-pong delay",
+      "tags": [
+        "Oscillator",
+        "Physical modeling",
+        "Effect",
+        "Delay"
+      ]
+    }
+  ]
+}
