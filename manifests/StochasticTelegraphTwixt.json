@@ -1,0 +1,34 @@
+{
+  "slug": "StochasticTelegraphTwixt",
+  "name": "Stochastic Telegraph Twixt",
+  "version": "2.0.1",
+  "minRackVersion": "2.6.1",
+  "brand": "Stochastic Telegraph",
+  "author": "Mahlen Morris",
+  "authorEmail": "vcv@stochastictelegraph.com",
+  "authorUrl": "https://www.youtube.com/@StochasticTelegraphTech/featured",
+  "manualUrl": "https://github.com/mahlenmorris/STPremium/blob/main/Twixt.md",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Twixt",
+      "name": "Twixt",
+      "description": "2D graphical control over signals. A moving or mouse-driven Point affects twelve CV Outputs, with many kinds of interpolation between Squares. Useful for controlled timbral changes and sonic exploration.",
+      "manualUrl": "https://github.com/mahlenmorris/STPremium/blob/main/Twixt.md#twixt",
+      "tags": [
+        "Controller",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Mixt",
+      "name": "Mixt",
+      "description": "Companion to Twixt, quickly randomizing (with constraints) the Output values in adjoining Twixt modules.",
+      "manualUrl": "https://github.com/mahlenmorris/STPremium/blob/main/Twixt.md#mixt",
+      "tags": [
+        "Expander",
+        "Random"
+      ]
+    }
+  ]
+}
