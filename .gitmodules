@@ -1146,3 +1146,6 @@
 [submodule "repos/VocalLamma"]
 	path = repos/VocalLamma
 	url = https://github.com/SantiJay7/VocalLamma
+[submodule "repos/bmbo"]
+	path = repos/bmbo
+	url = https://github.com/kamlaktaye/BmboBTFQuantizer
