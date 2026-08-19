@@ -2827,7 +2827,7 @@
     "modules": {}
   },
   "TriggerFish-Elements": {
-    "buildTimestamp": 1787098563.8845322,
+    "buildTimestamp": 1787173010.935706,
     "creationTimestamp": 1537114678.0,
     "modules": {
       "TfSlop": {
@@ -2847,6 +2847,15 @@
       },
       "Tf303Oscillator": {
         "creationTimestamp": 1787098583.994781
+      },
+      "Tf4072VoiceCore": {
+        "creationTimestamp": 1787173011.1219537
+      },
+      "TfWavefoldOscillator": {
+        "creationTimestamp": 1787173011.1786218
+      },
+      "TfUnisonOscillator": {
+        "creationTimestamp": 1787173011.2303047
       }
     }
   },

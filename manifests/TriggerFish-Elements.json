@@ -1,7 +1,7 @@
 {
   "slug": "TriggerFish-Elements",
   "name": "TriggerFish-Elements",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "BSD-3-Clause",
   "brand": "TriggerFish",
   "author": "JTriggerFish",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV",
   "sourceUrl": "https://github.com/JTriggerFish/TriggerFish-VCV",
   "donateUrl": "https://paypal.me/jtriggerfish",
-  "changelogUrl": "https://github.com/JTriggerFish/TriggerFish-VCV/blob/master/docs/releases/2.2.0.md",
+  "changelogUrl": "https://github.com/JTriggerFish/TriggerFish-VCV/blob/master/docs/releases/2.3.0.md",
   "modules": [
     {
       "slug": "TfSlop",
@@ -52,7 +52,7 @@
     {
       "slug": "Tf303VoiceCore",
       "name": "303 Voice Core",
-      "description": "TB-303-style diode ladder, articulation envelopes, accent path, and OTA VCA",
+      "description": "Circuit-modelled TB-303 diode ladder, articulation envelopes, accent path, and OTA VCA",
       "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#303-voice-core",
       "tags": [
         "Filter",
@@ -64,8 +64,41 @@
     {
       "slug": "Tf303Oscillator",
       "name": "303 Oscillator",
-      "description": "Circuit-informed TB-303-style oscillator with slide and voltage-controlled waveform morphing",
+      "description": "Circuit-modelled TB-303 oscillator with slide and voltage-controlled waveform morphing",
       "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#303-oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Tf4072VoiceCore",
+      "name": "4072 Voice Core",
+      "description": "Circuit-modelled ARP 4072 low-pass filter, dual envelopes, and 4019-style VCA",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#4072-voice-core",
+      "tags": [
+        "Filter",
+        "Envelope generator",
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TfWavefoldOscillator",
+      "name": "Wavefold Oscillator",
+      "description": "Alive sine/triangle oscillator with Hinge, Lockhart, and Serge wavefolders",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#wavefold-oscillator",
+      "tags": [
+        "Oscillator",
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TfUnisonOscillator",
+      "name": "Unison Oscillator",
+      "description": "Polyphonic 1-16 voice saw/pulse unison oscillator with stereo spread, sub oscillator, and built-in Slop",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#unison-oscillator",
       "tags": [
         "Oscillator",
         "Polyphonic"
