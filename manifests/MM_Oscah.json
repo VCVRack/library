@@ -1,7 +1,7 @@
 {
   "slug": "MM_Oscah",
   "name": "Special Vintage Oscillators",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "proprietary",
   "brand": "Mockba Modular",
   "author": "Mockba the Borg",
@@ -46,6 +46,24 @@
       "tags": [
         "Polyphonic",
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "LAOscah",
+      "name": "LA Oscah",
+      "description": "PCM attack + synth tail LA-style oscillator",
+      "tags": [
+        "Polyphonic",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "JDOscah",
+      "name": "JD Oscah",
+      "description": "Roland JD/JV/SR-JV80-family PCM sample player",
+      "tags": [
+        "Polyphonic",
+        "Sampler"
       ]
     }
   ]
