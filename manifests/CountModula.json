@@ -1,7 +1,7 @@
 {
   "slug": "CountModula",
   "name": "Count Modula",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "license": "GPL-3.0-only",
   "brand": "Count Modula",
   "author": "Adam Verspaget",
@@ -1202,6 +1202,23 @@
       "description": "Generates bursts of 1-64 pulses whenever a trigger is received at the trigger input",
       "tags": [
         "Clock modulator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "MiniMix",
+      "name": "Mini Mix",
+      "description": "A no-frills 4 input polyphonic unity mixer with output level control and overload indicator",
+      "tags": [
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "BinarySequencerPlus",
+      "name": "Binary Sequencer Plus",
+      "description": "Clock divider based sequencer",
+      "tags": [
         "Sequencer"
       ]
     }

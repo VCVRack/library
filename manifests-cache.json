@@ -2821,7 +2821,7 @@
     "modules": {}
   },
   "TriggerFish-Elements": {
-    "buildTimestamp": 1688525754.361087,
+    "buildTimestamp": 1787098563.8845322,
     "creationTimestamp": 1537114678.0,
     "modules": {
       "TfSlop": {
@@ -2835,6 +2835,12 @@
       },
       "TfVCA": {
         "creationTimestamp": 1581360191.0
+      },
+      "Tf303VoiceCore": {
+        "creationTimestamp": 1787098583.9345171
+      },
+      "Tf303Oscillator": {
+        "creationTimestamp": 1787098583.994781
       }
     }
   },
@@ -3145,7 +3151,7 @@
     }
   },
   "MockbaModular": {
-    "buildTimestamp": 1711822061.003623,
+    "buildTimestamp": 1787097049.5968003,
     "creationTimestamp": 1572711703.0,
     "modules": {
       "Blank": {
@@ -3273,6 +3279,15 @@
       },
       "ReVoltah": {
         "creationTimestamp": 1638462714.6255913
+      },
+      "Delayah": {
+        "creationTimestamp": 1787098584.0569158
+      },
+      "Chorusah": {
+        "creationTimestamp": 1787098584.1152434
+      },
+      "Reverbah": {
+        "creationTimestamp": 1787098584.1639142
       }
     }
   },
@@ -5659,7 +5674,7 @@
     }
   },
   "CountModula": {
-    "buildTimestamp": 1693680345.5417464,
+    "buildTimestamp": 1787095599.0417635,
     "creationTimestamp": 1560722026.0,
     "modules": {
       "AnalogueShiftRegister": {
@@ -6069,6 +6084,12 @@
       },
       "BurstGenerator64": {
         "creationTimestamp": 1693680345.9486697
+      },
+      "MiniMix": {
+        "creationTimestamp": 1787098584.5082974
+      },
+      "BinarySequencerPlus": {
+        "creationTimestamp": 1787098584.569379
       }
     }
   },
@@ -11979,7 +12000,7 @@
     }
   },
   "StochasticTelegraph": {
-    "buildTimestamp": 1784004028.9995205,
+    "buildTimestamp": 1787097369.3088465,
     "creationTimestamp": 1649868370.1906905,
     "modules": {
       "Drifter": {
@@ -12023,6 +12044,9 @@
       },
       "Distribute": {
         "creationTimestamp": 1784004116.0461433
+      },
+      "Chances": {
+        "creationTimestamp": 1787098584.4548953
       }
     }
   },
@@ -17619,7 +17643,7 @@
     }
   },
   "phrasing-module": {
-    "buildTimestamp": 1783190148.6360133,
+    "buildTimestamp": 1787098583.751466,
     "creationTimestamp": 1783190402.3789551,
     "modules": {
       "phrasing": {
@@ -17871,7 +17895,7 @@
     }
   },
   "InfiniteNoise": {
-    "buildTimestamp": 1786296456.8930967,
+    "buildTimestamp": 1787096836.9097989,
     "creationTimestamp": 1786296457.0471988,
     "modules": {
       "SLFO4ss": {
@@ -18101,6 +18125,9 @@
       },
       "ValueToBits": {
         "creationTimestamp": 1786296460.243311
+      },
+      "ADREnvelope": {
+        "creationTimestamp": 1787098584.2395682
       }
     }
   },
@@ -18143,6 +18170,15 @@
       },
       "Mixt": {
         "creationTimestamp": 1786748333.405131
+      }
+    }
+  },
+  "bmbo": {
+    "buildTimestamp": 1787098574.933786,
+    "creationTimestamp": 1787098584.306028,
+    "modules": {
+      "BTFQuantizer": {
+        "creationTimestamp": 1787098584.3613474
       }
     }
   }

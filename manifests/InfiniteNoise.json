@@ -1,7 +1,7 @@
 {
   "slug": "InfiniteNoise",
   "name": "Infinite-Noise",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "GPL-3.0-or-later",
   "brand": "Infinite-Noise",
   "author": "Pelle Liljendal",
@@ -17,30 +17,28 @@
     {
       "slug": "SLFO4ss",
       "name": "Simple LFO4-ss",
-      "description": "Quad-LFO with sync, outputting Saw and Sine for each.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#simple-lfo4-ssa",
+      "description": "Simple knob-controlled Quad-LFO, with internal sync (Saw and Sine).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#simple-lfo4-ss",
       "tags": [
         "LFO",
-        "Polyphonic",
         "Quad"
       ]
     },
     {
       "slug": "SLFO4st",
       "name": "Simple LFO4-st",
-      "description": "Quad-LFO with sync, outputting Square and Triangle for each.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#simple-lfo4-sta",
+      "description": "Simple knob-controlled Quad-LFO, with internal sync (Square and Triangle).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#simple-lfo4-st",
       "tags": [
         "LFO",
-        "Polyphonic",
         "Quad"
       ]
     },
     {
       "slug": "TLFO",
       "name": "Tiny LFO",
-      "description": "LFO with PWM, outputting Saw, Square, Triangle and Sine.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#tiny-lfopa",
+      "description": "Tiny (2HP) knob/CV-controlled single LFO with PWM (Saw, Square, Triangle, and Sine).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#tiny-lfo",
       "tags": [
         "LFO",
         "Polyphonic"
@@ -49,8 +47,8 @@
     {
       "slug": "LFO1",
       "name": "LFO1",
-      "description": "LFO with external sync (can do one-shot's) and PWM/modulation, outputting Saw, Square, Triangle and Sine, and inverted. Using the Square-output with modulation, it also acts as a wavetable (Triangle<->Square<->Saw).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#lfo1pa",
+      "description": "Knob/CV-controlled single LFO with PWM, MOD, external sync and n-shot mode (Saw, Square, Triangle and Sine). Using the Square-output with modulation, it also acts as a wavetable (Triangle<->Square<->Saw).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#lfo1",
       "tags": [
         "LFO",
         "Polyphonic"
@@ -59,8 +57,8 @@
     {
       "slug": "PhaseDrivenLFO",
       "name": "Phase-Driven LFO",
-      "description": "Phase-driven LFO with PWM/modulation, outputting Saw, Square, Triangle and Sine, and inverted.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#phase-driven-lfop",
+      "description": "Phase-driven LFO (input-phase) with PWM/modulation, outputting Saw, Square, Triangle and Sine, and inverted.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#phase-driven-lfo",
       "tags": [
         "LFO",
         "Polyphonic"
@@ -70,9 +68,10 @@
       "slug": "Tweak2I",
       "name": "Tweak-2 Mk I",
       "description": "2 section: (same) knob/CV-controlled (1x,2x,5x,10x) attenuverter/amplifier, offset.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#tweak-2-mk-ipq",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#tweak-2-mk-i",
       "tags": [
         "Attenuator",
+        "Dual",
         "Polyphonic",
         "Utility",
         "VCA"
@@ -82,9 +81,10 @@
       "slug": "Tweak2II",
       "name": "Tweak-2 Mk II",
       "description": "2 section: (individual) knob controlled (1x,2x,5x,10x) attenuverter/amplifier, offset, mixer.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#tweak-2-mk-iipq",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#tweak-2-mk-ii",
       "tags": [
         "Attenuator",
+        "Dual",
         "Polyphonic",
         "Utility",
         "Mixer"
@@ -94,29 +94,32 @@
       "slug": "Tweak4I",
       "name": "Tweak-4 Mk I",
       "description": "4 section: (same) knob controlled (1x,2x,5x,10x) attenuverter/amplifier, offset.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#tweak-4-mk-ipq",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#tweak-4-mk-i",
       "tags": [
         "Attenuator",
         "Polyphonic",
-        "Utility"
+        "Utility",
+        "Quad"
       ]
     },
     {
       "slug": "Tweak4II",
       "name": "Tweak-4 Mk II",
       "description": "4 section: (individual) knob/CV-controlled (1x,2x,5x,10x) attenuverter/amplifier, offset, mixer.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#tweak-4-mk-iiq",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#tweak-4-mk-ii",
       "tags": [
         "Attenuator",
-        "Polyphonic",
-        "Utility"
+        "Utility",
+        "Mixer",
+        "Quad",
+        "VCA"
       ]
     },
     {
       "slug": "Tweak8",
       "name": "Tweak-8",
       "description": "8 section: (individual) knob/CV-controlled (1x,2x,5x,10x) attenuverter/amplifier, offset, mixer.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#tweak-8q",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#tweak-8",
       "tags": [
         "Attenuator",
         "Utility",
@@ -128,9 +131,10 @@
       "slug": "VCA2",
       "name": "VCA-2",
       "description": "2 section VCA each with knob/CV for each.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#vca-2p",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#vca-2",
       "tags": [
         "Attenuator",
+        "Dual",
         "Polyphonic",
         "VCA"
       ]
@@ -139,7 +143,7 @@
       "slug": "VCA4I",
       "name": "VCA-4 Mk I",
       "description": "4 section VCA with shared knob/CV (same for all 4 sections).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#vca-4-mk-ip",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#vca-4-mk-i",
       "tags": [
         "Attenuator",
         "Polyphonic",
@@ -151,7 +155,7 @@
       "slug": "VCA4II",
       "name": "VCA-4 Mk II",
       "description": "4 section VCA with knob/CV for each.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#vca-4-mk-iip",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#vca-4-mk-ii",
       "tags": [
         "Attenuator",
         "Polyphonic",
@@ -163,8 +167,9 @@
       "slug": "Clamp4",
       "name": "Clamp 4",
       "description": "Clamp/clip (invert) up to 4 inputs, in selected range.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#clamp-4po",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#clamp-4",
       "tags": [
+        "Quad",
         "Polyphonic",
         "Utility"
       ]
@@ -172,9 +177,10 @@
     {
       "slug": "AutoScale4",
       "name": "Auto-Scale 4",
-      "description": "Automatic scale/offset to selected range of up to 4 inputs.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#auto-scale-4p",
+      "description": "Automatic scale/offset (invert) to selected range of up to 4 inputs.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Tweak.md#auto-scale-4",
       "tags": [
+        "Quad",
         "Polyphonic",
         "Utility"
       ]
@@ -183,7 +189,7 @@
       "slug": "ManTrGtCv",
       "name": "Manuel Trigger, Gate and CV",
       "description": "Controller to manually output 1 trigger-, 2-gate and 2 CV-signals.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-trigger-gate-and-cvpq",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-trigger-gate-and-cv",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -193,9 +199,10 @@
     {
       "slug": "ManPush2",
       "name": "Manuel Push 2",
-      "description": "Controller with 2 buttons, that each fires a gate and high/low-triggers. Can also convert gate to triggers (or vice versa).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-push-2p",
+      "description": "Controller with 2 buttons, that each fires a gate and high/low-triggers. Can also convert gates to triggers (or vice versa).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-push-2",
       "tags": [
+        "Dual",
         "Polyphonic",
         "Utility",
         "Controller"
@@ -204,8 +211,8 @@
     {
       "slug": "ManTrigger8",
       "name": "Manuel Trigger 8",
-      "description": "Controller to manually output 8 trigger-signals.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-trigger-8p",
+      "description": "Controller to manually output 8 trigger-signals (mono/polyphonic).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-trigger-8",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -215,8 +222,8 @@
     {
       "slug": "ManGate8",
       "name": "Manuel Gate 8",
-      "description": "Controller to manually output 8 gate-signals.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-gate-8p",
+      "description": "Controller to manually output 8 gate-signals (mono/polyphonic).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-gate-8",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -226,8 +233,8 @@
     {
       "slug": "ManCV8I",
       "name": "Manuel CV 8 Mk I",
-      "description": "Controller to manually set 8 fixed CV outputs.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-cv-8-mk-ipq",
+      "description": "Controller to manually set 8 fixed CV outputs (mono/polyphonic).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-cv-8-mk-i",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -237,8 +244,8 @@
     {
       "slug": "ManCV8II",
       "name": "Manuel CV 8 Mk II",
-      "description": "Controller to manually set 8 fixed ON/OFF CV outputs.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-cv-8-mk-iipq",
+      "description": "Controller to manually set 8 fixed ON/OFF CV outputs, and switch between them (mono/polyphonic).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-cv-8-mk-ii",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -247,9 +254,9 @@
     },
     {
       "slug": "ManMix4I",
-      "name": "ManMix4 Mk I",
-      "description": "Manually knob-operated mixer with 4 inputs (averaging or unity mix).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-mix-4-mk-ip",
+      "name": "Manuel Mix 4 Mk I",
+      "description": "Manually knob-operated mixer with 4 inputs and 1 output (averaging or unity mix).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-mix-4-mk-i",
       "tags": [
         "Polyphonic",
         "Mixer"
@@ -257,9 +264,9 @@
     },
     {
       "slug": "ManMix4II",
-      "name": "ManMix4 Mk II",
-      "description": "Manually knob/CV-operated mixer with 4 inputs, individual outputs or mix output (averaging or unity mix).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-mix-4-mk-iip",
+      "name": "Manuel Mix 4 Mk II",
+      "description": "Manually knob/CV-operated mixer with 4 inputs, individual outputs and 1 mix output (averaging or unity mix).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-mix-4-mk-ii",
       "tags": [
         "Polyphonic",
         "Mixer",
@@ -270,18 +277,20 @@
       "slug": "ManMix4st",
       "name": "Manuel Mix 4 Stereo",
       "description": "Manually knob/CV-operated mixer with 4 stereo-inputs and stereo mix output (averaging or unity mix).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-mix-4-stereop",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-mix-4-stereo",
       "tags": [
         "Polyphonic",
-        "Mixer"
+        "Mixer",
+        "VCA"
       ]
     },
     {
       "slug": "Mute2",
       "name": "Mute 2",
-      "description": "Mute 2 signals with button and/or CV-control.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#mute-2p",
+      "description": "2 knob/cv-controlled mute-sections each with a single input/output-pair.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#mute-2",
       "tags": [
+        "Dual",
         "Polyphonic",
         "Utility",
         "Controller"
@@ -291,7 +300,7 @@
       "slug": "ManMute8",
       "name": "Manuel Mute 8",
       "description": "Controller to manually mute 8 signals.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-mute-8pq",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-mute-8",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -302,7 +311,7 @@
       "slug": "CvToggle8",
       "name": "CV-Toggle 8",
       "description": "Switch with 8 sections, each with 2 stages (via CV).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#cv-toggle-8pq",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#cv-toggle-8",
       "tags": [
         "Polyphonic",
         "Switch",
@@ -312,18 +321,20 @@
     {
       "slug": "CvToGt",
       "name": "CV to Gate",
-      "description": "Fire gate/trigger if CV is within range (1 section).",
+      "description": "Fire gate/trigger if CV is within specified range (1 section).",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/CvToGt.md#cv-to-gate",
       "tags": [
+        "Polyphonic",
         "Utility"
       ]
     },
     {
       "slug": "CvToGtTr8",
       "name": "CV to Gate/Trigger 8",
-      "description": "Fire gate/trigger if CV is within range (8 sections).",
+      "description": "Fire gate/trigger if CV is within specified range (8 sections).",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/CvToGtTr8.md#cv-to-gatetrigger-8",
       "tags": [
+        "Polyphonic",
         "Utility"
       ]
     },
@@ -331,7 +342,7 @@
       "slug": "Mult2x4",
       "name": "Mult2x4",
       "description": "Mult with 2 section each with 4 outputs (also works as 1-to-8 mult).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/MergeMult.md#mult2x4p",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/MergeMult.md#mult2x4",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -341,8 +352,8 @@
     {
       "slug": "MergeMult4",
       "name": "Merge/Mult-4",
-      "description": "Merge/Mult with 4 input/output (able to mix/merge).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/MergeMult.md#mergemult-4pq",
+      "description": "Merge/Mult with 4 inputs/outputs (merge can either sum or mix, and can have special handling of negative values).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/MergeMult.md#mergemult-4",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -353,8 +364,8 @@
     {
       "slug": "Merge2x4",
       "name": "Merge2x4",
-      "description": "Merge with 2 section each with 4 inputs (able to mix/merge). Also works as 8-to-1 (merge).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/MergeMult.md#merge2x4pq",
+      "description": "Merge with 2 section each with 4 inputs (merge can either sum or mix, and can have special handling of negative values).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/MergeMult.md#merge2x4",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -364,9 +375,10 @@
     {
       "slug": "TinyLCMP2",
       "name": "Tiny Logic Comparator-2",
-      "description": "Two sections of 4-input logic compare: AND, OR, XOR (and negated).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#tiny-logic-comparator-2p",
+      "description": "2 sections with 4 inputs for logical compare: AND, OR, XOR (and negated via context-menu).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#tiny-logic-comparator-2",
       "tags": [
+        "Dual",
         "Polyphonic",
         "Utility",
         "Logic"
@@ -375,19 +387,21 @@
     {
       "slug": "LCMP2",
       "name": "Logic Comparator-2",
-      "description": "Two sections of logic compare: AND, NAND, OR, NOR, XOR, XNOR.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#logic-comparator-2p",
+      "description": "2 sections of logic compare, with true/false input, and two sections of: AND, NAND, OR, NOR, XOR, XNOR.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#logic-comparator-2",
       "tags": [
+        "Dual",
         "Polyphonic",
         "Utility",
-        "Logic"
+        "Logic",
+        "Switch"
       ]
     },
     {
       "slug": "LCMP6x2",
       "name": "Logic Comparator-6x2",
-      "description": "6 sections (with 2 inputs) of logic compare: AND, NAND, OR, NOR, XOR, XNOR.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#logic-comparator-6x2p",
+      "description": "6 sections each with 2 input for Logic compare (AND, NAND, OR, NOR, XOR, XNOR).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#logic-comparator-6x2",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -397,30 +411,33 @@
     {
       "slug": "VCMP1",
       "name": "Value Comparator-1",
-      "description": "One section of value-compare: Eq, Gt and Lt, with threshold knob and A/B-cross trigger.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#value-comparator-1p",
+      "description": "One section of value-compare: A=B, A!=B, A>=B, A>B, A<=B, A<B, with threshold knob, A/B-cross trigger and tolerance-clamp.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#value-comparator-1",
       "tags": [
         "Polyphonic",
         "Utility",
-        "Logic"
+        "Logic",
+        "Switch"
       ]
     },
     {
       "slug": "VCMP2I",
       "name": "Value Comparator-2 Mk I",
-      "description": "Two sections of value-compare (with tolerance): Eq, Gt, Lt.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#value-comparator-2-mk-ip",
+      "description": "Value compare with true/false input, threshold and two sections of: A=B, A!=B, A>=B, A>B, A<=B, A<B.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#value-comparator-2-mk-i",
       "tags": [
+        "Dual",
         "Polyphonic",
         "Utility",
-        "Logic"
+        "Logic",
+        "Switch"
       ]
     },
     {
       "slug": "VCMP2II",
       "name": "Value Comparator-2 Mk II",
-      "description": "One section of value-compare: Min, Max, NtZ, FtZ, Abs-diff, Avg, and one section of simple math: Plus, Minus, Mul, Div.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#value-comparator-2-mk-iip",
+      "description": "One section of value-compare: Min, Max, NtZ, FtZ, Abs-diff, Avg, and one section of Int/Frac and simple math: Plus, Minus, Mul, Div.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#value-comparator-2-mk-ii",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -430,8 +447,9 @@
       "slug": "SHTH2",
       "name": "S&H/T&H-2",
       "description": "Sample/track-and-hold with 2 sections (1 input/output), each triggered by input or internal LFO.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Shth.md#shth-2paq",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Shth.md#shth-2",
       "tags": [
+        "Dual",
         "Polyphonic",
         "Utility",
         "Sample and hold"
@@ -441,8 +459,9 @@
       "slug": "SHTH2x4",
       "name": "S&H/T&H-2x4",
       "description": "Sample/track-and-hold with 2 sections (4 input/output), each triggered by input or internal LFO.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Shth.md#shth-2x4paq",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Shth.md#shth-2x4",
       "tags": [
+        "Dual",
         "Polyphonic",
         "Utility",
         "Sample and hold"
@@ -452,7 +471,7 @@
       "slug": "SampleAndUpdate",
       "name": "Sample and Update",
       "description": "Sample-and-Update with button/CV for Sample, Reset and Update. Can also count number of triggers detected, and output a trigger when the desired count have been reached.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Shth.md#sample-and-updatepq",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Shth.md#sample-and-update",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -463,7 +482,7 @@
       "slug": "PolyMerge",
       "name": "Poly-Merge",
       "description": "Merge (up to) 16 monophonic signals (or multiple polyphonic signals) into a polyphonic signal.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-mergep",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-merge",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -473,7 +492,7 @@
       "slug": "PolySplit",
       "name": "Poly-Split",
       "description": "Split a polyphonic signal into (up to) 16 monophonic signals (or multiple polyphonic signals).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-splitp",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-split",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -483,8 +502,9 @@
       "slug": "PolyStereo",
       "name": "Poly-Stereo",
       "description": "Encode/Decode 2 monophonic left/right signals to/from 2 channel polyphonic signals.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-stereop",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-stereo",
       "tags": [
+        "Dual",
         "Polyphonic",
         "Utility"
       ]
@@ -493,7 +513,7 @@
       "slug": "PolyQuad",
       "name": "Poly-Quad",
       "description": "Encode/Decode 4 monophonic signals to/from 4 channel polyphonic signals (basically an up to 4 channel merger/splitter).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-quadp",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-quad",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -502,8 +522,8 @@
     {
       "slug": "PolyShuffle",
       "name": "Poly-Shuffle",
-      "description": "Add/Remove/Shuffle channels of a polyphonic signal.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-shufflep",
+      "description": "Add/Remove/Shuffle channels of a polyphonic signal. Can also be used to construct a polyphonic signal with up to 16 gates.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-shuffle",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -512,8 +532,8 @@
     {
       "slug": "PolyTweakI",
       "name": "Poly-Tweak Mk I",
-      "description": "Invert/Disable (mute/remove) channels of a polyphonic signal based on buttons.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-tweak-mk-ip",
+      "description": "Invert/Disable (mute/remove) channels of a polyphonic signal based on buttons. Can also be used to construct a polyphonic signal with up to 16 gates.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-tweak-mk-i",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -522,8 +542,8 @@
     {
       "slug": "PolyTweakII",
       "name": "Poly-Tweak Mk II",
-      "description": "Invert/Disable (mute/remove) channels of a polyphonic signal based on CV-inputs.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-tweak-mk-iip",
+      "description": "Invert/Disable (mute/remove) channels of a polyphonic signal based on CV-inputs. Can also be used to mix individual channels of two polyphonic signals.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-tweak-mk-ii",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -533,7 +553,7 @@
       "slug": "PolyLCMP",
       "name": "Poly-Logical Compare",
       "description": "Perform logical-compare (AND,OR,XOR,NAND,NOR,XNOR) on all channels of same polyphonic-signal.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-logical-comparep",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-logical-compare",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -543,8 +563,8 @@
     {
       "slug": "PolyVCMP",
       "name": "Poly-Value Compare",
-      "description": "Perform value-compare (MIN,MAX,NtZ,FfZ,AVG,R/S) on all channels of same polyphonic-signal. Can also monitor (MIN,MAX,NtZ,FfZ,AVG,R/S) over time (since last reset).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-value-comparep",
+      "description": "Perform value-compare (MIN,MAX,NtZ,FfZ,AVG,R/S) on all channels of same polyphonic-signal. Can also monitor (MIN,MAX,NtZ,FfZ,AVG,R/S) over time (since last reset), accross all channels or individually for each channel.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-value-compare",
       "tags": [
         "Polyphonic",
         "Utility",
@@ -555,7 +575,7 @@
       "slug": "PolyOffset",
       "name": "Poly-Offset",
       "description": "Offset individuel- or group of channels of a polyphonic-signal.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-offsetp",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-offset",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -565,7 +585,7 @@
       "slug": "PolyScale",
       "name": "Poly-Scale",
       "description": "Scale (attenuvert/amplify) individuel- or group of channels of a polyphonic-signal.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-scalep",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/PolyTools.md#poly-scale",
       "tags": [
         "Attenuator",
         "Polyphonic",
@@ -577,7 +597,7 @@
       "slug": "CrossFadeSwitch1to4",
       "name": "Cross-fade switch 1to4",
       "description": "Cross-fade/switch 1 input into up to 4 outputs.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#cross-fade-switch-1to4p",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#cross-fade-switch-1to4",
       "tags": [
         "Polyphonic",
         "Switch"
@@ -587,7 +607,7 @@
       "slug": "CrossFadeSwitch4to1",
       "name": "Cross-fade switch 4to1",
       "description": "Cross-fade/switch up to 4 inputs into 1 output.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#cross-fade-switch-4to1p",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#cross-fade-switch-4to1",
       "tags": [
         "Polyphonic",
         "Switch"
@@ -596,8 +616,8 @@
     {
       "slug": "CxFade1x2",
       "name": "Cross-fade 1x2",
-      "description": "Cross-fade of stereo- (or 2 individual) signal(s).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/CrossFade.md#cross-fade-1x2p",
+      "description": "Cross-fade a stereo-signal, or two separate mono signals by knob/CV.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/CrossFade.md#cross-fade-1x2",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -606,8 +626,8 @@
     {
       "slug": "CxFade4x1",
       "name": "Cross-fade 4x1",
-      "description": "Cross-fade of 4 individual signals, with individual knob/CV, and master knob/CV.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/CrossFade.md#cross-fade-4x1p",
+      "description": "Cross-fade 4 separate (mono) signals, by separate- and master cross-fade knob/CV.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/CrossFade.md#cross-fade-4x1",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -616,19 +636,21 @@
     {
       "slug": "BernoulliSwitch",
       "name": "Bernoulli Switch",
-      "description": "Probabillity switch with: A/B->Output and Input->A/B.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#bernoulli-switchp",
+      "description": "Bernoulli switch with both 'A/B->' (2 input, 1 output) and '->A/B' (1 input, 2 output) sections.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#bernoulli-switch",
       "tags": [
         "Polyphonic",
-        "Switch"
+        "Switch",
+        "Random"
       ]
     },
     {
       "slug": "OnOffSwitch",
       "name": "ON/OFF Switch",
-      "description": "Switching between ON- or OFF-stage to either output ON- or OFF-value.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#onoff-switchp",
+      "description": "Toggles between outputting the ON- or the OFF-signal, using button-, gate- or trigger to switch.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#onoff-switch",
       "tags": [
+        "Controller",
         "Polyphonic",
         "Switch"
       ]
@@ -637,7 +659,7 @@
       "slug": "Combine",
       "name": "Combine",
       "description": "Combines (switches between) 2 inputs based on 3 different algorithms.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#combinep",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#combine",
       "tags": [
         "Polyphonic",
         "Switch"
@@ -646,8 +668,8 @@
     {
       "slug": "Sign",
       "name": "Sign",
-      "description": "Change/manipulate sign of signal.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Sign.md#signpq",
+      "description": "Outputs 9 different 'signed-versions' of the input signal(s).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Sign.md#sign",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -656,8 +678,8 @@
     {
       "slug": "Sign4I",
       "name": "Sign4 Mk I",
-      "description": "4 sections with invert as: gate, bipolar, unipolar.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Sign.md#sign4-mk-ip",
+      "description": "4 sections that either invert gate-, bipolar- or unipolar-signals.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Sign.md#sign4-mk-i",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -666,8 +688,8 @@
     {
       "slug": "Sign4II",
       "name": "Sign4 Mk II",
-      "description": "4 sections with absolute or cut-negative or cut-positive.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Sign.md#sign4-mk-iip",
+      "description": "4 sections that either output absolute value, cut-negative or cut-positive values.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Sign.md#sign4-mk-ii",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -676,8 +698,8 @@
     {
       "slug": "Fold",
       "name": "Fold",
-      "description": "Fold/wrap input signal using gain and bias.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Fold.md#foldpoq",
+      "description": "Applying gain and bias to input, in order to affect fold or wrap.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Fold.md#fold",
       "tags": [
         "Waveshaper",
         "Polyphonic",
@@ -687,8 +709,8 @@
     {
       "slug": "WaveShaper2",
       "name": "Wave Shaper 2",
-      "description": "Dual wave shaping (A/B) with 3 different algorithms.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/WaveShaper2.md#wave-shaper-2poq",
+      "description": "Have 3 different wave-shaping algorithms which can be modify 2 separate signals.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/WaveShaper2.md#wave-shaper-2",
       "tags": [
         "Waveshaper",
         "Polyphonic"
@@ -697,8 +719,8 @@
     {
       "slug": "RingMod3",
       "name": "Ring Modulator 3",
-      "description": "Ring modulator with 3 sections.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/RingMod3.md#ring-modulator-3pq",
+      "description": "3 Sections to perform ring-modulation of 3 signals.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/RingMod3.md#ring-modulator-3",
       "tags": [
         "Ring modulator",
         "Polyphonic",
@@ -708,7 +730,7 @@
     {
       "slug": "IncDecOffset",
       "name": "Increment/Decrement Offset",
-      "description": "increment/decrement offset applied to input signal.",
+      "description": "Button/CV to increment/decrement offset applied to input signal.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/IncDecOffset.md#incrementdecrement-offset",
       "tags": [
         "Polyphonic",
@@ -719,7 +741,7 @@
       "slug": "Delta4",
       "name": "Delta-4",
       "description": "Four sections measuring difference between current input and a captured reference level.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Delta4.md#delta-4-p",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Delta4.md#delta-4",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -731,13 +753,14 @@
       "description": "Flip-flop module able to both do D-, T- or SR- flip-flops.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/FlipFlop.md#flip-flop",
       "tags": [
+        "Logic",
         "Utility"
       ]
     },
     {
       "slug": "SlopeDetector2",
       "name": "Slope Detector 2",
-      "description": "Slope (rise/steady/fall) detector with 2 sections.",
+      "description": "2 sections with threshold slope detection (rise/steady/fall) with latched phases and configurable Steady hold time.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/SlopeDetector2.md#slope-detector-2",
       "tags": [
         "Utility"
@@ -747,7 +770,7 @@
       "slug": "Patch",
       "name": "Patch",
       "description": "Mutable patch with 8 pairs of input/output for routing signals (typically you would use two modules at the same time to patch signals between them).",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Patch.md#patchp",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Patch.md#patch",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -756,8 +779,8 @@
     {
       "slug": "Random4",
       "name": "Random-4",
-      "description": "Generates 4 (mono-/polyphonic) random values with min/max and distribution at each trigger.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Random.md#random-4paq",
+      "description": "Generates 4 (mono-/polyphonic) random values with min/max and distribution at each trigger or internal frequency.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Random.md#random-4",
       "tags": [
         "Polyphonic",
         "Random",
@@ -767,8 +790,8 @@
     {
       "slug": "RandomCurve",
       "name": "Random Curve",
-      "description": "Random curves with min/max and distribution.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Random.md#random-curveaq",
+      "description": "Generates 6 shaped random cruves with min/max and distribution.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Random.md#random-curve",
       "tags": [
         "Random",
         "Utility"
@@ -777,37 +800,51 @@
     {
       "slug": "Arm3XY",
       "name": "Arm 3 XY",
-      "description": "Three arms with rotation and length, generating (semi-random) curve X/Y output.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Arm3XY.md#arm-3-xya",
+      "description": "Length and rotation of 3 'arms' (basically 3 polar vectors) generates a 'semi-random' curve X/Y-output.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Arm3XY.md#arm-3-xy",
       "tags": [
-        "Utility"
+        "Utility",
+        "Random"
       ]
     },
     {
       "slug": "TuringMachine",
       "name": "Turing Machine",
-      "description": "Turing machine for generating random sequences.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/TuringMachine.md#turing-machineq",
+      "description": "Turing machine for generating random sequences with 3-32 steps (16 gate/trigger- and 2-value outputs).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/TuringMachine.md#turing-machine",
       "tags": [
         "Random",
+        "Sequencer",
         "Utility"
       ]
     },
     {
       "slug": "BitsToValue",
       "name": "Bits-to-Value",
-      "description": "Converts 8 bits (gates), into a CV-value in specified range.",
+      "description": "Converts 8 bits (gate-inputs) into a CV-value based on dialed in weights and specified range.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Bits.md#bits-to-value",
       "tags": [
+        "Polyphonic",
         "Utility"
       ]
     },
     {
       "slug": "ValueToBits",
       "name": "Value-to-Bits",
-      "description": "Converts a CV-value (clamped in specified range) into 8 bits (gates).",
+      "description": "Converts a CV-input (clamped in specified range) into 8 monophonic- and 1 polyphonic gate-output (up to 16 channels).",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Bits.md#value-to-bits",
       "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ADREnvelope",
+      "name": "ADR Envelope",
+      "description": "Attack-Delay-Release Envelope with attack/release time and shape (technically it is an Attack-Sustain-Delay-Release Envelope).",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ADREnvelope.md#adr-envelope",
+      "tags": [
+        "Envelope generator",
         "Utility"
       ]
     }

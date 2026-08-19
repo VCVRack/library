@@ -1,7 +1,7 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.27",
+  "version": "2.0.28",
   "minRackVersion": "2.6.1",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
@@ -30,12 +30,46 @@
       ]
     },
     {
+      "slug": "Brainwash",
+      "name": "Brainwash",
+      "description": "Records input and then replaces the contents of a Memory or MemoryCV.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#brainwash",
+      "tags": [
+        "Expander",
+        "Recording",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "Chances",
+      "name": "Chances",
+      "description": "Discrete probabilities for particular values.",
+      "tags": [
+        "Polyphonic",
+        "Quantizer",
+        "Random",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Depict",
+      "name": "Depict",
+      "description": "Visualizes activity of other modules within a Memory Ensemble.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#depict",
+      "tags": [
+        "Expander",
+        "Visual"
+      ]
+    },
+    {
       "slug": "Distribute",
       "name": "Distribute",
       "description": "Tunable random voltage generator, with a large variety of random distributions.",
       "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#distribute",
       "tags": [
-        "Random"
+        "Random",
+        "Polyphonic",
+        "Visual"
       ]
     },
     {
@@ -50,6 +84,17 @@
       ]
     },
     {
+      "slug": "Embellish",
+      "name": "Embellish",
+      "description": "A recording and playback head for a Memory or MemoryCV Ensemble.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#embellish",
+      "tags": [
+        "Expander",
+        "Recording",
+        "Sampler"
+      ]
+    },
+    {
       "slug": "Fermata",
       "name": "Fermata",
       "description": "Write much longer text notes, and various sizes of labels. Fermata is resizable, scrolls, has font, font size, and color choices, and more.",
@@ -61,6 +106,17 @@
       ]
     },
     {
+      "slug": "Fixation",
+      "name": "Fixation",
+      "description": "Playback head with a Memory Ensemble that repeatedly plays a short part of the Memory or MemoryCV.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#fixation",
+      "tags": [
+        "Delay",
+        "Expander",
+        "Sampler"
+      ]
+    },
+    {
       "slug": "Fuse",
       "name": "Fuse",
       "description": "Counts triggers and blocks/allows a signal after hitting a limit. Useful for timed composition changes, simulating components that break with overuse, or scaling a value based on the number of triggers.",
@@ -69,17 +125,6 @@
         "Clock modulator",
         "Utility",
         "Voltage-controlled amplifier"
-      ]
-    },
-    {
-      "slug": "TTY",
-      "name": "TTY",
-      "description": "Logs values from cables and/or text messages from Tipsy text sources (e.g., BASICally, Memory). Makes monitoring of values or logging far easier. TTY is resizable, scrolls, has font, font size, and color choices, and more.",
-      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#tty",
-      "tags": [
-        "Recording",
-        "Utility",
-        "Visual"
       ]
     },
     {
@@ -114,34 +159,13 @@
       ]
     },
     {
-      "slug": "Fixation",
-      "name": "Fixation",
-      "description": "Playback head with a Memory Ensemble that repeatedly plays a short part of the Memory or MemoryCV.",
-      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#fixation",
+      "slug": "TTY",
+      "name": "TTY",
+      "description": "Logs values from cables and/or text messages from Tipsy text sources (e.g., BASICally, Memory). Makes monitoring of values or logging far easier. TTY is resizable, scrolls, has font, font size, and color choices, and more.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#tty",
       "tags": [
-        "Delay",
-        "Expander",
-        "Sampler"
-      ]
-    },
-    {
-      "slug": "Embellish",
-      "name": "Embellish",
-      "description": "A recording and playback head for a Memory or MemoryCV Ensemble.",
-      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#embellish",
-      "tags": [
-        "Expander",
         "Recording",
-        "Sampler"
-      ]
-    },
-    {
-      "slug": "Depict",
-      "name": "Depict",
-      "description": "Visualizes activity of other modules within a Memory Ensemble.",
-      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#depict",
-      "tags": [
-        "Expander",
+        "Utility",
         "Visual"
       ]
     },
@@ -154,17 +178,6 @@
         "Controller",
         "Polyphonic",
         "Visual"
-      ]
-    },
-    {
-      "slug": "Brainwash",
-      "name": "Brainwash",
-      "description": "Records input and then replaces the contents of a Memory or MemoryCV.",
-      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/Memory.md#brainwash",
-      "tags": [
-        "Expander",
-        "Recording",
-        "Sampler"
       ]
     }
   ]

@@ -1,0 +1,25 @@
+{
+  "slug": "bmbo",
+  "name": "Bmbo",
+  "version": "2.0.0",
+  "license": "MIT",
+  "author": "Kamlak Taye",
+  "authorEmail": "kamlakbmbo@gmail.com",
+  "authorUrl": "https://github.com/kamlaktaye",
+  "pluginUrl": "https://github.com/kamlaktaye/BmboBTFQuantizer",
+  "manualUrl": "https://github.com/kamlaktaye/BmboBTFQuantizer",
+  "sourceUrl": "https://github.com/kamlaktaye/BmboBTFQuantizer",
+  "changelogUrl": "",
+  "brand": "Bmbo",
+  "modules": [
+    {
+      "slug": "BTFQuantizer",
+      "name": "BTF Quantizer",
+      "description": "Polyphonic quantizer that loads Bmbo Tuning Format (BTF) files and quantizes 1V/oct CV to the loaded tuning.",
+      "tags": [
+        "Quantizer",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

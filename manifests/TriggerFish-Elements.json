@@ -1,7 +1,7 @@
 {
   "slug": "TriggerFish-Elements",
   "name": "TriggerFish-Elements",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "license": "BSD-3-Clause",
   "brand": "TriggerFish",
   "author": "JTriggerFish",
@@ -11,12 +11,13 @@
   "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV",
   "sourceUrl": "https://github.com/JTriggerFish/TriggerFish-VCV",
   "donateUrl": "https://paypal.me/jtriggerfish",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/JTriggerFish/TriggerFish-VCV/blob/master/docs/releases/2.2.0.md",
   "modules": [
     {
       "slug": "TfSlop",
       "name": "Slop",
       "description": "Slop",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#slop-and-slop-4",
       "tags": [
         "Noise"
       ]
@@ -25,6 +26,7 @@
       "slug": "TfSlop4",
       "name": "Slop4",
       "description": "Slop",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#slop-and-slop-4",
       "tags": [
         "Noise"
       ]
@@ -33,6 +35,7 @@
       "slug": "TfVDPO",
       "name": "VDPO",
       "description": "Van Der Pol Oscillator",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#vdpo",
       "tags": [
         "Oscillator"
       ]
@@ -41,8 +44,31 @@
       "slug": "TfVCA",
       "name": "TFVCA",
       "description": "analog modelled VCA that is loosely based on the minimoog's circuit",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#vca",
       "tags": [
         "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "Tf303VoiceCore",
+      "name": "303 Voice Core",
+      "description": "TB-303-style diode ladder, articulation envelopes, accent path, and OTA VCA",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#303-voice-core",
+      "tags": [
+        "Filter",
+        "Envelope generator",
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Tf303Oscillator",
+      "name": "303 Oscillator",
+      "description": "Circuit-informed TB-303-style oscillator with slide and voltage-controlled waveform morphing",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#303-oscillator",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
       ]
     }
   ]
