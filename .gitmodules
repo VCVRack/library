@@ -1149,3 +1149,6 @@
 [submodule "repos/bmbo"]
 	path = repos/bmbo
 	url = https://github.com/kamlaktaye/BmboBTFQuantizer
+[submodule "repos/AmbientModules"]
+	path = repos/AmbientModules
+	url = https://github.com/neilbgr/AmbientModules
