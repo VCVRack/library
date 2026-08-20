@@ -1,7 +1,7 @@
 {
   "slug": "Animatek",
   "name": "Animatek",
-  "version": "2.5.4",
+  "version": "2.5.7",
   "license": "GPL-3.0-or-later",
   "brand": "Animatek",
   "author": "Javier Melgar",
@@ -13,7 +13,7 @@
     {
       "slug": "UZZ",
       "name": "UZZ",
-      "description": "Ultimate Ztep Zequencer. 16-step sequencer with per-step Pitch/Octave/Duration/Mod1/Mod2 and bipolar Prob/Pulse, eight step modes (Play/Mute/Skip/Accum\u00b1/Pulse/Gated/Hold), per-row randomize and shift, multiple direction modes (Forward/Backward/Pendulum/Ping-Pong/Random/Drunk/Odd-Even/Jump/Converge/Diverge), accumulator with modulo wrap, swing, slew, polyphonic step-gates output and EOC.",
+      "description": "Flexible 16-step sequencer for melodies and modulation, with probability, ratchets, evolving pitch, multiple playback directions and hands-on randomization.",
       "tags": [
         "Sequencer",
         "Clock modulator",
@@ -22,9 +22,19 @@
       ]
     },
     {
+      "slug": "UzzX",
+      "name": "UZZ-X",
+      "description": "CV expander for UZZ, adding voltage control over sequence length, start, direction, timing, probability and pitch accumulation, plus step addressing, rotation, reset and reverse.",
+      "tags": [
+        "Expander",
+        "Sequencer",
+        "Utility"
+      ]
+    },
+    {
       "slug": "OxiCv",
       "name": "ONE",
-      "description": "6HP MIDI-to-CV for Oxi One. V/Oct, Gate, Velocity, 8x CC, Clock, CLK/n (divisions), Run. Supports Mono, Poly, Chord, Multitrack and Matriceal modes.",
+      "description": "MIDI-to-CV interface for Oxi One, with pitch, gate, velocity, eight assignable controller outputs, MIDI clock and transport.",
       "tags": [
         "MIDI",
         "Polyphonic",
@@ -35,7 +45,7 @@
     {
       "slug": "OxiCvExp",
       "name": "MULTI",
-      "description": "10HP Expander for OXI-CV. Adds 8 configurable tracks with V/Oct, Gate, and Velocity outputs.",
+      "description": "Expander for ONE that turns up to eight MIDI channels into separate pitch, gate and velocity outputs.",
       "tags": [
         "MIDI",
         "Utility",
@@ -45,7 +55,7 @@
     {
       "slug": "Apc40Ctrl",
       "name": "APC40 CTRL",
-      "description": "MIDI-to-CV bridge for Akai APC40 Track Control, Device Control, Cue and Crossfader CCs on MIDI channel 1, plus the 8 channel faders (CC7 on channels 1-8).",
+      "description": "Turns the knobs and faders of an Akai APC40 into CV outputs for hands-on control of a Rack patch.",
       "tags": [
         "MIDI",
         "Utility",
@@ -54,9 +64,21 @@
       ]
     },
     {
+      "slug": "SideChain",
+      "name": "CAP",
+      "description": "Stereo ducking VCA that lowers audio on each trigger and recovers with adjustable depth, timing and natural variation. It also provides envelope and end-of-cycle outputs.",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Dynamics",
+        "Envelope generator",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
       "slug": "UnitDistanceSeq",
       "name": "UNIT-D",
-      "description": "Compact deterministic polyphonic generative sequencer based on unit-distance graph walks. Seeded 2D nodes create graph transitions, with musical density, gate-density and bipolar 16/32-step gradual lock controls, quantized minor-scale pitch, gate, accent, X CV and Y CV outputs.",
+      "description": "Generative sequencer that turns a seeded network of points into repeatable melodies, rhythms, accents and modulation. Shape the network, let it evolve or lock a phrase you like.",
       "tags": [
         "Sequencer",
         "Random",
@@ -66,10 +88,38 @@
     {
       "slug": "Blank3",
       "name": "BLANK 3",
-      "description": "3HP blank panel with Animatek logo.",
+      "description": "Animated 3HP blank panel with drifting Animatek logos. Adjacent Animatek blanks join into one shared canvas.",
       "tags": [
         "Blank",
         "Utility"
+      ]
+    },
+    {
+      "slug": "BlankAcid",
+      "name": "BLANK ACID",
+      "description": "Animated 3HP blank panel with drifting acid smileys. Adjacent Animatek blanks join into one shared canvas.",
+      "tags": [
+        "Blank",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ATEK303",
+      "name": "ATEK303",
+      "description": "Monophonic acid synth voice inspired by the TB-303, with oscillator, resonant filter, decay envelope, accent and slide. Every main sound control can be modulated by CV.",
+      "tags": [
+        "Oscillator",
+        "Filter",
+        "Synth voice",
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "ATEK303SEQ",
+      "name": "ATEK303 SEQ",
+      "description": "16-step acid pattern generator for ATEK303 or any compatible synth voice. Create repeatable patterns, then mutate their rhythm, octave, accents and slides.",
+      "tags": [
+        "Sequencer"
       ]
     }
   ]

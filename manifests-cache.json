@@ -16479,7 +16479,7 @@
     }
   },
   "Animatek": {
-    "buildTimestamp": 1780969629.8073316,
+    "buildTimestamp": 1787219914.085675,
     "creationTimestamp": 1759801615.851557,
     "modules": {
       "UZZ": {
@@ -16499,6 +16499,21 @@
       },
       "Blank3": {
         "creationTimestamp": 1780972649.949905
+      },
+      "UzzX": {
+        "creationTimestamp": 1787219923.460576
+      },
+      "SideChain": {
+        "creationTimestamp": 1787219923.496056
+      },
+      "BlankAcid": {
+        "creationTimestamp": 1787219923.5330691
+      },
+      "ATEK303": {
+        "creationTimestamp": 1787219923.5751326
+      },
+      "ATEK303SEQ": {
+        "creationTimestamp": 1787219923.6135712
       }
     }
   },
@@ -18168,7 +18183,7 @@
     }
   },
   "VocalLamma": {
-    "buildTimestamp": 1786680184.5502708,
+    "buildTimestamp": 1787219923.3395698,
     "creationTimestamp": 1786680265.528001,
     "modules": {
       "VocalLamma": {
