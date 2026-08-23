@@ -1,0 +1,83 @@
+{
+  "slug": "AmbientModules",
+  "name": "AmbientModules",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "AmbientModules",
+  "description": "A small collection of Rack modules inspired by Elta Music's SOLAR 42F ambient drone synthesizer.",
+  "author": "Neil Baumberger",
+  "authorEmail": "neilbgr8@gmail.com",
+  "authorUrl": "https://github.com/neilbgr",
+  "pluginUrl": "https://github.com/neilbgr/AmbientModules",
+  "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md",
+  "sourceUrl": "https://github.com/neilbgr/AmbientModules",
+  "changelogUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Blank",
+      "name": "Blank",
+      "description": "Blank module",
+      "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md#blank",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "Lunar50Drone",
+      "name": "Lunar50Drone",
+      "description": "5-oscillator sawtooth drone voice with per-oscillator tuning, activation, trigger input and switchable frequency CV routing, a CV attenuverter, a shared Attack/Release envelope (gate, Hold, chainable Envelope In/Out), and a CV-controlled detune/FM knob",
+      "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md#lunar50drone",
+      "tags": [
+        "Oscillator",
+        "Synth voice",
+        "Polyphonic",
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "LunarLFO",
+      "name": "LunarLFO",
+      "description": "Dual triangle/square LFO",
+      "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md#lunarlfo",
+      "tags": [
+        "LFO"
+      ]
+    },
+    {
+      "slug": "LunarVCO",
+      "name": "LunarVCO",
+      "description": "AS3340-style VCO with 6 waveforms (3 fixed + 3 shaped: PWM square, saw-to-inv.saw and sine-to-saw morphs), octave/sub/lin-exp switches, hard sync, and a full ADSR envelope with Hold and Self-generation",
+      "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md#lunarvco",
+      "tags": [
+        "Oscillator",
+        "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "LunarPapaSrapa",
+      "name": "LunarPapaSrapa",
+      "description": "\"Papa Srapa\"-inspired noise/drone voice: FM/AM square oscillator driven by an internal modulator with a dedicated LFO output, independent white noise with sample & hold, and a shared Attack/Release envelope with Hold and chainable Envelope In/Out",
+      "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md#lunarpapasrapa",
+      "tags": [
+        "Noise",
+        "Oscillator",
+        "LFO",
+        "Envelope generator",
+        "Polyphonic",
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "LunarSequencer",
+      "name": "LunarSequencer",
+      "description": "3-to-5-stage Buchla-inspired sequential voltage source with per-step CV and independent gate on/off, internal pulser or external clock with a Clock Out, and a switchable CV output range",
+      "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md#lunarsequencer",
+      "tags": [
+        "Sequencer",
+        "Clock generator"
+      ]
+    }
+  ]
+}

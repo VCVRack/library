@@ -1,7 +1,7 @@
 {
   "slug": "Submit",
   "name": "Submit",
-  "version": "2.18.0",
+  "version": "2.19.0",
   "license": "GPL-3.0-only",
   "brand": "Submit",
   "author": "Juan Jos\u00e9",
@@ -51,6 +51,56 @@
       "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/chain/",
       "tags": [
         "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SumM4",
+      "name": "Sum M4",
+      "description": "Compact four channel mono mixer with level, pan, mute and stereo Chain I/O.",
+      "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/sum-m4/",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SumS4",
+      "name": "Sum S4",
+      "description": "Compact four channel stereo mixer with level, mute, mono normalisation and stereo Chain I/O.",
+      "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/sum-s4/",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Tag",
+      "name": "Tag",
+      "description": "Editable 2 HP patch section label with selectable arrow direction.",
+      "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/tag/",
+      "tags": [
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Set",
+      "name": "Set",
+      "description": "Clocked performance timer with run/pause and selectable musical pulse output.",
+      "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/set/",
+      "tags": [
+        "Clock modulator",
+        "Utility",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Pulse",
+      "name": "Pulse",
+      "description": "Slim visual trigger indicator and mono final mix level and peak monitor.",
+      "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/pulse/",
+      "tags": [
+        "Visual",
         "Utility"
       ]
     },

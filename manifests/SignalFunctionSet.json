@@ -1,7 +1,7 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.17.4",
+  "version": "2.18.1",
   "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
@@ -409,6 +409,28 @@
         "Expander",
         "Polyphonic"
       ]
+    },
+    {
+      "slug": "Slice",
+      "name": "Slice",
+      "description": "Cuts a stereo stream onto a grid and reworks each piece: cut, reverse, stutter, pitch.",
+      "tags": [
+        "Effect",
+        "Sampler",
+        "Delay",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Kit",
+      "name": "Kit",
+      "description": "Struck membrane modelled mode by mode: tom, timpani, gong or snare.",
+      "tags": [
+        "Physical modeling",
+        "Drum",
+        "Synth voice"
+      ],
+      "hidden": true
     }
   ]
 }
