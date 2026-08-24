@@ -1,6 +1,6 @@
 {
   "slug": "computerscare",
-  "version": "2.3.3",
+  "version": "2.3.11",
   "name": "computerscare",
   "brand": "computerscare",
   "author": "computerscare",
@@ -20,6 +20,17 @@
         "Utility"
       ],
       "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/poly-utilities.md#knoly-pobs"
+    },
+    {
+      "slug": "computerscare-volypector",
+      "name": "VolyPector",
+      "description": "16 polyphonic CV bands with compact UI, edit by Band or by Channel",
+      "tags": [
+        "Polyphonic",
+        "Utility",
+        "Random"
+      ],
+      "manualUrl": "https://github.com/freddyz/computerscare-vcv-modules/blob/master/doc/volypector.md"
     },
     {
       "slug": "computerscare-bolyputtons",
