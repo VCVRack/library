@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.41.1",
+  "version": "2.43.0",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -225,6 +225,16 @@
       "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/onezero/user_manual.md"
     },
     {
+      "slug": "piano_roll",
+      "name": "Piano Roll",
+      "description": "Eight-track polyphonic piano-roll note sequencer with recording",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/piano-roll/user_manual.md"
+    },
+    {
       "slug": "repeater",
       "name": "Repeater",
       "description": "Looping sample player with playback offset control.",
@@ -302,16 +312,6 @@
         "Envelope Generator"
       ],
       "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/xy-controller/user_manual.md"
-    },
-    {
-      "slug": "kaiseki",
-      "name": "Kaiseki",
-      "description": "OSC-controlled 8-track sample player with time stretching and BPM sync",
-      "tags": [
-        "Sampler",
-        "External",
-        "Utility"
-      ]
     }
   ]
 }
