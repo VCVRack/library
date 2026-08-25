@@ -1,13 +1,21 @@
 {
   "slug": "piruetas-popusintes",
   "name": "popusintes",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "license": "MIT",
   "brand": "piruetas",
   "author": "piruetas",
   "authorUrl": "https://piruetas.xyz",
   "sourceUrl": "https://github.com/piruetasxyz/popusintes-rack",
   "modules": [
+    {
+      "slug": "ataconso",
+      "name": "ataconso",
+      "description": "interacciones entre dos chips 555",
+      "tags": [
+        "Oscillator"
+      ]
+    },
     {
       "slug": "compa",
       "name": "compa",

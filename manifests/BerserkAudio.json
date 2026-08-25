@@ -1,13 +1,22 @@
 {
   "slug": "BerserkAudio",
   "name": "Berserk Audio",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Berserk Audio",
   "author": "Nicolas Murphy",
   "authorUrl": "https://github.com/NicolasMurphy",
   "sourceUrl": "https://github.com/NicolasMurphy/BerserkAudio",
   "modules": [
+    {
+      "slug": "Combverb",
+      "name": "Combverb",
+      "description": "Comb reverb with self-oscillating feedback.",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ]
+    },
     {
       "slug": "Scrambler",
       "name": "Scrambler",

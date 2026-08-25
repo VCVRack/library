@@ -1,7 +1,7 @@
 {
   "slug": "ModularMooch",
   "name": "Modular Mooch",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "license": "GPL-3.0-or-later",
   "brand": "Modular Mooch",
   "author": "Wesley Leggo-Morrell",
@@ -15,9 +15,9 @@
     {
       "slug": "Wolfram",
       "name": "Wolfram",
-      "description": "Multi-algorithmic Generative Sequencer",
+      "description": "A multi-algorithmic sequencer capable of generating complex evolving patterns. Algorithms include one & two-dimensional cellular automata such as Conway's Game of Life. Sequences can be captured and looped, much like the Turing Machine.",
       "manualUrl": "https://github.com/WesDaMooch/Modular-Mooch-VCV/blob/main/img/manuals/Wolfram_Manual.pdf",
-      "keywords": "cellular automata conway life led matrix generative algorithm",
+      "keywords": "cellular automata conway game life led matrix generative algorithm",
       "tags": [
         "Sequencer",
         "Function generator",
