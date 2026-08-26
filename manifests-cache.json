@@ -17949,11 +17949,29 @@
     }
   },
   "shapetaker": {
-    "buildTimestamp": 1785682510.9291086,
+    "buildTimestamp": 1787782915.5024197,
     "creationTimestamp": 1785682511.9473307,
     "modules": {
       "Clairaudient": {
         "creationTimestamp": 1785682512.0099416
+      },
+      "Evocation": {
+        "creationTimestamp": 1787782915.9352295
+      },
+      "Involution": {
+        "creationTimestamp": 1787782916.0076532
+      },
+      "Chiaroscuro": {
+        "creationTimestamp": 1787782916.0666769
+      },
+      "Recollect": {
+        "creationTimestamp": 1787782916.1357481
+      },
+      "Specula": {
+        "creationTimestamp": 1787782916.200524
+      },
+      "UtilityPanel": {
+        "creationTimestamp": 1787782916.2658424
       }
     }
   },
@@ -18266,6 +18284,21 @@
       },
       "LunarSequencer": {
         "creationTimestamp": 1787453887.3287048
+      }
+    }
+  },
+  "VitaocyThings": {
+    "buildTimestamp": 1787782803.4913332,
+    "creationTimestamp": 1787782915.702486,
+    "modules": {
+      "EDOQNT": {
+        "creationTimestamp": 1787782915.755626
+      },
+      "SCLQNT": {
+        "creationTimestamp": 1787782915.817544
+      },
+      "VOGLI": {
+        "creationTimestamp": 1787782915.8698034
       }
     }
   }

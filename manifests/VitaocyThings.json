@@ -1,0 +1,51 @@
+{
+  "slug": "VitaocyThings",
+  "name": "VitaocyThings",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "VitaocyThings",
+  "author": "Vitaocy",
+  "authorEmail": "tionetwoki@gmail.com",
+  "pluginUrl": "https://github.com/Vitaocy/VitaocyThings",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "minRackVersion": "2.4.0",
+  "modules": [
+    {
+      "slug": "EDOQNT",
+      "name": "EDO QNT",
+      "description": "Microtonal quantizer with selectable equal division of the octave",
+      "keywords": "EDO, microtonal",
+      "manualUrl": "",
+      "tags": [
+        "Quantizer",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "SCLQNT",
+      "name": "SCL QNT",
+      "description": "Quantizer with randomly loaded Scala .scl scales",
+      "keywords": "scl, scala, microtonal, quantizer",
+      "manualUrl": "",
+      "tags": [
+        "Quantizer",
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "VOGLI",
+      "name": "V/O GLI",
+      "description": "Pitch glider with glide time, curve shape and glide chance",
+      "keywords": "glide, portamento, pitch, slew",
+      "manualUrl": "",
+      "tags": [
+        "Slew limiter",
+        "Utility",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

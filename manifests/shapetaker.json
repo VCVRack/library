@@ -1,7 +1,7 @@
 {
   "slug": "shapetaker",
   "name": "shapetaker",
-  "version": "2.0.0",
+  "version": "2.2.1",
   "license": "GPL-3.0-or-later",
   "brand": "shapetaker",
   "author": "Josh Panzarella",
@@ -10,14 +10,84 @@
   "pluginUrl": "https://shapetaker.com",
   "modules": [
     {
+      "slug": "Evocation",
+      "name": "Evocation",
+      "description": "Gesture-based envelope generator with multi-speed outputs",
+      "manualUrl": "https://shapetaker.com/modules/evocation",
+      "tags": [
+        "Envelope generator",
+        "Controller",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Clairaudient",
       "name": "Clairaudient",
       "description": "Dual sigmoid oscillator with morphing waveforms and stereo crossfading",
-      "manualUrl": "https://github.com/joshpanzarella/shapetaker-vcv/blob/main/docs/manuals/Clairaudient.md",
+      "manualUrl": "https://shapetaker.com/modules/clairaudient",
       "tags": [
         "Oscillator",
         "Dual",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Involution",
+      "name": "Involution",
+      "description": "Dual morphable liquid filters with bounded cross-coupling, cutoff spread, chaotic field modulation, and four routing topologies",
+      "manualUrl": "https://shapetaker.com/modules/involution",
+      "tags": [
+        "Filter",
+        "Dual",
+        "Polyphonic",
+        "Effect",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "Chiaroscuro",
+      "name": "Chiaroscuro",
+      "description": "Stereo VCA with sidechain-controlled distortion engine. Named after the artistic technique of dramatic light/dark contrast, features 5 intense distortion algorithms with full CV control.",
+      "manualUrl": "https://shapetaker.com/modules/chiaroscuro",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Distortion",
+        "Waveshaper",
+        "Effect",
+        "Polyphonic",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Recollect",
+      "name": "Recollect",
+      "description": "A/B gesture-memory, morphing, transform, and dedicated endpoint-output expander for Evocation",
+      "manualUrl": "https://shapetaker.com/modules/recollect",
+      "tags": [
+        "Expander",
+        "Envelope generator",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "Specula",
+      "name": "Specula",
+      "description": "Dual vintage VU meter with analog ballistics and transparent pass-through",
+      "manualUrl": "https://shapetaker.com/modules/specula",
+      "tags": [
+        "Utility",
+        "Visual",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "UtilityPanel",
+      "name": "Utility Panel",
+      "description": "Resizable blank utility panel with Shapetaker leather background finish.",
+      "manualUrl": "https://shapetaker.com/modules/utilitypanel",
+      "tags": [
+        "Utility",
+        "Blank"
       ]
     }
   ]
