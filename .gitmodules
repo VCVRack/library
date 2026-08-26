@@ -1152,3 +1152,6 @@
 [submodule "repos/AmbientModules"]
 	path = repos/AmbientModules
 	url = https://github.com/neilbgr/AmbientModules
+[submodule "repos/VitaocyThings"]
+	path = repos/VitaocyThings
+	url = https://github.com/Vitaocy/VitaocyThings
