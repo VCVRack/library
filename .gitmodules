@@ -1155,3 +1155,6 @@
 [submodule "repos/VitaocyThings"]
 	path = repos/VitaocyThings
 	url = https://github.com/Vitaocy/VitaocyThings
+[submodule "repos/Aluminium"]
+	path = repos/Aluminium
+	url = https://github.com/neilbgr/Aluminium
