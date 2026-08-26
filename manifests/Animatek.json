@@ -1,7 +1,7 @@
 {
   "slug": "Animatek",
   "name": "Animatek",
-  "version": "2.5.7",
+  "version": "2.5.8",
   "license": "GPL-3.0-or-later",
   "brand": "Animatek",
   "author": "Javier Melgar",
@@ -14,6 +14,7 @@
       "slug": "UZZ",
       "name": "UZZ",
       "description": "Flexible 16-step sequencer for melodies and modulation, with probability, ratchets, evolving pitch, multiple playback directions and hands-on randomization.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/UZZ_UZZ-X_Manual_EN.md",
       "tags": [
         "Sequencer",
         "Clock modulator",
@@ -25,6 +26,7 @@
       "slug": "UzzX",
       "name": "UZZ-X",
       "description": "CV expander for UZZ, adding voltage control over sequence length, start, direction, timing, probability and pitch accumulation, plus step addressing, rotation, reset and reverse.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/UZZ_UZZ-X_Manual_EN.md",
       "tags": [
         "Expander",
         "Sequencer",
@@ -35,6 +37,7 @@
       "slug": "OxiCv",
       "name": "ONE",
       "description": "MIDI-to-CV interface for Oxi One, with pitch, gate, velocity, eight assignable controller outputs, MIDI clock and transport.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/ONE_MULTI_Manual_EN.md",
       "tags": [
         "MIDI",
         "Polyphonic",
@@ -46,6 +49,7 @@
       "slug": "OxiCvExp",
       "name": "MULTI",
       "description": "Expander for ONE that turns up to eight MIDI channels into separate pitch, gate and velocity outputs.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/ONE_MULTI_Manual_EN.md",
       "tags": [
         "MIDI",
         "Utility",
@@ -56,6 +60,7 @@
       "slug": "Apc40Ctrl",
       "name": "APC40 CTRL",
       "description": "Turns the knobs and faders of an Akai APC40 into CV outputs for hands-on control of a Rack patch.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/APC40_CTRL_Manual_EN.md",
       "tags": [
         "MIDI",
         "Utility",
@@ -66,7 +71,8 @@
     {
       "slug": "SideChain",
       "name": "CAP",
-      "description": "Stereo ducking VCA that lowers audio on each trigger and recovers with adjustable depth, timing and natural variation. It also provides envelope and end-of-cycle outputs.",
+      "description": "Stereo ducking VCA that lowers audio on each trigger and recovers with adjustable depth, timing and natural variation. A VCA CV input gives ordinary voltage control over gain, and envelope and end-of-cycle outputs are provided.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/CAP_Manual_EN.md",
       "tags": [
         "Voltage-controlled amplifier",
         "Dynamics",
@@ -79,6 +85,7 @@
       "slug": "UnitDistanceSeq",
       "name": "UNIT-D",
       "description": "Generative sequencer that turns a seeded network of points into repeatable melodies, rhythms, accents and modulation. Shape the network, let it evolve or lock a phrase you like.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/UNIT-D_Manual_EN.md",
       "tags": [
         "Sequencer",
         "Random",
@@ -89,6 +96,7 @@
       "slug": "Blank3",
       "name": "BLANK 3",
       "description": "Animated 3HP blank panel with drifting Animatek logos. Adjacent Animatek blanks join into one shared canvas.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/BLANKS_Manual_EN.md",
       "tags": [
         "Blank",
         "Utility"
@@ -98,6 +106,7 @@
       "slug": "BlankAcid",
       "name": "BLANK ACID",
       "description": "Animated 3HP blank panel with drifting acid smileys. Adjacent Animatek blanks join into one shared canvas.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/BLANKS_Manual_EN.md",
       "tags": [
         "Blank",
         "Utility"
@@ -107,6 +116,7 @@
       "slug": "ATEK303",
       "name": "ATEK303",
       "description": "Monophonic acid synth voice inspired by the TB-303, with oscillator, resonant filter, decay envelope, accent and slide. Every main sound control can be modulated by CV.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/ATEK303_Manual_EN.md",
       "tags": [
         "Oscillator",
         "Filter",
@@ -118,6 +128,7 @@
       "slug": "ATEK303SEQ",
       "name": "ATEK303 SEQ",
       "description": "16-step acid pattern generator for ATEK303 or any compatible synth voice. Create repeatable patterns, then mutate their rhythm, octave, accents and slides.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/ATEK303SEQ_Manual_EN.md",
       "tags": [
         "Sequencer"
       ]
