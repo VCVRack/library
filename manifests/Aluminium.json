@@ -1,0 +1,49 @@
+{
+  "slug": "Aluminium",
+  "name": "Aluminium",
+  "version": "2.0.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "Aluminium",
+  "description": "A small collection of utility Rack modules.",
+  "author": "Neil Baumberger",
+  "authorEmail": "neilbgr8@gmail.com",
+  "authorUrl": "https://github.com/neilbgr",
+  "pluginUrl": "https://github.com/neilbgr/Aluminium",
+  "manualUrl": "https://github.com/neilbgr/Aluminium/blob/main/README.md",
+  "sourceUrl": "https://github.com/neilbgr/Aluminium",
+  "changelogUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Zones",
+      "name": "Zones",
+      "description": "Splits a polyphonic MIDI-CV keyboard signal (V/OCT, GATE, VELOCITY, AFTERTOUCH, RETRIGGER) into two note-range zones, each independently configurable as polyphonic passthrough or monophonic with note-priority (last/highest/lowest) and true legato gate behavior",
+      "manualUrl": "https://github.com/neilbgr/Aluminium/blob/main/README.md#zones",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Pads",
+      "name": "Pads",
+      "description": "16 gate outputs, one per learned note, driven by a polyphonic V/OCT + GATE cable (e.g. from Core MIDI-CV or Zones) instead of MIDI \u2014 learn a cell by clicking it and playing (or typing) the note; each cell can be switched to Latch mode to toggle on/off instead of following the held note",
+      "manualUrl": "https://github.com/neilbgr/Aluminium/blob/main/README.md#pads",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "PadX",
+      "name": "PadX",
+      "description": "Pads expander: extracts a freely-labeled polyphonic lane (e.g. Velocity, Aftertouch, Retrigger) into 16 mono outputs, one per note Pads has learned",
+      "manualUrl": "https://github.com/neilbgr/Aluminium/blob/main/README.md#padx",
+      "tags": [
+        "Utility",
+        "Polyphonic",
+        "Expander"
+      ]
+    }
+  ]
+}

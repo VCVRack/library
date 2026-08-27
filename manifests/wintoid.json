@@ -1,7 +1,7 @@
 {
   "slug": "wintoid",
   "name": "wintoid",
-  "version": "2.0.1",
+  "version": "2.2.0",
   "license": "MIT",
   "brand": "wintoid",
   "author": "wintoid",
@@ -14,22 +14,35 @@
     {
       "slug": "FourMM",
       "name": "Four",
-      "description": "4-operator FM/PM synthesizer with waveshaping, wavefolding, and feedback",
+      "description": "16-channel polyphonic 4-operator FM/PM synthesizer with waveshaping, wavefolding, and feedback",
       "manualUrl": "https://github.com/wintocode/wintoid-vcv#four",
       "tags": [
         "Oscillator",
         "Digital",
-        "Waveshaper"
+        "Waveshaper",
+        "Polyphonic"
       ]
     },
     {
       "slug": "VortexMM",
       "name": "Vortex",
-      "description": "12-mode multi-mode filter with drive and CV control. Filter DSP by Yuriy Ivantsov (ivantsov-filters)",
+      "description": "16-channel polyphonic 12-mode multi-mode filter with drive and CV control. Filter DSP by Yuriy Ivantsov (ivantsov-filters)",
       "manualUrl": "https://github.com/wintocode/wintoid-vcv#vortex",
       "tags": [
         "Filter",
-        "Effect"
+        "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Brink",
+      "name": "Brink",
+      "description": "Polyphonic dual-window utility with bipolar position, directional boundary events, and shared logic",
+      "manualUrl": "https://github.com/wintocode/wintoid-vcv#brink",
+      "tags": [
+        "Logic",
+        "Polyphonic",
+        "Utility"
       ]
     }
   ]

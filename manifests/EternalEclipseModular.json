@@ -1,12 +1,14 @@
 {
   "slug": "EternalEclipseModular",
   "name": "Eternal Eclipse Modular",
-  "version": "2.7.1",
+  "version": "2.9.2",
   "license": "GPL-3.0-or-later",
+  "pluginUrl": "https://churchoftheeternaleclipse.com/the-mirror/",
   "brand": "Eternal Eclipse",
   "author": "Nicholas Bain",
   "authorEmail": "themagicianreversedband@gmail.com",
   "authorUrl": "https://churchoftheeternaleclipse.com",
+  "donateUrl": "https://www.patreon.com/TheMagicianReversed",
   "manualUrl": "https://github.com/7337Productions/eternaleclipsemodular#readme",
   "sourceUrl": "https://github.com/7337Productions/eternaleclipsemodular",
   "changelogUrl": "https://github.com/7337Productions/eternaleclipsemodular/blob/main/CHANGELOG.md",
@@ -34,7 +36,7 @@
     {
       "slug": "LiminalVast",
       "name": "Liminal Vast Reverb",
-      "description": "Lush stereo reverb with a modulated feedback delay network \u2014 from intimate rooms to the endless liminal vast.",
+      "description": "Lush stereo reverb with a modulated, diffused feedback delay network \u2014 from intimate rooms to the endless liminal vast, with infinite decay and freeze.",
       "tags": [
         "Reverb",
         "Effect"
@@ -67,6 +69,26 @@
       "tags": [
         "LFO",
         "Visual"
+      ]
+    },
+    {
+      "slug": "CoronalAnnihilator",
+      "name": "Coronal Annihilator",
+      "description": "Stereo voice: a complex dual oscillator (CORE drives FLARE with FM, sync, wavefolding and phase warp) blended with an external stereo input, through an onboard neural amp model (.nam, one network per channel) and a saturating 4-pole lowpass with 12/24 dB slopes.",
+      "tags": [
+        "Synth voice",
+        "Oscillator",
+        "Filter",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "LitanyEngine",
+      "name": "Litany Engine",
+      "description": "Looping sample player with an onboard litany of loops and a focused granular engine \u2014 or load your own sample folder: through-zero varispeed, grain size from whole-loop down to 15 ms, morphing overlap, scan and texture spray; stereo companion to the Coronal Annihilator's external input.",
+      "tags": [
+        "Sampler",
+        "Granular"
       ]
     }
   ]
