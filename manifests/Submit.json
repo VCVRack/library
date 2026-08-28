@@ -1,7 +1,7 @@
 {
   "slug": "Submit",
   "name": "Submit",
-  "version": "2.19.1",
+  "version": "2.20.0",
   "license": "GPL-3.0-only",
   "brand": "Submit",
   "author": "Juan Jos\u00e9",
@@ -213,6 +213,25 @@
         "Clock modulator",
         "Logic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "Circles",
+      "name": "Circles",
+      "description": "Always-quantized circular eight-step sequencer with slow sub and scale-chain outputs.",
+      "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/circles/",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Sub",
+      "name": "SUB",
+      "description": "Monophonic analog bass voice with a dedicated warm FM sub layer.",
+      "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/sub/",
+      "tags": [
+        "Oscillator",
+        "Synth voice"
       ]
     }
   ]
