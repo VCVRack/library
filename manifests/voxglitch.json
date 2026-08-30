@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.43.0",
+  "version": "2.44.0",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -312,6 +312,18 @@
         "Envelope Generator"
       ],
       "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/xy-controller/user_manual.md"
+    },
+    {
+      "slug": "timeline",
+      "name": "Timeline",
+      "description": "Draw automation curves on a musical timeline: 16 breakpoint lanes, each with its own transport, out one polyphonic cable.",
+      "tags": [
+        "Controller",
+        "LFO",
+        "Polyphonic",
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/timeline/user_manual.md"
     }
   ]
 }

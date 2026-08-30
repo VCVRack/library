@@ -1,0 +1,28 @@
+{
+  "slug": "Keeos",
+  "name": "Keeos",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "Keeos",
+  "author": "Steven Collins",
+  "authorEmail": "steve@keeos.io",
+  "authorUrl": "https://keeos.io",
+  "pluginUrl": "https://github.com/keeos-io/ogham-vcv",
+  "manualUrl": "https://github.com/keeos-io/ogham-vcv#readme",
+  "sourceUrl": "https://github.com/keeos-io/ogham-vcv",
+  "changelogUrl": "https://github.com/keeos-io/ogham-vcv/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Ogham",
+      "name": "Ogham",
+      "description": "Dual-voice bytebeat synthesizer. A port of the Keeos Ogham Eurorack module, running the module's own DSP.",
+      "tags": [
+        "Oscillator",
+        "Digital",
+        "Noise",
+        "Dual",
+        "Hardware clone"
+      ]
+    }
+  ]
+}

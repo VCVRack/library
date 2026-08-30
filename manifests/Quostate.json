@@ -1,0 +1,33 @@
+{
+  "slug": "Quostate",
+  "name": "Quostate",
+  "brand": "Quostate",
+  "version": "2.2.2",
+  "license": "GPL-3.0-or-later",
+  "author": "Esteban Gomez",
+  "authorEmail": "estebanmolca@gmail.com",
+  "sourceUrl": "https://github.com/HiddenSide/Quostate",
+  "modules": [
+    {
+      "slug": "LSystem",
+      "name": "LSystem",
+      "description": "sequencer that uses rules which can self-trigger or trigger other rules",
+      "manualUrl": "https://github.com/HiddenSide/Quostate/blob/main/LSystem_manual_EN.md",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "MorphfastMini",
+      "name": "MorphfastMini",
+      "description": "Clock-synced voltage transition generator with Ramp, RampBack and Step curves, delay and easing.",
+      "manualUrl": "https://github.com/HiddenSide/Quostate/blob/main/MorphFastMini_manual_EN.md",
+      "tags": [
+        "Function generator",
+        "Utility"
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "slug": "TriggerFish-Elements",
   "name": "TriggerFish-Elements",
-  "version": "2.3.0",
-  "license": "BSD-3-Clause",
+  "version": "2.5.4",
+  "license": "GPL-3.0-or-later",
   "brand": "TriggerFish",
   "author": "JTriggerFish",
   "authorEmail": "FastTriggerFish@gmail.com",
@@ -11,7 +11,7 @@
   "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV",
   "sourceUrl": "https://github.com/JTriggerFish/TriggerFish-VCV",
   "donateUrl": "https://paypal.me/jtriggerfish",
-  "changelogUrl": "https://github.com/JTriggerFish/TriggerFish-VCV/blob/master/docs/releases/2.3.0.md",
+  "changelogUrl": "https://github.com/JTriggerFish/TriggerFish-VCV/blob/master/docs/releases/2.5.4.md",
   "modules": [
     {
       "slug": "TfSlop",
@@ -84,6 +84,17 @@
       ]
     },
     {
+      "slug": "TfElectricPiano",
+      "name": "Electric Piano",
+      "description": "Sample-free polyphonic modal electric piano with velocity-sensitive tines, nonlinear pickups, and a shared amplifier",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#electric-piano",
+      "tags": [
+        "Synth voice",
+        "Polyphonic",
+        "Physical modeling"
+      ]
+    },
+    {
       "slug": "TfWavefoldOscillator",
       "name": "Wavefold Oscillator",
       "description": "Alive sine/triangle oscillator with Hinge, Lockhart, and Serge wavefolders",
@@ -102,6 +113,57 @@
       "tags": [
         "Oscillator",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TfScenePack4",
+      "name": "Scene Pack 4",
+      "description": "Compacts four mono/poly source bundles into one polyphonic cable for Room Reverb placement",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#scene-pack-4",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TfEventMerge2",
+      "name": "Event Merge 2",
+      "description": "Concatenates two polyphonic Pitch/Gate/Trigger/Velocity/Accent event bundles without summing pitch",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#event-merge-2",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TfReverb",
+      "name": "Room Reverb",
+      "description": "Geometric rectangular-room early reflections with a two-stage 16-line velvet stereo late field",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#room-reverb",
+      "tags": [
+        "Reverb",
+        "Effect",
+        "Physical modeling"
+      ]
+    },
+    {
+      "slug": "TfTransport",
+      "name": "Transport",
+      "description": "Precise fixed-24-PPQN master clock and shared transport",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV#transport",
+      "tags": [
+        "Clock generator",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "TfProgSequencer",
+      "name": "Prog Sequencer",
+      "description": "Beta live-coded polyphonic note and chord sequencer; syntax, semantics, and features may change",
+      "manualUrl": "https://github.com/JTriggerFish/TriggerFish-VCV/blob/master/docs/TfProgSequencer-reference.md",
+      "tags": [
+        "Sequencer",
+        "Controller"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "BCNmodular",
   "name": "BCNmodular",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "BCNmodular",
   "description": "Probabilistic Voice Router, Arranger & Arrangement Structure Generator",
@@ -9,7 +9,7 @@
   "authorEmail": "bcnmodular.t36yq@aleeas.com",
   "authorUrl": "https://github.com/santifort-commits/BCNmodular",
   "pluginUrl": "https://github.com/santifort-commits/BCNmodular",
-  "manualUrl": "https://github.com/santifort-commits/BCNmodular/raw/main/doc/BCNmodular_Maestro_SomeStructure_Manual_v1.pdf",
+  "manualUrl": "https://github.com/santifort-commits/BCNmodular/raw/main/doc/BCNmodular_Manual_v2.1.pdf",
   "sourceUrl": "https://github.com/santifort-commits/BCNmodular",
   "donateUrl": "",
   "changelogUrl": "",
@@ -38,6 +38,19 @@
         "Clock modulator"
       ],
       "keywords": "arrangement structure sections parts voices genre style density roles arranger performance"
+    },
+    {
+      "slug": "MaestroExp",
+      "name": "Maestro Expander 10",
+      "description": "Adds channels 7-16 to Maestro. Links to a Maestro Core via context menu, not physical placement.",
+      "tags": [
+        "Expander",
+        "Random",
+        "Sequencer",
+        "Polyphonic",
+        "Clock modulator"
+      ],
+      "keywords": "expander channels link core probability density voice"
     }
   ]
 }

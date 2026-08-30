@@ -1,7 +1,7 @@
 {
   "slug": "Submit",
   "name": "Submit",
-  "version": "2.20.0",
+  "version": "2.21.0",
   "license": "GPL-3.0-only",
   "brand": "Submit",
   "author": "Juan Jos\u00e9",
@@ -156,7 +156,7 @@
     {
       "slug": "Loop",
       "name": "Loop",
-      "description": "Stereo sample looper with waveform, clock sync, BPM parsing, reverse and cue.",
+      "description": "Stereo sample looper with waveform, expanded BPM and bars display, clock sync, reverse and cue.",
       "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/loop/",
       "tags": [
         "Sampler",
@@ -166,7 +166,7 @@
     {
       "slug": "Clang",
       "name": "Clang",
-      "description": "Techno percussion synth with Physical and FM engines, models and sound variations.",
+      "description": "Techno percussion synth with Physical and FM engines plus CV control for tune, decay and noise.",
       "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/clang/",
       "tags": [
         "Drum",
@@ -187,7 +187,7 @@
     {
       "slug": "Sync",
       "name": "Sync",
-      "description": "Compact 1 PPQN internal and external clock with \u00d71, \u00d72, \u00f72 and reset outputs.",
+      "description": "Compact 1 PPQN internal and external clock with start, stop, \u00d71, \u00d72, \u00f72 and reset.",
       "manualUrl": "https://www.submitaudio.nl/vcv-rack-modules-metamodule-plugins/sync/",
       "tags": [
         "Clock generator",

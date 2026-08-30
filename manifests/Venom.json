@@ -1,7 +1,7 @@
 {
   "slug": "Venom",
   "name": "Venom",
-  "version": "2.15.0",
+  "version": "2.16.2",
   "license": "GPL-3.0-or-later",
   "brand": "",
   "author": "David Benham",
@@ -17,7 +17,7 @@
       "slug": "AD_ASR",
       "name": "AD/ASR Envelope Generator",
       "description": "Hybrid polyphonic Attack,Decay and Attack,Sustain,Release envelope generator with looping capabilities",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#adasr-envelope-generator",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/EnvelopeGenerators.md#adasr-envelope-generator",
       "tags": [
         "Envelope generator",
         "Low-frequency oscillator",
@@ -29,7 +29,7 @@
       "slug": "AuxClone",
       "name": "Auxilliary Clone Expander",
       "description": "Adds additional cloned poly input/output pairs to Clone Merge, Poly Merge, or Poly Unison",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#auxilliary-clone-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#auxilliary-clone-expander",
       "tags": [
         "Expander",
         "Polyphonic",
@@ -40,7 +40,7 @@
       "slug": "BayInput",
       "name": "Bay Input",
       "description": "Teleporting input utility with custom labels for patch bays",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bay-modules",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PatchManagement.md#bay-modules",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -50,7 +50,7 @@
       "slug": "BayNorm",
       "name": "Bay Normal",
       "description": "Teleporting output utility with normal inputs and custom labels for patch bays",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bay-modules",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PatchManagement.md#bay-modules",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -60,7 +60,7 @@
       "slug": "BayOutput",
       "name": "Bay Output",
       "description": "Teleporting output utility with custom labels for patch bays",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bay-modules",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PatchManagement.md#bay-modules",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -70,7 +70,7 @@
       "slug": "BenjolinOsc",
       "name": "Benjolin Oscillator",
       "description": "Complex chaotic oscillator emulating the oscillator and rungler components of a Benjolin",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#benjolin-oscillator",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Oscillators.md#benjolin-oscillator",
       "tags": [
         "Low-frequency oscillator",
         "Oscillator",
@@ -82,7 +82,7 @@
       "slug": "BenjolinGatesExpander",
       "name": "Benjolin Gates Expander",
       "description": "Adds additional Rungler gate outputs to the Benjolin Oscillator",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#benjolin-gates-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Oscillators.md#benjolin-gates-expander",
       "tags": [
         "Expander"
       ]
@@ -91,7 +91,7 @@
       "slug": "BenjolinVoltsExpander",
       "name": "Benjolin Volts Expander",
       "description": "Adds additional Rungler CV outputs to the Benjolin Oscillator",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#benjolin-volts-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Oscillators.md#benjolin-volts-expander",
       "tags": [
         "Expander"
       ]
@@ -100,7 +100,7 @@
       "slug": "BernoulliSwitch",
       "name": "Bernoulli Switch",
       "description": "Stochastically route two inputs to two outputs, with built in scaling and offset capabilities",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bernoulli-switch",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/LogicRandomRouting.md#bernoulli-switch",
       "tags": [
         "Attenuator",
         "Controller",
@@ -116,7 +116,7 @@
       "slug": "BernoulliSwitchExpander",
       "name": "Bernoulli Switch Expander",
       "description": "Additional CV inputs and attenuators for Bernoulli Switch",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bernoulli-switch-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/LogicRandomRouting.md#bernoulli-switch-expander",
       "tags": [
         "Expander"
       ]
@@ -125,17 +125,28 @@
       "slug": "Blocker",
       "name": "Blocker",
       "description": "Blocks expander chains",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#blocker",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PatchManagement.md#blocker",
       "tags": [
         "Blank",
         "Utility"
       ]
     },
     {
+      "slug": "BoundedVCO",
+      "name": "Bounded VCO",
+      "description": "An implementation of Peter Blasser's Bound/Bounce oscillation that constrains an oscillator with constant slopes between an upper and lower bound",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Oscillators.md#bounded-vco",
+      "tags": [
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Bypass",
       "name": "Bypass",
       "description": "Bypass one or more modules at the end of patched cables",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#bypass-module",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PatchManagement.md#bypass-module",
       "tags": [
         "Switch",
         "Utility"
@@ -145,7 +156,7 @@
       "slug": "CloneMerge",
       "name": "Clone Merge",
       "description": "Clone up to 8 monophonic inputs and merge all channels into 1 polyphonic output",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#clone-merge",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#clone-merge",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -155,17 +166,43 @@
       "slug": "CrossFade3D",
       "name": "Cross Fade 3D",
       "description": "Cross fade 8 inputs to 1 output using X, Y, and Z axes",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#cross-fade-3d",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#cross-fade-3d",
       "tags": [
         "Mixer",
         "Polyphonic"
       ]
     },
     {
+      "slug": "DASE",
+      "name": "DASE - Dynamic Amplifying Shaping Envelope",
+      "description": "Novel Attack/Decay envelope generator that functions as an unusual VCA and waveshaper via audio rate envelope modulation",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/EnvelopeGenerators.md#dynamic-amplifying-shaping-envelope",
+      "tags": [
+        "Envelope generator",
+        "Polyphonic",
+        "Voltage-controlled amplifier",
+        "Waveshaper"
+      ]
+    },
+    {
+      "slug": "EnvelopeFactory",
+      "name": "Envelope Factory",
+      "description": "Highly configurable envelope generator supporting up to 20 stages",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/EnvelopeGenerators.md#envelope-factory",
+      "tags": [
+        "Envelope generator",
+        "Function generator",
+        "Low-frequency oscillator",
+        "Polyphonic",
+        "Sequencer",
+        "Voltage-controlled amplifier"
+      ]
+    },
+    {
       "slug": "HQ",
       "name": "HQ - Harmonic Quantizer",
       "description": "Computes a selected harmonic or subharmonic partial relative to a root V/Oct, or quantizes input V/Oct to the nearest partial relative to the root",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#harmonic-quantizer",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Quantizers.md#harmonic-quantizer",
       "tags": [
         "Polyphonic",
         "Quantizer"
@@ -175,7 +212,7 @@
       "slug": "Knob5",
       "name": "Knob 5",
       "description": "5 configurable constant voltage knobs",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#knob-5",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Controllers.md#knob-5",
       "tags": [
         "Controller",
         "Polyphonic",
@@ -186,7 +223,7 @@
       "slug": "LinearBeats",
       "name": "Linear Beats",
       "description": "Convert multiple trigger/gate channels into a linear drumming pattern",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#linear-beats",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Sequencers.md#linear-beats",
       "tags": [
         "Logic",
         "Polyphonic",
@@ -197,17 +234,36 @@
       "slug": "LinearBeatsExpander",
       "name": "Linear Beats Expander",
       "description": "Add bypass and input/output mutes to the Linear Beats module",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#linear-beats-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Sequencers.md#linear-beats-expander",
       "tags": [
         "Logic",
         "Expander"
       ]
     },
     {
+      "slug": "LinearMerge",
+      "name": "Linear Merge",
+      "description": "Merge multiple sets of monophonic gate/CV pairs into a single monophonic stream of gates with associated CV",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Sequencers.md#linear-merge",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "LinearMergeExpander",
+      "name": "Linear Merge Expander",
+      "description": "Adds another channel of CV to Linear Merge",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Sequencers.md#linear-merge-expander",
+      "tags": [
+        "Expander",
+        "Utility"
+      ]
+    },
+    {
       "slug": "Logic",
       "name": "Logic",
       "description": "Flexible logic gate processor suitable for both CV and audio applications",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#logic",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/LogicRandomRouting.md#logic",
       "tags": [
         "Logic",
         "Polyphonic",
@@ -218,7 +274,7 @@
       "slug": "Merge4x2",
       "name": "Merge 4x2",
       "description": "Compact and versatile polyphonic merge utility",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multi-merge",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#merge-4x2",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -228,7 +284,7 @@
       "slug": "MergeSplit",
       "name": "Merge Split",
       "description": "Compact and versatile polyphonic merge and split utility",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multi-merge",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#merge-split",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -238,7 +294,7 @@
       "slug": "Mix4",
       "name": "Mix 4",
       "description": "Compact audio or CV mixer, attenuator, inverter, amplifier, and/or offset",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-4",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#mix-4",
       "tags": [
         "Attenuator",
         "Mixer",
@@ -250,7 +306,7 @@
       "slug": "Mix4Stereo",
       "name": "Mix 4 Stereo",
       "description": "Stereo compact audio or CV mixer, attenuator, inverter, amplifier, and/or offset",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-4-stereo",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#mix-4-stereo",
       "tags": [
         "Attenuator",
         "Mixer",
@@ -262,7 +318,7 @@
       "slug": "MixFade",
       "name": "Mix Fade Expander",
       "description": "Add symmetric mute/solo fades to any of the Mix modules",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-fade-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#mix-fade-expander",
       "tags": [
         "Attenuator",
         "Expander",
@@ -275,7 +331,7 @@
       "slug": "MixFade2",
       "name": "Mix Fade 2 Expander",
       "description": "Add independent rise/fall fades for mute/solo to any of the Mix modules",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-fade-2-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#mix-fade-2-expander",
       "tags": [
         "Attenuator",
         "Expander",
@@ -288,7 +344,7 @@
       "slug": "MixMute",
       "name": "Mix Mute Expander",
       "description": "Add mutes to any of the Mix modules",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-mute-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#mix-mute-expander",
       "tags": [
         "Attenuator",
         "Expander",
@@ -301,7 +357,7 @@
       "slug": "MixOffset",
       "name": "Mix Offset Expander",
       "description": "Add offset control to any of the Mix modules",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-offset-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#mix-offset-expander",
       "tags": [
         "Attenuator",
         "Expander",
@@ -314,7 +370,7 @@
       "slug": "MixPan",
       "name": "Mix Pan Expander",
       "description": "Add pan control to either of the stereo Mix modules",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-pan-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#mix-pan-expander",
       "tags": [
         "Attenuator",
         "Expander",
@@ -328,7 +384,7 @@
       "slug": "MixSend",
       "name": "Mix Aux Send Expander",
       "description": "Add aux send/return to any of the Mix modules",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-aux-send-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#mix-aux-send-expander",
       "tags": [
         "Attenuator",
         "Expander",
@@ -341,7 +397,7 @@
       "slug": "MixSolo",
       "name": "Mix Solo Expander",
       "description": "Add solo to any of the Mix modules",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mix-solo-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#mix-solo-expander",
       "tags": [
         "Attenuator",
         "Expander",
@@ -354,7 +410,7 @@
       "slug": "MousePad",
       "name": "Mouse Pad",
       "description": "Use your mouse as a controller",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#mouse-pad",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Controllers.md#mouse-pad",
       "tags": [
         "Controller",
         "Utility"
@@ -364,7 +420,7 @@
       "slug": "MultiMerge",
       "name": "Multi Merge",
       "description": "Merge one or more sets of mono and/or poly inputs into polyphonic outputs",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multi-merge",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#multi-merge",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -374,7 +430,7 @@
       "slug": "MultiSplit",
       "name": "Multi Split",
       "description": "Split one or more poly inputs into multiple mono or poly outputs",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multi-split",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#multi-split",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -384,7 +440,7 @@
       "slug": "SVF",
       "name": "Multimode Filter",
       "description": "Stereo state variable filter for audio and low frequency use with some extra goodies",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multimode-filter",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Modulation.md#multimode-filter",
       "tags": [
         "Filter",
         "Polyphonic"
@@ -394,7 +450,7 @@
       "slug": "NORS_IQ",
       "name": "Non-Octave-Repeating Scale Intervallic Quantizer",
       "description": "Quantizer for any scale defined by up to 13 intervals between notes",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#non-octave-repeating-scale-intervallic-quantizer",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Quantizers.md#non-octave-repeating-scale-intervallic-quantizer",
       "tags": [
         "Quantizer",
         "Polyphonic"
@@ -404,7 +460,7 @@
       "slug": "NORSIQChord2Scale",
       "name": "NORSIQ Chord To Scale",
       "description": "Convert a polyphonic chord into CV to generate a scale for the Non-Octave-Repeating Scale Intervallic Quantizer",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#norsiq-chord-to-scale",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Quantizers.md#norsiq-chord-to-scale",
       "tags": [
         "Quantizer",
         "Polyphonic"
@@ -414,7 +470,7 @@
       "slug": "NullCable",
       "name": "Null Cable",
       "description": "Nullify a cable by setting it to 0 channels via manual or CV control",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#null-cable",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PatchManagement.md#null-cable",
       "tags": [
         "Controller",
         "Switch",
@@ -426,7 +482,7 @@
       "slug": "Octaver",
       "name": "Octaver",
       "description": "An old school octave effect in the style of the Pearl OC-7 and Boss OC-2 analog pedals",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#octaver",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Modulation.md#octaver",
       "tags": [
         "Effect",
         "Polyphonic"
@@ -436,7 +492,7 @@
       "slug": "Pan3D",
       "name": "Pan 3D",
       "description": "Pan 1 input to 8 outputs using X, Y, and Z axes",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#pan-3d",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/LogicRandomRouting.md#pan-3d",
       "tags": [
         "Panning",
         "Polyphonic"
@@ -446,7 +502,7 @@
       "slug": "PolyClone",
       "name": "Poly Clone",
       "description": "Clone each channel of a polyphonic input and merge the results into a single polyphonic output",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-clone",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#poly-clone",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -456,7 +512,7 @@
       "slug": "PolyFade",
       "name": "Poly Fade",
       "description": "Cross fade between channels of a polyphonic signal",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-fade",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#poly-fade",
       "tags": [
         "Envelope Generator",
         "Low-frequency oscillator",
@@ -470,7 +526,7 @@
       "slug": "PolyMute",
       "name": "Poly Mute",
       "description": "Mute individual channels of a polyphonic input via buttons or CV",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-mute",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Controllers.md#poly-mute",
       "tags": [
         "Polyphonic",
         "Switch",
@@ -481,7 +537,7 @@
       "slug": "PolyOffset",
       "name": "Poly Offset",
       "description": "Provides an offset control for each channel of a polyphonic signal",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-offset",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Controllers.md#poly-offset",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -491,7 +547,7 @@
       "slug": "PolyPrune",
       "name": "Poly Prune",
       "description": "Remove selected channels and/or sort channels from a polyphonic input",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-prune",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#poly-prune",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -501,7 +557,7 @@
       "slug": "PolySHASR",
       "name": "Poly Sample & Hold Analog Shift Register",
       "description": "Ten channel polyphonic sample and hold combined with a shift register",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-sample--hold-analog-shift-register",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/LogicRandomRouting.md#poly-sample--hold-analog-shift-register",
       "tags": [
         "Polyphonic",
         "Random",
@@ -512,7 +568,7 @@
       "slug": "PolyScale",
       "name": "Poly Scale",
       "description": "Provides a level control for each channel of a polyphonic signal",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-scale",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Modulation.md#poly-scale",
       "tags": [
         "Attenuator",
         "Polyphonic",
@@ -523,7 +579,7 @@
       "slug": "PolyUnison",
       "name": "Poly Unison",
       "description": "Replicate each channel of a polyphonic input with a variable detune spread, and merge the results into a single polyphonic output",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#poly-unison",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#poly-unison",
       "tags": [
         "Polyphonic",
         "Tuner",
@@ -534,7 +590,7 @@
       "slug": "Push5",
       "name": "Push 5",
       "description": "5 configurable push buttons",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#push-5",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Controllers.md#push-5",
       "tags": [
         "Controller",
         "Polyphonic",
@@ -545,7 +601,7 @@
       "slug": "QuadVCPolarizer",
       "name": "Quad VC Polarizer",
       "description": "Compact polyphonic bipolar VCA and mixer inspired by Mutable Instruments Blinds",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#quad-vc-polarizer",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#quad-vc-polarizer",
       "tags": [
         "Attenuator",
         "Mixer",
@@ -556,10 +612,20 @@
       ]
     },
     {
+      "slug": "Ratio",
+      "name": "Ratio",
+      "description": "Computes V/Oct CV for musical ratios using integral numerators and denominators",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Quantizers.md#ratio",
+      "tags": [
+        "Polyphonic",
+        "Quantizer"
+      ]
+    },
+    {
       "slug": "Recurse",
       "name": "Recurse",
       "description": "Recursively process an input via Send/Return, with built in scaling and offset cababilities",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#recurse",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#recurse",
       "tags": [
         "Effect",
         "Polyphonic",
@@ -571,7 +637,7 @@
       "slug": "RecurseStereo",
       "name": "Recurse Stereo",
       "description": "Recursively process mono or stereo input via Send/Return, with built in scaling and offset cababilities",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#recurse-stereo",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#recurse-stereo",
       "tags": [
         "Effect",
         "Polyphonic",
@@ -583,7 +649,7 @@
       "slug": "Reformation",
       "name": "Reformation",
       "description": "Transform CV or audio by mapping way point voltages to new values",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#reformation",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Modulation.md#reformation",
       "tags": [
         "Distortion",
         "Effect",
@@ -597,7 +663,7 @@
       "slug": "RhythmExplorer",
       "name": "Rhythm Explorer",
       "description": "Stochastic rhythm generator, trigger sequencer and clock divider",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#rhythm-explorer",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Sequencers.md#rhythm-explorer",
       "tags": [
         "Clock modulator",
         "Random",
@@ -608,7 +674,7 @@
       "slug": "REXCV",
       "name": "Rhythm Explorer CV Expander",
       "description": "Add three channels of CV output for each division of the parent Rhythm Explorer",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#rhythm-explorer-cv-expander",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Sequencers.md#rhythm-explorer-cv-expander",
       "tags": [
         "Expander"
       ]
@@ -617,7 +683,7 @@
       "slug": "ShapedVCA",
       "name": "Shaped VCA",
       "description": "Stereo VCA with a variable response curve, hard/soft clipping, ring modulation, and oversampling",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#shaped-vca",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Modulation.md#shaped-vca",
       "tags": [
         "Attenuator",
         "Polyphonic",
@@ -631,7 +697,7 @@
       "slug": "Slew",
       "name": "Slew",
       "description": "Slew limiter and slope detector for both CV and audio processing",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#slew",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Modulation.md#slew",
       "tags": [
         "Polyphonic",
         "Slew limiter",
@@ -643,7 +709,7 @@
       "slug": "SphereToXYZ",
       "name": "Sphere To XYZ",
       "description": "Convert spherical coordinates r,theta, phi to cartesian coordinates x, y, z",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#sphere-to-xyz",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Modulation.md#sphere-to-xyz",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -653,7 +719,38 @@
       "slug": "Split4x2",
       "name": "Split 4x2",
       "description": "Compact and versatile polyphonic split utility",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#multi-merge",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#split-4x2",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SpreadMerge",
+      "name": "Spread Merge",
+      "description": "Spread each monophonic gate/CV pair across multiple polyphonic channels and merge all into a single poly output",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#spread-merge",
+      "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SpreadMergeExpander",
+      "name": "Spread Merge Expander",
+      "description": "Add another CV channel to Spread Merge",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#spread-merge-expander",
+      "tags": [
+        "Expander",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "StereoMergeSplit",
+      "name": "Stereo Merge Split",
+      "description": "Compact and versatile polyphonic merge and split utility for stereo signals",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PolyphonyManagement.md#stereo-merge-split",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -663,7 +760,7 @@
       "slug": "Thru",
       "name": "Thru",
       "description": "5 polyphonic input/output pairs suitable for stacked input unity mixes and/or introduction of sample delays",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#thru",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PatchManagement.md#thru",
       "tags": [
         "Delay",
         "Mixer",
@@ -675,7 +772,7 @@
       "slug": "VCAMix4",
       "name": "VCA Mix 4",
       "description": "Compact audio or CV VCA, mixer, attenuator, inverter, amplifier, and/or offset",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#vca-mix-4",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#vca-mix-4",
       "tags": [
         "Attenuator",
         "Mixer",
@@ -689,7 +786,7 @@
       "slug": "VCAMix4Stereo",
       "name": "VCA Mix 4 Stereo",
       "description": "Stereo compact audio or CV VCA, mixer, attenuator, inverter, amplifier, and/or offset",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#vca-mix-4-stereo",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Mixers.md#vca-mix-4-stereo",
       "tags": [
         "Attenuator",
         "Mixer",
@@ -703,7 +800,7 @@
       "slug": "Oscillator",
       "name": "VCO Lab",
       "description": "Audio or low frequency oscillator with 4 simultaneous waveforms, mixing, linear/exponential FM, phase modulation, hard/soft sync, PWM, and more",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#vco-lab",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Oscillators.md#vco-lab",
       "tags": [
         "Function generator",
         "Low-frequency oscillator",
@@ -715,7 +812,7 @@
       "slug": "VCOUnit",
       "name": "VCO Unit",
       "description": "A smaller version of VCO Lab with only one selectable waveform at a time, and no mixing capabilities",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#vco-lab",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Oscillators.md#vco-unit",
       "tags": [
         "Function generator",
         "Low-frequency oscillator",
@@ -727,7 +824,7 @@
       "slug": "VenomBlank",
       "name": "Venom Blank",
       "description": "A 3hp blank with standard Venom themes",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#venom-blank",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PatchManagement.md#venom-blank",
       "tags": [
         "Blank"
       ]
@@ -736,7 +833,7 @@
       "slug": "WaveFolder",
       "name": "Wave Folder",
       "description": "A polyphonic configurable wave folder",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#wave-folder",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Modulation.md#wave-folder",
       "tags": [
         "Polyphonic",
         "Ring modulator",
@@ -748,7 +845,7 @@
       "slug": "WaveMangler",
       "name": "Wave Mangler",
       "description": "A polyphonic distortion / waveshaper inspired by the Doepfer A-136 module",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#wave-mangler",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Modulation.md#wave-mangler",
       "tags": [
         "Distortion",
         "Polyphonic",
@@ -759,7 +856,7 @@
       "slug": "WaveMultiplier",
       "name": "Wave Multiplier",
       "description": "A polyphonic waveshaper inspired by the Doepfer A-137-2 coupled with integrated LFO modulation",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#wave-multiplier",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Modulation.md#wave-multiplier",
       "tags": [
         "Low-frequency oscillator",
         "Polyphonic",
@@ -772,7 +869,7 @@
       "slug": "WidgetMenuExtender",
       "name": "Widget Menu Extender",
       "description": "Extend context menus to support parameter/port renaming and parameter custom defaults",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#widget-menu-extender",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/PatchManagement.md#widget-menu-extender",
       "tags": [
         "Utility"
       ]
@@ -781,7 +878,7 @@
       "slug": "WinComp",
       "name": "WinComp",
       "description": "Windowed comparator, rectifier, and/or slope detector",
-      "manualURL": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#wincomp",
+      "manualURL": "https://github.com/DaveBenham/VenomModules/blob/main/doc/LogicRandomRouting.md#wincomp",
       "tags": [
         "Distortion",
         "Limiter",
@@ -795,7 +892,7 @@
       "slug": "Compare2",
       "name": "WinComp2 + Logic",
       "description": "Dual windowed comparator with logic outputs inspired by the Joranalogue Compare 2",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#wincomp-2--logic",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/LogicRandomRouting.md#wincomp-2--logic",
       "tags": [
         "Logic",
         "Polyphonic",
@@ -806,7 +903,7 @@
       "slug": "XM_OP",
       "name": "XM-OP",
       "description": "Polyphonic synth voice with selectable waveform, modulation and feedback types (FM, PM, RM, AM), and integer ratios.",
-      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/README.md#xm-op",
+      "manualUrl": "https://github.com/DaveBenham/VenomModules/blob/main/doc/Oscillators.md#xm-op",
       "tags": [
         "Envelope generator",
         "Oscillator",
