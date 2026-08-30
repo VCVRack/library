@@ -1161,3 +1161,6 @@
 [submodule "repos/Keeos"]
 	path = repos/Keeos
 	url = https://github.com/keeos-io/ogham-vcv
+[submodule "repos/Quostate"]
+	path = repos/Quostate
+	url = https://github.com/HiddenSide/Quostate
