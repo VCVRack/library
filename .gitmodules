@@ -1158,3 +1158,6 @@
 [submodule "repos/Aluminium"]
 	path = repos/Aluminium
 	url = https://github.com/neilbgr/Aluminium
+[submodule "repos/Keeos"]
+	path = repos/Keeos
+	url = https://github.com/keeos-io/ogham-vcv
