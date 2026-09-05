@@ -1170,3 +1170,6 @@
 [submodule "repos/FreezerLabs"]
 	path = repos/FreezerLabs
 	url = https://github.com/AndyClotta/Interactive-Rhythm-Composer
+[submodule "repos/halfagiraf"]
+	path = repos/halfagiraf
+	url = https://github.com/stevenmcsorley/halfagiraf-modules
