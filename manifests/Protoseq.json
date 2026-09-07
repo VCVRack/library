@@ -1,0 +1,55 @@
+{
+  "slug": "Protoseq",
+  "name": "Protoseq",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "Protoseq",
+  "author": "David Rodriguez / InfameDavid",
+  "authorUrl": "https://github.com/infamedavid",
+  "pluginUrl": "https://infamedavid.github.io/protoseq_web/",
+  "manualUrl": "https://infamedavid.github.io/protoseq_web/manual/protoseq-rack.html",
+  "modules": [
+    {
+      "slug": "GinasARP",
+      "name": "Gina's ARP",
+      "description": "Register-based generative arpeggiator and sequencer.",
+      "tags": [
+        "Arpeggiator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "ProtoseqBlank",
+      "name": "Protoseq Blank",
+      "description": "Blank decorative faceplate module.",
+      "tags": [
+        "Blank"
+      ]
+    },
+    {
+      "slug": "GinasExpander",
+      "name": "Gina's Expander",
+      "description": "CV expander for Gina's ARP seed and arpeggio length control.",
+      "tags": [
+        "Expander",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "Arc",
+      "name": "ARC",
+      "description": "Clock and arpeggiation controller with gate shaping, ratchet behavior, and a BAR output that fires once per bar/cycle.",
+      "tags": [
+        "Clock generator"
+      ]
+    },
+    {
+      "slug": "STP8",
+      "name": "STP-8",
+      "description": "Compact 8-step cadence and pivot sequencer designed to drive Gina's ARP.",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}

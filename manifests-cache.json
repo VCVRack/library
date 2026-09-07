@@ -18532,5 +18532,26 @@
         "creationTimestamp": 1788752875.057387
       }
     }
+  },
+  "Protoseq": {
+    "buildTimestamp": 1788808375.1854794,
+    "creationTimestamp": 1788808375.2657397,
+    "modules": {
+      "GinasARP": {
+        "creationTimestamp": 1788808375.3124306
+      },
+      "ProtoseqBlank": {
+        "creationTimestamp": 1788808375.3563478
+      },
+      "GinasExpander": {
+        "creationTimestamp": 1788808375.4030871
+      },
+      "Arc": {
+        "creationTimestamp": 1788808375.4514294
+      },
+      "STP8": {
+        "creationTimestamp": 1788808375.5021095
+      }
+    }
   }
 }
