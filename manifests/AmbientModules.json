@@ -1,7 +1,7 @@
 {
   "slug": "AmbientModules",
   "name": "AmbientModules",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "AmbientModules",
   "description": "A small collection of Rack modules inspired by Elta Music's SOLAR 42F ambient drone synthesizer.",
@@ -77,6 +77,36 @@
       "tags": [
         "Sequencer",
         "Clock generator"
+      ]
+    },
+    {
+      "slug": "LunarJoystick",
+      "name": "LunarJoystick",
+      "description": "Dual manual/CV position source (X/Y) with offset knobs and a switchable input range per axis, for use with an external MIDI CC-to-CV controller or as a manual fixed-voltage source",
+      "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md#lunarjoystick",
+      "tags": [
+        "Utility",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "LunarMixer",
+      "name": "LunarMixer",
+      "description": "9-channel panoramic mixer with per-channel level and pan summed to a stereo output",
+      "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md#lunarmixer",
+      "tags": [
+        "Mixer",
+        "Panning"
+      ]
+    },
+    {
+      "slug": "LunarPads",
+      "name": "LunarPads",
+      "description": "6-pad gate source for the drone voices (4 Lunar50Drone, 2 LunarPapaSrapa), momentary or latching, each pad's external gate input lets an external MIDI gate source trigger it alongside the mouse",
+      "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md#lunarpads",
+      "tags": [
+        "Utility",
+        "Switch"
       ]
     }
   ]
