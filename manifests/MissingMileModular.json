@@ -1,0 +1,26 @@
+{
+  "slug": "MissingMileModular",
+  "name": "Missing Mile Modular",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Missing Mile Modular",
+  "author": "Missing Mile Modular",
+  "authorEmail": "kuangmk11@gmail.com",
+  "authorUrl": "https://github.com/kuangmk11",
+  "pluginUrl": "https://github.com/kuangmk11/Doubleplus_Pulses_VCV",
+  "sourceUrl": "https://github.com/kuangmk11/Doubleplus_Pulses_VCV",
+  "modules": [
+    {
+      "slug": "DoubleplusPulses",
+      "name": "Doubleplus Pulses",
+      "description": "Performance gate router for the Music Thing Turing Machine: eight channels, each routed to one of two OR/AND merge buses.",
+      "manualUrl": "https://github.com/kuangmk11/Doubleplus_Pulses_VCV#readme",
+      "tags": [
+        "Logic",
+        "Utility",
+        "Expander",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

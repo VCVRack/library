@@ -1,0 +1,67 @@
+{
+  "slug": "halfagiraf",
+  "name": "halfagiraf Modules",
+  "version": "2.0.2",
+  "license": "GPL-3.0-or-later",
+  "brand": "halfagiraf",
+  "author": "Steven McSorley",
+  "authorEmail": "smcsorl@googlemail.com",
+  "authorUrl": "https://github.com/stevenmcsorley",
+  "pluginUrl": "https://github.com/stevenmcsorley/halfagiraf-modules",
+  "manualUrl": "https://github.com/stevenmcsorley/halfagiraf-modules#readme",
+  "changelogUrl": "https://github.com/stevenmcsorley/halfagiraf-modules/blob/main/CHANGELOG.md",
+  "sourceUrl": "https://github.com/stevenmcsorley/halfagiraf-modules",
+  "minRackVersion": "2.6.6",
+  "description": "Instruments, processors, and modulation sources for exploratory and ambient patching.",
+  "modules": [
+    {
+      "slug": "BadSector",
+      "name": "Bad Sector",
+      "description": "Stereo buffer-corruption and broken-playback processor.",
+      "manualUrl": "https://github.com/stevenmcsorley/halfagiraf-modules/blob/main/docs/BadSector.md",
+      "tags": [
+        "Effect",
+        "Granular"
+      ]
+    },
+    {
+      "slug": "MOD1-RandomCV",
+      "name": "MOD1",
+      "description": "Three independently scaled random CV outputs with internal or external clocking and smooth or stepped motion.",
+      "manualUrl": "https://github.com/stevenmcsorley/halfagiraf-modules/blob/main/docs/MOD1.md",
+      "tags": [
+        "Random",
+        "Low-frequency oscillator",
+        "Sample and hold",
+        "Hardware clone"
+      ],
+      "modularGridUrl": "https://modulargrid.net/e/other-unknown-hagiwo-mod1-"
+    },
+    {
+      "slug": "Entwine",
+      "name": "Entwine",
+      "description": "16-voice autoregressive synthesizer with interlaced Pulsar and Quasar streams.",
+      "manualUrl": "https://github.com/stevenmcsorley/halfagiraf-modules/blob/main/docs/Entwine.md",
+      "tags": [
+        "Polyphonic",
+        "Oscillator",
+        "Synth voice",
+        "Random",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Constellate",
+      "name": "Constellate",
+      "description": "Four-channel relational event memory and generative trigger processor with transition-confidence CV.",
+      "manualUrl": "https://github.com/stevenmcsorley/halfagiraf-modules/blob/main/docs/Constellate.md",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Clock",
+        "Utility",
+        "Visual"
+      ]
+    }
+  ]
+}

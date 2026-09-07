@@ -1,7 +1,7 @@
 {
   "slug": "akaudio",
   "name": "AK Audio",
-  "version": "2.0.7",
+  "version": "2.0.9",
   "license": "GPL-3.0-or-later",
   "brand": "AK Audio",
   "author": "Andrei Kozlov",
@@ -14,12 +14,33 @@
   "changelogUrl": "https://github.com/akaudio-dev/akaudio/blob/main/CHANGELOG.md",
   "modules": [
     {
+      "slug": "Looper",
+      "name": "Looper",
+      "description": "8x8 looper on the NINJAM jam clock (Ninjam expander): beat-quantized capture/launch/stop, free-running clips of any whole-beat length (tempo changes never touch committed audio), scenes, follow actions, auto-advance chains, overdub; takes persist on disk and in the patch. Beta: young and complex - expect occasional bugs.",
+      "tags": [
+        "Sampler",
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/akaudio-dev/akaudio/blob/main/docs/MANUAL.md#looper"
+    },
+    {
       "slug": "Ninjam",
       "name": "Ninjam",
       "description": "NINJAM jam client: listen to a room's public Icecast/HTTP stream, or join the protocol to decode the live multi-user mix and transmit your own audio.",
       "tags": [
         "External"
-      ]
+      ],
+      "manualUrl": "https://github.com/akaudio-dev/akaudio/blob/main/docs/MANUAL.md#ninjam"
+    },
+    {
+      "slug": "Recorder",
+      "name": "Recorder",
+      "description": "Ninjam companion: archives the jam to disk as raw per-player OGG intervals + index (no re-encode) and auto-exports the whole session as an Ableton Live set (Standard or Lite flavor). Beta: young and complex - expect occasional bugs.",
+      "tags": [
+        "Recording",
+        "External"
+      ],
+      "manualUrl": "https://github.com/akaudio-dev/akaudio/blob/main/docs/MANUAL.md#recorder"
     },
     {
       "slug": "Radio",
@@ -27,7 +48,8 @@
       "description": "Streaming internet radio source (Icecast/HTTP) feeding audio into a patch.",
       "tags": [
         "External"
-      ]
+      ],
+      "manualUrl": "https://github.com/akaudio-dev/akaudio/blob/main/docs/MANUAL.md#radio"
     }
   ]
 }

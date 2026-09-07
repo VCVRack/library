@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "license": "GPL-3.0-or-later",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -15,12 +15,24 @@
   "minRackVersion": "2.6.1",
   "modules": [
     {
+      "slug": "SpliceKit",
+      "name": "SPLICE-KIT",
+      "description": "8x8 matrix patch-bay for creating and removing cables by pressing button pairs.\nStores up to eight independent scenes per instance, with full MIDI control and feedback for playing your patch from a grid controller.",
+      "tags": [
+        "MIDI",
+        "Controller",
+        "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/midi/SpliceKit.md"
+    },
+    {
       "slug": "Siren",
       "name": "SIREN",
       "description": "Sample browser collaboration with Omri Cohen \u2014 browse, preview and drag WAV/FLAC/MP3 samples to other modules.\nStreams audio directly from disk with no full-file loading, making it practical for large sample libraries and long recordings. Also does repitching and creates endless loops.",
       "tags": [
         "Utility"
-      ]
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/siren/Siren.md"
     },
     {
       "slug": "MidiEsx",

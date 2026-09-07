@@ -1,7 +1,7 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.18.1",
+  "version": "2.19.1",
   "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
@@ -17,7 +17,7 @@
     {
       "slug": "Drift",
       "name": "Drift",
-      "description": "Phase shifted LFO with offset, attenuation and stability controls",
+      "description": "Phase-shifted LFO with offset, attenuation and stability controls.",
       "manualUrl": "https://signalfunctionset.com/projects/drift/",
       "tags": [
         "Low-frequency oscillator",
@@ -39,7 +39,7 @@
     {
       "slug": "Fugue",
       "name": "Fugue",
-      "description": "8-step harmonic deviation sequencer with three independent CV/gate voices",
+      "description": "8-step harmonic deviation sequencer with three independent CV/gate voices.",
       "manualUrl": "https://signalfunctionset.com/projects/fugue/",
       "tags": [
         "Sequencer",
@@ -351,7 +351,7 @@
     {
       "slug": "Crystal",
       "name": "Crystal",
-      "description": "A 3D echo chamber shaped like a real crystal habit, with four listeners as quad outs.",
+      "description": "3D echo chamber shaped like a real crystal habit, with four listeners as quad outs.",
       "tags": [
         "Reverb",
         "Delay",
@@ -398,8 +398,7 @@
         "Expander",
         "Oscillator",
         "Polyphonic"
-      ],
-      "hidden": true
+      ]
     },
     {
       "slug": "SlideX",
@@ -413,7 +412,7 @@
     {
       "slug": "Slice",
       "name": "Slice",
-      "description": "Cuts a stereo stream onto a grid and reworks each piece: cut, reverse, stutter, pitch.",
+      "description": "Cuts a stereo stream onto a grid, then reverses, stutters or pitches each piece.",
       "tags": [
         "Effect",
         "Sampler",
@@ -429,8 +428,48 @@
         "Physical modeling",
         "Drum",
         "Synth voice"
-      ],
-      "hidden": true
+      ]
+    },
+    {
+      "slug": "Trace",
+      "name": "Trace",
+      "description": "A paper loop and four brushes: draw four CVs, or let the patch draw them.",
+      "tags": [
+        "Controller",
+        "Low-frequency oscillator",
+        "Sequencer",
+        "Sample and hold",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Sigma",
+      "name": "Sigma",
+      "description": "Additive voice: up to 64 sine partials, with velocity morphing between two spectra.",
+      "tags": [
+        "Oscillator",
+        "Polyphonic",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "Touch",
+      "name": "Touch",
+      "description": "Articulates a melody line: notes are picked, slid into, hammered or pedalled.",
+      "tags": [
+        "Sequencer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Wheel",
+      "name": "Wheel",
+      "description": "Hurdy-gurdy drone instrument: one wheel bows six strings, and the dog keeps time.",
+      "tags": [
+        "Oscillator",
+        "Polyphonic",
+        "Synth voice"
+      ]
     }
   ]
 }

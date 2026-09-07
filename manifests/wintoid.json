@@ -1,7 +1,7 @@
 {
   "slug": "wintoid",
   "name": "wintoid",
-  "version": "2.2.1",
+  "version": "2.3.1",
   "license": "MIT",
   "brand": "wintoid",
   "author": "wintoid",
@@ -14,6 +14,7 @@
     {
       "slug": "FourMM",
       "name": "Four",
+      "hidden": true,
       "description": "16-channel polyphonic 4-operator FM/PM synthesizer with waveshaping, wavefolding, and feedback",
       "manualUrl": "https://github.com/wintocode/wintoid-vcv#four",
       "tags": [
@@ -24,8 +25,21 @@
       ]
     },
     {
+      "slug": "FourV2",
+      "name": "FourV2",
+      "description": "16-channel polyphonic 4-operator phase-modulation synthesizer with fixed routing display, waveshaping, wavefolding, and feedback",
+      "manualUrl": "https://github.com/wintocode/wintoid-vcv#fourv2",
+      "tags": [
+        "Oscillator",
+        "Digital",
+        "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "VortexMM",
       "name": "Vortex",
+      "hidden": true,
       "description": "16-channel polyphonic 12-mode multi-mode filter with drive and CV control. Filter DSP by Yuriy Ivantsov (ivantsov-filters)",
       "manualUrl": "https://github.com/wintocode/wintoid-vcv#vortex",
       "tags": [
@@ -35,10 +49,33 @@
       ]
     },
     {
+      "slug": "VortexV2",
+      "name": "VortexV2",
+      "description": "16-channel polyphonic 12-output multi-mode filter with drive and CV control",
+      "manualUrl": "https://github.com/wintocode/wintoid-vcv#vortexv2",
+      "tags": [
+        "Filter",
+        "Effect",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "Brink",
       "name": "Brink",
+      "hidden": true,
       "description": "Polyphonic dual-window utility with bipolar position, directional boundary events, and shared logic",
       "manualUrl": "https://github.com/wintocode/wintoid-vcv#brink",
+      "tags": [
+        "Logic",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "BrinkV2",
+      "name": "BrinkV2",
+      "description": "16-channel polyphonic dual-window utility with bipolar position, directional boundary events, and shared logic",
+      "manualUrl": "https://github.com/wintocode/wintoid-vcv#brinkv2",
       "tags": [
         "Logic",
         "Polyphonic",

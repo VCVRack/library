@@ -1,0 +1,29 @@
+{
+  "slug": "FreezerLabs",
+  "name": "Freezer Labs",
+  "version": "2.0.0",
+  "rackVersion": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Freezer Labs",
+  "author": "AndyClotta",
+  "authorEmail": "djandino@hotmail.com",
+  "authorUrl": "https://github.com/AndyClotta",
+  "pluginUrl": "https://github.com/AndyClotta/Interactive-Rhythm-Composer",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/AndyClotta/Interactive-Rhythm-Composer",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "InteractiveRhythmComposer",
+      "name": "Interactive Rhythm Composer",
+      "description": "6 row drum sequencer with per-row rush/drag controls",
+      "tags": [
+        "Clock modulator",
+        "Sequencer",
+        "Drum"
+      ],
+      "hidden": false
+    }
+  ]
+}
