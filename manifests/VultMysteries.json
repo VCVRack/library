@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/mysteries/",
   "authorUrl": "https://www.vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "modules": [
     {
       "slug": "Anima",
@@ -19,7 +19,8 @@
         "Hardware clone"
       ],
       "description": "Psychic Sequence Generator",
-      "modularGridUrl": "https://modulargrid.net/e/vult-anima"
+      "modularGridUrl": "https://modulargrid.net/e/vult-anima",
+      "manualUrl": "https://modlfo.github.io/VultModules/anima/"
     },
     {
       "slug": "Lapsus",
@@ -27,7 +28,8 @@
       "tags": [
         "Sequencer"
       ],
-      "description": "Non-Euclidean Rhythm Generator"
+      "description": "Non-Euclidean Rhythm Generator",
+      "manualUrl": "https://modlfo.github.io/VultModules/lapsus/"
     },
     {
       "slug": "Quincunx",
@@ -35,7 +37,8 @@
       "tags": [
         "Random"
       ],
-      "description": "Probability Machine"
+      "description": "Probability Machine",
+      "manualUrl": "https://modlfo.github.io/VultModules/quincunx/"
     },
     {
       "slug": "Dopamine",
@@ -44,7 +47,8 @@
         "Sequencer",
         "Random"
       ],
-      "description": "Neural Tape"
+      "description": "Neural Tape",
+      "manualUrl": "https://modlfo.github.io/VultModules/dopamine/"
     },
     {
       "slug": "Feigen",
@@ -54,7 +58,8 @@
         "Hardware clone"
       ],
       "description": "Bifurcations Generator",
-      "modularGridUrl": "https://modulargrid.net/e/vult-feigen"
+      "modularGridUrl": "https://modulargrid.net/e/vult-feigen",
+      "manualUrl": "https://modlfo.github.io/VultModules/feigen/"
     }
   ]
 }

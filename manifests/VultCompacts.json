@@ -8,17 +8,19 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/compacts/",
   "authorUrl": "https://www.vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "modules": [
     {
       "slug": "Caudal-HW",
       "name": "Caudal-HW",
       "tags": [
         "Random",
+        "LFO",
         "Hardware clone"
       ],
       "description": "Mechanical Chaos Source",
-      "modularGridUrl": "https://modulargrid.net/e/vult-caudal-"
+      "modularGridUrl": "https://modulargrid.net/e/vult-caudal-",
+      "manualUrl": "https://modlfo.github.io/VultModules/caudal-hw/"
     },
     {
       "slug": "Freak",
@@ -29,7 +31,8 @@
         "Hardware clone"
       ],
       "description": "Manifold Filter",
-      "modularGridUrl": "https://www.modulargrid.net/e/vult-freak"
+      "modularGridUrl": "https://www.modulargrid.net/e/vult-freak",
+      "manualUrl": "https://modlfo.github.io/VultModules/freak/"
     },
     {
       "slug": "Freak-HW",
@@ -39,7 +42,8 @@
         "Hardware clone"
       ],
       "description": "Manifold Filter",
-      "modularGridUrl": "https://www.modulargrid.net/e/vult-freak"
+      "modularGridUrl": "https://www.modulargrid.net/e/vult-freak",
+      "manualUrl": "https://modlfo.github.io/VultModules/freak-hw/"
     },
     {
       "slug": "Incubus",
@@ -48,7 +52,8 @@
         "Synth Voice",
         "Polyphonic"
       ],
-      "description": "Nightmare Synthesizer"
+      "description": "Nightmare Synthesizer",
+      "manualUrl": "https://modlfo.github.io/VultModules/incubus/"
     },
     {
       "slug": "Knock",
@@ -57,7 +62,8 @@
         "Drum",
         "Polyphonic"
       ],
-      "description": "Bass Drum"
+      "description": "Bass Drum",
+      "manualUrl": "https://modlfo.github.io/VultModules/knock/"
     },
     {
       "slug": "Vorg",
@@ -68,7 +74,8 @@
         "Hardware clone"
       ],
       "description": "Low/High Pass Filter",
-      "modularGridUrl": "https://www.modulargrid.net/e/vult-vorg"
+      "modularGridUrl": "https://www.modulargrid.net/e/vult-vorg",
+      "manualUrl": "https://modlfo.github.io/VultModules/vorg/"
     },
     {
       "slug": "Vraids",
@@ -78,7 +85,8 @@
         "Hardware clone"
       ],
       "description": "Macro Oscillator",
-      "modularGridUrl": "https://modulargrid.net/e/vult-vraids"
+      "modularGridUrl": "https://modulargrid.net/e/vult-vraids",
+      "manualUrl": "https://modlfo.github.io/VultModules/vraids/"
     }
   ]
 }

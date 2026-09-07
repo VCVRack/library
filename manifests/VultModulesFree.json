@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/",
   "authorUrl": "https://www.vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "modules": [
     {
       "slug": "Basal",
@@ -17,7 +17,8 @@
         "VCO",
         "Polyphonic"
       ],
-      "description": "Smooth Oscillator"
+      "description": "Smooth Oscillator",
+      "manualUrl": "https://modlfo.github.io/VultModules/basal/"
     },
     {
       "slug": "Bleak",
@@ -26,7 +27,8 @@
         "VCO",
         "Polyphonic"
       ],
-      "description": "Analog Oscillator"
+      "description": "Analog Oscillator",
+      "manualUrl": "https://modlfo.github.io/VultModules/bleak/"
     },
     {
       "slug": "Boomstick",
@@ -35,7 +37,8 @@
         "VCF",
         "Polyphonic"
       ],
-      "description": "Sallen-Key filter"
+      "description": "Sallen-Key Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/boomstick/"
     },
     {
       "slug": "Caudal",
@@ -46,7 +49,8 @@
         "Noise",
         "Polyphonic"
       ],
-      "description": "Mechanical Chaos Source"
+      "description": "Mechanical Chaos Source",
+      "manualUrl": "https://modlfo.github.io/VultModules/caudal/"
     },
     {
       "slug": "Debriatus",
@@ -57,7 +61,8 @@
         "Effect",
         "Polyphonic"
       ],
-      "description": "Wave Destruction"
+      "description": "Wave Destruction",
+      "manualUrl": "https://modlfo.github.io/VultModules/debriatus/"
     },
     {
       "slug": "Decline",
@@ -66,7 +71,8 @@
         "Equalizer",
         "Polyphonic"
       ],
-      "description": "Equalizer Line"
+      "description": "Equalizer Line",
+      "manualUrl": "https://modlfo.github.io/VultModules/decline/"
     },
     {
       "slug": "Disjoint",
@@ -76,7 +82,8 @@
         "VCF",
         "Polyphonic"
       ],
-      "description": "DJ Style Filter"
+      "description": "DJ Style Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/disjoint/"
     },
     {
       "slug": "Fuser",
@@ -86,7 +93,8 @@
         "Polyphonic"
       ],
       "description": "Voltage Mixer",
-      "modularGridUrl": "https://modulargrid.net/e/vult-fuser"
+      "modularGridUrl": "https://modulargrid.net/e/vult-fuser",
+      "manualUrl": "https://modlfo.github.io/VultModules/fuser/"
     },
     {
       "slug": "Flux",
@@ -100,7 +108,8 @@
         "Utility",
         "Polyphonic"
       ],
-      "description": "Quad Voltage Processor"
+      "description": "Quad Voltage Processor",
+      "manualUrl": "https://modlfo.github.io/VultModules/flux/"
     },
     {
       "slug": "Jorus",
@@ -110,7 +119,8 @@
         "Chorus",
         "Polyphonic"
       ],
-      "description": "Analog Chorus"
+      "description": "Analog Chorus",
+      "manualUrl": "https://modlfo.github.io/VultModules/jorus/"
     },
     {
       "slug": "Julste",
@@ -119,7 +129,8 @@
         "Low pass gate",
         "Polyphonic"
       ],
-      "description": "Simple Low Pass Gate"
+      "description": "Simple Low Pass Gate",
+      "manualUrl": "https://modlfo.github.io/VultModules/julste/"
     },
     {
       "slug": "Lateralus",
@@ -128,7 +139,8 @@
         "VCF",
         "Polyphonic"
       ],
-      "description": "Diode Ladder Filter"
+      "description": "Diode Ladder Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/lateralus/"
     },
     {
       "slug": "Leakage",
@@ -143,7 +155,8 @@
         "Noise",
         "Polyphonic"
       ],
-      "description": "Voltage Processor"
+      "description": "Voltage Processor",
+      "manualUrl": "https://modlfo.github.io/VultModules/leakage/"
     },
     {
       "slug": "Nopskate",
@@ -153,7 +166,8 @@
         "Effect",
         "Polyphonic"
       ],
-      "description": "Flip-Flop Octaver"
+      "description": "Flip-Flop Octaver",
+      "manualUrl": "https://modlfo.github.io/VultModules/nopskate/"
     },
     {
       "slug": "Nitrous",
@@ -162,25 +176,28 @@
         "VCF",
         "Polyphonic"
       ],
-      "description": "Acid Filter"
+      "description": "Acid Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/nitrous/"
     },
     {
       "slug": "Opulus",
       "name": "Opulus",
       "tags": [
-        "Synth voice",
+        "Synth Voice",
         "Polyphonic"
       ],
-      "description": "Retro FM Operator"
+      "description": "Retro FM Operator",
+      "manualUrl": "https://modlfo.github.io/VultModules/opulus/"
     },
     {
       "slug": "OpulusMicro",
-      "name": "OpulusMicro",
+      "name": "Opulus Micro",
       "tags": [
-        "Synth voice",
+        "Synth Voice",
         "Polyphonic"
       ],
-      "description": "Accidental FM Operator"
+      "description": "Accidental FM Operator",
+      "manualUrl": "https://modlfo.github.io/VultModules/opulusmicro/"
     },
     {
       "slug": "Punch",
@@ -189,7 +206,8 @@
         "VCA",
         "Polyphonic"
       ],
-      "description": "Voltage Controlled Amplifier"
+      "description": "Voltage Controlled Amplifier",
+      "manualUrl": "https://modlfo.github.io/VultModules/punch/"
     },
     {
       "slug": "Rescomb",
@@ -199,7 +217,8 @@
         "Effect",
         "Polyphonic"
       ],
-      "description": "Resonant Comb Filter"
+      "description": "Resonant Comb Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/rescomb/"
     },
     {
       "slug": "Slap",
@@ -209,7 +228,8 @@
         "VCA",
         "Polyphonic"
       ],
-      "description": "Hitting Envelope"
+      "description": "Hitting Envelope",
+      "manualUrl": "https://modlfo.github.io/VultModules/slap/"
     },
     {
       "slug": "Spank",
@@ -219,7 +239,8 @@
         "VCA",
         "Polyphonic"
       ],
-      "description": "Drum Envelope"
+      "description": "Drum Envelope",
+      "manualUrl": "https://modlfo.github.io/VultModules/spank/"
     },
     {
       "slug": "Splie",
@@ -229,7 +250,8 @@
         "Utility",
         "Polyphonic"
       ],
-      "description": "Active Buffer"
+      "description": "Active Buffer",
+      "manualUrl": "https://modlfo.github.io/VultModules/splie/"
     },
     {
       "slug": "Stabile",
@@ -238,7 +260,8 @@
         "VCF",
         "Polyphonic"
       ],
-      "description": "State Variable Filter"
+      "description": "State Variable Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/stabile/"
     },
     {
       "slug": "Tangents",
@@ -247,7 +270,8 @@
         "VCF",
         "Polyphonic"
       ],
-      "description": "Steiner-Parker Filter"
+      "description": "Steiner-Parker Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/tangents/"
     },
     {
       "slug": "Tohe",
@@ -257,7 +281,8 @@
         "Equalizer",
         "Polyphonic"
       ],
-      "description": "Tone Control"
+      "description": "Tone Control",
+      "manualUrl": "https://modlfo.github.io/VultModules/tohe/"
     },
     {
       "slug": "Trummor",
@@ -268,7 +293,8 @@
         "Noise",
         "Polyphonic"
       ],
-      "description": "Drum Synthesizer"
+      "description": "Drum Synthesizer",
+      "manualUrl": "https://modlfo.github.io/VultModules/trummor/"
     },
     {
       "slug": "Trummor2",
@@ -279,7 +305,8 @@
         "Noise",
         "Polyphonic"
       ],
-      "description": "Percussion Synthesizer"
+      "description": "Percussion Synthesizer",
+      "manualUrl": "https://modlfo.github.io/VultModules/trummor2/"
     },
     {
       "slug": "TrummorFM",
@@ -289,7 +316,8 @@
         "Synth Voice",
         "Polyphonic"
       ],
-      "description": "Percussion Synthesizer"
+      "description": "Percussion Synthesizer",
+      "manualUrl": "https://modlfo.github.io/VultModules/trummorfm/"
     },
     {
       "slug": "Unstabile",
@@ -298,7 +326,8 @@
         "VCF",
         "Polyphonic"
       ],
-      "description": "Bent State Variable Filter"
+      "description": "Bent State Variable Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/unstabile/"
     },
     {
       "slug": "Vessek",
@@ -307,7 +336,8 @@
         "VCO",
         "Polyphonic"
       ],
-      "description": "Complex Analog Oscillator"
+      "description": "Complex Analog Oscillator",
+      "manualUrl": "https://modlfo.github.io/VultModules/vessek/"
     },
     {
       "slug": "Vultari",
@@ -316,7 +346,8 @@
         "VCO",
         "Polyphonic"
       ],
-      "description": "Punk Console"
+      "description": "Punk Console",
+      "manualUrl": "https://modlfo.github.io/VultModules/vultari/"
     },
     {
       "slug": "Wolv",
@@ -326,7 +357,8 @@
         "Polyphonic"
       ],
       "description": "Waveshaper",
-      "modularGridUrl": "https://modulargrid.net/e/vult-wolv"
+      "modularGridUrl": "https://modulargrid.net/e/vult-wolv",
+      "manualUrl": "https://modlfo.github.io/VultModules/wolv/"
     },
     {
       "slug": "BlackPanelSmall",
@@ -334,7 +366,8 @@
       "tags": [
         "Blank"
       ],
-      "description": "Blank: 3 HP"
+      "description": "Blank: 3 HP",
+      "manualUrl": "https://modlfo.github.io/VultModules/panels/"
     },
     {
       "slug": "BlackPanel",
@@ -342,7 +375,8 @@
       "tags": [
         "Blank"
       ],
-      "description": "Blank: 6 HP"
+      "description": "Blank: 6 HP",
+      "manualUrl": "https://modlfo.github.io/VultModules/panels/"
     },
     {
       "slug": "BlackPanelBig",
@@ -350,7 +384,8 @@
       "tags": [
         "Blank"
       ],
-      "description": "Blank: 12 HP"
+      "description": "Blank: 12 HP",
+      "manualUrl": "https://modlfo.github.io/VultModules/panels/"
     },
     {
       "slug": "UtilBypass",
@@ -359,7 +394,8 @@
         "Utility",
         "Polyphonic"
       ],
-      "description": "Stereo Channel Effect Bypass"
+      "description": "Stereo Channel Effect Bypass",
+      "manualUrl": "https://modlfo.github.io/VultModules/bypass/"
     },
     {
       "slug": "UtilKnobs",
@@ -371,7 +407,8 @@
         "Dual",
         "Polyphonic"
       ],
-      "description": "Modulation Mixer and Macro Control"
+      "description": "Modulation Mixer and Macro Control",
+      "manualUrl": "https://modlfo.github.io/VultModules/knobs/"
     },
     {
       "slug": "UtilSend",
@@ -380,7 +417,8 @@
         "Utility",
         "Polyphonic"
       ],
-      "description": "Stereo Channel Send/Return"
+      "description": "Stereo Channel Send/Return",
+      "manualUrl": "https://modlfo.github.io/VultModules/send/"
     },
     {
       "slug": "Stress",
@@ -388,7 +426,28 @@
       "tags": [
         "Utility"
       ],
-      "description": "Test signal generator"
+      "description": "Test Signal Generator",
+      "manualUrl": "https://modlfo.github.io/VultModules/stress/"
+    },
+    {
+      "slug": "Overon",
+      "name": "Overon",
+      "tags": [
+        "Synth Voice",
+        "Polyphonic"
+      ],
+      "description": "Dual Oscillator Synthesizer Voice",
+      "manualUrl": "https://modlfo.github.io/VultModules/overon/"
+    },
+    {
+      "slug": "Arp46and2",
+      "name": "Arp 46&2",
+      "tags": [
+        "VCF",
+        "Polyphonic"
+      ],
+      "description": "Ladder Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/arp46and2/"
     }
   ]
 }

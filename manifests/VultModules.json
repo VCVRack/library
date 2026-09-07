@@ -8,7 +8,7 @@
   "pluginUrl": "https://modlfo.github.io/VultModules/premium/",
   "authorUrl": "https://www.vult-dsp.com",
   "manualUrl": "https://modlfo.github.io/VultModules",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "modules": [
     {
       "slug": "Flame",
@@ -19,7 +19,8 @@
         "Effect",
         "Polyphonic"
       ],
-      "description": "Analog Distortion"
+      "description": "Analog Distortion",
+      "manualUrl": "https://modlfo.github.io/VultModules/flame/"
     },
     {
       "slug": "Ferox",
@@ -28,7 +29,8 @@
         "VCF",
         "Polyphonic"
       ],
-      "description": "CMOS Filter"
+      "description": "CMOS Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/ferox/"
     },
     {
       "slug": "HyperPower",
@@ -36,7 +38,8 @@
       "tags": [
         "Utility"
       ],
-      "description": "Infinite Power Supply"
+      "description": "Infinite Power Supply",
+      "manualUrl": "https://modlfo.github.io/VultModules/hyperpower/"
     },
     {
       "slug": "Noxious",
@@ -46,17 +49,19 @@
         "LFO",
         "Polyphonic"
       ],
-      "description": "Pure Distortion Oscillator"
+      "description": "Pure Distortion Oscillator",
+      "manualUrl": "https://modlfo.github.io/VultModules/noxious/"
     },
     {
       "slug": "Noxious-Poly",
-      "name": "Noxious-Poly",
+      "name": "Noxious Poly",
       "tags": [
         "VCO",
         "LFO",
         "Polyphonic"
       ],
-      "description": "Polyphonic Noxious"
+      "description": "Polyphonic Noxious",
+      "manualUrl": "https://modlfo.github.io/VultModules/noxious/"
     },
     {
       "slug": "Nurage",
@@ -67,7 +72,8 @@
         "VCA",
         "Polyphonic"
       ],
-      "description": "Dual Low Pass Gate/Filter"
+      "description": "Dual Low Pass Gate/Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/nurage/"
     },
     {
       "slug": "Rescomb2",
@@ -78,7 +84,8 @@
         "Physical modeling",
         "Polyphonic"
       ],
-      "description": "Resonant Comb Filter"
+      "description": "Resonant Comb Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/rescomb2/"
     },
     {
       "slug": "Vortex",
@@ -87,7 +94,18 @@
         "VCF",
         "Polyphonic"
       ],
-      "description": "Russian Filter"
+      "description": "Russian Filter",
+      "manualUrl": "https://modlfo.github.io/VultModules/vortex/"
+    },
+    {
+      "slug": "Overon2V",
+      "name": "Overon 2V",
+      "tags": [
+        "Synth Voice",
+        "Polyphonic"
+      ],
+      "description": "Bi-Timbral Synthesizer",
+      "manualUrl": "https://modlfo.github.io/VultModules/overon2v/"
     }
   ]
 }
