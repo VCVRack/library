@@ -1,7 +1,7 @@
 {
   "slug": "wintoid",
   "name": "wintoid",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "license": "MIT",
   "brand": "wintoid",
   "author": "wintoid",
@@ -51,7 +51,7 @@
     {
       "slug": "VortexV2",
       "name": "VortexV2",
-      "description": "16-channel polyphonic 12-output multi-mode filter with drive and CV control",
+      "description": "16-channel polyphonic 12-output multi-mode filter with logarithmic cutoff, V/Oct tracking, drive and CV control",
       "manualUrl": "https://github.com/wintocode/wintoid-vcv#vortexv2",
       "tags": [
         "Filter",
