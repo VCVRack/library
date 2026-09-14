@@ -1,0 +1,42 @@
+{
+  "slug": "TeiaSynthesizers",
+  "name": "Teia Synthesizers",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Teia Synthesizers",
+  "author": "Ruben da Costa",
+  "authorEmail": "info@teiasynthesizers.com",
+  "authorUrl": "https://teiasynthesizers.com/",
+  "pluginUrl": "https://teiasynthesizers.com/",
+  "manualUrl": "https://teiasynthesizers.com/",
+  "modules": [
+    {
+      "slug": "DriftLog",
+      "name": "DriftLog",
+      "description": "Dual random CV generator with slope shaping, per-channel loop buffers, lock and logic outputs. Software port of the Teia Synthesizers DriftLog Eurorack module.",
+      "manualUrl": "https://teiasynthesizers.com/",
+      "tags": [
+        "Random",
+        "Sample and hold",
+        "Sequencer",
+        "Low-frequency oscillator",
+        "Dual",
+        "Clock modulator",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "vcATeam",
+      "name": "vcATeam",
+      "description": "Dual velocity VCA. Each channel is a main VCA with offset, attenuverted CV and a linear/exponential response switch, feeding a linear velocity VCA whose input is normalled to 5 V. Both channels are summed to a mix output. Software port of the Teia Synthesizers vcATeam Eurorack module.",
+      "manualUrl": "https://teiasynthesizers.com/",
+      "tags": [
+        "VCA",
+        "Dual",
+        "Polyphonic",
+        "Mixer",
+        "Hardware clone"
+      ]
+    }
+  ]
+}
