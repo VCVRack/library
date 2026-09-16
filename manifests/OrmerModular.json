@@ -1,13 +1,13 @@
 {
   "slug": "OrmerModular",
-  "name": "Ormer Modular",
-  "version": "2.0.0",
+  "name": "Shoal",
+  "version": "2.0.2",
   "license": "proprietary",
   "brand": "Ormer Modular",
   "author": "Ormer Modular",
-  "authorEmail": "oliver.mcvey@pm.me",
+  "authorEmail": "support@ormer.dev",
   "authorUrl": "https://github.com/ormermodular",
-  "pluginUrl": "https://ormermodular.github.io/shoal-vcv/",
+  "pluginUrl": "https://ormer.dev/",
   "manualUrl": "https://ormermodular.github.io/shoal-vcv/",
   "sourceUrl": "",
   "donateUrl": "",
@@ -27,7 +27,7 @@
     {
       "slug": "ShoalOuts",
       "name": "Shoal Outs",
-      "description": "16 CV outputs for Shoal: per-track Currents (seeded drift CV) and end-of-sequence pulses. Sits to Shoal's left.",
+      "description": "Per-track Currents (seeded drift CV) and end-of-sequence triggers; sits to Shoal's left.",
       "manualUrl": "https://ormermodular.github.io/shoal-vcv/",
       "tags": [
         "Expander",
@@ -37,7 +37,7 @@
     {
       "slug": "ShoalExpander",
       "name": "Shoal Expander",
-      "description": "12 CV inputs for Shoal parameters otherwise only reachable from its menu, addressed to the track chosen on its own knob. Chain several to modulate several tracks.",
+      "description": "12 CV inputs to modulate any track; chainable; sits to Shoal's right.",
       "manualUrl": "https://ormermodular.github.io/shoal-vcv/",
       "tags": [
         "Expander",
