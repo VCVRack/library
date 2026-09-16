@@ -2614,5 +2614,12 @@
     "vcvUrl": "https://library.vcvrack.com/halfagiraf/MOD1-RandomCV",
     "mgUrl": "https://modulargrid.net/e/other-unknown-hagiwo-mod1-",
     "mgModuleId": 53804
+  },
+  {
+    "pluginSlug": "VAEMI",
+    "moduleSlug": "R2RLadder",
+    "vcvUrl": "https://library.vcvrack.com/VAEMI/R2RLadder",
+    "mgUrl": "https://modulargrid.net/e/vaemi-r2r-ladder",
+    "mgModuleId": 40872
   }
 ]

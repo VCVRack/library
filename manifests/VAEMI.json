@@ -1,0 +1,30 @@
+{
+  "slug": "VAEMI",
+  "name": "VAEMI",
+  "version": "2.1.0",
+  "minRackVersion": "2.6.6",
+  "license": "proprietary",
+  "brand": "VAEMI",
+  "author": "VAEMI",
+  "authorEmail": "vaemisynth@gmail.com",
+  "authorUrl": "https://www.vaemi.net",
+  "pluginUrl": "https://www.vaemi.net",
+  "manualUrl": "https://www.vaemi.net/product-page/r2r-ladder-eurorack-diy-or-assembled",
+  "modules": [
+    {
+      "slug": "R2RLadder",
+      "name": "R2R Ladder",
+      "description": "Bidirectional 8-bit R2R ladder mixer, attenuator, multiple, DAC, and waveshaper",
+      "modularGridUrl": "https://modulargrid.net/e/vaemi-r2r-ladder",
+      "tags": [
+        "Mixer",
+        "Attenuator",
+        "Multiple",
+        "Waveshaper",
+        "Utility",
+        "Polyphonic",
+        "Hardware clone"
+      ]
+    }
+  ]
+}
