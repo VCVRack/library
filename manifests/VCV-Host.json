@@ -1,7 +1,7 @@
 {
   "slug": "VCV-Host",
   "name": "VCV Host",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "license": "https://vcvrack.com/eula",
   "brand": "VCV",
   "author": "VCV",
@@ -14,7 +14,8 @@
     {
       "slug": "Host",
       "name": "Host",
-      "description": "VST instrument plugin host",
+      "description": "VST 2 / VST 3 instrument plugin host",
+      "keywords": "VST2 VST3 plugin",
       "manualUrl": "https://vcvrack.com/Host#Host",
       "tags": [
         "External",
@@ -24,7 +25,8 @@
     {
       "slug": "Host-FX",
       "name": "Host-FX",
-      "description": "VST effect plugin host",
+      "description": "VST 2 / VST 3 effect plugin host",
+      "keywords": "VST2 VST3 plugin",
       "manualUrl": "https://vcvrack.com/Host#Host-FX",
       "tags": [
         "External",
@@ -34,7 +36,8 @@
     {
       "slug": "Host-XL",
       "name": "Host-XL",
-      "description": "Expanded VST instrument/effect plugin host",
+      "description": "VST 2 / VST 3 instrument and effect plugin host with 8 audio inputs and outputs",
+      "keywords": "VST2 VST3 plugin",
       "manualUrl": "https://vcvrack.com/Host#Host-XL",
       "tags": [
         "External",
@@ -44,19 +47,22 @@
     {
       "slug": "Host-CV",
       "name": "Host-CV",
-      "description": "MIDI output expander for all Host modules",
+      "description": "Converts MIDI from a Host module to pitch, gate, velocity, aftertouch, wheel, clock, and transport CV",
       "manualUrl": "https://vcvrack.com/Host#Host-CV",
       "tags": [
+        "Expander",
         "External",
-        "MIDI"
+        "MIDI",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Host-CC",
       "name": "Host-CC",
-      "description": "MIDI CC output expander for all Host modules",
+      "description": "Converts MIDI CC from a Host module to 20 CV outputs",
       "manualUrl": "https://vcvrack.com/Host#Host-CC",
       "tags": [
+        "Expander",
         "External",
         "MIDI"
       ]
@@ -64,9 +70,10 @@
     {
       "slug": "Host-Gate",
       "name": "Host-Gate",
-      "description": "MIDI note gate output expander for all Host modules",
+      "description": "Converts MIDI notes from a Host module to 20 gate outputs",
       "manualUrl": "https://vcvrack.com/Host#Host-Gate",
       "tags": [
+        "Expander",
         "External",
         "MIDI"
       ]
