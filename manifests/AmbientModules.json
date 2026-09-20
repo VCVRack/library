@@ -1,7 +1,7 @@
 {
   "slug": "AmbientModules",
   "name": "AmbientModules",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "AmbientModules",
   "description": "A small collection of Rack modules inspired by Elta Music's SOLAR 42F ambient drone synthesizer.",
@@ -107,6 +107,27 @@
       "tags": [
         "Utility",
         "Switch"
+      ]
+    },
+    {
+      "slug": "LunarDetector",
+      "name": "LunarDetector",
+      "description": "External-source preamp with an Attack/Release envelope follower and a hysteresis gate detector",
+      "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md#lunardetector",
+      "tags": [
+        "Envelope follower",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "LunarFilter",
+      "name": "LunarFilter",
+      "description": "Dual 12dB Polivoks-style multimode (Low-pass/Band-pass) filter with independent per-side CV, Link, a shared distortion stage with CV, and a stereo FX-insert loop (Send/Return, Blend, Master)",
+      "manualUrl": "https://github.com/neilbgr/AmbientModules/blob/main/README.md#lunarfilter",
+      "tags": [
+        "Filter",
+        "Distortion",
+        "Dual"
       ]
     }
   ]
