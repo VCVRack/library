@@ -1,16 +1,16 @@
 {
   "slug": "Astravox",
   "name": "Astravox",
-  "version": "2.0.3",
+  "version": "2.1.1",
   "license": "GPL-3.0-only",
   "brand": "Astravox",
   "author": "Jack Arky",
-  "authorEmail": "jackarky@earthlink.net",
+  "authorEmail": "astravoxdsp@gmail.com",
   "authorUrl": "https://github.com/JackArkyDev",
   "pluginUrl": "https://github.com/JackArkyDev/Astravox",
   "manualUrl": "https://github.com/JackArkyDev/Astravox/blob/main/docs/MANUAL.md",
   "sourceUrl": "https://github.com/JackArkyDev/Astravox",
-  "donateUrl": "https://www.paypal.com/donate/?business=jackarky%40earthlink.net",
+  "donateUrl": "https://www.paypal.com/donate/?hosted_button_id=DX8TG4E6DAA8U",
   "changelogUrl": "https://github.com/JackArkyDev/Astravox/blob/main/CHANGELOG.md",
   "modules": [
     {
@@ -22,7 +22,20 @@
         "Filter",
         "Effect",
         "Oscillator"
-      ]
+      ],
+      "manualUrl": "https://github.com/JackArkyDev/Astravox/blob/main/docs/Vocoder.md"
+    },
+    {
+      "slug": "TapeEcho",
+      "name": "Tape Echo",
+      "description": "Tape echo with stochastic wow/flutter, magnetic hysteresis saturation, and convolution spring reverb \u2014 physical modeling based on a Roland RE-201 Space Echo tape delay unit and other hardware from that era",
+      "tags": [
+        "Delay",
+        "Reverb",
+        "Effect",
+        "Distortion"
+      ],
+      "manualUrl": "https://github.com/JackArkyDev/Astravox/blob/main/docs/TapeEcho.md"
     }
   ]
 }

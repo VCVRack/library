@@ -1,7 +1,7 @@
 {
   "slug": "EternalEclipseModular",
   "name": "Eternal Eclipse Modular",
-  "version": "2.9.2",
+  "version": "2.10.0",
   "license": "GPL-3.0-or-later",
   "pluginUrl": "https://churchoftheeternaleclipse.com/the-mirror/",
   "brand": "Eternal Eclipse",
@@ -9,9 +9,9 @@
   "authorEmail": "themagicianreversedband@gmail.com",
   "authorUrl": "https://churchoftheeternaleclipse.com",
   "donateUrl": "https://www.patreon.com/TheMagicianReversed",
-  "manualUrl": "https://github.com/7337Productions/eternaleclipsemodular#readme",
-  "sourceUrl": "https://github.com/7337Productions/eternaleclipsemodular",
-  "changelogUrl": "https://github.com/7337Productions/eternaleclipsemodular/blob/main/CHANGELOG.md",
+  "manualUrl": "https://github.com/7337-Productions/eternaleclipsemodular#readme",
+  "sourceUrl": "https://github.com/7337-Productions/eternaleclipsemodular",
+  "changelogUrl": "https://github.com/7337-Productions/eternaleclipsemodular/blob/main/CHANGELOG.md",
   "minRackVersion": "2.4.0",
   "modules": [
     {
@@ -89,6 +89,23 @@
       "tags": [
         "Sampler",
         "Granular"
+      ]
+    },
+    {
+      "slug": "Syzygy",
+      "name": "Syzygy",
+      "description": "Orbital note generator \u2014 sixteen beads joined by a line drift around a field at speeds in powers of the golden ratio from a golden-angle sunflower, through five task figures (orbit, Lissajous, rose, star, sweep), with mass physics, wall bounce and mouse throw, an angular trigger arc, a fourteen-scale quantizer, and eight CV/gate pairs allocated Ansible-style; every parameter is a bare \u00b15 V input read once per EPOCH lap, made for Cosmic Clock.",
+      "tags": [
+        "Sequencer",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "EternalEclipse",
+      "name": "Eternal Eclipse",
+      "description": "Resizable blank panel bearing the Eternal Eclipse corona. Drag either edge to set the width from 3 HP upward; the corona scales to fit.",
+      "tags": [
+        "Blank"
       ]
     }
   ]

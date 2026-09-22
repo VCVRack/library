@@ -1,7 +1,7 @@
 {
   "slug": "bmbo",
   "name": "Bmbo",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "MIT",
   "author": "Kamlak Taye",
   "authorEmail": "kamlakbmbo@gmail.com",
@@ -19,6 +19,15 @@
       "tags": [
         "Quantizer",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "btftuner",
+      "name": "BTF Tuner",
+      "description": "Analyzes a 1V/octave CV or a real audio signal against a loaded Bmbo Tuning Format (BTF) tuning and displays the current frequency, nearest degree, and cents deviation. Read-only: never quantizes or modifies the input.",
+      "tags": [
+        "Utility",
+        "Tuner"
       ]
     }
   ]

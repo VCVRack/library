@@ -1,7 +1,7 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.19.1",
+  "version": "2.21.0",
   "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
@@ -431,6 +431,26 @@
       ]
     },
     {
+      "slug": "PolyKitIn",
+      "name": "PolyKit In",
+      "description": "Expander for Kit: every input of every instrument as its own jack, 13 by 8.",
+      "tags": [
+        "Expander",
+        "Drum",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Field",
+      "name": "Field",
+      "description": "Nineteen related random voltages: one smooth random field read at nineteen points.",
+      "tags": [
+        "Random",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
       "slug": "Trace",
       "name": "Trace",
       "description": "A paper loop and four brushes: draw four CVs, or let the patch draw them.",
@@ -459,7 +479,8 @@
       "tags": [
         "Sequencer",
         "Utility"
-      ]
+      ],
+      "hidden": true
     },
     {
       "slug": "Wheel",
@@ -469,6 +490,58 @@
         "Oscillator",
         "Polyphonic",
         "Synth voice"
+      ]
+    },
+    {
+      "slug": "Helix",
+      "name": "Helix",
+      "description": "Barber-pole phaser whose notches climb the harmonic series and never stop.",
+      "tags": [
+        "Effect",
+        "Phaser",
+        "Filter"
+      ],
+      "hidden": true
+    },
+    {
+      "slug": "Brigade",
+      "name": "Brigade",
+      "description": "Bucket brigade whose buckets are frequency bands: content climbs the spectrum.",
+      "tags": [
+        "Effect",
+        "Filter",
+        "Delay"
+      ],
+      "hidden": true
+    },
+    {
+      "slug": "Spool",
+      "name": "Spool",
+      "description": "Four short tapes played by gates; the tape never rewinds when you stop.",
+      "tags": [
+        "Sampler",
+        "Polyphonic",
+        "Recording"
+      ]
+    },
+    {
+      "slug": "Flock",
+      "name": "Flock",
+      "description": "A murmuration as a microtonal granular voice: flocking birds, grains as their calls.",
+      "tags": [
+        "Granular",
+        "Synth voice",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "FlockIn",
+      "name": "Flock In",
+      "description": "Expander for Flock: live audio in, and the birds sing grains of it.",
+      "tags": [
+        "Expander",
+        "Granular",
+        "Sampler"
       ]
     }
   ]

@@ -13551,7 +13551,7 @@
     }
   },
   "Venom": {
-    "buildTimestamp": 1788109041.9723866,
+    "buildTimestamp": 1790069917.6054273,
     "creationTimestamp": 1676260955.1683722,
     "modules": {
       "BernoulliSwitch": {
@@ -13796,6 +13796,9 @@
       },
       "StereoMergeSplit": {
         "creationTimestamp": 1788109680.6041965
+      },
+      "Random": {
+        "creationTimestamp": 1790070045.5539637
       }
     }
   },
@@ -16857,7 +16860,7 @@
     }
   },
   "SignalFunctionSet": {
-    "buildTimestamp": 1788751535.9977744,
+    "buildTimestamp": 1790069214.0734124,
     "creationTimestamp": 1762139014.4446235,
     "modules": {
       "Drift": {
@@ -16985,6 +16988,27 @@
       },
       "Wheel": {
         "creationTimestamp": 1788752873.9612746
+      },
+      "PolyKitIn": {
+        "creationTimestamp": 1790070045.618629
+      },
+      "Field": {
+        "creationTimestamp": 1790070045.6837287
+      },
+      "Helix": {
+        "creationTimestamp": 1790070045.7477322
+      },
+      "Brigade": {
+        "creationTimestamp": 1790070045.8052132
+      },
+      "Spool": {
+        "creationTimestamp": 1790070045.8649266
+      },
+      "Flock": {
+        "creationTimestamp": 1790070045.9391792
+      },
+      "FlockIn": {
+        "creationTimestamp": 1790070046.0066385
       }
     }
   },
@@ -17205,7 +17229,7 @@
     }
   },
   "TwinSlide": {
-    "buildTimestamp": 1772562906.0528123,
+    "buildTimestamp": 1790069257.5031567,
     "creationTimestamp": 1772563210.526219,
     "modules": {
       "TwinSlide": {
@@ -17511,11 +17535,14 @@
     }
   },
   "Astravox": {
-    "buildTimestamp": 1779980253.4337692,
+    "buildTimestamp": 1790067996.101093,
     "creationTimestamp": 1779983500.9983115,
     "modules": {
       "Vocoder": {
         "creationTimestamp": 1779983501.0313263
+      },
+      "TapeEcho": {
+        "creationTimestamp": 1790070045.3023624
       }
     }
   },
@@ -17877,7 +17904,7 @@
     }
   },
   "EternalEclipseModular": {
-    "buildTimestamp": 1787788694.2606018,
+    "buildTimestamp": 1790068169.9159465,
     "creationTimestamp": 1784004116.1196306,
     "modules": {
       "ElementalRevelator": {
@@ -17903,6 +17930,12 @@
       },
       "LitanyEngine": {
         "creationTimestamp": 1787789109.6918175
+      },
+      "Syzygy": {
+        "creationTimestamp": 1790070046.0561674
+      },
+      "EternalEclipse": {
+        "creationTimestamp": 1790070046.1145265
       }
     }
   },
@@ -17925,7 +17958,7 @@
     }
   },
   "akaudio": {
-    "buildTimestamp": 1788752265.150865,
+    "buildTimestamp": 1790070025.7018025,
     "creationTimestamp": 1784557406.5578976,
     "modules": {
       "Ninjam": {
@@ -18126,7 +18159,7 @@
     }
   },
   "InfiniteNoise": {
-    "buildTimestamp": 1787096836.9097989,
+    "buildTimestamp": 1790068927.626765,
     "creationTimestamp": 1786296457.0471988,
     "modules": {
       "SLFO4ss": {
@@ -18359,6 +18392,12 @@
       },
       "ADREnvelope": {
         "creationTimestamp": 1787098584.2395682
+      },
+      "ADSDREnvelope": {
+        "creationTimestamp": 1790070045.3529556
+      },
+      "EnvelopePhaseExpander": {
+        "creationTimestamp": 1790070045.4102018
       }
     }
   },
@@ -18405,16 +18444,19 @@
     }
   },
   "bmbo": {
-    "buildTimestamp": 1787098574.933786,
+    "buildTimestamp": 1790070045.1974206,
     "creationTimestamp": 1787098584.306028,
     "modules": {
       "BTFQuantizer": {
         "creationTimestamp": 1787098584.3613474
+      },
+      "btftuner": {
+        "creationTimestamp": 1790070045.4766135
       }
     }
   },
   "AmbientModules": {
-    "buildTimestamp": 1789928814.9794836,
+    "buildTimestamp": 1790067965.8060498,
     "creationTimestamp": 1787453887.1170645,
     "modules": {
       "Blank": {
@@ -18504,7 +18546,7 @@
     }
   },
   "FreezerLabs": {
-    "buildTimestamp": 1788751279.9773571,
+    "buildTimestamp": 1790068184.7961664,
     "creationTimestamp": 1788752873.1753974,
     "modules": {
       "InteractiveRhythmComposer": {
