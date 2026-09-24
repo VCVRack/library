@@ -1,11 +1,11 @@
 {
   "slug": "GP",
   "name": "GPrackmodules",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "GPaudio",
   "author": "GP",
-  "authorEmail": "gp.rackmodules@web.de",
+  "authorEmail": "GPaudio@proton.me",
   "authorUrl": "",
   "pluginUrl": "https://github.com/GPrackmodules/GPrackmodules",
   "manualUrl": "https://gprackmodules.github.io/GPrackmodules/",
@@ -16,7 +16,7 @@
     {
       "slug": "AB4",
       "name": "AB4",
-      "description": "4 Channel A/B Switcher for audio and CV",
+      "description": "4 Channel A/B Switcher for Audio and CV",
       "manualUrl": "https://gprackmodules.github.io/GPrackmodules/AB4.html",
       "tags": [
         "Switch",
@@ -27,7 +27,7 @@
     {
       "slug": "AB8",
       "name": "AB8",
-      "description": "8 Channel A/B Switcher for audio and CV",
+      "description": "8 Channel A/B Switcher for Audio and CV",
       "manualUrl": "https://gprackmodules.github.io/GPrackmodules/AB8.html",
       "tags": [
         "Switch",
@@ -36,9 +36,39 @@
       ]
     },
     {
+      "slug": "DualControl",
+      "name": "Dual Control Merge",
+      "description": "Play your synth from two keyboards, MPE controllers or sequencers simultaneously",
+      "manualUrl": "https://gprackmodules.github.io/GPrackmodules/DualControl.html",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TripleControl",
+      "name": "Triple Control Merge",
+      "description": "Play your synth from three keyboards, MPE controllers or sequencers simultaneously",
+      "manualUrl": "https://gprackmodules.github.io/GPrackmodules/TripleControl.html",
+      "tags": [
+        "Utility",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "ChainMixerChannel",
       "name": "Chained Mixer Channel",
-      "description": "Channel Strip for Chained Mixer",
+      "description": "Chainable Mixer Channel for Stereo and Mono Inputs with two Aux sends, Pan/Balance, a Fader, and Mute and Solo buttons",
+      "manualUrl": "https://gprackmodules.github.io/GPrackmodules/ChainedMixer.html",
+      "tags": [
+        "Mixer",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "ChainMixerExtChannel",
+      "name": "Chained Mixer Extended Channel",
+      "description": "Extended Chained Mixer Channel for Mono and Stereo Inputs with Additional Aux Pre/Post Switching, Input Trim, Direct Outs and CV Inputs for Gain, Mute and Solo",
       "manualUrl": "https://gprackmodules.github.io/GPrackmodules/ChainedMixer.html",
       "tags": [
         "Mixer",
@@ -47,8 +77,8 @@
     },
     {
       "slug": "ChainMixerMaster",
-      "name": "Chained Mixer Master Section",
-      "description": "Master section for Chained Mixer",
+      "name": "Chained Mixer Main Section",
+      "description": "Main Output section for Chained Mixer with Mono and Stereo Outputs",
       "manualUrl": "https://gprackmodules.github.io/GPrackmodules/ChainedMixer.html",
       "tags": [
         "Mixer"
@@ -57,7 +87,7 @@
     {
       "slug": "ChainMixerAux",
       "name": "Chained Mixer Aux Section",
-      "description": "Aux section for Chained Mixer",
+      "description": "Aux section for Chained Mixer with Mono and Stereo Sends and Returns",
       "manualUrl": "https://gprackmodules.github.io/GPrackmodules/ChainedMixer.html",
       "tags": [
         "Mixer",
@@ -77,11 +107,21 @@
     {
       "slug": "Rotary",
       "name": "Rotary Speaker",
-      "description": "Rotating speaker effect with enhancements",
+      "description": "Enhanced Rotating Speaker Effect with Optional 3-Way Crossover and Second Rotating Horn",
       "manualUrl": "https://gprackmodules.github.io/GPrackmodules/Rotary.html",
       "tags": [
         "Chorus",
         "Effect"
+      ]
+    },
+    {
+      "slug": "Clamp",
+      "name": "Clamp - Note Range Limiter",
+      "description": "Limit Note Pitch (V/Oct) to a Range. Drop, limit or octave-shift out-of-range notes",
+      "manualUrl": "https://gprackmodules.github.io/GPrackmodules/Clamp.html",
+      "tags": [
+        "Utility",
+        "Polyphonic"
       ]
     }
   ]
