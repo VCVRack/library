@@ -2621,5 +2621,12 @@
     "vcvUrl": "https://library.vcvrack.com/VAEMI/R2RLadder",
     "mgUrl": "https://modulargrid.net/e/vaemi-r2r-ladder",
     "mgModuleId": 40872
+  },
+  {
+    "pluginSlug": "ALMFree",
+    "moduleSlug": "PipLFO",
+    "vcvUrl": "https://library.vcvrack.com/ALMFree/PipLFO",
+    "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-pip-lfo",
+    "mgModuleId": 54550
   }
 ]

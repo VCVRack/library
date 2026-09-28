@@ -1,7 +1,7 @@
 {
   "slug": "ALMFree",
   "name": "ALM Busy Circuits Free",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "license": "proprietary",
   "brand": "ALM Busy Circuits",
   "author": "ALM",
@@ -112,6 +112,17 @@
       "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-stereo-sum",
       "tags": [
         "Utility",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "PipLFO",
+      "name": "Pip LFO",
+      "description": "ALM048: Pip LFO",
+      "modularGridUrl": "https://modulargrid.net/e/alm-busy-circuits-pip-lfo",
+      "tags": [
+        "VCO",
+        "LFO",
         "Hardware Clone"
       ]
     }
