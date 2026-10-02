@@ -1,7 +1,7 @@
 {
   "slug": "4msCompany",
   "name": "4ms",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "4ms",
   "author": "4ms Company",
@@ -525,6 +525,49 @@
         "Attenuator",
         "Dual",
         "Utility"
+      ]
+    },
+    {
+      "slug": "OctoPush",
+      "name": "OctoPush",
+      "description": "8 button macro controller",
+      "tags": [
+        "Utility",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "SoloPush",
+      "name": "SoloPush",
+      "description": "Single button macro controller",
+      "tags": [
+        "Utility",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "Keyboard",
+      "name": "Keyboard",
+      "description": "1V/octave polyphonic keyboard",
+      "tags": [
+        "Utility",
+        "Controller"
+      ]
+    },
+    {
+      "slug": "FadeOut",
+      "name": "FadeOut",
+      "description": "Fade audio out at the press of a button",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "slug": "FadeIn",
+      "name": "FadeIn",
+      "description": "Fade audio in at the press of a button",
+      "tags": [
+        "utility"
       ]
     }
   ]
