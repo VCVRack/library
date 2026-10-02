@@ -2628,5 +2628,12 @@
     "vcvUrl": "https://library.vcvrack.com/ALMFree/PipLFO",
     "mgUrl": "https://modulargrid.net/e/alm-busy-circuits-pip-lfo",
     "mgModuleId": 54550
+  },
+  {
+    "pluginSlug": "VostokInstruments",
+    "moduleSlug": "Sigma",
+    "vcvUrl": "https://library.vcvrack.com/VostokInstruments/Sigma",
+    "mgUrl": "https://modulargrid.net/e/vostok-instruments-sigma",
+    "mgModuleId": 59731
   }
 ]

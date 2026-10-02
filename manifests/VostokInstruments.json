@@ -1,7 +1,7 @@
 {
   "slug": "VostokInstruments",
   "name": "VostokInstruments",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "Vostok Instruments",
   "author": "Vostok Instruments, Ewan Hemingway",
@@ -119,6 +119,19 @@
         "Logic",
         "Low-frequency oscillator",
         "Quad"
+      ]
+    },
+    {
+      "slug": "Sigma",
+      "name": "Sigma",
+      "description": "Four-channel gate-length processor",
+      "manualUrl": "https://www.vostokinstruments.com/sigma-user-manual",
+      "modularGridUrl": "https://modulargrid.net/e/vostok-instruments-sigma",
+      "tags": [
+        "Hardware clone",
+        "Logic",
+        "Quad",
+        "Utility"
       ]
     }
   ]

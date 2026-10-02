@@ -16542,7 +16542,7 @@
     }
   },
   "VostokInstruments": {
-    "buildTimestamp": 1778626519.6343696,
+    "buildTimestamp": 1790966947.8553712,
     "creationTimestamp": 1756984128.632253,
     "modules": {
       "Path": {
@@ -16571,7 +16571,8 @@
       },
       "Halo": {
         "creationTimestamp": 1778626519.7695687
-      }
+      },
+      "Sigma": {}
     }
   },
   "FartSynthson": {
