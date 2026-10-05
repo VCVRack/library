@@ -1,8 +1,11 @@
 import os
+import platform
 
 
 RACK_VERSION_MAJOR = "2"
-RACK_ARCHITECTURE = "lin-x64"
+RACK_PLATFORM = {"Linux": "lin", "Darwin": "mac", "Windows": "win"}[platform.system()]
+RACK_CPU = {"x86_64": "x64", "amd64": "x64", "arm64": "arm64", "aarch64": "arm64"}[platform.machine().lower()]
+RACK_ARCHITECTURE = f"{RACK_PLATFORM}-{RACK_CPU}"
 ARCHITECTURES = (
 	"mac-arm64",
 	"mac-x64",
@@ -24,7 +27,12 @@ MANIFESTS_DIR = "manifests"
 TOOLCHAIN_DIR = "../toolchain-v2"
 PACKAGES_DIR = "../packages"
 RACK_SYSTEM_DIR = "../Rack2"
-RACK_USER_DIR = os.path.expanduser("~/.local/share/Rack2")
+if RACK_PLATFORM == "mac":
+	RACK_USER_DIR = os.path.expanduser("~/Library/Application Support/Rack2")
+elif RACK_PLATFORM == "win":
+	RACK_USER_DIR = os.path.join(os.environ["LOCALAPPDATA"], "Rack2")
+else:
+	RACK_USER_DIR = os.path.expanduser("~/.local/share/Rack2")
 RACK_PLUGIN_DIR = os.path.join(RACK_USER_DIR, f"plugins-{RACK_ARCHITECTURE}")
 RACK_SCREENSHOTS_DIR = os.path.join(RACK_USER_DIR, "screenshots")
 SCREENSHOTS_DIR = "../screenshots"

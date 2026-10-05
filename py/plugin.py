@@ -306,7 +306,7 @@ class Plugin:
 	def review_source_with_cppcheck(self):
 		if not self.source_dir:
 			return None
-		info(f"Reviewing {self.get_slug()} {self.get_version()} source with Cppcheck")
+		info(f"Reviewing {self.get_slug()} source with Cppcheck")
 		try:
 			run("make", "plugin-analyze", f"PLUGIN_DIR={os.path.abspath(self.source_dir)}", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
 		except (RuntimeError, OSError) as error:
