@@ -1,0 +1,38 @@
+{
+  "slug": "ImpossibleKnot",
+  "name": "Impossible Knot",
+  "version": "2.0.14",
+  "license": "proprietary",
+  "brand": "Impossible Knot",
+  "description": "Bloom stereo shimmer reverb and Tangle stereo wavefolder.",
+  "author": "Impossible Knot",
+  "authorEmail": "hello@impossible-knot.com",
+  "authorUrl": "https://impossible-knot.com",
+  "pluginUrl": "https://impossible-knot.com",
+  "minRackVersion": "2.4.0",
+  "modules": [
+    {
+      "slug": "Bloom",
+      "name": "Bloom",
+      "description": "Shimmer reverb with control over when the octave arrives and how fast it builds",
+      "manualUrl": "https://impossible-knot.com/bloom#manual",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ],
+      "keywords": "shimmer pitch shift octave ambient plate dattorro tail bloom swell"
+    },
+    {
+      "slug": "Tangle",
+      "name": "Tangle",
+      "description": "Stereo wavefolder and saturator with CV over every shaping control, asymmetric stereo response, and cross-channel excitation.",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Polyphonic",
+        "Waveshaper"
+      ],
+      "manualUrl": "https://impossible-knot.com/tangle#manual"
+    }
+  ]
+}
