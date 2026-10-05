@@ -1,0 +1,27 @@
+{
+  "slug": "Leviathan-Pro",
+  "name": "Leviathan Pro",
+  "version": "2.1.2",
+  "license": "proprietary",
+  "brand": "Leviathan",
+  "author": "Levi Kendall",
+  "authorEmail": "levi.kendall@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://plasmachroma.github.io/Leviathan-Pages/index.html",
+  "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/index.html",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Bifurx",
+      "name": "Bifurx",
+      "description": "Dual-peak morphing filter inspired by Belgrad, featuring coupled resonance modes and real-time active response visualization.",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Bifurx_User_Manual.html",
+      "tags": [
+        "Filter",
+        "Distortion",
+        "Visual"
+      ]
+    }
+  ]
+}
