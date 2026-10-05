@@ -10,6 +10,7 @@ import requests
 
 from . import config
 from .command import run
+from .console import info
 
 
 EXTRACTION_DIR = tempfile.mkdtemp()
@@ -243,13 +244,6 @@ class Plugin:
 		if manifest["slug"] != library_manifest["slug"]:
 			warnings.append(f"Plugin slug changed from {library_manifest['slug']!r} to {manifest['slug']!r}.")
 
-		version = self.get_version()
-		library_version = library_manifest["version"]
-		if version_key(version) < version_key(library_version):
-			warnings.append(f"Plugin {self.get_slug()!r} version {version!r} is older than library version {library_version!r}.")
-		elif self.source_dir and version_key(version) == version_key(library_version):
-			warnings.append(f"Plugin {self.get_slug()!r} source version {version!r} equals the library version.")
-
 		module_slugs = {module["slug"] for module in manifest.get("modules", [])}
 		for module in library_manifest.get("modules", []):
 			if module["slug"] not in module_slugs:
@@ -304,26 +298,12 @@ class Plugin:
 	def review_source_with_cppcheck(self):
 		if not self.source_dir:
 			return None
-		print(f"Checking {self.get_slug()} source with cppcheck")
+		info(f"Checking {self.get_slug()} source with cppcheck")
 		try:
 			run("make", "plugin-analyze", f"PLUGIN_DIR={os.path.abspath(self.source_dir)}", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
 		except (RuntimeError, OSError) as error:
 			return str(error)
 		return None
-
-	def review_source_with_agent(self):
-		if not self.source_dir:
-			return None
-		try:
-			from . import agent
-		except ImportError:
-			return None
-		else:
-			print(f"Checking {self.get_slug()} source with agent")
-			try:
-				return agent.review_source(self.source_dir)
-			except Exception as error:
-				return str(error)
 
 	def review_packages(self):
 		if not self.package_paths:

@@ -3,6 +3,10 @@ import termios
 import tty
 
 
+def info(message):
+	print(f"\033[34m{message}\033[0m")
+
+
 def warn(message):
 	print(f"\033[33m{message}\033[0m")
 

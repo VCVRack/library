@@ -4,11 +4,17 @@ import argparse
 import os
 import json
 import shutil
+from concurrent.futures import ThreadPoolExecutor
 
 from py.command import run
-from py.console import choose, warn
+from py.console import choose, info, warn
 from py import config, manifest_cache, modulargrid
 from py.plugin import Plugin, version_key
+
+try:
+	from py import agent
+except ImportError:
+	agent = None
 
 
 def run_retry(command, *args, cwd=None):
@@ -17,20 +23,20 @@ def run_retry(command, *args, cwd=None):
 			run(command, *args, cwd=cwd, capture_stderr=True)
 			return
 		except Exception as error:
-			print(error)
+			warn(error)
 			if choose("[r]etry, [t]hrow: ", "rt") == "t":
 				raise
 
 
 def clear_toolchain_build_dir():
-	print("Clearing toolchain build directory")
+	info("Clearing toolchain build directory")
 	run("make", "plugin-build-clean", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
 
 
 def load(paths=None):
 	# If no paths are given, use directories in config.REPOS_DIR that contain plugin.json.
 	if not paths:
-		print(f"Checking {config.REPOS_DIR} for new plugin versions")
+		info(f"Checking {config.REPOS_DIR} for new plugin versions")
 		paths = []
 		for entry in os.scandir(config.REPOS_DIR):
 			if not entry.is_dir():
@@ -86,7 +92,13 @@ def review(paths=None):
 	if has_source_plugins:
 		clear_toolchain_build_dir()
 	try:
-		review_plugins(plugins)
+		reviewed_plugins = review_plugins(plugins)
+		reviewed_plugins = review_plugins_with_cppcheck(reviewed_plugins)
+		if agent:
+			reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_source)
+		built_plugins = build_plugins(reviewed_plugins)
+		installed_plugins = install_plugins(built_plugins)
+		run_plugins(installed_plugins)
 	finally:
 		if has_source_plugins:
 			clear_toolchain_build_dir()
@@ -96,6 +108,7 @@ def review_plugins(plugins):
 	reviewed_plugins = []
 	for plugin in plugins:
 		try:
+			info(f"Reviewing {plugin.get_slug()} {plugin.get_version()}")
 			has_warnings = False
 			if warnings := plugin.review_manifest():
 				warn(warnings)
@@ -109,12 +122,6 @@ def review_plugins(plugins):
 			if warnings := plugin.review_source():
 				warn(warnings)
 				has_warnings = True
-			if warnings := plugin.review_source_with_cppcheck():
-				warn(warnings)
-				has_warnings = True
-			if warnings := plugin.review_source_with_agent():
-				warn(warnings)
-				has_warnings = True
 			if has_warnings and choose("[a]pprove, [r]eject: ", "ar") == "r":
 				continue
 
@@ -125,37 +132,88 @@ def review_plugins(plugins):
 
 			reviewed_plugins.append(plugin)
 		except Exception as error:
-			if plugin.manifest is not None and 'slug' in plugin.manifest:
-				warn(f"{plugin.get_slug()}: {error}")
-			else:
-				warn(f"{plugin.source_dir or plugin.package_paths}: {error}")
+			warn(f"{plugin.get_slug()}: {error}")
 			choose("[r]eject: ", "r")
+	return reviewed_plugins
+
+
+def approve_warnings(plugin, warnings):
+	if not warnings:
+		return True
+	warn(f"{plugin.get_slug()}: {warnings}")
+	return choose("[a]pprove, [r]eject: ", "ar") == "a"
+
+
+def review_plugins_with_cppcheck(plugins):
+	reviewed_plugins = []
+	for plugin in plugins:
+		try:
+			warnings = plugin.review_source_with_cppcheck()
+		except Exception as error:
+			warn(f"{plugin.get_slug()}: {error}")
+			choose("[r]eject: ", "r")
+			continue
+		if not approve_warnings(plugin, warnings):
+			continue
+		reviewed_plugins.append(plugin)
+	return reviewed_plugins
+
+
+def review_plugins_concurrently(plugins, func):
+	if not plugins:
+		return []
+
+	with ThreadPoolExecutor(max_workers=len(plugins)) as executor:
+		futures = [executor.submit(func, plugin) for plugin in plugins]
+
+	reviewed_plugins = []
+	for plugin, future in zip(plugins, futures):
+		try:
+			warnings = future.result()
+		except Exception as error:
+			warn(f"{plugin.get_slug()}: {error}")
+			choose("[r]eject: ", "r")
+			continue
+		if not approve_warnings(plugin, warnings):
+			continue
+		reviewed_plugins.append(plugin)
+	return reviewed_plugins
+
+
+def build_plugins(plugins):
 	built_plugins = []
-	for plugin in reviewed_plugins:
+	for plugin in plugins:
 		try:
 			if plugin.source_dir:
-				print(f"Building {plugin.get_slug()}")
+				info(f"Building {plugin.get_slug()}")
 				plugin.build_source()
 			built_plugins.append(plugin)
 		except Exception as error:
-			print(f"{plugin.get_slug()}: {error}")
+			warn(f"{plugin.get_slug()}: {error}")
 			choose("[r]eject: ", "r")
+	return built_plugins
 
+
+def install_plugins(plugins):
 	# Install packages to Rack plugin directory.
 	installed_plugins = []
-	for plugin in built_plugins:
+	for plugin in plugins:
 		try:
-			print(f"Installing {plugin.get_slug()} {plugin.get_version()}")
+			info(f"Installing {plugin.get_slug()} {plugin.get_version()}")
 			plugin.install_package()
 			installed_plugins.append(plugin)
 		except Exception as error:
-			print(f"{plugin.get_slug()}: {error}")
+			warn(f"{plugin.get_slug()}: {error}")
 			choose("[r]eject: ", "r")
-	if not installed_plugins:
-		return []
+	return installed_plugins
+
+
+def run_plugins(plugins):
+	if not plugins:
+		return
 
 	# Test plugins
-	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in installed_plugins)
+	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in plugins)
 	print()
 	choose(f"Press Enter to launch Rack and test the following packages: {update_message}", "\n")
 	run_retry("./Rack", cwd=config.RACK_SYSTEM_DIR)
@@ -167,29 +225,27 @@ def review_plugins(plugins):
 		warn(output.rstrip("\n"))
 		choose("[a]pprove: ", "a")
 
-	return installed_plugins
-
 
 def publish_plugins(plugins):
 	published_plugins = []
 	for plugin in plugins:
 		try:
-			print(f"Publishing {plugin.get_slug()} {plugin.get_version()}")
+			info(f"Publishing {plugin.get_slug()} {plugin.get_version()}")
 			plugin.publish_packages()
 			published_plugins.append(plugin)
 		except Exception as error:
-			print(f"{plugin.get_slug()}: {error}")
+			warn(f"{plugin.get_slug()}: {error}")
 			choose("[r]eject: ", "r")
 	return published_plugins
 
 
 def publish(paths=None):
 	# Pull library repo and update submodules
-	print("Pulling library repo")
+	info("Pulling library repo")
 	run_retry("git", "pull")
-	print("Synchronizing submodule URLs")
+	info("Synchronizing submodule URLs")
 	run("git", "submodule", "sync", "--recursive", "--quiet", capture_stderr=True)
-	print("Updating submodules")
+	info("Updating submodules")
 	run("git", "submodule", "update", "--init", "--recursive", capture_stderr=True)
 
 	# Load, review, and publish plugins
@@ -199,25 +255,28 @@ def publish(paths=None):
 		clear_toolchain_build_dir()
 	try:
 		reviewed_plugins = review_plugins(loaded_plugins)
-		published_plugins = publish_plugins(reviewed_plugins)
+		built_plugins = build_plugins(reviewed_plugins)
+		installed_plugins = install_plugins(built_plugins)
+		run_plugins(installed_plugins)
+		published_plugins = publish_plugins(installed_plugins)
 	finally:
 		if has_source_plugins:
 			clear_toolchain_build_dir()
 
 	if not published_plugins:
-		print("No plugins to publish.")
+		info("No plugins to publish.")
 		return
 
 	# Update manifest cache and ModularGrid database
 	while True:
 		try:
-			print("Refreshing manifest cache")
+			info("Refreshing manifest cache")
 			manifest_cache.refresh_cache(published_plugins)
-			print("Updating ModularGrid database")
+			info("Updating ModularGrid database")
 			modulargrid.update(published_plugins)
 			break
 		except Exception as error:
-			print(error)
+			warn(error)
 			if choose("[r]etry, [t]hrow: ", "rt") == "t":
 				raise
 
@@ -230,23 +289,23 @@ def publish(paths=None):
 			shutil.rmtree(screenshots_dir)
 		except FileNotFoundError:
 			pass
-	print("Generating screenshots")
+	info("Generating screenshots")
 	run_retry("./Rack", "-t", "4", cwd=config.RACK_SYSTEM_DIR)
 
 	# Resize screenshots
-	print("Resizing screenshots")
+	info("Resizing screenshots")
 	run_retry("make", f"-j{os.cpu_count() or 1}", cwd=config.SCREENSHOTS_DIR)
 
 	# Upload packages
-	print("Uploading packages")
+	info("Uploading packages")
 	run_retry("make", "upload", cwd=config.PACKAGES_DIR)
 
 	# Upload screenshots
-	print("Uploading screenshots")
+	info("Uploading screenshots")
 	run_retry("make", "upload", cwd=config.SCREENSHOTS_DIR)
 
 	# Commit and push library repo
-	print("Committing manifests")
+	info("Committing manifests")
 	manifest_paths = []
 	for plugin in published_plugins:
 		path = os.path.join(config.MANIFESTS_DIR, f"{plugin.get_slug()}.json")
@@ -257,11 +316,11 @@ def publish(paths=None):
 	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in published_plugins)
 	run_retry("git", "commit", "-m", f"Update manifest {update_message}")
 
-	print("Pushing library repo")
+	info("Pushing library repo")
 	run_retry("git", "push")
 
 	print()
-	print(f"Updated {update_message}")
+	info(f"Updated {update_message}")
 	for plugin in published_plugins:
 		# Open browser to plugin's GitHub library issue
 		os.system(f"xdg-open 'https://github.com/VCVRack/library/issues?q=is%3Aissue+sort%3Aupdated-desc+in%3Atitle+{plugin.get_slug()}' &")
