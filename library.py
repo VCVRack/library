@@ -24,8 +24,8 @@ def run_retry(command, *args, cwd=None):
 			return
 		except Exception as error:
 			warn(error)
-			if choose("[r]etry, [t]hrow: ", "rt") == "t":
-				raise
+			if choose("[r]etry, [i]gnore: ", "ri") == "i":
+				return
 
 
 def clear_toolchain_build_dir():
@@ -93,12 +93,6 @@ def review(paths=None):
 		clear_toolchain_build_dir()
 	try:
 		reviewed_plugins = review_plugins(plugins)
-		reviewed_plugins = review_plugins_with_cppcheck(reviewed_plugins)
-		if agent:
-			reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_source)
-		built_plugins = build_plugins(reviewed_plugins)
-		installed_plugins = install_plugins(built_plugins)
-		run_plugins(installed_plugins)
 	finally:
 		if has_source_plugins:
 			clear_toolchain_build_dir()
@@ -108,7 +102,7 @@ def review_plugins(plugins):
 	reviewed_plugins = []
 	for plugin in plugins:
 		try:
-			info(f"Reviewing {plugin.get_slug()} {plugin.get_version()}")
+			info(f"Reviewing {plugin.get_slug()}")
 			has_warnings = False
 			if warnings := plugin.review_manifest():
 				warn(warnings)
@@ -134,7 +128,18 @@ def review_plugins(plugins):
 		except Exception as error:
 			warn(f"{plugin.get_slug()}: {error}")
 			choose("[r]eject: ", "r")
-	return reviewed_plugins
+
+	reviewed_plugins = review_plugins_with_cppcheck(reviewed_plugins)
+	if agent and any(plugin.source_dir for plugin in reviewed_plugins):
+		info("Reviewing source code with agent")
+		reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_source)
+	built_plugins = build_plugins(reviewed_plugins)
+	if agent and built_plugins:
+		info("Reviewing binaries with agent")
+		built_plugins = review_plugins_concurrently(built_plugins, agent.review_dist)
+	installed_plugins = install_plugins(built_plugins)
+	run_plugins(installed_plugins)
+	return installed_plugins
 
 
 def approve_warnings(plugin, warnings):
@@ -171,9 +176,7 @@ def review_plugins_concurrently(plugins, func):
 		try:
 			warnings = future.result()
 		except Exception as error:
-			warn(f"{plugin.get_slug()}: {error}")
-			choose("[r]eject: ", "r")
-			continue
+			warnings = f"Review failed.\n\n{error}"
 		if not approve_warnings(plugin, warnings):
 			continue
 		reviewed_plugins.append(plugin)
@@ -255,10 +258,7 @@ def publish(paths=None):
 		clear_toolchain_build_dir()
 	try:
 		reviewed_plugins = review_plugins(loaded_plugins)
-		built_plugins = build_plugins(reviewed_plugins)
-		installed_plugins = install_plugins(built_plugins)
-		run_plugins(installed_plugins)
-		published_plugins = publish_plugins(installed_plugins)
+		published_plugins = publish_plugins(reviewed_plugins)
 	finally:
 		if has_source_plugins:
 			clear_toolchain_build_dir()
@@ -277,8 +277,8 @@ def publish(paths=None):
 			break
 		except Exception as error:
 			warn(error)
-			if choose("[r]etry, [t]hrow: ", "rt") == "t":
-				raise
+			if choose("[r]etry, [i]gnore: ", "ri") == "i":
+				break
 
 	choose("Press Enter to generate screenshots, upload packages and screenshots, and commit/push the library repo: ", "\n")
 
@@ -319,7 +319,6 @@ def publish(paths=None):
 	info("Pushing library repo")
 	run_retry("git", "push")
 
-	print()
 	info(f"Updated {update_message}")
 	for plugin in published_plugins:
 		# Open browser to plugin's GitHub library issue

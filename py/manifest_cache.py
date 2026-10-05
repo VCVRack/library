@@ -2,7 +2,6 @@ import json
 import time
 
 from . import config
-from .console import info
 
 
 def refresh_cache(plugins):
@@ -24,7 +23,6 @@ def refresh_cache(plugins):
 
 		# Get plugin creation
 		if 'creationTimestamp' not in cache_plugin:
-			info(f"Getting creationTimestamp for plugin {plugin.get_slug()}")
 			creation_timestamp = plugin.get_creation_timestamp()
 			cache_plugin['creationTimestamp'] = creation_timestamp if creation_timestamp is not None else publish_timestamp
 
@@ -38,7 +36,6 @@ def refresh_cache(plugins):
 
 			# Get module creation
 			if 'creationTimestamp' not in cache_module:
-				info(f"Getting creationTimestamp for plugin {plugin.get_slug()} module {module_slug}")
 				creation_timestamp = creation_timestamps[module_slug]
 				cache_module['creationTimestamp'] = creation_timestamp if creation_timestamp is not None else publish_timestamp
 

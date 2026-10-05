@@ -167,6 +167,11 @@ class Plugin:
 			if source_url.rstrip('/').endswith('.git'):
 				warnings.append(f"Plugin {plugin_slug!r} sourceUrl ends with '.git': {source_url!r}")
 
+		# Collect module slugs already in library.
+		library_module_slugs = set()
+		if self.library_manifest:
+			library_module_slugs = {module["slug"] for module in self.library_manifest.get("modules", [])}
+
 		# Check module fields.
 		module_slugs = set()
 		for index, module in enumerate(manifest.get("modules", [])):
@@ -181,10 +186,13 @@ class Plugin:
 			if slug in module_slugs:
 				raise ValueError(f"{module_label} slug appears more than once in the manifest.")
 			module_slugs.add(slug)
-			if plugin_slug.casefold() in slug.casefold():
-				warnings.append(f"{module_label} slug contains the plugin slug.")
-			elif slug.casefold() in plugin_slug.casefold():
-				warnings.append(f"Plugin slug {plugin_slug!r} contains module slug {slug!r}.")
+
+			# Check whether the module slug contains the plugin slug or vice versa.
+			if slug not in library_module_slugs:
+				if plugin_slug.casefold() in slug.casefold():
+					warnings.append(f"{module_label} slug contains the plugin slug.")
+				elif slug.casefold() in plugin_slug.casefold():
+					warnings.append(f"Plugin slug {plugin_slug!r} contains module slug {slug!r}.")
 
 			for tag in module.get("tags", []):
 				if tag.lower() not in VALID_TAGS:
@@ -298,7 +306,7 @@ class Plugin:
 	def review_source_with_cppcheck(self):
 		if not self.source_dir:
 			return None
-		info(f"Checking {self.get_slug()} source with cppcheck")
+		info(f"Reviewing {self.get_slug()} {self.get_version()} source with Cppcheck")
 		try:
 			run("make", "plugin-analyze", f"PLUGIN_DIR={os.path.abspath(self.source_dir)}", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
 		except (RuntimeError, OSError) as error:
@@ -370,7 +378,7 @@ class Plugin:
 		slug = self.get_slug()
 		version = self.get_version()
 		for architecture in config.ARCHITECTURES:
-			run("make", "-j2", f"plugin-build-{architecture}", f"PLUGIN_DIR={source_dir}", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
+			run("make", f"-j{os.cpu_count() or 1}", f"plugin-build-{architecture}", f"PLUGIN_DIR={source_dir}", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
 
 		# Record the packages left in the toolchain output directory.
 		package_paths = []
