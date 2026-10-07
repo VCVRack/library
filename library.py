@@ -122,7 +122,7 @@ def review_plugins(plugins):
 			# Show package manifest for approval.
 			if not plugin.source_dir:
 				print(json.dumps(plugin.manifest, indent="  "))
-				choose("Press Enter to approve manifest: ", "\n")
+				choose("Press Enter to approve manifest", "\n")
 
 			reviewed_plugins.append(plugin)
 		except Exception as error:
@@ -264,7 +264,7 @@ def publish(paths=None):
 			clear_toolchain_build_dir()
 
 	if not published_plugins:
-		info("No plugins to publish.")
+		info("No plugins to publish")
 		return
 
 	# Update manifest cache and ModularGrid database
@@ -280,7 +280,7 @@ def publish(paths=None):
 			if choose("[r]etry, [i]gnore: ", "ri") == "i":
 				break
 
-	choose("Press Enter to generate screenshots, upload packages and screenshots, and commit/push the library repo: ", "\n")
+	choose("Press Enter to generate screenshots, upload packages and screenshots, and commit/push the library repo", "\n")
 
 	# Delete plugin's old screenshots
 	for plugin in published_plugins:

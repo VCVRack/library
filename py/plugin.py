@@ -4,6 +4,7 @@ import os
 import re
 import shutil
 import tempfile
+import time
 from urllib.parse import urlsplit
 
 import requests
@@ -43,6 +44,7 @@ def review_url(url):
 		return f"URL {url!r} is not a valid HTTP or HTTPS URL."
 	headers = {"User-Agent": config.HTTP_USER_AGENT}
 	try:
+		time.sleep(1.0)
 		with requests.get(url, headers=headers, timeout=config.HTTP_TIMEOUT, stream=True) as response:
 			response.raise_for_status()
 	except requests.RequestException as error:
