@@ -1,7 +1,7 @@
 {
   "slug": "OrmerModular",
   "name": "Shoal",
-  "version": "2.0.4",
+  "version": "2.0.6",
   "license": "proprietary",
   "brand": "Ormer Modular",
   "author": "Ormer Modular",
@@ -27,7 +27,7 @@
     {
       "slug": "ShoalOuts",
       "name": "Shoal Outs",
-      "description": "Per-track Currents (seeded drift CV) and end-of-sequence triggers; sits to Shoal's left.",
+      "description": "Per-track Currents (seeded drift CV) and end-of-sequence triggers; sits either side of Shoal.",
       "manualUrl": "https://ormermodular.github.io/shoal-vcv/",
       "tags": [
         "Expander",
@@ -37,7 +37,7 @@
     {
       "slug": "ShoalExpander",
       "name": "Shoal Expander",
-      "description": "12 CV inputs to modulate any track; chainable; sits to Shoal's right.",
+      "description": "12 CV inputs to modulate any track; chainable; sits either side of Shoal.",
       "manualUrl": "https://ormermodular.github.io/shoal-vcv/",
       "tags": [
         "Expander",
