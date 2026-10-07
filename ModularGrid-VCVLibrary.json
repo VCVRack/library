@@ -2635,5 +2635,12 @@
     "vcvUrl": "https://library.vcvrack.com/VostokInstruments/Sigma",
     "mgUrl": "https://modulargrid.net/e/vostok-instruments-sigma",
     "mgModuleId": 59731
+  },
+  {
+    "pluginSlug": "NANOModules",
+    "moduleSlug": "FUM",
+    "vcvUrl": "https://library.vcvrack.com/NANOModules/FUM",
+    "mgUrl": "https://modulargrid.net/e/nano-modules-fum",
+    "mgModuleId": 59706
   }
 ]
