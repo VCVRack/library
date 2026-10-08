@@ -119,9 +119,10 @@ class Plugin:
 			raise RuntimeError("No source directory or package paths set.")
 
 		# Check slug and version fields.
-		for key in ("slug", "version"):
-			if key not in self.manifest:
-				raise ValueError(f"Manifest is missing required field {key!r}.")
+		required_keys = {"slug", "version"}
+		missing_keys = required_keys - self.manifest.keys()
+		if missing_keys:
+			raise ValueError(f"Manifest is missing required fields: {', '.join(sorted(missing_keys))}.")
 		if not is_valid_slug(self.get_slug()):
 			raise ValueError(f"Plugin slug {self.get_slug()!r} is invalid.")
 
@@ -142,9 +143,10 @@ class Plugin:
 
 		# Check required plugin fields.
 		manifest = self.manifest
-		for key in ("name", "license", "author"):
-			if key not in manifest:
-				raise ValueError(f"Manifest is missing required field {key!r}.")
+		required_keys = {"name", "license", "author"}
+		missing_keys = required_keys - manifest.keys()
+		if missing_keys:
+			raise ValueError(f"Manifest is missing required fields: {', '.join(sorted(missing_keys))}.")
 
 		plugin_slug = self.get_slug()
 		warnings = []
@@ -178,9 +180,10 @@ class Plugin:
 		module_slugs = set()
 		for index, module in enumerate(manifest.get("modules", [])):
 			module_label = f"Plugin {plugin_slug!r} module {module['slug']!r}" if "slug" in module else f"Plugin {plugin_slug!r} module at index {index}"
-			for key in ("slug", "name"):
-				if key not in module:
-					raise ValueError(f"{module_label} is missing required field {key!r}.")
+			required_keys = {"slug", "name"}
+			missing_keys = required_keys - module.keys()
+			if missing_keys:
+				raise ValueError(f"{module_label} is missing required fields: {', '.join(sorted(missing_keys))}.")
 
 			slug = module["slug"]
 			if not is_valid_slug(slug):
@@ -304,6 +307,13 @@ class Plugin:
 		path = os.path.join(self.source_dir, "Makefile")
 		if not os.path.isfile(path):
 			raise FileNotFoundError(f"{path!r} is missing.")
+
+		# Check that source directory name matches plugin slug.
+		source_dir = os.path.abspath(self.source_dir)
+		directory_name = os.path.basename(source_dir)
+		if directory_name != self.get_slug():
+			return f"Source directory name {directory_name!r} does not match plugin slug {self.get_slug()!r}."
+		return None
 
 	def review_source_with_cppcheck(self):
 		if not self.source_dir:

@@ -4,6 +4,7 @@ import argparse
 import os
 import json
 import shutil
+import webbrowser
 from concurrent.futures import ThreadPoolExecutor
 
 from py.command import run
@@ -312,9 +313,10 @@ def publish(paths=None):
 		with open(path, "w", encoding="utf-8") as f:
 			json.dump(plugin.manifest, f, indent="  ")
 		manifest_paths.append(path)
-	run("git", "add", "--", *manifest_paths, config.MANIFESTS_CACHE_FILE, config.MODULARGRID_FILE, capture_stderr=True)
+	commit_paths = [*manifest_paths, config.MANIFESTS_CACHE_FILE, config.MODULARGRID_FILE]
+	run("git", "add", "--", *commit_paths, capture_stderr=True)
 	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in published_plugins)
-	run_retry("git", "commit", "-m", f"Update manifest {update_message}")
+	run_retry("git", "commit", "--only", "-m", f"Update manifest {update_message}", "--", *commit_paths)
 
 	info("Pushing library repo")
 	run_retry("git", "push")
@@ -322,7 +324,8 @@ def publish(paths=None):
 	info(f"Updated {update_message}")
 	for plugin in published_plugins:
 		# Open browser to plugin's GitHub library issue
-		os.system(f"xdg-open 'https://github.com/VCVRack/library/issues?q=is%3Aissue+sort%3Aupdated-desc+in%3Atitle+{plugin.get_slug()}' &")
+		url = f"https://github.com/VCVRack/library/issues?q=is%3Aissue+sort%3Aupdated-desc+in%3Atitle+{plugin.get_slug()}"
+		webbrowser.open(url)
 
 
 if __name__ == "__main__":
