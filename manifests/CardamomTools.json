@@ -1,0 +1,170 @@
+{
+  "slug": "CardamomTools",
+  "name": "Cardamom Tools",
+  "description": "Oscillators, filters and stereo effects",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Cardamom Tools",
+  "author": "Cardamom Flower",
+  "authorEmail": "fazzaricostantino@gmail.com",
+  "authorUrl": "https://cardamomflower.dev",
+  "pluginUrl": "https://cardamomflower.dev/cardamomtools/",
+  "manualUrl": "https://cardamomflower.dev/cardamomtools/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Ionio",
+      "name": "Ionio",
+      "description": "Wavetable oscillator, three read modes",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-ionio",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Scilla",
+      "name": "Scilla",
+      "description": "Linear multimode filter, eight responses",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-scilla",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Cariddi",
+      "name": "Cariddi",
+      "description": "Multimode filter, three characters",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-cariddi",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Pitagora",
+      "name": "Pitagora",
+      "description": "Karplus-Strong plucked resonator",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-pitagora",
+      "tags": [
+        "Physical modeling",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Pentedattilo",
+      "name": "Pentedattilo",
+      "description": "Envelope with morphing curves and loop",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-pentedattilo",
+      "tags": [
+        "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Morgana",
+      "name": "Morgana",
+      "description": "LFO, stepper and chaos in one shape",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-morgana",
+      "tags": [
+        "Low-frequency oscillator",
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Aleo",
+      "name": "Aleo",
+      "description": "Noise with continuous tilt and density",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-aleo",
+      "tags": [
+        "Noise",
+        "Random",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Milone",
+      "name": "Milone",
+      "description": "Dual VCA with four-quadrant ring modulation",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-milone",
+      "tags": [
+        "Voltage-controlled amplifier",
+        "Ring modulator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Naca",
+      "name": "Naca",
+      "description": "Utility: S&H, glide, send/return, gather",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-naca",
+      "tags": [
+        "Utility",
+        "Sample and hold",
+        "Slew limiter",
+        "Mixer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Timpa",
+      "name": "Timpa",
+      "description": "Stereo delay with tape flutter and tone",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-timpa",
+      "tags": [
+        "Delay",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Riace",
+      "name": "Riace",
+      "description": "Flanger, chorus and ensemble as one surface",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-riace",
+      "tags": [
+        "Chorus",
+        "Flanger",
+        "Effect",
+        "Delay",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Refolo",
+      "name": "Refolo",
+      "description": "Stereo phaser, 2 to 16 allpass stages",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-refolo",
+      "tags": [
+        "Phaser",
+        "Effect",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Sila",
+      "name": "Sila",
+      "description": "Stereo reverb, independent size and decay",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-sila",
+      "tags": [
+        "Reverb",
+        "Effect",
+        "Dual"
+      ]
+    },
+    {
+      "slug": "Sibari",
+      "name": "Sibari",
+      "description": "Stereo frequency shifter, up to \u00b11 kHz",
+      "manualUrl": "https://cardamomflower.dev/cardamomtools/#mod-sibari",
+      "tags": [
+        "Ring modulator",
+        "Effect",
+        "Dual"
+      ]
+    }
+  ]
+}
