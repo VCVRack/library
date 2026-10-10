@@ -249,7 +249,7 @@ class Plugin:
 			raise RuntimeError("No manifest loaded.")
 		warnings = []
 		if self.library_manifest is None:
-			return None
+			return f'Adding new plugin "{self.get_slug()}" to library.'
 
 		# Check that manifest and library manifest have the same slug.
 		manifest = self.manifest
@@ -258,6 +258,10 @@ class Plugin:
 			warnings.append(f"Plugin slug changed from {library_manifest['slug']!r} to {manifest['slug']!r}.")
 
 		module_slugs = {module["slug"] for module in manifest.get("modules", [])}
+		library_module_slugs = {module["slug"] for module in library_manifest.get("modules", [])}
+		new_module_slugs = module_slugs - library_module_slugs
+		if new_module_slugs:
+			warnings.append(f"Plugin {self.get_slug()!r} adds modules: {', '.join(sorted(new_module_slugs))}.")
 		for module in library_manifest.get("modules", []):
 			if module["slug"] not in module_slugs:
 				warnings.append(f"Plugin {self.get_slug()!r} removes library module {module['slug']!r}.")
