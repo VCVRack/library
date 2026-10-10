@@ -1,7 +1,7 @@
 {
   "slug": "Protoseq",
   "name": "Protoseq",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "license": "https://vcvrack.com/eula",
   "brand": "Protoseq",
   "author": "David Rodriguez / InfameDavid",
@@ -29,7 +29,7 @@
     {
       "slug": "GinasExpander",
       "name": "Gina's Expander",
-      "description": "CV expander for Gina's ARP seed and arpeggio length control.",
+      "description": "CV expander for Gina's ARP seed, arpeggio length, and rotation control.",
       "tags": [
         "Expander",
         "Controller"
@@ -49,6 +49,25 @@
       "description": "Compact 8-step cadence and pivot sequencer designed to drive Gina's ARP.",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Beacon",
+      "name": "BEACON",
+      "description": "Clock-aware performance voltage buffer and repeater.",
+      "tags": [
+        "Sampler",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "XArc",
+      "name": "X-ARC",
+      "description": "ARC clock ratio expander for stable and variable-ratio clocking.",
+      "tags": [
+        "Expander",
+        "Clock generator",
+        "Clock modulator"
       ]
     }
   ]
