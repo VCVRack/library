@@ -338,6 +338,11 @@ if __name__ == "__main__":
 	publish_parser = commands.add_parser("publish", help="Review and publish source directories and package archives")
 	publish_parser.add_argument("paths", nargs="*", metavar="PATH", help="Source directory or .vcvplugin archive")
 
+	info("""\
+⢿⣦  ⣴⡿ ⣠⣶⠿⠿⣶ ⢿⣦  ⣴⡿
+⠈⢿⣧⣼⡿⠁ ⣿⡇⢾⡷  ⠈⢿⣧⣼⡿⠁
+ ⠈⢿⡿⠁  ⠙⠿⣶⣶⠿  ⠈⢿⡿⠁ Library release script\n""")
+
 	args = parser.parse_args()
 	if not args.command:
 		parser.print_help()
