@@ -40,3 +40,8 @@ MANIFESTS_CACHE_FILE = "manifests-cache.json"
 MODULARGRID_FILE = "ModularGrid-VCVLibrary.json"
 HTTP_TIMEOUT = 15
 HTTP_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+
+try:
+	from .config_overrides import *
+except ModuleNotFoundError:
+	pass
