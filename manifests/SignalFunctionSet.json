@@ -1,7 +1,7 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.21.0",
+  "version": "2.22.0",
   "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
@@ -211,7 +211,8 @@
       "manualUrl": "https://signalfunctionset.com/projects/muse/",
       "tags": [
         "Sequencer",
-        "Random"
+        "Random",
+        "Hardware clone"
       ]
     },
     {
@@ -234,7 +235,8 @@
       "tags": [
         "Filter",
         "Polyphonic",
-        "Effect"
+        "Effect",
+        "Tuner"
       ]
     },
     {
@@ -257,7 +259,8 @@
       "tags": [
         "Oscillator",
         "Synth voice",
-        "Polyphonic"
+        "Polyphonic",
+        "Envelope follower"
       ]
     },
     {
@@ -447,7 +450,8 @@
       "tags": [
         "Random",
         "Polyphonic",
-        "Utility"
+        "Utility",
+        "Noise"
       ]
     },
     {
@@ -542,6 +546,36 @@
         "Expander",
         "Granular",
         "Sampler"
+      ]
+    },
+    {
+      "slug": "Canon",
+      "name": "Canon",
+      "description": "Four arpeggiators reading one chord progression, wandering from it as Fugue does.",
+      "tags": [
+        "Arpeggiator",
+        "Sequencer",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "Count",
+      "name": "Count",
+      "description": "A narrow clock: six gate outputs, each a rate and a mask over one cycle of steps.",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Carillon",
+      "name": "Carillon",
+      "description": "Bells joined by rods you draw: velocity and reach set how far a strike ripples.",
+      "tags": [
+        "Physical modeling",
+        "Synth voice",
+        "Polyphonic"
       ]
     }
   ]
