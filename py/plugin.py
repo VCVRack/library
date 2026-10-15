@@ -64,6 +64,7 @@ def version_key(version):
 
 class Plugin:
 	source_dir = None
+	extraction_dir = None
 	manifest = None
 	library_manifest = None
 
@@ -89,14 +90,21 @@ class Plugin:
 	def extract_packages(self):
 		if not self.package_paths:
 			return
+		if not self.extraction_dir:
+			self.extraction_dir = tempfile.mkdtemp(dir=EXTRACTION_DIR)
 
 		# Extract packages to temporary directory.
 		for package_path in self.package_paths:
-			package_extraction_dir = os.path.join(EXTRACTION_DIR, os.path.basename(package_path))
-			if os.path.isdir(package_extraction_dir):
-				shutil.rmtree(package_extraction_dir)
-			os.mkdir(package_extraction_dir)
-			run("tar", "--zstd", "-xf", os.path.abspath(package_path), "-C", package_extraction_dir, capture_stderr=True)
+			dist_dir = self.get_dist_dir(package_path)
+			if os.path.isdir(dist_dir):
+				shutil.rmtree(dist_dir)
+			os.mkdir(dist_dir)
+			run("tar", "--zstd", "-xf", os.path.abspath(package_path), "-C", dist_dir, capture_stderr=True)
+
+	def get_dist_dir(self, package_path):
+		filename = os.path.basename(package_path)
+		basename = os.path.splitext(filename)[0]
+		return os.path.join(self.extraction_dir, basename)
 
 	def load_manifest(self):
 		# Load manifest from source directory or extracted packages.
@@ -105,10 +113,10 @@ class Plugin:
 				self.manifest = json.load(f)
 		elif self.package_paths:
 			for package_path in self.package_paths:
-				directory = os.path.join(EXTRACTION_DIR, os.path.basename(package_path))
-				entries = list(os.scandir(directory))
+				dist_dir = self.get_dist_dir(package_path)
+				entries = list(os.scandir(dist_dir))
 				if len(entries) != 1 or not entries[0].is_dir(follow_symlinks=False):
-					raise ValueError(f"Extracted archive {directory!r} does not contain a sole plugin directory: {[entry.name for entry in entries]!r}")
+					raise ValueError(f"Extracted archive {dist_dir!r} does not contain a sole plugin directory: {[entry.name for entry in entries]!r}")
 				with open(os.path.join(entries[0].path, "plugin.json"), encoding="utf-8") as f:
 					package_manifest = json.load(f)
 				if self.manifest is None:
@@ -343,7 +351,7 @@ class Plugin:
 			filename = f"{slug}-{version}-{architecture}.vcvplugin"
 			if filename not in filenames:
 				raise ValueError(f"Package {filename!r} is missing.")
-			dist_dir = os.path.join(EXTRACTION_DIR, filename)
+			dist_dir = self.get_dist_dir(filename)
 			if warning := self.review_dist(dist_dir, architecture):
 				warnings.append(warning)
 			filenames.remove(filename)
