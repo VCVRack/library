@@ -302,7 +302,7 @@ class Plugin:
 				continue
 			size = os.path.getsize(abs_path)
 			if size > config.LARGE_FILE_SIZE:
-				warnings.append(f"Git tracks large file {abs_path!r} containing {size} bytes, exceeding {config.LARGE_FILE_SIZE} bytes.")
+				warnings.append(f"Git tracks large file {abs_path!r} containing {size / 1024:.0f} KiB, exceeding {config.LARGE_FILE_SIZE / 1024:.0f} KiB.")
 		return '\n'.join(warnings) or None
 
 	def review_source(self):
