@@ -64,6 +64,8 @@ def version_key(version):
 
 class Plugin:
 	source_dir = None
+	repo_url = None
+	repo_commit = None
 	extraction_dir = None
 	manifest = None
 	library_manifest = None
@@ -76,6 +78,31 @@ class Plugin:
 
 	def add_package_path(self, path):
 		self.package_paths.append(path)
+
+	def checkout_repo(self):
+		if not self.repo_url and not self.repo_commit:
+			return
+
+		if self.repo_url:
+			# Clone repository into a new directory
+			if os.path.exists(self.source_dir):
+				raise FileExistsError(f"Repository directory {self.source_dir!r} already exists.")
+			info(f"Cloning {self.source_dir}")
+			run("git", "clone", "--", self.repo_url, self.source_dir, capture_stderr=True)
+		else:
+			# Check for uncommitted changes
+			changes = run("git", "status", "--porcelain", cwd=self.source_dir, capture_stdout=True)
+			if changes:
+				raise RuntimeError(f"Repository {self.source_dir!r} has uncommitted changes.\n\n{changes}")
+
+		# Check out requested commit hash
+		if self.repo_commit:
+			info(f"Checking out {self.source_dir} at {self.repo_commit}")
+			run("git", "fetch", "--", "origin", self.repo_commit, cwd=self.source_dir, capture_stderr=True)
+			run("git", "checkout", "--detach", "FETCH_HEAD", cwd=self.source_dir, capture_stderr=True)
+
+		# Initialize submodules
+		run("git", "submodule", "update", "--init", "--recursive", cwd=self.source_dir, capture_stderr=True)
 
 	def get_slug(self):
 		if self.manifest is None:

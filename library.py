@@ -34,7 +34,17 @@ def clear_toolchain_build_dir():
 	run("make", "plugin-build-clean", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
 
 
-def load(paths=None):
+def resolve_path(path):
+	if os.path.exists(path) or os.path.dirname(path):
+		return path
+	return os.path.join(config.REPOS_DIR, path)
+
+
+def resolve_paths(paths=None):
+	if paths:
+		# Transform slugs to repo paths.
+		paths = [resolve_path(path) for path in paths]
+
 	# If no paths are given, use directories in config.REPOS_DIR that contain plugin.json.
 	if not paths:
 		info(f"Checking {config.REPOS_DIR} for new plugin versions")
@@ -46,14 +56,24 @@ def load(paths=None):
 			if os.path.isfile(manifest_path):
 				paths.append(entry.path)
 		paths.sort()
+	return paths
+
+
+def load(paths=None, commit=None, repo_url=None):
+	if commit or repo_url:
+		if not paths or len(paths) != 1:
+			raise ValueError("--commit and --add-repo require exactly one source directory or slug.")
+	paths = resolve_paths(paths)
 
 	# Create Plugins from paths.
 	plugins = []
 	packaged_plugins = {}
 	for path in paths:
-		if os.path.isdir(path):
+		if os.path.isdir(path) or repo_url:
 			plugin = Plugin()
 			plugin.set_source_dir(path)
+			plugin.repo_url = repo_url
+			plugin.repo_commit = commit
 			plugins.append(plugin)
 		elif path.endswith(".vcvplugin"):
 			filename = os.path.basename(path)
@@ -72,6 +92,7 @@ def load(paths=None):
 	loaded_plugins = []
 	for plugin in plugins:
 		try:
+			plugin.checkout_repo()
 			plugin.extract_packages()
 			plugin.load_manifest()
 			plugin.load_library_manifest()
@@ -87,8 +108,9 @@ def load(paths=None):
 	return loaded_plugins
 
 
-def review(paths=None):
-	plugins = load(paths)
+def review(paths=None, commit=None, repo_url=None):
+	pull_library()
+	plugins = load(paths, commit, repo_url)
 	has_source_plugins = any(plugin.source_dir for plugin in plugins)
 	if has_source_plugins:
 		clear_toolchain_build_dir()
@@ -97,6 +119,13 @@ def review(paths=None):
 	finally:
 		if has_source_plugins:
 			clear_toolchain_build_dir()
+	if not reviewed_plugins:
+		info("No plugins to review")
+		return
+
+	commit_paths = add_submodules(reviewed_plugins)
+	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
+	commit_library(commit_paths, f"Update {update_message}")
 
 
 def review_plugins(plugins):
@@ -244,17 +273,51 @@ def publish_plugins(plugins):
 	return published_plugins
 
 
-def publish(paths=None):
-	# Pull library repo and update submodules
+def add_submodules(plugins):
+	repos_dir = os.path.abspath(config.REPOS_DIR)
+	commit_paths = []
+	for plugin in plugins:
+		# Only include source directories inside the library's repos directory
+		if not plugin.source_dir:
+			continue
+		source_dir = os.path.abspath(plugin.source_dir)
+		if os.path.commonpath([repos_dir, source_dir]) != repos_dir:
+			continue
+
+		repo_path = os.path.relpath(source_dir)
+		if plugin.repo_url:
+			run("git", "submodule", "add", "--", plugin.repo_url, repo_path, capture_stderr=True)
+		commit_paths.append(repo_path)
+	if commit_paths:
+		commit_paths.append(".gitmodules")
+	return commit_paths
+
+
+def commit_library(paths, message):
+	if not paths:
+		return
+	run("git", "add", "--", *paths, capture_stderr=True)
+	changes = run("git", "diff", "--cached", "--name-only", "--", *paths, capture_stdout=True)
+	if not changes:
+		info("No library changes to commit")
+		return
+
+	info("Committing library repo")
+	run("git", "commit", "--only", "-m", message, "--", *paths, capture_stderr=True)
+	info("Pushing library repo")
+	run_retry("git", "push")
+
+
+def pull_library():
 	info("Pulling library repo")
 	run_retry("git", "pull")
-	info("Synchronizing submodule URLs")
-	run("git", "submodule", "sync", "--recursive", "--quiet", capture_stderr=True)
-	info("Updating submodules")
-	run("git", "submodule", "update", "--init", "--recursive", capture_stderr=True)
+
+
+def publish(paths=None, commit=None, repo_url=None):
+	pull_library()
 
 	# Load, review, and publish plugins
-	loaded_plugins = load(paths)
+	loaded_plugins = load(paths, commit, repo_url)
 	has_source_plugins = any(plugin.source_dir for plugin in loaded_plugins)
 	if has_source_plugins:
 		clear_toolchain_build_dir()
@@ -306,21 +369,19 @@ def publish(paths=None):
 	info("Uploading screenshots")
 	run_retry("make", "upload", cwd=config.SCREENSHOTS_DIR)
 
-	# Commit and push library repo
-	info("Committing manifests")
-	manifest_paths = []
+	commit_paths = add_submodules(published_plugins)
+
+	# Copy manifests to library
 	for plugin in published_plugins:
 		path = os.path.join(config.MANIFESTS_DIR, f"{plugin.get_slug()}.json")
 		with open(path, "w", encoding="utf-8") as f:
 			json.dump(plugin.manifest, f, indent="  ")
-		manifest_paths.append(path)
-	commit_paths = [*manifest_paths, config.MANIFESTS_CACHE_FILE, config.MODULARGRID_FILE]
-	run("git", "add", "--", *commit_paths, capture_stderr=True)
-	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in published_plugins)
-	run_retry("git", "commit", "--only", "-m", f"Update manifest {update_message}", "--", *commit_paths)
+		commit_paths.append(path)
 
-	info("Pushing library repo")
-	run_retry("git", "push")
+	commit_paths.append(config.MANIFESTS_CACHE_FILE)
+	commit_paths.append(config.MODULARGRID_FILE)
+	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in published_plugins)
+	commit_library(commit_paths, f"Update manifest {update_message}")
 
 	info(f"Updated {update_message}")
 	for plugin in published_plugins:
@@ -333,11 +394,12 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	commands = parser.add_subparsers(dest="command")
 
-	review_parser = commands.add_parser("review", help="Review source directories and package archives")
-	review_parser.add_argument("paths", nargs="*", metavar="PATH", help="Source directory or .vcvplugin archive")
-
-	publish_parser = commands.add_parser("publish", help="Review and publish source directories and package archives")
-	publish_parser.add_argument("paths", nargs="*", metavar="PATH", help="Source directory or .vcvplugin archive")
+	review_parser = commands.add_parser("review", help="Review plugins and commit approved repository changes", description="Pull the library repository, review plugins, build source plugins, and test packages in Rack. Commit and push approved repository changes.")
+	publish_parser = commands.add_parser("publish", help="Review plugins and publish packages", description="Pull the library repository, review plugins, build source plugins, and test packages in Rack. Publish packages, generate and upload screenshots, then commit and push library changes.")
+	for command_parser in (review_parser, publish_parser):
+		command_parser.add_argument("paths", nargs="*", metavar="PATH", help=f"Plugin slugs, source directories, or .vcvplugin archives. With no paths, scan directories in {config.REPOS_DIR} containing plugin.json. Skip versions already in the library or older.")
+		command_parser.add_argument("--commit", metavar="HASH", help="Fetch and check out this commit before review. Requires one source directory or slug. Without this option, keep its current checkout.")
+		command_parser.add_argument("--add-repo", dest="repo_url", metavar="URL", help=f"Clone this URL into one new source directory. A slug selects {config.REPOS_DIR}/SLUG. After approval, add repositories inside {config.REPOS_DIR} as submodules. Can be combined with --commit.")
 
 	info("""\
 ⢿⣦  ⣴⡿ ⣠⣶⠿⠿⣶ ⢿⣦  ⣴⡿
@@ -348,6 +410,6 @@ if __name__ == "__main__":
 	if not args.command:
 		parser.print_help()
 	elif args.command == "review":
-		review(args.paths)
+		review(args.paths, args.commit, args.repo_url)
 	elif args.command == "publish":
-		publish(args.paths)
+		publish(args.paths, args.commit, args.repo_url)
