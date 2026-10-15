@@ -8,7 +8,7 @@ import webbrowser
 from concurrent.futures import ThreadPoolExecutor
 
 from py.command import run
-from py.console import choose, info, warn
+from py.console import choose, error, info, warn
 from py import config, manifest_cache, modulargrid
 from py.plugin import Plugin, version_key
 
@@ -66,7 +66,7 @@ def load(paths=None):
 				plugins.append(packaged_plugins[key])
 			packaged_plugins[key].add_package_path(path)
 		else:
-			warn(f"{path!r} is not a directory or a .vcvplugin archive.")
+			error(f"{path!r} is not a directory or a .vcvplugin archive.")
 
 	# Load manifests and select Plugins to update.
 	loaded_plugins = []
@@ -82,8 +82,8 @@ def load(paths=None):
 			if any(loaded_plugin.get_slug() == plugin.get_slug() for loaded_plugin in loaded_plugins):
 				raise ValueError(f"Plugin {plugin.get_slug()!r} is already loaded.")
 			loaded_plugins.append(plugin)
-		except Exception as error:
-			warn(f"{plugin.source_dir or plugin.package_paths}: {error}")
+		except Exception as exception:
+			error(f"{plugin.source_dir or plugin.package_paths}: {exception}")
 	return loaded_plugins
 
 
@@ -126,8 +126,8 @@ def review_plugins(plugins):
 				choose("Press Enter to approve manifest", "\n")
 
 			reviewed_plugins.append(plugin)
-		except Exception as error:
-			warn(f"{plugin.get_slug()}: {error}")
+		except Exception as exception:
+			error(f"{plugin.get_slug()}: {exception}")
 			choose("[r]eject: ", "r")
 
 	reviewed_plugins = review_plugins_with_cppcheck(reviewed_plugins)
@@ -155,8 +155,8 @@ def review_plugins_with_cppcheck(plugins):
 	for plugin in plugins:
 		try:
 			warnings = plugin.review_source_with_cppcheck()
-		except Exception as error:
-			warn(f"{plugin.get_slug()}: {error}")
+		except Exception as exception:
+			error(f"{plugin.get_slug()}: {exception}")
 			choose("[r]eject: ", "r")
 			continue
 		if not approve_warnings(plugin, warnings):
@@ -192,8 +192,8 @@ def build_plugins(plugins):
 				info(f"Building {plugin.get_slug()}")
 				plugin.build_source()
 			built_plugins.append(plugin)
-		except Exception as error:
-			warn(f"{plugin.get_slug()}: {error}")
+		except Exception as exception:
+			error(f"{plugin.get_slug()}: {exception}")
 			choose("[r]eject: ", "r")
 	return built_plugins
 
@@ -206,8 +206,8 @@ def install_plugins(plugins):
 			info(f"Installing {plugin.get_slug()} {plugin.get_version()}")
 			plugin.install_package()
 			installed_plugins.append(plugin)
-		except Exception as error:
-			warn(f"{plugin.get_slug()}: {error}")
+		except Exception as exception:
+			error(f"{plugin.get_slug()}: {exception}")
 			choose("[r]eject: ", "r")
 	return installed_plugins
 
@@ -237,8 +237,8 @@ def publish_plugins(plugins):
 			info(f"Publishing {plugin.get_slug()} {plugin.get_version()}")
 			plugin.publish_packages()
 			published_plugins.append(plugin)
-		except Exception as error:
-			warn(f"{plugin.get_slug()}: {error}")
+		except Exception as exception:
+			error(f"{plugin.get_slug()}: {exception}")
 			choose("[r]eject: ", "r")
 	return published_plugins
 

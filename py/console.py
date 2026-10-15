@@ -11,6 +11,10 @@ def warn(message):
 	print(f"\033[33m{message}\033[0m")
 
 
+def error(message):
+	print(f"\033[31m{message}\033[0m")
+
+
 def choose(prompt, choices):
 	fd = sys.stdin.fileno()
 	settings = termios.tcgetattr(fd)
