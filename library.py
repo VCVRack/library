@@ -5,7 +5,7 @@ import os
 import json
 import shutil
 import webbrowser
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from py.command import run
 from py.console import choose, error, info, warn
@@ -170,17 +170,18 @@ def review_plugins_concurrently(plugins, func):
 		return []
 
 	with ThreadPoolExecutor(max_workers=len(plugins)) as executor:
-		futures = [executor.submit(func, plugin) for plugin in plugins]
+		futures = {executor.submit(func, plugin): plugin for plugin in plugins}
 
-	reviewed_plugins = []
-	for plugin, future in zip(plugins, futures):
-		try:
-			warnings = future.result()
-		except Exception as error:
-			warnings = f"Review failed.\n\n{error}"
-		if not approve_warnings(plugin, warnings):
-			continue
-		reviewed_plugins.append(plugin)
+		reviewed_plugins = []
+		for future in as_completed(futures):
+			plugin = futures[future]
+			try:
+				warnings = future.result()
+			except Exception as error:
+				warnings = f"Review failed.\n\n{error}"
+			if not approve_warnings(plugin, warnings):
+				continue
+			reviewed_plugins.append(plugin)
 	return reviewed_plugins
 
 
