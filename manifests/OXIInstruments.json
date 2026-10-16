@@ -1,0 +1,38 @@
+{
+  "slug": "OXIInstruments",
+  "name": "OXI Instruments",
+  "version": "2.8.1",
+  "license": "proprietary",
+  "brand": "OXI Instruments",
+  "author": "OXI Instruments",
+  "authorUrl": "https://www.oxiinstruments.com",
+  "pluginUrl": "https://www.oxiinstruments.com",
+  "minRackVersion": "2",
+  "modules": [
+    {
+      "slug": "Coral",
+      "name": "Coral",
+      "description": "8-voice multi-engine multitimbral synth voice (shared CoralCore DSP)",
+      "tags": [
+        "Polyphonic",
+        "Oscillator",
+        "Synth Voice",
+        "Drum",
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "Meta",
+      "name": "Meta",
+      "description": "Stereo multi-effect: six scenes on a bipolar knob, running the Meta hardware DSP",
+      "tags": [
+        "Effect",
+        "Reverb",
+        "Delay",
+        "Filter",
+        "Dual",
+        "Polyphonic"
+      ]
+    }
+  ]
+}

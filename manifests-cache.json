@@ -18745,5 +18745,17 @@
         "creationTimestamp": 1791668678.9083877
       }
     }
+  },
+  "OXIInstruments": {
+    "buildTimestamp": 1792125316.8006015,
+    "creationTimestamp": 1792125316.805484,
+    "modules": {
+      "Coral": {
+        "creationTimestamp": 1792125316.805484
+      },
+      "Meta": {
+        "creationTimestamp": 1792125316.805484
+      }
+    }
   }
 }
