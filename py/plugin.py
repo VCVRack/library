@@ -2,6 +2,7 @@ import atexit
 import json
 import os
 import re
+import shlex
 import shutil
 import tempfile
 from urllib.parse import urldefrag, urlsplit
@@ -325,6 +326,8 @@ class Plugin:
 		paths = [path for path in output.split('\0') if path]
 		warnings = []
 		junk_paths = set()
+		binary_paths = []
+		large_files = []
 		for path in paths:
 			# Find outermost junk entry in tracked path.
 			filename = os.path.basename(path)
@@ -334,22 +337,36 @@ class Plugin:
 				if os.path.basename(directory) in config.JUNK_ENTRIES:
 					junk_path = directory
 			if junk_path:
-				if junk_path not in junk_paths:
-					warnings.append(f"Git tracks junk entry {os.path.join(self.source_dir, junk_path)!r}.")
-					junk_paths.add(junk_path)
+				junk_paths.add(junk_path)
 
 			# Check file extension.
 			abs_path = os.path.abspath(os.path.join(self.source_dir, path))
 			extension = os.path.splitext(filename)[1].lower()
 			if extension in config.BINARY_EXTENSIONS:
-				warnings.append(f"Git tracks binary file {abs_path!r}.")
+				binary_paths.append(path)
 
 			# Check file size.
 			if not os.path.isfile(abs_path):
 				continue
 			size = os.path.getsize(abs_path)
 			if size > config.LARGE_FILE_SIZE:
-				warnings.append(f"Git tracks large file {abs_path!r} containing {size / 1024:.0f} KiB, exceeding {config.LARGE_FILE_SIZE / 1024:.0f} KiB.")
+				large_files.append({"name": path, "size": size})
+
+		if junk_paths:
+			junk_paths = sorted(junk_paths)
+			junk_paths_string = ", ".join(f"`{path}`" for path in junk_paths)
+			junk_paths_command = shlex.join(["git", "rm", "-r", "--cached", "--", *junk_paths])
+			warnings.append(f"Junk files {junk_paths_string} are committed to Git. Run `{junk_paths_command}` to stage their removal without deleting them locally. Use `.gitignore` to ignore them.")
+
+		if binary_paths:
+			binary_paths_string = ", ".join(f"`{path}`" for path in binary_paths)
+			binary_paths_command = shlex.join(["git", "rm", "--cached", "--ignore-unmatch", "--", *binary_paths])
+			warnings.append(f"Binary files {binary_paths_string} are committed to Git. Run `{binary_paths_command}` to stage their removal without deleting them locally. Use `.gitignore` to ignore them.")
+
+		if large_files:
+			large_files.sort(key=lambda file: file["name"])
+			large_files_string = ", ".join(f"`{file['name']}` ({file['size'] / 1024 ** 2:.1f} MiB)" for file in large_files)
+			warnings.append(f"Large files {large_files_string} are committed to Git. Consider removing them from Git history. See https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history.")
 		return '\n'.join(warnings) or None
 
 	def review_source(self):
