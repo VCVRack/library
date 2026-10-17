@@ -332,11 +332,13 @@ def publish(paths=None, commit=None, repo_url=None):
 		info("No plugins to publish")
 		return
 
-	# Update manifest cache and ModularGrid database
+	# Update manifest cache
+	info("Refreshing manifest cache")
+	manifest_cache.refresh_cache(published_plugins)
+
+	# Update ModularGrid database
 	while True:
 		try:
-			info("Refreshing manifest cache")
-			manifest_cache.refresh_cache(published_plugins)
 			info("Updating ModularGrid database")
 			modulargrid.update(published_plugins)
 			break

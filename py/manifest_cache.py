@@ -17,27 +17,21 @@ def refresh_cache(plugins):
 	for plugin in plugins:
 		cache_plugin = cache.get(plugin.get_slug(), {})
 
-		build_timestamp = plugin.get_package_timestamp()
-		if build_timestamp is not None:
-			cache_plugin['buildTimestamp'] = build_timestamp
+		cache_plugin['buildTimestamp'] = publish_timestamp
 
-		# Get plugin creation
+		# If plugin is new, set its creation timestamp
 		if 'creationTimestamp' not in cache_plugin:
-			creation_timestamp = plugin.get_creation_timestamp()
-			cache_plugin['creationTimestamp'] = creation_timestamp if creation_timestamp is not None else publish_timestamp
+			cache_plugin['creationTimestamp'] = publish_timestamp
 
 		cache_modules = cache_plugin.get('modules', {})
 		modules = plugin.manifest.get('modules', [])
-		missing_module_slugs = [module['slug'] for module in modules if 'creationTimestamp' not in cache_modules.get(module['slug'], {})]
-		creation_timestamps = plugin.get_module_creation_timestamps(missing_module_slugs)
 		for module in modules:
 			module_slug = module['slug']
 			cache_module = cache_modules.get(module_slug, {})
 
-			# Get module creation
+			# If module is new, set its creation timestamp
 			if 'creationTimestamp' not in cache_module:
-				creation_timestamp = creation_timestamps[module_slug]
-				cache_module['creationTimestamp'] = creation_timestamp if creation_timestamp is not None else publish_timestamp
+				cache_module['creationTimestamp'] = publish_timestamp
 
 			cache_modules[module_slug] = cache_module
 		cache_plugin['modules'] = cache_modules
