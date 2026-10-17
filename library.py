@@ -122,13 +122,12 @@ def load(paths=None, commit=None, repo_url=None):
 def review(paths=None, commit=None, repo_url=None):
 	pull_library()
 	plugins = load(paths, commit, repo_url)
-	has_source_plugins = any(plugin.source_dir for plugin in plugins)
-	if has_source_plugins:
+	if any(plugin.source_dir for plugin in plugins):
 		clear_toolchain_build_dir()
 	try:
 		reviewed_plugins = review_plugins(plugins)
 	finally:
-		if has_source_plugins:
+		if any(plugin.source_dir for plugin in plugins):
 			clear_toolchain_build_dir()
 	if not reviewed_plugins:
 		info("No plugins to review")
@@ -335,14 +334,13 @@ def publish(paths=None, commit=None, repo_url=None):
 
 	# Load, review, and publish plugins
 	loaded_plugins = load(paths, commit, repo_url)
-	has_source_plugins = any(plugin.source_dir for plugin in loaded_plugins)
-	if has_source_plugins:
+	if any(plugin.source_dir for plugin in loaded_plugins):
 		clear_toolchain_build_dir()
 	try:
 		reviewed_plugins = review_plugins(loaded_plugins)
 		published_plugins = publish_plugins(reviewed_plugins)
 	finally:
-		if has_source_plugins:
+		if any(plugin.source_dir for plugin in loaded_plugins):
 			clear_toolchain_build_dir()
 
 	if not published_plugins:
@@ -402,7 +400,6 @@ def publish(paths=None, commit=None, repo_url=None):
 	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in published_plugins)
 	commit_library(commit_paths, f"Update manifest {update_message}")
 
-	info(f"Updated {update_message}")
 	for plugin in published_plugins:
 		if not plugin.is_source_in_library():
 			continue

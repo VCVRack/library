@@ -438,10 +438,9 @@ class Plugin:
 		return '\n'.join(warnings) or None
 
 	def build_source(self):
+		"""Builds source for each architecture and sets package_paths the the toolchain's output."""
 		if not self.source_dir:
 			raise RuntimeError("No source directory set.")
-		if self.manifest is None:
-			raise RuntimeError("No manifest loaded.")
 
 		# Build source for each architecture.
 		source_dir = os.path.abspath(self.source_dir)
@@ -461,6 +460,7 @@ class Plugin:
 		self.package_paths = package_paths
 
 	def install_package(self):
+		"""Installs native package to user's Rack plugin directory."""
 		if not self.package_paths:
 			raise RuntimeError("No packages available.")
 		# Install to Rack plugin directory
@@ -469,8 +469,7 @@ class Plugin:
 		shutil.copyfile(package_path, os.path.join(config.RACK_PLUGIN_DIR, filename))
 
 	def publish_packages(self):
-		if self.manifest is None:
-			raise RuntimeError("No manifest loaded.")
+		"""Copies all packages to server package directory."""
 		if not self.package_paths:
 			raise RuntimeError("No packages available.")
 		# Copy packages into server package directory.
