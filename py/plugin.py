@@ -207,11 +207,6 @@ class Plugin:
 		if license.lower() != "proprietary" and license not in SPDX_IDS and not is_valid_url(license):
 			warnings.append(f"`plugin.json` has an invalid `license` value `{license}`. See https://spdx.org/licenses/ for valid license IDs.")
 
-		# Check source URL suffix.
-		if source_url := manifest.get("sourceUrl"):
-			if source_url.rstrip('/').endswith('.git'):
-				warnings.append(f"`plugin.json` has a `sourceUrl` value `{source_url}` ending in `.git`. Remove the `.git` suffix.")
-
 		# Collect module slugs already in library.
 		library_module_slugs = set()
 		if self.library_manifest:
