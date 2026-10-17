@@ -1,0 +1,34 @@
+{
+  "slug": "Xiehuo",
+  "name": "Xiehuo",
+  "version": "2.3.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Xiehuo",
+  "author": "Xiehuo",
+  "authorEmail": "caohaoxuan0624@gmail.com",
+  "authorUrl": "https://caohaoxuan.com/",
+  "manualUrl": "https://github.com/Xiehuo0624/SpectralDissector-VCV/blob/main/README.md",
+  "sourceUrl": "https://github.com/Xiehuo0624/SpectralDissector-VCV",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/Xiehuo0624/SpectralDissector-VCV/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "SpectralDissector",
+      "name": "Spectral Dissector",
+      "description": "High-fidelity 10-band spectral dissector (HPSS harmonic/noise/percussive separation).",
+      "tags": [
+        "Effect",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SpectralDissectorEXP",
+      "name": "Spectral Dissector EXP",
+      "description": "Right-channel breakout expander for Spectral Dissector: 1 mono R input plus 12 mono outputs (Dry R, Band 1-10 R, Mix R). Audio only.",
+      "tags": [
+        "Expander",
+        "Utility"
+      ]
+    }
+  ]
+}
