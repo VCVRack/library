@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from py.command import run
 from py.console import choose, error, info, warn
 from py import config, manifest_cache, modulargrid
-from py.plugin import Plugin, version_key
+from py.plugin import Plugin
 
 try:
 	from py import agent
@@ -109,7 +109,7 @@ def load(paths=None, commit=None, repo_url=None):
 			plugin.load_library_manifest()
 
 			# Skip plugins that are not newer than the library manifest
-			if plugin.library_manifest is not None and version_key(plugin.get_version()) <= version_key(plugin.library_manifest['version']):
+			if not plugin.is_new_version():
 				continue
 			if any(loaded_plugin.get_slug() == plugin.get_slug() for loaded_plugin in loaded_plugins):
 				raise ValueError(f"Plugin {plugin.get_slug()!r} is already loaded.")

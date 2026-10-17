@@ -134,6 +134,13 @@ class Plugin:
 			raise ValueError("`plugin.json` has no `version` value.")
 		return version
 
+	def is_new_version(self):
+		"""Returns whether this version is newer than the library version or the plugin is new to the library."""
+		version = self.get_version()
+		if self.library_manifest is None:
+			return True
+		return version_key(version) > version_key(self.library_manifest['version'])
+
 	def extract_package(self, package_path):
 		"""Extracts the package if needed and returns the directory containing its contents."""
 		if not self.extraction_dir:
