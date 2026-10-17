@@ -120,12 +120,18 @@ class Plugin:
 	def get_slug(self):
 		if self.manifest is None:
 			raise RuntimeError("No manifest loaded.")
-		return self.manifest['slug']
+		slug = self.manifest.get('slug')
+		if not slug:
+			raise ValueError("`plugin.json` has no `slug` value.")
+		return slug
 
 	def get_version(self):
 		if self.manifest is None:
 			raise RuntimeError("No manifest loaded.")
-		return self.manifest['version']
+		version = self.manifest.get('version')
+		if not version:
+			raise ValueError("`plugin.json` has no `version` value.")
+		return version
 
 	def extract_packages(self):
 		if not self.package_paths:
@@ -162,21 +168,17 @@ class Plugin:
 				if self.manifest is None:
 					self.manifest = package_manifest
 				elif package_manifest != self.manifest:
-					raise ValueError(f"Package {package_path!r} manifest does not match manifest from other packages.")
+					raise ValueError(f"Package `{os.path.basename(package_path)}` has a `plugin.json` file that differs from the other packages.")
 		else:
 			raise RuntimeError("No source directory or package paths set.")
 
 		# Check slug and version fields.
-		required_keys = {"slug", "version"}
-		missing_keys = required_keys - self.manifest.keys()
-		if missing_keys:
-			raise ValueError(f"Manifest is missing required fields: {', '.join(sorted(missing_keys))}.")
-		if not is_valid_slug(self.get_slug()):
-			raise ValueError(f"Plugin slug {self.get_slug()!r} is invalid.")
+		slug = self.get_slug()
+		if not is_valid_slug(slug):
+			raise ValueError(f"`plugin.json` has an invalid `slug` value `{slug}`.")
+		self.get_version()
 
 	def load_library_manifest(self):
-		if self.manifest is None:
-			raise RuntimeError("No manifest loaded.")
 		self.library_manifest = None
 		path = os.path.join(config.MANIFESTS_DIR, f"{self.get_slug()}.json")
 		try:
@@ -191,10 +193,9 @@ class Plugin:
 
 		# Check required plugin fields.
 		manifest = self.manifest
-		required_keys = {"name", "license", "author"}
-		missing_keys = required_keys - manifest.keys()
-		if missing_keys:
-			raise ValueError(f"Manifest is missing required fields: {', '.join(sorted(missing_keys))}.")
+		for key in ("name", "license", "author"):
+			if not manifest.get(key):
+				raise ValueError(f"`plugin.json` has no `{key}` value.")
 
 		plugin_slug = self.get_slug()
 		warnings = []
@@ -202,22 +203,17 @@ class Plugin:
 		# Check plugin major version.
 		version_parts = self.get_version().split('.')
 		if version_parts[0] != config.RACK_VERSION_MAJOR:
-			warnings.append(f"Plugin {self.get_slug()!r} version must start with {config.RACK_VERSION_MAJOR}.")
+			warnings.append(f"`plugin.json` has a `version` value `{self.get_version()}` that does not start with `{config.RACK_VERSION_MAJOR}`.")
 
 		# Check license.
 		license = manifest["license"]
 		if license.lower() != "proprietary" and license not in SPDX_IDS and not is_valid_url(license):
-			warnings.append(f"Plugin {plugin_slug!r} has an unrecognized license: {license!r}")
-
-		# Check plugin description.
-		if description := manifest.get("description"):
-			if '\n' in description or '\r' in description:
-				warnings.append(f"Plugin {plugin_slug!r} description contains a newline: {description!r}")
+			warnings.append(f"`plugin.json` has an invalid `license` value `{license}`. See https://spdx.org/licenses/ for valid license IDs.")
 
 		# Check source URL suffix.
 		if source_url := manifest.get("sourceUrl"):
 			if source_url.rstrip('/').endswith('.git'):
-				warnings.append(f"Plugin {plugin_slug!r} sourceUrl ends with '.git': {source_url!r}")
+				warnings.append(f"`plugin.json` has a `sourceUrl` value `{source_url}` ending in `.git`. Remove the `.git` suffix.")
 
 		# Collect module slugs already in library.
 		library_module_slugs = set()
@@ -227,43 +223,50 @@ class Plugin:
 		# Check module fields.
 		module_slugs = set()
 		for index, module in enumerate(manifest.get("modules", [])):
-			module_label = f"Plugin {plugin_slug!r} module {module['slug']!r}" if "slug" in module else f"Plugin {plugin_slug!r} module at index {index}"
-			required_keys = {"slug", "name"}
-			missing_keys = required_keys - module.keys()
-			if missing_keys:
-				raise ValueError(f"{module_label} is missing required fields: {', '.join(sorted(missing_keys))}.")
+			module_label = f"`plugin.json` module `{module['slug']}`" if module.get("slug") else f"`plugin.json` module at index {index}"
+			for key in ("slug", "name"):
+				if not module.get(key):
+					raise ValueError(f"{module_label} has no `{key}` value.")
 
 			slug = module["slug"]
 			if not is_valid_slug(slug):
 				raise ValueError(f"{module_label} has an invalid slug.")
 			if slug in module_slugs:
-				raise ValueError(f"{module_label} slug appears more than once in the manifest.")
+				raise ValueError(f"{module_label} has a duplicate slug.")
 			module_slugs.add(slug)
 
 			# Check whether the module slug contains the plugin slug or vice versa.
 			if slug not in library_module_slugs:
 				if plugin_slug.casefold() in slug.casefold():
-					warnings.append(f"{module_label} slug contains the plugin slug.")
+					warnings.append(f"Module slug `{slug}` contains plugin slug `{plugin_slug}`. Modules are already identified by the plugin they are in, so please remove `{plugin_slug}` from `{slug}`.")
 				elif slug.casefold() in plugin_slug.casefold():
-					warnings.append(f"Plugin slug {plugin_slug!r} contains module slug {slug!r}.")
+					warnings.append(f"Plugin slug `{plugin_slug}` contains module slug `{slug}`. The plugin slug should name the collection of modules rather than one module, so please remove `{slug}` from `{plugin_slug}`.")
 
 			for tag in module.get("tags", []):
 				if tag.lower() not in VALID_TAGS:
-					warnings.append(f"{module_label} has an unrecognized Rack tag: {tag!r}")
+					warnings.append(f"`plugin.json` has an invalid tag `{tag}` for module `{slug}`. Use a tag from https://vcvrack.com/manual/Manifest#modules-tags.")
 				if tag.lower() == "hardware clone" and not module.get("modularGridUrl"):
-					warnings.append(f"{module_label} has the 'Hardware clone' tag but no modularGridUrl.")
-
-			if description := module.get("description"):
-				if '\n' in description or '\r' in description:
-					warnings.append(f"{module_label} description contains a newline: {description!r}")
+					warnings.append(f"`plugin.json` has a `Hardware clone` tag for module `{slug}` but no `modularGridUrl`.")
 
 			if "disabled" in module:
-				warnings.append(f"{module_label} uses obsolete 'disabled' instead of 'hidden'.")
+				warnings.append(f"`plugin.json` has a deprecated `disabled` property for module `{slug}`. Replace `disabled` with `hidden`.")
 
 		if warning := self.review_manifest_urls():
 			warnings.append(warning)
-		if warning := self.review_library_changes():
-			warnings.append(warning)
+
+		# Check for new plugins and changed module slugs
+		library_manifest = self.library_manifest
+		if library_manifest is None:
+			warnings.append(f'Adding new plugin "{plugin_slug}" to library.')
+		else:
+			if plugin_slug != library_manifest["slug"]:
+				warnings.append(f"Plugin slug changed from `{library_manifest['slug']}` to `{plugin_slug}`, which breaks existing patches that use this plugin. Restore the original slug `{library_manifest['slug']}`.")
+			new_module_slugs = module_slugs - library_module_slugs
+			if new_module_slugs:
+				warnings.append(f"Plugin {plugin_slug!r} adds modules: {', '.join(sorted(new_module_slugs))}.")
+			for module in library_manifest.get("modules", []):
+				if module["slug"] not in module_slugs:
+					warnings.append(f"Module `{module['slug']}` has been removed, which breaks existing patches that use it. Restore the module with its original slug.")
 		return '\n'.join(warnings) or None
 
 	def review_manifest_urls(self):
@@ -275,44 +278,20 @@ class Plugin:
 		for key in ("authorUrl", "pluginUrl", "manualUrl", "sourceUrl", "donateUrl", "changelogUrl"):
 			if url := self.manifest.get(key):
 				if warning := review_url(url):
-					warnings.append(f"Plugin {self.get_slug()!r} {key}. {warning}")
+					warnings.append(f"`plugin.json` property `{key}`: {warning}")
 
 		# Check module URLs.
 		for module in self.manifest.get('modules', []):
 			for key in ("manualUrl", "modularGridUrl"):
 				if url := module.get(key):
 					if warning := review_url(url):
-						warnings.append(f"Plugin {self.get_slug()!r} module {module['slug']!r} {key}. {warning}")
+						warnings.append(f"`plugin.json` module `{module['slug']}` property `{key}`: {warning}")
 
 		# If license is a URL, check it.
 		license = self.manifest['license']
 		if license.lower().startswith(("http://", "https://")):
 			if warning := review_url(license):
-				warnings.append(f"Plugin {self.get_slug()!r} license. {warning}")
-
-		return '\n'.join(warnings) or None
-
-	def review_library_changes(self):
-		if self.manifest is None:
-			raise RuntimeError("No manifest loaded.")
-		warnings = []
-		if self.library_manifest is None:
-			return f'Adding new plugin "{self.get_slug()}" to library.'
-
-		# Check that manifest and library manifest have the same slug.
-		manifest = self.manifest
-		library_manifest = self.library_manifest
-		if manifest["slug"] != library_manifest["slug"]:
-			warnings.append(f"Plugin slug changed from {library_manifest['slug']!r} to {manifest['slug']!r}.")
-
-		module_slugs = {module["slug"] for module in manifest.get("modules", [])}
-		library_module_slugs = {module["slug"] for module in library_manifest.get("modules", [])}
-		new_module_slugs = module_slugs - library_module_slugs
-		if new_module_slugs:
-			warnings.append(f"Plugin {self.get_slug()!r} adds modules: {', '.join(sorted(new_module_slugs))}.")
-		for module in library_manifest.get("modules", []):
-			if module["slug"] not in module_slugs:
-				warnings.append(f"Plugin {self.get_slug()!r} removes library module {module['slug']!r}.")
+				warnings.append(f"`plugin.json` property `license`: {warning}")
 
 		return '\n'.join(warnings) or None
 
