@@ -80,6 +80,14 @@ class Plugin:
 	def set_source_dir(self, directory):
 		self.source_dir = directory
 
+	def is_source_in_library(self):
+		"""Returns whether the source directory is inside config.REPOS_DIR."""
+		if not self.source_dir:
+			return False
+		source_dir = os.path.abspath(self.source_dir)
+		repos_dir = os.path.abspath(config.REPOS_DIR)
+		return os.path.commonpath([repos_dir, source_dir]) == repos_dir
+
 	def add_package_path(self, path):
 		self.package_paths.append(path)
 

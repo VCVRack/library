@@ -123,7 +123,7 @@ def review(paths=None, commit=None, repo_url=None):
 		info("No plugins to review")
 		return
 
-	commit_paths = add_submodules(reviewed_plugins)
+	commit_paths = add_git_submodules(reviewed_plugins)
 	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
 	commit_library(commit_paths, f"Update {update_message}")
 
@@ -273,23 +273,20 @@ def publish_plugins(plugins):
 	return published_plugins
 
 
-def add_submodules(plugins):
-	repos_dir = os.path.abspath(config.REPOS_DIR)
+def add_git_submodules(plugins):
+	"""If any given Plugins are new submodules, adds them to Git and returns the paths to commit."""
 	commit_paths = []
 	for plugin in plugins:
 		# Only include source directories inside the library's repos directory
-		if not plugin.source_dir:
-			continue
-		source_dir = os.path.abspath(plugin.source_dir)
-		if os.path.commonpath([repos_dir, source_dir]) != repos_dir:
+		if not plugin.is_source_in_library():
 			continue
 
-		repo_path = os.path.relpath(source_dir)
+		repo_path = os.path.relpath(plugin.source_dir)
 		if plugin.repo_url:
 			run("git", "submodule", "add", "--", plugin.repo_url, repo_path, capture_stderr=True)
+			if ".gitmodules" not in commit_paths:
+				commit_paths.append(".gitmodules")
 		commit_paths.append(repo_path)
-	if commit_paths:
-		commit_paths.append(".gitmodules")
 	return commit_paths
 
 
@@ -371,7 +368,7 @@ def publish(paths=None, commit=None, repo_url=None):
 	info("Uploading screenshots")
 	run_retry("make", "upload", cwd=config.SCREENSHOTS_DIR)
 
-	commit_paths = add_submodules(published_plugins)
+	commit_paths = add_git_submodules(published_plugins)
 
 	# Copy manifests to library
 	for plugin in published_plugins:
@@ -387,6 +384,8 @@ def publish(paths=None, commit=None, repo_url=None):
 
 	info(f"Updated {update_message}")
 	for plugin in published_plugins:
+		if not plugin.is_source_in_library():
+			continue
 		# Open browser to plugin's GitHub library issue
 		url = f"https://github.com/VCVRack/library/issues?q=is%3Aissue+sort%3Aupdated-desc+in%3Atitle+{plugin.get_slug()}"
 		webbrowser.open(url)
