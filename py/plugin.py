@@ -4,8 +4,7 @@ import os
 import re
 import shutil
 import tempfile
-import time
-from urllib.parse import urlsplit
+from urllib.parse import urldefrag, urlsplit
 
 import requests
 
@@ -16,6 +15,8 @@ from .console import info
 
 EXTRACTION_DIR = tempfile.mkdtemp()
 atexit.register(shutil.rmtree, EXTRACTION_DIR)
+
+REACHABLE_URLS = set()
 
 
 with open(os.path.join(os.path.dirname(__file__), "spdx.json"), encoding="utf-8") as f:
@@ -41,14 +42,17 @@ def is_valid_url(url):
 
 def review_url(url):
 	if not is_valid_url(url):
-		return f"URL {url!r} is not a valid HTTP or HTTPS URL."
+		return f"URL `{url}` is not a valid HTTP or HTTPS URL."
+	request_url = urldefrag(url).url
+	if request_url in REACHABLE_URLS:
+		return None
 	headers = {"User-Agent": config.HTTP_USER_AGENT}
 	try:
-		time.sleep(1.0)
-		with requests.get(url, headers=headers, timeout=config.HTTP_TIMEOUT, stream=True) as response:
+		with requests.get(request_url, headers=headers, timeout=config.HTTP_TIMEOUT, stream=True) as response:
 			response.raise_for_status()
 	except requests.RequestException as error:
-		return f"URL {url!r} could not be reached. {error}"
+		return f"URL `{url}` could not be reached. {error}"
+	REACHABLE_URLS.add(request_url)
 	return None
 
 
