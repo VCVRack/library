@@ -35,8 +35,19 @@ def clear_toolchain_build_dir():
 
 
 def resolve_path(path):
-	if os.path.exists(path) or os.path.dirname(path):
+	# Accept package paths
+	if path.endswith(".vcvplugin"):
 		return path
+
+	# Accept existing directories
+	if os.path.isdir(path):
+		return path
+
+	# Accept explicit paths even if they do not exist
+	if os.path.dirname(path):
+		return path
+
+	# Convert slug to repository path
 	return os.path.join(config.REPOS_DIR, path)
 
 
@@ -60,6 +71,7 @@ def resolve_paths(paths=None):
 
 
 def load(paths=None, commit=None, repo_url=None):
+	"""Loads source directories, package paths, or repository slugs into Plugins that are new to the library or have newer versions."""
 	if commit or repo_url:
 		if not paths or len(paths) != 1:
 			raise ValueError("--commit and --add-repo require exactly one source directory or slug.")
@@ -93,7 +105,6 @@ def load(paths=None, commit=None, repo_url=None):
 	for plugin in plugins:
 		try:
 			plugin.checkout_repo()
-			plugin.extract_packages()
 			plugin.load_manifest()
 			plugin.load_library_manifest()
 
@@ -137,9 +148,6 @@ def review_plugins(plugins):
 			if warnings := plugin.review_manifest():
 				warn(warnings)
 				has_warnings = True
-			if warnings := plugin.review_packages():
-				warn(warnings)
-				has_warnings = True
 			if warnings := plugin.review_git():
 				warn(warnings)
 				has_warnings = True
@@ -152,7 +160,8 @@ def review_plugins(plugins):
 			# Show package manifest for approval.
 			if not plugin.source_dir:
 				print(json.dumps(plugin.manifest, indent="  "))
-				choose("Press Enter to approve manifest", "\n")
+				if choose("[a]pprove, [r]eject: ", "ar") == "r":
+					continue
 
 			reviewed_plugins.append(plugin)
 		except Exception as exception:
@@ -164,10 +173,24 @@ def review_plugins(plugins):
 		info("Reviewing source code with agent")
 		reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_source)
 	built_plugins = build_plugins(reviewed_plugins)
-	if agent and built_plugins:
+
+	# Review submitted and built packages
+	reviewed_plugins = []
+	for plugin in built_plugins:
+		try:
+			if warnings := plugin.review_packages():
+				warn(f"{plugin.get_slug()} issues\n{warnings}")
+				if choose("[a]pprove, [r]eject: ", "ar") == "r":
+					continue
+			reviewed_plugins.append(plugin)
+		except Exception as exception:
+			error(f"{plugin.get_slug()}: {exception}")
+			choose("[r]eject: ", "r")
+
+	if agent and reviewed_plugins:
 		info("Reviewing binaries with agent")
-		built_plugins = review_plugins_concurrently(built_plugins, agent.review_dist)
-	installed_plugins = install_plugins(built_plugins)
+		reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_dist)
+	installed_plugins = install_plugins(reviewed_plugins)
 	run_plugins(installed_plugins)
 	return installed_plugins
 

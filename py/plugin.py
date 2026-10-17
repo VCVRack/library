@@ -1,4 +1,5 @@
 import atexit
+import glob
 import json
 import os
 import re
@@ -133,24 +134,20 @@ class Plugin:
 			raise ValueError("`plugin.json` has no `version` value.")
 		return version
 
-	def extract_packages(self):
-		if not self.package_paths:
-			return
+	def extract_package(self, package_path):
+		"""Extracts the package if needed and returns the directory containing its contents."""
 		if not self.extraction_dir:
 			self.extraction_dir = tempfile.mkdtemp(dir=EXTRACTION_DIR)
 
-		# Extract packages to temporary directory.
-		for package_path in self.package_paths:
-			dist_dir = self.get_dist_dir(package_path)
-			if os.path.isdir(dist_dir):
-				shutil.rmtree(dist_dir)
-			os.mkdir(dist_dir)
-			run("tar", "--zstd", "-xf", os.path.abspath(package_path), "-C", dist_dir, capture_stderr=True)
-
-	def get_dist_dir(self, package_path):
 		filename = os.path.basename(package_path)
 		basename = os.path.splitext(filename)[0]
-		return os.path.join(self.extraction_dir, basename)
+		dist_dir = os.path.join(self.extraction_dir, basename)
+		if os.path.isdir(dist_dir):
+			return dist_dir
+
+		os.mkdir(dist_dir)
+		run("tar", "--zstd", "-xf", os.path.abspath(package_path), "-C", dist_dir, capture_stderr=True)
+		return dist_dir
 
 	def load_manifest(self):
 		# Load manifest from source directory or extracted packages.
@@ -159,11 +156,11 @@ class Plugin:
 				self.manifest = json.load(f)
 		elif self.package_paths:
 			for package_path in self.package_paths:
-				dist_dir = self.get_dist_dir(package_path)
-				entries = list(os.scandir(dist_dir))
-				if len(entries) != 1 or not entries[0].is_dir(follow_symlinks=False):
-					raise ValueError(f"Extracted archive {dist_dir!r} does not contain a sole plugin directory: {[entry.name for entry in entries]!r}")
-				with open(os.path.join(entries[0].path, "plugin.json"), encoding="utf-8") as f:
+				dist_dir = self.extract_package(package_path)
+				manifest_paths = glob.glob(f"{dist_dir}/*/plugin.json")
+				if not manifest_paths:
+					raise FileNotFoundError(f"Package `{os.path.basename(package_path)}` has no `plugin.json` file.")
+				with open(manifest_paths[0], encoding="utf-8") as f:
 					package_manifest = json.load(f)
 				if self.manifest is None:
 					self.manifest = package_manifest
@@ -374,56 +371,70 @@ class Plugin:
 
 	def review_packages(self):
 		if not self.package_paths:
-			return None
-		if self.manifest is None:
-			raise RuntimeError("No manifest loaded.")
+			raise RuntimeError("No packages available.")
 		slug = self.get_slug()
 		version = self.get_version()
-		filenames = [os.path.basename(path) for path in self.package_paths]
-		warnings = []
+		filenames = {os.path.basename(path) for path in self.package_paths}
+
 		# Check that every architecture has a package for this slug and version.
-		for architecture in config.ARCHITECTURES:
-			filename = f"{slug}-{version}-{architecture}.vcvplugin"
-			if filename not in filenames:
-				raise ValueError(f"Package {filename!r} is missing.")
-			dist_dir = self.get_dist_dir(filename)
+		filenames_by_architecture = {architecture: f"{slug}-{version}-{architecture}.vcvplugin" for architecture in config.ARCHITECTURES}
+		expected_filenames = set(filenames_by_architecture.values())
+		missing_filenames = expected_filenames - filenames
+		if missing_filenames:
+			raise ValueError(f"Missing packages: {', '.join(sorted(missing_filenames))}.")
+		unexpected_filenames = filenames - expected_filenames
+		if unexpected_filenames:
+			raise ValueError(f"Unexpected packages: {', '.join(sorted(unexpected_filenames))}.")
+		if len(filenames) != len(self.package_paths):
+			raise ValueError("Multiple packages have the same filename.")
+
+		# Extract all packages
+		dist_dirs_by_architecture = {}
+		for architecture, filename in filenames_by_architecture.items():
+			package_path = next(path for path in self.package_paths if os.path.basename(path) == filename)
+			dist_dirs_by_architecture[architecture] = self.extract_package(package_path)
+
+		# Review all extracted contents
+		warnings = []
+		for architecture, dist_dir in dist_dirs_by_architecture.items():
 			if warning := self.review_dist(dist_dir, architecture):
 				warnings.append(warning)
-			filenames.remove(filename)
-		if filenames:
-			raise ValueError(f"Unexpected package filenames for {slug!r} {version!r}: {filenames!r}")
 		return '\n'.join(warnings) or None
 
 	def review_dist(self, dist_dir, architecture):
+		"""Reviews package's extracted contents."""
+		warnings = []
+		package_filename = f"{self.get_slug()}-{self.get_version()}-{architecture}.vcvplugin"
+
 		# Check that dist contains one plugin directory matching manifest slug.
 		slug = self.get_slug()
 		entries = list(os.scandir(dist_dir))
-		if len(entries) != 1:
-			raise ValueError(f"Dist directory {dist_dir!r} contains {len(entries)} entries, but exactly one is required.")
-		if not entries[0].is_dir(follow_symlinks=False):
-			raise NotADirectoryError(f"Dist entry {entries[0].path!r} is not a directory.")
-		if entries[0].name != slug:
-			raise ValueError(f"Plugin directory {entries[0].name!r} in {dist_dir!r} does not match manifest slug {slug!r}.")
+		if not (len(entries) == 1 and entries[0].is_dir() and entries[0].name == slug):
+			entries_string = ", ".join(f"`{entry.name}`" for entry in entries) or "no entries"
+			warnings.append(f"Package `{package_filename}` contains {entries_string} at its root. It must contain only one directory named `{slug}`.")
 
 		# Check for platform's plugin binary.
 		platform = architecture.split("-")[0]
 		binary_filename = config.PLUGIN_BINARY_FILENAMES[platform]
 		binary_path = os.path.join(dist_dir, slug, binary_filename)
 		if not os.path.isfile(binary_path):
-			raise FileNotFoundError(f"{binary_path!r} is missing.")
+			warnings.append(f"Package `{package_filename}` is missing `{slug}/{binary_filename}`.")
 
 		# Scan dist directory for junk entries.
-		warnings = []
+		junk_paths = []
 		def review_dir(directory):
 			with os.scandir(directory) as entries:
 				for entry in entries:
 					if entry.name in config.JUNK_ENTRIES:
-						warnings.append(f"Dist directory contains junk entry {entry.path!r}.")
+						junk_paths.append(os.path.relpath(entry.path, dist_dir))
 						continue
 					if entry.is_dir(follow_symlinks=False):
 						review_dir(entry.path)
 
 		review_dir(dist_dir)
+		if junk_paths:
+			junk_paths_string = ", ".join(f"`{path}`" for path in sorted(junk_paths))
+			warnings.append(f"Junk files {junk_paths_string} are included in `{package_filename}`. Remove them from your `Makefile` and rebuild the package.")
 		return '\n'.join(warnings) or None
 
 	def build_source(self):
