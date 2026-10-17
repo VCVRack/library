@@ -144,18 +144,18 @@ def review_plugins(plugins):
 	for plugin in plugins:
 		try:
 			info(f"Reviewing {plugin.get_slug()}")
-			has_warnings = False
-			if warnings := plugin.review_manifest():
-				warn(warnings)
-				has_warnings = True
-			if warnings := plugin.review_git():
-				warn(warnings)
-				has_warnings = True
-			if warnings := plugin.review_source():
-				warn(warnings)
-				has_warnings = True
-			if has_warnings and choose("[a]pprove, [r]eject: ", "ar") == "r":
-				continue
+			warnings = []
+			if warning := plugin.review_git():
+				warnings.append(warning)
+			if warning := plugin.review_source():
+				warnings.append(warning)
+			if warning := plugin.review_manifest():
+				warnings.append(warning)
+			if warnings:
+				warn(f"{plugin.get_slug()} issues")
+				warn("\n".join(warnings))
+				if choose("[a]pprove, [r]eject: ", "ar") == "r":
+					continue
 
 			# Show package manifest for approval.
 			if not plugin.source_dir:
@@ -195,13 +195,6 @@ def review_plugins(plugins):
 	return installed_plugins
 
 
-def approve_warnings(plugin, warnings):
-	if not warnings:
-		return True
-	warn(f"{plugin.get_slug()}: {warnings}")
-	return choose("[a]pprove, [r]eject: ", "ar") == "a"
-
-
 def review_plugins_with_cppcheck(plugins):
 	reviewed_plugins = []
 	for plugin in plugins:
@@ -211,8 +204,10 @@ def review_plugins_with_cppcheck(plugins):
 			error(f"{plugin.get_slug()}: {exception}")
 			choose("[r]eject: ", "r")
 			continue
-		if not approve_warnings(plugin, warnings):
-			continue
+		if warnings:
+			warn(f"{plugin.get_slug()} issues\n{warnings}")
+			if choose("[a]pprove, [r]eject: ", "ar") == "r":
+				continue
 		reviewed_plugins.append(plugin)
 	return reviewed_plugins
 
@@ -231,8 +226,10 @@ def review_plugins_concurrently(plugins, func):
 				warnings = future.result()
 			except Exception as error:
 				warnings = f"Review failed.\n\n{error}"
-			if not approve_warnings(plugin, warnings):
-				continue
+			if warnings:
+				warn(f"{plugin.get_slug()} issues\n{warnings}")
+				if choose("[a]pprove, [r]eject: ", "ar") == "r":
+					continue
 			reviewed_plugins.append(plugin)
 	return reviewed_plugins
 
