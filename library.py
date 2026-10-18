@@ -319,14 +319,13 @@ def get_repo_commit_paths(plugins):
 def commit_library(paths, message):
 	if not paths:
 		return
-	run("git", "add", "--", *paths, capture_stderr=True)
-	changes = run("git", "diff", "--cached", "--name-only", "--", *paths, capture_stdout=True)
-	if not changes:
-		info("No library changes to commit")
-		return
 
 	info("Committing library repo")
+	run("git", "add", "--", *paths, capture_stderr=True)
 	run("git", "commit", "--only", "-m", message, "--", *paths, capture_stderr=True)
+
+
+def push_library():
 	info("Pushing library repo")
 	run_retry("git", "push")
 
@@ -353,7 +352,9 @@ def review(paths=None, commit=None, repo_url=None):
 
 	commit_paths = get_repo_commit_paths(reviewed_plugins)
 	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
-	commit_library(commit_paths, f"Update {update_message}")
+	if commit_paths:
+		commit_library(commit_paths, f"Update {update_message}")
+		push_library()
 
 
 def publish_plugins(plugins):
@@ -438,8 +439,10 @@ def publish(paths=None, commit=None, repo_url=None):
 
 	commit_paths.add(config.MANIFESTS_CACHE_FILE)
 	commit_paths.add(config.MODULARGRID_FILE)
+
 	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in published_plugins)
 	commit_library(commit_paths, f"Update manifest {update_message}")
+	push_library()
 
 	for plugin in published_plugins:
 		if not plugin.is_source_in_library():
