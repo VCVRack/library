@@ -334,9 +334,9 @@ class Plugin:
 		if missing_modulargrid_url_slugs:
 			slugs_string = ", ".join(f"`{slug}`" for slug in sorted(missing_modulargrid_url_slugs))
 			if len(missing_modulargrid_url_slugs) == 1:
-				warnings.append(f"Module {slugs_string} has a `Hardware clone` tag but no `modularGridUrl` property. This property links the VCV Library to ModularGrid and vice versa.")
+				warnings.append(f"Module {slugs_string} has a `Hardware clone` tag but no `modularGridUrl` property. This would link its VCV Library page to ModularGrid and vice versa.")
 			else:
-				warnings.append(f"Modules {slugs_string} have a `Hardware clone` tag but no `modularGridUrl` property. This property links the VCV Library to ModularGrid and vice versa.")
+				warnings.append(f"Modules {slugs_string} have a `Hardware clone` tag but no `modularGridUrl` property. This would link their VCV Library pages to ModularGrid and vice versa.")
 
 		# Check deprecated module properties.
 		disabled_module_slugs = {module["slug"] for module in manifest.get("modules", []) if "disabled" in module}
@@ -436,28 +436,26 @@ class Plugin:
 
 		if junk_paths:
 			junk_paths = sorted(junk_paths)
-			junk_paths_string = ", ".join(f"`{path}`" for path in junk_paths)
 			junk_paths_command = shlex.join(["git", "rm", "-r", "--cached", "--", *junk_paths])
 			if len(junk_paths) == 1:
-				warnings.append(f"Junk entry {junk_paths_string} is committed to Git. Run `{junk_paths_command}` to stage its removal without deleting it locally. Consider adding it to `.gitignore`.")
+				warnings.append(f"Junk file or directory is committed to Git. Consider adding it to `.gitignore`. Run this command to stage its removal without deleting it locally: `{junk_paths_command}`.")
 			else:
-				warnings.append(f"Junk entries {junk_paths_string} are committed to Git. Run `{junk_paths_command}` to stage their removal without deleting them locally. Consider adding them to `.gitignore`.")
+				warnings.append(f"Junk files or directories are committed to Git. Consider adding them to `.gitignore`. Run this command to stage their removal without deleting them locally: `{junk_paths_command}`.")
 
 		if binary_paths:
-			binary_paths_string = ", ".join(f"`{path}`" for path in binary_paths)
 			binary_paths_command = shlex.join(["git", "rm", "--cached", "--ignore-unmatch", "--", *binary_paths])
 			if len(binary_paths) == 1:
-				warnings.append(f"Binary file {binary_paths_string} is committed to Git. Run `{binary_paths_command}` to stage its removal without deleting it locally. Consider adding it to `.gitignore`.")
+				warnings.append(f"Binary file is committed to Git. Consider adding it to `.gitignore`. Run this command to stage its removal without deleting it locally: `{binary_paths_command}`.")
 			else:
-				warnings.append(f"Binary files {binary_paths_string} are committed to Git. Run `{binary_paths_command}` to stage their removal without deleting them locally. Consider adding them to `.gitignore`.")
+				warnings.append(f"Binary files are committed to Git. Consider adding them to `.gitignore`. Run this command to stage their removal without deleting them locally: `{binary_paths_command}`.")
 
 		if large_files:
 			large_files.sort(key=lambda file: file["name"])
 			large_files_string = ", ".join(f"`{file['name']}` ({file['size'] / 1024 ** 2:.1f} MiB)" for file in large_files)
 			if len(large_files) == 1:
-				warnings.append(f"Large file {large_files_string} is committed to Git. Consider removing it from Git history. See https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history.")
+				warnings.append(f"Large file is committed to Git. Consider [removing it from Git history](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history) to reduce clone size. {large_files_string}")
 			else:
-				warnings.append(f"Large files {large_files_string} are committed to Git. Consider removing them from Git history. See https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history.")
+				warnings.append(f"Large files are committed to Git. Consider [removing them from Git history](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history) to reduce clone size. {large_files_string}")
 		return '\n'.join(warnings) or None
 
 	def review_source(self):
@@ -525,8 +523,8 @@ class Plugin:
 		slug = self.get_slug()
 		entries = list(os.scandir(dist_dir))
 		if not (len(entries) == 1 and entries[0].is_dir() and entries[0].name == slug):
-			entries_string = ", ".join(f"`{entry.name}`" for entry in entries) or "no entries"
-			warnings.append(f"Package `{package_filename}` contains {entries_string} at its root. It must contain only one directory named `{slug}`.")
+			entries_string = ", ".join(f"`{entry.name}`" for entry in entries)
+			warnings.append(f"Package `{package_filename}` must contain a single `{slug}` directory with all plugin files inside it. The root of the package contains {entries_string}.")
 
 		# Check for platform's plugin binary.
 		platform = architecture.split("-")[0]
@@ -549,10 +547,7 @@ class Plugin:
 		review_dir(dist_dir)
 		if junk_paths:
 			junk_paths_string = ", ".join(f"`{path}`" for path in sorted(junk_paths))
-			if len(junk_paths) == 1:
-				warnings.append(f"Junk entry {junk_paths_string} is included in `{package_filename}`. Remove it from your `Makefile` and rebuild the package.")
-			else:
-				warnings.append(f"Junk entries {junk_paths_string} are included in `{package_filename}`. Remove them from your `Makefile` and rebuild the package.")
+			warnings.append(f"Update your `Makefile` to exclude junk files and directories from `{package_filename}`, then rebuild the package. The package includes {junk_paths_string}.")
 		return '\n'.join(warnings) or None
 
 	def build_source(self):
