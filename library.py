@@ -7,11 +7,14 @@ import json
 import shutil
 import webbrowser
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from urllib.parse import urlsplit
+
+import requests
 
 from py.command import run
 from py.console import choose, error, info, warn
 from py import config, manifest_cache, modulargrid
-from py.plugin import Plugin
+from py.plugin import Plugin, is_valid_slug
 
 try:
 	from py import agent
@@ -73,6 +76,22 @@ def resolve_paths(paths=None):
 
 def load(paths=None, commit=None, repo_url=None):
 	"""Loads source directories, package paths, or repository slugs into Plugins that are new to the library or have newer versions."""
+	# If a GitHub URL is given but no path, read the plugin slug from plugin.json.
+	if repo_url and not paths:
+		url = urlsplit(repo_url)
+		if url.hostname != "github.com":
+			raise ValueError(f"Repository URL {repo_url!r} is not a GitHub URL. A source directory or slug is required.")
+		owner, repo = url.path.strip("/").split("/")
+		repo = repo.removesuffix(".git")
+		response = requests.get(f"https://api.github.com/repos/{owner}/{repo}/contents/plugin.json", params={"ref": commit}, headers={"Accept": "application/vnd.github.raw+json"}, timeout=config.HTTP_TIMEOUT)
+		response.raise_for_status()
+		slug = response.json().get("slug")
+		if not slug:
+			raise ValueError("`plugin.json` has no `slug` value.")
+		if not is_valid_slug(slug):
+			raise ValueError(f"`plugin.json` has an invalid `slug` value `{slug}`.")
+		paths = [os.path.join(config.REPOS_DIR, slug)]
+
 	if commit or repo_url:
 		if not paths or len(paths) != 1:
 			raise ValueError("--commit and --git require exactly one source directory or slug.")
