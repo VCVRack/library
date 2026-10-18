@@ -1,7 +1,7 @@
 {
   "slug": "AISynthesis",
   "name": "AI Synthesis",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "AI Synthesis",
   "author": "AI Synthesis",
@@ -19,6 +19,37 @@
       "description": "2HP passive multiple \u2014 8 jacks in two switchable groups",
       "tags": [
         "Multiple",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "AI003_LoopingADSR",
+      "name": "AI003 Looping ADSR",
+      "description": "4-stage envelope generator with switchable free-running Loop mode",
+      "tags": [
+        "Envelope generator",
+        "LFO"
+      ]
+    },
+    {
+      "slug": "AI250_BXR",
+      "name": "AI250 BXR",
+      "description": "Two-input math processor: argument, function, tube/fold drive, internal oscillator and Geiger gates",
+      "tags": [
+        "Distortion",
+        "Waveshaper",
+        "Oscillator",
+        "LFO",
+        "Random"
+      ]
+    },
+    {
+      "slug": "AI018_StereoMatrixMixer",
+      "name": "AI018 Stereo Matrix Mixer",
+      "description": "4 stereo inputs \u00d7 4 stereo outputs matrix mixer for audio or CV, R inputs normalled to L",
+      "tags": [
+        "Mixer",
+        "Polyphonic",
         "Utility"
       ]
     }
