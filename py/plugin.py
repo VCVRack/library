@@ -94,20 +94,31 @@ class Plugin:
 		self.package_paths.append(path)
 
 	def checkout_repo(self):
+		"""Sets the repository URL, checks out the requested commit, and initializes nested submodules."""
 		if not self.repo_url and not self.repo_commit:
 			return
 
-		if self.repo_url:
-			# Clone repository into a new directory
-			if os.path.exists(self.source_dir):
-				raise FileExistsError(f"Repository directory {self.source_dir!r} already exists.")
-			info(f"Cloning {self.source_dir}")
-			run("git", "clone", "--", self.repo_url, self.source_dir, capture_stderr=True)
-		else:
-			# Check for uncommitted changes
+		# Check for uncommitted changes
+		if os.path.exists(self.source_dir):
 			changes = run("git", "status", "--porcelain", cwd=self.source_dir, capture_stdout=True)
 			if changes:
 				raise RuntimeError(f"Repository {self.source_dir!r} has uncommitted changes.\n\n{changes}")
+
+		# Set repository URL or create repository
+		if self.repo_url:
+			if self.is_source_in_library():
+				# Repository is inside library, so change its submodule URL or add it as a submodule.
+				repo_path = os.path.relpath(self.source_dir)
+				try:
+					run("git", "submodule", "set-url", "--", repo_path, self.repo_url, capture_stderr=True)
+				except RuntimeError:
+					run("git", "submodule", "add", "--", self.repo_url, repo_path, capture_stderr=True)
+			else:
+				# Repository is outside library, so change its remote URL or clone it.
+				if os.path.isdir(self.source_dir):
+					run("git", "remote", "set-url", "origin", self.repo_url, cwd=self.source_dir, capture_stderr=True)
+				else:
+					run("git", "clone", "--", self.repo_url, self.source_dir, capture_stderr=True)
 
 		# Check out requested commit hash
 		if self.repo_commit:

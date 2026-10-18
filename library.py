@@ -134,7 +134,7 @@ def review(paths=None, commit=None, repo_url=None):
 		info("No plugins to review")
 		return
 
-	commit_paths = add_git_submodules(reviewed_plugins)
+	commit_paths = get_repo_commit_paths(reviewed_plugins)
 	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
 	commit_library(commit_paths, f"Update {update_message}")
 
@@ -293,20 +293,18 @@ def publish_plugins(plugins):
 	return published_plugins
 
 
-def add_git_submodules(plugins):
-	"""If any given Plugins are new submodules, adds them to Git and returns the paths to commit."""
-	commit_paths = []
+def get_repo_commit_paths(plugins):
+	"""Returns paths to commit to update the plugins."""
+	commit_paths = set()
 	for plugin in plugins:
 		# Only include source directories inside the library's repos directory
 		if not plugin.is_source_in_library():
 			continue
 
-		repo_path = os.path.relpath(plugin.source_dir)
+		if plugin.repo_url or plugin.repo_commit:
+			commit_paths.add(plugin.source_dir)
 		if plugin.repo_url:
-			run("git", "submodule", "add", "--", plugin.repo_url, repo_path, capture_stderr=True)
-			if ".gitmodules" not in commit_paths:
-				commit_paths.append(".gitmodules")
-		commit_paths.append(repo_path)
+			commit_paths.add(".gitmodules")
 	return commit_paths
 
 
@@ -387,17 +385,17 @@ def publish(paths=None, commit=None, repo_url=None):
 	info("Uploading screenshots")
 	run_retry("make", "upload", cwd=config.SCREENSHOTS_DIR)
 
-	commit_paths = add_git_submodules(published_plugins)
+	commit_paths = get_repo_commit_paths(published_plugins)
 
 	# Copy manifests to library
 	for plugin in published_plugins:
 		path = os.path.join(config.MANIFESTS_DIR, f"{plugin.get_slug()}.json")
 		with open(path, "w", encoding="utf-8") as f:
 			json.dump(plugin.manifest, f, indent="  ")
-		commit_paths.append(path)
+		commit_paths.add(path)
 
-	commit_paths.append(config.MANIFESTS_CACHE_FILE)
-	commit_paths.append(config.MODULARGRID_FILE)
+	commit_paths.add(config.MANIFESTS_CACHE_FILE)
+	commit_paths.add(config.MODULARGRID_FILE)
 	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in published_plugins)
 	commit_library(commit_paths, f"Update manifest {update_message}")
 
