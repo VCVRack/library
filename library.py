@@ -307,15 +307,20 @@ def run_plugins(plugins):
 	if not plugins:
 		return
 
+	# Show package paths for testing on other machines.
+	info("Packages for testing")
+	for plugin in plugins:
+		for package_path in plugin.package_paths:
+			print(os.path.abspath(package_path))
+
 	# Test plugins
 	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in plugins)
-	print()
 	choose(f"Press Enter to launch Rack and test the following packages: {update_message}", "\n")
 	run_retry("./Rack", cwd=config.RACK_SYSTEM_DIR)
 
 	# Show warnings and debug messages from Rack log.
 	log_path = os.path.join(config.RACK_USER_DIR, "log.txt")
-	output = run("grep", "-E", r"\bwarn|debug\b", log_path, capture_stdout=True, raise_on_nonzero=False)
+	output = run("grep", "-E", r"\b(warn|debug)\b", log_path, capture_stdout=True, raise_on_nonzero=False)
 	if output:
 		warn(output.rstrip("\n"))
 		choose("[a]pprove: ", "a")
@@ -378,6 +383,8 @@ def publish(paths=None, commit=None, repo_url=None):
 		clear_toolchain_build_dir()
 	try:
 		reviewed_plugins = review_plugins(loaded_plugins)
+		if reviewed_plugins:
+			choose("Press Enter to publish the reviewed plugins", "\n")
 		published_plugins = publish_plugins(reviewed_plugins)
 	finally:
 		if any(plugin.source_dir for plugin in loaded_plugins):
@@ -401,8 +408,6 @@ def publish(paths=None, commit=None, repo_url=None):
 			warn(error)
 			if choose("[r]etry, [i]gnore: ", "ri") == "i":
 				break
-
-	choose("Press Enter to generate screenshots, upload packages and screenshots, and commit/push the library repo", "\n")
 
 	# Delete plugin's old screenshots
 	for plugin in published_plugins:
