@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import sys
 import os
 import json
 import shutil
@@ -74,7 +75,7 @@ def load(paths=None, commit=None, repo_url=None):
 	"""Loads source directories, package paths, or repository slugs into Plugins that are new to the library or have newer versions."""
 	if commit or repo_url:
 		if not paths or len(paths) != 1:
-			raise ValueError("--commit and --add-repo require exactly one source directory or slug.")
+			raise ValueError("--commit and --git require exactly one source directory or slug.")
 	paths = resolve_paths(paths)
 
 	# Create Plugins from paths.
@@ -410,14 +411,12 @@ def publish(paths=None, commit=None, repo_url=None):
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
-	commands = parser.add_subparsers(dest="command")
-
-	review_parser = commands.add_parser("review", help="Review plugins and commit approved repository changes", description="Pull the library repository, review plugins, build source plugins, and test packages in Rack. Commit and push approved repository changes.")
-	publish_parser = commands.add_parser("publish", help="Review plugins and publish packages", description="Pull the library repository, review plugins, build source plugins, and test packages in Rack. Publish packages, generate and upload screenshots, then commit and push library changes.")
-	for command_parser in (review_parser, publish_parser):
-		command_parser.add_argument("paths", nargs="*", metavar="PATH", help=f"Plugin slugs, source directories, or .vcvplugin archives. With no paths, scan directories in {config.REPOS_DIR} containing plugin.json. Skip versions already in the library or older.")
-		command_parser.add_argument("--commit", metavar="HASH", help="Fetch and check out this commit before review. Requires one source directory or slug. Without this option, keep its current checkout.")
-		command_parser.add_argument("--add-repo", dest="repo_url", metavar="URL", help=f"Clone this URL into one new source directory. A slug selects {config.REPOS_DIR}/SLUG. After approval, add repositories inside {config.REPOS_DIR} as submodules. Can be combined with --commit.")
+	parser.set_defaults(action="review")
+	actions = parser.add_mutually_exclusive_group()
+	actions.add_argument("-p", "--publish", dest="action", action="store_const", const="publish", help="Review plugins, then publish packages, screenshots, and library changes.")
+	parser.add_argument("paths", nargs="*", metavar="PATH", help=f"Plugin slugs, source directories, or .vcvplugin archives. With no paths, scan {config.REPOS_DIR} for new versions.")
+	parser.add_argument("-c", "--commit", metavar="HASH", help="Fetch and check out this commit in one source directory or slug.")
+	parser.add_argument("-g", "--git", dest="repo_url", metavar="URL", help="Clone a repository or change its URL.")
 
 	info("""\
 ⢿⣦  ⣴⡿ ⣠⣶⠿⠿⣶ ⢿⣦  ⣴⡿
@@ -425,9 +424,9 @@ if __name__ == "__main__":
  ⠈⢿⡿⠁  ⠙⠿⣶⣶⠿  ⠈⢿⡿⠁ Library release script\n""")
 
 	args = parser.parse_args()
-	if not args.command:
+	if len(sys.argv) == 1:
 		parser.print_help()
-	elif args.command == "review":
+	elif args.action == "review":
 		review(args.paths, args.commit, args.repo_url)
-	elif args.command == "publish":
+	elif args.action == "publish":
 		publish(args.paths, args.commit, args.repo_url)
