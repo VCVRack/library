@@ -478,16 +478,6 @@ class Plugin:
 			return f"Source directory name {directory_name!r} does not match plugin slug {self.get_slug()!r}."
 		return None
 
-	def review_source_with_cppcheck(self):
-		if not self.source_dir:
-			return None
-		info(f"Reviewing {self.get_slug()} source with Cppcheck")
-		try:
-			run("make", "plugin-analyze", f"PLUGIN_DIR={os.path.abspath(self.source_dir)}", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
-		except (RuntimeError, OSError) as error:
-			return str(error)
-		return None
-
 	def review_packages(self):
 		if not self.package_paths:
 			raise RuntimeError("No packages available.")

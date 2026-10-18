@@ -152,23 +152,6 @@ def cleanup_plugins(plugins):
 			warn(f"Could not restore {plugin.source_dir!r}. {exception}")
 
 
-def review_plugins_with_cppcheck(plugins):
-	reviewed_plugins = []
-	for plugin in plugins:
-		try:
-			warnings = plugin.review_source_with_cppcheck()
-		except Exception as exception:
-			error(f"{plugin.get_slug()}: {exception}")
-			choose("[r]eject: ", "r")
-			continue
-		if warnings:
-			warn(warnings)
-			if choose("[a]pprove, [r]eject: ", "ar") == "r":
-				continue
-		reviewed_plugins.append(plugin)
-	return reviewed_plugins
-
-
 def review_plugins_concurrently(plugins, func):
 	if not plugins:
 		return []
@@ -273,7 +256,6 @@ def review_plugins(plugins):
 			error(f"{plugin.get_slug()}: {exception}")
 			choose("[r]eject: ", "r")
 
-	reviewed_plugins = review_plugins_with_cppcheck(reviewed_plugins)
 	if agent and any(plugin.source_dir for plugin in reviewed_plugins):
 		info("Reviewing source code with agent")
 		reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_source)
