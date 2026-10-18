@@ -74,28 +74,6 @@ def resolve_paths(paths=None):
 	return paths
 
 
-def remove_repos(paths):
-	"""Removes library submodules."""
-	for path in paths:
-		repo_path = os.path.relpath(path)
-		if os.path.dirname(os.path.abspath(repo_path)) != os.path.abspath(config.REPOS_DIR):
-			raise ValueError(f"Repository {path!r} is not directly inside {config.REPOS_DIR!r}.")
-
-		# Find the cached Git repository.
-		git_dir = run("git", "rev-parse", "--git-path", f"modules/{repo_path}", capture_stdout=True).strip()
-
-		# Remove the checkout and submodule registration.
-		info(f"Deleting {repo_path}")
-		run("git", "submodule", "deinit", "-f", "--", repo_path, capture_stderr=True)
-		run("git", "rm", "-f", "--", repo_path, capture_stderr=True)
-
-		# Remove the cached Git repository so it can be cloned again.
-		try:
-			shutil.rmtree(git_dir)
-		except FileNotFoundError:
-			pass
-
-
 def load(paths=None, commit=None, repo_url=None):
 	"""Loads source directories, package paths, or repository slugs into Plugins that are new to the library or have newer versions."""
 	# If a GitHub URL is given but no path, read the plugin slug from plugin.json.
@@ -456,9 +434,7 @@ def publish(paths=None, commit=None, repo_url=None):
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.set_defaults(action="review")
-	actions = parser.add_mutually_exclusive_group()
-	actions.add_argument("-p", "--publish", dest="action", action="store_const", const="publish", help="Review plugins, then publish packages, screenshots, and library changes.")
-	actions.add_argument("-d", "--delete", dest="action", action="store_const", const="delete", help="Remove library repositories.")
+	parser.add_argument("-p", "--publish", dest="action", action="store_const", const="publish", help="Review plugins, then publish packages, screenshots, and library changes.")
 	parser.add_argument("paths", nargs="*", metavar="PATH", help=f"Plugin slugs, source directories, or .vcvplugin archives. With no paths, scan {config.REPOS_DIR} for new versions.")
 	parser.add_argument("-c", "--commit", metavar="HASH", help="Fetch and check out this commit in one source directory or slug.")
 	parser.add_argument("-g", "--git", dest="repo_url", metavar="URL", help="Clone a repository or change its URL.")
@@ -475,7 +451,3 @@ if __name__ == "__main__":
 		review(args.paths, args.commit, args.repo_url)
 	elif args.action == "publish":
 		publish(args.paths, args.commit, args.repo_url)
-	elif args.action == "delete":
-		if not args.paths:
-			parser.error("No repositories given.")
-		remove_repos(resolve_paths(args.paths))
