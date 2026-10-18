@@ -506,7 +506,7 @@ class Plugin:
 		return '\n'.join(warnings) or None
 
 	def build_source(self):
-		"""Builds source for each architecture and sets package_paths the the toolchain's output."""
+		"""Builds plugin source for all architectures and stores the packages in package_paths."""
 		if not self.source_dir:
 			raise RuntimeError("No source directory set.")
 
