@@ -1,7 +1,7 @@
 {
   "slug": "CVfunkChordCaster",
   "name": "CV funk Chord Caster",
-  "version": "2.1.12",
+  "version": "2.1.13",
   "license": "https://vcvrack.com/eula",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -17,6 +17,7 @@
       "slug": "ChordCaster",
       "name": "Chord Caster",
       "description": "A 6-note stereo phase-distortion synth voice with chord sequencer, parameter automation, modulation bus, tanh saturation and fractional three-tap delay.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#chord-caster",
       "tags": [
         "Synth voice",
         "Sequencer",
@@ -27,6 +28,7 @@
       "slug": "PolyMap",
       "name": "Poly Map",
       "description": "Companion module to Chord Caster. Map poly inputs to a V/oct containing only the active notes, based on gates.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#poly-map",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -36,6 +38,7 @@
       "slug": "Chordy",
       "name": "Chordy",
       "description": "The 6-note chord sequencer from Chord Caster in a compact form.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#chordy",
       "tags": [
         "Sequencer",
         "Polyphonic"
