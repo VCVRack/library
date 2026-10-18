@@ -1,19 +1,26 @@
 {
   "slug": "KautenjaDSP-RackNES",
-  "version": "2.0.0",
+  "version": "2.2.1",
+  "minRackVersion": "2.4.0",
   "license": "GPL-3.0-or-later",
-  "name": "KautenjaDSP RackNES",
-  "brand": "KautenjaDSP",
+  "name": "RackNES",
+  "brand": "ArhythmeticUnits",
+  "description": "A voltage-controlled Nintendo Entertainment System emulator and Game Genie expander",
   "author": "Christian Kauten",
-  "authorEmail": "KautenjaDSP@gmail.com",
-  "manualUrl": "https://github.com/Kautenja/RackNES/releases/latest/download/RackNES.pdf",
-  "sourceUrl": "https://github.com/Kautenja/RackNES",
-  "changelogUrl": "https://github.com/Kautenja/RackNES/blob/master/CHANGELOG.md",
+  "authorEmail": "arhythmetic.units@gmail.com",
+  "authorUrl": "https://github.com/Kautenja",
+  "pluginUrl": "https://github.com/Arhythmetic-Units/RackNES",
+  "manualUrl": "https://github.com/Arhythmetic-Units/RackNES/releases/latest/download/RackNES.pdf",
+  "sourceUrl": "https://github.com/Arhythmetic-Units/RackNES",
+  "changelogUrl": "https://github.com/Arhythmetic-Units/RackNES/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "RackNES",
       "name": "RackNES",
       "description": "A Nintendo Entertainment System emulator with CV",
+      "keywords": "NES Nintendo Famicom chiptune video game emulator",
+      "manualUrl": "https://github.com/Arhythmetic-Units/RackNES/releases/latest/download/RackNES.pdf",
+      "hidden": false,
       "tags": [
         "Clock generator",
         "Sampler",
@@ -24,6 +31,9 @@
       "slug": "InputGenie",
       "name": "CV Genie (Input)",
       "description": "Expander for RackNES",
+      "keywords": "NES Nintendo Game Genie cheat code memory CV",
+      "manualUrl": "https://github.com/Arhythmetic-Units/RackNES/releases/latest/download/CVGenie.pdf",
+      "hidden": false,
       "tags": [
         "Expander"
       ]

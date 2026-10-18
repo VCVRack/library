@@ -1,7 +1,7 @@
 {
   "slug": "Animatek",
   "name": "Animatek",
-  "version": "2.5.8",
+  "version": "2.5.10",
   "license": "GPL-3.0-or-later",
   "brand": "Animatek",
   "author": "Javier Melgar",
@@ -71,14 +71,48 @@
     {
       "slug": "SideChain",
       "name": "CAP",
-      "description": "Stereo ducking VCA that lowers audio on each trigger and recovers with adjustable depth, timing and natural variation. A VCA CV input gives ordinary voltage control over gain, and envelope and end-of-cycle outputs are provided.",
+      "description": "Stereo ducking VCA that lowers audio on each trigger and recovers with adjustable depth, timing and natural variation. It also works as a lowpass filter or a vactrol-style low-pass gate that triggers can ping. Pan with CV, a VCA CV input, envelope and end-of-cycle outputs, and CAPs placed side by side chain into a mixer without cables.",
       "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/CAP_Manual_EN.md",
       "tags": [
         "Voltage-controlled amplifier",
+        "Low-pass gate",
+        "Filter",
         "Dynamics",
         "Envelope generator",
         "Polyphonic",
         "Utility"
+      ]
+    },
+    {
+      "slug": "CapBus",
+      "name": "BUS",
+      "description": "Mix output for a row of CAP modules placed side by side, chained without cables. Adds a stereo send and return for an insert effect, a wet control, a pan with CV, a master fader with a stereo meter, and a name that fills in with the effect patched to it.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/BUS_Manual_EN.md",
+      "tags": [
+        "Mixer",
+        "Expander",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "AdsrTek",
+      "name": "ADSRTEK",
+      "description": "ADSR and AD envelope modelled on measurements of a classic 90s virtual-analogue modular: its 128-step time table, its log, linear and exponential attacks, snappy exponential decays and its 24 kHz control rate. Retriggers pick up from the current level. Polyphonic, with CV over every stage and a built-in VCA.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/ADSRtek_Manual_EN.md",
+      "tags": [
+        "Envelope generator",
+        "Voltage-controlled amplifier",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "FilterTek",
+      "name": "FILTERTEK",
+      "description": "Multimode filter modelled on measurements of a classic 90s virtual-analogue modular: lowpass, bandpass, highpass and band reject at 12 or 24 dB/oct, its resonance with gain control, and the hard fixed-point saturation that gives it its edge. Stereo and polyphonic, with a live response display, V/oct and CV over cutoff and resonance.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/FILTERtek_Manual_EN.md",
+      "tags": [
+        "Filter",
+        "Polyphonic"
       ]
     },
     {
@@ -127,7 +161,7 @@
     {
       "slug": "ATEK303SEQ",
       "name": "ATEK303 SEQ",
-      "description": "16-step acid pattern generator for ATEK303 or any compatible synth voice. Create repeatable patterns, then mutate their rhythm, octave, accents and slides.",
+      "description": "Acid pattern generator of up to 64 steps for ATEK303 or any compatible synth voice. Create repeatable patterns, edit them in a piano roll, then mutate their rhythm, octave, accents and slides.",
       "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/ATEK303SEQ_Manual_EN.md",
       "tags": [
         "Sequencer"

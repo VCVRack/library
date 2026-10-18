@@ -1,0 +1,113 @@
+{
+  "slug": "BasicHumanTastes",
+  "name": "Basic Human Tastes",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Basic Human Tastes",
+  "author": "Yoann Blanchard",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/basichumantastes",
+  "pluginUrl": "https://github.com/basichumantastes/BasicHumanTastes",
+  "manualUrl": "https://github.com/basichumantastes/BasicHumanTastes/blob/main/docs/Basic-Human-Tastes-manuals.pdf",
+  "sourceUrl": "https://github.com/basichumantastes/BasicHumanTastes",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Ernest",
+      "name": "Ernest",
+      "description": "Percussion oscillator with six ways to bend its pitch: kicks, toms, snares, zaps, with decay, bass boost and ring modulation",
+      "tags": [
+        "Drum",
+        "Synth voice",
+        "Ring modulator"
+      ],
+      "manualUrl": "https://github.com/basichumantastes/BasicHumanTastes/blob/main/docs/Ernest-manual.pdf"
+    },
+    {
+      "slug": "Marcel",
+      "name": "Marcel",
+      "description": "8-bit looper / delay with a variable memory clock that slowly forgets: erode, tone, freeze, reverse, and a ring that shows the memory",
+      "tags": [
+        "Delay",
+        "Sampler",
+        "Recording"
+      ],
+      "manualUrl": "https://github.com/basichumantastes/BasicHumanTastes/blob/main/docs/Marcel-manual.pdf"
+    },
+    {
+      "slug": "Jules",
+      "name": "Jules",
+      "description": "Six linked slopes (envelopes, LFOs, oscillators, chords) with twelve modes, a chance control on the trigger cascade and a poly output",
+      "tags": [
+        "Function generator",
+        "Envelope generator",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Polyphonic",
+        "Random"
+      ],
+      "manualUrl": "https://github.com/basichumantastes/BasicHumanTastes/blob/main/docs/Jules-manual.pdf"
+    },
+    {
+      "slug": "Odette",
+      "name": "Odette",
+      "description": "Stereo repeater with 8 nested sizes, from plucked strings and flangers to 40-second loops, with drift and ducking",
+      "tags": [
+        "Delay",
+        "Effect",
+        "Flanger"
+      ],
+      "manualUrl": "https://github.com/basichumantastes/BasicHumanTastes/blob/main/docs/Odette-manual.pdf"
+    },
+    {
+      "slug": "Colette",
+      "name": "Colette",
+      "description": "A murmuration of up to 32 voices that fly in pitch space, gather, scatter and settle on the notes of a chord: ambient textures that never quite repeat",
+      "tags": [
+        "Oscillator",
+        "Synth voice",
+        "Polyphonic",
+        "Random"
+      ],
+      "manualUrl": "https://github.com/basichumantastes/BasicHumanTastes/blob/main/docs/Colette-manual.pdf"
+    },
+    {
+      "slug": "Lucienne",
+      "name": "Lucienne",
+      "description": "Six analog-style cores tied in a ring, tuned by ear: they lock onto just intervals, cross-modulate into chaos, starve on a sagging power rail. Gates opened by an internal register, two resonant filters, a halo, and two asynchronous LFOs crossfaded across twelve destinations",
+      "tags": [
+        "Oscillator",
+        "Synth voice",
+        "Low-pass gate",
+        "Filter",
+        "Low-frequency oscillator",
+        "Random"
+      ],
+      "manualUrl": "https://github.com/basichumantastes/BasicHumanTastes/blob/main/docs/Lucienne-manual.pdf"
+    },
+    {
+      "slug": "Gaston",
+      "name": "Gaston",
+      "description": "Master sequencer for drum voices: eight trigger lanes with per-step probability and four CV lanes, each with its own length, clock ratio and direction for polyrhythms. Built-in clock with swing and vintage 96 PPQN timing, CDJ-style transport, pads with live recording, and a map of all lanes",
+      "tags": [
+        "Sequencer",
+        "Clock generator",
+        "Drum",
+        "Polyphonic",
+        "Random"
+      ],
+      "manualUrl": "https://github.com/basichumantastes/BasicHumanTastes/blob/main/docs/Gaston-manual.pdf"
+    },
+    {
+      "slug": "Gastounet",
+      "name": "Gastounet",
+      "description": "Pattern memory and song expander for Gaston (attach to its left): 4 banks of 16 patterns, Korg-style write and copy, next and random, quantized launch with restart or legato, and a song made of pattern rows",
+      "tags": [
+        "Sequencer",
+        "Expander"
+      ],
+      "manualUrl": "https://github.com/basichumantastes/BasicHumanTastes/blob/main/docs/Gastounet-manual.pdf"
+    }
+  ]
+}

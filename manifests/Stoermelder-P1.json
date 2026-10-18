@@ -1,6 +1,6 @@
 {
   "slug": "Stoermelder-P1",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "license": "GPL-3.0-or-later",
   "author": "Benjamin Dill",
   "name": "PackOne",
@@ -23,7 +23,7 @@
         "Controller",
         "Utility"
       ],
-      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/midi/SpliceKit.md"
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/splicekit/SpliceKit.md"
     },
     {
       "slug": "Siren",
@@ -204,6 +204,16 @@
       "description": "Expander for TRANSIT that adds 12 additional snapshot slots.\nUp to seven +T expanders can be chained for a total of 96 snapshots per TRANSIT instance.",
       "tags": [
         "Utility"
+      ],
+      "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/transit/Transit.md"
+    },
+    {
+      "slug": "TransitPad",
+      "name": "TRANSIT-PAD",
+      "description": "XY-pad expander for TRANSIT for morphing between snapshots in two dimensions.\nSnapshots are placed freely on a 2D pad and a movable mix point blends them by distance, with eight switchable snapshot-sets and recordable motion-sequences.",
+      "tags": [
+        "Utility",
+        "Controller"
       ],
       "manualUrl": "https://github.com/stoermelder/vcvrack-packone/blob/v2/docs/transit/Transit.md"
     },

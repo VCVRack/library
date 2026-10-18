@@ -1,27 +1,32 @@
 {
   "slug": "ArhythmeticUnits-Fourier",
-  "version": "2.1.1",
+  "version": "2.2.1",
   "license": "GPL-3.0-or-later",
   "name": "Fourier",
   "brand": "ArhythmeticUnits",
+  "description": "Configurable spectrum analysis and spectrogram visualization",
   "author": "Christian Kauten",
   "authorEmail": "arhythmetic.units@gmail.com",
+  "pluginUrl": "https://github.com/Kautenja/ArhythmeticUnits-Fourier",
   "sourceUrl": "https://github.com/Kautenja/ArhythmeticUnits-Fourier",
-  "changelogUrl": "https://github.com/Kautenja/ArhythmeticUnits-Fourier/blob/master/CHANGELOG.md",
+  "changelogUrl": "https://github.com/Kautenja/ArhythmeticUnits-Fourier/blob/main/CHANGELOG.md",
   "modules": [
     {
       "slug": "SpectrumAnalyzer",
       "name": "Fourier (Spectrum Analyzer)",
-      "description": "Tune-able spectrum analyzer",
+      "description": "Four-channel spectrum analyzer with configurable FFT, windowing, and smoothing",
+      "keywords": "FFT STFT frequency spectrum",
       "manualUrl": "https://github.com/Kautenja/ArhythmeticUnits-Fourier/releases/latest/download/Fourier.pdf",
       "tags": [
-        "Visual"
+        "Visual",
+        "Quad"
       ]
     },
     {
       "slug": "Spectrogram",
       "name": "Spectre (Spectrogram Visualizer)",
-      "description": "Tune-able spectrogram visualizer",
+      "description": "Spectrogram visualizer with fixed 2048-sample FFT, smoothing, and adjustable color ranges",
+      "keywords": "FFT STFT frequency spectrum waterfall",
       "manualUrl": "https://github.com/Kautenja/ArhythmeticUnits-Fourier/releases/latest/download/Spectre.pdf",
       "tags": [
         "Visual"
