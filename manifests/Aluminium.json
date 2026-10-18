@@ -1,7 +1,7 @@
 {
   "slug": "Aluminium",
   "name": "Aluminium",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "Aluminium",
   "description": "A small collection of utility Rack modules.",
@@ -17,7 +17,7 @@
     {
       "slug": "Zones",
       "name": "Zones",
-      "description": "Splits a polyphonic MIDI-CV keyboard signal (V/OCT, GATE, VELOCITY, AFTERTOUCH, RETRIGGER) into two note-range zones, each independently configurable as polyphonic passthrough or monophonic with note-priority (last/highest/lowest) and true legato gate behavior",
+      "description": "Keyboard split and mono voice allocator for a polyphonic MIDI-CV signal (V/OCT, GATE, VELOCITY, AFTERTOUCH, RETRIGGER): two note-range zones, each polyphonic passthrough or monophonic with note priority (last/highest/lowest note) and true legato gate. Duo mode reproduces the Moog Subsequent 37 / Sub 37 DUO mode: duophonic/paraphonic two-voice allocation, highest note on B, other held note on A, with per-note velocity and poly aftertouch",
       "manualUrl": "https://github.com/neilbgr/Aluminium/blob/main/README.md#zones",
       "tags": [
         "Utility",
