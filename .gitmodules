@@ -1176,3 +1176,6 @@
 [submodule "repos/RacketScience"]
 	path = repos/RacketScience
 	url = https://github.com/ContemporaryInsanity/RacketScience.git
+[submodule "repos/Festivamente"]
+	path = repos/Festivamente
+	url = https://github.com/Festivamente/ER-301SoundComputer
