@@ -1182,3 +1182,6 @@
 [submodule "repos/BasicHumanTastes"]
 	path = repos/BasicHumanTastes
 	url = https://github.com/basichumantastes/BasicHumanTastes
+[submodule "repos/Xiehuo"]
+	path = repos/Xiehuo
+	url = https://github.com/Xiehuo0624/SpectralDissector-VCV
