@@ -13,7 +13,7 @@ def refresh_cache(plugins):
 		cache = {}
 
 	# Refresh only the submitted plugin entries.
-	publish_timestamp = time.time()
+	publish_timestamp = int(time.time())
 	for plugin in plugins:
 		cache_plugin = cache.get(plugin.get_slug(), {})
 
