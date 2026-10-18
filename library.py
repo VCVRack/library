@@ -193,7 +193,6 @@ def review_plugins(plugins):
 			if warning := plugin.review_manifest():
 				warnings.append(warning)
 			if warnings:
-				warn(f"{plugin.get_slug()} issues")
 				warn("\n".join(warnings))
 				if choose("[a]pprove, [r]eject: ", "ar") == "r":
 					continue
@@ -219,8 +218,9 @@ def review_plugins(plugins):
 	reviewed_plugins = []
 	for plugin in built_plugins:
 		try:
+			info(f"Reviewing {plugin.get_slug()} packages")
 			if warnings := plugin.review_packages():
-				warn(f"{plugin.get_slug()} issues\n{warnings}")
+				warn(warnings)
 				if choose("[a]pprove, [r]eject: ", "ar") == "r":
 					continue
 			reviewed_plugins.append(plugin)
@@ -246,7 +246,7 @@ def review_plugins_with_cppcheck(plugins):
 			choose("[r]eject: ", "r")
 			continue
 		if warnings:
-			warn(f"{plugin.get_slug()} issues\n{warnings}")
+			warn(warnings)
 			if choose("[a]pprove, [r]eject: ", "ar") == "r":
 				continue
 		reviewed_plugins.append(plugin)

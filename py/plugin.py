@@ -218,48 +218,84 @@ class Plugin:
 		# Check plugin major version.
 		version_parts = self.get_version().split('.')
 		if version_parts[0] != config.RACK_VERSION_MAJOR:
-			warnings.append(f"`plugin.json` has a `version` value `{self.get_version()}` that does not start with `{config.RACK_VERSION_MAJOR}`.")
+			warnings.append(f"Plugin major version is `{version_parts[0]}` but must be `{config.RACK_VERSION_MAJOR}`.")
 
 		# Check license.
 		license = manifest["license"]
 		if license.lower() != "proprietary" and license not in SPDX_IDS and not is_valid_url(license):
 			warnings.append(f"`plugin.json` has an invalid `license` value `{license}`. See https://spdx.org/licenses/ for valid license IDs.")
 
-		# Collect module slugs already in library.
+		# Check module fields.
+		module_slugs = set()
+		for module in manifest.get("modules", []):
+			slug = module.get("slug")
+			if not slug:
+				raise ValueError("A module is missing its `slug` property.")
+			if not is_valid_slug(slug):
+				raise ValueError(f"Module `{slug}` has an invalid slug.")
+			if slug in module_slugs:
+				raise ValueError(f"Module `{slug}` has a duplicate slug.")
+			module_slugs.add(slug)
+			if not module.get("name"):
+				raise ValueError(f"Module `{slug}` has no `name` value.")
+
+		# Find new module slugs.
 		library_module_slugs = set()
 		if self.library_manifest:
 			library_module_slugs = {module["slug"] for module in self.library_manifest.get("modules", [])}
+		new_module_slugs = module_slugs - library_module_slugs
 
-		# Check module fields.
-		module_slugs = set()
-		for index, module in enumerate(manifest.get("modules", [])):
-			module_label = f"`plugin.json` module `{module['slug']}`" if module.get("slug") else f"`plugin.json` module at index {index}"
-			for key in ("slug", "name"):
-				if not module.get(key):
-					raise ValueError(f"{module_label} has no `{key}` value.")
+		# Check whether new module slugs contain the plugin slug.
+		module_slugs_with_plugin_slug = {slug for slug in new_module_slugs if plugin_slug.casefold() in slug.casefold()}
+		if module_slugs_with_plugin_slug:
+			slugs_string = ", ".join(f"`{slug}`" for slug in sorted(module_slugs_with_plugin_slug))
+			if len(module_slugs_with_plugin_slug) == 1:
+				warnings.append(f"Module slug {slugs_string} contains plugin slug `{plugin_slug}`. Modules are already identified by the plugin they are in, so please remove `{plugin_slug}` from {slugs_string}.")
+			else:
+				warnings.append(f"Module slugs {slugs_string} contain plugin slug `{plugin_slug}`. Modules are already identified by the plugin they are in, so please remove `{plugin_slug}` from these module slugs.")
 
-			slug = module["slug"]
-			if not is_valid_slug(slug):
-				raise ValueError(f"{module_label} has an invalid slug.")
-			if slug in module_slugs:
-				raise ValueError(f"{module_label} has a duplicate slug.")
-			module_slugs.add(slug)
+		# Check whether the plugin slug contains new module slugs.
+		module_slugs_in_plugin_slug = {slug for slug in new_module_slugs - module_slugs_with_plugin_slug if slug.casefold() in plugin_slug.casefold()}
+		if module_slugs_in_plugin_slug:
+			slugs_string = ", ".join(f"`{slug}`" for slug in sorted(module_slugs_in_plugin_slug))
+			if len(module_slugs_in_plugin_slug) == 1:
+				warnings.append(f"Plugin slug `{plugin_slug}` contains module slug {slugs_string}. The plugin slug should name the collection of modules rather than one module, so please remove {slugs_string} from `{plugin_slug}`.")
+			else:
+				warnings.append(f"Plugin slug `{plugin_slug}` contains module slugs {slugs_string}. The plugin slug should name the collection of modules, so please remove these module slugs from `{plugin_slug}`.")
 
-			# Check whether the module slug contains the plugin slug or vice versa.
-			if slug not in library_module_slugs:
-				if plugin_slug.casefold() in slug.casefold():
-					warnings.append(f"Module slug `{slug}` contains plugin slug `{plugin_slug}`. Modules are already identified by the plugin they are in, so please remove `{plugin_slug}` from `{slug}`.")
-				elif slug.casefold() in plugin_slug.casefold():
-					warnings.append(f"Plugin slug `{plugin_slug}` contains module slug `{slug}`. The plugin slug should name the collection of modules rather than one module, so please remove `{slug}` from `{plugin_slug}`.")
+		# Check module tags.
+		for module in manifest.get("modules", []):
+			invalid_tags = sorted({tag for tag in module.get("tags", []) if tag.lower() not in VALID_TAGS})
+			if not invalid_tags:
+				continue
+			tags_string = ", ".join(f"`{tag}`" for tag in invalid_tags)
+			if len(invalid_tags) == 1:
+				warnings.append(f"Module `{module['slug']}` has an invalid tag {tags_string}. See https://vcvrack.com/manual/Manifest#modules-tags for valid tags.")
+			else:
+				warnings.append(f"Module `{module['slug']}` has invalid tags {tags_string}. See https://vcvrack.com/manual/Manifest#modules-tags for valid tags.")
 
-			for tag in module.get("tags", []):
-				if tag.lower() not in VALID_TAGS:
-					warnings.append(f"`plugin.json` has an invalid tag `{tag}` for module `{slug}`. Use a tag from https://vcvrack.com/manual/Manifest#modules-tags.")
-				if tag.lower() == "hardware clone" and not module.get("modularGridUrl"):
-					warnings.append(f"`plugin.json` has a `Hardware clone` tag for module `{slug}` but no `modularGridUrl`.")
+		# Check ModularGrid URLs for hardware clones.
+		missing_modulargrid_url_slugs = set()
+		for module in manifest.get("modules", []):
+			if module.get("modularGridUrl"):
+				continue
+			if any(tag.lower() == "hardware clone" for tag in module.get("tags", [])):
+				missing_modulargrid_url_slugs.add(module["slug"])
+		if missing_modulargrid_url_slugs:
+			slugs_string = ", ".join(f"`{slug}`" for slug in sorted(missing_modulargrid_url_slugs))
+			if len(missing_modulargrid_url_slugs) == 1:
+				warnings.append(f"Module {slugs_string} has a `Hardware clone` tag but no `modularGridUrl` property. This property links the VCV Library to ModularGrid and vice versa.")
+			else:
+				warnings.append(f"Modules {slugs_string} have a `Hardware clone` tag but no `modularGridUrl` property. This property links the VCV Library to ModularGrid and vice versa.")
 
-			if "disabled" in module:
-				warnings.append(f"`plugin.json` has a deprecated `disabled` property for module `{slug}`. Replace `disabled` with `hidden`.")
+		# Check deprecated module properties.
+		disabled_module_slugs = {module["slug"] for module in manifest.get("modules", []) if "disabled" in module}
+		if disabled_module_slugs:
+			slugs_string = ", ".join(f"`{slug}`" for slug in sorted(disabled_module_slugs))
+			if len(disabled_module_slugs) == 1:
+				warnings.append(f"Module {slugs_string} has a deprecated `disabled` property. Replace `disabled` with `hidden`.")
+			else:
+				warnings.append(f"Modules {slugs_string} have a deprecated `disabled` property. Replace `disabled` with `hidden`.")
 
 		if warning := self.review_manifest_urls():
 			warnings.append(warning)
@@ -271,12 +307,19 @@ class Plugin:
 		else:
 			if plugin_slug != library_manifest["slug"]:
 				warnings.append(f"Plugin slug changed from `{library_manifest['slug']}` to `{plugin_slug}`, which breaks existing patches that use this plugin. Restore the original slug `{library_manifest['slug']}`.")
-			new_module_slugs = module_slugs - library_module_slugs
 			if new_module_slugs:
-				warnings.append(f"Plugin {plugin_slug!r} adds modules: {', '.join(sorted(new_module_slugs))}.")
-			for module in library_manifest.get("modules", []):
-				if module["slug"] not in module_slugs:
-					warnings.append(f"Module `{module['slug']}` has been removed, which breaks existing patches that use it. Restore the module with its original slug.")
+				new_module_slugs_string = ", ".join(f"`{slug}`" for slug in sorted(new_module_slugs))
+				if len(new_module_slugs) == 1:
+					warnings.append(f"Module {new_module_slugs_string} is new.")
+				else:
+					warnings.append(f"Modules {new_module_slugs_string} are new.")
+			removed_module_slugs = library_module_slugs - module_slugs
+			if removed_module_slugs:
+				slugs_string = ", ".join(f"`{slug}`" for slug in sorted(removed_module_slugs))
+				if len(removed_module_slugs) == 1:
+					warnings.append(f"Module {slugs_string} has been removed, which breaks existing patches that use it. Restore the module with its original slug.")
+				else:
+					warnings.append(f"Modules {slugs_string} have been removed, which breaks existing patches that use them. Restore the modules with their original slugs.")
 		return '\n'.join(warnings) or None
 
 	def review_manifest_urls(self):
@@ -295,7 +338,7 @@ class Plugin:
 			for key in ("manualUrl", "modularGridUrl"):
 				if url := module.get(key):
 					if warning := review_url(url):
-						warnings.append(f"`plugin.json` module `{module['slug']}` property `{key}`: {warning}")
+						warnings.append(f"Module `{module['slug']}` property `{key}`: {warning}")
 
 		# If license is a URL, check it.
 		license = self.manifest['license']
@@ -345,17 +388,26 @@ class Plugin:
 			junk_paths = sorted(junk_paths)
 			junk_paths_string = ", ".join(f"`{path}`" for path in junk_paths)
 			junk_paths_command = shlex.join(["git", "rm", "-r", "--cached", "--", *junk_paths])
-			warnings.append(f"Junk files {junk_paths_string} are committed to Git. Run `{junk_paths_command}` to stage their removal without deleting them locally. Use `.gitignore` to ignore them.")
+			if len(junk_paths) == 1:
+				warnings.append(f"Junk entry {junk_paths_string} is committed to Git. Run `{junk_paths_command}` to stage its removal without deleting it locally. Consider adding it to `.gitignore`.")
+			else:
+				warnings.append(f"Junk entries {junk_paths_string} are committed to Git. Run `{junk_paths_command}` to stage their removal without deleting them locally. Consider adding them to `.gitignore`.")
 
 		if binary_paths:
 			binary_paths_string = ", ".join(f"`{path}`" for path in binary_paths)
 			binary_paths_command = shlex.join(["git", "rm", "--cached", "--ignore-unmatch", "--", *binary_paths])
-			warnings.append(f"Binary files {binary_paths_string} are committed to Git. Run `{binary_paths_command}` to stage their removal without deleting them locally. Use `.gitignore` to ignore them.")
+			if len(binary_paths) == 1:
+				warnings.append(f"Binary file {binary_paths_string} is committed to Git. Run `{binary_paths_command}` to stage its removal without deleting it locally. Consider adding it to `.gitignore`.")
+			else:
+				warnings.append(f"Binary files {binary_paths_string} are committed to Git. Run `{binary_paths_command}` to stage their removal without deleting them locally. Consider adding them to `.gitignore`.")
 
 		if large_files:
 			large_files.sort(key=lambda file: file["name"])
 			large_files_string = ", ".join(f"`{file['name']}` ({file['size'] / 1024 ** 2:.1f} MiB)" for file in large_files)
-			warnings.append(f"Large files {large_files_string} are committed to Git. Consider removing them from Git history. See https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history.")
+			if len(large_files) == 1:
+				warnings.append(f"Large file {large_files_string} is committed to Git. Consider removing it from Git history. See https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history.")
+			else:
+				warnings.append(f"Large files {large_files_string} are committed to Git. Consider removing them from Git history. See https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history.")
 		return '\n'.join(warnings) or None
 
 	def review_source(self):
@@ -447,7 +499,10 @@ class Plugin:
 		review_dir(dist_dir)
 		if junk_paths:
 			junk_paths_string = ", ".join(f"`{path}`" for path in sorted(junk_paths))
-			warnings.append(f"Junk files {junk_paths_string} are included in `{package_filename}`. Remove them from your `Makefile` and rebuild the package.")
+			if len(junk_paths) == 1:
+				warnings.append(f"Junk entry {junk_paths_string} is included in `{package_filename}`. Remove it from your `Makefile` and rebuild the package.")
+			else:
+				warnings.append(f"Junk entries {junk_paths_string} are included in `{package_filename}`. Remove them from your `Makefile` and rebuild the package.")
 		return '\n'.join(warnings) or None
 
 	def build_source(self):
