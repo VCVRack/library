@@ -65,7 +65,7 @@
 	path = repos/squinkylabs-plug1
     url = https://github.com/kockie69/SquinkyVCV-main
 	branch = master
-[submodule "repos/ValleyFree"]
+[submodule "repos/Valley"]
 	path = repos/Valley
 	url = https://github.com/ValleyAudio/ValleyRackFree.git
 	branch = master
@@ -759,7 +759,7 @@
 [submodule "repos/TheAllElectricSmartGrid"]
 	path = repos/TheAllElectricSmartGrid
 	url = https://github.com/jvictor0/theallelectricsmartgrid.git
-[submodule "repos/DanielDavies"]
+[submodule "repos/SequelSequencers"]
 	path = repos/SequelSequencers
 	url = https://github.com/danieldavies99/DanielDaviesVCV.git
 [submodule "repos/EH_modules"]
@@ -789,7 +789,7 @@
 [submodule "repos/HetrickCV"]
 	path = repos/HetrickCV
 	url = https://github.com/mhetrick/hetrickcv.git
-[submodule "repos/SqHarmony"]
+[submodule "repos/squinktronix-plug1"]
 	path = repos/squinktronix-plug1
 	url = https://github.com/squinkylabs/SqHarmony.git
 [submodule "repos/minimal-friction"]
