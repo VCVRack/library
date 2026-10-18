@@ -1,7 +1,7 @@
 {
   "slug": "StochasticTelegraph",
   "name": "Stochastic Telegraph",
-  "version": "2.0.28",
+  "version": "2.0.29",
   "minRackVersion": "2.6.1",
   "license": "GPL-3.0-or-later",
   "brand": "Stochastic Telegraph",
@@ -17,8 +17,8 @@
     {
       "slug": "BASICally",
       "name": "BASICally",
-      "description": "Generate sequences, perform math on inputs, and even multitask with a simple BASIC-like language. Can also send Tipsy text messages to modules that support them (e.g., TTY).",
-      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#basically",
+      "description": "Generate sequences, perform math on inputs, and even multitask with a simple BASIC-like language. Can also send Tipsy text messages to modules that support them (e.g., TTY or Memory).",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/BASICally.md",
       "tags": [
         "Attenuator",
         "Function Generator",
@@ -43,7 +43,8 @@
     {
       "slug": "Chances",
       "name": "Chances",
-      "description": "Discrete probabilities for particular values.",
+      "description": "Random number generator with discrete probabilities for particular values or ranges of values.",
+      "manualUrl": "https://github.com/mahlenmorris/VCVRack/blob/main/README.md#chances",
       "tags": [
         "Polyphonic",
         "Quantizer",
