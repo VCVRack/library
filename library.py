@@ -334,6 +334,9 @@ def pull_library():
 	info("Pulling library repo")
 	run_retry("git", "pull")
 
+	info("Updating library submodules")
+	run("git", "submodule", "update", "--init", "--recursive", capture_stderr=True)
+
 
 def review(paths=None, commit=None, repo_url=None):
 	pull_library()
