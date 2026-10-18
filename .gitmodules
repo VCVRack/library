@@ -1185,3 +1185,6 @@
 [submodule "repos/Xiehuo"]
 	path = repos/Xiehuo
 	url = https://github.com/Xiehuo0624/SpectralDissector-VCV
+[submodule "repos/tnn1t1s-phases"]
+	path = repos/tnn1t1s-phases
+	url = https://github.com/tnn1t1s/tnn1t1s-phases
