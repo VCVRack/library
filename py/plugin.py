@@ -72,6 +72,9 @@ class Plugin:
 	source_dir = None
 	repo_url = None
 	repo_commit = None
+	previous_repo_commit = None
+	previous_repo_url = None
+	created_repo = False
 	extraction_dir = None
 	manifest = None
 	library_manifest = None
@@ -99,26 +102,38 @@ class Plugin:
 			return
 
 		# Check for uncommitted changes
-		if os.path.exists(self.source_dir):
+		if os.path.isdir(self.source_dir):
 			changes = run("git", "status", "--porcelain", cwd=self.source_dir, capture_stdout=True)
 			if changes:
 				raise RuntimeError(f"Repository {self.source_dir!r} has uncommitted changes.\n\n{changes}")
+
+			# If commit checkout is requested, record its original commit hash so we can revert later.
+			if self.repo_commit and not self.previous_repo_commit and not self.created_repo:
+				self.previous_repo_commit = run("git", "rev-parse", "HEAD", cwd=self.source_dir, capture_stdout=True).strip()
+
+			# If URL change is requested, record its original URL so we can revert later.
+			if self.repo_url and not self.previous_repo_url and not self.created_repo:
+				if self.is_source_in_library():
+					self.previous_repo_url = run("git", "config", "--file", ".gitmodules", "--get", f"submodule.{self.source_dir}.url", capture_stdout=True).strip()
+				else:
+					self.previous_repo_url = run("git", "remote", "get-url", "origin", cwd=self.source_dir, capture_stdout=True).strip()
 
 		# Set repository URL or create repository
 		if self.repo_url:
 			if self.is_source_in_library():
 				# Repository is inside library, so change its submodule URL or add it as a submodule.
-				repo_path = os.path.relpath(self.source_dir)
-				try:
-					run("git", "submodule", "set-url", "--", repo_path, self.repo_url, capture_stderr=True)
-				except RuntimeError:
-					run("git", "submodule", "add", "--", self.repo_url, repo_path, capture_stderr=True)
+				if os.path.isdir(self.source_dir):
+					run("git", "submodule", "set-url", "--", self.source_dir, self.repo_url, capture_stderr=True)
+				else:
+					run("git", "submodule", "add", "--", self.repo_url, self.source_dir, capture_stderr=True)
+					self.created_repo = True
 			else:
 				# Repository is outside library, so change its remote URL or clone it.
 				if os.path.isdir(self.source_dir):
 					run("git", "remote", "set-url", "origin", self.repo_url, cwd=self.source_dir, capture_stderr=True)
 				else:
 					run("git", "clone", "--", self.repo_url, self.source_dir, capture_stderr=True)
+					self.created_repo = True
 
 		# Check out requested commit hash
 		if self.repo_commit:
@@ -128,6 +143,41 @@ class Plugin:
 
 		# Initialize submodules
 		run("git", "submodule", "update", "--init", "--recursive", cwd=self.source_dir, capture_stderr=True)
+
+	def accept_repo(self):
+		"""Discards saved information for undoing repository changes."""
+		self.previous_repo_commit = None
+		self.previous_repo_url = None
+		self.created_repo = False
+
+	def undo_repo(self):
+		"""Undoes repository changes made for this plugin."""
+		# If repository was created, remove it.
+		if self.created_repo:
+			info(f"Removing {self.source_dir}")
+			if self.is_source_in_library():
+				run("git", "submodule", "deinit", "-f", "--", self.source_dir, capture_stderr=True)
+				run("git", "rm", "-f", "--", self.source_dir, capture_stderr=True)
+			else:
+				shutil.rmtree(self.source_dir)
+			self.accept_repo()
+			return
+
+		# If original commit hash is recorded, restore it.
+		if self.previous_repo_commit:
+			info(f"Restoring {self.source_dir} to {self.previous_repo_commit}")
+			run("git", "checkout", "--detach", self.previous_repo_commit, cwd=self.source_dir, capture_stderr=True)
+			run("git", "submodule", "update", "--init", "--recursive", cwd=self.source_dir, capture_stderr=True)
+
+		# If original URL is recorded, restore it.
+		if self.previous_repo_url:
+			info(f"Restoring {self.source_dir} repository URL")
+			if self.is_source_in_library():
+				run("git", "submodule", "set-url", "--", self.source_dir, self.previous_repo_url, capture_stderr=True)
+			else:
+				run("git", "remote", "set-url", "origin", self.previous_repo_url, cwd=self.source_dir, capture_stderr=True)
+
+		self.accept_repo()
 
 	def get_slug(self):
 		if self.manifest is None:
