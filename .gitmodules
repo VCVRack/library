@@ -1173,3 +1173,6 @@
 [submodule "repos/halfagiraf"]
 	path = repos/halfagiraf
 	url = https://github.com/stevenmcsorley/halfagiraf-modules
+[submodule "repos/RacketScience"]
+	path = repos/RacketScience
+	url = https://github.com/ContemporaryInsanity/RacketScience.git
