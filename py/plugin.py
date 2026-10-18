@@ -405,8 +405,14 @@ class Plugin:
 			output = run("git", "ls-files", "-z", "--", ".", cwd=self.source_dir, capture_stdout=True)
 		except RuntimeError:
 			return None
-		paths = [path for path in output.split('\0') if path]
 		warnings = []
+
+		# Check for uncommitted changes.
+		changes = run("git", "status", "--porcelain", cwd=self.source_dir, capture_stdout=True)
+		if changes:
+			warnings.append(f"Repository {self.source_dir!r} has uncommitted changes.\n{changes}")
+
+		paths = [path for path in output.split('\0') if path]
 		junk_paths = set()
 		binary_paths = []
 		large_files = []
