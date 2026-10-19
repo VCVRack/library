@@ -1,7 +1,7 @@
 {
   "slug": "InfiniteNoise",
   "name": "Infinite-Noise",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "license": "GPL-3.0-or-later",
   "brand": "Infinite-Noise",
   "author": "Pelle Liljendal",
@@ -37,7 +37,7 @@
     {
       "slug": "TLFO",
       "name": "Tiny LFO",
-      "description": "Tiny 2HP LFO with knob/CV rate, PWM, Rate Chaos, and uni/bipolar range. Outputs Saw, Square, Triangle and Sine (polyphonic).",
+      "description": "2HP Tiny LFO with knob/CV rate, PWM, Rate Chaos, and uni/bipolar range. Outputs Saw, Square, Triangle and Sine (polyphonic).",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#tiny-lfo",
       "tags": [
         "LFO",
@@ -57,7 +57,7 @@
     {
       "slug": "PhaseDrivenLFO",
       "name": "Phase-Driven LFO",
-      "description": "Phase-driven LFO: incoming phase CV sets the waveform (no internal oscillator). PWM, MOD, wrap, and uni/bipolar range. Outputs Saw, Square, Triangle and Sine (polyphonic).",
+      "description": "4HP phase-driven LFO: incoming phase CV sets the waveform (no internal oscillator). PWM, MOD, wrap, and uni/bipolar range. Outputs Saw, Square, Triangle and Sine (polyphonic).",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/LFO.md#phase-driven-lfo",
       "tags": [
         "LFO",
@@ -253,38 +253,6 @@
       ]
     },
     {
-      "slug": "ManMix4I",
-      "name": "Manuel Mix 4 Mk I",
-      "description": "2HP mixer: 4 inputs, per-input knobs (0-200%), master, averaging or unity mix.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-mix-4-mk-i",
-      "tags": [
-        "Polyphonic",
-        "Mixer"
-      ]
-    },
-    {
-      "slug": "ManMix4II",
-      "name": "Manuel Mix 4 Mk II",
-      "description": "4HP mixer: 4 inputs, per-input knob/CV (0-200%), individual outputs plus mix, averaging or unity.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-mix-4-mk-ii",
-      "tags": [
-        "Polyphonic",
-        "Mixer",
-        "VCA"
-      ]
-    },
-    {
-      "slug": "ManMix4st",
-      "name": "Manuel Mix 4 Stereo",
-      "description": "4HP stereo mixer: 4 stereo inputs, per-input knob/CV (0-200%), stereo mix, averaging or unity. Optional mono-to-stereo.",
-      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/ManCV.md#manuel-mix-4-stereo",
-      "tags": [
-        "Polyphonic",
-        "Mixer",
-        "VCA"
-      ]
-    },
-    {
       "slug": "Mute2",
       "name": "Mute 2",
       "description": "2HP dual mute: per-section latchable button and gate/trigger CV, plus Both.",
@@ -321,7 +289,7 @@
     {
       "slug": "CvToGt",
       "name": "CV to Gate",
-      "description": "Fire a gate if CV is within a specified min/max range. Also above, below, inverted-range, and Diff.",
+      "description": "2HP fire a gate if CV is within a specified min/max range. Also above, below, inverted-range, and Diff.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/CvToGt.md#cv-to-gate",
       "tags": [
         "Polyphonic",
@@ -331,9 +299,70 @@
     {
       "slug": "CvToGtTr8",
       "name": "CV to Gate/Trigger 8",
-      "description": "Fire a gate or trigger if CV is within a specified min/max range. 8 sections, Cross, and a polyphonic output.",
+      "description": "8HP 8 sections can fire a gate or trigger if CV is within a specified min/max range. E.g., you can input a single CV signal and have up to 8 gate/trigger outputs that can fire independently based on the value of the CV input.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/CvToGtTr8.md#cv-to-gatetrigger-8",
       "tags": [
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ManMix4I",
+      "name": "Manuel Mix 4 Mk I",
+      "description": "2HP mixer: 4 inputs, per-input knobs (0-200%), master, unity or averaging mix.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Mixer.md#manuel-mix-4-mk-i",
+      "tags": [
+        "Polyphonic",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "ManMix4II",
+      "name": "Manuel Mix 4 Mk II",
+      "description": "4HP mixer: 4 inputs, per-input knob/CV (0-200%), individual outputs plus mix, unity or averaging.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Mixer.md#manuel-mix-4-mk-ii",
+      "tags": [
+        "Polyphonic",
+        "Mixer",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "ManMix4st",
+      "name": "Manuel Mix 4 Stereo",
+      "description": "4HP stereo mixer: 4 stereo inputs, per-input knob/CV (0-200%), stereo mix, unity or averaging. Optional mono-to-stereo.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Mixer.md#manuel-mix-4-stereo",
+      "tags": [
+        "Polyphonic",
+        "Mixer",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "MatrixMix5x5",
+      "name": "Matrix Mix 5x5",
+      "description": "14HP mono 5x5 matrix mixer: per-row invert/gain, linked column sends, per-column unity or averaging mix, range 0\u20131x or \u00b11x, level CV/trim, Min/Max/Avg/Rng.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Mixer.md#matrix-mix-5x5",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "MatrixMix4x4Stereo",
+      "name": "Matrix Mix 4x4 Stereo",
+      "description": "22HP stereo 4x4 matrix mixer: per-row L/R norm, balance/pan, gain, linked unipolar sends, per-column unity or averaging mix, L/R level lights, and Avg outputs.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Mixer.md#matrix-mix-4x4-stereo",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "StereoBalancePan",
+      "name": "Stereo Balance/Pan",
+      "description": "2HP stereo balance/pan with post gain 0\u2013200%, CV/trim, and L/R level lights. Polyphonic audio; Right input normalizes from Left.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/StereoBalancePan.md#stereo-balance-pan",
+      "tags": [
+        "Pan",
         "Polyphonic",
         "Utility"
       ]
@@ -375,7 +404,7 @@
     {
       "slug": "TinyLCMP2",
       "name": "Tiny Logic Comparator-2",
-      "description": "2HP dual logic: 4 inputs per section, AND/OR/XOR with invert (NAND/NOR/XNOR).",
+      "description": "2HP dual logic: 4 inputs per section, AND/OR/XOR with invert (NAND/NOR/XNOR). Inputs can be inverted individually via context menu.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#tiny-logic-comparator-2",
       "tags": [
         "Dual",
@@ -387,7 +416,7 @@
     {
       "slug": "LCMP2",
       "name": "Logic Comparator-2",
-      "description": "4HP dual logic: all six Boolean outputs per section, plus True/False switch inputs.",
+      "description": "4HP dual logic: all six Boolean outputs per section, plus True/False switch inputs. Buttons next to each input can invert the input individually.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#logic-comparator-2",
       "tags": [
         "Dual",
@@ -400,7 +429,7 @@
     {
       "slug": "LCMP6x2",
       "name": "Logic Comparator-6x2",
-      "description": "6HP 6-section logic: 2 inputs each, AND/OR/XOR with invert (NAND/NOR/XNOR). Chainable.",
+      "description": "6HP 6-section logic: 2 inputs each, AND/OR/XOR with invert (NAND/NOR/XNOR). Chainable. Inputs can be inverted individually via context menu.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#logic-comparator-6x2",
       "tags": [
         "Polyphonic",
@@ -436,7 +465,7 @@
     {
       "slug": "VCMP2II",
       "name": "Value Comparator-2 Mk II",
-      "description": "4HP value compare and math: Min, Max, NtZ, FfZ, Abs-diff, and Avg of A/B, plus Int/Frac of C and Plus, Minus, Mul, Div of C/D.",
+      "description": "4HP value compare and math: Min, Max, NtZ, FfZ, Abs-diff, and Avg of A/B, and Int/Frac of C and Plus, Minus, Mul, Div of C/D.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Compare.md#value-comparator-2-mk-ii",
       "tags": [
         "Polyphonic",
@@ -470,7 +499,7 @@
     {
       "slug": "SampleAndUpdate",
       "name": "Sample and Update",
-      "description": "2HP sample-and-update: Sample, Reset, and Update via button/CV. Can also count triggers and fire one when the desired count is reached.",
+      "description": "2HP sample-and-update: Sample, Update, and Reset via button/CV. Can also count triggers and fire one when the desired count is reached.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Shth.md#sample-and-update",
       "tags": [
         "Polyphonic",
@@ -596,9 +625,10 @@
     {
       "slug": "CxFade1x2",
       "name": "Cross-fade 1x2",
-      "description": "2HP cross-fade a stereo signal, or two separate mono signals, by knob/CV. A/B toggle, trigger mode.",
+      "description": "2HP cross-fade a stereo signal, or two separate mono signals, by knob/CV. A/B toggle, trigger mode, panning, timed fade.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/CrossFade.md#cross-fade-1x2",
       "tags": [
+        "Pan",
         "Polyphonic",
         "Utility"
       ]
@@ -606,7 +636,7 @@
     {
       "slug": "CxFade4x1",
       "name": "Cross-fade 4x1",
-      "description": "8HP cross-fade 4 separate signals by per-section and master knob/CV. A/B toggle, trigger mode, flipped outputs.",
+      "description": "8HP cross-fade 4 separate signals by per-section and master knob/CV. A/B toggle, trigger mode, flipped outputs, timed fade.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/CrossFade.md#cross-fade-4x1",
       "tags": [
         "Polyphonic",
@@ -636,7 +666,7 @@
     {
       "slug": "BernoulliSwitch",
       "name": "Bernoulli Switch",
-      "description": "2HP Bernoulli switch with A/B-> (2 in, 1 out) and ->A/B (1 in, 2 out). Probability, clock in or internal LFO, Rate Chaos.",
+      "description": "2HP Bernoulli switch with A/B-> (2 in, 1 out) and ->A/B (1 in, 2 out). Probability, clock in or internal LFO, Rate Chaos, fade.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#bernoulli-switch",
       "tags": [
         "Polyphonic",
@@ -647,7 +677,7 @@
     {
       "slug": "OnOffSwitch",
       "name": "ON/OFF Switch",
-      "description": "2HP switch between the ON- or OFF-signal via button, gate, or trigger. Knob/CV per state.",
+      "description": "2HP switch between the ON- or OFF-signal via button, gate, or trigger. Knob/CV per state, fade.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Switch.md#onoff-switch",
       "tags": [
         "Controller",
@@ -668,7 +698,7 @@
     {
       "slug": "Random4",
       "name": "Random-4",
-      "description": "2HP generates 4 random values with min/max and distribution at each trigger or internal LFO. Rate Chaos.",
+      "description": "2HP generates 4 random (polyphonic) values within specified range with center/edge or min/max distribution at each trigger or internal LFO. Rate Chaos, slew.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Random.md#random-4",
       "tags": [
         "Polyphonic",
@@ -679,8 +709,18 @@
     {
       "slug": "RandomCurve",
       "name": "Random Curve",
-      "description": "4HP generates 6 shaped random curves with min/max and distribution. Internal LFO, Rate Chaos, quantize.",
+      "description": "4HP generates 6 shaped random curves within specified range with center/edge or min/max distribution. Internal LFO, Rate Chaos, quantize.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Random.md#random-curve",
+      "tags": [
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Chaos",
+      "name": "Chaos",
+      "description": "2HP adds random chaos to an input (or outputs chaos). Range, distribution, slew, Rate Chaos.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Random.md#chaos",
       "tags": [
         "Random",
         "Utility"
@@ -689,7 +729,7 @@
     {
       "slug": "Arm3XY",
       "name": "Arm 3 XY",
-      "description": "8HP length and rotation of 3 arms (basically 3 polar vectors) generate a semi-random X/Y curve, plus XY mix. Rate Chaos.",
+      "description": "8HP length and rotation of 3 arms (basically 3 polar vectors) generate a semi-random X/Y curve, plus XY mix. Individual Rate Chaos can be applied to length and/or rotational velocity of each arm.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Arm3XY.md#arm-3-xy",
       "tags": [
         "Utility",
@@ -699,7 +739,7 @@
     {
       "slug": "ADREnvelope",
       "name": "ADR Envelope",
-      "description": "4HP Attack-Delay-Release envelope with attack/release time and shape (technically Attack-Sustain-Delay-Release). Rate Chaos.",
+      "description": "4HP Attack-Delay-Release envelope with attack/release time and shape (technically Attack-Sustain-Delay-Release). Rate Chaos can affect each time-setting, changed at each cycle.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Envelope.md#adr-envelope",
       "tags": [
         "Envelope generator",
@@ -709,7 +749,7 @@
     {
       "slug": "ADSDREnvelope",
       "name": "ADSDR Envelope",
-      "description": "6HP Attack-Decay-Sustain-Delay-Release envelope with attack/decay/release time and shape, and levels for Attack, Sustain and Release. Rate Chaos.",
+      "description": "6HP Attack-Decay-Sustain-Delay-Release envelope with attack/decay/release time and shape, and levels for Attack, Sustain and Release. Rate Chaos can affect each time-setting, changed at each cycle.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Envelope.md#adsdr-envelope",
       "tags": [
         "Envelope generator",
@@ -724,6 +764,31 @@
       "tags": [
         "Envelope generator",
         "Expander",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Slew2",
+      "name": "Slew 2",
+      "description": "4HP dual polyphonic constant rate/time slew with knobs and (polyphonic) CV/trim for rise and fall time and shape, Snap (gate/trigger), B-Catch (gate) output, shared Scale/Offset of the input, and envelope follower. Via context-menu the (center) linear shape, can be replaced by an S-Curve shape.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Slew.md#slew-2",
+      "tags": [
+        "Slew limiter",
+        "Envelope follower",
+        "Dual",
+        "Polyphonic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Slew4",
+      "name": "Slew 4",
+      "description": "2HP quad polyphoinc constant rate/time slew with knobs based rise/fall times/shape settings. Via context-menu the (center) linear shape, can be replaced by an S-Curve shape.",
+      "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Slew.md#slew-4",
+      "tags": [
+        "Slew limiter",
+        "Quad",
+        "Polyphonic",
         "Utility"
       ]
     },
@@ -812,7 +877,7 @@
     {
       "slug": "FlipFlop",
       "name": "Flip-Flop",
-      "description": "2HP D-, T-, or SR-Flip-Flop. Outputs for Q, !Q, and change trigger.",
+      "description": "2HP Polyphonic D-, T-, or SR-Flip-Flop. Outputs for Q, !Q, and change trigger.",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/FlipFlop.md#flip-flop",
       "tags": [
         "Logic",
@@ -862,7 +927,7 @@
     {
       "slug": "ValueToBits",
       "name": "Value-to-Bits",
-      "description": "4HP converts a CV input (clamped to range) into 8 mono gates plus one poly (up to 16 channels).",
+      "description": "4HP converts a CV input (clamped to range) into 8 mono gates plus one poly (up to 16 bits/channels).",
       "manualUrl": "https://github.com/pellelil/InfNoiseRack/blob/master/doc/Bits.md#value-to-bits",
       "tags": [
         "Polyphonic",
