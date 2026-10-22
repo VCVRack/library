@@ -18862,5 +18862,47 @@
         "creationTimestamp": 1792651377
       }
     }
+  },
+  "SFSSuper": {
+    "buildTimestamp": 1792654043,
+    "creationTimestamp": 1792654043,
+    "modules": {
+      "2OPFM": {
+        "creationTimestamp": 1792654043
+      },
+      "PHRSR": {
+        "creationTimestamp": 1792654043
+      },
+      "SVFs": {
+        "creationTimestamp": 1792654043
+      },
+      "EG": {
+        "creationTimestamp": 1792654043
+      },
+      "VCAs": {
+        "creationTimestamp": 1792654043
+      },
+      "SCANNER": {
+        "creationTimestamp": 1792654043
+      },
+      "TVCA": {
+        "creationTimestamp": 1792654043
+      },
+      "CHORUS": {
+        "creationTimestamp": 1792654043
+      },
+      "ROOM": {
+        "creationTimestamp": 1792654043
+      },
+      "OTAVCAs": {
+        "creationTimestamp": 1792654043
+      },
+      "SH": {
+        "creationTimestamp": 1792654043
+      },
+      "PNGBL": {
+        "creationTimestamp": 1792654043
+      }
+    }
   }
 }

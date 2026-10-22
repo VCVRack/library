@@ -2642,5 +2642,68 @@
     "vcvUrl": "https://library.vcvrack.com/NANOModules/FUM",
     "mgUrl": "https://modulargrid.net/e/nano-modules-fum",
     "mgModuleId": 59706
+  },
+  {
+    "pluginSlug": "SFSSuper",
+    "moduleSlug": "2OPFM",
+    "vcvUrl": "https://library.vcvrack.com/SFSSuper/2OPFM",
+    "mgUrl": "https://modulargrid.net/e/super-synthesis-2opfm-",
+    "mgModuleId": 32717
+  },
+  {
+    "pluginSlug": "SFSSuper",
+    "moduleSlug": "PHRSR",
+    "vcvUrl": "https://library.vcvrack.com/SFSSuper/PHRSR",
+    "mgUrl": "https://modulargrid.net/e/super-synthesis-phrsr",
+    "mgModuleId": 31573
+  },
+  {
+    "pluginSlug": "SFSSuper",
+    "moduleSlug": "SVFs",
+    "vcvUrl": "https://library.vcvrack.com/SFSSuper/SVFs",
+    "mgUrl": "https://modulargrid.net/e/super-synthesis-svfs",
+    "mgModuleId": 39057
+  },
+  {
+    "pluginSlug": "SFSSuper",
+    "moduleSlug": "EG",
+    "vcvUrl": "https://library.vcvrack.com/SFSSuper/EG",
+    "mgUrl": "https://modulargrid.net/e/super-synthesis-eg",
+    "mgModuleId": 41282
+  },
+  {
+    "pluginSlug": "SFSSuper",
+    "moduleSlug": "VCAs",
+    "vcvUrl": "https://library.vcvrack.com/SFSSuper/VCAs",
+    "mgUrl": "https://modulargrid.net/e/super-synthesis-vcas",
+    "mgModuleId": 8946
+  },
+  {
+    "pluginSlug": "SFSSuper",
+    "moduleSlug": "SCANNER",
+    "vcvUrl": "https://library.vcvrack.com/SFSSuper/SCANNER",
+    "mgUrl": "https://modulargrid.net/e/super-synthesis-scanner",
+    "mgModuleId": 33650
+  },
+  {
+    "pluginSlug": "SFSSuper",
+    "moduleSlug": "TVCA",
+    "vcvUrl": "https://library.vcvrack.com/SFSSuper/TVCA",
+    "mgUrl": "https://modulargrid.net/e/super-synthesis-tvca",
+    "mgModuleId": 36231
+  },
+  {
+    "pluginSlug": "SFSSuper",
+    "moduleSlug": "CHORUS",
+    "vcvUrl": "https://library.vcvrack.com/SFSSuper/CHORUS",
+    "mgUrl": "https://modulargrid.net/e/super-synthesis-chorus",
+    "mgModuleId": 51243
+  },
+  {
+    "pluginSlug": "SFSSuper",
+    "moduleSlug": "ROOM",
+    "vcvUrl": "https://library.vcvrack.com/SFSSuper/ROOM",
+    "mgUrl": "https://modulargrid.net/e/super-synthesis-room",
+    "mgModuleId": 51244
   }
 ]

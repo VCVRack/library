@@ -1191,3 +1191,6 @@
 [submodule "repos/JUDYIO"]
 	path = repos/JUDYIO
 	url = https://github.com/judyio/vcv-rack-modules
+[submodule "repos/SFSSuper"]
+	path = repos/SFSSuper
+	url = https://github.com/stuart78/sfs-super-vcv

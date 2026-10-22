@@ -1,0 +1,144 @@
+{
+  "slug": "SFSSuper",
+  "name": "SFS Super",
+  "version": "2.0.3",
+  "license": "GPL-3.0-or-later",
+  "brand": "SFS Super",
+  "author": "Stuart Frederich-Smith",
+  "authorEmail": "hello@signalfunctionset.com",
+  "authorUrl": "https://signalfunctionset.com/",
+  "pluginUrl": "https://signalfunctionset.com/",
+  "manualUrl": "https://github.com/stuart78/sfs-super-vcv#readme",
+  "sourceUrl": "https://github.com/stuart78/sfs-super-vcv",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/stuart78/sfs-super-vcv/releases",
+  "modules": [
+    {
+      "slug": "2OPFM",
+      "name": "2OPFM",
+      "description": "Two-operator FM voice: the stock firmware emulated, plus five alternative firmwares",
+      "modularGridUrl": "https://modulargrid.net/e/super-synthesis-2opfm-",
+      "tags": [
+        "Synth voice",
+        "Oscillator",
+        "Digital",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "PHRSR",
+      "name": "PHRSR",
+      "description": "Two 16-step phrases recorded live from one knob, with clock in and out",
+      "modularGridUrl": "https://modulargrid.net/e/super-synthesis-phrsr",
+      "tags": [
+        "Sequencer",
+        "Recording",
+        "Clock generator",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "SVFs",
+      "name": "SVFs",
+      "description": "Two 2164 state-variable filters, 1V/oct and self-oscillating",
+      "modularGridUrl": "https://modulargrid.net/e/super-synthesis-svfs",
+      "tags": [
+        "Filter",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "EG",
+      "name": "EG",
+      "description": "Fast analog attack/decay envelope with one-shot or re-trigger and end-of-cycle out",
+      "modularGridUrl": "https://modulargrid.net/e/super-synthesis-eg",
+      "tags": [
+        "Envelope generator",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "VCAs",
+      "name": "VCAs",
+      "description": "Four linear 2164 VCAs that chain into a mixer",
+      "modularGridUrl": "https://modulargrid.net/e/super-synthesis-vcas",
+      "tags": [
+        "VCA",
+        "Mixer",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "SCANNER",
+      "name": "SCANNER",
+      "description": "One scan voltage crossfading four overlapping CV windows",
+      "modularGridUrl": "https://modulargrid.net/e/super-synthesis-scanner",
+      "tags": [
+        "Utility",
+        "Mixer",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "TVCA",
+      "name": "TVCA",
+      "description": "Two-input OTA VCA with tanh distortion",
+      "modularGridUrl": "https://modulargrid.net/e/super-synthesis-tvca",
+      "tags": [
+        "VCA",
+        "Distortion",
+        "Mixer",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "CHORUS",
+      "name": "CHORUS",
+      "description": "Modulated delay line with inverted feedback, from chorus to 300 ms echo",
+      "modularGridUrl": "https://modulargrid.net/e/super-synthesis-chorus",
+      "tags": [
+        "Chorus",
+        "Delay",
+        "Effect",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "ROOM",
+      "name": "ROOM",
+      "description": "Allpass reverb in one shared buffer, with filtered feedback and a dry/wet slider",
+      "modularGridUrl": "https://modulargrid.net/e/super-synthesis-room",
+      "tags": [
+        "Reverb",
+        "Effect",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "OTAVCAs",
+      "name": "OTAVCAs",
+      "description": "Two saturating LM13700 VCAs with attenuverted CV (unreleased design)",
+      "tags": [
+        "VCA",
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "SH",
+      "name": "S&H",
+      "description": "Three chained JFET sample-and-holds, one trigger stepping down the chain",
+      "tags": [
+        "Sample and hold"
+      ]
+    },
+    {
+      "slug": "PNGBL",
+      "name": "PNGBL",
+      "description": "Pingable OTA state-variable filter (unreleased design, provisional panel)",
+      "tags": [
+        "Filter",
+        "Physical modeling"
+      ]
+    }
+  ]
+}
