@@ -1,7 +1,7 @@
 {
   "slug": "CVfunk",
   "name": "CV funk Modules",
-  "version": "2.0.48",
+  "version": "2.0.54",
   "license": "MIT",
   "brand": "CV funk",
   "author": "Cody Geary",
@@ -17,6 +17,7 @@
       "slug": "Steps",
       "name": "Steps",
       "description": "Fusion of a comparator and a step generator",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#steps",
       "tags": [
         "Function generator",
         "Sample and hold",
@@ -28,6 +29,7 @@
       "slug": "EnvelopeArray",
       "name": "Envelope Array",
       "description": "Six related envelopes and gates",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#envelope-array",
       "tags": [
         "Envelope generator",
         "Function generator"
@@ -37,6 +39,7 @@
       "slug": "PentaSequencer",
       "name": "Penta Sequencer",
       "description": "A five step sequencer with five simultaneous outputs and tempo-synced slew",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#penta-sequencer",
       "tags": [
         "Sequencer"
       ]
@@ -45,6 +48,7 @@
       "slug": "ImpulseController",
       "name": "Impulse Controller",
       "description": "Decay envelopes propagate across a network of 24 nodes",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#impulse-controller",
       "tags": [
         "Envelope generator",
         "Function generator",
@@ -55,6 +59,7 @@
       "slug": "Signals",
       "name": "Signals",
       "description": "A small six-channel oscilloscope for visualizing rack signals.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#signals",
       "tags": [
         "Polyphonic",
         "Visual"
@@ -64,6 +69,7 @@
       "slug": "Ranges",
       "name": "Ranges",
       "description": "Convert two input voltages into equal intervals.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#ranges",
       "tags": [
         "Utility",
         "Polyphonic",
@@ -74,6 +80,7 @@
       "slug": "HexMod",
       "name": "Hex Mod",
       "description": "Six phase-related LFOs with rate sync and individual phase reset triggers.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#hex-mod",
       "tags": [
         "Low-frequency oscillator",
         "Visual"
@@ -83,6 +90,7 @@
       "slug": "Collatz",
       "name": "Collatz",
       "description": "Clock-synchronized trigger burst generator, based on sequences of the Collatz conjecture.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#collatz",
       "tags": [
         "Sequencer",
         "Clock modulator"
@@ -92,6 +100,7 @@
       "slug": "Strings",
       "name": "Strings",
       "description": "Generates guitar chords from a button interface or CV. Implements bending, whammy bar and capo.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#strings",
       "tags": [
         "Sequencer",
         "Quantizer"
@@ -101,6 +110,7 @@
       "slug": "Ouros",
       "name": "Ouros",
       "description": "A stereo phase injection oscillator, with polar waveform display.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#ouros",
       "tags": [
         "Oscillator",
         "Polyphonic"
@@ -110,6 +120,7 @@
       "slug": "PressedDuck",
       "name": "Pressed Duck",
       "description": "A stereo six-channel dynamic compressing mixer with side-chain ducking, tanh saturation and ADAA.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#pressed-duck",
       "tags": [
         "Mixer",
         "Compressor",
@@ -123,6 +134,7 @@
       "slug": "PreeeeeeeeeeessedDuck",
       "name": "Preeeeeeeeeeessed Duck",
       "description": "A stereo sixteen-channel dynamic compressing mixer with side-chain ducking, tanh saturation and ADAA.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#preeeeeeeeeeessed-duck",
       "tags": [
         "Mixer",
         "Compressor",
@@ -136,6 +148,7 @@
       "slug": "FlowerPatch",
       "name": "Flower Patch",
       "description": "A 12-tone scale polar visualizer with FFT analysis.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#flower-patch",
       "tags": [
         "Visual",
         "Utility"
@@ -145,6 +158,7 @@
       "slug": "Magnets",
       "name": "Magnets",
       "description": "Simulate and interact with a small magnetic spin-lattice.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#magnets",
       "tags": [
         "Random",
         "Low-frequency oscillator"
@@ -154,6 +168,7 @@
       "slug": "Syncro",
       "name": "Syncro",
       "description": "Eight channel clock ratio generator.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#syncro",
       "tags": [
         "Clock generator",
         "Clock modulator"
@@ -163,6 +178,7 @@
       "slug": "Nona",
       "name": "Nona",
       "description": "Nine-channel CV gain/offset utility mixer.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#nona",
       "tags": [
         "Attenuator",
         "Polyphonic",
@@ -173,6 +189,7 @@
       "slug": "Decima",
       "name": "Decima",
       "description": "Ten-channel gate sequencer with per-step probability.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#decima",
       "tags": [
         "Sequencer",
         "Utility"
@@ -182,6 +199,7 @@
       "slug": "Morta",
       "name": "Morta",
       "description": "Single-knob macro-controller utility with 16 simultaneous outputs in different ranges.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#morta",
       "tags": [
         "Controller",
         "Utility",
@@ -192,6 +210,7 @@
       "slug": "StepWave",
       "name": "Step Wave",
       "description": "8-step programmable sequencer/envelope generator with rhythmic displacement and variable shape.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#step-wave",
       "tags": [
         "Sequencer"
       ]
@@ -200,6 +219,7 @@
       "slug": "Arrange",
       "name": "Arrange",
       "description": "A seven channel sequencer with quantize/volt option per channel, and adjustable length.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#arrange",
       "tags": [
         "Sequencer",
         "Polyphonic"
@@ -209,6 +229,7 @@
       "slug": "TriDelay",
       "name": "Tri Delay",
       "description": "A three tap fractional-delay with ranges from ms to a few seconds.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#tri-delay",
       "tags": [
         "Delay"
       ]
@@ -217,6 +238,7 @@
       "slug": "Tatami",
       "name": "Tatami",
       "description": "A stereo polyphonic wave-shaper and wave-folder with display and ADAA antialising.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#tatami",
       "tags": [
         "Waveshaper",
         "Polyphonic"
@@ -226,6 +248,7 @@
       "slug": "Cartesia",
       "name": "Cartesia",
       "description": "A 4x4x4 sequencer for both quantized and non-quantized voltages, gates per step, and polyphonic outputs with stacked z-layer options.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#cartesia",
       "tags": [
         "Sequencer",
         "Polyphonic"
@@ -235,6 +258,7 @@
       "slug": "JunkDNA",
       "name": "Junk DNA",
       "description": "Input DNA codes to generate repetative genes, convert DNA sequence to numerous simultaneous gate signals.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#junk-dna",
       "tags": [
         "Sequencer"
       ]
@@ -243,6 +267,7 @@
       "slug": "Picus",
       "name": "Picus",
       "description": "Compose sequences of trigger bursts. Program a sequence of up to seven clock multiplier stages. Customizable trigger patterns.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#picus",
       "tags": [
         "Sequencer",
         "Clock modulator"
@@ -252,6 +277,7 @@
       "slug": "Node",
       "name": "Node",
       "description": "A two-channel stereo crossfading mixer.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#node",
       "tags": [
         "Voltage-controlled amplifier",
         "Mixer",
@@ -263,6 +289,7 @@
       "slug": "Weave",
       "name": "Weave",
       "description": "A six note chord quantizer, with the abilty to weave the outputs into different permutations. Individual outputs per channel allow you to split your chords to different voices.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#weave",
       "tags": [
         "Quantizer",
         "Polyphonic"
@@ -272,6 +299,7 @@
       "slug": "Wonk",
       "name": "Wonk",
       "description": "Generate clock-synced and wonky modulationss in six phase-locked channels.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#wonk",
       "tags": [
         "Low-frequency Oscillator",
         "Polyphonic"
@@ -281,6 +309,7 @@
       "slug": "Hammer",
       "name": "Hammer",
       "description": "A compact and more-precise version of the Syncro eight-channel clock ratio generator.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#hammer",
       "tags": [
         "Clock generator",
         "Clock modulator",
@@ -291,6 +320,7 @@
       "slug": "Hub",
       "name": "Hub",
       "description": "Two animated knob macro controllers with gain, offset, and knob range CV control.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#hub",
       "tags": [
         "Voltage-controlled amplifier",
         "Utility",
@@ -302,6 +332,7 @@
       "slug": "CVfunkBlank",
       "name": "CV funk Blank 8HP",
       "description": "Blank panel for CV funk.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#cvfunk-blank",
       "tags": [
         "Blank"
       ]
@@ -310,6 +341,7 @@
       "slug": "CVfunkBlank4HP",
       "name": "CV funk Blank 4HP",
       "description": "Blank panel for CV funk.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#cvfunk-blank4-hp",
       "tags": [
         "Blank"
       ]
@@ -318,6 +350,7 @@
       "slug": "Rat",
       "name": "Rat",
       "description": "Polyphonic ratio CV generator for exploring FMop ratios. Knob scales non-linearly around ratios, or optionally locks onto exact ratios. ",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#rat",
       "tags": [
         "Utility",
         "Polyphonic"
@@ -327,6 +360,7 @@
       "slug": "Count",
       "name": "Count",
       "description": "Counts up. Counts down. Auto-adapting display can handle very large numbers.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#count",
       "tags": [
         "Utility"
       ]
@@ -335,6 +369,7 @@
       "slug": "Clpy",
       "name": "Clpy",
       "description": "Stereo polyphonic waveshaper folds your waves and clips them to a target CV value or audio input.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#clpy",
       "tags": [
         "Waveshaper",
         "Polyphonic"
@@ -344,6 +379,7 @@
       "slug": "Tuner",
       "name": "Tuner",
       "description": "Dual autocorrelation tuner and zero-centered waveform display.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#tuner",
       "tags": [
         "Tuner",
         "Dual",
@@ -354,6 +390,7 @@
       "slug": "Alloy",
       "name": "Alloy",
       "description": "A metallic sound generator that uses Karplus\u2013Strong fractional delay networks to produce shimmering, percussive tones.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#alloy",
       "tags": [
         "Drum",
         "Physical modeling",
@@ -366,6 +403,7 @@
       "slug": "Onion",
       "name": "Onion",
       "description": "A polyphonic fader module with layers.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#onion",
       "tags": [
         "Polyphonic",
         "Utility"
@@ -375,6 +413,7 @@
       "slug": "Strata",
       "name": "Strata",
       "description": "A multi-layered step sequencer.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#strata",
       "tags": [
         "Sequencer"
       ]
@@ -383,6 +422,7 @@
       "slug": "Triton",
       "name": "Triton",
       "description": "A three-band filter with envelope followers.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#triton",
       "tags": [
         "Polyphonic",
         "Envelope follower",
@@ -393,6 +433,7 @@
       "slug": "Aulos",
       "name": "Aulos",
       "description": "A dual wind instrument physical model based on the Aulos dual flute.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#aulos",
       "tags": [
         "Physical modeling",
         "Polyphonic",
@@ -403,6 +444,7 @@
       "slug": "Glass",
       "name": "Glass",
       "description": "A glass armonica physical model.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#glass",
       "tags": [
         "Physical modeling",
         "Polyphonic",
@@ -413,9 +455,67 @@
       "slug": "Haze",
       "name": "Haze",
       "description": "A three-tap stereo chorus and diffusion effect with switchable nodes.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#haze",
       "tags": [
         "Effect",
         "Chorus"
+      ]
+    },
+    {
+      "slug": "Twang",
+      "name": "Twang",
+      "description": "A polyphonic physical string simulation using bidirectional waveguides.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#twang",
+      "tags": [
+        "Physical modeling",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "HotPot",
+      "name": "HotPot",
+      "description": "A polyphonic spatial mixer that places sounds around the listener, with a shared diffuse room and saturating stereo bus.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#hotpot",
+      "tags": [
+        "Mixer",
+        "Reverb",
+        "Panning",
+        "Distortion",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Mala",
+      "name": "Mala",
+      "description": "A spicy stereo complex oscillator that grafts an additive voice and noise onto the crests of a shaped sine.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#mala",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Fuzzy",
+      "name": "Fuzzy",
+      "description": "Eight classic fuzz and overdrive pedals simulated from their schematics, with a guitar volume knob for clean-up and a battery knob that drains the circuit until it sputters out.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#fuzzy",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Vega",
+      "name": "Vega",
+      "description": "Bass pedal synthesizer modelled on a classic 1970s transistor-ladder design.",
+      "manualUrl": "https://codygeary.github.io/CV-Funk-Manual/#vega",
+      "tags": [
+        "Oscillator",
+        "Polyphonic",
+        "Filter",
+        "Synth voice",
+        "Hardware clone"
       ]
     }
   ]
