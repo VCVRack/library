@@ -1,7 +1,7 @@
 {
   "slug": "voxglitch",
   "name": "Voxglitch",
-  "version": "2.47.0",
+  "version": "2.48.0",
   "license": "GPL-3.0-or-later",
   "brand": "Voxglitch",
   "author": "Bret Truchan",
@@ -328,7 +328,7 @@
     {
       "slug": "VXDrums",
       "name": "VX Drums",
-      "description": "Six analog-modelled drum voices (kick, snare, clap, percussion, closed and open hat) with six kits of switchable analog-modelled voice models, fired by a polyphonic trigger cable, with an accent gate, a stereo mix with drive, and dry individual outs. The top half of the VX Drum Machine.",
+      "description": "Six analog-modelled drum voices (kick, snare, clap, percussion, closed and open hat) with six kits of switchable analog-modelled voice models, fired by a polyphonic trigger cable, with an accent gate, a kit-select CV, a stereo mix with drive, and dry individual outs. The top half of the VX Drum Machine.",
       "tags": [
         "Drum",
         "Synth voice",
@@ -339,12 +339,21 @@
     {
       "slug": "VXDrumSequencer",
       "name": "VX Drum Sequencer",
-      "description": "16-step, six-lane trigger sequencer with an accent lane, ratchets, sixteen pattern memories with CV select, and an external clock input with reset. Drives VX Drums over one poly trigger cable plus an accent cable. The bottom half of the VX Drum Machine.",
+      "description": "16-step, six-lane trigger sequencer with an accent lane, ratchets, sixteen pattern memories with CV select, a randomize trigger that can re-roll one lane per poly channel, and an external clock input with reset. Drives VX Drums over one poly trigger cable plus an accent cable. The bottom half of the VX Drum Machine.",
       "tags": [
         "Drum",
         "Sequencer"
       ],
       "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/vx-drum-sequencer/user_manual.md"
+    },
+    {
+      "slug": "euclid",
+      "name": "Euclid",
+      "description": "Euclidean rhythm sequencer: hits spread as evenly as possible over up to 32 steps, rotated, stepped by an external clock with reset, with a trigger output. Three CV inputs with attenuverters for hits, steps and rotation, and a ring display that shows the live pattern and rotates it when dragged.",
+      "tags": [
+        "Sequencer"
+      ],
+      "manualUrl": "https://github.com/clone45/voxglitch/blob/master/docs/modules/euclid/user_manual.md"
     }
   ]
 }
