@@ -1,7 +1,7 @@
 {
   "slug": "Leviathan",
   "name": "Leviathan",
-  "version": "2.9.1",
+  "version": "2.14.0",
   "license": "GPL-3.0-or-later",
   "brand": "Leviathan",
   "author": "Levi Kendall",
@@ -102,6 +102,61 @@
         "Dynamics",
         "Visual"
       ],
+      "hidden": false
+    },
+    {
+      "slug": "Sil",
+      "name": "Sil",
+      "description": "Automatic mastering module.",
+      "tags": [
+        "Dynamics",
+        "EQ"
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "Theme",
+      "name": "Theme",
+      "description": "Global semantic color and texture editor for theme-aware Leviathan modules.",
+      "tags": [
+        "Visual",
+        "Utility"
+      ],
+      "hidden": false
+    },
+    {
+      "slug": "Vessel",
+      "name": "Vessel",
+      "description": "Tunable struck and friction-excited singing bowl with stereo observation.",
+      "tags": [
+        "Physical modeling",
+        "Synth voice"
+      ],
+      "capabilities": {
+        "polyphony": 1
+      },
+      "hidden": false
+    },
+    {
+      "slug": "VTune",
+      "name": "V.Tune",
+      "description": "Performance and voicing controls for Vessel.",
+      "tags": [
+        "Expander"
+      ],
+      "hidden": true
+    },
+    {
+      "slug": "Strand",
+      "name": "Strand",
+      "description": "Zero-crossing pseudo-cycle interleaver.",
+      "tags": [
+        "Effect",
+        "Distortion"
+      ],
+      "capabilities": {
+        "polyphony": 1
+      },
       "hidden": false
     }
   ]
