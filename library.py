@@ -136,94 +136,6 @@ def review_plugins_concurrently(plugins, func):
 	return reviewed_plugins
 
 
-def review_plugins(plugins):
-	reviewed_plugins = []
-	for plugin in plugins:
-		try:
-			info(f"Reviewing {plugin.get_slug()}")
-			warnings = []
-			if warning := plugin.review_git():
-				warnings.append(warning)
-			if warning := plugin.review_source():
-				warnings.append(warning)
-			if warning := plugin.review_manifest():
-				warnings.append(warning)
-			if warnings:
-				warn("\n".join(warnings))
-				if choose("[a]pprove, [r]eject: ", "ar") == "r":
-					continue
-
-			# Show package manifest for approval.
-			if not plugin.source_dir:
-				print(json.dumps(plugin.manifest, indent="  "))
-				if choose("[a]pprove, [r]eject: ", "ar") == "r":
-					continue
-
-			reviewed_plugins.append(plugin)
-		except Exception as exception:
-			error(f"{plugin.get_slug()}: {exception}")
-			choose("[r]eject: ", "r")
-
-	if agent and any(plugin.source_dir for plugin in reviewed_plugins):
-		info("Reviewing source code with agent")
-		reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_source)
-
-	# If source plugins need building, clear the toolchain build directory.
-	if any(plugin.source_dir for plugin in reviewed_plugins):
-		run("make", "plugin-build-clean", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
-
-	# Build source plugins.
-	built_plugins = []
-	for plugin in reviewed_plugins:
-		try:
-			if plugin.source_dir:
-				info(f"Building {plugin.get_slug()}")
-				plugin.build_source()
-			built_plugins.append(plugin)
-		except Exception as exception:
-			error(str(exception))
-			choose("[r]eject: ", "r")
-
-	# Review submitted and built packages
-	reviewed_plugins = []
-	for plugin in built_plugins:
-		try:
-			info(f"Reviewing {plugin.get_slug()} packages")
-			if warnings := plugin.review_packages():
-				warn(warnings)
-				if choose("[a]pprove, [r]eject: ", "ar") == "r":
-					continue
-			reviewed_plugins.append(plugin)
-		except Exception as exception:
-			error(f"{plugin.get_slug()}: {exception}")
-			choose("[r]eject: ", "r")
-
-	if agent and reviewed_plugins:
-		info("Reviewing binaries with agent")
-		reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_dist)
-
-	# Install packages to Rack plugin directory.
-	installed_plugins = []
-	for plugin in reviewed_plugins:
-		if plugin.install_package():
-			installed_plugins.append(plugin)
-	if not installed_plugins:
-		return reviewed_plugins
-
-	# Launch Rack to test plugins.
-	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in installed_plugins)
-	choose(f"Press Enter to launch Rack and test the following packages: {update_message}", "\n")
-	run_retry("./Rack", cwd=config.RACK_SYSTEM_DIR)
-
-	# Show warnings and debug messages from Rack log.
-	log_path = os.path.join(config.RACK_USER_DIR, "log.txt")
-	output = run("grep", "-E", r"\b(warn|debug)\b", log_path, capture_stdout=True, raise_on_nonzero=False)
-	if output:
-		warn(output.rstrip("\n"))
-		choose("[a]pprove: ", "a")
-	return reviewed_plugins
-
-
 def get_repo_commit_paths(plugins):
 	"""Returns paths to commit to update the plugins."""
 	commit_paths = set()
@@ -268,7 +180,90 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 			except Exception as exception:
 				error(f"{plugin.source_dir or plugin.package_paths}: {exception}")
 
-		reviewed_plugins = review_plugins(loaded_plugins)
+		# Review repositories, source files, and manifests.
+		reviewed_plugins = []
+		for plugin in loaded_plugins:
+			try:
+				info(f"Reviewing {plugin.get_slug()}")
+				warnings = []
+				if warning := plugin.review_git():
+					warnings.append(warning)
+				if warning := plugin.review_source():
+					warnings.append(warning)
+				if warning := plugin.review_manifest():
+					warnings.append(warning)
+				if warnings:
+					warn("\n".join(warnings))
+					if choose("[a]pprove, [r]eject: ", "ar") == "r":
+						continue
+
+				# Show package manifest for approval.
+				if not plugin.source_dir:
+					print(json.dumps(plugin.manifest, indent="  "))
+					if choose("[a]pprove, [r]eject: ", "ar") == "r":
+						continue
+
+				reviewed_plugins.append(plugin)
+			except Exception as exception:
+				error(f"{plugin.get_slug()}: {exception}")
+				choose("[r]eject: ", "r")
+
+		if agent and any(plugin.source_dir for plugin in reviewed_plugins):
+			info("Reviewing source code with agent")
+			reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_source)
+
+		# If source plugins need building, clear the toolchain build directory.
+		if any(plugin.source_dir for plugin in reviewed_plugins):
+			run("make", "plugin-build-clean", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
+
+		# Build source plugins.
+		built_plugins = []
+		for plugin in reviewed_plugins:
+			try:
+				if plugin.source_dir:
+					info(f"Building {plugin.get_slug()}")
+					plugin.build_source()
+				built_plugins.append(plugin)
+			except Exception as exception:
+				error(str(exception))
+				choose("[r]eject: ", "r")
+
+		# Review submitted and built packages
+		reviewed_plugins = []
+		for plugin in built_plugins:
+			try:
+				info(f"Reviewing {plugin.get_slug()} packages")
+				if warnings := plugin.review_packages():
+					warn(warnings)
+					if choose("[a]pprove, [r]eject: ", "ar") == "r":
+						continue
+				reviewed_plugins.append(plugin)
+			except Exception as exception:
+				error(f"{plugin.get_slug()}: {exception}")
+				choose("[r]eject: ", "r")
+
+		if agent and reviewed_plugins:
+			info("Reviewing binaries with agent")
+			reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_dist)
+
+		# Install packages to Rack plugin directory.
+		installed_plugins = []
+		for plugin in reviewed_plugins:
+			if plugin.install_package():
+				installed_plugins.append(plugin)
+		if installed_plugins:
+			# Launch Rack to test plugins.
+			update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in installed_plugins)
+			choose(f"Press Enter to launch Rack and test the following packages: {update_message}", "\n")
+			run_retry("./Rack", cwd=config.RACK_SYSTEM_DIR)
+
+			# Show warnings and debug messages from Rack log.
+			log_path = os.path.join(config.RACK_USER_DIR, "log.txt")
+			output = run("grep", "-E", r"\b(warn|debug)\b", log_path, capture_stdout=True, raise_on_nonzero=False)
+			if output:
+				warn(output.rstrip("\n"))
+				choose("[a]pprove: ", "a")
+
 		if not reviewed_plugins:
 			info("No plugins to review")
 			return
