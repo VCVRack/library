@@ -191,22 +191,13 @@ def build_plugins(plugins):
 	return built_plugins
 
 
-def install_plugins(plugins):
+def run_plugins(plugins):
 	# Install packages to Rack plugin directory.
 	installed_plugins = []
 	for plugin in plugins:
-		try:
-			info(f"Installing {plugin.get_slug()} {plugin.get_version()}")
-			plugin.install_package()
+		if plugin.install_package():
 			installed_plugins.append(plugin)
-		except Exception as exception:
-			error(f"{plugin.get_slug()}: {exception}")
-			choose("[r]eject: ", "r")
-	return installed_plugins
-
-
-def run_plugins(plugins):
-	if not plugins:
+	if not installed_plugins:
 		return
 
 	# Show package paths for testing on other machines.
@@ -216,7 +207,7 @@ def run_plugins(plugins):
 			print(os.path.abspath(package_path))
 
 	# Test plugins
-	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in plugins)
+	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in installed_plugins)
 	choose(f"Press Enter to launch Rack and test the following packages: {update_message}", "\n")
 	run_retry("./Rack", cwd=config.RACK_SYSTEM_DIR)
 
@@ -278,9 +269,8 @@ def review_plugins(plugins):
 	if agent and reviewed_plugins:
 		info("Reviewing binaries with agent")
 		reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_dist)
-	installed_plugins = install_plugins(reviewed_plugins)
-	run_plugins(installed_plugins)
-	return installed_plugins
+	run_plugins(reviewed_plugins)
+	return reviewed_plugins
 
 
 def get_repo_commit_paths(plugins):

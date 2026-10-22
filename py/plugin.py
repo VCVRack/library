@@ -12,7 +12,7 @@ import requests
 
 from . import config
 from .command import run
-from .console import info
+from .console import info, warn
 
 
 EXTRACTION_DIR = tempfile.mkdtemp()
@@ -196,6 +196,11 @@ class Plugin:
 		if not version:
 			raise ValueError("`plugin.json` has no `version` value.")
 		return version
+
+	def get_package_path(self, architecture):
+		"""Returns the package path for the architecture, or None if unavailable."""
+		filename = f"{self.get_slug()}-{self.get_version()}-{architecture}.vcvplugin"
+		return next((path for path in self.package_paths if os.path.basename(path) == filename), None)
 
 	def is_open_source(self):
 		"""Returns whether the manifest license is a recognized SPDX identifier."""
@@ -500,13 +505,14 @@ class Plugin:
 		slug = self.get_slug()
 		version = self.get_version()
 		filenames = {os.path.basename(path) for path in self.package_paths}
+		warnings = []
 
 		# Check that every architecture has a package for this slug and version.
 		filenames_by_architecture = {architecture: f"{slug}-{version}-{architecture}.vcvplugin" for architecture in config.ARCHITECTURES}
 		expected_filenames = set(filenames_by_architecture.values())
 		missing_filenames = expected_filenames - filenames
 		if missing_filenames:
-			raise ValueError(f"Missing packages: {', '.join(sorted(missing_filenames))}.")
+			warnings.append(f"Missing packages: {', '.join(sorted(missing_filenames))}.")
 		unexpected_filenames = filenames - expected_filenames
 		if unexpected_filenames:
 			raise ValueError(f"Unexpected packages: {', '.join(sorted(unexpected_filenames))}.")
@@ -515,12 +521,13 @@ class Plugin:
 
 		# Extract all packages
 		dist_dirs_by_architecture = {}
-		for architecture, filename in filenames_by_architecture.items():
-			package_path = next(path for path in self.package_paths if os.path.basename(path) == filename)
+		for architecture in config.ARCHITECTURES:
+			package_path = self.get_package_path(architecture)
+			if not package_path:
+				continue
 			dist_dirs_by_architecture[architecture] = self.extract_package(package_path)
 
 		# Review all extracted contents
-		warnings = []
 		for architecture, dist_dir in dist_dirs_by_architecture.items():
 			if warning := self.review_dist(dist_dir, architecture):
 				warnings.append(warning)
@@ -588,13 +595,17 @@ class Plugin:
 		self.package_paths = package_paths
 
 	def install_package(self):
-		"""Installs native package to user's Rack plugin directory."""
+		"""Installs the native package and returns whether it was available."""
 		if not self.package_paths:
 			raise RuntimeError("No packages available.")
 		# Install to Rack plugin directory
-		package_path = next(path for path in self.package_paths if path.endswith(f"-{config.RACK_ARCHITECTURE}.vcvplugin"))
+		package_path = self.get_package_path(config.RACK_ARCHITECTURE)
+		if not package_path:
+			warn(f"{self.get_slug()} {self.get_version()} has no {config.RACK_ARCHITECTURE} package, so plugin was not installed.")
+			return False
 		filename = os.path.basename(package_path)
 		shutil.copyfile(package_path, os.path.join(config.RACK_PLUGIN_DIR, filename))
+		return True
 
 	def publish_packages(self):
 		"""Copies all packages to server package directory."""
