@@ -112,36 +112,6 @@ def create_plugins(paths=None, commit=None, repo_url=None):
 	return plugins
 
 
-def load_plugins(plugins):
-	"""Loads Plugins and returns those with versions newer than the library."""
-	# Load manifests and select Plugins to update.
-	loaded_plugins = []
-	for plugin in plugins:
-		try:
-			plugin.checkout_repo()
-			plugin.load_manifest()
-			plugin.load_library_manifest()
-
-			# Skip plugins that are not newer than the library manifest
-			if not plugin.is_new_version():
-				continue
-			if any(loaded_plugin.get_slug() == plugin.get_slug() for loaded_plugin in loaded_plugins):
-				raise ValueError(f"Plugin {plugin.get_slug()!r} is already loaded.")
-			loaded_plugins.append(plugin)
-		except Exception as exception:
-			error(f"{plugin.source_dir or plugin.package_paths}: {exception}")
-	return loaded_plugins
-
-
-def cleanup_plugins(plugins):
-	"""Undoes repository changes that were not accepted."""
-	for plugin in plugins:
-		try:
-			plugin.undo_repo()
-		except Exception as exception:
-			warn(f"Could not restore {plugin.source_dir!r}. {exception}")
-
-
 def review_plugins_concurrently(plugins, func):
 	if not plugins:
 		return []
@@ -164,45 +134,6 @@ def review_plugins_concurrently(plugins, func):
 					continue
 			reviewed_plugins.append(plugin)
 	return reviewed_plugins
-
-
-def build_plugins(plugins):
-	if any(plugin.source_dir for plugin in plugins):
-		run("make", "plugin-build-clean", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
-
-	built_plugins = []
-	for plugin in plugins:
-		try:
-			if plugin.source_dir:
-				info(f"Building {plugin.get_slug()}")
-				plugin.build_source()
-			built_plugins.append(plugin)
-		except Exception as exception:
-			error(str(exception))
-			choose("[r]eject: ", "r")
-	return built_plugins
-
-
-def run_plugins(plugins):
-	# Install packages to Rack plugin directory.
-	installed_plugins = []
-	for plugin in plugins:
-		if plugin.install_package():
-			installed_plugins.append(plugin)
-	if not installed_plugins:
-		return
-
-	# Test plugins
-	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in installed_plugins)
-	choose(f"Press Enter to launch Rack and test the following packages: {update_message}", "\n")
-	run_retry("./Rack", cwd=config.RACK_SYSTEM_DIR)
-
-	# Show warnings and debug messages from Rack log.
-	log_path = os.path.join(config.RACK_USER_DIR, "log.txt")
-	output = run("grep", "-E", r"\b(warn|debug)\b", log_path, capture_stdout=True, raise_on_nonzero=False)
-	if output:
-		warn(output.rstrip("\n"))
-		choose("[a]pprove: ", "a")
 
 
 def review_plugins(plugins):
@@ -236,7 +167,22 @@ def review_plugins(plugins):
 	if agent and any(plugin.source_dir for plugin in reviewed_plugins):
 		info("Reviewing source code with agent")
 		reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_source)
-	built_plugins = build_plugins(reviewed_plugins)
+
+	# If source plugins need building, clear the toolchain build directory.
+	if any(plugin.source_dir for plugin in reviewed_plugins):
+		run("make", "plugin-build-clean", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
+
+	# Build source plugins.
+	built_plugins = []
+	for plugin in reviewed_plugins:
+		try:
+			if plugin.source_dir:
+				info(f"Building {plugin.get_slug()}")
+				plugin.build_source()
+			built_plugins.append(plugin)
+		except Exception as exception:
+			error(str(exception))
+			choose("[r]eject: ", "r")
 
 	# Review submitted and built packages
 	reviewed_plugins = []
@@ -255,7 +201,26 @@ def review_plugins(plugins):
 	if agent and reviewed_plugins:
 		info("Reviewing binaries with agent")
 		reviewed_plugins = review_plugins_concurrently(reviewed_plugins, agent.review_dist)
-	run_plugins(reviewed_plugins)
+
+	# Install packages to Rack plugin directory.
+	installed_plugins = []
+	for plugin in reviewed_plugins:
+		if plugin.install_package():
+			installed_plugins.append(plugin)
+	if not installed_plugins:
+		return reviewed_plugins
+
+	# Launch Rack to test plugins.
+	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in installed_plugins)
+	choose(f"Press Enter to launch Rack and test the following packages: {update_message}", "\n")
+	run_retry("./Rack", cwd=config.RACK_SYSTEM_DIR)
+
+	# Show warnings and debug messages from Rack log.
+	log_path = os.path.join(config.RACK_USER_DIR, "log.txt")
+	output = run("grep", "-E", r"\b(warn|debug)\b", log_path, capture_stdout=True, raise_on_nonzero=False)
+	if output:
+		warn(output.rstrip("\n"))
+		choose("[a]pprove: ", "a")
 	return reviewed_plugins
 
 
@@ -274,16 +239,7 @@ def get_repo_commit_paths(plugins):
 	return commit_paths
 
 
-def commit_library(paths, message):
-	if not paths:
-		return
-
-	info("Committing library repo")
-	run("git", "add", "--", *paths, capture_stderr=True)
-	run("git", "commit", "--only", "-m", message, "--", *paths, capture_stderr=True)
-
-
-def pull_library():
+def review(paths=None, commit=None, repo_url=None, publish=False):
 	info("Pulling library repo")
 	run_retry("git", "pull")
 
@@ -293,12 +249,25 @@ def pull_library():
 	info("Updating library submodules")
 	run("git", "submodule", "update", "--init", "--recursive", capture_stderr=True)
 
-
-def review(paths=None, commit=None, repo_url=None, publish=False):
-	pull_library()
 	plugins = create_plugins(paths, commit, repo_url)
 	try:
-		loaded_plugins = load_plugins(plugins)
+		# Load manifests and select Plugins to update.
+		loaded_plugins = []
+		for plugin in plugins:
+			try:
+				plugin.checkout_repo()
+				plugin.load_manifest()
+				plugin.load_library_manifest()
+
+				# Skip plugins that are not newer than the library manifest.
+				if not plugin.is_new_version():
+					continue
+				if any(loaded_plugin.get_slug() == plugin.get_slug() for loaded_plugin in loaded_plugins):
+					raise ValueError(f"Plugin {plugin.get_slug()!r} is already loaded.")
+				loaded_plugins.append(plugin)
+			except Exception as exception:
+				error(f"{plugin.source_dir or plugin.package_paths}: {exception}")
+
 		reviewed_plugins = review_plugins(loaded_plugins)
 		if not reviewed_plugins:
 			info("No plugins to review")
@@ -329,7 +298,11 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 		for plugin in reviewed_plugins:
 			plugin.accept_repo()
 	finally:
-		cleanup_plugins(plugins)
+		for plugin in plugins:
+			try:
+				plugin.undo_repo()
+			except Exception as exception:
+				warn(f"Could not restore {plugin.source_dir!r}. {exception}")
 
 	if publish:
 		commit_paths = get_repo_commit_paths(reviewed_plugins)
@@ -383,7 +356,12 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 
 	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
 	commit_message = f"Update manifest {update_message}" if publish else f"Update {update_message}"
-	commit_library(commit_paths, commit_message)
+	if not commit_paths:
+		return
+
+	info("Committing library repo")
+	run("git", "add", "--", *commit_paths, capture_stderr=True)
+	run("git", "commit", "--only", "-m", commit_message, "--", *commit_paths, capture_stderr=True)
 	info("Pushing library repo")
 	run_retry("git", "push")
 
