@@ -333,16 +333,22 @@ def review(paths=None, commit=None, repo_url=None):
 			info("No plugins to review")
 			return
 
+		commit_paths = get_repo_commit_paths(reviewed_plugins)
+		if not commit_paths:
+			return
+
+		update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
+		info(f"Commit and push the following plugins to the library: {update_message}")
+		if choose("[a]pprove, [r]eject: ", "ar") == "r":
+			return
+
 		for plugin in reviewed_plugins:
 			plugin.accept_repo()
 	finally:
 		cleanup_plugins(plugins)
 
-	commit_paths = get_repo_commit_paths(reviewed_plugins)
-	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
-	if commit_paths:
-		commit_library(commit_paths, f"Update {update_message}")
-		push_library()
+	commit_library(commit_paths, f"Update {update_message}")
+	push_library()
 
 
 def publish_plugins(plugins):
