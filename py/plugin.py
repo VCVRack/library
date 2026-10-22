@@ -558,7 +558,10 @@ class Plugin:
 		slug = self.get_slug()
 		version = self.get_version()
 		for architecture in config.ARCHITECTURES:
-			run("make", f"-j{os.cpu_count() or 1}", f"plugin-build-{architecture}", f"PLUGIN_DIR={source_dir}", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
+			try:
+				run("make", f"-j{os.cpu_count() or 1}", f"plugin-build-{architecture}", f"PLUGIN_DIR={source_dir}", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
+			except Exception as exception:
+				raise RuntimeError(f"Building for {architecture} failed.\n{exception}") from exception
 
 		# Record the packages left in the toolchain output directory.
 		package_paths = []

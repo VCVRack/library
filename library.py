@@ -186,7 +186,7 @@ def build_plugins(plugins):
 				plugin.build_source()
 			built_plugins.append(plugin)
 		except Exception as exception:
-			error(f"{plugin.get_slug()}: {exception}")
+			error(str(exception))
 			choose("[r]eject: ", "r")
 	return built_plugins
 
