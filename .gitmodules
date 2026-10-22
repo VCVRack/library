@@ -1194,3 +1194,6 @@
 [submodule "repos/SFSSuper"]
 	path = repos/SFSSuper
 	url = https://github.com/stuart78/sfs-super-vcv
+[submodule "repos/RobotBoy"]
+	path = repos/RobotBoy
+	url = https://github.com/gabriel-roth/RobotBoy

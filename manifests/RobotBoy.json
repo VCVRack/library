@@ -1,0 +1,91 @@
+{
+  "slug": "RobotBoy",
+  "name": "Robot Boy",
+  "version": "2.2.1",
+  "license": "MIT",
+  "sourceUrl": "https://github.com/gabriel-roth/RobotBoy",
+  "manualUrl": "https://github.com/gabriel-roth/RobotBoy#readme",
+  "brand": "Robot Boy",
+  "author": "Gabriel Roth",
+  "modules": [
+    {
+      "slug": "Loooop",
+      "name": "Loooop",
+      "description": "Stereo RAM looper with four independent playheads.",
+      "tags": [
+        "Sampler",
+        "Recording"
+      ]
+    },
+    {
+      "slug": "Lop",
+      "name": "L\u00f6p",
+      "description": "Lop: Stereo RAM looper with a single playhead.",
+      "tags": [
+        "Sampler",
+        "Recording"
+      ]
+    },
+    {
+      "slug": "MF20Filter",
+      "name": "MF-20",
+      "description": "Korg MS-20-style filter.",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Onbetap",
+      "name": "Onbetap",
+      "description": "Polivoks-style multimode filter.",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Particules",
+      "name": "Particules",
+      "description": "Granular texture synthesizer built on the open-source Beads code.",
+      "tags": [
+        "Granular",
+        "Reverb",
+        "Sampler",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Ondes",
+      "name": "Ondes",
+      "description": "Wavetable oscillator built on the open-source Beads code.",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Vespid",
+      "name": "Vespid",
+      "description": "EDP Wasp-style CMOS state-variable filter.",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "Retours",
+      "name": "Retours",
+      "description": "Clockable, freezable, pitch-shifting delay built on the open-source Beads code.",
+      "tags": [
+        "Delay",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Lucarne",
+      "name": "Lucarne",
+      "description": "Expander for Particules and Retours that shows their buffer, grains and delay taps.",
+      "tags": [
+        "Visual",
+        "Expander"
+      ]
+    }
+  ]
+}
