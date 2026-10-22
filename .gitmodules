@@ -1188,3 +1188,6 @@
 [submodule "repos/tnn1t1s-phases"]
 	path = repos/tnn1t1s-phases
 	url = https://github.com/tnn1t1s/tnn1t1s-phases
+[submodule "repos/JUDYIO"]
+	path = repos/JUDYIO
+	url = https://github.com/judyio/vcv-rack-modules

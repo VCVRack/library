@@ -1,0 +1,26 @@
+{
+  "slug": "JUDYIO",
+  "name": "JUDYIO",
+  "version": "2.1.2",
+  "license": "GPL-3.0-or-later",
+  "description": "Utility modules for VCV Rack by Clinton Judy",
+  "author": "Clinton Judy",
+  "authorEmail": "clinton@judy.io",
+  "authorUrl": "https://judy.io",
+  "pluginUrl": "https://judy.io/blog/range-expander",
+  "manualUrl": "https://github.com/judyio/vcv-rack-modules#readme",
+  "sourceUrl": "https://github.com/judyio/vcv-rack-modules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "RangeExpander",
+      "name": "Range Expander",
+      "description": "Subdivide a unipolar signal into a series of full-range output signals",
+      "tags": [
+        "Function generator",
+        "Utility"
+      ]
+    }
+  ]
+}
