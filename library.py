@@ -202,12 +202,6 @@ def run_plugins(plugins):
 	if not installed_plugins:
 		return
 
-	# Show package paths for testing on other machines.
-	info("Packages for testing")
-	for plugin in plugins:
-		for package_path in plugin.package_paths:
-			print(os.path.abspath(package_path))
-
 	# Test plugins
 	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in installed_plugins)
 	choose(f"Press Enter to launch Rack and test the following packages: {update_message}", "\n")
