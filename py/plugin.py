@@ -197,6 +197,12 @@ class Plugin:
 			raise ValueError("`plugin.json` has no `version` value.")
 		return version
 
+	def is_open_source(self):
+		"""Returns whether the manifest license is a recognized SPDX identifier."""
+		if self.manifest is None:
+			raise RuntimeError("No manifest loaded.")
+		return self.manifest["license"] in SPDX_IDS
+
 	def is_new_version(self):
 		"""Returns whether this version is newer than the library version or the plugin is new to the library."""
 		version = self.get_version()
@@ -378,6 +384,14 @@ class Plugin:
 		if self.manifest is None:
 			raise RuntimeError("No manifest loaded.")
 		warnings = []
+
+		# If plugin is open source, check that it has a sourceUrl.
+		if self.is_open_source():
+			if not self.manifest.get("sourceUrl"):
+				warnings.append("`plugin.json` has an open-source license but no `sourceUrl`. Add the public source repository URL.")
+		else:
+			if self.manifest.get("sourceUrl"):
+				warnings.append("`plugin.json` has a `sourceUrl` but its license is not open-source. Remove the `sourceUrl` property.")
 
 		# Check plugin URLs.
 		for key in ("authorUrl", "pluginUrl", "manualUrl", "sourceUrl", "donateUrl", "changelogUrl"):
