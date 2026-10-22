@@ -156,8 +156,10 @@ class Plugin:
 		if self.created_repo:
 			info(f"Removing {self.source_dir}")
 			if self.is_source_in_library():
+				git_dir = run("git", "rev-parse", "--absolute-git-dir", cwd=self.source_dir, capture_stdout=True).strip()
 				run("git", "submodule", "deinit", "-f", "--", self.source_dir, capture_stderr=True)
 				run("git", "rm", "-f", "--", self.source_dir, capture_stderr=True)
+				shutil.rmtree(git_dir)
 			else:
 				shutil.rmtree(self.source_dir)
 			self.accept_repo()
