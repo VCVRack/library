@@ -164,10 +164,12 @@ def review_plugins_concurrently(plugins, func):
 			plugin = futures[future]
 			try:
 				warnings = future.result()
-			except Exception as error:
-				warnings = f"Review failed.\n\n{error}"
+				if warnings:
+					warnings = f"Agent reported issues with {plugin.get_slug()}.\n{warnings}"
+			except Exception as exception:
+				warnings = f"Agent review of {plugin.get_slug()} failed.\n{exception}"
 			if warnings:
-				warn(f"{plugin.get_slug()} issues\n{warnings}")
+				warn(warnings)
 				if choose("[a]pprove, [r]eject: ", "ar") == "r":
 					continue
 			reviewed_plugins.append(plugin)
