@@ -33,11 +33,6 @@ def run_retry(command, *args, cwd=None):
 				return
 
 
-def clear_toolchain_build_dir():
-	info("Clearing toolchain build directory")
-	run("make", "plugin-build-clean", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
-
-
 def resolve_path(path):
 	# Accept package paths
 	if path.endswith(".vcvplugin"):
@@ -53,25 +48,6 @@ def resolve_path(path):
 
 	# Convert slug to repository path
 	return os.path.join(config.REPOS_DIR, path)
-
-
-def resolve_paths(paths=None):
-	if paths:
-		# Transform slugs to repo paths.
-		paths = [resolve_path(path) for path in paths]
-
-	# If no paths are given, use directories in config.REPOS_DIR that contain plugin.json.
-	if not paths:
-		info(f"Checking {config.REPOS_DIR} for new plugin versions")
-		paths = []
-		for entry in os.scandir(config.REPOS_DIR):
-			if not entry.is_dir():
-				continue
-			manifest_path = os.path.join(entry.path, "plugin.json")
-			if os.path.isfile(manifest_path):
-				paths.append(entry.path)
-		paths.sort()
-	return paths
 
 
 def create_plugins(paths=None, commit=None, repo_url=None):
@@ -95,7 +71,21 @@ def create_plugins(paths=None, commit=None, repo_url=None):
 	if commit or repo_url:
 		if not paths or len(paths) != 1:
 			raise ValueError("--commit and --git require exactly one source directory or slug.")
-	paths = resolve_paths(paths)
+	if paths:
+		# Transform slugs to repo paths.
+		paths = [resolve_path(path) for path in paths]
+
+	# If no paths are given, use directories in config.REPOS_DIR that contain plugin.json.
+	if not paths:
+		info(f"Checking {config.REPOS_DIR} for new plugin versions")
+		paths = []
+		for entry in os.scandir(config.REPOS_DIR):
+			if not entry.is_dir():
+				continue
+			manifest_path = os.path.join(entry.path, "plugin.json")
+			if os.path.isfile(manifest_path):
+				paths.append(entry.path)
+		paths.sort()
 
 	# Create Plugins from paths.
 	plugins = []
@@ -178,7 +168,7 @@ def review_plugins_concurrently(plugins, func):
 
 def build_plugins(plugins):
 	if any(plugin.source_dir for plugin in plugins):
-		clear_toolchain_build_dir()
+		run("make", "plugin-build-clean", cwd=config.TOOLCHAIN_DIR, capture_stderr=True)
 
 	built_plugins = []
 	for plugin in plugins:
@@ -293,11 +283,6 @@ def commit_library(paths, message):
 	run("git", "commit", "--only", "-m", message, "--", *paths, capture_stderr=True)
 
 
-def push_library():
-	info("Pushing library repo")
-	run_retry("git", "push")
-
-
 def pull_library():
 	info("Pulling library repo")
 	run_retry("git", "pull")
@@ -309,7 +294,7 @@ def pull_library():
 	run("git", "submodule", "update", "--init", "--recursive", capture_stderr=True)
 
 
-def review(paths=None, commit=None, repo_url=None):
+def review(paths=None, commit=None, repo_url=None, publish=False):
 	pull_library()
 	plugins = create_plugins(paths, commit, repo_url)
 	try:
@@ -319,123 +304,101 @@ def review(paths=None, commit=None, repo_url=None):
 			info("No plugins to review")
 			return
 
-		commit_paths = get_repo_commit_paths(reviewed_plugins)
-		if not commit_paths:
-			return
-
 		update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
-		info(f"Commit and push the following plugins to the library: {update_message}")
-		if choose("[a]pprove, [r]eject: ", "ar") == "r":
-			return
+		if publish:
+			choose(f"Press Enter to publish the following plugins: {update_message}", "\n")
+			published_plugins = []
+			for plugin in reviewed_plugins:
+				try:
+					plugin.publish_packages()
+					published_plugins.append(plugin)
+				except Exception as exception:
+					error(f"{plugin.get_slug()}: {exception}")
+					choose("[r]eject: ", "r")
+			reviewed_plugins = published_plugins
+			if not reviewed_plugins:
+				return
+		else:
+			commit_paths = get_repo_commit_paths(reviewed_plugins)
+			if not commit_paths:
+				return
+			info(f"Commit and push the following plugins to the library: {update_message}")
+			if choose("[a]pprove, [r]eject: ", "ar") == "r":
+				return
 
 		for plugin in reviewed_plugins:
 			plugin.accept_repo()
 	finally:
 		cleanup_plugins(plugins)
 
-	commit_library(commit_paths, f"Update {update_message}")
-	push_library()
+	if publish:
+		commit_paths = get_repo_commit_paths(reviewed_plugins)
 
+		# Update manifest cache
+		info("Updating manifest cache")
+		manifest_cache.refresh_cache(reviewed_plugins)
 
-def publish_plugins(plugins):
-	published_plugins = []
-	for plugin in plugins:
-		try:
-			info(f"Publishing {plugin.get_slug()} {plugin.get_version()}")
-			plugin.publish_packages()
-			published_plugins.append(plugin)
-		except Exception as exception:
-			error(f"{plugin.get_slug()}: {exception}")
-			choose("[r]eject: ", "r")
-	return published_plugins
-
-
-def publish(paths=None, commit=None, repo_url=None):
-	pull_library()
-
-	# Load, review, and publish plugins
-	plugins = create_plugins(paths, commit, repo_url)
-	try:
-		loaded_plugins = load_plugins(plugins)
-		reviewed_plugins = review_plugins(loaded_plugins)
-		if reviewed_plugins:
-			choose("Press Enter to publish the reviewed plugins", "\n")
-		published_plugins = publish_plugins(reviewed_plugins)
-
-		if not published_plugins:
-			info("No plugins to publish")
-			return
-
-		for plugin in published_plugins:
-			plugin.accept_repo()
-	finally:
-		cleanup_plugins(plugins)
-
-	# Update manifest cache
-	info("Refreshing manifest cache")
-	manifest_cache.refresh_cache(published_plugins)
-
-	# Update ModularGrid database
-	while True:
-		try:
-			info("Updating ModularGrid database")
-			modulargrid.update(published_plugins)
-			break
-		except Exception as error:
-			warn(error)
-			if choose("[r]etry, [i]gnore: ", "ri") == "i":
+		# Update ModularGrid database
+		while True:
+			try:
+				info("Updating ModularGrid database")
+				modulargrid.update(reviewed_plugins)
 				break
+			except Exception as exception:
+				warn(exception)
+				if choose("[r]etry, [i]gnore: ", "ri") == "i":
+					break
 
-	# Delete plugin's old screenshots
-	for plugin in published_plugins:
-		screenshots_dir = os.path.join(config.RACK_SCREENSHOTS_DIR, plugin.get_slug())
-		try:
-			shutil.rmtree(screenshots_dir)
-		except FileNotFoundError:
-			pass
-	info("Generating screenshots")
-	run_retry("./Rack", "-t", "4", cwd=config.RACK_SYSTEM_DIR)
+		# Delete plugin's old screenshots
+		for plugin in reviewed_plugins:
+			screenshots_dir = os.path.join(config.RACK_SCREENSHOTS_DIR, plugin.get_slug())
+			try:
+				shutil.rmtree(screenshots_dir)
+			except FileNotFoundError:
+				pass
+		info("Generating screenshots with Rack")
+		run_retry("./Rack", "-t", "4", cwd=config.RACK_SYSTEM_DIR)
 
-	# Resize screenshots
-	info("Resizing screenshots")
-	run_retry("make", f"-j{os.cpu_count() or 1}", cwd=config.SCREENSHOTS_DIR)
+		# Resize screenshots
+		info("Resizing screenshots")
+		run_retry("make", f"-j{os.cpu_count() or 1}", cwd=config.SCREENSHOTS_DIR)
 
-	# Upload packages
-	info("Uploading packages")
-	run_retry("make", "upload", cwd=config.PACKAGES_DIR)
+		# Upload packages
+		info("Uploading packages")
+		run_retry("make", "upload", cwd=config.PACKAGES_DIR)
 
-	# Upload screenshots
-	info("Uploading screenshots")
-	run_retry("make", "upload", cwd=config.SCREENSHOTS_DIR)
+		# Upload screenshots
+		info("Uploading screenshots")
+		run_retry("make", "upload", cwd=config.SCREENSHOTS_DIR)
 
-	commit_paths = get_repo_commit_paths(published_plugins)
+		# Copy manifests to library
+		for plugin in reviewed_plugins:
+			path = os.path.join(config.MANIFESTS_DIR, f"{plugin.get_slug()}.json")
+			with open(path, "w", encoding="utf-8") as f:
+				json.dump(plugin.manifest, f, indent="  ")
+			commit_paths.add(path)
 
-	# Copy manifests to library
-	for plugin in published_plugins:
-		path = os.path.join(config.MANIFESTS_DIR, f"{plugin.get_slug()}.json")
-		with open(path, "w", encoding="utf-8") as f:
-			json.dump(plugin.manifest, f, indent="  ")
-		commit_paths.add(path)
+		commit_paths.add(config.MANIFESTS_CACHE_FILE)
+		commit_paths.add(config.MODULARGRID_FILE)
 
-	commit_paths.add(config.MANIFESTS_CACHE_FILE)
-	commit_paths.add(config.MODULARGRID_FILE)
+	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
+	commit_message = f"Update manifest {update_message}" if publish else f"Update {update_message}"
+	commit_library(commit_paths, commit_message)
+	info("Pushing library repo")
+	run_retry("git", "push")
 
-	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in published_plugins)
-	commit_library(commit_paths, f"Update manifest {update_message}")
-	push_library()
-
-	for plugin in published_plugins:
-		if not plugin.is_source_in_library():
-			continue
-		# Open browser to plugin's GitHub library issue
-		url = f"https://github.com/VCVRack/library/issues?q=is%3Aissue+sort%3Aupdated-desc+in%3Atitle+{plugin.get_slug()}"
-		webbrowser.open(url)
+	if publish:
+		for plugin in reviewed_plugins:
+			if not plugin.is_source_in_library():
+				continue
+			# Open browser to plugin's GitHub library issue
+			url = f"https://github.com/VCVRack/library/issues?q=is%3Aissue+sort%3Aupdated-desc+in%3Atitle+{plugin.get_slug()}"
+			webbrowser.open(url)
 
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
-	parser.set_defaults(action="review")
-	parser.add_argument("-p", "--publish", dest="action", action="store_const", const="publish", help="Review plugins, then publish packages, screenshots, and library changes.")
+	parser.add_argument("-p", "--publish", action="store_true", help="Review plugins, then publish packages, screenshots, and library changes.")
 	parser.add_argument("paths", nargs="*", metavar="PATH", help=f"Plugin slugs, source directories, or .vcvplugin archives. With no paths, scan {config.REPOS_DIR} for new versions.")
 	parser.add_argument("-c", "--commit", metavar="HASH", help="Fetch and check out this commit in one source directory or slug.")
 	parser.add_argument("-g", "--git", dest="repo_url", metavar="URL", help="Clone a repository or change its URL.")
@@ -448,7 +411,5 @@ if __name__ == "__main__":
 	args = parser.parse_args()
 	if len(sys.argv) == 1:
 		parser.print_help()
-	elif args.action == "review":
-		review(args.paths, args.commit, args.repo_url)
-	elif args.action == "publish":
-		publish(args.paths, args.commit, args.repo_url)
+		sys.exit()
+	review(args.paths, args.commit, args.repo_url, publish=args.publish)
