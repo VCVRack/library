@@ -138,8 +138,8 @@ class Plugin:
 		# Check out requested commit hash
 		if self.repo_commit:
 			info(f"Checking out {self.source_dir} at {self.repo_commit}")
-			run("git", "fetch", "--", "origin", self.repo_commit, cwd=self.source_dir, capture_stderr=True)
-			run("git", "checkout", "--detach", "FETCH_HEAD", cwd=self.source_dir, capture_stderr=True)
+			run("git", "fetch", "--", "origin", cwd=self.source_dir, capture_stderr=True)
+			run("git", "checkout", "--detach", self.repo_commit, "--", cwd=self.source_dir, capture_stderr=True)
 
 		# Initialize submodules
 		run("git", "submodule", "update", "--init", "--recursive", cwd=self.source_dir, capture_stderr=True)
