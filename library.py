@@ -11,8 +11,7 @@ from urllib.parse import urlsplit
 
 import requests
 
-from py.command import run
-from py.console import choose, error, info, warn
+from py.common import choose, error, info, run, run_retry, warn
 from py import config, manifest_cache, modulargrid
 from py.plugin import Plugin, is_valid_slug
 
@@ -20,17 +19,6 @@ try:
 	from py import agent
 except ImportError:
 	agent = None
-
-
-def run_retry(command, *args, cwd=None):
-	while True:
-		try:
-			run(command, *args, cwd=cwd, capture_stderr=True)
-			return
-		except Exception as error:
-			warn(error)
-			if choose("[r]etry, [i]gnore: ", "ri") == "i":
-				return
 
 
 def resolve_path(path):

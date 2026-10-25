@@ -11,8 +11,7 @@ from urllib.parse import urldefrag, urlsplit
 import requests
 
 from . import config
-from .command import run
-from .console import info, warn
+from .common import info, run, warn
 
 
 EXTRACTION_DIR = tempfile.mkdtemp()
