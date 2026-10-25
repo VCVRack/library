@@ -255,14 +255,23 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 			# Launch Rack to test plugins.
 			update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in installed_plugins)
 			choose(f"Press Enter to launch Rack and test the following packages: {update_message}", "\n")
-			run_retry("./Rack", cwd=config.RACK_SYSTEM_DIR)
+			while True:
+				warnings = []
+				try:
+					run("./Rack", cwd=config.RACK_SYSTEM_DIR, capture_stderr=True)
+				except Exception as exception:
+					warnings.append(str(exception))
 
-			# Show warnings and debug messages from Rack log.
-			log_path = os.path.join(config.RACK_USER_DIR, "log.txt")
-			output = run("grep", "-E", r"\b(warn|debug)\b", log_path, capture_stdout=True, raise_on_nonzero=False)
-			if output:
-				warn(output.rstrip("\n"))
-				choose("[a]pprove: ", "a")
+				# Read warnings and debug messages from Rack log.
+				log_path = os.path.join(config.RACK_USER_DIR, "log.txt")
+				output = run("grep", "-E", r"\b(warn|debug)\b", log_path, capture_stdout=True, raise_on_nonzero=False)
+				if output:
+					warnings.append(output.rstrip("\n"))
+				if not warnings:
+					break
+				warn("\n".join(warnings))
+				if choose("[r]etry, [i]gnore: ", "ri") == "i":
+					break
 
 		if not reviewed_plugins:
 			info("No plugins to review")
