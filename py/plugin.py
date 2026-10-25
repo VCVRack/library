@@ -101,15 +101,17 @@ class Plugin:
 		if not self.repo_url and not self.repo_commit:
 			return
 
-		# Check for uncommitted changes
 		if os.path.isdir(self.source_dir):
 			changes = run("git", "status", "--porcelain", cwd=self.source_dir, capture_stdout=True)
 			if changes:
 				raise RuntimeError(f"Repository {self.source_dir!r} has uncommitted changes.\n\n{changes}")
 
-			# If commit checkout is requested, record its original commit hash so we can revert later.
+			# If commit hash or tag is requested, try to get the currently checked out commit hash.
 			if self.repo_commit and not self.previous_repo_commit and not self.created_repo:
-				self.previous_repo_commit = run("git", "rev-parse", "HEAD", cwd=self.source_dir, capture_stdout=True).strip()
+				try:
+					self.previous_repo_commit = run("git", "rev-parse", "HEAD", cwd=self.source_dir, capture_stdout=True).strip()
+				except RuntimeError:
+					pass
 
 			# If URL change is requested, record its original URL so we can revert later.
 			if self.repo_url and not self.previous_repo_url and not self.created_repo:
