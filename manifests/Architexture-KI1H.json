@@ -1,0 +1,81 @@
+{
+  "slug": "Architexture-KI1H",
+  "name": "Architexture KI1H",
+  "version": "2.3.0",
+  "license": "proprietary",
+  "brand": "Architexture Enterprises",
+  "author": "Walden Donovan Tynan",
+  "authorEmail": "architextureenterprises@gmail.com",
+  "authorUrl": "https://github.com/Architexture-Enterprises",
+  "modules": [
+    {
+      "slug": "VCO",
+      "name": "VCO",
+      "description": "A VCO based on the Hun'ed VCO",
+      "tags": [
+        "VCO",
+        "Analog",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "LFO",
+      "name": "LFO",
+      "description": "An LFO based on the Hun'ed LFO",
+      "tags": [
+        "LFO",
+        "Analog",
+        "Modulation"
+      ]
+    },
+    {
+      "slug": "MIX",
+      "name": "MIX",
+      "description": "A Mixer based on the Hun'ed mixer",
+      "tags": [
+        "mixer",
+        "Analog",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "FILTER",
+      "name": "FILTER",
+      "description": "A FILTER based on the Hun'ed mixer",
+      "tags": [
+        "filter",
+        "Analog",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "ENVELOPE",
+      "name": "ENVELOPE",
+      "description": "An envelope generator based on the 258",
+      "tags": [
+        "envelope",
+        "Analog"
+      ]
+    },
+    {
+      "slug": "KAOS",
+      "name": "KAOS",
+      "description": "Noise module and pink red chaos",
+      "tags": [
+        "KAOS",
+        "Analog",
+        "VCA"
+      ]
+    },
+    {
+      "slug": "VCA",
+      "name": "VCA",
+      "description": "A VCA based on the Hun'ed VCA",
+      "tags": [
+        "VCA",
+        "Mixer",
+        "Analog"
+      ]
+    }
+  ]
+}

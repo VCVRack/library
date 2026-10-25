@@ -18970,5 +18970,32 @@
         "creationTimestamp": 1792664595
       }
     }
+  },
+  "Architexture-KI1H": {
+    "buildTimestamp": 1792959817,
+    "creationTimestamp": 1792959817,
+    "modules": {
+      "VCO": {
+        "creationTimestamp": 1792959817
+      },
+      "LFO": {
+        "creationTimestamp": 1792959817
+      },
+      "MIX": {
+        "creationTimestamp": 1792959817
+      },
+      "FILTER": {
+        "creationTimestamp": 1792959817
+      },
+      "ENVELOPE": {
+        "creationTimestamp": 1792959817
+      },
+      "KAOS": {
+        "creationTimestamp": 1792959817
+      },
+      "VCA": {
+        "creationTimestamp": 1792959817
+      }
+    }
   }
 }
