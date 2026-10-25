@@ -24,7 +24,9 @@ with open(os.path.join(os.path.dirname(__file__), "spdx.json"), encoding="utf-8"
 	SPDX_IDS = set(json.load(f))
 
 with open(os.path.join(os.path.dirname(__file__), "tags.json"), encoding="utf-8") as f:
-	VALID_TAGS = {tag.lower() for group in json.load(f) for tag in group}
+	TAGS = json.load(f)
+
+TAG_ALIASES = {tag.lower(): group[0] for group in TAGS for tag in group}
 
 
 def is_valid_slug(slug):
@@ -329,7 +331,7 @@ class Plugin:
 
 		# Check module tags.
 		for module in manifest.get("modules", []):
-			invalid_tags = sorted({tag for tag in module.get("tags", []) if tag.lower() not in VALID_TAGS})
+			invalid_tags = sorted({tag for tag in module.get("tags", []) if tag.lower() not in TAG_ALIASES})
 			if not invalid_tags:
 				continue
 			tags_string = format_items(f"`{tag}`" for tag in invalid_tags)
@@ -337,6 +339,18 @@ class Plugin:
 				warnings.append(f"Module `{module['slug']}` has an invalid tag {tags_string}. See https://vcvrack.com/manual/Manifest#modules-tags for valid tags.")
 			else:
 				warnings.append(f"Module `{module['slug']}` has invalid tags {tags_string}. See https://vcvrack.com/manual/Manifest#modules-tags for valid tags.")
+
+		# Check duplicate module tags.
+		for module in manifest.get("modules", []):
+			normalized_tags = [TAG_ALIASES.get(tag.lower(), tag) for tag in module.get("tags", [])]
+			duplicate_tags = sorted({tag for tag in normalized_tags if normalized_tags.count(tag) > 1})
+			if not duplicate_tags:
+				continue
+			tags_string = format_items(f"`{tag}`" for tag in duplicate_tags)
+			if len(duplicate_tags) == 1:
+				warnings.append(f"Module `{module['slug']}` has a duplicate tag {tags_string}. Remove duplicate values or aliases from its `tags` array.")
+			else:
+				warnings.append(f"Module `{module['slug']}` has duplicate tags {tags_string}. Remove duplicate values or aliases from its `tags` array.")
 
 		# Check ModularGrid URLs for hardware clones.
 		missing_modulargrid_url_slugs = set()
