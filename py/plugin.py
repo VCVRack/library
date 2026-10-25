@@ -11,7 +11,7 @@ from urllib.parse import urldefrag, urlsplit
 import requests
 
 from . import config
-from .common import info, run, warn
+from .common import format_items, info, run, warn
 
 
 EXTRACTION_DIR = tempfile.mkdtemp()
@@ -312,7 +312,7 @@ class Plugin:
 		# Check whether new module slugs contain the plugin slug.
 		module_slugs_with_plugin_slug = {slug for slug in new_module_slugs if plugin_slug.casefold() in slug.casefold()}
 		if module_slugs_with_plugin_slug:
-			slugs_string = ", ".join(f"`{slug}`" for slug in sorted(module_slugs_with_plugin_slug))
+			slugs_string = format_items(f"`{slug}`" for slug in sorted(module_slugs_with_plugin_slug))
 			if len(module_slugs_with_plugin_slug) == 1:
 				warnings.append(f"Module slug {slugs_string} contains plugin slug `{plugin_slug}`. Modules are already identified by the plugin they are in, so please remove `{plugin_slug}` from {slugs_string}.")
 			else:
@@ -321,7 +321,7 @@ class Plugin:
 		# Check whether the plugin slug contains new module slugs.
 		module_slugs_in_plugin_slug = {slug for slug in new_module_slugs - module_slugs_with_plugin_slug if slug.casefold() in plugin_slug.casefold()}
 		if module_slugs_in_plugin_slug:
-			slugs_string = ", ".join(f"`{slug}`" for slug in sorted(module_slugs_in_plugin_slug))
+			slugs_string = format_items(f"`{slug}`" for slug in sorted(module_slugs_in_plugin_slug))
 			if len(module_slugs_in_plugin_slug) == 1:
 				warnings.append(f"Plugin slug `{plugin_slug}` contains module slug {slugs_string}. The plugin slug should name the collection of modules rather than one module, so please remove {slugs_string} from `{plugin_slug}`.")
 			else:
@@ -332,7 +332,7 @@ class Plugin:
 			invalid_tags = sorted({tag for tag in module.get("tags", []) if tag.lower() not in VALID_TAGS})
 			if not invalid_tags:
 				continue
-			tags_string = ", ".join(f"`{tag}`" for tag in invalid_tags)
+			tags_string = format_items(f"`{tag}`" for tag in invalid_tags)
 			if len(invalid_tags) == 1:
 				warnings.append(f"Module `{module['slug']}` has an invalid tag {tags_string}. See https://vcvrack.com/manual/Manifest#modules-tags for valid tags.")
 			else:
@@ -346,7 +346,7 @@ class Plugin:
 			if any(tag.lower() == "hardware clone" for tag in module.get("tags", [])):
 				missing_modulargrid_url_slugs.add(module["slug"])
 		if missing_modulargrid_url_slugs:
-			slugs_string = ", ".join(f"`{slug}`" for slug in sorted(missing_modulargrid_url_slugs))
+			slugs_string = format_items(f"`{slug}`" for slug in sorted(missing_modulargrid_url_slugs))
 			if len(missing_modulargrid_url_slugs) == 1:
 				warnings.append(f"Module {slugs_string} has a `Hardware clone` tag but no `modularGridUrl` property. This would link its VCV Library page to ModularGrid and vice versa.")
 			else:
@@ -355,7 +355,7 @@ class Plugin:
 		# Check deprecated module properties.
 		disabled_module_slugs = {module["slug"] for module in manifest.get("modules", []) if "disabled" in module}
 		if disabled_module_slugs:
-			slugs_string = ", ".join(f"`{slug}`" for slug in sorted(disabled_module_slugs))
+			slugs_string = format_items(f"`{slug}`" for slug in sorted(disabled_module_slugs))
 			if len(disabled_module_slugs) == 1:
 				warnings.append(f"Module {slugs_string} has a deprecated `disabled` property. Replace `disabled` with `hidden`.")
 			else:
@@ -372,14 +372,14 @@ class Plugin:
 			if plugin_slug != library_manifest["slug"]:
 				warnings.append(f"Plugin slug changed from `{library_manifest['slug']}` to `{plugin_slug}`, which breaks existing patches that use this plugin. Restore the original slug `{library_manifest['slug']}`.")
 			if new_module_slugs:
-				new_module_slugs_string = ", ".join(f"`{slug}`" for slug in sorted(new_module_slugs))
+				new_module_slugs_string = format_items(f"`{slug}`" for slug in sorted(new_module_slugs))
 				if len(new_module_slugs) == 1:
 					warnings.append(f"Module {new_module_slugs_string} is new.")
 				else:
 					warnings.append(f"Modules {new_module_slugs_string} are new.")
 			removed_module_slugs = library_module_slugs - module_slugs
 			if removed_module_slugs:
-				slugs_string = ", ".join(f"`{slug}`" for slug in sorted(removed_module_slugs))
+				slugs_string = format_items(f"`{slug}`" for slug in sorted(removed_module_slugs))
 				if len(removed_module_slugs) == 1:
 					warnings.append(f"Module {slugs_string} has been removed, which breaks existing patches that use it. Restore the module with its original slug.")
 				else:
@@ -479,7 +479,7 @@ class Plugin:
 
 		if large_files:
 			large_files.sort(key=lambda file: file["name"])
-			large_files_string = ", ".join(f"`{file['name']}` ({file['size'] / 1024 ** 2:.1f} MiB)" for file in large_files)
+			large_files_string = format_items(f"`{file['name']}` ({file['size'] / 1024 ** 2:.1f} MiB)" for file in large_files)
 			if len(large_files) == 1:
 				warnings.append(f"Large file is committed to Git. Consider [removing it from Git history](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history) to reduce clone size. {large_files_string}")
 			else:
@@ -513,10 +513,10 @@ class Plugin:
 		expected_filenames = set(filenames_by_architecture.values())
 		missing_filenames = expected_filenames - filenames
 		if missing_filenames:
-			warnings.append(f"Missing packages: {', '.join(sorted(missing_filenames))}.")
+			warnings.append(f"Missing packages: {format_items(sorted(missing_filenames))}.")
 		unexpected_filenames = filenames - expected_filenames
 		if unexpected_filenames:
-			raise ValueError(f"Unexpected packages: {', '.join(sorted(unexpected_filenames))}.")
+			raise ValueError(f"Unexpected packages: {format_items(sorted(unexpected_filenames))}.")
 		if len(filenames) != len(self.package_paths):
 			raise ValueError("Multiple packages have the same filename.")
 
@@ -543,7 +543,7 @@ class Plugin:
 		slug = self.get_slug()
 		entries = list(os.scandir(dist_dir))
 		if not (len(entries) == 1 and entries[0].is_dir() and entries[0].name == slug):
-			entries_string = ", ".join(f"`{entry.name}`" for entry in entries)
+			entries_string = format_items(f"`{entry.name}`" for entry in entries)
 			warnings.append(f"Package `{package_filename}` must contain a single `{slug}` directory with all plugin files inside it. The root of the package contains {entries_string}.")
 
 		# Check for platform's plugin binary.
@@ -566,7 +566,7 @@ class Plugin:
 
 		review_dir(dist_dir)
 		if junk_paths:
-			junk_paths_string = ", ".join(f"`{path}`" for path in sorted(junk_paths))
+			junk_paths_string = format_items(f"`{path}`" for path in sorted(junk_paths))
 			warnings.append(f"Update your `Makefile` to exclude junk files and directories from `{package_filename}`, then rebuild the package. The package includes {junk_paths_string}.")
 		return '\n'.join(warnings) or None
 

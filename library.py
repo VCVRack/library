@@ -11,7 +11,7 @@ from urllib.parse import urlsplit
 
 import requests
 
-from py.common import choose, error, info, run, run_retry, warn
+from py.common import choose, error, format_items, info, run, run_retry, warn
 from py import config, manifest_cache, modulargrid
 from py.plugin import Plugin, is_valid_slug
 
@@ -241,7 +241,7 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 				installed_plugins.append(plugin)
 		if installed_plugins:
 			# Launch Rack to test plugins.
-			update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in installed_plugins)
+			update_message = format_items(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in installed_plugins)
 			choose(f"Press Enter to launch Rack and test the following packages: {update_message}", "\n")
 			while True:
 				warnings = []
@@ -265,7 +265,7 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 			info("No plugins to review")
 			return
 
-		update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
+		update_message = format_items(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
 		if publish:
 			choose(f"Press Enter to publish the following plugins: {update_message}", "\n")
 			published_plugins = []
@@ -346,7 +346,7 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 		commit_paths.add(config.MANIFESTS_CACHE_FILE)
 		commit_paths.add(config.MODULARGRID_FILE)
 
-	update_message = ", ".join(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
+	update_message = format_items(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
 	commit_message = f"Update manifest {update_message}" if publish else f"Update {update_message}"
 	if not commit_paths:
 		return

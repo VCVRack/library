@@ -6,6 +6,14 @@ import termios
 import tty
 
 
+def format_items(items):
+	"""Formats an iterable of strings as an English list."""
+	items = list(items)
+	if len(items) <= 2:
+		return " and ".join(items)
+	return ", ".join(items[:-1]) + ", and " + items[-1]
+
+
 def info(message):
 	print(f"\033[34m{message}\033[0m")
 
