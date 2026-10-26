@@ -2,15 +2,18 @@ import json
 import re
 
 from . import config
+from .common import is_valid_url
 
 
 def get_module_id(url):
 	import requests
+	if not is_valid_url(url):
+		raise ValueError(f"URL `{url}` is not a valid HTTP or HTTPS URL.")
 	response = requests.get(url, timeout=config.HTTP_TIMEOUT)
 	response.raise_for_status()
 	match = re.search(r'data-module-id\s*=\s*"(\d+)"', response.text)
 	if not match:
-		raise ValueError(f"ModularGrid page {url!r} contains no module ID.")
+		raise ValueError(f"ModularGrid page `{url}` contains no module ID.")
 	return int(match.group(1))
 
 

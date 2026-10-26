@@ -11,9 +11,9 @@ from urllib.parse import urlsplit
 
 import requests
 
-from py.common import choose, error, format_items, info, run, run_retry, warn
+from py.common import choose, error, format_items, info, is_valid_slug, run, run_retry, warn
 from py import config, manifest_cache, modulargrid
-from py.plugin import Plugin, is_valid_slug
+from py.plugin import Plugin
 
 try:
 	from py import agent

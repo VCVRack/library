@@ -1,9 +1,18 @@
 import os
+import re
 import shlex
 import subprocess
 import sys
 import termios
 import tty
+from urllib.parse import urldefrag, urlsplit
+
+import requests
+
+from . import config
+
+
+URL_CACHE = set()
 
 
 def format_items(items):
@@ -12,6 +21,46 @@ def format_items(items):
 	if len(items) <= 2:
 		return " and ".join(items)
 	return ", ".join(items[:-1]) + ", and " + items[-1]
+
+
+def is_valid_slug(slug):
+	return bool(re.fullmatch(r"[A-Za-z0-9](?:[A-Za-z0-9_-]*[A-Za-z0-9])?", slug))
+
+
+def is_valid_url(url):
+	if any(character.isspace() for character in url):
+		return False
+	try:
+		parts = urlsplit(url)
+		if parts.scheme not in ("http", "https"):
+			return False
+		if not parts.hostname:
+			return False
+	except ValueError:
+		return False
+	return True
+
+
+def review_url(url):
+	if not is_valid_url(url):
+		raise ValueError(f"URL `{url}` is not a valid HTTP or HTTPS URL.")
+	request_url = urldefrag(url).url
+	if request_url in URL_CACHE:
+		return
+	headers = {"User-Agent": config.HTTP_USER_AGENT}
+	with requests.get(request_url, headers=headers, timeout=config.HTTP_TIMEOUT, stream=True) as response:
+		response.raise_for_status()
+	URL_CACHE.add(request_url)
+
+
+def version_key(version):
+	parts = []
+	for part in version.split('.'):
+		try:
+			parts.append((1, int(part)))
+		except ValueError:
+			parts.append((0, part))
+	return parts
 
 
 def info(message):

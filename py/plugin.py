@@ -2,23 +2,16 @@ import atexit
 import glob
 import json
 import os
-import re
 import shlex
 import shutil
 import tempfile
-from urllib.parse import urldefrag, urlsplit
 
-import requests
-
-from . import config
-from .common import format_items, info, run, warn
+from . import config, modulargrid
+from .common import format_items, info, is_valid_slug, is_valid_url, review_url, run, version_key, warn
 
 
 EXTRACTION_DIR = tempfile.mkdtemp()
 atexit.register(shutil.rmtree, EXTRACTION_DIR)
-
-REACHABLE_URLS = set()
-
 
 with open(os.path.join(os.path.dirname(__file__), "spdx.json"), encoding="utf-8") as f:
 	SPDX_IDS = set(json.load(f))
@@ -29,44 +22,8 @@ with open(os.path.join(os.path.dirname(__file__), "tags.json"), encoding="utf-8"
 TAG_ALIASES = {tag.lower(): group[0] for group in TAGS for tag in group}
 
 
-def is_valid_slug(slug):
-	return bool(re.fullmatch(r"[A-Za-z0-9](?:[A-Za-z0-9_-]*[A-Za-z0-9])?", slug))
-
-
-def is_valid_url(url):
-	if any(character.isspace() for character in url):
-		return False
-	try:
-		parts = urlsplit(url)
-		return parts.scheme in ("http", "https") and bool(parts.hostname)
-	except ValueError:
-		return False
-
-
-def review_url(url):
-	if not is_valid_url(url):
-		return f"URL `{url}` is not a valid HTTP or HTTPS URL."
-	request_url = urldefrag(url).url
-	if request_url in REACHABLE_URLS:
-		return None
-	headers = {"User-Agent": config.HTTP_USER_AGENT}
-	try:
-		with requests.get(request_url, headers=headers, timeout=config.HTTP_TIMEOUT, stream=True) as response:
-			response.raise_for_status()
-	except requests.RequestException as error:
-		return f"URL `{url}` could not be reached. {error}"
-	REACHABLE_URLS.add(request_url)
-	return None
-
-
-def version_key(version):
-	parts = []
-	for part in version.split('.'):
-		try:
-			parts.append((1, int(part)))
-		except ValueError:
-			parts.append((0, part))
-	return parts
+def normalize_tag(tag):
+	return TAG_ALIASES.get(tag.lower(), tag)
 
 
 class Plugin:
@@ -342,7 +299,7 @@ class Plugin:
 
 		# Check duplicate module tags.
 		for module in manifest.get("modules", []):
-			normalized_tags = [TAG_ALIASES.get(tag.lower(), tag) for tag in module.get("tags", [])]
+			normalized_tags = [normalize_tag(tag) for tag in module.get("tags", [])]
 			duplicate_tags = sorted({tag for tag in normalized_tags if normalized_tags.count(tag) > 1})
 			if not duplicate_tags:
 				continue
@@ -357,7 +314,7 @@ class Plugin:
 		for module in manifest.get("modules", []):
 			if module.get("modularGridUrl"):
 				continue
-			if any(tag.lower() == "hardware clone" for tag in module.get("tags", [])):
+			if any(normalize_tag(tag) == "Hardware clone" for tag in module.get("tags", [])):
 				missing_modulargrid_url_slugs.add(module["slug"])
 		if missing_modulargrid_url_slugs:
 			slugs_string = format_items(f"`{slug}`" for slug in sorted(missing_modulargrid_url_slugs))
@@ -416,21 +373,34 @@ class Plugin:
 		# Check plugin URLs.
 		for key in ("authorUrl", "pluginUrl", "manualUrl", "sourceUrl", "donateUrl", "changelogUrl"):
 			if url := self.manifest.get(key):
-				if warning := review_url(url):
-					warnings.append(f"`plugin.json` property `{key}`: {warning}")
+				try:
+					review_url(url)
+				except Exception as error:
+					warnings.append(f"`plugin.json` property `{key}` is invalid: {error}")
 
-		# Check module URLs.
+		# Check module manual URLs.
 		for module in self.manifest.get('modules', []):
-			for key in ("manualUrl", "modularGridUrl"):
-				if url := module.get(key):
-					if warning := review_url(url):
-						warnings.append(f"Module `{module['slug']}` property `{key}`: {warning}")
+			if url := module.get("manualUrl"):
+				try:
+					review_url(url)
+				except Exception as error:
+					warnings.append(f"Module `{module['slug']}` property `manualUrl` is invalid: {error}")
+
+		# Check ModularGrid URLs.
+		for module in self.manifest.get('modules', []):
+			if url := module.get("modularGridUrl"):
+				try:
+					modulargrid.get_module_id(url)
+				except Exception as error:
+					warnings.append(f"Module `{module['slug']}` property `modularGridUrl` is invalid: {error}")
 
 		# If license is a URL, check it.
 		license = self.manifest['license']
 		if license.lower().startswith(("http://", "https://")):
-			if warning := review_url(license):
-				warnings.append(f"`plugin.json` property `license`: {warning}")
+			try:
+				review_url(license)
+			except Exception as error:
+				warnings.append(f"`plugin.json` property `license` is invalid: {error}")
 
 		return '\n'.join(warnings) or None
 
