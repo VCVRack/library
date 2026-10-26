@@ -19006,5 +19006,23 @@
         "creationTimestamp": 1793005167
       }
     }
+  },
+  "Bakehouse": {
+    "buildTimestamp": 1793007177,
+    "creationTimestamp": 1793007177,
+    "modules": {
+      "Whisk": {
+        "creationTimestamp": 1793007177
+      }
+    }
+  },
+  "BakehouseTreats": {
+    "buildTimestamp": 1793007177,
+    "creationTimestamp": 1793007177,
+    "modules": {
+      "WhiskExpander": {
+        "creationTimestamp": 1793007177
+      }
+    }
   }
 }

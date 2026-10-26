@@ -1,0 +1,26 @@
+{
+  "slug": "BakehouseTreats",
+  "name": "Bakehouse Treats",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "Bakehouse",
+  "description": "The Whisk Expander: eight scenes, tune sharing and scale shift for the free Whisk",
+  "author": "Benny Delaney-Brownlow",
+  "authorEmail": "bennydelaneybrownlow@gmail.com",
+  "authorUrl": "https://github.com/BenDB925",
+  "pluginUrl": "https://github.com/BenDB925/Bakehouse",
+  "manualUrl": "https://github.com/BenDB925/Bakehouse/blob/main/MANUAL.md",
+  "changelogUrl": "https://github.com/BenDB925/Bakehouse/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "WhiskExpander",
+      "name": "Whisk Expander",
+      "description": "Eight-scene launcher for Whisk: save two-layer moments and recall them by button or CV",
+      "manualUrl": "https://github.com/BenDB925/Bakehouse/blob/main/MANUAL.md#whisk-expander",
+      "tags": [
+        "Expander",
+        "Sequencer"
+      ]
+    }
+  ]
+}
