@@ -39,7 +39,10 @@ def update(plugins):
 			entry['moduleSlug'] = module_slug
 			entry['vcvUrl'] = f"https://library.vcvrack.com/{plugin_slug}/{module_slug}"
 			entry['mgUrl'] = url
-			entry['mgModuleId'] = get_module_id(url)
+			try:
+				entry['mgModuleId'] = get_module_id(url)
+			except Exception:
+				continue
 			entries.append(entry)
 			print(entry)
 
