@@ -1,7 +1,7 @@
 {
   "slug": "halfagiraf",
   "name": "halfagiraf Modules",
-  "version": "2.0.2",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "halfagiraf",
   "author": "Steven McSorley",
@@ -60,6 +60,32 @@
         "Random",
         "Clock",
         "Utility",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Grainloom",
+      "name": "Grainloom",
+      "description": "Granular texture synthesizer based on the open-source Mutable Instruments Beads DSP.",
+      "manualUrl": "https://github.com/stevenmcsorley/halfagiraf-modules/blob/main/docs/Grainloom.md",
+      "tags": [
+        "Granular",
+        "Effect",
+        "Synth voice",
+        "Delay",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "Sonavyre",
+      "name": "SONAVYRE",
+      "description": "Visual Stereo Effects Engine with 12 factory effects, including four expansive reverbs.",
+      "manualUrl": "https://github.com/stevenmcsorley/halfagiraf-modules/blob/main/docs/sonavyre/README.md",
+      "tags": [
+        "Effect",
+        "Reverb",
+        "Delay",
+        "Chorus",
         "Visual"
       ]
     }
