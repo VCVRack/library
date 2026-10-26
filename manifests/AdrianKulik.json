@@ -1,0 +1,29 @@
+{
+  "slug": "AdrianKulik",
+  "name": "Adrian Kulik",
+  "version": "2.11.2",
+  "license": "GPL-3.0-only",
+  "brand": "Adrian Kulik",
+  "author": "Adrian Kulik",
+  "authorEmail": "adriankulik93@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/adriankulik/VCV-GuitarAmp",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "GuitarAmpEffects",
+      "name": "Guitar Amp & Effects",
+      "description": "Guitar amp and effect eurorack for VCV Rack: amp sim, cabinet, distortion, fuzz, shimmer, noise gate, EQ",
+      "tags": [
+        "Effect",
+        "Distortion",
+        "Equalizer",
+        "Dynamics",
+        "Reverb"
+      ]
+    }
+  ]
+}
