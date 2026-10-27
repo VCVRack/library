@@ -1,7 +1,7 @@
 {
   "slug": "dbRackModules",
   "name": "dbRackModules",
-  "version": "2.6.2",
+  "version": "2.7.0",
   "license": "GPL-3.0-or-later",
   "brand": "docB",
   "author": "docB",
@@ -780,6 +780,22 @@
       "tags": [
         "Utility",
         "Switch"
+      ]
+    },
+    {
+      "slug": "SL",
+      "name": "SL",
+      "description": "Slew Limiter with frequency control and ratio",
+      "tags": [
+        "Slew Limiter"
+      ]
+    },
+    {
+      "slug": "Q3",
+      "name": "Q3",
+      "description": "3-Osc Pulse Workstation",
+      "tags": [
+        "Oscillator"
       ]
     }
   ]
