@@ -1,0 +1,45 @@
+{
+  "slug": "Bearamin",
+  "name": "Bearamin",
+  "version": "2.1.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Bearamin",
+  "author": "Bearamin",
+  "description": "SloFO and Bearamin Lite optical gesture control for VCV Rack",
+  "pluginUrl": "https://github.com/actuallysparky/Bearamin-VCV",
+  "manualUrl": "https://github.com/actuallysparky/Bearamin-VCV/blob/main/README.md",
+  "sourceUrl": "https://github.com/actuallysparky/Bearamin-VCV",
+  "modules": [
+    {
+      "slug": "SlowLFO",
+      "name": "SloFO",
+      "description": "Phase-aligned sine, triangle and square slow LFO with an 8x8 display",
+      "tags": [
+        "Low-frequency oscillator",
+        "Hardware clone"
+      ],
+      "modularGridUrl": "https://modulargrid.net/e/hive-mind-synthesis-slofo"
+    },
+    {
+      "slug": "Virtual",
+      "name": "Lite",
+      "description": "Powered by Bearamin Virtual: USB 8x8 depth sensing, six CVs and Presence/Spank gates",
+      "tags": [
+        "Controller",
+        "External",
+        "Hardware clone"
+      ],
+      "modularGridUrl": "https://modulargrid.net/e/hive-mind-synthesis-bearamin-lite"
+    },
+    {
+      "slug": "BearaminVirtual",
+      "name": "Lite (legacy)",
+      "description": "Replaced by Lite (Virtual). Retained to load existing Bearamin collection patches.",
+      "hidden": true,
+      "tags": [
+        "Controller",
+        "External"
+      ]
+    }
+  ]
+}

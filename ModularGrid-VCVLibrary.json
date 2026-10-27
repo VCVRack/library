@@ -2705,5 +2705,19 @@
     "vcvUrl": "https://library.vcvrack.com/SFSSuper/ROOM",
     "mgUrl": "https://modulargrid.net/e/super-synthesis-room",
     "mgModuleId": 51244
+  },
+  {
+    "pluginSlug": "Bearamin",
+    "moduleSlug": "SlowLFO",
+    "vcvUrl": "https://library.vcvrack.com/Bearamin/SlowLFO",
+    "mgUrl": "https://modulargrid.net/e/hive-mind-synthesis-slofo",
+    "mgModuleId": 60053
+  },
+  {
+    "pluginSlug": "Bearamin",
+    "moduleSlug": "Virtual",
+    "vcvUrl": "https://library.vcvrack.com/Bearamin/Virtual",
+    "mgUrl": "https://modulargrid.net/e/hive-mind-synthesis-bearamin-lite",
+    "mgModuleId": 59641
   }
 ]

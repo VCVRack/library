@@ -19048,5 +19048,20 @@
         "creationTimestamp": 1793140161
       }
     }
+  },
+  "Bearamin": {
+    "buildTimestamp": 1793142581,
+    "creationTimestamp": 1793142581,
+    "modules": {
+      "SlowLFO": {
+        "creationTimestamp": 1793142581
+      },
+      "Virtual": {
+        "creationTimestamp": 1793142581
+      },
+      "BearaminVirtual": {
+        "creationTimestamp": 1793142581
+      }
+    }
   }
 }

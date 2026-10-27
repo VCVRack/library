@@ -1203,3 +1203,6 @@
 [submodule "repos/OhMyModular"]
 	path = repos/OhMyModular
 	url = https://github.com/Mogra-Audio/OhMyModular
+[submodule "repos/Bearamin"]
+	path = repos/Bearamin
+	url = https://github.com/actuallysparky/Bearamin-VCV
