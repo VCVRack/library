@@ -1200,3 +1200,6 @@
 [submodule "repos/AdrianKulik"]
 	path = repos/AdrianKulik
 	url = https://github.com/adriankulik/VCV-GuitarAmp
+[submodule "repos/OhMyModular"]
+	path = repos/OhMyModular
+	url = https://github.com/Mogra-Audio/OhMyModular
