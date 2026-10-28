@@ -2,7 +2,6 @@ import atexit
 import glob
 import json
 import os
-import shlex
 import shutil
 import tempfile
 
@@ -447,27 +446,26 @@ class Plugin:
 				large_files.append({"name": path, "size": size})
 
 		if junk_paths:
-			junk_paths = sorted(junk_paths)
-			junk_paths_command = shlex.join(["git", "rm", "-r", "--cached", "--", *junk_paths])
+			junk_paths_string = ", ".join(f"`{path}`" for path in sorted(junk_paths))
 			if len(junk_paths) == 1:
-				warnings.append(f"Junk file or directory is committed to Git. Consider adding it to `.gitignore`. Run this command to stage its removal without deleting it locally: `{junk_paths_command}`.")
+				warnings.append(f"Junk file or directory is committed to Git. Consider removing it from Git and adding it to `.gitignore`: {junk_paths_string}.")
 			else:
-				warnings.append(f"Junk files or directories are committed to Git. Consider adding them to `.gitignore`. Run this command to stage their removal without deleting them locally: `{junk_paths_command}`.")
+				warnings.append(f"Junk files or directories are committed to Git. Consider removing them from Git and adding them to `.gitignore`: {junk_paths_string}.")
 
 		if binary_paths:
-			binary_paths_command = shlex.join(["git", "rm", "--cached", "--ignore-unmatch", "--", *binary_paths])
+			binary_paths_string = ", ".join(f"`{path}`" for path in sorted(binary_paths))
 			if len(binary_paths) == 1:
-				warnings.append(f"Binary file is committed to Git. Consider adding it to `.gitignore`. Run this command to stage its removal without deleting it locally: `{binary_paths_command}`.")
+				warnings.append(f"Binary file is committed to Git. Consider removing it from Git and adding it to `.gitignore`: {binary_paths_string}.")
 			else:
-				warnings.append(f"Binary files are committed to Git. Consider adding them to `.gitignore`. Run this command to stage their removal without deleting them locally: `{binary_paths_command}`.")
+				warnings.append(f"Binary files are committed to Git. Consider removing them from Git and adding them to `.gitignore`: {binary_paths_string}.")
 
 		if large_files:
 			large_files.sort(key=lambda file: file["name"])
-			large_files_string = format_items(f"`{file['name']}` ({file['size'] / 1024 ** 2:.1f} MiB)" for file in large_files)
+			large_files_string = ", ".join(f"`{file['name']}` ({file['size'] / 1024 ** 2:.1f} MiB)" for file in large_files)
 			if len(large_files) == 1:
-				warnings.append(f"Large file is committed to Git. Consider [removing it from Git history](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history) to reduce clone size. {large_files_string}")
+				warnings.append(f"Large file is committed to Git. Consider [removing it from Git history](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history) to reduce clone size: {large_files_string}.")
 			else:
-				warnings.append(f"Large files are committed to Git. Consider [removing them from Git history](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history) to reduce clone size. {large_files_string}")
+				warnings.append(f"Large files are committed to Git. Consider [removing them from Git history](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history) to reduce clone size: {large_files_string}.")
 		return '\n'.join(warnings) or None
 
 	def review_source(self):
