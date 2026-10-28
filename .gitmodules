@@ -1206,3 +1206,6 @@
 [submodule "repos/Bearamin"]
 	path = repos/Bearamin
 	url = https://github.com/actuallysparky/Bearamin-VCV
+[submodule "repos/Autodafe-DrumKit"]
+	path = repos/Autodafe-DrumKit
+	url = https://github.com/antoniograzioli/Autodafe-VCV-Drums

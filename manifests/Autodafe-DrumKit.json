@@ -2,14 +2,14 @@
   "brand": "Autodafe",
   "slug": "Autodafe-DrumKit",
   "name": "Autodafe - DrumKit",
-  "version": "2.0.5",
-  "license": "proprietary",
+  "version": "2.0.6",
+  "license": "MIT",
   "author": "Autodafe",
   "authorEmail": "info@autodafe.net",
   "authorUrl": "http://www.autodafe.net",
   "pluginUrl": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules/autodafe-drum-kit-for-vcv-rack.html",
   "manualUrl": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules/autodafe-drum-kit-for-vcv-rack.html",
-  "sourceUrl": "",
+  "sourceUrl": "https://github.com/antoniograzioli/Autodafe-VCV-Drums",
   "donateUrl": "https://www.paypal.me/autodafe",
   "modules": [
     {
