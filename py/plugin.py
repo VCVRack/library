@@ -534,8 +534,12 @@ class Plugin:
 		slug = self.get_slug()
 		entries = list(os.scandir(dist_dir))
 		if not (len(entries) == 1 and entries[0].is_dir() and entries[0].name == slug):
-			entries_string = format_items(f"`{entry.name}`" for entry in entries)
-			warnings.append(f"Package `{package_filename}` must contain a single `{slug}` directory with all plugin files inside it. The root of the package contains {entries_string}.")
+			unexpected_entry_names = {entry.name for entry in entries} - {slug}
+			unexpected_entries_string = ", ".join(f"`{name}`" for name in sorted(unexpected_entry_names))
+			if len(unexpected_entry_names) == 1:
+				warnings.append(f"Package `{package_filename}` must contain only one directory named `{slug}` at its root, but contains this file or directory: {unexpected_entries_string}.")
+			else:
+				warnings.append(f"Package `{package_filename}` must contain only one directory named `{slug}` at its root, but contains these files or directories: {unexpected_entries_string}.")
 
 		# Check for platform's plugin binary.
 		platform = architecture.split("-")[0]
@@ -557,8 +561,11 @@ class Plugin:
 
 		review_dir(dist_dir)
 		if junk_paths:
-			junk_paths_string = format_items(f"`{path}`" for path in sorted(junk_paths))
-			warnings.append(f"Update your `Makefile` to exclude junk files and directories from `{package_filename}`, then rebuild the package. The package includes {junk_paths_string}.")
+			junk_paths_string = ", ".join(f"`{path}`" for path in sorted(junk_paths))
+			if len(junk_paths) == 1:
+				warnings.append(f"Package `{package_filename}` contains junk file or directory. Update `DISTRIBUTABLES` in your `Makefile` to exclude this path: {junk_paths_string}.")
+			else:
+				warnings.append(f"Package `{package_filename}` contains junk files or directories. Update `DISTRIBUTABLES` in your `Makefile` to exclude these paths: {junk_paths_string}.")
 		return '\n'.join(warnings) or None
 
 	def build_source(self):
