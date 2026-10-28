@@ -486,21 +486,30 @@ class Plugin:
 		if not self.package_paths:
 			raise RuntimeError("No packages available.")
 		slug = self.get_slug()
-		version = self.get_version()
-		filenames = {os.path.basename(path) for path in self.package_paths}
 		warnings = []
 
-		# Check that every architecture has a package for this slug and version.
-		filenames_by_architecture = {architecture: f"{slug}-{version}-{architecture}.vcvplugin" for architecture in config.ARCHITECTURES}
-		expected_filenames = set(filenames_by_architecture.values())
-		missing_filenames = expected_filenames - filenames
-		if missing_filenames:
-			warnings.append(f"Missing packages: {format_items(sorted(missing_filenames))}.")
-		unexpected_filenames = filenames - expected_filenames
-		if unexpected_filenames:
-			raise ValueError(f"Unexpected packages: {format_items(sorted(unexpected_filenames))}.")
-		if len(filenames) != len(self.package_paths):
-			raise ValueError("Multiple packages have the same filename.")
+		# Check for missing packages.
+		missing_architectures = {architecture for architecture in config.ARCHITECTURES if not self.get_package_path(architecture)}
+		if missing_architectures:
+			missing_architectures_string = format_items(f"`{architecture}`" for architecture in sorted(missing_architectures))
+			if len(missing_architectures) == 1:
+				warnings.append(f"Plugin `{slug}` is missing package for architecture {missing_architectures_string}.")
+			else:
+				warnings.append(f"Plugin `{slug}` is missing packages for architectures {missing_architectures_string}.")
+
+		# Check for duplicate package filenames.
+		package_filenames = [os.path.basename(path) for path in self.package_paths]
+		duplicate_package_filenames = {filename for filename in package_filenames if package_filenames.count(filename) > 1}
+		if duplicate_package_filenames:
+			duplicate_package_filenames_string = ", ".join(f"`{filename}`" for filename in sorted(duplicate_package_filenames))
+			raise ValueError(f"Duplicate package filenames: {duplicate_package_filenames_string}.")
+
+		# Check for invalid package filenames.
+		valid_package_paths = {self.get_package_path(architecture) for architecture in config.ARCHITECTURES} - {None}
+		unexpected_package_paths = set(self.package_paths) - valid_package_paths
+		if unexpected_package_paths:
+			unexpected_package_paths_string = ", ".join(f"`{path}`" for path in sorted(unexpected_package_paths))
+			raise ValueError(f"Invalid package filenames: {unexpected_package_paths_string}.")
 
 		# Extract all packages
 		dist_dirs_by_architecture = {}
