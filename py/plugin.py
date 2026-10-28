@@ -282,9 +282,9 @@ class Plugin:
 		if module_slugs_in_plugin_slug:
 			slugs_string = format_items(f"`{slug}`" for slug in sorted(module_slugs_in_plugin_slug))
 			if len(module_slugs_in_plugin_slug) == 1:
-				warnings.append(f"Plugin slug `{plugin_slug}` contains module slug {slugs_string}. The plugin slug should name the collection of modules rather than one module, so please remove {slugs_string} from `{plugin_slug}`.")
+				warnings.append(f"Plugin slug `{plugin_slug}` includes module slug {slugs_string}. Each plugin requires a separate review, so unless technical or legal reasons require separate plugins, please combine your modules into one plugin.")
 			else:
-				warnings.append(f"Plugin slug `{plugin_slug}` contains module slugs {slugs_string}. The plugin slug should name the collection of modules, so please remove these module slugs from `{plugin_slug}`.")
+				warnings.append(f"Plugin slug `{plugin_slug}` includes module slugs {slugs_string}. Each plugin requires a separate review, so unless technical or legal reasons require separate plugins, please combine your modules into one plugin.")
 
 		# Check module tags.
 		for module in manifest.get("modules", []):
