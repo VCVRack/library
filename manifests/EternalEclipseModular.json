@@ -1,7 +1,7 @@
 {
   "slug": "EternalEclipseModular",
   "name": "Eternal Eclipse Modular",
-  "version": "2.10.1",
+  "version": "2.11.0",
   "license": "GPL-3.0-or-later",
   "pluginUrl": "https://churchoftheeternaleclipse.com/the-mirror/",
   "brand": "Eternal Eclipse",
@@ -49,7 +49,8 @@
       "tags": [
         "Envelope generator",
         "LFO",
-        "Function generator"
+        "Function generator",
+        "Polyphonic"
       ]
     },
     {
@@ -98,6 +99,27 @@
       "tags": [
         "Sequencer",
         "Visual"
+      ]
+    },
+    {
+      "slug": "VesperSwarm",
+      "name": "Vesper Swarm",
+      "description": "Eight-voice formant choir in the shape of the Swarmatron \u2014 one PITCH and one SWARM fan eight soprano singers from a few cents apart into a two-octave cluster or whole-number harmonics, each with her own vocal tract, vibrato and stereo place; VOWEL morphs A E I O U, BREATH adds air, through a 4-pole lowpass and a gate-driven ADSR that drones unpatched. Every knob has a CV jack; the singers stand on the points of an eight-pointed star and a click silences or wakes one.",
+      "tags": [
+        "Synth voice",
+        "Oscillator",
+        "Filter",
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "ConclaveOfHollowRadiance",
+      "name": "Conclave of Hollow Radiance",
+      "description": "Four-channel stereo VCA mixer that is a normal mixer at rest and a feedback instrument when pushed: Veils' chain forward (an unpatched OUT passes the channel down), a bipolar FEED per channel backward around the ring through a tunable comb, a stereo send with its return inside or outside the circle, MATTER to darken the feedback, and a lookahead limiter before the outputs.",
+      "tags": [
+        "Mixer",
+        "VCA",
+        "Limiter"
       ]
     },
     {

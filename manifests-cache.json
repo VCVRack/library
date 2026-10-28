@@ -18012,7 +18012,7 @@
     }
   },
   "EternalEclipseModular": {
-    "buildTimestamp": 1791225283.6126869,
+    "buildTimestamp": 1793165164,
     "creationTimestamp": 1784004116.1196306,
     "modules": {
       "ElementalRevelator": {
@@ -18044,6 +18044,12 @@
       },
       "EternalEclipse": {
         "creationTimestamp": 1790070046.1145265
+      },
+      "VesperSwarm": {
+        "creationTimestamp": 1793165164
+      },
+      "ConclaveOfHollowRadiance": {
+        "creationTimestamp": 1793165164
       }
     }
   },
