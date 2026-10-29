@@ -18642,7 +18642,7 @@
     }
   },
   "Aluminium": {
-    "buildTimestamp": 1792358646.8862622,
+    "buildTimestamp": 1793237119,
     "creationTimestamp": 1787789109.7396224,
     "modules": {
       "Zones": {
@@ -18653,6 +18653,18 @@
       },
       "PadX": {
         "creationTimestamp": 1787789109.83844
+      },
+      "Fader": {
+        "creationTimestamp": 1793237119
+      },
+      "Faders2": {
+        "creationTimestamp": 1793237119
+      },
+      "Faders4": {
+        "creationTimestamp": 1793237119
+      },
+      "Buttons": {
+        "creationTimestamp": 1793237119
       }
     }
   },
