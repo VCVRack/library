@@ -1,0 +1,39 @@
+{
+  "slug": "tnn1t1s",
+  "name": "TNN1T1S",
+  "version": "2.0.1",
+  "license": "MIT",
+  "brand": "TNN1T1S",
+  "author": "TNN1T1S",
+  "authorEmail": "tnn1t1s@abrilfields.com",
+  "authorUrl": "https://github.com/tnn1t1s/vcv-rack-plugins",
+  "pluginUrl": "https://github.com/tnn1t1s/vcv-rack-plugins",
+  "manualUrl": "https://github.com/tnn1t1s/vcv-rack-plugins/blob/main/doc/UserManual.md",
+  "sourceUrl": "https://github.com/tnn1t1s/vcv-rack-plugins",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/tnn1t1s/vcv-rack-plugins/blob/main/CHANGELOG.md",
+  "description": "Equations on a clock. PHASE turns a clock into a 0-10V ramp, one lap every few beats, that freezes when the clock stops. EXPR compiles an equation you type while the patch runs and plays it across that ramp, so the curve on the panel is the voltage on the cable.",
+  "modules": [
+    {
+      "slug": "Phase",
+      "name": "PHASE",
+      "description": "Clock-to-phase converter. PHASE carries one 0-10V ramp lap every LAP beats of CLK; the last pulse interval sets the slope, and the wire freezes when the clock stops. RATE speeds the lap up, as far as audio rate. RST snaps the lap to zero, DIRECTION reverses it, START and LEN window it.",
+      "tags": [
+        "Clock modulator",
+        "Utility"
+      ],
+      "keywords": "phasor clock ramp transport sync divider wire"
+    },
+    {
+      "slug": "Expr",
+      "name": "EXPR",
+      "description": "A live-compiled equation on the wire, written the way Desmos writes it: y = a sin(bx), r = cos(4\u03b8), (cos(3t), sin(2t)). Each undefined letter is a knob with CV. The domain is a restriction at the end of the equation, {0 \u2264 x \u2264 16}, or 0 to 2\u03c0; LOOP and POS play an exact slice of it, so a loop meets itself at the wrap. The display draws the curve with the playhead on it. An equation that fails to compile changes nothing. Volts out, with gain, offset, limiting and smoothing.",
+      "tags": [
+        "Function generator",
+        "Utility",
+        "Envelope generator"
+      ],
+      "keywords": "expression equation function math formula dsp script live code phase wire"
+    }
+  ]
+}

@@ -1209,3 +1209,6 @@
 [submodule "repos/Autodafe-DrumKit"]
 	path = repos/Autodafe-DrumKit
 	url = https://github.com/antoniograzioli/Autodafe-VCV-Drums
+[submodule "repos/tnn1t1s"]
+	path = repos/tnn1t1s
+	url = https://github.com/tnn1t1s/vcv-rack-plugins
