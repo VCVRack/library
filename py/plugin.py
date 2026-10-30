@@ -2,6 +2,7 @@ import atexit
 import glob
 import json
 import os
+import re
 import shutil
 import tempfile
 
@@ -547,6 +548,33 @@ class Plugin:
 		binary_path = os.path.join(dist_dir, slug, binary_filename)
 		if not os.path.isfile(binary_path):
 			warnings.append(f"Package `{package_filename}` is missing `{slug}/{binary_filename}`.")
+
+		# Check minimum glibc and libstdc++ versions for Linux.
+		if platform == "lin":
+			version_info = run("env", "LC_ALL=C", "readelf", "--version-info", "--wide", binary_path, capture_stdout=True, capture_stderr=True)
+			version_needs = version_info.partition("Version needs section")[2]
+			library_versions = [
+				# (symbol version prefix, maximum supported version)
+				("GLIBC", "2.23"),
+				("GLIBCXX", "3.4.21"),
+				("CXXABI", "1.3.9"),
+			]
+			for prefix, maximum_version in library_versions:
+				versions = re.findall(rf"Name: {prefix}_(\d+(?:\.\d+)+)\b", version_needs)
+				if not versions:
+					continue
+				version = max(versions, key=version_key)
+				if version_key(version) > version_key(maximum_version):
+					warnings.append(f"VCV Rack supports Linux systems with `{prefix}_{maximum_version}` and higher, but package `{package_filename}` requires `{prefix}_{version}`. We recommend building with https://github.com/VCVRack/rack-plugin-toolchain.")
+
+		# Check minimum macOS version.
+		if platform == "mac":
+			cpu = {"mac-x64": "x86_64", "mac-arm64": "arm64"}[architecture]
+			headers = run("llvm-objdump", "--macho", "--private-headers", f"--arch={cpu}", binary_path, capture_stdout=True, capture_stderr=True)
+			minimum_version = re.search(r"LC_(?:VERSION_MIN_MACOSX|BUILD_VERSION).*?\b(?:version|minos) (\d+(?:\.\d+)+)", headers, re.DOTALL).group(1)
+			supported_version = {"mac-x64": "10.9", "mac-arm64": "11.0"}[architecture]
+			if version_key(minimum_version) > version_key(supported_version + ".0"):
+				warnings.append(f"VCV Rack supports macOS {supported_version} and higher on {cpu}, but package `{package_filename}` requires macOS {minimum_version}. We recommend building with https://github.com/VCVRack/rack-plugin-toolchain.")
 
 		# Scan dist directory for junk entries.
 		junk_paths = []
