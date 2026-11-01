@@ -48,6 +48,8 @@ def create_plugins(paths=None, commit=None, repo_url=None):
 		owner, repo = url.path.strip("/").split("/")
 		repo = repo.removesuffix(".git")
 		response = requests.get(f"https://api.github.com/repos/{owner}/{repo}/contents/plugin.json", params={"ref": commit}, headers={"Accept": "application/vnd.github.raw+json"}, timeout=config.HTTP_TIMEOUT)
+		if response.status_code == 404:
+			raise ValueError(f"Repository `{owner}/{repo}` does not have a `plugin.json` at its root.")
 		response.raise_for_status()
 		slug = response.json().get("slug")
 		if not slug:
