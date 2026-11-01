@@ -268,23 +268,23 @@ class Plugin:
 			library_module_slugs = {module["slug"] for module in self.library_manifest.get("modules", [])}
 		new_module_slugs = module_slugs - library_module_slugs
 
+		# Check whether the plugin slug contains new module slugs.
+		module_slugs_in_plugin_slug = {slug for slug in new_module_slugs if slug.casefold() in plugin_slug.casefold()}
+		if module_slugs_in_plugin_slug:
+			slugs_string = format_items(f"`{slug}`" for slug in sorted(module_slugs_in_plugin_slug))
+			if len(module_slugs_in_plugin_slug) == 1:
+				warnings.append(f"Plugin slug `{plugin_slug}` includes module slug {slugs_string}. Choose a plugin slug that identifies your brand rather than an individual module, so it can also represent future modules.")
+			else:
+				warnings.append(f"Plugin slug `{plugin_slug}` includes module slugs {slugs_string}. Choose a plugin slug that identifies your brand rather than an individual module, so it can also represent future modules.")
+
 		# Check whether new module slugs contain the plugin slug.
-		module_slugs_with_plugin_slug = {slug for slug in new_module_slugs if plugin_slug.casefold() in slug.casefold()}
+		module_slugs_with_plugin_slug = {slug for slug in new_module_slugs - module_slugs_in_plugin_slug if plugin_slug.casefold() in slug.casefold()}
 		if module_slugs_with_plugin_slug:
 			slugs_string = format_items(f"`{slug}`" for slug in sorted(module_slugs_with_plugin_slug))
 			if len(module_slugs_with_plugin_slug) == 1:
 				warnings.append(f"Module slug {slugs_string} contains plugin slug `{plugin_slug}`. Modules are already identified by the plugin they are in, so please remove `{plugin_slug}` from {slugs_string}.")
 			else:
 				warnings.append(f"Module slugs {slugs_string} contain plugin slug `{plugin_slug}`. Modules are already identified by the plugin they are in, so please remove `{plugin_slug}` from these module slugs.")
-
-		# Check whether the plugin slug contains new module slugs.
-		module_slugs_in_plugin_slug = {slug for slug in new_module_slugs - module_slugs_with_plugin_slug if slug.casefold() in plugin_slug.casefold()}
-		if module_slugs_in_plugin_slug:
-			slugs_string = format_items(f"`{slug}`" for slug in sorted(module_slugs_in_plugin_slug))
-			if len(module_slugs_in_plugin_slug) == 1:
-				warnings.append(f"Plugin slug `{plugin_slug}` includes module slug {slugs_string}. Each plugin requires a separate review, so unless technical or legal reasons require separate plugins, please combine your modules into one plugin.")
-			else:
-				warnings.append(f"Plugin slug `{plugin_slug}` includes module slugs {slugs_string}. Each plugin requires a separate review, so unless technical or legal reasons require separate plugins, please combine your modules into one plugin.")
 
 		# Check module tags.
 		for module in manifest.get("modules", []):
