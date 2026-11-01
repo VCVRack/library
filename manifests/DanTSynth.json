@@ -1,11 +1,11 @@
 {
   "slug": "DanTSynth",
   "name": "DanTSynth",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "GPL-3.0-or-later",
   "brand": "DanT",
   "author": "dtilley",
-  "authorUrl": "https://www.youtube.com/@MiffReal",
+  "authorUrl": "https://www.youtube.com/@DanTSynth",
   "pluginUrl": "https://library.vcvrack.com/DanTSynth",
   "sourceUrl": "https://github.com/Miff-Real/DanT.Synth",
   "changelogUrl": "https://github.com/Miff-Real/DanT.Synth/commits/main/",
@@ -35,6 +35,19 @@
       ],
       "keywords": "bend slide portamento glide",
       "manualUrl": "https://github.com/Miff-Real/DanT.Synth/blob/main/docs/bend.md"
+    },
+    {
+      "slug": "PCycl",
+      "name": "PCycl",
+      "description": "[3HP][Polyphonic] Poly Cycle. Routes a mono signal and its gate to the next polyphonic channel on each trigger.",
+      "tags": [
+        "Polyphonic",
+        "Sample and hold",
+        "Switch",
+        "Utility"
+      ],
+      "keywords": "poly cycle rotate mono polyphony voice allocation sequencer gate",
+      "manualUrl": "https://github.com/Miff-Real/DanT.Synth/blob/main/docs/pcycl.md"
     }
   ]
 }
