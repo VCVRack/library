@@ -1227,3 +1227,6 @@
 [submodule "repos/PaxBonkers"]
 	path = repos/PaxBonkers
 	url = https://github.com/paxbonkers/Escarpo
+[submodule "repos/HemiolaAudio"]
+	path = repos/HemiolaAudio
+	url = https://github.com/hemiolaaudio/HemiolaAudio

@@ -1,0 +1,37 @@
+{
+  "slug": "HemiolaAudio",
+  "name": "Hemiola Audio",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Hemiola Audio",
+  "author": "Hemiola Audio",
+  "authorEmail": "hemiolaaudio@gmail.com",
+  "authorUrl": "https://github.com/hemiolaaudio",
+  "pluginUrl": "https://github.com/hemiolaaudio/HemiolaAudio",
+  "manualUrl": "https://github.com/hemiolaaudio/HemiolaAudio/blob/main/MANUAL.md",
+  "sourceUrl": "https://github.com/hemiolaaudio/HemiolaAudio",
+  "changelogUrl": "https://github.com/hemiolaaudio/HemiolaAudio/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "CycleClock",
+      "name": "Cycle Clock",
+      "description": "A clock that counts a whole rhythm cycle, such as a 16-beat thalam or a 7/8 bar, and tells you where you are in it.",
+      "tags": [
+        "Clock generator"
+      ],
+      "keywords": "thalam tala taal talam rhythm cycle bar meter polymetre hindustani carnatic tintal adi beat counter",
+      "manualUrl": "https://github.com/hemiolaaudio/HemiolaAudio/blob/main/docs/CycleClock.md"
+    },
+    {
+      "slug": "RhythmTalam",
+      "name": "R&T",
+      "description": "R&T (Rhythm & Thalam) splits every beat into 1 to 9 equal parts, the way Carnatic music counts nadai (also called gati). Divide the parts by 1 to 64, and drop some by chance.",
+      "tags": [
+        "Clock modulator",
+        "Random"
+      ],
+      "keywords": "nadai gati tuplet triplet quintuplet septuplet clock divider subdivision polyrhythm rhythm thalam tala carnatic probability",
+      "manualUrl": "https://github.com/hemiolaaudio/HemiolaAudio/blob/main/docs/RhythmTalam.md"
+    }
+  ]
+}
