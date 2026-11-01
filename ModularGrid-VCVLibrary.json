@@ -2719,5 +2719,40 @@
     "vcvUrl": "https://library.vcvrack.com/Bearamin/Virtual",
     "mgUrl": "https://modulargrid.net/e/hive-mind-synthesis-bearamin-lite",
     "mgModuleId": 59641
+  },
+  {
+    "pluginSlug": "LetsPlaySynth",
+    "moduleSlug": "Genesis",
+    "vcvUrl": "https://library.vcvrack.com/LetsPlaySynth/Genesis",
+    "mgUrl": "https://modulargrid.net/e/let-s-play-synth-genesis",
+    "mgModuleId": 60094
+  },
+  {
+    "pluginSlug": "LetsPlaySynth",
+    "moduleSlug": "Apsaras",
+    "vcvUrl": "https://library.vcvrack.com/LetsPlaySynth/Apsaras",
+    "mgUrl": "https://modulargrid.net/e/let-s-play-synth-apsaras",
+    "mgModuleId": 60096
+  },
+  {
+    "pluginSlug": "LetsPlaySynth",
+    "moduleSlug": "ApsarasExpander",
+    "vcvUrl": "https://library.vcvrack.com/LetsPlaySynth/ApsarasExpander",
+    "mgUrl": "https://modulargrid.net/e/let-s-play-synth-ap-x",
+    "mgModuleId": 60099
+  },
+  {
+    "pluginSlug": "LetsPlaySynth",
+    "moduleSlug": "Chiron",
+    "vcvUrl": "https://library.vcvrack.com/LetsPlaySynth/Chiron",
+    "mgUrl": "https://modulargrid.net/e/let-s-play-synth-chiron",
+    "mgModuleId": 60095
+  },
+  {
+    "pluginSlug": "LetsPlaySynth",
+    "moduleSlug": "ChironExpander",
+    "vcvUrl": "https://library.vcvrack.com/LetsPlaySynth/ChironExpander",
+    "mgUrl": "https://modulargrid.net/e/let-s-play-synth-ch-x",
+    "mgModuleId": 60098
   }
 ]

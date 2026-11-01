@@ -1,0 +1,88 @@
+{
+  "slug": "LetsPlaySynth",
+  "name": "Let's Play Synth",
+  "version": "2.1.0",
+  "license": "Proprietary",
+  "brand": "Let's Play Synth",
+  "author": "Lua",
+  "authorEmail": "lua@letsplaysynth.com",
+  "authorUrl": "",
+  "pluginUrl": "https://letsplaysynth.com/",
+  "manualUrl": "https://letsplaysynth.com/manual",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Genesis",
+      "name": "Genesis",
+      "description": "Wavetable Oscillator",
+      "modularGridUrl": "https://modulargrid.net/e/let-s-play-synth-genesis",
+      "tags": [
+        "Oscillator",
+        "Dual",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "Apsaras",
+      "name": "Apsaras",
+      "description": "RandomArp Sequencer",
+      "modularGridUrl": "https://modulargrid.net/e/let-s-play-synth-apsaras",
+      "tags": [
+        "Quantizer",
+        "Sequencer",
+        "Random",
+        "Arpeggiator",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "ApsarasExpander",
+      "name": "Apsaras Expander",
+      "description": "RandomArp Sequencer Expander",
+      "modularGridUrl": "https://modulargrid.net/e/let-s-play-synth-ap-x",
+      "tags": [
+        "Quantizer",
+        "Sequencer",
+        "Random",
+        "Arpeggiator",
+        "Expander",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "Chiron",
+      "name": "Chiron",
+      "description": "Stereo VCA plus Envelope Generator",
+      "modularGridUrl": "https://modulargrid.net/e/let-s-play-synth-chiron",
+      "tags": [
+        "VCA",
+        "Envelope Generator",
+        "Dual",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "ChironExpander",
+      "name": "Chiron Expander",
+      "description": "Stereo VCA plus Envelope Generator",
+      "modularGridUrl": "https://modulargrid.net/e/let-s-play-synth-ch-x",
+      "tags": [
+        "VCA",
+        "Envelope Generator",
+        "Expander",
+        "Hardware Clone"
+      ]
+    },
+    {
+      "slug": "BlankPanel",
+      "name": "Blank Panel",
+      "description": "Let's Play Synth Blank panel",
+      "tags": [
+        "Visual",
+        "Utility"
+      ]
+    }
+  ]
+}
