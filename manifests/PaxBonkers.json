@@ -1,0 +1,25 @@
+{
+  "slug": "PaxBonkers",
+  "name": "PaxBonkers",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "pax.bonkers",
+  "author": "pax.bonkers",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/paxbonkers",
+  "pluginUrl": "https://github.com/paxbonkers/Escarpo",
+  "manualUrl": "https://github.com/paxbonkers/Escarpo#escarpo",
+  "sourceUrl": "https://github.com/paxbonkers/Escarpo",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Escarpo",
+      "name": "Escarpo",
+      "description": "Clock swing, drift and burst. After Fragonard's The Happy Accidents of the Swing.",
+      "tags": [
+        "Clock modifier"
+      ]
+    }
+  ]
+}
