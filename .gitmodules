@@ -1212,3 +1212,6 @@
 [submodule "repos/tnn1t1s"]
 	path = repos/tnn1t1s
 	url = https://github.com/tnn1t1s/vcv-rack-plugins
+[submodule "repos/DreamerHelp"]
+	path = repos/DreamerHelp
+	url = https://github.com/chrisgr99/DreamerHelp
