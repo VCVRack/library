@@ -1218,3 +1218,6 @@
 [submodule "repos/DreamerDevelopment"]
 	path = repos/DreamerDevelopment
 	url = https://github.com/chrisgr99/DreamerDevelopment
+[submodule "repos/Nun4tak-SP4T"]
+	path = repos/Nun4tak-SP4T
+	url = https://github.com/nun4tak/sp4t-vcv-plugin
