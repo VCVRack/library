@@ -1221,3 +1221,6 @@
 [submodule "repos/Nun4tak-SP4T"]
 	path = repos/Nun4tak-SP4T
 	url = https://github.com/nun4tak/sp4t-vcv-plugin
+[submodule "repos/TJBAudio"]
+	path = repos/TJBAudio
+	url = https://github.com/tjbaudiodesign/TJBAudio
