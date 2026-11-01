@@ -1,0 +1,50 @@
+{
+  "slug": "DreamerDevelopment",
+  "name": "Dreamer Development",
+  "brand": "Dreamer Development",
+  "description": "Three modules aimed at ease of use, ergonomics, accessibility and convenience: Clarity, Test Gear and Dark.",
+  "version": "2.1.3",
+  "license": "GPL-3.0-or-later",
+  "author": "Chris Graham",
+  "authorEmail": "chrisgr99@gmail.com",
+  "authorUrl": "https://github.com/chrisgr99",
+  "pluginUrl": "https://github.com/chrisgr99/DreamerDevelopment",
+  "manualUrl": "https://github.com/chrisgr99/DreamerDevelopment#readme",
+  "sourceUrl": "https://github.com/chrisgr99/DreamerDevelopment",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/chrisgr99/DreamerDevelopment/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Darkener",
+      "name": "Dark",
+      "description": "Work in progress: attempts to synthesize a dark mode for modules whose makers ship only light panels. Currently works well for only a few module families, those used by the author. Done in memory \u2014 nothing is written, and switching it off with the panel button, or removing the module, puts every panel back.",
+      "tags": [
+        "Utility",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Clarity",
+      "name": "Clarity",
+      "description": "Ten individually selectable features for usability, accessibility and ergonomics: colour-coded ports and cables, cable tracing, click to add and move cables, one knob style with value arcs, larger high-contrast tooltips, and more.",
+      "tags": [
+        "Utility",
+        "Visual"
+      ],
+      "manualUrl": "https://github.com/chrisgr99/DreamerDevelopment/blob/main/docs/clarity.md"
+    },
+    {
+      "slug": "TestGear",
+      "name": "Test Gear",
+      "description": "Fourteen \"widgets\" that clip onto any port from its right-click menu and take up no rack space: oscilloscope, spectrum analyser, audio monitor, voltmeter, frequency meter, mute, attenuverter, and generators for gates, clocks, noise and tones. A convenient, lightweight way to tweak and understand your patches.",
+      "tags": [
+        "Utility",
+        "Visual",
+        "Oscillator",
+        "Noise",
+        "Polyphonic"
+      ],
+      "manualUrl": "https://github.com/chrisgr99/DreamerDevelopment/blob/main/docs/test-gear.md"
+    }
+  ]
+}

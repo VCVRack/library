@@ -1215,3 +1215,6 @@
 [submodule "repos/DreamerHelp"]
 	path = repos/DreamerHelp
 	url = https://github.com/chrisgr99/DreamerHelp
+[submodule "repos/DreamerDevelopment"]
+	path = repos/DreamerDevelopment
+	url = https://github.com/chrisgr99/DreamerDevelopment
