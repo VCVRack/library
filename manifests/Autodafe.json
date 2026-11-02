@@ -2,14 +2,14 @@
   "slug": "Autodafe",
   "brand": "Autodafe",
   "name": "Autodafe",
-  "version": "2.0.0",
-  "license": "proprietary",
+  "version": "2.0.6",
+  "license": "MIT",
   "author": "Autodafe",
   "authorEmail": "info@autodafe.net",
   "authorUrl": "http://www.autodafe.net",
   "pluginUrl": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules/autodafe-module-pack-for-vcv-rack.html",
   "manualUrl": "https://www.autodafe.net/virtual-instruments/vcv-rack-modules/autodafe-module-pack-for-vcv-rack.html",
-  "sourceUrl": "",
+  "sourceUrl": "https://github.com/antoniograzioli/Autodafe-VCV",
   "donateUrl": "https://www.paypal.me/autodafe",
   "modules": [
     {
