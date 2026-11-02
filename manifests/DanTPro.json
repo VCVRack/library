@@ -1,0 +1,25 @@
+{
+  "slug": "DanTPro",
+  "name": "DanTPro",
+  "version": "2.1.0",
+  "minRackVersion": "2.6.6",
+  "license": "proprietary",
+  "brand": "DanT",
+  "author": "dtilley",
+  "authorUrl": "https://www.youtube.com/@DanTSynth",
+  "manualUrl": "https://dantpro.dan-tilley.workers.dev/",
+  "modules": [
+    {
+      "slug": "UltraCowbell",
+      "name": "Ultra Cowbell",
+      "description": "[24HP] Polyphonic percussion voice for cowbells and other metallic sounds.",
+      "tags": [
+        "Drum",
+        "Polyphonic",
+        "Synth voice"
+      ],
+      "keywords": "ultra moar cowbell percussion metal metallic bell bells tine clank",
+      "manualUrl": "https://dantpro.dan-tilley.workers.dev/UltraCowbell.html"
+    }
+  ]
+}
