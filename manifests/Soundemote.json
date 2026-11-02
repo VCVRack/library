@@ -1,0 +1,23 @@
+{
+  "slug": "Soundemote",
+  "name": "Soundemote",
+  "version": "2.0.0",
+  "license": "https://vcvrack.com/eula",
+  "brand": "Soundemote",
+  "author": "Soundemote",
+  "authorUrl": "https://www.soundemote.com",
+  "pluginUrl": "https://www.soundemote.com",
+  "manualUrl": "https://github.com/elanhickler/soemdsp-vcvrack",
+  "description": "Soundemote VCV Rack collection. Superlove ships now; more modules follow.",
+  "modules": [
+    {
+      "slug": "SuperLove",
+      "name": "Superlove",
+      "description": "Stereo LP18 / LP24 / HP / BP filter (Superlove Rev2 DSP) with noise, drive and spread.",
+      "tags": [
+        "Filter",
+        "Effect"
+      ]
+    }
+  ]
+}

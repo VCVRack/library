@@ -19234,5 +19234,14 @@
         "creationTimestamp": 1793580429
       }
     }
+  },
+  "Soundemote": {
+    "buildTimestamp": 1793599649,
+    "creationTimestamp": 1793599649,
+    "modules": {
+      "SuperLove": {
+        "creationTimestamp": 1793599649
+      }
+    }
   }
 }
