@@ -1230,3 +1230,6 @@
 [submodule "repos/HemiolaAudio"]
 	path = repos/HemiolaAudio
 	url = https://github.com/hemiolaaudio/HemiolaAudio
+[submodule "repos/Autodafe"]
+	path = repos/Autodafe
+	url = https://github.com/antoniograzioli/Autodafe-VCV
