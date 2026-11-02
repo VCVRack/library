@@ -1100,7 +1100,7 @@
 	url = https://github.com/gianni-cappelletti/vcv-octobir.git
 [submodule "repos/Bruer"]
 	path = repos/Bruer
-	url = https://github.com/bruer80/bruer-vcv.git
+	url = https://github.com/bruer80/bruer-vcv
 [submodule "repos/ForgeAudio-AnalogSeries"]
 	path = repos/ForgeAudio-AnalogSeries
 	url = https://github.com/Photep/ForgeAudio-AnalogSeries.git
