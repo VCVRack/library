@@ -238,6 +238,11 @@ class Plugin:
 		plugin_slug = self.get_slug()
 		warnings = []
 
+		# Check for "VCV" and "Rack" in plugin slug.
+		for name in ("VCV", "Rack"):
+			if name.casefold() in plugin_slug.casefold():
+				warnings.append(f'Plugin slug `{plugin_slug}` contains the string "{name}". All plugins in the VCV Library are for VCV Rack, so the string "{name}" is redundant and unnecessary.')
+
 		# Check plugin major version.
 		version_parts = self.get_version().split('.')
 		if version_parts[0] != config.RACK_VERSION_MAJOR:

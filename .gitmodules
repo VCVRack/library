@@ -1233,3 +1233,6 @@
 [submodule "repos/Autodafe"]
 	path = repos/Autodafe
 	url = https://github.com/antoniograzioli/Autodafe-VCV
+[submodule "repos/ChooChooRack"]
+	path = repos/ChooChooRack
+	url = https://github.com/paiheulevrai/choochoorack
