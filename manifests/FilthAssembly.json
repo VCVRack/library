@@ -1,0 +1,27 @@
+{
+  "slug": "FilthAssembly",
+  "name": "Filth Assembly",
+  "version": "2.1.4",
+  "license": "GPL-3.0-only",
+  "brand": "Filth Assembly",
+  "author": "Ville V\u00e4is\u00e4nen",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://github.com/villevaisanen/Contour",
+  "manualUrl": "https://github.com/villevaisanen/Contour#readme",
+  "sourceUrl": "https://github.com/villevaisanen/Contour",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Contour",
+      "name": "Contour",
+      "description": "Animated contour paths with four XY modulation sources",
+      "tags": [
+        "Low-frequency oscillator",
+        "Random",
+        "Visual"
+      ]
+    }
+  ]
+}
