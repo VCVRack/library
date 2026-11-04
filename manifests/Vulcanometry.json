@@ -1,0 +1,26 @@
+{
+  "slug": "Vulcanometry",
+  "name": "Vulcanometry",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "Vulcanometry",
+  "author": "Vulcanometry",
+  "authorEmail": "vulcanometry@gmail.com",
+  "authorUrl": "https://github.com/vulcanometry",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/vulcanometry/Rack-Sequencer",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "GridSequencer",
+      "name": "THE GRID",
+      "description": "8-track scale-quantized grid sequencer with 64 patterns, song arranger and built-in clock",
+      "tags": [
+        "Sequencer",
+        "Clock generator"
+      ]
+    }
+  ]
+}

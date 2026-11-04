@@ -1236,3 +1236,6 @@
 [submodule "repos/FilthAssembly"]
 	path = repos/FilthAssembly
 	url = https://github.com/villevaisanen/Contour
+[submodule "repos/Vulcanometry"]
+	path = repos/Vulcanometry
+	url = https://github.com/vulcanometry/Rack-Sequencer
