@@ -1254,3 +1254,6 @@
 [submodule "repos/Dead-Air"]
 	path = repos/Dead-Air
 	url = https://codeberg.org/null4bl3/Crux
+[submodule "repos/OV"]
+	path = repos/OV
+	url = https://github.com/ovikveber/RandomSynth-VCV

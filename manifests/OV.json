@@ -1,0 +1,27 @@
+{
+  "slug": "OV",
+  "name": "OV",
+  "version": "2.0.3",
+  "license": "GPL-3.0-or-later",
+  "brand": "OV",
+  "author": "OV",
+  "description": "Particle-collision generative sequencer: random but tonal pitch, gates and triggers from a colliding field",
+  "sourceUrl": "https://github.com/ovikveber/RandomSynth-VCV",
+  "manualUrl": "https://github.com/ovikveber/RandomSynth-VCV#readme",
+  "pluginUrl": "https://github.com/ovikveber/RandomSynth",
+  "minRackVersion": "2.6.0",
+  "modules": [
+    {
+      "slug": "Random",
+      "name": "Random",
+      "description": "Particle-collision sequencer with quantized pitch, microtonal scales, gates, triggers and FX CV",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Visual",
+        "Physical modeling"
+      ],
+      "keywords": "particle collision generative random sequencer microtonal EDO scale quantizer"
+    }
+  ]
+}
