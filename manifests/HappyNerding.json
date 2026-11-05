@@ -1,0 +1,24 @@
+{
+  "slug": "HappyNerding",
+  "name": "Happy Nerding",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Happy Nerding",
+  "author": "Happy Nerding",
+  "authorEmail": "nikita.griaznov@gmail.com",
+  "modules": [
+    {
+      "slug": "FxAid",
+      "name": "FX AID",
+      "description": "Stereo multi-effects unit with a Spin FV-1 engine and downloadable effect library",
+      "tags": [
+        "Effect",
+        "Reverb",
+        "Delay",
+        "Chorus",
+        "Hardware clone"
+      ],
+      "modularGridUrl": "https://modulargrid.net/e/happy-nerding-fx-aid-black"
+    }
+  ]
+}

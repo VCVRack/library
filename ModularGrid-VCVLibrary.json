@@ -2852,5 +2852,12 @@
     "vcvUrl": "https://library.vcvrack.com/voidbot/bling",
     "mgUrl": "https://modulargrid.net/e/der-mann-mit-der-maschine-blind-panel",
     "mgModuleId": 32058
+  },
+  {
+    "pluginSlug": "HappyNerding",
+    "moduleSlug": "FxAid",
+    "vcvUrl": "https://library.vcvrack.com/HappyNerding/FxAid",
+    "mgUrl": "https://modulargrid.net/e/happy-nerding-fx-aid-black",
+    "mgModuleId": 23811
   }
 ]
