@@ -1239,3 +1239,6 @@
 [submodule "repos/Vulcanometry"]
 	path = repos/Vulcanometry
 	url = https://github.com/vulcanometry/Rack-Sequencer
+[submodule "repos/OVModular"]
+	path = repos/OVModular
+	url = https://github.com/ovikveber/RandomSynth-VCV
