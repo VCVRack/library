@@ -1245,3 +1245,6 @@
 [submodule "repos/W72"]
 	path = repos/W72
 	url = https://github.com/sensolab/w72-rack-plugin
+[submodule "repos/ChooChoo"]
+	path = repos/ChooChoo
+	url = https://github.com/paiheulevrai/choochoorack
