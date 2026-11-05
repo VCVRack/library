@@ -1248,3 +1248,6 @@
 [submodule "repos/ChooChoo"]
 	path = repos/ChooChoo
 	url = https://github.com/paiheulevrai/choochoorack
+[submodule "repos/voidbot"]
+	path = repos/voidbot
+	url = https://github.com/vyger/voidbot
