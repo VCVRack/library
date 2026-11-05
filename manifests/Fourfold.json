@@ -1,0 +1,36 @@
+{
+  "slug": "Fourfold",
+  "name": "Fourfold",
+  "version": "2.6.7",
+  "license": "GPL-3.0-or-later",
+  "brand": "Fourfold",
+  "author": "benji",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/benjimixvidz",
+  "pluginUrl": "https://github.com/benjimixvidz/TETRAD-SEQ",
+  "manualUrl": "https://github.com/benjimixvidz/TETRAD-SEQ#readme",
+  "sourceUrl": "https://github.com/benjimixvidz/TETRAD-SEQ",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/benjimixvidz/TETRAD-SEQ/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Tetrad",
+      "name": "Tetrad",
+      "description": "Four-track step sequencer: 128-step patterns on a 16x8 grid, scales, generator, trig conditions, ratchets, internal or external clock",
+      "tags": [
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "TetradPipe",
+      "name": "Tetrad Pipe",
+      "description": "Routing expander for Tetrad: 16 outputs, each set by right-click to pitch, velocity, gate, trigger, a drum row, clock or reset",
+      "tags": [
+        "Expander",
+        "Sequencer",
+        "Utility"
+      ]
+    }
+  ]
+}
