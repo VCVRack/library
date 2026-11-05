@@ -1,4 +1,5 @@
 import atexit
+import difflib
 import glob
 import json
 import os
@@ -238,10 +239,15 @@ class Plugin:
 		plugin_slug = self.get_slug()
 		warnings = []
 
-		# Check for "VCV" and "Rack" in plugin slug.
-		for name in ("VCV", "Rack"):
-			if name.casefold() in plugin_slug.casefold():
-				warnings.append(f'Plugin slug `{plugin_slug}` contains the string "{name}". All plugins in the VCV Library are for VCV Rack, so the string "{name}" is redundant and unnecessary.')
+		# Check for "VCV", "Rack", and "Modules" in plugin slug and name.
+		for key in ("slug", "name"):
+			for name in ("VCV", "Rack", "Modules"):
+				if name.casefold() not in manifest[key].casefold():
+					continue
+				if name == "Modules":
+					warnings.append(f'Plugin {key} `{manifest[key]}` contains the string "{name}". Every plugin is a collection of modules, so the string "{name}" is redundant and unnecessary.')
+				else:
+					warnings.append(f'Plugin {key} `{manifest[key]}` contains the string "{name}". All plugins in the VCV Library are for VCV Rack, so the string "{name}" is redundant and unnecessary.')
 
 		# Check plugin major version.
 		version_parts = self.get_version().split('.')
@@ -267,29 +273,31 @@ class Plugin:
 			if not module.get("name"):
 				raise ValueError(f"Module `{slug}` has no `name` value.")
 
-		# Find new module slugs.
+		# Find new modules.
 		library_module_slugs = set()
 		if self.library_manifest:
 			library_module_slugs = {module["slug"] for module in self.library_manifest.get("modules", [])}
 		new_module_slugs = module_slugs - library_module_slugs
+		new_modules = [module for module in manifest.get("modules", []) if module["slug"] in new_module_slugs]
 
-		# Check whether the plugin slug contains new module slugs.
-		module_slugs_in_plugin_slug = {slug for slug in new_module_slugs if slug.casefold() in plugin_slug.casefold()}
-		if module_slugs_in_plugin_slug:
-			slugs_string = format_items(f"`{slug}`" for slug in sorted(module_slugs_in_plugin_slug))
-			if len(module_slugs_in_plugin_slug) == 1:
-				warnings.append(f"Plugin slug `{plugin_slug}` includes module slug {slugs_string}. Choose a plugin slug that identifies your brand rather than an individual module, so it can also represent future modules.")
-			else:
-				warnings.append(f"Plugin slug `{plugin_slug}` includes module slugs {slugs_string}. Choose a plugin slug that identifies your brand rather than an individual module, so it can also represent future modules.")
-
-		# Check whether new module slugs contain the plugin slug.
-		module_slugs_with_plugin_slug = {slug for slug in new_module_slugs - module_slugs_in_plugin_slug if plugin_slug.casefold() in slug.casefold()}
-		if module_slugs_with_plugin_slug:
-			slugs_string = format_items(f"`{slug}`" for slug in sorted(module_slugs_with_plugin_slug))
-			if len(module_slugs_with_plugin_slug) == 1:
-				warnings.append(f"Module slug {slugs_string} contains plugin slug `{plugin_slug}`. Modules are already identified by the plugin they are in, so please remove `{plugin_slug}` from {slugs_string}.")
-			else:
-				warnings.append(f"Module slugs {slugs_string} contain plugin slug `{plugin_slug}`. Modules are already identified by the plugin they are in, so please remove `{plugin_slug}` from these module slugs.")
+		# Check for shared substrings in plugin and new module slugs and names.
+		for module in new_modules:
+			for key in ("slug", "name"):
+				module_text = module[key].casefold()
+				plugin_text = manifest[key].casefold()
+				match = difflib.SequenceMatcher(None, module_text, plugin_text, autojunk=False).find_longest_match()
+				shared_text = module_text[match.a:match.a + match.size].strip()
+				if match.size == len(module_text):
+					warning = f'Plugin {key} "{manifest[key]}" contains the module {key} "{module[key]}". Choose a plugin {key} that identifies your brand rather than an individual module, so it can also represent future modules.'
+				elif match.size == len(plugin_text):
+					warning = f'Module {key} "{module[key]}" contains the plugin {key} "{manifest[key]}". Modules are already identified by their plugin, so remove the redundant plugin {key} from the module {key}.'
+				elif len(shared_text) >= 2:
+					warning = f'Module {key} "{module[key]}" and plugin {key} "{manifest[key]}" contain the same substring "{shared_text}". Modules are already identified by their plugin, so consider removing redundant brand text from the module {key}.'
+				else:
+					continue
+				if key == "name":
+					warning += f' VCV Library and Rack\'s module browser would display the module as "{manifest[key]} {module[key]}".'
+				warnings.append(warning)
 
 		# Check module tags.
 		for module in manifest.get("modules", []):

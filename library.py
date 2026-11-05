@@ -349,7 +349,13 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 		commit_paths.add(config.MODULARGRID_FILE)
 
 	update_message = format_items(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
-	commit_message = f"Update manifest {update_message}" if publish else f"Update {update_message}"
+	if publish:
+		commit_message = f"Release {update_message}"
+	else:
+		if len(reviewed_plugins) == 1:
+			commit_message = f"Update submodule {update_message}"
+		else:
+			commit_message = f"Update submodules {update_message}"
 	if not commit_paths:
 		return
 
@@ -358,6 +364,10 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 	run("git", "commit", "--only", "-m", commit_message, "--", *commit_paths, capture_stderr=True)
 	info("Pushing library repo")
 	run_retry("git", "push")
+	if publish:
+		info(f"Published {update_message}.")
+	else:
+		info(f"Reviewed {update_message}.")
 
 	if publish:
 		for plugin in reviewed_plugins:

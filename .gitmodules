@@ -1242,3 +1242,6 @@
 [submodule "repos/Fourfold"]
 	path = repos/Fourfold
 	url = https://github.com/benjimixvidz/TETRAD-SEQ
+[submodule "repos/W72"]
+	path = repos/W72
+	url = https://github.com/sensolab/w72-rack-plugin
