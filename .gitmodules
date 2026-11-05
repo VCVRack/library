@@ -1251,3 +1251,6 @@
 [submodule "repos/voidbot"]
 	path = repos/voidbot
 	url = https://github.com/vyger/voidbot
+[submodule "repos/Dead-Air"]
+	path = repos/Dead-Air
+	url = https://codeberg.org/null4bl3/Crux

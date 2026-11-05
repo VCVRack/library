@@ -1,0 +1,28 @@
+{
+  "slug": "Dead-Air",
+  "name": "Dead Air",
+  "version": "2.0.1",
+  "license": "GPL-3.0-or-later",
+  "brand": "Dead Air",
+  "author": "Eik Amen",
+  "authorEmail": "fremadbagud@gmail.com",
+  "authorUrl": "",
+  "pluginUrl": "https://codeberg.org/null4bl3/Crux",
+  "manualUrl": "",
+  "sourceUrl": "https://codeberg.org/null4bl3/Crux",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Crox",
+      "name": "Crox",
+      "description": "An opinionated percussion sequencer with a slight random drift. Venturing out into this world wearing crocs, can sometimes return unexpected and useful results. inshallah!",
+      "tags": [
+        "Oscillator",
+        "Random",
+        "Sequencer",
+        "Synth voice"
+      ]
+    }
+  ]
+}
