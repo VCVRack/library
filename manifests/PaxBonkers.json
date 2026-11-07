@@ -1,15 +1,15 @@
 {
   "slug": "PaxBonkers",
   "name": "PaxBonkers",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "pax.bonkers",
   "author": "pax.bonkers",
   "authorEmail": "",
   "authorUrl": "https://github.com/paxbonkers",
-  "pluginUrl": "https://github.com/paxbonkers/Escarpo",
-  "manualUrl": "https://github.com/paxbonkers/Escarpo#escarpo",
-  "sourceUrl": "https://github.com/paxbonkers/Escarpo",
+  "pluginUrl": "https://github.com/paxbonkers/PaxBonkersVCV",
+  "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV#readme",
+  "sourceUrl": "https://github.com/paxbonkers/PaxBonkersVCV",
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
@@ -19,6 +19,28 @@
       "description": "Clock swing, drift and burst. After Fragonard's The Happy Accidents of the Swing.",
       "tags": [
         "Clock modifier"
+      ],
+      "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV#escarpo"
+    },
+    {
+      "slug": "Lillebror",
+      "name": "Lillebror",
+      "description": "Three drum voices with wave morph and accent-shaped timbre. The little brother of Grids.",
+      "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV#lillebror",
+      "tags": [
+        "Drum",
+        "Synth voice"
+      ]
+    },
+    {
+      "slug": "Zenon",
+      "name": "Zenon",
+      "description": "Polymetric percussion: two 8-step tracks with their own length and destination drive a two-oscillator percussion voice. After Zeno's paradox of Achilles and the tortoise.",
+      "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV#zenon",
+      "tags": [
+        "Drum",
+        "Sequencer",
+        "Synth voice"
       ]
     }
   ]

@@ -1226,7 +1226,7 @@
 	url = https://github.com/tjbaudiodesign/TJBAudio
 [submodule "repos/PaxBonkers"]
 	path = repos/PaxBonkers
-	url = https://github.com/paxbonkers/Escarpo
+	url = https://github.com/paxbonkers/PaxBonkersVCV
 [submodule "repos/HemiolaAudio"]
 	path = repos/HemiolaAudio
 	url = https://github.com/hemiolaaudio/HemiolaAudio
