@@ -1,7 +1,7 @@
 {
   "slug": "W72",
   "name": "W72",
-  "version": "2.7.0",
+  "version": "2.8.1",
   "license": "GPL-3.0-or-later",
   "brand": "W72",
   "author": "WinterOf72",
@@ -24,6 +24,29 @@
       "tags": [
         "Sample and hold",
         "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Moleta",
+      "name": "Moleta",
+      "description": "Master clock whose four outputs each have a ratio (fractions included), a chance and a length; the coin flips can loop",
+      "manualUrl": "https://github.com/sensolab/w72-rack-plugin/blob/main/docs/modules/moleta.md",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Random"
+      ]
+    },
+    {
+      "slug": "MoletaPlus",
+      "name": "Moleta +",
+      "description": "Expander that adds four outputs to the Moleta on its left, each with a ratio, a chance and a length",
+      "manualUrl": "https://github.com/sensolab/w72-rack-plugin/blob/main/docs/modules/moletaplus.md",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Expander",
+        "Random"
       ]
     }
   ]
