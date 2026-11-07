@@ -19408,23 +19408,5 @@
         "creationTimestamp": 1794020260
       }
     }
-  },
-  "Tessera": {
-    "buildTimestamp": 1794069226,
-    "creationTimestamp": 1794069226,
-    "modules": {
-      "Tessera": {
-        "creationTimestamp": 1794069226
-      },
-      "TrackOut": {
-        "creationTimestamp": 1794069226
-      },
-      "DrumOut": {
-        "creationTimestamp": 1794069226
-      },
-      "AutoOut": {
-        "creationTimestamp": 1794069226
-      }
-    }
   }
 }
