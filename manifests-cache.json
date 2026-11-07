@@ -16382,7 +16382,7 @@
     }
   },
   "voxglitch-devices": {
-    "buildTimestamp": 1788805701.759757,
+    "buildTimestamp": 1794056555,
     "creationTimestamp": 1752849878.5160182,
     "modules": {
       "spores": {
@@ -16414,6 +16414,9 @@
       },
       "wyrm": {
         "creationTimestamp": 1788805701.9031577
+      },
+      "sample_tracker": {
+        "creationTimestamp": 1794056555
       }
     }
   },
