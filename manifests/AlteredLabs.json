@@ -1,0 +1,217 @@
+{
+  "slug": "AlteredLabs",
+  "name": "Altered Labs",
+  "version": "2.9.0",
+  "license": "proprietary",
+  "brand": "Altered Labs",
+  "author": "Altered Labs",
+  "authorEmail": "hello@alteredlabs.net",
+  "authorUrl": "https://alteredlabs.net",
+  "pluginUrl": "https://alteredlabs.net",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "9A9",
+      "name": "9A9",
+      "description": "TR-909 style drum machine: 11 voices with their own triggers and outputs, drive, reverb, delay",
+      "tags": [
+        "Drum",
+        "Polyphonic",
+        "Distortion",
+        "Reverb",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "9A9SEQ",
+      "name": "9A9 SEQ",
+      "description": "9A9 expander: the 11-lane step sequencer with swing and pattern generator",
+      "tags": [
+        "Expander",
+        "Sequencer",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "9A9CV",
+      "name": "9A9 CV",
+      "description": "9A9 expander: a CV input for every voice control, voice by voice",
+      "tags": [
+        "Expander",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "9A9MOD",
+      "name": "9A9 MOD",
+      "description": "9A9 expander: six CV slots, learn any 9A9 control",
+      "tags": [
+        "Expander",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "9A9MIX",
+      "name": "9A9 MIX",
+      "description": "9A9 expander: a stereo mixer of the 11 voices, level, pan and mute each",
+      "tags": [
+        "Expander",
+        "Mixer",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "8A8",
+      "name": "8A8",
+      "description": "TR-808 style drum machine: 16 circuit voices with their own triggers and outputs, drive, reverb, delay",
+      "tags": [
+        "Drum",
+        "Polyphonic",
+        "Distortion",
+        "Reverb",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "8A8SEQ",
+      "name": "8A8 SEQ",
+      "description": "8A8 expander: the 16-lane step sequencer with swing and pattern generator",
+      "tags": [
+        "Expander",
+        "Sequencer",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "8A8CV",
+      "name": "8A8 CV",
+      "description": "8A8 expander: a CV input for every voice control, voice by voice",
+      "tags": [
+        "Expander",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "8A8MOD",
+      "name": "8A8 MOD",
+      "description": "8A8 expander: six CV slots, learn any 8A8 control",
+      "tags": [
+        "Expander",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "8A8MIX",
+      "name": "8A8 MIX",
+      "description": "8A8 expander: a stereo mixer of the 16 voices, level, pan and mute each",
+      "tags": [
+        "Expander",
+        "Mixer",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "6A6",
+      "name": "6A6",
+      "description": "TR-606 style drum machine: 8 voices with their own triggers and outputs, drive, reverb, delay",
+      "tags": [
+        "Drum",
+        "Polyphonic",
+        "Distortion",
+        "Reverb",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "6A6SEQ",
+      "name": "6A6 SEQ",
+      "description": "6A6 expander: the 8-lane step sequencer with swing and pattern generator",
+      "tags": [
+        "Expander",
+        "Sequencer",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "6A6CV",
+      "name": "6A6 CV",
+      "description": "6A6 expander: a CV input for every voice control, voice by voice",
+      "tags": [
+        "Expander",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "6A6MOD",
+      "name": "6A6 MOD",
+      "description": "6A6 expander: six CV slots, learn any 6A6 control",
+      "tags": [
+        "Expander",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "6A6MIX",
+      "name": "6A6 MIX",
+      "description": "6A6 expander: a stereo mixer of the 8 voices, level, pan and mute each",
+      "tags": [
+        "Expander",
+        "Mixer",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "CA78",
+      "name": "CA-78",
+      "description": "CR-78 style drum machine: 14 voices with their own triggers and outputs, the 17 preset rhythms, drive, reverb, delay",
+      "tags": [
+        "Drum",
+        "Polyphonic",
+        "Distortion",
+        "Reverb",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "CA78SEQ",
+      "name": "CA-78 SEQ",
+      "description": "CA-78 expander: the 14-lane step sequencer with swing and pattern generator",
+      "tags": [
+        "Expander",
+        "Sequencer",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "CA78CV",
+      "name": "CA-78 CV",
+      "description": "CA-78 expander: a CV input for every voice control, voice by voice",
+      "tags": [
+        "Expander",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "CA78MOD",
+      "name": "CA-78 MOD",
+      "description": "CA-78 expander: six CV slots, learn any CA-78 control",
+      "tags": [
+        "Expander",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "CA78MIX",
+      "name": "CA-78 MIX",
+      "description": "CA-78 expander: a stereo mixer of the 14 voices, level, pan and mute each",
+      "tags": [
+        "Expander",
+        "Mixer",
+        "Drum"
+      ]
+    }
+  ]
+}
