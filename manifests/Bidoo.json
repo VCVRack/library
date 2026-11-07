@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "2.1.1",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -335,6 +335,16 @@
       "tags": [
         "Reverb",
         "Effect"
+      ]
+    },
+    {
+      "slug": "SOUNAIRE",
+      "name": "sOUNAiRe",
+      "description": "Sampler: one sample over a key range, 16 voices, loops with crossfades, filter, time-stretch, stored in the patch",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#sounaire",
+      "tags": [
+        "Sampler",
+        "Polyphonic"
       ]
     },
     {
