@@ -1,0 +1,45 @@
+{
+  "slug": "TwistedCable",
+  "name": "Twisted Cable",
+  "version": "2.0.1",
+  "license": "https://vcvrack.com/eula",
+  "brand": "Twisted Cable",
+  "author": "Latif Karoumi",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "https://eurikon.github.io/TC-Link/",
+  "manualUrl": "https://eurikon.github.io/TC-Link/docs/TC-Link_manual.html",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "https://eurikon.github.io/TC-Link/CHANGELOG.html",
+  "modules": [
+    {
+      "slug": "TC-Link",
+      "name": "TC Link",
+      "description": "Ableton Link synchronisation and Link Audio for VCV Rack",
+      "tags": [
+        "Utility",
+        "Clock generator"
+      ],
+      "manualUrl": "https://eurikon.github.io/TC-Link/docs/TC-Link_manual.html"
+    },
+    {
+      "slug": "TC-Link-Send",
+      "manualUrl": "https://eurikon.github.io/TC-Link/docs/TC-Link-Send_manual.html",
+      "name": "TC LINK SEND",
+      "description": "Send Rack audio through Ableton Link Audio",
+      "tags": [
+        "External"
+      ]
+    },
+    {
+      "slug": "TC-Link-Receive",
+      "manualUrl": "https://eurikon.github.io/TC-Link/docs/TC-Link-Receive_manual.html",
+      "name": "TC LINK RECEIVE",
+      "description": "Receive Rack audio through Ableton Link Audio",
+      "tags": [
+        "External"
+      ]
+    }
+  ]
+}
