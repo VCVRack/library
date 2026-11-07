@@ -2,7 +2,7 @@
   "slug": "Autodafe-REDs",
   "name": "Autodafe - REDs",
   "brand": "Autodafe",
-  "version": "2.0.0",
+  "version": "2.0.6",
   "license": "proprietary",
   "author": "Autodafe",
   "authorEmail": "info@autodafe.net",
@@ -16,14 +16,6 @@
       "slug": "SQUARE",
       "name": "S[Q]UARE",
       "description": "A Square VCO made up of sine waves and Harmonics",
-      "tags": [
-        "VCO"
-      ]
-    },
-    {
-      "slug": "COSINE",
-      "name": "CO[S]INE",
-      "description": "A VCO based on Cosine Waves",
       "tags": [
         "VCO"
       ]
