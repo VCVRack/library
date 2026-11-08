@@ -1,7 +1,7 @@
 {
   "slug": "TwistedCable",
   "name": "Twisted Cable",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "https://vcvrack.com/eula",
   "brand": "Twisted Cable",
   "author": "Latif Karoumi",
@@ -26,7 +26,7 @@
     {
       "slug": "TC-Link-Send",
       "manualUrl": "https://eurikon.github.io/TC-Link/docs/TC-Link-Send_manual.html",
-      "name": "TC LINK SEND",
+      "name": "TC Link Send",
       "description": "Send Rack audio through Ableton Link Audio",
       "tags": [
         "External"
@@ -35,7 +35,7 @@
     {
       "slug": "TC-Link-Receive",
       "manualUrl": "https://eurikon.github.io/TC-Link/docs/TC-Link-Receive_manual.html",
-      "name": "TC LINK RECEIVE",
+      "name": "TC Link Receive",
       "description": "Receive Rack audio through Ableton Link Audio",
       "tags": [
         "External"
