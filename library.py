@@ -11,7 +11,7 @@ from urllib.parse import urlsplit
 
 import requests
 
-from py.common import choose, error, format_items, info, is_valid_slug, run, run_retry, warn
+from py.common import choose, error, format_bullets, format_items, info, is_valid_slug, run, run_retry, warn
 from py import config, manifest_cache, modulargrid
 from py.plugin import Plugin
 
@@ -115,11 +115,11 @@ def review_plugins_concurrently(plugins, func):
 			try:
 				warnings = future.result()
 				if warnings:
-					warnings = f"Agent reported issues with {plugin.get_slug()}.\n{warnings}"
+					info(f"Agent reported issues with {plugin.get_slug()}.")
 			except Exception as exception:
-				warnings = f"Agent review of {plugin.get_slug()} failed.\n{exception}"
+				warnings = [f"Agent review of {plugin.get_slug()} failed.\n{exception}"]
 			if warnings:
-				warn(warnings)
+				warn(format_bullets(warnings))
 				if choose("[a]pprove, [r]eject: ", "ar") == "r":
 					continue
 			reviewed_plugins.append(plugin)
@@ -176,14 +176,11 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 			try:
 				info(f"Reviewing {plugin.get_slug()}")
 				warnings = []
-				if warning := plugin.review_git():
-					warnings.append(warning)
-				if warning := plugin.review_source():
-					warnings.append(warning)
-				if warning := plugin.review_manifest():
-					warnings.append(warning)
+				warnings.extend(plugin.review_git())
+				warnings.extend(plugin.review_source())
+				warnings.extend(plugin.review_manifest())
 				if warnings:
-					warn("\n".join(warnings))
+					warn(format_bullets(warnings))
 					if choose("[a]pprove, [r]eject: ", "ar") == "r":
 						continue
 
@@ -224,7 +221,7 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 			try:
 				info(f"Reviewing {plugin.get_slug()} packages")
 				if warnings := plugin.review_packages():
-					warn(warnings)
+					warn(format_bullets(warnings))
 					if choose("[a]pprove, [r]eject: ", "ar") == "r":
 						continue
 				reviewed_plugins.append(plugin)
@@ -259,7 +256,7 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 					warnings.append(output.rstrip("\n"))
 				if not warnings:
 					break
-				warn("\n".join(warnings))
+				warn(format_bullets(warnings))
 				if choose("[r]etry, [i]gnore: ", "ri") == "i":
 					break
 

@@ -63,6 +63,10 @@ def version_key(version):
 	return parts
 
 
+def format_bullets(items):
+	return "\n".join(f"- {item}" for item in items)
+
+
 def info(message):
 	print(f"\033[34m{message}\033[0m")
 

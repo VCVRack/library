@@ -345,8 +345,7 @@ class Plugin:
 			else:
 				warnings.append(f"Modules {slugs_string} have a deprecated `disabled` property. Replace `disabled` with `hidden`.")
 
-		if warning := self.review_manifest_urls():
-			warnings.append(warning)
+		warnings.extend(self.review_manifest_urls())
 
 		# Check for new plugins and changed module slugs
 		library_manifest = self.library_manifest
@@ -368,7 +367,7 @@ class Plugin:
 					warnings.append(f"Module {slugs_string} has been removed, which breaks existing patches that use it. Restore the module with its original slug.")
 				else:
 					warnings.append(f"Modules {slugs_string} have been removed, which breaks existing patches that use them. Restore the modules with their original slugs.")
-		return '\n'.join(warnings) or None
+		return warnings
 
 	def review_manifest_urls(self):
 		if self.manifest is None:
@@ -415,15 +414,15 @@ class Plugin:
 			except Exception as error:
 				warnings.append(f"`plugin.json` property `license` is invalid: {error}")
 
-		return '\n'.join(warnings) or None
+		return warnings
 
 	def review_git(self):
 		if not self.source_dir:
-			return None
+			return []
 		try:
 			output = run("git", "ls-files", "-z", "--", ".", cwd=self.source_dir, capture_stdout=True)
 		except RuntimeError:
-			return None
+			return []
 		warnings = []
 
 		# Check for uncommitted changes.
@@ -480,11 +479,11 @@ class Plugin:
 				warnings.append(f"Large file is committed to Git. Consider [removing it from Git history](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history) to reduce clone size: {large_files_string}.")
 			else:
 				warnings.append(f"Large files are committed to Git. Consider [removing them from Git history](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#removing-files-from-a-repositorys-history) to reduce clone size: {large_files_string}.")
-		return '\n'.join(warnings) or None
+		return warnings
 
 	def review_source(self):
 		if not self.source_dir:
-			return None
+			return []
 		path = os.path.join(self.source_dir, "Makefile")
 		if not os.path.isfile(path):
 			raise FileNotFoundError(f"{path!r} is missing.")
@@ -493,8 +492,8 @@ class Plugin:
 		source_dir = os.path.abspath(self.source_dir)
 		directory_name = os.path.basename(source_dir)
 		if directory_name != self.get_slug():
-			return f"Source directory name {directory_name!r} does not match plugin slug {self.get_slug()!r}."
-		return None
+			return [f"Source directory name {directory_name!r} does not match plugin slug {self.get_slug()!r}."]
+		return []
 
 	def review_packages(self):
 		if not self.package_paths:
@@ -535,9 +534,8 @@ class Plugin:
 
 		# Review all extracted contents
 		for architecture, dist_dir in dist_dirs_by_architecture.items():
-			if warning := self.review_dist(dist_dir, architecture):
-				warnings.append(warning)
-		return '\n'.join(warnings) or None
+			warnings.extend(self.review_dist(dist_dir, architecture))
+		return warnings
 
 	def review_dist(self, dist_dir, architecture):
 		"""Reviews package's extracted contents."""
@@ -607,7 +605,7 @@ class Plugin:
 				warnings.append(f"Package `{package_filename}` contains junk file or directory. Update `DISTRIBUTABLES` in your `Makefile` to exclude this path: {junk_paths_string}.")
 			else:
 				warnings.append(f"Package `{package_filename}` contains junk files or directories. Update `DISTRIBUTABLES` in your `Makefile` to exclude these paths: {junk_paths_string}.")
-		return '\n'.join(warnings) or None
+		return warnings
 
 	def build_source(self):
 		"""Builds plugin source for all architectures and stores the packages in package_paths."""
