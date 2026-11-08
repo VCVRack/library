@@ -1257,3 +1257,6 @@
 [submodule "repos/OV"]
 	path = repos/OV
 	url = https://github.com/ovikveber/RandomSynth-VCV
+[submodule "repos/Tessera"]
+	path = repos/Tessera
+	url = https://github.com/elisvathi/tessera
