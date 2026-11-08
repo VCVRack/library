@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -348,6 +348,17 @@
       ]
     },
     {
+      "slug": "COPIA",
+      "name": "cOPIA",
+      "description": "Live resampler: captures bars of the mix on the clock and remixes them with eight glitch slots, lanes and scenes",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#copia",
+      "tags": [
+        "Effect",
+        "Sampler",
+        "Sequencer"
+      ]
+    },
+    {
       "slug": "HCTIP",
       "name": "HCTIP",
       "description": "Pitch shifter",
@@ -420,9 +431,7 @@
       "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#lambda",
       "tags": [
         "Logic",
-        "Sample and hold",
-        "S&H",
-        "Sample & hold"
+        "Sample and hold"
       ]
     },
     {
@@ -432,8 +441,8 @@
       "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#bancau",
       "tags": [
         "Envelope generator",
+        "Function generator",
         "Oscillator",
-        "VCO",
         "LFO",
         "Waveshaper"
       ]

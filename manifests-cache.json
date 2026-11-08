@@ -5077,7 +5077,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1794059407,
+    "buildTimestamp": 1794124068,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -5247,6 +5247,9 @@
       },
       "SOUNAIRE": {
         "creationTimestamp": 1794059407
+      },
+      "COPIA": {
+        "creationTimestamp": 1794124068
       }
     }
   },
