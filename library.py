@@ -270,6 +270,7 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 			published_plugins = []
 			for plugin in reviewed_plugins:
 				try:
+					plugin.copy_manuals()
 					plugin.publish_packages()
 					published_plugins.append(plugin)
 				except Exception as exception:
@@ -334,6 +335,10 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 		# Upload screenshots
 		info("Uploading screenshots")
 		run_retry("make", "upload", cwd=config.SCREENSHOTS_DIR)
+
+		# Upload manuals
+		info("Uploading manuals")
+		run_retry("make", "upload", cwd=config.MANUALS_DIR)
 
 		# Copy manifests to library
 		for plugin in reviewed_plugins:

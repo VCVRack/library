@@ -645,6 +645,16 @@ class Plugin:
 		shutil.copyfile(package_path, os.path.join(config.RACK_PLUGIN_DIR, filename))
 		return True
 
+	def copy_manuals(self):
+		"""Copies plugin manual to server manuals directory."""
+		dist_dir = self.extract_package(self.package_paths[0])
+		manual_dir = os.path.join(dist_dir, self.get_slug(), "manual")
+		destination = os.path.join(config.MANUALS_DIR, self.get_slug())
+		if os.path.isdir(destination):
+			shutil.rmtree(destination)
+		if os.path.isdir(manual_dir):
+			shutil.copytree(manual_dir, destination)
+
 	def publish_packages(self):
 		"""Copies all packages to server package directory."""
 		if not self.package_paths:

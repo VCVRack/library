@@ -26,6 +26,7 @@ REPOS_DIR = "repos"
 MANIFESTS_DIR = "manifests"
 TOOLCHAIN_DIR = "../toolchain-v2"
 PACKAGES_DIR = "../packages"
+MANUALS_DIR = "../manuals"
 RACK_SYSTEM_DIR = "../Rack2"
 RACK_USER_DIR = None
 RACK_PLUGIN_DIR = None
