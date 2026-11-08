@@ -291,7 +291,7 @@ class Plugin:
 					warning = f'Plugin {key} "{manifest[key]}" contains the module {key} "{module[key]}". Choose a plugin {key} that identifies your brand rather than an individual module, so it can also represent future modules.'
 				elif match.size == len(plugin_text):
 					warning = f'Module {key} "{module[key]}" contains the plugin {key} "{manifest[key]}". Modules are already identified by their plugin, so remove the redundant plugin {key} from the module {key}.'
-				elif len(shared_text) >= 2:
+				elif len(shared_text) >= 3:
 					warning = f'Module {key} "{module[key]}" and plugin {key} "{manifest[key]}" contain the same substring "{shared_text}". Modules are already identified by their plugin, so consider removing redundant brand text from the module {key}.'
 				else:
 					continue
