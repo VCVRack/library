@@ -19504,5 +19504,14 @@
         "creationTimestamp": 1794130493
       }
     }
+  },
+  "Coal_Dynamics": {
+    "buildTimestamp": 1794162331,
+    "creationTimestamp": 1794162331,
+    "modules": {
+      "Anthracite": {
+        "creationTimestamp": 1794162331
+      }
+    }
   }
 }

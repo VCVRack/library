@@ -1260,3 +1260,6 @@
 [submodule "repos/Tessera"]
 	path = repos/Tessera
 	url = https://github.com/elisvathi/tessera
+[submodule "repos/Coal_Dynamics"]
+	path = repos/Coal_Dynamics
+	url = https://github.com/mblancosound/VCV-Multiband-Saturator
