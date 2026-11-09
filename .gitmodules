@@ -944,7 +944,7 @@
 	url = https://github.com/Cumbiambero/clonotribe.git
 [submodule "repos/MADZINE"]
 	path = repos/MADZINE
-	url = https://github.com/mmmmmmmadman/MADZINE-VCV.git
+	url = https://github.com/mmmmmmmadman/MADZINE-VCV
 [submodule "repos/SchlappiEngineering"]
 	path = repos/SchlappiEngineering
 	url = https://github.com/SchlappiEngineering/Schlappi-vcv.git
