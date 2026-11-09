@@ -1176,18 +1176,12 @@
 [submodule "repos/RacketScience"]
 	path = repos/RacketScience
 	url = https://github.com/ContemporaryInsanity/RacketScience.git
-[submodule "repos/Festivamente"]
-	path = repos/Festivamente
-	url = https://github.com/Festivamente/ER-301SoundComputer
 [submodule "repos/BasicHumanTastes"]
 	path = repos/BasicHumanTastes
 	url = https://github.com/basichumantastes/BasicHumanTastes
 [submodule "repos/Xiehuo"]
 	path = repos/Xiehuo
 	url = https://github.com/Xiehuo0624/SpectralDissector-VCV
-[submodule "repos/tnn1t1s-phases"]
-	path = repos/tnn1t1s-phases
-	url = https://github.com/tnn1t1s/tnn1t1s-phases
 [submodule "repos/JUDYIO"]
 	path = repos/JUDYIO
 	url = https://github.com/judyio/vcv-rack-modules
