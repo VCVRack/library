@@ -375,7 +375,7 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 		for plugin in reviewed_plugins:
 			if not plugin.is_source_in_library():
 				continue
-			# Find the plugin's issue and post the publication comment.
+			# Close the plugin's issue with a publication comment.
 			try:
 				slug = plugin.get_slug()
 				output = run("gh", "issue", "list", "--repo", "VCVRack/library", "--state", "all", "--search", f'in:title "{slug}"', "--limit", "1000", "--json", "title,url", capture_stdout=True, capture_stderr=True)
@@ -385,7 +385,7 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 				url = issues[0]["url"]
 				webbrowser.open(url)
 				message = f"{slug} {plugin.get_version()} is now published at https://library.vcvrack.com/{slug}"
-				run_retry("gh", "issue", "comment", url, "--body", message)
+				run_retry("gh", "issue", "close", url, "--comment", message)
 			except Exception as exception:
 				warn(f"Could not post publication comment for {plugin.get_slug()}: {exception}")
 
