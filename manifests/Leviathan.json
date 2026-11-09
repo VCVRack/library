@@ -1,21 +1,22 @@
 {
   "slug": "Leviathan",
   "name": "Leviathan",
-  "version": "2.14.0",
+  "version": "2.14.1",
   "license": "GPL-3.0-or-later",
   "brand": "Leviathan",
   "author": "Levi Kendall",
   "authorEmail": "levi.kendall@gmail.com",
   "authorUrl": "",
-  "pluginUrl": "",
-  "manualUrl": "",
+  "pluginUrl": "https://plasmachroma.github.io/Leviathan-Pages/index.html",
+  "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/index.html",
   "sourceUrl": "https://github.com/PlasmaChroma/Leviathan-Rack2",
-  "donateUrl": "https://buymeacoffee.com/dragonkingleviathan",
+  "donateUrl": "https://paypal.me/leviathanvcv",
   "changelogUrl": "https://github.com/PlasmaChroma/Leviathan-Rack2/blob/master/CHANGELOG.md",
   "modules": [
     {
       "slug": "IntegralFlux",
       "name": "Integral Flux",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Integral_Flux_User_Manual.html",
       "description": "Dual slope generator, variable curve slew, attenuverters, signal mixing, full audio-rate fidelity.",
       "tags": [
         "Function generator",
@@ -28,6 +29,7 @@
     {
       "slug": "Proc",
       "name": "Proc",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Proc_User_Manual.html",
       "description": "Generator, slew limiter, and envelope follower.",
       "tags": [
         "Function generator",
@@ -38,6 +40,7 @@
     {
       "slug": "TemporalDeck",
       "name": "Temporal Deck",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Temporal_Deck_User_Manual.html",
       "description": "Virtual turntable with modern hybrid control.",
       "tags": [
         "Delay",
@@ -48,6 +51,7 @@
     {
       "slug": "TDScope",
       "name": "TD.Scope",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/TD_Scope_User_Manual.html",
       "description": "Expander: Waveform display for Temporal Deck.",
       "tags": [
         "Visual",
@@ -58,6 +62,7 @@
     {
       "slug": "Undertow",
       "name": "Undertow",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Undertow_User_Manual.html",
       "description": "Compact analog-style oscillator with sine, morphing shape, and sub-octave outputs.",
       "tags": [
         "Oscillator"
@@ -67,6 +72,7 @@
     {
       "slug": "Deepcache",
       "name": "Deep Cache",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Deep_Cache_User_Manual.html",
       "description": "Preloads module-browser previews for faster browsing.",
       "tags": [
         "Utility"
@@ -76,6 +82,7 @@
     {
       "slug": "Iris",
       "name": "Iris",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Iris_User_Manual.html",
       "description": "Polyphonic image-to-wavetable oscillator with smooth table scanning.",
       "tags": [
         "Oscillator",
@@ -86,6 +93,7 @@
     {
       "slug": "Nautiloid",
       "name": "Nautiloid",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Nautiloid_User_Manual.html",
       "description": "Fractal exploration display for image-source workflows.",
       "tags": [
         "Visual",
@@ -96,6 +104,7 @@
     {
       "slug": "Puffy",
       "name": "Puffy",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Puffy_User_Manual.html",
       "description": "Wave-shaper stereo saturator with animated peak control.",
       "tags": [
         "Distortion",
@@ -107,6 +116,7 @@
     {
       "slug": "Sil",
       "name": "Sil",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Sil_User_Manual.html",
       "description": "Automatic mastering module.",
       "tags": [
         "Dynamics",
@@ -117,6 +127,7 @@
     {
       "slug": "Theme",
       "name": "Theme",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Theme_User_Manual.html",
       "description": "Global semantic color and texture editor for theme-aware Leviathan modules.",
       "tags": [
         "Visual",
@@ -127,6 +138,7 @@
     {
       "slug": "Vessel",
       "name": "Vessel",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Vessel_User_Manual.html",
       "description": "Tunable struck and friction-excited singing bowl with stereo observation.",
       "tags": [
         "Physical modeling",
@@ -140,6 +152,7 @@
     {
       "slug": "VTune",
       "name": "V.Tune",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/VTune_User_Manual.html",
       "description": "Performance and voicing controls for Vessel.",
       "tags": [
         "Expander"
@@ -149,7 +162,8 @@
     {
       "slug": "Strand",
       "name": "Strand",
-      "description": "Zero-crossing pseudo-cycle interleaver.",
+      "manualUrl": "https://plasmachroma.github.io/Leviathan-Pages/manuals/Strand_User_Manual.html",
+      "description": "Zero-crossing pseudo-cycle interleaver for signals > 10hz.",
       "tags": [
         "Effect",
         "Distortion"
