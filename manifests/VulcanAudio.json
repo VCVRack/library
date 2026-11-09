@@ -1,0 +1,50 @@
+{
+  "slug": "VulcanAudio",
+  "name": "Vulcan Audio",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Vulcan Audio",
+  "author": "Cam Jones",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "ScanningSpectralProcessor",
+      "name": "Scanning Spectral Processor",
+      "description": "Fixed Filter Bank With Scanning Mixer",
+      "tags": [
+        "Filter",
+        "Vocoder",
+        "Envelope follower",
+        "Effect",
+        "Equalizer"
+      ]
+    },
+    {
+      "slug": "MorphingSpectralProcessor",
+      "name": "Morphing Spectral Processor",
+      "description": "Fixed Filter Bank With Morphing Mixer",
+      "tags": [
+        "Filter",
+        "Vocoder",
+        "Envelope follower",
+        "Effect",
+        "Equalizer"
+      ]
+    },
+    {
+      "slug": "TimeDomainProcessor",
+      "name": "Time Domain Processor",
+      "description": "Delay Workstation",
+      "tags": [
+        "Delay",
+        "Effect"
+      ]
+    }
+  ]
+}
