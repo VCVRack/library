@@ -1,17 +1,17 @@
 {
   "slug": "Fourfold",
   "name": "Fourfold",
-  "version": "2.7.0",
+  "version": "2.7.1",
   "license": "GPL-3.0-or-later",
   "brand": "Fourfold",
   "author": "benji",
   "authorEmail": "",
   "authorUrl": "https://github.com/benjimixvidz",
-  "pluginUrl": "https://github.com/benjimixvidz/TETRAD-SEQ",
-  "manualUrl": "https://github.com/benjimixvidz/TETRAD-SEQ#readme",
-  "sourceUrl": "https://github.com/benjimixvidz/TETRAD-SEQ",
+  "pluginUrl": "https://github.com/benjimixvidz/Fourfold",
+  "manualUrl": "https://github.com/benjimixvidz/Fourfold#readme",
+  "sourceUrl": "https://github.com/benjimixvidz/Fourfold",
   "donateUrl": "",
-  "changelogUrl": "https://github.com/benjimixvidz/TETRAD-SEQ/blob/main/CHANGELOG.md",
+  "changelogUrl": "https://github.com/benjimixvidz/Fourfold/blob/main/CHANGELOG.md",
   "modules": [
     {
       "slug": "Tetrad",
