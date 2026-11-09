@@ -123,8 +123,8 @@ def run_retry(command, *args, cwd=None):
 	while True:
 		try:
 			run(command, *args, cwd=cwd, capture_stderr=True)
-			return
+			return True
 		except Exception as error:
 			warn(error)
 			if choose("[r]etry, [i]gnore: ", "ri") == "i":
-				return
+				return False

@@ -375,9 +375,19 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 		for plugin in reviewed_plugins:
 			if not plugin.is_source_in_library():
 				continue
-			# Open browser to plugin's GitHub library issue
-			url = f"https://github.com/VCVRack/library/issues?q=is%3Aissue+sort%3Aupdated-desc+in%3Atitle+{plugin.get_slug()}"
-			webbrowser.open(url)
+			# Find the plugin's issue and post the publication comment.
+			try:
+				slug = plugin.get_slug()
+				output = run("gh", "issue", "list", "--repo", "VCVRack/library", "--state", "all", "--search", f'in:title "{slug}"', "--limit", "1000", "--json", "title,url", capture_stdout=True, capture_stderr=True)
+				issues = [issue for issue in json.loads(output) if issue["title"].casefold() == slug.casefold()]
+				if len(issues) != 1:
+					raise RuntimeError(f'Expected one issue titled "{slug}", found {len(issues)}.')
+				url = issues[0]["url"]
+				webbrowser.open(url)
+				message = f"{slug} {plugin.get_version()} is now published at https://library.vcvrack.com/{slug}"
+				run_retry("gh", "issue", "comment", url, "--body", message)
+			except Exception as exception:
+				warn(f"Could not post publication comment for {plugin.get_slug()}: {exception}")
 
 
 if __name__ == "__main__":

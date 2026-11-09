@@ -647,7 +647,8 @@ class Plugin:
 
 	def copy_manuals(self):
 		"""Copies plugin manual to server manuals directory."""
-		dist_dir = self.extract_package(self.package_paths[0])
+		package_path = self.get_package_path("lin-x64")
+		dist_dir = self.extract_package(package_path)
 		manual_dir = os.path.join(dist_dir, self.get_slug(), "manual")
 		destination = os.path.join(config.MANUALS_DIR, self.get_slug())
 		if os.path.isdir(destination):
