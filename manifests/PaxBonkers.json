@@ -1,7 +1,7 @@
 {
   "slug": "PaxBonkers",
   "name": "PaxBonkers",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "license": "GPL-3.0-or-later",
   "brand": "pax.bonkers",
   "author": "pax.bonkers",
@@ -18,7 +18,7 @@
       "name": "Escarpo",
       "description": "Clock swing, drift and burst. After Fragonard's The Happy Accidents of the Swing.",
       "tags": [
-        "Clock modifier"
+        "Clock modulator"
       ],
       "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV#escarpo"
     },
