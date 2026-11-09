@@ -1,0 +1,37 @@
+{
+  "slug": "PlanBStudio",
+  "name": "Plan B Studio",
+  "version": "2.3.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Plan B Studio",
+  "author": "Plan B Studio",
+  "authorUrl": "https://github.com/Zhihan-audio",
+  "pluginUrl": "https://github.com/Zhihan-audio/PlanBStudio-VCV",
+  "manualUrl": "https://github.com/Zhihan-audio/PlanBStudio-VCV#readme",
+  "sourceUrl": "https://github.com/Zhihan-audio/PlanBStudio-VCV",
+  "changelogUrl": "https://github.com/Zhihan-audio/PlanBStudio-VCV/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "Splinter",
+      "name": "turn everything into a \u788e\u4e86\u5427\u5527\u7684\u9f13",
+      "description": "Splinter: 32-step slice sampler with per-step pitch, level, ratchet and percussive ADSR mode, for glitchy IDM drums",
+      "tags": [
+        "Sampler",
+        "Sequencer",
+        "Drum",
+        "Recording"
+      ],
+      "keywords": [
+        "Splinter",
+        "slicer",
+        "slice",
+        "glitch",
+        "IDM",
+        "breakbeat",
+        "chopper",
+        "\u5207\u7247",
+        "\u788e\u62cd"
+      ]
+    }
+  ]
+}

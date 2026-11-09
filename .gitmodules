@@ -1263,3 +1263,6 @@
 [submodule "repos/Coal_Dynamics"]
 	path = repos/Coal_Dynamics
 	url = https://github.com/mblancosound/VCV-Multiband-Saturator
+[submodule "repos/PlanBStudio"]
+	path = repos/PlanBStudio
+	url = https://github.com/Zhihan-audio/PlanBStudio-VCV

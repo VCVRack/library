@@ -19543,5 +19543,14 @@
         "creationTimestamp": 1794213905
       }
     }
+  },
+  "PlanBStudio": {
+    "buildTimestamp": 1794221430,
+    "creationTimestamp": 1794221430,
+    "modules": {
+      "Splinter": {
+        "creationTimestamp": 1794221430
+      }
+    }
   }
 }
