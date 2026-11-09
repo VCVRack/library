@@ -1,33 +1,27 @@
 # VCV Library database
 
-This repo contains the database for VCV Rack plugins, for [VCV Library](https://library.vcvrack.com/).
+This repo is the plugin database for the [VCV Library](https://library.vcvrack.com/).
 
-All plugins submitted here must
-- follow the [VCV Plugin Ethics Guidelines](https://vcvrack.com/manual/PluginLicensing.html#vcv-plugin-ethics-guidelines).
-- not harm the user's computer or privacy.
+All plugins submitted here must follow the [VCV Third-party Module Guidelines](https://vcvrack.com/manual/PluginLicensing.html#vcv-plugin-ethics-guidelines).
 
 
-## Adding your plugin to the VCV Library (for open-source plugins)
+## Adding your open-source plugin to the VCV Library
 
-Create exactly one thread in the [Issue Tracker](https://github.com/VCVRack/library/issues) per plugin, with a title equal to your plugin's slug (not name).
-Post the URL to your source code, and follow the "Pushing an update" section below.
-This will be your permanent communication channel with VCV Library maintainers.
+[Open an issue](https://github.com/VCVRack/library/issues/new/choose) for your plugin with the title matching your plugin's slug (not name).
+All of your modules should be contained in a single plugin, unless there are technical or legal reasons to publish them in separate plugins.
 
-A Library maintainer will handle your request and post a comment when updated.
+Include the following information in the issue body:
+- Git URL (for example, https://github.com/VCVRack/Fundamental)
+- commit hash you wish to publish (for example, e0ade9a23a9b41124ea3f4ec9aa2cb0b98c2529e)
 
+A Library maintainer will handle your request and close your issue when published or additional information is required.
 
-### Pushing an update
-
-To inform us of an update to your plugin, make sure to increment the `"version"` in your [`plugin.json` manifest file](https://vcvrack.com/manual/Manifest.html) (e.g. from 1.2.3 to 1.2.4), and push a commit to your repository.
-Post a comment in your plugin's thread (we will re-open it for you) with
-- the new version
-- the commit hash (given by `git log` or `git rev-parse HEAD`). Please do not just give the name of a branch like `master`.
-
-A Library maintainer will handle your request and post a comment when updated.
-The issue will be closed when the build is updated.
+**To publish an update of your plugin**, increment the `"version"` in your `plugin.json` file.
+In your *existing* plugin issue thread, comment the commit hash you wish to publish.
+A Library maintainer will handle your request.
 
 
-## Adding your plugin to the VCV Library (for closed-source freeware and commercial plugins)
+## Adding your closed-source plugin to the VCV Library
 
-Email contact@vcvrack.com to be added to the VCV Library or sold through the VCV Store.
-You do not need to create a plugin thread.
+To publish your **closed-source freeware** or **premium/commercial** plugin on the VCV Library, contact [VCV Support](https://vcvrack.com/support) and we will send details to publish your closed-source plugin on the VCV Library.
+You do *not* need to open an issue in this repository.
