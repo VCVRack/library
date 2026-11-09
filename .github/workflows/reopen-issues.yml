@@ -1,0 +1,30 @@
+name: Reopen issues on replies
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+
+jobs:
+  reopen:
+    if: github.event.issue.state == 'closed' && !github.event.issue.pull_request
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v8
+        with:
+          script: |
+            const {node: issue} = await github.graphql(`
+            	query($id: ID!) {
+            		node(id: $id) {
+            			... on Issue {
+            				timelineItems(last: 1, itemTypes: [ISSUE_COMMENT, CLOSED_EVENT]) {
+            					nodes { __typename }
+            				}
+            			}
+            		}
+            	}`, {id: context.payload.issue.node_id});
+            if (issue.timelineItems.nodes[0].__typename === 'IssueComment') {
+            	await github.rest.issues.update({...context.repo, issue_number: context.issue.number, state: 'open'});
+            }
