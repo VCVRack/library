@@ -560,7 +560,7 @@
 	url = https://github.com/EaterOfSheep/Extratone.git
 [submodule "repos/forsitan"]
 	path = repos/forsitan
-	url = https://github.com/gosub/forsitan-modulare.git
+	url = https://github.com/gosub/forsitan-modulare
 [submodule "repos/RPJ"]
 	path = repos/RPJ
 	url = https://github.com/kockie69/RPJ.git
