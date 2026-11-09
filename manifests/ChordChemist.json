@@ -1,7 +1,7 @@
 {
   "slug": "ChordChemist",
-  "name": "ChordChemist",
-  "version": "2.0.3",
+  "name": "Drude",
+  "version": "2.0.4",
   "license": "GPL-3.0-or-later",
   "brand": "Drude",
   "author": "Drude",
@@ -9,21 +9,35 @@
   "authorUrl": "http://www.drude.net",
   "pluginUrl": "https://github.com/TheDrude/ChordChemist",
   "manualUrl": "https://github.com/TheDrude/ChordChemist/blob/main/ChordChemistManual.md",
-  "sourceUrl": "https://github.com/TheDrude/ChordChemist/tree/main/src",
+  "sourceUrl": "https://github.com/TheDrude/ChordChemist",
   "donateUrl": "https://paypal.me/dliwer",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/TheDrude/ChordChemist/releases",
   "modules": [
     {
       "slug": "ChordChemist",
       "name": "ChordChemist",
       "description": "Circular Chord Generative Sequencer",
+      "manualUrl": "https://github.com/TheDrude/ChordChemist/blob/main/ChordChemistManual.md",
       "tags": [
         "Sequencer",
         "Visual",
         "Polyphonic",
-        "Poly",
         "Utility",
         "Quantizer"
+      ]
+    },
+    {
+      "slug": "RhythmChemist",
+      "name": "RhythmChemist",
+      "description": "Piano-roll Rhythm Generative Sequencer",
+      "manualUrl": "https://github.com/TheDrude/ChordChemist/blob/main/RhythmChemistManual.md",
+      "tags": [
+        "Sequencer",
+        "Visual",
+        "Utility",
+        "Random",
+        "Clock generator",
+        "Logic"
       ]
     }
   ]
