@@ -1,7 +1,7 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.23.1",
+  "version": "2.24.4",
   "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
@@ -95,7 +95,7 @@
     {
       "slug": "FugueX",
       "name": "Fugue X",
-      "description": "Expander for Fugue: per-voice steps, range and sleep.",
+      "description": "Expander for Fugue with per-voice steps, range and sleep.",
       "manualUrl": "https://signalfunctionset.com/projects/fugue/",
       "tags": [
         "Sequencer",
@@ -106,7 +106,7 @@
     {
       "slug": "MetaFugue",
       "name": "MetaFugue",
-      "description": "Fugue and Fugue X on one panel, no expander needed.",
+      "description": "Fugue and Fugue X combined on one panel.",
       "manualUrl": "https://signalfunctionset.com/projects/fugue/",
       "tags": [
         "Sequencer",
@@ -127,7 +127,7 @@
     {
       "slug": "MeterX",
       "name": "Meter X",
-      "description": "Expander for Meter: 24 PPQN clock and bar triggers.",
+      "description": "Expander for Meter with a 24 PPQN clock and bar triggers.",
       "manualUrl": "https://signalfunctionset.com/projects/meter-x/",
       "tags": [
         "Clock generator",
@@ -160,7 +160,7 @@
     {
       "slug": "Swell",
       "name": "Swell",
-      "description": "Ping-driven envelope: each ping stacks another rise.",
+      "description": "Envelope where each ping adds another rise on top.",
       "manualUrl": "https://signalfunctionset.com/projects/swell/",
       "tags": [
         "Envelope generator",
@@ -217,7 +217,7 @@
     {
       "slug": "Gravity",
       "name": "Gravity",
-      "description": "Chaos engine: pendulums, gravity wells, turtles and more.",
+      "description": "X/Y CV and gates from six chaotic motion models.",
       "manualUrl": "https://signalfunctionset.com/projects/gravity/",
       "tags": [
         "Low-frequency oscillator",
@@ -275,7 +275,7 @@
     {
       "slug": "Chance",
       "name": "Chance",
-      "description": "Generative melody: a seeded walk that strays and returns.",
+      "description": "Sequencer that plays a seeded melodic walk with random branches.",
       "manualUrl": "https://signalfunctionset.com/projects/chance/",
       "tags": [
         "Sequencer",
@@ -286,7 +286,7 @@
     {
       "slug": "Record",
       "name": "Record",
-      "description": "Auto-sampler: plays a voice and writes WAVs and an .sfz.",
+      "description": "Auto-sampler that plays a voice and writes WAVs and an .sfz.",
       "manualUrl": "https://signalfunctionset.com/projects/record/",
       "tags": [
         "Sampler",
@@ -307,7 +307,7 @@
     {
       "slug": "Ratio",
       "name": "Ratio",
-      "description": "Quad VCA: one signal to four outs at their own ratios.",
+      "description": "Quad VCA that sends one signal to four outputs at set ratios.",
       "tags": [
         "Voltage-controlled amplifier",
         "Quad",
@@ -319,7 +319,7 @@
     {
       "slug": "Arrange",
       "name": "Arrange",
-      "description": "Song-form sequencer: eight phrases with key and tempo.",
+      "description": "Song sequencer of eight phrases with their own key and tempo.",
       "manualUrl": "https://signalfunctionset.com/projects/arrange/",
       "tags": [
         "Sequencer",
@@ -331,7 +331,7 @@
     {
       "slug": "Fill",
       "name": "Fill",
-      "description": "Auto drum sequencer whose pressure builds into fills.",
+      "description": "Auto-playing drum sequencer that generates fills and variations.",
       "tags": [
         "Sequencer",
         "Drum",
@@ -353,7 +353,7 @@
     {
       "slug": "Crystal",
       "name": "Crystal",
-      "description": "3D echo chamber shaped like a real crystal, quad out.",
+      "description": "Echo chamber modelled on real crystal shapes, with four outputs.",
       "tags": [
         "Reverb",
         "Delay",
@@ -375,7 +375,7 @@
     {
       "slug": "Key",
       "name": "Key",
-      "description": "Quantizer that takes its key and scale from the patch.",
+      "description": "Four-channel quantizer that reads its root and scale as CV.",
       "tags": [
         "Quantizer",
         "Polyphonic",
@@ -385,7 +385,7 @@
     {
       "slug": "Slide",
       "name": "Slide",
-      "description": "Electric lap steel: eight strings stopped by a steel bar.",
+      "description": "Electric lap steel model with eight strings and a steel bar.",
       "tags": [
         "Physical modeling",
         "Synth voice",
@@ -395,7 +395,7 @@
     {
       "slug": "OpMorph",
       "name": "OP MORPH",
-      "description": "Expander for Operator: morph across DX7 routings.",
+      "description": "Expander for Operator that blends between DX7 algorithms.",
       "tags": [
         "Expander",
         "Oscillator",
@@ -405,7 +405,7 @@
     {
       "slug": "SlideX",
       "name": "SLIDE XP",
-      "description": "Expander for Slide: each string on its own jacks.",
+      "description": "Expander for Slide with a gate input and output per string.",
       "tags": [
         "Expander",
         "Polyphonic"
@@ -414,7 +414,7 @@
     {
       "slug": "Slice",
       "name": "Slice",
-      "description": "Cuts a stream into slices and reverses or stutters them.",
+      "description": "Cuts live audio into slices and reverses, repeats or reorders them.",
       "tags": [
         "Effect",
         "Sampler",
@@ -425,7 +425,7 @@
     {
       "slug": "Kit",
       "name": "Kit",
-      "description": "Eight modal drums: membranes and a two-plate hi-hat.",
+      "description": "Eight physically modelled drums, including a two-plate hi-hat.",
       "tags": [
         "Physical modeling",
         "Drum",
@@ -435,7 +435,7 @@
     {
       "slug": "PolyKitIn",
       "name": "PolyKit In",
-      "description": "Expander for Kit: every input of every drum as a jack.",
+      "description": "Expander for Kit with a jack for every input of every drum.",
       "tags": [
         "Expander",
         "Drum",
@@ -445,7 +445,7 @@
     {
       "slug": "Field",
       "name": "Field",
-      "description": "Nineteen random voltages read from one smooth field.",
+      "description": "Nineteen random voltages sampled from one smooth noise field.",
       "tags": [
         "Random",
         "Polyphonic",
@@ -456,7 +456,7 @@
     {
       "slug": "Trace",
       "name": "Trace",
-      "description": "A paper loop and four brushes for drawing CVs.",
+      "description": "Four CV lanes on a scrolling loop, drawn by mouse or by CV.",
       "tags": [
         "Controller",
         "Low-frequency oscillator",
@@ -478,7 +478,7 @@
     {
       "slug": "Touch",
       "name": "Touch",
-      "description": "Articulates a melody: picked, slid, hammered or pedalled.",
+      "description": "Adds slides, hammer-ons and re-picks to a V/OCT and gate melody.",
       "tags": [
         "Sequencer",
         "Utility"
@@ -488,7 +488,7 @@
     {
       "slug": "Wheel",
       "name": "Wheel",
-      "description": "Hurdy-gurdy drone: one wheel bows six strings at once.",
+      "description": "Hurdy-gurdy drone model with six strings and a cranked wheel.",
       "tags": [
         "Oscillator",
         "Polyphonic",
@@ -498,7 +498,7 @@
     {
       "slug": "Helix",
       "name": "Helix",
-      "description": "Barber-pole phaser whose notches climb without end.",
+      "description": "Barber-pole phaser with notches locked to the harmonic series.",
       "tags": [
         "Effect",
         "Phaser",
@@ -509,7 +509,7 @@
     {
       "slug": "Brigade",
       "name": "Brigade",
-      "description": "Bucket brigade that moves sound up the spectrum.",
+      "description": "Shifts audio upward through frequency bands, softer at each step.",
       "tags": [
         "Effect",
         "Filter",
@@ -520,7 +520,7 @@
     {
       "slug": "Spool",
       "name": "Spool",
-      "description": "Four short tapes played by gates, never rewound.",
+      "description": "Four-tape sampler where each tape resumes from where it stopped.",
       "tags": [
         "Sampler",
         "Polyphonic",
@@ -530,7 +530,7 @@
     {
       "slug": "Flock",
       "name": "Flock",
-      "description": "A murmuration as a granular voice: birds call in grains.",
+      "description": "Granular voice driven by a simulated flock of birds.",
       "tags": [
         "Granular",
         "Synth voice",
@@ -540,7 +540,7 @@
     {
       "slug": "FlockIn",
       "name": "Flock In",
-      "description": "Expander for Flock: live audio for the birds to sing.",
+      "description": "Expander for Flock that feeds live audio to its grains.",
       "tags": [
         "Expander",
         "Granular",
@@ -550,7 +550,7 @@
     {
       "slug": "Canon",
       "name": "Canon",
-      "description": "Four arpeggiators reading one chord progression.",
+      "description": "Four arpeggiators playing from one chord progression.",
       "tags": [
         "Arpeggiator",
         "Sequencer",
@@ -560,7 +560,7 @@
     {
       "slug": "Count",
       "name": "Count",
-      "description": "A narrow clock: six outputs, each a rate and a mask.",
+      "description": "Clock with six gate outputs set by rate and step mask.",
       "tags": [
         "Clock generator",
         "Clock modulator",
@@ -570,7 +570,7 @@
     {
       "slug": "Carillon",
       "name": "Carillon",
-      "description": "Bells joined by rods: a strike ripples down the set.",
+      "description": "Modelled bells that pass a strike along rods you draw.",
       "tags": [
         "Physical modeling",
         "Synth voice",
@@ -580,7 +580,7 @@
     {
       "slug": "Strata",
       "name": "Strata",
-      "description": "A wavetable voice you travel through in three dimensions.",
+      "description": "Wavetable voice that reads from a 3D grid of frames.",
       "tags": [
         "Oscillator",
         "Polyphonic"
@@ -593,6 +593,46 @@
       "tags": [
         "Reverb",
         "Effect"
+      ]
+    },
+    {
+      "slug": "Hocket",
+      "name": "Hocket",
+      "description": "Routes one line of notes or audio to eight channels in turn.",
+      "tags": [
+        "Switch",
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Concrete",
+      "name": "Concr\u00e8te",
+      "description": "Four-lane clip sampler on a 1-8 bar tape loop with automation.",
+      "tags": [
+        "Sampler",
+        "Sequencer",
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "ConcreteIn",
+      "name": "Concr\u00e8te In",
+      "description": "Expander for Concr\u00e8te that records each lane from its own input.",
+      "tags": [
+        "Sampler",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "Canopy",
+      "name": "Canopy",
+      "description": "Steel tongue drum played by drops falling through leaves you place.",
+      "tags": [
+        "Drum",
+        "Physical modeling",
+        "Polyphonic",
+        "Random"
       ]
     }
   ]
