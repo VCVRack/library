@@ -2859,5 +2859,19 @@
     "vcvUrl": "https://library.vcvrack.com/HappyNerding/FxAid",
     "mgUrl": "https://modulargrid.net/e/happy-nerding-fx-aid-black",
     "mgModuleId": 23811
+  },
+  {
+    "pluginSlug": "CVfunk",
+    "moduleSlug": "Fuzzy",
+    "vcvUrl": "https://library.vcvrack.com/CVfunk/Fuzzy",
+    "mgUrl": "https://modulargrid.net/p/vox-tone-bender-mkii",
+    "mgModuleId": 17283
+  },
+  {
+    "pluginSlug": "CVfunk",
+    "moduleSlug": "Vega",
+    "vcvUrl": "https://library.vcvrack.com/CVfunk/Vega",
+    "mgUrl": "https://modulargrid.net/e/behringer-toro",
+    "mgModuleId": 43748
   }
 ]
