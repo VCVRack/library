@@ -12,16 +12,16 @@ All of your modules should be contained in a single plugin, unless there are tec
 
 Include the following information in the issue body:
 - Git URL (for example, https://github.com/VCVRack/Fundamental)
-- commit hash you wish to publish (for example, e0ade9a23a9b41124ea3f4ec9aa2cb0b98c2529e)
+- Commit hash you wish to publish (for example, e0ade9a23a9b41124ea3f4ec9aa2cb0b98c2529e)
 
-A Library maintainer will handle your request and close your issue when published or additional information is required.
+A Library maintainer will handle your request and close the issue after publishing your plugin or requesting additional information.
 
 **To publish an update of your plugin**, increment the `"version"` in your `plugin.json` file.
-In your *existing* plugin issue thread, comment the commit hash you wish to publish.
+In your *existing* plugin issue, post a comment with the commit hash you wish to publish.
 A Library maintainer will handle your request.
 
 
 ## Adding your closed-source plugin to the VCV Library
 
-To publish your **closed-source freeware** or **premium/commercial** plugin on the VCV Library, contact [VCV Support](https://vcvrack.com/support) and we will send details to publish your closed-source plugin on the VCV Library.
+To publish your **closed-source freeware** or **premium/commercial** plugin on the VCV Library, contact [VCV Support](https://vcvrack.com/support) for submission instructions.
 You do *not* need to open an issue in this repository.
