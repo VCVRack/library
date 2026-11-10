@@ -19564,5 +19564,20 @@
         "creationTimestamp": 1794311213
       }
     }
+  },
+  "Jezric": {
+    "buildTimestamp": 1794312156,
+    "creationTimestamp": 1794312156,
+    "modules": {
+      "Talea": {
+        "creationTimestamp": 1794312156
+      },
+      "TaleaOut": {
+        "creationTimestamp": 1794312156
+      },
+      "TaleaIn": {
+        "creationTimestamp": 1794312156
+      }
+    }
   }
 }

@@ -1263,3 +1263,6 @@
 [submodule "repos/Wireworks"]
 	path = repos/Wireworks
 	url = https://github.com/triode-the-andrewsarchus/vcv-wireworks
+[submodule "repos/Jezric"]
+	path = repos/Jezric
+	url = https://github.com/Bezmont/Talea
