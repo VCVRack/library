@@ -1260,3 +1260,6 @@
 [submodule "repos/PlanBStudio"]
 	path = repos/PlanBStudio
 	url = https://github.com/Zhihan-audio/PlanBStudio-VCV
+[submodule "repos/Wireworks"]
+	path = repos/Wireworks
+	url = https://github.com/triode-the-andrewsarchus/vcv-wireworks
