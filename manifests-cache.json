@@ -5080,7 +5080,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1794124068,
+    "buildTimestamp": 1794313079,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -5253,6 +5253,21 @@
       },
       "COPIA": {
         "creationTimestamp": 1794124068
+      },
+      "FILTRE": {
+        "creationTimestamp": 1794313079
+      },
+      "ACIDE": {
+        "creationTimestamp": 1794313079
+      },
+      "RICOCHET": {
+        "creationTimestamp": 1794313079
+      },
+      "DOSE": {
+        "creationTimestamp": 1794313079
+      },
+      "SAISON": {
+        "creationTimestamp": 1794313079
       }
     }
   },

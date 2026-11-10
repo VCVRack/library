@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "license": "GPL-3.0-or-later",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -359,6 +359,49 @@
       ]
     },
     {
+      "slug": "FILTRE",
+      "name": "FiLTRe",
+      "description": "The 71 filter types of the Potion synth, with a screen showing the spectrum of the signal and the curve of the filter",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#filtre",
+      "tags": [
+        "Filter",
+        "Polyphonic",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "ACIDE",
+      "name": "aCiDe",
+      "description": "Mono acid bass voice: saw or square oscillator, diode ladder filter, envelopes, accent and slide",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#acide",
+      "tags": [
+        "Synth voice",
+        "Oscillator",
+        "Filter"
+      ]
+    },
+    {
+      "slug": "RICOCHET",
+      "name": "rICOcHEt",
+      "description": "Stereo delay with character: digital, tape, BBD, lo-fi, diffuse and reverse, clock sync, ping-pong, freeze",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#ricochet",
+      "tags": [
+        "Delay",
+        "Effect",
+        "Stereo"
+      ]
+    },
+    {
+      "slug": "DOSE",
+      "name": "dOSE",
+      "description": "Polyphonic VCA with an envelope curve from short to long",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#dose",
+      "tags": [
+        "VCA",
+        "Polyphonic"
+      ]
+    },
+    {
       "slug": "HCTIP",
       "name": "HCTIP",
       "description": "Pitch shifter",
@@ -470,6 +513,15 @@
       "name": "HUITre",
       "description": "Pattern launcher",
       "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#huitre",
+      "tags": [
+        "Controller"
+      ]
+    },
+    {
+      "slug": "SAISON",
+      "name": "sAiSOn",
+      "description": "Pattern launcher with 16 slots",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#saison",
       "tags": [
         "Controller"
       ]
