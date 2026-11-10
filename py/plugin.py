@@ -354,12 +354,6 @@ class Plugin:
 		else:
 			if plugin_slug != library_manifest["slug"]:
 				warnings.append(f"Plugin slug changed from `{library_manifest['slug']}` to `{plugin_slug}`, which breaks existing patches that use this plugin. Restore the original slug `{library_manifest['slug']}`.")
-			if new_module_slugs:
-				new_module_slugs_string = format_items(f"`{slug}`" for slug in sorted(new_module_slugs))
-				if len(new_module_slugs) == 1:
-					warnings.append(f"Module {new_module_slugs_string} is new.")
-				else:
-					warnings.append(f"Modules {new_module_slugs_string} are new.")
 			removed_module_slugs = library_module_slugs - module_slugs
 			if removed_module_slugs:
 				slugs_string = format_items(f"`{slug}`" for slug in sorted(removed_module_slugs))
@@ -367,6 +361,12 @@ class Plugin:
 					warnings.append(f"Module {slugs_string} has been removed, which breaks existing patches that use it. Restore the module with its original slug.")
 				else:
 					warnings.append(f"Modules {slugs_string} have been removed, which breaks existing patches that use them. Restore the modules with their original slugs.")
+		if new_module_slugs:
+			new_module_slugs_string = format_items(f"`{slug}`" for slug in sorted(new_module_slugs))
+			if len(new_module_slugs) == 1:
+				warnings.append(f"Module {new_module_slugs_string} is new.")
+			else:
+				warnings.append(f"Modules {new_module_slugs_string} are new.")
 		return warnings
 
 	def review_manifest_urls(self):
