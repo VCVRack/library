@@ -1,0 +1,58 @@
+{
+  "slug": "OrmerModularFree",
+  "name": "Ormer Modular Free",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "manualUrl": "https://ormer.dev/",
+  "brand": "Ormer Modular",
+  "author": "Ormer Modular",
+  "authorEmail": "support@ormer.dev",
+  "authorUrl": "https://github.com/ormermodular",
+  "pluginUrl": "https://ormer.dev/",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Strait",
+      "name": "Strait",
+      "description": "Stereo filter whose two sides can drift apart. LP, BP and HP at once, with SPREAD and DRIFT.",
+      "manualUrl": "https://ormermodular.github.io/strait/vcv/",
+      "tags": [
+        "Filter",
+        "Stereo"
+      ]
+    },
+    {
+      "slug": "Mult",
+      "name": "Mult",
+      "description": "2HP chance mult. One input, four outputs; each output has its own chance of passing every incoming hit. Polyphonic.",
+      "manualUrl": "https://ormermodular.github.io/mult/vcv/",
+      "tags": [
+        "Utility",
+        "Polyphonic",
+        "Random",
+        "Splitter"
+      ]
+    },
+    {
+      "slug": "Eddy",
+      "name": "Eddy",
+      "description": "A generative shift register: one loop of random voltage read at eight taps. DRIFT decides how often it changes as it comes round.",
+      "manualUrl": "https://ormermodular.github.io/eddy/vcv/",
+      "tags": [
+        "Sequencer",
+        "Random"
+      ]
+    },
+    {
+      "slug": "EddyGates",
+      "name": "Eddy Gates",
+      "description": "The gate expander for Eddy: eight gates, one per tap, high while the tap is above a threshold, or a trigger as it rises through it. Sits on Eddy's right.",
+      "manualUrl": "https://ormermodular.github.io/eddy/vcv/",
+      "tags": [
+        "Expander",
+        "Logic"
+      ]
+    }
+  ]
+}
