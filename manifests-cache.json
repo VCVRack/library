@@ -18810,7 +18810,7 @@
     }
   },
   "OrmerModular": {
-    "buildTimestamp": 1791396253.275499,
+    "buildTimestamp": 1794328221,
     "creationTimestamp": 1789417375.734973,
     "modules": {
       "Shoal": {
@@ -18821,6 +18821,18 @@
       },
       "ShoalExpander": {
         "creationTimestamp": 1789417375.8826838
+      },
+      "Fluke": {
+        "creationTimestamp": 1794328221
+      },
+      "Haar": {
+        "creationTimestamp": 1794328221
+      },
+      "Wake": {
+        "creationTimestamp": 1794328221
+      },
+      "Harbour": {
+        "creationTimestamp": 1794328221
       }
     }
   },

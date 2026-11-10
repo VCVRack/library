@@ -1,15 +1,14 @@
 {
   "slug": "OrmerModular",
-  "name": "Shoal",
-  "version": "2.0.6",
+  "name": "Ormer Modular",
+  "version": "2.1.0",
   "license": "proprietary",
+  "manualUrl": "https://ormer.dev/",
   "brand": "Ormer Modular",
   "author": "Ormer Modular",
   "authorEmail": "support@ormer.dev",
   "authorUrl": "https://github.com/ormermodular",
   "pluginUrl": "https://ormer.dev/",
-  "manualUrl": "https://ormermodular.github.io/shoal-vcv/",
-  "sourceUrl": "",
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
@@ -17,7 +16,7 @@
       "slug": "Shoal",
       "name": "Shoal",
       "description": "8-track generative melody sequencer. Melodies grown from seeds, never stored.",
-      "manualUrl": "https://ormermodular.github.io/shoal-vcv/",
+      "manualUrl": "https://ormermodular.github.io/shoal/vcv/",
       "tags": [
         "Sequencer",
         "Polyphonic",
@@ -25,23 +24,63 @@
       ]
     },
     {
-      "slug": "ShoalOuts",
-      "name": "Shoal Outs",
-      "description": "Per-track Currents (seeded drift CV) and end-of-sequence triggers; sits either side of Shoal.",
-      "manualUrl": "https://ormermodular.github.io/shoal-vcv/",
+      "slug": "ShoalExpander",
+      "name": "Shoal Expander",
+      "description": "12 CV inputs to modulate any track; chainable; sits either side of Shoal.",
+      "manualUrl": "https://ormermodular.github.io/shoal/vcv/",
       "tags": [
         "Expander",
         "Sequencer"
       ]
     },
     {
-      "slug": "ShoalExpander",
-      "name": "Shoal Expander",
-      "description": "12 CV inputs to modulate any track; chainable; sits either side of Shoal.",
-      "manualUrl": "https://ormermodular.github.io/shoal-vcv/",
+      "slug": "ShoalOuts",
+      "name": "Shoal Outs",
+      "description": "Per-track Currents (seeded drift CV) and end-of-sequence triggers; sits either side of Shoal.",
+      "manualUrl": "https://ormermodular.github.io/shoal/vcv/",
       "tags": [
         "Expander",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Fluke",
+      "name": "Fluke",
+      "description": "Random voltages, free until you catch one you like. Eight tracks of random CV that become loops when you catch them.",
+      "manualUrl": "https://ormermodular.github.io/fluke/vcv/",
+      "tags": [
+        "Random",
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Haar",
+      "name": "Haar",
+      "description": "Lush algorithmic stereo reverb. Cold sea fog: smeared, blooming, dark on top.",
+      "manualUrl": "https://ormermodular.github.io/haar/vcv/",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Wake",
+      "name": "Wake",
+      "description": "Ambient delay. Echoes trail behind the sound like a ship's wake, never quite the same way twice.",
+      "manualUrl": "https://ormermodular.github.io/wake/vcv/",
+      "tags": [
+        "Delay",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "Harbour",
+      "name": "Harbour",
+      "description": "A four-channel stereo mixer with two send and return loops, that can breathe on its own.",
+      "manualUrl": "https://ormermodular.github.io/harbour/vcv/",
+      "tags": [
+        "Mixer",
+        "Panning"
       ]
     }
   ]
