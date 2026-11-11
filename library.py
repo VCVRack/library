@@ -383,9 +383,9 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 				if len(issues) != 1:
 					raise RuntimeError(f'Expected one issue titled "{slug}", found {len(issues)}.')
 				url = issues[0]["url"]
-				webbrowser.open(url)
 				message = f"Published {slug} {plugin.get_version()} at https://library.vcvrack.com/{slug}"
 				run_retry("gh", "issue", "close", url, "--comment", message)
+				webbrowser.open(url)
 			except Exception as exception:
 				warn(f"Could not post publication comment for {plugin.get_slug()}: {exception}")
 
