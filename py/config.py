@@ -20,7 +20,7 @@ PLUGIN_BINARY_FILENAMES = {
 
 LARGE_FILE_SIZE = 1024 * 1024
 BINARY_EXTENSIONS = {".dll", ".so", ".dylib", ".exe", ".elf", ".a", ".lib", ".o", ".obj", ".zip", ".tar", ".gz", ".tgz", ".bz2", ".xz", ".7z", ".rar", ".zst", ".vcvplugin"}
-JUNK_ENTRIES = {".DS_Store", "Thumbs.db", ".env", ".git", ".vscode", ".idea", ".vs", ".eclipse", ".settings", "node_modules", "__pycache__", ".vagrant", "build", "dist", "dep"}
+JUNK_ENTRIES = {".DS_Store", "Thumbs.db", ".env", ".git", ".vscode", ".idea", ".vs", ".eclipse", ".settings", "node_modules", "__pycache__", ".vagrant", "build", "dist"}
 
 REPOS_DIR = "repos"
 MANIFESTS_DIR = "manifests"
