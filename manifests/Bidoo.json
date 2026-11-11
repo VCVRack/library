@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "license": "GPL-3.0-or-later",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -398,6 +398,29 @@
       "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#dose",
       "tags": [
         "VCA",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "REGISTRE",
+      "name": "rEgIStRE",
+      "description": "Indexed four-track sequencer: steps hold indices into voltage tables, with patterns, parts, groups, MATH and recording",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#registre",
+      "tags": [
+        "Sequencer",
+        "Polyphonic",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "PARTICULES",
+      "name": "pARtiCuLeS",
+      "description": "Granular player: grains from a live or loaded buffer, free or clocked, shaped, pitched by V/O, through a shimmer reverb",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#particules",
+      "tags": [
+        "Granular",
+        "Sampler",
+        "Reverb",
         "Polyphonic"
       ]
     },

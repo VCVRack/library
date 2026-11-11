@@ -5080,7 +5080,7 @@
     }
   },
   "Bidoo": {
-    "buildTimestamp": 1794313079,
+    "buildTimestamp": 1794420624,
     "creationTimestamp": 1518016501.0,
     "modules": {
       "vOId": {
@@ -5268,6 +5268,12 @@
       },
       "SAISON": {
         "creationTimestamp": 1794313079
+      },
+      "REGISTRE": {
+        "creationTimestamp": 1794420624
+      },
+      "PARTICULES": {
+        "creationTimestamp": 1794420624
       }
     }
   },
