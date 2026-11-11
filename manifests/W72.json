@@ -1,7 +1,7 @@
 {
   "slug": "W72",
   "name": "W72",
-  "version": "2.10.0",
+  "version": "2.11.1",
   "license": "GPL-3.0-or-later",
   "brand": "W72",
   "author": "WinterOf72",
@@ -67,6 +67,16 @@
       "tags": [
         "Delay",
         "Expander",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Barbapedana",
+      "name": "Barbapedana",
+      "description": "A 16-step sequencer crossed with a random loop: each step is yours by a chance you set, and anchors capture the loop's notes.",
+      "manualUrl": "https://github.com/sensolab/w72-rack-plugin/blob/main/docs/modules/barbapedana.md",
+      "tags": [
+        "Sequencer",
         "Random"
       ]
     }
