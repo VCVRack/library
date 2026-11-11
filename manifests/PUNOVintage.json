@@ -1,0 +1,169 @@
+{
+  "slug": "PUNOVintage",
+  "name": "PUNO VINTAGE",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "PUNO Electronic Instruments",
+  "author": "Pietro Bevilacqua",
+  "description": "PUNO VINTAGE modular instrument series.",
+  "manualUrl": "https://puno-electronic-instruments.github.io/PUNO-Vintage-Manual/",
+  "modules": [
+    {
+      "slug": "ORIGIN",
+      "name": "ORIGIN VCO",
+      "description": "Voltage-controlled oscillator with triangle, sawtooth and pulse waveforms, pulse-width modulation and two pitch modulation inputs.",
+      "tags": [
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "FORM",
+      "name": "FORM VCF",
+      "description": "Resonant four-pole low-pass filter with three audio inputs, three cutoff CV inputs and a separate output with switchable high-pass filtering.",
+      "tags": [
+        "Filter"
+      ]
+    },
+    {
+      "slug": "DYN",
+      "name": "DYN VCA",
+      "description": "VCA with a three-input audio mixer, three gain CV inputs and selectable linear or exponential response.",
+      "tags": [
+        "Voltage-controlled amplifier"
+      ]
+    },
+    {
+      "slug": "CONTOUR",
+      "name": "CONTOUR ADSR",
+      "description": "ADSR envelope generator with a manual gate button and positive and inverted outputs.",
+      "tags": [
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "CYCLE",
+      "name": "CYCLE LFO",
+      "description": "LFO with four waveforms, three frequency ranges and adjustable fade-in.",
+      "tags": [
+        "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "FUSE",
+      "name": "FUSE RING",
+      "description": "Bipolar ring modulator with two inputs, no input normalizations and one output.",
+      "tags": [
+        "Ring modulator"
+      ]
+    },
+    {
+      "slug": "HISS",
+      "name": "HISS NOISE",
+      "description": "White and pink noise generator with two identical outputs for each noise source.",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
+      "slug": "DRIFT",
+      "name": "DRIFT S&H",
+      "description": "Sample and hold with internal white noise, internal clock, external sampling clock override and adjustable lag.",
+      "tags": [
+        "Sample and hold",
+        "Random",
+        "Clock generator",
+        "Slew limiter"
+      ]
+    },
+    {
+      "slug": "BLEND",
+      "name": "BLEND MIXER",
+      "description": "Four-input mixer with duplicate sum and inverted outputs; inputs 3 and 4 are normalled to +10 V and -10 V, respectively.",
+      "tags": [
+        "Mixer",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "GLIDE",
+      "name": "GLIDE PORTA",
+      "description": "Single-channel exponential portamento with a TIME slider and an LED indicating the time setting.",
+      "tags": [
+        "Slew limiter",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "PASS",
+      "name": "PASS GATE",
+      "description": "Two independent signal gates with active-high and active-low CV inputs and OPEN indicators.",
+      "tags": [
+        "Switch",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "BRANCH",
+      "name": "BRANCH MULTIPLE",
+      "description": "Six independent multiples, each with one input and two identical outputs.",
+      "tags": [
+        "Multiple",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "SWIRL",
+      "name": "SWIRL PHASER",
+      "description": "Six-stage phaser with an internal triangle LFO and an external modulation CV input.",
+      "tags": [
+        "Phaser",
+        "Low-frequency oscillator",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "ECHO",
+      "name": "ECHO DELAY",
+      "description": "Short audio delay from 1 to 7 ms with a triangle LFO, feedback and effect bypass.",
+      "tags": [
+        "Delay",
+        "Low-frequency oscillator",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "SHIFT",
+      "name": "SHIFT GATE DELAY",
+      "description": "Gate delay with adjustable threshold, delay and gate duration, and a 10 V output.",
+      "tags": [
+        "Delay",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "STRIDE",
+      "name": "STRIDE SEQUENCER",
+      "description": "Two-channel, eight-step sequencer with parallel operation or a series sequence of up to 16 steps on CV 1.",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "TONE",
+      "name": "TONE EQ",
+      "description": "Four-band parametric EQ with two identical outputs, bypass and SIGNAL/CLIP indicators.",
+      "tags": [
+        "Equalizer"
+      ]
+    },
+    {
+      "slug": "MAIN",
+      "name": "MAIN MIXER OUTPUT",
+      "description": "Four-channel stereo mixer with pan controls, faders, a reference oscillator and independent master and phones levels; no input normalizations.",
+      "tags": [
+        "Mixer",
+        "Panning"
+      ]
+    }
+  ]
+}
