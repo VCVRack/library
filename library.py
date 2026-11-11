@@ -141,7 +141,7 @@ def get_repo_commit_paths(plugins):
 	return commit_paths
 
 
-def review(paths=None, commit=None, repo_url=None, publish=False):
+def review(paths=None, commit=None, repo_url=None):
 	info("Pulling library repo")
 	run_retry("git", "pull")
 
@@ -265,27 +265,19 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 			return
 
 		update_message = format_items(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
-		if publish:
-			choose(f"Press Enter to publish the following plugins: {update_message}", "\n")
-			published_plugins = []
-			for plugin in reviewed_plugins:
-				try:
-					plugin.copy_manuals()
-					plugin.publish_packages()
-					published_plugins.append(plugin)
-				except Exception as exception:
-					error(f"{plugin.get_slug()}: {exception}")
-					choose("[r]eject: ", "r")
-			reviewed_plugins = published_plugins
-			if not reviewed_plugins:
-				return
-		else:
-			commit_paths = get_repo_commit_paths(reviewed_plugins)
-			if not commit_paths:
-				return
-			info(f"Commit and push the following plugins to the library: {update_message}")
-			if choose("[a]pprove, [r]eject: ", "ar") == "r":
-				return
+		choose(f"Press Enter to publish the following plugins: {update_message}", "\n")
+		published_plugins = []
+		for plugin in reviewed_plugins:
+			try:
+				plugin.copy_manuals()
+				plugin.publish_packages()
+				published_plugins.append(plugin)
+			except Exception as exception:
+				error(f"{plugin.get_slug()}: {exception}")
+				choose("[r]eject: ", "r")
+		reviewed_plugins = published_plugins
+		if not reviewed_plugins:
+			return
 
 		for plugin in reviewed_plugins:
 			plugin.accept_repo()
@@ -296,68 +288,61 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 			except Exception as exception:
 				warn(f"Could not restore {plugin.source_dir!r}. {exception}")
 
-	if publish:
-		commit_paths = get_repo_commit_paths(reviewed_plugins)
+	commit_paths = get_repo_commit_paths(reviewed_plugins)
 
-		# Update manifest cache
-		info("Updating manifest cache")
-		manifest_cache.refresh_cache(reviewed_plugins)
+	# Update manifest cache
+	info("Updating manifest cache")
+	manifest_cache.refresh_cache(reviewed_plugins)
 
-		# Update ModularGrid database
-		while True:
-			try:
-				info("Updating ModularGrid database")
-				modulargrid.update(reviewed_plugins)
+	# Update ModularGrid database
+	while True:
+		try:
+			info("Updating ModularGrid database")
+			modulargrid.update(reviewed_plugins)
+			break
+		except Exception as exception:
+			warn(exception)
+			if choose("[r]etry, [i]gnore: ", "ri") == "i":
 				break
-			except Exception as exception:
-				warn(exception)
-				if choose("[r]etry, [i]gnore: ", "ri") == "i":
-					break
 
-		# Delete plugin's old screenshots
-		for plugin in reviewed_plugins:
-			screenshots_dir = os.path.join(config.RACK_SCREENSHOTS_DIR, plugin.get_slug())
-			try:
-				shutil.rmtree(screenshots_dir)
-			except FileNotFoundError:
-				pass
-		info("Generating screenshots with Rack")
-		run_retry("./Rack", "-t", "4", cwd=config.RACK_SYSTEM_DIR)
+	# Delete plugin's old screenshots
+	for plugin in reviewed_plugins:
+		screenshots_dir = os.path.join(config.RACK_SCREENSHOTS_DIR, plugin.get_slug())
+		try:
+			shutil.rmtree(screenshots_dir)
+		except FileNotFoundError:
+			pass
+	info("Generating screenshots with Rack")
+	run_retry("./Rack", "-t", "4", cwd=config.RACK_SYSTEM_DIR)
 
-		# Resize screenshots
-		info("Resizing screenshots")
-		run_retry("make", f"-j{os.cpu_count() or 1}", cwd=config.SCREENSHOTS_DIR)
+	# Resize screenshots
+	info("Resizing screenshots")
+	run_retry("make", f"-j{os.cpu_count() or 1}", cwd=config.SCREENSHOTS_DIR)
 
-		# Upload packages
-		info("Uploading packages")
-		run_retry("make", "upload", cwd=config.PACKAGES_DIR)
+	# Upload packages
+	info("Uploading packages")
+	run_retry("make", "upload", cwd=config.PACKAGES_DIR)
 
-		# Upload screenshots
-		info("Uploading screenshots")
-		run_retry("make", "upload", cwd=config.SCREENSHOTS_DIR)
+	# Upload screenshots
+	info("Uploading screenshots")
+	run_retry("make", "upload", cwd=config.SCREENSHOTS_DIR)
 
-		# Upload manuals
-		info("Uploading manuals")
-		run_retry("make", "upload", cwd=config.MANUALS_DIR)
+	# Upload manuals
+	info("Uploading manuals")
+	run_retry("make", "upload", cwd=config.MANUALS_DIR)
 
-		# Copy manifests to library
-		for plugin in reviewed_plugins:
-			path = os.path.join(config.MANIFESTS_DIR, f"{plugin.get_slug()}.json")
-			with open(path, "w", encoding="utf-8") as f:
-				json.dump(plugin.manifest, f, indent="  ")
-			commit_paths.add(path)
+	# Copy manifests to library
+	for plugin in reviewed_plugins:
+		path = os.path.join(config.MANIFESTS_DIR, f"{plugin.get_slug()}.json")
+		with open(path, "w", encoding="utf-8") as f:
+			json.dump(plugin.manifest, f, indent="  ")
+		commit_paths.add(path)
 
-		commit_paths.add(config.MANIFESTS_CACHE_FILE)
-		commit_paths.add(config.MODULARGRID_FILE)
+	commit_paths.add(config.MANIFESTS_CACHE_FILE)
+	commit_paths.add(config.MODULARGRID_FILE)
 
 	update_message = format_items(f"{plugin.get_slug()} {plugin.get_version()}" for plugin in reviewed_plugins)
-	if publish:
-		commit_message = f"Release {update_message}"
-	else:
-		if len(reviewed_plugins) == 1:
-			commit_message = f"Update submodule {update_message}"
-		else:
-			commit_message = f"Update submodules {update_message}"
+	commit_message = f"Update {update_message}"
 	if not commit_paths:
 		return
 
@@ -366,33 +351,28 @@ def review(paths=None, commit=None, repo_url=None, publish=False):
 	run("git", "commit", "--only", "-m", commit_message, "--", *commit_paths, capture_stderr=True)
 	info("Pushing library repo")
 	run_retry("git", "push")
-	if publish:
-		info(f"Published {update_message}.")
-	else:
-		info(f"Reviewed {update_message}.")
+	info(f"Published {update_message}.")
 
-	if publish:
-		for plugin in reviewed_plugins:
-			if not plugin.is_source_in_library():
-				continue
-			# Close the plugin's issue with a publication comment.
-			try:
-				slug = plugin.get_slug()
-				output = run("gh", "issue", "list", "--repo", "VCVRack/library", "--state", "all", "--search", f'in:title "{slug}"', "--limit", "1000", "--json", "title,url", capture_stdout=True, capture_stderr=True)
-				issues = [issue for issue in json.loads(output) if issue["title"].casefold() == slug.casefold()]
-				if len(issues) != 1:
-					raise RuntimeError(f'Expected one issue titled "{slug}", found {len(issues)}.')
-				url = issues[0]["url"]
-				message = f"Published {slug} {plugin.get_version()} at https://library.vcvrack.com/{slug}"
-				run_retry("gh", "issue", "close", url, "--comment", message)
-				webbrowser.open(url)
-			except Exception as exception:
-				warn(f"Could not post publication comment for {plugin.get_slug()}: {exception}")
+	for plugin in reviewed_plugins:
+		if not plugin.is_source_in_library():
+			continue
+		# Close the plugin's issue with a publication comment.
+		try:
+			slug = plugin.get_slug()
+			output = run("gh", "issue", "list", "--repo", "VCVRack/library", "--state", "all", "--search", f'in:title "{slug}"', "--limit", "1000", "--json", "title,url", capture_stdout=True, capture_stderr=True)
+			issues = [issue for issue in json.loads(output) if issue["title"].casefold() == slug.casefold()]
+			if len(issues) != 1:
+				raise RuntimeError(f'Expected one issue titled "{slug}", found {len(issues)}.')
+			url = issues[0]["url"]
+			message = f"Published {slug} {plugin.get_version()} at https://library.vcvrack.com/{slug}"
+			run_retry("gh", "issue", "close", url, "--comment", message)
+			webbrowser.open(url)
+		except Exception as exception:
+			warn(f"Could not post publication comment for {plugin.get_slug()}: {exception}")
 
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
-	parser.add_argument("-p", "--publish", action="store_true", help="Review plugins, then publish packages, screenshots, and library changes.")
 	parser.add_argument("paths", nargs="*", metavar="PATH", help=f"Plugin slugs, source directories, or .vcvplugin archives. With no paths, scan {config.REPOS_DIR} for new versions.")
 	parser.add_argument("-c", "--commit", metavar="HASH", help="Fetch and check out this commit in one source directory or slug.")
 	parser.add_argument("-g", "--git", dest="repo_url", metavar="URL", help="Clone a repository or change its URL.")
@@ -406,4 +386,4 @@ if __name__ == "__main__":
 	if len(sys.argv) == 1:
 		parser.print_help()
 		sys.exit()
-	review(args.paths, args.commit, args.repo_url, publish=args.publish)
+	review(args.paths, args.commit, args.repo_url)
