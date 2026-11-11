@@ -1,10 +1,10 @@
 {
   "slug": "VulcanAudio",
   "name": "Vulcan Audio",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "proprietary",
   "brand": "Vulcan Audio",
-  "author": "Cam Jones",
+  "author": "jamcones",
   "authorEmail": "",
   "authorUrl": "",
   "pluginUrl": "",
