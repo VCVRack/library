@@ -99,7 +99,7 @@
 	branch = master
 [submodule "repos/LOGinstruments"]
 	path = repos/LOGinstruments
-	url = https://github.com/leopard86/LOGinstruments
+	url = https://github.com/LOGUNIVPM/LOGinstruments
 	branch = master
 [submodule "repos/BaconMusic"]
 	path = repos/BaconMusic
