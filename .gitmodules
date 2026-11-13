@@ -1229,7 +1229,7 @@
 	url = https://github.com/antoniograzioli/Autodafe-VCV
 [submodule "repos/FilthAssembly"]
 	path = repos/FilthAssembly
-	url = https://github.com/villevaisanen/Contour
+	url = https://github.com/villevaisanen/Filth-Assembly-Modules
 [submodule "repos/Vulcanometry"]
 	path = repos/Vulcanometry
 	url = https://github.com/vulcanometry/Rack-Sequencer
