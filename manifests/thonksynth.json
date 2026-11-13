@@ -1,0 +1,38 @@
+{
+  "slug": "thonksynth",
+  "name": "Thonk Synth",
+  "version": "2.0.1",
+  "license": "proprietary",
+  "brand": "Thonk Synth",
+  "author": "Thonk Synth",
+  "modules": [
+    {
+      "slug": "BUF",
+      "name": "BUF",
+      "description": "4HP buffered multiple. Three normalled channels with bipolar voltage indicators. Polyphonic up to 16 channels",
+      "tags": [
+        "Utility",
+        "Multiple",
+        "Polyphonic",
+        "Hardware clone"
+      ],
+      "manualUrl": "https://www.thonk.co.uk/wp-content/uploads/2025/06/t06-BUF-Manual.pdf",
+      "modularGridUrl": "https://modulargrid.net/e/thonk-synth-t06-buf"
+    },
+    {
+      "slug": "MUL",
+      "name": "MUL",
+      "description": "4HP multiple. Three normalled channels. Polyphonic up to 16 channels",
+      "tags": [
+        "Utility",
+        "Multiple",
+        "Polyphonic",
+        "Hardware clone"
+      ],
+      "manualUrl": "https://www.thonk.co.uk/wp-content/uploads/2026/02/t09-MUL-Manual-v1.pdf",
+      "modularGridUrl": "https://modulargrid.net/e/thonk-synth-t09-mul"
+    }
+  ],
+  "authorUrl": "https://www.thonk.co.uk/",
+  "pluginUrl": "https://www.thonk.co.uk/product-tag/thonk-synth-product/"
+}

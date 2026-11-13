@@ -2873,5 +2873,19 @@
     "vcvUrl": "https://library.vcvrack.com/CVfunk/Vega",
     "mgUrl": "https://modulargrid.net/e/behringer-toro",
     "mgModuleId": 43748
+  },
+  {
+    "pluginSlug": "thonksynth",
+    "moduleSlug": "BUF",
+    "vcvUrl": "https://library.vcvrack.com/thonksynth/BUF",
+    "mgUrl": "https://modulargrid.net/e/thonk-synth-t06-buf",
+    "mgModuleId": 55146
+  },
+  {
+    "pluginSlug": "thonksynth",
+    "moduleSlug": "MUL",
+    "vcvUrl": "https://library.vcvrack.com/thonksynth/MUL",
+    "mgUrl": "https://modulargrid.net/e/thonk-synth-t09-mul",
+    "mgModuleId": 57483
   }
 ]
