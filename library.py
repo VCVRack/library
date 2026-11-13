@@ -351,21 +351,21 @@ def review(paths=None, commit=None, repo_url=None):
 	run("git", "commit", "--only", "-m", commit_message, "--", *commit_paths, capture_stderr=True)
 	info("Pushing library repo")
 	run_retry("git", "push")
-	info(f"Published {update_message}.")
 
 	for plugin in reviewed_plugins:
+		slug = plugin.get_slug()
+		publication_message = f"Published {slug} {plugin.get_version()} at https://library.vcvrack.com/{slug}"
+		print(publication_message)
 		if not plugin.is_source_in_library():
 			continue
 		# Close the plugin's issue with a publication comment.
 		try:
-			slug = plugin.get_slug()
 			output = run("gh", "issue", "list", "--repo", "VCVRack/library", "--state", "all", "--search", f'in:title "{slug}"', "--limit", "1000", "--json", "title,url", capture_stdout=True, capture_stderr=True)
 			issues = [issue for issue in json.loads(output) if issue["title"].casefold() == slug.casefold()]
 			if len(issues) != 1:
 				raise RuntimeError(f'Expected one issue titled "{slug}", found {len(issues)}.')
 			url = issues[0]["url"]
-			message = f"Published {slug} {plugin.get_version()} at https://library.vcvrack.com/{slug}"
-			run_retry("gh", "issue", "close", url, "--comment", message)
+			run_retry("gh", "issue", "close", url, "--comment", publication_message)
 			webbrowser.open(url)
 		except Exception as exception:
 			warn(f"Could not post publication comment for {plugin.get_slug()}: {exception}")
