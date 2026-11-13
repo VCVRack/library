@@ -1,10 +1,10 @@
 {
   "slug": "ImpossibleKnot",
   "name": "Impossible Knot",
-  "version": "2.0.14",
+  "version": "2.1.0",
   "license": "proprietary",
   "brand": "Impossible Knot",
-  "description": "Bloom stereo shimmer reverb and Tangle stereo wavefolder.",
+  "description": "Bloom shimmer reverb, Tangle stereo wavefolder and Faultline stereo glitch instrument.",
   "author": "Impossible Knot",
   "authorEmail": "hello@impossible-knot.com",
   "authorUrl": "https://impossible-knot.com",
@@ -25,7 +25,7 @@
     {
       "slug": "Tangle",
       "name": "Tangle",
-      "description": "Stereo wavefolder and saturator with CV over every shaping control, asymmetric stereo response, and cross-channel excitation.",
+      "description": "Stereo wavefolder with oversampled shaping, independent or coupled channels, bass protection and polyphonic audio/CV.",
       "tags": [
         "Distortion",
         "Effect",
@@ -33,6 +33,19 @@
         "Waveshaper"
       ],
       "manualUrl": "https://impossible-knot.com/tangle#manual"
+    },
+    {
+      "slug": "Faultline",
+      "name": "Faultline",
+      "description": "Nine-control stereo glitch instrument with clock divisions, 1\u201316 step patterns, five damage processors and audio-driven terrain",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Granular",
+        "Digital"
+      ],
+      "keywords": "faultline screen history repeats warp chance recall damage gesture geological",
+      "manualUrl": "https://impossible-knot.com/faultline#manual"
     }
   ]
 }
