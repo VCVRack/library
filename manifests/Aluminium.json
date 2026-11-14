@@ -1,7 +1,7 @@
 {
   "slug": "Aluminium",
   "name": "Aluminium",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "license": "GPL-3.0-or-later",
   "brand": "Aluminium",
   "description": "Live-performance modules for MIDI controllers: keyboard splits, expressive pad voices, and labeled faders and buttons driven by MIDI or the mouse alike, so a patch stays playable with or without its controllers plugged in.",
@@ -11,7 +11,7 @@
   "pluginUrl": "https://github.com/neilbgr/Aluminium",
   "manualUrl": "https://github.com/neilbgr/Aluminium/blob/main/README.md",
   "sourceUrl": "https://github.com/neilbgr/Aluminium",
-  "changelogUrl": "",
+  "changelogUrl": "https://github.com/neilbgr/Aluminium/blob/main/CHANGELOG.md",
   "donateUrl": "",
   "modules": [
     {
