@@ -1,0 +1,35 @@
+{
+  "slug": "XtremeSounds",
+  "name": "Xtreme Sounds",
+  "version": "2.2.18",
+  "license": "GPL-3.0-or-later",
+  "brand": "Xtreme Sounds",
+  "author": "Chris DuPont",
+  "description": "Free Xtreme Sounds modules for VCV Rack.",
+  "sourceUrl": "https://github.com/XtremeSounds/Xtreme-Sounds-Vcv-Rack-",
+  "manualUrl": "https://github.com/XtremeSounds/Xtreme-Sounds-Vcv-Rack-/blob/main/README.md",
+  "modules": [
+    {
+      "slug": "S8",
+      "name": "S8 Quantizer",
+      "description": "Polyphonic V/Oct quantizer with eight root/scale patterns, clock sequencing, intelligent harmony fill, and Auto-follow HOME.",
+      "tags": [
+        "Quantizer",
+        "Sequencer",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "FireHost",
+      "name": "Fire Host",
+      "description": "Akai Fire controller interface with polyphonic note outputs and assignable CV control.",
+      "tags": [
+        "MIDI",
+        "Controller",
+        "External",
+        "Polyphonic"
+      ],
+      "keywords": "Akai Fire FL Studio Fire pad controller velocity encoder MIDI CV"
+    }
+  ]
+}

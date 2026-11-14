@@ -1266,3 +1266,6 @@
 [submodule "repos/Jezric"]
 	path = repos/Jezric
 	url = https://github.com/Bezmont/Talea
+[submodule "repos/XtremeSounds"]
+	path = repos/XtremeSounds
+	url = https://github.com/XtremeSounds/Xtreme-Sounds-Vcv-Rack-
