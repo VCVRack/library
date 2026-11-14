@@ -239,15 +239,17 @@ class Plugin:
 		plugin_slug = self.get_slug()
 		warnings = []
 
-		# Check for "VCV", "Rack", and "Modules" in plugin slug and name.
+		# Check for "VCV" and "Rack" in plugin slug and name.
 		for key in ("slug", "name"):
-			for name in ("VCV", "Rack", "Modules"):
+			for name in ("VCV", "Rack"):
 				if name.casefold() not in manifest[key].casefold():
 					continue
-				if name == "Modules":
-					warnings.append(f'Plugin {key} `{manifest[key]}` contains the string "{name}". Every plugin is a collection of modules, so the string "{name}" is redundant and unnecessary.')
-				else:
-					warnings.append(f'Plugin {key} `{manifest[key]}` contains the string "{name}". All plugins in the VCV Library are for VCV Rack, so the string "{name}" is redundant and unnecessary.')
+				warnings.append(f'Plugin {key} `{manifest[key]}` contains the string "{name}". All plugins in the VCV Library are for VCV Rack, so the string "{name}" is redundant and unnecessary.')
+
+		# Check for "Modules" in plugin slug and name.
+		for key in ("slug", "name"):
+			if "modules" in manifest[key].casefold():
+				warnings.append(f'Plugin {key} `{manifest[key]}` contains the string "Modules". Every plugin is a collection of modules, so the string "Modules" is redundant and unnecessary.')
 
 		# Check plugin major version.
 		version_parts = self.get_version().split('.')
