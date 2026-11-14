@@ -1,7 +1,7 @@
 {
   "slug": "RobotBoy",
   "name": "Robot Boy",
-  "version": "2.4.1",
+  "version": "2.5.0",
   "license": "MIT",
   "sourceUrl": "https://github.com/gabriel-roth/RobotBoy",
   "manualUrl": "https://github.com/gabriel-roth/RobotBoy#readme",
@@ -85,6 +85,47 @@
       "tags": [
         "Visual",
         "Expander"
+      ]
+    },
+    {
+      "slug": "Skylark",
+      "name": "Skylark",
+      "description": "Shape modulator: structured recipes swept by Variation and reshaped by Timing, Lift, Symmetry, Tilt and Drift.",
+      "tags": [
+        "LFO",
+        "Envelope generator",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Weaver",
+      "name": "Weaver",
+      "description": "Shape modulator: three operators, or outside CV, woven together by one of eleven algorithms.",
+      "tags": [
+        "LFO",
+        "Envelope generator",
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Lyrebird",
+      "name": "Lyrebird",
+      "description": "Shape modulator: records a knob gesture or CV and plays it back in time, looped or one-shot, with punch-in and WAV files.",
+      "tags": [
+        "Recording",
+        "Controller",
+        "Envelope generator"
+      ]
+    },
+    {
+      "slug": "Tune",
+      "name": "Tune",
+      "description": "Tuner and scope with a V/oct output and an audio thru.",
+      "tags": [
+        "Tuner",
+        "Visual",
+        "Utility"
       ]
     }
   ]
