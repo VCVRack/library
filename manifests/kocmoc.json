@@ -1,7 +1,7 @@
 {
   "slug": "kocmoc",
   "name": "kocmoc",
-  "version": "2.0.8",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "kocmoc",
   "author": "janne808",
@@ -16,7 +16,7 @@
     {
       "slug": "SVF-1",
       "name": "SVF",
-      "description": "State Variable Filter",
+      "description": "State variable filter",
       "tags": [
         "Filter",
         "Polyphonic"
@@ -25,7 +25,7 @@
     {
       "slug": "uSVF",
       "name": "uSVF",
-      "description": "State Variable Filter",
+      "description": "State variable filter",
       "tags": [
         "Filter",
         "Polyphonic"
@@ -34,7 +34,7 @@
     {
       "slug": "TRG",
       "name": "TRG",
-      "description": "Trigger Sequencer",
+      "description": "Trigger sequencer",
       "tags": [
         "Sequencer"
       ]
@@ -42,7 +42,7 @@
     {
       "slug": "LADR",
       "name": "LADR",
-      "description": "4-pole Ladder Filter",
+      "description": "4-pole ladder filter",
       "tags": [
         "Filter",
         "Polyphonic"
@@ -51,7 +51,7 @@
     {
       "slug": "DIOD",
       "name": "DIOD",
-      "description": "4-pole Diode Ladder Filter",
+      "description": "4-pole diode ladder filter",
       "tags": [
         "Filter",
         "Polyphonic"
@@ -60,7 +60,16 @@
     {
       "slug": "uLADR",
       "name": "uLADR",
-      "description": "4-pole Ladder Filter",
+      "description": "4-pole ladder filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "uDIOD",
+      "name": "uDIOD",
+      "description": "4-pole diode ladder filter",
       "tags": [
         "Filter",
         "Polyphonic"
@@ -101,9 +110,26 @@
       ]
     },
     {
+      "slug": "uSKF",
+      "name": "uSKF",
+      "description": "Sallen-Key filter",
+      "tags": [
+        "Filter",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "uPLAT",
+      "name": "uPLAT",
+      "description": "Plate reverb",
+      "tags": [
+        "Reverb"
+      ]
+    },
+    {
       "slug": "DDLY",
       "name": "DDLY",
-      "description": "Digital Delay",
+      "description": "Digital delay",
       "tags": [
         "Delay"
       ]
