@@ -1272,3 +1272,6 @@
 [submodule "repos/gotnosoft"]
 	path = repos/gotnosoft
 	url = https://github.com/gotno/gtnosft-rack
+[submodule "repos/coastal"]
+	path = repos/coastal
+	url = https://github.com/vista747/coastal

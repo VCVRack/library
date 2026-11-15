@@ -19759,5 +19759,14 @@
         "creationTimestamp": 1794747058
       }
     }
+  },
+  "coastal": {
+    "buildTimestamp": 1794777618,
+    "creationTimestamp": 1794777618,
+    "modules": {
+      "daisy": {
+        "creationTimestamp": 1794777618
+      }
+    }
   }
 }
