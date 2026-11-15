@@ -1,0 +1,34 @@
+{
+  "slug": "gotnosoft",
+  "name": "gotnosoft",
+  "version": "2.0.3",
+  "license": "GPL-3.0-or-later",
+  "author": "gotno",
+  "authorEmail": "floyd.will@gmail.com",
+  "authorUrl": "https://gotno.net",
+  "pluginUrl": "https://github.com/gotno/gtnosft-rack",
+  "manualUrl": "https://github.com/gotno/gtnosft-rack",
+  "sourceUrl": "https://github.com/gotno/gtnosft-rack",
+  "donateUrl": "https://www.paypal.com/donate/?hosted_button_id=JNYYXZRD7DVRA",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Ctrl",
+      "name": "ctrl",
+      "description": "An OSC-based API for Rack simulations",
+      "tags": [
+        "External",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Tx",
+      "name": "Tx",
+      "description": "A network audio transmitter",
+      "tags": [
+        "External",
+        "Utility"
+      ]
+    }
+  ]
+}

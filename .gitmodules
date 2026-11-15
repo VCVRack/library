@@ -1269,3 +1269,6 @@
 [submodule "repos/XtremeSounds"]
 	path = repos/XtremeSounds
 	url = https://github.com/XtremeSounds/Xtreme-Sounds-Vcv-Rack-
+[submodule "repos/gotnosoft"]
+	path = repos/gotnosoft
+	url = https://github.com/gotno/gtnosft-rack
