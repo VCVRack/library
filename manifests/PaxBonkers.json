@@ -1,7 +1,7 @@
 {
   "slug": "PaxBonkers",
   "name": "PaxBonkers",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "pax.bonkers",
   "author": "pax.bonkers",
@@ -20,13 +20,13 @@
       "tags": [
         "Clock modulator"
       ],
-      "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV#escarpo"
+      "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV/blob/main/docs/Escarpo.md"
     },
     {
       "slug": "Lillebror",
       "name": "Lillebror",
       "description": "Three drum voices with wave morph and accent-shaped timbre. The little brother of Grids.",
-      "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV#lillebror",
+      "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV/blob/main/docs/Lillebror.md",
       "tags": [
         "Drum",
         "Synth voice"
@@ -36,11 +36,21 @@
       "slug": "Zenon",
       "name": "Zenon",
       "description": "Polymetric percussion: two 8-step tracks with their own length and destination drive a two-oscillator percussion voice. After Zeno's paradox of Achilles and the tortoise.",
-      "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV#zenon",
+      "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV/blob/main/docs/Zenon.md",
       "tags": [
         "Drum",
         "Sequencer",
         "Synth voice"
+      ]
+    },
+    {
+      "slug": "Morel",
+      "name": "Morel",
+      "description": "Records a moment, slices it by level and plays the slices from an 8-step sequencer, as hits or as grains. After Bioy Casares' The Invention of Morel.",
+      "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV/blob/main/docs/Morel.md",
+      "tags": [
+        "Sampler",
+        "Sequencer"
       ]
     }
   ]
