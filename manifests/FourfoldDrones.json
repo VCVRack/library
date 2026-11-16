@@ -1,0 +1,36 @@
+{
+  "slug": "FourfoldDrones",
+  "name": "Fourfold Drones",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Fourfold",
+  "author": "Benjamin Pesqueux",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/benjimixvidz",
+  "pluginUrl": "https://github.com/benjimixvidz/FourfoldNuee",
+  "manualUrl": "https://github.com/benjimixvidz/FourfoldNuee/blob/main/MANUAL.md",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Nuee",
+      "name": "Nu\u00e9e",
+      "description": "Stereo drone voice: 19 algorithms (modal chords, swarms, resonators, pulsars, folded sines, combs, partials) into a built-in space processor, with LFO and CV",
+      "tags": [
+        "Synth voice"
+      ],
+      "keywords": "drone texture ambient chords swarm resonator granular"
+    },
+    {
+      "slug": "Mod8",
+      "name": "MOD 8",
+      "description": "Modulation expander for Nu\u00e9e: 8 CV inputs, each assigned to a knob of the Nu\u00e9e on its left (click TARGET, then the knob). The knob does not move.",
+      "tags": [
+        "Expander",
+        "Utility"
+      ],
+      "keywords": "modulation expander cv nuee"
+    }
+  ]
+}
