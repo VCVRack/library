@@ -1,7 +1,7 @@
 {
   "slug": "Moffenzeef",
   "name": "Moffenzeef",
-  "version": "2.6.1",
+  "version": "2.7.0",
   "license": "GPL-3.0+",
   "brand": "Moffenzeef",
   "author": "Ross Fish",
@@ -302,6 +302,27 @@
         "granular",
         "controller",
         "Low-frequency oscillator"
+      ]
+    },
+    {
+      "slug": "TehomOut",
+      "name": "DIR. OUT",
+      "description": "Direct outputs expander for Tehom: stereo outputs for each deck",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Tehom%20User%20Manual.md",
+      "tags": [
+        "expander",
+        "mixer",
+        "utility"
+      ]
+    },
+    {
+      "slug": "TehomIn",
+      "name": "DIR. IN",
+      "description": "Direct inputs expander for Tehom: stereo inputs for each deck",
+      "manualUrl": "https://github.com/moffenzeefmodular/VCVrack-submission/blob/main/doc/manuals/Tehom%20User%20Manual.md",
+      "tags": [
+        "expander",
+        "utility"
       ]
     },
     {
