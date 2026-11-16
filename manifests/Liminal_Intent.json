@@ -1,0 +1,26 @@
+{
+  "slug": "Liminal_Intent",
+  "name": "Liminal_Intent",
+  "version": "2.0.0",
+  "license": "MIT",
+  "brand": "Liminal_Intent",
+  "author": "Liminal_Intent",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/DuckettccMixter",
+  "pluginUrl": "https://github.com/DuckettccMixter/Liminal-Intent",
+  "manualUrl": "https://github.com/DuckettccMixter/Liminal-Intent#readme",
+  "sourceUrl": "https://github.com/DuckettccMixter/Liminal-Intent",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "PulsaretPD",
+      "name": "Pulsaret PD",
+      "description": "Hybrid phase-distortion / pulsaret oscillator with a formant-locked secondary carrier",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    }
+  ]
+}
