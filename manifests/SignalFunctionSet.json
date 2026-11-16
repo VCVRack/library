@@ -1,7 +1,7 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.24.4",
+  "version": "2.25.0",
   "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
@@ -627,7 +627,7 @@
     {
       "slug": "Canopy",
       "name": "Canopy",
-      "description": "Steel tongue drum played by drops falling through leaves you place.",
+      "description": "Drops falling through leaves you place play a tongue drum, zither, pan and more.",
       "tags": [
         "Drum",
         "Physical modeling",
