@@ -339,7 +339,7 @@
     }
   },
   "AS-Seqs-n-Tools": {
-    "buildTimestamp": 1794132565,
+    "buildTimestamp": 1794855152,
     "creationTimestamp": 1523290734.0,
     "modules": {
       "ReCon": {
@@ -380,6 +380,9 @@
       },
       "ReSwing": {
         "creationTimestamp": 1794132565
+      },
+      "ReRatchet": {
+        "creationTimestamp": 1794855152
       }
     }
   },
@@ -1879,7 +1882,7 @@
     }
   },
   "AS-Drums-n-Filters": {
-    "buildTimestamp": 1726258580.4965024,
+    "buildTimestamp": 1794855152,
     "creationTimestamp": 1521738241.0,
     "modules": {
       "Drums8x8Kicks": {
@@ -1953,6 +1956,9 @@
       },
       "BlankPanel8Dark": {
         "creationTimestamp": 1561226972.0
+      },
+      "ParaEQ3": {
+        "creationTimestamp": 1794855152
       }
     }
   },

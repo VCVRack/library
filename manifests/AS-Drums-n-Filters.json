@@ -1,20 +1,19 @@
 {
   "slug": "AS-Drums-n-Filters",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "license": "proprietary",
   "name": "AS Drums n Filters",
   "brand": "AS",
   "author": "Alfredo Santamaria",
   "authorEmail": "ascustomworks@gmail.com",
-  "pluginUrl": "http://www.hakken.com.mx/ascustomworks/",
-  "authorUrl": "http://www.hakken.com.mx/ascustomworks/",
-  "manualUrl": "",
+  "pluginUrl": "https://ascustomworks.github.io/drums-n-filters/",
+  "authorUrl": "https://ascustomworks.github.io/drums-n-filters/",
+  "manualUrl": "https://ascustomworks.github.io/drums-n-filters/manual.html",
   "sourceUrl": "",
-  "changelogUrl": "",
+  "changelogUrl": "https://ascustomworks.github.io/drums-n-filters/#changelog",
   "modules": [
     {
       "slug": "Drums8x8Kicks",
-      "disabled": false,
       "name": "HIP Kick",
       "description": "808 style Sampled Kick Drum",
       "tags": [
@@ -23,7 +22,6 @@
     },
     {
       "slug": "Drums8x8Snares",
-      "disabled": false,
       "name": "HIP Snare",
       "description": "808 style Sampled Snare Drum",
       "tags": [
@@ -32,7 +30,6 @@
     },
     {
       "slug": "Drums8x8Hihats",
-      "disabled": false,
       "name": "HIP Hihats",
       "description": "808 style Sampled Hihats",
       "tags": [
@@ -41,7 +38,6 @@
     },
     {
       "slug": "Drums8x8toms",
-      "disabled": false,
       "name": "HIP Toms",
       "description": "808 style sampled Toms",
       "tags": [
@@ -50,7 +46,6 @@
     },
     {
       "slug": "Drums8x8Percs",
-      "disabled": false,
       "name": "HIP Percussions",
       "description": "808 style sampled Percussions",
       "tags": [
@@ -59,7 +54,6 @@
     },
     {
       "slug": "Drums9x9Kicks",
-      "disabled": false,
       "name": "TEK Kick",
       "description": "909 style sampled Kick Drum",
       "tags": [
@@ -68,7 +62,6 @@
     },
     {
       "slug": "Drums9x9Snares",
-      "disabled": false,
       "name": "TEK Snare",
       "description": "909 style sampled Snare Drum",
       "tags": [
@@ -77,7 +70,6 @@
     },
     {
       "slug": "Drums9x9Hihats",
-      "disabled": false,
       "name": "TEK Hihats",
       "description": "909 style sampled Hihats",
       "tags": [
@@ -86,7 +78,6 @@
     },
     {
       "slug": "Drums9x9Percs",
-      "disabled": false,
       "name": "TEK Percussions",
       "description": "909 style sampled Percussions",
       "tags": [
@@ -95,7 +86,6 @@
     },
     {
       "slug": "DrumsSdSKicks",
-      "disabled": false,
       "name": "RCK Kick",
       "description": "Simmons style sampled Kick Drum",
       "tags": [
@@ -104,7 +94,6 @@
     },
     {
       "slug": "DrumsSdSSnares",
-      "disabled": false,
       "name": "RCK Snare",
       "description": "Simmons style sampled Snare Drum",
       "tags": [
@@ -113,7 +102,6 @@
     },
     {
       "slug": "DrumsSdSHihats",
-      "disabled": false,
       "name": "RCK Hihats",
       "description": "Simmons style sampled Hihats",
       "tags": [
@@ -122,7 +110,6 @@
     },
     {
       "slug": "DrumsSdStoms",
-      "disabled": false,
       "name": "RCK Toms",
       "description": "Simmons style sampled Toms",
       "tags": [
@@ -131,7 +118,6 @@
     },
     {
       "slug": "DrumsC64Kicks",
-      "disabled": false,
       "name": "CMP Kick",
       "description": "C64 style sampled Kick Drum",
       "tags": [
@@ -140,7 +126,6 @@
     },
     {
       "slug": "DrumsC64Snares",
-      "disabled": false,
       "name": "CMP Snare",
       "description": "C64 style sampled Snare Drum",
       "tags": [
@@ -149,7 +134,6 @@
     },
     {
       "slug": "DrumsC64Hihats",
-      "disabled": false,
       "name": "CMP Hihats",
       "description": "C64 style sampled Hihats",
       "tags": [
@@ -158,7 +142,6 @@
     },
     {
       "slug": "DrumsC64Percs",
-      "disabled": false,
       "name": "CMP Percussions",
       "description": "C64 style sampled Percussions",
       "tags": [
@@ -167,7 +150,6 @@
     },
     {
       "slug": "VCFilter",
-      "disabled": false,
       "name": "VC Filter",
       "description": "Voltage Controlled Filter",
       "tags": [
@@ -176,7 +158,6 @@
     },
     {
       "slug": "VCFilterStereo",
-      "disabled": false,
       "name": "VC Filter Stereo",
       "description": "Voltage Controlled Stereo Filter",
       "tags": [
@@ -185,7 +166,6 @@
     },
     {
       "slug": "FixedFilterBank",
-      "disabled": false,
       "name": "Fixed Filter Bank",
       "description": "12 bands Fixed Filter Bank + LP + HP Filter",
       "tags": [
@@ -194,7 +174,6 @@
     },
     {
       "slug": "ParaEQ",
-      "disabled": false,
       "name": "Parametric EQ",
       "description": "Parametric Equalizer",
       "tags": [
@@ -202,8 +181,17 @@
       ]
     },
     {
+      "slug": "ParaEQ3",
+      "name": "3-Band Parametric EQ",
+      "description": "3-band stereo parametric equalizer with shelf/peak low and high bands and a response display",
+      "tags": [
+        "Equalizer",
+        "Polyphonic",
+        "Stereo"
+      ]
+    },
+    {
       "slug": "BlankPanel4Dark",
-      "disabled": false,
       "name": "BlankPanel Dark 4",
       "description": "Blank Panel Dark 4 HP",
       "tags": [
@@ -212,7 +200,6 @@
     },
     {
       "slug": "BlankPanel6Dark",
-      "disabled": false,
       "name": "BlankPanel Dark 6",
       "description": "Blank Panel Dark 6 HP",
       "tags": [
@@ -221,7 +208,6 @@
     },
     {
       "slug": "BlankPanel8Dark",
-      "disabled": false,
       "name": "BlankPanel Dark 8",
       "description": "Blank Panel Dark 8 HP",
       "tags": [

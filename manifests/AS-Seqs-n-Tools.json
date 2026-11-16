@@ -1,6 +1,6 @@
 {
   "slug": "AS-Seqs-n-Tools",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "minRackVersion": "2.4.0",
   "license": "proprietary",
   "name": "AS Seqs n Tools",
@@ -9,13 +9,12 @@
   "authorEmail": "ascustomworks@gmail.com",
   "pluginUrl": "https://ascustomworks.github.io/seqs-n-tools/",
   "authorUrl": "https://ascustomworks.github.io/seqs-n-tools/",
-  "manualUrl": "https://ascustomworks.github.io/seqs-n-tools/AS-Seqs-n-Tools-Manual.pdf",
+  "manualUrl": "https://ascustomworks.github.io/seqs-n-tools/manual.html",
   "sourceUrl": "",
   "changelogUrl": "https://ascustomworks.github.io/seqs-n-tools/#changelog",
   "modules": [
     {
       "slug": "ReCon",
-      "disabled": false,
       "name": "ReCon",
       "description": "Controller helper for ReStepOne, ReStep sequencers",
       "tags": [
@@ -24,7 +23,6 @@
     },
     {
       "slug": "ReStepOne",
-      "disabled": false,
       "name": "ReStepOne",
       "description": "Single step sequencer",
       "tags": [
@@ -33,7 +31,6 @@
     },
     {
       "slug": "ReStep",
-      "disabled": false,
       "name": "ReStep",
       "description": "4 steps sequencer",
       "tags": [
@@ -42,7 +39,6 @@
     },
     {
       "slug": "ReBeat",
-      "disabled": false,
       "name": "ReBeat Trigger Seq/Clock Divider",
       "description": "4x4 Grid trigger sequencer/clock divider",
       "tags": [
@@ -52,7 +48,6 @@
     },
     {
       "slug": "ReBit",
-      "disabled": false,
       "name": "ReBit Trigger Seq/Clock Divider",
       "description": "Single 4 step trigger sequencer/clock divider",
       "tags": [
@@ -62,7 +57,6 @@
     },
     {
       "slug": "ReQ",
-      "disabled": false,
       "name": "ReQ",
       "description": "Note quantizer",
       "tags": [
@@ -72,7 +66,6 @@
     },
     {
       "slug": "ReNote",
-      "disabled": false,
       "name": "ReNote",
       "description": "3 channel note transposer",
       "tags": [
@@ -81,7 +74,6 @@
     },
     {
       "slug": "ReKey",
-      "disabled": false,
       "name": "ReKey",
       "description": "1V/oct-key keyboard",
       "tags": [
@@ -91,7 +83,6 @@
     },
     {
       "slug": "ReGate",
-      "disabled": false,
       "name": "ReGate",
       "description": "Gate generator/modifier",
       "tags": [
@@ -101,7 +92,6 @@
     },
     {
       "slug": "ReFluke",
-      "disabled": false,
       "name": "ReFluke",
       "description": "S&H/Noise/Gate generator",
       "tags": [
@@ -112,7 +102,6 @@
     },
     {
       "slug": "ReFlip",
-      "disabled": false,
       "name": "ReFlip",
       "description": "Random Gate Switch",
       "tags": [
@@ -122,22 +111,29 @@
     },
     {
       "slug": "aBy",
-      "disabled": false,
       "name": "A-B-Y Switch",
       "description": "A-B-Y Switch",
       "tags": [
+        "Polyphonic",
         "Switch",
         "Utility"
       ]
     },
     {
       "slug": "ReSwing",
-      "disabled": false,
       "name": "ReSwing",
       "description": "Dual clock swing",
       "tags": [
         "Clock modulator",
         "Dual"
+      ]
+    },
+    {
+      "slug": "ReRatchet",
+      "name": "ReRatchet",
+      "description": "Triple trigger ratchet",
+      "tags": [
+        "Clock modulator"
       ]
     }
   ]
