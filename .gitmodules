@@ -1275,3 +1275,6 @@
 [submodule "repos/coastal"]
 	path = repos/coastal
 	url = https://github.com/vista747/coastal
+[submodule "repos/Sparrows"]
+	path = repos/Sparrows
+	url = https://github.com/mpasserini/SparrowsModules

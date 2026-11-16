@@ -1,0 +1,56 @@
+{
+  "slug": "Sparrows",
+  "name": "Sparrows",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Sparrows",
+  "author": "Marco Passerini",
+  "authorEmail": "marco.passerini@gmail.com",
+  "pluginUrl": "https://github.com/mpasserini/SparrowsModules",
+  "authorUrl": "https://github.com/mpasserini",
+  "manualUrl": "https://github.com/mpasserini/SparrowsModules",
+  "sourceUrl": "https://github.com/mpasserini/SparrowsModules",
+  "changelogUrl": "https://github.com/mpasserini/SparrowsModules",
+  "minRackVersion": "2.4.0",
+  "modules": [
+    {
+      "slug": "Clockode",
+      "name": "Clockode",
+      "description": "16 step sequencer shiftable step timing",
+      "manualUrl": "https://github.com/mpasserini/SparrowsModules",
+      "tags": [
+        "Sequencer",
+        "Clock generator",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "Gatto",
+      "name": "Gatto",
+      "description": "16 step gate Sequencer with variable step length",
+      "manualUrl": "https://github.com/mpasserini/SparrowsModules",
+      "tags": [
+        "Sequencer"
+      ]
+    },
+    {
+      "slug": "Civciv",
+      "name": "Civciv",
+      "description": "16 step CV sequencer with octaves, slides, quantization",
+      "manualUrl": "https://github.com/mpasserini/SparrowsModules",
+      "tags": [
+        "Sequencer",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "Triggo",
+      "name": "Triggo",
+      "description": "16 step trigger sequencer",
+      "manualUrl": "https://github.com/mpasserini/SparrowsModules",
+      "tags": [
+        "Sequencer"
+      ]
+    }
+  ]
+}
