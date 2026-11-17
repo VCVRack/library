@@ -1284,3 +1284,6 @@
 [submodule "repos/SilenceTouch"]
 	path = repos/SilenceTouch
 	url = https://github.com/silencetouch/SilenceTouch-TheIsland
+[submodule "repos/STJ"]
+	path = repos/STJ
+	url = https://github.com/SantiJay7/STJModules

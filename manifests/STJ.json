@@ -1,0 +1,34 @@
+{
+  "slug": "STJ",
+  "name": "STJ",
+  "version": "2.12.5",
+  "license": "GPL-3.0-or-later",
+  "brand": "STJ",
+  "author": "Santi Jay",
+  "authorUrl": "https://github.com/SantiJay7",
+  "sourceUrl": "https://github.com/SantiJay7/STJModules",
+  "pluginUrl": "https://github.com/SantiJay7/STJModules",
+  "manualUrl": "https://github.com/SantiJay7/STJModules",
+  "description": "STJ: Balatube modal percussion (balafon bar \u2194 PVC tube) and Wizar Matrix keyboard mapper (46 assignable keys)",
+  "modules": [
+    {
+      "slug": "Balatube",
+      "name": "Balatube",
+      "description": "Physically-modeled percussion voice: MATERIAL sweeps from an ebony balafon / marimba bar (wood) to a closed-pipe PVC tube hit (odd harmonics 1:3:5...). Six-mode modal resonator bank, jet flanger, overdrive/crunch, full per-knob CV, and a stereo external-audio processing bus.",
+      "tags": [
+        "Physical modeling",
+        "Percussion",
+        "Effect"
+      ]
+    },
+    {
+      "slug": "wizarkeyboard",
+      "name": "Wizar Matrix",
+      "description": "Map computer keyboard keys to VCV Rack parameters. 46 assignable keys. Momentary/toggle buttons, fader/rotary with height and velocity control, and parameter mapping mode.",
+      "tags": [
+        "Controller",
+        "Utility"
+      ]
+    }
+  ]
+}
