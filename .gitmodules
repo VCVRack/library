@@ -1281,3 +1281,6 @@
 [submodule "repos/Liminal_Intent"]
 	path = repos/Liminal_Intent
 	url = https://github.com/DuckettccMixter/LiminalIntent-Pulsaret
+[submodule "repos/SilenceTouch"]
+	path = repos/SilenceTouch
+	url = https://github.com/silencetouch/SilenceTouch-TheIsland

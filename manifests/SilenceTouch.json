@@ -1,0 +1,44 @@
+{
+  "slug": "SilenceTouch",
+  "name": "Silence Touch",
+  "version": "2.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Silence Touch",
+  "author": "Silence Touch (Gray)",
+  "description": "Silence Touch modules for VCV Rack, starting with The Island: a spatial panner for multi-channel mixing",
+  "authorEmail": "",
+  "authorUrl": "https://silencetouch.com",
+  "pluginUrl": "https://github.com/silencetouch/SilenceTouch-TheIsland",
+  "manualUrl": "https://github.com/silencetouch/SilenceTouch-TheIsland#readme",
+  "sourceUrl": "https://github.com/silencetouch/SilenceTouch-TheIsland",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/silencetouch/SilenceTouch-TheIsland/blob/main/CHANGELOG.md",
+  "minRackVersion": "2.0.0",
+  "modules": [
+    {
+      "slug": "TheIsland",
+      "name": "The Island",
+      "description": "12-track stereo 3D panner for multi-channel mixing (4.0 / 5.1 / 7.1 / 7.1.4, SMPTE channel order): cube display, orbit, split, mute/solo, speaker test",
+      "tags": [
+        "Panning",
+        "Mixer",
+        "Polyphonic",
+        "Visual"
+      ],
+      "keywords": "spatial surround immersive multichannel 7.1.4 5.1 quad DBAP",
+      "manualUrl": "https://github.com/silencetouch/SilenceTouch-TheIsland#readme"
+    },
+    {
+      "slug": "TheIslandRoom",
+      "name": "The Island Room",
+      "description": "Expander for The Island: set the room's width, depth and height (metres, cm, feet or a plain ratio) so panning matches a non-cubic space",
+      "tags": [
+        "Expander",
+        "Panning",
+        "Utility"
+      ],
+      "keywords": "spatial surround multichannel room size ratio",
+      "manualUrl": "https://github.com/silencetouch/SilenceTouch-TheIsland#readme"
+    }
+  ]
+}
