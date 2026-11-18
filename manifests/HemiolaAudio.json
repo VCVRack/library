@@ -1,7 +1,7 @@
 {
   "slug": "HemiolaAudio",
   "name": "Hemiola Audio",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "Hemiola Audio",
   "author": "Hemiola Audio",
@@ -32,6 +32,20 @@
       ],
       "keywords": "nadai gati tuplet triplet quintuplet septuplet clock divider subdivision polyrhythm rhythm thalam tala carnatic probability",
       "manualUrl": "https://github.com/hemiolaaudio/HemiolaAudio/blob/main/docs/RhythmTalam.md"
+    },
+    {
+      "slug": "Whoa",
+      "name": "WHOA!",
+      "description": "A two-operator FM voice with a built-in clocked delay and reverb. The modulator and the carrier each have their own gate and envelope, with CV on every stage.",
+      "tags": [
+        "Synth voice",
+        "Oscillator",
+        "Delay",
+        "Reverb",
+        "Polyphonic"
+      ],
+      "keywords": "fm voice modulator carrier operator techno psytrance ambient bass feedback drive delay reverb shimmer",
+      "manualUrl": "https://github.com/hemiolaaudio/HemiolaAudio/blob/main/docs/Whoa.md"
     }
   ]
 }
