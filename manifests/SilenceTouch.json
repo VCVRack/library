@@ -1,7 +1,7 @@
 {
   "slug": "SilenceTouch",
   "name": "Silence Touch",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "license": "GPL-3.0-or-later",
   "brand": "Silence Touch",
   "author": "Silence Touch (Gray)",
@@ -11,7 +11,7 @@
   "pluginUrl": "https://github.com/silencetouch/SilenceTouch-TheIsland",
   "manualUrl": "https://github.com/silencetouch/SilenceTouch-TheIsland#readme",
   "sourceUrl": "https://github.com/silencetouch/SilenceTouch-TheIsland",
-  "donateUrl": "",
+  "donateUrl": "https://www.paypal.com/ncp/payment/F6ENFTYRVXBT6",
   "changelogUrl": "https://github.com/silencetouch/SilenceTouch-TheIsland/blob/main/CHANGELOG.md",
   "minRackVersion": "2.0.0",
   "modules": [
