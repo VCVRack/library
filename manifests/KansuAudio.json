@@ -1,0 +1,35 @@
+{
+  "slug": "KansuAudio",
+  "name": "Kansu Audio",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Kansu Audio",
+  "author": "Kansu Audio",
+  "authorEmail": "",
+  "authorUrl": "https://kansuaudio.jp",
+  "pluginUrl": "https://kansuaudio.jp/xl-185",
+  "manualUrl": "https://github.com/kansuaudio/xl-185-vcv/blob/main/docs/MANUAL.md",
+  "sourceUrl": "https://github.com/kansuaudio/xl-185-vcv",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "XL185",
+      "name": "XL-185",
+      "description": "Eight-stage sequencer: each stage holds a pitch for 1 to 8 clock steps and rests, plays once, holds or repeats",
+      "tags": [
+        "Sequencer",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "XL185Mod",
+      "name": "XL-185 MOD",
+      "description": "Expander for XL-185: three modulation lanes with a value per stage, Min, Max and Smooth",
+      "tags": [
+        "Expander",
+        "Sequencer"
+      ]
+    }
+  ]
+}

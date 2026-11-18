@@ -1290,3 +1290,6 @@
 [submodule "repos/ComingInSecond"]
 	path = repos/ComingInSecond
 	url = https://github.com/cominginsecond/ComingInSecond
+[submodule "repos/KansuAudio"]
+	path = repos/KansuAudio
+	url = https://github.com/kansuaudio/xl-185-vcv

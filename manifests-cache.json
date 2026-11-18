@@ -19855,5 +19855,17 @@
         "creationTimestamp": 1795016149
       }
     }
+  },
+  "KansuAudio": {
+    "buildTimestamp": 1795030668,
+    "creationTimestamp": 1795030668,
+    "modules": {
+      "XL185": {
+        "creationTimestamp": 1795030668
+      },
+      "XL185Mod": {
+        "creationTimestamp": 1795030668
+      }
+    }
   }
 }
