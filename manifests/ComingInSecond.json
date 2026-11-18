@@ -1,0 +1,26 @@
+{
+  "slug": "ComingInSecond",
+  "name": "Coming in Second",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Coming in Second",
+  "author": "Jeremy Jensen",
+  "authorEmail": "jeremy@cominginsecond.com",
+  "authorUrl": "https://github.com/cominginsecond",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/cominginsecond/QuantizerSequencer",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "QuantizerSequencer",
+      "name": "QSeq 8",
+      "description": "Sequencer of 8 quantizers: each clock steps to the next piano-key scale",
+      "tags": [
+        "Sequencer",
+        "Quantizer"
+      ]
+    }
+  ]
+}

@@ -1287,3 +1287,6 @@
 [submodule "repos/STJ"]
 	path = repos/STJ
 	url = https://github.com/SantiJay7/STJModules
+[submodule "repos/ComingInSecond"]
+	path = repos/ComingInSecond
+	url = https://github.com/cominginsecond/ComingInSecond
