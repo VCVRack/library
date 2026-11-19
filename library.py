@@ -58,29 +58,14 @@ def create_plugins(paths=None, commit=None, repo_url=None):
 			raise ValueError(f"`plugin.json` has an invalid `slug` value `{slug}`.")
 		paths = [os.path.join(config.REPOS_DIR, slug)]
 
-	if commit or repo_url:
-		if not paths or len(paths) != 1:
-			raise ValueError("--commit and --git require exactly one source directory or slug.")
-	if paths:
-		# Transform slugs to repo paths.
-		paths = [resolve_path(path) for path in paths]
-
-	# If no paths are given, use directories in config.REPOS_DIR that contain plugin.json.
-	if not paths:
-		info(f"Checking {config.REPOS_DIR} for new plugin versions")
-		paths = []
-		for entry in os.scandir(config.REPOS_DIR):
-			if not entry.is_dir():
-				continue
-			manifest_path = os.path.join(entry.path, "plugin.json")
-			if os.path.isfile(manifest_path):
-				paths.append(entry.path)
-		paths.sort()
+	if (commit or repo_url) and len(paths) != 1:
+		raise ValueError(f"{len(paths)} paths were given. Provide exactly one plugin slug or source directory when using -c or -g with paths.")
 
 	# Create Plugins from paths.
 	plugins = []
 	packaged_plugins = {}
 	for path in paths:
+		path = resolve_path(path)
 		if os.path.isdir(path) or repo_url:
 			plugin = Plugin()
 			plugin.set_source_dir(path)
@@ -142,6 +127,9 @@ def get_repo_commit_paths(plugins):
 
 
 def review(paths=None, commit=None, repo_url=None):
+	if not paths and not repo_url:
+		return
+
 	info("Pulling library repo")
 	run_retry("git", "pull")
 
@@ -160,15 +148,13 @@ def review(paths=None, commit=None, repo_url=None):
 				plugin.checkout_repo()
 				plugin.load_manifest()
 				plugin.load_library_manifest()
-
-				# Skip plugins that are not newer than the library manifest.
-				if not plugin.is_new_version():
-					continue
 				if any(loaded_plugin.get_slug() == plugin.get_slug() for loaded_plugin in loaded_plugins):
 					raise ValueError(f"Plugin {plugin.get_slug()!r} is already loaded.")
-				loaded_plugins.append(plugin)
 			except Exception as exception:
 				error(f"{plugin.source_dir or plugin.package_paths}: {exception}")
+				continue
+			plugin.check_new_version()
+			loaded_plugins.append(plugin)
 
 		# Review repositories, source files, and manifests.
 		reviewed_plugins = []
@@ -373,17 +359,21 @@ def review(paths=None, commit=None, repo_url=None):
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
-	parser.add_argument("paths", nargs="*", metavar="PATH", help=f"Plugin slugs, source directories, or .vcvplugin archives. With no paths, scan {config.REPOS_DIR} for new versions.")
+	parser.add_argument("paths", nargs="*", metavar="PATH", help="Plugin slugs, source directories, or .vcvplugin archives.")
 	parser.add_argument("-c", "--commit", metavar="HASH", help="Fetch and check out this commit in one source directory or slug.")
 	parser.add_argument("-g", "--git", dest="repo_url", metavar="URL", help="Clone a repository or change its URL.")
-
 	info("""\
 ⢿⣦  ⣴⡿ ⣠⣶⠿⠿⣶ ⢿⣦  ⣴⡿
 ⠈⢿⣧⣼⡿⠁ ⣿⡇⢾⡷  ⠈⢿⣧⣼⡿⠁
  ⠈⢿⡿⠁  ⠙⠿⣶⣶⠿  ⠈⢿⡿⠁ Library release script\n""")
 
 	args = parser.parse_args()
-	if len(sys.argv) == 1:
+	if not args.paths and not args.repo_url:
 		parser.print_help()
-		sys.exit()
-	review(args.paths, args.commit, args.repo_url)
+		sys.exit(0)
+
+	try:
+		review(args.paths, args.commit, args.repo_url)
+	except ValueError as exception:
+		error(str(exception))
+		sys.exit(1)

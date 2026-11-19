@@ -169,12 +169,14 @@ class Plugin:
 			raise RuntimeError("No manifest loaded.")
 		return self.manifest["license"] in SPDX_IDS
 
-	def is_new_version(self):
-		"""Returns whether this version is newer than the library version or the plugin is new to the library."""
-		version = self.get_version()
+	def check_new_version(self):
+		"""Raises ValueError if the plugin version is equal to or older than the library version."""
 		if self.library_manifest is None:
-			return True
-		return version_key(version) > version_key(self.library_manifest['version'])
+			return
+		version = self.get_version()
+		library_version = self.library_manifest["version"]
+		if version_key(version) <= version_key(library_version):
+			raise ValueError(f'{self.get_slug()} {version} is not newer than version {library_version} in the library. Increment "version" in `plugin.json`.')
 
 	def extract_package(self, package_path):
 		"""Extracts the package if needed and returns the directory containing its contents."""
