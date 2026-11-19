@@ -1,25 +1,56 @@
 {
   "slug": "ComingInSecond",
   "name": "Coming in Second",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "license": "GPL-3.0-or-later",
   "brand": "Coming in Second",
   "author": "Jeremy Jensen",
   "authorEmail": "jeremy@cominginsecond.com",
   "authorUrl": "https://github.com/cominginsecond",
   "pluginUrl": "",
-  "manualUrl": "",
-  "sourceUrl": "https://github.com/cominginsecond/QuantizerSequencer",
+  "manualUrl": "https://github.com/cominginsecond/ComingInSecond#readme",
+  "sourceUrl": "https://github.com/cominginsecond/ComingInSecond",
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
     {
-      "slug": "QuantizerSequencer",
-      "name": "QSeq 8",
-      "description": "Sequencer of 8 quantizers: each clock steps to the next piano-key scale",
+      "slug": "QuantizerSequencer4",
+      "name": "QSeq 4",
+      "description": "Sequencer of 4 quantizers: each clock steps to the next piano-key scale",
+      "manualUrl": "https://github.com/cominginsecond/ComingInSecond#qseq-4-8-and-16",
       "tags": [
         "Sequencer",
         "Quantizer"
+      ]
+    },
+    {
+      "slug": "QuantizerSequencer",
+      "name": "QSeq 8",
+      "description": "Sequencer of 8 quantizers: each clock steps to the next piano-key scale",
+      "manualUrl": "https://github.com/cominginsecond/ComingInSecond#qseq-4-8-and-16",
+      "tags": [
+        "Sequencer",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "QuantizerSequencer16",
+      "name": "QSeq 16",
+      "description": "Sequencer of 16 quantizers: each clock steps to the next piano-key scale",
+      "manualUrl": "https://github.com/cominginsecond/ComingInSecond#qseq-4-8-and-16",
+      "tags": [
+        "Sequencer",
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "VibraLFO",
+      "name": "VibraLFo",
+      "description": "Gated LFO with delay, rise and release, clock sync, and a five-waveform mix",
+      "manualUrl": "https://github.com/cominginsecond/ComingInSecond#vibralfo",
+      "tags": [
+        "LFO",
+        "Envelope generator"
       ]
     }
   ]

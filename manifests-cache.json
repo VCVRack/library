@@ -19848,11 +19848,20 @@
     }
   },
   "ComingInSecond": {
-    "buildTimestamp": 1795016149,
+    "buildTimestamp": 1795110096,
     "creationTimestamp": 1795016149,
     "modules": {
       "QuantizerSequencer": {
         "creationTimestamp": 1795016149
+      },
+      "QuantizerSequencer4": {
+        "creationTimestamp": 1795110096
+      },
+      "QuantizerSequencer16": {
+        "creationTimestamp": 1795110096
+      },
+      "VibraLFO": {
+        "creationTimestamp": 1795110096
       }
     }
   },
