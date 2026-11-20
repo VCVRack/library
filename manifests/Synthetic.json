@@ -2,7 +2,7 @@
   "slug": "Synthetic",
   "name": "Synthetic",
   "brand": "SV Modular",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "Proprietary",
   "author": "SV Modular",
   "authorEmail": "contact@svmodular.com",
@@ -38,6 +38,46 @@
       "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic/Paddington.pdf",
       "tags": [
         "Oscillator"
+      ]
+    },
+    {
+      "slug": "PAD",
+      "name": "PAD",
+      "description": "PADsynth Wavetable Oscillator",
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic/PAD.pdf",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Pulsar",
+      "name": "Pulsar",
+      "description": "Pulsar Synthesis Oscillator",
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic/Pulsar.pdf",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Adder",
+      "name": "Adder",
+      "description": "Additive Oscillator",
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic/Adder.pdf",
+      "tags": [
+        "Oscillator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Cluck",
+      "name": "Cluck",
+      "description": "Bowed String, Pad and Pluck Voice",
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic/Cluck.pdf",
+      "tags": [
+        "Synth voice",
+        "Polyphonic"
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
   "slug": "SyntheticFX",
   "name": "Synthetic FX",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "license": "PROPRIETARY",
   "author": "SV Modular",
   "authorEmail": "contact@svmodular.com",
@@ -120,6 +120,47 @@
       "tags": [
         "Mixer"
       ]
+    },
+    {
+      "slug": "Prayer",
+      "name": "Prayer",
+      "description": "Synthetic FX Prayer: pitch-shifting spectral reverb",
+      "tags": [
+        "Reverb",
+        "Effect"
+      ],
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/Prayer.pdf"
+    },
+    {
+      "slug": "Hauntology",
+      "name": "Hauntology",
+      "description": "Synthetic FX Hauntology: spectral freeze, inharmonic shift, plate reverb and bit crusher",
+      "tags": [
+        "Reverb",
+        "Effect",
+        "Distortion"
+      ],
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/Hauntology.pdf"
+    },
+    {
+      "slug": "FrequencyCrystal",
+      "name": "FrequencyCrystal",
+      "description": "Synthetic FX FrequencyCrystal: frequency shifter into a bank of tuned comb resonators",
+      "tags": [
+        "Effect",
+        "Filter"
+      ],
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/FrequencyCrystal.pdf"
+    },
+    {
+      "slug": "SuperFreq",
+      "name": "SuperFreq",
+      "description": "Synthetic FX SuperFreq: spectral resynthesizer that re-oscillates a band of the input",
+      "tags": [
+        "Effect",
+        "Oscillator"
+      ],
+      "manualUrl": "https://svmodular.com/downloads/vcv-rack/synthetic-fx/SuperFreq.pdf"
     }
   ]
 }

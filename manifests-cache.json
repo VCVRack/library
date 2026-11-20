@@ -612,7 +612,7 @@
     }
   },
   "Synthetic": {
-    "buildTimestamp": 1725052933.848709,
+    "buildTimestamp": 1795198006,
     "creationTimestamp": 1565726934.0,
     "modules": {
       "Eastside": {
@@ -635,6 +635,18 @@
       },
       "CaillouManipulatorExpander": {
         "creationTimestamp": 1591858382.67685
+      },
+      "PAD": {
+        "creationTimestamp": 1795198006
+      },
+      "Pulsar": {
+        "creationTimestamp": 1795198006
+      },
+      "Adder": {
+        "creationTimestamp": 1795198006
+      },
+      "Cluck": {
+        "creationTimestamp": 1795198006
       }
     }
   },
@@ -8825,7 +8837,7 @@
     }
   },
   "SyntheticFX": {
-    "buildTimestamp": 1725052932.3487196,
+    "buildTimestamp": 1795198006,
     "creationTimestamp": 1573352765.0,
     "modules": {
       "FourPoleLadder": {
@@ -8860,6 +8872,18 @@
       },
       "Fuzz": {
         "creationTimestamp": 1641207512.8350344
+      },
+      "Prayer": {
+        "creationTimestamp": 1795198006
+      },
+      "Hauntology": {
+        "creationTimestamp": 1795198006
+      },
+      "FrequencyCrystal": {
+        "creationTimestamp": 1795198006
+      },
+      "SuperFreq": {
+        "creationTimestamp": 1795198006
       }
     }
   },
