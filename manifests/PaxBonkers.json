@@ -1,7 +1,7 @@
 {
   "slug": "PaxBonkers",
   "name": "PaxBonkers",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "pax.bonkers",
   "author": "pax.bonkers",
@@ -51,6 +51,17 @@
       "tags": [
         "Sampler",
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "ParzenFX",
+      "name": "Parzen FX",
+      "description": "Drive, distortion and bit crusher, in series or switched lane by lane with a trigger, with a scope window.",
+      "manualUrl": "https://github.com/paxbonkers/PaxBonkersVCV/blob/main/docs/ParzenFX.md",
+      "tags": [
+        "Distortion",
+        "Effect",
+        "Waveshaper"
       ]
     }
   ]
