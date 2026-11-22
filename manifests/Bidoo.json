@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "license": "GPL-3.0-or-later",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -387,8 +387,7 @@
       "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#ricochet",
       "tags": [
         "Delay",
-        "Effect",
-        "Stereo"
+        "Effect"
       ]
     },
     {
