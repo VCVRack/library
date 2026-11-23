@@ -1,7 +1,7 @@
 {
   "slug": "AlteredLabs",
   "name": "Altered Labs",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "license": "proprietary",
   "brand": "Altered Labs",
   "author": "Altered Labs",
@@ -64,6 +64,15 @@
       ]
     },
     {
+      "slug": "9A9MUTE",
+      "name": "9A9 MUTE",
+      "description": "9A9 expander: performance mutes for the 11 voices, mappable keys, gate inputs, quantized to the beat or bar",
+      "tags": [
+        "Expander",
+        "Drum"
+      ]
+    },
+    {
       "slug": "8A8",
       "name": "8A8",
       "description": "TR-808 style drum machine: 16 circuit voices with their own triggers and outputs, drive, reverb, delay",
@@ -110,6 +119,15 @@
       "tags": [
         "Expander",
         "Mixer",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "8A8MUTE",
+      "name": "8A8 MUTE",
+      "description": "8A8 expander: performance mutes for the 16 voices, mappable keys, gate inputs, quantized to the beat or bar",
+      "tags": [
+        "Expander",
         "Drum"
       ]
     },
@@ -164,6 +182,15 @@
       ]
     },
     {
+      "slug": "6A6MUTE",
+      "name": "6A6 MUTE",
+      "description": "6A6 expander: performance mutes for the 8 voices, mappable keys, gate inputs, quantized to the beat or bar",
+      "tags": [
+        "Expander",
+        "Drum"
+      ]
+    },
+    {
       "slug": "CA78",
       "name": "CA-78",
       "description": "CR-78 style drum machine: 14 voices with their own triggers and outputs, the 17 preset rhythms, drive, reverb, delay",
@@ -210,6 +237,15 @@
       "tags": [
         "Expander",
         "Mixer",
+        "Drum"
+      ]
+    },
+    {
+      "slug": "CA78MUTE",
+      "name": "CA-78 MUTE",
+      "description": "CA-78 expander: performance mutes for the 14 voices, mappable keys, gate inputs, quantized to the beat or bar",
+      "tags": [
+        "Expander",
         "Drum"
       ]
     }
