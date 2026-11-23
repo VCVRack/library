@@ -285,23 +285,26 @@ class Plugin:
 		new_modules = [module for module in manifest.get("modules", []) if module["slug"] in new_module_slugs]
 
 		# Check for shared substrings in plugin and new module slugs and names.
+		brand = manifest.get("brand") or manifest["name"]
 		for module in new_modules:
 			for key in ("slug", "name"):
-				module_text = module[key].casefold()
-				plugin_text = manifest[key].casefold()
-				match = difflib.SequenceMatcher(None, module_text, plugin_text, autojunk=False).find_longest_match()
-				shared_text = module_text[match.a:match.a + match.size].strip()
-				if match.size == len(module_text):
+				module_value = module[key].casefold()
+				plugin_value = manifest[key].casefold()
+				match = difflib.SequenceMatcher(None, module_value, plugin_value, autojunk=False).find_longest_match()
+				shared_text = module_value[match.a:match.a + match.size].strip()
+				if match.size == len(module_value):
 					warning = f'Plugin {key} "{manifest[key]}" contains the module {key} "{module[key]}". Choose a plugin {key} that identifies your brand rather than an individual module, so it can also represent future modules.'
-				elif match.size == len(plugin_text):
-					warning = f'Module {key} "{module[key]}" contains the plugin {key} "{manifest[key]}". Modules are already identified by their plugin, so remove the redundant plugin {key} from the module {key}.'
+				elif match.size == len(plugin_value):
+					warning = f'Module {key} "{module[key]}" contains the plugin {key} "{manifest[key]}". The plugin {key} should identify the collection, and the module {key} should identify the individual module.'
 				elif len(shared_text) >= 3:
-					warning = f'Module {key} "{module[key]}" and plugin {key} "{manifest[key]}" contain the same substring "{shared_text}". Modules are already identified by their plugin, so consider removing redundant brand text from the module {key}.'
+					warning = f'Module {key} "{module[key]}" and plugin {key} "{manifest[key]}" contain the same substring "{shared_text}". The plugin {key} should identify a collection or brand, and the module {key} should just identify the individual module.'
 				else:
 					continue
-				if key == "name":
-					warning += f' VCV Library and Rack\'s module browser would display the module as "{manifest[key]} {module[key]}".'
 				warnings.append(warning)
+
+			module_name = module["name"]
+			if brand.casefold() in module_name.casefold():
+				warnings.append(f'Module name "{module_name}" contains the brand "{brand}". VCV Library and Rack\'s module browser would display it as "{brand} {module_name}".')
 
 		# Check module tags.
 		for module in manifest.get("modules", []):
