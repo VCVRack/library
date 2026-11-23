@@ -1,0 +1,60 @@
+{
+  "slug": "APLab-ORBITAL",
+  "name": "Orbital Core",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "AP Lab",
+  "author": "AP Lab",
+  "authorEmail": "support@aplabaudio.com",
+  "authorUrl": "https://aplabaudio.com/",
+  "pluginUrl": "https://aplabaudio.com/orbital/",
+  "manualUrl": "https://aplabaudio.com/orbital/manual/",
+  "sourceUrl": "",
+  "donateUrl": "https://ko-fi.com/aplab",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "UNO",
+      "name": "Orbital Uno",
+      "description": "Spatial Discovery System \u2014 core module. Places a sound in 360\u00b0 around the listener and moves it.",
+      "tags": [
+        "Panning",
+        "Visual"
+      ]
+    },
+    {
+      "slug": "MAS",
+      "name": "Orbital MAS",
+      "description": "Modular Array Source \u2014 adds one more source to Uno. Place it next to Uno (either side).",
+      "tags": [
+        "Expander",
+        "Panning"
+      ]
+    },
+    {
+      "slug": "BYPASS",
+      "name": "Orbital Bypass",
+      "description": "Stereo mixer: takes over Uno's output (Uno's own jacks go quiet) and adds four stereo channels. Free.",
+      "tags": [
+        "Mixer"
+      ]
+    },
+    {
+      "slug": "VECTOR",
+      "name": "Orbital Vector",
+      "description": "A source's motion as CV: angle, distance, speed, X and Y. Free.",
+      "tags": [
+        "Utility"
+      ]
+    },
+    {
+      "slug": "STARFIELD",
+      "name": "Orbital Starfield",
+      "description": "Resizable blank panel: a piece of star chart with slowly twinkling LED stars. Drag an edge to resize.",
+      "tags": [
+        "Blank",
+        "Visual"
+      ]
+    }
+  ]
+}
