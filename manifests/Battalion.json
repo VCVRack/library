@@ -1,12 +1,12 @@
 {
   "slug": "Battalion",
   "name": "Unfiltered Audio Battalion",
-  "version": "2.0.1",
+  "version": "2.2.0",
   "license": "proprietary",
   "author": "Unfiltered Audio",
   "brand": "Unfiltered Audio",
   "authorEmail": "contact@unfilteredaudio.com",
-  "authorUrl": "unfilteredaudio.com",
+  "authorUrl": "https://www.unfilteredaudio.com",
   "pluginUrl": "https://www.unfilteredaudio.com/pages/vcv-manuals",
   "manualUrl": "https://www.unfilteredaudio.com/pages/vcv-manuals",
   "sourceUrl": "",
@@ -19,6 +19,18 @@
       "description": "Multimode drum synthesizer",
       "tags": [
         "Drum",
+        "Digital",
+        "Envelope generator",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "BattalionSampler",
+      "name": "Battalion Drum Sampler",
+      "description": "Multimode drum sampler",
+      "tags": [
+        "Drum",
+        "Sampler",
         "Digital",
         "Envelope generator",
         "Polyphonic"
@@ -45,7 +57,8 @@
         "Delay",
         "Clock Generator",
         "Granular",
-        "Effect"
+        "Effect",
+        "Polyphonic"
       ]
     },
     {
@@ -54,7 +67,8 @@
       "description": "Multi-mode reverb with predelay, tilt EQ in/out, and sample-rate reduction",
       "tags": [
         "Reverb",
-        "Effect"
+        "Effect",
+        "Polyphonic"
       ]
     },
     {
@@ -64,7 +78,8 @@
       "tags": [
         "Distortion",
         "Filter",
-        "Effect"
+        "Effect",
+        "Polyphonic"
       ]
     }
   ]
