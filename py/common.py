@@ -43,13 +43,26 @@ def is_valid_url(url):
 
 def review_url(url):
 	if not is_valid_url(url):
-		raise ValueError(f"URL `{url}` is not a valid HTTP or HTTPS URL.")
+		raise ValueError(f"`{url}` is not a valid HTTP or HTTPS URL.")
 	request_url = urldefrag(url).url
 	if request_url in URL_CACHE:
 		return
 	headers = {"User-Agent": config.HTTP_USER_AGENT}
-	with requests.get(request_url, headers=headers, timeout=config.HTTP_TIMEOUT, stream=True) as response:
-		response.raise_for_status()
+	try:
+		with requests.get(request_url, headers=headers, timeout=config.HTTP_TIMEOUT, stream=True) as response:
+			response.raise_for_status()
+	except requests.exceptions.HTTPError as error:
+		raise ValueError(f"`{url}` returned HTTP status code {error.response.status_code}.") from error
+	except requests.exceptions.Timeout as error:
+		raise ValueError(f"The request to `{url}` timed out.") from error
+	except requests.exceptions.TooManyRedirects as error:
+		raise ValueError(f"`{url}` redirected too many times.") from error
+	except requests.exceptions.InvalidURL as error:
+		raise ValueError(f"`{url}` is not a valid HTTP or HTTPS URL.") from error
+	except requests.exceptions.ConnectionError as error:
+		raise ValueError(f"Could not connect to `{url}`.") from error
+	except requests.exceptions.RequestException as error:
+		raise ValueError(f"The request to `{url}` did not complete.") from error
 	URL_CACHE.add(request_url)
 
 

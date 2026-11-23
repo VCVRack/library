@@ -392,7 +392,7 @@ class Plugin:
 				try:
 					review_url(url)
 				except Exception as error:
-					warnings.append(f"`plugin.json` property `{key}` is invalid: {error}")
+					warnings.append(f"`plugin.json` property `{key}`: {error}")
 
 		# Check module manual URLs.
 		for module in self.manifest.get('modules', []):
@@ -400,7 +400,7 @@ class Plugin:
 				try:
 					review_url(url)
 				except Exception as error:
-					warnings.append(f"Module `{module['slug']}` property `manualUrl` is invalid: {error}")
+					warnings.append(f"Module `{module['slug']}` property `manualUrl`: {error}")
 
 		# Check ModularGrid URLs.
 		for module in self.manifest.get('modules', []):
@@ -416,7 +416,7 @@ class Plugin:
 			try:
 				review_url(license)
 			except Exception as error:
-				warnings.append(f"`plugin.json` property `license` is invalid: {error}")
+				warnings.append(f"`plugin.json` property `license`: {error}")
 
 		return warnings
 
