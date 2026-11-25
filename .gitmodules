@@ -1293,3 +1293,6 @@
 [submodule "repos/KansuAudio"]
 	path = repos/KansuAudio
 	url = https://github.com/kansuaudio/xl-185-vcv
+[submodule "repos/APLab-UTILITY"]
+	path = repos/APLab-UTILITY
+	url = https://github.com/APLAB-AUDIO/APLab-UTILITY-PUBLIC

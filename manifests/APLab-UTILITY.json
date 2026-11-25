@@ -1,0 +1,27 @@
+{
+  "slug": "APLab-UTILITY",
+  "name": "APLab Utility",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "AP Lab",
+  "author": "AP Lab",
+  "authorEmail": "support@aplabaudio.com",
+  "authorUrl": "https://aplabaudio.com/",
+  "pluginUrl": "https://aplabaudio.com/hotkey/",
+  "manualUrl": "https://aplabaudio.com/hotkey/",
+  "sourceUrl": "https://github.com/APLAB-AUDIO/APLab-UTILITY-PUBLIC",
+  "donateUrl": "https://ko-fi.com/aplab",
+  "changelogUrl": "https://github.com/APLAB-AUDIO/APLab-UTILITY-PUBLIC/blob/main/CHANGELOG.md",
+  "modules": [
+    {
+      "slug": "HOTKEY",
+      "name": "Hotkey",
+      "description": "Play any module from your computer keyboard, dial or MIDI controller, without the mouse.",
+      "tags": [
+        "Utility",
+        "Controller",
+        "MIDI"
+      ]
+    }
+  ]
+}
