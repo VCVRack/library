@@ -1646,7 +1646,7 @@
     }
   },
   "Hora-Processors": {
-    "buildTimestamp": 1782760374.2050114,
+    "buildTimestamp": 1795635511,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "SpectralProcessor": {
@@ -1666,6 +1666,9 @@
       },
       "Brigade": {
         "creationTimestamp": 1569186524.0
+      },
+      "Cosmic": {
+        "creationTimestamp": 1795635511
       }
     }
   },
@@ -7102,7 +7105,7 @@
     }
   },
   "Hora-VCO_VCF_VCA": {
-    "buildTimestamp": 1782760382.8269737,
+    "buildTimestamp": 1795635511,
     "creationTimestamp": 1526939028.0,
     "modules": {
       "Amplitude-VCMixer": {
@@ -7119,6 +7122,12 @@
       },
       "Juicy-VCF": {
         "creationTimestamp": 1672181331.6243284
+      },
+      "Mess20": {
+        "creationTimestamp": 1795635511
+      },
+      "Echelle": {
+        "creationTimestamp": 1795635511
       }
     }
   },

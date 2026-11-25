@@ -1,14 +1,14 @@
 {
   "slug": "Hora-Processors",
   "name": "Processors",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "license": "proprietary",
   "brand": "Hora",
   "author": "Hora",
   "authorEmail": "Hora.music.contact@gmail.com",
-  "authorUrl": "http://hora-music.wifeo.com",
-  "pluginUrl": "http://hora-music.wifeo.com/sound-processors.php",
-  "manualUrl": "http://hora-music.wifeo.com/manuals.php",
+  "authorUrl": "http://hora-music.com",
+  "pluginUrl": "http://hora-music.com/sound-processors.php",
+  "manualUrl": "http://hora-music.com/manuals.php",
   "sourceUrl": "",
   "donateUrl": "",
   "modules": [
@@ -53,13 +53,22 @@
       "description": "Tube Drive",
       "tags": [
         "Effect",
-        "Overdrive"
+        "Distortion"
       ]
     },
     {
       "slug": "Brigade",
       "name": "Flux",
       "description": "Bucket Brigade Delay",
+      "tags": [
+        "Effect",
+        "Delay"
+      ]
+    },
+    {
+      "slug": "Cosmic",
+      "name": "Cosmic",
+      "description": "Tape Delay",
       "tags": [
         "Effect",
         "Delay"
