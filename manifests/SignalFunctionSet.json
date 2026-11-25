@@ -1,7 +1,7 @@
 {
   "slug": "SignalFunctionSet",
   "name": "Signal Function Set",
-  "version": "2.25.0",
+  "version": "2.26.0",
   "_comment": "Build script will modify slug/name/version for dev builds to allow coexistence",
   "license": "GPL-3.0-or-later",
   "brand": "SignalFunctionSet",
@@ -633,6 +633,47 @@
         "Physical modeling",
         "Polyphonic",
         "Random"
+      ]
+    },
+    {
+      "slug": "Pole",
+      "name": "Pole",
+      "description": "Stereo filter of four pole pairs, placed together or spread into four peaks.",
+      "tags": [
+        "Filter",
+        "Effect"
+      ],
+      "hidden": true
+    },
+    {
+      "slug": "Garamut",
+      "name": "Garamut",
+      "description": "Slit drum with two lips, struck from either side by up to sixteen poly channels.",
+      "tags": [
+        "Drum",
+        "Physical modeling",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "Battery",
+      "name": "Battery",
+      "description": "Eight-lane drum sequencer with per-step chance and A/B routing.",
+      "tags": [
+        "Drum",
+        "Sequencer",
+        "Polyphonic",
+        "Random"
+      ]
+    },
+    {
+      "slug": "Wake",
+      "name": "Wake",
+      "description": "Four-channel sequence generator based on competing cycle racers.",
+      "tags": [
+        "Sequencer",
+        "Random",
+        "Visual"
       ]
     }
   ]
