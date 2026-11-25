@@ -1,0 +1,28 @@
+{
+  "slug": "Hora-Clones",
+  "name": "Hora-Clones",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Hora",
+  "author": "Hora",
+  "authorEmail": "hora.music.contact@gmail.com",
+  "authorUrl": "http://www.hora-music.com",
+  "pluginUrl": "",
+  "manualUrl": "https://github.com/Hora-Music/Tandem/blob/main/docs/Tandem-Owner-Manual.pdf",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Tandem",
+      "name": "Tandem",
+      "description": "Multipurpose CV generator",
+      "modularGridUrl": "https://modulargrid.net/e/other-unknown-tandem",
+      "tags": [
+        "LFO",
+        "Envelope generator",
+        "Sequencer",
+        "Hardware clone"
+      ]
+    }
+  ]
+}

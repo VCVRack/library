@@ -2887,5 +2887,12 @@
     "vcvUrl": "https://library.vcvrack.com/thonksynth/MUL",
     "mgUrl": "https://modulargrid.net/e/thonk-synth-t09-mul",
     "mgModuleId": 57483
+  },
+  {
+    "pluginSlug": "Hora-Clones",
+    "moduleSlug": "Tandem",
+    "vcvUrl": "https://library.vcvrack.com/Hora-Clones/Tandem",
+    "mgUrl": "https://modulargrid.net/e/other-unknown-tandem",
+    "mgModuleId": 60361
   }
 ]
