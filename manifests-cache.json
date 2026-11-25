@@ -19890,7 +19890,7 @@
     }
   },
   "ComingInSecond": {
-    "buildTimestamp": 1795110096,
+    "buildTimestamp": 1795581749,
     "creationTimestamp": 1795016149,
     "modules": {
       "QuantizerSequencer": {
@@ -19904,6 +19904,9 @@
       },
       "VibraLFO": {
         "creationTimestamp": 1795110096
+      },
+      "Blooth": {
+        "creationTimestamp": 1795581749
       }
     }
   },

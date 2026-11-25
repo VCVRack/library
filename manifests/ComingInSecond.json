@@ -1,7 +1,7 @@
 {
   "slug": "ComingInSecond",
   "name": "Coming in Second",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "GPL-3.0-or-later",
   "brand": "Coming in Second",
   "author": "Jeremy Jensen",
@@ -51,6 +51,16 @@
       "tags": [
         "LFO",
         "Envelope generator"
+      ]
+    },
+    {
+      "slug": "Blooth",
+      "name": "BLOOTH",
+      "description": "Waveshape animator: turns each cycle of a wave into two pulses, with width, distance and a bipolar second-pulse amplitude",
+      "manualUrl": "https://github.com/cominginsecond/ComingInSecond#blooth",
+      "tags": [
+        "Waveshaper",
+        "Polyphonic"
       ]
     }
   ]
