@@ -1,7 +1,7 @@
 {
   "slug": "APLab-ORBITAL",
   "name": "Orbital Core",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "proprietary",
   "brand": "AP Lab",
   "author": "AP Lab",
@@ -34,16 +34,18 @@
     {
       "slug": "BYPASS",
       "name": "Orbital Bypass",
-      "description": "Stereo mixer: takes over Uno's output (Uno's own jacks go quiet) and adds four stereo channels. Free.",
+      "description": "Expander for Uno: bypasses Uno's own outputs and sends Uno's mix out through Bypass instead, together with four extra stereo channels. Place it anywhere in the Orbital row, on either side, next to any Orbital module that connects back to Uno.",
       "tags": [
+        "Expander",
         "Mixer"
       ]
     },
     {
       "slug": "VECTOR",
       "name": "Orbital Vector",
-      "description": "A source's motion as CV: angle, distance, speed, X and Y. Free.",
+      "description": "Expander for Uno: turns a source's movement into CV (angle, distance, speed, X and Y) to modulate anything else in your patch. Place it anywhere in the Orbital row, on either side, next to any Orbital module that connects back to Uno.",
       "tags": [
+        "Expander",
         "Utility"
       ]
     },
