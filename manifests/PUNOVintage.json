@@ -1,10 +1,13 @@
 {
   "slug": "PUNOVintage",
   "name": "PUNO VINTAGE",
-  "version": "2.0.1",
+  "version": "2.2.0",
   "license": "proprietary",
   "brand": "PUNO Electronic Instruments",
-  "author": "Pietro Bevilacqua",
+  "author": "PUNO Electronic Instruments",
+  "authorEmail": "hello@punoelectronicinstruments.com",
+  "authorUrl": "https://www.punoelectronicinstruments.com",
+  "pluginUrl": "https://www.punoelectronicinstruments.com",
   "description": "PUNO VINTAGE modular instrument series.",
   "manualUrl": "https://puno-electronic-instruments.github.io/PUNO-Vintage-Manual/",
   "modules": [
@@ -163,6 +166,73 @@
       "tags": [
         "Mixer",
         "Panning"
+      ]
+    },
+    {
+      "slug": "PULSE",
+      "name": "PULSE LOGIC",
+      "description": "Three independent AND, OR and NOT sections for gates and triggers, with input hysteresis and 0 V / 5 V outputs.",
+      "tags": [
+        "Logic",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "CHROMA",
+      "name": "CHROMA QUANT",
+      "description": "Two independent monophonic chromatic quantizers for 1 V/oct pitch CV.",
+      "tags": [
+        "Quantizer"
+      ]
+    },
+    {
+      "slug": "RATIO",
+      "name": "RATIO DIV",
+      "description": "Binary clock divider with \u00f72, \u00f74, \u00f78 and \u00f716 gate outputs and manual or CV reset.",
+      "tags": [
+        "Clock modulator",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "ROUTE",
+      "name": "ROUTE SWITCH",
+      "description": "Monophonic 4-to-1 sequential switch with clock, manual step and reset.",
+      "tags": [
+        "Switch",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "KELVORDIST",
+      "name": "KELVOR DIST",
+      "description": "Monophonic audio saturation with symmetric germanium diode clipping and a fixed warm high shelf.",
+      "tags": [
+        "Distortion"
+      ]
+    },
+    {
+      "slug": "NASTROTAPE",
+      "name": "NASTRO TAPE",
+      "tags": [
+        "Delay"
+      ]
+    },
+    {
+      "slug": "MOLLAVERB",
+      "name": "MOLLA VERB",
+      "description": "Three-spring reverb with mono input and stereo outputs.",
+      "tags": [
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "VELADYNAMICS",
+      "name": "VELA DYNAMICS",
+      "description": "Stereo-linked RMS compressor and limiter with independent backlit input or output VU meters.",
+      "tags": [
+        "Compressor",
+        "Limiter"
       ]
     }
   ]
