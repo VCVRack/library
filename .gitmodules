@@ -1296,3 +1296,6 @@
 [submodule "repos/APLab-UTILITY"]
 	path = repos/APLab-UTILITY
 	url = https://github.com/APLAB-AUDIO/APLab-UTILITY-PUBLIC
+[submodule "repos/NegativeDamage"]
+	path = repos/NegativeDamage
+	url = https://github.com/mdwelsh/MesoTyphoonVCV

@@ -1,0 +1,39 @@
+{
+  "slug": "NegativeDamage",
+  "name": "NegativeDamage",
+  "version": "2.4.0",
+  "license": "MIT",
+  "brand": "Negative Damage",
+  "author": "Negative Damage",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/mdwelsh",
+  "pluginUrl": "https://github.com/mdwelsh/MesoTyphoonVCV",
+  "manualUrl": "https://github.com/mdwelsh/MesoTyphoonVCV#readme",
+  "sourceUrl": "https://github.com/mdwelsh/MesoTyphoonVCV",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Typhoon",
+      "name": "Typhoon",
+      "description": "Emulation of the Typhoon module, featuring the eight original modes from the Superparasites firmware",
+      "tags": [
+        "Effect",
+        "Granular",
+        "Delay",
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "MesoTyphoon",
+      "name": "MesoTyphoon",
+      "description": "Typhoon module emulation with additional modes: Shoegaze, Chaotic Pendulum, and ADSR Envelope",
+      "tags": [
+        "Effect",
+        "Granular",
+        "Delay",
+        "Reverb"
+      ]
+    }
+  ]
+}

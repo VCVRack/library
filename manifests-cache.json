@@ -19984,5 +19984,17 @@
         "creationTimestamp": 1795582861
       }
     }
+  },
+  "NegativeDamage": {
+    "buildTimestamp": 1795633020,
+    "creationTimestamp": 1795633020,
+    "modules": {
+      "Typhoon": {
+        "creationTimestamp": 1795633020
+      },
+      "MesoTyphoon": {
+        "creationTimestamp": 1795633020
+      }
+    }
   }
 }
