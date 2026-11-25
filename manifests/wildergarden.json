@@ -1,7 +1,7 @@
 {
   "slug": "wildergarden",
   "name": "wildergarden",
-  "version": "2.1.0",
+  "version": "2.2.1",
   "license": "GPL-3.0-or-later",
   "brand": "wildergarden",
   "author": "wildergarden",
@@ -41,6 +41,15 @@
         "Waveshaper",
         "Utility",
         "Mixer"
+      ]
+    },
+    {
+      "slug": "Mytstick",
+      "name": "Mytstick",
+      "description": "T-Stick Interface. Receives OSC from the T-Stick digital musical instrument and converts squeeze, touch and rotation into CV",
+      "tags": [
+        "Controller",
+        "External"
       ]
     }
   ]
