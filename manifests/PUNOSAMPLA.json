@@ -1,0 +1,25 @@
+{
+  "slug": "PUNOSAMPLA",
+  "name": "PUNO SAMPLA",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "PUNO Electronic Instruments",
+  "author": "PUNO Electronic Instruments",
+  "authorEmail": "hello@punoelectronicinstruments.com",
+  "authorUrl": "https://www.punoelectronicinstruments.com",
+  "pluginUrl": "https://www.punoelectronicinstruments.com",
+  "manualUrl": "https://puno-electronic-instruments.github.io/PUNO-SAMPLA-Manual/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "SAMPLA",
+      "name": "SAMPLA",
+      "description": "Stereo granular sampler with freeze capture",
+      "tags": [
+        "Sampler"
+      ]
+    }
+  ]
+}
