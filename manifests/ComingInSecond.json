@@ -1,7 +1,7 @@
 {
   "slug": "ComingInSecond",
   "name": "Coming in Second",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "GPL-3.0-or-later",
   "brand": "Coming in Second",
   "author": "Jeremy Jensen",
@@ -60,6 +60,17 @@
       "manualUrl": "https://github.com/cominginsecond/ComingInSecond#blooth",
       "tags": [
         "Waveshaper",
+        "Polyphonic"
+      ]
+    },
+    {
+      "slug": "GoBetween",
+      "name": "GOBETWEEN",
+      "description": "Gain stage: one knob turns a signal down or up by as much as 24 dB, with unity at noon",
+      "manualUrl": "https://github.com/cominginsecond/ComingInSecond#gobetween",
+      "tags": [
+        "Attenuator",
+        "Utility",
         "Polyphonic"
       ]
     }
