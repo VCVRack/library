@@ -1,0 +1,29 @@
+{
+  "slug": "ThoowRhythmicon",
+  "name": "Thoow Rhythmicon",
+  "version": "2.1.1",
+  "license": "proprietary",
+  "brand": "Thoow",
+  "author": "Oliver Wagner",
+  "authorEmail": "service@thoow.com",
+  "authorUrl": "https://www.thoow.com",
+  "pluginUrl": "https://www.thoow.com",
+  "manualUrl": "https://www.thoow.com/manual/rhythmicon/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Rhythmicon",
+      "name": "Rhythmicon",
+      "description": "Polyrhythmic sequencer: four clock dividers drive two 4-step sequencers, with subharmonic pitch outputs, scale quantizer and just intonation",
+      "tags": [
+        "Sequencer",
+        "Clock generator",
+        "Clock modulator",
+        "Quantizer"
+      ],
+      "manualUrl": "https://www.thoow.com/manual/rhythmicon/"
+    }
+  ]
+}
