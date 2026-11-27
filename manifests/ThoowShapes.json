@@ -1,0 +1,29 @@
+{
+  "slug": "ThoowShapes",
+  "name": "Thoow Shapes",
+  "version": "2.0.5",
+  "license": "proprietary",
+  "brand": "Thoow",
+  "author": "Oliver Wagner",
+  "authorEmail": "service@thoow.com",
+  "authorUrl": "https://www.thoow.com",
+  "pluginUrl": "https://www.thoow.com",
+  "manualUrl": "https://www.thoow.com/manual/shapes/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Shapes",
+      "name": "Shapes",
+      "description": "Free polyphonic macro oscillator with 24 models and a scale quantizer, built on the open-source Plaits engine by Emilie Gillet",
+      "tags": [
+        "Oscillator",
+        "Polyphonic",
+        "Quantizer",
+        "Drum"
+      ],
+      "manualUrl": "https://www.thoow.com/manual/shapes/"
+    }
+  ]
+}
