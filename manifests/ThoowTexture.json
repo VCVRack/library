@@ -1,0 +1,28 @@
+{
+  "slug": "ThoowTexture",
+  "name": "Thoow Texture",
+  "version": "2.0.9",
+  "license": "proprietary",
+  "brand": "Thoow",
+  "author": "Oliver Wagner",
+  "authorEmail": "service@thoow.com",
+  "authorUrl": "https://www.thoow.com",
+  "pluginUrl": "https://www.thoow.com",
+  "manualUrl": "https://www.thoow.com/manual/texture/",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Texture",
+      "name": "Texture",
+      "description": "Free granular texture processor built on the open-source Beads engine by Emilie Gillet",
+      "tags": [
+        "Granular",
+        "Effect",
+        "Reverb"
+      ],
+      "manualUrl": "https://www.thoow.com/manual/texture/"
+    }
+  ]
+}

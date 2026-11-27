@@ -20059,5 +20059,14 @@
         "creationTimestamp": 1795815637
       }
     }
+  },
+  "ThoowTexture": {
+    "buildTimestamp": 1795818890,
+    "creationTimestamp": 1795818890,
+    "modules": {
+      "Texture": {
+        "creationTimestamp": 1795818890
+      }
+    }
   }
 }
