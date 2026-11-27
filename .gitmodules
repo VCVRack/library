@@ -539,7 +539,7 @@
 	url = https://github.com/jatinchowdhury18/Agave
 [submodule "repos/RareBreeds_Orbits"]
 	path = repos/RareBreeds_Orbits
-	url = https://github.com/RareBreeds/Orbits.git
+	url = https://github.com/RareBreeds/Orbits
 [submodule "repos/Comfortzone"]
 	path = repos/Comfortzone
 	url = https://github.com/hampa/comfortzone.git

@@ -1,12 +1,12 @@
 {
   "slug": "RareBreeds_Orbits",
   "name": "Orbits",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "license": "GPL-3.0-or-later",
   "brand": "RareBreeds",
   "author": "Rare Breeds",
   "authorEmail": "rare.breeds@protonmail.com",
-  "manualUrl": "https://rarebreeds.github.io/Orbits",
+  "manualUrl": "https://library.vcvrack.com/RareBreeds_Orbits#manual",
   "sourceUrl": "https://github.com/RareBreeds/Orbits",
   "donateUrl": "https://ko-fi.com/RareBreeds",
   "changelogUrl": "https://github.com/RareBreeds/Orbits/blob/v2/CHANGELOG.md",
@@ -15,6 +15,7 @@
       "slug": "RareBreeds_Orbits_Eugene",
       "name": "Eugene",
       "description": "Euclidean Rhythm Generator",
+      "manualUrl": "https://library.vcvrack.com/RareBreeds_Orbits/RareBreeds_Orbits_Eugene#manual",
       "tags": [
         "Clock modulator",
         "Sequencer"
@@ -25,6 +26,7 @@
       "slug": "RareBreeds_Orbits_Polygene",
       "name": "Polygene",
       "description": "Polyphonic Rhythm Generator",
+      "manualUrl": "https://library.vcvrack.com/RareBreeds_Orbits/RareBreeds_Orbits_Polygene#manual",
       "tags": [
         "Clock modulator",
         "Sequencer",
