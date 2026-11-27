@@ -1,7 +1,7 @@
 {
   "slug": "Animatek",
   "name": "Animatek",
-  "version": "2.5.10",
+  "version": "2.5.11",
   "license": "GPL-3.0-or-later",
   "brand": "Animatek",
   "author": "Javier Melgar",
@@ -165,6 +165,29 @@
       "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/ATEK303SEQ_Manual_EN.md",
       "tags": [
         "Sequencer"
+      ]
+    },
+    {
+      "slug": "Eclipse",
+      "name": "ECLIPSE",
+      "description": "Two Euclidean rhythms in one circle: the outer ring follows the clock, the inner one runs multiplied or divided, and AND, OR and XOR of the two come out as gates of their own.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/ECLIPSE_Manual_EN.md",
+      "tags": [
+        "Sequencer",
+        "Logic",
+        "Clock modulator"
+      ]
+    },
+    {
+      "slug": "EclipsePitch",
+      "name": "ECLIPSE PITCH",
+      "description": "Note expander for ECLIPSE: glued to its right, one of its gates picks notes in a scale, at random or moved by each ring's hits, and LOCK loops the last steps.",
+      "manualUrl": "https://github.com/animatek/UZZ-VCV-RACK/blob/main/Manuals/ECLIPSE_Manual_EN.md",
+      "tags": [
+        "Sequencer",
+        "Quantizer",
+        "Expander",
+        "Random"
       ]
     }
   ]

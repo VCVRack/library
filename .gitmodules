@@ -965,7 +965,7 @@
 	url = https://github.com/Lydian-Des/LydD_Modules.git
 [submodule "repos/Animatek"]
 	path = repos/Animatek
-	url = https://github.com/animatek/UZZ-VCV-RACK.git
+	url = https://github.com/animatek/UZZ-VCV-RACK
 [submodule "repos/pachde-CHEM"]
 	path = repos/pachde-CHEM
 	url = https://github.com/Paul-Dempsey/pachde-CHEM.git

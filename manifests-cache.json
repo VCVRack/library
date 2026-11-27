@@ -16749,7 +16749,7 @@
     }
   },
   "Animatek": {
-    "buildTimestamp": 1792355590.7384388,
+    "buildTimestamp": 1795812783,
     "creationTimestamp": 1759801615.851557,
     "modules": {
       "UZZ": {
@@ -16793,6 +16793,12 @@
       },
       "FilterTek": {
         "creationTimestamp": 1792355590.7384388
+      },
+      "Eclipse": {
+        "creationTimestamp": 1795812783
+      },
+      "EclipsePitch": {
+        "creationTimestamp": 1795812783
       }
     }
   },
