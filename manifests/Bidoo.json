@@ -1,6 +1,6 @@
 {
   "slug": "Bidoo",
-  "version": "2.7.0",
+  "version": "2.7.9",
   "license": "GPL-3.0-or-later",
   "name": "Bidoo",
   "brand": "Bidoo",
@@ -17,7 +17,7 @@
       "slug": "tOCAnTe",
       "name": "tOCAnTe",
       "description": "Clock",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#tocante",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/tOCAnTe",
       "tags": [
         "Clock"
       ]
@@ -26,7 +26,7 @@
       "slug": "lATe",
       "name": "lATe",
       "description": "Clock Modulator, Takes a clock input\nand applies a delay on even ticks to\ncreate swing. Reset sets the next tick\nfor the incoming clock to odd.",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#late",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/lATe",
       "tags": [
         "Logic",
         "Sequencer",
@@ -37,18 +37,8 @@
       "slug": "ChUTE",
       "name": "ChUTE",
       "description": "Space/Strange trigger based on the\nfree fall and bouncing an object.\nYou can change the drop altitude\nbetween 1cm and 3m\n",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#chute",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/ChUTE",
       "tags": [
-        "Sequencer"
-      ]
-    },
-    {
-      "slug": "MU",
-      "name": "\u00b5",
-      "description": "Synced pulse generator",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#mu",
-      "tags": [
-        "Logic",
         "Sequencer"
       ]
     },
@@ -56,7 +46,7 @@
       "slug": "RATEAU",
       "name": "ratEaU",
       "description": "Gate generator",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#rateau",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/RATEAU",
       "tags": [
         "Clock modulator",
         "Logic",
@@ -67,7 +57,7 @@
       "slug": "dTrOY",
       "name": "dTrOY",
       "description": "Sequencer",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#dtroy",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/dTrOY",
       "tags": [
         "Sequencer"
       ]
@@ -76,7 +66,7 @@
       "slug": "bordL",
       "name": "bordL",
       "description": "Sequencer",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#bordl",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/bordL",
       "tags": [
         "Sequencer"
       ]
@@ -85,7 +75,7 @@
       "slug": "ZOUMAI",
       "name": "zO\u00f9 MA\u00ef",
       "description": "Sequencer",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#zo\u00f9-ma\u00ef",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/ZOUMAI",
       "tags": [
         "Sequencer"
       ]
@@ -94,34 +84,17 @@
       "slug": "ZOUMAI-Expander",
       "name": "zO\u00f9 MA\u00ef Expander",
       "description": "Expander for zO\u00f9 MA\u00ef",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#zo\u00f9-ma\u00ef",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/ZOUMAI-Expander",
       "tags": [
-        "Sequencer"
-      ]
-    },
-    {
-      "slug": "ENCORE",
-      "name": "enCORE",
-      "description": "Sequencer",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#encore",
-      "tags": [
-        "Sequencer"
-      ]
-    },
-    {
-      "slug": "ENCORE-Expander",
-      "name": "enCORE Expander",
-      "description": "Expander for enCORE",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#encore",
-      "tags": [
-        "Sequencer"
+        "Sequencer",
+        "Expander"
       ]
     },
     {
       "slug": "DIKTAT",
       "name": "DIKTAT",
       "description": "Authoritarian quantizer",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#diktat",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/DIKTAT",
       "tags": [
         "Quantizer"
       ]
@@ -130,7 +103,7 @@
       "slug": "antN",
       "name": "antN",
       "description": "mp3 m3u pls radio",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#antn",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/antN",
       "tags": [
         "Oscillator"
       ]
@@ -139,7 +112,7 @@
       "slug": "TiARE",
       "name": "TiARE",
       "description": "Phase distortion oscillator",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#tiare",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/TiARE",
       "tags": [
         "Oscillator",
         "LFO"
@@ -149,7 +122,7 @@
       "slug": "liMonADe",
       "name": "liMonADe",
       "description": "Wavetable oscillator station & additive synth",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#limonade",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/liMonADe",
       "tags": [
         "Oscillator"
       ]
@@ -158,7 +131,7 @@
       "slug": "ForK",
       "name": "ForK",
       "description": "Formant oscillator",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#fork",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/ForK",
       "tags": [
         "Oscillator"
       ]
@@ -167,7 +140,7 @@
       "slug": "OUAIve",
       "name": "OUAIve",
       "description": "Sample player with beat slicing grid",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#ouaive",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/OUAIve",
       "tags": [
         "Sampler"
       ]
@@ -176,7 +149,7 @@
       "slug": "eDsaroS",
       "name": "eDsaroS",
       "description": "Sample player base on Laurent De Soras resampler",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#edsaros",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/eDsaroS",
       "tags": [
         "Sampler"
       ]
@@ -185,7 +158,7 @@
       "slug": "POUPRE",
       "name": "p\u00f3UPr\u00e8",
       "description": "Sample player",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#p\u00f3upr\u00e8",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/POUPRE",
       "tags": [
         "Sampler"
       ]
@@ -194,7 +167,7 @@
       "slug": "MAGMA",
       "name": "maGma",
       "description": "Sample player",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#magma",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/MAGMA",
       "tags": [
         "Sampler"
       ]
@@ -203,7 +176,7 @@
       "slug": "OAI",
       "name": "oA\u00ef",
       "description": "Sample player",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#oai",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/OAI",
       "tags": [
         "Sampler"
       ]
@@ -212,7 +185,7 @@
       "slug": "cANARd",
       "name": "cANARd",
       "description": "Sampler with slice tools & transients detection",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#canard",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/cANARd",
       "tags": [
         "Sampler"
       ]
@@ -221,7 +194,7 @@
       "slug": "EMILE",
       "name": "EMILE",
       "description": ".png to sound",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#emile",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/EMILE",
       "tags": [
         "Sampler"
       ]
@@ -230,7 +203,7 @@
       "slug": "ACnE",
       "name": "ACnE",
       "description": "Mixer with snaphots",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#acne",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/ACnE",
       "tags": [
         "Mixer"
       ]
@@ -239,7 +212,7 @@
       "slug": "MS",
       "name": "MS",
       "description": "Mid/Side Decoder/Encoder",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#ms",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/MS",
       "tags": [
         "Effect",
         "Utility"
@@ -249,7 +222,7 @@
       "slug": "SIGMA",
       "name": "\u03a3 multiprise :)",
       "description": "Patch",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#sigma",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/SIGMA",
       "tags": [
         "Multiple"
       ]
@@ -258,7 +231,7 @@
       "slug": "lIMbO",
       "name": "lIMbO",
       "description": "4th order stereo LP ladder filter.\nGain boosts the signal to compensate for\nglobal signal energy lose at high\nresonance. When non linear is selected gain is applied to each stage",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#limbo",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/lIMbO",
       "tags": [
         "VCF",
         "Effect"
@@ -268,7 +241,7 @@
       "slug": "pErCO",
       "name": "pErCO",
       "description": "3 bands filter",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#perco",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/pErCO",
       "tags": [
         "VCF",
         "Effect"
@@ -278,7 +251,7 @@
       "slug": "BAFIS",
       "name": "bAFIs",
       "description": "Multiband distortion",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#bafis",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/BAFIS",
       "tags": [
         "Effect",
         "VCF",
@@ -289,7 +262,7 @@
       "slug": "ziNC",
       "name": "ziNC",
       "description": "Vocoder",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#zinc",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/ziNC",
       "tags": [
         "Effect",
         "Vocoder"
@@ -299,7 +272,7 @@
       "slug": "baR",
       "name": "baR",
       "description": "Compressor",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#bar",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/baR",
       "tags": [
         "Dynamics",
         "Effect",
@@ -310,7 +283,7 @@
       "slug": "mINIBar",
       "name": "mINIBar",
       "description": "Compressor",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#minibar",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/mINIBar",
       "tags": [
         "Dynamics",
         "Effect",
@@ -318,20 +291,10 @@
       ]
     },
     {
-      "slug": "dFUZE",
-      "name": "dFUZE",
-      "description": "Reverb",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#dfuze",
-      "tags": [
-        "Reverb",
-        "Effect"
-      ]
-    },
-    {
       "slug": "REI",
       "name": "REI",
       "description": "Reverb",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#rei",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/REI",
       "tags": [
         "Reverb",
         "Effect"
@@ -341,7 +304,7 @@
       "slug": "SOUNAIRE",
       "name": "sOUNAiRe",
       "description": "Sampler: one sample over a key range, 16 voices, loops with crossfades, filter, time-stretch, stored in the patch",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#sounaire",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/SOUNAIRE",
       "tags": [
         "Sampler",
         "Polyphonic"
@@ -351,7 +314,7 @@
       "slug": "COPIA",
       "name": "cOPIA",
       "description": "Live resampler: captures bars of the mix on the clock and remixes them with eight glitch slots, lanes and scenes",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#copia",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/COPIA",
       "tags": [
         "Effect",
         "Sampler",
@@ -362,7 +325,7 @@
       "slug": "FILTRE",
       "name": "FiLTRe",
       "description": "The 71 filter types of the Potion synth, with a screen showing the spectrum of the signal and the curve of the filter",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#filtre",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/FILTRE",
       "tags": [
         "Filter",
         "Polyphonic",
@@ -372,8 +335,8 @@
     {
       "slug": "ACIDE",
       "name": "aCiDe",
-      "description": "Mono acid bass voice: saw or square oscillator, diode ladder filter, envelopes, accent and slide",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#acide",
+      "description": "Acid bass voice, polyphonic: saw or square oscillator, diode ladder filter, envelopes, accent and slide",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/ACIDE",
       "tags": [
         "Synth voice",
         "Oscillator",
@@ -384,7 +347,7 @@
       "slug": "RICOCHET",
       "name": "rICOcHEt",
       "description": "Stereo delay with character: digital, tape, BBD, lo-fi, diffuse and reverse, clock sync, ping-pong, freeze",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#ricochet",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/RICOCHET",
       "tags": [
         "Delay",
         "Effect"
@@ -394,7 +357,7 @@
       "slug": "DOSE",
       "name": "dOSE",
       "description": "Polyphonic VCA with an envelope curve from short to long",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#dose",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/dOSE",
       "tags": [
         "VCA",
         "Polyphonic"
@@ -404,7 +367,7 @@
       "slug": "REGISTRE",
       "name": "rEgIStRE",
       "description": "Indexed four-track sequencer: steps hold indices into voltage tables, with patterns, parts, groups, MATH and recording",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#registre",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/REGISTRE",
       "tags": [
         "Sequencer",
         "Polyphonic",
@@ -415,7 +378,7 @@
       "slug": "PARTICULES",
       "name": "pARtiCuLeS",
       "description": "Granular player: grains from a live or loaded buffer, free or clocked, shaped, pitched by V/O, through a shimmer reverb",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#particules",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/PARTICULES",
       "tags": [
         "Granular",
         "Sampler",
@@ -427,7 +390,7 @@
       "slug": "HCTIP",
       "name": "HCTIP",
       "description": "Pitch shifter",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#hctip",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/HCTIP",
       "tags": [
         "Effect"
       ]
@@ -436,7 +399,7 @@
       "slug": "SPORE",
       "name": "SPORE",
       "description": "Pitch shifter",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#spore",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/SPORE",
       "tags": [
         "Effect"
       ]
@@ -445,7 +408,7 @@
       "slug": "FREIN",
       "name": "fREIN",
       "description": "Break",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#frein",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/FREIN",
       "tags": [
         "Effect"
       ]
@@ -454,7 +417,7 @@
       "slug": "rabBIT",
       "name": "rabBIT",
       "description": "Bit toy",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#rabbit",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/rabBIT",
       "tags": [
         "Effect",
         "Distortion"
@@ -464,7 +427,7 @@
       "slug": "BISTROT",
       "name": "BISTROT",
       "description": "Bit toy",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#bistrot",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/BISTROT",
       "tags": [
         "Effect",
         "Distortion"
@@ -474,7 +437,7 @@
       "slug": "LoURdE",
       "name": "LoURdE",
       "description": "Neural comparator & gate",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#lourde",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/LoURdE",
       "tags": [
         "Logic",
         "Effect"
@@ -484,7 +447,7 @@
       "slug": "DilEMO",
       "name": "DilEMO",
       "description": "Logic",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#dilemo",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/DilEMO",
       "tags": [
         "Logic"
       ]
@@ -493,7 +456,7 @@
       "slug": "lambda",
       "name": "lambda",
       "description": "Logic",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#lambda",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/lambda",
       "tags": [
         "Logic",
         "Sample and hold"
@@ -503,7 +466,7 @@
       "slug": "BanCau",
       "name": "BanCau",
       "description": "Envelope tool",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#bancau",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/BanCau",
       "tags": [
         "Envelope generator",
         "Function generator",
@@ -516,7 +479,7 @@
       "slug": "MOiRE",
       "name": "MOiRE",
       "description": "Controller with snapshots and morphing",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#moire",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/MOiRE",
       "tags": [
         "Controller"
       ]
@@ -525,7 +488,7 @@
       "slug": "PILOT",
       "name": "\u03c0lOT",
       "description": "Controller with snapshots and morphing",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#\u03c0lOT",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/PILOT",
       "tags": [
         "Controller"
       ]
@@ -534,7 +497,7 @@
       "slug": "HUITre",
       "name": "HUITre",
       "description": "Pattern launcher",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#huitre",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/HUITre",
       "tags": [
         "Controller"
       ]
@@ -543,7 +506,7 @@
       "slug": "SAISON",
       "name": "sAiSOn",
       "description": "Pattern launcher with 16 slots",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#saison",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/SAISON",
       "tags": [
         "Controller"
       ]
@@ -552,7 +515,7 @@
       "slug": "dUKe",
       "name": "dUKe",
       "description": "Controller",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#duke",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/dUKe",
       "tags": [
         "Controller"
       ]
@@ -561,7 +524,7 @@
       "slug": "fLAME",
       "name": "fLAME",
       "description": "FFT display",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#gar\u00e7on",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/fLAME",
       "tags": [
         "Visual",
         "Controller"
@@ -571,7 +534,7 @@
       "slug": "VOID",
       "name": "vOId",
       "description": "The ultimate mastering tool for Rack.\nOnce plugged in your Rack, you gonna\n sound FAAAAT.\n\nPicture is taken from a very good LP\nTERA MELOS.\n",
-      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki#void",
+      "manualUrl": "https://github.com/sebastien-bouffier/Bidoo/wiki/VOID",
       "tags": [
         "Blank"
       ]
