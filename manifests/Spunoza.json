@@ -1,0 +1,68 @@
+{
+  "slug": "Spunoza",
+  "name": "Spunoza",
+  "version": "2.5.0",
+  "license": "MIT",
+  "brand": "Spunoza",
+  "author": "Spunoza",
+  "authorEmail": "",
+  "authorUrl": "https://github.com/millxing",
+  "pluginUrl": "https://github.com/millxing/Phona",
+  "manualUrl": "https://github.com/millxing/Phona#readme",
+  "sourceUrl": "https://github.com/millxing/Phona",
+  "donateUrl": "",
+  "changelogUrl": "https://github.com/millxing/Phona/releases",
+  "modules": [
+    {
+      "slug": "Phona",
+      "name": "Phona",
+      "description": "Physical-model singing voice: vocal folds and vocal tract, with an external input (talk box)",
+      "tags": [
+        "Synth voice",
+        "Physical modeling",
+        "Speech",
+        "Oscillator",
+        "Polyphonic",
+        "Vocoder"
+      ]
+    },
+    {
+      "slug": "PhonaLab",
+      "name": "Phona Lab",
+      "description": "Tuning tool for Phona's sung consonants: put it next to a Phona, turn the knobs, copy the values",
+      "tags": [
+        "Utility",
+        "Expander"
+      ],
+      "hidden": true
+    },
+    {
+      "slug": "PhonaView",
+      "name": "Phona View",
+      "description": "Animated mouth and throat: put it next to a Phona to see the voice's vocal tract, airflow and vocal folds",
+      "tags": [
+        "Visual",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "PhonaScope",
+      "name": "Phona Scope",
+      "description": "Instrument display: put it next to a Phona (or next to its other displays) to see the voice's spectrum, formants, tract area, glottal waveform and vowel chart",
+      "tags": [
+        "Visual",
+        "Expander"
+      ]
+    },
+    {
+      "slug": "PhonaScript",
+      "name": "Phona Script",
+      "description": "Eight lyric phrases for Phona: a trigger or CV chooses the phrase, which repeats until the next change",
+      "tags": [
+        "Sequencer",
+        "Speech",
+        "Expander"
+      ]
+    }
+  ]
+}
